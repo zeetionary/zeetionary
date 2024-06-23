@@ -194,60 +194,22 @@ class EnglishEntrycampaigner extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە بەژداری یان ڕابەرایەتی ھەڵمەتێک دەکات بە ئامانجی گۆڕانکاریی سیاسی یان کۆمەڵایەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was an outspoken campaigner for victims of domestic abuse."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەباتکارێکی سەرسەخت بوو بۆ قوربانیانی توندوتیژی خێزانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "campaigner", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcampaigners1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcampaigners1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was an outspoken campaigner for victims of domestic abuse.",
+                            kurdishText:
+                                "خەباتکارێکی سەرسەخت بوو بۆ قوربانیانی توندوتیژی خێزانی.", // campaigner
+                            onPressedBritish: () => speakcampaigners1("en-GB"),
+                            onPressedAmerican: () => speakcampaigners1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has been a tireless campaigner against education cuts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوباتکارێکی ماندوونەناس بووە دژ بە بڕین (ی بودجە) لە کەرتی پەروەردەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcampaigners2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcampaigners2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has been a tireless campaigner against education cuts.",
+                            kurdishText:
+                                "خوباتکارێکی ماندوونەناس بووە دژ بە بڕین (ی بودجە) لە کەرتی پەروەردەدا.",
+                            onPressedBritish: () => speakcampaigners2("en-GB"),
+                            onPressedAmerican: () => speakcampaigners2("en-US"),
                           ),
                         ],
                       ),

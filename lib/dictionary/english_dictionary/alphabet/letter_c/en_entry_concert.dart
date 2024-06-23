@@ -101,59 +101,20 @@ class EnglishEntryconcert extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کۆنسێرت؛ نمایشێکی گشتی میوزیکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The orchestra gave a concert in Miami in January."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆرکێستراکە کۆنسێرتێکی لە میامی لە کانوونی دووەمدا سازکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concert", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The orchestra gave a concert in Miami in January.",
+                            kurdishText:
+                                "ئۆرکێستراکە کۆنسێرتێکی لە میامی لە کانوونی دووەمدا سازکرد.", // concert",
+                            onPressedBritish: () => speakconcerts1("en-GB"),
+                            onPressedAmerican: () => speakconcerts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They're in concert at Wembley arena."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە کۆنسێرتن لە یاریگای وێمبڵی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They're in concert at Wembley arena.",
+                            kurdishText: "لە کۆنسێرتن لە یاریگای وێمبڵی.",
+                            onPressedBritish: () => speakconcerts2("en-GB"),
+                            onPressedAmerican: () => speakconcerts2("en-US"),
                           ),
                         ],
                       ),

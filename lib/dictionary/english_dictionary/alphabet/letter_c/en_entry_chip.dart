@@ -193,381 +193,129 @@ class EnglishEntrychip extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) قاژێکی باریک و درێژی پەتاتە کە لە ڕۆندا برژێندراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was eating a burger and chips."),
-                                    ExampleSentenceKurdish(
-                                        text: "لەفە و پەتاتەی دەخوارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chip", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchips1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchips1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was eating a burger and chips.",
+                            kurdishText: "لەفە و پەتاتەی دەخوارد.", // chip",
+                            onPressedBritish: () => speakchips1("en-GB"),
+                            onPressedAmerican: () => speakchips1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "All he'll eat is chips."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەموو ئەوەی دەیخوات پەتاتەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchips2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchips2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "All he'll eat is chips.",
+                            kurdishText: "ھەموو ئەوەی دەیخوات پەتاتەیە.",
+                            onPressedBritish: () => speakchips2("en-GB"),
+                            onPressedAmerican: () => speakchips2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) چپسی پەتاتەی خڕ و باریک کە برژێندراوە و ڕەق بووە، و بە ساردی دەخورێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She bought two bags of chips with the drinks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو کیسە لە چپسی پەتاتەی کڕی لەگەڵ خواردنەوەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchips3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchips3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She bought two bags of chips with the drinks.",
+                            kurdishText:
+                                "دوو کیسە لە چپسی پەتاتەی کڕی لەگەڵ خواردنەوەکان.",
+                            onPressedBritish: () => speakchips3("en-GB"),
+                            onPressedAmerican: () => speakchips3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) قاژێک لە گەنمەشامی، مۆز، یان خواردنی دیکە کە برژێندراوە و بە ساردی و ڕەقی دەخورێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He consumes vast quantities of chips with every meal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر لە چیپس دەخوات لەگەڵ ھەر خواردنێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchips4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchips4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He consumes vast quantities of chips with every meal.",
+                            kurdishText:
+                                "ڕێژەیەکی زۆر لە چیپس دەخوات لەگەڵ ھەر خواردنێکدا.",
+                            onPressedBritish: () => speakchips4("en-GB"),
+                            onPressedAmerican: () => speakchips4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) گەیەنەری زۆر بچووک لە ئامێرە تەکنەلۆجییەکاندا کە ئەرکی تایبەتی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An electronic chip could be implanted in his brain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارچەیەکی بچووک دەکرێت لە مێشکیدا بچێنرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchips5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchips5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An electronic chip could be implanted in his brain.",
+                            kurdishText:
+                                "پارچەیەکی بچووک دەکرێت لە مێشکیدا بچێنرێت.",
+                            onPressedBritish: () => speakchips5("en-GB"),
+                            onPressedAmerican: () => speakchips5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) ئەو شوێنەی کە لێیەوە شکاوییەکی بچووک درووست بووە لەسەر شتێک، بۆ نموونە دارێک یان شووشەیەک، یان ئەو بەشە شکاوییەی کە لێبووەتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "This mug has a chip in it."),
-                                    ExampleSentenceKurdish(
-                                        text: "گڵاسەکە کەلێنێکی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchips6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchips6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This mug has a chip in it.",
+                            kurdishText: "گڵاسەکە کەلێنێکی تێدایە.",
+                            onPressedBritish: () => speakchips6("en-GB"),
+                            onPressedAmerican: () => speakchips6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chef used wood chips to prepare the fish."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێفەکە تەڵاشە داری بەکارھێنا بۆ ئامادەکردنی ماسییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchips7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchips7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chef used wood chips to prepare the fish.",
+                            kurdishText:
+                                "شێفەکە تەڵاشە داری بەکارھێنا بۆ ئامادەکردنی ماسییەکە.",
+                            onPressedBritish: () => speakchips7("en-GB"),
+                            onPressedAmerican: () => speakchips7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) پەپکێکی پلاستیکی بچووک کە نرخێکی دیاریکراوی ھەیە لە قوماردا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hostages are being held as a bargaining chip by terrorist organizations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراوی) بارمتەکان وەک داشی دامە ڕاگیردراون لەلایەن دامەزراوە تیرۆریستییەکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchips8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchips8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hostages are being held as a bargaining chip by terrorist organizations.",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی) بارمتەکان وەک داشی دامە ڕاگیردراون لەلایەن دامەزراوە تیرۆریستییەکانەوە.",
+                            onPressedBritish: () => speakchips8("en-GB"),
+                            onPressedAmerican: () => speakchips8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) زیان گەیاندن بە شتێک بە لێ‌کردنەوەی بەشێکی بچووک لێی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She chipped one of her front teeth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە ددانەکانی پێشەوەی شکاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchips9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchips9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She chipped one of her front teeth.",
+                            kurdishText: "یەکێک لە ددانەکانی پێشەوەی شکاند.",
+                            onPressedBritish: () => speakchips9("en-GB"),
+                            onPressedAmerican: () => speakchips9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "These plates chip easily."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم دەفرانە بە ئاسانی کەلێنیان تێ دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchips10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchips10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "These plates chip easily.",
+                            kurdishText:
+                                "ئەم دەفرانە بە ئاسانی کەلێنیان تێ دەبێت.",
+                            onPressedBritish: () => speakchips10("en-GB"),
+                            onPressedAmerican: () => speakchips10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) لێ‌کردنەوەی پارچەی بچووک لە شتێک بە ئامێرێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Chip away the damaged area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوچە زیان‌لێ‌کەوتووەکە لێ‌بکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchips11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchips11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Chip away the damaged area.",
+                            kurdishText: "ناوچە زیان‌لێ‌کەوتووەکە لێ‌بکەوە.",
+                            onPressedBritish: () => speakchips11("en-GB"),
+                            onPressedAmerican: () => speakchips11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It took a long time to chip a hole in the wall."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتێکی زۆری پێچوو کونێک بکەینە دیوارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchips12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchips12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It took a long time to chip a hole in the wall.",
+                            kurdishText:
+                                "کاتێکی زۆری پێچوو کونێک بکەینە دیوارەکە.",
+                            onPressedBritish: () => speakchips12("en-GB"),
+                            onPressedAmerican: () => speakchips12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We chipped the paint off the wood."),
-                                    ExampleSentenceKurdish(
-                                        text: "بۆیەکەمان لە دارەکە لێ‌کردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchips13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchips13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We chipped the paint off the wood.",
+                            kurdishText: "بۆیەکەمان لە دارەکە لێ‌کردەوە.",
+                            onPressedBritish: () => speakchips13("en-GB"),
+                            onPressedAmerican: () => speakchips13("en-US"),
                           ),
                         ],
                       ),

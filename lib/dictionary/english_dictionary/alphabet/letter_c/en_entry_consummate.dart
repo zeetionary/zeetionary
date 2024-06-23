@@ -121,120 +121,42 @@ class EnglishEntryconsummate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پیشاندانی شارەزایی زۆر؛ تەواو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was a consummate performer."),
-                                    ExampleSentenceKurdish(
-                                        text: "نمایشکارێکی کارامە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consummate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsummates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsummates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was a consummate performer.",
+                            kurdishText:
+                                "نمایشکارێکی کارامە بوو.", // consummate",
+                            onPressedBritish: () => speakconsummates1("en-GB"),
+                            onPressedAmerican: () => speakconsummates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She played with consummate skill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە شارەزایی تەواوەوە یاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsummates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsummates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She played with consummate skill.",
+                            kurdishText: "بە شارەزایی تەواوەوە یاری دەکرد.",
+                            onPressedBritish: () => speakconsummates2("en-GB"),
+                            onPressedAmerican: () => speakconsummates2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بە فەرمی ناساندنی ھاوسەرگیرییەک یان پەیوەندییەک بە کردنی سێکس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The marriage lasted only a week and was never consummated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوسەرگیرییەکە یەک ھەفتەی خایاند و ھەرگیز کامڵ نەکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsummates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsummates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The marriage lasted only a week and was never consummated.",
+                            kurdishText:
+                                "ھاوسەرگیرییەکە یەک ھەفتەی خایاند و ھەرگیز کامڵ نەکرا.",
+                            onPressedBritish: () => speakconsummates3("en-GB"),
+                            onPressedAmerican: () => speakconsummates3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) تەواوکردنی یان کامڵکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His goal was to consummate the project before the deadline."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانجی ئەوە بوو پڕۆژەکە تەواو بکات پێش دوامۆڵەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsummates4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsummates4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His goal was to consummate the project before the deadline.",
+                            kurdishText:
+                                "ئامانجی ئەوە بوو پڕۆژەکە تەواو بکات پێش دوامۆڵەت.",
+                            onPressedBritish: () => speakconsummates4("en-GB"),
+                            onPressedAmerican: () => speakconsummates4("en-US"),
                           ),
                         ],
                       ),

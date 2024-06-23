@@ -95,32 +95,13 @@ class EnglishEntryclimatic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە ئاو و ھەوای ناوچەیەکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some parts of the world seem to be experiencing climatic changes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک بەشی جیھان وادەردەکەون کە ڕووبەڕووی گۆڕانی ئاو و ھەوا ببنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "climatic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimatics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimatics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some parts of the world seem to be experiencing climatic changes.",
+                            kurdishText:
+                                "ھەندێک بەشی جیھان وادەردەکەون کە ڕووبەڕووی گۆڕانی ئاو و ھەوا ببنەوە.", // climatic",
+                            onPressedBritish: () => speakclimatics1("en-GB"),
+                            onPressedAmerican: () => speakclimatics1("en-US"),
                           ),
                         ],
                       ),

@@ -108,64 +108,24 @@ class EnglishEntrycongressman extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئەندامێکی کۆنگرێسی ئەمریکا "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The congressman delivered a speech on the floor of the House of Representatives."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆنگرێسمانەکە وتارێکی پێشکەشکرد لە ھۆڵی ئەنجوومەنی نوێنەران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congressman", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongressmans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongressmans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The congressman delivered a speech on the floor of the House of Representatives.",
+                            kurdishText:
+                                "کۆنگرێسمانەکە وتارێکی پێشکەشکرد لە ھۆڵی ئەنجوومەنی نوێنەران.", // congressman",
+                            onPressedBritish: () => speakcongressmans1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongressmans1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The congresswoman's speech on climate change was widely praised."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتاری ژنە کۆگرێسمانەکە لەسەر گۆڕانی ئاووھەوا بە بەرفراوانی ستایش کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongressmans2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongressmans2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The congresswoman's speech on climate change was widely praised.",
+                            kurdishText:
+                                "وتاری ژنە کۆگرێسمانەکە لەسەر گۆڕانی ئاووھەوا بە بەرفراوانی ستایش کرا.",
+                            onPressedBritish: () => speakcongressmans2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongressmans2("en-US"),
                           ),
                         ],
                       ),

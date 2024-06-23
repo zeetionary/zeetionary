@@ -196,119 +196,43 @@ class EnglishEntrycabinet extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژمارەیەک لە ئەندامانی باڵای حکومەت کە بەرپرسن لە بڕیردان و دیاریکردنی سیاسەتی حکومەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The defeat in the vote forced the Cabinet to change its policy on immigration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شکستی دەنگدانەکە وای لە ئەندامانی کابینەکە کرد سیاسەتیان لەسەر کۆچبەری بگۆڕن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabinet", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabinets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabinets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The defeat in the vote forced the Cabinet to change its policy on immigration.",
+                            kurdishText:
+                                "شکستی دەنگدانەکە وای لە ئەندامانی کابینەکە کرد سیاسەتیان لەسەر کۆچبەری بگۆڕن.", // cabinet
+                            onPressedBritish: () => speakcabinets1("en-GB"),
+                            onPressedAmerican: () => speakcabinets1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The issue was discussed at yesterday's cabinet meeting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بابەتەکە لە کۆبوونەوەی دوێنێی کابینەکە گەنگەشەکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabinets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabinets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The issue was discussed at yesterday's cabinet meeting.",
+                            kurdishText:
+                                "بابەتەکە لە کۆبوونەوەی دوێنێی کابینەکە گەنگەشەکرا.",
+                            onPressedBritish: () => speakcabinets2("en-GB"),
+                            onPressedAmerican: () => speakcabinets2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prime minister reshuffled his Cabinet yesterday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک وەزیران دوێنێ ئاڵوگۆڕی لە کابینەکەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabinets3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabinets3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prime minister reshuffled his Cabinet yesterday.",
+                            kurdishText:
+                                "سەرۆک وەزیران دوێنێ ئاڵوگۆڕی لە کابینەکەی کرد.",
+                            onPressedBritish: () => speakcabinets3("en-GB"),
+                            onPressedAmerican: () => speakcabinets3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھاجەتێک کە ڕەف و چەکمەجە و دەرگای ھەیە و شتی تێ دەخرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I looked for a cotton swab in the bathroom cabinet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ گوێ‌پاککەرەوەیەک گەڕام لە سنووقی حەمامەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabinets4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabinets4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I looked for a cotton swab in the bathroom cabinet.",
+                            kurdishText:
+                                "بۆ گوێ‌پاککەرەوەیەک گەڕام لە سنووقی حەمامەکە.",
+                            onPressedBritish: () => speakcabinets4("en-GB"),
+                            onPressedAmerican: () => speakcabinets4("en-US"),
                           ),
                         ],
                       ),

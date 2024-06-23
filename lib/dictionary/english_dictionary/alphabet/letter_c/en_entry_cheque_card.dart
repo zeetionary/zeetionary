@@ -97,32 +97,13 @@ class EnglishEntrychequecard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کاردێکی بانکی کە بەکاردێت بۆ پارەدان ڕاستەوخۆ لە ھەژماری بانکییەوە لەکاتی پارەدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He lost his cheque card while traveling and had to report it to the bank."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەکاتی گەشتدا چێک کاردەکەی ونکردوو و پێویست بوو بە بانکەکە ڕابگەیەنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheque card", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchequecards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchequecards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He lost his cheque card while traveling and had to report it to the bank.",
+                            kurdishText:
+                                "لەکاتی گەشتدا چێک کاردەکەی ونکردوو و پێویست بوو بە بانکەکە ڕابگەیەنێت.", // cheque card",
+                            onPressedBritish: () => speakchequecards1("en-GB"),
+                            onPressedAmerican: () => speakchequecards1("en-US"),
                           ),
                         ],
                       ),

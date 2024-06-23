@@ -100,67 +100,29 @@ class EnglishEntrychainreaction extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گۆڕانێکی کیمیایی یان ناوەکی کە جۆرە بەرھەم یان گۆڕانێکی دیکە درووست دەکات کە بەرھەم و گۆڕانی دیکە درووست دەکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In nuclear physics, a chain reaction occurs when one nuclear reaction triggers additional reactions, releasing large amounts of energy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە فیزیای ناوەکیدا، کارلێکی زنجیری ڕوودەدات کە یەک کارلێکی ناوەکی کارلێکی دیکە درووست دەکات، و وزەی زۆر دەردەپەڕێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "chain reaction", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchainreactions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchainreactions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In nuclear physics, a chain reaction occurs when one nuclear reaction triggers additional reactions, releasing large amounts of energy.",
+                            kurdishText:
+                                "لە فیزیای ناوەکیدا، کارلێکی زنجیری ڕوودەدات کە یەک کارلێکی ناوەکی کارلێکی دیکە درووست دەکات، و وزەی زۆر دەردەپەڕێنێت.", // chain reaction",
+                            onPressedBritish: () =>
+                                speakchainreactions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchainreactions1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) زنجیرە ڕووداوێک، بە تایبەتی کە یەکێکیان دەبێتە ھۆکاری ئەوەی دواتر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The accident caused a chain reaction in which seven trucks piled up on the bridge."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکدادانەکە زنجیرە ڕووداوێکی لێکەوتەوە کە تێیدا حەوت بارھەڵگر سەریەک کەوتن لەسەر پردەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchainreactions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchainreactions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The accident caused a chain reaction in which seven trucks piled up on the bridge.",
+                            kurdishText:
+                                "پێکدادانەکە زنجیرە ڕووداوێکی لێکەوتەوە کە تێیدا حەوت بارھەڵگر سەریەک کەوتن لەسەر پردەکە.",
+                            onPressedBritish: () =>
+                                speakchainreactions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchainreactions2("en-US"),
                           ),
                         ],
                       ),

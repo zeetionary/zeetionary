@@ -248,83 +248,28 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) قەدەغەی ھاتووچۆ لە دوای کاتێکی دیاریکراوەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The army imposed a dusk-to-dawn curfew."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سوپا قەدەغەی ھاتووچۆ لە تاریکانەوە (مەغریب) تا بەرەبەیان ڕاگەیاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curfew", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurfews1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurfews1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The army imposed a dusk-to-dawn curfew.",
+            kurdishText:
+                "سوپا قەدەغەی ھاتووچۆ لە تاریکانەوە (مەغریب) تا بەرەبەیان ڕاگەیاند.", // curfew", please follow LX instructions
+            onPressedBritish: () => speakcurfews1("en-GB"),
+            onPressedAmerican: () => speakcurfews1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You must get home before curfew."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت پێش ماوەی قەدەغەی ھاتووچۆ بێیتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurfews2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurfews2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You must get home before curfew.",
+            kurdishText: "دەبێت پێش ماوەی قەدەغەی ھاتووچۆ بێیتەوە.",
+            onPressedBritish: () => speakcurfews2("en-GB"),
+            onPressedAmerican: () => speakcurfews2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کاتێک کە دەبێت منداڵان بگەڕێنەوە ماڵەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I have a 10 o'clock curfew."),
-                    ExampleSentenceKurdish(text: "کاتی چوونەوە ماڵم ١٠ ـیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurfews3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurfews3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I have a 10 o'clock curfew.",
+            kurdishText: "کاتی چوونەوە ماڵم ١٠ ـیە.",
+            onPressedBritish: () => speakcurfews3("en-GB"),
+            onPressedAmerican: () => speakcurfews3("en-US"),
           ),
         ],
       ),

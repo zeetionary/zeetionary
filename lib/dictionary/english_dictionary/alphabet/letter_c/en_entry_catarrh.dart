@@ -186,32 +186,13 @@ class EnglishEntrycatarrh extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شلەی خەست کە لە لووت و دەمدا درووست دەبێت، بۆ نموونە لەکاتی ھەڵامەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My catarrh started after I caught a cold."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خڵمەکەم دەستیپێکرد لە دوای گرتنی ھەڵامەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catarrh", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatarrhs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatarrhs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My catarrh started after I caught a cold.",
+                            kurdishText:
+                                "خڵمەکەم دەستیپێکرد لە دوای گرتنی ھەڵامەت.", // catarrh",
+                            onPressedBritish: () => speakcatarrhs1("en-GB"),
+                            onPressedAmerican: () => speakcatarrhs1("en-US"),
                           ),
                         ],
                       ),

@@ -121,122 +121,46 @@ class EnglishEntrycompatible extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ئامێر کە دەکرێت پێکەوە بەکاربێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new system will be compatible with existing equipment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیستەمە تازەکە گونجاو دەبێت لەگەڵ ئەو ئامێرانەی کە بوونیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compatible", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompatibles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompatibles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new system will be compatible with existing equipment.",
+                            kurdishText:
+                                "سیستەمە تازەکە گونجاو دەبێت لەگەڵ ئەو ئامێرانەی کە بوونیان ھەیە.", // compatible",
+                            onPressedBritish: () => speakcompatibles1("en-GB"),
+                            onPressedAmerican: () => speakcompatibles1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) بیرۆکە، بیردۆز، شت، ھتد کە دەکرێت پێکەوە بەکاربێن بەبێ کێشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Are measures to protect the environment compatible with economic growth?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئایا ھەنگاوەکان بۆ پاراستنی ژینگە لە سازاندان لەگەڵ گەشەی ئابووری؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompatibles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompatibles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Are measures to protect the environment compatible with economic growth?",
+                            kurdishText:
+                                "ئایا ھەنگاوەکان بۆ پاراستنی ژینگە لە سازاندان لەگەڵ گەشەی ئابووری؟",
+                            onPressedBritish: () => speakcompatibles2("en-GB"),
+                            onPressedAmerican: () => speakcompatibles2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Are their two blood groups compatible (= can blood from one person be given to the other person)?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم دوو گرووپە خوێنە پێکەوە دەگونجێن؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompatibles4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompatibles4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Are their two blood groups compatible (= can blood from one person be given to the other person)?",
+                            kurdishText:
+                                "ئەم دوو گرووپە خوێنە پێکەوە دەگونجێن؟",
+                            onPressedBritish: () => speakcompatibles4("en-GB"),
+                            onPressedAmerican: () => speakcompatibles4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) گونجانی دوو کەس پێکەوە بەھۆی ئەوەی حەز، خولیاو، و بیرکردنەوەی وەک یەکیان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was when we started living together that we found we just weren't compatible."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو کاتەی پێکەوە دەستمان بە ژیان کرد زانیمان پێکەوە ناگونجێین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompatibles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompatibles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was when we started living together that we found we just weren't compatible.",
+                            kurdishText:
+                                "ئەو کاتەی پێکەوە دەستمان بە ژیان کرد زانیمان پێکەوە ناگونجێین.",
+                            onPressedBritish: () => speakcompatibles3("en-GB"),
+                            onPressedAmerican: () => speakcompatibles3("en-US"),
                           ),
                         ],
                       ),

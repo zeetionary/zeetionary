@@ -94,32 +94,13 @@ class EnglishEntrycoolheaded extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ئارام و لەسەرەخۆ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Even the most cool-headed individuals can be thrown into a mild panic at the prospect of organizing a wedding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنانەت کەسانی تەواو لەسەرەخۆش دەکرێت بکەونە کەمێک شڵەژاوییەوە لە چاوەڕوانی ئامادەکردنی بۆنەیەکی ھاوسەرگیریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cool-headed", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoolheadeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoolheadeds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Even the most cool-headed individuals can be thrown into a mild panic at the prospect of organizing a wedding.",
+                            kurdishText:
+                                "تەنانەت کەسانی تەواو لەسەرەخۆش دەکرێت بکەونە کەمێک شڵەژاوییەوە لە چاوەڕوانی ئامادەکردنی بۆنەیەکی ھاوسەرگیریدا.", // cool-headed",
+                            onPressedBritish: () => speakcoolheadeds1("en-GB"),
+                            onPressedAmerican: () => speakcoolheadeds1("en-US"),
                           ),
                         ],
                       ),

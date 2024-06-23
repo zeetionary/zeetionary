@@ -121,60 +121,22 @@ class EnglishEntrycoalition extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) حکومەتێک کە لەلایەن دوو پارت یان زیاترەوە درووستکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two parties have formed a coalition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو پارتەکە ھاوپەیمانێتییەکیان درووستکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coalition", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoalitions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoalitions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two parties have formed a coalition.",
+                            kurdishText:
+                                "دوو پارتەکە ھاوپەیمانێتییەکیان درووستکردووە.", // coalition",
+                            onPressedBritish: () => speakcoalitions1("en-GB"),
+                            onPressedAmerican: () => speakcoalitions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two parties governed in coalition for four years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو پارتەکە بۆ چوار ساڵ بە ھاوپەیمانی حکومڕانییان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoalitions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoalitions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two parties governed in coalition for four years.",
+                            kurdishText:
+                                "دوو پارتەکە بۆ چوار ساڵ بە ھاوپەیمانی حکومڕانییان کرد.",
+                            onPressedBritish: () => speakcoalitions2("en-GB"),
+                            onPressedAmerican: () => speakcoalitions2("en-US"),
                           ),
                           Column(
                             children: [

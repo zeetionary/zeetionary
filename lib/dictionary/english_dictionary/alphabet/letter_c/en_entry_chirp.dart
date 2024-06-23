@@ -110,92 +110,34 @@ class EnglishEntrychirp extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دەنگی باڵندەی بچووک و ھەندێک مێروو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We could here chirp of birds in the distance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێمان لە جریوەی باڵندە بوو لە دوورەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chirp", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchirps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchirps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We could here chirp of birds in the distance.",
+                            kurdishText:
+                                "گوێمان لە جریوەی باڵندە بوو لە دوورەوە.", // chirp",
+                            onPressedBritish: () => speakchirps1("en-GB"),
+                            onPressedAmerican: () => speakchirps1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) دەرکردنی دەنگێک لەلایەن باڵندە و ھەندێک مێرووەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Birds were chirping merrily in the trees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باڵندە بە دڵخۆشییەوە لەناو دارەکان دەیان‌جریواند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchirps2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchirps2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Birds were chirping merrily in the trees.",
+                            kurdishText:
+                                "باڵندە بە دڵخۆشییەوە لەناو دارەکان دەیان‌جریواند.",
+                            onPressedBritish: () => speakchirps2("en-GB"),
+                            onPressedAmerican: () => speakchirps2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) قسەکردن بە دڵخۆشی و وزەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "\"Good morning!\" she chirped."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە کەیفەوە گوتی \"بەیانی باش\"."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchirps3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchirps3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "\"Good morning!\" she chirped.",
+                            kurdishText: "بە کەیفەوە گوتی \"بەیانی باش\".",
+                            onPressedBritish: () => speakchirps3("en-GB"),
+                            onPressedAmerican: () => speakchirps3("en-US"),
                           ),
                         ],
                       ),

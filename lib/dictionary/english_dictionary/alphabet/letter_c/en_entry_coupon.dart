@@ -242,58 +242,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پارچە کاگەزێک یان کۆدێک کە دەتوانیت بیگۆڕیتەوە بە شتێکی دیکە یان بە ھەرزانتر شتێ پێ بکڕیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cut out and return this coupon to claim your free holiday."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم کوپۆنە ببڕە و بیگەڕینەوە بۆ بەدەستھێنانی پشووی بێ‌بەرامبەرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "coupon", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoupons1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoupons1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Cut out and return this coupon to claim your free holiday.",
+            kurdishText:
+                "ئەم کوپۆنە ببڕە و بیگەڕینەوە بۆ بەدەستھێنانی پشووی بێ‌بەرامبەرت.", // coupon", please follow LX instructions
+            onPressedBritish: () => speakcoupons1("en-GB"),
+            onPressedAmerican: () => speakcoupons1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This coupon is valid until 31 January."),
-                    ExampleSentenceKurdish(
-                        text: "کوپۆنەکە تاوەکو ٣١ ـی کانوونی دووەم کاردەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoupons2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoupons2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This coupon is valid until 31 January.",
+            kurdishText: "کوپۆنەکە تاوەکو ٣١ ـی کانوونی دووەم کاردەکات.",
+            onPressedBritish: () => speakcoupons2("en-GB"),
+            onPressedAmerican: () => speakcoupons2("en-US"),
           ),
         ],
       ),

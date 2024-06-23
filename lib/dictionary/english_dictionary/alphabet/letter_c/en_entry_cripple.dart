@@ -259,118 +259,41 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێکی خاوەن پێداویستی تایبەت، بە تایبەت کەسێک کە ناتوانێت ڕێ بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was born with a condition that left him a cripple."),
-                    ExampleSentenceKurdish(
-                        text: "بە نەخۆشییەکەوە لەدایکبوو کە کردی بە ئیفلیجێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cripple", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcripples1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcripples1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was born with a condition that left him a cripple.",
+            kurdishText:
+                "بە نەخۆشییەکەوە لەدایکبوو کە کردی بە ئیفلیجێک.", // cripple", please follow LX instructions
+            onPressedBritish: () => speakcripples1("en-GB"),
+            onPressedAmerican: () => speakcripples1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) زیان گەیاندن یان داڕووخاندنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The industry has been financially crippled by these policies."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پیشەسازییەکە لە ڕووی داراییەوە بەم سیاسەتانە داڕووخاوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcripples2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcripples2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The industry has been financially crippled by these policies.",
+            kurdishText:
+                "پیشەسازییەکە لە ڕووی داراییەوە بەم سیاسەتانە داڕووخاوە.",
+            onPressedBritish: () => speakcripples2("en-GB"),
+            onPressedAmerican: () => speakcripples2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The pilot tried to land his crippled plane."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فڕۆکەوانەکە ھەوڵیدا فڕۆکە تێکشکاوەکەی بنیشێنێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcripples3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcripples3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The pilot tried to land his crippled plane.",
+            kurdishText: "فڕۆکەوانەکە ھەوڵیدا فڕۆکە تێکشکاوەکەی بنیشێنێتەوە.",
+            onPressedBritish: () => speakcripples3("en-GB"),
+            onPressedAmerican: () => speakcripples3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) شکاندنی جەستەی کەسێک بە شێوەیەک کە نەتوانێت بە باشی ڕێ بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was crippled by polio as a child."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە منداڵ بوو بە نەخۆشی ئیفلیجی بوو بە پەککەوتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcripples4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcripples4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was crippled by polio as a child.",
+            kurdishText: "کە منداڵ بوو بە نەخۆشی ئیفلیجی بوو بە پەککەوتە.",
+            onPressedBritish: () => speakcripples4("en-GB"),
+            onPressedAmerican: () => speakcripples4("en-US"),
           ),
         ],
       ),

@@ -266,141 +266,49 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەک کە گەمژانەیە یان ناچێتە ئەقڵەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We can't afford the crazily expensive ticket prices."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناتوانین نرخی لەئەقڵبەدەری بلیتەکان دەبین بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crazily", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazilys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazilys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We can't afford the crazily expensive ticket prices.",
+            kurdishText:
+                "ناتوانین نرخی لەئەقڵبەدەری بلیتەکان دەبین بکەین.", // crazily", please follow LX instructions
+            onPressedBritish: () => speakcrazilys1("en-GB"),
+            onPressedAmerican: () => speakcrazilys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵکار) بە خرۆشاوی زۆرەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "They danced crazily."),
-                    ExampleSentenceKurdish(text: "بە شێتانە سەمایان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazilys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazilys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They danced crazily.",
+            kurdishText: "بە شێتانە سەمایان دەکرد.",
+            onPressedBritish: () => speakcrazilys2("en-GB"),
+            onPressedAmerican: () => speakcrazilys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵکار) بەشێوەیەک کە ڕێکوپێک نییە و ئاڵۆزە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The headphones were useless due to their crazily tangled wires."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێدفۆنەکە بێ‌سوود بوو بەھۆی لێک‌ئاڵانی ئاڵۆزی وایەرەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazilys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazilys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The headphones were useless due to their crazily tangled wires.",
+            kurdishText:
+                "ھێدفۆنەکە بێ‌سوود بوو بەھۆی لێک‌ئاڵانی ئاڵۆزی وایەرەکانی.",
+            onPressedBritish: () => speakcrazilys3("en-GB"),
+            onPressedAmerican: () => speakcrazilys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ھاوەڵکار) تا ئاستێکی ئێجگار زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She's crazily talented."),
-                    ExampleSentenceKurdish(text: "ئێجگار بەھرەمەندە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazilys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazilys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's crazily talented.",
+            kurdishText: "ئێجگار بەھرەمەندە.",
+            onPressedBritish: () => speakcrazilys4("en-GB"),
+            onPressedAmerican: () => speakcrazilys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە نەخۆشی دەروونی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The actors have to scream crazily."),
-                    ExampleSentenceKurdish(
-                        text: "ئەکتەرەکان دەبێت شێتانە ھاوار بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazilys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazilys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The actors have to scream crazily.",
+            kurdishText: "ئەکتەرەکان دەبێت شێتانە ھاوار بکەن.",
+            onPressedBritish: () => speakcrazilys5("en-GB"),
+            onPressedAmerican: () => speakcrazilys5("en-US"),
           ),
         ],
       ),

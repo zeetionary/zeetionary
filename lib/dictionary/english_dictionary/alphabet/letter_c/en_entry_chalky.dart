@@ -94,31 +94,13 @@ class EnglishEntrychalky extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە گەچی تێدایە یان شێوەی لە گەچ دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soil in this area is very chalky."),
-                                    ExampleSentenceKurdish(
-                                        text: "زەوی ئەم ناوچەیە زۆر گەچییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chalky", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchalkys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchalkys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soil in this area is very chalky.",
+                            kurdishText:
+                                "زەوی ئەم ناوچەیە زۆر گەچییە.", // chalky",
+                            onPressedBritish: () => speakchalkys1("en-GB"),
+                            onPressedAmerican: () => speakchalkys1("en-US"),
                           ),
                         ],
                       ),

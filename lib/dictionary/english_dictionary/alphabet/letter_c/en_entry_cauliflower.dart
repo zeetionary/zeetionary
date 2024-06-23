@@ -186,32 +186,12 @@ class EnglishEntrycauliflower extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) قەرنابیت؛ سەوزەیەک کە گەڵای سەوزی پێوەیە لە دەوری ناوکێکی سپی لە گوڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Do you like cauliflower?"),
-                                    ExampleSentenceKurdish(
-                                        text: "حەزت بە قەرنابیتە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cauliflower", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcauliflowers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcauliflowers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Do you like cauliflower?",
+                            kurdishText: "حەزت بە قەرنابیتە؟", // cauliflower",
+                            onPressedBritish: () => speakcauliflowers1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcauliflowers1("en-US"),
                           ),
                         ],
                       ),

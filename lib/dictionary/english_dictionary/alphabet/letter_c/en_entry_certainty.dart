@@ -191,90 +191,33 @@ class EnglishEntrycertainty extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) دڵنیایی لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is no certainty that the president's removal would end the civil war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ دڵنیایی نییە لەوەی کە لادانی سەرۆک کۆتایی بە شەڕی ناوخۆ بھێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "certainty", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertaintys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertaintys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is no certainty that the president's removal would end the civil war.",
+                            kurdishText:
+                                "ھیچ دڵنیایی نییە لەوەی کە لادانی سەرۆک کۆتایی بە شەڕی ناوخۆ بھێنێت.", // certainty",
+                            onPressedBritish: () => speakcertaintys1("en-GB"),
+                            onPressedAmerican: () => speakcertaintys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't say with any certainty where I'll be next week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم بە ھیچ دڵنیاییەکەوە بڵێم کە ھەفتەی داھاتوو لە کوێ دەبم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertaintys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertaintys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't say with any certainty where I'll be next week.",
+                            kurdishText:
+                                "ناتوانم بە ھیچ دڵنیاییەکەوە بڵێم کە ھەفتەی داھاتوو لە کوێ دەبم.",
+                            onPressedBritish: () => speakcertaintys2("en-GB"),
+                            onPressedAmerican: () => speakcertaintys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شتێک کە مسۆگەرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her return to the team now seems a certainty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەڕانەوەی بۆ تیمەکە لە ئێستادا مسۆگەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertaintys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertaintys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her return to the team now seems a certainty.",
+                            kurdishText:
+                                "گەڕانەوەی بۆ تیمەکە لە ئێستادا مسۆگەرە.",
+                            onPressedBritish: () => speakcertaintys3("en-GB"),
+                            onPressedAmerican: () => speakcertaintys3("en-US"),
                           ),
                         ],
                       ),

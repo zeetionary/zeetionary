@@ -197,63 +197,25 @@ class EnglishEntrycesspit extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چاڵێک یان کاسەیەک کە پاشەڕۆی بینایەکی تێدا کۆدەکرێتەوە، بە تایبەتی بۆ پیسایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Rural homes often use cesspits for waste disposal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماڵە گوندنشینەکان زۆرجار چاڵەپیساو بەکاردێن بۆ فڕێدانی پیسایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cesspit", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcesspits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcesspits1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Rural homes often use cesspits for waste disposal.",
+                            kurdishText:
+                                "ماڵە گوندنشینەکان زۆرجار چاڵەپیساو بەکاردێن بۆ فڕێدانی پیسایی.", // cesspit",
+                            onPressedBritish: () => speakcesspits1("en-GB"),
+                            onPressedAmerican: () => speakcesspits1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شوێنێک کە کەس یان شتی خراپ و فێڵبازی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The internet can be a cesspit of misinformation and negativity if not used responsibly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئینتەرنێت دەکرێت سەرچاوەی ناڕاستی و نەرێنی بێت ئەگەر بەرپرسانە بەکارنەیەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcesspits2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcesspits2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The internet can be a cesspit of misinformation and negativity if not used responsibly.",
+                            kurdishText:
+                                "ئینتەرنێت دەکرێت سەرچاوەی ناڕاستی و نەرێنی بێت ئەگەر بەرپرسانە بەکارنەیەت.",
+                            onPressedBritish: () => speakcesspits2("en-GB"),
+                            onPressedAmerican: () => speakcesspits2("en-US"),
                           ),
                         ],
                       ),

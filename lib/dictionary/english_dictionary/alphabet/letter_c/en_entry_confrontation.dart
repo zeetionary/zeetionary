@@ -114,94 +114,37 @@ class EnglishEntryconfrontation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕووبەڕووبوونەوەی خەڵکی یان گرووپی جیاواز بەھۆی ئەوەی ناکۆکییان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wanted to avoid another confrontation with her father."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ویستی دوور بێت لە کێشەیەکی دیکە لەگەڵ باوکیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confrontation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfrontations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfrontations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wanted to avoid another confrontation with her father.",
+                            kurdishText:
+                                "ویستی دوور بێت لە کێشەیەکی دیکە لەگەڵ باوکیدا.", // confrontation",
+                            onPressedBritish: () =>
+                                speakconfrontations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfrontations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Confrontation between employers and unions has resulted in strike action."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووبەڕووبوونەوە لە نێوان خاوەن کاران و سەندیکاکاندا بووە بەھۆی مانگرتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfrontations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfrontations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Confrontation between employers and unions has resulted in strike action.",
+                            kurdishText:
+                                "ڕووبەڕووبوونەوە لە نێوان خاوەن کاران و سەندیکاکاندا بووە بەھۆی مانگرتن.",
+                            onPressedBritish: () =>
+                                speakconfrontations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfrontations2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His actions brought him into direct confrontation with the authorities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کردارەکانی گەیاندیان بە ڕووبەڕووبوونەوەی ڕاستەوخۆ لەگەڵ بەرپرسان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfrontations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfrontations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His actions brought him into direct confrontation with the authorities.",
+                            kurdishText:
+                                "کردارەکانی گەیاندیان بە ڕووبەڕووبوونەوەی ڕاستەوخۆ لەگەڵ بەرپرسان.",
+                            onPressedBritish: () =>
+                                speakconfrontations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfrontations3("en-US"),
                           ),
                         ],
                       ),

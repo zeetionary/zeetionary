@@ -231,32 +231,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دژ، لە دژی، بەپێچەوانەی
 """),
           const DefinitionKurdish(text: "١. (لێکدەر) دژ؛ پێچەوانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The general ordered a counterattack to regain control of the situation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژەنەڕاڵەکە فەرمانی بە ھێرشێکی پێچەوانە کرد بۆ بەدەستھێنانەوەی کۆنترۆڵی دۆخەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "counter-", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountertwos1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountertwos1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The general ordered a counterattack to regain control of the situation.",
+            kurdishText:
+                "ژەنەڕاڵەکە فەرمانی بە ھێرشێکی پێچەوانە کرد بۆ بەدەستھێنانەوەی کۆنترۆڵی دۆخەکە.", // counter-", please follow LX instructions
+            onPressedBritish: () => speakcountertwos1("en-GB"),
+            onPressedAmerican: () => speakcountertwos1("en-US"),
           ),
         ],
       ),

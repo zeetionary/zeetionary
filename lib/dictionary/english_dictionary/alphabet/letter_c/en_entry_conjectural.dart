@@ -94,34 +94,14 @@ class EnglishEntryconjectural extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پشتبەستوو بە گریمانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some of the stages of the earth’s development are purely conjectural."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە قۆناغەکانی گەشەی زەوی تەواو گریمانەییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conjectural", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconjecturals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconjecturals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some of the stages of the earth’s development are purely conjectural.",
+                            kurdishText:
+                                "یەکێک لە قۆناغەکانی گەشەی زەوی تەواو گریمانەییە.", // conjectural",
+                            onPressedBritish: () => speakconjecturals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconjecturals1("en-US"),
                           ),
                         ],
                       ),

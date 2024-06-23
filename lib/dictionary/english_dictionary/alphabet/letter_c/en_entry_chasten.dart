@@ -94,32 +94,13 @@ class EnglishEntrychasten extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پەشیمانکردنەوەی کەسێک لە شتێک کە کردوویەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He felt suitably chastened and apologized."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە پەشیمانی کرد و داوای لێبووردنی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chasten", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchastens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchastens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He felt suitably chastened and apologized.",
+                            kurdishText:
+                                "ھەستی بە پەشیمانی کرد و داوای لێبووردنی کرد.", // chasten",
+                            onPressedBritish: () => speakchastens1("en-GB"),
+                            onPressedAmerican: () => speakchastens1("en-US"),
                           ),
                         ],
                       ),

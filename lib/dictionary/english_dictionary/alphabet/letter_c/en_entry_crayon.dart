@@ -249,84 +249,28 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پێنووسێک کە ڕەنگینە یان یان تەباشیر و پێنووسی مۆمی ڕەنگینە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She coloured the picture in with crayons."),
-                    ExampleSentenceKurdish(
-                        text: "وێنەکەی بە پێنووسی ڕەنگی ڕەنگ کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crayon", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrayons1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrayons1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She coloured the picture in with crayons.",
+            kurdishText:
+                "وێنەکەی بە پێنووسی ڕەنگی ڕەنگ کرد.", // crayon", please follow LX instructions
+            onPressedBritish: () => speakcrayons1("en-GB"),
+            onPressedAmerican: () => speakcrayons1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He used crayons to draw the picture."),
-                    ExampleSentenceKurdish(
-                        text: "پێنووسی ڕەنگی بەکارھێنا بۆ کێشانی وێنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrayons2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrayons2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He used crayons to draw the picture.",
+            kurdishText: "پێنووسی ڕەنگی بەکارھێنا بۆ کێشانی وێنەکە.",
+            onPressedBritish: () => speakcrayons2("en-GB"),
+            onPressedAmerican: () => speakcrayons2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ڕەنگ کردن بە پێنووسی ڕەنگی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "When I left her she was busy crayoning."),
-                    ExampleSentenceKurdish(
-                        text: "کە ڕۆشتم بە ڕەنگکردنەوە سەرقاڵ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrayons3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrayons3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "When I left her she was busy crayoning.",
+            kurdishText: "کە ڕۆشتم بە ڕەنگکردنەوە سەرقاڵ بوو.",
+            onPressedBritish: () => speakcrayons3("en-GB"),
+            onPressedAmerican: () => speakcrayons3("en-US"),
           ),
         ],
       ),

@@ -289,228 +289,77 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گۆچان، داردەست،	پێچ، لاری، دانووشتاوی، قەد، خواری، کەچایی، کەچی، خواروخێچی، چەماوی،	قولاپ،	دز، چەتە،	نەخۆش،	تاوان‌کار، گوناەکار،	دەسبڕ
 """),
           const DefinitionKurdish(text: "١. (ناو) کەسێکی فێڵباز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "That salesman is a real crook."),
-                    ExampleSentenceKurdish(
-                        text: "فرۆشیارەکە تەڵەکەبازێکی تەواوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crook", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrooks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrooks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "That salesman is a real crook.",
+            kurdishText:
+                "فرۆشیارەکە تەڵەکەبازێکی تەواوە.", // crook", please follow LX instructions
+            onPressedBritish: () => speakcrooks1("en-GB"),
+            onPressedAmerican: () => speakcrooks1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These politicians are just a bunch of crooks."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم سیاسییانە تەنھا چەند کەسێکی تەڵەکەبازن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrooks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrooks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These politicians are just a bunch of crooks.",
+            kurdishText: "ئەم سیاسییانە تەنھا چەند کەسێکی تەڵەکەبازن.",
+            onPressedBritish: () => speakcrooks2("en-GB"),
+            onPressedAmerican: () => speakcrooks2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) بەشی ناوەوەی ئانیشک (ئەو جومگەیەی کە بازوو و باسک پێکەوە دەبەستێتەوە)"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She sat back in the armchair and settled the baby in the crook of her arm."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەسەر کورسییەکە دانیشت و منداڵەکەی لە بەشی ناوەوەی ئانیشکی دانا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrooks3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrooks3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She sat back in the armchair and settled the baby in the crook of her arm.",
+            kurdishText:
+                "لەسەر کورسییەکە دانیشت و منداڵەکەی لە بەشی ناوەوەی ئانیشکی دانا.",
+            onPressedBritish: () => speakcrooks3("en-GB"),
+            onPressedAmerican: () => speakcrooks3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) گۆچانێکی کە شوانەکان بۆ گرتنی مەڕ و ماڵاتەکەیان بەکاریدێنن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The shepherd used his crook to guide the sheep."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شوانەکە گۆچانەکەی بەکارھێنا بۆ ڕێبەری کردنی مەڕەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrooks4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrooks4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The shepherd used his crook to guide the sheep.",
+            kurdishText:
+                "شوانەکە گۆچانەکەی بەکارھێنا بۆ ڕێبەری کردنی مەڕەکانی.",
+            onPressedBritish: () => speakcrooks4("en-GB"),
+            onPressedAmerican: () => speakcrooks4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) چەماندنەوەی پەنجە یان باڵ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She winked and crooked a finger at him."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چاوی لێ داگرت و بە پەنجەی گازی لێکرد (بانگی کرد)."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrooks5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrooks5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She winked and crooked a finger at him.",
+            kurdishText: "چاوی لێ داگرت و بە پەنجەی گازی لێکرد (بانگی کرد).",
+            onPressedBritish: () => speakcrooks5("en-GB"),
+            onPressedAmerican: () => speakcrooks5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ھاوەڵناو) نەخۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I’m feeling a bit crook."),
-                    ExampleSentenceKurdish(text: "ھەست بە کەمێک نەخۆشی دەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrooks6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrooks6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I’m feeling a bit crook.",
+            kurdishText: "ھەست بە کەمێک نەخۆشی دەکەم.",
+            onPressedBritish: () => speakcrooks6("en-GB"),
+            onPressedAmerican: () => speakcrooks6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ھاوەڵناو) خراپ یان ناخۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It can be hard to stay positive when times are crook."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەکرێت سەخت بێت بە ئەرێنییانە بمێنیتەوە لە ساتە ناخۆشەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrooks7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrooks7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It can be hard to stay positive when times are crook.",
+            kurdishText:
+                "دەکرێت سەخت بێت بە ئەرێنییانە بمێنیتەوە لە ساتە ناخۆشەکان.",
+            onPressedBritish: () => speakcrooks7("en-GB"),
+            onPressedAmerican: () => speakcrooks7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (ھاوەڵناو) فێڵباز؛ نایاسایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Everybody thinks horse racing is crook anyway."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەرچۆنێک بێت ھەمووان وابیردەکەنەوە پێشبڕکێی ئەسپسواری خراپە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrooks8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrooks8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Everybody thinks horse racing is crook anyway.",
+            kurdishText:
+                "ھەرچۆنێک بێت ھەمووان وابیردەکەنەوە پێشبڕکێی ئەسپسواری خراپە.",
+            onPressedBritish: () => speakcrooks8("en-GB"),
+            onPressedAmerican: () => speakcrooks8("en-US"),
           ),
         ],
       ),

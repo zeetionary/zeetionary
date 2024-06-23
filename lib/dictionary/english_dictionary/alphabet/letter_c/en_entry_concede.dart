@@ -156,233 +156,81 @@ class EnglishEntryconcede extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) وتنی ئەوەی کە شتێک ڕاستە، لۆژیکییە، ھتد لە دوای ئەوەی لە سەرەتادا دژی بوویت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was forced to concede (that) there might be difficulties."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناچارکرا ئەوە پەسەند بکات کە ڕەنگە سەختی ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concede", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcedes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcedes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was forced to concede (that) there might be difficulties.",
+                            kurdishText:
+                                "ناچارکرا ئەوە پەسەند بکات کە ڕەنگە سەختی ھەبێت.", // concede",
+                            onPressedBritish: () => speakconcedes1("en-GB"),
+                            onPressedAmerican: () => speakconcedes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He reluctantly conceded the point to me."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە نابەدڵییەوە خاڵەکەی پێدام."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcedes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcedes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He reluctantly conceded the point to me.",
+                            kurdishText: "بە نابەدڵییەوە خاڵەکەی پێدام.",
+                            onPressedBritish: () => speakconcedes2("en-GB"),
+                            onPressedAmerican: () => speakconcedes2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It must be conceded that different judges have different approaches to these cases."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت ئەوە پەسەند بکرێت کە دادوەری جیاواز ڕێبازی جیاواز دەگرنە بەر بۆ ئەم کەیسانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcedes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcedes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It must be conceded that different judges have different approaches to these cases.",
+                            kurdishText:
+                                "دەبێت ئەوە پەسەند بکرێت کە دادوەری جیاواز ڕێبازی جیاواز دەگرنە بەر بۆ ئەم کەیسانە.",
+                            onPressedBritish: () => speakconcedes3("en-GB"),
+                            onPressedAmerican: () => speakconcedes3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) داننان بە دۆڕان لە ڕکابەرییەک، ھەڵبژاردنێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After losing this decisive battle, the general was forced to concede."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای دۆڕان لەم ڕووبەڕووبوونەوە گرنگە، ژەنەڕاڵەکە ناچارکرا دان بە شکست بنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcedes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcedes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After losing this decisive battle, the general was forced to concede.",
+                            kurdishText:
+                                "لە دوای دۆڕان لەم ڕووبەڕووبوونەوە گرنگە، ژەنەڕاڵەکە ناچارکرا دان بە شکست بنێت.",
+                            onPressedBritish: () => speakconcedes4("en-GB"),
+                            onPressedAmerican: () => speakconcedes4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Injury forced Hicks to concede defeat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکان ھیکسی ناچارکرد دان بە شکستدا بنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcedes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcedes5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Injury forced Hicks to concede defeat.",
+                            kurdishText:
+                                "پێکان ھیکسی ناچارکرد دان بە شکستدا بنێت.",
+                            onPressedBritish: () => speakconcedes5("en-GB"),
+                            onPressedAmerican: () => speakconcedes5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) وازھێنان لە شتێک، بە تایبەتی بە نابەدڵانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The president was obliged to concede power to the army."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆکەکە ناچارکرا دەسەڵات ڕادەستی سوپا بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcedes6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcedes6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The president was obliged to concede power to the army.",
+                            kurdishText:
+                                "سەرۆکەکە ناچارکرا دەسەڵات ڕادەستی سوپا بکات.",
+                            onPressedBritish: () => speakconcedes6("en-GB"),
+                            onPressedAmerican: () => speakconcedes6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "England conceded a goal immediately after half-time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئینگلتەرە گۆڵێکی دابەدەستەوە ڕاستەوخۆ لە دوای گێمی دووەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcedes7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcedes7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "England conceded a goal immediately after half-time.",
+                            kurdishText:
+                                "ئینگلتەرە گۆڵێکی دابەدەستەوە ڕاستەوخۆ لە دوای گێمی دووەم.",
+                            onPressedBritish: () => speakconcedes7("en-GB"),
+                            onPressedAmerican: () => speakconcedes7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The firm should concede a significant salary increase to its employees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە دەبێت زیادکردنێکی گەورەی مووچە بدات بە کارمەندانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcedes8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcedes8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The firm should concede a significant salary increase to its employees.",
+                            kurdishText:
+                                "کۆمپانیاکە دەبێت زیادکردنێکی گەورەی مووچە بدات بە کارمەندانی.",
+                            onPressedBritish: () => speakconcedes8("en-GB"),
+                            onPressedAmerican: () => speakconcedes8("en-US"),
                           ),
                         ],
                       ),

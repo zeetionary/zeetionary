@@ -250,88 +250,30 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک کە ڕاھێنانی پێکراوە بۆ پێدانی ڕاوێژ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I went to see a debt counsellor and she agreed to come to the bank with me."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چووم بۆ بینینی ڕاوێکارێکی قەرزاری و ڕازی بوو لەگەڵم بێت بۆ بانکەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "counsellor", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounsellors1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounsellors1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I went to see a debt counsellor and she agreed to come to the bank with me.",
+            kurdishText:
+                "چووم بۆ بینینی ڕاوێکارێکی قەرزاری و ڕازی بوو لەگەڵم بێت بۆ بانکەکە.", // counsellor", please follow LX instructions
+            onPressedBritish: () => speakcounsellors1("en-GB"),
+            onPressedAmerican: () => speakcounsellors1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He talked to a counsellor about his marriage difficulties."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قسەی لەگەڵ ڕاوێژکارێک کرد سەبارەت بە کێشە خێزانییەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounsellors2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounsellors2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He talked to a counsellor about his marriage difficulties.",
+            kurdishText:
+                "قسەی لەگەڵ ڕاوێژکارێک کرد سەبارەت بە کێشە خێزانییەکانی.",
+            onPressedBritish: () => speakcounsellors2("en-GB"),
+            onPressedAmerican: () => speakcounsellors2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) پارێزەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I don't think that question is relevant, counselor."),
-                    ExampleSentenceKurdish(
-                        text: "پێم وانییە پرسیارەکە پەیوەندیدار بێت، پارێزەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounsellors3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounsellors3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I don't think that question is relevant, counselor.",
+            kurdishText: "پێم وانییە پرسیارەکە پەیوەندیدار بێت، پارێزەر.",
+            onPressedBritish: () => speakcounsellors3("en-GB"),
+            onPressedAmerican: () => speakcounsellors3("en-US"),
           ),
         ],
       ),

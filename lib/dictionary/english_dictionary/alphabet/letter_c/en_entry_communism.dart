@@ -112,87 +112,30 @@ class EnglishEntrycommunism extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) باوەڕ بە کۆمەڵگە کە چینی تێدا نییە و ھەموو شتێک لەلایەن ئەندامانی کۆمەڵگەکەوە خاوەندارێتی دەکرێت و ھەر کەسێک بەپێی توانای خۆی کار دەکات و ئەوەندە وەردەگرێت کە پێویستییەتی؛ سیستەمێکی حکومڕانی لەم شێوەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Much of the region's industry collapsed after the fall of communism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرێک لە پیشەسازی ناوچەکە داڕووخا لە دوای کەوتنی کۆمیونیزم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "communism", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunisms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunisms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Much of the region's industry collapsed after the fall of communism.",
+                            kurdishText:
+                                "زۆرێک لە پیشەسازی ناوچەکە داڕووخا لە دوای کەوتنی کۆمیونیزم.", // communism",
+                            onPressedBritish: () => speakcommunisms1("en-GB"),
+                            onPressedAmerican: () => speakcommunisms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Even many who disliked communism saw merit in his ideas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنانەت زۆرێک لەوانەشی باوەڕیان بە کۆمیونیزم نەبوو بەھاکەیان دەبینی  ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunisms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunisms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Even many who disliked communism saw merit in his ideas.",
+                            kurdishText:
+                                "تەنانەت زۆرێک لەوانەشی باوەڕیان بە کۆمیونیزم نەبوو بەھاکەیان دەبینی  .",
+                            onPressedBritish: () => speakcommunisms2("en-GB"),
+                            onPressedAmerican: () => speakcommunisms2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Marx was the progenitor of Communism."),
-                                    ExampleSentenceKurdish(
-                                        text: "مارکس باوکی کۆمیونیزمە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunisms3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunisms3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Marx was the progenitor of Communism.",
+                            kurdishText: "مارکس باوکی کۆمیونیزمە.",
+                            onPressedBritish: () => speakcommunisms3("en-GB"),
+                            onPressedAmerican: () => speakcommunisms3("en-US"),
                           ),
                         ],
                       ),

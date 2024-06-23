@@ -152,250 +152,88 @@ class EnglishEntrycontemplate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بیرکردنەوە لەوەی کە دەبێت شتێک بکەیت یان چۆن بیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You're too young to be contemplating retirement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر گەنجیت تا بیر لە خانەنشین بوون بکەیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contemplate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemplates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemplates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You're too young to be contemplating retirement.",
+                            kurdishText:
+                                "زۆر گەنجیت تا بیر لە خانەنشین بوون بکەیتەوە.", // contemplate",
+                            onPressedBritish: () => speakcontemplates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemplates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have never contemplated living abroad."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز بیرم لە ژیان لە دەرەوەی وڵات نەکردووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemplates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemplates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I have never contemplated living abroad.",
+                            kurdishText:
+                                "ھەرگیز بیرم لە ژیان لە دەرەوەی وڵات نەکردووەتەوە.",
+                            onPressedBritish: () => speakcontemplates3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemplates3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was very depressed and even contemplated suicide."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر خەمبار بوو و تەنانەت بیری لە خۆکوشتنیش کردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemplates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemplates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was very depressed and even contemplated suicide.",
+                            kurdishText:
+                                "زۆر خەمبار بوو و تەنانەت بیری لە خۆکوشتنیش کردەوە.",
+                            onPressedBritish: () => speakcontemplates2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemplates2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بیرکردنەوە بە وریاییەوە سەبارەت بە شتێک و پەسەندکردنی دەرەنجامەکانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The thought of war is too awful to contemplate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێ‌فکرینی جەنگ ناخۆشە بۆ بیرکردنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemplates4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemplates4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The thought of war is too awful to contemplate.",
+                            kurdishText: "تێ‌فکرینی جەنگ ناخۆشە بۆ بیرکردنەوە.",
+                            onPressedBritish: () => speakcontemplates4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemplates4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How could you even contemplate such an idea?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن بیرکردنەوەیەکی وەھا ھەر بە مێشکتدا ھات؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemplates5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemplates5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How could you even contemplate such an idea?",
+                            kurdishText:
+                                "چۆن بیرکردنەوەیەکی وەھا ھەر بە مێشکتدا ھات؟",
+                            onPressedBritish: () => speakcontemplates5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemplates5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't contemplate what it would be like to be alone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم بیر لەوە بکەمەوە چۆن دەبێت تەنھا بیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemplates6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemplates6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't contemplate what it would be like to be alone.",
+                            kurdishText:
+                                "ناتوانم بیر لەوە بکەمەوە چۆن دەبێت تەنھا بیت.",
+                            onPressedBritish: () => speakcontemplates6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemplates6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) بیرکردنەوە بە قووڵی و بۆ ماوەیەکی زۆر سەبارەت بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She lay in bed, contemplating."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە جێخەوەکەدا ڕاکشا و تێڕاما."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemplates7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemplates7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She lay in bed, contemplating.",
+                            kurdishText: "لە جێخەوەکەدا ڕاکشا و تێڕاما.",
+                            onPressedBritish: () => speakcontemplates7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemplates7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) سەیرکردنی شتێک بە قووڵی و بۆ ماوەیەکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She contemplated him in silence."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە بێ‌دەنگی لێی دەڕوانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemplates8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemplates8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She contemplated him in silence.",
+                            kurdishText: "بە بێ‌دەنگی لێی دەڕوانی.",
+                            onPressedBritish: () => speakcontemplates8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemplates8("en-US"),
                           ),
                         ],
                       ),

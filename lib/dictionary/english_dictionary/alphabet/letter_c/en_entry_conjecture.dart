@@ -113,94 +113,36 @@ class EnglishEntryconjecture extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بۆچوونێک یان بیرۆکەیەک کە پشتی بە زانیاریی تەواو نەبەستووە و بە گریمانە درووستکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The truth of his conjecture was confirmed by the newspaper report."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاستی ئەم گومانە پشتڕاستکرایەوە لەلایەن ڕاپۆرتی ڕۆژنامەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conjecture", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconjectures1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconjectures1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The truth of his conjecture was confirmed by the newspaper report.",
+                            kurdishText:
+                                "ڕاستی ئەم گومانە پشتڕاستکرایەوە لەلایەن ڕاپۆرتی ڕۆژنامەکەوە.", // conjecture",
+                            onPressedBritish: () => speakconjectures1("en-GB"),
+                            onPressedAmerican: () => speakconjectures1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) گریمانەکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What was going through the killer's mind is a matter for conjecture."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چی بە مێشکی بکووژەکەدا دەھات بابەتی گریمانەکردنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconjectures2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconjectures2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What was going through the killer's mind is a matter for conjecture.",
+                            kurdishText:
+                                "چی بە مێشکی بکووژەکەدا دەھات بابەتی گریمانەکردنە.",
+                            onPressedBritish: () => speakconjectures2("en-GB"),
+                            onPressedAmerican: () => speakconjectures2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) گریمانە کردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                      text:
-                                          "We can only conjecture about what was in the killer's mind.",
-                                      note:
-                                          "also: We can only conjecture what was in the killer’s mind.",
-                                    ),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا دەتوانین گریمانە بکەین سەبارەت بەوەی چی لە مێشکی بکوژەکەدا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconjectures3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconjectures3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We can only conjecture about what was in the killer's mind.",
+                            englishNote:
+                                "also: We can only conjecture what was in the killer’s mind.",
+                            kurdishText:
+                                "تەنھا دەتوانین گریمانە بکەین سەبارەت بەوەی چی لە مێشکی بکوژەکەدا بوو.",
+                            onPressedBritish: () => speakconjectures3("en-GB"),
+                            onPressedAmerican: () => speakconjectures3("en-US"),
                           ),
                         ],
                       ),

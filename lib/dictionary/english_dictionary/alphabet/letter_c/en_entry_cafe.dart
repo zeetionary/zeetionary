@@ -194,88 +194,31 @@ class EnglishEntrycafe extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شوێنێک کە دەتوانی خواردنەوە و خواردنی سادەی تێدا بکڕیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are small shops and cafes around every corner."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فرۆشگا و چاخانەی بچووک لە دەوری ھەموو سووچێکن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cafe", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcafes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcafes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are small shops and cafes around every corner.",
+                            kurdishText:
+                                "فرۆشگا و چاخانەی بچووک لە دەوری ھەموو سووچێکن.", // cafe
+                            onPressedBritish: () => speakcafes1("en-GB"),
+                            onPressedAmerican: () => speakcafes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were having lunch at a cafe near the station."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نانی نیوەڕۆیان دەخوارد لە قاوەخانەیەک لە نزیک وێستگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcafes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcafes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were having lunch at a cafe near the station.",
+                            kurdishText:
+                                "نانی نیوەڕۆیان دەخوارد لە قاوەخانەیەک لە نزیک وێستگەکە.",
+                            onPressedBritish: () => speakcafes2("en-GB"),
+                            onPressedAmerican: () => speakcafes2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We stopped for a coffee in our favourite cafe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەستاین بۆ قاوەیەک لە قاوەخانەی دڵخوازمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcafes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcafes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We stopped for a coffee in our favourite cafe.",
+                            kurdishText:
+                                "وەستاین بۆ قاوەیەک لە قاوەخانەی دڵخوازمان.",
+                            onPressedBritish: () => speakcafes3("en-GB"),
+                            onPressedAmerican: () => speakcafes3("en-US"),
                           ),
                         ],
                       ),

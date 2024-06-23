@@ -191,32 +191,13 @@ class EnglishEntrycautiously extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بە وریاییەوە، بەتایبەتی بۆ دووربوون لە ھەڵە و مەترسی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She looked cautiously around and then walked away from the house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە وریاییەوە سەیری دەورووبەری کرد و دواتر ماڵەکەی جێھێشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cautiously", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcautiouslys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcautiouslys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She looked cautiously around and then walked away from the house.",
+                            kurdishText:
+                                "بە وریاییەوە سەیری دەورووبەری کرد و دواتر ماڵەکەی جێھێشت.", // cautiously",
+                            onPressedBritish: () => speakcautiouslys1("en-GB"),
+                            onPressedAmerican: () => speakcautiouslys1("en-US"),
                           ),
                         ],
                       ),

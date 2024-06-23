@@ -95,32 +95,13 @@ class EnglishEntrycollarbone extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەر یەک لەو دوو ئێسکەی کە لە خوارەوەی ملەوە بۆ شانەکان دەچن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The collarbone is easily fractured due to its location."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێسکی چەڵەمە بە ئاسانی ئێشی پێدەگات بەھۆی شوێنکەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collarbone", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollarbones1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollarbones1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The collarbone is easily fractured due to its location.",
+                            kurdishText:
+                                "ئێسکی چەڵەمە بە ئاسانی ئێشی پێدەگات بەھۆی شوێنکەیەوە.", // collarbone",
+                            onPressedBritish: () => speakcollarbones1("en-GB"),
+                            onPressedAmerican: () => speakcollarbones1("en-US"),
                           ),
                         ],
                       ),

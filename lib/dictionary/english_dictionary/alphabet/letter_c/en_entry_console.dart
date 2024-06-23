@@ -138,178 +138,63 @@ class EnglishEntryconsole extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) دڵدانەوە؛ پێدانی ئاسوودەیی و ھاوخەمی بە کەسێک کە دڵتەنگ یان نائومێدە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Nothing could console the children when their mother died."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ نەیدەتوانی دڵنەوایی منداڵەکان بداتەوە کە دایکیان مرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "console", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsoles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsoles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Nothing could console the children when their mother died.",
+                            kurdishText:
+                                "ھیچ نەیدەتوانی دڵنەوایی منداڵەکان بداتەوە کە دایکیان مرد.", // console",
+                            onPressedBritish: () => speakconsoles1("en-GB"),
+                            onPressedAmerican: () => speakconsoles1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She put a consoling arm around his shoulders."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستێکی ھاوخەمی خستە سەر شانەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsoles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsoles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She put a consoling arm around his shoulders.",
+                            kurdishText: "دەستێکی ھاوخەمی خستە سەر شانەکانی.",
+                            onPressedBritish: () => speakconsoles2("en-GB"),
+                            onPressedAmerican: () => speakconsoles2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Console yourself with the thought that you did your best."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنەوایی خۆت بدە بەوەی ھەرچی توانیت کردت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsoles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsoles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Console yourself with the thought that you did your best.",
+                            kurdishText:
+                                "دڵنەوایی خۆت بدە بەوەی ھەرچی توانیت کردت.",
+                            onPressedBritish: () => speakconsoles3("en-GB"),
+                            onPressedAmerican: () => speakconsoles3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I didn't like lying but I consoled myself that it was for a good cause."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزم بە درۆکرن نەبوو، بەڵام دڵی خۆم دایەوە بەوەی بۆ مەبەستێکی باش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsoles4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsoles4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I didn't like lying but I consoled myself that it was for a good cause.",
+                            kurdishText:
+                                "حەزم بە درۆکرن نەبوو، بەڵام دڵی خۆم دایەوە بەوەی بۆ مەبەستێکی باش بوو.",
+                            onPressedBritish: () => speakconsoles4("en-GB"),
+                            onPressedAmerican: () => speakconsoles4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕوویەکی تەخت کە ھەموو دوگمە و کۆنترۆڵی ئامێرێک، ھتد ـی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A sound engineer's console looks as complicated as the cockpit of a jet aircraft."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میزی کۆنترۆڵی شارەزایەکی دەنگ وەک ژووری فڕۆکەوانی فڕۆکەیەک ئاڵۆزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsoles5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsoles5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A sound engineer's console looks as complicated as the cockpit of a jet aircraft.",
+                            kurdishText:
+                                "میزی کۆنترۆڵی شارەزایەکی دەنگ وەک ژووری فڕۆکەوانی فڕۆکەیەک ئاڵۆزە.",
+                            onPressedBritish: () => speakconsoles5("en-GB"),
+                            onPressedAmerican: () => speakconsoles5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئامێرێکی ئەلیکترۆنی بچووک بۆ یاریکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's the only console that will run this game."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا کۆنسۆڵە ئەم یارییە دەخوێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsoles6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsoles6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's the only console that will run this game.",
+                            kurdishText:
+                                "تەنھا کۆنسۆڵە ئەم یارییە دەخوێنێتەوە.",
+                            onPressedBritish: () => speakconsoles6("en-GB"),
+                            onPressedAmerican: () => speakconsoles6("en-US"),
                           ),
                         ],
                       ),

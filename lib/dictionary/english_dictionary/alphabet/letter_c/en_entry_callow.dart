@@ -192,32 +192,13 @@ class EnglishEntrycallow extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) گەنج و بێ‌ئەزموون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mark was just a callow youth of 16 when he arrived in Paris."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مارک تەنھا گەنجێکی بێ‌ئەزموونی ١٦ ساڵان بوو کە گەشتە پاریس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "callow", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcallows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcallows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mark was just a callow youth of 16 when he arrived in Paris.",
+                            kurdishText:
+                                "مارک تەنھا گەنجێکی بێ‌ئەزموونی ١٦ ساڵان بوو کە گەشتە پاریس.", // callow
+                            onPressedBritish: () => speakcallows1("en-GB"),
+                            onPressedAmerican: () => speakcallows1("en-US"),
                           ),
                         ],
                       ),

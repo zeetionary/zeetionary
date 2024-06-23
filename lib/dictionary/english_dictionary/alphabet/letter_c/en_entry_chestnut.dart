@@ -121,123 +121,47 @@ class EnglishEntrychestnut extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دارێکی گەورە کە قەدی بڵاوی ھەیە و کاکڵداری قاوەیی لووس بەرھەمدێنێت لەناو کاکڵێکدا کە دڕکدارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a 200-year-old chestnut tree on the hill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دار شابەڕوویەکی ٢٠٠ ساڵە ھەیە لەسەر گردەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chestnut", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchestnuts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchestnuts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a 200-year-old chestnut tree on the hill.",
+                            kurdishText:
+                                "دار شابەڕوویەکی ٢٠٠ ساڵە ھەیە لەسەر گردەکە.", // chestnut",
+                            onPressedBritish: () => speakchestnuts1("en-GB"),
+                            onPressedAmerican: () => speakchestnuts1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کاکڵدارێکی قاوەیی لووس کە بەری دار شابەڕووە و ھەندێک جۆری دەخورێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A man in the street was selling bags of chestnuts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوێک لەسەر شەقامەکە شابەڕووی دەفرۆشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchestnuts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchestnuts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A man in the street was selling bags of chestnuts.",
+                            kurdishText:
+                                "پیاوێک لەسەر شەقامەکە شابەڕووی دەفرۆشت.",
+                            onPressedBritish: () => speakchestnuts2("en-GB"),
+                            onPressedAmerican: () => speakchestnuts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ڕەنگێکی سووری مەیلەو قاوەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wore a scarf in a rich chestnut color."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەچکێکی بەستبوو کە ڕەنگی بەڕوویی تۆخ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchestnuts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchestnuts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wore a scarf in a rich chestnut color.",
+                            kurdishText:
+                                "لەچکێکی بەستبوو کە ڕەنگی بەڕوویی تۆخ بوو.",
+                            onPressedBritish: () => speakchestnuts3("en-GB"),
+                            onPressedAmerican: () => speakchestnuts3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) ڕەنگی خورمایی یان بەڕوویی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had chestnut hair that shimmered in the sunlight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قژی ڕەنگ خورمایی ھەبوو کە لەبەر خۆرەکە دەدرەوشایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchestnuts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchestnuts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had chestnut hair that shimmered in the sunlight.",
+                            kurdishText:
+                                "قژی ڕەنگ خورمایی ھەبوو کە لەبەر خۆرەکە دەدرەوشایەوە.",
+                            onPressedBritish: () => speakchestnuts4("en-GB"),
+                            onPressedAmerican: () => speakchestnuts4("en-US"),
                           ),
                         ],
                       ),

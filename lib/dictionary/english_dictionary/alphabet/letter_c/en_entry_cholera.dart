@@ -94,32 +94,13 @@ class EnglishEntrycholera extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نەخۆشییەکی سەخت کە بەھۆی بەکتریای ناو ئاوەوە تووشی دەبیت و دەبێتە ھۆی سکچوون و ڕشانەوەی سەخت و زۆرجار دەبێتە ھۆی مردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A cholera epidemic swept the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڵاوبوونەوەیەکی بەربڵاوی کۆلێرا لە وڵاتەکە ڕوویدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cholera", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcholeras1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcholeras1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A cholera epidemic swept the country.",
+                            kurdishText:
+                                "بڵاوبوونەوەیەکی بەربڵاوی کۆلێرا لە وڵاتەکە ڕوویدا.", // cholera",
+                            onPressedBritish: () => speakcholeras1("en-GB"),
+                            onPressedAmerican: () => speakcholeras1("en-US"),
                           ),
                         ],
                       ),

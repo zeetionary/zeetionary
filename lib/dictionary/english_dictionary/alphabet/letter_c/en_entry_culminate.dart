@@ -242,59 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) کۆتایی ھاتن بە ئەنجامێکی دیاریکراو یان لە خاڵێکی دیاریکراودا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Months of hard work culminated in success."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چەندین مانگ لە کاری سەخت بە سەرکەوتن کۆتایی ھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "culminate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculminates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculminates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Months of hard work culminated in success.",
+            kurdishText:
+                "چەندین مانگ لە کاری سەخت بە سەرکەوتن کۆتایی ھات.", // culminate", please follow LX instructions
+            onPressedBritish: () => speakculminates1("en-GB"),
+            onPressedAmerican: () => speakculminates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their summer tour will culminate at a spectacular concert in London."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەشتی ھاوینەیان بە کۆنسێرتێکی ناوازە لە لەندەن کۆتایی دێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculminates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculminates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Their summer tour will culminate at a spectacular concert in London.",
+            kurdishText:
+                "گەشتی ھاوینەیان بە کۆنسێرتێکی ناوازە لە لەندەن کۆتایی دێت.",
+            onPressedBritish: () => speakculminates2("en-GB"),
+            onPressedAmerican: () => speakculminates2("en-US"),
           ),
         ],
       ),

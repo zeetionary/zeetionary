@@ -241,57 +241,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە حەزی گەیاندنی ئازاری دەروونی یان جەستەیی پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dog had been cruelly treated."),
-                    ExampleSentenceKurdish(
-                        text: "سەگەکە بە دڕندانە مامەڵەی لەگەڵ کرابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cruelly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruellys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruellys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dog had been cruelly treated.",
+            kurdishText:
+                "سەگەکە بە دڕندانە مامەڵەی لەگەڵ کرابوو.", // cruelly", please follow LX instructions
+            onPressedBritish: () => speakcruellys1("en-GB"),
+            onPressedAmerican: () => speakcruellys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵکار) بەشێوەیەک کە دەبێتە ھۆی ئازاری دەروونی یان جەستەیی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I was cruelly deceived."),
-                    ExampleSentenceKurdish(text: "بێ ڕەحمانە فریودرام."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruellys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruellys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was cruelly deceived.",
+            kurdishText: "بێ ڕەحمانە فریودرام.",
+            onPressedBritish: () => speakcruellys2("en-GB"),
+            onPressedAmerican: () => speakcruellys2("en-US"),
           ),
         ],
       ),

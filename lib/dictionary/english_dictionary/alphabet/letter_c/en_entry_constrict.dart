@@ -119,118 +119,42 @@ class EnglishEntryconstrict extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) توند یان تەسک بوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her throat constricted and she swallowed hard."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوڕگی تەسک بووەوە و بە ئاستەنگ شتی قوتدەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constrict", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstricts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstricts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her throat constricted and she swallowed hard.",
+                            kurdishText:
+                                "قوڕگی تەسک بووەوە و بە ئاستەنگ شتی قوتدەدا.", // constrict",
+                            onPressedBritish: () => speakconstricts1("en-GB"),
+                            onPressedAmerican: () => speakconstricts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He hated wearing a tie - he felt it constricted his breathing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕقی لە بەستنی بۆینباخ بوو، پێی وابوو ھەناسەدانی توند دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstricts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstricts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He hated wearing a tie - he felt it constricted his breathing.",
+                            kurdishText:
+                                "ڕقی لە بەستنی بۆینباخ بوو، پێی وابوو ھەناسەدانی توند دەکات.",
+                            onPressedBritish: () => speakconstricts2("en-GB"),
+                            onPressedAmerican: () => speakconstricts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) سنووردارکردنی توانای کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Film-makers of the time were constricted by the censors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرھەمھێنەرانی ئەو کاتی فیلم سنوورداربوون بەھۆی سانسۆرەکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstricts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstricts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Film-makers of the time were constricted by the censors.",
+                            kurdishText:
+                                "بەرھەمھێنەرانی ئەو کاتی فیلم سنوورداربوون بەھۆی سانسۆرەکانەوە.",
+                            onPressedBritish: () => speakconstricts3("en-GB"),
+                            onPressedAmerican: () => speakconstricts3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Too many rules had constricted her lifestyle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاسای زۆر شێوازی ژیانی سنووردارکردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstricts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstricts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Too many rules had constricted her lifestyle.",
+                            kurdishText:
+                                "یاسای زۆر شێوازی ژیانی سنووردارکردبوو.",
+                            onPressedBritish: () => speakconstricts4("en-GB"),
+                            onPressedAmerican: () => speakconstricts4("en-US"),
                           ),
                         ],
                       ),

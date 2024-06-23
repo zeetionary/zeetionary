@@ -128,147 +128,52 @@ class EnglishEntrycompulsion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) فشاری زۆر لەسەر کەسێک بۆ کردنی شتێک کە نایەوێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You are under no compulsion to pay immediately."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەژێر ھیچ زۆرەملێیەکدا نیت کە زوو پارە بدەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compulsion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompulsions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompulsions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You are under no compulsion to pay immediately.",
+                            kurdishText:
+                                "لەژێر ھیچ زۆرەملێیەکدا نیت کە زوو پارە بدەیت.", // compulsion",
+                            onPressedBritish: () => speakcompulsions1("en-GB"),
+                            onPressedAmerican: () => speakcompulsions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are no compulsions on students to attend classes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ فشار لەسەر خوێندکاران نییە بچنە وانەکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompulsions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompulsions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are no compulsions on students to attend classes.",
+                            kurdishText:
+                                "ھیچ فشار لەسەر خوێندکاران نییە بچنە وانەکانەوە.",
+                            onPressedBritish: () => speakcompulsions2("en-GB"),
+                            onPressedAmerican: () => speakcompulsions2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The legal system is based on compulsion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیستەمی یاسایی پشت بە زۆردارەکی دەبەستێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompulsions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompulsions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The legal system is based on compulsion.",
+                            kurdishText:
+                                "سیستەمی یاسایی پشت بە زۆردارەکی دەبەستێت.",
+                            onPressedBritish: () => speakcompulsions3("en-GB"),
+                            onPressedAmerican: () => speakcompulsions3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) حەزێکی زۆر بۆ کردنی شتێک، بە تایبەتی شتێکی گەمژانە، مەترسیدار، یان ھەڵە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He felt a great compulsion to tell her everything."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە ھاندەرێکی زۆر کرد کە ھەموو شتێکی پێ بڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompulsions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompulsions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He felt a great compulsion to tell her everything.",
+                            kurdishText:
+                                "ھەستی بە ھاندەرێکی زۆر کرد کە ھەموو شتێکی پێ بڵێت.",
+                            onPressedBritish: () => speakcompulsions4("en-GB"),
+                            onPressedAmerican: () => speakcompulsions4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He felt a great compulsion to drive too fast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە پاڵنەرێکی بەھێز کرد کە خێرا لێبخوڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompulsions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompulsions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He felt a great compulsion to drive too fast.",
+                            kurdishText:
+                                "ھەستی بە پاڵنەرێکی بەھێز کرد کە خێرا لێبخوڕێت.",
+                            onPressedBritish: () => speakcompulsions5("en-GB"),
+                            onPressedAmerican: () => speakcompulsions5("en-US"),
                           ),
                         ],
                       ),

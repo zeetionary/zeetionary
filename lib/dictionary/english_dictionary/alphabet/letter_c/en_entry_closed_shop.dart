@@ -95,32 +95,13 @@ class EnglishEntryclosedshop extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کارگەیەک، بازرگانییەک، ھتد کە ھەموو کارمەندانی دەبێت سەر بە یەک سەندیکا بن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Working in a closed shop had advantages and disadvantages."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارکردن لە دامەزراوەی داخراودا دەکرێت سوود و زیانی خۆی ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "closed shop", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosedshops1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosedshops1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Working in a closed shop had advantages and disadvantages.",
+                            kurdishText:
+                                "کارکردن لە دامەزراوەی داخراودا دەکرێت سوود و زیانی خۆی ھەبێت.", // closed shop",
+                            onPressedBritish: () => speakclosedshops1("en-GB"),
+                            onPressedAmerican: () => speakclosedshops1("en-US"),
                           ),
                         ],
                       ),

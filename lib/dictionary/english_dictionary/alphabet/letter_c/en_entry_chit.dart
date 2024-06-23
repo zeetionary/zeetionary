@@ -102,61 +102,23 @@ class EnglishEntrychit extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تێبینییەکی کورت کە لەلایەن کەسێکەوە واژۆکراوە و بڕە قەرزێک پیشان دەدات یان مۆڵەت بە کەسێک دەدات بۆ کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do I need to sign a chit for these drinks?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت پەڕەیەک واژۆ بکەم بۆ ئەم خواردنەوانە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chit", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchits1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do I need to sign a chit for these drinks?",
+                            kurdishText:
+                                "دەبێت پەڕەیەک واژۆ بکەم بۆ ئەم خواردنەوانە؟", // chit",
+                            onPressedBritish: () => speakchits1("en-GB"),
+                            onPressedAmerican: () => speakchits1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کچ یان ژنێک، بەتایبەتی کە فێری ڕێز نەکراوە بەرامبەر کەسانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She was just a chit of a girl."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەنھا کچێکی دەمەوەر بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchits2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchits2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was just a chit of a girl.",
+                            kurdishText: "تەنھا کچێکی دەمەوەر بوو.",
+                            onPressedBritish: () => speakchits2("en-GB"),
+                            onPressedAmerican: () => speakchits2("en-US"),
                           ),
                         ],
                       ),

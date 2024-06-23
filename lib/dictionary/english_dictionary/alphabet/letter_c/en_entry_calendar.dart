@@ -195,124 +195,48 @@ class EnglishEntrycalendar extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) لاپەڕەیەک یان کۆمەڵە لاپەڕەیەک کە ھەفتە و مانگەکانی ساڵێکی دیاریکراوی تێدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An old calendar for 2012 was still hanging on the wall of her office."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژمێرێکی کۆنی ٢٠١٢ ھێشتا لەسەر دیواری ئۆفیسەکەی ھەڵواسرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calendar", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalendars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalendars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An old calendar for 2012 was still hanging on the wall of her office.",
+                            kurdishText:
+                                "ڕۆژمێرێکی کۆنی ٢٠١٢ ھێشتا لەسەر دیواری ئۆفیسەکەی ھەڵواسرابوو.", // calendar
+                            onPressedBritish: () => speakcalendars1("en-GB"),
+                            onPressedAmerican: () => speakcalendars1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) تۆماری ئەرکەکانت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think I'm free on that day—let me check my calendar."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێم‌وایە ئەو ڕۆژە کارم نییە، با سەیرێکی خشتەکەم بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalendars2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalendars2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I think I'm free on that day—let me check my calendar.",
+                            kurdishText:
+                                "پێم‌وایە ئەو ڕۆژە کارم نییە، با سەیرێکی خشتەکەم بکەم.",
+                            onPressedBritish: () => speakcalendars2("en-GB"),
+                            onPressedAmerican: () => speakcalendars2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) لیستێکی بەروار و بۆنە گرنگەکانی ساڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These days the tennis calendar has become so crowded."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ڕۆژانە بۆنەکانی یاری تێنس زۆر زۆرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalendars3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalendars3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These days the tennis calendar has become so crowded.",
+                            kurdishText:
+                                "ئەم ڕۆژانە بۆنەکانی یاری تێنس زۆر زۆرن.",
+                            onPressedBritish: () => speakcalendars3("en-GB"),
+                            onPressedAmerican: () => speakcalendars3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) سیستەمێک کە بەکارێت بۆ دابەشکردنی ساڵ بەسەر ماوەی نەگۆڕدا و سەرەتا و کۆتایی ساڵ پیشان دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Chinese calendar was developed around 600 BC."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵنامەی چینی لە نزیکەی ٦٠٠ پ.ز درووستکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalendars4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalendars4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Chinese calendar was developed around 600 BC.",
+                            kurdishText:
+                                "ساڵنامەی چینی لە نزیکەی ٦٠٠ پ.ز درووستکرا.",
+                            onPressedBritish: () => speakcalendars4("en-GB"),
+                            onPressedAmerican: () => speakcalendars4("en-US"),
                           ),
                         ],
                       ),

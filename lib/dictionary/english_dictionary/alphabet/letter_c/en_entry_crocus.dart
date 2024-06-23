@@ -234,31 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گوڵێکی زەرد، مۆر، یان سپی کە لە سەرەتای بەھاردا دەرەکەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The garden was dotted with purple and yellow crocuses."),
-                    ExampleSentenceKurdish(
-                        text: "باخچەکە پڕ بوو لە گوڵەزافەرانی مۆر و زەرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crocus", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrocuss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrocuss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The garden was dotted with purple and yellow crocuses.",
+            kurdishText:
+                "باخچەکە پڕ بوو لە گوڵەزافەرانی مۆر و زەرد.", // crocus", please follow LX instructions
+            onPressedBritish: () => speakcrocuss1("en-GB"),
+            onPressedAmerican: () => speakcrocuss1("en-US"),
           ),
         ],
       ),

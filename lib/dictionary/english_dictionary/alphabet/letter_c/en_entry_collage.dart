@@ -103,62 +103,24 @@ class EnglishEntrycollage extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) وێنەیەک کە درووست دەکرێت بە پێکەوە لکاندنی پارچە کاغەزی ڕەنگکراو، قوماش، یان وێنە لەسەر ڕوویەک، یان دانانی وێنە لە تەنیشت یەکدی لە لەسەر کۆمپیوتەرێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She makes collages from everyday objects that she finds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کالاژ درووست دەکات لەو شتانەی ڕۆژانە دەیاندۆزێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collage", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She makes collages from everyday objects that she finds.",
+                            kurdishText:
+                                "کالاژ درووست دەکات لەو شتانەی ڕۆژانە دەیاندۆزێتەوە.", // collage",
+                            onPressedBritish: () => speakcollages1("en-GB"),
+                            onPressedAmerican: () => speakcollages1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ھونەری درووستکردنی کالاژ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He began to experiment with collage techniques."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی بە تاقیکردنەوەی تەکنیکەکانی کالاژ کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollages3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollages3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He began to experiment with collage techniques.",
+                            kurdishText:
+                                "دەستی بە تاقیکردنەوەی تەکنیکەکانی کالاژ کرد.",
+                            onPressedBritish: () => speakcollages3("en-GB"),
+                            onPressedAmerican: () => speakcollages3("en-US"),
                           ),
                         ],
                       ),

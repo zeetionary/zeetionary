@@ -191,90 +191,33 @@ class EnglishEntrycavity extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چاڵێک یان بۆشاییەک لەناو شتێکی ڕەقدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The gold was hidden in a secret cavity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زێڕەکە لەناو کەلێنێکی نھێنیدا دۆزرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cavity", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcavitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcavitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The gold was hidden in a secret cavity.",
+                            kurdishText:
+                                "زێڕەکە لەناو کەلێنێکی نھێنیدا دۆزرایەوە.", // cavity",
+                            onPressedBritish: () => speakcavitys1("en-GB"),
+                            onPressedAmerican: () => speakcavitys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The abdominal cavity houses organs like the stomach and intestines."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاڵی سک ئەندامەکانی وەک گەدە و ڕیخۆڵەی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcavitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcavitys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The abdominal cavity houses organs like the stomach and intestines.",
+                            kurdishText:
+                                "چاڵی سک ئەندامەکانی وەک گەدە و ڕیخۆڵەی تێدایە.",
+                            onPressedBritish: () => speakcavitys2("en-GB"),
+                            onPressedAmerican: () => speakcavitys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) چاڵێک لە دداندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most dentists fill cavities right away."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر پزیشکی ددان کەلێن بەزووی پڕدەکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcavitys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcavitys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most dentists fill cavities right away.",
+                            kurdishText:
+                                "زۆر پزیشکی ددان کەلێن بەزووی پڕدەکەنەوە.",
+                            onPressedBritish: () => speakcavitys3("en-GB"),
+                            onPressedAmerican: () => speakcavitys3("en-US"),
                           ),
                         ],
                       ),

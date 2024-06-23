@@ -117,116 +117,38 @@ class EnglishEntrycomputer extends StatelessWidget {
 // کوردی:
 // """),
                           const DefinitionKurdish(text: "١. (ناو) کۆمپیوتەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The whole process is run and monitored by computer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی پڕۆسەکە لەلایەن کۆمپیوتەرەوە ئەنجام دەدرێت و چاودێری دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "computer", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomputers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomputers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The whole process is run and monitored by computer.",
+                            kurdishText:
+                                "تەواوی پڕۆسەکە لەلایەن کۆمپیوتەرەوە ئەنجام دەدرێت و چاودێری دەکرێت.", // computer",
+                            onPressedBritish: () => speakcomputers1("en-GB"),
+                            onPressedAmerican: () => speakcomputers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spends all day playing on his computer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ڕۆژەکە بە یاریکردن لەسەر کۆمپیوتەرەکەی بەسەر دەبات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomputers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomputers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He spends all day playing on his computer.",
+                            kurdishText:
+                                "تەواوی ڕۆژەکە بە یاریکردن لەسەر کۆمپیوتەرەکەی بەسەر دەبات.",
+                            onPressedBritish: () => speakcomputers2("en-GB"),
+                            onPressedAmerican: () => speakcomputers2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's all stored on the computer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمووی لەسەر کۆمپیوتەرەکە کۆگاکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomputers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomputers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's all stored on the computer.",
+                            kurdishText: "ھەمووی لەسەر کۆمپیوتەرەکە کۆگاکراوە.",
+                            onPressedBritish: () => speakcomputers3("en-GB"),
+                            onPressedAmerican: () => speakcomputers3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's awful when a virus crashes your computer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناخۆشە کە ڤایرۆسێک کۆمپیوتەرەکەت لەکاردەخات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomputers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomputers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's awful when a virus crashes your computer.",
+                            kurdishText:
+                                "ناخۆشە کە ڤایرۆسێک کۆمپیوتەرەکەت لەکاردەخات.",
+                            onPressedBritish: () => speakcomputers4("en-GB"),
+                            onPressedAmerican: () => speakcomputers4("en-US"),
                           ),
                         ],
                       ),

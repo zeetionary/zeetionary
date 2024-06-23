@@ -94,32 +94,12 @@ class EnglishEntrycoldcash extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارە کە ئامادەیە کە بۆ خەرجکردن، بەتایبەتی لە شێوەی سکە و کاغەزدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He paid for the car with cold cash."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارەی ئۆتۆمبێلەکەی دا بە پارەی نەقد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cold cash", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoldcashs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoldcashs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He paid for the car with cold cash.",
+                            kurdishText:
+                                "پارەی ئۆتۆمبێلەکەی دا بە پارەی نەقد.", // cold cash",
+                            onPressedBritish: () => speakcoldcashs1("en-GB"),
+                            onPressedAmerican: () => speakcoldcashs1("en-US"),
                           ),
                         ],
                       ),

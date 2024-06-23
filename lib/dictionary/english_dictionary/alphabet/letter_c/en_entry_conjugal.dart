@@ -95,35 +95,15 @@ class EnglishEntryconjugal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە ھاوسەرگیری و پەیوەندیی سێکسی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some prisoners who want to start a family are to be permitted conjugal visits."),
-                                    ExampleSentenceKurdish(
-                                      text:
+                          SentencesRow(
+  englishText:
+                                            "Some prisoners who want to start a family are to be permitted conjugal visits.",
+kurdishText:
                                           "ھەندێک زیندانی کە دەیانەوێت خێزان درووست بکەن ڕێگەی سەردانی خێزانییان پێدەدرێت.",
-                                      note:
+                                      kurdishNote:
                                           "ئەم جۆرە سەردانە کاتێکی زیاتر دەخایەنێت وەک لە سەردانی ئاسایی و سەردانکار دەتوانێت کات لەگەڵ زیندانییەکە بەسەر ببات، بۆ نموونە نووستن پێکەوە",
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conjugal", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconjugals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconjugals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                                    onPressedBritish: () => speakconjugals1("en-GB"),
+onPressedAmerican: () => speakconjugals1("en-US"),
                           ),
                         ],
                       ),

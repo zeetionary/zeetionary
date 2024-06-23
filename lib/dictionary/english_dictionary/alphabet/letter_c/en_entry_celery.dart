@@ -186,32 +186,13 @@ class EnglishEntrycelery extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەرەوز؛ سەوزەیەک کە قەدێکی سوەزی درێژی ھەیە و بە کاڵی دەخورێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Chop the celery and add it to the salad."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەرەوزەکە ورد بکە و بیکە زەڵاتەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "celery", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelerys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelerys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Chop the celery and add it to the salad.",
+                            kurdishText:
+                                "کەرەوزەکە ورد بکە و بیکە زەڵاتەکەوە.", // celery",
+                            onPressedBritish: () => speakcelerys1("en-GB"),
+                            onPressedAmerican: () => speakcelerys1("en-US"),
                           ),
                         ],
                       ),

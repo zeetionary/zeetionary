@@ -103,60 +103,22 @@ class EnglishEntrycharisma extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تایبەتمەندیی بەھێزی کەسایەتی ھەندێک کەس کە ھەیانە بۆ سەرنجڕاکێشانی کەسانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The President has great personal charisma."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک کاریزمای کەسی گەورەی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "charisma", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharismas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharismas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The President has great personal charisma.",
+                            kurdishText:
+                                "سەرۆک کاریزمای کەسی گەورەی ھەیە.", // charisma",
+                            onPressedBritish: () => speakcharismas1("en-GB"),
+                            onPressedAmerican: () => speakcharismas1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How did a man of so little personal charisma get to be prime minister?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن کەسێکی ھێندە بێ‌بەھرە توانی ببێت بە سەرۆک وەزیران؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharismas2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharismas2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How did a man of so little personal charisma get to be prime minister?",
+                            kurdishText:
+                                "چۆن کەسێکی ھێندە بێ‌بەھرە توانی ببێت بە سەرۆک وەزیران؟",
+                            onPressedBritish: () => speakcharismas2("en-GB"),
+                            onPressedAmerican: () => speakcharismas2("en-US"),
                           ),
                         ],
                       ),

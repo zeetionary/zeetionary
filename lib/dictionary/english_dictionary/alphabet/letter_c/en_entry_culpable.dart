@@ -251,85 +251,28 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) بەرپرس یان شایەنی سەرزەنشت بۆ کردنی کارێکی ھەڵە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The accident was the result of a culpable failure to consider the risks involved."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووداوەکە ئەنجامی شکستھێنانێکی بەرپرس بوو لە لەبەرچاوگرتنی ئەو مەترسییانەی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "culpable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculpables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculpables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The accident was the result of a culpable failure to consider the risks involved.",
+            kurdishText:
+                "ڕووداوەکە ئەنجامی شکستھێنانێکی بەرپرس بوو لە لەبەرچاوگرتنی ئەو مەترسییانەی ھەبوو.", // culpable", please follow LX instructions
+            onPressedBritish: () => speakculpables1("en-GB"),
+            onPressedAmerican: () => speakculpables1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She believed him culpable of murder."),
-                    ExampleSentenceKurdish(
-                        text: "وای دەبینی کووشتنی لێبوەشێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculpables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculpables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She believed him culpable of murder.",
+            kurdishText: "وای دەبینی کووشتنی لێبوەشێتەوە.",
+            onPressedBritish: () => speakculpables2("en-GB"),
+            onPressedAmerican: () => speakculpables2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The prime minister is highly culpable in this affair."),
-                    ExampleSentenceKurdish(
-                        text: "سەرۆک وەزیران زۆر بەرپرسە لەم بابەتەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculpables3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculpables3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The prime minister is highly culpable in this affair.",
+            kurdishText: "سەرۆک وەزیران زۆر بەرپرسە لەم بابەتەدا.",
+            onPressedBritish: () => speakculpables3("en-GB"),
+            onPressedAmerican: () => speakculpables3("en-US"),
           ),
         ],
       ),

@@ -95,32 +95,13 @@ class EnglishEntryconman extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پیاوێک کە کەسانی تر دەخەڵەتێنێت بۆ پێدانی پارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie focuses on the friendship between a dim-witted stud and a petty conman."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە سەرنج دەخاتەسەر ھاوڕێیەتی زەنەکێکی گەمژە و دەسبڕێکی ھیچ‌وپووچ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conman", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconmans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconmans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie focuses on the friendship between a dim-witted stud and a petty conman.",
+                            kurdishText:
+                                "فیلمەکە سەرنج دەخاتەسەر ھاوڕێیەتی زەنەکێکی گەمژە و دەسبڕێکی ھیچ‌وپووچ.", // conman",
+                            onPressedBritish: () => speakconmans1("en-GB"),
+                            onPressedAmerican: () => speakconmans1("en-US"),
                           ),
                         ],
                       ),

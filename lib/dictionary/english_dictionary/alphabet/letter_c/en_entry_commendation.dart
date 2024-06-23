@@ -101,67 +101,29 @@ class EnglishEntrycommendation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ستایش؛ پەسەندکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The film deserves the highest commendation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە شایەنی ئەوپەڕی ستایشکردنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commendation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommendations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommendations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The film deserves the highest commendation.",
+                            kurdishText:
+                                "فیلمەکە شایەنی ئەوپەڕی ستایشکردنە.", // commendation",
+                            onPressedBritish: () =>
+                                speakcommendations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommendations1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) خەڵاتێک یان وتەیەکی فەرمی کە ستایشی کەسێک/شتێک دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were 16 prize winners and 18 commendations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "١٦ براوەی خەڵات و ١٨ ڕێزلێنان ھەبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommendations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommendations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were 16 prize winners and 18 commendations.",
+                            kurdishText:
+                                "١٦ براوەی خەڵات و ١٨ ڕێزلێنان ھەبوون.",
+                            onPressedBritish: () =>
+                                speakcommendations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommendations2("en-US"),
                           ),
                         ],
                       ),

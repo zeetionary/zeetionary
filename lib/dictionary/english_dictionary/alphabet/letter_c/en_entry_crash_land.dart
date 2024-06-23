@@ -231,30 +231,12 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (کردار) نیشتنەوەی ناچاری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The jet crash-landed and burst into flames."),
-                    ExampleSentenceKurdish(
-                        text: "فڕۆەککە بە ناچاری نیشتەوە و گڕی گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crash land", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashlands1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashlands1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The jet crash-landed and burst into flames.",
+            kurdishText:
+                "فڕۆەککە بە ناچاری نیشتەوە و گڕی گرت.", // crash land", please follow LX instructions
+            onPressedBritish: () => speakcrashlands1("en-GB"),
+            onPressedAmerican: () => speakcrashlands1("en-US"),
           ),
         ],
       ),

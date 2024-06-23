@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەبوونی چاوێک یان ھەردوو چاو کە ڕووی لە لووت بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I’m going cross-eyed, working on those handwritten texts all day."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەریکە خێل دەبم بەدەست کارکردن بۆ تەواوی ڕۆژەکە لەگەڵ ئەو نووسینە دەستنووسانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cross-eyed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosseyeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosseyeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I’m going cross-eyed, working on those handwritten texts all day.",
+            kurdishText:
+                "خەریکە خێل دەبم بەدەست کارکردن بۆ تەواوی ڕۆژەکە لەگەڵ ئەو نووسینە دەستنووسانە.", // cross-eyed", please follow LX instructions
+            onPressedBritish: () => speakcrosseyeds1("en-GB"),
+            onPressedAmerican: () => speakcrosseyeds1("en-US"),
           ),
         ],
       ),

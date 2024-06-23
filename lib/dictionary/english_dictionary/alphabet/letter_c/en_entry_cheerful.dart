@@ -110,89 +110,31 @@ class EnglishEntrycheerful extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) دڵخۆش و پیشاندانی بە شێوەی دەرکەوتنت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You're not your usual cheerful self today."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمڕۆ وەک ھەمیشەیی خۆت دڵخۆش نیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheerful", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheerfuls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheerfuls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You're not your usual cheerful self today.",
+                            kurdishText:
+                                "ئەمڕۆ وەک ھەمیشەیی خۆت دڵخۆش نیت.", // cheerful",
+                            onPressedBritish: () => speakcheerfuls1("en-GB"),
+                            onPressedAmerican: () => speakcheerfuls1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We tried to keep him cheerful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵماندا بە دڵخۆشی بیھێڵینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheerfuls2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheerfuls2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We tried to keep him cheerful.",
+                            kurdishText: "ھەوڵماندا بە دڵخۆشی بیھێڵینەوە.",
+                            onPressedBritish: () => speakcheerfuls2("en-GB"),
+                            onPressedAmerican: () => speakcheerfuls2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wrote him a chatty, cheerful letter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەیەکی ھاوڕێیانەی بەکەیفی بۆ نووسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheerfuls3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheerfuls3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wrote him a chatty, cheerful letter.",
+                            kurdishText:
+                                "نامەیەکی ھاوڕێیانەی بەکەیفی بۆ نووسی.",
+                            onPressedBritish: () => speakcheerfuls3("en-GB"),
+                            onPressedAmerican: () => speakcheerfuls3("en-US"),
                           ),
                         ],
                       ),

@@ -191,34 +191,14 @@ class EnglishEntrycaterpillar extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گیانلەبەرێکی بچووک کە وەک کرم وایە و قاچی ھەیە، کە گەشە دەکات دەبێت بە پەپوولە یان مۆرانە، و گەڵای دار دەخوات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I found a gorgeous green caterpillar munching on leaves in my garden."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرمەپەپوولەیەکی جوانی سەوزم دۆزییەوە گەڵای داری دەخوارد لە باخچەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "caterpillar", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcaterpillars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcaterpillars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I found a gorgeous green caterpillar munching on leaves in my garden.",
+                            kurdishText:
+                                "کرمەپەپوولەیەکی جوانی سەوزم دۆزییەوە گەڵای داری دەخوارد لە باخچەکەم.", // caterpillar",
+                            onPressedBritish: () => speakcaterpillars1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcaterpillars1("en-US"),
                           ),
                         ],
                       ),

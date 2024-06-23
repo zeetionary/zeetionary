@@ -126,117 +126,38 @@ class EnglishEntrycompetent extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's very competent in his work."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر لێوەشاوەیە لە کارەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "competent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's very competent in his work.",
+                            kurdishText:
+                                "زۆر لێوەشاوەیە لە کارەکەیدا.", // competent",
+                            onPressedBritish: () => speakcompetents1("en-GB"),
+                            onPressedAmerican: () => speakcompetents1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don’t feel competent to comment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەست بە لێزانی ناکەم کە لێدوان بدەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I don’t feel competent to comment.",
+                            kurdishText: "ھەست بە لێزانی ناکەم کە لێدوان بدەم.",
+                            onPressedBritish: () => speakcompetents2("en-GB"),
+                            onPressedAmerican: () => speakcompetents2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is highly competent at her job."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر بە توانایە لە کارەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetents3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetents3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She is highly competent at her job.",
+                            kurdishText: "زۆر بە توانایە لە کارەکەیدا.",
+                            onPressedBritish: () => speakcompetents3("en-GB"),
+                            onPressedAmerican: () => speakcompetents3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) لە ئاستێکی باش، بەڵام زۆر باش نا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I wouldn't say he was brilliant but he is competent at his job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەوێت بڵێم نایاب بوو لە کارەکەیدا بەڵام باش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetents4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetents4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I wouldn't say he was brilliant but he is competent at his job.",
+                            kurdishText:
+                                "نامەوێت بڵێم نایاب بوو لە کارەکەیدا بەڵام باش بوو.",
+                            onPressedBritish: () => speakcompetents4("en-GB"),
+                            onPressedAmerican: () => speakcompetents4("en-US"),
                           ),
                           // const DividerDefinition(),
                           // const DefinitionKurdish(text: "٣. (ھاوەڵناو) ھەبوونی دەسەڵاتی بڕیاردانی شتێک"),

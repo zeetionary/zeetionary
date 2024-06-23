@@ -108,91 +108,34 @@ class EnglishEntrychar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ژنێک کە کاری پاککردنەوەی خانوویەک، بینایەک، ھتد"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The char came twice a week to clean the house and do the laundry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنە کارەکەرەکە ھەفتەی دووجار دەھات بۆ پاککردنەوەی ماڵەکە و شۆردنی جلەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "char", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The char came twice a week to clean the house and do the laundry.",
+                            kurdishText:
+                                "ژنە کارەکەرەکە ھەفتەی دووجار دەھات بۆ پاککردنەوەی ماڵەکە و شۆردنی جلەکان.", // char",
+                            onPressedBritish: () => speakchars1("en-GB"),
+                            onPressedAmerican: () => speakchars1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) چای"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After a long day at work, I like to relax with a good book and a cup of char."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای ڕۆژێکی درێژخایەن لە کار، حەزدەکەم بحەسێمەوە لەگەڵ کتێبێکی باش و کوپێک چا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchars2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchars2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After a long day at work, I like to relax with a good book and a cup of char.",
+                            kurdishText:
+                                "لە دوای ڕۆژێکی درێژخایەن لە کار، حەزدەکەم بحەسێمەوە لەگەڵ کتێبێکی باش و کوپێک چا.",
+                            onPressedBritish: () => speakchars2("en-GB"),
+                            onPressedAmerican: () => speakchars2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) ڕەشبوونەوە بە سوتان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bodies were charred beyond recognition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەستەکان تا ئاستی نەناسینەوە سووتابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchars3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchars3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bodies were charred beyond recognition.",
+                            kurdishText:
+                                "جەستەکان تا ئاستی نەناسینەوە سووتابوون.",
+                            onPressedBritish: () => speakchars3("en-GB"),
+                            onPressedAmerican: () => speakchars3("en-US"),
                           ),
                         ],
                       ),

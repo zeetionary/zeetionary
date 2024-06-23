@@ -105,64 +105,26 @@ class EnglishEntrycontradictory extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بۆچوونێک، گێڕانەوەیەک، لێدوانێک، ھتد ناکۆک یان دژبەرە لەگەڵ یەکێکی دیکەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The advice I received was often contradictory."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ڕاوێژانەی وەرمدەگرتن زۆرجار پێک‌ناکۆک بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contradictory", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontradictorys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontradictorys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The advice I received was often contradictory.",
+                            kurdishText:
+                                "ئەو ڕاوێژانەی وەرمدەگرتن زۆرجار پێک‌ناکۆک بوون.", // contradictory",
+                            onPressedBritish: () =>
+                                speakcontradictorys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontradictorys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are faced with two apparently contradictory statements."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووبەڕووی دوو لێدوانی بە ئاشکرا پێک‌ناکۆک بووینەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontradictorys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontradictorys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are faced with two apparently contradictory statements.",
+                            kurdishText:
+                                "ڕووبەڕووی دوو لێدوانی بە ئاشکرا پێک‌ناکۆک بووینەتەوە.",
+                            onPressedBritish: () =>
+                                speakcontradictorys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontradictorys2("en-US"),
                           ),
                         ],
                       ),

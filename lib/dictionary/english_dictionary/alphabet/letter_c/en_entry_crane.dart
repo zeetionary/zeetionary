@@ -251,89 +251,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئامێرێکی بەرزکەرەوە کە لە بیناسازیدا بەکاردێت بۆ بەرزکردنەوەی کەرەستە قورسەکان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The crane lifted the container off the ship."),
-                    ExampleSentenceKurdish(
-                        text: "بەرزکەرەوەکە سنووقەکەی لە کەشتییەکە ھەڵکێشا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crane", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcranes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcranes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The crane lifted the container off the ship.",
+            kurdishText:
+                "بەرزکەرەوەکە سنووقەکەی لە کەشتییەکە ھەڵکێشا.", // crane", please follow LX instructions
+            onPressedBritish: () => speakcranes1("en-GB"),
+            onPressedAmerican: () => speakcranes1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) باڵندەی لەق‌لەق"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crane's movements inspired many traditional dances in Asian cultures."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جوڵەی لەق‌لەق خوڵقێنەری ژمارەیەکی زۆر لە سەمای نەریتی کەلتوورەکانی ئاسیا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcranes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcranes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The crane's movements inspired many traditional dances in Asian cultures.",
+            kurdishText:
+                "جوڵەی لەق‌لەق خوڵقێنەری ژمارەیەکی زۆر لە سەمای نەریتی کەلتوورەکانی ئاسیا بوو.",
+            onPressedBritish: () => speakcranes2("en-GB"),
+            onPressedAmerican: () => speakcranes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) ڕوانین بەسەر شتێکدا بۆ باشتر بینین"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "People were craning out of the windows and waving."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەڵکی لە پەنجەرەکانەوە دەیان ڕوانی و سڵاویان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcranes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcranes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "People were craning out of the windows and waving.",
+            kurdishText: "خەڵکی لە پەنجەرەکانەوە دەیان ڕوانی و سڵاویان دەکرد.",
+            onPressedBritish: () => speakcranes3("en-GB"),
+            onPressedAmerican: () => speakcranes3("en-US"),
           ),
         ],
       ),

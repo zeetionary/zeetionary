@@ -99,32 +99,12 @@ class EnglishEntrycobbles extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) وردە بەردی خڕ کە بەکاردێت بۆ دانانی ڕووکەشی ڕێگا، بەتایبەتی لە کۆندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cart rumbled over the cobbles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "عەرەبانەکە زرمەی دەھات بەسەر خڕکەبەردەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cobbles", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcobbless1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcobbless1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The cart rumbled over the cobbles.",
+                            kurdishText:
+                                "عەرەبانەکە زرمەی دەھات بەسەر خڕکەبەردەکاندا.", // cobbles",
+                            onPressedBritish: () => speakcobbless1("en-GB"),
+                            onPressedAmerican: () => speakcobbless1("en-US"),
                           ),
                         ],
                       ),

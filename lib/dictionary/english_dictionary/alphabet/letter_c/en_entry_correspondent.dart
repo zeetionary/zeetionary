@@ -258,114 +258,39 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە لە وڵاتێکی دیاریکراوەوە یان لەسەر بابەتێکی دیاریکراو بۆ ڕۆژنامەیەک یان تەلەفیزیۆنێک یان ڕادیۆیەک ڕاپۆرت ئامادە دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's the BBC's political correspondent."),
-                    ExampleSentenceKurdish(
-                        text: "پەیامنێری سیاسیی بی‌بی‌سییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "correspondent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's the BBC's political correspondent.",
+            kurdishText:
+                "پەیامنێری سیاسیی بی‌بی‌سییە.", // correspondent", please follow LX instructions
+            onPressedBritish: () => speakcorrespondents1("en-GB"),
+            onPressedAmerican: () => speakcorrespondents1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Now, a report from our Hong Kong correspondent."),
-                    ExampleSentenceKurdish(
-                        text: "ئێستا، ڕاپۆرتێک لە پەیامنێری ھۆنگ کۆنگمانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Now, a report from our Hong Kong correspondent.",
+            kurdishText: "ئێستا، ڕاپۆرتێک لە پەیامنێری ھۆنگ کۆنگمانەوە.",
+            onPressedBritish: () => speakcorrespondents2("en-GB"),
+            onPressedAmerican: () => speakcorrespondents2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک کە نامە یان ئیمەیڵ دەنووسێت بۆ کەسێکی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She's a poor correspondent (= she does not write regularly)."),
-                    ExampleSentenceKurdish(text: "نامەنووسێکی کەمدووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondents3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondents3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She's a poor correspondent (= she does not write regularly).",
+            kurdishText: "نامەنووسێکی کەمدووە.",
+            onPressedBritish: () => speakcorrespondents3("en-GB"),
+            onPressedAmerican: () => speakcorrespondents3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'm a terrible correspondent - I never seem to get the time to write."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نامەنووسێکی خراپم، ھەرگیز کاتم بەردەست نابێت بۆ نووسین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondents4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondents4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I'm a terrible correspondent - I never seem to get the time to write.",
+            kurdishText:
+                "نامەنووسێکی خراپم، ھەرگیز کاتم بەردەست نابێت بۆ نووسین.",
+            onPressedBritish: () => speakcorrespondents4("en-GB"),
+            onPressedAmerican: () => speakcorrespondents4("en-US"),
           ),
         ],
       ),

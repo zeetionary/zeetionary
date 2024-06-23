@@ -191,122 +191,45 @@ class EnglishEntrycareless extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پێنەدانی سەرنج و ھۆشیاریی پێویست بە شتێک کە دەیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was careless of me to leave the door open."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کەمتەرخەمیم بوو کە دەرگاکەم بە کراوەیی جێھێشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "careless", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarelesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarelesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was careless of me to leave the door open.",
+                            kurdishText:
+                                "لە کەمتەرخەمیم بوو کە دەرگاکەم بە کراوەیی جێھێشت.", // careless",
+                            onPressedBritish: () => speakcarelesss1("en-GB"),
+                            onPressedAmerican: () => speakcarelesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It would be careless to ignore the risks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لامسەرلا دەبێت کە گرنگی بە مەترسییەکان نەدەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarelesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarelesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It would be careless to ignore the risks.",
+                            kurdishText:
+                                "لامسەرلا دەبێت کە گرنگی بە مەترسییەکان نەدەیت.",
+                            onPressedBritish: () => speakcarelesss2("en-GB"),
+                            onPressedAmerican: () => speakcarelesss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) شتێک کە بەھۆی خەمساردییەوە ڕوویداوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In a rush, she made a careless mistake on the final exam."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پەلەپەلدا ھەڵەیەکی خەمساردانەی کرد لە تاقیکردنەوەی کۆتاییدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarelesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarelesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In a rush, she made a careless mistake on the final exam.",
+                            kurdishText:
+                                "لە پەلەپەلدا ھەڵەیەکی خەمساردانەی کرد لە تاقیکردنەوەی کۆتاییدا.",
+                            onPressedBritish: () => speakcarelesss3("en-GB"),
+                            onPressedAmerican: () => speakcarelesss3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) نەبوونی نیگەرانی سەبارەت بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He seemed careless of his own safety."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێ‌خەم دیاربوو لە سەلامەتیی خۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarelesss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarelesss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He seemed careless of his own safety.",
+                            kurdishText: "بێ‌خەم دیاربوو لە سەلامەتیی خۆی.",
+                            onPressedBritish: () => speakcarelesss4("en-GB"),
+                            onPressedAmerican: () => speakcarelesss4("en-US"),
                           ),
                         ],
                       ),

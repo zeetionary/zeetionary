@@ -102,62 +102,24 @@ class EnglishEntrychieftain extends StatelessWidget {
 کوردی: سەرۆکی ھێز، سەرھۆز، سەرخێڵ، سەرعێل
 """),
                           const DefinitionKurdish(text: "١. (ناو) سەرۆک تیرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was respected as a wise chieftain among her people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەناو خەڵکەکەیدا وەک سەرخێڵێکی ژیر ڕێزی لێ‌دەگیردرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chieftain", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchieftains1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchieftains1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was respected as a wise chieftain among her people.",
+                            kurdishText:
+                                "لەناو خەڵکەکەیدا وەک سەرخێڵێکی ژیر ڕێزی لێ‌دەگیردرا.", // chieftain",
+                            onPressedBritish: () => speakchieftains1("en-GB"),
+                            onPressedAmerican: () => speakchieftains1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ئەندامێکی بەھێزی دامەزراوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As a chieftain of the political party, he wielded considerable influence over its policies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک قسەڕۆشتوویەکی پارتە سیاسییەکە، کاریگەری بەرچاوی ھەبوو لەسەر سیاسەتەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchieftains2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchieftains2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As a chieftain of the political party, he wielded considerable influence over its policies.",
+                            kurdishText:
+                                "وەک قسەڕۆشتوویەکی پارتە سیاسییەکە، کاریگەری بەرچاوی ھەبوو لەسەر سیاسەتەکانی.",
+                            onPressedBritish: () => speakchieftains2("en-GB"),
+                            onPressedAmerican: () => speakchieftains2("en-US"),
                           ),
                         ],
                       ),

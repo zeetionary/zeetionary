@@ -94,34 +94,15 @@ class EnglishEntrychemicalwarfare extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شەڕی کیمیایی؛ بەکارھێنانی گازی ژەھراوی و مادەی کیمیایی وەک چەک لە جەنگدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He denied his country has developed the capability for chemical warfare."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نکۆڵی کرد لەوەی وڵاتەکەی توانای شەڕی کیمیایی گەشەپێ‌دابێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chemical warfare", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchemicalwarfares1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchemicalwarfares1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He denied his country has developed the capability for chemical warfare.",
+                            kurdishText:
+                                "نکۆڵی کرد لەوەی وڵاتەکەی توانای شەڕی کیمیایی گەشەپێ‌دابێت.", // chemical warfare",
+                            onPressedBritish: () =>
+                                speakchemicalwarfares1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchemicalwarfares1("en-US"),
                           ),
                         ],
                       ),

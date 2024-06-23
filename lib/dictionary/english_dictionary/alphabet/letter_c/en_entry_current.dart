@@ -341,57 +341,19 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ڕوودان لە ئێستادا؛ پەیوەندیدار بە ئێستا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Oil prices are expected to remain at current levels."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نرخی نەوت پێشبینی دەکرێت لە ئاستی ئێستادا بمێنێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "current", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Oil prices are expected to remain at current levels.",
+            kurdishText:
+                "نرخی نەوت پێشبینی دەکرێت لە ئاستی ئێستادا بمێنێتەوە.", // current", please follow LX instructions
+            onPressedBritish: () => speakcurrents1("en-GB"),
+            onPressedAmerican: () => speakcurrents1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What's the budget for the current year?"),
-                    ExampleSentenceKurdish(text: "بودجەی ئەمساڵە چەندە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What's the budget for the current year?",
+            kurdishText: "بودجەی ئەمساڵە چەندە؟",
+            onPressedBritish: () => speakcurrents2("en-GB"),
+            onPressedAmerican: () => speakcurrents2("en-US"),
           ),
           Column(
             children: [
@@ -485,254 +447,83 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە لەلایەن زۆرینەی خەڵکییەوە بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "\"Thou\" and \"thee\" are examples of words that are no longer current in modern English."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "\"Thou\" و \"thee\" نموونەی ئەو وشانەن کە چ دیکە لە بەکارھێناندا نین لە ئینگلیزی سەرمدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrents6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrents6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "\"Thou\" and \"thee\" are examples of words that are no longer current in modern English.",
+            kurdishText:
+                "\"Thou\" و \"thee\" نموونەی ئەو وشانەن کە چ دیکە لە بەکارھێناندا نین لە ئینگلیزی سەرمدا.",
+            onPressedBritish: () => speakcurrents6("en-GB"),
+            onPressedAmerican: () => speakcurrents6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) جوڵەی ئاو لە دەریا یان ڕووباردا؛ جوڵەی با بە ئاراستەیەکی دیاریکراودا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's easier to go with the current."),
-                    ExampleSentenceKurdish(
-                        text: "ئاسانترە لەگەڵ شەپۆلەکەدا بچیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrents7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrents7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's easier to go with the current.",
+            kurdishText: "ئاسانترە لەگەڵ شەپۆلەکەدا بچیت.",
+            onPressedBritish: () => speakcurrents7("en-GB"),
+            onPressedAmerican: () => speakcurrents7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Birds use warm air currents to help their flight."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باڵندە ڕەوتی ھەوای گەرم بەکاردێنن بۆ یارمەتیدانیان لە گەشتەکانیاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrents8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrents8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Birds use warm air currents to help their flight.",
+            kurdishText:
+                "باڵندە ڕەوتی ھەوای گەرم بەکاردێنن بۆ یارمەتیدانیان لە گەشتەکانیاندا.",
+            onPressedBritish: () => speakcurrents8("en-GB"),
+            onPressedAmerican: () => speakcurrents8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was swimming against the current."),
-                    ExampleSentenceKurdish(text: "دژ بە شەپۆلەکە مەلەی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrents9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrents9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was swimming against the current.",
+            kurdishText: "دژ بە شەپۆلەکە مەلەی دەکرد.",
+            onPressedBritish: () => speakcurrents9("en-GB"),
+            onPressedAmerican: () => speakcurrents9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was swept away by the treacherous currents."),
-                    ExampleSentenceKurdish(text: "تەوژنە بەھێزەکە ڕایماڵی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrents10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrents10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was swept away by the treacherous currents.",
+            kurdishText: "تەوژنە بەھێزەکە ڕایماڵی.",
+            onPressedBritish: () => speakcurrents10("en-GB"),
+            onPressedAmerican: () => speakcurrents10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) جوڵەی تەزووی کارەبا بە وایەر، ھتد ـدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Check all your wiring before switching on the current."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەواوی وایەردانانەکان بپشکنە پێش داگیرساندنی سویچی تەزووەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrents11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrents11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Check all your wiring before switching on the current.",
+            kurdishText:
+                "تەواوی وایەردانانەکان بپشکنە پێش داگیرساندنی سویچی تەزووەکە.",
+            onPressedBritish: () => speakcurrents11("en-GB"),
+            onPressedAmerican: () => speakcurrents11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Measure the current flowing in the wire."),
-                    ExampleSentenceKurdish(
-                        text: "جوڵەی تەزووی وایەرەکە بپێوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrents12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrents12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Measure the current flowing in the wire.",
+            kurdishText: "جوڵەی تەزووی وایەرەکە بپێوە.",
+            onPressedBritish: () => speakcurrents12("en-GB"),
+            onPressedAmerican: () => speakcurrents12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) (ئینگلیزی ھیندی) بڕی کارەبای بەردەست"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The current failure lasted three hours."),
-                    ExampleSentenceKurdish(
-                        text: "نەبوونی کارەبا سێ کاتژمێری خایاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrents13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrents13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The current failure lasted three hours.",
+            kurdishText: "نەبوونی کارەبا سێ کاتژمێری خایاند.",
+            onPressedBritish: () => speakcurrents13("en-GB"),
+            onPressedAmerican: () => speakcurrents13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) بوونی باوەڕ و ھەست لەناو گرووپێک لە خەڵکیدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Ministers are worried by this current of anti-government feeling."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەزیرەکان نیگەرانن سەبارەت بەم ڕەوتەی ھەستی دژ بە حکومەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrents14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrents14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Ministers are worried by this current of anti-government feeling.",
+            kurdishText:
+                "وەزیرەکان نیگەرانن سەبارەت بەم ڕەوتەی ھەستی دژ بە حکومەت.",
+            onPressedBritish: () => speakcurrents14("en-GB"),
+            onPressedAmerican: () => speakcurrents14("en-US"),
           ),
         ],
       ),

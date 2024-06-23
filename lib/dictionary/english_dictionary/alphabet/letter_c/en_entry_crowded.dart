@@ -255,109 +255,35 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: چڕەبەندان، شلووق، قەرەباڵغ، پڕئاپۆرە، جمەلێ‌ھاتوو، پڕشانەچرکێ، کەلەکەبڕێ، بە شانەترنجێ، چێوکوت، جەنجاڵ، تێ‌ڕژاو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) قەرەباڵغ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We made our way through the crowded streets."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێگای خۆمان بە شەقامە جەنجاڵەکاندا کردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crowded", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowdeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowdeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We made our way through the crowded streets.",
+            kurdishText:
+                "ڕێگای خۆمان بە شەقامە جەنجاڵەکاندا کردەوە.", // crowded", please follow LX instructions
+            onPressedBritish: () => speakcrowdeds1("en-GB"),
+            onPressedAmerican: () => speakcrowdeds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The main beach can get really crowded in summer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەنارە سەرەکییەکە دەکرێت تەواو قەرەباڵغ بێت لە ھاویندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowdeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowdeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The main beach can get really crowded in summer.",
+            kurdishText:
+                "کەنارە سەرەکییەکە دەکرێت تەواو قەرەباڵغ بێت لە ھاویندا.",
+            onPressedBritish: () => speakcrowdeds2("en-GB"),
+            onPressedAmerican: () => speakcrowdeds2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "London was very crowded."),
-                    ExampleSentenceKurdish(text: "لەندەن زۆر قەرەباڵغ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowdeds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowdeds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "London was very crowded.",
+            kurdishText: "لەندەن زۆر قەرەباڵغ بوو.",
+            onPressedBritish: () => speakcrowdeds3("en-GB"),
+            onPressedAmerican: () => speakcrowdeds3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) پڕ لە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We have a very crowded schedule."),
-                    ExampleSentenceKurdish(
-                        text: "خشتەیەکی زۆر جەنجاڵمان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowdeds4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowdeds4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We have a very crowded schedule.",
+            kurdishText: "خشتەیەکی زۆر جەنجاڵمان ھەیە.",
+            onPressedBritish: () => speakcrowdeds4("en-GB"),
+            onPressedAmerican: () => speakcrowdeds4("en-US"),
           ),
         ],
       ),

@@ -94,32 +94,13 @@ class EnglishEntrycomplicity extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەژداری لە تاوانێک لەگەڵ کەسێکی دیکەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is suspected of complicity in the fraud."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گومانی ھاودەستی لێدەکرێت لە ساختەکارییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complicity", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplicitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplicitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is suspected of complicity in the fraud.",
+                            kurdishText:
+                                "گومانی ھاودەستی لێدەکرێت لە ساختەکارییەکەدا.", // complicity",
+                            onPressedBritish: () => speakcomplicitys1("en-GB"),
+                            onPressedAmerican: () => speakcomplicitys1("en-US"),
                           ),
                         ],
                       ),

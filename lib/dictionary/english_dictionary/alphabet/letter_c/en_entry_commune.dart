@@ -102,58 +102,20 @@ class EnglishEntrycommune extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆمەڵێک کەس کە پێکەوە دەژین و ئەرک، کەلوپەل، ھتد ـی ھاوبەشیان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She lives in a commune."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە کمیونێکدا دەژی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commune", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She lives in a commune.",
+                            kurdishText: "لە کمیونێکدا دەژی.", // commune",
+                            onPressedBritish: () => speakcommunes1("en-GB"),
+                            onPressedAmerican: () => speakcommunes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She left her husband to join a women's commune."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوسەرەکەی جێھێشت بۆ پەیوەندیکردن بە کمیونێکی ژنانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She left her husband to join a women's commune.",
+                            kurdishText:
+                                "ھاوسەرەکەی جێھێشت بۆ پەیوەندیکردن بە کمیونێکی ژنانەوە.",
+                            onPressedBritish: () => speakcommunes2("en-GB"),
+                            onPressedAmerican: () => speakcommunes2("en-US"),
                           ),
                         ],
                       ),

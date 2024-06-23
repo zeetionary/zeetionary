@@ -98,63 +98,24 @@ class EnglishEntrycharitably extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە بەخشندەییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Try to think about him a little more charitably."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ بدە ھەندێک بەخشندانە بیری لێ بکەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "charitably", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharitablys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharitablys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Try to think about him a little more charitably.",
+                            kurdishText:
+                                "ھەوڵ بدە ھەندێک بەخشندانە بیری لێ بکەیەوە.", // charitably",
+                            onPressedBritish: () => speakcharitablys1("en-GB"),
+                            onPressedAmerican: () => speakcharitablys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) درووستکراو لەلایەن ڕێکخراوێکی خێرخوازییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The school is charitably funded."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوتابخانەکە بە خێرخوازی خەرجی بۆکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharitablys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharitablys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The school is charitably funded.",
+                            kurdishText:
+                                "قوتابخانەکە بە خێرخوازی خەرجی بۆکراوە.",
+                            onPressedBritish: () => speakcharitablys2("en-GB"),
+                            onPressedAmerican: () => speakcharitablys2("en-US"),
                           ),
                         ],
                       ),

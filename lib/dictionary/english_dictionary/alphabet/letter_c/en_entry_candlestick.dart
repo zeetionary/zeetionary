@@ -192,34 +192,14 @@ class EnglishEntrycandlestick extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شتێک کە مۆمێک بە ستوونی ڕادەگرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The silver candlesticks gleamed on the table."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێ‌مۆمە زیوییەکە لەسەر مێزەکە دەبریسکایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "candlestick", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcandlesticks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcandlesticks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The silver candlesticks gleamed on the table.",
+                            kurdishText:
+                                "جێ‌مۆمە زیوییەکە لەسەر مێزەکە دەبریسکایەوە.", // candlestick",
+                            onPressedBritish: () => speakcandlesticks1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcandlesticks1("en-US"),
                           ),
                         ],
                       ),

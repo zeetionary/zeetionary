@@ -147,213 +147,80 @@ class EnglishEntrycompound extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە تێکەڵەی دوو شت یان زیاترە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The air smelled like a compound of diesel and petrol fumes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەواکە بۆنی تێکەڵەیەکی گازوایل و دووکەڵی بەنزینی لێدەھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compound", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompounds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompounds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The air smelled like a compound of diesel and petrol fumes.",
+                            kurdishText:
+                                "ھەواکە بۆنی تێکەڵەیەکی گازوایل و دووکەڵی بەنزینی لێدەھات.", // compound",
+                            onPressedBritish: () => speakcompounds1("en-GB"),
+                            onPressedAmerican: () => speakcompounds1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) مادەیەک کە لە کارلێکی کیمیایی دوو توخم یان زیاتر درووست دەبێت کە ڕێژەی جێگیر بەراورد بە یەکدی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Common salt is a compound of sodium and chlorine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێی ئاسایی ئاوێتەیەکی سۆدیۆم و کلۆرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompounds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompounds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Common salt is a compound of sodium and chlorine.",
+                            kurdishText:
+                                "خوێی ئاسایی ئاوێتەیەکی سۆدیۆم و کلۆرە.",
+                            onPressedBritish: () => speakcompounds2("en-GB"),
+                            onPressedAmerican: () => speakcompounds2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) شتێک کە لە دوو بەش پێکھاتووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A compound sentence contains two or more clauses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕستەیەکی لێکدراو لە دوو بڕگە یان زیاتر پێکدێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompounds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompounds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A compound sentence contains two or more clauses.",
+                            kurdishText:
+                                "ڕستەیەکی لێکدراو لە دوو بڕگە یان زیاتر پێکدێت.",
+                            onPressedBritish: () => speakcompounds3("en-GB"),
+                            onPressedAmerican: () => speakcompounds3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) خراپترکردنی شتێکی شتێکی خراپ بە درووستکردنی کێشەی زیاتر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The problems were compounded by severe food shortages."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشەکانی خراپتر بوون بە کەماسییەکی سەختی خواردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompounds4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompounds4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The problems were compounded by severe food shortages.",
+                            kurdishText:
+                                "کێشەکانی خراپتر بوون بە کەماسییەکی سەختی خواردن.",
+                            onPressedBritish: () => speakcompounds4("en-GB"),
+                            onPressedAmerican: () => speakcompounds4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His financial problems were compounded when he unexpectedly lost his job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشە داراییەکانی خراپتر بوون کە لەناکاو کارەکەی لەدەستدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompounds5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompounds5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His financial problems were compounded when he unexpectedly lost his job.",
+                            kurdishText:
+                                "کێشە داراییەکانی خراپتر بوون کە لەناکاو کارەکەی لەدەستدا.",
+                            onPressedBritish: () => speakcompounds5("en-GB"),
+                            onPressedAmerican: () => speakcompounds5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) درووست بوو لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The DNA molecule is compounded from many smaller molecules."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەردی دی‌ئێن‌ئەی پێکدێت لە ڕێژەیەکی زۆری بچووکتر لە گەرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompounds6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompounds6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The DNA molecule is compounded from many smaller molecules.",
+                            kurdishText:
+                                "گەردی دی‌ئێن‌ئەی پێکدێت لە ڕێژەیەکی زۆری بچووکتر لە گەرد.",
+                            onPressedBritish: () => speakcompounds6("en-GB"),
+                            onPressedAmerican: () => speakcompounds6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) تێکەڵکردن پێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most tyres are made of rubber compounded with other chemicals and materials."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر تایە لە لاستیک درووست دەکرێن کە تێکەڵکراوە لەگەڵ مادە و کیمیایی دیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompounds7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompounds7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most tyres are made of rubber compounded with other chemicals and materials.",
+                            kurdishText:
+                                "زۆر تایە لە لاستیک درووست دەکرێن کە تێکەڵکراوە لەگەڵ مادە و کیمیایی دیکە.",
+                            onPressedBritish: () => speakcompounds7("en-GB"),
+                            onPressedAmerican: () => speakcompounds7("en-US"),
                           ),
                         ],
                       ),

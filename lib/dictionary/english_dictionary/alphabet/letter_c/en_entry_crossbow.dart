@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەوانێک کە کە لەسەر دارێکی گەورەتر دادەنرێت و تیری بچووکی قورس دەھاوێژێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The hunter used a crossbow to hunt deer in the forest."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاوچییەکە کەوانێکی بەکاردەھێنا بۆ ڕاوکردنی ئاسک لە دارستانەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crossbow", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossbows1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossbows1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The hunter used a crossbow to hunt deer in the forest.",
+            kurdishText:
+                "ڕاوچییەکە کەوانێکی بەکاردەھێنا بۆ ڕاوکردنی ئاسک لە دارستانەکەدا.", // crossbow", please follow LX instructions
+            onPressedBritish: () => speakcrossbows1("en-GB"),
+            onPressedAmerican: () => speakcrossbows1("en-US"),
           ),
         ],
       ),

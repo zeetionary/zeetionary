@@ -102,60 +102,22 @@ class EnglishEntrycomma extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نیشانەی (،) کە بەکاردێت بۆ جیاکردنەوەی ئەو شتانەی لە لیستدا دەنووسرێن، یان بۆ پیشاندانی وەستانێکی کورت لە لە ڕستەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The relative clause is separated by commas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕگەی ڕستە بە فاریزە جیادەکرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comma", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The relative clause is separated by commas.",
+                            kurdishText:
+                                "بڕگەی ڕستە بە فاریزە جیادەکرێتەوە.", // comma",
+                            onPressedBritish: () => speakcommas1("en-GB"),
+                            onPressedAmerican: () => speakcommas1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You need to put a comma before ‘which’."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت فاریزەیەک لە پێش 'which' دابنێیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommas2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommas2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You need to put a comma before ‘which’.",
+                            kurdishText:
+                                "دەبێت فاریزەیەک لە پێش 'which' دابنێیت.",
+                            onPressedBritish: () => speakcommas2("en-GB"),
+                            onPressedAmerican: () => speakcommas2("en-US"),
                           ),
                         ],
                       ),

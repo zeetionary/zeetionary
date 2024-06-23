@@ -232,31 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ترێی وشک کە لە کێکدا بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She enjoyed a currant bun with her afternoon tea."),
-                    ExampleSentenceKurdish(
-                        text: "کێکێکی کشمیشداری لەگەڵ چای بەیانیدا خوارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "currant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrants1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrants1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She enjoyed a currant bun with her afternoon tea.",
+            kurdishText:
+                "کێکێکی کشمیشداری لەگەڵ چای بەیانیدا خوارد.", // currant", please follow LX instructions
+            onPressedBritish: () => speakcurrants1("en-GB"),
+            onPressedAmerican: () => speakcurrants1("en-US"),
           ),
           // skipped_meaning
         ],

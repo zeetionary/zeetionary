@@ -103,62 +103,24 @@ class EnglishEntrycomplexion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕەنگی سرووشتی و شێوەی ڕووخساری کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Years of heavy drinking had given Alison a florid complexion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵانێک لە خواردنەوە ڕواڵەتێکی سوورەوەبووی دابوو بە ئالیسن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complexion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplexions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplexions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Years of heavy drinking had given Alison a florid complexion.",
+                            kurdishText:
+                                "ساڵانێک لە خواردنەوە ڕواڵەتێکی سوورەوەبووی دابوو بە ئالیسن.", // complexion",
+                            onPressedBritish: () => speakcomplexions1("en-GB"),
+                            onPressedAmerican: () => speakcomplexions1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕواڵەتی گشتی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hughes helped change the complexion of Hollywood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیوس یارمەتیدەر بوو لە گۆڕینی وێنای ھۆڵیوود."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplexions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplexions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Hughes helped change the complexion of Hollywood.",
+                            kurdishText:
+                                "ھیوس یارمەتیدەر بوو لە گۆڕینی وێنای ھۆڵیوود.",
+                            onPressedBritish: () => speakcomplexions2("en-GB"),
+                            onPressedAmerican: () => speakcomplexions2("en-US"),
                           ),
                         ],
                       ),

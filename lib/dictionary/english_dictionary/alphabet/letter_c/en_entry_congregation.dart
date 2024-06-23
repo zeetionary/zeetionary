@@ -112,100 +112,43 @@ class EnglishEntrycongregation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆمەڵێک کەس کە لە کڵێسایەک کۆبوونەتەوە بۆ بۆنەی ئایینی، بەبێ لەخۆگرتنی قەشە و کۆچڕەکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The congregation stood to sing the hymn."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواپەرستان وەستان بۆ وتنەوەی سروودە ئایینییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congregation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongregations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongregations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The congregation stood to sing the hymn.",
+                            kurdishText:
+                                "خواپەرستان وەستان بۆ وتنەوەی سروودە ئایینییەکە.", // congregation",
+                            onPressedBritish: () =>
+                                speakcongregations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongregations1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کۆمەڵێک کەس کە ماوە ماوە ڕوودەکەنە کڵێسایەکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had established a small congregation in New York City."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستەیەکی بچووکی لە خواپەرستان درووستکردبوو لە نیویۆرک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongregations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongregations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had established a small congregation in New York City.",
+                            kurdishText:
+                                "دەستەیەکی بچووکی لە خواپەرستان درووستکردبوو لە نیویۆرک.",
+                            onPressedBritish: () =>
+                                speakcongregations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongregations2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) گرووپێک یان دەستەیەک لە خەڵکی، ئاژەڵ، یان شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Large congregations of birds may cause public harm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر لە باڵندە ڕەنگە ببنە ھۆی زیانی گشتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongregations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongregations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Large congregations of birds may cause public harm.",
+                            kurdishText:
+                                "ڕێژەیەکی زۆر لە باڵندە ڕەنگە ببنە ھۆی زیانی گشتی.",
+                            onPressedBritish: () =>
+                                speakcongregations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongregations3("en-US"),
                           ),
                         ],
                       ),

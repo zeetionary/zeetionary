@@ -146,205 +146,71 @@ class EnglishEntryconclude extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بڕیاردان یان باوەڕکردن بە شتێک لە ئەنجامی ئەوەی بینیوتە یان بیستووتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is too early for us to conclude anything."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر زووە بۆمان ھیچ گەڵاڵە بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conclude", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcludes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcludes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is too early for us to conclude anything.",
+                            kurdishText:
+                                "زۆر زووە بۆمان ھیچ گەڵاڵە بکەین.", // conclude",
+                            onPressedBritish: () => speakconcludes1("en-GB"),
+                            onPressedAmerican: () => speakconcludes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What do you conclude from that?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چی تێدەگەیت لەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcludes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcludes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "What do you conclude from that?",
+                            kurdishText: "چی تێدەگەیت لەوە؟",
+                            onPressedBritish: () => speakconcludes2("en-GB"),
+                            onPressedAmerican: () => speakconcludes2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The report concluded (that) the cheapest option was to close the laboratory."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاپۆرتەکە بەو دەرەنجامە گەشت کە ھەرزانترین ھەڵبژاردە داخستنی تاقیگەکە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcludes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcludes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The report concluded (that) the cheapest option was to close the laboratory.",
+                            kurdishText:
+                                "ڕاپۆرتەکە بەو دەرەنجامە گەشت کە ھەرزانترین ھەڵبژاردە داخستنی تاقیگەکە بوو.",
+                            onPressedBritish: () => speakconcludes3("en-GB"),
+                            onPressedAmerican: () => speakconcludes3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) کۆتایی ھاتن یان کۆتایی پێھێنان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This was how the negotiations finally concluded."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە ئەو شێوەیە بوو کە دانوستانەکان لە کۆتاییدا کۆتاییان پێھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcludes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcludes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This was how the negotiations finally concluded.",
+                            kurdishText:
+                                "ئەمە ئەو شێوەیە بوو کە دانوستانەکان لە کۆتاییدا کۆتاییان پێھات.",
+                            onPressedBritish: () => speakconcludes4("en-GB"),
+                            onPressedAmerican: () => speakconcludes4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He concluded by wishing everyone a safe trip home."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕییەوە بە ھیواخواستنی گەشتێکی سەلامەت بۆ ماڵەوە بۆ ھەموان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcludes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcludes5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He concluded by wishing everyone a safe trip home.",
+                            kurdishText:
+                                "بڕییەوە بە ھیواخواستنی گەشتێکی سەلامەت بۆ ماڵەوە بۆ ھەموان.",
+                            onPressedBritish: () => speakconcludes5("en-GB"),
+                            onPressedAmerican: () => speakconcludes5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The commission concluded its investigation last month."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمسیۆنەکە مانگی ڕابردوو کۆتایی بە لێکۆڵینەوەکانی ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcludes6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcludes6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The commission concluded its investigation last month.",
+                            kurdishText:
+                                "کۆمسیۆنەکە مانگی ڕابردوو کۆتایی بە لێکۆڵینەوەکانی ھێنا.",
+                            onPressedBritish: () => speakconcludes6("en-GB"),
+                            onPressedAmerican: () => speakconcludes6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) ڕێکخستن و گەشتن بە ڕێککەوتنێک لەگەڵ کەسێک بە فەرمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A trade agreement was concluded between the two countries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتنێکی ئاڵووگۆڕی بازرگانی لە نێوان دوو وڵاتەکە ئەنجامدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcludes7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcludes7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A trade agreement was concluded between the two countries.",
+                            kurdishText:
+                                "ڕێککەوتنێکی ئاڵووگۆڕی بازرگانی لە نێوان دوو وڵاتەکە ئەنجامدرا.",
+                            onPressedBritish: () => speakconcludes7("en-GB"),
+                            onPressedAmerican: () => speakconcludes7("en-US"),
                           ),
                         ],
                       ),

@@ -110,94 +110,37 @@ class EnglishEntrycocktail extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خواردنەوەیەک کە زۆرجار لە تێکەڵەی یەک جۆر یان زیاتر لە خواردنەوەی کحوولی بەھێز درووست دەکرێت لەگەڵ ئاوی میوەدا. دەکرێت بەبێ کحوولیش درووست بکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We were all in the bar sipping cocktails."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموومان لە باڕەکە بووین کۆکتەیلمان ھەڵدەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cocktail", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcocktails1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcocktails1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We were all in the bar sipping cocktails.",
+                            kurdishText:
+                                "ھەموومان لە باڕەکە بووین کۆکتەیلمان ھەڵدەدا.", // cocktail",
+                            onPressedBritish: () => speakcocktails1("en-GB"),
+                            onPressedAmerican: () => speakcocktails1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) خواردنێک کە لە پارچەی بچووک پێکدێت و زۆرجار لە پێش ژەمەکان بە ساردی دەخورێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She served fruit cocktail as a light dessert."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک شیرینییەکی سووک پێش‌خۆراکی میوەی دانا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcocktails2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcocktails2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She served fruit cocktail as a light dessert.",
+                            kurdishText:
+                                "وەک شیرینییەکی سووک پێش‌خۆراکی میوەی دانا.",
+                            onPressedBritish: () => speakcocktails2("en-GB"),
+                            onPressedAmerican: () => speakcocktails2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) تیکەڵەیەک لە کۆمەڵێک شت، بەتایبەتی کە لەگەڵ یەک ناگونجێن، یان مەترسیدارن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cars produce a lethal cocktail of gasses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێل تێکەڵەیەک لە گازی ژەھراوی درووست دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcocktails3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcocktails3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cars produce a lethal cocktail of gasses.",
+                            kurdishText:
+                                "ئۆتۆمبێل تێکەڵەیەک لە گازی ژەھراوی درووست دەکەن.",
+                            onPressedBritish: () => speakcocktails3("en-GB"),
+                            onPressedAmerican: () => speakcocktails3("en-US"),
                           ),
                         ],
                       ),

@@ -103,63 +103,23 @@ class EnglishEntrycommendable extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) شتێک کە شایەنی ستایشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They always conduct their affairs with commendable honesty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە کارەکانیان بە ڕاستگۆیی جێی‌پەسن ئەنجام دەدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commendable", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommendables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommendables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They always conduct their affairs with commendable honesty.",
+                            kurdishText:
+                                "ھەمیشە کارەکانیان بە ڕاستگۆیی جێی‌پەسن ئەنجام دەدەن.", // commendable",
+                            onPressedBritish: () => speakcommendables1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommendables1("en-US"),
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wasn't always successful, but he made a commendable effort."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو کات سەرکەوتوو نەدەبوو، بەڵام ھەوڵی لەپەسن‌ھاتووی دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commendable", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommendables2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommendables2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wasn't always successful, but he made a commendable effort.",
+                            kurdishText:
+                                "ھەموو کات سەرکەوتوو نەدەبوو، بەڵام ھەوڵی لەپەسن‌ھاتووی دەدا.", // commendable",
+                            onPressedBritish: () => speakcommendables2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommendables2("en-US"),
                           ),
                         ],
                       ),

@@ -95,32 +95,13 @@ class EnglishEntrychildlike extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی ئەو تایبەتمەندییانەی کە منداڵ ھەیەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All her life she had a childlike trust in other people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ژیانی متمانەیەکی منداڵ‌ئاسای بە کەسانی دیکە ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "childlike", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchildlikes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchildlikes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All her life she had a childlike trust in other people.",
+                            kurdishText:
+                                "تەواوی ژیانی متمانەیەکی منداڵ‌ئاسای بە کەسانی دیکە ھەبوو.", // childlike",
+                            onPressedBritish: () => speakchildlikes1("en-GB"),
+                            onPressedAmerican: () => speakchildlikes1("en-US"),
                           ),
                         ],
                       ),

@@ -232,31 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: سووتاندن
 // """),
           const DefinitionKurdish(text: "١. (ناو) سووتاندنی جەستەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When she dies she wants to be cremated, not buried."),
-                    ExampleSentenceKurdish(
-                        text: "کە دەمرێت دەیەوێت بسووتێندرێت نەک بنێژرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cremate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcremates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcremates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "When she dies she wants to be cremated, not buried.",
+            kurdishText:
+                "کە دەمرێت دەیەوێت بسووتێندرێت نەک بنێژرێت.", // cremate", please follow LX instructions
+            onPressedBritish: () => speakcremates1("en-GB"),
+            onPressedAmerican: () => speakcremates1("en-US"),
           ),
         ],
       ),

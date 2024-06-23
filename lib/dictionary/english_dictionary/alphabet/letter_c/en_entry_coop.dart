@@ -94,32 +94,13 @@ class EnglishEntrycoop extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ناو) قەفەزی مریشک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She collected the eggs from the coop every morning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو بەیانییەک ھێلکەکانی لە کولانەکە کۆدەکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coop", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoops1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoops1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She collected the eggs from the coop every morning.",
+                            kurdishText:
+                                "ھەموو بەیانییەک ھێلکەکانی لە کولانەکە کۆدەکردەوە.", // coop",
+                            onPressedBritish: () => speakcoops1("en-GB"),
+                            onPressedAmerican: () => speakcoops1("en-US"),
                           ),
                         ],
                       ),

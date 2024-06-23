@@ -276,178 +276,63 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) پەیوەندی ھەبوون لە نێوان دوو شتدا کە کاریگەری لە یەکدی بکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The figures do not seem to correlate."),
-                    ExampleSentenceKurdish(
-                        text: "ئامارەکان پێناچێت پەیوەندیدار بن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "correlate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrelates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrelates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The figures do not seem to correlate.",
+            kurdishText: "ئامارەکان پێناچێت پەیوەندیدار بن.", // correlate", please follow LX instructions
+              onPressedBritish: () => speakcorrelates1("en-GB"),
+            onPressedAmerican: () => speakcorrelates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A high-fat diet correlates with a greater risk of heart disease."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژەمە خۆراکییەکی پڕ لە چەوری پەیوەندی بە مەترسی زیاتری نەخۆشی دڵ ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrelates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrelates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                            "A high-fat diet correlates with a greater risk of heart disease.",
+            kurdishText:
+                            "ژەمە خۆراکییەکی پڕ لە چەوری پەیوەندی بە مەترسی زیاتری نەخۆشی دڵ ھەیە.",
+            onPressedBritish: () => speakcorrelates2("en-GB"),
+            onPressedAmerican: () => speakcorrelates2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The average speed of the vehicles correlates closely with the severity of the accident caused."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تێکڕای خێرایی ئۆتۆمبێلەکان کاریگەری نزیکی ھەیە لەگەڵ سەختی ئەو ڕووداوەی درووست بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrelates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrelates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                            "The average speed of the vehicles correlates closely with the severity of the accident caused.",
+            kurdishText:
+                            "تێکڕای خێرایی ئۆتۆمبێلەکان کاریگەری نزیکی ھەیە لەگەڵ سەختی ئەو ڕووداوەی درووست بووە.",
+            onPressedBritish: () => speakcorrelates3("en-GB"),
+            onPressedAmerican: () => speakcorrelates3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) پیشاندانی ئەوەی پەیوەندی نزیک ھەیە لە نێوان دوو یان زیاتر لە چەند ڕاستییەک، ئامارێک، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Researchers are trying to correlate the two sets of figures."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێکۆڵەران ھەوڵ دەدەن دوو کۆمەڵە ئامارەکە پێکەوە ببەستنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrelates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrelates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                            "Researchers are trying to correlate the two sets of figures.",
+            kurdishText:
+                            "لێکۆڵەران ھەوڵ دەدەن دوو کۆمەڵە ئامارەکە پێکەوە ببەستنەوە.",
+            onPressedBritish: () => speakcorrelates4("en-GB"),
+            onPressedAmerican: () => speakcorrelates4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Property values are negatively correlated to the tax rate."),
-                    ExampleSentenceKurdish(
-                      text:
+          SentencesRow(
+            englishText:
+                            "Property values are negatively correlated to the tax rate.",
+                    kurdishText:
                           "نرخی خانووبەرە بە شێوەی نەرێنی پەیوەندی ھەیە لەگەڵ ڕێژەی باجدان.",
-                      note:
+                      kurdishNote:
                           "یەکێکیان چۆن بگۆڕێت ئەوی دیکە بە پێچەوانەوە دەگۆڕێت.",
-                    ),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrelates5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrelates5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+              onPressedBritish: () => speakcorrelates5("en-GB"),
+            onPressedAmerican: () => speakcorrelates5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) ڕاستییەک، ئامارێک، ھتد کە پەیوەندی لەگەڵ یەکێکی دیکە ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Drug use is a significant correlate of crime."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەکارھێنانی مادەی ھۆشبەر پێکبەندێکە لەگەڵ تاواندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrelates6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrelates6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Drug use is a significant correlate of crime.",
+            kurdishText:
+                            "بەکارھێنانی مادەی ھۆشبەر پێکبەندێکە لەگەڵ تاواندا.",
+            onPressedBritish: () => speakcorrelates6("en-GB"),
+            onPressedAmerican: () => speakcorrelates6("en-US"),
           ),
         ],
       ),

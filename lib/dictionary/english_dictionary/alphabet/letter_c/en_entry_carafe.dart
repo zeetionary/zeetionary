@@ -189,32 +189,13 @@ class EnglishEntrycarafe extends StatelessWidget {
 کوردی: سوراحی، دۆڵکە، تونگە، شووشەمەسینە، شووەتۆنگە، پارچ، پڕتۆنگەیێ، تۆنگەبەر
 """),
                           const DefinitionKurdish(text: "١. (ناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I poured myself some water from the carafe on the table."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک ئاوم بۆ خۆم تێکرد لە سوراحی سەر مێزەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carafe", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarafes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarafes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I poured myself some water from the carafe on the table.",
+                            kurdishText:
+                                "ھەندێک ئاوم بۆ خۆم تێکرد لە سوراحی سەر مێزەکە.", // carafe",
+                            onPressedBritish: () => speakcarafes1("en-GB"),
+                            onPressedAmerican: () => speakcarafes1("en-US"),
                           ),
                         ],
                       ),

@@ -112,88 +112,31 @@ class EnglishEntryconsensus extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بۆچوونێک کە ھەموو ئەندامانی گرووپێک پێی ڕازین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a growing consensus of opinion on this issue."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکدەنگییەکی زیادبووی بۆچوون ھەیە لەسەر ئەم بابەتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consensus", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsensuss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsensuss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a growing consensus of opinion on this issue.",
+                            kurdishText:
+                                "یەکدەنگییەکی زیادبووی بۆچوون ھەیە لەسەر ئەم بابەتە.", // consensus",
+                            onPressedBritish: () => speakconsensuss1("en-GB"),
+                            onPressedAmerican: () => speakconsensuss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There now exists a broad political consensus in favour of economic reform."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئێستادا ھاودەنگی بەرفراوانی سیاسی ھەیە لە بەرژەوەندی چاکسازیی ئابووری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsensuss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsensuss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There now exists a broad political consensus in favour of economic reform.",
+                            kurdishText:
+                                "لە ئێستادا ھاودەنگی بەرفراوانی سیاسی ھەیە لە بەرژەوەندی چاکسازیی ئابووری.",
+                            onPressedBritish: () => speakconsensuss2("en-GB"),
+                            onPressedAmerican: () => speakconsensuss2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have always governed by consensus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە بە کۆدەنگی بەڕێوبەرایەتییان کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsensuss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsensuss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have always governed by consensus.",
+                            kurdishText:
+                                "ھەمیشە بە کۆدەنگی بەڕێوبەرایەتییان کردووە.",
+                            onPressedBritish: () => speakconsensuss3("en-GB"),
+                            onPressedAmerican: () => speakconsensuss3("en-US"),
                           ),
                         ],
                       ),

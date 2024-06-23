@@ -334,60 +334,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ناوچەیەک کە حکومەت و یاسای خۆی ھەیە یان لە ڕابردوودا ھەیبووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's good to meet people from different parts of the country."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شتێکی باشە کە خەڵکی لە بەشە جیاوازەکانی وڵاتەکەوە ببینیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "country", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It's good to meet people from different parts of the country.",
+            kurdishText:
+                "شتێکی باشە کە خەڵکی لە بەشە جیاوازەکانی وڵاتەکەوە ببینیت.", // country", please follow LX instructions
+            onPressedBritish: () => speakcountrys1("en-GB"),
+            onPressedAmerican: () => speakcountrys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She didn't know what life in a foreign country would be like."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەیدەزانی ژیان لە وڵاتێکی بیانی دەکرێت چۆن بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She didn't know what life in a foreign country would be like.",
+            kurdishText: "نەیدەزانی ژیان لە وڵاتێکی بیانی دەکرێت چۆن بێت.",
+            onPressedBritish: () => speakcountrys2("en-GB"),
+            onPressedAmerican: () => speakcountrys2("en-US"),
           ),
           Column(
             children: [
@@ -484,218 +445,67 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ناوچەی دەرەوەی شارەکان کە کێڵگە، دارستان، ھتدی لێیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I live in the country."),
-                    ExampleSentenceKurdish(text: "لە لادێ دەژیم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I live in the country.",
+            kurdishText: "لە لادێ دەژیم.",
+            onPressedBritish: () => speakcountrys6("en-GB"),
+            onPressedAmerican: () => speakcountrys6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We spent a pleasant day in the country."),
-                    ExampleSentenceKurdish(
-                        text: "ڕۆژێکی خۆشمان لە دەرەوەی شار بەسەربرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrys7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrys7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We spent a pleasant day in the country.",
+            kurdishText: "ڕۆژێکی خۆشمان لە دەرەوەی شار بەسەربرد.",
+            onPressedBritish: () => speakcountrys7("en-GB"),
+            onPressedAmerican: () => speakcountrys7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The country air should do you good."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوای دەرەوەی شار دەکرێت باش بێت بۆت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrys8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrys8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The country air should do you good.",
+            kurdishText: "ھەوای دەرەوەی شار دەکرێت باش بێت بۆت.",
+            onPressedBritish: () => speakcountrys8("en-GB"),
+            onPressedAmerican: () => speakcountrys8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) ناوچەیەک کە بۆ مەبەستێک گونجاوە یان پەیوەندیدارە بە کەسێکەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The town is surrounded by miles and miles of open country."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شارۆچکەکە دەوردراوە بە چەندین میل لە دەشتی کراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrys9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrys9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The town is surrounded by miles and miles of open country.",
+            kurdishText: "شارۆچکەکە دەوردراوە بە چەندین میل لە دەشتی کراوە.",
+            onPressedBritish: () => speakcountrys9("en-GB"),
+            onPressedAmerican: () => speakcountrys9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Explore Thomas Hardy country."),
-                    ExampleSentenceKurdish(
-                        text: "بگەڕێ بە زێدی تۆماس ھاردیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrys10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrys10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Explore Thomas Hardy country.",
+            kurdishText: "بگەڕێ بە زێدی تۆماس ھاردیدا.",
+            onPressedBritish: () => speakcountrys10("en-GB"),
+            onPressedAmerican: () => speakcountrys10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) خەڵکی وڵاتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They have the support of most of the country."),
-                    ExampleSentenceKurdish(
-                        text: "پشتیوانی تەواوی وڵاتەکەیان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrys11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrys11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They have the support of most of the country.",
+            kurdishText: "پشتیوانی تەواوی وڵاتەکەیان ھەیە.",
+            onPressedBritish: () => speakcountrys11("en-GB"),
+            onPressedAmerican: () => speakcountrys11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The whole country is depending on you."),
-                    ExampleSentenceKurdish(
-                        text: "تەواوی وڵاتەکە پشتت پێ دەبەستێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrys12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrys12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The whole country is depending on you.",
+            kurdishText: "تەواوی وڵاتەکە پشتت پێ دەبەستێت.",
+            onPressedBritish: () => speakcountrys12("en-GB"),
+            onPressedAmerican: () => speakcountrys12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The rich benefited from the reforms, not the country as a whole."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەوڵەمەندەکان قازانجیان لە چاکسازییەکان کرد، نەک تەواوی وڵاتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrys13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrys13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The rich benefited from the reforms, not the country as a whole.",
+            kurdishText:
+                "دەوڵەمەندەکان قازانجیان لە چاکسازییەکان کرد، نەک تەواوی وڵاتەکە.",
+            onPressedBritish: () => speakcountrys13("en-GB"),
+            onPressedAmerican: () => speakcountrys13("en-US"),
           ),
         ],
       ),

@@ -232,28 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک کە زۆر دەگری، بەتایبەتی بەبێ ھۆکار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Don't be such a crybaby."),
-                    ExampleSentenceKurdish(text: "ھێندە گرینۆک مەبە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crybaby", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrybabys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrybabys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't be such a crybaby.",
+            kurdishText:
+                "ھێندە گرینۆک مەبە.", // crybaby", please follow LX instructions
+            onPressedBritish: () => speakcrybabys1("en-GB"),
+            onPressedAmerican: () => speakcrybabys1("en-US"),
           ),
         ],
       ),

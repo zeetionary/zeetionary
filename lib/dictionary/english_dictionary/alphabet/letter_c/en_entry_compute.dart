@@ -110,87 +110,30 @@ class EnglishEntrycompute extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) لێکدانەوەی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The losses were computed at £5 million."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیانەکان بە ٥ ملیۆن پاوەند خەمڵێندران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compute", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomputes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomputes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The losses were computed at £5 million.",
+                            kurdishText:
+                                "زیانەکان بە ٥ ملیۆن پاوەند خەمڵێندران.", // compute",
+                            onPressedBritish: () => speakcomputes1("en-GB"),
+                            onPressedAmerican: () => speakcomputes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (کردار) تێگەشتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "That just doesn't compute."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەوە ھەر ڕێی تێناچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomputes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomputes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That just doesn't compute.",
+                            kurdishText: "ئەوە ھەر ڕێی تێناچێت.",
+                            onPressedBritish: () => speakcomputes2("en-GB"),
+                            onPressedAmerican: () => speakcomputes2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Can you help me compute the meaning of this passage? It's quite confusing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت یارمەتیم بدەیت لە واتای ئەم بەشە تێبگەم؟ زۆر ناڕوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomputes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomputes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Can you help me compute the meaning of this passage? It's quite confusing.",
+                            kurdishText:
+                                "دەتوانیت یارمەتیم بدەیت لە واتای ئەم بەشە تێبگەم؟ زۆر ناڕوونە.",
+                            onPressedBritish: () => speakcomputes3("en-GB"),
+                            onPressedAmerican: () => speakcomputes3("en-US"),
                           ),
                         ],
                       ),

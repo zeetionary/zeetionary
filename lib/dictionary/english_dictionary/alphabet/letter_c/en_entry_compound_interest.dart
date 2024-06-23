@@ -99,34 +99,15 @@ class EnglishEntrycompoundinterest extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سوو کە حساب دەکرێت بە ھەژمارکردنی ئەو بڕەی کە لە سەرەتادا بەکارھێنراوە و ئەو سووەی کە چووەتە سەری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Thanks to the power of compound interest, every €1 you invest in your 20s is worth €2 in your 30s and €4 in your 40s."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوپاس بۆ ھێزی سووی ئاوێتە، ھەر یەک یۆرۆ کە لە تەمەنی ٢٠ ـەکانتدا دەیخەیتە سەرمایەوە دەبێت بە ٢ یۆرۆ لە ٣٠ ـیەکانتدا و و ٤ یۆرۆ لە ٤٠ ـەکانتدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compound interest", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompoundinterests1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompoundinterests1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Thanks to the power of compound interest, every €1 you invest in your 20s is worth €2 in your 30s and €4 in your 40s.",
+                            kurdishText:
+                                "سوپاس بۆ ھێزی سووی ئاوێتە، ھەر یەک یۆرۆ کە لە تەمەنی ٢٠ ـەکانتدا دەیخەیتە سەرمایەوە دەبێت بە ٢ یۆرۆ لە ٣٠ ـیەکانتدا و و ٤ یۆرۆ لە ٤٠ ـەکانتدا.", // compound interest",
+                            onPressedBritish: () =>
+                                speakcompoundinterests1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompoundinterests1("en-US"),
                           ),
                         ],
                       ),

@@ -247,80 +247,27 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: نوشتانەوە، ھەڵتروشکان، ھەڵتووتان، قینچکە(کردن)، کوشکە(کردن)، ھەڵکورمان، خۆمات‌کردن، خۆمەڵاس‌دان، کسکە، چیچکە کردن، قنیچکە کردن
 """),
           const DefinitionKurdish(text: "١. (کردار) پێنناسە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He crouched down beside her."),
-                    ExampleSentenceKurdish(text: "لە تەنیشتیدا نوشتایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crouch", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrouchs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrouchs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He crouched down beside her.",
+            kurdishText:
+                "لە تەنیشتیدا نوشتایەوە.", // crouch", please follow LX instructions
+            onPressedBritish: () => speakcrouchs1("en-GB"),
+            onPressedAmerican: () => speakcrouchs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Doyle crouched behind a hedge."),
-                    ExampleSentenceKurdish(
-                        text: "دۆیل لە پشتی پەرژینە دەوەنییەکە چیچکەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrouchs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrouchs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Doyle crouched behind a hedge.",
+            kurdishText: "دۆیل لە پشتی پەرژینە دەوەنییەکە چیچکەی کرد.",
+            onPressedBritish: () => speakcrouchs2("en-GB"),
+            onPressedAmerican: () => speakcrouchs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) دانیشتن بە چیچکە کردنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She dropped to a crouch."),
-                    ExampleSentenceKurdish(text: "چیچکەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrouchs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrouchs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She dropped to a crouch.",
+            kurdishText: "چیچکەی کرد.",
+            onPressedBritish: () => speakcrouchs3("en-GB"),
+            onPressedAmerican: () => speakcrouchs3("en-US"),
           ),
         ],
       ),

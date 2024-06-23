@@ -194,156 +194,61 @@ class EnglishEntrycanvass extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پڕۆسەی گەڕان بە ناوچەیەکدا و قسەکردن لەگەڵ خەڵکی، بەتایبەتی بۆ داواکردنی پشتگیری بۆ کەسێکی دیاریکراو، پارتێکی سیاسی، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Volunteers and staffers were manning the phones and organizing a canvass."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆبەخشان و ئەندامانی ستاف ھێڵەکانی پەیوەندییان بەڕێوەدەبرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canvass", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanvasss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanvasss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Volunteers and staffers were manning the phones and organizing a canvass.",
+                            kurdishText:
+                                "خۆبەخشان و ئەندامانی ستاف ھێڵەکانی پەیوەندییان بەڕێوەدەبرد.", // canvass
+                            onPressedBritish: () => speakcanvasss1("en-GB"),
+                            onPressedAmerican: () => speakcanvasss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پڕۆسەی کۆکردنەوەی زانیاری و بۆچوونی خەڵکی بە گەڕان و پرسیارکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A canvass of council members showed that the proposal would not pass."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاپرسییەکی ئەندامانی ئەنجوومەنەکە دەریخست کە پێشنیازەکە دەنگ ناھێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanvasss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanvasss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A canvass of council members showed that the proposal would not pass.",
+                            kurdishText:
+                                "ڕاپرسییەکی ئەندامانی ئەنجوومەنەکە دەریخست کە پێشنیازەکە دەنگ ناھێنێت.",
+                            onPressedBritish: () => speakcanvasss2("en-GB"),
+                            onPressedAmerican: () => speakcanvasss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) کۆکردنەوەی پشتگیری بۆ کەسێک، پارتێکی سیاسی، ھتد بە گەڕان و قسەکردن لەگەڵیان یان پەیوەندی کردن پێیانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spent the whole month canvassing for votes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی مانگەکەی بەسەربرد بە کۆکردنەوەی دەنگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanvasss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanvasss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He spent the whole month canvassing for votes.",
+                            kurdishText:
+                                "تەواوی مانگەکەی بەسەربرد بە کۆکردنەوەی دەنگ.",
+                            onPressedBritish: () => speakcanvasss3("en-GB"),
+                            onPressedAmerican: () => speakcanvasss3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) قسەکردن لەگەڵ خەڵکی بۆ وەرگرتنی زانیاری و زانینی بۆچوونیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has been canvassing opinion on the issue."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەریکی ڕاپرسی لەسەر بۆچوونەکان بووە لەسەر بابەتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanvasss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanvasss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has been canvassing opinion on the issue.",
+                            kurdishText:
+                                "خەریکی ڕاپرسی لەسەر بۆچوونەکان بووە لەسەر بابەتەکە.",
+                            onPressedBritish: () => speakcanvasss4("en-GB"),
+                            onPressedAmerican: () => speakcanvasss4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) گەنگەشەکردنی بابەتێک بە تەواوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The proposal is currently being canvassed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشنیازەکە لە ئێستادا گەنگەشە دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanvasss5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanvasss5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The proposal is currently being canvassed.",
+                            kurdishText:
+                                "پێشنیازەکە لە ئێستادا گەنگەشە دەکرێت.",
+                            onPressedBritish: () => speakcanvasss5("en-GB"),
+                            onPressedAmerican: () => speakcanvasss5("en-US"),
                           ),
                         ],
                       ),

@@ -204,88 +204,31 @@ class EnglishEntrycompany extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دامەزراوەیەکی بازرگانی کە قازانج دەکات بە کڕین و فرۆشتنی کەلوپەل و خزمەتگوزاری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is the world's largest software company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەورەترین کۆمپانیای نەرمامێرە لە جیھاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "company", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is the world's largest software company.",
+                            kurdishText:
+                                "گەورەترین کۆمپانیای نەرمامێرە لە جیھاندا.", // company",
+                            onPressedBritish: () => speakcompanys1("en-GB"),
+                            onPressedAmerican: () => speakcompanys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She runs her own TV production company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیای بەرھەمھێنانی تەلەفیزیۆنی خۆی بەڕێوەدەبات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She runs her own TV production company.",
+                            kurdishText:
+                                "کۆمپانیای بەرھەمھێنانی تەلەفیزیۆنی خۆی بەڕێوەدەبات.",
+                            onPressedBritish: () => speakcompanys2("en-GB"),
+                            onPressedAmerican: () => speakcompanys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Smoking in the workplace is against company policy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جگەرەکێشان لە شوێنی کار دژی ڕێساکانی کۆمپانیایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Smoking in the workplace is against company policy.",
+                            kurdishText:
+                                "جگەرەکێشان لە شوێنی کار دژی ڕێساکانی کۆمپانیایە.",
+                            onPressedBritish: () => speakcompanys3("en-GB"),
+                            onPressedAmerican: () => speakcompanys3("en-US"),
                           ),
                           Column(
                             children: [
@@ -385,229 +328,73 @@ class EnglishEntrycompany extends StatelessWidget {
                             ],
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She joined the company in 2009."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ساڵی ٢٠٠٩ چووە کۆمپانیاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanys7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanys7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She joined the company in 2009.",
+                            kurdishText: "لە ساڵی ٢٠٠٩ چووە کۆمپانیاکە.",
+                            onPressedBritish: () => speakcompanys7("en-GB"),
+                            onPressedAmerican: () => speakcompanys7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) لەگەڵ کەسێک بوون وەک لەوەی تەنھا بیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I enjoy Jo's company (= I enjoy being with her)."),
-                                    ExampleSentenceKurdish(
-                                        text: "حەز دەکەم لەگەڵ جۆو بم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanys8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanys8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I enjoy Jo's company (= I enjoy being with her).",
+                            kurdishText: "حەز دەکەم لەگەڵ جۆو بم.",
+                            onPressedBritish: () => speakcompanys8("en-GB"),
+                            onPressedAmerican: () => speakcompanys8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She enjoys her own company (= being by herself) when she is travelling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەز دەکات تەنھا بێت کە گەشت دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanys9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanys9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She enjoys her own company (= being by herself) when she is travelling.",
+                            kurdishText: "حەز دەکات تەنھا بێت کە گەشت دەکات.",
+                            onPressedBritish: () => speakcompanys9("en-GB"),
+                            onPressedAmerican: () => speakcompanys9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's coming with me for company."),
-                                    ExampleSentenceKurdish(
-                                        text: "لەگەڵمدا دێت بۆ ھاوەڵی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanys10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanys10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's coming with me for company.",
+                            kurdishText: "لەگەڵمدا دێت بۆ ھاوەڵی.",
+                            onPressedBritish: () => speakcompanys10("en-GB"),
+                            onPressedAmerican: () => speakcompanys10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٣. (ناو) میوانی ماڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I didn't realize you had company."),
-                                    ExampleSentenceKurdish(
-                                        text: "نەمزانی میوانت ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanys11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanys11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I didn't realize you had company.",
+                            kurdishText: "نەمزانی میوانت ھەیە.",
+                            onPressedBritish: () => speakcompanys11("en-GB"),
+                            onPressedAmerican: () => speakcompanys11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We're expecting company this afternoon."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم نیوەڕۆیە چاوەڕێی میوانین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanys12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanys12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We're expecting company this afternoon.",
+                            kurdishText: "ئەم نیوەڕۆیە چاوەڕێی میوانین.",
+                            onPressedBritish: () => speakcompanys12("en-GB"),
+                            onPressedAmerican: () => speakcompanys12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) کۆمەڵێک کەس کە پێکەوەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Those children don't know how to behave in company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو منداڵانە نازانن چۆن ڕەفتار بکەن لەگەڵ کەسانی دیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanys13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanys13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Those children don't know how to behave in company.",
+                            kurdishText:
+                                "ئەو منداڵانە نازانن چۆن ڕەفتار بکەن لەگەڵ کەسانی دیکە.",
+                            onPressedBritish: () => speakcompanys13("en-GB"),
+                            onPressedAmerican: () => speakcompanys13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's not the type of joke you'd tell in mixed company (= in a group of people of both sexes)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو لەو گاڵتانەی نییە لە پێش کەسانی دیکە بیکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanys14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanys14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's not the type of joke you'd tell in mixed company (= in a group of people of both sexes).",
+                            kurdishText:
+                                "ئەو لەو گاڵتانەی نییە لە پێش کەسانی دیکە بیکەیت.",
+                            onPressedBritish: () => speakcompanys14("en-GB"),
+                            onPressedAmerican: () => speakcompanys14("en-US"),
                           ),
                         ],
                       ),

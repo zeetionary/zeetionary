@@ -95,32 +95,13 @@ class EnglishEntryconformity extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەڵسوکەوت و ڕەفتار کە گونجاوە لەگەڵ یاسا پەسەندکراوەکانی کۆمەڵگادا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Governments often invoke patriotism to enforce conformity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەتەکان زۆرجار ھەستی نیشتیمانپەروەری دەورووژێنن بۆ پابەندکردن بە نەریت‌گیری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conformity", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconformitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconformitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Governments often invoke patriotism to enforce conformity.",
+                            kurdishText:
+                                "حکومەتەکان زۆرجار ھەستی نیشتیمانپەروەری دەورووژێنن بۆ پابەندکردن بە نەریت‌گیری.", // conformity",
+                            onPressedBritish: () => speakconformitys1("en-GB"),
+                            onPressedAmerican: () => speakconformitys1("en-US"),
                           ),
                         ],
                       ),

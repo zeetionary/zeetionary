@@ -97,34 +97,15 @@ class EnglishEntrycoloursupplement extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گۆڤارێک کە بە ڕەنگاوڕەنگی چاپ دەکرێت و بەشێکی زیادەی ڕۆژنامەیەک پێکدێنێت، بەتایبەتی لە ڕۆژانی شەممە و یەکشەممەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The business has grown a lot in recent years, largely as a result of advertising in the Sunday colour supplements."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بازرگانییەکە زۆر بەرەوپێشچووە لەم ساڵانەی دواییدا، بەزۆری لە ئەنجامی بانگەشەکردن لە گۆڤارە پاشکۆکانی یەکشەممان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colour supplement", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoloursupplements1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoloursupplements1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The business has grown a lot in recent years, largely as a result of advertising in the Sunday colour supplements.",
+                            kurdishText:
+                                "بازرگانییەکە زۆر بەرەوپێشچووە لەم ساڵانەی دواییدا، بەزۆری لە ئەنجامی بانگەشەکردن لە گۆڤارە پاشکۆکانی یەکشەممان.", // colour supplement",
+                            onPressedBritish: () =>
+                                speakcoloursupplements1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoloursupplements1("en-US"),
                           ),
                         ],
                       ),

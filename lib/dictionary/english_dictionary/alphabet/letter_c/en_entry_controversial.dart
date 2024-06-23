@@ -105,64 +105,26 @@ class EnglishEntrycontroversial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بوون بەھۆی زۆرێک لە ناکۆکی و مشتومڕی گشتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A controversial plan to build a new road has met with protests."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانێکی کێشاوی بۆ درووستکردنی ڕێگایەکی تازە خۆپیشاندانی بە دوادا ھاتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "controversial", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontroversials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontroversials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A controversial plan to build a new road has met with protests.",
+                            kurdishText:
+                                "پلانێکی کێشاوی بۆ درووستکردنی ڕێگایەکی تازە خۆپیشاندانی بە دوادا ھاتووە.", // controversial",
+                            onPressedBritish: () =>
+                                speakcontroversials1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontroversials1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Winston Churchill and Richard Nixon were both controversial figures."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وینستۆن چەرچڵ و ڕیچارد نیکسۆن ھەردووکیان کەسایەتی مشت‌ومڕلەسەر بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontroversials2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontroversials2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Winston Churchill and Richard Nixon were both controversial figures.",
+                            kurdishText:
+                                "وینستۆن چەرچڵ و ڕیچارد نیکسۆن ھەردووکیان کەسایەتی مشت‌ومڕلەسەر بوون.",
+                            onPressedBritish: () =>
+                                speakcontroversials2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontroversials2("en-US"),
                           ),
                         ],
                       ),

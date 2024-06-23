@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کوولەکەسەوزە؛ سەوەزەیەک کە توێکڵێکی سەوزی تۆخی ھەیە و ناوەکەی سپییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Slice each courgette down the middle and remove the flesh."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەر کوولەکەسەوزەیەک لا ناوەڕاستدا کەرت بکە و ناوەکەی دەربکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "courgette", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourgettes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourgettes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Slice each courgette down the middle and remove the flesh.",
+            kurdishText:
+                "ھەر کوولەکەسەوزەیەک لا ناوەڕاستدا کەرت بکە و ناوەکەی دەربکە.", // courgette", please follow LX instructions
+            onPressedBritish: () => speakcourgettes1("en-GB"),
+            onPressedAmerican: () => speakcourgettes1("en-US"),
           ),
         ],
       ),

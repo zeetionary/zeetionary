@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) قڵیشێکی گەورە، بەتایبەتی لە شەختەدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The majority of crevasse deaths happen to those who travel across glaciers unroped."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرینەی مردنی ناو سەھۆڵەکەلێنەکان بەسەر ئەو گەشتیارانەدا دێت کە بەبێ حەبل گەشت دەکەن بە ئاوبەستەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crevasse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrevasses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrevasses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The majority of crevasse deaths happen to those who travel across glaciers unroped.",
+            kurdishText:
+                "زۆرینەی مردنی ناو سەھۆڵەکەلێنەکان بەسەر ئەو گەشتیارانەدا دێت کە بەبێ حەبل گەشت دەکەن بە ئاوبەستەکاندا.", // crevasse", please follow LX instructions
+            onPressedBritish: () => speakcrevasses1("en-GB"),
+            onPressedAmerican: () => speakcrevasses1("en-US"),
           ),
         ],
       ),

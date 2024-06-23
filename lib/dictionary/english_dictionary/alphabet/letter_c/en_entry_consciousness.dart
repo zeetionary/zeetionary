@@ -121,127 +121,51 @@ class EnglishEntryconsciousness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخی ھەبوونی توانای بەکارھێنانی ھەستەکانت و ھێزی مێشکت بۆ زانینی ئەوەی چی ڕوودەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She did not regain consciousness and died the next day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھۆشی بەبەر نەھاتەوە و ڕۆژی دواتر گیانی لەدەستدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consciousness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsciousnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsciousnesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She did not regain consciousness and died the next day.",
+                            kurdishText:
+                                "ھۆشی بەبەر نەھاتەوە و ڕۆژی دواتر گیانی لەدەستدا.", // consciousness",
+                            onPressedBritish: () =>
+                                speakconsciousnesss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsciousnesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't remember any more—I must have lost consciousness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیتر بیرم نایەتەوە، دەکرێت ھۆشم لەدەست دابێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsciousnesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsciousnesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't remember any more—I must have lost consciousness.",
+                            kurdishText:
+                                "چیتر بیرم نایەتەوە، دەکرێت ھۆشم لەدەست دابێت.",
+                            onPressedBritish: () =>
+                                speakconsciousnesss2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsciousnesss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دۆخی بەئاگایی، تێگەشتن و ھەستکردن بە شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have succeeded in raising consciousness on many issues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکەوتوو بوون لەسەر زیادکردنی ھۆشیاری لەسەر زۆر بابەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsciousnesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsciousnesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have succeeded in raising consciousness on many issues.",
+                            kurdishText:
+                                "سەرکەوتوو بوون لەسەر زیادکردنی ھۆشیاری لەسەر زۆر بابەت.",
+                            onPressedBritish: () =>
+                                speakconsciousnesss3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsciousnesss3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The memory remained deep in his consciousness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یادەوەرییەکە بە قووڵی لە بیروھۆشیدا مایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsciousnesss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsciousnesss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The memory remained deep in his consciousness.",
+                            kurdishText:
+                                "یادەوەرییەکە بە قووڵی لە بیروھۆشیدا مایەوە.",
+                            onPressedBritish: () =>
+                                speakconsciousnesss4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsciousnesss4("en-US"),
                           ),
                         ],
                       ),

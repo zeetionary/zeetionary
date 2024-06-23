@@ -130,30 +130,11 @@ class EnglishEntrycolonel extends StatelessWidget {
                           //   ],
                           // ),
                           // const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Yes, Colonel."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەڵێ، کۆلۆنێڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonels2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonels2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Yes, Colonel.",
+                            kurdishText: "بەڵێ، کۆلۆنێڵ.",
+                            onPressedBritish: () => speakcolonels2("en-GB"),
+                            onPressedAmerican: () => speakcolonels2("en-US"),
                           ),
                         ],
                       ),

@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) سەکۆیەکە لەسەر داراڵای کەشتییەک کە چاودێر لەسەری دەوەستێت و دوورییەکەی زۆر دەبینێت بۆ بینینی وشکانی یان مەترسی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "From the crow's nest, the lookout could see far out to sea."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە چاوێرگەکەوە، چاودێرەکە دوور بە دەریاکەدا ببینێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crow's nest", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowsnests1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowsnests1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "From the crow's nest, the lookout could see far out to sea.",
+            kurdishText:
+                "لە چاوێرگەکەوە، چاودێرەکە دوور بە دەریاکەدا ببینێت.", // crow's nest", please follow LX instructions
+            onPressedBritish: () => speakcrowsnests1("en-GB"),
+            onPressedAmerican: () => speakcrowsnests1("en-US"),
           ),
         ],
       ),

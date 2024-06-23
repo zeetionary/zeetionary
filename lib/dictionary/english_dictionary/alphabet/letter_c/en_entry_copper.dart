@@ -128,147 +128,49 @@ class EnglishEntrycopper extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مس؛ توخمێکی کیمیایی کانزایەکی نەرمی قاوەیی سوورباوە کە بەکاردێت بۆ درووستکردنی وایەری کارەبایی و دراوی سکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her hair shone like burnished copper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قژی وەک مسی سافکراو دەدرەوشایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "copper", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoppers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoppers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her hair shone like burnished copper.",
+                            kurdishText:
+                                "قژی وەک مسی سافکراو دەدرەوشایەوە.", // copper",
+                            onPressedBritish: () => speakcoppers1("en-GB"),
+                            onPressedAmerican: () => speakcoppers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One of the properties of copper is that it conducts heat and electricity very well."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە خاسیەتەکانی مس ئەوەیە گەرمی و کارەبا بە باشی دەگەیەنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoppers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoppers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One of the properties of copper is that it conducts heat and electricity very well.",
+                            kurdishText:
+                                "یەکێک لە خاسیەتەکانی مس ئەوەیە گەرمی و کارەبا بە باشی دەگەیەنێت.",
+                            onPressedBritish: () => speakcoppers2("en-GB"),
+                            onPressedAmerican: () => speakcoppers2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) سکەی قاوەیی کە نرخی زۆری نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One of the properties of copper is that it conducts heat and electricity very well."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەنھا چەند فلسێکم پێدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoppers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoppers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One of the properties of copper is that it conducts heat and electricity very well.",
+                            kurdishText: "تەنھا چەند فلسێکم پێدا.",
+                            onPressedBritish: () => speakcoppers3("en-GB"),
+                            onPressedAmerican: () => speakcoppers3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ئەفسەرێکی پۆلیس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Apparently, her dad's a copper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک ئەوەی دەردەکەوێت باوکی پۆلیسە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoppers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoppers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Apparently, her dad's a copper.",
+                            kurdishText: "وەک ئەوەی دەردەکەوێت باوکی پۆلیسە.",
+                            onPressedBritish: () => speakcoppers4("en-GB"),
+                            onPressedAmerican: () => speakcoppers4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are a couple of coppers waiting outside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک پۆلیس لە دەرەوە چاوەڕێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoppers5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoppers5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are a couple of coppers waiting outside.",
+                            kurdishText: "ژمارەیەک پۆلیس لە دەرەوە چاوەڕێن.",
+                            onPressedBritish: () => speakcoppers5("en-GB"),
+                            onPressedAmerican: () => speakcoppers5("en-US"),
                           ),
                         ],
                       ),

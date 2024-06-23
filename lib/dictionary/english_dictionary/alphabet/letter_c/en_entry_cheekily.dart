@@ -94,32 +94,13 @@ class EnglishEntrycheekily extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە بێ‌شەرمانەیە بەشێوەیەکی بێزارکەرانە یان بە گاڵتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He cheekily asked for her phone number."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە بێ‌شەرمانە داوای ژمارە تەلەفۆنەکەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheekily", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheekilys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheekilys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He cheekily asked for her phone number.",
+                            kurdishText:
+                                "بە بێ‌شەرمانە داوای ژمارە تەلەفۆنەکەی کرد.", // cheekily",
+                            onPressedBritish: () => speakcheekilys1("en-GB"),
+                            onPressedAmerican: () => speakcheekilys1("en-US"),
                           ),
                         ],
                       ),

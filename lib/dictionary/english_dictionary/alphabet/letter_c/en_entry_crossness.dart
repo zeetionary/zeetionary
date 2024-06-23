@@ -232,30 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "// speakcrossnesss111111111111111111111111111111111"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crossness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossnesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossnesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "// speakcrossnesss111111111111111111111111111111111",
+            kurdishText:
+                "رستە_رستە_رستە_رستە.", // crossness", please follow LX instructions
+            onPressedBritish: () => speakcrossnesss1("en-GB"),
+            onPressedAmerican: () => speakcrossnesss1("en-US"),
           ),
         ],
       ),

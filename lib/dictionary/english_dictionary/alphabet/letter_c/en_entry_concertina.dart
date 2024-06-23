@@ -112,91 +112,34 @@ class EnglishEntryconcertina extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئامێرێکی میوزیکی کە بە ھەردوو دەست دەیگریت و دەیپەستێنی و بەری دەدەیت بۆ درووستکردنی میوزیک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The concertina's music echoed through the streets."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوزیکی کۆنسێرتیناکە دەنگی دەدایەوە لە شەقامەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concertina", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcertinas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcertinas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The concertina's music echoed through the streets.",
+                            kurdishText:
+                                "میوزیکی کۆنسێرتیناکە دەنگی دەدایەوە لە شەقامەکاندا.", // concertina",
+                            onPressedBritish: () => speakconcertinas1("en-GB"),
+                            onPressedAmerican: () => speakconcertinas1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) چوون بە یەکدا وەک کۆنسێرتینایەکی پەستێنراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The truck crashed into the tree and concertinaed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بارھەڵگرەکە کێشای بە درەختەکەدا و چوو بە یەکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcertinas2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcertinas2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The truck crashed into the tree and concertinaed.",
+                            kurdishText:
+                                "بارھەڵگرەکە کێشای بە درەختەکەدا و چوو بە یەکدا.",
+                            onPressedBritish: () => speakconcertinas2("en-GB"),
+                            onPressedAmerican: () => speakconcertinas2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Could we concertina the three meetings into one morning?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراوی) دەتوانین سێ کۆبوونەوەکە بکەین بە یەک بەیانی؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcertinas3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcertinas3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Could we concertina the three meetings into one morning?",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی) دەتوانین سێ کۆبوونەوەکە بکەین بە یەک بەیانی؟",
+                            onPressedBritish: () => speakconcertinas3("en-GB"),
+                            onPressedAmerican: () => speakconcertinas3("en-US"),
                           ),
                         ],
                       ),

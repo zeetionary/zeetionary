@@ -121,122 +121,46 @@ class EnglishEntrycontrive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) توانای کردنی شتێک سەرەڕای بەرھەڵستی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She contrived to spend a couple of hours with him every Sunday evening."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانی ھەموو ئێوارانێکی یەکشەممان چەند کاتژمێرێک لەگەڵی بەسەر ببات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contrive", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She contrived to spend a couple of hours with him every Sunday evening.",
+                            kurdishText:
+                                "توانی ھەموو ئێوارانێکی یەکشەممان چەند کاتژمێرێک لەگەڵی بەسەر ببات.", // contrive",
+                            onPressedBritish: () => speakcontrives1("en-GB"),
+                            onPressedAmerican: () => speakcontrives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Somehow they contrived to live on her tiny income."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرچۆنێک بێت توانییان لەسەر داھاتە کەمەکە بژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Somehow they contrived to live on her tiny income.",
+                            kurdishText:
+                                "ھەرچۆنێک بێت توانییان لەسەر داھاتە کەمەکە بژین.",
+                            onPressedBritish: () => speakcontrives2("en-GB"),
+                            onPressedAmerican: () => speakcontrives2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) سەرکەوتوو لەوەی شتێک ڕووبدات سەرەڕای بەرھەڵستی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I decided to contrive a meeting between the two of them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانیم کۆبوونەوەیەک لە نێوانیان ڕێکبخەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrives3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I decided to contrive a meeting between the two of them.",
+                            kurdishText:
+                                "توانیم کۆبوونەوەیەک لە نێوانیان ڕێکبخەم.",
+                            onPressedBritish: () => speakcontrives3("en-GB"),
+                            onPressedAmerican: () => speakcontrives3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) بیرکردنەوە یان درووستکردنی شتێک بە شێوەیەکی زیرەکانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They contrived a plan to defraud the company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانییان پلانێک دابڕێژن بۆ خەڵەتاندنی کۆمپانیاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrives4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrives4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They contrived a plan to defraud the company.",
+                            kurdishText:
+                                "توانییان پلانێک دابڕێژن بۆ خەڵەتاندنی کۆمپانیاکە.",
+                            onPressedBritish: () => speakcontrives4("en-GB"),
+                            onPressedAmerican: () => speakcontrives4("en-US"),
                           ),
                         ],
                       ),

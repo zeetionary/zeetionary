@@ -104,63 +104,24 @@ class EnglishEntrycolon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نیشانەی (:) کە لە نووسیندا بەکاردێت بۆ ناساندنی لیستێک، کورتکراوەیەک، ڕوونکردنەوەیەک، ھتد یان پێش وتنی ئەوەی کە کەسێک وتویەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The colon is a versatile punctuation mark: it has several uses in writing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆلۆن نیشانەیەکی خاڵبەندی فرەکارە: ژمارەیەک ئەرکی ھەیە لە نووسیندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colon", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The colon is a versatile punctuation mark: it has several uses in writing.",
+                            kurdishText:
+                                "کۆلۆن نیشانەیەکی خاڵبەندی فرەکارە: ژمارەیەک ئەرکی ھەیە لە نووسیندا.", // colon",
+                            onPressedBritish: () => speakcolons1("en-GB"),
+                            onPressedAmerican: () => speakcolons1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەشی خوارەوە و سەرەکی ڕیخۆڵە ئەستوورە کە تێیدا شلە لە مادەی توند جیادەکرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The colon plays a crucial role in digestion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆلۆن ئەرکێکی گرنگی لە ھەرسدا ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The colon plays a crucial role in digestion.",
+                            kurdishText: "کۆلۆن ئەرکێکی گرنگی لە ھەرسدا ھەیە.",
+                            onPressedBritish: () => speakcolons2("en-GB"),
+                            onPressedAmerican: () => speakcolons2("en-US"),
                           ),
                         ],
                       ),

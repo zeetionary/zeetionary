@@ -281,200 +281,66 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: مامۆزا، ئامۆزا،	خاڵۆزا،	پوورزا، میمکەزا (چ کوڕ یان کچ)،	خزمی دوور، بۆرەخزم، کوێرەخزم
 """),
           const DefinitionKurdish(text: "١. (ناو) منداڵی مام، خاڵ، یان پوور"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She's my cousin."),
-                    ExampleSentenceKurdish(
-                      text: "ئامۆزامە.",
-                      note: "ھەروەھا: خاڵۆزامە؛ پورزامە",
-                    ),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cousin", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcousins1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcousins1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's my cousin.",
+            kurdishText: "ئامۆزامە.",
+            kurdishNote:
+                "ھەروەھا: خاڵۆزامە؛ پورزامە", // cousin", please follow LX instructions
+            onPressedBritish: () => speakcousins1("en-GB"),
+            onPressedAmerican: () => speakcousins1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "This is my cousin Richard."),
-                    ExampleSentenceKurdish(
-                      text: "ئەمە ڕیچاردی ئامۆزامە.",
-                      note:
-                          "ھەروەھا: ئەمە ڕیچاردی خاڵۆزامە؛ ئەمە ڕیچاردی پوورزامە",
-                    ),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcousins2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcousins2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is my cousin Richard.",
+            kurdishText: "ئەمە ڕیچاردی ئامۆزامە.",
+            kurdishNote: "ھەروەھا: ئەمە ڕیچاردی خاڵۆزامە؛ ئەمە ڕیچاردی پوورزامە",
+            onPressedBritish: () => speakcousins2("en-GB"),
+            onPressedAmerican: () => speakcousins2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's a cousin of the bride."),
-                    ExampleSentenceKurdish(
-                      text: "ئامۆزای بووکە.",
-                      note: "خاڵۆزای بووکە؛ پوورزای بووکە",
-                    ),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcousins3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcousins3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's a cousin of the bride.",
+            kurdishText: "ئامۆزای بووکە.",
+            kurdishNote: "خاڵۆزای بووکە؛ پوورزای بووکە",
+            onPressedBritish: () => speakcousins3("en-GB"),
+            onPressedAmerican: () => speakcousins3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک کە سەر بە ھەمان خێزانە لەگەڵت بەڵام خزمی دووری یەکن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's some sort of cousin, I think."),
-                    ExampleSentenceKurdish(text: "پێموایە بۆرەخزمێکمە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcousins4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcousins4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(englishText: "She's some sort of cousin, I think.",
+          kurdishText:  "پێموایە بۆرەخزمێکمە.",
+            onPressedBritish: () => speakcousins4("en-GB"),
+            onPressedAmerican: () => speakcousins4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He's a distant cousin of mine."),
-                    ExampleSentenceKurdish(text: "خزمێکی دوورمە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcousins5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcousins5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(englishText: "He's a distant cousin of mine.",
+          kurdishText:  "خزمێکی دوورمە.",
+            onPressedBritish: () => speakcousins5("en-GB"),
+            onPressedAmerican: () => speakcousins5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ئەندامانی دوو گرووپ لە خەڵکی کە پەیوەندیدارن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We Americans owe a great deal to our European cousins."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئێمەی ئەمریکی قەرزاری گەورەی خزمە ئەورووپییەکانمانین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcousins6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcousins6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We Americans owe a great deal to our European cousins.",
+            kurdishText:
+                "ئێمەی ئەمریکی قەرزاری گەورەی خزمە ئەورووپییەکانمانین.",
+            onPressedBritish: () => speakcousins6("en-GB"),
+            onPressedAmerican: () => speakcousins6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) بۆ باسکردنی ئەو شتانەی لە یەکەوە نزیکن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Asian elephants are smaller than their African cousins."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیلە ئاسیاییەکان بچووکترن لە لێکچووە ئەفریقاییەکانیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcousins7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcousins7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Asian elephants are smaller than their African cousins.",
+            kurdishText:
+                "فیلە ئاسیاییەکان بچووکترن لە لێکچووە ئەفریقاییەکانیان.",
+            onPressedBritish: () => speakcousins7("en-GB"),
+            onPressedAmerican: () => speakcousins7("en-US"),
           ),
         ],
       ),

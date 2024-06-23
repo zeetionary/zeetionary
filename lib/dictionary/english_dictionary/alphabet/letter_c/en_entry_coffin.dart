@@ -95,32 +95,13 @@ class EnglishEntrycoffin extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سندووقێک کە تێیدا مردوو دەنێژرێت یان دەسووتێنرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A procession of mourners slowly followed the coffin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاروانێک لە شیوەنگێڕان بە ھێواشی بە دوای تابووتەکەوە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coffin", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoffins1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoffins1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A procession of mourners slowly followed the coffin.",
+                            kurdishText:
+                                "کاروانێک لە شیوەنگێڕان بە ھێواشی بە دوای تابووتەکەوە بوون.", // coffin",
+                            onPressedBritish: () => speakcoffins1("en-GB"),
+                            onPressedAmerican: () => speakcoffins1("en-US"),
                           ),
                         ],
                       ),

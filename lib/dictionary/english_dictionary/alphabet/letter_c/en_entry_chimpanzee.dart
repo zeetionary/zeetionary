@@ -103,60 +103,22 @@ class EnglishEntrychimpanzee extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئەیپێکی بچووک و زیرەکی ئەفریقی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Researchers observed the chimpanzees using tools to crack open nuts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژەران سەرنجی شیمپانزییەکانیان دا کە ئامرازیان بەکاردەھێنا بۆ شکاندنی کاکڵدارەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chimpanzee", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchimpanzees1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchimpanzees1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Researchers observed the chimpanzees using tools to crack open nuts.",
+                            kurdishText:
+                                "توێژەران سەرنجی شیمپانزییەکانیان دا کە ئامرازیان بەکاردەھێنا بۆ شکاندنی کاکڵدارەکان.", // chimpanzee",
+                            onPressedBritish: () => speakchimpanzees1("en-GB"),
+                            onPressedAmerican: () => speakchimpanzees1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The documentary highlighted the similarities between chimpanzees and humans."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆکیومێنتاییەکە تیشک دەخاتەسەر لێکچوویەکانی شیمپانزی و مرۆڤ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchimpanzees2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchimpanzees2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The documentary highlighted the similarities between chimpanzees and humans.",
+                            kurdishText:
+                                "دۆکیومێنتاییەکە تیشک دەخاتەسەر لێکچوویەکانی شیمپانزی و مرۆڤ.",
+                            onPressedBritish: () => speakchimpanzees2("en-GB"),
+                            onPressedAmerican: () => speakchimpanzees2("en-US"),
                           ),
                         ],
                       ),

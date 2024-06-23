@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شێوەیەکی ناوبۆش کە لایەکانی ڕێکن و دوو سەری خڕی ھەیە، یان شتێک کە ئەم شێوەیەی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Deep-sea divers carry cylinders of oxygen on their backs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مەلەوانانی ناو قوڵاییەکان بوتڵە ئۆکسجین لەسەر پشتیان ھەڵدەگرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cylinder", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcylinders1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcylinders1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Deep-sea divers carry cylinders of oxygen on their backs.",
+            kurdishText:
+                "مەلەوانانی ناو قوڵاییەکان بوتڵە ئۆکسجین لەسەر پشتیان ھەڵدەگرن.", // cylinder", please follow LX instructions
+            onPressedBritish: () => speakcylinders1("en-GB"),
+            onPressedAmerican: () => speakcylinders1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All our aircraft carry at least one oxygen cylinder for emergency use on board."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو فڕۆکەکانمان بەلایەنی کەمەوە یەک بوتڵە ئۆکسجین ھەڵدەگرن بۆ بەکارھێنانی لەناکاو لەسەر فڕۆکەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcylinders2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcylinders2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All our aircraft carry at least one oxygen cylinder for emergency use on board.",
+            kurdishText:
+                "ھەموو فڕۆکەکانمان بەلایەنی کەمەوە یەک بوتڵە ئۆکسجین ھەڵدەگرن بۆ بەکارھێنانی لەناکاو لەسەر فڕۆکەکە.",
+            onPressedBritish: () => speakcylinders2("en-GB"),
+            onPressedAmerican: () => speakcylinders2("en-US"),
           ),
         ],
       ),

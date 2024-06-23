@@ -102,59 +102,20 @@ class EnglishEntrycomical extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێکەنیناوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is a slightly comical figure."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەسێکی کەمێک گاڵتەجاڕە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comical", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomicals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomicals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He is a slightly comical figure.",
+                            kurdishText: "کەسێکی کەمێک گاڵتەجاڕە.", // comical",
+                            onPressedBritish: () => speakcomicals1("en-GB"),
+                            onPressedAmerican: () => speakcomicals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What made it so comical was that their hats kept falling off."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوەی وایکرد پێکەنتناوت بێت ئەوە بوو کڵاوەکانیان بەردەوام دەکەوتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomicals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomicals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What made it so comical was that their hats kept falling off.",
+                            kurdishText:
+                                "ئەوەی وایکرد پێکەنتناوت بێت ئەوە بوو کڵاوەکانیان بەردەوام دەکەوتن.",
+                            onPressedBritish: () => speakcomicals2("en-GB"),
+                            onPressedAmerican: () => speakcomicals2("en-US"),
                           ),
                         ],
                       ),

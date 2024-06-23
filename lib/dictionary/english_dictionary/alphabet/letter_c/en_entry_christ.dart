@@ -107,60 +107,21 @@ class EnglishEntrychrist extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو کەسەی کە مەسیحییەکان باوەڕیان وایە کوڕی خوایە و لەسەر وانەکانی ئایینی مەسیحی درووست بووە "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They believe that Christ will come again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕیان وابوو کە پێغەمبەر عیسا دەگەڕێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "Christ", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchrists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchrists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They believe that Christ will come again.",
+                            kurdishText:
+                                "باوەڕیان وابوو کە پێغەمبەر عیسا دەگەڕێتەوە.", // Christ",
+                            onPressedBritish: () => speakchrists1("en-GB"),
+                            onPressedAmerican: () => speakchrists1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Christ will help us overcome danger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "عیسای مەسیح یارمەتیمان دەدات بەسەر مەترسیدا سەربکەوین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchrists2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchrists2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Christ will help us overcome danger.",
+                            kurdishText:
+                                "عیسای مەسیح یارمەتیمان دەدات بەسەر مەترسیدا سەربکەوین.",
+                            onPressedBritish: () => speakchrists2("en-GB"),
+                            onPressedAmerican: () => speakchrists2("en-US"),
                           ),
                         ],
                       ),

@@ -146,218 +146,76 @@ class EnglishEntrycombination extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دوو شت یان زیاتر کە پێکەوە بەند یان تێکەڵ کراون بۆ درووستکردنی یەک یەکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The tragedy was due to a combination of factors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تراژیدیاکە بەھۆی ئاوێتەی کۆمەڵێک فاکتەرەوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "combination", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcombinations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcombinations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The tragedy was due to a combination of factors.",
+                            kurdishText:
+                                "تراژیدیاکە بەھۆی ئاوێتەی کۆمەڵێک فاکتەرەوە بوو.", // combination",
+                            onPressedBritish: () => speakcombinations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcombinations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They recommend reducing expenditure, increasing taxes, or a combination of the two."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمکردنەوەی خەرجی، زیادکردنی باج، یان تێکەڵ‌کردنێکی ھەردووکیان پێشنیاز دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcombinations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcombinations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They recommend reducing expenditure, increasing taxes, or a combination of the two.",
+                            kurdishText:
+                                "کەمکردنەوەی خەرجی، زیادکردنی باج، یان تێکەڵ‌کردنێکی ھەردووکیان پێشنیاز دەکەن.",
+                            onPressedBritish: () => speakcombinations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcombinations2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What an unusual combination of flavours!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چی تێکەڵەیەکی دەگمەن لە تام و چێژ!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcombinations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcombinations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What an unusual combination of flavours!",
+                            kurdishText: "چی تێکەڵەیەکی دەگمەن لە تام و چێژ!",
+                            onPressedBritish: () => speakcombinations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcombinations3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) یەکگرتن یان ئاوێتەبوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The firm is working on a new product in combination with several overseas partners."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە لەسەر بەرھەمێکی تازە کار دەکات بە یەکگرتووی لەگەڵ ھاوبەشە نێودەوڵەتییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcombinations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcombinations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The firm is working on a new product in combination with several overseas partners.",
+                            kurdishText:
+                                "کۆمپانیاکە لەسەر بەرھەمێکی تازە کار دەکات بە یەکگرتووی لەگەڵ ھاوبەشە نێودەوڵەتییەکان.",
+                            onPressedBritish: () => speakcombinations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcombinations4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The materials can be used singly or in combination."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مادەکان دەکرێت بە تەنھایی یان ھاوبەشی بەکاربێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcombinations5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcombinations5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The materials can be used singly or in combination.",
+                            kurdishText:
+                                "مادەکان دەکرێت بە تەنھایی یان ھاوبەشی بەکاربێن.",
+                            onPressedBritish: () => speakcombinations5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcombinations5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Combination of these methods allowed us to achieve highly consistent results."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکخستنی ئەم بیردۆزانە ڕێگەیان پێمان دا ئەنجامی تەواو جێگیر بەدەست بھێنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcombinations6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcombinations6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Combination of these methods allowed us to achieve highly consistent results.",
+                            kurdishText:
+                                "یەکخستنی ئەم بیردۆزانە ڕێگەیان پێمان دا ئەنجامی تەواو جێگیر بەدەست بھێنین.",
+                            onPressedBritish: () => speakcombinations6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcombinations6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ژمارەیەک لە ژمارە و پیت کە بەکاردێت بۆ کردنەوەی قوفڵێکی ڕەمزی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't remember the combination."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕەمزەکەم بیرنایەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcombinations7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcombinations7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I can't remember the combination.",
+                            kurdishText: "ڕەمزەکەم بیرنایەتەوە.",
+                            onPressedBritish: () => speakcombinations7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcombinations7("en-US"),
                           ),
                         ],
                       ),

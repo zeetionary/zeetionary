@@ -187,32 +187,13 @@ class EnglishEntrycaviar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھێلکەی ھەندێک ماسی، بە تایبەتی ستێرجن، کە لە خوێدادەپاێزرێن و دەخوردرێن وەک خواردنێکی زۆر تایبەت و گران‌بەھا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Caspian Sea and Black Sea are historically renowned for their caviar production."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەریای قەزوین و ڕەش لە مێژوودا ناسراوبوونە بۆ بەرھەمی خاویاریان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "caviar", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaviars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaviars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Caspian Sea and Black Sea are historically renowned for their caviar production.",
+                            kurdishText:
+                                "دەریای قەزوین و ڕەش لە مێژوودا ناسراوبوونە بۆ بەرھەمی خاویاریان.", // caviar",
+                            onPressedBritish: () => speakcaviars1("en-GB"),
+                            onPressedAmerican: () => speakcaviars1("en-US"),
                           ),
                         ],
                       ),

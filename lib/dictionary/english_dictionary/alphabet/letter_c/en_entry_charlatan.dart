@@ -95,32 +95,13 @@ class EnglishEntrycharlatan extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە بانگەشەی ئەوە دەکات کە شارەزاییەکی ھەیە کە لە ڕاستیدا نییەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He knows nothing about medicine—he’s a complete charlatan."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ لەسەر دەرمان نازانێت، تەڵەکەبازێکی تەواوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "charlatan", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharlatans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharlatans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He knows nothing about medicine—he’s a complete charlatan.",
+                            kurdishText:
+                                "ھیچ لەسەر دەرمان نازانێت، تەڵەکەبازێکی تەواوە.", // charlatan",
+                            onPressedBritish: () => speakcharlatans1("en-GB"),
+                            onPressedAmerican: () => speakcharlatans1("en-US"),
                           ),
                         ],
                       ),

@@ -241,61 +241,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جلێکی ژێرەوەی ژنانە کە بە تایبەتی لە کۆندا لەبەردەکرا بۆ بچووککردنەوەی کەمەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Women in the 19th century often wore corsets to achieve a slim waist."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژنان لە سەدەی نۆزدەدا زۆرجار زگ‌بەندیان دەبەست بۆ بەدەستھێنانی کەمەرێکی باریک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corset", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorsets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorsets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Women in the 19th century often wore corsets to achieve a slim waist.",
+            kurdishText:
+                "ژنان لە سەدەی نۆزدەدا زۆرجار زگ‌بەندیان دەبەست بۆ بەدەستھێنانی کەمەرێکی باریک.", // corset", please follow LX instructions
+            onPressedBritish: () => speakcorsets1("en-GB"),
+            onPressedAmerican: () => speakcorsets1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شتێک کە کەمەر بە توندی دەگرێت و لەبەردەکرێت بۆ پاڵپشتی پشتی لاواز یان بریندار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has taken to jogging in a corset."),
-                    ExampleSentenceKurdish(
-                        text: "دەستی بە سووکە ڕاکردن لە کەمەربەندا کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorsets2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorsets2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has taken to jogging in a corset.",
+            kurdishText: "دەستی بە سووکە ڕاکردن لە کەمەربەندا کردووە.",
+            onPressedBritish: () => speakcorsets2("en-GB"),
+            onPressedAmerican: () => speakcorsets2("en-US"),
           ),
         ],
       ),

@@ -102,63 +102,26 @@ class EnglishEntrycomparatively extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە بەراورد بە شتێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He died comparatively young (= at a younger age than most people die)."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەراوردکاری‌یانە بە گەنجی مرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comparatively", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomparativelys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomparativelys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He died comparatively young (= at a younger age than most people die).",
+                            kurdishText:
+                                "بەراوردکاری‌یانە بە گەنجی مرد.", // comparatively",
+                            onPressedBritish: () =>
+                                speakcomparativelys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomparativelys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is comparatively easy to install and cheap to operate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەراوردکاری‌یانە ئاسانە بۆ دانانە و ھەرزانە بۆ کارپێکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomparativelys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomparativelys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is comparatively easy to install and cheap to operate.",
+                            kurdishText:
+                                "بەراوردکاری‌یانە ئاسانە بۆ دانانە و ھەرزانە بۆ کارپێکردن.",
+                            onPressedBritish: () =>
+                                speakcomparativelys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomparativelys2("en-US"),
                           ),
                         ],
                       ),

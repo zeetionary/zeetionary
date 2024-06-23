@@ -189,32 +189,13 @@ class EnglishEntrycashew extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) میوەیەکی کاکڵدار کە لە دارێکی ئەمریکییەوە دەڕوێت و دەخوردرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cashews add a delightful crunch to salads, enhancing both texture and flavor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاشیو خرمەخرمێکی خۆش زیاد دەکات بۆزەڵاتە، و ھەم ڕەنگ و ھەم تام خۆش دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cashew", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcashews1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcashews1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cashews add a delightful crunch to salads, enhancing both texture and flavor.",
+                            kurdishText:
+                                "کاشیو خرمەخرمێکی خۆش زیاد دەکات بۆزەڵاتە، و ھەم ڕەنگ و ھەم تام خۆش دەکات.", // cashew",
+                            onPressedBritish: () => speakcashews1("en-GB"),
+                            onPressedAmerican: () => speakcashews1("en-US"),
                           ),
                         ],
                       ),

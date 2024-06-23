@@ -96,34 +96,15 @@ class EnglishEntryconsumergoods extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو شتانەی خەڵکی بۆ بەکارھێنانی خۆیان دەیانکڕن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Prices of consumer goods rose by 2.5% last year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخی کەلووپەلە بەکارھێنەران ساڵی ڕابردوو بە ڕێژەی ٢,٥٪ بەرزبوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consumer goods", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsumergoodss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsumergoodss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Prices of consumer goods rose by 2.5% last year.",
+                            kurdishText:
+                                "نرخی کەلووپەلە بەکارھێنەران ساڵی ڕابردوو بە ڕێژەی ٢,٥٪ بەرزبوویەوە.", // consumer goods",
+                            onPressedBritish: () =>
+                                speakconsumergoodss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsumergoodss1("en-US"),
                           ),
                         ],
                       ),

@@ -129,150 +129,54 @@ class EnglishEntrychronic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) نەخۆشییەک کە بۆ ماوەیەکی زۆر بەردەوام دەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The study looks at adults with chronic conditions such as asthma and diabetes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژتنەوەکە توێژینەوە لەو کەسانە دەکات کە دۆخی درێژخایەنی وەک تەنگەنەفەسی و شەکرەیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chronic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchronics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchronics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The study looks at adults with chronic conditions such as asthma and diabetes.",
+                            kurdishText:
+                                "توێژتنەوەکە توێژینەوە لەو کەسانە دەکات کە دۆخی درێژخایەنی وەک تەنگەنەفەسی و شەکرەیان ھەیە.", // chronic",
+                            onPressedBritish: () => speakchronics1("en-GB"),
+                            onPressedAmerican: () => speakchronics1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His research showed that eating more plant-based foods helps you avoid chronic diseases."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژینەوەکەی پیشانی دا کە خواردنی زیاتری خۆراکی ڕووەکی یارمەتیدەر دەبێت بۆ دوورکەوتنەوە لە نەخۆشی درێژخایەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchronics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchronics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His research showed that eating more plant-based foods helps you avoid chronic diseases.",
+                            kurdishText:
+                                "توێژینەوەکەی پیشانی دا کە خواردنی زیاتری خۆراکی ڕووەکی یارمەتیدەر دەبێت بۆ دوورکەوتنەوە لە نەخۆشی درێژخایەن.",
+                            onPressedBritish: () => speakchronics2("en-GB"),
+                            onPressedAmerican: () => speakchronics2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ھەبوونی نەخۆشییەک بۆ ماوەیەکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Chronic drinkers often face health problems related to their alcohol consumption."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەیخۆرە ئاڵوودەکان زۆرجار ڕووبەڕووی کێشەی تەندرووستی دەبنەوە پەیوەندیدار بە خواردنەوەی مادەی کحولی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchronics3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchronics3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Chronic drinkers often face health problems related to their alcohol consumption.",
+                            kurdishText:
+                                "مەیخۆرە ئاڵوودەکان زۆرجار ڕووبەڕووی کێشەی تەندرووستی دەبنەوە پەیوەندیدار بە خواردنەوەی مادەی کحولی.",
+                            onPressedBritish: () => speakchronics3("en-GB"),
+                            onPressedAmerican: () => speakchronics3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) کێشەیەک کە بۆ ماوەیەکی زۆر بەردەوام دەبێت و سەختە بۆ چارەسەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a chronic shortage of teachers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەماسییەکی درێژخایەنی مامۆستا ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchronics4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchronics4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a chronic shortage of teachers.",
+                            kurdishText: "کەماسییەکی درێژخایەنی مامۆستا ھەیە.",
+                            onPressedBritish: () => speakchronics4("en-GB"),
+                            onPressedAmerican: () => speakchronics4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ھاوەڵناو) زۆر خراپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The film was just chronic."),
-                                    ExampleSentenceKurdish(
-                                        text: "فیلمەکە تەواو خراپ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchronics5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchronics5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The film was just chronic.",
+                            kurdishText: "فیلمەکە تەواو خراپ بوو.",
+                            onPressedBritish: () => speakchronics5("en-GB"),
+                            onPressedAmerican: () => speakchronics5("en-US"),
                           ),
                         ],
                       ),

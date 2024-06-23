@@ -191,60 +191,21 @@ class EnglishEntrycalve extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) زانی مانگا بە گوێرەکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Four cows calved overnight."),
-                                    ExampleSentenceKurdish(
-                                        text: "چوار مانگا زان ئەمشەو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calve", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalves1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalves1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Four cows calved overnight.",
+                            kurdishText: "چوار مانگا زان ئەمشەو.", // calve
+                            onPressedBritish: () => speakcalves1("en-GB"),
+                            onPressedAmerican: () => speakcalves1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) شکانی کێوەسەھۆڵ و کۆمەڵکەسەھۆڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The glacier began to calve."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمەڵکەسەھۆڵەکە دەستی بە شکان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalves2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalves2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The glacier began to calve.",
+                            kurdishText: "کۆمەڵکەسەھۆڵەکە دەستی بە شکان کرد.",
+                            onPressedBritish: () => speakcalves2("en-GB"),
+                            onPressedAmerican: () => speakcalves2("en-US"),
                           ),
                         ],
                       ),

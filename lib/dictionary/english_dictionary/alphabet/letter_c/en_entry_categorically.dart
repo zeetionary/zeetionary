@@ -186,64 +186,25 @@ class EnglishEntrycategorically extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بەشێوەیەکی یەکلایی‌کەرەوە و ڕوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He categorically rejected our offer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەکی یەکلایی‌کەرەوە ئۆفەرەکەمانی ڕەتکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "categorically", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcategoricallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcategoricallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He categorically rejected our offer.",
+                            kurdishText:
+                                "بەشێوەیەکی یەکلایی‌کەرەوە ئۆفەرەکەمانی ڕەتکردەوە.", // categorically",
+                            onPressedBritish: () =>
+                                speakcategoricallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcategoricallys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company categorically denied any wrongdoing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە بەڕوونی کردنی ھەر کارێکی ھەڵەی ڕەتکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcategoricallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcategoricallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company categorically denied any wrongdoing.",
+                            kurdishText:
+                                "کۆمپانیاکە بەڕوونی کردنی ھەر کارێکی ھەڵەی ڕەتکردەوە.",
+                            onPressedBritish: () =>
+                                speakcategoricallys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcategoricallys2("en-US"),
                           ),
                         ],
                       ),

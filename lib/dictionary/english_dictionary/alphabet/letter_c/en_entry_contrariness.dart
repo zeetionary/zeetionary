@@ -95,34 +95,15 @@ class EnglishEntrycontrariness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تایبەتمەندێتی لاساری و خراپ ڕەگتارکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The horse's contrariness made it difficult to train."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لاساریی ئەسپەکە ڕاھێنانی سەخت کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contrariness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontrarinesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontrarinesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The horse's contrariness made it difficult to train.",
+                            kurdishText:
+                                "لاساریی ئەسپەکە ڕاھێنانی سەخت کردبوو.", // contrariness",
+                            onPressedBritish: () =>
+                                speakcontrarinesss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontrarinesss1("en-US"),
                           ),
                         ],
                       ),

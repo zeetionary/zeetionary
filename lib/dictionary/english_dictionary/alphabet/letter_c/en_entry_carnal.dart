@@ -191,32 +191,13 @@ class EnglishEntrycarnal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە جەستە و سێکس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The intimate scenes in the movie depicted the characters' carnal attraction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیمەنی ورووژێنەری فیلمەکە سەرنجڕاکێشی شەھوەتی کارەکتەرەکەی پیشاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carnal", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarnals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarnals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The intimate scenes in the movie depicted the characters' carnal attraction.",
+                            kurdishText:
+                                "دیمەنی ورووژێنەری فیلمەکە سەرنجڕاکێشی شەھوەتی کارەکتەرەکەی پیشاندا.", // carnal",
+                            onPressedBritish: () => speakcarnals1("en-GB"),
+                            onPressedAmerican: () => speakcarnals1("en-US"),
                           ),
                         ],
                       ),

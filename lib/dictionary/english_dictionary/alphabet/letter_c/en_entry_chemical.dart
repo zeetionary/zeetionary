@@ -128,149 +128,54 @@ class EnglishEntrychemical extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە کیمیا یان بە بەکارھێنانی کیمیا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chemical industry produces such things as petrochemicals and drugs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیشەسازی کیمیایی شتی وەک پیترۆکیمیایی و مادەی ھۆشبەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chemical", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchemicals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchemicals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chemical industry produces such things as petrochemicals and drugs.",
+                            kurdishText:
+                                "پیشەسازی کیمیایی شتی وەک پیترۆکیمیایی و مادەی ھۆشبەر.", // chemical",
+                            onPressedBritish: () => speakchemicals1("en-GB"),
+                            onPressedAmerican: () => speakchemicals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chemical properties of coal are still incompletely understood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاسیەتە کیمیاییەکانی خەڵووز ھێشتا بە تەواوی نەزانراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchemicals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchemicals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chemical properties of coal are still incompletely understood.",
+                            kurdishText:
+                                "خاسیەتە کیمیاییەکانی خەڵووز ھێشتا بە تەواوی نەزانراوە.",
+                            onPressedBritish: () => speakchemicals2("en-GB"),
+                            onPressedAmerican: () => speakchemicals2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) درووستکراو بە بەکارھێنانی پڕۆسەیەک کە گۆڕانکاری لەخۆدەگرێت لە گەردیلە و تەنۆلکەکاندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All chemical weapons facilities will be deactivated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو دامەزراوەکانی چەکی کیمیایی ناچالاک دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchemicals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchemicals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All chemical weapons facilities will be deactivated.",
+                            kurdishText:
+                                "ھەموو دامەزراوەکانی چەکی کیمیایی ناچالاک دەکرێن.",
+                            onPressedBritish: () => speakchemicals3("en-GB"),
+                            onPressedAmerican: () => speakchemicals3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) مادەیەکی کیمیایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Toy manufacturers have been banned from using the chemicals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارگەکانی یاریی منداڵان قەدەغەکراون لە بەکارھێنانی مادەی کیمیایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchemicals4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchemicals4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Toy manufacturers have been banned from using the chemicals.",
+                            kurdishText:
+                                "کارگەکانی یاریی منداڵان قەدەغەکراون لە بەکارھێنانی مادەی کیمیایی.",
+                            onPressedBritish: () => speakchemicals4("en-GB"),
+                            onPressedAmerican: () => speakchemicals4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The condition may be caused by an imbalance of chemicals in the brain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆخەکە ڕەنگە درووست ببێت بە ناھاوسەنگی مادەی کیمیایی لە مێشکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchemicals5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchemicals5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The condition may be caused by an imbalance of chemicals in the brain.",
+                            kurdishText:
+                                "دۆخەکە ڕەنگە درووست ببێت بە ناھاوسەنگی مادەی کیمیایی لە مێشکدا.",
+                            onPressedBritish: () => speakchemicals5("en-GB"),
+                            onPressedAmerican: () => speakchemicals5("en-US"),
                           ),
                         ],
                       ),

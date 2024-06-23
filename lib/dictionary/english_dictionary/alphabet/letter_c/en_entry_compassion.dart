@@ -103,60 +103,20 @@ class EnglishEntrycompassion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) میھرەبانی و بەزەیی زۆر بۆ مرۆڤ و ئاژەڵ کە ئازار دەچێژم و حەزکردن بۆ یارمەتیدانیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was filled with overwhelming love and compassion for his wife."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕبوو لە خۆشەویستی و دڵسۆزی زۆر بۆ ھاوژینەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compassion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompassions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompassions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was filled with overwhelming love and compassion for his wife.",
+                            kurdishText:
+                                "پڕبوو لە خۆشەویستی و دڵسۆزی زۆر بۆ ھاوژینەکەی.", // compassion",
+                            onPressedBritish: () => speakcompassions1("en-GB"),
+                            onPressedAmerican: () => speakcompassions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I felt no compassion towards her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستم بە دڵ‌پێ‌سووتانێک نەدەکرد بۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompassions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompassions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I felt no compassion towards her.",
+                            kurdishText: "ھەستم بە دڵ‌پێ‌سووتانێک نەدەکرد بۆی.",
+                            onPressedBritish: () => speakcompassions2("en-GB"),
+                            onPressedAmerican: () => speakcompassions2("en-US"),
                           ),
                         ],
                       ),

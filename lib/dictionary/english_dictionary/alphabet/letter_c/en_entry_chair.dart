@@ -189,58 +189,19 @@ class EnglishEntrychair extends StatelessWidget {
 کوردی: سەندەڵی، کورسی، تەختەک، ئەسکەمل، پۆست یان کورسی مامۆستایی، پلەوپایەی مامۆستایی، سەرکۆڕ، سەرۆکی کۆبوونەوە، کورسی ئێلیکتریکی، سزای کوشتن
 """),
                           const DefinitionKurdish(text: "١. (ناو) کورسی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Sit on your chair!"),
-                                    ExampleSentenceKurdish(
-                                        text: "لەسەر کورسییەکەت دابنیشە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "chair", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchairs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchairs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Sit on your chair!",
+                            kurdishText: "لەسەر کورسییەکەت دابنیشە!", // chair",
+                            onPressedBritish: () => speakchairs1("en-GB"),
+                            onPressedAmerican: () => speakchairs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was sitting in her favourite chair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر کورسی دڵخوازی دانیشت بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchairs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchairs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was sitting in her favourite chair.",
+                            kurdishText: "لەسەر کورسی دڵخوازی دانیشت بوو.",
+                            onPressedBritish: () => speakchairs2("en-GB"),
+                            onPressedAmerican: () => speakchairs2("en-US"),
                           ),
                           Column(
                             children: [
@@ -431,149 +392,51 @@ class EnglishEntrychair extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پۆستی ڕابەرایەتی کۆبوونەوەیەک یان لیژنەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Who is in the chair today?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کێ ئەمڕۆ سەرکۆڕە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchairs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchairs9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Who is in the chair today?",
+                            kurdishText: "کێ ئەمڕۆ سەرکۆڕە؟",
+                            onPressedBritish: () => speakchairs9("en-GB"),
+                            onPressedAmerican: () => speakchairs9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She takes the chair in all our meetings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ھەموو کۆبوونەوەکانماندا سەرکۆڕە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchairs10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchairs10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She takes the chair in all our meetings.",
+                            kurdishText: "لە ھەموو کۆبوونەوەکانماندا سەرکۆڕە.",
+                            onPressedBritish: () => speakchairs10("en-GB"),
+                            onPressedAmerican: () => speakchairs10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) پۆستی سەرۆکایەتی بەشێکی زانکۆ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He holds the chair of philosophy at Oxford."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆکی بەشی فەلسەفەیە لە ئۆکسفۆرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchairs11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchairs11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He holds the chair of philosophy at Oxford.",
+                            kurdishText: "سەرۆکی بەشی فەلسەفەیە لە ئۆکسفۆرد.",
+                            onPressedBritish: () => speakchairs11("en-GB"),
+                            onPressedAmerican: () => speakchairs11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) کورسییەکی کارەبایی بەھێز، بە تایبەتی لە ئەمریکادا، کە بەکاردێت بۆ کوشتنی تاوانباران"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prisoner was placed in the chair for the execution."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاوانبارەکە لەسەر کورسییە کارەباییەکە دانرا بۆ کوشتنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchairs12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchairs12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prisoner was placed in the chair for the execution.",
+                            kurdishText:
+                                "تاوانبارەکە لەسەر کورسییە کارەباییەکە دانرا بۆ کوشتنی.",
+                            onPressedBritish: () => speakchairs12("en-GB"),
+                            onPressedAmerican: () => speakchairs12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) سەرپەرشتیکردنی کۆبوونەوەیەک، چاوپێکەوتنێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Who's chairing the meeting?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێ سەرپەرشتی چاوپێکەوتنەکە دەکات؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchairs13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchairs13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Who's chairing the meeting?",
+                            kurdishText: "کێ سەرپەرشتی چاوپێکەوتنەکە دەکات؟",
+                            onPressedBritish: () => speakchairs13("en-GB"),
+                            onPressedAmerican: () => speakchairs13("en-US"),
                           ),
                         ],
                       ),

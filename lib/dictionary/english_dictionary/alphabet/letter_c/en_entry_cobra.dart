@@ -94,31 +94,12 @@ class EnglishEntrycobra extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ماری کوبرا؛ مارێکی ژەھراوی کە دەتوانێت پێستی پشتی ملی بڵاوبکاتەوە بۆ ئەوەی خۆی گەورەتر دەربخات. کوبراکان لە ئاسیا و ئەفریقا دەژین."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cobra's bite is highly venomous."),
-                                    ExampleSentenceKurdish(
-                                        text: "گازی کوبرا تەواو ژەھراوییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cobra", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcobras1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcobras1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The cobra's bite is highly venomous.",
+                            kurdishText:
+                                "گازی کوبرا تەواو ژەھراوییە.", // cobra",
+                            onPressedBritish: () => speakcobras1("en-GB"),
+                            onPressedAmerican: () => speakcobras1("en-US"),
                           ),
                         ],
                       ),

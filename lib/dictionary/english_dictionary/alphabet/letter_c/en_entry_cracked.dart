@@ -247,83 +247,30 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شکاو، قەڵەشیو، چڕژاو، درزبردوو،	شێت، دەلوو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) درزبردوو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her lips were dry and cracked."),
-                    ExampleSentenceKurdish(text: "لێوەکانی وشک و شەق بووبوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cracked", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrackeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrackeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her lips were dry and cracked.",
+            kurdishText: "لێوەکانی وشک و شەق بووبوون.",
+            onPressedBritish: () => speakcrackeds1("en-GB"),
+            onPressedAmerican: () => speakcrackeds1("en-US"),
+
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) دەنگی لەرزۆک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "‘I'm just fine,’ she said in a cracked voice."),
-                    ExampleSentenceKurdish(
-                        text: "بە دەنگێکی لەرزۆکەوە گوتی 'باشم'."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrackeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrackeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "‘I'm just fine,’ she said in a cracked voice.",
+            kurdishText: "بە دەنگێکی لەرزۆکەوە گوتی 'باشم'.",
+            onPressedBritish: () => speakcrackeds2("en-GB"),
+            onPressedAmerican: () => speakcrackeds2("en-US"),
+
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) شێتانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He came up with some cracked ideas."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک بیرۆکەی شێتانەی بە مێشکدا ھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrackeds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrackeds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He came up with some cracked ideas.",
+            kurdishText: "ھەندێک بیرۆکەی شێتانەی بە مێشکدا ھات.",
+            onPressedBritish: () => speakcrackeds3("en-GB"),
+            onPressedAmerican: () => speakcrackeds3("en-US"),
+          
           ),
         ],
       ),

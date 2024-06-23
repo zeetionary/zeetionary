@@ -242,60 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) تەواوی ئەو بابەتانەی لە کۆرسێکدا ھەن یان بەشێکن لە خوێندنی قوتابخانە، کۆلێژ، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The school curriculum should be as broad as possible."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وانەنامەی خوێندنگاکە دەکرێت ھەتا بکرێت فراوان بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curriculum", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurriculums1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurriculums1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The school curriculum should be as broad as possible.",
+            kurdishText:
+                "وانەنامەی خوێندنگاکە دەکرێت ھەتا بکرێت فراوان بێت.", // curriculum", please follow LX instructions
+            onPressedBritish: () => speakcurriculums1("en-GB"),
+            onPressedAmerican: () => speakcurriculums1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "Spanish is on the curriculum.",
-                      note: "American English: Spanish is in the curriculum.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text: "ئیسپانی لە پڕۆگرامەکەدایە بۆ خوێندندایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurriculums2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurriculums2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Spanish is on the curriculum.",
+            englishNote: "American English: Spanish is in the curriculum.",
+            kurdishText: "ئیسپانی لە پڕۆگرامەکەدایە بۆ خوێندندایە.",
+            onPressedBritish: () => speakcurriculums2("en-GB"),
+            onPressedAmerican: () => speakcurriculums2("en-US"),
           ),
         ],
       ),

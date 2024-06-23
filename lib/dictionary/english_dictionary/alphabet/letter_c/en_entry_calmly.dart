@@ -192,60 +192,22 @@ class EnglishEntrycalmly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە ئارامی و لەسەرخۆیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She reacted calmly to the news of his death."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەلەسەرخۆییەوە کاردانەوەی ھەبوو بۆ ھەواڵی مردنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calmly", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalmlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalmlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She reacted calmly to the news of his death.",
+                            kurdishText:
+                                "بەلەسەرخۆییەوە کاردانەوەی ھەبوو بۆ ھەواڵی مردنی.", // calmly
+                            onPressedBritish: () => speakcalmlys1("en-GB"),
+                            onPressedAmerican: () => speakcalmlys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The storm was over, and small waves lapped calmly against the beach."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زریانەکە تەواو بوو، و شەپۆلە بچووکەکان بە ئارامی دەیان کێشا بە کەنارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalmlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalmlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The storm was over, and small waves lapped calmly against the beach.",
+                            kurdishText:
+                                "زریانەکە تەواو بوو، و شەپۆلە بچووکەکان بە ئارامی دەیان کێشا بە کەنارەکە.",
+                            onPressedBritish: () => speakcalmlys2("en-GB"),
+                            onPressedAmerican: () => speakcalmlys2("en-US"),
                           ),
                         ],
                       ),

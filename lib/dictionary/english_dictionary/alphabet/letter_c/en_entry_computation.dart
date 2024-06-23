@@ -104,64 +104,24 @@ class EnglishEntrycomputation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پڕۆسەی لێکدانەوە یان خەمڵاندنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All the statistical computations were performed by the new software system."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو خەمڵاندنە ئامارییەکان ئەنجامدارن بە سیستەمە نەرمامێرە تازەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "computation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomputations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomputations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All the statistical computations were performed by the new software system.",
+                            kurdishText:
+                                "ھەموو خەمڵاندنە ئامارییەکان ئەنجامدارن بە سیستەمە نەرمامێرە تازەکە.", // computation",
+                            onPressedBritish: () => speakcomputations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomputations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our smart card can now handle complex mathematical computations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارتە زیرەکە ئێستا دەتوانێت خەمڵاندنی بیرکارییانەی ئاڵۆز ئەنجام بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomputations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomputations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our smart card can now handle complex mathematical computations.",
+                            kurdishText:
+                                "کارتە زیرەکە ئێستا دەتوانێت خەمڵاندنی بیرکارییانەی ئاڵۆز ئەنجام بدات.",
+                            onPressedBritish: () => speakcomputations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomputations2("en-US"),
                           ),
                         ],
                       ),

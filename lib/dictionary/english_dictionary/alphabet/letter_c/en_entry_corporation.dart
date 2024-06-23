@@ -249,93 +249,36 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: نێوکۆیی، کۆمپانی، دامەزرە، بنگا، نەقابە،	سازی، ڕێکخراوە،	ئەنجومەنی 
 """),
           const DefinitionKurdish(text: "١. (ناو) کۆمپانیایەکی بازرگانی گەورە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I hated working for a large corporation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕقم لە کارکردن بۆ کۆمپانیایەکی بازرگانی گەورە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corporation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorporations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorporations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I hated working for a large corporation.",
+            kurdishText:
+                "ڕقم لە کارکردن بۆ کۆمپانیایەکی بازرگانی گەورە بوو.", // corporation", please follow LX instructions
+            onPressedBritish: () => speakcorporations1("en-GB"),
+            onPressedAmerican: () => speakcorporations1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) دامەزراوەیەک یان چەند دامەزراوەیەک کە وەک یەکە ناسراون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Urban development corporations often work in partnership with local authorities."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دامەزراوەکانی گەشەپێدانی شار زۆرجار کار دەکەن بە ھاوبەشی لەگەڵ بەرپرسە ناوخۆییەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorporations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorporations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Urban development corporations often work in partnership with local authorities.",
+            kurdishText:
+                "دامەزراوەکانی گەشەپێدانی شار زۆرجار کار دەکەن بە ھاوبەشی لەگەڵ بەرپرسە ناوخۆییەکان.",
+            onPressedBritish: () => speakcorporations2("en-GB"),
+            onPressedAmerican: () => speakcorporations2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) کۆمەڵە کەسێک کە ھەڵبژێردراون بۆ بەڕێوەبردنی شارێک و دابینکردنی خزمەتگوزاری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The municipal corporation is responsible for maintaining the city's roads and infrastructure."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەنجوومەنە خۆجێیەکە بەرپرسە لە چاودێری ڕێگاکان و ژێرخانی ئابووری شارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorporations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorporations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The municipal corporation is responsible for maintaining the city's roads and infrastructure.",
+            kurdishText:
+                "ئەنجوومەنە خۆجێیەکە بەرپرسە لە چاودێری ڕێگاکان و ژێرخانی ئابووری شارەکە.",
+            onPressedBritish: () => speakcorporations3("en-GB"),
+            onPressedAmerican: () => speakcorporations3("en-US"),
           ),
         ],
       ),

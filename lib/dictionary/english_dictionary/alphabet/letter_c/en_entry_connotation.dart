@@ -112,93 +112,33 @@ class EnglishEntryconnotation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) واتایەک کە وشەیەک یان دەستەواژەیەک کە دەکرێت ھەیبێت ھاوکات لەگەڵ واتای سەرەکییدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is important to understand the power of connotation."),
-                                    ExampleSentenceKurdish(
-                                        text: "گرنگە لە ھێزی لاواتا تێبگەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "connotation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconnotations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconnotations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is important to understand the power of connotation.",
+                            kurdishText:
+                                "گرنگە لە ھێزی لاواتا تێبگەیت.", // connotation",
+                            onPressedBritish: () => speakconnotations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconnotations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That word has strong sexual connotations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو وشە لاواتای بەھێزی سێکسی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconnotations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconnotations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That word has strong sexual connotations.",
+                            kurdishText: "ئەو وشە لاواتای بەھێزی سێکسی ھەیە.",
+                            onPressedBritish: () => speakconnotations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconnotations2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The word ‘foreign’ often has a pejorative connotation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وشەی 'بیانی' زۆرجار واتایەکی خراپی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconnotations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconnotations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The word ‘foreign’ often has a pejorative connotation.",
+                            kurdishText:
+                                "وشەی 'بیانی' زۆرجار واتایەکی خراپی ھەیە.",
+                            onPressedBritish: () => speakconnotations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconnotations3("en-US"),
                           ),
                         ],
                       ),

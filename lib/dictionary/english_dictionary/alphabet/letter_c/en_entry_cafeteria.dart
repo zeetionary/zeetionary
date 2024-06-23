@@ -189,32 +189,13 @@ class EnglishEntrycafeteria extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چێشتخانەیەک کە خواردن ھەڵدەبژێریت و پارەکەی دەدەیت پێش ئەوەی بیبەیت بۆ سەر مێزێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Employees have four different salads to choose from for lunch in the company cafeteria."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارمەندان چوار جۆری جیاوازی زەڵاتەیان ھەیە بۆ نانی نیوەڕۆ لە کافتریای کۆمپانیاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cafeteria", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcafeterias1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcafeterias1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Employees have four different salads to choose from for lunch in the company cafeteria.",
+                            kurdishText:
+                                "کارمەندان چوار جۆری جیاوازی زەڵاتەیان ھەیە بۆ نانی نیوەڕۆ لە کافتریای کۆمپانیاکە.", // cafeteria
+                            onPressedBritish: () => speakcafeterias1("en-GB"),
+                            onPressedAmerican: () => speakcafeterias1("en-US"),
                           ),
                         ],
                       ),

@@ -95,32 +95,13 @@ class EnglishEntrycoherence extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو دۆخەی کە ھەموو بەشەکانی شتێک پێکەوە دەگونجێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The points you make are fine, but the whole essay lacks coherence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو خاڵانەی ئاماژەیان پێ دەدەیت باشن، بەڵام تەواوی وتارەکە یەکگرتووی نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coherence", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoherences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoherences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The points you make are fine, but the whole essay lacks coherence.",
+                            kurdishText:
+                                "ئەو خاڵانەی ئاماژەیان پێ دەدەیت باشن، بەڵام تەواوی وتارەکە یەکگرتووی نییە.", // coherence",
+                            onPressedBritish: () => speakcoherences1("en-GB"),
+                            onPressedAmerican: () => speakcoherences1("en-US"),
                           ),
                         ],
                       ),

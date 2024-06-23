@@ -103,61 +103,23 @@ class EnglishEntryconk extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) لێدانی کەسێک بە توندی لە سەردا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He conked the burglar on the head with a baseball bat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشای بە سەری دزەکەدا بە دارێکی یاری بەیسبۆڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conk", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He conked the burglar on the head with a baseball bat.",
+                            kurdishText:
+                                "کێشای بە سەری دزەکەدا بە دارێکی یاری بەیسبۆڵ.", // conk",
+                            onPressedBritish: () => speakconks1("en-GB"),
+                            onPressedAmerican: () => speakconks1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) لووتی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her conk was red from the cold weather."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لووتی سووربووبوو بەھۆی کەشە ساردەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her conk was red from the cold weather.",
+                            kurdishText:
+                                "لووتی سووربووبوو بەھۆی کەشە ساردەکەوە.",
+                            onPressedBritish: () => speakconks2("en-GB"),
+                            onPressedAmerican: () => speakconks2("en-US"),
                           ),
                         ],
                       ),

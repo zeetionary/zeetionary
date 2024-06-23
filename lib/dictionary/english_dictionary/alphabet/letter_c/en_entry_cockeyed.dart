@@ -102,63 +102,25 @@ class EnglishEntrycockeyed extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) شتێک کە ڕاست نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Doesn't that picture look cockeyed to you?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەبەرچاوت ئەو وێنەیە خواروخێچ نییە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cockeyed", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcockeyeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcockeyeds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Doesn't that picture look cockeyed to you?",
+                            kurdishText:
+                                "لەبەرچاوت ئەو وێنەیە خواروخێچ نییە؟", // cockeyed",
+                            onPressedBritish: () => speakcockeyeds1("en-GB"),
+                            onPressedAmerican: () => speakcockeyeds1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) شتێک کە ئەگەری سەرکەوتنی کەمە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government has dreamed up some cockeyed scheme for getting unemployed youngsters back into work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت خەونی بە ھەندێک پلانی شکستخواردوو بینیوە بۆ ئەوەی گەنجانی بێ‌کار بھێنێتەوە سەر کار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcockeyeds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcockeyeds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government has dreamed up some cockeyed scheme for getting unemployed youngsters back into work.",
+                            kurdishText:
+                                "حکومەت خەونی بە ھەندێک پلانی شکستخواردوو بینیوە بۆ ئەوەی گەنجانی بێ‌کار بھێنێتەوە سەر کار.",
+                            onPressedBritish: () => speakcockeyeds2("en-GB"),
+                            onPressedAmerican: () => speakcockeyeds2("en-US"),
                           ),
                         ],
                       ),

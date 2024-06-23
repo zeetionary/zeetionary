@@ -105,64 +105,24 @@ class EnglishEntrycoeducation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سیستەمێکی خوێندن کە تێیدا کچان و کوڕان پێکەوە دەخوێنن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In 1963 the university moved to co-education."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ساڵی ١٩٦٣ زانکۆکە بوو بە سیستەمی تێکەڵاو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "co-education", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoeducations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoeducations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In 1963 the university moved to co-education.",
+                            kurdishText:
+                                "لە ساڵی ١٩٦٣ زانکۆکە بوو بە سیستەمی تێکەڵاو.", // co-education",
+                            onPressedBritish: () => speakcoeducations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoeducations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She campaigned for coeducation and equal treatment of boys and girls."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمپینی ئەنجامدا بۆ ھاوفێری و مامەڵەی یەکسانی کوڕان و کچان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoeducations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoeducations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She campaigned for coeducation and equal treatment of boys and girls.",
+                            kurdishText:
+                                "کەمپینی ئەنجامدا بۆ ھاوفێری و مامەڵەی یەکسانی کوڕان و کچان.",
+                            onPressedBritish: () => speakcoeducations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoeducations2("en-US"),
                           ),
                         ],
                       ),

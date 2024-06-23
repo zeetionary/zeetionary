@@ -121,121 +121,45 @@ class EnglishEntryconverge extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (کردار) گەشتن بە ھەمان خاڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Thousands of supporters converged on London for the rally."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەزاران لایەنگر لە لەندەن بە یەک گەشتن بۆ پێشبڕکێیەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "converge", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Thousands of supporters converged on London for the rally.",
+                            kurdishText:
+                                "ھەزاران لایەنگر لە لەندەن بە یەک گەشتن بۆ پێشبڕکێیەکە.", // converge",
+                            onPressedBritish: () => speakconverges1("en-GB"),
+                            onPressedAmerican: () => speakconverges1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The animals usually converge around the waterhole in the mornings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاژەڵەکان زۆرجار بەیانییان لە دەوری گۆلەکە کۆدەبنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverges2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The animals usually converge around the waterhole in the mornings.",
+                            kurdishText:
+                                "ئاژەڵەکان زۆرجار بەیانییان لە دەوری گۆلەکە کۆدەبنەوە.",
+                            onPressedBritish: () => speakconverges2("en-GB"),
+                            onPressedAmerican: () => speakconverges2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) گەشتنی دوو ڕێگا بە یەکدی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a signpost where the two paths converged."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیشانەڕێیەک ھەبوو لەو دوو شوێنەی دوو ڕێگاکە بە یەکدی دەگەشتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverges3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverges3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a signpost where the two paths converged.",
+                            kurdishText:
+                                "نیشانەڕێیەک ھەبوو لەو دوو شوێنەی دوو ڕێگاکە بە یەکدی دەگەشتن.",
+                            onPressedBritish: () => speakconverges3("en-GB"),
+                            onPressedAmerican: () => speakconverges3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) بوون بە یەک یان ھاوشێوەبوونی بیرۆکە، سیاسەت، ئامانج، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The aims of the two developments can and should converge."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانجی ھەردوو گەشەپێدانەکە دەکرێت و دەبێت یەکبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverges4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverges4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The aims of the two developments can and should converge.",
+                            kurdishText:
+                                "ئامانجی ھەردوو گەشەپێدانەکە دەکرێت و دەبێت یەکبن.",
+                            onPressedBritish: () => speakconverges4("en-GB"),
+                            onPressedAmerican: () => speakconverges4("en-US"),
                           ),
                         ],
                       ),

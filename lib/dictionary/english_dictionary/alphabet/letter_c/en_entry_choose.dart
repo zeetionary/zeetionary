@@ -152,59 +152,21 @@ class EnglishEntrychoose extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ھەڵبژاردن کەسێک یان شتێک لەناو ئەوانەی کە بەردەستن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You choose—I can't decide."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆ ھەڵیبژێرە، من ناتوانم بڕیار بدەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "choose", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchooses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchooses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You choose—I can't decide.",
+                            kurdishText:
+                                "تۆ ھەڵیبژێرە، من ناتوانم بڕیار بدەم.", // choose",
+                            onPressedBritish: () => speakchooses1("en-GB"),
+                            onPressedAmerican: () => speakchooses1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had to choose between staying in the UK or going home."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبوو بڕیار بدات لە نێوان مانەوە لە بەریتانیا و چوونەوە وڵاتی خۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchooses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchooses2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had to choose between staying in the UK or going home.",
+                            kurdishText:
+                                "دەبوو بڕیار بدات لە نێوان مانەوە لە بەریتانیا و چوونەوە وڵاتی خۆی.",
+                            onPressedBritish: () => speakchooses2("en-GB"),
+                            onPressedAmerican: () => speakchooses2("en-US"),
                           ),
                           Column(
                             children: [
@@ -337,60 +299,21 @@ class EnglishEntrychoose extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بڕیاردان بۆ کردنی شتێک یان پەسەندکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Employees can retire at 60 if they choose."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارمەندان دەتوانن لە ٦٠ ساڵی خانەنشین بن ئەگەر بیانەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchooses7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchooses7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Employees can retire at 60 if they choose.",
+                            kurdishText:
+                                "کارمەندان دەتوانن لە ٦٠ ساڵی خانەنشین بن ئەگەر بیانەوێت.",
+                            onPressedBritish: () => speakchooses7("en-GB"),
+                            onPressedAmerican: () => speakchooses7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many people choose not to marry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆر خەڵک وایان پێ باشە ھاوسەرگیری نەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchooses8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchooses8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Many people choose not to marry.",
+                            kurdishText:
+                                "ژمارەیەکی زۆر خەڵک وایان پێ باشە ھاوسەرگیری نەکەن.",
+                            onPressedBritish: () => speakchooses8("en-GB"),
+                            onPressedAmerican: () => speakchooses8("en-US"),
                           ),
                         ],
                       ),

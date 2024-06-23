@@ -242,63 +242,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شێوازە ژیانێک، بیرۆکەیەک، یان ڕەفتارێک کە بووە بە باو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Some people feel pressured to conform to the ideals of the cult of youth."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک کەس ھەست بە فشار دەکەن لە شوێنکەوتنی نموونەکانی ڕێبازی گەنجان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cult", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcults1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcults1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Some people feel pressured to conform to the ideals of the cult of youth.",
+            kurdishText:
+                "ھەندێک کەس ھەست بە فشار دەکەن لە شوێنکەوتنی نموونەکانی ڕێبازی گەنجان.", // cult", please follow LX instructions
+            onPressedBritish: () => speakcults1("en-GB"),
+            onPressedAmerican: () => speakcults1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) گرووپێکی بچووک لە خەڵکی کە باوەڕی ئایینی توندیان ھەیە و سەر بە ھیچ ئایینێکی ناسراو نین"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their son ran away from home and joined a cult."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کوڕەکەیان لە ماڵەوە ڕایکرد و پەیوەندی بە کۆمەڵێکی توندڕەو ئایینییەوە کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcults2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcults2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their son ran away from home and joined a cult.",
+            kurdishText:
+                "کوڕەکەیان لە ماڵەوە ڕایکرد و پەیوەندی بە کۆمەڵێکی توندڕەو ئایینییەوە کرد.",
+            onPressedBritish: () => speakcults2("en-GB"),
+            onPressedAmerican: () => speakcults2("en-US"),
           ),
         ],
       ),

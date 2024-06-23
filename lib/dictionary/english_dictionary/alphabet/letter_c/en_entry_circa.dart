@@ -93,30 +93,12 @@ class EnglishEntrycirca extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ئامراز) بەنزیکەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was born circa 1600."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەقریبەن لە ١٦٠٠ لەدایکبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circa", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was born circa 1600.",
+                            kurdishText:
+                                "تەقریبەن لە ١٦٠٠ لەدایکبوو.", // circa",
+                            onPressedBritish: () => speakcircas1("en-GB"),
+                            onPressedAmerican: () => speakcircas1("en-US"),
                           ),
                         ],
                       ),

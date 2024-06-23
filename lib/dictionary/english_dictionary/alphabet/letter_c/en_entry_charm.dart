@@ -160,58 +160,20 @@ class EnglishEntrycharm extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) جوانی و دڵڕفێنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was a man of great charm."),
-                                    ExampleSentenceKurdish(
-                                        text: "پیاوێکی دڵڕفێنەر بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "charm", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was a man of great charm.",
+                            kurdishText: "پیاوێکی دڵڕفێنەر بوو.", // charm",
+                            onPressedBritish: () => speakcharms1("en-GB"),
+                            onPressedAmerican: () => speakcharms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He oozes charm, but I wouldn't trust him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرنجڕاکێشی لێدەبارێت، بەڵام متمانەی پێ ناکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He oozes charm, but I wouldn't trust him.",
+                            kurdishText:
+                                "سەرنجڕاکێشی لێدەبارێت، بەڵام متمانەی پێ ناکەم.",
+                            onPressedBritish: () => speakcharms2("en-GB"),
+                            onPressedAmerican: () => speakcharms2("en-US"),
                           ),
                           Column(
                             children: [
@@ -284,150 +246,52 @@ class EnglishEntrycharm extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) تایبەتمەندییەک یان خاسیەتێک کە سەرنجڕاکێشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was unable to resist her charms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەیدەتوانی بەرگەی دڵڕفێنەرییەکەی بگرێت ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharms5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharms5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was unable to resist her charms.",
+                            kurdishText:
+                                "نەیدەتوانی بەرگەی دڵڕفێنەرییەکەی بگرێت .",
+                            onPressedBritish: () => speakcharms5("en-GB"),
+                            onPressedAmerican: () => speakcharms5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many women had succumbed to his charms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر ژن کەوتبوونە داوی جوانییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharms6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharms6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many women had succumbed to his charms.",
+                            kurdishText: "زۆر ژن کەوتبوونە داوی جوانییەکەی.",
+                            onPressedBritish: () => speakcharms6("en-GB"),
+                            onPressedAmerican: () => speakcharms6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شتێکی بچووک کە لە ملوانکەیەک یان دەستبەندێک دەبەسترێت و باوەڕ وایە بەختھێنەرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He keeps a rabbit's paw as a lucky charm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چنگە کەروێشکێکی پاراستووە وەک بەختھێنەرێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharms7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharms7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He keeps a rabbit's paw as a lucky charm.",
+                            kurdishText:
+                                "چنگە کەروێشکێکی پاراستووە وەک بەختھێنەرێک.",
+                            onPressedBritish: () => speakcharms7("en-GB"),
+                            onPressedAmerican: () => speakcharms7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) دڵخۆشکردن یان سەرنجڕاکێشانی کەسێک بۆ ئەوەی وای لێ بکەیت ئەوە بکات کە دەتەوێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was charmed by her beauty and wit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵبەستە بوو بە جوانی و داناییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharms8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharms8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was charmed by her beauty and wit.",
+                            kurdishText: "دڵبەستە بوو بە جوانی و داناییەکەی.",
+                            onPressedBritish: () => speakcharms8("en-GB"),
+                            onPressedAmerican: () => speakcharms8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He charmed his mother into letting him have his own way."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایکی قایلکرد کە ئەوە بکات کە خۆی دەیەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharms9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharms9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He charmed his mother into letting him have his own way.",
+                            kurdishText:
+                                "دایکی قایلکرد کە ئەوە بکات کە خۆی دەیەوێت.",
+                            onPressedBritish: () => speakcharms9("en-GB"),
+                            onPressedAmerican: () => speakcharms9("en-US"),
                           ),
                         ],
                       ),

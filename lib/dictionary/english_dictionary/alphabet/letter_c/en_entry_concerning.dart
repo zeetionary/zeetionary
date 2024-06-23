@@ -103,62 +103,23 @@ class EnglishEntryconcerning extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ئامراز) سەبارەت بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He asked several questions concerning the future of the company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک پرسیاری سەبارەت بە داھاتووی کۆمپانیاکە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concerning", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcernings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcernings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He asked several questions concerning the future of the company.",
+                            kurdishText:
+                                "ژمارەیەک پرسیاری سەبارەت بە داھاتووی کۆمپانیاکە کرد.", // concerning",
+                            onPressedBritish: () => speakconcernings1("en-GB"),
+                            onPressedAmerican: () => speakconcernings1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) جێگەی نیگەرانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This pattern of behaviour is extremely concerning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم جۆرە ڕەفتارە تەواو جێگەییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcernings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcernings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This pattern of behaviour is extremely concerning.",
+                            kurdishText: "ئەم جۆرە ڕەفتارە تەواو جێگەییە.",
+                            onPressedBritish: () => speakconcernings2("en-GB"),
+                            onPressedAmerican: () => speakconcernings2("en-US"),
                           ),
                         ],
                       ),

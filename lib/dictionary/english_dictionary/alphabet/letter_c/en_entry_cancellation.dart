@@ -195,128 +195,52 @@ class EnglishEntrycancellation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ھەڵوەشاندنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cancellations must be made in writing.Cancellations must be made in writing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵوەشاندنەوە دەبێت بە نووسراو بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cancellation", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcancellations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcancellations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cancellations must be made in writing.Cancellations must be made in writing.",
+                            kurdishText:
+                                "ھەڵوەشاندنەوە دەبێت بە نووسراو بکرێت.", // cancellation",
+                            onPressedBritish: () =>
+                                speakcancellations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcancellations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the event of a flight cancellation, you will be compensated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئەگەری ھەڵوەشانەوەی گەشتەکەت، قەرەبوو دەکرێیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcancellations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcancellations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the event of a flight cancellation, you will be compensated.",
+                            kurdishText:
+                                "لە ئەگەری ھەڵوەشانەوەی گەشتەکەت، قەرەبوو دەکرێیتەوە.",
+                            onPressedBritish: () =>
+                                speakcancellations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcancellations2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شتێک کە ھەڵوەشێنراوەتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Are there any cancellations for this evening's performance? (= tickets that have been returned)"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ ھەڵوەشاندنەوەیەکی نمایشەکەی ئەمشەو ھەبووە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcancellations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcancellations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Are there any cancellations for this evening's performance? (= tickets that have been returned)",
+                            kurdishText:
+                                "ھیچ ھەڵوەشاندنەوەیەکی نمایشەکەی ئەمشەو ھەبووە؟",
+                            onPressedBritish: () =>
+                                speakcancellations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcancellations3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) کۆتاییھێنان بە ڕێککەوتنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is time for the West to think of answering the call for a cancellation of Third World debt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتی ھاتووە بۆ وڵاتانی ڕۆژاوا کە چاو لە داواکاری سفرکردنەوەی قەرزی وڵاتانی جیھانی سێیەم بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcancellations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcancellations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is time for the West to think of answering the call for a cancellation of Third World debt.",
+                            kurdishText:
+                                "کاتی ھاتووە بۆ وڵاتانی ڕۆژاوا کە چاو لە داواکاری سفرکردنەوەی قەرزی وڵاتانی جیھانی سێیەم بکەن.",
+                            onPressedBritish: () =>
+                                speakcancellations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcancellations4("en-US"),
                           ),
                         ],
                       ),

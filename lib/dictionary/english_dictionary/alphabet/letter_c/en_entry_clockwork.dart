@@ -94,32 +94,12 @@ class EnglishEntryclockwork extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەشێکی ئامێرێک کە لە ویل و سپرینگ پێکھاتووە و وەک کاتژمێر خۆکارانە کاردەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The toy was powered by clockwork."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یارییە منداڵانەکە قورمیشکراو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clockwork", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclockworks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclockworks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The toy was powered by clockwork.",
+                            kurdishText:
+                                "یارییە منداڵانەکە قورمیشکراو بوو.", // clockwork",
+                            onPressedBritish: () => speakclockworks1("en-GB"),
+                            onPressedAmerican: () => speakclockworks1("en-US"),
                           ),
                         ],
                       ),

@@ -95,32 +95,13 @@ class EnglishEntryclampdown extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەنگاوی لەناکاو کە دەنرێت بۆ وەستاندنی چالاکییەکی نایاسایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Following the military coup, there has been a clampdown on press reporting in the capital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای کودەتا سەربازییەکە، بەربەندێتییەک لەسەر ڕاپۆرتی ھەواڵییەوە لە پایتەختەوە ھەبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clampdown", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclampdowns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclampdowns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Following the military coup, there has been a clampdown on press reporting in the capital.",
+                            kurdishText:
+                                "لە دوای کودەتا سەربازییەکە، بەربەندێتییەک لەسەر ڕاپۆرتی ھەواڵییەوە لە پایتەختەوە ھەبووە.", // clampdown",
+                            onPressedBritish: () => speakclampdowns1("en-GB"),
+                            onPressedAmerican: () => speakclampdowns1("en-US"),
                           ),
                         ],
                       ),

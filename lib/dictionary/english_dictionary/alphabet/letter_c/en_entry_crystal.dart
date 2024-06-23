@@ -269,149 +269,54 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پارچە مادەیەکی بچووک و کە ژمارەیەکی زۆر ڕووی تەختی ھەیە کە بە سرووشتی درووست دەبن کە مادەکە ڕەق دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The crystal sparkled in the sunlight."),
-                    ExampleSentenceKurdish(
-                        text: "کریستاڵەکە لە پێش ھەتاوەکەدا دەگەشایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crystal", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrystals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrystals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The crystal sparkled in the sunlight.",
+            kurdishText:
+                "کریستاڵەکە لە پێش ھەتاوەکەدا دەگەشایەوە.", // crystal", please follow LX instructions
+            onPressedBritish: () => speakcrystals1("en-GB"),
+            onPressedAmerican: () => speakcrystals1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crystal formed slowly over time in the cave."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کریستاڵەکە بەھێواشی بە تێپەڕبوونی لە ئەشکەوتەکەدا درووست بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrystals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrystals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The crystal formed slowly over time in the cave.",
+            kurdishText:
+                "کریستاڵەکە بەھێواشی بە تێپەڕبوونی لە ئەشکەوتەکەدا درووست بوو.",
+            onPressedBritish: () => speakcrystals2("en-GB"),
+            onPressedAmerican: () => speakcrystals2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) مادەیەکی ڕۆشن کانەکان، وەک کوارتز، کە لە درووستکردنی خشڵ و شتی سەرنجڕاکێشدا بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He gave her a pair of crystal earrings as a birthday gift."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جووتێک گوارەی کریستاڵی پێدا وەک خەڵاتێکی لەدایکبوونی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrystals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrystals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He gave her a pair of crystal earrings as a birthday gift.",
+            kurdishText:
+                "جووتێک گوارەی کریستاڵی پێدا وەک خەڵاتێکی لەدایکبوونی.",
+            onPressedBritish: () => speakcrystals3("en-GB"),
+            onPressedAmerican: () => speakcrystals3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) شووشەی کوالێتی بەرز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Every table had been set with fine china and crystal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو مێزێک ئامادە کرابوو بە قاپ‌وقاچاخ و کریستاڵی جوان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrystals4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrystals4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Every table had been set with fine china and crystal.",
+            kurdishText:
+                "ھەموو مێزێک ئامادە کرابوو بە قاپ‌وقاچاخ و کریستاڵی جوان.",
+            onPressedBritish: () => speakcrystals4("en-GB"),
+            onPressedAmerican: () => speakcrystals4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) مادەیەکی نائەندامی کە ھەندێک کەس باوەڕیان وایە تەندرووستی و خۆشبەختی دێنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She claims that Smoky Quartz is a powerful healing crystal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بانگەشەی ئەوە دەکات کە کوارتزەکە مادەیەکی بەھێزی ساڕێژکارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrystals5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrystals5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She claims that Smoky Quartz is a powerful healing crystal.",
+            kurdishText:
+                "بانگەشەی ئەوە دەکات کە کوارتزەکە مادەیەکی بەھێزی ساڕێژکارە.",
+            onPressedBritish: () => speakcrystals5("en-GB"),
+            onPressedAmerican: () => speakcrystals5("en-US"),
           ),
         ],
       ),

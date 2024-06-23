@@ -101,56 +101,18 @@ class EnglishEntrychilly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر سارد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It's chilly today."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەمڕۆ زۆر ساردە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chilly", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchillys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchillys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's chilly today.",
+                            kurdishText: "ئەمڕۆ زۆر ساردە.", // chilly",
+                            onPressedBritish: () => speakchillys1("en-GB"),
+                            onPressedAmerican: () => speakchillys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I was feeling chilly."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەستم بە سەرمایەکی زۆر دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchillys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchillys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I was feeling chilly.",
+                            kurdishText: "ھەستم بە سەرمایەکی زۆر دەکرد.",
+                            onPressedBritish: () => speakchillys2("en-GB"),
+                            onPressedAmerican: () => speakchillys2("en-US"),
                           ),
                         ],
                       ),

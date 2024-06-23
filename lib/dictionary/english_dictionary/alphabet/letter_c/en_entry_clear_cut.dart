@@ -102,60 +102,22 @@ class EnglishEntryclearcut extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ڕوون، ئاشکرا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is no clear-cut answer to this question."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەڵامێکی ڕوون و ئاشکرا بۆ ئەم پرسیارە نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clear-cut", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclearcuts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclearcuts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is no clear-cut answer to this question.",
+                            kurdishText:
+                                "وەڵامێکی ڕوون و ئاشکرا بۆ ئەم پرسیارە نییە.", // clear-cut",
+                            onPressedBritish: () => speakclearcuts1("en-GB"),
+                            onPressedAmerican: () => speakclearcuts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has clear-cut evidence that the company cheated her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵگەی ئاشکرا و ڕوونی ھەیە کە کۆمپانیاکە فێڵی لێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclearcuts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclearcuts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has clear-cut evidence that the company cheated her.",
+                            kurdishText:
+                                "بەڵگەی ئاشکرا و ڕوونی ھەیە کە کۆمپانیاکە فێڵی لێکرد.",
+                            onPressedBritish: () => speakclearcuts2("en-GB"),
+                            onPressedAmerican: () => speakclearcuts2("en-US"),
                           ),
                         ],
                       ),

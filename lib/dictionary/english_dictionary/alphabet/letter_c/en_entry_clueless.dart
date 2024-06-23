@@ -102,60 +102,22 @@ class EnglishEntryclueless extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) زۆر گەمژە؛ بێ توانا لە کردن یان تێگەشتن لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's completely clueless about computers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تەواوی نەزانە لەسەر کۆمپیوتەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clueless", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcluelesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcluelesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's completely clueless about computers.",
+                            kurdishText:
+                                "بە تەواوی نەزانە لەسەر کۆمپیوتەر.", // clueless",
+                            onPressedBritish: () => speakcluelesss1("en-GB"),
+                            onPressedAmerican: () => speakcluelesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Henry was a young and very clueless officer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێنری ئەفسەرێکی گەنج و زۆر نەزان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcluelesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcluelesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Henry was a young and very clueless officer.",
+                            kurdishText:
+                                "ھێنری ئەفسەرێکی گەنج و زۆر نەزان بوو.",
+                            onPressedBritish: () => speakcluelesss2("en-GB"),
+                            onPressedAmerican: () => speakcluelesss2("en-US"),
                           ),
                         ],
                       ),

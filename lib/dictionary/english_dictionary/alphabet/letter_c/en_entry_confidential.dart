@@ -110,96 +110,39 @@ class EnglishEntryconfidential extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە دەبێت بە نھێنی بھێڵدرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your medical records are strictly confidential (= completely secret)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆماری تەندرووستیت تەواو نھێنییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confidential", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidentials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidentials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your medical records are strictly confidential (= completely secret).",
+                            kurdishText:
+                                "تۆماری تەندرووستیت تەواو نھێنییە.", // confidential",
+                            onPressedBritish: () =>
+                                speakconfidentials1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidentials1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The findings are strictly confidential."),
-                                    ExampleSentenceKurdish(
-                                        text: "دۆزینەوەکان بە تەواوی نھێنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidentials2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidentials2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The findings are strictly confidential.",
+                            kurdishText: "دۆزینەوەکان بە تەواوی نھێنین.",
+                            onPressedBritish: () =>
+                                speakconfidentials2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidentials2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) شێوازی قسەکردنێک کە پیشانی دەدات ئەوەی دەیڵێیت نھێنییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spoke in a confidential tone, his voice low."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تۆنێکی سڕپۆشەوە قسەیکرد بە دەنگی نزم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidentials3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidentials3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He spoke in a confidential tone, his voice low.",
+                            kurdishText:
+                                "بە تۆنێکی سڕپۆشەوە قسەیکرد بە دەنگی نزم.",
+                            onPressedBritish: () =>
+                                speakconfidentials3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidentials3("en-US"),
                           ),
                         ],
                       ),

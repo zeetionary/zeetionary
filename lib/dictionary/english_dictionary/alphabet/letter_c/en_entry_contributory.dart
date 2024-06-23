@@ -103,64 +103,26 @@ class EnglishEntrycontributory extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) یارمەتیدەری ڕوودانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Alcohol is a contributory factor in 10 per cent of all road accidents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مادەی کحولی فاکتەرێکی یارمەتیدەرە لە ١٠ لە سەدی ھەموو ڕووداوەکانی ھاتووچۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contributory", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributorys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributorys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Alcohol is a contributory factor in 10 per cent of all road accidents.",
+                            kurdishText:
+                                "مادەی کحولی فاکتەرێکی یارمەتیدەرە لە ١٠ لە سەدی ھەموو ڕووداوەکانی ھاتووچۆ.", // contributory",
+                            onPressedBritish: () =>
+                                speakcontributorys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributorys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Smoking is a contributory cause of many diseases."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خگەرەکێشان ھۆکاری یارمەتیدەری زۆر نەخۆشییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributorys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributorys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Smoking is a contributory cause of many diseases.",
+                            kurdishText:
+                                "خگەرەکێشان ھۆکاری یارمەتیدەری زۆر نەخۆشییە.",
+                            onPressedBritish: () =>
+                                speakcontributorys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributorys2("en-US"),
                           ),
                         ],
                       ),

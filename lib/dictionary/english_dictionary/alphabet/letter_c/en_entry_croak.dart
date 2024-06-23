@@ -257,114 +257,38 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) دەرکردنی دەنگێکی بەرز، وەک قیڕەقیڕی بۆق"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A frog croaked by the water."),
-                    ExampleSentenceKurdish(
-                        text: "بۆقێک قیڕەقیڕی بوو لای ئاوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "croak", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcroaks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcroaks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A frog croaked by the water.",
+            kurdishText:
+                "بۆقێک قیڕەقیڕی بوو لای ئاوەکە.", // croak", please follow LX instructions
+            onPressedBritish: () => speakcroaks1("en-GB"),
+            onPressedAmerican: () => speakcroaks1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) وتنی شتێک بە دەنگێکی توندی نزمەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I had a sore throat and could only croak."),
-                    ExampleSentenceKurdish(
-                        text: "ئاوسانی قوڕگم ھەبوو تەنھا دەمتوانی بقرخێنم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcroaks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcroaks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I had a sore throat and could only croak.",
+            kurdishText: "ئاوسانی قوڕگم ھەبوو تەنھا دەمتوانی بقرخێنم.",
+            onPressedBritish: () => speakcroaks2("en-GB"),
+            onPressedAmerican: () => speakcroaks2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) مردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are other countries I'd like to visit before I croak."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وڵاتی دیکە ھەیە دەمەوێت سەردانی بکەم پێش ئەوەی بمرم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcroaks3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcroaks3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are other countries I'd like to visit before I croak.",
+            kurdishText: "وڵاتی دیکە ھەیە دەمەوێت سەردانی بکەم پێش ئەوەی بمرم.",
+            onPressedBritish: () => speakcroaks3("en-GB"),
+            onPressedAmerican: () => speakcroaks3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) قیڕەقیڕ یان قرخەقرخ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The frog crawled out with a croak."),
-                    ExampleSentenceKurdish(
-                        text: "بۆقەکە بە قیڕەقیڕێکەوە ھەڵبەزییە دەرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcroaks4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcroaks4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The frog crawled out with a croak.",
+            kurdishText: "بۆقەکە بە قیڕەقیڕێکەوە ھەڵبەزییە دەرەوە.",
+            onPressedBritish: () => speakcroaks4("en-GB"),
+            onPressedAmerican: () => speakcroaks4("en-US"),
           ),
         ],
       ),

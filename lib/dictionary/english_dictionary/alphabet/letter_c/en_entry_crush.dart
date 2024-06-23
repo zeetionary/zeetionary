@@ -358,447 +358,142 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) پەستان خستنە سەر شتێک بەشێوەیەک کە زیانی پێدەگات یان شێوەی دەگۆڕێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The car was completely crushed under the truck."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆتۆمبێلەکە بە تەواوی لەژێر بارھەڵگرەکەدا تلیقا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crush", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The car was completely crushed under the truck.",
+            kurdishText:
+                "ئۆتۆمبێلەکە بە تەواوی لەژێر بارھەڵگرەکەدا تلیقا.", // crush", please follow LX instructions
+            onPressedBritish: () => speakcrushs1("en-GB"),
+            onPressedAmerican: () => speakcrushs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His hand was badly crushed in the accident."),
-                    ExampleSentenceKurdish(
-                        text: "دەستەکانی بەخراپی لە ڕووداوەکەدا فلیقان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His hand was badly crushed in the accident.",
+            kurdishText: "دەستەکانی بەخراپی لە ڕووداوەکەدا فلیقان.",
+            onPressedBritish: () => speakcrushs2("en-GB"),
+            onPressedAmerican: () => speakcrushs2("en-US"),
           ),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was crushed beneath a bus."),
-                    ExampleSentenceKurdish(text: "لەژێر پاسەکەدا جلیقایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was crushed beneath a bus.",
+            kurdishText: "لەژێر پاسەکەدا جلیقایەوە.",
+            onPressedBritish: () => speakcrushs3("en-GB"),
+            onPressedAmerican: () => speakcrushs3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) شکاندن بۆ پارچەی بچووک یان کردن بە ھاڕاوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Add two cloves of crushed garlic."),
-                    ExampleSentenceKurdish(
-                        text: "دوو سەلکی وردکراوی سیر زیاد بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Add two cloves of crushed garlic.",
+            kurdishText: "دوو سەلکی وردکراوی سیر زیاد بکە.",
+            onPressedBritish: () => speakcrushs4("en-GB"),
+            onPressedAmerican: () => speakcrushs4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Crush the biscuits finely before adding them to the mixture."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بسکیتەکان بە باشی ورد بکە پێش ئەوەی زیادیان بکەیت بۆ تێکەڵەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Crush the biscuits finely before adding them to the mixture.",
+            kurdishText:
+                "بسکیتەکان بە باشی ورد بکە پێش ئەوەی زیادیان بکەیت بۆ تێکەڵەکە.",
+            onPressedBritish: () => speakcrushs5("en-GB"),
+            onPressedAmerican: () => speakcrushs5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) پاڵنان یان پەستاندنە ناو شوێنێکی بچووک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was crushed against the wall."),
-                    ExampleSentenceKurdish(text: "پاڵنرایە دیوارەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was crushed against the wall.",
+            kurdishText: "پاڵنرایە دیوارەکەوە.",
+            onPressedBritish: () => speakcrushs6("en-GB"),
+            onPressedAmerican: () => speakcrushs6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Over twenty prisoners were crushed into a small dark cell."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زیاد لە بیست زیندانی پەستێنرانە ناو بەندێکی بچووکی تاریک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Over twenty prisoners were crushed into a small dark cell.",
+            kurdishText:
+                "زیاد لە بیست زیندانی پەستێنرانە ناو بەندێکی بچووکی تاریک.",
+            onPressedBritish: () => speakcrushs7("en-GB"),
+            onPressedAmerican: () => speakcrushs7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) وابکەیت شتێک پڕ لە چرچ و لۆچی بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She crushed the scrap of paper in her hand."),
-                    ExampleSentenceKurdish(
-                        text: "پارچە کاغەزەکەی لۆچ کرد لە دەستیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She crushed the scrap of paper in her hand.",
+            kurdishText: "پارچە کاغەزەکەی لۆچ کرد لە دەستیدا.",
+            onPressedBritish: () => speakcrushs8("en-GB"),
+            onPressedAmerican: () => speakcrushs8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (کردار) بەکارھێنانی ڕێگای توندوتیژانە بۆ بەزاندنی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The army was sent in to crush the rebellion."),
-                    ExampleSentenceKurdish(
-                        text: "سوپا نێردرا بۆ ئەوەی شۆڕشەکە سەرکوت بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The army was sent in to crush the rebellion.",
+            kurdishText: "سوپا نێردرا بۆ ئەوەی شۆڕشەکە سەرکوت بکات.",
+            onPressedBritish: () => speakcrushs9("en-GB"),
+            onPressedAmerican: () => speakcrushs9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Attempts to crush serious popular unrest led to civil war."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵەکان بۆ دامرکاندنەوەی پشێوەی ڕای گشتی گەشت بە شەڕی ناوخۆ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Attempts to crush serious popular unrest led to civil war.",
+            kurdishText:
+                "ھەوڵەکان بۆ دامرکاندنەوەی پشێوەی ڕای گشتی گەشت بە شەڕی ناوخۆ.",
+            onPressedBritish: () => speakcrushs10("en-GB"),
+            onPressedAmerican: () => speakcrushs10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) لەناوبردنی متمانە و خۆشبەختی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She felt completely crushed by the teacher's criticism."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەواو ھەستی بە تێکشکاوی کرد بەھۆی سەرزەنشتی مامۆستاکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She felt completely crushed by the teacher's criticism.",
+            kurdishText:
+                "تەواو ھەستی بە تێکشکاوی کرد بەھۆی سەرزەنشتی مامۆستاکەی.",
+            onPressedBritish: () => speakcrushs11("en-GB"),
+            onPressedAmerican: () => speakcrushs11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٧. (ناو) ژمارەیەک خەڵکی کە پێکەوە لە شوێنێکی تەنگدا کۆکراونەتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I couldn't find a way through the crush."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەمتوانی ڕێگایەک بەناو قەرەباڵغییەکەدا بدۆمەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I couldn't find a way through the crush.",
+            kurdishText: "نەمتوانی ڕێگایەک بەناو قەرەباڵغییەکەدا بدۆمەوە.",
+            onPressedBritish: () => speakcrushs12("en-GB"),
+            onPressedAmerican: () => speakcrushs12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "66 fans died in the crush on the steps of the stadium."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "٦٦ ھاندەر مردن لە جەنجاڵیدا لەسەر پلەکانی یاریگاکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "66 fans died in the crush on the steps of the stadium.",
+            kurdishText: "٦٦ ھاندەر مردن لە جەنجاڵیدا لەسەر پلەکانی یاریگاکە.",
+            onPressedBritish: () => speakcrushs13("en-GB"),
+            onPressedAmerican: () => speakcrushs13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٨. (کردار) ھەستێکی خۆشەویستی کە بۆ کەسێکت ھەیە و زۆر ناخایەنێت؛ کەسێک کە ئەم جۆرە خۆشەویستییە ھەیە بۆی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's only a schoolgirl crush, it'll pass."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا  دڵدارییە بۆ کچە قوتابییەک، زوو تێدەپەڕێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's only a schoolgirl crush, it'll pass.",
+            kurdishText: "تەنھا  دڵدارییە بۆ کچە قوتابییەک، زوو تێدەپەڕێت.",
+            onPressedBritish: () => speakcrushs14("en-GB"),
+            onPressedAmerican: () => speakcrushs14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I had a huge crush on her."),
-                    ExampleSentenceKurdish(
-                        text: "ئەویندارییەکی زۆرم بۆی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I had a huge crush on her.",
+            kurdishText: "ئەویندارییەکی زۆرم بۆی ھەبوو.",
+            onPressedBritish: () => speakcrushs15("en-GB"),
+            onPressedAmerican: () => speakcrushs15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He thought you were flirting with his crush."),
-                    ExampleSentenceKurdish(
-                        text: "وای بیردەکردەوە لەگەڵ دڵدارەکەی ڕادەبوێریت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrushs16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrushs16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He thought you were flirting with his crush.",
+            kurdishText: "وای بیردەکردەوە لەگەڵ دڵدارەکەی ڕادەبوێریت.",
+            onPressedBritish: () => speakcrushs16("en-GB"),
+            onPressedAmerican: () => speakcrushs16("en-US"),
           ),
         ],
       ),

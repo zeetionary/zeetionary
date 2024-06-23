@@ -191,91 +191,34 @@ class EnglishEntrycarrot extends StatelessWidget {
 کوردی: گێزەر، یارکۆک، بنەگێزەر، بنجی گێزەر، خەڵات، پاداشت 
 """),
                           const DefinitionKurdish(text: "١. (ناو) گێزەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's rather early to be sowing carrot seeds, isn't it?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زووە بۆ ناشتنی تۆوی گێزەر، وانییە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carrot", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarrots1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarrots1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's rather early to be sowing carrot seeds, isn't it?",
+                            kurdishText:
+                                "زووە بۆ ناشتنی تۆوی گێزەر، وانییە؟", // carrot",
+                            onPressedBritish: () => speakcarrots1("en-GB"),
+                            onPressedAmerican: () => speakcarrots1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you put carrot tops in water they start to grow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر بنجی گێزەر بخەیتە ئاوەوە دەست بە ڕووان دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarrots2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarrots2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you put carrot tops in water they start to grow.",
+                            kurdishText:
+                                "ئەگەر بنجی گێزەر بخەیتە ئاوەوە دەست بە ڕووان دەکات.",
+                            onPressedBritish: () => speakcarrots2("en-GB"),
+                            onPressedAmerican: () => speakcarrots2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) خەڵاتێک کە بەڵێن دەدرێت بە کەسێک بدرێت ئەگەر شتێک بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Even with the carrot of a free lunch it is unlikely that many people will turn up."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنانەت بە خەڵاتی خواردنێکی بێ‌بەرامبەری نیوەڕۆ، ئەگەری کەمە زۆر خەڵک بێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarrots4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarrots4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Even with the carrot of a free lunch it is unlikely that many people will turn up.",
+                            kurdishText:
+                                "تەنانەت بە خەڵاتی خواردنێکی بێ‌بەرامبەری نیوەڕۆ، ئەگەری کەمە زۆر خەڵک بێن.",
+                            onPressedBritish: () => speakcarrots4("en-GB"),
+                            onPressedAmerican: () => speakcarrots4("en-US"),
                           ),
                         ],
                       ),

@@ -278,85 +278,27 @@ class EnglishEntrycommand extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) فەرمانک کە بە کەسێک یان ئاژەڵێک دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Begin when I give the command."),
-                                    ExampleSentenceKurdish(
-                                        text: "کە فەرمان دەکەم دەستپێ بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "command", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Begin when I give the command.",
+                            kurdishText:
+                                "کە فەرمان دەکەم دەستپێ بکە.", // command",
+                            onPressedBritish: () => speakcommands1("en-GB"),
+                            onPressedAmerican: () => speakcommands1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You must obey the captain's commands."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت پابەندی فەرمانی کاپتن بیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You must obey the captain's commands.",
+                            kurdishText: "دەبێت پابەندی فەرمانی کاپتن بیت.",
+                            onPressedBritish: () => speakcommands2("en-GB"),
+                            onPressedAmerican: () => speakcommands2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He issued the command to retreat."),
-                                    ExampleSentenceKurdish(
-                                        text: "فەرمانی کشانەوەی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He issued the command to retreat.",
+                            kurdishText: "فەرمانی کشانەوەی دا.",
+                            onPressedBritish: () => speakcommands3("en-GB"),
+                            onPressedAmerican: () => speakcommands3("en-US"),
                           ),
                           Column(
                             children: [
@@ -429,93 +371,33 @@ class EnglishEntrycommand extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕێنماییەک کە بە کۆمپیوتەرێک دەدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What is the startup command for the program?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێنمایی دەستپێکردن بۆ پڕۆگرامەکە چییە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What is the startup command for the program?",
+                            kurdishText:
+                                "ڕێنمایی دەستپێکردن بۆ پڕۆگرامەکە چییە؟",
+                            onPressedBritish: () => speakcommands6("en-GB"),
+                            onPressedAmerican: () => speakcommands6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کۆنترۆڵ، دەسەڵات، یان فەرمانداری بەسەر دۆخێکدا یان گرووپێک لە خەڵکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                      text:
-                                          "He has 1 200 men under his command.",
-                                      note:
-                                          "also: He has command of 1  200 men.",
-                                    ),
-                                    ExampleSentenceKurdish(
-                                        text: "١٢٠٠ کەسی لە ژێر فەرماندایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He has 1 200 men under his command.",
+                            englishNote: "also: He has command of 1  200 men.",
+                            kurdishText: "١٢٠٠ کەسی لە ژێر فەرماندایە.",
+                            onPressedBritish: () => speakcommands7("en-GB"),
+                            onPressedAmerican: () => speakcommands7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police arrived and took command of the situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس ھات و کۆنترۆڵی دۆخەکەی گرتە دەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police arrived and took command of the situation.",
+                            kurdishText:
+                                "پۆلیس ھات و کۆنترۆڵی دۆخەکەی گرتە دەست.",
+                            onPressedBritish: () => speakcommands8("en-GB"),
+                            onPressedAmerican: () => speakcommands8("en-US"),
                           ),
                           Column(
                             children: [
@@ -646,325 +528,112 @@ class EnglishEntrycommand extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) زانیاری لە شتێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has an excellent command of French."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانیاری باشی زمانی فەرەنسی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has an excellent command of French.",
+                            kurdishText: "زانیاری باشی زمانی فەرەنسی ھەیە.",
+                            onPressedBritish: () => speakcommands13("en-GB"),
+                            onPressedAmerican: () => speakcommands13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Applicants will be expected to have (a) good command of English."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داخوازیکاران چاوەڕێی ئەوەیان لێ دەکرێت زانیاری باشی ئینگلیزییان ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Applicants will be expected to have (a) good command of English.",
+                            kurdishText:
+                                "داخوازیکاران چاوەڕێی ئەوەیان لێ دەکرێت زانیاری باشی ئینگلیزییان ھەبێت.",
+                            onPressedBritish: () => speakcommands14("en-GB"),
+                            onPressedAmerican: () => speakcommands14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) فەرمانکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He commanded his men to retreat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فەرمانی بە پیاوەکانی کرد بکشێنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He commanded his men to retreat.",
+                            kurdishText: "فەرمانی بە پیاوەکانی کرد بکشێنەوە.",
+                            onPressedBritish: () => speakcommands15("en-GB"),
+                            onPressedAmerican: () => speakcommands15("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She commanded the release of the prisoners."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فەرمانی بە ئازادکردنی زیندانییەکان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She commanded the release of the prisoners.",
+                            kurdishText:
+                                "فەرمانی بە ئازادکردنی زیندانییەکان کرد.",
+                            onPressedBritish: () => speakcommands16("en-GB"),
+                            onPressedAmerican: () => speakcommands16("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The commission intervened and commanded that work on the building cease."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمسیۆنەکە دەستوەردانی کرد و بڕیاری دا کارکردن لە بیناکەدا بوەستێنرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The commission intervened and commanded that work on the building cease.",
+                            kurdishText:
+                                "کۆمسیۆنەکە دەستوەردانی کرد و بڕیاری دا کارکردن لە بیناکەدا بوەستێنرێت.",
+                            onPressedBritish: () => speakcommands17("en-GB"),
+                            onPressedAmerican: () => speakcommands17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) سەرکردایەتی لە سوپا، ھێزی دەریایی، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In March 1942 he was appointed to command US naval forces in Europe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ساڵی ١٩٤٢ دیاریکرا بۆ سەرکردایەتی ھێزە دەریاییەکانی ئەمریکا لە ئەورووپا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In March 1942 he was appointed to command US naval forces in Europe.",
+                            kurdishText:
+                                "لە ساڵی ١٩٤٢ دیاریکرا بۆ سەرکردایەتی ھێزە دەریاییەکانی ئەمریکا لە ئەورووپا.",
+                            onPressedBritish: () => speakcommands18("en-GB"),
+                            onPressedAmerican: () => speakcommands18("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was the officer commanding the troops in the Western region."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ئەفسەرە بوو کە سەرکردایەتی ھێزەکانی لە ھەرێمی ڕۆژئاوا دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was the officer commanding the troops in the Western region.",
+                            kurdishText:
+                                "ئەو ئەفسەرە بوو کە سەرکردایەتی ھێزەکانی لە ھەرێمی ڕۆژئاوا دەکرد.",
+                            onPressedBritish: () => speakcommands19("en-GB"),
+                            onPressedAmerican: () => speakcommands19("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) وەرگرتنی شتێک بەھۆی ئەوەی شایەنیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was able to command the respect of the class."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانی ڕێزی پۆلەکە بەدەست بھێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands20("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands20("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was able to command the respect of the class.",
+                            kurdishText: "توانی ڕێزی پۆلەکە بەدەست بھێنێت.",
+                            onPressedBritish: () => speakcommands20("en-GB"),
+                            onPressedAmerican: () => speakcommands20("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The headlines commanded her attention."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەردێڕەکان سەرنجیان ڕاکێشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands21("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands21("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The headlines commanded her attention.",
+                            kurdishText: "سەردێڕەکان سەرنجیان ڕاکێشا.",
+                            onPressedBritish: () => speakcommands21("en-GB"),
+                            onPressedAmerican: () => speakcommands21("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) بوون لە شوێن و پێگەیەکدا کە لێیەوە شتێک ببینیت یان کۆنترۆڵی بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hotel commands a fine view of the valley."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھوتێلەکە بەسەر دیمەنێکی جوانی دۆڵەکەدا دەڕوانێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands22("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands22("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hotel commands a fine view of the valley.",
+                            kurdishText:
+                                "ھوتێلەکە بەسەر دیمەنێکی جوانی دۆڵەکەدا دەڕوانێت.",
+                            onPressedBritish: () => speakcommands22("en-GB"),
+                            onPressedAmerican: () => speakcommands22("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) ھەبوونی کۆنترۆڵی شتێک؛ ھەبوونی شتێک لە بەردەستدا بۆ بەکارھێنان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The party was no longer able to command a majority in Parliament."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارتەکە چیتر نەیدەتوانی زۆرینەی لە پەرلەماندا ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommands23("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommands23("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The party was no longer able to command a majority in Parliament.",
+                            kurdishText:
+                                "پارتەکە چیتر نەیدەتوانی زۆرینەی لە پەرلەماندا ھەبێت.",
+                            onPressedBritish: () => speakcommands23("en-GB"),
+                            onPressedAmerican: () => speakcommands23("en-US"),
                           ),
                         ],
                       ),

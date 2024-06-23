@@ -103,60 +103,21 @@ class EnglishEntrychickenpox extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نەخۆشییەک کە بەتایبەتی لەناو منداڵاندا بەربڵاوە کە دەبێتە ھۆی پلەی گەرمی بەرز و خاڵی سوور لەسەر جەستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Did you have chicken pox as a child?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە منداڵ بوویت دڕکەمێکوتەت گرت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chickenpox", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchickenpoxs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchickenpoxs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Did you have chicken pox as a child?",
+                            kurdishText:
+                                "کە منداڵ بوویت دڕکەمێکوتەت گرت؟", // chickenpox",
+                            onPressedBritish: () => speakchickenpoxs1("en-GB"),
+                            onPressedAmerican: () => speakchickenpoxs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He caught chickenpox from his daughter when she started school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڕکەمێکوتەی لە منداڵەکەیەوە گرت کە (منداڵەکەی) چووە قوتابخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchickenpoxs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchickenpoxs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He caught chickenpox from his daughter when she started school.",
+                            kurdishText:
+                                "دڕکەمێکوتەی لە منداڵەکەیەوە گرت کە (منداڵەکەی) چووە قوتابخانە.",
+                            onPressedBritish: () => speakchickenpoxs2("en-GB"),
+                            onPressedAmerican: () => speakchickenpoxs2("en-US"),
                           ),
                         ],
                       ),

@@ -193,150 +193,53 @@ class EnglishEntrycasualty extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە لە ڕووداو یان جەنگدا بریندار بووە یان گیانی لەدەستداوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our primary objective is reducing road casualties."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانجی سەرەکیمان کەمکردنەوەی قوربانیانی ھاتووچۆیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "casualty", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasualtys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasualtys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our primary objective is reducing road casualties.",
+                            kurdishText:
+                                "ئامانجی سەرەکیمان کەمکردنەوەی قوربانیانی ھاتووچۆیە.", // casualty",
+                            onPressedBritish: () => speakcasualtys1("en-GB"),
+                            onPressedAmerican: () => speakcasualtys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Both sides had suffered heavy casualties (= many people had been killed)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو لایەنەکە قوربانی زۆریان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasualtys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasualtys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Both sides had suffered heavy casualties (= many people had been killed).",
+                            kurdishText: "ھەردوو لایەنەکە قوربانی زۆریان بوو.",
+                            onPressedBritish: () => speakcasualtys2("en-GB"),
+                            onPressedAmerican: () => speakcasualtys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە ئازار دەچێژێت، یان شتێک کە لەناودەچێت کە شتێکی تر ڕوودەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Small shops have been a casualty of the recession."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فرۆشگا بچووکەکان بوونە بە قوربانی قەیرانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasualtys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasualtys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Small shops have been a casualty of the recession.",
+                            kurdishText:
+                                "فرۆشگا بچووکەکان بوونە بە قوربانی قەیرانەکە.",
+                            onPressedBritish: () => speakcasualtys3("en-GB"),
+                            onPressedAmerican: () => speakcasualtys3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She lost her job in 2011, a casualty of the recession."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ساڵی ٢٠١١ کارەکەی لەدەستدا، وەک قوربانی قەیران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasualtys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasualtys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She lost her job in 2011, a casualty of the recession.",
+                            kurdishText:
+                                "لە ساڵی ٢٠١١ کارەکەی لەدەستدا، وەک قوربانی قەیران.",
+                            onPressedBritish: () => speakcasualtys4("en-GB"),
+                            onPressedAmerican: () => speakcasualtys4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەو بەشەی نەخۆشخانە کە ئەو کەسانەی بۆ دەبردرێت کە پێویستییان بە چارەسەری بەپەلە ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The victims were rushed to casualty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوربانییەکان بردران بۆ بەشی فریاکەوتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasualtys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasualtys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The victims were rushed to casualty.",
+                            kurdishText:
+                                "قوربانییەکان بردران بۆ بەشی فریاکەوتن.",
+                            onPressedBritish: () => speakcasualtys5("en-GB"),
+                            onPressedAmerican: () => speakcasualtys5("en-US"),
                           ),
                         ],
                       ),

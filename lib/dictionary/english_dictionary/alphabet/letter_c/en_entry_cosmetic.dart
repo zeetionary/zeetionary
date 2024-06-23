@@ -265,143 +265,49 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) مادەی جوانکاری بۆ ڕووخسار یان جەستە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She found a job selling cosmetics."),
-                    ExampleSentenceKurdish(
-                        text: "کارێکی لە فرۆشتنی جوانکاری دۆزییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosmetic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosmetics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosmetics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She found a job selling cosmetics.",
+            kurdishText:
+                "کارێکی لە فرۆشتنی جوانکاری دۆزییەوە.", // cosmetic", please follow LX instructions
+            onPressedBritish: () => speakcosmetics1("en-GB"),
+            onPressedAmerican: () => speakcosmetics1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We’re introducing a new line of cosmetics."),
-                    ExampleSentenceKurdish(
-                        text: "زنجیرەیەکی تازەی جوانکاری ڕادەگەیەنین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosmetics2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosmetics2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We’re introducing a new line of cosmetics.",
+            kurdishText: "زنجیرەیەکی تازەی جوانکاری ڕادەگەیەنین.",
+            onPressedBritish: () => speakcosmetics2("en-GB"),
+            onPressedAmerican: () => speakcosmetics2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) باشترکردنی ڕواڵەتی دەرەوەی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These reforms are not merely cosmetic."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم چاکسازییانە تەنھا بە ڕواڵەت نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosmetics3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosmetics3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These reforms are not merely cosmetic.",
+            kurdishText: "ئەم چاکسازییانە تەنھا بە ڕواڵەت نییە.",
+            onPressedBritish: () => speakcosmetics3("en-GB"),
+            onPressedAmerican: () => speakcosmetics3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She dismissed the plan as a cosmetic exercise to win votes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پلانەکەی وەک ھەوڵێکی ڕووکەشانە بۆ بردنەوەی دەنگ بەلاخست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosmetics4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosmetics4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She dismissed the plan as a cosmetic exercise to win votes.",
+            kurdishText:
+                "پلانەکەی وەک ھەوڵێکی ڕووکەشانە بۆ بردنەوەی دەنگ بەلاخست.",
+            onPressedBritish: () => speakcosmetics4("en-GB"),
+            onPressedAmerican: () => speakcosmetics4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) چارەسەری تەندرووستی کە ئامانج لێی جوانکارییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cosmetic surgery is often used to reduce the signs of aging."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەشتەرگەری جوانکاری زۆرجار بۆ کەمکردنەوەی ئاماژەکانی پیری بەکاردێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosmetics5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosmetics5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Cosmetic surgery is often used to reduce the signs of aging.",
+            kurdishText:
+                "نەشتەرگەری جوانکاری زۆرجار بۆ کەمکردنەوەی ئاماژەکانی پیری بەکاردێت.",
+            onPressedBritish: () => speakcosmetics5("en-GB"),
+            onPressedAmerican: () => speakcosmetics5("en-US"),
           ),
         ],
       ),

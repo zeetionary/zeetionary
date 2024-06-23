@@ -469,57 +469,18 @@ class EnglishEntrycan extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کاری مۆداڵ) بۆ دەربڕینی توانای کرنی شتێک لە لایەن کەسێک/شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I can run fast."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەتوانم خێرا ڕابکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "can", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I can run fast.",
+                            kurdishText: "دەتوانم خێرا ڕابکەم.", // can
+                            onPressedBritish: () => speakcans1("en-GB"),
+                            onPressedAmerican: () => speakcans1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can you call back tomorrow?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت سبەی پەیوەندی بکەیتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can you call back tomorrow?",
+                            kurdishText: "دەتوانیت سبەی پەیوەندی بکەیتەوە؟",
+                            onPressedBritish: () => speakcans2("en-GB"),
+                            onPressedAmerican: () => speakcans2("en-US"),
                           ),
                           Column(
                             children: [
@@ -652,396 +613,125 @@ class EnglishEntrycan extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کاری مۆداڵ) بەکاردێت بۆ وتنی ئەوەی کەسێک دەزانێت چۆن شتێک بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She can speak Spanish."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەتوانێت بە ئیسپانی قسە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She can speak Spanish.",
+                            kurdishText: "دەتوانێت بە ئیسپانی قسە بکات.",
+                            onPressedBritish: () => speakcans7("en-GB"),
+                            onPressedAmerican: () => speakcans7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can he cook?"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەزانێت خواردن درووست بکات؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can he cook?",
+                            kurdishText: "دەزانێت خواردن درووست بکات؟",
+                            onPressedBritish: () => speakcans8("en-GB"),
+                            onPressedAmerican: () => speakcans8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کاری مۆداڵ) بەکاردێت لەگەڵ کارەکانی ‘feel’, ‘hear’, ‘see’, ‘smell’, ‘taste’"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She could feel a lump in her breast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە لوویەک لە سنگیدا دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She could feel a lump in her breast.",
+                            kurdishText: "ھەستی بە لوویەک لە سنگیدا دەکرد.",
+                            onPressedBritish: () => speakcans9("en-GB"),
+                            onPressedAmerican: () => speakcans9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I can hear music."),
-                                    ExampleSentenceKurdish(
-                                        text: "گوێم لە میوزیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I can hear music.",
+                            kurdishText: "گوێم لە میوزیکە.",
+                            onPressedBritish: () => speakcans10("en-GB"),
+                            onPressedAmerican: () => speakcans10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کاری مۆداڵ) بەکاردێت بۆ وتنی ئەوەی کەسێک ڕێگەپێدراوە شتێک بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can I read your newspaper?"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەتوانم ڕۆژنامەکەت بخوێنمەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can I read your newspaper?",
+                            kurdishText: "دەتوانم ڕۆژنامەکەت بخوێنمەوە؟",
+                            onPressedBritish: () => speakcans11("en-GB"),
+                            onPressedAmerican: () => speakcans11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can I take you home?"),
-                                    ExampleSentenceKurdish(
-                                        text: "بتبەمە ماڵەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can I take you home?",
+                            kurdishText: "بتبەمە ماڵەوە؟",
+                            onPressedBritish: () => speakcans12("en-GB"),
+                            onPressedAmerican: () => speakcans12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کاری مۆداڵ) بۆ داواکردنی یارمەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can you help me with this box?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت لە ھەڵگرتنی ئەم سنووقە یارمەتیم بدەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can you help me with this box?",
+                            kurdishText:
+                                "دەتوانیت لە ھەڵگرتنی ئەم سنووقە یارمەتیم بدەیت؟",
+                            onPressedBritish: () => speakcans13("en-GB"),
+                            onPressedAmerican: () => speakcans13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can you feed the cat, please?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە دەتوانیت خواردن بدەیت بە پشیلەکە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can you feed the cat, please?",
+                            kurdishText:
+                                "تکایە دەتوانیت خواردن بدەیت بە پشیلەکە؟",
+                            onPressedBritish: () => speakcans14("en-GB"),
+                            onPressedAmerican: () => speakcans14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کاری مۆداڵ) بۆ پێشنیازکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We can eat in a restaurant, if you like."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر حەز دەکەیت لە چێشتخانەیەک نان دەخۆین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We can eat in a restaurant, if you like.",
+                            kurdishText:
+                                "ئەگەر حەز دەکەیت لە چێشتخانەیەک نان دەخۆین.",
+                            onPressedBritish: () => speakcans15("en-GB"),
+                            onPressedAmerican: () => speakcans15("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can take the car if necessary."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەیارەکە دەبەم ئەگەر پێویست بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I can take the car if necessary.",
+                            kurdishText: "سەیارەکە دەبەم ئەگەر پێویست بکات.",
+                            onPressedBritish: () => speakcans16("en-GB"),
+                            onPressedAmerican: () => speakcans16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کاری مۆداڵ) بەشێوەی نەرێ بەکاردێت بۆ وتنی ئەوەی دڵنیایت شتێک ڕاست نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That can't be Mary—she's in New York."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناکرێت ماری بێت، ئەو لە نیویۆرکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That can't be Mary—she's in New York.",
+                            kurdishText: "ناکرێت ماری بێت، ئەو لە نیویۆرکە.",
+                            onPressedBritish: () => speakcans17("en-GB"),
+                            onPressedAmerican: () => speakcans17("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He can't have slept through all that noise."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەستەمە خەوی لێ کەوتبێت لەو ھەموو ژاوەژاوەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He can't have slept through all that noise.",
+                            kurdishText:
+                                "ئەستەمە خەوی لێ کەوتبێت لەو ھەموو ژاوەژاوەدا.",
+                            onPressedBritish: () => speakcans18("en-GB"),
+                            onPressedAmerican: () => speakcans18("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کاری مۆداڵ) بۆ پیشاندانی گومان یان سەرسامی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "What can they be doing?"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەبێت چی بکەن؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "What can they be doing?",
+                            kurdishText: "دەبێت چی بکەن؟",
+                            onPressedBritish: () => speakcans19("en-GB"),
+                            onPressedAmerican: () => speakcans19("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can he be serious?"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەبێت بە جدی بێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans20("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans20("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can he be serious?",
+                            kurdishText: "دەبێت بە جدی بێت؟",
+                            onPressedBritish: () => speakcans20("en-GB"),
+                            onPressedAmerican: () => speakcans20("en-US"),
                           ),
                           Column(
                             children: [
@@ -1083,320 +773,109 @@ class EnglishEntrycan extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١٠. (کاری مۆداڵ) بۆ وتنی ئەوەی کەسێک/شتێک دەکرێت چۆن بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He can be very tactless sometimes."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەندێک جار زۆر بێ‌ھەست دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans22("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans22("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He can be very tactless sometimes.",
+                            kurdishText: "ھەندێک جار زۆر بێ‌ھەست دەبێت.",
+                            onPressedBritish: () => speakcans22("en-GB"),
+                            onPressedAmerican: () => speakcans22("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It can be quite cold here in winter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە زستاندا ئێرە دەکرێت تەواو سارد بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans23("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans23("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It can be quite cold here in winter.",
+                            kurdishText:
+                                "لە زستاندا ئێرە دەکرێت تەواو سارد بێت.",
+                            onPressedBritish: () => speakcans23("en-GB"),
+                            onPressedAmerican: () => speakcans23("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١١. (کاری مۆداڵ) بۆ وتنی ئەوەی کەسێک دەبێت شتێک بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You can shut up or get out!"),
-                                    ExampleSentenceKurdish(
-                                        text: "بێ‌دەنگە بە یان بچۆ دەرەوە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans24("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans24("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You can shut up or get out!",
+                            kurdishText: "بێ‌دەنگە بە یان بچۆ دەرەوە!",
+                            onPressedBritish: () => speakcans24("en-GB"),
+                            onPressedAmerican: () => speakcans24("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "١٢. (ناو) قوتوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He opened the can and took a large swig."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوتووەکەی کردەوە و قومێکی گەورەی لێخواردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans25("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans25("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He opened the can and took a large swig.",
+                            kurdishText:
+                                "قوتووەکەی کردەوە و قومێکی گەورەی لێخواردەوە.",
+                            onPressedBritish: () => speakcans25("en-GB"),
+                            onPressedAmerican: () => speakcans25("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She sipped from a can of Coke."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قومێکی لە قوتوویەکی کۆکا کۆلا خواردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans26("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans26("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She sipped from a can of Coke.",
+                            kurdishText:
+                                "قومێکی لە قوتوویەکی کۆکا کۆلا خواردەوە.",
+                            onPressedBritish: () => speakcans26("en-GB"),
+                            onPressedAmerican: () => speakcans26("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٣. (ناو) ئەو ڕێژەیەی لە قوتوویەکدا جێگای دەبێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Have you eaten the whole can?"),
-                                    ExampleSentenceKurdish(
-                                        text: "تەواوی قوتووەکەت خوارد؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans27("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans27("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Have you eaten the whole can?",
+                            kurdishText: "تەواوی قوتووەکەت خوارد؟",
+                            onPressedBritish: () => speakcans27("en-GB"),
+                            onPressedAmerican: () => speakcans27("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We drank a can of Coke each."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەریەکەمان قوتوویەک کۆکا کۆلامان خواردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans28("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans28("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We drank a can of Coke each.",
+                            kurdishText:
+                                "ھەریەکەمان قوتوویەک کۆکا کۆلامان خواردەوە.",
+                            onPressedBritish: () => speakcans28("en-GB"),
+                            onPressedAmerican: () => speakcans28("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٤. (ناو) کاسەیەک ئاسنی یان پلاستیکی ھەڵگرتنی شلە تێیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He filled a can with water."),
-                                    ExampleSentenceKurdish(
-                                        text: "کاسەیەکی پڕ لە ئاو کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans29("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans29("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He filled a can with water.",
+                            kurdishText: "کاسەیەکی پڕ لە ئاو کرد.",
+                            onPressedBritish: () => speakcans29("en-GB"),
+                            onPressedAmerican: () => speakcans29("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٥. (ناو) قوتوویەک کە شلەی تێدا ھەڵدەگیرێت لەژێر فشاری زۆردا و بە فیشقە دێتە دەرەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I bought a can of red paint and painted the front door."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوتوویەکە بۆیەی سوورم کڕی و دەرگای پێشەوەم بۆیەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans30("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans30("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I bought a can of red paint and painted the front door.",
+                            kurdishText:
+                                "قوتوویەکە بۆیەی سوورم کڕی و دەرگای پێشەوەم بۆیەکرد.",
+                            onPressedBritish: () => speakcans30("en-GB"),
+                            onPressedAmerican: () => speakcans30("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٦. (کردار) پاراستن بە خستنە قوتوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He works in a factory where they can fruit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کارگەیەک کار دەکات کە خواردن دەخەنە قوتووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans31("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans31("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He works in a factory where they can fruit.",
+                            kurdishText:
+                                "لە کارگەیەک کار دەکات کە خواردن دەخەنە قوتووەوە.",
+                            onPressedBritish: () => speakcans31("en-GB"),
+                            onPressedAmerican: () => speakcans31("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٧. (کردار) دەرکردنی کەسێک لە کارەکەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Upon learning he was sick, the company canned him without explanation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە زانییان نەخۆشە، کۆمپانیاکە دەریکرد بەبێ ڕوونکردنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcans32("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcans32("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Upon learning he was sick, the company canned him without explanation.",
+                            kurdishText:
+                                "کە زانییان نەخۆشە، کۆمپانیاکە دەریکرد بەبێ ڕوونکردنەوە.",
+                            onPressedBritish: () => speakcans32("en-GB"),
+                            onPressedAmerican: () => speakcans32("en-US"),
                           ),
                         ],
                       ),

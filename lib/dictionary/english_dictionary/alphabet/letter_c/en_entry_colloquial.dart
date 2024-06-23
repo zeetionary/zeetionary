@@ -95,32 +95,13 @@ class EnglishEntrycolloquial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) وشەی نافەرمی کە لە گفتوگۆدا بەکاردێت نەک لە نووسیندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The teacher explained the concept in colloquial terms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستاکە چەمکی وتە نافەرمییەکانی ڕوونکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colloquial", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolloquials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolloquials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The teacher explained the concept in colloquial terms.",
+                            kurdishText:
+                                "مامۆستاکە چەمکی وتە نافەرمییەکانی ڕوونکردەوە.", // colloquial",
+                            onPressedBritish: () => speakcolloquials1("en-GB"),
+                            onPressedAmerican: () => speakcolloquials1("en-US"),
                           ),
                         ],
                       ),

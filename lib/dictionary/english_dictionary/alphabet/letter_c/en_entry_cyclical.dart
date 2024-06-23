@@ -233,32 +233,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) زۆر دووبارەبوو بە ھەمان زنجیرە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Economic activity often follows a cyclical pattern."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چالاکی ئابووری زۆرجار بە ھەمان شێوەی زنجیرەیی دەچێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cyclical", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcyclicals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcyclicals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Economic activity often follows a cyclical pattern.",
+            kurdishText:
+                "چالاکی ئابووری زۆرجار بە ھەمان شێوەی زنجیرەیی دەچێت.", // cyclical", please follow LX instructions
+            onPressedBritish: () => speakcyclicals1("en-GB"),
+            onPressedAmerican: () => speakcyclicals1("en-US"),
           ),
         ],
       ),

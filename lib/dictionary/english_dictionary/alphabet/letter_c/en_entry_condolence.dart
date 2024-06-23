@@ -103,60 +103,22 @@ class EnglishEntrycondolence extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) دڵنەوایی بۆ کەسێک کە کەسێک لە خێزانەکەی یان کەسێکی ناسیاوی مردووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our condolences go to his wife and family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوخەمیمان ھەیە بۆ ھاوژین و خێزانەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "condolence", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondolences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondolences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our condolences go to his wife and family.",
+                            kurdishText:
+                                "ھاوخەمیمان ھەیە بۆ ھاوژین و خێزانەکەی.", // condolence",
+                            onPressedBritish: () => speakcondolences1("en-GB"),
+                            onPressedAmerican: () => speakcondolences1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Dignitaries from all over the world came to offer their condolences."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شکۆمەندان لە ھەموو جیھانەوە ھاتن بۆ پێشکەشکردنی ھاوخەمییان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondolences2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondolences2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Dignitaries from all over the world came to offer their condolences.",
+                            kurdishText:
+                                "شکۆمەندان لە ھەموو جیھانەوە ھاتن بۆ پێشکەشکردنی ھاوخەمییان.",
+                            onPressedBritish: () => speakcondolences2("en-GB"),
+                            onPressedAmerican: () => speakcondolences2("en-US"),
                           ),
                         ],
                       ),

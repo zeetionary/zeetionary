@@ -121,125 +121,49 @@ class EnglishEntrychink extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) درزێک لە شتێکدا کە کراوەییەکی درووستکردووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I peered through a chink in the curtains and saw them all inside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کەلێنێکی پەردەکەوە سەیرم کرد و ھەموویانم بینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chink", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchinks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchinks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I peered through a chink in the curtains and saw them all inside.",
+                            kurdishText:
+                                "لە کەلێنێکی پەردەکەوە سەیرم کرد و ھەموویانم بینی.", // chink",
+                            onPressedBritish: () => speakchinks1("en-GB"),
+                            onPressedAmerican: () => speakchinks1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەمێک ڕۆشنایی کە لە کەلێنێکەوە دێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I noticed a chink of light under the door."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستم بە کەمێک ڕۆشنایی کرد لە ژێر دەرگاکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchinks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchinks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I noticed a chink of light under the door.",
+                            kurdishText:
+                                "ھەستم بە کەمێک ڕۆشنایی کرد لە ژێر دەرگاکەدا.",
+                            onPressedBritish: () => speakchinks2("en-GB"),
+                            onPressedAmerican: () => speakchinks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) دەنگێکی کەمی زرنگانەوە، بۆ نموونە کە دوو گڵاس بەر یەکدی دەکەون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "On a hot day it's nice to hear the chink of ice in a glass."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕۆژێکی گەرمدا خۆشە گوێت لە زرنگەی بەفر بێت لە گڵاسدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchinks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchinks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "On a hot day it's nice to hear the chink of ice in a glass.",
+                            kurdishText:
+                                "لە ڕۆژێکی گەرمدا خۆشە گوێت لە زرنگەی بەفر بێت لە گڵاسدا.",
+                            onPressedBritish: () => speakchinks3("en-GB"),
+                            onPressedAmerican: () => speakchinks3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) زرنگانەوە، یان کێشانی گڵاس بە یەکدیدا بۆ ئەوەی بزرنگێنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We chinked glasses and drank to each other's health."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گڵاسەکانمان کێشا بە یەکدا و خواردمانەوە بە خۆشی تەندرووستی یەکدی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchinks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchinks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We chinked glasses and drank to each other's health.",
+                            kurdishText:
+                                "گڵاسەکانمان کێشا بە یەکدا و خواردمانەوە بە خۆشی تەندرووستی یەکدی.",
+                            onPressedBritish: () => speakchinks4("en-GB"),
+                            onPressedAmerican: () => speakchinks4("en-US"),
                           ),
                         ],
                       ),

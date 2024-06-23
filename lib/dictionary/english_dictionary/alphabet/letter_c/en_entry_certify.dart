@@ -193,122 +193,45 @@ class EnglishEntrycertify extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بە فەرمی گوتنی ئەوەی شتێک ڕاستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He handed her a piece of paper certifying (that) she was in good health."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارچە کاغەزێکی پێدا کە پشتڕاستیکردەوە کە کچەکە لە تەندرووستییەکی باشدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "certify", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertifys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertifys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He handed her a piece of paper certifying (that) she was in good health.",
+                            kurdishText:
+                                "پارچە کاغەزێکی پێدا کە پشتڕاستیکردەوە کە کچەکە لە تەندرووستییەکی باشدایە.", // certify",
+                            onPressedBritish: () => speakcertifys1("en-GB"),
+                            onPressedAmerican: () => speakcertifys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was certified dead upon arrival at the hospital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە مردوو دەنرا ھەرکە گەشتە نەخۆشخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertifys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertifys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was certified dead upon arrival at the hospital.",
+                            kurdishText:
+                                "بە مردوو دەنرا ھەرکە گەشتە نەخۆشخانەکە.",
+                            onPressedBritish: () => speakcertifys2("en-GB"),
+                            onPressedAmerican: () => speakcertifys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) پێدانی بەڵگەنامەیەک بە کەسێک کە پیشانی دەدات کەوا لێوەشاوەیە بۆ کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was certified as a teacher in 2009."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵی ٢٠٠٩ وەک مامۆستا متمانەم پێدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertifys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertifys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was certified as a teacher in 2009.",
+                            kurdishText: "ساڵی ٢٠٠٩ وەک مامۆستا متمانەم پێدرا.",
+                            onPressedBritish: () => speakcertifys3("en-GB"),
+                            onPressedAmerican: () => speakcertifys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) بە فەرمی دانانی کەسێک لە ڕووی یاساوە وەک نەخۆش، بەتایبەتی وەک شێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As a young man, he had been certified and sent to a hospital for the mentally ill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک گەنجێک، وەک نەخۆش دانرابوو و نێردرا بۆ نەخۆشخانەیەک کە بۆ کەسانی ناتەواو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertifys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertifys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As a young man, he had been certified and sent to a hospital for the mentally ill.",
+                            kurdishText:
+                                "وەک گەنجێک، وەک نەخۆش دانرابوو و نێردرا بۆ نەخۆشخانەیەک کە بۆ کەسانی ناتەواو بوو.",
+                            onPressedBritish: () => speakcertifys4("en-GB"),
+                            onPressedAmerican: () => speakcertifys4("en-US"),
                           ),
                         ],
                       ),

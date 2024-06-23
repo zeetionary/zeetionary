@@ -130,147 +130,52 @@ class EnglishEntrycompete extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بەژداری کردن لە یارییەک یان ڕکابەرییەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's hoping to compete in the London marathon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیوا دەخوازێت لە ماراسۆنی لەندەن ڕکابەری بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compete", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's hoping to compete in the London marathon.",
+                            kurdishText:
+                                "ھیوا دەخوازێت لە ماراسۆنی لەندەن ڕکابەری بکات.", // compete",
+                            onPressedBritish: () => speakcompetes1("en-GB"),
+                            onPressedAmerican: () => speakcompetes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is expected to compete for the title of world champion next year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوەڕوان دەکرێت ساڵی داھاتوو ڕکابەری بکات بۆ نازناوی پاڵەوانی جیھان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is expected to compete for the title of world champion next year.",
+                            kurdishText:
+                                "چاوەڕوان دەکرێت ساڵی داھاتوو ڕکابەری بکات بۆ نازناوی پاڵەوانی جیھان.",
+                            onPressedBritish: () => speakcompetes2("en-GB"),
+                            onPressedAmerican: () => speakcompetes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ڕکابەری کەسێک یان تیمێکی دیکە بۆ ئەوەی باشتر بیت لێی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They simply cannot compete in the international market."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئاشکرایی ناتوانن ڕکابەری بکەن لە بازاڕی جیھانیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They simply cannot compete in the international market.",
+                            kurdishText:
+                                "بە ئاشکرایی ناتوانن ڕکابەری بکەن لە بازاڕی جیھانیدا.",
+                            onPressedBritish: () => speakcompetes3("en-GB"),
+                            onPressedAmerican: () => speakcompetes3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Young children will usually compete for their mother's attention."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵانی گەنج زۆرجار ڕکابەری دەکەن بۆ سەرنجی دایکیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Young children will usually compete for their mother's attention.",
+                            kurdishText:
+                                "منداڵانی گەنج زۆرجار ڕکابەری دەکەن بۆ سەرنجی دایکیان.",
+                            onPressedBritish: () => speakcompetes4("en-GB"),
+                            onPressedAmerican: () => speakcompetes4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The result is more applicants competing for fewer jobs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەنجامەکە ئەوەیە کە خوازیاری زیاتر ڕکابەری  بۆ کاری کەمتر دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetes5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The result is more applicants competing for fewer jobs.",
+                            kurdishText:
+                                "ئەنجامەکە ئەوەیە کە خوازیاری زیاتر ڕکابەری  بۆ کاری کەمتر دەکەن.",
+                            onPressedBritish: () => speakcompetes5("en-GB"),
+                            onPressedAmerican: () => speakcompetes5("en-US"),
                           ),
                         ],
                       ),

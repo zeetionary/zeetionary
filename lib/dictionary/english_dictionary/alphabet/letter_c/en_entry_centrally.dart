@@ -193,94 +193,37 @@ class EnglishEntrycentrally extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) لە شوێنێکدا کە لە زۆر لاوە دەکرێت دەست پێی بگات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hotel is in a centrally located part of the city."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھوتێلەکە لە بەشێکی ناوجەرگەی شارەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "centrally", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentrallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentrallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hotel is in a centrally located part of the city.",
+                            kurdishText:
+                                "ھوتێلەکە لە بەشێکی ناوجەرگەی شارەکەیە.", // centrally",
+                            onPressedBritish: () => speakcentrallys1("en-GB"),
+                            onPressedAmerican: () => speakcentrallys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) لە ناوەڕاستی ناوچەیەک یان شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The science labs are positioned centrally around the school's media centre."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاقیگە زانستییەکان لە ناوجەرگەی سەنتەری میدیای قوتابخانە دانراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentrallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentrallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The science labs are positioned centrally around the school's media centre.",
+                            kurdishText:
+                                "تاقیگە زانستییەکان لە ناوجەرگەی سەنتەری میدیای قوتابخانە دانراون.",
+                            onPressedBritish: () => speakcentrallys2("en-GB"),
+                            onPressedAmerican: () => speakcentrallys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) بەشێوەیەکی گرنگ یان کاریگەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was centrally involved in setting up and developing the organization."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەکی کاریگەرانە بەژدار بوو لە دامەزراندن و گەشەپێدانی دامەزراوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentrallys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentrallys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was centrally involved in setting up and developing the organization.",
+                            kurdishText:
+                                "بەشێوەیەکی کاریگەرانە بەژدار بوو لە دامەزراندن و گەشەپێدانی دامەزراوەکە.",
+                            onPressedBritish: () => speakcentrallys3("en-GB"),
+                            onPressedAmerican: () => speakcentrallys3("en-US"),
                           ),
                         ],
                       ),

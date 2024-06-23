@@ -111,88 +111,31 @@ class EnglishEntrycomplain extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ناڕەزایی دەربڕین سەبارەت بە کەسێک یان شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She never complains, but she's obviously exhausted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز ناڕەزایی دەرنابڕێت، بەڵام ئاشکرایە ماندووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complain", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplains1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplains1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She never complains, but she's obviously exhausted.",
+                            kurdishText:
+                                "ھەرگیز ناڕەزایی دەرنابڕێت، بەڵام ئاشکرایە ماندووە.", // complain",
+                            onPressedBritish: () => speakcomplains1("en-GB"),
+                            onPressedAmerican: () => speakcomplains1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Annoyed residents have complained to the police."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانیشتووانە بێزارەکان شکاتیان لای پۆلیس کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplains2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplains2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Annoyed residents have complained to the police.",
+                            kurdishText:
+                                "دانیشتووانە بێزارەکان شکاتیان لای پۆلیس کردووە.",
+                            onPressedBritish: () => speakcomplains2("en-GB"),
+                            onPressedAmerican: () => speakcomplains2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm going to complain to the manager about this."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە لای بەڕێوبەر ناڕەزایی دەردەبڕم سەبارەت بەمە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplains3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplains3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm going to complain to the manager about this.",
+                            kurdishText:
+                                "لە لای بەڕێوبەر ناڕەزایی دەردەبڕم سەبارەت بەمە.",
+                            onPressedBritish: () => speakcomplains3("en-GB"),
+                            onPressedAmerican: () => speakcomplains3("en-US"),
                           ),
                         ],
                       ),

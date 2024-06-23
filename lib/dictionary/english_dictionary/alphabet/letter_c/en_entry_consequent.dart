@@ -103,60 +103,22 @@ class EnglishEntryconsequent extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ڕوودان لە ئەنجامی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The use of harmful chemicals and the consequent damage to the environment is a very serious matter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکارھێنانی مادە زیانبەخشەکان و زیانی لێکەوتووی بۆ ژینگە بابەتێکی گرنگە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consequent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsequents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsequents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The use of harmful chemicals and the consequent damage to the environment is a very serious matter.",
+                            kurdishText:
+                                "بەکارھێنانی مادە زیانبەخشەکان و زیانی لێکەوتووی بۆ ژینگە بابەتێکی گرنگە.", // consequent",
+                            onPressedBritish: () => speakconsequents1("en-GB"),
+                            onPressedAmerican: () => speakconsequents1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Stock values declined, with consequent financial losses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخی پشکەکان دابەزین بە زیانی ئابوورییەوە لە ئەنجامیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsequents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsequents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Stock values declined, with consequent financial losses.",
+                            kurdishText:
+                                "نرخی پشکەکان دابەزین بە زیانی ئابوورییەوە لە ئەنجامیدا.",
+                            onPressedBritish: () => speakconsequents2("en-GB"),
+                            onPressedAmerican: () => speakconsequents2("en-US"),
                           ),
                         ],
                       ),

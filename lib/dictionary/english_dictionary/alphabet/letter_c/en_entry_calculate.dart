@@ -199,59 +199,21 @@ class EnglishEntrycalculate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) بەکارھێنانی ژمارە بۆ زانینی کۆی ژمارە، بڕ، یان دووری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That figure was calculated using the standard equation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەکە لێکدرایەوە بە بەکارھێنانی ھاوکێشەیەکی ستاندارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calculate", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalculates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalculates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That figure was calculated using the standard equation.",
+                            kurdishText:
+                                "ژمارەکە لێکدرایەوە بە بەکارھێنانی ھاوکێشەیەکی ستاندارد.", // calculate
+                            onPressedBritish: () => speakcalculates1("en-GB"),
+                            onPressedAmerican: () => speakcalculates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We haven’t really calculated the cost of the vacation yet."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھێشتا تێچووی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalculates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalculates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We haven’t really calculated the cost of the vacation yet.",
+                            kurdishText: "ھێشتا تێچووی.",
+                            onPressedBritish: () => speakcalculates2("en-GB"),
+                            onPressedAmerican: () => speakcalculates2("en-US"),
                           ),
                           Column(
                             children: [
@@ -354,60 +316,22 @@ class EnglishEntrycalculate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) خەمڵاندنی شتێک یان درووستکردنی بۆچوونێک بە بەکارھێنانی ھەموو زانیارییەکی بەردەست"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Conservationists calculate that hundreds of species could be lost in this area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژینگەپارێزان خەمڵاندوویانە کە سەدان گیانلەبەر لەناودەچن لەم ناوچەیەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalculates6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalculates6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Conservationists calculate that hundreds of species could be lost in this area.",
+                            kurdishText:
+                                "ژینگەپارێزان خەمڵاندوویانە کە سەدان گیانلەبەر لەناودەچن لەم ناوچەیەدا.",
+                            onPressedBritish: () => speakcalculates6("en-GB"),
+                            onPressedAmerican: () => speakcalculates6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is impossible to calculate what influence he had on her life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەستەمە ئەو کاریگەرییە بخەمڵێندرێت کە ئەو لەسەر ژیانی ھەیبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalculates7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalculates7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is impossible to calculate what influence he had on her life.",
+                            kurdishText:
+                                "ئەستەمە ئەو کاریگەرییە بخەمڵێندرێت کە ئەو لەسەر ژیانی ھەیبوو.",
+                            onPressedBritish: () => speakcalculates7("en-GB"),
+                            onPressedAmerican: () => speakcalculates7("en-US"),
                           ),
                           Column(
                             children: [

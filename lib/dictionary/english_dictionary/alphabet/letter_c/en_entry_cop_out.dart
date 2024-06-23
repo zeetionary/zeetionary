@@ -93,32 +93,12 @@ class EnglishEntrycopout extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ناو) خۆدزینەوە لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Not turning up was just a cop-out."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامادەنەبوون تەنھا خۆدزینەوەیەک بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cop-out", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopouts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopouts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Not turning up was just a cop-out.",
+                            kurdishText:
+                                "ئامادەنەبوون تەنھا خۆدزینەوەیەک بوو.", // cop-out",
+                            onPressedBritish: () => speakcopouts1("en-GB"),
+                            onPressedAmerican: () => speakcopouts1("en-US"),
                           ),
                         ],
                       ),

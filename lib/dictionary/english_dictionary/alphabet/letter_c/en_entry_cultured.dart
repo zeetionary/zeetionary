@@ -242,58 +242,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کەسانی ڕۆشنبیر کە توانای تێگەشتن لە ھونەر، ئەدەب، ھتد ـیان ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Mrs Ramsay was a cultured woman who travelled a great deal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خاتوو ڕامزای ژنێکی ڕۆشنبیر بوو کە زۆر گەشتی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cultured", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultureds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultureds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Mrs Ramsay was a cultured woman who travelled a great deal.",
+            kurdishText:
+                "خاتوو ڕامزای ژنێکی ڕۆشنبیر بوو کە زۆر گەشتی دەکرد.", // cultured", please follow LX instructions
+            onPressedBritish: () => speakcultureds1("en-GB"),
+            onPressedAmerican: () => speakcultureds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He spoke with a cultured accent."),
-                    ExampleSentenceKurdish(
-                        text: "بە لەھجەیەکی ڕۆشنبیرانە قسەی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultureds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultureds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He spoke with a cultured accent.",
+            kurdishText: "بە لەھجەیەکی ڕۆشنبیرانە قسەی دەکرد.",
+            onPressedBritish: () => speakcultureds2("en-GB"),
+            onPressedAmerican: () => speakcultureds2("en-US"),
           ),
         ],
       ),

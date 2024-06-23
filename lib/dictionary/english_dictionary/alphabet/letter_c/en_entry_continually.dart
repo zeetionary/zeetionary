@@ -102,66 +102,24 @@ class EnglishEntrycontinually extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە زۆر دووبارە کراوە و بێزارکەرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They argue continually about money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەردەوام مشتومڕیانە لەسەر پارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "continually", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinuallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinuallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They argue continually about money.",
+                            kurdishText:
+                                "بەردەوام مشتومڕیانە لەسەر پارە.", // continually",
+                            onPressedBritish: () => speakcontinuallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinuallys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) بە بەردەوامی و بەبێ پچڕان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "New products are continually being developed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرھەمی تازە بەردەوام دەدۆزرێنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinuallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinuallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "New products are continually being developed.",
+                            kurdishText: "بەرھەمی تازە بەردەوام دەدۆزرێنەوە.",
+                            onPressedBritish: () => speakcontinuallys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinuallys2("en-US"),
                           ),
                         ],
                       ),

@@ -93,34 +93,14 @@ class EnglishEntryconcealment extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کرداری شاردنەوەی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many animals rely on concealment for protection."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر ئاژەڵ پشت بە خۆشاردنەوە دەبەستن بۆ پاراستن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concealment", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcealments1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcealments1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many animals rely on concealment for protection.",
+                            kurdishText:
+                                "زۆر ئاژەڵ پشت بە خۆشاردنەوە دەبەستن بۆ پاراستن.", // concealment",
+                            onPressedBritish: () => speakconcealments1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcealments1("en-US"),
                           ),
                         ],
                       ),

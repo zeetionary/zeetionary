@@ -94,32 +94,13 @@ class EnglishEntrycognac extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جۆرە خواردنەوەیەکی بەھێزی کحوولی بەتام کە لە ڕۆژئاوای فەرەنسا بەرھەمدێت؛ گڵاسێک لەم خواردنەوەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Would you like a cognac with your coffee?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزت بە کۆنیاکێکە لەگەڵ قاوەکەت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cognac", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcognacs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcognacs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Would you like a cognac with your coffee?",
+                            kurdishText:
+                                "حەزت بە کۆنیاکێکە لەگەڵ قاوەکەت؟", // cognac",
+                            onPressedBritish: () => speakcognacs1("en-GB"),
+                            onPressedAmerican: () => speakcognacs1("en-US"),
                           ),
                         ],
                       ),

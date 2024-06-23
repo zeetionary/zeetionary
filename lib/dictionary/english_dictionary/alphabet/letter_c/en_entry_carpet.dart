@@ -192,180 +192,65 @@ class EnglishEntrycarpet extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) فەرش کە لە شوێنێکدا دادەخرێت بۆ داپۆشینی زەوییەکەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spent the morning laying the new carpet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەیانییەکەی بەسەر برد بە داخستنی فەرشە تازەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carpet", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarpets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarpets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He spent the morning laying the new carpet.",
+                            kurdishText:
+                                "بەیانییەکەی بەسەر برد بە داخستنی فەرشە تازەکە.", // carpet",
+                            onPressedBritish: () => speakcarpets1("en-GB"),
+                            onPressedAmerican: () => speakcarpets1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm having the carpets fitted today."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەمڕۆ فەرشەکان ڕادەخەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarpets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarpets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'm having the carpets fitted today.",
+                            kurdishText: "ئەمڕۆ فەرشەکان ڕادەخەم.",
+                            onPressedBritish: () => speakcarpets2("en-GB"),
+                            onPressedAmerican: () => speakcarpets2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) چینێکی ئەستوور لە شتێک لەسەر زەوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The forest floor was a carpet of fallen leaves during the autumn season."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەویی دارستانەکە چینێک لە گەڵای وەریو بوو لە وەرزی زستاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarpets3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarpets3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The forest floor was a carpet of fallen leaves during the autumn season.",
+                            kurdishText:
+                                "زەویی دارستانەکە چینێک لە گەڵای وەریو بوو لە وەرزی زستاندا.",
+                            onPressedBritish: () => speakcarpets3("en-GB"),
+                            onPressedAmerican: () => speakcarpets3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) داخستنی فەرش لە شوێنێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The hall was carpeted in blue."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھۆڵەکە بە شین ڕایەخکرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarpets4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarpets4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The hall was carpeted in blue.",
+                            kurdishText: "ھۆڵەکە بە شین ڕایەخکرابوو.",
+                            onPressedBritish: () => speakcarpets4("en-GB"),
+                            onPressedAmerican: () => speakcarpets4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) داپۆشینی شتێک بە چینێکی ئەستوور لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The forest floor was carpeted with red flowers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەویی دارستانەکە بە گوڵی سوور داپۆشرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarpets5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarpets5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The forest floor was carpeted with red flowers.",
+                            kurdishText:
+                                "زەویی دارستانەکە بە گوڵی سوور داپۆشرابوو.",
+                            onPressedBritish: () => speakcarpets5("en-GB"),
+                            onPressedAmerican: () => speakcarpets5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) سەرزەنشتی کەسێک کە ھەڵەیەکی کردووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Senior officials were carpeted for leaking information to the press."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسانی باڵا سەرزەنشت کران بۆ پێدانی زانیاری بە میدیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarpets6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarpets6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Senior officials were carpeted for leaking information to the press.",
+                            kurdishText:
+                                "بەرپرسانی باڵا سەرزەنشت کران بۆ پێدانی زانیاری بە میدیا.",
+                            onPressedBritish: () => speakcarpets6("en-GB"),
+                            onPressedAmerican: () => speakcarpets6("en-US"),
                           ),
                         ],
                       ),

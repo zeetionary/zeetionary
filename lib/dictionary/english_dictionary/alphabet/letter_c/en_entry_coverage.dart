@@ -277,177 +277,62 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ڕووماڵی ھەواڵ و وەرزش لە میدیادا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was blanket coverage (= reports everywhere) of the royal divorce."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووماڵی بەرفراوانی جیابوونەوە شاھانەییەکە ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "coverage", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverages1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was blanket coverage (= reports everywhere) of the royal divorce.",
+            kurdishText:
+                "ڕووماڵی بەرفراوانی جیابوونەوە شاھانەییەکە ھەبوو.", // coverage", please follow LX instructions
+            onPressedBritish: () => speakcoverages1("en-GB"),
+            onPressedAmerican: () => speakcoverages1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The TV company was given a special award for its news coverage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیا تەلەفیزیۆنێکە خەڵاتی تایبەتی پێدرا بۆ ڕووماڵەکەی بۆ ھەواڵەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverages2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The TV company was given a special award for its news coverage.",
+            kurdishText:
+                "کۆمپانیا تەلەفیزیۆنێکە خەڵاتی تایبەتی پێدرا بۆ ڕووماڵەکەی بۆ ھەواڵەکە.",
+            onPressedBritish: () => speakcoverages2("en-GB"),
+            onPressedAmerican: () => speakcoverages2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The minister's resignation was given widespread coverage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستلەکارکێشانەوەی وەزیرەکە ڕووماڵی بەرفراوانی پێدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverages3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The minister's resignation was given widespread coverage.",
+            kurdishText:
+                "دەستلەکارکێشانەوەی وەزیرەکە ڕووماڵی بەرفراوانی پێدرا.",
+            onPressedBritish: () => speakcoverages3("en-GB"),
+            onPressedAmerican: () => speakcoverages3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) بڕی ئەو زانیارییانەی کە ھەیە لە کتێبێک یان کۆرسێکدا، یان لەسەر تەلەفیزیۆن، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The book gives good, general coverage of the subject."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کتێبەکە ڕوونکردنەوەی گشتی باش دەدات بە بابەتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverages4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The book gives good, general coverage of the subject.",
+            kurdishText: "کتێبەکە ڕوونکردنەوەی گشتی باش دەدات بە بابەتەکە.",
+            onPressedBritish: () => speakcoverages4("en-GB"),
+            onPressedAmerican: () => speakcoverages4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The book offers incomplete coverage of the history of philosophy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کتێبەکە باسی ناتەواو لەسەر مێژووی فەلسەفە پێشکەش دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverages5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The book offers incomplete coverage of the history of philosophy.",
+            kurdishText:
+                "کتێبەکە باسی ناتەواو لەسەر مێژووی فەلسەفە پێشکەش دەکات.",
+            onPressedBritish: () => speakcoverages5("en-GB"),
+            onPressedAmerican: () => speakcoverages5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ئەو ڕێژەیەی کە شتێک پێشکەشی دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The service has a coverage of 90 per cent of the UK population."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خزمەتگوزارییەکە ٩٠ لە سەدی دانیشتوانی بەریتانیا دەگرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverages6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The service has a coverage of 90 per cent of the UK population.",
+            kurdishText:
+                "خزمەتگوزارییەکە ٩٠ لە سەدی دانیشتوانی بەریتانیا دەگرێتەوە.",
+            onPressedBritish: () => speakcoverages6("en-GB"),
+            onPressedAmerican: () => speakcoverages6("en-US"),
           ),
         ],
       ),

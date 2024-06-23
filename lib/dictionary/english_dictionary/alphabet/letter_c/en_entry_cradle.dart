@@ -265,146 +265,52 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لانک، دەرگووش، بێشکە، ماتک، دەیدیک، بنەما، ماک، سەرچاوە، ژێدەر، چاوگە،	سەکۆ، پلاتفۆڕم (دەجووڵێ)،	جێگای دەسکی تەلەفون، جێ‌دەسک
 """),
           const DefinitionKurdish(text: "١. (ناو) لانکەی منداڵ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She rocked the baby to sleep in its cradle."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵەکەی بە جواندن خەواند لە لانکەکەیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cradle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcradles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcradles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She rocked the baby to sleep in its cradle.",
+            kurdishText:
+                "منداڵەکەی بە جواندن خەواند لە لانکەکەیدا.", // cradle", please follow LX instructions
+            onPressedBritish: () => speakcradles1("en-GB"),
+            onPressedAmerican: () => speakcradles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The nurse rocked the cradle."),
-                    ExampleSentenceKurdish(text: "پەرستارەکە منداڵەکەی جواند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcradles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcradles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The nurse rocked the cradle.",
+            kurdishText: "پەرستارەکە منداڵەکەی جواند.",
+            onPressedBritish: () => speakcradles2("en-GB"),
+            onPressedAmerican: () => speakcradles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شوێنی دەستپێکردنی شتێکی گرنگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Fossil records indicate that Africa was the cradle of early human evolution."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تۆمارە بەبەردبووەکان دەریدەخەن کە ئەفریقا لانکەی پەرەسەندنی سەرەتای مرۆڤ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcradles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcradles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Fossil records indicate that Africa was the cradle of early human evolution.",
+            kurdishText:
+                "تۆمارە بەبەردبووەکان دەریدەخەن کە ئەفریقا لانکەی پەرەسەندنی سەرەتای مرۆڤ بوو.",
+            onPressedBritish: () => speakcradles3("en-GB"),
+            onPressedAmerican: () => speakcradles3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) سەکۆیەکی بچووک کە بۆ سەرەوە و خوارەوە و دەجوڵێندرێت، بۆ نموونە لەلایەن ئەو کەسای کە پەنجەرەی بینای بەرز پاک دەکەنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The building's maintenance crew lowered the cradle to the ground after completing their work."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیمی ڕاگری بیناکە سەکۆکەیان نزمکردەوە بۆ زەوی لە دوای تەواوکردنی کارەکەیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcradles4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcradles4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The building's maintenance crew lowered the cradle to the ground after completing their work.",
+            kurdishText:
+                "تیمی ڕاگری بیناکە سەکۆکەیان نزمکردەوە بۆ زەوی لە دوای تەواوکردنی کارەکەیان.",
+            onPressedBritish: () => speakcradles4("en-GB"),
+            onPressedAmerican: () => speakcradles4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) گرتنی کەسێک یان شتێک بە لەسەرخۆیی بە دەستت یان لە باوەشتدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The old man cradled the tiny baby in his arms."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پیاوە پیرەکە منداڵە خنجیلانەکەی لە باوەشیدا ڕاژاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcradles5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcradles5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The old man cradled the tiny baby in his arms.",
+            kurdishText: "پیاوە پیرەکە منداڵە خنجیلانەکەی لە باوەشیدا ڕاژاند.",
+            onPressedBritish: () => speakcradles5("en-GB"),
+            onPressedAmerican: () => speakcradles5("en-US"),
           ),
         ],
       ),

@@ -120,121 +120,46 @@ class EnglishEntryclarity extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) شت دەربڕین بە ڕوونی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She expressed herself with great clarity."),
-                                    ExampleSentenceKurdish(
-                                        text: "خۆی زۆر بە ڕوونی دەربڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clarity", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaritys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaritys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She expressed herself with great clarity.",
+                            kurdishText:
+                                "خۆی زۆر بە ڕوونی دەربڕی.", // clarity",
+                            onPressedBritish: () => speakclaritys1("en-GB"),
+                            onPressedAmerican: () => speakclaritys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's still no clarity about what sort of programme it's going to be."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا ھیچ بەرچاوڕوونییەک نییە کە چی جۆرە پڕۆگرامێک دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaritys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaritys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's still no clarity about what sort of programme it's going to be.",
+                            kurdishText:
+                                "ھێشتا ھیچ بەرچاوڕوونییەک نییە کە چی جۆرە پڕۆگرامێک دەبێت.",
+                            onPressedBritish: () => speakclaritys2("en-GB"),
+                            onPressedAmerican: () => speakclaritys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) توانای تێگەشتن یان قسەکردن بە ڕوونی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "With painful clarity she remembered the day he had died."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە زوڵاڵییەکی بە ئازارەوە، ئەو ڕۆژەی لەبیر بوو کە مرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaritys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaritys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "With painful clarity she remembered the day he had died.",
+                            kurdishText:
+                                "بە زوڵاڵییەکی بە ئازارەوە، ئەو ڕۆژەی لەبیر بوو کە مرد.",
+                            onPressedBritish: () => speakclaritys3("en-GB"),
+                            onPressedAmerican: () => speakclaritys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بەشێوەیەک کە بە ئاسانی دەبینرێت یان دەبیسترێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was phoning from Australia, but I was amazed at the clarity of her voice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئوسترالیاوە پەیوەندی کرد، بەڵام سەرسام بووم بە ڕوونی دەنگەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaritys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaritys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was phoning from Australia, but I was amazed at the clarity of her voice.",
+                            kurdishText:
+                                "لە ئوسترالیاوە پەیوەندی کرد، بەڵام سەرسام بووم بە ڕوونی دەنگەکەی.",
+                            onPressedBritish: () => speakclaritys4("en-GB"),
+                            onPressedAmerican: () => speakclaritys4("en-US"),
                           ),
                         ],
                       ),

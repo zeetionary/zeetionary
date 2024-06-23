@@ -190,60 +190,20 @@ class EnglishEntrycave extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کونێکی گەورە لە لای گردێک، قەدپاڵێک، یان ژێر زەوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The area contains vast underground cave systems."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوچەکە سیستەمی گەورەی ئەشکەوتی ژێرزەوی لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cave", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaves1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaves1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The area contains vast underground cave systems.",
+                            kurdishText:
+                                "ناوچەکە سیستەمی گەورەی ئەشکەوتی ژێرزەوی لەخۆدەگرێت.", // cave",
+                            onPressedBritish: () => speakcaves1("en-GB"),
+                            onPressedAmerican: () => speakcaves1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We took shelter in a dark cave."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەناگەم دەستخست لە ئەشکەوتێکی تاریک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaves2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaves2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We took shelter in a dark cave.",
+                            kurdishText: "پەناگەم دەستخست لە ئەشکەوتێکی تاریک.",
+                            onPressedBritish: () => speakcaves2("en-GB"),
+                            onPressedAmerican: () => speakcaves2("en-US"),
                           ),
                         ],
                       ),

@@ -275,169 +275,53 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ماوەیەک لە مەترسی، سەختی، یان گومان کە تێیدا دەبێت کێشە چارەسەر بکرێت یان بڕیاری گرنگ بدرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government is attempting to solve the debt crisis through spending cuts."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت ھەوڵ دەدات ئاریشەی قەرز چارەسەر بکات بە کەمکردنەوەی خەرجی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crisis", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisiss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisiss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government is attempting to solve the debt crisis through spending cuts.",
+            kurdishText:
+                "حکومەت ھەوڵ دەدات ئاریشەی قەرز چارەسەر بکات بە کەمکردنەوەی خەرجی.", // crisis", please follow LX instructions
+            onPressedBritish: () => speakcrisiss1("en-GB"),
+            onPressedAmerican: () => speakcrisiss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The government is facing a political crisis."),
-                    ExampleSentenceKurdish(
-                        text: "حکومەت ڕووبەڕووی تەنگژەیەکی سیاسی بووەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisiss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisiss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The government is facing a political crisis.",
+            kurdishText: "حکومەت ڕووبەڕووی تەنگژەیەکی سیاسی بووەتەوە.",
+            onPressedBritish: () => speakcrisiss2("en-GB"),
+            onPressedAmerican: () => speakcrisiss2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The business is still in crisis but it has survived the worst of the recession."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بازرگانییەکە ھێشتا ڕووبەڕووی تەنگژەکە دەبێتەوە بەڵام زۆرینەی قەیرانەکەی تێپەڕاندووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisiss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisiss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The business is still in crisis but it has survived the worst of the recession.",
+            kurdishText:
+                "بازرگانییەکە ھێشتا ڕووبەڕووی تەنگژەکە دەبێتەوە بەڵام زۆرینەی قەیرانەکەی تێپەڕاندووە.",
+            onPressedBritish: () => speakcrisiss3("en-GB"),
+            onPressedAmerican: () => speakcrisiss3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We provide help to families in crisis situations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یارمەتی ئەو خێزانانە دەدەین کە لە دۆخی تەنگژەییدان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisiss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisiss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We provide help to families in crisis situations.",
+            kurdishText: "یارمەتی ئەو خێزانانە دەدەین کە لە دۆخی تەنگژەییدان.",
+            onPressedBritish: () => speakcrisiss4("en-GB"),
+            onPressedAmerican: () => speakcrisiss4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ماوەیەک کە کێشەیەک، دۆخێکی خراپ، نەخۆشییەک لە خراپترین کاتیدایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Their marriage has reached crisis point."),
-                    ExampleSentenceKurdish(
-                        text: "ھاوسەرگیرییەکەیان گەشتووە بە خراپترین خاڵ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisiss5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisiss5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their marriage has reached crisis point.",
+            kurdishText: "ھاوسەرگیرییەکەیان گەشتووە بە خراپترین خاڵ.",
+            onPressedBritish: () => speakcrisiss5("en-GB"),
+            onPressedAmerican: () => speakcrisiss5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The fever has passed its crisis."),
-                    ExampleSentenceKurdish(
-                        text: "تایەکە خراپترین خاڵی تێپەڕاندووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisiss6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisiss6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The fever has passed its crisis.",
+            kurdishText: "تایەکە خراپترین خاڵی تێپەڕاندووە.",
+            onPressedBritish: () => speakcrisiss6("en-GB"),
+            onPressedAmerican: () => speakcrisiss6("en-US"),
           ),
         ],
       ),

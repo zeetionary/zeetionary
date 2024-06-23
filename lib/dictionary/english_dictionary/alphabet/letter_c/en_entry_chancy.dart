@@ -94,32 +94,13 @@ class EnglishEntrychancy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە مەترسی و دڵەخورپەی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Working for yourself can be a chancy business."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارکردن بۆ خۆت (ھەبوونی کاری خۆت) دەکرێت بازرگانییەکی ھات‌ونەھات بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chancy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchancys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchancys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Working for yourself can be a chancy business.",
+                            kurdishText:
+                                "کارکردن بۆ خۆت (ھەبوونی کاری خۆت) دەکرێت بازرگانییەکی ھات‌ونەھات بێت.", // chancy",
+                            onPressedBritish: () => speakchancys1("en-GB"),
+                            onPressedAmerican: () => speakchancys1("en-US"),
                           ),
                         ],
                       ),

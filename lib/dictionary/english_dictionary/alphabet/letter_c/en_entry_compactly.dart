@@ -105,60 +105,22 @@ class EnglishEntrycompactly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە جێگای کەم دەگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The tent folds compactly when not in use."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێوەتەکان پەستێوراوانە قەد دەبن کە بەکارنایەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compactly", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompactlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompactlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The tent folds compactly when not in use.",
+                            kurdishText:
+                                "خێوەتەکان پەستێوراوانە قەد دەبن کە بەکارنایەن.", // compactly",
+                            onPressedBritish: () => speakcompactlys1("en-GB"),
+                            onPressedAmerican: () => speakcompactlys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is hoped that building more compactly will increase population densities in cities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیوای ئەوە ھەیە کە بنیاتنان بە ترنجاوانەتر چڕی دانیشتوان لە شارەکان زیاد دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompactlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompactlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is hoped that building more compactly will increase population densities in cities.",
+                            kurdishText:
+                                "ھیوای ئەوە ھەیە کە بنیاتنان بە ترنجاوانەتر چڕی دانیشتوان لە شارەکان زیاد دەکات.",
+                            onPressedBritish: () => speakcompactlys2("en-GB"),
+                            onPressedAmerican: () => speakcompactlys2("en-US"),
                           ),
                         ],
                       ),

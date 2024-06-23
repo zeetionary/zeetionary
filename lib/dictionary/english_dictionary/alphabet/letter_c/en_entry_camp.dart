@@ -196,329 +196,120 @@ class EnglishEntrycamp extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) خێوەت یان بینای کاتی کە خەڵکی بە کاتی تێیدا دەژی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Let's return to camp."),
-                                    ExampleSentenceKurdish(
-                                        text: "با بگەڕێینەوە کەمپ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "camp", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Let's return to camp.",
+                            kurdishText: "با بگەڕێینەوە کەمپ.", // camp
+                            onPressedBritish: () => speakcamps1("en-GB"),
+                            onPressedAmerican: () => speakcamps1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We broke camp early the next morning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەیانی ڕۆژی دواتر کۆتاییمان بە کەمپ ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamps2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamps2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We broke camp early the next morning.",
+                            kurdishText:
+                                "بەیانی ڕۆژی دواتر کۆتاییمان بە کەمپ ھێنا.",
+                            onPressedBritish: () => speakcamps2("en-GB"),
+                            onPressedAmerican: () => speakcamps2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شێنێک کە منداڵان لە ھاوینا بۆی دەچن و وەرزش و چالاکی دیکە ئەنجام دەدەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spent two weeks at camp this summer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو ھەفتەی لە کامپ بەسەر برد ئەم ھاوینە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamps3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamps3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He spent two weeks at camp this summer.",
+                            kurdishText:
+                                "دوو ھەفتەی لە کامپ بەسەر برد ئەم ھاوینە.",
+                            onPressedBritish: () => speakcamps3("en-GB"),
+                            onPressedAmerican: () => speakcamps3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شوێنێک کە بینای کاتی یان خێوەتە و حکومەت خەڵکی تێدا ڕادەگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They criticized the appalling conditions in the refugee camps."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکۆنەی دۆخی تۆقێنەری کەمپی پەنابەرانیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamps4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamps4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They criticized the appalling conditions in the refugee camps.",
+                            kurdishText:
+                                "سەرکۆنەی دۆخی تۆقێنەری کەمپی پەنابەرانیان کرد.",
+                            onPressedBritish: () => speakcamps4("en-GB"),
+                            onPressedAmerican: () => speakcamps4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) شوێنی ژیانی سەربازان لە کاتی جەنگ یان ڕاھێنان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The military built three new army camps near the German border."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوپا سێ کەمپی تازەی سەربازیی درووستکرد لە نزیک سنووری ئەڵمانیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamps5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamps5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The military built three new army camps near the German border.",
+                            kurdishText:
+                                "سوپا سێ کەمپی تازەی سەربازیی درووستکرد لە نزیک سنووری ئەڵمانیا.",
+                            onPressedBritish: () => speakcamps5("en-GB"),
+                            onPressedAmerican: () => speakcamps5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) کۆمەڵە کەسێک کە ھەمان بیرۆکەیان ھەیە و دژی ئەو کەسانەن کە بیرۆکەی تریان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We were in opposing camps."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە دوو بەرەی جیاواز بووین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamps6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamps6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We were in opposing camps.",
+                            kurdishText: "لە دوو بەرەی جیاواز بووین.",
+                            onPressedBritish: () => speakcamps6("en-GB"),
+                            onPressedAmerican: () => speakcamps6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The region split into two armed camps."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرێمەکە بوو بە دوو کەرتی سەربازیی دژبەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamps7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamps7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The region split into two armed camps.",
+                            kurdishText:
+                                "ھەرێمەکە بوو بە دوو کەرتی سەربازیی دژبەرەوە.",
+                            onPressedBritish: () => speakcamps7("en-GB"),
+                            onPressedAmerican: () => speakcamps7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) یەکێک لە لایەنەکانی ڕکابەرییەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was an air of confidence in the England camp."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕواڵەتێکی خۆباوەڕی ھەبوو لە لایەنی ئینگلتەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamps8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamps8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was an air of confidence in the England camp.",
+                            kurdishText:
+                                "ڕواڵەتێکی خۆباوەڕی ھەبوو لە لایەنی ئینگلتەرە.",
+                            onPressedBritish: () => speakcamps8("en-GB"),
+                            onPressedAmerican: () => speakcamps8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) دانانی خێوەتێک و ژیان تێیدا بۆ ماوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I camped overnight in a field."),
-                                    ExampleSentenceKurdish(
-                                        text: "شەو لە کێڵگەیەکدا کەمپم دانا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamps9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamps9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I camped overnight in a field.",
+                            kurdishText: "شەو لە کێڵگەیەکدا کەمپم دانا.",
+                            onPressedBritish: () => speakcamps9("en-GB"),
+                            onPressedAmerican: () => speakcamps9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) چوون بۆ مانەوە لە کەمپ لەکاتی پشوودا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They go camping in France every year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ساڵێک دەچن بۆ کەمپکردن لە فەرەنسا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamps10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamps10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They go camping in France every year.",
+                            kurdishText:
+                                "ھەموو ساڵێک دەچن بۆ کەمپکردن لە فەرەنسا.",
+                            onPressedBritish: () => speakcamps10("en-GB"),
+                            onPressedAmerican: () => speakcamps10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) مانەوە لە ماڵی کەسێک بۆ ماوەیەکی کاتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm camping out at a friend's apartment at the moment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئێستادا لە دەستەژووری ھاوڕێیەکم دەمێنمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamps11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamps11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm camping out at a friend's apartment at the moment.",
+                            kurdishText:
+                                "لە ئێستادا لە دەستەژووری ھاوڕێیەکم دەمێنمەوە.",
+                            onPressedBritish: () => speakcamps11("en-GB"),
+                            onPressedAmerican: () => speakcamps11("en-US"),
                           ),
                         ],
                       ),

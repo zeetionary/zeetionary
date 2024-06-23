@@ -267,145 +267,50 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) کۆنترۆڵکردن یان سنووردارکردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He needs to learn to curb his temper."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت فێربێت زاڵ ببێت بەسەر تووڕەییدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curb", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurbs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurbs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He needs to learn to curb his temper.",
+            kurdishText:
+                "دەبێت فێربێت زاڵ ببێت بەسەر تووڕەییدا.", // curb", please follow LX instructions
+            onPressedBritish: () => speakcurbs1("en-GB"),
+            onPressedAmerican: () => speakcurbs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This legislation will drastically curb the power of local authorities."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم یاسایە بە ئاستێکی زۆر دەسەڵاتی بەرپرسە ناوخۆییە سنووردار دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurbs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurbs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This legislation will drastically curb the power of local authorities.",
+            kurdishText:
+                "ئەم یاسایە بە ئاستێکی زۆر دەسەڵاتی بەرپرسە ناوخۆییە سنووردار دەکات.",
+            onPressedBritish: () => speakcurbs2("en-GB"),
+            onPressedAmerican: () => speakcurbs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شتێک کە کۆنترۆڵ یان سنوورێک بۆ شتێک دادەنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many companies have imposed curbs on smoking in the workplace."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر کۆمپانیا ڕێوشوێنیان سەپاندووە بەسەر جگەرەکێشان لە شوێنی کارکردندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurbs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurbs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many companies have imposed curbs on smoking in the workplace.",
+            kurdishText:
+                "زۆر کۆمپانیا ڕێوشوێنیان سەپاندووە بەسەر جگەرەکێشان لە شوێنی کارکردندا.",
+            onPressedBritish: () => speakcurbs3("en-GB"),
+            onPressedAmerican: () => speakcurbs3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We are in favour of strict curbs on government spending."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەگەڵ سەپاندنی سنوورداری توندین بەسەر خەرجی حکومەتدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurbs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurbs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We are in favour of strict curbs on government spending.",
+            kurdishText:
+                "لەگەڵ سەپاندنی سنوورداری توندین بەسەر خەرجی حکومەتدا.",
+            onPressedBritish: () => speakcurbs4("en-GB"),
+            onPressedAmerican: () => speakcurbs4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) قەراغی ڕەسیفێک لەسەر شەقام"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The bus mounted the curb (= went onto the sidewalk) and hit a tree."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاسەکە چووە سەر لێواری ڕەسیفەکە و کێشای بە دارێکدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurbs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurbs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The bus mounted the curb (= went onto the sidewalk) and hit a tree.",
+            kurdishText: "پاسەکە چووە سەر لێواری ڕەسیفەکە و کێشای بە دارێکدا.",
+            onPressedBritish: () => speakcurbs5("en-GB"),
+            onPressedAmerican: () => speakcurbs5("en-US"),
           ),
         ],
       ),

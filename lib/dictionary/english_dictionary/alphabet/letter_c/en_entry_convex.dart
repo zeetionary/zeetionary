@@ -103,59 +103,20 @@ class EnglishEntryconvex extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شێوەیەک کە بەرەو دەرەوە چەماوەتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The surface is slightly convex."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕووەکە کەمێک قۆقزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convex", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvexs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvexs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The surface is slightly convex.",
+                            kurdishText: "ڕووەکە کەمێک قۆقزە.", // convex",
+                            onPressedBritish: () => speakconvexs1("en-GB"),
+                            onPressedAmerican: () => speakconvexs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A convex lens is thicker at its centre than at its edges."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێوە قۆقزێک لە ناوەڕاستەکەیدا ئەستوورترە وەک لە قەراغەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvexs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvexs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A convex lens is thicker at its centre than at its edges.",
+                            kurdishText:
+                                "شێوە قۆقزێک لە ناوەڕاستەکەیدا ئەستوورترە وەک لە قەراغەکانی.",
+                            onPressedBritish: () => speakconvexs2("en-GB"),
+                            onPressedAmerican: () => speakconvexs2("en-US"),
                           ),
                         ],
                       ),

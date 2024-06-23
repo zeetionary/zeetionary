@@ -104,60 +104,22 @@ class EnglishEntryconducive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بەشێوەیەک کە ڕوودانی شتێک ئاسان دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Chairs in rows are not as conducive to discussion as chairs arranged in a circle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کورسی ڕیزکراو وەک کورسی بە بازنە دانراو ڕێخۆشکەر نییە بۆ گفتوگۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conducive", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconducives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconducives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Chairs in rows are not as conducive to discussion as chairs arranged in a circle.",
+                            kurdishText:
+                                "کورسی ڕیزکراو وەک کورسی بە بازنە دانراو ڕێخۆشکەر نییە بۆ گفتوگۆ.", // conducive",
+                            onPressedBritish: () => speakconducives1("en-GB"),
+                            onPressedAmerican: () => speakconducives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The noise was hardly conducive to a good night’s sleep."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگەدەنگەکە بە ئاستەنگ دەبووە مایەی خەوێکی ھێمنی شەوانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconducives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconducives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The noise was hardly conducive to a good night’s sleep.",
+                            kurdishText:
+                                "دەنگەدەنگەکە بە ئاستەنگ دەبووە مایەی خەوێکی ھێمنی شەوانە.",
+                            onPressedBritish: () => speakconducives2("en-GB"),
+                            onPressedAmerican: () => speakconducives2("en-US"),
                           ),
                         ],
                       ),

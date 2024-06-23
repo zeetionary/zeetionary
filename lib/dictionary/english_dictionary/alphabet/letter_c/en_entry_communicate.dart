@@ -174,61 +174,21 @@ class EnglishEntrycommunicate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ئاڵوگۆڕی زانیاری، ھەواڵ، بیرۆکە، ھەست و سۆز، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We only communicate by email."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەنھا بە ئیمەیڵ گفتوگۆ دەکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "communicate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommunicates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommunicates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We only communicate by email.",
+                            kurdishText:
+                                "تەنھا بە ئیمەیڵ گفتوگۆ دەکەین.", // communicate",
+                            onPressedBritish: () => speakcommunicates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommunicates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They communicated in sign language."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە زمانی جەستە وتووێژیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommunicates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommunicates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They communicated in sign language.",
+                            kurdishText: "بە زمانی جەستە وتووێژیان کرد.",
+                            onPressedBritish: () => speakcommunicates2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommunicates2("en-US"),
                           ),
                           Column(
                             children: [
@@ -391,97 +351,38 @@ class EnglishEntrycommunicate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ھەبوونی پەیوەندییەکی باش چونکە توانات ھەیە باسی بیرکردنەوە، ھەست، ھت ـەکانی خۆت و کەسانی بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His inability to communicate has damaged their relationship beyond repair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەبوونی توانای گفتوگۆی پەیوەندییەکەیانی تا ئەوپەڕی ئاستی چاککردنەوە تێکداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommunicates8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommunicates8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His inability to communicate has damaged their relationship beyond repair.",
+                            kurdishText:
+                                "نەبوونی توانای گفتوگۆی پەیوەندییەکەیانی تا ئەوپەڕی ئاستی چاککردنەوە تێکداوە.",
+                            onPressedBritish: () => speakcommunicates8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommunicates8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The novel is about a family who can't communicate with each other."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆمانەکە سەبارەت بە خێزانەکە کە لە یەکدی تێناگەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommunicates9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommunicates9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The novel is about a family who can't communicate with each other.",
+                            kurdishText:
+                                "ڕۆمانەکە سەبارەت بە خێزانەکە کە لە یەکدی تێناگەن.",
+                            onPressedBritish: () => speakcommunicates9("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommunicates9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) گواستنەوەی نەخۆشی لە کەسێک، ئاژەڵێک، ھتد بۆ یەکێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The disease is communicated through dirty drinking water."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشییەکە لە ڕێگەی ئاوی پیسی خواردنەوەوە دەگوازرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommunicates10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommunicates10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The disease is communicated through dirty drinking water.",
+                            kurdishText:
+                                "نەخۆشییەکە لە ڕێگەی ئاوی پیسی خواردنەوەوە دەگوازرێتەوە.",
+                            onPressedBritish: () =>
+                                speakcommunicates10("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommunicates10("en-US"),
                           ),
                         ],
                       ),

@@ -192,63 +192,25 @@ class EnglishEntrycereal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) یەکێک لە جۆرە جیاوازەکانی گیا کە دانەوێڵە بەرھەمدێنێت، یان تۆوەکەیان، کە دەکرێت بخوردرێت یان بەکاردێت بۆ درووستکردنی ئارد و نان. گەنم و جۆ و چەودان دانەوێڵەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cereal crops are among the most cultivated commodities in the agricultural world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرھەمە دانەوێڵەییەکان لەناو چێندراوترین بەروبوومەکانن لە جیھانی کشتوکاڵدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cereal", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcereals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcereals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cereal crops are among the most cultivated commodities in the agricultural world.",
+                            kurdishText:
+                                "بەرھەمە دانەوێڵەییەکان لەناو چێندراوترین بەروبوومەکانن لە جیھانی کشتوکاڵدا.", // cereal",
+                            onPressedBritish: () => speakcereals1("en-GB"),
+                            onPressedAmerican: () => speakcereals1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) خواردنێک کە لە تۆوی دانەوێڵە درووستدەکرێت لەگەڵ شیر دەخوردرێت بە تایبەتی لە بەیانییاندا "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I hate it when cereal goes all soggy, so I try to eat it up quickly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕقم لێیە کە سیریاڵ خووساو دەبێت، بۆیە ھەوڵ دەدەم ھەمووی زوو بخۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcereals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcereals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I hate it when cereal goes all soggy, so I try to eat it up quickly.",
+                            kurdishText:
+                                "ڕقم لێیە کە سیریاڵ خووساو دەبێت، بۆیە ھەوڵ دەدەم ھەمووی زوو بخۆم.",
+                            onPressedBritish: () => speakcereals2("en-GB"),
+                            onPressedAmerican: () => speakcereals2("en-US"),
                           ),
                         ],
                       ),

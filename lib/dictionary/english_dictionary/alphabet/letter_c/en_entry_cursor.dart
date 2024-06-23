@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نیشانەیەکی بچووک کە لەسەر شاشەی کۆمپیوتەرە کە دەکرێت بجوڵێندرێت و ئەو شوێنە پیشان دەدات کە کە کاری تێدا دەکرێت، بۆ نموونە نووسین زیاد دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You can move the cursor either by using the mouse or by using the arrow keys on the keyboard."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جێنیشاندەرەکە دەجوڵێنیت یان بە جوڵاندنی ماوسەکە یان بە بەکارھێنانی دووگمەی تیرەکان لەسەر کیبۆردەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cursor", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcursors1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcursors1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You can move the cursor either by using the mouse or by using the arrow keys on the keyboard.",
+            kurdishText:
+                "جێنیشاندەرەکە دەجوڵێنیت یان بە جوڵاندنی ماوسەکە یان بە بەکارھێنانی دووگمەی تیرەکان لەسەر کیبۆردەکە.", // cursor", please follow LX instructions
+            onPressedBritish: () => speakcursors1("en-GB"),
+            onPressedAmerican: () => speakcursors1("en-US"),
           ),
         ],
       ),

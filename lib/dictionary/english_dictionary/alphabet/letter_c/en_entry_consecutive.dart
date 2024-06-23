@@ -112,94 +112,34 @@ class EnglishEntryconsecutive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) یەک بەدوای یەکدا بە زنجیرەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was absent for nine consecutive days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ نۆ ڕۆژی دوابەدوای‌یەک نەھاتوو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consecutive", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsecutives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsecutives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was absent for nine consecutive days.",
+                            kurdishText:
+                                "بۆ نۆ ڕۆژی دوابەدوای‌یەک نەھاتوو بوو.", // consecutive",
+                            onPressedBritish: () => speakconsecutives1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsecutives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is beginning his fourth consecutive term of office."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەست بە چوارەم ماوەی یەک‌لەدوای‌یەکی لە دەسەڵاتدا دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsecutives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsecutives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is beginning his fourth consecutive term of office.",
+                            kurdishText:
+                                "دەست بە چوارەم ماوەی یەک‌لەدوای‌یەکی لە دەسەڵاتدا دەکات.",
+                            onPressedBritish: () => speakconsecutives2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsecutives2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Interest rates rose again for the fifth consecutive month."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەی سوو دووبارە بۆ پێنجەم مانگی یەک‌لەدوای‌یەک بەرزبووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsecutives3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsecutives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Interest rates rose again for the fifth consecutive month.",
+                            kurdishText:
+                                "ڕێژەی سوو دووبارە بۆ پێنجەم مانگی یەک‌لەدوای‌یەک بەرزبووەوە.",
+                            onPressedBritish: () => speakconsecutives3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsecutives3("en-US"),
                           ),
                         ],
                       ),

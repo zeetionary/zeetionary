@@ -96,34 +96,15 @@ class EnglishEntrycharterflight extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گەشتێکی ئاسمانی کە ھەموو کورسییەکانی لەلایەن کۆمپانیایەکی گەشتیارییەوە کڕدراوە و دەیفرۆشێت بە کڕیارەکانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are many charter flights to Greece operating from British airports."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر فڕۆکەی بەکرێ‌گیراو ھەیە بۆ یۆنان لە فڕۆکەخانەکانی بەریتانیاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "charter flight", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcharterflights1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcharterflights1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are many charter flights to Greece operating from British airports.",
+                            kurdishText:
+                                "ڕێژەیەکی زۆر فڕۆکەی بەکرێ‌گیراو ھەیە بۆ یۆنان لە فڕۆکەخانەکانی بەریتانیاوە.", // charter flight",
+                            onPressedBritish: () =>
+                                speakcharterflights1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcharterflights1("en-US"),
                           ),
                         ],
                       ),

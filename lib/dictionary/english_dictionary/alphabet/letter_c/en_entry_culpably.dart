@@ -233,32 +233,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەک کە کەسێک بەرپرسە و شایەنی لۆمەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They haven't actually done anything culpably wrong."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەڕاستیدا ھیچ شتێکیان نەکردووە بەرپرسیارانە ھەڵە بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "culpably", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculpablys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculpablys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They haven't actually done anything culpably wrong.",
+            kurdishText:
+                "لەڕاستیدا ھیچ شتێکیان نەکردووە بەرپرسیارانە ھەڵە بێت.", // culpably", please follow LX instructions
+            onPressedBritish: () => speakculpablys1("en-GB"),
+            onPressedAmerican: () => speakculpablys1("en-US"),
           ),
         ],
       ),

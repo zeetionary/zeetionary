@@ -104,66 +104,26 @@ class EnglishEntrycompilation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆکراوەیەکم بەتایبەتی ھی پارچە میوزیک یان نووسین، کە لە سەرچاوەی جیاوازەوە وەرگیراون و کۆکراونەتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her latest album is a compilation of all her best singles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆتا ئەلبوومی کۆکراوەیەکی باشترین سینگڵەکانیەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compilation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompilations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompilations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her latest album is a compilation of all her best singles.",
+                            kurdishText:
+                                "کۆتا ئەلبوومی کۆکراوەیەکی باشترین سینگڵەکانیەتی.", // compilation",
+                            onPressedBritish: () => speakcompilations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompilations1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) پڕۆسەی کۆکردنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A team of four was involved in the compilation of the book."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمێکی چوار کەسی بەژدار بوون لە کۆکردنەوەی کتێبەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompilations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompilations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A team of four was involved in the compilation of the book.",
+                            kurdishText:
+                                "تیمێکی چوار کەسی بەژدار بوون لە کۆکردنەوەی کتێبەکە.",
+                            onPressedBritish: () => speakcompilations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompilations2("en-US"),
                           ),
                         ],
                       ),

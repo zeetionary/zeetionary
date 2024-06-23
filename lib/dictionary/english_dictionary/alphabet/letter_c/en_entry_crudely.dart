@@ -250,90 +250,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەکی سادە کە گشتگیر نییە بەڵام تێگەشتنێکی گشتی دەدات بە دەستەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "To put it crudely, the bad guys are winning."),
-                    ExampleSentenceKurdish(
-                        text: "گشتگیرانە بیڵێم، کەسە خراپەکان دەبەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crudely", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrudelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrudelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "To put it crudely, the bad guys are winning.",
+            kurdishText:
+                "گشتگیرانە بیڵێم، کەسە خراپەکان دەبەنەوە.", // crudely", please follow LX instructions
+            onPressedBritish: () => speakcrudelys1("en-GB"),
+            onPressedAmerican: () => speakcrudelys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵکار) بە سادەیی و ناشارەزاییانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The hut was crudely built, with a thatched roof."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کوخەکە بە سادەیی بنیات نرابوو بە سەربانێکی ھەڵاش‌پۆشەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrudelys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrudelys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The hut was crudely built, with a thatched roof.",
+            kurdishText:
+                "کوخەکە بە سادەیی بنیات نرابوو بە سەربانێکی ھەڵاش‌پۆشەوە.",
+            onPressedBritish: () => speakcrudelys2("en-GB"),
+            onPressedAmerican: () => speakcrudelys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵکار) بەشێوەیەکی بێ‌ڕێزانە و بە توندی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She yelled at a passing driver who had crudely propositioned her."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھاواری کرد بەسەر شۆفێرە تێپەڕبووەکەدا کە بێ‌ڕێزانە داوای سێکسی لێکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrudelys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrudelys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She yelled at a passing driver who had crudely propositioned her.",
+            kurdishText:
+                "ھاواری کرد بەسەر شۆفێرە تێپەڕبووەکەدا کە بێ‌ڕێزانە داوای سێکسی لێکرد.",
+            onPressedBritish: () => speakcrudelys3("en-GB"),
+            onPressedAmerican: () => speakcrudelys3("en-US"),
           ),
         ],
       ),

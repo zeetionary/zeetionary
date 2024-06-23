@@ -111,94 +111,35 @@ class EnglishEntrycircus extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گرووپێک لە نمایشکار کە گەشت دەکەن و پێکھاتوون لە جامباز و شارەزایانی ئاژەڵان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She ran away to join the circus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕایکرد بۆ ئەوەی پەیوەندی بە سێرکسەکەوە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circus", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircuss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She ran away to join the circus.",
+                            kurdishText:
+                                "ڕایکرد بۆ ئەوەی پەیوەندی بە سێرکسەکەوە بکات.", // circus",
+                            onPressedBritish: () => speakcircuss1("en-GB"),
+                            onPressedAmerican: () => speakcircuss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) نمایشێک لەلایەن ئەندامانی سێرکێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children wanted to see the circus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان دەیانویست سێرکسەکە ببینن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircuss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children wanted to see the circus.",
+                            kurdishText: "منداڵەکان دەیانویست سێرکسەکە ببینن.",
+                            onPressedBritish: () => speakcircuss2("en-GB"),
+                            onPressedAmerican: () => speakcircuss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) گرووپێک لە خەڵکی یان بۆنەیەک کە سەرنجی زۆر ڕادەکێشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A media circus surrounded the royal couple wherever they went."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاشوھووشی میدیا بەدوای دوو دڵدارە شاھانەییەکەوە بوون بۆ ھەر کوێیەک بچووبان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircuss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A media circus surrounded the royal couple wherever they went.",
+                            kurdishText:
+                                "ھاشوھووشی میدیا بەدوای دوو دڵدارە شاھانەییەکەوە بوون بۆ ھەر کوێیەک بچووبان.",
+                            onPressedBritish: () => speakcircuss3("en-GB"),
+                            onPressedAmerican: () => speakcircuss3("en-US"),
                           ),
                         ],
                       ),

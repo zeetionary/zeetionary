@@ -99,58 +99,19 @@ class EnglishEntrychess extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شەترەنج؛ یارییەکی دوو کەسی کە لەسەر تەختەیەک دەکرێت کە چوارگۆشەی ڕەش و سپی لەسەرکێشراوە و لەسەریان کە ھەر پارچەیەکی یاریکردن (شا، شاژن، قەڵا، ھتد) بەپێی یاساکانی یارییەکە دەجوڵێنرێت. ئامانج لێی ئەوەیە شای یاریزانەکەی تر بخەیتە دۆخێکەوە کە نەتوانێت ھەڵبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Alex plays chess as a hobby."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەلێکس وەک خولیا یاری شەترەنج دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chess", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Alex plays chess as a hobby.",
+                            kurdishText:
+                                "ئەلێکس وەک خولیا یاری شەترەنج دەکات.", // chess",
+                            onPressedBritish: () => speakchesss1("en-GB"),
+                            onPressedAmerican: () => speakchesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's quite a hotshot at chess."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر بلیمەتە لە شەترەنجدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's quite a hotshot at chess.",
+                            kurdishText: "زۆر بلیمەتە لە شەترەنجدا.",
+                            onPressedBritish: () => speakchesss2("en-GB"),
+                            onPressedAmerican: () => speakchesss2("en-US"),
                           ),
                         ],
                       ),

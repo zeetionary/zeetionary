@@ -129,150 +129,55 @@ class EnglishEntryconfine extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ھێشتنەوەی شتێک/کەسێک لە چوارچێوەی چالاکییەک، بابەتێک، ناوچەیەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The work will not be confined to the Glasgow area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکە سنووردار نابێت بە ناوچەی گلاسگۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confine", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The work will not be confined to the Glasgow area.",
+                            kurdishText:
+                                "کارەکە سنووردار نابێت بە ناوچەی گلاسگۆ.", // confine",
+                            onPressedBritish: () => speakconfines1("en-GB"),
+                            onPressedAmerican: () => speakconfines1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I will confine myself to looking at the period from 1900 to 1916."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆم دەبەستمەوە بە ماوەی نێوان ١٩٠٠ بۆ ١٩١٦."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfines2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfines2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I will confine myself to looking at the period from 1900 to 1916.",
+                            kurdishText:
+                                "خۆم دەبەستمەوە بە ماوەی نێوان ١٩٠٠ بۆ ١٩١٦.",
+                            onPressedBritish: () => speakconfines2("en-GB"),
+                            onPressedAmerican: () => speakconfines2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) دانانی کەسێک یان ئاژەڵێک لە شوێنێکی تەسکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Keep the dog confined in a suitable travelling cage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگەکە ڕابگرە لە قەفەزێکی گونجاوی گەشتکردندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfines3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfines3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Keep the dog confined in a suitable travelling cage.",
+                            kurdishText:
+                                "سەگەکە ڕابگرە لە قەفەزێکی گونجاوی گەشتکردندا.",
+                            onPressedBritish: () => speakconfines3("en-GB"),
+                            onPressedAmerican: () => speakconfines3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Here the river is confined in a narrow channel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێرەدا ڕووبارەکە لە کەناڵێکی تەسکدا چڕبووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfines4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfines4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Here the river is confined in a narrow channel.",
+                            kurdishText:
+                                "لێرەدا ڕووبارەکە لە کەناڵێکی تەسکدا چڕبووەتەوە.",
+                            onPressedBritish: () => speakconfines4("en-GB"),
+                            onPressedAmerican: () => speakconfines4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) مانەوە لە جێگای نووستندا کورسی کارەبایی، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was confined to bed with the flu."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە جێگای نووستندا مایەوە بەھۆی ھەڵامەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfines5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfines5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was confined to bed with the flu.",
+                            kurdishText:
+                                "لە جێگای نووستندا مایەوە بەھۆی ھەڵامەتەوە.",
+                            onPressedBritish: () => speakconfines5("en-GB"),
+                            onPressedAmerican: () => speakconfines5("en-US"),
                           ),
                         ],
                       ),

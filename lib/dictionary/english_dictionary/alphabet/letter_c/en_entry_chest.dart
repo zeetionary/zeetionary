@@ -128,148 +128,52 @@ class EnglishEntrychest extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سنگ؛ بەشی سەرەوەی بەشی پێشەوەی لەش کە دەکەوێتە نێوان مل و سک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She gasped for breath, her chest heaving."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەناسەبڕکێی بوو و سنگی گەورە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chest", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchests1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchests1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She gasped for breath, her chest heaving.",
+                            kurdishText:
+                                "ھەناسەبڕکێی بوو و سنگی گەورە بوو.", // chest",
+                            onPressedBritish: () => speakchests1("en-GB"),
+                            onPressedAmerican: () => speakchests1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She folded her arms across her chest."),
-                                    ExampleSentenceKurdish(
-                                        text: "باڵی سوڕاند بە دەوری سنگیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchests2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchests2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She folded her arms across her chest.",
+                            kurdishText: "باڵی سوڕاند بە دەوری سنگیدا.",
+                            onPressedBritish: () => speakchests2("en-GB"),
+                            onPressedAmerican: () => speakchests2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bullet hit him in the chest."),
-                                    ExampleSentenceKurdish(
-                                        text: "فیشەکەکە لە سنگیی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchests3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchests3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The bullet hit him in the chest.",
+                            kurdishText: "فیشەکەکە لە سنگیی دا.",
+                            onPressedBritish: () => speakchests3("en-GB"),
+                            onPressedAmerican: () => speakchests3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھەبوونی ئەو جۆرە شانەی کە باسکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The man looks powerful with his broad-chested physique."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوەکە بەھێز دیارە بە لەشولارە چوارشانەکەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchests4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchests4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The man looks powerful with his broad-chested physique.",
+                            kurdishText:
+                                "پیاوەکە بەھێز دیارە بە لەشولارە چوارشانەکەیەوە.",
+                            onPressedBritish: () => speakchests4("en-GB"),
+                            onPressedAmerican: () => speakchests4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) سنووقێکی گەورەی بەھێز کە بەزۆری لە دار درووست دەکرێت و بەکاردێت بۆ ھەڵگرتنی شت یان گواستنەوەیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her books and clothes were packed into chests and shipped across to Canada."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێب و جلەکانی خرانە سنووقەوە و بۆ کەنەدا نێردران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchests5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchests5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her books and clothes were packed into chests and shipped across to Canada.",
+                            kurdishText:
+                                "کتێب و جلەکانی خرانە سنووقەوە و بۆ کەنەدا نێردران.",
+                            onPressedBritish: () => speakchests5("en-GB"),
+                            onPressedAmerican: () => speakchests5("en-US"),
                           ),
                         ],
                       ),

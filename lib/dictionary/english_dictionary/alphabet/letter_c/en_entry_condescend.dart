@@ -104,63 +104,25 @@ class EnglishEntrycondescend extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) کردنی شتێک کە پێت وایە لە خوار پێگە یان چینی کۆمەڵایەتی خۆتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We had to wait almost an hour before he condescended to see us."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویست بوو بە نزیکەیی یەک کاتژمێر چاوەڕێ بین تا لەخۆی ڕاببینێت کە بمان بینێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "condescend", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondescends1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondescends1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We had to wait almost an hour before he condescended to see us.",
+                            kurdishText:
+                                "پێویست بوو بە نزیکەیی یەک کاتژمێر چاوەڕێ بین تا لەخۆی ڕاببینێت کە بمان بینێت.", // condescend",
+                            onPressedBritish: () => speakcondescends1("en-GB"),
+                            onPressedAmerican: () => speakcondescends1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) مامەڵەکردن لەگەڵ کەسێک وەک ئەوەی لەوان گرنگتر یان زیرەکتر بیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When giving a talk, be careful not to condescend to your audience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە وتار دەدەیت، بیرت نەچێت خۆت بە زلتر نەزانی لە گوێگر (= فەخر نەکەیت)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondescends2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondescends2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When giving a talk, be careful not to condescend to your audience.",
+                            kurdishText:
+                                "کە وتار دەدەیت، بیرت نەچێت خۆت بە زلتر نەزانی لە گوێگر (= فەخر نەکەیت).",
+                            onPressedBritish: () => speakcondescends2("en-GB"),
+                            onPressedAmerican: () => speakcondescends2("en-US"),
                           ),
                         ],
                       ),

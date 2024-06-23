@@ -94,32 +94,13 @@ class EnglishEntrycolic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئازاری توندی گەدە و ڕیخۆڵەکان, بەتایبەتی لە منداڵاندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The baby's persistent crying was due to colic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گریانی بەردەوامی منداڵەکە بەھۆی ژانەزگ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The baby's persistent crying was due to colic.",
+                            kurdishText:
+                                "گریانی بەردەوامی منداڵەکە بەھۆی ژانەزگ بوو.", // colic",
+                            onPressedBritish: () => speakcolics1("en-GB"),
+                            onPressedAmerican: () => speakcolics1("en-US"),
                           ),
                         ],
                       ),

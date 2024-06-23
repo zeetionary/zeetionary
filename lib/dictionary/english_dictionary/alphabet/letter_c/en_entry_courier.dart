@@ -242,58 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک یان کۆمپانیایەک کە کاری ئەوەیە شتومەک و کاغەزی گرنگ بۆ شوێنێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We sent the documents by courier."),
-                    ExampleSentenceKurdish(
-                        text: "بەڵگەنامەکانمان بە نامەبەری نارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "courier", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouriers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouriers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We sent the documents by courier.",
+            kurdishText:
+                "بەڵگەنامەکانمان بە نامەبەری نارد.", // courier", please follow LX instructions
+            onPressedBritish: () => speakcouriers1("en-GB"),
+            onPressedAmerican: () => speakcouriers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Urgent deliveries of medicine may be sent by motorcycle courier."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناردنی فریاگوزاری دەرمان لەوانەیە بە چەپەری ماتۆڕسواری بنێردرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouriers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouriers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Urgent deliveries of medicine may be sent by motorcycle courier.",
+            kurdishText:
+                "ناردنی فریاگوزاری دەرمان لەوانەیە بە چەپەری ماتۆڕسواری بنێردرێت.",
+            onPressedBritish: () => speakcouriers2("en-GB"),
+            onPressedAmerican: () => speakcouriers2("en-US"),
           ),
         ],
       ),

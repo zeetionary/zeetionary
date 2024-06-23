@@ -95,32 +95,13 @@ class EnglishEntrychoral extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە کۆچڕێکی گۆرانی‌گوتن، نووسراو بۆ کۆچڕێک، یان وتراو لەلایەن کۆچڕێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The choral performance at the concert was breathtaking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نمایشی کۆچڕەکە لە کۆنسێرتەکە سەرسووڕھێنەر بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "choral", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchorals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchorals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The choral performance at the concert was breathtaking.",
+                            kurdishText:
+                                "نمایشی کۆچڕەکە لە کۆنسێرتەکە سەرسووڕھێنەر بوو.", // choral",
+                            onPressedBritish: () => speakchorals1("en-GB"),
+                            onPressedAmerican: () => speakchorals1("en-US"),
                           ),
                         ],
                       ),

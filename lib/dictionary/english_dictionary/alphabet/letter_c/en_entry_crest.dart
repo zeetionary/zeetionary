@@ -283,201 +283,69 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بەشی سەرەوەی گردێک یان شەپۆلێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We finally reached the crest of the ridge."),
-                    ExampleSentenceKurdish(
-                        text: "لە کۆتاییدا تەوقی تەپۆلکەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crest", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrests1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrests1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We finally reached the crest of the ridge.",
+            kurdishText:
+                "لە کۆتاییدا تەوقی تەپۆلکەکە.", // crest", please follow LX instructions
+            onPressedBritish: () => speakcrests1("en-GB"),
+            onPressedAmerican: () => speakcrests1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We stood on the crest of the hill."),
-                    ExampleSentenceKurdish(
-                        text: "وەستاین لەسەر ترۆپکی تەپۆلکەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrests2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrests2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We stood on the crest of the hill.",
+            kurdishText: "وەستاین لەسەر ترۆپکی تەپۆلکەکە.",
+            onPressedBritish: () => speakcrests2("en-GB"),
+            onPressedAmerican: () => speakcrests2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) دیزاینێک کە وەک سمبولی خێزانێک، دامەزراوەیەک، ھتد بەکاردێت، بەتایبەتی کە مێژوویەکی دێرینی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The family crest consists of a crown and an eight-pointed star."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئارمی خێزانەکە پێکدێت لە تاجێک و ئەستێرەیەکی ھەشت لایی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrests3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrests3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The family crest consists of a crown and an eight-pointed star.",
+            kurdishText:
+                "ئارمی خێزانەکە پێکدێت لە تاجێک و ئەستێرەیەکی ھەشت لایی.",
+            onPressedBritish: () => speakcrests3("en-GB"),
+            onPressedAmerican: () => speakcrests3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) کۆمەڵە پەڕەیەک کە لەسەر سەری باڵندەیەکەوە بەرزدەبنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The male is recognizable by its yellow crest."),
-                    ExampleSentenceKurdish(
-                        text: "نێرینەکە بە کڵاوە زەردەکەی دەناسرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrests4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrests4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The male is recognizable by its yellow crest.",
+            kurdishText: "نێرینەکە بە کڵاوە زەردەکەی دەناسرێتەوە.",
+            onPressedBritish: () => speakcrests4("en-GB"),
+            onPressedAmerican: () => speakcrests4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) گەشتنە لوتکەی چیایەک، گردێک، یان شەپۆلێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He slowed the pace as they crested the ridge."),
-                    ExampleSentenceKurdish(
-                        text: "خێراییەکەیان کەمکردەوە کە گەشتنە تەپۆلکەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrests5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrests5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He slowed the pace as they crested the ridge.",
+            kurdishText: "خێراییەکەیان کەمکردەوە کە گەشتنە تەپۆلکەکە.",
+            onPressedBritish: () => speakcrests5("en-GB"),
+            onPressedAmerican: () => speakcrests5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The ship crested a wave and then fell twenty feet or more."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەشتییەکە گەشتە لوتکەی شەپۆلەکە و دواتر لە بیست پێ یان زیاتر داکەوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrests6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrests6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The ship crested a wave and then fell twenty feet or more.",
+            kurdishText:
+                "کەشتییەکە گەشتە لوتکەی شەپۆلەکە و دواتر لە بیست پێ یان زیاتر داکەوت.",
+            onPressedBritish: () => speakcrests6("en-GB"),
+            onPressedAmerican: () => speakcrests6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) گەشتنە بەرزترین ئاست"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The level of debt crested at a massive £290 billion in 2009."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاستی قەرز گەشتە ڕێژەیەکی زەبەلاحی ٢٩٠ ملیار پاوەندی لە ٢٠٠٩ ـدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrests7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrests7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The level of debt crested at a massive £290 billion in 2009.",
+            kurdishText:
+                "ئاستی قەرز گەشتە ڕێژەیەکی زەبەلاحی ٢٩٠ ملیار پاوەندی لە ٢٠٠٩ ـدا.",
+            onPressedBritish: () => speakcrests7("en-GB"),
+            onPressedAmerican: () => speakcrests7("en-US"),
           ),
         ],
       ),

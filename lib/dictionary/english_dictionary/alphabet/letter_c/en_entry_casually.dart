@@ -192,153 +192,56 @@ class EnglishEntrycasually extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە وای پیشان دەدات کە لەسەرخۆ و ئاسوودەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They chatted casually on the phone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئاسایی قسەیان دەکرد بە تەلەفۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "casually", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasuallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasuallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They chatted casually on the phone.",
+                            kurdishText:
+                                "بە ئاسایی قسەیان دەکرد بە تەلەفۆن.", // casually",
+                            onPressedBritish: () => speakcasuallys1("en-GB"),
+                            onPressedAmerican: () => speakcasuallys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵکار) بەبێ گرنگی‌پێدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many people casually dismiss these claims."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر کەس بە کەمتەرخی‌یەوە ئەم بانگەشانە دەخەنەلاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasuallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasuallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many people casually dismiss these claims.",
+                            kurdishText:
+                                "زۆر کەس بە کەمتەرخی‌یەوە ئەم بانگەشانە دەخەنەلاوە.",
+                            onPressedBritish: () => speakcasuallys2("en-GB"),
+                            onPressedAmerican: () => speakcasuallys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵکار) واپیشاندانی ئەوەی کە شتێک گرنگ نییە لات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘What did he say about me?’ she asked as casually as she could."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەتا توانی بە گوێ‌پێ‌نەدانەوە پرسی 'چی گوت لەسەرم؟'"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasuallys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasuallys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘What did he say about me?’ she asked as casually as she could.",
+                            kurdishText:
+                                "ھەتا توانی بە گوێ‌پێ‌نەدانەوە پرسی 'چی گوت لەسەرم؟'",
+                            onPressedBritish: () => speakcasuallys3("en-GB"),
+                            onPressedAmerican: () => speakcasuallys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ھاوەڵکار) لەبەرکردنی جلی نافەرمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The staff were all casually clothed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستافەکە ھەموویان جلی نافەرمییان لەبەربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasuallys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasuallys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The staff were all casually clothed.",
+                            kurdishText:
+                                "ستافەکە ھەموویان جلی نافەرمییان لەبەربوو.",
+                            onPressedBritish: () => speakcasuallys4("en-GB"),
+                            onPressedAmerican: () => speakcasuallys4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ھاوەڵکار) ناھەمیشەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I casually dated a few people during that time but had no serious relationship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ماوە ھەروا پەیوەندیم لەگەڵ ژمارەیەک کەس درووست کرد بەڵام ھیچ پەیوەندی جدیم نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasuallys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasuallys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I casually dated a few people during that time but had no serious relationship.",
+                            kurdishText:
+                                "ئەو ماوە ھەروا پەیوەندیم لەگەڵ ژمارەیەک کەس درووست کرد بەڵام ھیچ پەیوەندی جدیم نەبوو.",
+                            onPressedBritish: () => speakcasuallys5("en-GB"),
+                            onPressedAmerican: () => speakcasuallys5("en-US"),
                           ),
                         ],
                       ),

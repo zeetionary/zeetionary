@@ -95,34 +95,14 @@ class EnglishEntrycivilrights extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەموو ئەو مافانەی کە کەسێک لە کۆمەڵگەدا ھەیەتی بە یەکسانی، بۆ نموونە مافی دەنگدان، کارکردن، ھتد بەبێ گرنگیدان بە ڕەگەز یان ئایین "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Civil rights include freedom, equality in law and in employment, and the right to vote."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مافە مەدەنییەکان ئازادی، یەکسانی لە پێش یاسا و کاردا، مافی دەنگدان دەگرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "civilrights", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilrightss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilrightss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Civil rights include freedom, equality in law and in employment, and the right to vote.",
+                            kurdishText:
+                                "مافە مەدەنییەکان ئازادی، یەکسانی لە پێش یاسا و کاردا، مافی دەنگدان دەگرێتەوە.", // civilrights",
+                            onPressedBritish: () => speakcivilrightss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcivilrightss1("en-US"),
                           ),
                         ],
                       ),

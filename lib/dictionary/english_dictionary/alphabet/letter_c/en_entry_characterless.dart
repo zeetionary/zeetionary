@@ -95,34 +95,15 @@ class EnglishEntrycharacterless extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بەبێ ھیچ خاسیەتێکی سەرنجڕاکێش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's just one of those characterless modern cities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەر یەکێکە لەو شارە ناخۆشە سەردەمییانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "characterless", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcharacterlesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcharacterlesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's just one of those characterless modern cities.",
+                            kurdishText:
+                                "ھەر یەکێکە لەو شارە ناخۆشە سەردەمییانە.", // characterless",
+                            onPressedBritish: () =>
+                                speakcharacterlesss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcharacterlesss1("en-US"),
                           ),
                         ],
                       ),

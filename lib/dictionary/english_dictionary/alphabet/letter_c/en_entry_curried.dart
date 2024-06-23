@@ -232,30 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) خواردنێک کە لە سۆسێکی تووندا لێنراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The carrots were delicious curried."),
-                    ExampleSentenceKurdish(
-                        text: "گێزەرەکان بەلەزەت بە سۆسەوە لێنرابوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curried", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrieds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrieds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The carrots were delicious curried.",
+            kurdishText:
+                "گێزەرەکان بەلەزەت بە سۆسەوە لێنرابوون.", // curried", please follow LX instructions
+            onPressedBritish: () => speakcurrieds1("en-GB"),
+            onPressedAmerican: () => speakcurrieds1("en-US"),
           ),
         ],
       ),

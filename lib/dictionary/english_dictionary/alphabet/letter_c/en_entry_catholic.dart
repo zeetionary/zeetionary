@@ -191,90 +191,33 @@ class EnglishEntrycatholic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) سەر بەو مەزھەبەی ئایینی مەسیحییەت کە پاپا ڕابەرێتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Are they Catholic or Protestant?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کاسۆلیکن یان پڕۆتێستانت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catholic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatholics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatholics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Are they Catholic or Protestant?",
+                            kurdishText:
+                                "کاسۆلیکن یان پڕۆتێستانت؟", // catholic",
+                            onPressedBritish: () => speakcatholics1("en-GB"),
+                            onPressedAmerican: () => speakcatholics1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) شتێک کە زۆر شت لەخۆدەگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As a young person he had more catholic tastes than he does now."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک گەنجێک حەزی گشتگیری زیاتری ھەبوو وەک لە ئێستا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatholics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatholics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As a young person he had more catholic tastes than he does now.",
+                            kurdishText:
+                                "وەک گەنجێک حەزی گشتگیری زیاتری ھەبوو وەک لە ئێستا.",
+                            onPressedBritish: () => speakcatholics2("en-GB"),
+                            onPressedAmerican: () => speakcatholics2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شوێنکەوتوویەکی ئەو مەزھەبەی ئایینی مەسیحییەت کە پاپا ڕابەرێتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They're Catholics."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەوان کاسۆلیکن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatholics3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatholics3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They're Catholics.",
+                            kurdishText: "ئەوان کاسۆلیکن.",
+                            onPressedBritish: () => speakcatholics3("en-GB"),
+                            onPressedAmerican: () => speakcatholics3("en-US"),
                           ),
                         ],
                       ),

@@ -266,137 +266,44 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەبوونی توانای بەدەستخستنی ئەوەی دەتەوێت بە زیرەکی، بەتایبەتی بە فێڵ و تەڵەکەبازی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He was as cunning as a fox."),
-                    ExampleSentenceKurdish(text: "وەک ڕێوی زۆرزان بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cunning", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcunnings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcunnings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was as cunning as a fox.",
+            kurdishText:
+                "وەک ڕێوی زۆرزان بوو.", // cunning", please follow LX instructions
+            onPressedBritish: () => speakcunnings1("en-GB"),
+            onPressedAmerican: () => speakcunnings1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "That cunning old rogue is up to something, I'm sure."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دڵنیام ئەو ساختەچییە پیرە زۆرزانە شتێکی لەژێر سەردایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcunnings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcunnings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "That cunning old rogue is up to something, I'm sure.",
+            kurdishText:
+                "دڵنیام ئەو ساختەچییە پیرە زۆرزانە شتێکی لەژێر سەردایە.",
+            onPressedBritish: () => speakcunnings2("en-GB"),
+            onPressedAmerican: () => speakcunnings2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) زیرەک و شارەزا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It was a cunning piece of detective work."),
-                    ExampleSentenceKurdish(
-                        text: "کارێکی بنکۆڵکاری زیرەکانە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcunnings3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcunnings3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was a cunning piece of detective work.",
+            kurdishText: "کارێکی بنکۆڵکاری زیرەکانە بوو.",
+            onPressedBritish: () => speakcunnings3("en-GB"),
+            onPressedAmerican: () => speakcunnings3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) زۆرزان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It took energy and cunning just to survive."),
-                    ExampleSentenceKurdish(
-                        text: "تەنھا ڕزگاربوون پێویستی بە وزە و زۆرزانی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcunnings4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcunnings4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It took energy and cunning just to survive.",
+            kurdishText: "تەنھا ڕزگاربوون پێویستی بە وزە و زۆرزانی بوو.",
+            onPressedBritish: () => speakcunnings4("en-GB"),
+            onPressedAmerican: () => speakcunnings4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She used low cunning (= dishonest behaviour) to get what she wanted."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرزانی بەکارھێنا بۆ دەستخستنی ئەوەی دەیویست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcunnings5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcunnings5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She used low cunning (= dishonest behaviour) to get what she wanted.",
+            kurdishText: "زۆرزانی بەکارھێنا بۆ دەستخستنی ئەوەی دەیویست.",
+            onPressedBritish: () => speakcunnings5("en-GB"),
+            onPressedAmerican: () => speakcunnings5("en-US"),
           ),
         ],
       ),

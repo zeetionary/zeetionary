@@ -249,90 +249,31 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) گۆڕانکارییەک بۆ ڕاستکردنەوەی ھەڵەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I've made a few small corrections to your report."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک ڕاستکردنەوەی بچووکم بۆ ڕاپۆرتەکەت ئەنجامداوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "correction", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrections1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrections1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I've made a few small corrections to your report.",
+            kurdishText:
+                "ھەندێک ڕاستکردنەوەی بچووکم بۆ ڕاپۆرتەکەت ئەنجامداوە.", // correction", please follow LX instructions
+            onPressedBritish: () => speakcorrections1("en-GB"),
+            onPressedAmerican: () => speakcorrections1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The paper had to publish a correction to the story."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆژنامەکە پێویست بوو ڕاستکردنەوەیەک بۆ وتارەکە زیاد بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrections2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrections2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The paper had to publish a correction to the story.",
+            kurdishText:
+                "ڕۆژنامەکە پێویست بوو ڕاستکردنەوەیەک بۆ وتارەکە زیاد بکات.",
+            onPressedBritish: () => speakcorrections2("en-GB"),
+            onPressedAmerican: () => speakcorrections2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کردار یان پڕۆسەی ڕاستکردنەوەی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are some programming errors that need correction."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمانە چەند ھەڵەیەکی پڕۆگرامسازین کە پێویستییان بە ڕاست کردنەوەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrections3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrections3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are some programming errors that need correction.",
+            kurdishText:
+                "ئەمانە چەند ھەڵەیەکی پڕۆگرامسازین کە پێویستییان بە ڕاست کردنەوەیە.",
+            onPressedBritish: () => speakcorrections3("en-GB"),
+            onPressedAmerican: () => speakcorrections3("en-US"),
           ),
         ],
       ),

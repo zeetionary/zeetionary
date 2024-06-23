@@ -242,58 +242,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کاردێکی پلاستیکی بچووک کە دەتوانیت بەکاریبھێنیت بۆ پارەدان بۆ کەلوپەل و خزمەتگوزاری و دواتر پارەکەی بدەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All major credit cards are accepted at our hotels."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو کرێدیت کاردە ناسراوەکان لە ھوتێلەکانمان پەسەند دەکرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "credit card", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreditcards1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreditcards1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All major credit cards are accepted at our hotels.",
+            kurdishText:
+                "ھەموو کرێدیت کاردە ناسراوەکان لە ھوتێلەکانمان پەسەند دەکرێن.", // credit card", please follow LX instructions
+            onPressedBritish: () => speakcreditcards1("en-GB"),
+            onPressedAmerican: () => speakcreditcards1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I put the bill on my credit card."),
-                    ExampleSentenceKurdish(
-                        text: "حسابەکە دەخەمە سەر کرێدیت کاردەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreditcards2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreditcards2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I put the bill on my credit card.",
+            kurdishText: "حسابەکە دەخەمە سەر کرێدیت کاردەکەم.",
+            onPressedBritish: () => speakcreditcards2("en-GB"),
+            onPressedAmerican: () => speakcreditcards2("en-US"),
           ),
         ],
       ),

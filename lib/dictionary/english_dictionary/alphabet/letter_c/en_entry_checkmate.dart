@@ -122,121 +122,45 @@ class EnglishEntrycheckmate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) لە شترەنجدا بریتییە لە دانانی ڕکابەرەکەت لە دۆخێکدا کە تێیدا نەتوانێت شاکەی لە گرتن بپارێزێت و بۆیە یارییەکە بدۆڕێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His king had been checkmated."),
-                                    ExampleSentenceKurdish(
-                                        text: "شاکەی کش‌ومات درا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "checkmate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheckmates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckmates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His king had been checkmated.",
+                            kurdishText: "شاکەی کش‌ومات درا.", // checkmate",
+                            onPressedBritish: () => speakcheckmates1("en-GB"),
+                            onPressedAmerican: () => speakcheckmates1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) بەزاندنی کەسێک بە تەواوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She hoped the plan would checkmate her opponents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیوای خواست پلانەکە ڕکابەرەکانی بە تەواوی ببەزێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheckmates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckmates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She hoped the plan would checkmate her opponents.",
+                            kurdishText:
+                                "ھیوای خواست پلانەکە ڕکابەرەکانی بە تەواوی ببەزێنێت.",
+                            onPressedBritish: () => speakcheckmates2("en-GB"),
+                            onPressedAmerican: () => speakcheckmates2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) لە شەترەنجدا دۆخێکە کە یاریزانێک ناتوانێت ڕێگا بگرێت لەوەی شاکەی بگیردرێت، بۆیە یارییەکە دەدۆڕێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chess player celebrated victory after putting his opponent's king in checkmate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاریزانە شەترەنجەکە ئاھەنگی بردنەوەی گێڕا لە دوای ئەوەی شای ڕکابەرەکەی خستە کش‌ومات کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheckmates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckmates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chess player celebrated victory after putting his opponent's king in checkmate.",
+                            kurdishText:
+                                "یاریزانە شەترەنجەکە ئاھەنگی بردنەوەی گێڕا لە دوای ئەوەی شای ڕکابەرەکەی خستە کش‌ومات کرد.",
+                            onPressedBritish: () => speakcheckmates3("en-GB"),
+                            onPressedAmerican: () => speakcheckmates3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) بەزینی تەواوی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The politician's scandalous revelation was his political checkmate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاشکرابوونە ئابڕووبەرییەکەی سیاتمەدارەکە تێکشکانی سیاسیی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheckmates4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckmates4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The politician's scandalous revelation was his political checkmate.",
+                            kurdishText:
+                                "ئاشکرابوونە ئابڕووبەرییەکەی سیاتمەدارەکە تێکشکانی سیاسیی بوو.",
+                            onPressedBritish: () => speakcheckmates4("en-GB"),
+                            onPressedAmerican: () => speakcheckmates4("en-US"),
                           ),
                         ],
                       ),

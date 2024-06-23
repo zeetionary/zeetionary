@@ -241,56 +241,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شوێنێکی کراوە کە بەشێکی یان ھەمووی بە بینا دەوردراوە و زۆرجار بەشێکە لە قەڵایەک، خانوویەکی گەورە، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her bedroom overlooked the courtyard."),
-                    ExampleSentenceKurdish(
-                        text: "ژووری خەوەکەی دەیڕوانی بەسەر حەوشەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "courtyard", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtyards1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtyards1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her bedroom overlooked the courtyard.",
+            kurdishText:
+                "ژووری خەوەکەی دەیڕوانی بەسەر حەوشەکەدا.", // courtyard", please follow LX instructions
+            onPressedBritish: () => speakcourtyards1("en-GB"),
+            onPressedAmerican: () => speakcourtyards1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We sat on a bench in the school courtyard."),
-                    ExampleSentenceKurdish(
-                        text: "لەسەر کورسییەک لە حەوشەی قوتابخانەکە دانیشتین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtyards2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtyards2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We sat on a bench in the school courtyard.",
+            kurdishText: "لەسەر کورسییەک لە حەوشەی قوتابخانەکە دانیشتین.",
+            onPressedBritish: () => speakcourtyards2("en-GB"),
+            onPressedAmerican: () => speakcourtyards2("en-US"),
           ),
         ],
       ),

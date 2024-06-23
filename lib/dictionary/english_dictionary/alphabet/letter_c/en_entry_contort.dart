@@ -102,58 +102,19 @@ class EnglishEntrycontort extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) گێڕبوون، سوڕدان، یان چەماندنەوەی شتێک بەشێوەیەک شێوەی سرووشتی بگۆڕێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His face contorted with anger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووخساری لە تووڕەییدا خواروخێچ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contort", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontorts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontorts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His face contorted with anger.",
+                            kurdishText:
+                                "ڕووخساری لە تووڕەییدا خواروخێچ بوو.", // contort",
+                            onPressedBritish: () => speakcontorts1("en-GB"),
+                            onPressedAmerican: () => speakcontorts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her mouth was contorted in pain."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەمی گێڕبوو لە ئازاردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontorts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontorts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her mouth was contorted in pain.",
+                            kurdishText: "دەمی گێڕبوو لە ئازاردا.",
+                            onPressedBritish: () => speakcontorts2("en-GB"),
+                            onPressedAmerican: () => speakcontorts2("en-US"),
                           ),
                         ],
                       ),

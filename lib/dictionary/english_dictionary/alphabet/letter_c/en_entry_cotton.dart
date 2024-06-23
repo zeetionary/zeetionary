@@ -256,112 +256,37 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) لۆکە؛ ڕووەکێک کە لە وڵاتە گەرمەکان دەچێنرێت بۆ پەڕە نەرمە سپییەکەی کە لە دەوری تۆوەکەی گەشە دەکات و بۆ قوماش درووستکردن بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They grew cotton, tobacco, corn and fruit."),
-                    ExampleSentenceKurdish(
-                        text: "لۆکە، تووتن، گەنمەشامی، و میوە دەچێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cotton", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcottons1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcottons1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They grew cotton, tobacco, corn and fruit.",
+            kurdishText:
+                "لۆکە، تووتن، گەنمەشامی، و میوە دەچێنن.", // cotton", please follow LX instructions
+            onPressedBritish: () => speakcottons1("en-GB"),
+            onPressedAmerican: () => speakcottons1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) قوماشی درووستکراو لە لۆکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The sheets are 100 per cent pure cotton."),
-                    ExampleSentenceKurdish(
-                        text: "پێخەفەکان بە تەواوی لە لۆکە درووستکراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcottons2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcottons2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The sheets are 100 per cent pure cotton.",
+            kurdishText: "پێخەفەکان بە تەواوی لە لۆکە درووستکراون.",
+            onPressedBritish: () => speakcottons2("en-GB"),
+            onPressedAmerican: () => speakcottons2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She looked pretty in a simple cotton dress."),
-                    ExampleSentenceKurdish(
-                        text: "جوان دیاربوو لە جلێکی سادەی لۆکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcottons3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcottons3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She looked pretty in a simple cotton dress.",
+            kurdishText: "جوان دیاربوو لە جلێکی سادەی لۆکەدا.",
+            onPressedBritish: () => speakcottons3("en-GB"),
+            onPressedAmerican: () => speakcottons3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) پارچە قوماشێکی نەرم کە بۆ پاککردنەوەی پێست و برین بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Use a cotton ball to apply the lotion."),
-                    ExampleSentenceKurdish(
-                        text: "تۆپەڵە لەفافێک بەکاربێنە بۆ لێدانی گیراوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcottons4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcottons4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Use a cotton ball to apply the lotion.",
+            kurdishText: "تۆپەڵە لەفافێک بەکاربێنە بۆ لێدانی گیراوەکە.",
+            onPressedBritish: () => speakcottons4("en-GB"),
+            onPressedAmerican: () => speakcottons4("en-US"),
           ),
         ],
       ),

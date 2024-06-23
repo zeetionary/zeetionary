@@ -239,57 +239,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: چواڕڕێ(یانە)، چواڕیانە، چواڕڕێ‌یانە، ھاوبڕگە،	خاڵی ورەچەرخان،	خاڵی بڕیاردان، دوڕیانەی گرنگ
 """),
           const DefinitionKurdish(text: "١. (ناو) خاڵی یەکتربڕینی دوو ڕێگا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "At the next crossroads, turn right."),
-                    ExampleSentenceKurdish(
-                        text: "لە چوارڕیانی دواتردا بە ڕاستدا پێچ بکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crossroads", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossroadss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossroadss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "At the next crossroads, turn right.",
+            kurdishText:
+                "لە چوارڕیانی دواتردا بە ڕاستدا پێچ بکەوە.", // crossroads", please follow LX instructions
+            onPressedBritish: () => speakcrossroadss1("en-GB"),
+            onPressedAmerican: () => speakcrossroadss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He has reached a career crossroads (= he must decide which way to go next in his career)."),
-                    ExampleSentenceKurdish(
-                        text: "گەشتووە بە خاڵی وەرچەرخانی کارەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossroadss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossroadss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He has reached a career crossroads (= he must decide which way to go next in his career).",
+            kurdishText: "گەشتووە بە خاڵی وەرچەرخانی کارەکەی.",
+            onPressedBritish: () => speakcrossroadss2("en-GB"),
+            onPressedAmerican: () => speakcrossroadss2("en-US"),
           ),
         ],
       ),

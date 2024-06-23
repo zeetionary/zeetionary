@@ -199,60 +199,21 @@ class EnglishEntrychallenge extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەرکێکی قورس کە توانا و شارەزایی کەسێک تاقیدەکاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The role will be the biggest challenge of his acting career."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆڵەکە دەبێتە قورسترین بەرەنگاریی کاری ھونەریی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "challenge", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchallenges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchallenges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The role will be the biggest challenge of his acting career.",
+                            kurdishText:
+                                "ڕۆڵەکە دەبێتە قورسترین بەرەنگاریی کاری ھونەریی.", // challenge",
+                            onPressedBritish: () => speakchallenges1("en-GB"),
+                            onPressedAmerican: () => speakchallenges1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She still faces many challenges (= has to deal with them)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا ڕووبەڕووی زۆر سەختی دەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchallenges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchallenges2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She still faces many challenges (= has to deal with them).",
+                            kurdishText: "ھێشتا ڕووبەڕووی زۆر سەختی دەبێتەوە.",
+                            onPressedBritish: () => speakchallenges2("en-GB"),
+                            onPressedAmerican: () => speakchallenges2("en-US"),
                           ),
                           Column(
                             children: [
@@ -325,273 +286,102 @@ class EnglishEntrychallenge extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پێشنیار یان بانگھێشتی کەسێک بۆ چوونە ناو پێشبڕکێیەک، شەڕێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She accepted his challenge to a debate on the issue."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاڵنجی ئەوی بۆ ھەبوونی دیبەیت لەسەر کێشەکە پەسەندکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchallenges5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchallenges5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She accepted his challenge to a debate on the issue.",
+                            kurdishText:
+                                "چاڵنجی ئەوی بۆ ھەبوونی دیبەیت لەسەر کێشەکە پەسەندکرد.",
+                            onPressedBritish: () => speakchallenges5("en-GB"),
+                            onPressedAmerican: () => speakchallenges5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) وتەیەک یان کردارێک کە پیشانی دەدات کە کەسێک ڕەتی‌دەکاتەوە شتێک پەسەند بکات و گومانی ھەیە کە ڕاست، یاسایی، ھتد بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their legal challenge was unsuccessful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرھەڵستییە یاساییەکەیان شکستخواردوو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchallenges6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchallenges6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their legal challenge was unsuccessful.",
+                            kurdishText:
+                                "بەرھەڵستییە یاساییەکەیان شکستخواردوو بوو.",
+                            onPressedBritish: () => speakchallenges6("en-GB"),
+                            onPressedAmerican: () => speakchallenges6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a direct challenge to the president's authority."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرھەڵستی ڕاستەوخۆی دەسەڵاتەکانی سەرۆک بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchallenges7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchallenges7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was a direct challenge to the president's authority.",
+                            kurdishText:
+                                "بەرھەڵستی ڕاستەوخۆی دەسەڵاتەکانی سەرۆک بوو.",
+                            onPressedBritish: () => speakchallenges7("en-GB"),
+                            onPressedAmerican: () => speakchallenges7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) ڕەتکردنەوەی پەسەندکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His legal team immediately sought to challenge the decision."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمە یاساییەکەی دەستبەجێ ویستیان بەرھەڵستی بڕیارەکە بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchallenges8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchallenges8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His legal team immediately sought to challenge the decision.",
+                            kurdishText:
+                                "تیمە یاساییەکەی دەستبەجێ ویستیان بەرھەڵستی بڕیارەکە بکەن.",
+                            onPressedBritish: () => speakchallenges8("en-GB"),
+                            onPressedAmerican: () => speakchallenges8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She does not like anyone challenging her authority."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزی بە ھیچ کەس نییە بەرھەڵستی دەسەڵاتەکانی بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchallenges9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchallenges9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She does not like anyone challenging her authority.",
+                            kurdishText:
+                                "حەزی بە ھیچ کەس نییە بەرھەڵستی دەسەڵاتەکانی بکات.",
+                            onPressedBritish: () => speakchallenges9("en-GB"),
+                            onPressedAmerican: () => speakchallenges9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) پێشنیازکردنی کردنی شتێک بۆ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The opposition leader challenged the prime minister to call an election."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆکی ئۆپۆزسیۆن تەحەدای سەرۆک وەزیرانی کرد بڕیاری ھەڵبژاردن بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchallenges10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchallenges10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The opposition leader challenged the prime minister to call an election.",
+                            kurdishText:
+                                "سەرۆکی ئۆپۆزسیۆن تەحەدای سەرۆک وەزیرانی کرد بڕیاری ھەڵبژاردن بدات.",
+                            onPressedBritish: () => speakchallenges10("en-GB"),
+                            onPressedAmerican: () => speakchallenges10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) چوونە پێشبڕکێیەکەوە دژ بە کەسێک بۆ بەدەستھێنانی  شتێک یان بردنی شتێک لێیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was poised to challenge for the party leadership."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامادەبوو بۆ ڕکابەری بۆ ڕابەرێتی پارتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchallenges11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchallenges11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was poised to challenge for the party leadership.",
+                            kurdishText:
+                                "ئامادەبوو بۆ ڕکابەری بۆ ڕابەرێتی پارتەکە.",
+                            onPressedBritish: () => speakchallenges11("en-GB"),
+                            onPressedAmerican: () => speakchallenges11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) تاقیکردنەوەی توانا و شارەزایی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "No one has seriously challenged the champion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ کەس بەرەنگاری نەبووە وەک پاڵەوانێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchallenges12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchallenges12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "No one has seriously challenged the champion.",
+                            kurdishText:
+                                "ھیچ کەس بەرەنگاری نەبووە وەک پاڵەوانێک.",
+                            onPressedBritish: () => speakchallenges12("en-GB"),
+                            onPressedAmerican: () => speakchallenges12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) فەرمانکردن بە کەسێک کە بوەستێت و خۆی بناسێنێت یان ئەوەی چی دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We were challenged by police at the border."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەلایەن پۆلیسەوە لە سنوورەکە وەستێندراین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchallenges13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchallenges13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We were challenged by police at the border.",
+                            kurdishText:
+                                "لەلایەن پۆلیسەوە لە سنوورەکە وەستێندراین.",
+                            onPressedBritish: () => speakchallenges13("en-GB"),
+                            onPressedAmerican: () => speakchallenges13("en-US"),
                           ),
                         ],
                       ),

@@ -110,91 +110,32 @@ class EnglishEntrychap extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بۆ ناوھێنانی پیاوێک بە شێوەیەکی ھاوڕێیانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He isn't such a bad chap really."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕاستیدا ھێندە زەلامێکی خراپ نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chap", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchaps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchaps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He isn't such a bad chap really.",
+                            kurdishText:
+                                "لە ڕاستیدا ھێندە زەلامێکی خراپ نییە.", // chap",
+                            onPressedBritish: () => speakchaps1("en-GB"),
+                            onPressedAmerican: () => speakchaps1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Come on, chaps, let’s go for a drink!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەڵا، کوڕینە، با بچین بخۆینەوە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchaps2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchaps2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Come on, chaps, let’s go for a drink!",
+                            kurdishText: "یەڵا، کوڕینە، با بچین بخۆینەوە!",
+                            onPressedBritish: () => speakchaps2("en-GB"),
+                            onPressedAmerican: () => speakchaps2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) پێست یان لێو ڕەق و وشک و بەئازار دەبێت، زۆرجار بەھۆی با یان ھەوای ساردەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His skin is very dry and chaps easily."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێستی زۆر وشکە و بە ئاسانی دەتەرەکێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchaps3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchaps3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His skin is very dry and chaps easily.",
+                            kurdishText:
+                                "پێستی زۆر وشکە و بە ئاسانی دەتەرەکێت.",
+                            onPressedBritish: () => speakchaps3("en-GB"),
+                            onPressedAmerican: () => speakchaps3("en-US"),
                           ),
                         ],
                       ),

@@ -258,118 +258,40 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) چوونە دواوە بەھۆی ئەوەی ترساویت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The puppy is very nervous and cringes at every loud noise."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "توولەکە زۆر شڵەژاوە و لە ھەر دەنگێکی بەرز ڕادەچڵەکێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cringe", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcringes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcringes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The puppy is very nervous and cringes at every loud noise.",
+            kurdishText:
+                "توولەکە زۆر شڵەژاوە و لە ھەر دەنگێکی بەرز ڕادەچڵەکێت.", // cringe", please follow LX instructions
+            onPressedBritish: () => speakcringes1("en-GB"),
+            onPressedAmerican: () => speakcringes1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This scene will have audiences cringing in fear."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم دیمەنە بینەران لە ترسدا ڕادەچڵەکێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcringes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcringes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This scene will have audiences cringing in fear.",
+            kurdishText: "ئەم دیمەنە بینەران لە ترسدا ڕادەچڵەکێنێت.",
+            onPressedBritish: () => speakcringes2("en-GB"),
+            onPressedAmerican: () => speakcringes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) ھەستکردن بە شەرمێکی زۆر و نائاسوودەیی سەبارەت بە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I cringe when I think of the poems I wrote then."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شەرم دەمگرێت کە بیر لەو ھۆنراوانە دەکەمەوە کە ئەوکات دەمنووسین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcringes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcringes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I cringe when I think of the poems I wrote then.",
+            kurdishText:
+                "شەرم دەمگرێت کە بیر لەو ھۆنراوانە دەکەمەوە کە ئەوکات دەمنووسین.",
+            onPressedBritish: () => speakcringes3("en-GB"),
+            onPressedAmerican: () => speakcringes3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When I hear my own voice played back I just sit there cringing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە گوێ دەگرم لە لێدانەوەی دەنگی خۆم تەنھا دادەنیشم و شەرم دەمگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcringes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcringes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When I hear my own voice played back I just sit there cringing.",
+            kurdishText:
+                "کە گوێ دەگرم لە لێدانەوەی دەنگی خۆم تەنھا دادەنیشم و شەرم دەمگرێت.",
+            onPressedBritish: () => speakcringes4("en-GB"),
+            onPressedAmerican: () => speakcringes4("en-US"),
           ),
         ],
       ),

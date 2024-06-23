@@ -167,64 +167,26 @@ class EnglishEntrycommunication extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دەربڕین و ئاڵوگۆڕی بیرۆکە و ھەست و سۆز، یان پێدانی زانیاری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Good communication between team leaders and members is essential."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گفتوگۆی باش لە نێوان سەرکردەکان و ئەندامان گرنگە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "communication", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommunications1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommunications1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Good communication between team leaders and members is essential.",
+                            kurdishText:
+                                "گفتوگۆی باش لە نێوان سەرکردەکان و ئەندامان گرنگە.", // communication",
+                            onPressedBritish: () =>
+                                speakcommunications1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommunications1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The campaign will appear across all communication channels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمپینەکە لە ھەموو ڕێگاکانی پەیوەندییەوە دەردەکەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommunications2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommunications2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The campaign will appear across all communication channels.",
+                            kurdishText:
+                                "کەمپینەکە لە ھەموو ڕێگاکانی پەیوەندییەوە دەردەکەوێت.",
+                            onPressedBritish: () =>
+                                speakcommunications2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommunications2("en-US"),
                           ),
                           Column(
                             children: [
@@ -357,97 +319,40 @@ class EnglishEntrycommunication extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕێگاکانی ناردنی زانیاری، بەتایبەتی موبایل، ڕادیۆ، کۆمپیوتەر، ھتد، یان ڕێگا و سکەی شەمەندەفەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new airport will improve communications between the islands."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەخانەکە تازەکە گواستنەوە لە نێوان دوورگەکاندا بەھێز دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommunications7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommunications7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new airport will improve communications between the islands.",
+                            kurdishText:
+                                "فڕۆکەخانەکە تازەکە گواستنەوە لە نێوان دوورگەکاندا بەھێز دەکات.",
+                            onPressedBritish: () =>
+                                speakcommunications7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommunications7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Paris has good rail communications with other major cities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاریس ڕێگای ئاسنی باشی ھاتووچۆی ھەیە لەگەڵ شارەکانی دیکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommunications8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommunications8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Paris has good rail communications with other major cities.",
+                            kurdishText:
+                                "پاریس ڕێگای ئاسنی باشی ھاتووچۆی ھەیە لەگەڵ شارەکانی دیکەدا.",
+                            onPressedBritish: () =>
+                                speakcommunications8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommunications8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) نامەیەک، پەیوەندییەکی تەلەفۆنی، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He received an official communication about the reorganization of the Ministry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیامێکی فەرمی پێگەشت سەبارەت بە ڕێکخستنەوەی وەزارەتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommunications9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommunications9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He received an official communication about the reorganization of the Ministry.",
+                            kurdishText:
+                                "پەیامێکی فەرمی پێگەشت سەبارەت بە ڕێکخستنەوەی وەزارەتەکە.",
+                            onPressedBritish: () =>
+                                speakcommunications9("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommunications9("en-US"),
                           ),
                         ],
                       ),

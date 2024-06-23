@@ -112,94 +112,37 @@ class EnglishEntryconceit extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شانازیکردنی زۆر بە خۆوە و ئەوەی دەیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can say without conceit that I have talent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانم بەبێ پۆز بڵێم بەھرەم ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conceit", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceits1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can say without conceit that I have talent.",
+                            kurdishText:
+                                "دەتوانم بەبێ پۆز بڵێم بەھرەم ھەیە.", // conceit",
+                            onPressedBritish: () => speakconceits1("en-GB"),
+                            onPressedAmerican: () => speakconceits1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بیرکەیەکی ھونەرییانە، یان خەیاڵاوییانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The director’s brilliant conceit was to film this tale in black and white."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیرۆکەی بلیمەتانەی دەرھێنەرەکە ئەوەبوو چیرۆکەکە بە ڕەش و سپی وێنە بگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceits2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceits2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The director’s brilliant conceit was to film this tale in black and white.",
+                            kurdishText:
+                                "بیرۆکەی بلیمەتانەی دەرھێنەرەکە ئەوەبوو چیرۆکەکە بە ڕەش و سپی وێنە بگرن.",
+                            onPressedBritish: () => speakconceits2("en-GB"),
+                            onPressedAmerican: () => speakconceits2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) دەربڕینێکی زیرەکانە لە نووسین یان قسەکردندا کە بەراوردکاری لە نێوان دوو شتدا دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The idea of the wind singing is a romantic conceit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیرۆکەی ئەوەی کە بایەکە دەخوێنێت لێکچواندنێکی ڕۆمانسییانەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceits3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceits3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The idea of the wind singing is a romantic conceit.",
+                            kurdishText:
+                                "بیرۆکەی ئەوەی کە بایەکە دەخوێنێت لێکچواندنێکی ڕۆمانسییانەیە.",
+                            onPressedBritish: () => speakconceits3("en-GB"),
+                            onPressedAmerican: () => speakconceits3("en-US"),
                           ),
                         ],
                       ),

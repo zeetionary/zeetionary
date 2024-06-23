@@ -103,62 +103,24 @@ class EnglishEntrycontroller extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە دامەزراوەیەکی گەورە یان بەشێکی بەڕێوە دەبات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is the new programme controller for BBC2."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرپەرشتیارە تازەکەی پڕۆگرامە لە BBC2."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "controller", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrollers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrollers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is the new programme controller for BBC2.",
+                            kurdishText:
+                                "سەرپەرشتیارە تازەکەی پڕۆگرامە لە BBC2.", // controller",
+                            onPressedBritish: () => speakcontrollers1("en-GB"),
+                            onPressedAmerican: () => speakcontrollers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ئامێرێک کە شتێک کۆنترۆڵ دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Moving my body made me feel more immersed in the game than if I had just been pressing buttons on a controller."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوڵاندنی جەستەم وایکرد زیاتر لە گەرمەکە ڕۆبچم وەک لەوەی تەنھا پەنجە بە دووگمەدا بنێم لەسەر دەسکێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrollers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrollers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Moving my body made me feel more immersed in the game than if I had just been pressing buttons on a controller.",
+                            kurdishText:
+                                "جوڵاندنی جەستەم وایکرد زیاتر لە گەرمەکە ڕۆبچم وەک لەوەی تەنھا پەنجە بە دووگمەدا بنێم لەسەر دەسکێک.",
+                            onPressedBritish: () => speakcontrollers2("en-GB"),
+                            onPressedAmerican: () => speakcontrollers2("en-US"),
                           ),
                         ],
                       ),

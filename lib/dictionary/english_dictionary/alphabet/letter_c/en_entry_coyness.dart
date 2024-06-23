@@ -242,60 +242,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شەرمنی یان خۆدەرخستن بەو شێوەیە، بەتایبەتی پەیوەندیدار بە خۆشەویستی و سێکس"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Suddenly the coyness was gone from her voice."),
-                    ExampleSentenceKurdish(text: "لەناکاو شەرمنی دەنگی نەما."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "coyness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoynesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoynesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Suddenly the coyness was gone from her voice.",
+            kurdishText:
+                "لەناکاو شەرمنی دەنگی نەما.", // coyness", please follow LX instructions
+            onPressedBritish: () => speakcoynesss1("en-GB"),
+            onPressedAmerican: () => speakcoynesss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) نەبوونی ئامادەیی بۆ گوتنی زانیاری زۆر لەسەر شتێک یان خۆت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government's coyness about military spending raised suspicions among the public."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زمان‌پارێزی حکومەت سەبارەت بە خەرجی سەربای گومانی لەناو ڕای گشتی زیادکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoynesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoynesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government's coyness about military spending raised suspicions among the public.",
+            kurdishText:
+                "زمان‌پارێزی حکومەت سەبارەت بە خەرجی سەربای گومانی لەناو ڕای گشتی زیادکرد.",
+            onPressedBritish: () => speakcoynesss2("en-GB"),
+            onPressedAmerican: () => speakcoynesss2("en-US"),
           ),
         ],
       ),

@@ -330,56 +330,19 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ژمارەیەکی زۆر لە خەڵکی کە لە شوێنێک کۆبوونەتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He pushed his way through the crowd."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێگای خۆی بەناو جەماوەرەکەدا کردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crowd", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He pushed his way through the crowd.",
+            kurdishText:
+                "ڕێگای خۆی بەناو جەماوەرەکەدا کردەوە.", // crowd", please follow LX instructions
+            onPressedBritish: () => speakcrowds1("en-GB"),
+            onPressedAmerican: () => speakcrowds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A small crowd had gathered outside the church."),
-                    ExampleSentenceKurdish(
-                        text: "جەماوەرێکی بچووک لە دەرەوەی کڵێساکە کۆبوونەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A small crowd had gathered outside the church.",
+            kurdishText: "جەماوەرێکی بچووک لە دەرەوەی کڵێساکە کۆبوونەوە.",
+            onPressedBritish: () => speakcrowds2("en-GB"),
+            onPressedAmerican: () => speakcrowds2("en-US"),
           ),
           Column(
             children: [
@@ -500,193 +463,62 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) گرووپێکی دیاریکراو لە خەڵک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Bob introduced her to some of the usual crowd (= people who often meet each other)."),
-                    ExampleSentenceKurdish(
-                        text: "بۆب ناساندی بە ھەندێک لە کۆمەڵە ئاشناکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowds7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowds7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Bob introduced her to some of the usual crowd (= people who often meet each other).",
+            kurdishText: "بۆب ناساندی بە ھەندێک لە کۆمەڵە ئاشناکان.",
+            onPressedBritish: () => speakcrowds7("en-GB"),
+            onPressedAmerican: () => speakcrowds7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They were a bit of a motley crowd."),
-                    ExampleSentenceKurdish(text: "دەستەیەکی ھەمەڕەنگ بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowds8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowds8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were a bit of a motley crowd.",
+            kurdishText: "دەستەیەکی ھەمەڕەنگ بوون.",
+            onPressedBritish: () => speakcrowds8("en-GB"),
+            onPressedAmerican: () => speakcrowds8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He got in with the wrong crowd."),
-                    ExampleSentenceKurdish(text: "چووە ناو گرووپێکی ھەڵەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowds9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowds9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He got in with the wrong crowd.",
+            kurdishText: "چووە ناو گرووپێکی ھەڵەوە.",
+            onPressedBritish: () => speakcrowds9("en-GB"),
+            onPressedAmerican: () => speakcrowds9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) خەڵکی ئاسایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We all like to think we stand out from the crowd (= are different from and better than other people)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئێمە ھەموومان حەز دەکەین وا بیربکەینەوە کە جیاوازین خەڵکە ڕەجاڵەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowds10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowds10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We all like to think we stand out from the crowd (= are different from and better than other people).",
+            kurdishText:
+                "ئێمە ھەموومان حەز دەکەین وا بیربکەینەوە کە جیاوازین خەڵکە ڕەجاڵەکە.",
+            onPressedBritish: () => speakcrowds10("en-GB"),
+            onPressedAmerican: () => speakcrowds10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He prefers to be one of the crowd."),
-                    ExampleSentenceKurdish(
-                        text: "پێی خۆشە یەکێک بێت لە خەڵکە ئاساییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowds11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowds11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He prefers to be one of the crowd.",
+            kurdishText: "پێی خۆشە یەکێک بێت لە خەڵکە ئاساییەکە.",
+            onPressedBritish: () => speakcrowds11("en-GB"),
+            onPressedAmerican: () => speakcrowds11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) پڕکردنی شوێنێک بەشێوەیەک شوێنی جووڵە کەمە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Thousands of people crowded the narrow streets."),
-                    ExampleSentenceKurdish(
-                        text: "ھەزاران کەس شەقامە تەسکەکانیان پڕکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowds12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowds12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Thousands of people crowded the narrow streets.",
+            kurdishText: "ھەزاران کەس شەقامە تەسکەکانیان پڕکرد.",
+            onPressedBritish: () => speakcrowds12("en-GB"),
+            onPressedAmerican: () => speakcrowds12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (کردار) پڕکردنی مێشکت بۆ ئەوەی بیر لە ھیچی دیکە نەکەیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Memories crowded his mind."),
-                    ExampleSentenceKurdish(
-                        text: "یادەوەرییەکان مێشکیان جەنجاڵ کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowds13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowds13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Memories crowded his mind.",
+            kurdishText: "یادەوەرییەکان مێشکیان جەنجاڵ کرد.",
+            onPressedBritish: () => speakcrowds13("en-GB"),
+            onPressedAmerican: () => speakcrowds13("en-US"),
           ),
         ],
       ),

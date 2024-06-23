@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پارچە شیشێکی ئاسنینی ڕاست کە سەرەکەی چەماوەتەوە و بەکاردێت بۆ کردنەوەی سندووق و ڕاکێشانی شتی گەورە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The thieves forced one of the windows open with a crowbar."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دزەکان بە نوێڵێک یەکێک لە پەنجەرەکانیان کردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crowbar", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowbars1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowbars1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The thieves forced one of the windows open with a crowbar.",
+            kurdishText:
+                "دزەکان بە نوێڵێک یەکێک لە پەنجەرەکانیان کردەوە.", // crowbar", please follow LX instructions
+            onPressedBritish: () => speakcrowbars1("en-GB"),
+            onPressedAmerican: () => speakcrowbars1("en-US"),
           ),
         ],
       ),

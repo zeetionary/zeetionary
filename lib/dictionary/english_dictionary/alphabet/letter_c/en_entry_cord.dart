@@ -130,149 +130,54 @@ class EnglishEntrycord extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تەلێکی بەھێزی ئەستوور یان حەبلێکی باریک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You need a piece of thick cord about two feet long."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستیت بە تەلێکی ئەستوور ھەیە کە نزیکەی دوو پێ درێژ بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cord", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcords1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcords1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You need a piece of thick cord about two feet long.",
+                            kurdishText:
+                                "پێویستیت بە تەلێکی ئەستوور ھەیە کە نزیکەی دوو پێ درێژ بێت.", // cord",
+                            onPressedBritish: () => speakcords1("en-GB"),
+                            onPressedAmerican: () => speakcords1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Where's the cord that ties back the curtains?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو پەتکە لە کوێیە کە پەردەکان دەبەستێتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcords2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcords2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Where's the cord that ties back the curtains?",
+                            kurdishText:
+                                "ئەو پەتکە لە کوێیە کە پەردەکان دەبەستێتەوە؟",
+                            onPressedBritish: () => speakcords2("en-GB"),
+                            onPressedAmerican: () => speakcords2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پارچە وایەرێک کە بە پلاستیک داپۆشراوە و بۆ گەیاندنی کارەبا بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I followed the telephone cord and found the wall socket."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شوێن وایەری تەلەفۆنەکە کەوتم و پلاکی سەر دیوارەکەم دۆزییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcords3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcords3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I followed the telephone cord and found the wall socket.",
+                            kurdishText:
+                                "شوێن وایەری تەلەفۆنەکە کەوتم و پلاکی سەر دیوارەکەم دۆزییەوە.",
+                            onPressedBritish: () => speakcords3("en-GB"),
+                            onPressedAmerican: () => speakcords3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cutters are useful for cutting electric cord to the right length."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلایسی کەتەر بەسوودە بۆ بڕینی وایەری کارەبایی لە درێژی درووستدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcords4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcords4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cutters are useful for cutting electric cord to the right length.",
+                            kurdishText:
+                                "پلایسی کەتەر بەسوودە بۆ بڕینی وایەری کارەبایی لە درێژی درووستدا.",
+                            onPressedBritish: () => speakcords4("en-GB"),
+                            onPressedAmerican: () => speakcords4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) بەشێک لە جەستە کە وەک پەتکێکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The baby was still attached to its mother by the cord."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکە ھێشتا بە دڕکە پەتکی بەسترابوو بە دایکییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcords5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcords5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The baby was still attached to its mother by the cord.",
+                            kurdishText:
+                                "منداڵەکە ھێشتا بە دڕکە پەتکی بەسترابوو بە دایکییەوە.",
+                            onPressedBritish: () => speakcords5("en-GB"),
+                            onPressedAmerican: () => speakcords5("en-US"),
                           ),
                         ],
                       ),

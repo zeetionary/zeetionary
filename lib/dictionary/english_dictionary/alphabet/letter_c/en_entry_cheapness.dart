@@ -90,32 +90,13 @@ class EnglishEntrycheapness extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "١. (ناو) ھەرزانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The relative cheapness of foreign travel means that more people are going abroad than ever before."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاڕادەیەک ھەرزانی گەشت بۆ دەرەوە واتا خەڵکی زیاتر بۆ دەرەوە دەچن زیاتر لە ھەر کاتێکی دیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheapness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheapnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheapnesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The relative cheapness of foreign travel means that more people are going abroad than ever before.",
+                            kurdishText:
+                                "تاڕادەیەک ھەرزانی گەشت بۆ دەرەوە واتا خەڵکی زیاتر بۆ دەرەوە دەچن زیاتر لە ھەر کاتێکی دیکە.", // cheapness",
+                            onPressedBritish: () => speakcheapnesss1("en-GB"),
+                            onPressedAmerican: () => speakcheapnesss1("en-US"),
                           ),
                         ],
                       ),

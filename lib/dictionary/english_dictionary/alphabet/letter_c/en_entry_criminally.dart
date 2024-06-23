@@ -251,90 +251,30 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) پەیوەندیدار بە یاسای تاوانکاری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Not a single officer has been found criminally liable."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەک ئەفسەریش بە یاسای تاوانکاری بە بەرپرس دانەنراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "criminally", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriminallys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriminallys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Not a single officer has been found criminally liable.",
+            kurdishText:
+                "یەک ئەفسەریش بە یاسای تاوانکاری بە بەرپرس دانەنراوە.", // criminally", please follow LX instructions
+            onPressedBritish: () => speakcriminallys1("en-GB"),
+            onPressedAmerican: () => speakcriminallys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He is too young to be held criminally responsible."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر گەنجە تاوەکو بە پێی یاسای تاواناکری بە بەرپرس دابنرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriminallys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriminallys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He is too young to be held criminally responsible.",
+            kurdishText:
+                "زۆر گەنجە تاوەکو بە پێی یاسای تاواناکری بە بەرپرس دابنرێت.",
+            onPressedBritish: () => speakcriminallys2("en-GB"),
+            onPressedAmerican: () => speakcriminallys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵکار) بە شێوەیەکی ناڕەوا یان زۆر خراپ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Car parking at an airport is criminally expensive."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەستاندنی ئۆتۆمبێل لە فڕۆکەخانە ناڕەواییانە گرانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriminallys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriminallys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Car parking at an airport is criminally expensive.",
+            kurdishText: "وەستاندنی ئۆتۆمبێل لە فڕۆکەخانە ناڕەواییانە گرانە.",
+            onPressedBritish: () => speakcriminallys3("en-GB"),
+            onPressedAmerican: () => speakcriminallys3("en-US"),
           ),
         ],
       ),

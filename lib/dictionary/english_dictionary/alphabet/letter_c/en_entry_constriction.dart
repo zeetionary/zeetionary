@@ -119,126 +119,49 @@ class EnglishEntryconstriction extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) توندبوون یان تەسکبوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He felt a constriction in his chest."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە توندبوون لە سنگیدا کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constriction", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstrictions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstrictions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He felt a constriction in his chest.",
+                            kurdishText:
+                                "ھەستی بە توندبوون لە سنگیدا کرد.", // constriction",
+                            onPressedBritish: () =>
+                                speakconstrictions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstrictions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "High blood pressure can be caused by many things, but one of the major causes is blood vessel constriction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرزی فشاری خوێن دەکرێت بەھۆی زۆر شتەوە بێت، بەڵام یەکێک لە ھۆکارە سەرەکییەکان تەسکبوونەوەی دەمارەکانی خوێن بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstrictions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstrictions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "High blood pressure can be caused by many things, but one of the major causes is blood vessel constriction.",
+                            kurdishText:
+                                "بەرزی فشاری خوێن دەکرێت بەھۆی زۆر شتەوە بێت، بەڵام یەکێک لە ھۆکارە سەرەکییەکان تەسکبوونەوەی دەمارەکانی خوێن بێت.",
+                            onPressedBritish: () =>
+                                speakconstrictions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstrictions2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) سنووردارکردنی ژیانی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The constrictions of prison life were inhuman."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سنووردارکردنی ژیانی زیندان نامرۆڤانە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstrictions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstrictions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The constrictions of prison life were inhuman.",
+                            kurdishText:
+                                "سنووردارکردنی ژیانی زیندان نامرۆڤانە بوو.",
+                            onPressedBritish: () =>
+                                speakconstrictions3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstrictions3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you are talking about the workplace there are a lot of constrictions and limitations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر باسی شوێنی کار دەکەیت ئەوا ژمارەیەکی زۆر بەربەست و سنوورداری ھەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstrictions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstrictions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you are talking about the workplace there are a lot of constrictions and limitations.",
+                            kurdishText:
+                                "ئەگەر باسی شوێنی کار دەکەیت ئەوا ژمارەیەکی زۆر بەربەست و سنوورداری ھەن.",
+                            onPressedBritish: () =>
+                                speakconstrictions4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstrictions4("en-US"),
                           ),
                         ],
                       ),

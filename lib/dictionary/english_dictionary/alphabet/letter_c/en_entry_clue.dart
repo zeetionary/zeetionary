@@ -148,204 +148,72 @@ class EnglishEntryclue extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک، بەڵگەیەک، یان زانیارییەک کە یارمەتی پۆلیس دەدات لە چارەسەری تاوانێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The burglar left no clues."),
-                                    ExampleSentenceKurdish(
-                                        text: "دزەکە ھیچ سەرەداوێکی جێنەھێشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clue", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclues1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclues1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The burglar left no clues.",
+                            kurdishText:
+                                "دزەکە ھیچ سەرەداوێکی جێنەھێشت.", // clue",
+                            onPressedBritish: () => speakclues1("en-GB"),
+                            onPressedAmerican: () => speakclues1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They are searching for clues about the kidnapping."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە شوێن سەرەداودا دەگەڕێن سەبارەت بە ڕفاندنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclues2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclues2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They are searching for clues about the kidnapping.",
+                            kurdishText:
+                                "بە شوێن سەرەداودا دەگەڕێن سەبارەت بە ڕفاندنەکە.",
+                            onPressedBritish: () => speakclues2("en-GB"),
+                            onPressedAmerican: () => speakclues2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hat gives a clue to the identity of the killer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڵاوەکە سەرەداوێک دەدات بەدەستەوە سەبارەت بە ناسنامەی بکووژەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclues3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclues3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hat gives a clue to the identity of the killer.",
+                            kurdishText:
+                                "کڵاوەکە سەرەداوێک دەدات بەدەستەوە سەبارەت بە ناسنامەی بکووژەکە.",
+                            onPressedBritish: () => speakclues3("en-GB"),
+                            onPressedAmerican: () => speakclues3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕاستییەک یان بەڵگەیەک کە دەیدۆزیتەوە بۆ زانینی وەڵامی کێشەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This data may provide clues about the current economic situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم داتایە ڕەنگە زانیاری لەسەر دۆخی ئابووری ئێستا بخاتە بەردەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclues4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclues4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This data may provide clues about the current economic situation.",
+                            kurdishText:
+                                "ئەم داتایە ڕەنگە زانیاری لەسەر دۆخی ئابووری ئێستا بخاتە بەردەست.",
+                            onPressedBritish: () => speakclues4("en-GB"),
+                            onPressedAmerican: () => speakclues4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The trailer gives a few important clues about the film's plot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ترەیلەرەکە چەند زانیارییەکی گرنگ سەبارەت بە چیرۆکی فیلمەکە دەخاتە بەردەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclues5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclues5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The trailer gives a few important clues about the film's plot.",
+                            kurdishText:
+                                "ترەیلەرەکە چەند زانیارییەکی گرنگ سەبارەت بە چیرۆکی فیلمەکە دەخاتە بەردەست.",
+                            onPressedBritish: () => speakclues5("en-GB"),
+                            onPressedAmerican: () => speakclues5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This research might provide an important clue about how cancer develops."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم توێژینەوە ڕەنگە سەرەتاڵی گرنگ بدات بەدەستەوە سەبارەت بەوەی چۆن شێرپەنجە گەشە دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclues6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclues6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This research might provide an important clue about how cancer develops.",
+                            kurdishText:
+                                "ئەم توێژینەوە ڕەنگە سەرەتاڵی گرنگ بدات بەدەستەوە سەبارەت بەوەی چۆن شێرپەنجە گەشە دەکات.",
+                            onPressedBritish: () => speakclues6("en-GB"),
+                            onPressedAmerican: () => speakclues6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) وشە یان زانیاری کە ئاسانکاری دەکات لە زانینی وەڵامی پرسیارێک، مەتەڵێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘You'll never guess who I saw today!’ ‘Give me a clue.’"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "'ھەرگیز ھەڵیناھێنی ئەمڕۆ چیم بینی!' 'سەرەداوێکم بدەرێ.'"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclues7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclues7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘You'll never guess who I saw today!’ ‘Give me a clue.’",
+                            kurdishText:
+                                "'ھەرگیز ھەڵیناھێنی ئەمڕۆ چیم بینی!' 'سەرەداوێکم بدەرێ.'",
+                            onPressedBritish: () => speakclues7("en-GB"),
+                            onPressedAmerican: () => speakclues7("en-US"),
                           ),
                         ],
                       ),

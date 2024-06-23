@@ -101,63 +101,25 @@ class EnglishEntrycherub extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) فریشتەیەک کە لە ھونەردا لە شێوەی منداڵێکی قەڵەو وێنا دەکرێت کە باڵی ھەیە و زۆرجار کوڕە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The church's ceiling was adorned with paintings of cherubs playing musical instruments."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بنبانی کڵێساکە ڕازێندرابووەوە بە تابلۆی منداڵی فریشتەیی کە ئامێری میوزیکییان دەژەند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cherub", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcherubs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcherubs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The church's ceiling was adorned with paintings of cherubs playing musical instruments.",
+                            kurdishText:
+                                "بنبانی کڵێساکە ڕازێندرابووەوە بە تابلۆی منداڵی فریشتەیی کە ئامێری میوزیکییان دەژەند.", // cherub",
+                            onPressedBritish: () => speakcherubs1("en-GB"),
+                            onPressedAmerican: () => speakcherubs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) منداڵێکی جوان؛ منداڵێک کە ھەڵسوکەوتی جوانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was quite a good student—no cherub, but no devil either."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندکارێکی باش بووم, پارییەک نەبووم، بەڵام شەیتانیش نەبووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcherubs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcherubs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was quite a good student—no cherub, but no devil either.",
+                            kurdishText:
+                                "خوێندکارێکی باش بووم, پارییەک نەبووم، بەڵام شەیتانیش نەبووم.",
+                            onPressedBritish: () => speakcherubs2("en-GB"),
+                            onPressedAmerican: () => speakcherubs2("en-US"),
                           ),
                         ],
                       ),

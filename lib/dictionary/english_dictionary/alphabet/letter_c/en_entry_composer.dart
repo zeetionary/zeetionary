@@ -94,32 +94,13 @@ class EnglishEntrycomposer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئاوازدانەر؛ کەسێک کە میوزیک دەنووسێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Verdi was a prolific composer of operas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڤێردی ئاوازدانەرێکی پڕکاری ئۆپێرا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "composer", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomposers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomposers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Verdi was a prolific composer of operas.",
+                            kurdishText:
+                                "ڤێردی ئاوازدانەرێکی پڕکاری ئۆپێرا بوو.", // composer",
+                            onPressedBritish: () => speakcomposers1("en-GB"),
+                            onPressedAmerican: () => speakcomposers1("en-US"),
                           ),
                         ],
                       ),

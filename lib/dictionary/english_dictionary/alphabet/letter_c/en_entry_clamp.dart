@@ -137,182 +137,68 @@ class EnglishEntryclamp extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) گرتنی شتێک بە توندی، یان پێکەوەبەستنی دوو شت بە مەنگەنە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Clamp the two halves together until the glue dries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو نیوەکە بە مەنگەنە ببەستە بە یەکەوە تاوەکو چەسپەکە وشکدەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clamp", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclamps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclamps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Clamp the two halves together until the glue dries.",
+                            kurdishText:
+                                "ھەردوو نیوەکە بە مەنگەنە ببەستە بە یەکەوە تاوەکو چەسپەکە وشکدەبێتەوە.", // clamp",
+                            onPressedBritish: () => speakclamps1("en-GB"),
+                            onPressedAmerican: () => speakclamps1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) گرتن یان گرێدانی شتێک زۆر بە توندی بە شێوەیەک کە نەجوڵێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had a cigar clamped between his teeth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیگارێکی لە بەینی ددانەکانی توندکردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclamps2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclamps2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had a cigar clamped between his teeth.",
+                            kurdishText:
+                                "سیگارێکی لە بەینی ددانەکانی توندکردبوو.",
+                            onPressedBritish: () => speakclamps2("en-GB"),
+                            onPressedAmerican: () => speakclamps2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She clamped a pair of headphones over her ears."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جووتێک ھێدفۆنی لە گوێیەکانی ئاخاندبوو/ترنجاندبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclamps3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclamps3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She clamped a pair of headphones over her ears.",
+                            kurdishText:
+                                "جووتێک ھێدفۆنی لە گوێیەکانی ئاخاندبوو/ترنجاندبوو.",
+                            onPressedBritish: () => speakclamps3("en-GB"),
+                            onPressedAmerican: () => speakclamps3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) بەستنی ئامێرێک لە ئۆتۆمبێلێک کە بە نایاسایی ڕاگیراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Her car had been clamped."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئۆتۆمبێلەکەی گیرەی لێدرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclamps5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclamps5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her car had been clamped.",
+                            kurdishText: "ئۆتۆمبێلەکەی گیرەی لێدرابوو.",
+                            onPressedBritish: () => speakclamps5("en-GB"),
+                            onPressedAmerican: () => speakclamps5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ئامێرێک بۆ بەستنی شت بە یەکدییەوە، بەزۆری بە بورغوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Carefully tighten the clamp until it firmly supports the pipette in a vertical position."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە وریاییەوە مەنگەنەکە توندبکەوە تاوەکو بۆریچکەکە لە دۆخێکی ستوونیدا ڕادەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclamps4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclamps4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Carefully tighten the clamp until it firmly supports the pipette in a vertical position.",
+                            kurdishText:
+                                "بە وریاییەوە مەنگەنەکە توندبکەوە تاوەکو بۆریچکەکە لە دۆخێکی ستوونیدا ڕادەگرێت.",
+                            onPressedBritish: () => speakclamps4("en-GB"),
+                            onPressedAmerican: () => speakclamps4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) ئامێرێک کە لە ئۆتۆمبێلێک دەدرێت کە بە نایاسایی ڕاگیراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Finding a clamp on his car, he realized he had parked illegally."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە گیرەیەکی بە ئۆتۆمبێلەکەیەوە دیت، زانی کە بە نایاسایی ڕایگرتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclamps6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclamps6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Finding a clamp on his car, he realized he had parked illegally.",
+                            kurdishText:
+                                "کە گیرەیەکی بە ئۆتۆمبێلەکەیەوە دیت، زانی کە بە نایاسایی ڕایگرتووە.",
+                            onPressedBritish: () => speakclamps6("en-GB"),
+                            onPressedAmerican: () => speakclamps6("en-US"),
                           ),
                         ],
                       ),

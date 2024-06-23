@@ -189,32 +189,13 @@ class EnglishEntrycalcium extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کالسیۆم؛ مادەیەکی کیمیاییە کە لە لەشی مرۆڤدا لە ددان و ئێسکدا ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Milk is a rich source of calcium, promoting strong bones and teeth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شیر سەرچاوەیەکی بەھێزی کالسیۆمە کە ئێسک و ددان بەھێز دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calcium", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalciums1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalciums1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Milk is a rich source of calcium, promoting strong bones and teeth.",
+                            kurdishText:
+                                "شیر سەرچاوەیەکی بەھێزی کالسیۆمە کە ئێسک و ددان بەھێز دەکات.", // calcium
+                            onPressedBritish: () => speakcalciums1("en-GB"),
+                            onPressedAmerican: () => speakcalciums1("en-US"),
                           ),
                         ],
                       ),

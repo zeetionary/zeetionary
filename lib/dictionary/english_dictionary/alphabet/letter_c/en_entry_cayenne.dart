@@ -191,32 +191,13 @@ class EnglishEntrycayenne extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بیبەرێکی سوور کە لە خواردن‌لێناندا بەکاردێت بۆ پێدانی تامێکی توون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cayenne peppers are long, thin, and typically measure between 10-25 cm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیبەرەسوورە درێژ و باریکن و بەزۆری لە نێوان ١٠-٢٥ سم دەبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cayenne", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcayennes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcayennes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cayenne peppers are long, thin, and typically measure between 10-25 cm.",
+                            kurdishText:
+                                "بیبەرەسوورە درێژ و باریکن و بەزۆری لە نێوان ١٠-٢٥ سم دەبن.", // cayenne",
+                            onPressedBritish: () => speakcayennes1("en-GB"),
+                            onPressedAmerican: () => speakcayennes1("en-US"),
                           ),
                         ],
                       ),

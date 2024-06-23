@@ -95,32 +95,13 @@ class EnglishEntrycompatriot extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھاونیشتیمانی؛ کەسێک کە لە ھەمان وڵاتی کەسێکی دیکە لەدایکبووە، یان ناسنامەی ھەمان وڵاتی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He played against one of his compatriots in the semi-final."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دژ بە یەکێک لە ھاونیشتیمانییەکانی یاریکرد لە نیوەی کۆتاییدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compatriot", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompatriots1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompatriots1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He played against one of his compatriots in the semi-final.",
+                            kurdishText:
+                                "دژ بە یەکێک لە ھاونیشتیمانییەکانی یاریکرد لە نیوەی کۆتاییدا.", // compatriot",
+                            onPressedBritish: () => speakcompatriots1("en-GB"),
+                            onPressedAmerican: () => speakcompatriots1("en-US"),
                           ),
                         ],
                       ),

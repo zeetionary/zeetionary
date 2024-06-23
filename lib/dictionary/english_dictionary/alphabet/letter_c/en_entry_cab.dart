@@ -189,57 +189,19 @@ class EnglishEntrycab extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) تەکسی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'll call you a cab."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندی بە تەکسییەکەوە دەکەم بۆت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cab", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+  englishText: "I'll call you a cab.",
+                                    kurdishText:
+                                            "پەیوەندی بە تەکسییەکەوە دەکەم بۆت.", // cab
+                                            onPressedBritish: () => speakcabs1("en-GB"),
+onPressedAmerican: () => speakcabs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Let's take a cab."),
-                                    ExampleSentenceKurdish(
-                                        text: "با تەکسییەک بگرین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+  englishText: "Let's take a cab.",
+                                    kurdishText: "با تەکسییەک بگرین.",
+                                    onPressedBritish: () => speakcabs2("en-GB"),
+onPressedAmerican: () => speakcabs2("en-US"),
                           ),
                           Column(
                             children: [
@@ -312,32 +274,13 @@ class EnglishEntrycab extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەشی پێشەوەی بارھەڵگرێک، پاسێک، شەمەندەفەرێک، ھتد کە شۆفێرەکە تێیدا دادەنیشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The captain remained in the cab of the ship for most part of the journey."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاپتنەکە لە کابی کەشتییەکەدا مایەوە بۆ زۆرینەی ماوەی گەشتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+  englishText:
+                                            "The captain remained in the cab of the ship for most part of the journey.",
+                                    kurdishText:
+                                            "کاپتنەکە لە کابی کەشتییەکەدا مایەوە بۆ زۆرینەی ماوەی گەشتەکە.",
+                                    onPressedBritish: () => speakcabs5("en-GB"),
+onPressedAmerican: () => speakcabs5("en-US"),
                           ),
                         ],
                       ),

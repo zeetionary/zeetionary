@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) زۆرزانانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The microphone was cunningly concealed in the bookcase."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مایکرۆفۆنەکە زۆرزانانە لە جێ‌کتێبەکەدا شاردرابوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cunningly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcunninglys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcunninglys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The microphone was cunningly concealed in the bookcase.",
+            kurdishText:
+                "مایکرۆفۆنەکە زۆرزانانە لە جێ‌کتێبەکەدا شاردرابوویەوە.", // cunningly", please follow LX instructions
+            onPressedBritish: () => speakcunninglys1("en-GB"),
+            onPressedAmerican: () => speakcunninglys1("en-US"),
           ),
         ],
       ),

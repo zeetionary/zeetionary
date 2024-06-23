@@ -94,32 +94,13 @@ class EnglishEntrycistern extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) شوێنێک کە تێیدا ئاو ھەڵدەگیرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ancient Romans used cisterns to collect rainwater for bathing and drinking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆمە کۆنەکان عەماراویان بەکاردەھێنا بۆ کۆکردنەوەی ئاوی باران بۆ خۆشۆردن و خواردنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cistern", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcisterns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcisterns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ancient Romans used cisterns to collect rainwater for bathing and drinking.",
+                            kurdishText:
+                                "ڕۆمە کۆنەکان عەماراویان بەکاردەھێنا بۆ کۆکردنەوەی ئاوی باران بۆ خۆشۆردن و خواردنەوە.", // cistern",
+                            onPressedBritish: () => speakcisterns1("en-GB"),
+                            onPressedAmerican: () => speakcisterns1("en-US"),
                           ),
                         ],
                       ),

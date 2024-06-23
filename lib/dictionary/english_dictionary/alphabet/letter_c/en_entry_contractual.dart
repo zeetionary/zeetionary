@@ -95,34 +95,14 @@ class EnglishEntrycontractual extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە مادەکانی گرێبەستێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have contractual obligations to control prices."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسیارێتی بڕیارنامەییمان ھەیە کە کۆنترۆڵی نرخ بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contractual", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontractuals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontractuals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have contractual obligations to control prices.",
+                            kurdishText:
+                                "بەرپرسیارێتی بڕیارنامەییمان ھەیە کە کۆنترۆڵی نرخ بکەین.", // contractual",
+                            onPressedBritish: () => speakcontractuals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontractuals1("en-US"),
                           ),
                         ],
                       ),

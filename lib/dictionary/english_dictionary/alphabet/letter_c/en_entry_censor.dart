@@ -192,91 +192,34 @@ class EnglishEntrycensor extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە کاری وایە چاو لە کتێبێک، فیلمێک، ھتد بکات و ئەو بەشانە ببسڕێتەوە کە نەگونجاون یان مەترسی سیاسییان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Military censors prevented the publication of some details."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاودێرانی سەربازی ڕێگریان لە بڵاوبوونەوەی ھەندێک وردەکاری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "censor", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcensors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcensors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Military censors prevented the publication of some details.",
+                            kurdishText:
+                                "چاودێرانی سەربازی ڕێگریان لە بڵاوبوونەوەی ھەندێک وردەکاری کرد.", // censor",
+                            onPressedBritish: () => speakcensors1("en-GB"),
+                            onPressedAmerican: () => speakcensors1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) سڕینەوەی ئەو بەشانەی کتێبێک، فیلمێک، ھتد کە نەگونجاون یان مەترسی سیاسییان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The news reports had been heavily censored."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاپۆرتە ھەواڵییەکان بە تەواوی سانسۆر کراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcensors2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcensors2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The news reports had been heavily censored.",
+                            kurdishText:
+                                "ڕاپۆرتە ھەواڵییەکان بە تەواوی سانسۆر کراون.",
+                            onPressedBritish: () => speakcensors2("en-GB"),
+                            onPressedAmerican: () => speakcensors2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The media may be censored, especially on military issues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میدیا دەکرێت سانسۆر بکرێت، بە تایبەتی لە بابەتە سەربازییەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcensors3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcensors3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The media may be censored, especially on military issues.",
+                            kurdishText:
+                                "میدیا دەکرێت سانسۆر بکرێت، بە تایبەتی لە بابەتە سەربازییەکاندا.",
+                            onPressedBritish: () => speakcensors3("en-GB"),
+                            onPressedAmerican: () => speakcensors3("en-US"),
                           ),
                         ],
                       ),

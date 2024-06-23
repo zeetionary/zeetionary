@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ھەبوونی کێو و بەرزایی زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The island is a mixture of high mountains, craggy coastline, sandy beaches and deep blue sea."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوورگەکە تێکەڵەیەکە لە چیای بەرز، ھێڵی کەناری کێودار، کەناراوی خۆڵاوی، و دەریای شینی قووڵە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "craggy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraggys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraggys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The island is a mixture of high mountains, craggy coastline, sandy beaches and deep blue sea.",
+            kurdishText:
+                "دوورگەکە تێکەڵەیەکە لە چیای بەرز، ھێڵی کەناری کێودار، کەناراوی خۆڵاوی، و دەریای شینی قووڵە.", // craggy", please follow LX instructions
+            onPressedBritish: () => speakcraggys1("en-GB"),
+            onPressedAmerican: () => speakcraggys1("en-US"),
           ),
         ],
       ),

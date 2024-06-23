@@ -127,146 +127,50 @@ class EnglishEntryconvince extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ڕازیکردن بەوەی شتێک ڕاستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Are the prime minister's assurances enough to convince the public?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیاییەکانی سەرۆک وەزیران بەسن بۆ ڕازیکردنی خەڵکی؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convince", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvinces1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvinces1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Are the prime minister's assurances enough to convince the public?",
+                            kurdishText:
+                                "دڵنیاییەکانی سەرۆک وەزیران بەسن بۆ ڕازیکردنی خەڵکی؟", // convince",
+                            onPressedBritish: () => speakconvinces1("en-GB"),
+                            onPressedAmerican: () => speakconvinces1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has managed to convince even the sceptics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانیویەتی تەنانەت گومان‌دارانیش ڕازی بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvinces2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvinces2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has managed to convince even the sceptics.",
+                            kurdishText:
+                                "توانیویەتی تەنانەت گومان‌دارانیش ڕازی بکات.",
+                            onPressedBritish: () => speakconvinces2("en-GB"),
+                            onPressedAmerican: () => speakconvinces2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I’d convinced myself (that) I was right."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەناعەتم بە خۆم کردبوو کە ڕاستم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvinces3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvinces3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I’d convinced myself (that) I was right.",
+                            kurdishText: "قەناعەتم بە خۆم کردبوو کە ڕاستم.",
+                            onPressedBritish: () => speakconvinces3("en-GB"),
+                            onPressedAmerican: () => speakconvinces3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Will the president be able to convince voters that he deserves a second term?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک دەتوانێت دەنگدەران قایل بکات کە شایەنی خولی دووەمە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvinces4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvinces4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Will the president be able to convince voters that he deserves a second term?",
+                            kurdishText:
+                                "سەرۆک دەتوانێت دەنگدەران قایل بکات کە شایەنی خولی دووەمە؟",
+                            onPressedBritish: () => speakconvinces4("en-GB"),
+                            onPressedAmerican: () => speakconvinces4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) ڕازیکردن بۆ کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've been trying to convince him to see a doctor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵم داوە ڕازی بکەم کە دکتۆرێک ببینێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvinces5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvinces5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've been trying to convince him to see a doctor.",
+                            kurdishText:
+                                "ھەوڵم داوە ڕازی بکەم کە دکتۆرێک ببینێت.",
+                            onPressedBritish: () => speakconvinces5("en-GB"),
+                            onPressedAmerican: () => speakconvinces5("en-US"),
                           ),
                         ],
                       ),

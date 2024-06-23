@@ -301,260 +301,88 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) گەندەڵ؛ ھەبوونی ئامادەیی بۆ بەکارھێنانی دەسەڵاتی خۆیان بۆ ئەنجامدانی کاری خراپ یان نایاسایی لە بۆ پارە یان بۆ بەدەستھێنانی سوود"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was seen as the only way to overthrow a corrupt regime."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە تەنھا ڕێگا بینرا بۆ کۆتایی ھێنان بە ڕژێمێکی گەندەڵ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corrupt", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrupts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrupts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was seen as the only way to overthrow a corrupt regime.",
+            kurdishText:
+                "بە تەنھا ڕێگا بینرا بۆ کۆتایی ھێنان بە ڕژێمێکی گەندەڵ.", // corrupt", please follow LX instructions
+            onPressedBritish: () => speakcorrupts1("en-GB"),
+            onPressedAmerican: () => speakcorrupts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They promised to seek out the corrupt officials who had accepted the bribes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەڵێنیان دا ئەو بەرپرسە گەندەڵانە بدۆزنەوە کە بەرتیلیان وەرگرتبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrupts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrupts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They promised to seek out the corrupt officials who had accepted the bribes.",
+            kurdishText:
+                "بەڵێنیان دا ئەو بەرپرسە گەندەڵانە بدۆزنەوە کە بەرتیلیان وەرگرتبوو.",
+            onPressedBritish: () => speakcorrupts2("en-GB"),
+            onPressedAmerican: () => speakcorrupts2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) ڕەفتاری نائەخلاقی یان خراپ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They had been engaged in corrupt practices."),
-                    ExampleSentenceKurdish(
-                        text: "لە کاری نائەخلاقی تێوەگلابوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrupts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrupts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They had been engaged in corrupt practices.",
+            kurdishText: "لە کاری نائەخلاقی تێوەگلابوون.",
+            onPressedBritish: () => speakcorrupts3("en-GB"),
+            onPressedAmerican: () => speakcorrupts3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The whole system is inefficient and corrupt."),
-                    ExampleSentenceKurdish(
-                        text: "تەواوی سیستەمەکە ناکارامە و خراپە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrupts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrupts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The whole system is inefficient and corrupt.",
+            kurdishText: "تەواوی سیستەمەکە ناکارامە و خراپە.",
+            onPressedBritish: () => speakcorrupts4("en-GB"),
+            onPressedAmerican: () => speakcorrupts4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) فایلێکی کۆمپیوتەری کە کارناکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The file on the disk seems to be corrupt."),
-                    ExampleSentenceKurdish(text: "فایلی ناو دیسکەکە تێکچووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrupts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrupts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The file on the disk seems to be corrupt.",
+            kurdishText: "فایلی ناو دیسکەکە تێکچووە.",
+            onPressedBritish: () => speakcorrupts5("en-GB"),
+            onPressedAmerican: () => speakcorrupts5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) ھەبوونی کاریگەری خراپ لەسەر کەسێک و بردنی بە لای کاری نائەخلاقی و خراپدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was corrupted by power and ambition."),
-                    ExampleSentenceKurdish(
-                        text: "بە دەسەڵات و تەماح چاوی کوێر بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrupts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrupts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was corrupted by power and ambition.",
+            kurdishText: "بە دەسەڵات و تەماح چاوی کوێر بوو.",
+            onPressedBritish: () => speakcorrupts6("en-GB"),
+            onPressedAmerican: () => speakcorrupts6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The study claimed that violence on television corrupts the minds of children."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێکۆڵینەوەکە توندوتیژی لەسەر تەلەفیزیۆن مێشکی منداڵان تێکدەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrupts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrupts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The study claimed that violence on television corrupts the minds of children.",
+            kurdishText:
+                "لێکۆڵینەوەکە توندوتیژی لەسەر تەلەفیزیۆن مێشکی منداڵان تێکدەدات.",
+            onPressedBritish: () => speakcorrupts7("en-GB"),
+            onPressedAmerican: () => speakcorrupts7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (کردار) گۆڕینی شێوازی سەرەتای شتێک بەشێوەیەک کە خراپ بووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The sect was criticized for promoting a corrupted form of Buddhism."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گرووپەکە ڕەخنەی لێ گیردرا بۆ بانگەشە بۆ جۆرێکی تێکدراوی بودیزم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrupts8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrupts8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The sect was criticized for promoting a corrupted form of Buddhism.",
+            kurdishText:
+                "گرووپەکە ڕەخنەی لێ گیردرا بۆ بانگەشە بۆ جۆرێکی تێکدراوی بودیزم.",
+            onPressedBritish: () => speakcorrupts8("en-GB"),
+            onPressedAmerican: () => speakcorrupts8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (کردار) تێکدانی فایلی کۆمپیوتەری بە درووستکردنی ھەڵە تێیدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The program has somehow corrupted the system files."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پڕۆگرامەکە بەشێوەیەک فایلەکانی سیستەمەکەی تێکداوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrupts9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrupts9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The program has somehow corrupted the system files.",
+            kurdishText: "پڕۆگرامەکە بەشێوەیەک فایلەکانی سیستەمەکەی تێکداوە.",
+            onPressedBritish: () => speakcorrupts9("en-GB"),
+            onPressedAmerican: () => speakcorrupts9("en-US"),
           ),
         ],
       ),

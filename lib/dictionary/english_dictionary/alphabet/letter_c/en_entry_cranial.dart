@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) پەیوەندیدار بە کاسەی سەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cranial nerves are responsible for transmitting sensory information to the brain."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەمارەکانی کاسەی سەر پەرپرسن بۆ گواستنەوەی زانیاری ھەستەوەری بۆ مێشک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cranial", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcranials1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcranials1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Cranial nerves are responsible for transmitting sensory information to the brain.",
+            kurdishText:
+                "دەمارەکانی کاسەی سەر پەرپرسن بۆ گواستنەوەی زانیاری ھەستەوەری بۆ مێشک.", // cranial", please follow LX instructions
+            onPressedBritish: () => speakcranials1("en-GB"),
+            onPressedAmerican: () => speakcranials1("en-US"),
           ),
         ],
       ),

@@ -144,205 +144,71 @@ class EnglishEntrycirculate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) سوڕانەوە بە بەردەوامی بە شوێنێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The condition prevents the blood from circulating freely."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆخەکە ڕێگا لە خوێن دەگرێت بە بە سەربەستی بسووڕێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circulate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcirculates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcirculates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The condition prevents the blood from circulating freely.",
+                            kurdishText:
+                                "دۆخەکە ڕێگا لە خوێن دەگرێت بە بە سەربەستی بسووڕێتەوە.", // circulate",
+                            onPressedBritish: () => speakcirculates1("en-GB"),
+                            onPressedAmerican: () => speakcirculates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cooled air is circulated throughout the building."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوای سارد بە بیناکەدا بڵاودەکرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcirculates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcirculates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cooled air is circulated throughout the building.",
+                            kurdishText:
+                                "ھەوای سارد بە بیناکەدا بڵاودەکرێتەوە.",
+                            onPressedBritish: () => speakcirculates2("en-GB"),
+                            onPressedAmerican: () => speakcirculates2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The heart circulates blood around the body."),
-                                    ExampleSentenceKurdish(
-                                        text: "دڵ خوێن بە جەستەدا سووڕ دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcirculates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcirculates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The heart circulates blood around the body.",
+                            kurdishText: "دڵ خوێن بە جەستەدا سووڕ دەدات.",
+                            onPressedBritish: () => speakcirculates3("en-GB"),
+                            onPressedAmerican: () => speakcirculates3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بڵاوبوونەوەی چیرۆکێک، زانیارییەک، بیرۆکەیەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Rumours began to circulate about his financial problems."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگۆ لەسەر کێشە داراییەکانی دەستی بە بڵاوبوونەوە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcirculates4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcirculates4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Rumours began to circulate about his financial problems.",
+                            kurdishText:
+                                "دەنگۆ لەسەر کێشە داراییەکانی دەستی بە بڵاوبوونەوە کرد.",
+                            onPressedBritish: () => speakcirculates4("en-GB"),
+                            onPressedAmerican: () => speakcirculates4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who has been circulating these rumours?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێیە ئەم دەنگۆیانە بڵاودەکاتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcirculates5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcirculates5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Who has been circulating these rumours?",
+                            kurdishText: "کێیە ئەم دەنگۆیانە بڵاودەکاتەوە؟",
+                            onPressedBritish: () => speakcirculates5("en-GB"),
+                            onPressedAmerican: () => speakcirculates5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) ناردنی کەلوپەل یان زانیاری بۆ ھەموو کەسانەی لە گرووپێکن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book was circulated widely in Russia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە بە بەرفراوانی بە ڕووسیادا بڵاکرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcirculates6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcirculates6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book was circulated widely in Russia.",
+                            kurdishText:
+                                "کتێبەکە بە بەرفراوانی بە ڕووسیادا بڵاکرایەوە.",
+                            onPressedBritish: () => speakcirculates6("en-GB"),
+                            onPressedAmerican: () => speakcirculates6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The document will be circulated to all members."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵگەنامەکە بۆ ھەموو ئەندامان دەنێردرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcirculates7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcirculates7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The document will be circulated to all members.",
+                            kurdishText:
+                                "بەڵگەنامەکە بۆ ھەموو ئەندامان دەنێردرێت.",
+                            onPressedBritish: () => speakcirculates7("en-GB"),
+                            onPressedAmerican: () => speakcirculates7("en-US"),
                           ),
                         ],
                       ),

@@ -113,100 +113,40 @@ class EnglishEntryconjunction extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) وشەیەک کە وشە، دەستەواژە، یان ڕستە پێکەوە دەبەستێی، بۆ نموونە وەک and، but، but، یان because"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The conjunction \"although\" joins the two clauses in the sentence \"He left, although I begged him not to.\""),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێکدەری \"although\" دوو بڕگەی ڕستەی \"He left, although I begged him not to.\" پێکەوە گرێ دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conjunction", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconjunctions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconjunctions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The conjunction \"although\" joins the two clauses in the sentence \"He left, although I begged him not to.\"",
+                            kurdishText:
+                                "لێکدەری \"although\" دوو بڕگەی ڕستەی \"He left, although I begged him not to.\" پێکەوە گرێ دەدات.", // conjunction",
+                            onPressedBritish: () => speakconjunctions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconjunctions1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) زنجیرەی کۆمەڵە ڕووداوێک کە ئەنجامێکیان دەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The conjunction of low inflation and low unemployment came as a very pleasant surprise."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوکاتی ھەڵاوسانی کەم و بێکاری نزم سوپرایزێکی زۆر خۆش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconjunctions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconjunctions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The conjunction of low inflation and low unemployment came as a very pleasant surprise.",
+                            kurdishText:
+                                "ھاوکاتی ھەڵاوسانی کەم و بێکاری نزم سوپرایزێکی زۆر خۆش بوو.",
+                            onPressedBritish: () => speakconjunctions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconjunctions2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) تێپەڕبوونی ئەستێرە، ھەسارە، ھتد نزیک لە یەکەوە وەک ئەوەی لە زەوییەوە دەبینرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mars and Venus will be in exact conjunction on 1 September."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەریخ و زوھرە لە جووتبوونی تەواودا دەبن لە ١ ـی ئەیلوول."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconjunctions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconjunctions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mars and Venus will be in exact conjunction on 1 September.",
+                            kurdishText:
+                                "مەریخ و زوھرە لە جووتبوونی تەواودا دەبن لە ١ ـی ئەیلوول.",
+                            onPressedBritish: () => speakconjunctions3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconjunctions3("en-US"),
                           ),
                         ],
                       ),

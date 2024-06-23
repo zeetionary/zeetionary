@@ -190,62 +190,22 @@ class EnglishEntrycage extends StatelessWidget {
 کوردی: قەفەز، قەفەس، ڕ(ە)کە، بێرکم، ھەودک، بەند، ھەود
 """),
                           const DefinitionKurdish(text: """١. (ناو) قەفەز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don’t like seeing animals in cages."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزناکەم ئاژەڵان لە قەفەزدا ببینم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cage", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don’t like seeing animals in cages.",
+                            kurdishText:
+                                "حەزناکەم ئاژەڵان لە قەفەزدا ببینم.", // cage
+                            onPressedBritish: () => speakcages1("en-GB"),
+                            onPressedAmerican: () => speakcages1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) خستنە قەفەز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dogs are caged (up) at night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگەکان لە شەودا دەخرێنە قەفەز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcages2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The dogs are caged (up) at night.",
+                            kurdishText: "سەگەکان لە شەودا دەخرێنە قەفەز.",
+                            onPressedBritish: () => speakcages2("en-GB"),
+                            onPressedAmerican: () => speakcages2("en-US"),
                           ),
                         ],
                       ),

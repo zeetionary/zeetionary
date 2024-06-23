@@ -91,32 +91,12 @@ class EnglishEntrycheerio extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (سەرسوڕمان) خودات لەگەڵ؛ بەکاردێت بۆ خوداحافیزی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cheerio then. See you on Wednesday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەواتە خوات لەگەڵ، چوارشەممە دەتبینمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheerio", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheerios1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheerios1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Cheerio then. See you on Wednesday.",
+                            kurdishText:
+                                "کەواتە خوات لەگەڵ، چوارشەممە دەتبینمەوە.", // cheerio",
+                            onPressedBritish: () => speakcheerios1("en-GB"),
+                            onPressedAmerican: () => speakcheerios1("en-US"),
                           ),
                         ],
                       ),

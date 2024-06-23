@@ -113,93 +113,36 @@ class EnglishEntrycongenial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەسێک کە خۆشە کاتی لەگەڵ بەسەر ببەیت بەھۆی ئەوەی حەز و خولیاکانی وەک تۆیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She found him congenial because they shared a love for science and reading."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە لەبەردڵانی بینی چونکە خۆشەویستییەکی ھاوبەشیان بۆ زانست و خوێندنەوە ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congenial", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongenials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongenials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She found him congenial because they shared a love for science and reading.",
+                            kurdishText:
+                                "بە لەبەردڵانی بینی چونکە خۆشەویستییەکی ھاوبەشیان بۆ زانست و خوێندنەوە ھەبوو.", // congenial",
+                            onPressedBritish: () => speakcongenials1("en-GB"),
+                            onPressedAmerican: () => speakcongenials1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) شوێنێک کە خۆشە بەھۆی ئەوەی دڵت پێی دەکرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The job was particularly congenial to him because it allowed him to work independently."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکە دڵگیر بوو لای چونکە دەیھێشت سەربەخۆ کار بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongenials2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongenials2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The job was particularly congenial to him because it allowed him to work independently.",
+                            kurdishText:
+                                "کارەکە دڵگیر بوو لای چونکە دەیھێشت سەربەخۆ کار بکات.",
+                            onPressedBritish: () => speakcongenials2("en-GB"),
+                            onPressedAmerican: () => speakcongenials2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) گونجاو بۆ شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The climate in the region was congenial for growing grapes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاو و ھەوای ھەرێمەکە گونجاو بوو بۆ چاندنی ترێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongenials3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongenials3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The climate in the region was congenial for growing grapes.",
+                            kurdishText:
+                                "ئاو و ھەوای ھەرێمەکە گونجاو بوو بۆ چاندنی ترێ.",
+                            onPressedBritish: () => speakcongenials3("en-GB"),
+                            onPressedAmerican: () => speakcongenials3("en-US"),
                           ),
                         ],
                       ),

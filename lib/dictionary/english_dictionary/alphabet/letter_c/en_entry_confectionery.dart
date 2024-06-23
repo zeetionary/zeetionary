@@ -110,95 +110,37 @@ class EnglishEntryconfectionery extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) شیرینی، چکلێت، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Confectionery is a multimillion-pound business."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شیرینی بازرگانییەکی چەند ملیۆن پاوەندییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confectionery", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfectionerys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfectionerys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Confectionery is a multimillion-pound business.",
+                            kurdishText:
+                                "شیرینی بازرگانییەکی چەند ملیۆن پاوەندییە.", // confectionery",
+                            onPressedBritish: () =>
+                                speakconfectionerys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfectionerys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children are not allowed to bring confectionery or crisps into school, only fruit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان ڕێگەیان پێنادرێت شیرینی یان چپسی پەتاتە بھێنن بۆ قوتابخانە، تەنھا میوە دێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfectionerys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfectionerys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children are not allowed to bring confectionery or crisps into school, only fruit.",
+                            kurdishText:
+                                "منداڵەکان ڕێگەیان پێنادرێت شیرینی یان چپسی پەتاتە بھێنن بۆ قوتابخانە، تەنھا میوە دێنن.",
+                            onPressedBritish: () =>
+                                speakconfectionerys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfectionerys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شوێنی فرۆشتنی شیرینی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wants to open a confectionery."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەیەوێت شیرینیخانەیەک بکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfectionerys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfectionerys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He wants to open a confectionery.",
+                            kurdishText: "دەیەوێت شیرینیخانەیەک بکاتەوە.",
+                            onPressedBritish: () =>
+                                speakconfectionerys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfectionerys3("en-US"),
                           ),
                         ],
                       ),

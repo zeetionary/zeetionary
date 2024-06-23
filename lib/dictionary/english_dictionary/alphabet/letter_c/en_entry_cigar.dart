@@ -102,59 +102,20 @@ class EnglishEntrycigar extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گەڵای وشکی لوولدراوی تووتن کە خەڵکی وەک جگەرە دەیکێشن بەڵام گەورەترە و کاغەز لە دەوری نەپێچراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He paused and drew on his cigar."),
-                                    ExampleSentenceKurdish(
-                                        text: "وەستا و سیگارێکی دەرھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cigar", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcigars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcigars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He paused and drew on his cigar.",
+                            kurdishText: "وەستا و سیگارێکی دەرھێنا.", // cigar",
+                            onPressedBritish: () => speakcigars1("en-GB"),
+                            onPressedAmerican: () => speakcigars1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His cigar glowed in the darkened room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیگارەکەی دەدرەوشایەوە لە ژوورە تاریکەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcigars2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcigars2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His cigar glowed in the darkened room.",
+                            kurdishText:
+                                "سیگارەکەی دەدرەوشایەوە لە ژوورە تاریکەکەدا.",
+                            onPressedBritish: () => speakcigars2("en-GB"),
+                            onPressedAmerican: () => speakcigars2("en-US"),
                           ),
                         ],
                       ),

@@ -95,32 +95,13 @@ class EnglishEntryclosedown extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کردە یان پڕۆسەی وەستاندنی کارەکانی بازرگانییەک، سیستەمێک، پیشەسازییەک، ھتد بۆ ماوەیەکی کاتی یان ھەمیشەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The partial government close-down is now in a 20th day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئیفلیجکردنی بەشێکی حکومەت ئێستا لە ٢٠ـھەمین ڕۆژی دایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "close-down", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosedowns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosedowns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The partial government close-down is now in a 20th day.",
+                            kurdishText:
+                                "ئیفلیجکردنی بەشێکی حکومەت ئێستا لە ٢٠ـھەمین ڕۆژی دایە.", // close-down",
+                            onPressedBritish: () => speakclosedowns1("en-GB"),
+                            onPressedAmerican: () => speakclosedowns1("en-US"),
                           ),
                         ],
                       ),

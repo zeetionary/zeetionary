@@ -95,34 +95,14 @@ class EnglishEntryclairvoyant extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بەو توانایەی کە ھەندێک کەس بانگەشەی ئەوە دەکەن ھەیان بێت بۆ ئەوەی پێشبینی داھاتوو بکەن یان قسە لەگەڵ کەسانی مردوو یان دوور بکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People are claiming to have had clairvoyant visions of the murder."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی بانگەشەی ئەوە دەکەن خەونی پێشوەختەی کوشتنەکەیان ھەبووبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clairvoyant", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclairvoyants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclairvoyants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People are claiming to have had clairvoyant visions of the murder.",
+                            kurdishText:
+                                "خەڵکی بانگەشەی ئەوە دەکەن خەونی پێشوەختەی کوشتنەکەیان ھەبووبێت.", // clairvoyant",
+                            onPressedBritish: () => speakclairvoyants1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclairvoyants1("en-US"),
                           ),
                         ],
                       ),

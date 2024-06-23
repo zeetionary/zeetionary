@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) بۆ پیشاندانی قەبارەی شتێک کە لێکدانی بەرزی و پانی و درێژییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "How many cubic metres of water are needed to fill the tank?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چەند مەتر سێجا ئاو پێویستە بۆ پڕکردنی تەنکییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cubic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcubics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcubics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "How many cubic metres of water are needed to fill the tank?",
+            kurdishText:
+                "چەند مەتر سێجا ئاو پێویستە بۆ پڕکردنی تەنکییەکە.", // cubic", please follow LX instructions
+            onPressedBritish: () => speakcubics1("en-GB"),
+            onPressedAmerican: () => speakcubics1("en-US"),
           ),
         ],
       ),

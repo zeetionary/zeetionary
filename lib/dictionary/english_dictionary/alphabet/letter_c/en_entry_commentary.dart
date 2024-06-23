@@ -131,149 +131,54 @@ class EnglishEntrycommentary extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) باسکردنێکی ڕووداوێک بە قسەکردن کە ئەنجام دەدرێت لەکاتێکدا ڕوودەدات، بەتایبەتی لەسەر تەلەفیزیۆن و ڕادیۆ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our reporters will give a running commentary (= a continuous one) on the election results as they are announced."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیامنێرانمان شرۆڤەی بەردەوام لەسەر ئەنجامەکانی ھەڵبژاردن دەدەن کە ڕادەگەیەنرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commentary", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommentarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommentarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our reporters will give a running commentary (= a continuous one) on the election results as they are announced.",
+                            kurdishText:
+                                "پەیامنێرانمان شرۆڤەی بەردەوام لەسەر ئەنجامەکانی ھەڵبژاردن دەدەن کە ڕادەگەیەنرێن.", // commentary",
+                            onPressedBritish: () => speakcommentarys1("en-GB"),
+                            onPressedAmerican: () => speakcommentarys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He kept up a running commentary on everyone who came in or went out."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێدوانی بەردەوامی دەدا لەسەر ھەموو ئەوانەی دەھاتنە ژوورەوە و دەچوونە دەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommentarys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommentarys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He kept up a running commentary on everyone who came in or went out.",
+                            kurdishText:
+                                "لێدوانی بەردەوامی دەدا لەسەر ھەموو ئەوانەی دەھاتنە ژوورەوە و دەچوونە دەرەوە.",
+                            onPressedBritish: () => speakcommentarys2("en-GB"),
+                            onPressedAmerican: () => speakcommentarys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) باس یان ڕوونکردنەوەی نووسراو لەسەر شتێک، بۆ نموونە شانۆیەک یان کتێبێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wrote a commentary on Paul's letters to the Romans."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرنجێکی نووسی لەسەر نامەکانی پاوڵ بۆ ڕۆمەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommentarys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommentarys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wrote a commentary on Paul's letters to the Romans.",
+                            kurdishText:
+                                "سەرنجێکی نووسی لەسەر نامەکانی پاوڵ بۆ ڕۆمەکان.",
+                            onPressedBritish: () => speakcommentarys3("en-GB"),
+                            onPressedAmerican: () => speakcommentarys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ڕەخنە یان لێدوان لەسەر شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The petty quarrels were a sad commentary on the state of the government."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەڕەدەمە بێھوودەکان ڕەخنەگرییەکی خەمناک بوون لەسەر دۆخی حکومەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommentarys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommentarys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The petty quarrels were a sad commentary on the state of the government.",
+                            kurdishText:
+                                "شەڕەدەمە بێھوودەکان ڕەخنەگرییەکی خەمناک بوون لەسەر دۆخی حکومەت.",
+                            onPressedBritish: () => speakcommentarys4("en-GB"),
+                            onPressedAmerican: () => speakcommentarys4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie is a biting commentary on contemporary life in a big city."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە ڕەخنەگرییەکی توندە لەسەر ژیانی سەردەم لە شارێکی گەورەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommentarys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommentarys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie is a biting commentary on contemporary life in a big city.",
+                            kurdishText:
+                                "فیلمەکە ڕەخنەگرییەکی توندە لەسەر ژیانی سەردەم لە شارێکی گەورەدا.",
+                            onPressedBritish: () => speakcommentarys5("en-GB"),
+                            onPressedAmerican: () => speakcommentarys5("en-US"),
                           ),
                         ],
                       ),

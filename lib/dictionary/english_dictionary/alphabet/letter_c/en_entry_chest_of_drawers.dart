@@ -93,34 +93,15 @@ class EnglishEntrychestofdrawers extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەلوپەلێکی ناوماڵ کە دۆڵابی ھەیە و شتی تێدا ھەڵدەگریت، بۆ نموونە جلوبەرگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We bought a chest of drawers for £200."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆڵابێکی جلوبەرگمان کڕی بە ٢٠٠ پاوەند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chest of drawers", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchestofdrawerss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchestofdrawerss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We bought a chest of drawers for £200.",
+                            kurdishText:
+                                "دۆڵابێکی جلوبەرگمان کڕی بە ٢٠٠ پاوەند.", // chest of drawers",
+                            onPressedBritish: () =>
+                                speakchestofdrawerss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchestofdrawerss1("en-US"),
                           ),
                         ],
                       ),

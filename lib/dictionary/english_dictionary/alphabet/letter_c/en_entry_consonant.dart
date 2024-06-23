@@ -112,94 +112,37 @@ class EnglishEntryconsonant extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دەنگی نەبزوێن؛ دەنگێک کە درووست دەکرێت بە تەواو وەستاندنی جوڵەی ھەوا لە دەم یان لوتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't you hate the way she speaks, pronouncing each single consonant so precisely?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕقت لەو شێوەیە نییە کە قسە دەکات و ھەر دەنگێکی نەبزوێن بە تەواوی دەخوێنێتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consonant", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsonants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsonants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Don't you hate the way she speaks, pronouncing each single consonant so precisely?",
+                            kurdishText:
+                                "ڕقت لەو شێوەیە نییە کە قسە دەکات و ھەر دەنگێکی نەبزوێن بە تەواوی دەخوێنێتەوە؟", // consonant",
+                            onPressedBritish: () => speakconsonants1("en-GB"),
+                            onPressedAmerican: () => speakconsonants1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پیتێکی ئەلفوبێ کە ئاماژە بە دەنگێکی نەبزوێن دەکات، بۆ نموونە b، d، f، h، p، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's has an unpronounceable name that seems to be all consonants."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوێکی نەخوێنراوەی ھەیە کە وەھا دەردەکەوێت ھەمووی نەبزوێن بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsonants2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsonants2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's has an unpronounceable name that seems to be all consonants.",
+                            kurdishText:
+                                "ناوێکی نەخوێنراوەی ھەیە کە وەھا دەردەکەوێت ھەمووی نەبزوێن بێت.",
+                            onPressedBritish: () => speakconsonants2("en-GB"),
+                            onPressedAmerican: () => speakconsonants2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) ھاودەنگ لەگەڵ شتێک، یان ئەوەی ھەمان شت بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The findings are consonant with other research."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆزینەوەکان کۆکن لەگەڵ لێکۆڵینەوەکانی دیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsonants3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsonants3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The findings are consonant with other research.",
+                            kurdishText:
+                                "دۆزینەوەکان کۆکن لەگەڵ لێکۆڵینەوەکانی دیکە.",
+                            onPressedBritish: () => speakconsonants3("en-GB"),
+                            onPressedAmerican: () => speakconsonants3("en-US"),
                           ),
                         ],
                       ),

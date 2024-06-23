@@ -95,34 +95,15 @@ class EnglishEntryclairvoyance extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) توانایەک کە ھەندێک کەس بانگەشەی ئەوە دەکەن ھەیان بێت کە ڕێگەیان پێ دەدات پێشبینی داھاتوو بکەن یان قسە لەگەڵ کەسانی مردوو و دوور بکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The critique released two days earlier seemed like remarkable clairvoyance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەخنەوتارەکە کە پێش دوو ڕۆژ بڵاوکرایەوە وەک پێشزانی ناوازە دیاربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clairvoyance", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclairvoyances1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclairvoyances1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The critique released two days earlier seemed like remarkable clairvoyance.",
+                            kurdishText:
+                                "ڕەخنەوتارەکە کە پێش دوو ڕۆژ بڵاوکرایەوە وەک پێشزانی ناوازە دیاربوو.", // clairvoyance",
+                            onPressedBritish: () =>
+                                speakclairvoyances1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclairvoyances1("en-US"),
                           ),
                         ],
                       ),

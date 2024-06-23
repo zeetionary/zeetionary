@@ -114,94 +114,34 @@ class EnglishEntrycontroversy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گفتوگۆ و مشتومڕی گشتی لەسەر شتێک کە زۆر کەس بە توندی ناکۆکن لەسەری، پێیان وایە خراپە، یان تووشی شۆک دەبن پێی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The controversy surrounding his latest movie continues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مشتومڕ سەبارەت بە کۆتا فیلمی بەردەوامە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "controversy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontroversys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontroversys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The controversy surrounding his latest movie continues.",
+                            kurdishText:
+                                "مشتومڕ سەبارەت بە کۆتا فیلمی بەردەوامە.", // controversy",
+                            onPressedBritish: () => speakcontroversys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontroversys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The President resigned amid considerable controversy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک دەستی لەکارکێشایەوە لە دەمی مشتومڕی بەرچاودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontroversys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontroversys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The President resigned amid considerable controversy.",
+                            kurdishText:
+                                "سەرۆک دەستی لەکارکێشایەوە لە دەمی مشتومڕی بەرچاودا.",
+                            onPressedBritish: () => speakcontroversys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontroversys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Controversy exists as to how safe these drugs are."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناکۆکی ھەیە سەبارەت بەوەی تا چەند ئەم دەرمانانە سەلامەتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontroversys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontroversys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Controversy exists as to how safe these drugs are.",
+                            kurdishText:
+                                "ناکۆکی ھەیە سەبارەت بەوەی تا چەند ئەم دەرمانانە سەلامەتن.",
+                            onPressedBritish: () => speakcontroversys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontroversys3("en-US"),
                           ),
                         ],
                       ),

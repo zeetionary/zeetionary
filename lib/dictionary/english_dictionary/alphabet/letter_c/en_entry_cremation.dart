@@ -232,31 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سووتاندن، ئاورتێبەردان (تەرم)، مردەسووتێنی، مردەسووتمان 
 """),
           const DefinitionKurdish(text: "١. (ناو) سووتاندنی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "More people are choosing cremation rather than burial."),
-                    ExampleSentenceKurdish(
-                        text: "خەڵکی زیاتر سووتاندن ھەڵدەبژێرن وەک لە ناشتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cremation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcremations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcremations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "More people are choosing cremation rather than burial.",
+            kurdishText:
+                "خەڵکی زیاتر سووتاندن ھەڵدەبژێرن وەک لە ناشتن.", // cremation", please follow LX instructions
+            onPressedBritish: () => speakcremations1("en-GB"),
+            onPressedAmerican: () => speakcremations1("en-US"),
           ),
         ],
       ),

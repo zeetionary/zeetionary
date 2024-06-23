@@ -194,63 +194,25 @@ class EnglishEntrycannabis extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕووەکێکی درێژ کە بەکاردێت بۆ درووستکردنی ڕیشاڵیک کە حەبل و جلی پێ درووست دەکرێت، و بۆ درووستکردنی مادەی ھۆشبەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cannabis has been cultivated for centuries for its versatile applications."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گیابەنگ بۆ چەندین سەدەیە چاندراوە بەھۆی بەکارھێنانە جۆراوجۆرەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cannabis", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcannabiss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcannabiss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cannabis has been cultivated for centuries for its versatile applications.",
+                            kurdishText:
+                                "گیابەنگ بۆ چەندین سەدەیە چاندراوە بەھۆی بەکارھێنانە جۆراوجۆرەکانی.", // cannabis
+                            onPressedBritish: () => speakcannabiss1("en-GB"),
+                            onPressedAmerican: () => speakcannabiss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) مادەیەکی ھۆشبەر کە لە گەڵاکان یان گوڵی ڕووەکی مەریوانە وەردەگیردرێت و دەکیشرێت یان دەخورێت و ھەستێکی ئاسوودەبەخش دەدات. مادەکە لە زۆر وڵاتدا قەدەغەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Traces of cannabis were found in the pilot’s blood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاشماوەی گیابەنگ لە خوێنی فڕۆکەوانەکە دۆزرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcannabiss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcannabiss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Traces of cannabis were found in the pilot’s blood.",
+                            kurdishText:
+                                "پاشماوەی گیابەنگ لە خوێنی فڕۆکەوانەکە دۆزرایەوە.",
+                            onPressedBritish: () => speakcannabiss2("en-GB"),
+                            onPressedAmerican: () => speakcannabiss2("en-US"),
                           ),
                         ],
                       ),

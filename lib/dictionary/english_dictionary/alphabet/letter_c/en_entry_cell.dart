@@ -191,150 +191,52 @@ class EnglishEntrycell extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بچووکتری یەکەی تەنی زیندوو کە دەتوانێت بە سەربەخۆیی بژی. ھەموو ڕووەک و ئاژەڵەکان لە خانە پێکھاتوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cells divide and form new cells."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانەکان دابەش دەبن و خانەی تازە درووست دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cell", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcells1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcells1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Cells divide and form new cells.",
+                            kurdishText:
+                                "خانەکان دابەش دەبن و خانەی تازە درووست دەکەن.", // cell",
+                            onPressedBritish: () => speakcells1("en-GB"),
+                            onPressedAmerican: () => speakcells1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "DNA is stored in the nucleus of a cell."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "DNA لە ناوکی خانەدا ھەڵدەگیرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcells2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcells2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "DNA is stored in the nucleus of a cell.",
+                            kurdishText: "DNA لە ناوکی خانەدا ھەڵدەگیرێت.",
+                            onPressedBritish: () => speakcells2("en-GB"),
+                            onPressedAmerican: () => speakcells2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ژوورێک بۆ زیندانییەک یان زیاتر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spent a night in a prison cell."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەوێکی لە ژووری بەندیخانەکە بەسەربرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcells3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcells3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He spent a night in a prison cell.",
+                            kurdishText:
+                                "شەوێکی لە ژووری بەندیخانەکە بەسەربرد.",
+                            onPressedBritish: () => speakcells3("en-GB"),
+                            onPressedAmerican: () => speakcells3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ژمارەیەک کەس کە وەک گرووپێکی گەورەتر کاردەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Terrorist cells operate in secrecy to avoid detection and apprehension by authorities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شانە تیرۆریستییەکان بە نھێنی کار دەکەن بۆ دووربوون لە پێ‌زانین و دەستگیرکردن لەلایەن دەسەڵاتدارانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcells4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcells4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Terrorist cells operate in secrecy to avoid detection and apprehension by authorities.",
+                            kurdishText:
+                                "شانە تیرۆریستییەکان بە نھێنی کار دەکەن بۆ دووربوون لە پێ‌زانین و دەستگیرکردن لەلایەن دەسەڵاتدارانەوە.",
+                            onPressedBritish: () => speakcells4("en-GB"),
+                            onPressedAmerican: () => speakcells4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) موبایلێک کە بە ڕادیۆ کاردەکات و دەتوانیت لەگەڵ خۆتدا ھەڵیبگریت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Call me on my cell."),
-                                    ExampleSentenceKurdish(
-                                        text: "بۆ موبایلەکەم پەیوەندی بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcells5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcells5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Call me on my cell.",
+                            kurdishText: "بۆ موبایلەکەم پەیوەندی بکە.",
+                            onPressedBritish: () => speakcells5("en-GB"),
+                            onPressedAmerican: () => speakcells5("en-US"),
                           ),
                         ],
                       ),

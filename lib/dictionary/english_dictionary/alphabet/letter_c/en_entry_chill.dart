@@ -182,353 +182,121 @@ class EnglishEntrychill extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ھەستکردن بە سەرما"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's a chill in the air this morning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرمایەک ئەم بەیانییە لە ھەوادا ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chill", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchills1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchills1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's a chill in the air this morning.",
+                            kurdishText:
+                                "سەرمایەک ئەم بەیانییە لە ھەوادا ھەیە.", // chill",
+                            onPressedBritish: () => speakchills1("en-GB"),
+                            onPressedAmerican: () => speakchills1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I could feel the chill as soon as I went outside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمتوانی ھەست بە سەرماکە بکەم ھەرکە چوومە دەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchills2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchills2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I could feel the chill as soon as I went outside.",
+                            kurdishText:
+                                "دەمتوانی ھەست بە سەرماکە بکەم ھەرکە چوومە دەرەوە.",
+                            onPressedBritish: () => speakchills2("en-GB"),
+                            onPressedAmerican: () => speakchills2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) نەخۆشییەک کە درووست دەبێت بەھۆی سەرما و تەڕبوونەوە، و دەبێتە ھۆی پلەی گەرمی بەرز و لەرزین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I caught a nasty chill after my swim last week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەرزوتایەکی خراپم گرت لە دوای مەلەکەم لە ھەفتەی ڕابردوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchills3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchills3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I caught a nasty chill after my swim last week.",
+                            kurdishText:
+                                "لەرزوتایەکی خراپم گرت لە دوای مەلەکەم لە ھەفتەی ڕابردوو.",
+                            onPressedBritish: () => speakchills3("en-GB"),
+                            onPressedAmerican: () => speakchills3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ھەستکردن بە ترس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The news of the disaster cast a chill over the party."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەواڵی کارەساتەکە ترسێکی بە ئاھەنگەکەدا بڵاوکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchills4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchills4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The news of the disaster cast a chill over the party.",
+                            kurdishText:
+                                "ھەواڵی کارەساتەکە ترسێکی بە ئاھەنگەکەدا بڵاوکردەوە.",
+                            onPressedBritish: () => speakchills4("en-GB"),
+                            onPressedAmerican: () => speakchills4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) وا لە کەسێک بکەیت سەرمای ببێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were chilled by the icy wind."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەزین بە بایە ساردەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchills5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchills5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They were chilled by the icy wind.",
+                            kurdishText: "تەزین بە بایە ساردەکە.",
+                            onPressedBritish: () => speakchills5("en-GB"),
+                            onPressedAmerican: () => speakchills5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let's go home, I'm chilled to the bone (= very cold)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با بچینەوە ماڵەوە، تەواو تەزیوم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchills6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchills6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Let's go home, I'm chilled to the bone (= very cold).",
+                            kurdishText: "با بچینەوە ماڵەوە، تەواو تەزیوم.",
+                            onPressedBritish: () => speakchills6("en-GB"),
+                            onPressedAmerican: () => speakchills6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) ساردبوونەوە یان ساردکردنەوەی خۆراک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This wine is best served chilled."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم بیرەیە بە ساردی پێشکەش دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchills7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchills7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This wine is best served chilled.",
+                            kurdishText: "ئەم بیرەیە بە ساردی پێشکەش دەکرێت.",
+                            onPressedBritish: () => speakchills7("en-GB"),
+                            onPressedAmerican: () => speakchills7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've put the fruits in the fridge to chill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوەکانم خستووەتە ساردکەرەوەکەوە بۆ ئەوەی سارد بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchills8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchills8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've put the fruits in the fridge to chill.",
+                            kurdishText:
+                                "میوەکانم خستووەتە ساردکەرەوەکەوە بۆ ئەوەی سارد بن.",
+                            onPressedBritish: () => speakchills8("en-GB"),
+                            onPressedAmerican: () => speakchills8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) ترساندنی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His words chilled her."),
-                                    ExampleSentenceKurdish(
-                                        text: "وتەکانی تۆقاندی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchills9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchills9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His words chilled her.",
+                            kurdishText: "وتەکانی تۆقاندی.",
+                            onPressedBritish: () => speakchills9("en-GB"),
+                            onPressedAmerican: () => speakchills9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کردار) بەسەربردنی کات بۆ حەسانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We went home and chilled in front of the TV."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چووینە ماڵەوە و لە پێش تەلەفیزیۆنەکە حەساینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchills10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchills10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We went home and chilled in front of the TV.",
+                            kurdishText:
+                                "چووینە ماڵەوە و لە پێش تەلەفیزیۆنەکە حەساینەوە.",
+                            onPressedBritish: () => speakchills10("en-GB"),
+                            onPressedAmerican: () => speakchills10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Just chill, Mum—everything's going to be OK."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا ئاسوودە بە، دایکە. ھەموو شتێک باش دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchills11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchills11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Just chill, Mum—everything's going to be OK.",
+                            kurdishText:
+                                "تەنھا ئاسوودە بە، دایکە. ھەموو شتێک باش دەبێت.",
+                            onPressedBritish: () => speakchills11("en-GB"),
+                            onPressedAmerican: () => speakchills11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (ھاوەڵناو) سەرما بەشێوەیەکی ناخۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their breath steamed in the chill air."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەناسەیان ھەڵمی دەکرد لە کەشە تەزێنەرەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchills12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchills12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their breath steamed in the chill air.",
+                            kurdishText:
+                                "ھەناسەیان ھەڵمی دەکرد لە کەشە تەزێنەرەکەدا.",
+                            onPressedBritish: () => speakchills12("en-GB"),
+                            onPressedAmerican: () => speakchills12("en-US"),
                           ),
                         ],
                       ),

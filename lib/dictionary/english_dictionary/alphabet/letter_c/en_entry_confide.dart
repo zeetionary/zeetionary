@@ -103,60 +103,22 @@ class EnglishEntryconfide extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) وتنی نھێنی و زانیاری کەسی بە کەسێک کە ناتەوێت کەسانی دیکە پێی بزانن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She confided all her secrets to her best friend."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو نھێنییەکانی بە باشترین ھاوڕێی دەگوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confide", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfides1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfides1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She confided all her secrets to her best friend.",
+                            kurdishText:
+                                "ھەموو نھێنییەکانی بە باشترین ھاوڕێی دەگوت.", // confide",
+                            onPressedBritish: () => speakconfides1("en-GB"),
+                            onPressedAmerican: () => speakconfides1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He confided to me that he had applied for another job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو نھێنییەی پێ وتم کە داخوازی کارێکی دیکەی کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfides2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfides2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He confided to me that he had applied for another job.",
+                            kurdishText:
+                                "ئەو نھێنییەی پێ وتم کە داخوازی کارێکی دیکەی کردووە.",
+                            onPressedBritish: () => speakconfides2("en-GB"),
+                            onPressedAmerican: () => speakconfides2("en-US"),
                           ),
                         ],
                       ),

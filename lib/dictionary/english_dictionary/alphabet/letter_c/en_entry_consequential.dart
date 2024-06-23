@@ -103,66 +103,28 @@ class EnglishEntryconsequential extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ڕوودان لە ئەنجامی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We need to act now to avoid a recession and the consequential damage that would follow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت ئێستا ھەنگاو بنێین بۆ ڕێگری لە قەیرانێک و زیانی لێوەبووی کە بە دوایدا دێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consequential", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsequentials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsequentials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We need to act now to avoid a recession and the consequential damage that would follow.",
+                            kurdishText:
+                                "دەبێت ئێستا ھەنگاو بنێین بۆ ڕێگری لە قەیرانێک و زیانی لێوەبووی کە بە دوایدا دێت.", // consequential",
+                            onPressedBritish: () =>
+                                speakconsequentials1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsequentials1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) گرنگ؛ ھەبوونی ئەنجامی گرنگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The report discusses a number of consequential matters that are yet to be decided."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاپۆرتەکە باس لە ژمارەیەک لە بابەتی گرنگ دەکات کە ھێشتا بڕیاریان لەسەر دەدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsequentials2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsequentials2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The report discusses a number of consequential matters that are yet to be decided.",
+                            kurdishText:
+                                "ڕاپۆرتەکە باس لە ژمارەیەک لە بابەتی گرنگ دەکات کە ھێشتا بڕیاریان لەسەر دەدرێت.",
+                            onPressedBritish: () =>
+                                speakconsequentials2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsequentials2("en-US"),
                           ),
                         ],
                       ),

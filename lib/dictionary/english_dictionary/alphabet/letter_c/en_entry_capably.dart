@@ -192,58 +192,20 @@ class EnglishEntrycapably extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) کردنی شتێک بە ھەبوونی توانای پێویستەوە بۆ کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He managed the conference very capably."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر لێوەشاوانە کۆنفرانسەکەی بەڕێوەبرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capably", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapablys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapablys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He managed the conference very capably.",
+                            kurdishText:
+                                "زۆر لێوەشاوانە کۆنفرانسەکەی بەڕێوەبرد.", // capably
+                            onPressedBritish: () => speakcapablys1("en-GB"),
+                            onPressedAmerican: () => speakcapablys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She drove very capably."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر لێھاتووانە شۆفێری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapablys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapablys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She drove very capably.",
+                            kurdishText: "زۆر لێھاتووانە شۆفێری کرد.",
+                            onPressedBritish: () => speakcapablys2("en-GB"),
+                            onPressedAmerican: () => speakcapablys2("en-US"),
                           ),
                         ],
                       ),

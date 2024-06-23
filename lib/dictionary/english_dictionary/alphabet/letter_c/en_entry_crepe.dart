@@ -244,62 +244,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) قوماشێکی تەنک کە لە لۆکە یان ئاوریشم درووستکراوە و ھێڵی بچووکی تێدایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She wrapped her sprained ankle with a crêpe bandage."),
-                    ExampleSentenceKurdish(
-                        text: "لاقە شینبووەکەی بە لەفاف پێچا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crêpe", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrepes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrepes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She wrapped her sprained ankle with a crêpe bandage.",
+            kurdishText:
+                "لاقە شینبووەکەی بە لەفاف پێچا.", // crêpe", please follow LX instructions
+            onPressedBritish: () => speakcrepes1("en-GB"),
+            onPressedAmerican: () => speakcrepes1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) جۆرە لاستیکێک کە ڕوویەکی توندی ھەیە و بەکاردێت بۆ درووستکردنی ناوکەفی پێڵاو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He preferred to wear crepe-soled shoes for their comfort."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حەزی دەکرد پێڵاوی ناوکەفداری کریپ لە پێ بکات بۆ ئاسوودەییەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrepes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrepes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He preferred to wear crepe-soled shoes for their comfort.",
+            kurdishText:
+                "حەزی دەکرد پێڵاوی ناوکەفداری کریپ لە پێ بکات بۆ ئاسوودەییەکەی.",
+            onPressedBritish: () => speakcrepes2("en-GB"),
+            onPressedAmerican: () => speakcrepes2("en-US"),
           ),
           const DividerDefinition(),
           Column(

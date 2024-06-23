@@ -112,88 +112,31 @@ class EnglishEntrycolleague extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە کاری لەگەڵدا دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We were friends and colleagues for more than 20 years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوڕێ و ھاوکار بووین بۆ زیاتر لە ٢٠ ساڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colleague", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolleagues1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolleagues1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We were friends and colleagues for more than 20 years.",
+                            kurdishText:
+                                "ھاوڕێ و ھاوکار بووین بۆ زیاتر لە ٢٠ ساڵ.", // colleague",
+                            onPressedBritish: () => speakcolleagues1("en-GB"),
+                            onPressedAmerican: () => speakcolleagues1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scientists are now working with colleagues in Arizona to develop a model."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاناکان لە ئێستادا لەگەڵ ھاوپیشەکانیان کاردەکەن بۆ درووستکردنی نموونەیەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolleagues2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolleagues2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scientists are now working with colleagues in Arizona to develop a model.",
+                            kurdishText:
+                                "زاناکان لە ئێستادا لەگەڵ ھاوپیشەکانیان کاردەکەن بۆ درووستکردنی نموونەیەک.",
+                            onPressedBritish: () => speakcolleagues2("en-GB"),
+                            onPressedAmerican: () => speakcolleagues2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've talked to colleagues at other universities about it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قسەم لەگەڵ ھاوکاران لە زانکۆکانی دیکە کردووە سەبارەت بەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolleagues3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolleagues3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've talked to colleagues at other universities about it.",
+                            kurdishText:
+                                "قسەم لەگەڵ ھاوکاران لە زانکۆکانی دیکە کردووە سەبارەت بەوە.",
+                            onPressedBritish: () => speakcolleagues3("en-GB"),
+                            onPressedAmerican: () => speakcolleagues3("en-US"),
                           ),
                         ],
                       ),

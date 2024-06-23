@@ -191,172 +191,56 @@ class EnglishEntrycentury extends StatelessWidget {
 کوردی: سەدە، چەرخ، چاخ
 """),
                           const DefinitionKurdish(text: "١. (ناو) ١٠٠ ساڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A century ago, Valparaiso was the country's main port."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەدەیەک پێش ئێستا، ڤالپارایزۆ بەندەری سەرەکی وڵاتەکە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "century", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcenturys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcenturys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A century ago, Valparaiso was the country's main port.",
+                            kurdishText:
+                                "سەدەیەک پێش ئێستا، ڤالپارایزۆ بەندەری سەرەکی وڵاتەکە بوو.", // century",
+                            onPressedBritish: () => speakcenturys1("en-GB"),
+                            onPressedAmerican: () => speakcenturys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was born more than a century after the death of Confucius."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیاتر لە سەدەیەک لە دوای مەرگی کۆنفۆشیۆس لەدایکبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcenturys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcenturys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was born more than a century after the death of Confucius.",
+                            kurdishText:
+                                "زیاتر لە سەدەیەک لە دوای مەرگی کۆنفۆشیۆس لەدایکبوو.",
+                            onPressedBritish: () => speakcenturys2("en-GB"),
+                            onPressedAmerican: () => speakcenturys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have lived there for centuries."),
-                                    ExampleSentenceKurdish(
-                                        text: "بۆ چەندین سەدەیە لەوێ ژیاون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcenturys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcenturys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They have lived there for centuries.",
+                            kurdishText: "بۆ چەندین سەدەیە لەوێ ژیاون.",
+                            onPressedBritish: () => speakcenturys3("en-GB"),
+                            onPressedAmerican: () => speakcenturys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھەر ١٠٠ ساڵ جارێک لە پێش یان پاشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He lived in the 16th century."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە سەدەی ١٦ ژیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcenturys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcenturys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He lived in the 16th century.",
+                            kurdishText: "لە سەدەی ١٦ ژیا.",
+                            onPressedBritish: () => speakcenturys4("en-GB"),
+                            onPressedAmerican: () => speakcenturys4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The building dates back to the 9th century."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیناکە بۆ سەدەی ٩ھەم دەگەڕێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcenturys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcenturys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The building dates back to the 9th century.",
+                            kurdishText: "بیناکە بۆ سەدەی ٩ھەم دەگەڕێتەوە.",
+                            onPressedBritish: () => speakcenturys5("en-GB"),
+                            onPressedAmerican: () => speakcenturys5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "By the close of this century another two billion people will have been born."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تا کۆتایی ئەم سەدەیە دوو ملیار کەسی دیکە لەدایک دەبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcenturys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcenturys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "By the close of this century another two billion people will have been born.",
+                            kurdishText:
+                                "تا کۆتایی ئەم سەدەیە دوو ملیار کەسی دیکە لەدایک دەبن.",
+                            onPressedBritish: () => speakcenturys6("en-GB"),
+                            onPressedAmerican: () => speakcenturys6("en-US"),
                           ),
                         ],
                       ),

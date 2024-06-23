@@ -102,63 +102,25 @@ class EnglishEntrycoke extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆکاین؛ مادەیەکی بەھێز کە ھەندێک کەس بە نایاسایی دەیکێشن و دەکرێت ئاڵوودە بن پێی. پزیشکان ھەندێک جار وەک بەنج بەکاریدێنن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The patient was given coke to numb the pain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشەکە کۆکاینی پێدرا بۆ ڕەواندنەوەی ئازارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coke", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcokes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcokes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The patient was given coke to numb the pain.",
+                            kurdishText:
+                                "نەخۆشەکە کۆکاینی پێدرا بۆ ڕەواندنەوەی ئازارەکە.", // coke",
+                            onPressedBritish: () => speakcokes1("en-GB"),
+                            onPressedAmerican: () => speakcokes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) مادەیەکی ڕەش کە کە لە خەڵووز درووست دەبێت و دەسووتێنرێت بۆ دابینکردنی گەرمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The furnace was fed with coke to produce heat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کوورەکە خەڵووزی کۆکی تێکرا بۆ درووستکردنی گەرمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcokes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcokes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The furnace was fed with coke to produce heat.",
+                            kurdishText:
+                                "کوورەکە خەڵووزی کۆکی تێکرا بۆ درووستکردنی گەرمی.",
+                            onPressedBritish: () => speakcokes2("en-GB"),
+                            onPressedAmerican: () => speakcokes2("en-US"),
                           ),
                         ],
                       ),

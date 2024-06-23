@@ -105,64 +105,26 @@ class EnglishEntryconfidentially extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەشێوەیەک کە ئەوە پیشان دەدات دەبێت شتێک بە نھێنی بھێڵدرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She told me confidentially that she is going to retire early."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە نھێنی‌یانە پێی گوتم کە زوو خانەنشین دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confidentially", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidentiallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidentiallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She told me confidentially that she is going to retire early.",
+                            kurdishText:
+                                "بە نھێنی‌یانە پێی گوتم کە زوو خانەنشین دەبێت.", // confidentially",
+                            onPressedBritish: () =>
+                                speakconfidentiallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidentiallys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The questionnaire responses were treated confidentially."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەڵامەکانی ڕاپرسییەکە بە نھێنی‌یانە مامەڵەیان لەگەڵ کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidentiallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidentiallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The questionnaire responses were treated confidentially.",
+                            kurdishText:
+                                "وەڵامەکانی ڕاپرسییەکە بە نھێنی‌یانە مامەڵەیان لەگەڵ کرا.",
+                            onPressedBritish: () =>
+                                speakconfidentiallys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidentiallys2("en-US"),
                           ),
                         ],
                       ),

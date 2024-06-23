@@ -234,32 +234,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) جیابوونەوە بۆ بەشی شلە و خەست و درووستکردنی تۆپەڵ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The milk curdled after being left out of the fridge."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شیرەکە مەیی لە دوای ئەوەی لە ساردکەرەوەکە ھێڵدرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curdle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurdles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurdles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The milk curdled after being left out of the fridge.",
+            kurdishText:
+                "شیرەکە مەیی لە دوای ئەوەی لە ساردکەرەوەکە ھێڵدرایەوە.", // curdle", please follow LX instructions
+            onPressedBritish: () => speakcurdles1("en-GB"),
+            onPressedAmerican: () => speakcurdles1("en-US"),
           ),
         ],
       ),

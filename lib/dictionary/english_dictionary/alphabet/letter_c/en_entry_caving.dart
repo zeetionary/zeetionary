@@ -189,32 +189,12 @@ class EnglishEntrycaving extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) وەرزشی گەڕان بە ئەشکەوتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had always wanted to go caving."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە دەیویست بچێت بۆ ئەشکەوت‌گەڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "caving", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcavings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcavings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He had always wanted to go caving.",
+                            kurdishText:
+                                "ھەمیشە دەیویست بچێت بۆ ئەشکەوت‌گەڕی.", // caving",
+                            onPressedBritish: () => speakcavings1("en-GB"),
+                            onPressedAmerican: () => speakcavings1("en-US"),
                           ),
                         ],
                       ),

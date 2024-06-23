@@ -250,85 +250,27 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) توانا و ڕاھێنان و ئەزموونی کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has impeccable credentials as a researcher."),
-                    ExampleSentenceKurdish(
-                        text: "وەک توێژەر لێووەشایی بێ‌خەوشی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "credentials", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredentialss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredentialss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has impeccable credentials as a researcher.",
+            kurdishText:
+                "وەک توێژەر لێووەشایی بێ‌خەوشی ھەیە.", // credentials", please follow LX instructions
+            onPressedBritish: () => speakcredentialss1("en-GB"),
+            onPressedAmerican: () => speakcredentialss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has all the credentials for the job."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو تایبەتمەندییەکانی کارەکەی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredentialss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredentialss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has all the credentials for the job.",
+            kurdishText: "ھەموو تایبەتمەندییەکانی کارەکەی ھەیە.",
+            onPressedBritish: () => speakcredentialss2("en-GB"),
+            onPressedAmerican: () => speakcredentialss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ناسنامە؛ بەڵگەنامە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The ambassador presented his diplomatic credentials."),
-                    ExampleSentenceKurdish(
-                        text: "باڵیۆزەکە بەڵگەنامەی دیپلۆماسیی پیشاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredentialss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredentialss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The ambassador presented his diplomatic credentials.",
+            kurdishText: "باڵیۆزەکە بەڵگەنامەی دیپلۆماسیی پیشاندا.",
+            onPressedBritish: () => speakcredentialss3("en-GB"),
+            onPressedAmerican: () => speakcredentialss3("en-US"),
           ),
         ],
       ),

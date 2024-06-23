@@ -104,64 +104,26 @@ class EnglishEntrycondescension extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕەفتارکردنێک کە وای پیشان دەدات کە خۆت بە گرنگتر یا زیرەکتر دەزانیت لە کەسانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her smile was a mixture of pity and condescension."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بزەکەی تێکەڵەیەک لە بەزەیی و فیزنی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "condescension", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcondescensions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcondescensions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her smile was a mixture of pity and condescension.",
+                            kurdishText:
+                                "بزەکەی تێکەڵەیەک لە بەزەیی و فیزنی بوو.", // condescension",
+                            onPressedBritish: () =>
+                                speakcondescensions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcondescensions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She gave me some friendly advice without a trace of condescension."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک ڕاوێژی ھاوڕێیانەی پێمدا بەبێ قەترەیەک لە فەخرفرۆشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcondescensions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcondescensions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She gave me some friendly advice without a trace of condescension.",
+                            kurdishText:
+                                "ھەندێک ڕاوێژی ھاوڕێیانەی پێمدا بەبێ قەترەیەک لە فەخرفرۆشی.",
+                            onPressedBritish: () =>
+                                speakcondescensions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcondescensions2("en-US"),
                           ),
                         ],
                       ),

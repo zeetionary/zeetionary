@@ -152,228 +152,75 @@ class EnglishEntrycollege extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) (لە بەریتانیا) شوێنێک کە خوێندکاران لە دوای قوتابخانە بۆی دەچن بۆ خوێندن یان وەرگرتنی ڕاھێنان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wanted to go to college to become a nurse."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیویست بچێتە کۆلێژ بۆ بوون بە پەرستار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "college", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolleges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolleges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wanted to go to college to become a nurse.",
+                            kurdishText:
+                                "دەیویست بچێتە کۆلێژ بۆ بوون بە پەرستار.", // college",
+                            onPressedBritish: () => speakcolleges1("en-GB"),
+                            onPressedAmerican: () => speakcolleges1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She's at college."),
-                                    ExampleSentenceKurdish(text: "لە کۆلێژە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolleges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolleges2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's at college.",
+                            kurdishText: "لە کۆلێژە.",
+                            onPressedBritish: () => speakcolleges2("en-GB"),
+                            onPressedAmerican: () => speakcolleges2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She's at college in Oxford."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە کۆلێژە لە ئۆکسفۆرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolleges3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolleges3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's at college in Oxford.",
+                            kurdishText: "لە کۆلێژە لە ئۆکسفۆرد.",
+                            onPressedBritish: () => speakcolleges3("en-GB"),
+                            onPressedAmerican: () => speakcolleges3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) (لە ئەمریکا) شوێنێکە کە خوێندکارا لە دوای قوتابخانە بۆی دەچن بۆ بەدەستھێنانی بڕوانامە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was the first in her family to attend college."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەم کەسی خێزانەکەی بوو بچێتە کۆلێژ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolleges4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolleges4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was the first in her family to attend college.",
+                            kurdishText:
+                                "یەکەم کەسی خێزانەکەی بوو بچێتە کۆلێژ.",
+                            onPressedBritish: () => speakcolleges4("en-GB"),
+                            onPressedAmerican: () => speakcolleges4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's hoping to go to college next year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیواخوازە ساڵی داھاتوو بچێتە کۆلێژ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolleges5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolleges5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's hoping to go to college next year.",
+                            kurdishText: "ھیواخوازە ساڵی داھاتوو بچێتە کۆلێژ.",
+                            onPressedBritish: () => speakcolleges5("en-GB"),
+                            onPressedAmerican: () => speakcolleges5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I graduated from college with an English degree."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆلێژم بە بڕوانامەی ئینگلیزییەوە تەواو کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolleges6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolleges6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I graduated from college with an English degree.",
+                            kurdishText:
+                                "کۆلێژم بە بڕوانامەی ئینگلیزییەوە تەواو کرد.",
+                            onPressedBritish: () => speakcolleges6("en-GB"),
+                            onPressedAmerican: () => speakcolleges6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) یەکێک لە دامەزراوە یان بەشەکانی زانکۆ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Most students live in college."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی خوێندکاران لە کۆلێژ دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolleges7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolleges7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Most students live in college.",
+                            kurdishText: "زۆرینەی خوێندکاران لە کۆلێژ دەژین.",
+                            onPressedBritish: () => speakcolleges7("en-GB"),
+                            onPressedAmerican: () => speakcolleges7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The history department is part of the College of Arts and Sciences."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشی مێژوو سەر بە کۆلێژی زانست و ھونەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolleges8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolleges8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The history department is part of the College of Arts and Sciences.",
+                            kurdishText:
+                                "بەشی مێژوو سەر بە کۆلێژی زانست و ھونەرە.",
+                            onPressedBritish: () => speakcolleges8("en-GB"),
+                            onPressedAmerican: () => speakcolleges8("en-US"),
                           ),
                         ],
                       ),

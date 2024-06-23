@@ -111,63 +111,25 @@ class EnglishEntrycloakroom extends StatelessWidget {
                                       "ھەروەھا: checkroom، coat check، coatroom"),
                             ],
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cloakroom was crowded with jackets and bags."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلەکڕوومەکە پڕ لە چاکەت و جانتا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cloakroom", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloakrooms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloakrooms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cloakroom was crowded with jackets and bags.",
+                            kurdishText:
+                                "کلەکڕوومەکە پڕ لە چاکەت و جانتا بوو.", // cloakroom",
+                            onPressedBritish: () => speakcloakrooms1("en-GB"),
+                            onPressedAmerican: () => speakcloakrooms1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ژوورێک کە یەک سەرئاو یان ژمارەیەکی لێیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ladies' cloakroom was elegantly decorated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستاوخانەی ژنان بەجوانی ڕازێندرابوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloakrooms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloakrooms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ladies' cloakroom was elegantly decorated.",
+                            kurdishText:
+                                "دەستاوخانەی ژنان بەجوانی ڕازێندرابوویەوە.",
+                            onPressedBritish: () => speakcloakrooms2("en-GB"),
+                            onPressedAmerican: () => speakcloakrooms2("en-US"),
                           ),
                         ],
                       ),

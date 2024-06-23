@@ -95,32 +95,13 @@ class EnglishEntryclam extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جۆرە گیانەوەرێکی سەدەفدار کە دەکرێت بخورێت و دوو توێکڵی ھەیە کە دەکرێنەوە و دادەخرێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The moment I mentioned the children he closed up like a clam (= became silent and refused to discuss the topic)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرکە باسی منداڵەکانم کرد وەک کلامێک بێ‌دەنگ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clam", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclams1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclams1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The moment I mentioned the children he closed up like a clam (= became silent and refused to discuss the topic).",
+                            kurdishText:
+                                "ھەرکە باسی منداڵەکانم کرد وەک کلامێک بێ‌دەنگ بوو.", // clam",
+                            onPressedBritish: () => speakclams1("en-GB"),
+                            onPressedAmerican: () => speakclams1("en-US"),
                           ),
                         ],
                       ),

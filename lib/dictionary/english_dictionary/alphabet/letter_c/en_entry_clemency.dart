@@ -103,60 +103,22 @@ class EnglishEntryclemency extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) میھرەبانی لە سزادانی کەسێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was executed by firing squad despite widespread pleas for clemency."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە گوللەباران کوژرا سەرەڕای پاڕانەوەی بەرفراوان بۆ لێبووردەیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clemency", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclemencys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclemencys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was executed by firing squad despite widespread pleas for clemency.",
+                            kurdishText:
+                                "بە گوللەباران کوژرا سەرەڕای پاڕانەوەی بەرفراوان بۆ لێبووردەیی.", // clemency",
+                            onPressedBritish: () => speakclemencys1("en-GB"),
+                            onPressedAmerican: () => speakclemencys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His lawyers appealed for clemency on the grounds of ill health."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارێزەرەکانی داوای میھرەبانییان کرد بەھۆکاری تەندرووستی خراپ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclemencys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclemencys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His lawyers appealed for clemency on the grounds of ill health.",
+                            kurdishText:
+                                "پارێزەرەکانی داوای میھرەبانییان کرد بەھۆکاری تەندرووستی خراپ.",
+                            onPressedBritish: () => speakclemencys2("en-GB"),
+                            onPressedAmerican: () => speakclemencys2("en-US"),
                           ),
                         ],
                       ),

@@ -186,32 +186,13 @@ class EnglishEntrycauseway extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەرزەڕێ؛ ڕێگایەکی بەرز بەسەر ئاو یان زەوی تەڕدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The islands are linked by causeways and bridges."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوورگەکان بە بەرزەڕێ و پرد پێکەوەبەستراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "causeway", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcauseways1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcauseways1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The islands are linked by causeways and bridges.",
+                            kurdishText:
+                                "دوورگەکان بە بەرزەڕێ و پرد پێکەوەبەستراون.", // causeway",
+                            onPressedBritish: () => speakcauseways1("en-GB"),
+                            onPressedAmerican: () => speakcauseways1("en-US"),
                           ),
                         ],
                       ),

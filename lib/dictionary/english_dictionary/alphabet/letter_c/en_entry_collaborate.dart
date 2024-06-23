@@ -112,97 +112,37 @@ class EnglishEntrycollaborate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پێکەوە کارکردن لەگەڵ کەسێک بۆ بەدەستھێنان یان بەرھەمھێنانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Researchers around the world are collaborating to develop a new vaccine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژەران لە جیھانەوە پێکەوە کار دەکەن بۆ گەشەپێدانی ڤاکسینی تازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collaborate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcollaborates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcollaborates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Researchers around the world are collaborating to develop a new vaccine.",
+                            kurdishText:
+                                "توێژەران لە جیھانەوە پێکەوە کار دەکەن بۆ گەشەپێدانی ڤاکسینی تازە.", // collaborate",
+                            onPressedBritish: () => speakcollaborates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcollaborates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have collaborated on many projects over the years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە درێژایی ساڵان لە زۆر پڕۆژەدا پێکەوە کارمان کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcollaborates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcollaborates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have collaborated on many projects over the years.",
+                            kurdishText:
+                                "بە درێژایی ساڵان لە زۆر پڕۆژەدا پێکەوە کارمان کردووە.",
+                            onPressedBritish: () => speakcollaborates2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcollaborates2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) یارمەتیدانی دووژمنی داگیرکەر لە کاتی جەنگدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was accused of collaborating with the enemy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆمەتبارکرا بە ھاودەستی لەگەڵ دووژمندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcollaborates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcollaborates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was accused of collaborating with the enemy.",
+                            kurdishText:
+                                "تۆمەتبارکرا بە ھاودەستی لەگەڵ دووژمندا.",
+                            onPressedBritish: () => speakcollaborates3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcollaborates3("en-US"),
                           ),
                         ],
                       ),

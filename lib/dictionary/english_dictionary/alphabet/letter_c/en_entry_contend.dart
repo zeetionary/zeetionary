@@ -120,32 +120,13 @@ class EnglishEntrycontend extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (کردار) گوتنی ئەوەی شتێک ڕاستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I would contend that the minister's thinking is flawed on this point."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەخت لەوە دەکەمەوە بیرکردنەوەی وەزیرەکە شاشە لەم خاڵەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contend", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontends1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontends1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I would contend that the minister's thinking is flawed on this point.",
+                            kurdishText:
+                                "جەخت لەوە دەکەمەوە بیرکردنەوەی وەزیرەکە شاشە لەم خاڵەدا.", // contend",
+                            onPressedBritish: () => speakcontends1("en-GB"),
+                            onPressedAmerican: () => speakcontends1("en-US"),
                           ),
                           // const DividerSentences(),
                           // Row(
@@ -178,60 +159,22 @@ class EnglishEntrycontend extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ڕکابەریکردن لەگەڵ کەسێک بۆ بەدەستھێنانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Three armed groups were contending for power."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێ گرووپی چەکدار ڕکابەرییان بوو بۆ دەسەڵات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontends3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontends3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Three armed groups were contending for power.",
+                            kurdishText:
+                                "سێ گرووپی چەکدار ڕکابەرییان بوو بۆ دەسەڵات.",
+                            onPressedBritish: () => speakcontends3("en-GB"),
+                            onPressedAmerican: () => speakcontends3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's contending against someone with twice his experience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕکابەری کەسێک دەکات کە دوو ھێندەی ئەو ئەزموونی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontends4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontends4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's contending against someone with twice his experience.",
+                            kurdishText:
+                                "ڕکابەری کەسێک دەکات کە دوو ھێندەی ئەو ئەزموونی ھەیە.",
+                            onPressedBritish: () => speakcontends4("en-GB"),
+                            onPressedAmerican: () => speakcontends4("en-US"),
                           ),
                         ],
                       ),

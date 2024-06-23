@@ -112,87 +112,30 @@ class EnglishEntrychin extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو بەشەی ڕووخسار کە لە خوار دەم و لەسەرەوەی ملە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A strap fastens under the chin to keep the helmet in place."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەستێک لە خوارەوەی چەناگە دەبەسترێت بۆ ھێشتنەوەی کڵاوەکە لە جێگای خۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chin", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchins1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchins1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A strap fastens under the chin to keep the helmet in place.",
+                            kurdishText:
+                                "بەستێک لە خوارەوەی چەناگە دەبەسترێت بۆ ھێشتنەوەی کڵاوەکە لە جێگای خۆی.", // chin",
+                            onPressedBritish: () => speakchins1("en-GB"),
+                            onPressedAmerican: () => speakchins1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He put his hand under her chin and lifted her face to his."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی خستە ژێر چەناگەی کچەکە و ڕووخساری بەرەو خۆی بەرزکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchins2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchins2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He put his hand under her chin and lifted her face to his.",
+                            kurdishText:
+                                "دەستی خستە ژێر چەناگەی کچەکە و ڕووخساری بەرەو خۆی بەرزکردەوە.",
+                            onPressedBritish: () => speakchins2("en-GB"),
+                            onPressedAmerican: () => speakchins2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her chin was resting on his shoulder."),
-                                    ExampleSentenceKurdish(
-                                        text: "چەناگەی لەسەر شانی کوڕەکە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchins3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchins3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her chin was resting on his shoulder.",
+                            kurdishText: "چەناگەی لەسەر شانی کوڕەکە بوو.",
+                            onPressedBritish: () => speakchins3("en-GB"),
+                            onPressedAmerican: () => speakchins3("en-US"),
                           ),
                         ],
                       ),

@@ -94,32 +94,13 @@ class EnglishEntrycockatoo extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) باڵندەیەک کە لە خێزانی تووتییە و ڕیزە پەڕێکی لەسەر ملی ھەیە کە فش دەبێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She taught her pet cockatoo to mimic her words."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تووتییە پۆپنەدارەکەی فێرکرد کە لاسایی قسەکانی بکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cockatoo", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcockatoos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcockatoos1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She taught her pet cockatoo to mimic her words.",
+                            kurdishText:
+                                "تووتییە پۆپنەدارەکەی فێرکرد کە لاسایی قسەکانی بکاتەوە.", // cockatoo",
+                            onPressedBritish: () => speakcockatoos1("en-GB"),
+                            onPressedAmerican: () => speakcockatoos1("en-US"),
                           ),
                         ],
                       ),

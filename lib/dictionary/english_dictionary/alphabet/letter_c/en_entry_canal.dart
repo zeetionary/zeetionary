@@ -194,91 +194,34 @@ class EnglishEntrycanal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕێگایەکی ڕاست و درێژ کە پڕکراوە لە ئاو بۆ ئەوەی بەلەم و کەشتی پێیدا بڕۆن "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The barge moved slowly along the canal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکەمە بارھەڵگرەکە بەھێواشی بە کەناڵەکەدا چوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canal", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The barge moved slowly along the canal.",
+                            kurdishText:
+                                "بەکەمە بارھەڵگرەکە بەھێواشی بە کەناڵەکەدا چوو.", // canal
+                            onPressedBritish: () => speakcanals1("en-GB"),
+                            onPressedAmerican: () => speakcanals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Panama Canal was not opened until after the outbreak of war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەناڵی پەنەما نەکرایەوە تاوەکو جەنگ دەستیپێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Panama Canal was not opened until after the outbreak of war.",
+                            kurdishText:
+                                "کەناڵی پەنەما نەکرایەوە تاوەکو جەنگ دەستیپێکرد.",
+                            onPressedBritish: () => speakcanals2("en-GB"),
+                            onPressedAmerican: () => speakcanals2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕێڕەوێک یان جۆگەیەک لە لەشی مرۆڤدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The alimentary canal is the path by which food enters the body, and solid waste is passed out."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جۆگەی ھەرس ئەو بەشەیە کە خواردنی پێدا دەچێتە لەشەوە و پیسایی لێوە دەردەچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The alimentary canal is the path by which food enters the body, and solid waste is passed out.",
+                            kurdishText:
+                                "جۆگەی ھەرس ئەو بەشەیە کە خواردنی پێدا دەچێتە لەشەوە و پیسایی لێوە دەردەچێت.",
+                            onPressedBritish: () => speakcanals3("en-GB"),
+                            onPressedAmerican: () => speakcanals3("en-US"),
                           ),
                         ],
                       ),

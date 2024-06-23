@@ -193,34 +193,14 @@ class EnglishEntrycashmachine extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دەزگایەک لە دەرەوەی فرۆشگایەک یان بانکێک کە لە ڕێگەیەوە پارە ڕادەکێشیت لە کارتی بانکییەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He withdrew £100 from a cash machine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "١٠٠ پاوەندی لە دەزگایەکی پارەدەرەوە ڕآکێشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cash machine", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcashmachines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcashmachines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He withdrew £100 from a cash machine.",
+                            kurdishText:
+                                "١٠٠ پاوەندی لە دەزگایەکی پارەدەرەوە ڕآکێشا.", // cash machine",
+                            onPressedBritish: () => speakcashmachines1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcashmachines1("en-US"),
                           ),
                         ],
                       ),

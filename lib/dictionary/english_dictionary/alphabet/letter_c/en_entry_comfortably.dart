@@ -129,156 +129,56 @@ class EnglishEntrycomfortably extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە ئاسوودەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All the rooms were comfortably furnished."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ژوورەکان بە ئاسوودەبەخشانە کەلوپەلیان لێ دانرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comfortably", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortablys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortablys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All the rooms were comfortably furnished.",
+                            kurdishText:
+                                "ھەموو ژوورەکان بە ئاسوودەبەخشانە کەلوپەلیان لێ دانرا.", // comfortably",
+                            onPressedBritish: () => speakcomfortablys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortablys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you're all sitting comfortably, then I'll begin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر ھەمووتان بە ئاسوودەیی دانیشطوون، ئەوا دەستپێ دەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortablys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortablys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you're all sitting comfortably, then I'll begin.",
+                            kurdishText:
+                                "ئەگەر ھەمووتان بە ئاسوودەیی دانیشطوون، ئەوا دەستپێ دەکەم.",
+                            onPressedBritish: () => speakcomfortablys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortablys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You should be able to live comfortably on your allowance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت بتوانیت بە ئاسوودەیی بژیت بە بڕانەکەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortablys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortablys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You should be able to live comfortably on your allowance.",
+                            kurdishText:
+                                "دەبێت بتوانیت بە ئاسوودەیی بژیت بە بڕانەکەت.",
+                            onPressedBritish: () => speakcomfortablys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortablys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵکار) بەبێ کێشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He can comfortably afford the extra expense."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئاسانی دەتوانێت تێچووە زیادەکە دابین بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortablys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortablys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He can comfortably afford the extra expense.",
+                            kurdishText:
+                                "بە ئاسانی دەتوانێت تێچووە زیادەکە دابین بکات.",
+                            onPressedBritish: () => speakcomfortablys4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortablys4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They are comfortably ahead in the opinion polls."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئاسانی لە پێشەوەن لە ڕاپرسییەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortablys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortablys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They are comfortably ahead in the opinion polls.",
+                            kurdishText:
+                                "بە ئاسانی لە پێشەوەن لە ڕاپرسییەکاندا.",
+                            onPressedBritish: () => speakcomfortablys5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortablys5("en-US"),
                           ),
                         ],
                       ),

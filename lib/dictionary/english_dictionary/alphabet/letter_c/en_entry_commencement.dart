@@ -93,34 +93,15 @@ class EnglishEntrycommencement extends StatelessWidget {
 کوردی: دەسپێک، سەرەتا، بەرایی،	ئاھەنگی دەرچوون، ڕێ‌وڕەسمی لە خوێندن‌بوونەوە
 """),
                           const DefinitionKurdish(text: "١. (ناو) دەستپێکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please turn off your mobile phones before the commencement of the flight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە موبایلەکانتان بکوژێننەوە پێش دەستپێکردنی گەشتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commencement", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommencements1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommencements1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please turn off your mobile phones before the commencement of the flight.",
+                            kurdishText:
+                                "تکایە موبایلەکانتان بکوژێننەوە پێش دەستپێکردنی گەشتەکە.", // commencement",
+                            onPressedBritish: () =>
+                                speakcommencements1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommencements1("en-US"),
                           ),
                         ],
                       ),

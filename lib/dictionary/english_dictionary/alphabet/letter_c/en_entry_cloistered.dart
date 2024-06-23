@@ -95,32 +95,13 @@ class EnglishEntrycloistered extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) دوور لە کێشە و مەترسییەکانی ژیانی ئاسایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I came to appreciate the cloistered existence of the monks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاتم بۆ زانینی قەدری ژیانی پەڕگیری ڕەبەنەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cloistered", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloistereds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloistereds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I came to appreciate the cloistered existence of the monks.",
+                            kurdishText:
+                                "ھاتم بۆ زانینی قەدری ژیانی پەڕگیری ڕەبەنەکان.", // cloistered",
+                            onPressedBritish: () => speakcloistereds1("en-GB"),
+                            onPressedAmerican: () => speakcloistereds1("en-US"),
                           ),
                         ],
                       ),

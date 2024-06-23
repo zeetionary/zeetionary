@@ -231,31 +231,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: وشک، زووشکاو، (زوو)ھەڵوەریو، تورت، ناسک
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە بە ئاسانی ورد دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cake should have a light and crumbly texture."),
-                    ExampleSentenceKurdish(
-                        text: "کێکەکە دەبێت ڕەنگێکی ڕۆشن و وشکی ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crumbly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrumblys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrumblys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cake should have a light and crumbly texture.",
+            kurdishText:
+                "کێکەکە دەبێت ڕەنگێکی ڕۆشن و وشکی ھەبێت.", // crumbly", please follow LX instructions
+            onPressedBritish: () => speakcrumblys1("en-GB"),
+            onPressedAmerican: () => speakcrumblys1("en-US"),
           ),
         ],
       ),

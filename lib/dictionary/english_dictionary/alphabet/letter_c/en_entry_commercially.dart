@@ -102,67 +102,29 @@ class EnglishEntrycommercially extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە لایەنی کڕین و فرۆشتنی کەلوپەل و خامەتگوزارییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The product is not yet commercially available."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرھەمەکە ھێشتا لەلایەنی بازرگانییەوە بەردەست نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commercially", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommerciallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommerciallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The product is not yet commercially available.",
+                            kurdishText:
+                                "بەرھەمەکە ھێشتا لەلایەنی بازرگانییەوە بەردەست نییە.", // commercially",
+                            onPressedBritish: () =>
+                                speakcommerciallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommerciallys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بەشێوەیەک کە ئامانج لێی قازانجە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His invention was not commercially successful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داھێنانەکەی لەلایەنی بازرگانییەوە سەرکەوتوو نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommerciallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommerciallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His invention was not commercially successful.",
+                            kurdishText:
+                                "داھێنانەکەی لەلایەنی بازرگانییەوە سەرکەوتوو نەبوو.",
+                            onPressedBritish: () =>
+                                speakcommerciallys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommerciallys2("en-US"),
                           ),
                         ],
                       ),

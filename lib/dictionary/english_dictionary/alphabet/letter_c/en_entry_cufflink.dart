@@ -233,31 +233,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) شتێک کە بۆ بەستنی سەرقۆڵی جل بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He struggled to fasten the cufflinks on his shirt."),
-                    ExampleSentenceKurdish(
-                        text: "نەیدەتوانی بەستەری سەرقۆڵەکانی ببەستێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cufflink", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcufflinks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcufflinks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He struggled to fasten the cufflinks on his shirt.",
+            kurdishText:
+                "نەیدەتوانی بەستەری سەرقۆڵەکانی ببەستێت.", // cufflink", please follow LX instructions
+            onPressedBritish: () => speakcufflinks1("en-GB"),
+            onPressedAmerican: () => speakcufflinks1("en-US"),
           ),
         ],
       ),

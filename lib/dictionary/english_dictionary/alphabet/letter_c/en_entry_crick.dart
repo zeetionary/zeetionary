@@ -243,60 +243,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گەیاندنی ئازار بە مل یان پشت بەشێوەیەک کە ئازارێکی دژوارت پێ دەگەیەنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I suffered a cricked neck during a game of tennis."),
-                    ExampleSentenceKurdish(
-                        text: "لە یارییەکی تێنسدا تووشی کۆڵنجی مل بوومەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crick", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcricks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcricks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I suffered a cricked neck during a game of tennis.",
+            kurdishText:
+                "لە یارییەکی تێنسدا تووشی کۆڵنجی مل بوومەوە.", // crick", please follow LX instructions
+            onPressedBritish: () => speakcricks1("en-GB"),
+            onPressedAmerican: () => speakcricks1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کۆڵنجی مل یان پشت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He got a crick in the neck from sleeping in an awkward position."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تووشی کۆڵنجی مل بوو بەھۆی خەوتن لەسەر لایەکی ناڕێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcricks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcricks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He got a crick in the neck from sleeping in an awkward position.",
+            kurdishText: "تووشی کۆڵنجی مل بوو بەھۆی خەوتن لەسەر لایەکی ناڕێک.",
+            onPressedBritish: () => speakcricks2("en-GB"),
+            onPressedAmerican: () => speakcricks2("en-US"),
           ),
         ],
       ),

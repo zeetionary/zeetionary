@@ -103,62 +103,24 @@ class EnglishEntrycontagion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بڵاوبوونەوەی نەخۆشی بەھۆی پەیوەندی نزیک لە نێوان خەڵکیدا؛ نەخۆشییەک کە بەم شێوەیە بڵاودەبێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "There is no risk of contagion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ مەترسی تووشبوون/بڵاوبوونەوە نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contagion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontagions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontagions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "There is no risk of contagion.",
+                            kurdishText:
+                                "ھیچ مەترسی تووشبوون/بڵاوبوونەوە نییە.", // contagion",
+                            onPressedBritish: () => speakcontagions1("en-GB"),
+                            onPressedAmerican: () => speakcontagions1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شتێکی خراپ کە زوو بڵاودەبێتەوە لە کەسێکەوە بۆ کەسێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Social media has been cited as a factor in the contagion of political extremism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆڕە کۆمەڵایەتییەکان وەک فاکتەرێک ناوھێنراوە لە بڵاوبوونەوەی توندوتیژی سیاسیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontagions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontagions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Social media has been cited as a factor in the contagion of political extremism.",
+                            kurdishText:
+                                "تۆڕە کۆمەڵایەتییەکان وەک فاکتەرێک ناوھێنراوە لە بڵاوبوونەوەی توندوتیژی سیاسیدا.",
+                            onPressedBritish: () => speakcontagions2("en-GB"),
+                            onPressedAmerican: () => speakcontagions2("en-US"),
                           ),
                         ],
                       ),

@@ -112,99 +112,39 @@ class EnglishEntrycontrivance extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە کەسێک نووسیویەتی یان درووستیکردووە کە سرووشتی نییە؛ دەرکەوتن وەک دەستکرد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The film is spoilt by unrealistic contrivances of plot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە شێوێندراوە بە گێڕانەوەی ناڕاستی ڕووداوەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contrivance", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontrivances1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontrivances1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The film is spoilt by unrealistic contrivances of plot.",
+                            kurdishText:
+                                "فیلمەکە شێوێندراوە بە گێڕانەوەی ناڕاستی ڕووداوەکان.", // contrivance",
+                            onPressedBritish: () => speakcontrivances1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontrivances1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئامێرێک یان ئامرازێکی زیرەکانە کە بۆ مەبەستێکی تایبەت درووستکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His workshop was full of mechanical contrivances."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شوێنکارەکەی پڕ بوو لە دەزگای میکانیکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontrivances2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontrivances2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His workshop was full of mechanical contrivances.",
+                            kurdishText:
+                                "شوێنکارەکەی پڕ بوو لە دەزگای میکانیکی.",
+                            onPressedBritish: () => speakcontrivances2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontrivances2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) پلان یان فێڵێکی زیرەکانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He used an ingenious contrivance to distract her and get her to sign the document without reading it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەڵەکەیەکی زیرەکانەی بەکارھێنا بۆ سەرقاڵکردنی و وای لێ بکات بەڵگەنامەکە واژۆ بکات بەبێ خوێندنەوەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontrivances3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontrivances3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He used an ingenious contrivance to distract her and get her to sign the document without reading it.",
+                            kurdishText:
+                                "تەڵەکەیەکی زیرەکانەی بەکارھێنا بۆ سەرقاڵکردنی و وای لێ بکات بەڵگەنامەکە واژۆ بکات بەبێ خوێندنەوەی.",
+                            onPressedBritish: () => speakcontrivances3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontrivances3("en-US"),
                           ),
                         ],
                       ),

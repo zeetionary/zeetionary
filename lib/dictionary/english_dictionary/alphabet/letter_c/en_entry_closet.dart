@@ -111,94 +111,34 @@ class EnglishEntrycloset extends StatelessWidget {
                               text:
                                   "١. (ناو) دۆڵابێک یان ژوورێکی بچووک کە بۆ ھەڵگرتنی شت بەکاردێت، بەتایبەتی جلوبەرگ"),
                           const AlsoEnglishckb(word: "ھەروەھا: cupboard"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has a walk-in closet for all her clothes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆڵابێکی گەورەی ھەبوو بۆ ھەموو جلەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "closet", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has a walk-in closet for all her clothes.",
+                            kurdishText:
+                                "دۆڵابێکی گەورەی ھەبوو بۆ ھەموو جلەکانی.", // closet",
+                            onPressedBritish: () => speakclosets1("en-GB"),
+                            onPressedAmerican: () => speakclosets1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ئەو کەسانەی کە ھەندێک ڕاستی لەسەر خۆیان بە نھێنی دەھێڵنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I suspect he's a closet fascist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گومانم ھەیە لە بنەوە فاشیستێک بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I suspect he's a closet fascist.",
+                            kurdishText: "گومانم ھەیە لە بنەوە فاشیستێک بێت.",
+                            onPressedBritish: () => speakclosets2("en-GB"),
+                            onPressedAmerican: () => speakclosets2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) دانانی کەسێک بە تەنھا لە ژوورێکدا بۆ ئەوەی بە نھێنی قسە لەگەڵ کەسێک بکات یان تەنھا بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had closeted herself away in her room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی گۆشەگیر کردبوو لە ژوورەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosets3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosets3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had closeted herself away in her room.",
+                            kurdishText: "خۆی گۆشەگیر کردبوو لە ژوورەکەیدا.",
+                            onPressedBritish: () => speakclosets3("en-GB"),
+                            onPressedAmerican: () => speakclosets3("en-US"),
                           ),
                         ],
                       ),

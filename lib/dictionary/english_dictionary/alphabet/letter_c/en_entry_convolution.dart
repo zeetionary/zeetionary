@@ -104,66 +104,26 @@ class EnglishEntryconvolution extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە زۆر ئاڵۆزە و سەختە لێی تێبگەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie's plot twists and convolutions demand a lot of concentration from the audience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆڕانە لەناکاو و ئاڵۆزییەکان و فیلمەکە سەرنجێکی زۆر لە بینەر دەخوازێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convolution", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvolutions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvolutions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie's plot twists and convolutions demand a lot of concentration from the audience.",
+                            kurdishText:
+                                "گۆڕانە لەناکاو و ئاڵۆزییەکان و فیلمەکە سەرنجێکی زۆر لە بینەر دەخوازێت.", // convolution",
+                            onPressedBritish: () => speakconvolutions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvolutions1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) پێچێک یان چەماوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The mountain road was full of convolutions, making the drive challenging."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شاخەکە پڕ لە پێچاوپێچ بوو و ڕۆشتنەکەی سەخت کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvolutions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvolutions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The mountain road was full of convolutions, making the drive challenging.",
+                            kurdishText:
+                                "شاخەکە پڕ لە پێچاوپێچ بوو و ڕۆشتنەکەی سەخت کردبوو.",
+                            onPressedBritish: () => speakconvolutions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvolutions2("en-US"),
                           ),
                         ],
                       ),

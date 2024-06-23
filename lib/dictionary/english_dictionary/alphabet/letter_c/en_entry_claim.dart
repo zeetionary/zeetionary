@@ -330,59 +330,21 @@ class EnglishEntryclaim extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) وتنی ئەوەی شتێک ڕاستە ئەگەرچی نەسەلمێندراوە و خەڵکی دیکە ڕەنگە باوەڕ نەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I don't claim to be an expert."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانگەشەی ئەوە ناکەم پسپۆڕێک بم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "claim", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I don't claim to be an expert.",
+                            kurdishText:
+                                "بانگەشەی ئەوە ناکەم پسپۆڕێک بم.", // claim",
+                            onPressedBritish: () => speakclaims1("en-GB"),
+                            onPressedAmerican: () => speakclaims1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's not the saint that many have claimed her to be."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو فریشتەیەش نییە کە زۆر کەس بانگەشەی ئەوەی بۆ دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's not the saint that many have claimed her to be.",
+                            kurdishText:
+                                "ئەو فریشتەیەش نییە کە زۆر کەس بانگەشەی ئەوەی بۆ دەکەن.",
+                            onPressedBritish: () => speakclaims2("en-GB"),
+                            onPressedAmerican: () => speakclaims2("en-US"),
                           ),
                           Column(
                             children: [
@@ -485,119 +447,43 @@ class EnglishEntryclaim extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بانگەشەکردنی ئەوەی کردووە یان بەدەستھێناوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He claimed victory in the presidential elections before all the results were in."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکەوتنی لە ھەڵبژاردنی سەرۆکایەتی ڕاگەیاند پێش ئەوەی ھەموو ئەنجامەکان دەربکەون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He claimed victory in the presidential elections before all the results were in.",
+                            kurdishText:
+                                "سەرکەوتنی لە ھەڵبژاردنی سەرۆکایەتی ڕاگەیاند پێش ئەوەی ھەموو ئەنجامەکان دەربکەون.",
+                            onPressedBritish: () => speakclaims6("en-GB"),
+                            onPressedAmerican: () => speakclaims6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Nobody has claimed responsibility for the bombing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەس بەرپرسیاریەتی بۆ تەقینەوەکان ڕانەگەیاندووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Nobody has claimed responsibility for the bombing.",
+                            kurdishText:
+                                "کەس بەرپرسیاریەتی بۆ تەقینەوەکان ڕانەگەیاندووە.",
+                            onPressedBritish: () => speakclaims7("en-GB"),
+                            onPressedAmerican: () => speakclaims7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) داواکردنی پارە لە حکومەت یان کۆمپانیایەک بەھۆی ئەوەی مافی ئەوەت ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You might be entitled to claim compensation if you are injured at work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەری بوونی مافی قەرەبووت ھەیە ئەگەر لەسەر کار بریندار بیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You might be entitled to claim compensation if you are injured at work.",
+                            kurdishText:
+                                "ئەگەری بوونی مافی قەرەبووت ھەیە ئەگەر لەسەر کار بریندار بیت.",
+                            onPressedBritish: () => speakclaims8("en-GB"),
+                            onPressedAmerican: () => speakclaims8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You could have claimed the cost of the hotel room from your insurance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتتوانی لە بیمەکەت داوای کرێی ژووری ھوتێلەکەت بکردایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You could have claimed the cost of the hotel room from your insurance.",
+                            kurdishText:
+                                "دەتتوانی لە بیمەکەت داوای کرێی ژووری ھوتێلەکەت بکردایە.",
+                            onPressedBritish: () => speakclaims9("en-GB"),
+                            onPressedAmerican: () => speakclaims9("en-US"),
                           ),
                           Column(
                             children: [
@@ -670,236 +556,82 @@ class EnglishEntryclaim extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) داواکردنی شتێک چونکە پێتوایە مافی یاساییتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The family arrived in the UK in the 1990s and claimed political asylum."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێزانەکە لە ١٩٩٠ـەکان ھاتنە بەریتانیا و داوای مافی پەنابەرێتی سیاسییان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The family arrived in the UK in the 1990s and claimed political asylum.",
+                            kurdishText:
+                                "خێزانەکە لە ١٩٩٠ـەکان ھاتنە بەریتانیا و داوای مافی پەنابەرێتی سیاسییان کرد.",
+                            onPressedBritish: () => speakclaims12("en-GB"),
+                            onPressedAmerican: () => speakclaims12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When King Richard III died, Henry VII claimed the English throne."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە ڕیچاردی سێیەم مرد، ھێنریی حەوتەم داوای تەختی شاھانەی ئینگلیزی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When King Richard III died, Henry VII claimed the English throne.",
+                            kurdishText:
+                                "کە ڕیچاردی سێیەم مرد، ھێنریی حەوتەم داوای تەختی شاھانەی ئینگلیزی کرد.",
+                            onPressedBritish: () => speakclaims13("en-GB"),
+                            onPressedAmerican: () => speakclaims13("en-US"),
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police said that if no one claims the watch, you can keep it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس گوتی ئەگەر کەس وەک خاوەنی کاتژمێرەکە دەرنەکەوت، دەتوانی بیبەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police said that if no one claims the watch, you can keep it.",
+                            kurdishText:
+                                "پۆلیس گوتی ئەگەر کەس وەک خاوەنی کاتژمێرەکە دەرنەکەوت، دەتوانی بیبەیت.",
+                            onPressedBritish: () => speakclaims14("en-GB"),
+                            onPressedAmerican: () => speakclaims14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) ڕاکێشانی سەرنجی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A most unwelcome event claimed his attention."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووداوێکی بێزراو سەرنجی ڕاکێشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A most unwelcome event claimed his attention.",
+                            kurdishText: "ڕووداوێکی بێزراو سەرنجی ڕاکێشا.",
+                            onPressedBritish: () => speakclaims15("en-GB"),
+                            onPressedAmerican: () => speakclaims15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) کردن یان بەدەستھێنانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has finally claimed a place on the team."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتاییدا شوێنێکی لە تیمەکە بەدەستھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has finally claimed a place on the team.",
+                            kurdishText:
+                                "لە کۆتاییدا شوێنێکی لە تیمەکە بەدەستھێناوە.",
+                            onPressedBritish: () => speakclaims16("en-GB"),
+                            onPressedAmerican: () => speakclaims16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کردار) بوون بە ھۆکاری مردنی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car crash claimed three lives."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکدادانی ئۆتۆمبێلەکە سێ کەسی کردە قوربانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The car crash claimed three lives.",
+                            kurdishText:
+                                "پێکدادانی ئۆتۆمبێلەکە سێ کەسی کردە قوربانی.",
+                            onPressedBritish: () => speakclaims17("en-GB"),
+                            onPressedAmerican: () => speakclaims17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (ناو) وتەیەک کە بانگەشەی ئەوە دەکات شتێک ڕاستە ئەگەرچی بەڵگە نییە و خەڵکی دیکە ڕەنگە باوەڕ نەکەن یان ھاودەنگ نەبن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company had made false claims about its products."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە بانگەشەی ناڕاستی کردووە دەربارەی بەرھەمەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company had made false claims about its products.",
+                            kurdishText:
+                                "کۆمپانیاکە بانگەشەی ناڕاستی کردووە دەربارەی بەرھەمەکانی.",
+                            onPressedBritish: () => speakclaims18("en-GB"),
+                            onPressedAmerican: () => speakclaims18("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The singer has denied the magazine's claim that she is leaving the band."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆرانیبێژەکە بانگەشەی گۆڤارەکەی بەدرۆخستووەتەوە لەسەر ئەوەی کە باندەکە جێدێڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The singer has denied the magazine's claim that she is leaving the band.",
+                            kurdishText:
+                                "گۆرانیبێژەکە بانگەشەی گۆڤارەکەی بەدرۆخستووەتەوە لەسەر ئەوەی کە باندەکە جێدێڵێت.",
+                            onPressedBritish: () => speakclaims19("en-GB"),
+                            onPressedAmerican: () => speakclaims19("en-US"),
                           ),
                           Column(
                             children: [
@@ -1002,60 +734,22 @@ class EnglishEntryclaim extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٩. (ناو) داخوازی بۆ بڕێک پارە کە پێتوایە مافت ھەیە بۆی، بەتایبەتی لە حکومەت، کۆمپانیایەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Make sure your claims for expenses are submitted by the end of the month."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیابە داخوازییەکانتان بۆ خەرجییەکان تا کۆتایی مانگ پێشکەش دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims23("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims23("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Make sure your claims for expenses are submitted by the end of the month.",
+                            kurdishText:
+                                "دڵنیابە داخوازییەکانتان بۆ خەرجییەکان تا کۆتایی مانگ پێشکەش دەکرێن.",
+                            onPressedBritish: () => speakclaims23("en-GB"),
+                            onPressedAmerican: () => speakclaims23("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She brought a claim for damages against the company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داخوازی قەرەبووی دژ بە کۆمپانیایەکە ھێنایە پێشەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims24("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims24("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She brought a claim for damages against the company.",
+                            kurdishText:
+                                "داخوازی قەرەبووی دژ بە کۆمپانیایەکە ھێنایە پێشەوە.",
+                            onPressedBritish: () => speakclaims24("en-GB"),
+                            onPressedAmerican: () => speakclaims24("en-US"),
                           ),
                           Column(
                             children: [
@@ -1098,87 +792,29 @@ class EnglishEntryclaim extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١٠. (ناو) مافێک کە کەسێک باوەڕی وایە لە ڕووی یاساییەوە ھەیەتی بەسەر شتێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They had no claim on the land."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ مافێکیان بەسەر خاکەکەوە نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims26("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims26("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They had no claim on the land.",
+                            kurdishText: "ھیچ مافێکیان بەسەر خاکەکەوە نەبوو.",
+                            onPressedBritish: () => speakclaims26("en-GB"),
+                            onPressedAmerican: () => speakclaims26("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has more claim to the campaign's success than anybody (= she is responsible for it)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیاتر لە ھەر کەسێک مافی ھەیە بەسەر سەرکەوتنی کۆمپانیاکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims27("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims27("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has more claim to the campaign's success than anybody (= she is responsible for it).",
+                            kurdishText:
+                                "زیاتر لە ھەر کەسێک مافی ھەیە بەسەر سەرکەوتنی کۆمپانیاکەوە.",
+                            onPressedBritish: () => speakclaims27("en-GB"),
+                            onPressedAmerican: () => speakclaims27("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She renounced her claim to the property."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وازی لە مافی بەسەر زەوی‌وزارەکەوە ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaims28("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaims28("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She renounced her claim to the property.",
+                            kurdishText:
+                                "وازی لە مافی بەسەر زەوی‌وزارەکەوە ھێنا.",
+                            onPressedBritish: () => speakclaims28("en-GB"),
+                            onPressedAmerican: () => speakclaims28("en-US"),
                           ),
                         ],
                       ),

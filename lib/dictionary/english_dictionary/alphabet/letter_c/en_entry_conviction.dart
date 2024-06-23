@@ -137,177 +137,62 @@ class EnglishEntryconviction extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناساندنی کەسێک وەک ئەنجامدەری تاوانێک لە دادگادا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He plans to appeal against his conviction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانی ھەیە پەڵپ لە توانبارکردنەکەی بگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conviction", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvictions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvictions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He plans to appeal against his conviction.",
+                            kurdishText:
+                                "پلانی ھەیە پەڵپ لە توانبارکردنەکەی بگرێت.", // conviction",
+                            onPressedBritish: () => speakconvictions1("en-GB"),
+                            onPressedAmerican: () => speakconvictions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has six previous convictions for theft."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەش تاوانبارکردنی دیکەی ھەیە بۆ دزیکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvictions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvictions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has six previous convictions for theft.",
+                            kurdishText:
+                                "شەش تاوانبارکردنی دیکەی ھەیە بۆ دزیکردن.",
+                            onPressedBritish: () => speakconvictions2("en-GB"),
+                            onPressedAmerican: () => speakconvictions2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His sentence on conviction would be life imprisonment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سزاکەی لە ئەگەری تاوانبارکردنیدا زیندانی ھەمیشەیی دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvictions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvictions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His sentence on conviction would be life imprisonment.",
+                            kurdishText:
+                                "سزاکەی لە ئەگەری تاوانبارکردنیدا زیندانی ھەمیشەیی دەبێت.",
+                            onPressedBritish: () => speakconvictions3("en-GB"),
+                            onPressedAmerican: () => speakconvictions3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) بۆچوون و باوەڕی بەھێز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was motivated by deep religious conviction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕی بەھێزی ئایینی پاڵنەری بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvictions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvictions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was motivated by deep religious conviction.",
+                            kurdishText: "باوەڕی بەھێزی ئایینی پاڵنەری بوو.",
+                            onPressedBritish: () => speakconvictions4("en-GB"),
+                            onPressedAmerican: () => speakconvictions4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) پیشاندانی ئەوەی باوەڕی تەواوت بەوە ھەیە دەیڵێیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He said he agreed but his voice lacked conviction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوتی ڕازییە بەڵام دەنگی تێڕادیتن کەم بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvictions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvictions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He said he agreed but his voice lacked conviction.",
+                            kurdishText:
+                                "گوتی ڕازییە بەڵام دەنگی تێڕادیتن کەم بوو.",
+                            onPressedBritish: () => speakconvictions5("en-GB"),
+                            onPressedAmerican: () => speakconvictions5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The leader's speech in defence of the policy didn't carry much conviction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتاری سەرکردەکە لە بەرگریکردن لە سیاسەتەکەدا دڵنیایی زۆری تێدا نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvictions6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvictions6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The leader's speech in defence of the policy didn't carry much conviction.",
+                            kurdishText:
+                                "وتاری سەرکردەکە لە بەرگریکردن لە سیاسەتەکەدا دڵنیایی زۆری تێدا نەبوو.",
+                            onPressedBritish: () => speakconvictions6("en-GB"),
+                            onPressedAmerican: () => speakconvictions6("en-US"),
                           ),
                         ],
                       ),

@@ -280,199 +280,65 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕاوێژ، شیرەت، شێور، ئامۆژگاری، نەسێحەت، پرس‌وڕا،	ڕاسپاردن،	ڕێنوێنی،	پێشنیاز،	پارێزەر، ئاوکات، بەرەڤان‌کار، دەستەی پارێزەران
 """),
           const DefinitionKurdish(text: "١. (ناو) ڕاوێژ و ئامۆژگاری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Listen to the counsel of your elders."),
-                    ExampleSentenceKurdish(
-                        text: "گوێ لە ڕاوێژی بەتەمەنەکانت بگرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "counsel", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounsels1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounsels1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Listen to the counsel of your elders.",
+            kurdishText:
+                "گوێ لە ڕاوێژی بەتەمەنەکانت بگرە.", // counsel", please follow LX instructions
+            onPressedBritish: () => speakcounsels1("en-GB"),
+            onPressedAmerican: () => speakcounsels1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "In the end, wiser counsels prevailed."),
-                    ExampleSentenceKurdish(
-                        text: "لە کۆتاییدا، ئامۆژگارییە ژیرانەکان پەسەندکران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounsels2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounsels2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "In the end, wiser counsels prevailed.",
+            kurdishText: "لە کۆتاییدا، ئامۆژگارییە ژیرانەکان پەسەندکران.",
+            onPressedBritish: () => speakcounsels2("en-GB"),
+            onPressedAmerican: () => speakcounsels2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He is there to give you counsel on all matters."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەوێیە بۆ ئەوەی ڕاوێژت لەسەر ھەموو بابەتەکان پێبدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounsels3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounsels3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He is there to give you counsel on all matters.",
+            kurdishText: "لەوێیە بۆ ئەوەی ڕاوێژت لەسەر ھەموو بابەتەکان پێبدات.",
+            onPressedBritish: () => speakcounsels3("en-GB"),
+            onPressedAmerican: () => speakcounsels3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) پارێزەرێک یان تیمی پارێزەرانی کەسێک لە دادگادا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Counsel for the claimant argued that there had been no proper investigation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیمی پارێزەرانی بەرگریکار بانگەشەی نکۆڵییان لەوە کرد کە لێکۆڵینەوەی گونجاو نەکراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounsels4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounsels4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Counsel for the claimant argued that there had been no proper investigation.",
+            kurdishText:
+                "تیمی پارێزەرانی بەرگریکار بانگەشەی نکۆڵییان لەوە کرد کە لێکۆڵینەوەی گونجاو نەکراوە.",
+            onPressedBritish: () => speakcounsels4("en-GB"),
+            onPressedAmerican: () => speakcounsels4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) گوێگرتن لە کەسێک و پێدانی ڕاوێژ پێی کە پێویستی پێیەتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The police have provided experts to counsel people affected by the tragedy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆلیس شارەزای دابینکردووە بۆ پێدانی ڕاوێژ بە ئەو کەسانەی کە بە تراژیدیاکە کاریگەر بوونە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounsels5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounsels5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The police have provided experts to counsel people affected by the tragedy.",
+            kurdishText:
+                "پۆلیس شارەزای دابینکردووە بۆ پێدانی ڕاوێژ بە ئەو کەسانەی کە بە تراژیدیاکە کاریگەر بوونە.",
+            onPressedBritish: () => speakcounsels5("en-GB"),
+            onPressedAmerican: () => speakcounsels5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) ڕاوێژدان بە کەسێک بۆ کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Most experts counsel caution in such cases."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر شارەزا ڕاوێژی ئارامگری لەم دۆخەدا دەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounsels6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounsels6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Most experts counsel caution in such cases.",
+            kurdishText: "زۆر شارەزا ڕاوێژی ئارامگری لەم دۆخەدا دەدەن.",
+            onPressedBritish: () => speakcounsels6("en-GB"),
+            onPressedAmerican: () => speakcounsels6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He counselled them to give up the plan."),
-                    ExampleSentenceKurdish(
-                        text: "ئامۆژگاری ئەوەی کردن واز لە پلانەکە بێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounsels7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounsels7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He counselled them to give up the plan.",
+            kurdishText: "ئامۆژگاری ئەوەی کردن واز لە پلانەکە بێنن.",
+            onPressedBritish: () => speakcounsels7("en-GB"),
+            onPressedAmerican: () => speakcounsels7("en-US"),
           ),
         ],
       ),

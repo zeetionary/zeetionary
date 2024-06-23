@@ -267,141 +267,44 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕەفتارێک کە ئازاری جەستەیی یان دەروونی بە کەسانی دیکە دەگەیەنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The deliberate cruelty of his words cut her like a knife."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دڕندەیی بەئەنقەستی وشەکانی وەک چەقۆ برینداری کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cruelty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrueltys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrueltys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The deliberate cruelty of his words cut her like a knife.",
+            kurdishText:
+                "دڕندەیی بەئەنقەستی وشەکانی وەک چەقۆ برینداری کرد.", // cruelty", please follow LX instructions
+            onPressedBritish: () => speakcrueltys1("en-GB"),
+            onPressedAmerican: () => speakcrueltys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her stepmother showed her nothing but cruelty."),
-                    ExampleSentenceKurdish(
-                        text: "زڕ-دایکی جگە لە دڕندەیی ھیچی پێنەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrueltys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrueltys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her stepmother showed her nothing but cruelty.",
+            kurdishText: "زڕ-دایکی جگە لە دڕندەیی ھیچی پێنەدا.",
+            onPressedBritish: () => speakcrueltys2("en-GB"),
+            onPressedAmerican: () => speakcrueltys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was shocked to see such cruelty."),
-                    ExampleSentenceKurdish(
-                        text: "شۆک بوو بە بینینی دڕندەیی وەھا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrueltys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrueltys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was shocked to see such cruelty.",
+            kurdishText: "شۆک بوو بە بینینی دڕندەیی وەھا.",
+            onPressedBritish: () => speakcrueltys3("en-GB"),
+            onPressedAmerican: () => speakcrueltys3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The children suffered mental cruelty and neglect."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکان تووشی زەبری دەروونی و پشتگوێخستن بوونەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrueltys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrueltys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The children suffered mental cruelty and neglect.",
+            kurdishText: "منداڵەکان تووشی زەبری دەروونی و پشتگوێخستن بوونەوە.",
+            onPressedBritish: () => speakcrueltys4("en-GB"),
+            onPressedAmerican: () => speakcrueltys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کاری دڕندانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Frightening cruelties were inflicted on child factory workers well into the 19th century."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دڕندەیی سامناک بەسەر منداڵانی کرێکارانی کارگەکان دەھێنرا تاوەکو سەدەی نۆزدە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrueltys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrueltys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Frightening cruelties were inflicted on child factory workers well into the 19th century.",
+            kurdishText:
+                "دڕندەیی سامناک بەسەر منداڵانی کرێکارانی کارگەکان دەھێنرا تاوەکو سەدەی نۆزدە.",
+            onPressedBritish: () => speakcrueltys5("en-GB"),
+            onPressedAmerican: () => speakcrueltys5("en-US"),
           ),
         ],
       ),

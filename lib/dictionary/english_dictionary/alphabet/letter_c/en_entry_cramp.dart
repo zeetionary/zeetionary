@@ -242,59 +242,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئازارێکی لەناکاو کە تووشی دەبیت کاتێک ماسولکەکانی بەشێکی دیاریکراوی جەستەت گرژ دەبن، بەزۆری بەھۆی سەرما یان زۆر وەرزشکردنەوە دروست دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I was beginning to get cramp in my leg."),
-                    ExampleSentenceKurdish(
-                        text: "ژانێک لە لاقمدا درووست بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cramp", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcramps1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcramps1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was beginning to get cramp in my leg.",
+            kurdishText:
+                "ژانێک لە لاقمدا درووست بووە.", // cramp", please follow LX instructions
+            onPressedBritish: () => speakcramps1("en-GB"),
+            onPressedAmerican: () => speakcramps1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) وەستاندنی گەشە یان بەرەوپێشچوونی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Tighter trade restrictions might cramp economic growth."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێکاری توندتر ڕەنگە گەشەی ئابووری بوەستێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcramps2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcramps2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Tighter trade restrictions might cramp economic growth.",
+            kurdishText: "ڕێکاری توندتر ڕەنگە گەشەی ئابووری بوەستێن.",
+            onPressedBritish: () => speakcramps2("en-GB"),
+            onPressedAmerican: () => speakcramps2("en-US"),
           ),
         ],
       ),

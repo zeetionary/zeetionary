@@ -104,60 +104,22 @@ class EnglishEntrycliche extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) زاراوایەک یان بیرۆکەیەک کە ھێندە زۆر بەکارھاتووە کە چی دیکە واتای زۆری نییە و سەرنجڕاکێش نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It has become a cliché to say that Prague is the most beautiful city in Europe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە بووە بە دەستەوشەی سوواو کە پراگ جوانترین شاری ئەورووپایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cliché", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcliches1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcliches1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It has become a cliché to say that Prague is the most beautiful city in Europe.",
+                            kurdishText:
+                                "ئەوە بووە بە دەستەوشەی سوواو کە پراگ جوانترین شاری ئەورووپایە.", // cliché",
+                            onPressedBritish: () => speakcliches1("en-GB"),
+                            onPressedAmerican: () => speakcliches1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My wedding day - and I know it's a cliché - was just the happiest day of my life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژی ھاوسەرگیرییەکەم، و ئەزانم بووە بە کلیشێ، خۆشترین ڕۆژی ژیانم بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcliches2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcliches2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My wedding day - and I know it's a cliché - was just the happiest day of my life.",
+                            kurdishText:
+                                "ڕۆژی ھاوسەرگیرییەکەم، و ئەزانم بووە بە کلیشێ، خۆشترین ڕۆژی ژیانم بوو.",
+                            onPressedBritish: () => speakcliches2("en-GB"),
+                            onPressedAmerican: () => speakcliches2("en-US"),
                           ),
                         ],
                       ),

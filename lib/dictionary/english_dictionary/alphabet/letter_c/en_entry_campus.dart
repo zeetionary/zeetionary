@@ -191,115 +191,38 @@ class EnglishEntrycampus extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بینای زانکۆ یان کۆلێژێک و زەوی دەورووبەری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The number of graduate students living off campus has dropped."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەی ئەو خوێندکارانەی کە لە دەرەوەی کەمپ دەژین دابەزیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "campus", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcampuss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcampuss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The number of graduate students living off campus has dropped.",
+                            kurdishText:
+                                "ژمارەی ئەو خوێندکارانەی کە لە دەرەوەی کەمپ دەژین دابەزیوە.", // campus
+                            onPressedBritish: () => speakcampuss1("en-GB"),
+                            onPressedAmerican: () => speakcampuss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Students at the main campus have heeded the call to boycott lectures."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندکارانی کەمپی سەرەکی ڕابەرایەتی داوای بایکۆتی وانەکانیان کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcampuss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcampuss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Students at the main campus have heeded the call to boycott lectures.",
+                            kurdishText:
+                                "خوێندکارانی کەمپی سەرەکی ڕابەرایەتی داوای بایکۆتی وانەکانیان کردووە.",
+                            onPressedBritish: () => speakcampuss2("en-GB"),
+                            onPressedAmerican: () => speakcampuss2("en-US"),
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Wi-fi is also provided in many locations around the campus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وای فای لە زۆر شوێنی دەورووبەری کەمپەکە دابینکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcampuss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcampuss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Wi-fi is also provided in many locations around the campus.",
+                            kurdishText:
+                                "وای فای لە زۆر شوێنی دەورووبەری کەمپەکە دابینکراوە.",
+                            onPressedBritish: () => speakcampuss3("en-GB"),
+                            onPressedAmerican: () => speakcampuss3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Engineering department is on the main campus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشی ئەندازیاری لە کەمپی سەرەکییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcampuss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcampuss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Engineering department is on the main campus.",
+                            kurdishText: "بەشی ئەندازیاری لە کەمپی سەرەکییە.",
+                            onPressedBritish: () => speakcampuss4("en-GB"),
+                            onPressedAmerican: () => speakcampuss4("en-US"),
                           ),
                         ],
                       ),

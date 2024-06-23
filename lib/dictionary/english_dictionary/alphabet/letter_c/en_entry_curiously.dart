@@ -258,113 +258,35 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە حەزی زۆر بۆ زانین سەبارەت بە شتێک پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A group of reporters looked at her curiously."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک پەیامنێر بە تامەزرۆییەوە سەیریان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curiously", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuriouslys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuriouslys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A group of reporters looked at her curiously.",
+            kurdishText:
+                "ژمارەیەک پەیامنێر بە تامەزرۆییەوە سەیریان دەکرد.", // curiously", please follow LX instructions
+            onPressedBritish: () => speakcuriouslys1("en-GB"),
+            onPressedAmerican: () => speakcuriouslys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "‘Are you really an artist?’ Sara asked curiously."),
-                    ExampleSentenceKurdish(
-                        text: "سارا بە تاسەوە 'پرسی بەڕاستی ھونەرمەندیت؟'"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuriouslys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuriouslys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "‘Are you really an artist?’ Sara asked curiously.",
+            kurdishText: "سارا بە تاسەوە 'پرسی بەڕاستی ھونەرمەندیت؟'",
+            onPressedBritish: () => speakcuriouslys2("en-GB"),
+            onPressedAmerican: () => speakcuriouslys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵکار) بە نامۆیی و نائاسایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His clothes were curiously old-fashioned."),
-                    ExampleSentenceKurdish(
-                        text: "جلەکانی بە نائاساییەوە کۆنەباو بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuriouslys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuriouslys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His clothes were curiously old-fashioned.",
+            kurdishText: "جلەکانی بە نائاساییەوە کۆنەباو بوون.",
+            onPressedBritish: () => speakcuriouslys3("en-GB"),
+            onPressedAmerican: () => speakcuriouslys3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Curiously enough, a year later exactly the same thing happened again."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەشێوەیەکی سەیر، دوای ساڵێک ڕێک ھەمان شت ڕوویدایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuriouslys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuriouslys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Curiously enough, a year later exactly the same thing happened again.",
+            kurdishText: "بەشێوەیەکی سەیر، دوای ساڵێک ڕێک ھەمان شت ڕوویدایەوە.",
+            onPressedBritish: () => speakcuriouslys4("en-GB"),
+            onPressedAmerican: () => speakcuriouslys4("en-US"),
           ),
         ],
       ),

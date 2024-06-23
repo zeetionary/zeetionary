@@ -103,59 +103,21 @@ class EnglishEntrychivalrous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پیاوێک کە بەڕێز و میھرەبان، بەتایبەتی بەرامبەر ژنان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was only trying to be chivalrous."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەنھا ھەوڵم دا بەڕێز بم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chivalrous", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchivalrouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchivalrouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I was only trying to be chivalrous.",
+                            kurdishText:
+                                "تەنھا ھەوڵم دا بەڕێز بم.", // chivalrous",
+                            onPressedBritish: () => speakchivalrouss1("en-GB"),
+                            onPressedAmerican: () => speakchivalrouss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was polite and chivalrous and never cursed in front of her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێز و جوامێر بوو ھەرگیز جوێنی نەدەدا لە پێش کچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchivalrouss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchivalrouss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was polite and chivalrous and never cursed in front of her.",
+                            kurdishText:
+                                "بەڕێز و جوامێر بوو ھەرگیز جوێنی نەدەدا لە پێش کچەکە.",
+                            onPressedBritish: () => speakchivalrouss2("en-GB"),
+                            onPressedAmerican: () => speakchivalrouss2("en-US"),
                           ),
                         ],
                       ),

@@ -104,63 +104,25 @@ class EnglishEntrychamois extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ئاژەڵێک کە وەک ئاسکێکی بچووک وایە و لە چیاکانی ئەورووپا و ئاسیا دەژی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chamois's keen sense of balance allows it to traverse narrow ledges and cliffs with ease."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی تیژی ھاوسەنگی‌ڕاگرتنی بزنەکێوی ڕێگەی پێدەدات لێوارە تەسکەکان و قەدپاڵەکان بە ئاسانی ببڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chamois", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchamoiss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchamoiss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chamois's keen sense of balance allows it to traverse narrow ledges and cliffs with ease.",
+                            kurdishText:
+                                "ھەستی تیژی ھاوسەنگی‌ڕاگرتنی بزنەکێوی ڕێگەی پێدەدات لێوارە تەسکەکان و قەدپاڵەکان بە ئاسانی ببڕێت.", // chamois",
+                            onPressedBritish: () => speakchamoiss1("en-GB"),
+                            onPressedAmerican: () => speakchamoiss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پارچەیەکی نەرم کە لە پێستی بزن، مەڕ، ھتد درووستکراوە و بۆ پاککردنەوە بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After washing the windows, the cleaner used a chamois to wipe away streaks and spots."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەدوای شۆردنی پەنجەرەکان، پاککەرەوەکە تیمانجێکی بەکارھێنا بۆ سڕینی ھێڵ و خاڵەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchamoiss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchamoiss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After washing the windows, the cleaner used a chamois to wipe away streaks and spots.",
+                            kurdishText:
+                                "لەدوای شۆردنی پەنجەرەکان، پاککەرەوەکە تیمانجێکی بەکارھێنا بۆ سڕینی ھێڵ و خاڵەکان.",
+                            onPressedBritish: () => speakchamoiss2("en-GB"),
+                            onPressedAmerican: () => speakchamoiss2("en-US"),
                           ),
                         ],
                       ),

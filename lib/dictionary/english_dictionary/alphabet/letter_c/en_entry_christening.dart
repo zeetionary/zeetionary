@@ -94,34 +94,14 @@ class EnglishEntrychristening extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئاھەنگێکی ئایینی مەسیحی کە تێیدا منداڵێک ناودەنرێت و دەبێت بە ئەمدامێکی لە کڵێسای کاسۆلیک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We all got together at the christening."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموومان لە مەراسیمی تەوفنەکەدا کۆبووینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "christening", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchristenings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchristenings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We all got together at the christening.",
+                            kurdishText:
+                                "ھەموومان لە مەراسیمی تەوفنەکەدا کۆبووینەوە.", // christening",
+                            onPressedBritish: () => speakchristenings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchristenings1("en-US"),
                           ),
                         ],
                       ),

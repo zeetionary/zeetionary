@@ -257,583 +257,202 @@ class EnglishEntrycopy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە ھەمان شتە لەگەڵ شتێکی دیکەدا لە شێوەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The thieves replaced the original painting with a copy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دزەکان تابلۆ ڕەسەنەکەیان گۆڕییەوە لەگەڵ دانەیەکی کۆپیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "copy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The thieves replaced the original painting with a copy.",
+                            kurdishText:
+                                "دزەکان تابلۆ ڕەسەنەکەیان گۆڕییەوە لەگەڵ دانەیەکی کۆپیدا.", // copy",
+                            onPressedBritish: () => speakcopys1("en-GB"),
+                            onPressedAmerican: () => speakcopys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He made careful copies of all the documents he found in the library."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەبەرگیراوەی ھەموو بەڵگەنامەکانی درووستکرد کە لە کتێبخانەکەدا دۆزییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He made careful copies of all the documents he found in the library.",
+                            kurdishText:
+                                "لەبەرگیراوەی ھەموو بەڵگەنامەکانی درووستکرد کە لە کتێبخانەکەدا دۆزییەوە.",
+                            onPressedBritish: () => speakcopys2("en-GB"),
+                            onPressedAmerican: () => speakcopys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I will send you a copy of the report."),
-                                    ExampleSentenceKurdish(
-                                        text: "کۆپپیەکی ڕاپۆرتەکەت بۆ دەنێرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I will send you a copy of the report.",
+                            kurdishText: "کۆپپیەکی ڕاپۆرتەکەت بۆ دەنێرم.",
+                            onPressedBritish: () => speakcopys3("en-GB"),
+                            onPressedAmerican: () => speakcopys3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't keep copies of my own letters."),
-                                    ExampleSentenceKurdish(
-                                        text: "کۆپی نامەکانم ناپارێزم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't keep copies of my own letters.",
+                            kurdishText: "کۆپی نامەکانم ناپارێزم.",
+                            onPressedBritish: () => speakcopys4("en-GB"),
+                            onPressedAmerican: () => speakcopys4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) یەک نموونەی چاپکراو لە کتێبێک کە ڕێژەیەکی زۆری لێ چاپکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book sold 20 000 copies within two weeks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە ٢٠٠٠٠ دانەی لێ فرۆشرا لە دوو ھەفتەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book sold 20 000 copies within two weeks.",
+                            kurdishText:
+                                "کتێبەکە ٢٠٠٠٠ دانەی لێ فرۆشرا لە دوو ھەفتەدا.",
+                            onPressedBritish: () => speakcopys5("en-GB"),
+                            onPressedAmerican: () => speakcopys5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are a limited number of copies still available."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی دیاریکراو لە کۆپی ھێشتا بەردەستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are a limited number of copies still available.",
+                            kurdishText:
+                                "ژمارەیەکی دیاریکراو لە کۆپی ھێشتا بەردەستە.",
+                            onPressedBritish: () => speakcopys6("en-GB"),
+                            onPressedAmerican: () => speakcopys6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بابەتی نووسراو کە بۆ ئەوەیە لە ڕۆژنامەیەک، گۆڤارێک، ھتد بڵاوبکرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This will make great copy for the advertisement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە بابەتێکی باش دەبێت بۆ بانگەشەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This will make great copy for the advertisement.",
+                            kurdishText:
+                                "ئەمە بابەتێکی باش دەبێت بۆ بانگەشەکە.",
+                            onPressedBritish: () => speakcopys7("en-GB"),
+                            onPressedAmerican: () => speakcopys7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) کۆپییەکی بەڵگەنامەیەک کە بە ئامێری لەبەرگرتنەوە کراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Could I have ten copies of this page, please?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە دەتوانیت ١٠ کۆپی ئەم پەڕەیەم بۆ بکەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Could I have ten copies of this page, please?",
+                            kurdishText:
+                                "تکایە دەتوانیت ١٠ کۆپی ئەم پەڕەیەم بۆ بکەیت؟",
+                            onPressedBritish: () => speakcopys8("en-GB"),
+                            onPressedAmerican: () => speakcopys8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I ran off a couple of copies of the letter."),
-                                    ExampleSentenceKurdish(
-                                        text: "چەند کۆپییەکی نامەکەم کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I ran off a couple of copies of the letter.",
+                            kurdishText: "چەند کۆپییەکی نامەکەم کرد.",
+                            onPressedBritish: () => speakcopys9("en-GB"),
+                            onPressedAmerican: () => speakcopys9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) لەبەرگرتنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He taught himself by copying paintings in the Louvre."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی فێرکرد بە کۆپیکردنی تابلۆکانی مۆزەخانەی لۆڤەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He taught himself by copying paintings in the Louvre.",
+                            kurdishText:
+                                "خۆی فێرکرد بە کۆپیکردنی تابلۆکانی مۆزەخانەی لۆڤەر.",
+                            onPressedBritish: () => speakcopys10("en-GB"),
+                            onPressedAmerican: () => speakcopys10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The product has been widely copied by other manufacturers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرھەمەکە بە بەرفراوانی لەلایەن بەرھەمھێنەرەکانی دیکەوە کۆپیکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The product has been widely copied by other manufacturers.",
+                            kurdishText:
+                                "بەرھەمەکە بە بەرفراوانی لەلایەن بەرھەمھێنەرەکانی دیکەوە کۆپیکراوە.",
+                            onPressedBritish: () => speakcopys11("en-GB"),
+                            onPressedAmerican: () => speakcopys11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) نووسینی شتێک بەو شێوەیەی کە لە شوێنێکی دیکەدا نووسراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The monks spent their days copying manuscripts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەبەنەکان ڕۆژەکەیان بەسەربرد بە لەبەرگرتنەوەی بەڵگەنامە کۆنەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The monks spent their days copying manuscripts.",
+                            kurdishText:
+                                "ڕەبەنەکان ڕۆژەکەیان بەسەربرد بە لەبەرگرتنەوەی بەڵگەنامە کۆنەکان.",
+                            onPressedBritish: () => speakcopys12("en-GB"),
+                            onPressedAmerican: () => speakcopys12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children copied the sentences from the whiteboard."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان ڕستەکانی سەر بۆردەکەیان نووسییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children copied the sentences from the whiteboard.",
+                            kurdishText:
+                                "منداڵەکان ڕستەکانی سەر بۆردەکەیان نووسییەوە.",
+                            onPressedBritish: () => speakcopys13("en-GB"),
+                            onPressedAmerican: () => speakcopys13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You do not have to copy down every word in a lecture."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویست ناکات ھەموو وشەیەکی وانەیەک بنووسیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You do not have to copy down every word in a lecture.",
+                            kurdishText:
+                                "پێویست ناکات ھەموو وشەیەکی وانەیەک بنووسیتەوە.",
+                            onPressedBritish: () => speakcopys14("en-GB"),
+                            onPressedAmerican: () => speakcopys14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) درووستکردنی کۆپییەکی تەواوی وشانێکی داتایەک، پڕۆگرامێک، ھتد بۆ ئەوەی دووبارە بەکاریبێنیتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The software has been illegally copied."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەرمامێرەکە بە نایاسایی کۆپیکرا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The software has been illegally copied.",
+                            kurdishText: "نەرمامێرەکە بە نایاسایی کۆپیکرا بوو.",
+                            onPressedBritish: () => speakcopys15("en-GB"),
+                            onPressedAmerican: () => speakcopys15("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can copy the data to your new laptop in the usual way."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت داتاکە کۆپی بکەیتە لاپتۆپەکە تازەکەت بەشێوەی ئاسایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can copy the data to your new laptop in the usual way.",
+                            kurdishText:
+                                "دەتوانیت داتاکە کۆپی بکەیتە لاپتۆپەکە تازەکەت بەشێوەی ئاسایی.",
+                            onPressedBritish: () => speakcopys16("en-GB"),
+                            onPressedAmerican: () => speakcopys16("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Use the clipboard to copy and paste information from websites."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلیپبۆردەکە بەکاربێنە بۆ کۆپی و لکاندنی زانیاری لە وێبسایتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Use the clipboard to copy and paste information from websites.",
+                            kurdishText:
+                                "کلیپبۆردەکە بەکاربێنە بۆ کۆپی و لکاندنی زانیاری لە وێبسایتەوە.",
+                            onPressedBritish: () => speakcopys17("en-GB"),
+                            onPressedAmerican: () => speakcopys17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (کردار) لاسایی کردنەوەی کەسێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She copies everything her sister does."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لاسایی ھەر شتێک دەکاتەوە خوشکەکەی دەیکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She copies everything her sister does.",
+                            kurdishText:
+                                "لاسایی ھەر شتێک دەکاتەوە خوشکەکەی دەیکات.",
+                            onPressedBritish: () => speakcopys18("en-GB"),
+                            onPressedAmerican: () => speakcopys18("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their tactics have been copied by other terrorist organizations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاکتیکەکانیان لەلایەن ڕێکخراوە تیرۆریستییەکانی دیکەوە کۆپیکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their tactics have been copied by other terrorist organizations.",
+                            kurdishText:
+                                "تاکتیکەکانیان لەلایەن ڕێکخراوە تیرۆریستییەکانی دیکەوە کۆپیکراوە.",
+                            onPressedBritish: () => speakcopys19("en-GB"),
+                            onPressedAmerican: () => speakcopys19("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) گزیکردن لە تاقیکردنەوەدا بە نووسینەوەی وەڵامی کەسێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was punished by his teacher for copying in the exam."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەلایەن مامۆستاکەیەوە سزادرا بۆ گزیکردن لە تاقیکردنەوەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopys20("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopys20("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was punished by his teacher for copying in the exam.",
+                            kurdishText:
+                                "لەلایەن مامۆستاکەیەوە سزادرا بۆ گزیکردن لە تاقیکردنەوەکەدا.",
+                            onPressedBritish: () => speakcopys20("en-GB"),
+                            onPressedAmerican: () => speakcopys20("en-US"),
                           ),
                         ],
                       ),

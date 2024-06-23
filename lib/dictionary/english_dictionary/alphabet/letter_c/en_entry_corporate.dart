@@ -249,89 +249,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) پەیوەندیدار بە کۆمپانیایەکی گەورەی بازرگانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Their corporate headquarters are in Boston."),
-                    ExampleSentenceKurdish(
-                        text: "بارەگای کۆمپانیایەکە لە بۆستنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corporate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorporates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorporates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their corporate headquarters are in Boston.",
+            kurdishText:
+                "بارەگای کۆمپانیایەکە لە بۆستنە.", // corporate", please follow LX instructions
+            onPressedBritish: () => speakcorporates1("en-GB"),
+            onPressedAmerican: () => speakcorporates1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) درووستکردنی کۆمپانیایەکی گەورە کە وەک یەک یەکە دەبینرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The BBC is a corporate organization."),
-                    ExampleSentenceKurdish(
-                        text: "بی‌بی‌سی دامەزراوەیەکی یەکێنراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorporates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorporates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The BBC is a corporate organization.",
+            kurdishText: "بی‌بی‌سی دامەزراوەیەکی یەکێنراوە.",
+            onPressedBritish: () => speakcorporates2("en-GB"),
+            onPressedAmerican: () => speakcorporates2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) پێکھاتوو لە ھەموو ئەندامانی گرووپێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All adults take corporate responsibility for the upbringing of the tribe's children."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو پێگەشتووان بەرپرسیاریەتی بەکۆمەڵ لەئەستۆ دەگرن بۆ بەخێوکردنی منداڵانی خێڵەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorporates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorporates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All adults take corporate responsibility for the upbringing of the tribe's children.",
+            kurdishText:
+                "ھەموو پێگەشتووان بەرپرسیاریەتی بەکۆمەڵ لەئەستۆ دەگرن بۆ بەخێوکردنی منداڵانی خێڵەکە.",
+            onPressedBritish: () => speakcorporates3("en-GB"),
+            onPressedAmerican: () => speakcorporates3("en-US"),
           ),
         ],
       ),

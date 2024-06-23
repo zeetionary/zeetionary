@@ -94,34 +94,15 @@ class EnglishEntrycomplacently extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە وەھای پیشاندەدات ھێندە ڕازیت بە توانا و بارودۆخی خۆت کە پێت وایە چی دیکە پێویست ناکات ھەوڵی زیاتر بدەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do not complacently assume that all is well."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەخۆڕازییانە وا دامەنێ ھەموو شت باشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complacently", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomplacentlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomplacentlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do not complacently assume that all is well.",
+                            kurdishText:
+                                "لەخۆڕازییانە وا دامەنێ ھەموو شت باشە.", // complacently",
+                            onPressedBritish: () =>
+                                speakcomplacentlys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomplacentlys1("en-US"),
                           ),
                         ],
                       ),

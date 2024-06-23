@@ -197,60 +197,21 @@ class EnglishEntrycampaign extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) زنجیرە چالاکییەکی بە پلان کە ئامانج لێی بەدەستھێنانێکی سیاسی، بازرگانی، یان کۆمەڵایەتییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Today police launched a campaign to reduce road accidents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمڕۆ پۆلیس کەمپینێکی ڕاگەیاند بۆ کەمکردنەوەی ڕووداوی ھاتووچۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "campaign", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcampaigns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcampaigns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Today police launched a campaign to reduce road accidents.",
+                            kurdishText:
+                                "ئەمڕۆ پۆلیس کەمپینێکی ڕاگەیاند بۆ کەمکردنەوەی ڕووداوی ھاتووچۆ.", // campaign
+                            onPressedBritish: () => speakcampaigns1("en-GB"),
+                            onPressedAmerican: () => speakcampaigns1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The candidates are on the campaign trail (= travelling around to attract support)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەربژێرەکان لە ھەڵمەتی بانگەشەدان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcampaigns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcampaigns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The candidates are on the campaign trail (= travelling around to attract support).",
+                            kurdishText: "بەربژێرەکان لە ھەڵمەتی بانگەشەدان.",
+                            onPressedBritish: () => speakcampaigns2("en-GB"),
+                            onPressedAmerican: () => speakcampaigns2("en-US"),
                           ),
                           Column(
                             children: [
@@ -323,119 +284,43 @@ class EnglishEntrycampaign extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) زنجیرەیەک لە ھێرش و شەڕ کە ئامانجێکی دیاریکراویان ھەیە لە جەنگێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Air battles had dominated the campaign."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەڕی ئاسمانی بەشی سەرەکیی ھەڵمەتەکە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcampaigns5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcampaigns5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Air battles had dominated the campaign.",
+                            kurdishText:
+                                "شەڕی ئاسمانی بەشی سەرەکیی ھەڵمەتەکە بوون.",
+                            onPressedBritish: () => speakcampaigns5("en-GB"),
+                            onPressedAmerican: () => speakcampaigns5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government has intensified the military campaign against the rebels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت ھەڵمەتی سەربازی چڕکردبووەوە دژ بە یاخیبووان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcampaigns6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcampaigns6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government has intensified the military campaign against the rebels.",
+                            kurdishText:
+                                "حکومەت ھەڵمەتی سەربازی چڕکردبووەوە دژ بە یاخیبووان.",
+                            onPressedBritish: () => speakcampaigns6("en-GB"),
+                            onPressedAmerican: () => speakcampaigns6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) بەژداری یان ڕابەڕایەتی کردنی ھەڵمەتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The party campaigned vigorously in the north of the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارتەکە بە سەختی بانگەشەی ئەنجامدا لە باکووری وڵاتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcampaigns7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcampaigns7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The party campaigned vigorously in the north of the country.",
+                            kurdishText:
+                                "پارتەکە بە سەختی بانگەشەی ئەنجامدا لە باکووری وڵاتەکە.",
+                            onPressedBritish: () => speakcampaigns7("en-GB"),
+                            onPressedAmerican: () => speakcampaigns7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have actively campaigned against whaling for the last 15 years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ماوەی ١٥ ساڵی ڕابردوو بە چالاکییەوە خەباتمان کردووە دژ بە ڕاوکردنی نەھەنگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcampaigns8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcampaigns8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have actively campaigned against whaling for the last 15 years.",
+                            kurdishText:
+                                "بۆ ماوەی ١٥ ساڵی ڕابردوو بە چالاکییەوە خەباتمان کردووە دژ بە ڕاوکردنی نەھەنگ.",
+                            onPressedBritish: () => speakcampaigns8("en-GB"),
+                            onPressedAmerican: () => speakcampaigns8("en-US"),
                           ),
                         ],
                       ),

@@ -192,118 +192,42 @@ class EnglishEntryceremony extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بۆنەیەکی گشتی یان ئایینی کە زنجیرەیەک لە چالاکی فەرمی یان نەریتی لەخۆدەگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "More than 1 000 people attended the ceremony."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیاتر لە ١٠٠٠ کەس بەژداری ڕێوڕەسمەکە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "ceremony", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceremonys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceremonys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "More than 1 000 people attended the ceremony.",
+                            kurdishText:
+                                "زیاتر لە ١٠٠٠ کەس بەژداری ڕێوڕەسمەکە بوون.", // ceremony",
+                            onPressedBritish: () => speakceremonys1("en-GB"),
+                            onPressedAmerican: () => speakceremonys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were married in a simple ceremony."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بۆنەیەکی سادەدا ھاوسەرگیرییان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceremonys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceremonys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were married in a simple ceremony.",
+                            kurdishText:
+                                "لە بۆنەیەکی سادەدا ھاوسەرگیرییان کرد.",
+                            onPressedBritish: () => speakceremonys2("en-GB"),
+                            onPressedAmerican: () => speakceremonys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There will be a special ceremony to mark the 60th anniversary of the battle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆنەیەکی تایبەت دەبێت بۆ یادکردنەوەی ٦٠ھەم ساڵیادی شەڕەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceremonys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceremonys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There will be a special ceremony to mark the 60th anniversary of the battle.",
+                            kurdishText:
+                                "بۆنەیەکی تایبەت دەبێت بۆ یادکردنەوەی ٦٠ھەم ساڵیادی شەڕەکە.",
+                            onPressedBritish: () => speakceremonys3("en-GB"),
+                            onPressedAmerican: () => speakceremonys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ھەڵسوکەوتی فەرمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was buried with great ceremony in Westminster Abbey."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ڕێوڕەسمی بەشکۆوە لە وێستمنستەر ئابی بەخاکسپێردرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceremonys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceremonys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was buried with great ceremony in Westminster Abbey.",
+                            kurdishText:
+                                "بە ڕێوڕەسمی بەشکۆوە لە وێستمنستەر ئابی بەخاکسپێردرا.",
+                            onPressedBritish: () => speakceremonys4("en-GB"),
+                            onPressedAmerican: () => speakceremonys4("en-US"),
                           ),
                         ],
                       ),

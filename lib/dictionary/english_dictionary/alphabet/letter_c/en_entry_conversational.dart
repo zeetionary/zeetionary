@@ -103,66 +103,28 @@ class EnglishEntryconversational extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) نەفەرمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I learnt conversational Spanish at evening classes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فێری ئیسپانی قسەکردن بووم لە وانەی ئێواران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conversational", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconversationals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconversationals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I learnt conversational Spanish at evening classes.",
+                            kurdishText:
+                                "فێری ئیسپانی قسەکردن بووم لە وانەی ئێواران.", // conversational",
+                            onPressedBritish: () =>
+                                speakconversationals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconversationals1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) پەیوەندیدار بە گفتوگۆیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He seems to lack basic conversational skills."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وادیاربوو توانا سەرەتاییەکانی گفتوگۆکردنی نەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconversationals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconversationals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He seems to lack basic conversational skills.",
+                            kurdishText:
+                                "وادیاربوو توانا سەرەتاییەکانی گفتوگۆکردنی نەبێت.",
+                            onPressedBritish: () =>
+                                speakconversationals2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconversationals2("en-US"),
                           ),
                         ],
                       ),

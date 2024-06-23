@@ -110,88 +110,31 @@ class EnglishEntryconfines extends StatelessWidget {
 کوردی: سنوور، ڕادە، تخوب، سەرحەد
 """),
                           const DefinitionKurdish(text: "١. (ناو) سنوور"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is beyond the confines of human knowledge."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دەرەوەی سنووری زانیاریی مرۆڤە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confines", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfiness1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfiness1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is beyond the confines of human knowledge.",
+                            kurdishText:
+                                "لە دەرەوەی سنووری زانیاریی مرۆڤە.", // confines",
+                            onPressedBritish: () => speakconfiness1("en-GB"),
+                            onPressedAmerican: () => speakconfiness1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wanted to experience things outside the close confines of family life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیویست ئەزموونی ئەو شتانە بکات کە لە دەرەوەی سنوورەکانی ژیانی خێزانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfiness2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfiness2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wanted to experience things outside the close confines of family life.",
+                            kurdishText:
+                                "دەیویست ئەزموونی ئەو شتانە بکات کە لە دەرەوەی سنوورەکانی ژیانی خێزانن.",
+                            onPressedBritish: () => speakconfiness2("en-GB"),
+                            onPressedAmerican: () => speakconfiness2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is a story that must not escape the confines of this room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیرۆکێکە کە نابێت سنوورەکانی ئەم ژوورە جێبھێڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfiness3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfiness3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is a story that must not escape the confines of this room.",
+                            kurdishText:
+                                "چیرۆکێکە کە نابێت سنوورەکانی ئەم ژوورە جێبھێڵێت.",
+                            onPressedBritish: () => speakconfiness3("en-GB"),
+                            onPressedAmerican: () => speakconfiness3("en-US"),
                           ),
                         ],
                       ),

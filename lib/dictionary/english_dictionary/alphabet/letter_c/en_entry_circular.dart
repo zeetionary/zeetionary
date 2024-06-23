@@ -121,121 +121,44 @@ class EnglishEntrycircular extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) لە شێوەی بازنەیەکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The crater was two miles across and roughly circular."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاڵەکە دوو میل پانتایی ھەبوو و بەنزیکەیی بازنەیی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circular", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcirculars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcirculars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The crater was two miles across and roughly circular.",
+                            kurdishText:
+                                "چاڵەکە دوو میل پانتایی ھەبوو و بەنزیکەیی بازنەیی بوو.", // circular",
+                            onPressedBritish: () => speakcirculars1("en-GB"),
+                            onPressedAmerican: () => speakcirculars1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had round black eyes and a perfectly circular head."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوی ڕەش و سەرێکی تەواو خڕی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcirculars2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcirculars2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had round black eyes and a perfectly circular head.",
+                            kurdishText: "چاوی ڕەش و سەرێکی تەواو خڕی ھەبوو.",
+                            onPressedBritish: () => speakcirculars2("en-GB"),
+                            onPressedAmerican: () => speakcirculars2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) جوڵان لە شێوەی بازنەیەکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Using small circular movements, massage the muscles on either side of my spine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە بەکارھێنانی جوڵەی بچووکی بازنەیی، ماسولکەکانی ھەردوو لای بڕبڕەی پشتم مەساج بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcirculars3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcirculars3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Using small circular movements, massage the muscles on either side of my spine.",
+                            kurdishText:
+                                "بە بەکارھێنانی جوڵەی بچووکی بازنەیی، ماسولکەکانی ھەردوو لای بڕبڕەی پشتم مەساج بکە.",
+                            onPressedBritish: () => speakcirculars3("en-GB"),
+                            onPressedAmerican: () => speakcirculars3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) نامەیەک، ئاگادارییەک، یان بانگەشەیەک کە بۆ ژمارەیەکی زۆر خەڵک دەنێردرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company will dispatch a circular to its shareholders giving details of the takeover."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە ڕاگەیاندن‌نامەیەک دەنێرێت بۆ خاوەن پشکەکان و وردەکاری دەست‌بەسەراگرتنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcirculars4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcirculars4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company will dispatch a circular to its shareholders giving details of the takeover.",
+                            kurdishText:
+                                "کۆمپانیاکە ڕاگەیاندن‌نامەیەک دەنێرێت بۆ خاوەن پشکەکان و وردەکاری دەست‌بەسەراگرتنەکە.",
+                            onPressedBritish: () => speakcirculars4("en-GB"),
+                            onPressedAmerican: () => speakcirculars4("en-US"),
                           ),
                         ],
                       ),

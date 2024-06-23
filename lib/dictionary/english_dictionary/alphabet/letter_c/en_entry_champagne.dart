@@ -91,32 +91,13 @@ class EnglishEntrychampagne extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جۆرێکی مەی کە سپی درەوشاوەیە و لە ھەرێمی شامپەینی فەرەنسا بەرھەم دێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are a number of fine champagnes (= types of champagne) available at very reasonable prices."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک جۆری جیاوازی شامپەین ھەیە بە نرخی گونجاو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "champagne", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchampagnes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchampagnes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are a number of fine champagnes (= types of champagne) available at very reasonable prices.",
+                            kurdishText:
+                                "ژمارەیەک جۆری جیاوازی شامپەین ھەیە بە نرخی گونجاو.", // champagne",
+                            onPressedBritish: () => speakchampagnes1("en-GB"),
+                            onPressedAmerican: () => speakchampagnes1("en-US"),
                           ),
                         ],
                       ),

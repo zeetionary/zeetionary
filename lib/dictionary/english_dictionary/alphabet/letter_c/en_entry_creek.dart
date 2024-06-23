@@ -242,60 +242,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جۆگەیەکی تەسک کە لێیەوە دەریا تێکەڵ بە وشکانی دەبیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They drove to the little creek where they kept their fishing boat."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چوونە زێیە بچووکەکەوە کە تێیدا بەلەمی ڕاوکردنەکەیان ھێشتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creek", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreeks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreeks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They drove to the little creek where they kept their fishing boat.",
+            kurdishText:
+                "چوونە زێیە بچووکەکەوە کە تێیدا بەلەمی ڕاوکردنەکەیان ھێشتەوە.", // creek", please follow LX instructions
+            onPressedBritish: () => speakcreeks1("en-GB"),
+            onPressedAmerican: () => speakcreeks1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ڕووباورێک یان جۆگەیەکی بچووک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "That night they set up camp near the creek."),
-                    ExampleSentenceKurdish(
-                        text: "ئەو شەوە کەمپیان لە نزیک زێیەکە ھەڵدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreeks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreeks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "That night they set up camp near the creek.",
+            kurdishText: "ئەو شەوە کەمپیان لە نزیک زێیەکە ھەڵدا.",
+            onPressedBritish: () => speakcreeks2("en-GB"),
+            onPressedAmerican: () => speakcreeks2("en-US"),
           ),
         ],
       ),

@@ -110,88 +110,31 @@ class EnglishEntrycolossal extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The singer earns a colossal amount of money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆرانیبێژەکە پارەیەکی بێ‌ئەندازە قازانج دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colossal", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolossals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolossals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The singer earns a colossal amount of money.",
+                            kurdishText:
+                                "گۆرانیبێژەکە پارەیەکی بێ‌ئەندازە قازانج دەکات.", // colossal",
+                            onPressedBritish: () => speakcolossals1("en-GB"),
+                            onPressedAmerican: () => speakcolossals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The variety of wines available is colossal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەی ئەو بیرانەی کە بەردەستن ئێجگار زۆرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolossals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolossals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The variety of wines available is colossal.",
+                            kurdishText:
+                                "ڕێژەی ئەو بیرانەی کە بەردەستن ئێجگار زۆرن.",
+                            onPressedBritish: () => speakcolossals2("en-GB"),
+                            onPressedAmerican: () => speakcolossals2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have spent a colossal amount of money on construction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارەیەکی زەبەلاحیان لە بنیاتنانەکەدا خەرجکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolossals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolossals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have spent a colossal amount of money on construction.",
+                            kurdishText:
+                                "پارەیەکی زەبەلاحیان لە بنیاتنانەکەدا خەرجکردووە.",
+                            onPressedBritish: () => speakcolossals3("en-GB"),
+                            onPressedAmerican: () => speakcolossals3("en-US"),
                           ),
                         ],
                       ),

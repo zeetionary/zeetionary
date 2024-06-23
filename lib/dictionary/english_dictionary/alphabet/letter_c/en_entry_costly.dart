@@ -257,116 +257,40 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گران، زۆربایی، زۆربڕ، خەرج‌ھەڵگر، پڕمەزاخ، پڕخەرج، زۆری تێدەچێ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر گران"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Buying new furniture may prove too costly."),
-                    ExampleSentenceKurdish(
-                        text: "کڕینی کەلوپەلی تازە ڕەنگە زۆر گران دەربچێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "costly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Buying new furniture may prove too costly.",
+            kurdishText:
+                "کڕینی کەلوپەلی تازە ڕەنگە زۆر گران دەربچێت.", // costly", please follow LX instructions
+            onPressedBritish: () => speakcostlys1("en-GB"),
+            onPressedAmerican: () => speakcostlys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These teaching methods are too costly in terms of staff resources."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ڕێگایانەی وانەوتنەوە زۆر گران‌بەھان لە ڕووی سەرچاوەی ستافەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These teaching methods are too costly in terms of staff resources.",
+            kurdishText:
+                "ئەم ڕێگایانەی وانەوتنەوە زۆر گران‌بەھان لە ڕووی سەرچاوەی ستافەوە.",
+            onPressedBritish: () => speakcostlys2("en-GB"),
+            onPressedAmerican: () => speakcostlys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) بوون بەھۆی کێشە یان لەدەستدانی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The six-month delay will be costly for the company."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دواکەوتنە شەش مانگییەکە دەکرێت بەقیمەت دەبێت بۆ کۆمپانیاکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostlys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostlys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The six-month delay will be costly for the company.",
+            kurdishText:
+                "دواکەوتنە شەش مانگییەکە دەکرێت بەقیمەت دەبێت بۆ کۆمپانیاکە.",
+            onPressedBritish: () => speakcostlys3("en-GB"),
+            onPressedAmerican: () => speakcostlys3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Privatizing the rail network turned out be a costly mistake for the government."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناحکومی‌کردنی ھێڵی شەمەندەفەر دەرکەوت کە ھەڵەیەکی گران‌بەھا بوو بۆ حکومەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostlys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostlys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Privatizing the rail network turned out be a costly mistake for the government.",
+            kurdishText:
+                "ناحکومی‌کردنی ھێڵی شەمەندەفەر دەرکەوت کە ھەڵەیەکی گران‌بەھا بوو بۆ حکومەت.",
+            onPressedBritish: () => speakcostlys4("en-GB"),
+            onPressedAmerican: () => speakcostlys4("en-US"),
           ),
         ],
       ),

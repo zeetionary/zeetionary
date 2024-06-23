@@ -194,63 +194,25 @@ class EnglishEntrycalliper extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئامێرێک کە بۆ پێوانی پانی و دووری بەکاردێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The engineer used a calliper to precisely measure the width of the metal rod."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندازیارەکە پەڕگارێکی بەکارھێنا بۆ پێوانی پانی چڵە ئاسنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calliper", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcallipers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcallipers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The engineer used a calliper to precisely measure the width of the metal rod.",
+                            kurdishText:
+                                "ئەندازیارەکە پەڕگارێکی بەکارھێنا بۆ پێوانی پانی چڵە ئاسنەکە.", // calliper
+                            onPressedBritish: () => speakcallipers1("en-GB"),
+                            onPressedAmerican: () => speakcallipers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕاگرێک بۆ لاقی لاواز یان بریندار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wore a knee brace to support his injured joint."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لاق‌بەندێکی بەست بۆ پاڵپشتی جومگە بریندارەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcallipers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcallipers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wore a knee brace to support his injured joint.",
+                            kurdishText:
+                                "لاق‌بەندێکی بەست بۆ پاڵپشتی جومگە بریندارەکەی.",
+                            onPressedBritish: () => speakcallipers2("en-GB"),
+                            onPressedAmerican: () => speakcallipers2("en-US"),
                           ),
                         ],
                       ),

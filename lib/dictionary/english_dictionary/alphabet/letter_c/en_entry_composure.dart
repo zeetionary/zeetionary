@@ -103,60 +103,20 @@ class EnglishEntrycomposure extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخی ئارامی و ھەبوونی کۆنترۆڵ بەسەر ھەستەکانت و ڕەفتارتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He maintained his composure despite a desperate desire to laugh."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێمنی خۆی پاراست سەرەڕای ئارەزووی زۆری بۆ پێکەنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "composure", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomposures1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomposures1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He maintained his composure despite a desperate desire to laugh.",
+                            kurdishText:
+                                "ھێمنی خۆی پاراست سەرەڕای ئارەزووی زۆری بۆ پێکەنین.", // composure",
+                            onPressedBritish: () => speakcomposures1("en-GB"),
+                            onPressedAmerican: () => speakcomposures1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She answered with perfect composure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە سەنگینی تەواوەوە وەڵامی دایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomposures2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomposures2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She answered with perfect composure.",
+                            kurdishText: "بە سەنگینی تەواوەوە وەڵامی دایەوە.",
+                            onPressedBritish: () => speakcomposures2("en-GB"),
+                            onPressedAmerican: () => speakcomposures2("en-US"),
                           ),
                         ],
                       ),

@@ -103,63 +103,26 @@ class EnglishEntryconditionally extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە پشت بە شتێک دەبەستێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Six prisoners were released conditionally."),
-                                    ExampleSentenceKurdish(
-                                        text: "شەش زیندانی بە مەرج ئازادکران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conditionally", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconditionallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconditionallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Six prisoners were released conditionally.",
+                            kurdishText:
+                                "شەش زیندانی بە مەرج ئازادکران.", // conditionally",
+                            onPressedBritish: () =>
+                                speakconditionallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconditionallys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They told the Americans that they were ready to surrender conditionally."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئەمریکییەکانیان گوت ئامادەن بە مەرج خۆیان بدەن بەدەستەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconditionallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconditionallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They told the Americans that they were ready to surrender conditionally.",
+                            kurdishText:
+                                "بە ئەمریکییەکانیان گوت ئامادەن بە مەرج خۆیان بدەن بەدەستەوە.",
+                            onPressedBritish: () =>
+                                speakconditionallys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconditionallys2("en-US"),
                           ),
                         ],
                       ),

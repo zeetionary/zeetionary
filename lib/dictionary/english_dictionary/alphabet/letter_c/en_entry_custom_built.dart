@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) دیزاین و درووستکراو بۆ کەسێکی تایبەت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She ordered a custom-built sofa to fit perfectly in her living room."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داوای قەنەفەیەکی بە تایبەت درووستکراوی کرد بۆ ئەوەی لە ژووری میوانییەکەیدا جێگای ببێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "custom-built", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustombuilts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustombuilts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She ordered a custom-built sofa to fit perfectly in her living room.",
+            kurdishText:
+                "داوای قەنەفەیەکی بە تایبەت درووستکراوی کرد بۆ ئەوەی لە ژووری میوانییەکەیدا جێگای ببێتەوە.", // custom-built", please follow LX instructions
+            onPressedBritish: () => speakcustombuilts1("en-GB"),
+            onPressedAmerican: () => speakcustombuilts1("en-US"),
           ),
         ],
       ),

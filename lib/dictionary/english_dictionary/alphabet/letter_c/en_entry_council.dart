@@ -293,233 +293,78 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کۆمەڵە کەسێک کە ھەڵدەبژێردرێن بۆ بەڕێوەبردنی ناوچەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The decision still has to be ratified by the full council."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بڕیارەکە ھێشتا دەبێت پەسەند بکرێت لەلایەن ھەموو ئەنجوومەنەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "council", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouncils1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouncils1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The decision still has to be ratified by the full council.",
+            kurdishText:
+                "بڕیارەکە ھێشتا دەبێت پەسەند بکرێت لەلایەن ھەموو ئەنجوومەنەکەوە.", // council", please follow LX instructions
+            onPressedBritish: () => speakcouncils1("en-GB"),
+            onPressedAmerican: () => speakcouncils1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He won a seat on the council in the election."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کورسییەکی لە ئەنجوومەنەکە بردەوە لە ھەڵبژاردندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouncils2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouncils2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He won a seat on the council in the election.",
+            kurdishText: "کورسییەکی لە ئەنجوومەنەکە بردەوە لە ھەڵبژاردندا.",
+            onPressedBritish: () => speakcouncils2("en-GB"),
+            onPressedAmerican: () => speakcouncils2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She has served on the council for four years."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ چوار ساڵ لە ئەنجوومەنەکەدا خزمەتی کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouncils3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouncils3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has served on the council for four years.",
+            kurdishText: "بۆ چوار ساڵ لە ئەنجوومەنەکەدا خزمەتی کردووە.",
+            onPressedBritish: () => speakcouncils3("en-GB"),
+            onPressedAmerican: () => speakcouncils3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) دامەزراوەیەک کە خزمەتگوزارییەک لە شارێکدا پێشکەش دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Residents have complained to the council about the noise."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھاوڵاتییەکان گازەندەیان لای ئەنجوومەنەکە کردووە سەبارەت بە ژاوەژاوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouncils4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouncils4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Residents have complained to the council about the noise.",
+            kurdishText:
+                "ھاوڵاتییەکان گازەندەیان لای ئەنجوومەنەکە کردووە سەبارەت بە ژاوەژاوەکە.",
+            onPressedBritish: () => speakcouncils4("en-GB"),
+            onPressedAmerican: () => speakcouncils4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Students should apply to their local council for a grant."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خوێندکاران دەبێت داوا لە ئەنجوومەنە خۆجێیەکە بکەن بۆ مۆڵەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouncils5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouncils5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Students should apply to their local council for a grant.",
+            kurdishText:
+                "خوێندکاران دەبێت داوا لە ئەنجوومەنە خۆجێیەکە بکەن بۆ مۆڵەت.",
+            onPressedBritish: () => speakcouncils5("en-GB"),
+            onPressedAmerican: () => speakcouncils5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) گرووپێ کەس کە ھەڵبژێردراون بۆ ڕاوێکاری، یاسادانان، توێژینەوە، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are plans to establish a funding council for higher education."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پلان ھەیە دیوانێکی خەرجی بۆ خوێندنی باڵا درووست بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouncils6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouncils6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are plans to establish a funding council for higher education.",
+            kurdishText:
+                "پلان ھەیە دیوانێکی خەرجی بۆ خوێندنی باڵا درووست بکرێت.",
+            onPressedBritish: () => speakcouncils6("en-GB"),
+            onPressedAmerican: () => speakcouncils6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Arts Council gives grants for local projects."),
-                    ExampleSentenceKurdish(
-                        text: "دەستە ھونەرییەکە مۆڵەت بۆ پڕۆژەی خۆجێیی دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouncils7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouncils7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The Arts Council gives grants for local projects.",
+            kurdishText: "دەستە ھونەرییەکە مۆڵەت بۆ پڕۆژەی خۆجێیی دەدات.",
+            onPressedBritish: () => speakcouncils7("en-GB"),
+            onPressedAmerican: () => speakcouncils7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) کۆبوونەوەیەک بۆ ئەوەی چی بڕیارێک بدرێت لە دۆخێکی تایبەتدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The king held a council at Nottingham from 14 to 19 October 1330."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاشا کۆڕێکی ڕێکخست لە ١٤ بۆ ١٩ تشرینی یەکەمی ١٣٣٠."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouncils8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouncils8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The king held a council at Nottingham from 14 to 19 October 1330.",
+            kurdishText: "پاشا کۆڕێکی ڕێکخست لە ١٤ بۆ ١٩ تشرینی یەکەمی ١٣٣٠.",
+            onPressedBritish: () => speakcouncils8("en-GB"),
+            onPressedAmerican: () => speakcouncils8("en-US"),
           ),
         ],
       ),

@@ -411,621 +411,196 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) پێکدادان و تێکشکانی ئۆتۆمبێل، فڕۆکە، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A man has been arrested in connection with a fatal crash."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەسێک دەستگیرکراوە پەیوەندیدار بە پێکدادانەکە کوشندەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crash", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A man has been arrested in connection with a fatal crash.",
+            kurdishText:
+                "کەسێک دەستگیرکراوە پەیوەندیدار بە پێکدادانەکە کوشندەکە.", // crash", please follow LX instructions
+            onPressedBritish: () => speakcrashs1("en-GB"),
+            onPressedAmerican: () => speakcrashs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It is not clear what caused the crash."),
-                    ExampleSentenceKurdish(
-                        text: "ڕوون نییە چی بوو بەھۆی پێکدادانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is not clear what caused the crash.",
+            kurdishText: "ڕوون نییە چی بوو بەھۆی پێکدادانەکە.",
+            onPressedBritish: () => speakcrashs2("en-GB"),
+            onPressedAmerican: () => speakcrashs2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "34 people died in the train crash."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "٣٤ کەس لە پێکدادانی شەمەندەفەرەکەدا گیانیان لەدەستدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "34 people died in the train crash.",
+            kurdishText:
+                "٣٤ کەس لە پێکدادانی شەمەندەفەرەکەدا گیانیان لەدەستدا.",
+            onPressedBritish: () => speakcrashs3("en-GB"),
+            onPressedAmerican: () => speakcrashs3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Mechanical failures were to blame for the crash of the helicopter."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کێشەی میکانیکی بەرپرسی کەوتنەخوارەوەی ھەلیکۆپتەرەکە بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Mechanical failures were to blame for the crash of the helicopter.",
+            kurdishText:
+                "کێشەی میکانیکی بەرپرسی کەوتنەخوارەوەی ھەلیکۆپتەرەکە بوون.",
+            onPressedBritish: () => speakcrashs4("en-GB"),
+            onPressedAmerican: () => speakcrashs4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) دەنگێکی بەرز کە درووست دەبێت بەھۆی کەوتنەخوارەوە یان پێکدادانی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The tree fell with a great crash."),
-                    ExampleSentenceKurdish(
-                        text: "درەختەکە بە زرمەیەکی بەرزەوە کەوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The tree fell with a great crash.",
+            kurdishText: "درەختەکە بە زرمەیەکی بەرزەوە کەوت.",
+            onPressedBritish: () => speakcrashs5("en-GB"),
+            onPressedAmerican: () => speakcrashs5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She heard the crash of shattering glass as the vehicles collided."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گوێی لە تەق‌وکوتی گڵاسی شکاو بوو کە ئۆتۆمبێلەکان بە یەکیاندا دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She heard the crash of shattering glass as the vehicles collided.",
+            kurdishText:
+                "گوێی لە تەق‌وکوتی گڵاسی شکاو بوو کە ئۆتۆمبێلەکان بە یەکیاندا دا.",
+            onPressedBritish: () => speakcrashs6("en-GB"),
+            onPressedAmerican: () => speakcrashs6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) دابەزینی لەناکاوی نرخی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Some economists have been predicting another crash for years."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک ئانووریناس بۆ چەند ساڵێک دەبێت پێشبینی داڕووخانێکیان کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Some economists have been predicting another crash for years.",
+            kurdishText:
+                "ژمارەیەک ئانووریناس بۆ چەند ساڵێک دەبێت پێشبینی داڕووخانێکیان کردووە.",
+            onPressedBritish: () => speakcrashs7("en-GB"),
+            onPressedAmerican: () => speakcrashs7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many investors lost substantial amounts of money during the 2008 stock market crash."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر وەبەرھێنەر ڕێژەیەکی زۆر لە پارەیان لەدەستدا لە داڕووخانی بازاڕی بۆرسە لە ساڵی ٢٠٠٨."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many investors lost substantial amounts of money during the 2008 stock market crash.",
+            kurdishText:
+                "زۆر وەبەرھێنەر ڕێژەیەکی زۆر لە پارەیان لەدەستدا لە داڕووخانی بازاڕی بۆرسە لە ساڵی ٢٠٠٨.",
+            onPressedBritish: () => speakcrashs8("en-GB"),
+            onPressedAmerican: () => speakcrashs8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) لەکارکەوتنی لەناکاوی ئامێرێک یان سیستەمێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Users won't lose important data if a hardware problem causes a crash."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەکارھێنەران زانیاری گرنگ لەدەست نادەن ئەگەر کێشەیەکی ھاردوێر ببێتە ھۆی لەکارکەوتنێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Users won't lose important data if a hardware problem causes a crash.",
+            kurdishText:
+                "بەکارھێنەران زانیاری گرنگ لەدەست نادەن ئەگەر کێشەیەکی ھاردوێر ببێتە ھۆی لەکارکەوتنێک.",
+            onPressedBritish: () => speakcrashs9("en-GB"),
+            onPressedAmerican: () => speakcrashs9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) پێکدادان یان تێکشکانی ئۆتۆمبێل یان شەمەندەفەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We're going to crash, aren't we?"),
-                    ExampleSentenceKurdish(
-                        text: "تووشی تێکشکان دەبین، وانییە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We're going to crash, aren't we?",
+            kurdishText: "تووشی تێکشکان دەبین، وانییە؟",
+            onPressedBritish: () => speakcrashs10("en-GB"),
+            onPressedAmerican: () => speakcrashs10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A truck went out of control and crashed into the back of a bus."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بارھەڵگرێک کۆنترۆڵی نەما و کێشای بە پشتەوەی پاسێکدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A truck went out of control and crashed into the back of a bus.",
+            kurdishText: "بارھەڵگرێک کۆنترۆڵی نەما و کێشای بە پشتەوەی پاسێکدا.",
+            onPressedBritish: () => speakcrashs11("en-GB"),
+            onPressedAmerican: () => speakcrashs11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (کردار) کێشان بە سەختی بە شتێکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A brick crashed through the window."),
-                    ExampleSentenceKurdish(text: "خشتێک کێشای بە پەنجەرەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A brick crashed through the window.",
+            kurdishText: "خشتێک کێشای بە پەنجەرەکەدا.",
+            onPressedBritish: () => speakcrashs12("en-GB"),
+            onPressedAmerican: () => speakcrashs12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The huge tree came crashing down during the storm."),
-                    ExampleSentenceKurdish(
-                        text: "دارە گەورەکە داڕووخا لە کاتی زریانەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The huge tree came crashing down during the storm.",
+            kurdishText: "دارە گەورەکە داڕووخا لە کاتی زریانەکەدا.",
+            onPressedBritish: () => speakcrashs13("en-GB"),
+            onPressedAmerican: () => speakcrashs13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Waves crashed against the shore."),
-                    ExampleSentenceKurdish(
-                        text: "شەپۆلەکان دەیان کێشا بە کەنارەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Waves crashed against the shore.",
+            kurdishText: "شەپۆلەکان دەیان کێشا بە کەنارەکەدا.",
+            onPressedBritish: () => speakcrashs14("en-GB"),
+            onPressedAmerican: () => speakcrashs14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (کردار) درووستکردنی دەنگێکی بەرز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Thunder crashed overhead."),
-                    ExampleSentenceKurdish(
-                        text: "چەخماخە لە سەرەوەمانەوە گرمەی دەھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Thunder crashed overhead.",
+            kurdishText: "چەخماخە لە سەرەوەمانەوە گرمەی دەھات.",
+            onPressedBritish: () => speakcrashs15("en-GB"),
+            onPressedAmerican: () => speakcrashs15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٨. (کردار) لەدەستدانی نرخ یان لەناکاو شکستھێنان بە خێرایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Share prices crashed to an all-time low yesterday."),
-                    ExampleSentenceKurdish(
-                        text: "دوێنێ ھەندێک نرخ بۆ نزمترین ئاست دابەزین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Share prices crashed to an all-time low yesterday.",
+            kurdishText: "دوێنێ ھەندێک نرخ بۆ نزمترین ئاست دابەزین.",
+            onPressedBritish: () => speakcrashs16("en-GB"),
+            onPressedAmerican: () => speakcrashs16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The company crashed with debts of £50 million."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە بە قەرزی ٥٠ ملیۆن پاوەندەوە داڕووخا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The company crashed with debts of £50 million.",
+            kurdishText: "کۆمپانیاکە بە قەرزی ٥٠ ملیۆن پاوەندەوە داڕووخا.",
+            onPressedBritish: () => speakcrashs17("en-GB"),
+            onPressedAmerican: () => speakcrashs17("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (کردار) لەکارکەوتنی کۆمپیوتەرێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Files can be lost if the system suddenly crashes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر سیستەمەکە لەناکاو لەکاربکەوێت دەکرێت فایل لەدەست بچن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Files can be lost if the system suddenly crashes.",
+            kurdishText:
+                "ئەگەر سیستەمەکە لەناکاو لەکاربکەوێت دەکرێت فایل لەدەست بچن.",
+            onPressedBritish: () => speakcrashs18("en-GB"),
+            onPressedAmerican: () => speakcrashs18("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Their website crashed repeatedly on Tuesday."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وێبسایتەکەیان بەردەوام لە ڕۆژی سێشەممە لەکار دەکەوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their website crashed repeatedly on Tuesday.",
+            kurdishText: "وێبسایتەکەیان بەردەوام لە ڕۆژی سێشەممە لەکار دەکەوت.",
+            onPressedBritish: () => speakcrashs19("en-GB"),
+            onPressedAmerican: () => speakcrashs19("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٠. (کردار) دۆڕان زۆر بە خراپی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The team crashed to their worst defeat this season."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیمەکە تووشی خراپترین دۆڕانیان بوون لەم وەرزەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The team crashed to their worst defeat this season.",
+            kurdishText: "تیمەکە تووشی خراپترین دۆڕانیان بوون لەم وەرزەدا.",
+            onPressedBritish: () => speakcrashs20("en-GB"),
+            onPressedAmerican: () => speakcrashs20("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١١. (کردار) لەناکاو خەوتن، یان لە شوێنێک کە زۆرجار ناخەویت تێیدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I was so tired I crashed out on the sofa."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر ماندوو بووم کە لەسەر قەنەفەکە خەو بردمیەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was so tired I crashed out on the sofa.",
+            kurdishText: "زۆر ماندوو بووم کە لەسەر قەنەفەکە خەو بردمیەوە.",
+            onPressedBritish: () => speakcrashs21("en-GB"),
+            onPressedAmerican: () => speakcrashs21("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١٢. (ھاوەڵناو) لەخۆگرتنی کاری قورس و ھەوڵی زۆر لە ماوەیەکی کەمدا بۆ بەدەستھێنانی زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company undertook a crash programme of machine replacement."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە پڕۆگرامێکی خەست‌وخۆڵی دەستپێکرد بۆ جێگرتنەوەی ئامێرەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashs22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashs22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company undertook a crash programme of machine replacement.",
+            kurdishText:
+                "کۆمپانیاکە پڕۆگرامێکی خەست‌وخۆڵی دەستپێکرد بۆ جێگرتنەوەی ئامێرەکان.",
+            onPressedBritish: () => speakcrashs22("en-GB"),
+            onPressedAmerican: () => speakcrashs22("en-US"),
           ),
         ],
       ),

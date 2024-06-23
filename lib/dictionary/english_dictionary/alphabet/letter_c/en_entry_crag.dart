@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: (کێو) ھەڵدێر، ھەزاربەھەزار، ھەڵەت، ما، کەمەر، ڕەوەز، کەژ، زەردوماھی، کەڕا، زنار، ھەڵەمووت
 """),
           const DefinitionKurdish(text: "١. (ناو) کێوێکی بەرزی سەخت و ھەڵدێر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Eagles are often seen soaring high above the crags in the mountains."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داڵ زۆرجار دەبینرێن کە لە بەرزی کێوەکانەوە لە چیاکانەوە بەرزدەبنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crag", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrags1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrags1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Eagles are often seen soaring high above the crags in the mountains.",
+            kurdishText:
+                "داڵ زۆرجار دەبینرێن کە لە بەرزی کێوەکانەوە لە چیاکانەوە بەرزدەبنەوە.", // crag", please follow LX instructions
+            onPressedBritish: () => speakcrags1("en-GB"),
+            onPressedAmerican: () => speakcrags1("en-US"),
           ),
         ],
       ),

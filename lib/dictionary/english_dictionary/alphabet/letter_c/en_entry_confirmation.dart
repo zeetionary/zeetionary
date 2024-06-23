@@ -121,123 +121,46 @@ class EnglishEntryconfirmation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕاگەیاندنێک، نامەیەک، ھتد کە شتێک ڕاست و درووستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm still waiting for confirmation of the test results."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا چاوەڕێی پشت‌ڕاست‌کردنەوەی ئەنجامی تاقیکردنەوەکانم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confirmation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfirmations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfirmations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm still waiting for confirmation of the test results.",
+                            kurdishText:
+                                "ھێشتا چاوەڕێی پشت‌ڕاست‌کردنەوەی ئەنجامی تاقیکردنەوەکانم.", // confirmation",
+                            onPressedBritish: () =>
+                                speakconfirmations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfirmations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She nodded in confirmation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەری لەقاند بۆ پشت‌ڕاست‌کردنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfirmations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfirmations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She nodded in confirmation.",
+                            kurdishText: "سەری لەقاند بۆ پشت‌ڕاست‌کردنەوە.",
+                            onPressedBritish: () =>
+                                speakconfirmations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfirmations2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police are seeking independent confirmation of certain details of the story."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس بە شوێن پشت‌ڕاست‌کردنەوەی سەربەخۆنی ژمارەیەکی دیاریکراو لە وردەکاری بابەتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfirmations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfirmations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police are seeking independent confirmation of certain details of the story.",
+                            kurdishText:
+                                "پۆلیس بە شوێن پشت‌ڕاست‌کردنەوەی سەربەخۆنی ژمارەیەکی دیاریکراو لە وردەکاری بابەتەکە.",
+                            onPressedBritish: () =>
+                                speakconfirmations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfirmations3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You will receive written confirmation of our decision in the next few days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشت‌ڕاست‌کردنەوەی نووسراومانت پێدەگات سەبارەت بە بڕیارەکەمان لە چەند ڕۆژی داھاتوودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfirmations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfirmations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You will receive written confirmation of our decision in the next few days.",
+                            kurdishText:
+                                "پشت‌ڕاست‌کردنەوەی نووسراومانت پێدەگات سەبارەت بە بڕیارەکەمان لە چەند ڕۆژی داھاتوودا.",
+                            onPressedBritish: () =>
+                                speakconfirmations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfirmations4("en-US"),
                           ),
                         ],
                       ),

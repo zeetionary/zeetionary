@@ -136,181 +136,66 @@ class EnglishEntryclaw extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چڕنووک؛ یەکێک لە نینۆکە تیژەکانی سەر پێی ئاژەڵێک یان باڵندەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cat lashed out with its claws."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشێلەکە بە چڕنووکەکانی ھێرشی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "claw", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The cat lashed out with its claws.",
+                            kurdishText:
+                                "پشێلەکە بە چڕنووکەکانی ھێرشی کرد.", // claw",
+                            onPressedBritish: () => speakclaws1("en-GB"),
+                            onPressedAmerican: () => speakclaws1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The lion growled and showed its claws."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێرەکە نەڕاندی و چڕنووکەکانی پیشاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The lion growled and showed its claws.",
+                            kurdishText:
+                                "شێرەکە نەڕاندی و چڕنووکەکانی پیشاندا.",
+                            onPressedBritish: () => speakclaws2("en-GB"),
+                            onPressedAmerican: () => speakclaws2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەندامێکی درێژ و چەماوەی تیژی سەدەفدارەکان کە بەکاردێت بۆ گرتنی شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Keep your fingers away from the crab's claws when you pick it up."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجەکانت بەدوور بگرە لە چنگی قرژاڵەکە کە ھەڵیدەگریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Keep your fingers away from the crab's claws when you pick it up.",
+                            kurdishText:
+                                "پەنجەکانت بەدوور بگرە لە چنگی قرژاڵەکە کە ھەڵیدەگریت.",
+                            onPressedBritish: () => speakclaws3("en-GB"),
+                            onPressedAmerican: () => speakclaws3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شتێک کە بەکاردێت بۆ ھەڵگرتنەوەی شت و وەک چنگی ئاژەڵانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The machine's giant claw ripped the roof off the house like it was paper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قولاپی بەھێزی ئامێرەکە سەربانی خانووەکەی لێکردەوە وەک ئەوەی کاغەز بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The machine's giant claw ripped the roof off the house like it was paper.",
+                            kurdishText:
+                                "قولاپی بەھێزی ئامێرەکە سەربانی خانووەکەی لێکردەوە وەک ئەوەی کاغەز بێت.",
+                            onPressedBritish: () => speakclaws4("en-GB"),
+                            onPressedAmerican: () => speakclaws4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) چڕنووک ھێنان بە شتێک/کەسێکدا بە چنگ یان نینۆک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cat was clawing at the leg of the chair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشیلەکە چڕنووکی لە لاقی کورسییەکە دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cat was clawing at the leg of the chair.",
+                            kurdishText:
+                                "پشیلەکە چڕنووکی لە لاقی کورسییەکە دەدا.",
+                            onPressedBritish: () => speakclaws5("en-GB"),
+                            onPressedAmerican: () => speakclaws5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had clawed Stephen across the face."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چڕنووکی لە ستیفن دابوو لە ڕووخساریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaws6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaws6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had clawed Stephen across the face.",
+                            kurdishText:
+                                "چڕنووکی لە ستیفن دابوو لە ڕووخساریدا.",
+                            onPressedBritish: () => speakclaws6("en-GB"),
+                            onPressedAmerican: () => speakclaws6("en-US"),
                           ),
                         ],
                       ),

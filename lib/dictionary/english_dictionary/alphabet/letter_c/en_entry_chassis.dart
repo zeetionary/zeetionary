@@ -95,32 +95,13 @@ class EnglishEntrychassis extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چوارچێوەی ئۆتۆمبێلێک، یان بەشی دەرەوەی ئامێرێکی ئەلیکترۆنی، بۆ نموونە کۆمپیوتەرێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car's lightweight chassis is made from aluminium sheets."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوارچێوە سووکەکەی ئۆتۆمبێلەکە درووستکراوە لە پارچە ئەلەمنیۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chassis", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchassiss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchassiss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The car's lightweight chassis is made from aluminium sheets.",
+                            kurdishText:
+                                "چوارچێوە سووکەکەی ئۆتۆمبێلەکە درووستکراوە لە پارچە ئەلەمنیۆم.", // chassis",
+                            onPressedBritish: () => speakchassiss1("en-GB"),
+                            onPressedAmerican: () => speakchassiss1("en-US"),
                           ),
                         ],
                       ),

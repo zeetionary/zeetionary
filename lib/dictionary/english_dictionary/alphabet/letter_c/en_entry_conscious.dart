@@ -169,295 +169,103 @@ class EnglishEntryconscious extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بائاگا لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's very conscious of the problems involved."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر بەئاگایە لەو کێشانەی لە ڕێگان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conscious", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's very conscious of the problems involved.",
+                            kurdishText:
+                                "زۆر بەئاگایە لەو کێشانەی لە ڕێگان.", // conscious",
+                            onPressedBritish: () => speakconsciouss1("en-GB"),
+                            onPressedAmerican: () => speakconsciouss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I am conscious of the fact that there's a limit to what we can achieve here."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئاگام لەو ڕاستییەی کە سنوورێک ھەیە بۆ ئەوەی لێرە دەتوانین بەدەستی بھێنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciouss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciouss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I am conscious of the fact that there's a limit to what we can achieve here.",
+                            kurdishText:
+                                "بە ئاگام لەو ڕاستییەی کە سنوورێک ھەیە بۆ ئەوەی لێرە دەتوانین بەدەستی بھێنین.",
+                            onPressedBritish: () => speakconsciouss2("en-GB"),
+                            onPressedAmerican: () => speakconsciouss2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He became acutely conscious of having failed his parents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواو بەئاگا بوو لەوەی کە دایک و باوکی نائومێد کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciouss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciouss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He became acutely conscious of having failed his parents.",
+                            kurdishText:
+                                "تەواو بەئاگا بوو لەوەی کە دایک و باوکی نائومێد کردووە.",
+                            onPressedBritish: () => speakconsciouss3("en-GB"),
+                            onPressedAmerican: () => speakconsciouss3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ھەبوونی توانای بەکارھێنانی ھەستەکانت و ھێزی مێشکت بۆ زانینی ئەوەی چی ڕوودەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A patient who is not fully conscious should never be left alone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشێک کە تەواو بەئاگا نییە نابێت بە تەنھا جێبھێڵدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciouss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciouss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A patient who is not fully conscious should never be left alone.",
+                            kurdishText:
+                                "نەخۆشێک کە تەواو بەئاگا نییە نابێت بە تەنھا جێبھێڵدرێت.",
+                            onPressedBritish: () => speakconsciouss4("en-GB"),
+                            onPressedAmerican: () => speakconsciouss4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She remained conscious throughout the operation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ماوەی تەواوی نەشتەرگەرییەکە بە ئاگا ھێڵدرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciouss5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciouss5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She remained conscious throughout the operation.",
+                            kurdishText:
+                                "لە ماوەی تەواوی نەشتەرگەرییەکە بە ئاگا ھێڵدرایەوە.",
+                            onPressedBritish: () => speakconsciouss5("en-GB"),
+                            onPressedAmerican: () => speakconsciouss5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Try to keep the patient conscious."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ بدە نەخۆشەکە بە بەئاگایی بھێڵەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciouss6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciouss6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Try to keep the patient conscious.",
+                            kurdishText:
+                                "ھەوڵ بدە نەخۆشەکە بە بەئاگایی بھێڵەرەوە.",
+                            onPressedBritish: () => speakconsciouss6("en-GB"),
+                            onPressedAmerican: () => speakconsciouss6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) بە ئەنقەست؛ شتێک کە بە ئاگاییەوە دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I made a conscious effort to get there on time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵێکی بەمەبەستم دا لەکاتی خۆیدا بگەمە ئەوێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciouss7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciouss7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I made a conscious effort to get there on time.",
+                            kurdishText:
+                                "ھەوڵێکی بەمەبەستم دا لەکاتی خۆیدا بگەمە ئەوێ.",
+                            onPressedBritish: () => speakconsciouss7("en-GB"),
+                            onPressedAmerican: () => speakconsciouss7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She made a conscious decision to spend more time with her family."),
-                                    ExampleSentenceKurdish(
-                                      text:
-                                          "بڕیارێکی بەمەبەستی دا کاتی زیاتر لەگەڵ خێزانەکەی بەسەر ببات.",
-                                      note:
-                                          "واتە خۆی بڕیارەکەی دا نەک ئەوەی بارودۆخی ژیان و کارەکەی وای خواستبێت",
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciouss8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciouss8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She made a conscious decision to spend more time with her family.",
+                            kurdishText:
+                                "بڕیارێکی بەمەبەستی دا کاتی زیاتر لەگەڵ خێزانەکەی بەسەر ببات.",
+                            kurdishNote:
+                                "واتە خۆی بڕیارەکەی دا نەک ئەوەی بارودۆخی ژیان و کارەکەی وای خواستبێت",
+                            onPressedBritish: () => speakconsciouss8("en-GB"),
+                            onPressedAmerican: () => speakconsciouss8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (ھاوەڵناو) حەزکردن لە شتێک بە تایبەتی یان ئەوەی کە گرنگە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have become increasingly health-conscious."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیاتر و زیاتر ھۆگربوونە بە تەندرووستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciouss9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciouss9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have become increasingly health-conscious.",
+                            kurdishText:
+                                "زیاتر و زیاتر ھۆگربوونە بە تەندرووستی.",
+                            onPressedBritish: () => speakconsciouss9("en-GB"),
+                            onPressedAmerican: () => speakconsciouss9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's never been politically conscious."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەرگیز ھۆگر بە سیاسەت نەبووە ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciouss10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciouss10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's never been politically conscious.",
+                            kurdishText: "ھەرگیز ھۆگر بە سیاسەت نەبووە .",
+                            onPressedBritish: () => speakconsciouss10("en-GB"),
+                            onPressedAmerican: () => speakconsciouss10("en-US"),
                           ),
                         ],
                       ),

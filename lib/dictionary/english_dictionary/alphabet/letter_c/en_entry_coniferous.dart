@@ -94,32 +94,13 @@ class EnglishEntryconiferous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بەو دارانەی کە میوەی وشکی ڕەق بەرھەمدێنن لە شێوەی قووچەکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The coniferous tree stood tall and green."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دارە کۆرنیفەرییەکە بە بەرزی و سەوزی وەستابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coniferous", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconiferouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconiferouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The coniferous tree stood tall and green.",
+                            kurdishText:
+                                "دارە کۆرنیفەرییەکە بە بەرزی و سەوزی وەستابوو.", // coniferous",
+                            onPressedBritish: () => speakconiferouss1("en-GB"),
+                            onPressedAmerican: () => speakconiferouss1("en-US"),
                           ),
                         ],
                       ),

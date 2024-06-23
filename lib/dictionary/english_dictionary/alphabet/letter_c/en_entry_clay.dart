@@ -103,60 +103,22 @@ class EnglishEntryclay extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) قوڕ؛ خۆڵی خەست و قورس کە نەرمە کاتێک تەڕە و ڕەق دەبێت کە وشک یان گەرم دەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She moulded the clay into the shape of a head."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوڕەکەی قاڵبکردە سەر شێوەی سەرێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clay", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclays1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclays1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She moulded the clay into the shape of a head.",
+                            kurdishText:
+                                "قوڕەکەی قاڵبکردە سەر شێوەی سەرێک.", // clay",
+                            onPressedBritish: () => speakclays1("en-GB"),
+                            onPressedAmerican: () => speakclays1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Clay tends to dry out and crack in the summer months."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گڵ تایبەتمەندی ئەوەی ھەیە کە وشکدەبێتەوە و شەق دەبات لە مانگەکانی ھاویندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclays2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclays2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Clay tends to dry out and crack in the summer months.",
+                            kurdishText:
+                                "گڵ تایبەتمەندی ئەوەی ھەیە کە وشکدەبێتەوە و شەق دەبات لە مانگەکانی ھاویندا.",
+                            onPressedBritish: () => speakclays2("en-GB"),
+                            onPressedAmerican: () => speakclays2("en-US"),
                           ),
                         ],
                       ),

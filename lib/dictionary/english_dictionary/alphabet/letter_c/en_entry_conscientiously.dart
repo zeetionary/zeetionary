@@ -103,64 +103,26 @@ class EnglishEntryconscientiously extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە وریایی و درووستی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She performed all her duties conscientiously."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ئەرکەکانی بە وریاییەوە بەجێھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conscientiously", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconscientiouslys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconscientiouslys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She performed all her duties conscientiously.",
+                            kurdishText:
+                                "ھەموو ئەرکەکانی بە وریاییەوە بەجێھێنا.", // conscientiously",
+                            onPressedBritish: () =>
+                                speakconscientiouslys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconscientiouslys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Joan has worked very hard and conscientiously during her term of office."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوان زۆر بە سەختی و وریاییەوە لە ماوەی بەرپرسیاریەتییدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconscientiouslys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconscientiouslys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Joan has worked very hard and conscientiously during her term of office.",
+                            kurdishText:
+                                "جوان زۆر بە سەختی و وریاییەوە لە ماوەی بەرپرسیاریەتییدا.",
+                            onPressedBritish: () =>
+                                speakconscientiouslys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconscientiouslys2("en-US"),
                           ),
                         ],
                       ),

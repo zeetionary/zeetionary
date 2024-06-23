@@ -102,65 +102,25 @@ class EnglishEntrycompartment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) یەکێک لە بەشە جیاوازەکانی شتێک ھەیەتی بۆ پاراستنی شت تێیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The desk has a secret compartment."),
-                                    ExampleSentenceKurdish(
-                                        text: "مێزەکە کەرتێکی نھێنی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compartment", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompartments1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompartments1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The desk has a secret compartment.",
+                            kurdishText:
+                                "مێزەکە کەرتێکی نھێنی ھەیە.", // compartment",
+                            onPressedBritish: () => speakcompartments1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompartments1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) یەکێک لە ژوورۆچکەکانی شەمەندەفەرێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I opened the door of the compartment."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەرگای ژوورۆچکەکەم کردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompartments2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompartments2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I opened the door of the compartment.",
+                            kurdishText: "دەرگای ژوورۆچکەکەم کردەوە.",
+                            onPressedBritish: () => speakcompartments2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompartments2("en-US"),
                           ),
                         ],
                       ),

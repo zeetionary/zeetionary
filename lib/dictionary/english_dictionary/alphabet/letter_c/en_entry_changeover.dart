@@ -96,32 +96,13 @@ class EnglishEntrychangeover extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گۆڕان لە سیستەم یان ڕێگایەکی کارکردنەوە بۆ یەکێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The changeover to the new taxation system has created a lot of problems."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆڕان بۆ سیستەمە تازەکەی باجدان ژمارەیەکی زۆر کێشەی درووستکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "changeover", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchangeovers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchangeovers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The changeover to the new taxation system has created a lot of problems.",
+                            kurdishText:
+                                "گۆڕان بۆ سیستەمە تازەکەی باجدان ژمارەیەکی زۆر کێشەی درووستکردووە.", // changeover",
+                            onPressedBritish: () => speakchangeovers1("en-GB"),
+                            onPressedAmerican: () => speakchangeovers1("en-US"),
                           ),
                         ],
                       ),

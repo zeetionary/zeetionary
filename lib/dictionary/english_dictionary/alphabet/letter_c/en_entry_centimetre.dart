@@ -186,31 +186,13 @@ class EnglishEntrycentimetre extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) یەکەیەکی پێوانی دووری کە ١٪ی یەک مەترە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The shelves are three centimetres thick."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕەفەکان سێ سەنتیمەتر ئەستوورن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "centimetre", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentimetres1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentimetres1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The shelves are three centimetres thick.",
+                            kurdishText:
+                                "ڕەفەکان سێ سەنتیمەتر ئەستوورن.", // centimetre",
+                            onPressedBritish: () => speakcentimetres1("en-GB"),
+                            onPressedAmerican: () => speakcentimetres1("en-US"),
                           ),
                         ],
                       ),

@@ -250,90 +250,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: قورس، پڕئەرک، مایەی زەحمەت، ھەراسان‌کەر، دەس‌وپێگر، گەورە و قورس، زلە، ناقۆڵا، نالەبار، ناھەموار، بارناخۆش، تەکان‌نەدراو، ئاڵۆز، کەم‌جم‌وجۆڵ، چەقیو، گران‌ھەڵگیراو،	ھێواش، خاو،	ئاڵۆز، پێچەڵاوپێچ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) قوورس و گەورە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cumbersome package was too heavy for one person to lift."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاکێجەکە گەورەکە زۆر قورس بوو کە یەک کەس ھەڵیبگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cumbersome", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcumbersomes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcumbersomes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cumbersome package was too heavy for one person to lift.",
+            kurdishText:
+                "پاکێجەکە گەورەکە زۆر قورس بوو کە یەک کەس ھەڵیبگرێت.", // cumbersome", please follow LX instructions
+            onPressedBritish: () => speakcumbersomes1("en-GB"),
+            onPressedAmerican: () => speakcumbersomes1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) خاو و ئاڵۆز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Critics say that the process for amending the Constitution is cumbersome, but others defend it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕەخنەگران دەڵێن پڕۆسەی چاکسازی لە دەستووردا ئاڵۆزە، بەڵام ئەوانی دیکە بەرگری لێ دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcumbersomes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcumbersomes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Critics say that the process for amending the Constitution is cumbersome, but others defend it.",
+            kurdishText:
+                "ڕەخنەگران دەڵێن پڕۆسەی چاکسازی لە دەستووردا ئاڵۆزە، بەڵام ئەوانی دیکە بەرگری لێ دەکەن.",
+            onPressedBritish: () => speakcumbersomes2("en-GB"),
+            onPressedAmerican: () => speakcumbersomes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) درێژ و ئاڵۆز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The organization changed its cumbersome title to something easier to remember."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دامەزراوەکە ناوە درێژەکەی گۆڕی بۆ یەکێک کە ئاسانە بۆ بیرکەوتنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcumbersomes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcumbersomes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The organization changed its cumbersome title to something easier to remember.",
+            kurdishText:
+                "دامەزراوەکە ناوە درێژەکەی گۆڕی بۆ یەکێک کە ئاسانە بۆ بیرکەوتنەوە.",
+            onPressedBritish: () => speakcumbersomes3("en-GB"),
+            onPressedAmerican: () => speakcumbersomes3("en-US"),
           ),
         ],
       ),

@@ -135,178 +135,62 @@ class EnglishEntrycompanion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک یان ئاژەڵێک کە لەگەڵت گەشت دەکات یان کاتێکی زۆر بەسەر دەبات لەگەڵت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Geoff was my companion on the journey."),
-                                    ExampleSentenceKurdish(
-                                        text: "جیۆف لە گەشتەکەدا ھاودەمم بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "companion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Geoff was my companion on the journey.",
+                            kurdishText:
+                                "جیۆف لە گەشتەکەدا ھاودەمم بوو.", // companion",
+                            onPressedBritish: () => speakcompanions1("en-GB"),
+                            onPressedAmerican: () => speakcompanions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Fear was the hostages' constant companion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ترس ھاودەمی بەردەوامی بارمتەکان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Fear was the hostages' constant companion.",
+                            kurdishText: "ترس ھاودەمی بەردەوامی بارمتەکان بوو.",
+                            onPressedBritish: () => speakcompanions2("en-GB"),
+                            onPressedAmerican: () => speakcompanions2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە ھەمان ئەزموونی تۆی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was a charming dinner companion."),
-                                    ExampleSentenceKurdish(
-                                        text: "دۆستێکی باشی خوانی ئێوارانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was a charming dinner companion.",
+                            kurdishText: "دۆستێکی باشی خوانی ئێوارانە.",
+                            onPressedBritish: () => speakcompanions3("en-GB"),
+                            onPressedAmerican: () => speakcompanions3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We became companions in misfortune."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بووین بە ئاودەمی یەکدی لە بەدبەختیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We became companions in misfortune.",
+                            kurdishText:
+                                "بووین بە ئاودەمی یەکدی لە بەدبەختیدا.",
+                            onPressedBritish: () => speakcompanions4("en-GB"),
+                            onPressedAmerican: () => speakcompanions4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەسێک، بەتایبەتی ژنێک، کە کار دەکات بەوەی ئاگای لە کەسێک دەبێت، بەتایبەتی کەسێکی بەتەمەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She lived in the house as a companion to our grandmother."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ماڵەکەدا دەژیا وەک وەک ھاوەڵێکی داپیرەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She lived in the house as a companion to our grandmother.",
+                            kurdishText:
+                                "لە ماڵەکەدا دەژیا وەک وەک ھاوەڵێکی داپیرەمان.",
+                            onPressedBritish: () => speakcompanions5("en-GB"),
+                            onPressedAmerican: () => speakcompanions5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) شتێک کە تەواوکەری شتی دیکەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A companion volume is soon to be published."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرگێکی تەواوکەر بەم زووانە بڵاودەکرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompanions6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompanions6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A companion volume is soon to be published.",
+                            kurdishText:
+                                "بەرگێکی تەواوکەر بەم زووانە بڵاودەکرێتەوە.",
+                            onPressedBritish: () => speakcompanions6("en-GB"),
+                            onPressedAmerican: () => speakcompanions6("en-US"),
                           ),
                         ],
                       ),

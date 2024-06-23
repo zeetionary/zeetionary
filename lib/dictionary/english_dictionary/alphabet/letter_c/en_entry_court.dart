@@ -363,56 +363,19 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دادگا، دادگە، بارەگا، دەربار، سەرا، کۆشک، دیوەشا،	(وەرزش) یاریگا،	حەوشە، حەسار،	لقێ لە کۆمەڵێ،	دەستەی قانوون‌دانەران،	(لە بریتانیا) لاشەقامی بنبەست،	زمان‌لووسی، مەرایی، نەرمەبڕی،	دەربڕینی خۆشەویستی
 """),
           const DefinitionKurdish(text: "١. (ناو) دادگا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her lawyer made a statement outside the court."),
-                    ExampleSentenceKurdish(
-                        text: "پارێزەرەکەی لێدوانێکی لە دەرەوەی دادگا دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "court", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her lawyer made a statement outside the court.",
+            kurdishText:
+                "پارێزەرەکەی لێدوانێکی لە دەرەوەی دادگا دا.", // court", please follow LX instructions
+            onPressedBritish: () => speakcourts1("en-GB"),
+            onPressedAmerican: () => speakcourts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Relatives of the victims were in court."),
-                    ExampleSentenceKurdish(
-                        text: "خزمەکانی قوربانییەکە لە دادگا بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Relatives of the victims were in court.",
+            kurdishText: "خزمەکانی قوربانییەکە لە دادگا بوون.",
+            onPressedBritish: () => speakcourts2("en-GB"),
+            onPressedAmerican: () => speakcourts2("en-US"),
           ),
           Column(
             children: [
@@ -533,313 +496,101 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ئەندامانی دادگا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Please tell the court what happened."),
-                    ExampleSentenceKurdish(
-                        text: "تکایە بە دادگا بڵێ چی ڕوویدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Please tell the court what happened.",
+            kurdishText: "تکایە بە دادگا بڵێ چی ڕوویدا.",
+            onPressedBritish: () => speakcourts7("en-GB"),
+            onPressedAmerican: () => speakcourts7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This is not a case to be decided by the courts."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە بڕیارێک نییە دادگاکان بڕیاری لەسەر بدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourts8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourts8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is not a case to be decided by the courts.",
+            kurdishText: "ئەمە بڕیارێک نییە دادگاکان بڕیاری لەسەر بدەن.",
+            onPressedBritish: () => speakcourts8("en-GB"),
+            onPressedAmerican: () => speakcourts8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This evidence was not put before the court."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم بەڵگەیە پیشانی دادگا نەدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourts9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourts9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This evidence was not put before the court.",
+            kurdishText: "ئەم بەڵگەیە پیشانی دادگا نەدرا.",
+            onPressedBritish: () => speakcourts9("en-GB"),
+            onPressedAmerican: () => speakcourts9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) یاریگای ھەندێک یاری، بۆ نموونە تێنس و باسکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He won after only 52 minutes on court."),
-                    ExampleSentenceKurdish(
-                        text: "لە دوای تەنھا ٥٢ خولەک لە یاریگادا بردییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourts10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourts10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He won after only 52 minutes on court.",
+            kurdishText: "لە دوای تەنھا ٥٢ خولەک لە یاریگادا بردییەوە.",
+            onPressedBritish: () => speakcourts10("en-GB"),
+            onPressedAmerican: () => speakcourts10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The players are good friends off court and train together."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یاریزانەکان ھاوڕێی نزیکن لە دەرەوەی یاریگا و پێکەوە ڕاھێنان دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourts11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourts11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The players are good friends off court and train together.",
+            kurdishText:
+                "یاریزانەکان ھاوڕێی نزیکن لە دەرەوەی یاریگا و پێکەوە ڕاھێنان دەکەن.",
+            onPressedBritish: () => speakcourts11("en-GB"),
+            onPressedAmerican: () => speakcourts11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) شوێنی ژیانی پاشا و شاژنەکان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was presented to the queen at court."),
-                    ExampleSentenceKurdish(
-                        text: "بردرا بۆ لای شاژن لە کۆشکدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourts12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourts12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was presented to the queen at court.",
+            kurdishText: "بردرا بۆ لای شاژن لە کۆشکدا.",
+            onPressedBritish: () => speakcourts12("en-GB"),
+            onPressedAmerican: () => speakcourts12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ناو) پاشا و شاژن، خێزانەکانیان، و ئەو کەسانەی کاریان بۆ دەکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The painting shows the emperor with his court."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تابلۆکە ئیمپراتۆر لەگەڵ دەربارەکەی پیشان دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourts13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourts13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The painting shows the emperor with his court.",
+            kurdishText: "تابلۆکە ئیمپراتۆر لەگەڵ دەربارەکەی پیشان دەدات.",
+            onPressedBritish: () => speakcourts13("en-GB"),
+            onPressedAmerican: () => speakcourts13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (کردار) ھەوڵدان بۆ دڵخۆشکردنی کەسێک بۆ بەدەستھێنانی ئەوەی دەتەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Both candidates have spent the last month courting the media."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەردوو کاندیدەکە چەند مانگی ڕابردوویان بەسەر بردووە بە مەرایی کردن بۆ میدیاکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourts14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourts14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Both candidates have spent the last month courting the media.",
+            kurdishText:
+                "ھەردوو کاندیدەکە چەند مانگی ڕابردوویان بەسەر بردووە بە مەرایی کردن بۆ میدیاکان.",
+            onPressedBritish: () => speakcourts14("en-GB"),
+            onPressedAmerican: () => speakcourts14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) ھەوڵدان بۆ بەدەستھێنانی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has never courted popularity."),
-                    ExampleSentenceKurdish(
-                        text: "ھەرگیز بە شوێن ناوبانگەوە نەبووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourts15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourts15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has never courted popularity.",
+            kurdishText: "ھەرگیز بە شوێن ناوبانگەوە نەبووە.",
+            onPressedBritish: () => speakcourts15("en-GB"),
+            onPressedAmerican: () => speakcourts15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) کردنی شتێک کە دەکرێت شتێکی خراپی لێبکەوێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "As a politician he has often courted controversy."),
-                    ExampleSentenceKurdish(
-                        text: "وەک سیاسەتمەدارێک زۆرجار مشتومڕی درووستکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourts16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourts16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "As a politician he has often courted controversy.",
+            kurdishText: "وەک سیاسەتمەدارێک زۆرجار مشتومڕی درووستکردووە.",
+            onPressedBritish: () => speakcourts16("en-GB"),
+            onPressedAmerican: () => speakcourts16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٩. (کردار) ھەبوونی پەیوەندی سۆزداری لەگەڵ کەسێک کە دەتەوێت ھاوسەرگیری لەگەڵ بکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had been courting Jane for six months."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ شەش مانگە پەیوەندی لەگەڵ جەین ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourts17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourts17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had been courting Jane for six months.",
+            kurdishText: "بۆ شەش مانگە پەیوەندی لەگەڵ جەین ھەیە.",
+            onPressedBritish: () => speakcourts17("en-GB"),
+            onPressedAmerican: () => speakcourts17("en-US"),
           ),
         ],
       ),

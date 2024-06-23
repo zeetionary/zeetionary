@@ -105,64 +105,26 @@ class EnglishEntrycharacteristically extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە ئەوەیە کە لە کەسێک یان شتێک پێشبینی دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Characteristically, Helen paid for everyone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک ھەمیشە، ھێلین پارەی ھەمووانی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "characteristically", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcharacteristicallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcharacteristicallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Characteristically, Helen paid for everyone.",
+                            kurdishText:
+                                "وەک ھەمیشە، ھێلین پارەی ھەمووانی دا.", // characteristically",
+                            onPressedBritish: () =>
+                                speakcharacteristicallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcharacteristicallys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Parkinson's disease characteristically occurs in old age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشی پارکینسن بەشێوەی ئاسایی لە تەمەنی پیریدا ڕوودەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcharacteristicallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcharacteristicallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Parkinson's disease characteristically occurs in old age.",
+                            kurdishText:
+                                "نەخۆشی پارکینسن بەشێوەی ئاسایی لە تەمەنی پیریدا ڕوودەدات.",
+                            onPressedBritish: () =>
+                                speakcharacteristicallys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcharacteristicallys2("en-US"),
                           ),
                         ],
                       ),

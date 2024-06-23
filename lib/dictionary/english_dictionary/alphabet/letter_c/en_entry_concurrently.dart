@@ -93,36 +93,16 @@ class EnglishEntryconcurrently extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار)  لە ھەمان کاتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prison sentences will run concurrently."),
-                                    ExampleSentenceKurdish(
-                                      text: "سزا زیندانییەکان پێکەوە دەبن.",
-                                      note:
-                                          "سزاکانی زیندانیکردن لە ھەمان کاتدا جێبەجێ دەکرێن، واتە کۆی ئەو ماوەیەی کە دەسەپێنرێت یەکسان دەبێت بە درێژترین ماوە، نەک کۆی سەرجەم سزاکان.",
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concurrently", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
+                          SentencesRow(
+  englishText:
+                                            "The prison sentences will run concurrently.",
+kurdishText: "سزا زیندانییەکان پێکەوە دەبن.",
+                                      kurdishNote:
+                                          "سزاکانی زیندانیکردن لە ھەمان کاتدا جێبەجێ دەکرێن، واتە کۆی ئەو ماوەیەی کە دەسەپێنرێت یەکسان دەبێت بە درێژترین ماوە، نەک کۆی سەرجەم سزاکان.", // concurrently",
+                                    onPressedBritish: () =>
                                         speakconcurrentlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
+onPressedAmerican: () =>
                                         speakconcurrentlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
                           ),
                         ],
                       ),

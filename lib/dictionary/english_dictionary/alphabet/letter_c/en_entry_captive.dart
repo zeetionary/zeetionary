@@ -190,88 +190,30 @@ class EnglishEntrycaptive extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) دیل یان ئەسیر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were taken captive by masked gunmen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەلایەن چەکداری دەمامکدارەوە بەدیل گیردران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "captive", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were taken captive by masked gunmen.",
+                            kurdishText:
+                                "لەلایەن چەکداری دەمامکدارەوە بەدیل گیردران.", // captive
+                            onPressedBritish: () => speakcaptives1("en-GB"),
+                            onPressedAmerican: () => speakcaptives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was held captive in a castle."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە قەڵایەکدا بەدیل گیردرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was held captive in a castle.",
+                            kurdishText: "لە قەڵایەکدا بەدیل گیردرا.",
+                            onPressedBritish: () => speakcaptives2("en-GB"),
+                            onPressedAmerican: () => speakcaptives2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) دیل"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Talks have persuaded the terrorists to set the captives free."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گفتوگۆ تیرۆریستانی قایلکردووە دیلەکان بەربدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptives3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Talks have persuaded the terrorists to set the captives free.",
+                            kurdishText:
+                                "گفتوگۆ تیرۆریستانی قایلکردووە دیلەکان بەربدەن.",
+                            onPressedBritish: () => speakcaptives3("en-GB"),
+                            onPressedAmerican: () => speakcaptives3("en-US"),
                           ),
                         ],
                       ),

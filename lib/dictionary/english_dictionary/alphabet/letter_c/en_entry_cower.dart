@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) خۆصەمانەوە یان چوونە دواوە بەھۆی ئەوەی دەترسیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A gun went off and people cowered behind walls and under tables."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چەکێک تەقەی ھات و خەڵکی لە پشتەوەی دیوارەکان و ژێر مێزەکان خۆیان مەڵاسدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cower", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A gun went off and people cowered behind walls and under tables.",
+            kurdishText:
+                "چەکێک تەقەی ھات و خەڵکی لە پشتەوەی دیوارەکان و ژێر مێزەکان خۆیان مەڵاسدا.", // cower", please follow LX instructions
+            onPressedBritish: () => speakcowers1("en-GB"),
+            onPressedAmerican: () => speakcowers1("en-US"),
           ),
         ],
       ),

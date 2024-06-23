@@ -94,31 +94,12 @@ class EnglishEntryconcisely extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە تەنھا ئەو زانیارییانە دەدات کە پێویست و گرنگن بە بەکارھێنانی وشەی کەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spoke clearly and concisely."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە ڕوونی و پوختی قسەیکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concisely", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconciselys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconciselys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He spoke clearly and concisely.",
+                            kurdishText:
+                                "بە ڕوونی و پوختی قسەیکرد.", // concisely",
+                            onPressedBritish: () => speakconciselys1("en-GB"),
+                            onPressedAmerican: () => speakconciselys1("en-US"),
                           ),
                         ],
                       ),

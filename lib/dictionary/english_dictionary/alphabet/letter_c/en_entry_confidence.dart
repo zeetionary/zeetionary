@@ -232,60 +232,22 @@ class EnglishEntryconfidence extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) متمانە و باوەڕ بە توانا و خاسیەتی باشی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The president's actions hardly inspire confidence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کردارەکانی سەرۆک بە ئەستەم متمانە دەبەخشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confidence", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfidences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfidences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The president's actions hardly inspire confidence.",
+                            kurdishText:
+                                "کردارەکانی سەرۆک بە ئەستەم متمانە دەبەخشێت.", // confidence",
+                            onPressedBritish: () => speakconfidences1("en-GB"),
+                            onPressedAmerican: () => speakconfidences1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The players all have confidence in their manager."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاریزانەکان ھەموویان متمانەیان بە ڕاھێنەرەکەیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfidences2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfidences2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The players all have confidence in their manager.",
+                            kurdishText:
+                                "یاریزانەکان ھەموویان متمانەیان بە ڕاھێنەرەکەیان ھەیە.",
+                            onPressedBritish: () => speakconfidences2("en-GB"),
+                            onPressedAmerican: () => speakconfidences2("en-US"),
                           ),
                           Column(
                             children: [
@@ -387,360 +349,121 @@ class EnglishEntryconfidence extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) باوەڕ بە توانای خۆت کە کارێک بکەیت و سەرکەوتوو بیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People often lose confidence when they are criticized."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی زۆرجار خۆباوەڕی لەدەستدەدەن کە سەرزەنشت دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfidences6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfidences6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People often lose confidence when they are criticized.",
+                            kurdishText:
+                                "خەڵکی زۆرجار خۆباوەڕی لەدەستدەدەن کە سەرزەنشت دەکرێن.",
+                            onPressedBritish: () => speakconfidences6("en-GB"),
+                            onPressedAmerican: () => speakconfidences6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gained confidence when he went to college."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆباوەڕی بەدەستھێنا کە چووە کۆلێژ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfidences7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfidences7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He gained confidence when he went to college.",
+                            kurdishText: "خۆباوەڕی بەدەستھێنا کە چووە کۆلێژ.",
+                            onPressedBritish: () => speakconfidences7("en-GB"),
+                            onPressedAmerican: () => speakconfidences7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "While girls lack confidence, boys often overestimate their abilities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەکاتێکدا کچان خۆباوەڕیان کەمە، کوڕان زۆرجار تواناکانیان بەرز دەنرخێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfidences8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfidences8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "While girls lack confidence, boys often overestimate their abilities.",
+                            kurdishText:
+                                "لەکاتێکدا کچان خۆباوەڕیان کەمە، کوڕان زۆرجار تواناکانیان بەرز دەنرخێنن.",
+                            onPressedBritish: () => speakconfidences8("en-GB"),
+                            onPressedAmerican: () => speakconfidences8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She answered the questions with confidence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە خۆباوەڕییەوە وەڵامی پرسیارەکانی دایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfidences9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfidences9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She answered the questions with confidence.",
+                            kurdishText:
+                                "بە خۆباوەڕییەوە وەڵامی پرسیارەکانی دایەوە.",
+                            onPressedBritish: () => speakconfidences9("en-GB"),
+                            onPressedAmerican: () => speakconfidences9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ھەستی دڵنیای سەبارەت بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He said he wished that he shared her confidence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوتی بەھیوابوو کە ئەویش ھەمان دڵنیایی ئەوی ھەبوایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidences10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidences10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He said he wished that he shared her confidence.",
+                            kurdishText:
+                                "گوتی بەھیوابوو کە ئەویش ھەمان دڵنیایی ئەوی ھەبوایە.",
+                            onPressedBritish: () => speakconfidences10("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidences10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They could not say with confidence that he would be able to walk again after the accident."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەیان دەتوانی بە دڵنیاییەوە بڵێن کە دەتوانێت دووبارە بە ڕێگادا بچێت لە دوای ڕووداوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidences11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidences11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They could not say with confidence that he would be able to walk again after the accident.",
+                            kurdishText:
+                                "نەیان دەتوانی بە دڵنیاییەوە بڵێن کە دەتوانێت دووبارە بە ڕێگادا بچێت لە دوای ڕووداوەکە.",
+                            onPressedBritish: () => speakconfidences11("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidences11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "No one can predict with complete confidence what will happen in the financial markets."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەس ناتوانێت بە دڵنیاییەوە پێشبینی بکات چی لە بازاڕی ئابووریدا ڕوودەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidences12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidences12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "No one can predict with complete confidence what will happen in the financial markets.",
+                            kurdishText:
+                                "کەس ناتوانێت بە دڵنیاییەوە پێشبینی بکات چی لە بازاڕی ئابووریدا ڕوودەدات.",
+                            onPressedBritish: () => speakconfidences12("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidences12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) متمانە بە کەسێک کە زانیاری بە نھێنی بھێڵێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Eva told me about their relationship in confidence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێڤا وەک سڕێک پێی گوتم سەبارەت بە پەیوەندییەکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidences13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidences13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Eva told me about their relationship in confidence.",
+                            kurdishText:
+                                "ئێڤا وەک سڕێک پێی گوتم سەبارەت بە پەیوەندییەکەیان.",
+                            onPressedBritish: () => speakconfidences13("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidences13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is in the strictest confidence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە بە سڕێکی توندەوەیە (نابێت بە ھیچ کەس بڵێیت)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidences14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidences14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This is in the strictest confidence.",
+                            kurdishText:
+                                "ئەمە بە سڕێکی توندەوەیە (نابێت بە ھیچ کەس بڵێیت).",
+                            onPressedBritish: () => speakconfidences14("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidences14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I really can't talk about this—she told me in confidence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕاستیدا ناتوانم قسە لەسەر ئەمە بکەم، بە متمانەوە پێی گوتم ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidences15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidences15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I really can't talk about this—she told me in confidence.",
+                            kurdishText:
+                                "لە ڕاستیدا ناتوانم قسە لەسەر ئەمە بکەم، بە متمانەوە پێی گوتم .",
+                            onPressedBritish: () => speakconfidences15("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidences15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) نھێنییەک کە بە کەسێک دەیڵێیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The girls exchanged confidences."),
-                                    ExampleSentenceKurdish(
-                                        text: "کچەکان نھێنییان گۆڕییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidences16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidences16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The girls exchanged confidences.",
+                            kurdishText: "کچەکان نھێنییان گۆڕییەوە.",
+                            onPressedBritish: () => speakconfidences16("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidences16("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can you keep a confidence?"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەتوانیت نھێنییەک بپارێزیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidences17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidences17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can you keep a confidence?",
+                            kurdishText: "دەتوانیت نھێنییەک بپارێزیت؟",
+                            onPressedBritish: () => speakconfidences17("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidences17("en-US"),
                           ),
                         ],
                       ),

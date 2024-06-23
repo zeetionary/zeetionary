@@ -240,58 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) خانوویەکی بچووک، بەتایبەتی لە دەرەوەی شار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "James lived in a charming country cottage with roses around the door."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جەیمس لە کۆختەیەکی دڵبەری دەرەوەی شاردا دەژیا کە گوڵ لە دەوری دەرگاکەی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cottage", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcottages1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcottages1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "James lived in a charming country cottage with roses around the door.",
+            kurdishText:
+                "جەیمس لە کۆختەیەکی دڵبەری دەرەوەی شاردا دەژیا کە گوڵ لە دەوری دەرگاکەی بوو.", // cottage", please follow LX instructions
+            onPressedBritish: () => speakcottages1("en-GB"),
+            onPressedAmerican: () => speakcottages1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We rented a cottage for a week."),
-                    ExampleSentenceKurdish(
-                        text: "کۆختەیەکمان بۆ ھەفتەیەک بە کرێ گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcottages2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcottages2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We rented a cottage for a week.",
+            kurdishText: "کۆختەیەکمان بۆ ھەفتەیەک بە کرێ گرت.",
+            onPressedBritish: () => speakcottages2("en-GB"),
+            onPressedAmerican: () => speakcottages2("en-US"),
           ),
         ],
       ),

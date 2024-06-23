@@ -119,117 +119,41 @@ class EnglishEntryconvict extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بە فەرمی گوتن و بڕیاردانی ئەوەی کەسێک تاوانبارە لە دادگادا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was convicted of fraud."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە ساختەکاری تۆمەتبارکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convict", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvicts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvicts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was convicted of fraud.",
+                            kurdishText:
+                                "بە ساختەکاری تۆمەتبارکرا.", // convict",
+                            onPressedBritish: () => speakconvicts1("en-GB"),
+                            onPressedAmerican: () => speakconvicts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There wasn’t enough evidence to convict her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵگەی پێویست نەبوو بۆ تاوانبارکردنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvicts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvicts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There wasn’t enough evidence to convict her.",
+                            kurdishText:
+                                "بەڵگەی پێویست نەبوو بۆ تاوانبارکردنی.",
+                            onPressedBritish: () => speakconvicts2("en-GB"),
+                            onPressedAmerican: () => speakconvicts2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was convicted of the murder of two teenagers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە کوشتنی دوو گەنج تۆمەتبارکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvicts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvicts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was convicted of the murder of two teenagers.",
+                            kurdishText: "بە کوشتنی دوو گەنج تۆمەتبارکرا.",
+                            onPressedBritish: () => speakconvicts3("en-GB"),
+                            onPressedAmerican: () => speakconvicts3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە وەک تۆمەتباری تاوانێک ناسێنراوە و نێردراوە بۆ زیندان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The novel begins with Pip’s meeting with an escaped convict from the prison ship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆمانەکە دەست پێدەکات بە بینینی پیپ لەگەڵ تاوانبارێکی ھەڵھاتوو لە زیندانییە کەشتییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvicts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvicts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The novel begins with Pip’s meeting with an escaped convict from the prison ship.",
+                            kurdishText:
+                                "ڕۆمانەکە دەست پێدەکات بە بینینی پیپ لەگەڵ تاوانبارێکی ھەڵھاتوو لە زیندانییە کەشتییە.",
+                            onPressedBritish: () => speakconvicts4("en-GB"),
+                            onPressedAmerican: () => speakconvicts4("en-US"),
                           ),
                         ],
                       ),

@@ -248,109 +248,34 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ئێستاکانێ، ھەرئێستا، جارێ، نووکە، جارێکانێ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) لە ئێستادا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The hourly charge is currently £35."),
-                    ExampleSentenceKurdish(
-                        text: "کرێی یەک کاتژمێر لە ئێستادا ٣٥ پاوەندە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "currently", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrentlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrentlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The hourly charge is currently £35.",
+            kurdishText:
+                "کرێی یەک کاتژمێر لە ئێستادا ٣٥ پاوەندە.", // currently", please follow LX instructions
+            onPressedBritish: () => speakcurrentlys1("en-GB"),
+            onPressedAmerican: () => speakcurrentlys1("en-US"),
           ),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Currently, over 500 students are enrolled on the course."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ئێستادا، زیاتر لە ٥٠٠ خوێندکار بەژدارن لە کۆرسەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "currently", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrentlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrentlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Currently, over 500 students are enrolled on the course.",
+            kurdishText:
+                "لە ئێستادا، زیاتر لە ٥٠٠ خوێندکار بەژدارن لە کۆرسەکە.", // currently", please follow LX instructions
+            onPressedBritish: () => speakcurrentlys2("en-GB"),
+            onPressedAmerican: () => speakcurrentlys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "All the options are currently available."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو ھەڵبژاردەکان لە ئێستادا بەردەستن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrentlys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrentlys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All the options are currently available.",
+            kurdishText: "ھەموو ھەڵبژاردەکان لە ئێستادا بەردەستن.",
+            onPressedBritish: () => speakcurrentlys3("en-GB"),
+            onPressedAmerican: () => speakcurrentlys3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This matter is currently being discussed."),
-                    ExampleSentenceKurdish(
-                        text: "باسەکە لە ئێستادا تاوتوێ دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrentlys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrentlys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This matter is currently being discussed.",
+            kurdishText: "باسەکە لە ئێستادا تاوتوێ دەکرێت.",
+            onPressedBritish: () => speakcurrentlys3("en-GB"),
+            onPressedAmerican: () => speakcurrentlys3("en-US"),
           ),
         ],
       ),

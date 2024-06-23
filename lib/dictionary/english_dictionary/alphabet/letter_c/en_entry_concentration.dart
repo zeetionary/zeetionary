@@ -120,130 +120,54 @@ class EnglishEntryconcentration extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) توانای پێدانی تەواوی سەرنجت بە یەک شت، بەبێ بیرکردنەوە لە شتی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This book requires a great deal of concentration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم کتێبە پێویستی بە سەرنجی زۆر ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concentration", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcentrations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcentrations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This book requires a great deal of concentration.",
+                            kurdishText:
+                                "ئەم کتێبە پێویستی بە سەرنجی زۆر ھەیە.", // concentration",
+                            onPressedBritish: () =>
+                                speakconcentrations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcentrations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Tiredness affects your powers of concentration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماندوێتی کاریگەری لەسەر توانای سەرنجدانت دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcentrations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcentrations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Tiredness affects your powers of concentration.",
+                            kurdishText:
+                                "ماندوێتی کاریگەری لەسەر توانای سەرنجدانت دەبێت.",
+                            onPressedBritish: () =>
+                                speakconcentrations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcentrations2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پڕۆسەی پێدانی ھەوڵ و سەرنج بە شتێکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He stressed the need for greater concentration on environmental issues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەختیکردەوە لەسەر پێویستی سەرنجی زیاتر بە کێشە ژینگەییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcentrations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcentrations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He stressed the need for greater concentration on environmental issues.",
+                            kurdishText:
+                                "جەختیکردەوە لەسەر پێویستی سەرنجی زیاتر بە کێشە ژینگەییەکان.",
+                            onPressedBritish: () =>
+                                speakconcentrations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcentrations3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ڕێژەیەکی زۆر لە شتێک لە شوێنێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The greatest concentration of traffic is in the city centre."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرترین چڕبوونەوەی ھاتووچۆ لە سەنتەری شارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcentrations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcentrations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The greatest concentration of traffic is in the city centre.",
+                            kurdishText:
+                                "زۆرترین چڕبوونەوەی ھاتووچۆ لە سەنتەری شارە.",
+                            onPressedBritish: () =>
+                                speakconcentrations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcentrations4("en-US"),
                           ),
                         ],
                       ),

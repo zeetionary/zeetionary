@@ -139,182 +139,67 @@ class EnglishEntrychamber extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دیوەخانێک لە بینایەکی گشتی کە بۆ کۆبوونەوەی گشتی بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is due to deliver a speech in the senate chamber."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیار وایە وتارێک لە ئەنجوومەنی پیران پێشکەش بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chamber", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchambers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchambers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is due to deliver a speech in the senate chamber.",
+                            kurdishText:
+                                "بڕیار وایە وتارێک لە ئەنجوومەنی پیران پێشکەش بکات.", // chamber",
+                            onPressedBritish: () => speakchambers1("en-GB"),
+                            onPressedAmerican: () => speakchambers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) یەکێک لە بەشەکانی پەرلەمان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Under Senate rules, the chamber must vote on the bill by this Friday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەپێی یاساکانی ئەنجوومەنی پیران، جڤاتەکە دەبێت دەنگ لەسەر پڕۆژە یاساکە بدات تاوەکو ھەینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchambers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchambers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Under Senate rules, the chamber must vote on the bill by this Friday.",
+                            kurdishText:
+                                "بەپێی یاساکانی ئەنجوومەنی پیران، جڤاتەکە دەبێت دەنگ لەسەر پڕۆژە یاساکە بدات تاوەکو ھەینی.",
+                            onPressedBritish: () => speakchambers2("en-GB"),
+                            onPressedAmerican: () => speakchambers2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ژوورێک کە بۆ مەبەستێکی دیاریکراو بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The burial chamber of the pharaoh was filled with treasures and hieroglyphs depicting scenes from the afterlife."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئارامگای فیرعەونەکە پڕ بوو لە گەنجینە و نووسینی ھیرۆگلیفی کە دیمەنی ژیانی دوایی پیشان دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchambers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchambers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The burial chamber of the pharaoh was filled with treasures and hieroglyphs depicting scenes from the afterlife.",
+                            kurdishText:
+                                "ئارامگای فیرعەونەکە پڕ بوو لە گەنجینە و نووسینی ھیرۆگلیفی کە دیمەنی ژیانی دوایی پیشان دەدا.",
+                            onPressedBritish: () => speakchambers3("en-GB"),
+                            onPressedAmerican: () => speakchambers3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) بۆشایی ناو شتێک، بۆ نموونە ئامێرێک یان ڕووەکێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The human heart has four chambers."),
-                                    ExampleSentenceKurdish(
-                                        text: "دڵی مرۆڤ چوار کەلێنی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchambers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchambers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The human heart has four chambers.",
+                            kurdishText: "دڵی مرۆڤ چوار کەلێنی ھەیە.",
+                            onPressedBritish: () => speakchambers4("en-GB"),
+                            onPressedAmerican: () => speakchambers4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soldier checked the chamber of his rifle to ensure it was loaded."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکە فیشەکخۆری تفەنگەکەی پشکنی بۆ ئەوەی دڵنیابێتەوە کە پڕە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchambers5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchambers5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soldier checked the chamber of his rifle to ensure it was loaded.",
+                            kurdishText:
+                                "سەربازەکە فیشەکخۆری تفەنگەکەی پشکنی بۆ ئەوەی دڵنیابێتەوە کە پڕە.",
+                            onPressedBritish: () => speakchambers5("en-GB"),
+                            onPressedAmerican: () => speakchambers5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) بۆشایی ژێر زەوی کە لە ھەموو لایەکەوە گیردراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They found themselves in a vast underground chamber."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆیان بینییەوە لە چاڵێکی گەورەی ژێرزەمینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchambers6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchambers6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They found themselves in a vast underground chamber.",
+                            kurdishText:
+                                "خۆیان بینییەوە لە چاڵێکی گەورەی ژێرزەمینی.",
+                            onPressedBritish: () => speakchambers6("en-GB"),
+                            onPressedAmerican: () => speakchambers6("en-US"),
                           ),
                         ],
                       ),

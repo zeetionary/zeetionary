@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پەیوەندی نێوان دوو شت کە تێیدا یەکێکیان دەگۆڕێت کە ئەوەی دیکەیان دەگۆڕێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is a direct correlation between exposure to sun and skin cancer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێکبەندی ڕاستەوخۆ ھەیە لەنێوان بەرکەوتن بە خۆر و شێرپەنجەی پێست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "correlation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrelations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrelations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is a direct correlation between exposure to sun and skin cancer.",
+            kurdishText:
+                "پێکبەندی ڕاستەوخۆ ھەیە لەنێوان بەرکەوتن بە خۆر و شێرپەنجەی پێست.", // correlation", please follow LX instructions
+            onPressedBritish: () => speakcorrelations1("en-GB"),
+            onPressedAmerican: () => speakcorrelations1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The study showed a significant correlation between smoking and heart disease."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "توێژینەوەکە کۆپێوەندی زۆری پیشاندا لە نێوان جگەرەکێشان و نەخۆشی دڵ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrelations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrelations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The study showed a significant correlation between smoking and heart disease.",
+            kurdishText:
+                "توێژینەوەکە کۆپێوەندی زۆری پیشاندا لە نێوان جگەرەکێشان و نەخۆشی دڵ.",
+            onPressedBritish: () => speakcorrelations2("en-GB"),
+            onPressedAmerican: () => speakcorrelations2("en-US"),
           ),
         ],
       ),

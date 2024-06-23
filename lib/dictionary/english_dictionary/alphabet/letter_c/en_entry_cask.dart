@@ -191,32 +191,13 @@ class EnglishEntrycask extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەرمیلێکی دارینی کە شلەی تێدا ھەڵدەگیردرێت، بەتایبەتی خواردنەوەی کحولی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The celebration featured a traditional drink served directly from a beautifully decorated cask."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاھەنگگێڕانەکە خواردنەوەیەکی تێدابوو کە ڕاستەوخۆ لە پیپێکی جوان ڕازاندراوەوە تێدەکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cask", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The celebration featured a traditional drink served directly from a beautifully decorated cask.",
+                            kurdishText:
+                                "ئاھەنگگێڕانەکە خواردنەوەیەکی تێدابوو کە ڕاستەوخۆ لە پیپێکی جوان ڕازاندراوەوە تێدەکرا.", // cask",
+                            onPressedBritish: () => speakcasks1("en-GB"),
+                            onPressedAmerican: () => speakcasks1("en-US"),
                           ),
                         ],
                       ),

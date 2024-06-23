@@ -190,32 +190,13 @@ class EnglishEntrycarbuncle extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ھاڵاوسانێکی گەورەی بەئازار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The carbuncle on his neck required medical attention due to its size and discomfort."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دومەڵی سەر ملی پێویستی بە چاودێری تەندرووستی بوو بەھۆی قەبارە و ناڕەحەتییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carbuncle", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarbuncles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarbuncles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The carbuncle on his neck required medical attention due to its size and discomfort.",
+                            kurdishText:
+                                "دومەڵی سەر ملی پێویستی بە چاودێری تەندرووستی بوو بەھۆی قەبارە و ناڕەحەتییەکەی.", // carbuncle",
+                            onPressedBritish: () => speakcarbuncles1("en-GB"),
+                            onPressedAmerican: () => speakcarbuncles1("en-US"),
                           ),
                         ],
                       ),

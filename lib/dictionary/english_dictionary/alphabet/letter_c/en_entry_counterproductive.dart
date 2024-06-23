@@ -243,59 +243,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەبوونی کاریگەرییەک کە پێچەوانەی ئەوەیە کە مەبەست بوو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Increases in taxation would be counterproductive."),
-                    ExampleSentenceKurdish(
-                        text: "زیادکردنی باج دژەبەرھەم‌ھێن دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "counterproductive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterproductives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterproductives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Increases in taxation would be counterproductive.",
+            kurdishText:
+                "زیادکردنی باج دژەبەرھەم‌ھێن دەبێت.", // counterproductive", please follow LX instructions
+            onPressedBritish: () => speakcounterproductives1("en-GB"),
+            onPressedAmerican: () => speakcounterproductives1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Introducing sanctions at this point could be politically counterproductive."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەمارۆدان لەم قۆناغەدا دەکرێت لە ڕووی سیاسییەوە دژەبەرھەمھێن بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterproductives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterproductives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Introducing sanctions at this point could be politically counterproductive.",
+            kurdishText:
+                "گەمارۆدان لەم قۆناغەدا دەکرێت لە ڕووی سیاسییەوە دژەبەرھەمھێن بێت.",
+            onPressedBritish: () => speakcounterproductives2("en-GB"),
+            onPressedAmerican: () => speakcounterproductives2("en-US"),
           ),
         ],
       ),

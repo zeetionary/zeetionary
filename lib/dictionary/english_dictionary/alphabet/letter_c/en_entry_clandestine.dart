@@ -106,64 +106,24 @@ class EnglishEntryclandestine extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کردن بە نھێنی یان بە نھێنی ھێشتنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She could see no future in her clandestine relationship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ داھاتوویەکی نەدەبینی لە پەیوەندییە نھێنییەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clandestine", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclandestines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclandestines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She could see no future in her clandestine relationship.",
+                            kurdishText:
+                                "ھیچ داھاتوویەکی نەدەبینی لە پەیوەندییە نھێنییەکەیدا.", // clandestine",
+                            onPressedBritish: () => speakclandestines1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclandestines1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A clandestine meeting was held between leaders of the two parties."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆبوونوەیەکی نھێنی لە نێوان سەرکردەی ھەردوو پارتەکەدا سازکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclandestines2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclandestines2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A clandestine meeting was held between leaders of the two parties.",
+                            kurdishText:
+                                "کۆبوونوەیەکی نھێنی لە نێوان سەرکردەی ھەردوو پارتەکەدا سازکرا.",
+                            onPressedBritish: () => speakclandestines2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclandestines2("en-US"),
                           ),
                         ],
                       ),

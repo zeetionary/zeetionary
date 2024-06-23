@@ -250,90 +250,34 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) یەکەیەکی گەورەی سوپا کە لە دوو کەرت یان زیاتر پێکھاتووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The commander of the third army corps was killed yesterday."),
-                    ExampleSentenceKurdish(
-                        text: "فەرماندەی یەکەی سێیەمی سوپا دوێنێ کوژرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corps", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorpss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorpss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The commander of the third army corps was killed yesterday.",
+            kurdishText:
+                "فەرماندەی یەکەی سێیەمی سوپا دوێنێ کوژرا.", // corps", please follow LX instructions
+            onPressedBritish: () => speakcorpss1("en-GB"),
+            onPressedAmerican: () => speakcorpss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) یەکێک لە گرووپەکانی سوپا کە ئەرکێکی دیاریکراوی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He's a member of the US marine corps."),
-                    ExampleSentenceKurdish(
-                        text: "ئەندامی ھێزەکانی مارێنزی ئەمریکایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorpss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorpss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's a member of the US marine corps.",
+            kurdishText: "ئەندامی ھێزەکانی مارێنزی ئەمریکایە.",
+            onPressedBritish: () => speakcorpss2("en-GB"),
+            onPressedAmerican: () => speakcorpss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) کۆمەڵە کەسێک کە بەژداری کارێک یان چالاکییەکن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Local people worked alongside an international corps of volunteers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەڵکە خۆجێییەکە ھاوشان لەگەڵ دەستە خۆبەخشە نێودەوڵەتییەکە کاریان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorpss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorpss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Local people worked alongside an international corps of volunteers.",
+            kurdishText:
+                "خەڵکە خۆجێییەکە ھاوشان لەگەڵ دەستە خۆبەخشە نێودەوڵەتییەکە کاریان کرد.",
+            onPressedBritish: () => speakcorpss3("en-GB"),
+            onPressedAmerican: () => speakcorpss3("en-US"),
           ),
         ],
       ),

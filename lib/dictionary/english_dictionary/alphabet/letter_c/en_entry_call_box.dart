@@ -194,32 +194,13 @@ class EnglishEntrycallbox extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شوێنێکی بچووک کە تەلەفۆنێکی گشتی تێدایە لە شەقامەکاندا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The campus has strategically placed call boxes for quick response to safety concerns."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمپەکە بەشێوەیەکی ستراتیژی کیوسکی تەلەفۆنی داناوە بۆ وەڵامدانەوەی خێرا لە کاتی ھەبوونی مەترسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "call box", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcallboxs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcallboxs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The campus has strategically placed call boxes for quick response to safety concerns.",
+                            kurdishText:
+                                "کەمپەکە بەشێوەیەکی ستراتیژی کیوسکی تەلەفۆنی داناوە بۆ وەڵامدانەوەی خێرا لە کاتی ھەبوونی مەترسی.", // call box
+                            onPressedBritish: () => speakcallboxs1("en-GB"),
+                            onPressedAmerican: () => speakcallboxs1("en-US"),
                           ),
                         ],
                       ),

@@ -112,94 +112,37 @@ class EnglishEntryclown extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گاڵتەجاڕێک کە جلی کۆمیدی لەبەردەکات لەگەڵ لوتێکی گەورەی سوور و شتی گاڵتەجاڕانە دەکات بۆ دڵخۆشکردنی خەڵکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Robert was always the class clown (= he did silly things to make the other students laugh)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراوی) ڕۆبێرت ھەمیشە گاڵتەجاڕی پۆلەکە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clown", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclowns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclowns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Robert was always the class clown (= he did silly things to make the other students laugh).",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی) ڕۆبێرت ھەمیشە گاڵتەجاڕی پۆلەکە بوو.", // clown",
+                            onPressedBritish: () => speakclowns1("en-GB"),
+                            onPressedAmerican: () => speakclowns1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە پێتوایە خراپە بەھۆی ئەوەی گەمژانە ڕەفتار دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What do those clowns in the government think they are doing?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو گەمژانەی حکومەت وابیردەکەنەوە چی دەکەن؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclowns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclowns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What do those clowns in the government think they are doing?",
+                            kurdishText:
+                                "ئەو گەمژانەی حکومەت وابیردەکەنەوە چی دەکەن؟",
+                            onPressedBritish: () => speakclowns2("en-GB"),
+                            onPressedAmerican: () => speakclowns2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) ڕەفتارکردنی گەمژانە بۆ ئەوەی کەسانی دیکە بخەیتە پێکەنین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Left alone, the class threw books, pulled faces, and generally clowned around."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر بە تەنھا بن، پۆلەکە کتێب دەھاوێژن، گاڵتە دەکەن، بەشێوەیەکی گشتی دەبن بە گاڵتەجاڕ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclowns3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclowns3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Left alone, the class threw books, pulled faces, and generally clowned around.",
+                            kurdishText:
+                                "ئەگەر بە تەنھا بن، پۆلەکە کتێب دەھاوێژن، گاڵتە دەکەن، بەشێوەیەکی گشتی دەبن بە گاڵتەجاڕ.",
+                            onPressedBritish: () => speakclowns3("en-GB"),
+                            onPressedAmerican: () => speakclowns3("en-US"),
                           ),
                         ],
                       ),

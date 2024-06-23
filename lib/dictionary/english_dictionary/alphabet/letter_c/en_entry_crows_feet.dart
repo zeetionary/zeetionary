@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) چرچ‌ولۆچی بەشی لایەکانی دەرەوەی چاو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Using sunscreen can help prevent crow's feet from forming."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەکارھێنانی دژەخۆر دەکرێت یارمەتیدەر بێت دژ بە درووستبوونی لۆچی چاو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crow's feet", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowsfeets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowsfeets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Using sunscreen can help prevent crow's feet from forming.",
+            kurdishText:
+                "بەکارھێنانی دژەخۆر دەکرێت یارمەتیدەر بێت دژ بە درووستبوونی لۆچی چاو.", // crow's feet", please follow LX instructions
+            onPressedBritish: () => speakcrowsfeets1("en-GB"),
+            onPressedAmerican: () => speakcrowsfeets1("en-US"),
           ),
         ],
       ),

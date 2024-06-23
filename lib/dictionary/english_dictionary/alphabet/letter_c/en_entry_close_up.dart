@@ -104,60 +104,22 @@ class EnglishEntrycloseup extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) وێنەیەک کە لە نزیکەوە گیراوە و وردەکاری زۆر پیشان دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was strange to see her own face in close-up on the screen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامۆ بوو کە ڕووخساری خۆی لە وێنەی نزیکدا لەسەر شاشەیەک ببینێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "close-up", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloseups1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloseups1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was strange to see her own face in close-up on the screen.",
+                            kurdishText:
+                                "نامۆ بوو کە ڕووخساری خۆی لە وێنەی نزیکدا لەسەر شاشەیەک ببینێت.", // close-up",
+                            onPressedBritish: () => speakcloseups1("en-GB"),
+                            onPressedAmerican: () => speakcloseups1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The slide gave close-up detail of petal formation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سڵایدەکە وردەکاری ڕوونی درووستبوونی پەڕەی گوڵی پیشاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloseups2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloseups2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The slide gave close-up detail of petal formation.",
+                            kurdishText:
+                                "سڵایدەکە وردەکاری ڕوونی درووستبوونی پەڕەی گوڵی پیشاندا.",
+                            onPressedBritish: () => speakcloseups2("en-GB"),
+                            onPressedAmerican: () => speakcloseups2("en-US"),
                           ),
                         ],
                       ),

@@ -121,115 +121,37 @@ class EnglishEntrycheese extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پەنیر؛ جۆرە خۆراکێکە کە لە شیر دروست دەکرێت و دەکرێت نەرم یان ڕەق بێت، و بەزۆری ڕەنگی سپی یان زەرد بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Would you like a slice/piece of cheese with your bread?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزت بە پارچەیەک پەنیرە لەسەر نانەکەت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheese", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheeses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheeses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Would you like a slice/piece of cheese with your bread?",
+                            kurdishText:
+                                "حەزت بە پارچەیەک پەنیرە لەسەر نانەکەت؟", // cheese",
+                            onPressedBritish: () => speakcheeses1("en-GB"),
+                            onPressedAmerican: () => speakcheeses1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some people dislike goat's cheese because they think it tastes too strong."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کەس حەزیان بە پەنیری بزن نییە چونکە پێێان وایە تامی بەھێزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheeses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheeses2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some people dislike goat's cheese because they think it tastes too strong.",
+                            kurdishText:
+                                "ھەندێک کەس حەزیان بە پەنیری بزن نییە چونکە پێێان وایە تامی بەھێزە.",
+                            onPressedBritish: () => speakcheeses2("en-GB"),
+                            onPressedAmerican: () => speakcheeses2("en-US"),
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You need 250 grams of grated cheese for this recipe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستت بە ٢٥٠ گرام لە پەنیری ڕەندکراو ھەیە بۆ ئەم ڕەچەتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheeses3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheeses3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You need 250 grams of grated cheese for this recipe.",
+                            kurdishText:
+                                "پێویستت بە ٢٥٠ گرام لە پەنیری ڕەندکراو ھەیە بۆ ئەم ڕەچەتە.",
+                            onPressedBritish: () => speakcheeses3("en-GB"),
+                            onPressedAmerican: () => speakcheeses3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I prefer hard cheeses, like cheddar."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزم بە پەنیری ڕەقە، وەک چێدار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheeses4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheeses4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I prefer hard cheeses, like cheddar.",
+                            kurdishText: "حەزم بە پەنیری ڕەقە، وەک چێدار.",
+                            onPressedBritish: () => speakcheeses4("en-GB"),
+                            onPressedAmerican: () => speakcheeses4("en-US"),
                           ),
                         ],
                       ),

@@ -271,157 +271,52 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خوێن‌شیرین، ژیکەڵە، ڕەزاسووک، لەدڵەوەنزیک، جوان، ڕند، چەلەنگ، سەرنج‌ڕاکێش، لەبار، دڵڕفێن،	مدریک، زیرەک، زرنگ، وریا
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) جوان و سەرنجڕاکێش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She's so cute!"),
-                    ExampleSentenceKurdish(text: "زۆر دڵڕفێنەرە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cute", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's so cute!",
+            kurdishText:
+                "زۆر دڵڕفێنەرە!", // cute", please follow LX instructions
+            onPressedBritish: () => speakcutes1("en-GB"),
+            onPressedAmerican: () => speakcutes1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She had a cute little nose."),
-                    ExampleSentenceKurdish(text: "لووتێکی جوانت ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had a cute little nose.",
+            kurdishText: "لووتێکی جوانت ھەیە.",
+            onPressedBritish: () => speakcutes2("en-GB"),
+            onPressedAmerican: () => speakcutes2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "You were such a cute baby."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵێکی زۆر ڕەزاسووک بوویت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You were such a cute baby.",
+            kurdishText: "منداڵێکی زۆر ڕەزاسووک بوویت.",
+            onPressedBritish: () => speakcutes3("en-GB"),
+            onPressedAmerican: () => speakcutes3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) سەرنجڕاکێش لە ڕووی جەستەییەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Check out those cute guys over there!"),
-                    ExampleSentenceKurdish(
-                        text: "سەیری ئەو پیاوە سەرنجڕاکێشانە بکە لەوبەرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Check out those cute guys over there!",
+            kurdishText: "سەیری ئەو پیاوە سەرنجڕاکێشانە بکە لەوبەرەوە.",
+            onPressedBritish: () => speakcutes4("en-GB"),
+            onPressedAmerican: () => speakcutes4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) زیرەک، ھەندێکجار بەشێوەیەکی بێزارکەر چونکە کەسێک دەیەوێت سوود بە خۆی بگەیەنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She had a really cute idea."),
-                    ExampleSentenceKurdish(
-                        text: "بیرۆکەیەکی سەرنجڕاکێشی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutes5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutes5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had a really cute idea.",
+            kurdishText: "بیرۆکەیەکی سەرنجڕاکێشی ھەبوو.",
+            onPressedBritish: () => speakcutes5("en-GB"),
+            onPressedAmerican: () => speakcutes5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Don't get cute with me!"),
-                    ExampleSentenceKurdish(text: "زرنگ مەبە لەگەڵ مندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutes6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutes6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't get cute with me!",
+            kurdishText: "زرنگ مەبە لەگەڵ مندا.",
+            onPressedBritish: () => speakcutes6("en-GB"),
+            onPressedAmerican: () => speakcutes6("en-US"),
           ),
         ],
       ),

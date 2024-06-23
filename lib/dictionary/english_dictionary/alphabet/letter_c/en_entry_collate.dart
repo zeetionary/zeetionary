@@ -103,63 +103,25 @@ class EnglishEntrycollate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) کۆکردنەوەی زانیاری لە سەرچاوەی جیاوازەوە بۆ لێکۆڵینەوە و بەراوردکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spent hours collating the data for the report."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەندین کاتژمێری بەسەربرد بە کۆکردنەوەی داتا بۆ ڕاپۆرتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He spent hours collating the data for the report.",
+                            kurdishText:
+                                "چەندین کاتژمێری بەسەربرد بە کۆکردنەوەی داتا بۆ ڕاپۆرتەکە.", // collate",
+                            onPressedBritish: () => speakcollates1("en-GB"),
+                            onPressedAmerican: () => speakcollates1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) کۆکردنەوە و ڕێکخستنی پەڕەی ڕاپۆرتێک، کتێبێک، ھتد بە ڕیزبەندی درووست"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The photocopier will collate the documents for you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەزگای فۆتۆکۆپییەکە بەڵگەنامەکانت بۆ ڕیزبەندی دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The photocopier will collate the documents for you.",
+                            kurdishText:
+                                "دەزگای فۆتۆکۆپییەکە بەڵگەنامەکانت بۆ ڕیزبەندی دەکات.",
+                            onPressedBritish: () => speakcollates2("en-GB"),
+                            onPressedAmerican: () => speakcollates2("en-US"),
                           ),
                         ],
                       ),

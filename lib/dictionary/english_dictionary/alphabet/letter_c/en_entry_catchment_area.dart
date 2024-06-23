@@ -196,97 +196,40 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوچەیەک کە خوێندنگە بەرپرسە لە وەرگرتنی خوێندکار لێوەی، یان نەخۆشخانە دەبێت نەخۆشی لێوە وەربگرێت "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They want their son to go to St Mary's, but they're not in the catchment area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیانەوێت کوڕەکەیان بچێتە قوتابخانەی سەینت ماری، بەڵام لەو مەڵبەندە نین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catchment area", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatchmentareas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatchmentareas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They want their son to go to St Mary's, but they're not in the catchment area.",
+                            kurdishText:
+                                "دەیانەوێت کوڕەکەیان بچێتە قوتابخانەی سەینت ماری، بەڵام لەو مەڵبەندە نین.", // catchment area",
+                            onPressedBritish: () =>
+                                speakcatchmentareas1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcatchmentareas1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If there's a treatment centre you'd rather go to, don't be put off if you're told you're not in the catchment area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر سەنتەرێکی چارەسەر ھەیە کە دەتەوێت بۆی بچیت، سارد مەبەوە ئەگەر پێت بڵێن سەر بەو مەڵبەندی خزمەتگوزارییە نیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatchmentareas2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatchmentareas2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If there's a treatment centre you'd rather go to, don't be put off if you're told you're not in the catchment area.",
+                            kurdishText:
+                                "ئەگەر سەنتەرێکی چارەسەر ھەیە کە دەتەوێت بۆی بچیت، سارد مەبەوە ئەگەر پێت بڵێن سەر بەو مەڵبەندی خزمەتگوزارییە نیت.",
+                            onPressedBritish: () =>
+                                speakcatchmentareas2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcatchmentareas2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ناوچەیەک کە لێیەوە ئاو تێکەڵ دەبێت بە ڕووبارێک، دەریاچەیەک، زۆنگاوێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There has been a lot of recent rainfall in the catchment area of the river."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تازەگی بارانێکی زۆر ھەبووە لە ڕێژگەی ڕووبارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatchmentareas3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatchmentareas3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There has been a lot of recent rainfall in the catchment area of the river.",
+                            kurdishText:
+                                "تازەگی بارانێکی زۆر ھەبووە لە ڕێژگەی ڕووبارەکە.",
+                            onPressedBritish: () =>
+                                speakcatchmentareas3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcatchmentareas3("en-US"),
                           ),
                         ],
                       ),

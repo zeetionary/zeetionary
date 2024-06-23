@@ -118,117 +118,40 @@ class EnglishEntryclench extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (کردار) توندکردنی دەست، ددان، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He clenched his fists in anger."),
-                                    ExampleSentenceKurdish(
-                                        text: "مستی لە تووڕەییدا توندکردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clench", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclenchs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclenchs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He clenched his fists in anger.",
+                            kurdishText:
+                                "مستی لە تووڕەییدا توندکردبوو.", // clench",
+                            onPressedBritish: () => speakclenchs1("en-GB"),
+                            onPressedAmerican: () => speakclenchs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Through clenched teeth she told him to leave."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە جیڕکردنەوەی ددانییەوە پێی گوت بچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclenchs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclenchs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Through clenched teeth she told him to leave.",
+                            kurdishText:
+                                "بە جیڕکردنەوەی ددانییەوە پێی گوت بچێت.",
+                            onPressedBritish: () => speakclenchs3("en-GB"),
+                            onPressedAmerican: () => speakclenchs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) گرتنی شتێک بە توندی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had a gun clenched tightly in her hand."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەکێکی بە توندی لەدەستی گرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclenchs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclenchs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had a gun clenched tightly in her hand.",
+                            kurdishText: "چەکێکی بە توندی لەدەستی گرتبوو.",
+                            onPressedBritish: () => speakclenchs4("en-GB"),
+                            onPressedAmerican: () => speakclenchs4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "With a knife clenched in his teeth, he climbed up the tree to cut some coconuts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە چەقۆیەکەوە گیربوو لە ددانی، بەسەر دارەکەدا سەرکەوت بۆ بڕینی ھەندێک گوێزھیندی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclenchs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclenchs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "With a knife clenched in his teeth, he climbed up the tree to cut some coconuts.",
+                            kurdishText:
+                                "بە چەقۆیەکەوە گیربوو لە ددانی، بەسەر دارەکەدا سەرکەوت بۆ بڕینی ھەندێک گوێزھیندی.",
+                            onPressedBritish: () => speakclenchs2("en-GB"),
+                            onPressedAmerican: () => speakclenchs2("en-US"),
                           ),
                         ],
                       ),

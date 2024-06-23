@@ -106,67 +106,29 @@ class EnglishEntryconstitutionally extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە دەستووری وڵاتێک یان دامەزراوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Freedom of speech is one of the constitutionally guaranteed rights in many countries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئازادیی ڕادەربڕین یەکێکە لە مافە دەستوورییە دەستەبەرکراوەکان لە زۆر وڵاتدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constitutionally", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstitutionallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstitutionallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Freedom of speech is one of the constitutionally guaranteed rights in many countries.",
+                            kurdishText:
+                                "ئازادیی ڕادەربڕین یەکێکە لە مافە دەستوورییە دەستەبەرکراوەکان لە زۆر وڵاتدا.", // constitutionally",
+                            onPressedBritish: () =>
+                                speakconstitutionallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstitutionallys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە ڕێگەپێدراوە بەپێی دەستووری وڵاتێک یان دامەزراوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police have an obligation to act constitutionally."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس ئەرکیەتی بەپێی دەستوور مامەڵە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstitutionallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstitutionallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police have an obligation to act constitutionally.",
+                            kurdishText:
+                                "پۆلیس ئەرکیەتی بەپێی دەستوور مامەڵە بکات.",
+                            onPressedBritish: () =>
+                                speakconstitutionallys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstitutionallys2("en-US"),
                           ),
                         ],
                       ),

@@ -242,60 +242,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) شتێک کە زۆر بەکارھاتووە سەرنجڕاکێش یان پێکەنیناوی نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I couldn't watch the whole movie - it was just too corny."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەمتوانی سەیری تەواوی فیلمەکە بکەم، زۆر ھەزاربارە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corny", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcornys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcornys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I couldn't watch the whole movie - it was just too corny.",
+            kurdishText:
+                "نەمتوانی سەیری تەواوی فیلمەکە بکەم، زۆر ھەزاربارە بوو.", // corny", please follow LX instructions
+            onPressedBritish: () => speakcornys1("en-GB"),
+            onPressedAmerican: () => speakcornys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I know it sounds corny, but it really was love at first sight!"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەزانم ھەزاربارە دیارە بەڵام ھەر لە یەکەم نیگاوە خۆشەویستی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcornys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcornys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I know it sounds corny, but it really was love at first sight!",
+            kurdishText:
+                "ئەزانم ھەزاربارە دیارە بەڵام ھەر لە یەکەم نیگاوە خۆشەویستی بوو.",
+            onPressedBritish: () => speakcornys2("en-GB"),
+            onPressedAmerican: () => speakcornys2("en-US"),
           ),
         ],
       ),

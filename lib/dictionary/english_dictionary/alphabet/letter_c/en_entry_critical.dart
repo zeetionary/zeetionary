@@ -336,368 +336,116 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ڕەخنەگرانە؛ گوتنی شتی خراپی کەسێک یان شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You should just ignore any critical comments."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت ھەموو لێدوانێکی ڕەخنەگرانە پشتگوێ بخەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "critical", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You should just ignore any critical comments.",
+            kurdishText:
+                "دەبێت ھەموو لێدوانێکی ڕەخنەگرانە پشتگوێ بخەیت.", // critical", please follow LX instructions
+            onPressedBritish: () => speakcriticals1("en-GB"),
+            onPressedAmerican: () => speakcriticals1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The supervisor is always very critical."),
-                    ExampleSentenceKurdish(
-                        text: "سەرپەرشتیارەکە ھەمیشە ڕەخنەگرانەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The supervisor is always very critical.",
+            kurdishText: "سەرپەرشتیارەکە ھەمیشە ڕەخنەگرانەیە.",
+            onPressedBritish: () => speakcriticals2("en-GB"),
+            onPressedAmerican: () => speakcriticals2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Some parents are highly critical of the school."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک دایباب زۆر دژبەری قوتابخانەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Some parents are highly critical of the school.",
+            kurdishText: "ھەندێک دایباب زۆر دژبەری قوتابخانەکەن.",
+            onPressedBritish: () => speakcriticals3("en-GB"),
+            onPressedAmerican: () => speakcriticals3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) زۆر گرنگ چونکە شتێک لە داھاتوودا کاریگەر دەبێت پێی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Industry leaders are working together to address this critical issue."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستڕۆشتووانی پیشەسازی پێکەوە کاردەکەن بۆ مامەڵە لەگەڵ ئەم کێشە گرنگە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticals4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticals4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Industry leaders are working together to address this critical issue.",
+            kurdishText:
+                "دەستڕۆشتووانی پیشەسازی پێکەوە کاردەکەن بۆ مامەڵە لەگەڵ ئەم کێشە گرنگە.",
+            onPressedBritish: () => speakcriticals4("en-GB"),
+            onPressedAmerican: () => speakcriticals4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The kidneys play a critical role in overall health."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گورچیلەکان ڕۆڵێکی گرنگ دەبینن لە تەندرووستی گشتیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticals5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticals5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The kidneys play a critical role in overall health.",
+            kurdishText: "گورچیلەکان ڕۆڵێکی گرنگ دەبینن لە تەندرووستی گشتیدا.",
+            onPressedBritish: () => speakcriticals5("en-GB"),
+            onPressedAmerican: () => speakcriticals5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Reducing levels of carbon dioxide in the atmosphere is of critical importance."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمکردنەوەی ئاستی دووەم ئۆکسیدی کاربۆن لە بەرگەھەوا بایەخی گرنگی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticals6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticals6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Reducing levels of carbon dioxide in the atmosphere is of critical importance.",
+            kurdishText:
+                "کەمکردنەوەی ئاستی دووەم ئۆکسیدی کاربۆن لە بەرگەھەوا بایەخی گرنگی ھەیە.",
+            onPressedBritish: () => speakcriticals6("en-GB"),
+            onPressedAmerican: () => speakcriticals6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Your decision is critical to our future."),
-                    ExampleSentenceKurdish(
-                        text: "بڕیارەکەت بۆ داھاتوومان گرنگە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticals7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticals7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Your decision is critical to our future.",
+            kurdishText: "بڕیارەکەت بۆ داھاتوومان گرنگە.",
+            onPressedBritish: () => speakcriticals7("en-GB"),
+            onPressedAmerican: () => speakcriticals7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) گرنگ و نادیار، و بەئەگەرەوە ترسناک بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "One of the victims of the fire remains in a critical condition."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکێک لە قوربانیانی ئاگرەکە لە دۆخێکی ناجێگیردا ماوەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticals8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticals8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "One of the victims of the fire remains in a critical condition.",
+            kurdishText:
+                "یەکێک لە قوربانیانی ئاگرەکە لە دۆخێکی ناجێگیردا ماوەتەوە.",
+            onPressedBritish: () => speakcriticals8("en-GB"),
+            onPressedAmerican: () => speakcriticals8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The first 24 hours after the operation are the most critical."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکەم ٢٤ کاتژمێری دوای نەشتەرگەرییەکە گرنگترینە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticals9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticals9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The first 24 hours after the operation are the most critical.",
+            kurdishText: "یەکەم ٢٤ کاتژمێری دوای نەشتەرگەرییەکە گرنگترینە.",
+            onPressedBritish: () => speakcriticals9("en-GB"),
+            onPressedAmerican: () => speakcriticals9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This is a critical moment in our country's history."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمە ساتەوەختێکی بایەخدارە لە مێژووی وڵاتەکەماندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticals10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticals10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is a critical moment in our country's history.",
+            kurdishText: "ئەمە ساتەوەختێکی بایەخدارە لە مێژووی وڵاتەکەماندا.",
+            onPressedBritish: () => speakcriticals10("en-GB"),
+            onPressedAmerican: () => speakcriticals10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) لەخۆگرتنی بڕیاردان سەبارەت بە لایەنە باش و خراپەکانی کەسێک یان شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His latest film attracted enthusiastic critical comment from cinema-goers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تازەترین فیلمی لێدوانی بەجۆشی ڕەخنەگرانەی لە بینەرانی سینەماوە بە دوای خۆیدا ھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticals11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticals11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His latest film attracted enthusiastic critical comment from cinema-goers.",
+            kurdishText:
+                "تازەترین فیلمی لێدوانی بەجۆشی ڕەخنەگرانەی لە بینەرانی سینەماوە بە دوای خۆیدا ھێنا.",
+            onPressedBritish: () => speakcriticals11("en-GB"),
+            onPressedAmerican: () => speakcriticals11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Critical response to the play was mixed."),
-                    ExampleSentenceKurdish(
-                        text: "وەڵامی ڕەخنەگرانە بۆ شانۆکە تێکەڵ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticals12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticals12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Critical response to the play was mixed.",
+            kurdishText: "وەڵامی ڕەخنەگرانە بۆ شانۆکە تێکەڵ بوو.",
+            onPressedBritish: () => speakcriticals12("en-GB"),
+            onPressedAmerican: () => speakcriticals12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ھاوەڵناو) بەپێی بڕیاری ڕەخنەگران"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In her day she never received the critical acclaim (= praise from the critics) she deserved."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە کاتی خۆیدا ھەرگیز ستایشی ڕەخنەگرانی وەرنەگرت کە شایەنی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticals13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticals13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In her day she never received the critical acclaim (= praise from the critics) she deserved.",
+            kurdishText:
+                "لە کاتی خۆیدا ھەرگیز ستایشی ڕەخنەگرانی وەرنەگرت کە شایەنی بوو.",
+            onPressedBritish: () => speakcriticals13("en-GB"),
+            onPressedAmerican: () => speakcriticals13("en-US"),
           ),
         ],
       ),

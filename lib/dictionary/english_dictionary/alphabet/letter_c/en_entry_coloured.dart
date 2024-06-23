@@ -110,87 +110,29 @@ class EnglishEntrycoloured extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی ڕەنگێکی دیاریکراو، یان ڕەنگی جیاواز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He uses ink and coloured pencils in his drawings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەرەکەب و پێنووسی ڕەنگاوڕەنگ بەکاردێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coloured", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoloureds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoloureds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He uses ink and coloured pencils in his drawings.",
+                            kurdishText:
+                                "مەرەکەب و پێنووسی ڕەنگاوڕەنگ بەکاردێنێت.", // coloured",
+                            onPressedBritish: () => speakcoloureds1("en-GB"),
+                            onPressedAmerican: () => speakcoloureds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The street was ablaze with coloured lights."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەقامەکە ڕۆشن بوو بە لایتی ڕەنگاوڕەنگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoloureds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoloureds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The street was ablaze with coloured lights.",
+                            kurdishText:
+                                "شەقامەکە ڕۆشن بوو بە لایتی ڕەنگاوڕەنگ.",
+                            onPressedBritish: () => speakcoloureds2("en-GB"),
+                            onPressedAmerican: () => speakcoloureds2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was wearing a red-coloured suit."),
-                                    ExampleSentenceKurdish(
-                                        text: "جلێکی ڕەنگ سووری لەبەربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoloureds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoloureds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was wearing a red-coloured suit.",
+                            kurdishText: "جلێکی ڕەنگ سووری لەبەربوو.",
+                            onPressedBritish: () => speakcoloureds3("en-GB"),
+                            onPressedAmerican: () => speakcoloureds3("en-US"),
                           ),
                         ],
                       ),

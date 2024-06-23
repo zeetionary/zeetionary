@@ -121,120 +121,44 @@ class EnglishEntryclinical extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە کاری تەندرووستی، یان پشکنین و چارەسەری نەخۆشان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is no clinical reason for his symptoms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ ھۆکارێکی تەندرووستی نییە بۆ نیشانەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clinical", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinicals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinicals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is no clinical reason for his symptoms.",
+                            kurdishText:
+                                "ھیچ ھۆکارێکی تەندرووستی نییە بۆ نیشانەکانی.", // clinical",
+                            onPressedBritish: () => speakclinicals1("en-GB"),
+                            onPressedAmerican: () => speakclinicals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is not clear what clinical use the new test would have."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاشکرا نییە تاقیکردنەوەکە چی سوودێکی تەندرووستی دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinicals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinicals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is not clear what clinical use the new test would have.",
+                            kurdishText:
+                                "ئاشکرا نییە تاقیکردنەوەکە چی سوودێکی تەندرووستی دەبێت.",
+                            onPressedBritish: () => speakclinicals2("en-GB"),
+                            onPressedAmerican: () => speakclinicals2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) بەبێ ھەست و ھاوسۆزی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How can you be so cold and clinical about your son’s accident?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن دەتوانیت ھێندە خەمسارد و بێ‌ھەست بیت بەرامبەر ڕووداوی کوڕەکەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinicals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinicals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How can you be so cold and clinical about your son’s accident?",
+                            kurdishText:
+                                "چۆن دەتوانیت ھێندە خەمسارد و بێ‌ھەست بیت بەرامبەر ڕووداوی کوڕەکەت.",
+                            onPressedBritish: () => speakclinicals3("en-GB"),
+                            onPressedAmerican: () => speakclinicals3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) زۆر سادە و بێ ڕازانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everything in the nursery was white and clinical and there were no pictures on the walls."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو شتێک لە دایەنگەکە سپی و سادە بوو ھیچ وێنەیەک لەسەر دیوارەکە نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinicals4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinicals4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Everything in the nursery was white and clinical and there were no pictures on the walls.",
+                            kurdishText:
+                                "ھەموو شتێک لە دایەنگەکە سپی و سادە بوو ھیچ وێنەیەک لەسەر دیوارەکە نەبوو.",
+                            onPressedBritish: () => speakclinicals4("en-GB"),
+                            onPressedAmerican: () => speakclinicals4("en-US"),
                           ),
                         ],
                       ),

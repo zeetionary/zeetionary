@@ -103,64 +103,26 @@ class EnglishEntryconfiscation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بە فەرمی دەستبەسەرداگرتنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If found guilty of this crime they face heavy fines, confiscation of goods and even imprisonment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک وەک تاوانکار ئەم تاوانە بناسرێن ڕووبەڕووی بژێرەی توند، دەستبەسەرداگرتنی کەلوپەل و تەنانەت زیندانیش دەبنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confiscation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfiscations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfiscations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If found guilty of this crime they face heavy fines, confiscation of goods and even imprisonment.",
+                            kurdishText:
+                                "وەک وەک تاوانکار ئەم تاوانە بناسرێن ڕووبەڕووی بژێرەی توند، دەستبەسەرداگرتنی کەلوپەل و تەنانەت زیندانیش دەبنەوە.", // confiscation",
+                            onPressedBritish: () =>
+                                speakconfiscations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfiscations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Penalties range from 3 months to 5 years in prison and the confiscation of property."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سزا لە نێوان ٣ مانگ بۆ ٥ ساڵ دەبێت لەگەڵ دەستبەسەرداگرتنی زەوی‌وزار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfiscations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfiscations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Penalties range from 3 months to 5 years in prison and the confiscation of property.",
+                            kurdishText:
+                                "سزا لە نێوان ٣ مانگ بۆ ٥ ساڵ دەبێت لەگەڵ دەستبەسەرداگرتنی زەوی‌وزار.",
+                            onPressedBritish: () =>
+                                speakconfiscations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfiscations2("en-US"),
                           ),
                         ],
                       ),

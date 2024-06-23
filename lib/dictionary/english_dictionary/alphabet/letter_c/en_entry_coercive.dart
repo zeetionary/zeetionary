@@ -94,32 +94,13 @@ class EnglishEntrycoercive extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بەکارھێنانی فشار و ھەڕەشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The president relied on the coercive powers of the military."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک پشتی بە دەسەڵاتی سەپێنەری سوپا دەبەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coercive", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoercives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoercives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The president relied on the coercive powers of the military.",
+                            kurdishText:
+                                "سەرۆک پشتی بە دەسەڵاتی سەپێنەری سوپا دەبەست.", // coercive",
+                            onPressedBritish: () => speakcoercives1("en-GB"),
+                            onPressedAmerican: () => speakcoercives1("en-US"),
                           ),
                         ],
                       ),

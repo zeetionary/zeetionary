@@ -244,59 +244,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) درووستکراو لە کریستاڵ یان پەیوەندیدار پێوەی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Granite is a common example of a crystalline rock."),
-                    ExampleSentenceKurdish(
-                        text: "گرانیت نموونەیەکی باوی بەرزی کریستاڵییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crystalline", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrystallines1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrystallines1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Granite is a common example of a crystalline rock.",
+            kurdishText:
+                "گرانیت نموونەیەکی باوی بەرزی کریستاڵییە.", // crystalline", please follow LX instructions
+            onPressedBritish: () => speakcrystallines1("en-GB"),
+            onPressedAmerican: () => speakcrystallines1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) زۆر ڕوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her singing voice has a pure, crystalline quality."),
-                    ExampleSentenceKurdish(
-                        text: "دەنگی دەنگبێژیی کوالێتییەکی ڕەوان و پاکی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrystallines2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrystallines2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her singing voice has a pure, crystalline quality.",
+            kurdishText: "دەنگی دەنگبێژیی کوالێتییەکی ڕەوان و پاکی ھەیە.",
+            onPressedBritish: () => speakcrystallines2("en-GB"),
+            onPressedAmerican: () => speakcrystallines2("en-US"),
           ),
         ],
       ),

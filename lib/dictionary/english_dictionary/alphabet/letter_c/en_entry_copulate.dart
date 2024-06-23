@@ -102,60 +102,22 @@ class EnglishEntrycopulate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ئەنجامدانی سێکس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Birds copulate during mating season to fertilize eggs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باڵندەکان لە دەمی وەرزی جووتبووندا جووت دەبن بۆ پیتاندنی ھێلکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "copulate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopulates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopulates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Birds copulate during mating season to fertilize eggs.",
+                            kurdishText:
+                                "باڵندەکان لە دەمی وەرزی جووتبووندا جووت دەبن بۆ پیتاندنی ھێلکە.", // copulate",
+                            onPressedBritish: () => speakcopulates1("en-GB"),
+                            onPressedAmerican: () => speakcopulates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Insects copulate quickly, often in mid-air."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێرووەکان زوو جووت دەبن، زۆرجار لە حەوادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopulates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopulates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Insects copulate quickly, often in mid-air.",
+                            kurdishText:
+                                "مێرووەکان زوو جووت دەبن، زۆرجار لە حەوادا.",
+                            onPressedBritish: () => speakcopulates2("en-GB"),
+                            onPressedAmerican: () => speakcopulates2("en-US"),
                           ),
                         ],
                       ),

@@ -95,32 +95,13 @@ class EnglishEntrychrysalis extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) قۆناغی سەرەتای پەپوولە یان مێروویەکی دیکە کە دەگۆڕێت بۆ دانەیەکی گەشەکردوو، یان ئەو قەباغەی کە تێیدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Inside the chrysalis, the insect transforms into a butterfly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەناو قۆزاخەکەدا، مێرووەکە دەبێت بە پەپوولە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chrysalis", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchrysaliss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchrysaliss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Inside the chrysalis, the insect transforms into a butterfly.",
+                            kurdishText:
+                                "لەناو قۆزاخەکەدا، مێرووەکە دەبێت بە پەپوولە.", // chrysalis",
+                            onPressedBritish: () => speakchrysaliss1("en-GB"),
+                            onPressedAmerican: () => speakchrysaliss1("en-US"),
                           ),
                         ],
                       ),

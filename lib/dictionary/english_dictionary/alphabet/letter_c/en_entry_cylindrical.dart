@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لوولەک‌ئاسا، ستوونەئاسا، لوولەکی، شێوەلوولەک، گلیل، خەڵەڵە، گرۆڤەر
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) لە شێوەی لوولەکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The pillar was cylindrical in shape, providing support for the roof."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دینگەکە لە شێوەدا لوولەک بوو و پشتیوانی سەربانەکەی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cylindrical", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcylindricals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcylindricals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The pillar was cylindrical in shape, providing support for the roof.",
+            kurdishText:
+                "دینگەکە لە شێوەدا لوولەک بوو و پشتیوانی سەربانەکەی دەکرد.", // cylindrical", please follow LX instructions
+            onPressedBritish: () => speakcylindricals1("en-GB"),
+            onPressedAmerican: () => speakcylindricals1("en-US"),
           ),
         ],
       ),

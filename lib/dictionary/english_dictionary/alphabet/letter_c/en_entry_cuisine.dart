@@ -241,63 +241,25 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: (فەڕەنسی) شێوەی چێشت‌لێنان، دەستاو، دەس‌وپوخت
 """),
           const DefinitionKurdish(text: "١. (ناو) شێوازی چێشتلێنان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "London offers a wide variety of international cuisines."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەندەن ژمارەیەکی زۆر جیاواز لە دەستاوی نێودەوڵەتی لێیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cuisine", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuisines1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuisines1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "London offers a wide variety of international cuisines.",
+            kurdishText:
+                "لەندەن ژمارەیەکی زۆر جیاواز لە دەستاوی نێودەوڵەتی لێیە.", // cuisine", please follow LX instructions
+            onPressedBritish: () => speakcuisines1("en-GB"),
+            onPressedAmerican: () => speakcuisines1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) خواردنێک کە لە چێشتخانەیەک پێشکەش دەکرێت، بەتایبەتی دانەیەکی گرانبەھا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The hotel restaurant is noted for its excellent cuisine."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چێشتخانەی ھوتێلەکە ناوی دەھێنرێت بۆ نایابی خواردنەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuisines2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuisines2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The hotel restaurant is noted for its excellent cuisine.",
+            kurdishText:
+                "چێشتخانەی ھوتێلەکە ناوی دەھێنرێت بۆ نایابی خواردنەکەی.",
+            onPressedBritish: () => speakcuisines2("en-GB"),
+            onPressedAmerican: () => speakcuisines2("en-US"),
           ),
         ],
       ),

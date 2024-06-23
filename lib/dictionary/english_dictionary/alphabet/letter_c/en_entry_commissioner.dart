@@ -101,67 +101,29 @@ class EnglishEntrycommissioner extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئەندامێکی کۆمسیۆنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The commissioners reviewed the report together."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمسیاران پێکەوە چاویان بە ڕاپۆرتەکەدا خشاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commissioner", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommissioners1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommissioners1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The commissioners reviewed the report together.",
+                            kurdishText:
+                                "کۆمسیاران پێکەوە چاویان بە ڕاپۆرتەکەدا خشاند.", // commissioner",
+                            onPressedBritish: () =>
+                                speakcommissioners1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommissioners1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەرپرسی دامەزراوەیەکی حکومی، بەتایبەتی پۆلیس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Commissioner Rhodes was unavailable for comment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاربەدەست ڕۆودز بەردەست نەبوو بۆ لێدوان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommissioners2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommissioners2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Commissioner Rhodes was unavailable for comment.",
+                            kurdishText:
+                                "کاربەدەست ڕۆودز بەردەست نەبوو بۆ لێدوان.",
+                            onPressedBritish: () =>
+                                speakcommissioners2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommissioners2("en-US"),
                           ),
                         ],
                       ),

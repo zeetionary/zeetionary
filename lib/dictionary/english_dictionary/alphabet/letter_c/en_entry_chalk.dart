@@ -110,91 +110,33 @@ class EnglishEntrychalk extends StatelessWidget {
 کوردی: گڵەسپی، گەچی نووسین، تەباشیر، درووشم، نیشانە، درف
 """),
                           const DefinitionKurdish(text: "١. (ناو) گەچ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The artist used chalk to create sculptures in the park."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھونەرمەندەکە گەچی بەکارھێنا بۆ درووستکردنی پەیکەر لە پارکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chalk", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchalks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchalks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The artist used chalk to create sculptures in the park.",
+                            kurdishText:
+                                "ھونەرمەندەکە گەچی بەکارھێنا بۆ درووستکردنی پەیکەر لە پارکەکە.", // chalk",
+                            onPressedBritish: () => speakchalks1("en-GB"),
+                            onPressedAmerican: () => speakchalks1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) تەباشیر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The teacher used chalk to write on the blackboard during the lesson."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستاکە تەباشیری بەکارھێنا بۆ نووسین لەسەر تەختەڕەشەکە لە وانەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchalks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchalks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The teacher used chalk to write on the blackboard during the lesson.",
+                            kurdishText:
+                                "مامۆستاکە تەباشیری بەکارھێنا بۆ نووسین لەسەر تەختەڕەشەکە لە وانەکەدا.",
+                            onPressedBritish: () => speakchalks2("en-GB"),
+                            onPressedAmerican: () => speakchalks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) نووسین بە تەباشیر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A message was chalked on the door."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیامێک بە تەباشیر لەسەر دەرگاکە نووسرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchalks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchalks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A message was chalked on the door.",
+                            kurdishText:
+                                "پەیامێک بە تەباشیر لەسەر دەرگاکە نووسرابوو.",
+                            onPressedBritish: () => speakchalks3("en-GB"),
+                            onPressedAmerican: () => speakchalks3("en-US"),
                           ),
                         ],
                       ),

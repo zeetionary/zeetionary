@@ -104,63 +104,25 @@ class EnglishEntryclaimant extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە داوای شتێک دەکات چونکە پێی‌وایە ئەو مافەی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The claimant to the throne argued that their lineage traced back to the royal family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانگەشەکاری تەختی شاھانە دەیگوت ڕەچەڵەکیان بۆ خێزانی شاھانە دەگەڕێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "claimant", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaimants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaimants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The claimant to the throne argued that their lineage traced back to the royal family.",
+                            kurdishText:
+                                "بانگەشەکاری تەختی شاھانە دەیگوت ڕەچەڵەکیان بۆ خێزانی شاھانە دەگەڕێتەوە.", // claimant",
+                            onPressedBritish: () => speakclaimants1("en-GB"),
+                            onPressedAmerican: () => speakclaimants1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە پارە لە حکومەت وەردەگرێت بەھۆی ئەوەی کاری نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sickness benefit claimants must provide medical evidence to support their inability to work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەرگرانی مووچەی کەم‌ئەندامی دەبێت بەڵگەی تەندرووستی پیشان بدەن بۆ ئەوەی بیسەلمێنێت کە توانای کارکردنیان نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaimants2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaimants2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sickness benefit claimants must provide medical evidence to support their inability to work.",
+                            kurdishText:
+                                "وەرگرانی مووچەی کەم‌ئەندامی دەبێت بەڵگەی تەندرووستی پیشان بدەن بۆ ئەوەی بیسەلمێنێت کە توانای کارکردنیان نییە.",
+                            onPressedBritish: () => speakclaimants2("en-GB"),
+                            onPressedAmerican: () => speakclaimants2("en-US"),
                           ),
                         ],
                       ),

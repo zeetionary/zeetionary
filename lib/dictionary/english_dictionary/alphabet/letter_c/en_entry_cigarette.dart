@@ -103,60 +103,22 @@ class EnglishEntrycigarette extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لوولەیەکی باریک لە کاغەز کە پڕە لە تووتن بۆ کێشان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were three cigarette butts in the ashtray."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێ بنەجگەرە لە تەپڵکەکەدا ھەبووون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cigarette", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcigarettes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcigarettes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were three cigarette butts in the ashtray.",
+                            kurdishText:
+                                "سێ بنەجگەرە لە تەپڵکەکەدا ھەبووون.", // cigarette",
+                            onPressedBritish: () => speakcigarettes1("en-GB"),
+                            onPressedAmerican: () => speakcigarettes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Posters advertising cigarettes have to carry government health warnings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆستەری بانگەشەی سەر جگەرە دەبێت ئاگاداری تەندرووستی حکومەتیان پێوە بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcigarettes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcigarettes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Posters advertising cigarettes have to carry government health warnings.",
+                            kurdishText:
+                                "پۆستەری بانگەشەی سەر جگەرە دەبێت ئاگاداری تەندرووستی حکومەتیان پێوە بێت.",
+                            onPressedBritish: () => speakcigarettes2("en-GB"),
+                            onPressedAmerican: () => speakcigarettes2("en-US"),
                           ),
                         ],
                       ),

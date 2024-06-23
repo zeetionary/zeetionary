@@ -104,60 +104,22 @@ class EnglishEntrycocky extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی متمانە بە خۆت بەشێوەیەک کە کەسانی دیکە بێزار دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let's not get too cocky—things could still go wrong."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با ھێندە لەخۆبایی نەبین، شتەکان دەکرێت بگۆڕێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cocky", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcockys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcockys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Let's not get too cocky—things could still go wrong.",
+                            kurdishText:
+                                "با ھێندە لەخۆبایی نەبین، شتەکان دەکرێت بگۆڕێن.", // cocky",
+                            onPressedBritish: () => speakcockys1("en-GB"),
+                            onPressedAmerican: () => speakcockys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When I got my first job I was just a cocky teenager."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە یەکەم کارمم وەرگرت تەنھا گەنجێکی لەخۆڕازی بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcockys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcockys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When I got my first job I was just a cocky teenager.",
+                            kurdishText:
+                                "کە یەکەم کارمم وەرگرت تەنھا گەنجێکی لەخۆڕازی بووم.",
+                            onPressedBritish: () => speakcockys2("en-GB"),
+                            onPressedAmerican: () => speakcockys2("en-US"),
                           ),
                         ],
                       ),

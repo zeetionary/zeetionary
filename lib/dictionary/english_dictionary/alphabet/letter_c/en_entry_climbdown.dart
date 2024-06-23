@@ -95,32 +95,13 @@ class EnglishEntryclimbdown extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) داننان بە ھەڵەدا یان گۆڕینی بۆچوونت لە مشتومڕێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Saying she was wrong was a difficult climbdown for Sarah."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتنی ئەوەی کە ھەڵە بوو کورتان-سوڕانێکی سەخت بوو بۆ سارا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "climbdown", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimbdowns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimbdowns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Saying she was wrong was a difficult climbdown for Sarah.",
+                            kurdishText:
+                                "وتنی ئەوەی کە ھەڵە بوو کورتان-سوڕانێکی سەخت بوو بۆ سارا.", // climbdown",
+                            onPressedBritish: () => speakclimbdowns1("en-GB"),
+                            onPressedAmerican: () => speakclimbdowns1("en-US"),
                           ),
                         ],
                       ),

@@ -118,124 +118,45 @@ class EnglishEntrycomic extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێکەنیناوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The play is both comic and tragic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شانۆکە ھەم کۆمیدی و ھەم تراژیدیایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The play is both comic and tragic.",
+                            kurdishText:
+                                "شانۆکە ھەم کۆمیدی و ھەم تراژیدیایە.", // comic",
+                            onPressedBritish: () => speakcomics1("en-GB"),
+                            onPressedAmerican: () => speakcomics1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) پەیوەندیدار بە کۆمیدی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Charlie Chaplin was a comic genius."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چارلی چاپڵن بلیمەتێکی کۆمیدی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Charlie Chaplin was a comic genius.",
+                            kurdishText: "چارلی چاپڵن بلیمەتێکی کۆمیدی بوو.",
+                            onPressedBritish: () => speakcomics2("en-GB"),
+                            onPressedAmerican: () => speakcomics2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) گۆڤارێک کە بەزۆری بۆ منداڵانە و چیرۆک بە وێنەوە دەگێڕێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She loved reading comics before bedtime."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزی لە خوێندنەوەی کۆمیک بوو لە پێش خەوتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomics3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomics3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She loved reading comics before bedtime.",
+                            kurdishText:
+                                "حەزی لە خوێندنەوەی کۆمیک بوو لە پێش خەوتن.",
+                            onPressedBritish: () => speakcomics3("en-GB"),
+                            onPressedAmerican: () => speakcomics3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ئەو بەشەی ڕۆژنامە کە وێنەی کۆمیکی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Dad read the front page while the kids read the comics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوکە پەڕەی سەرەکی خوێندەوە لەکاتێکدا منداڵەلان کۆمیکەکانیان خوێندەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomics4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomics4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Dad read the front page while the kids read the comics.",
+                            kurdishText:
+                                "باوکە پەڕەی سەرەکی خوێندەوە لەکاتێکدا منداڵەلان کۆمیکەکانیان خوێندەوە.",
+                            onPressedBritish: () => speakcomics4("en-GB"),
+                            onPressedAmerican: () => speakcomics4("en-US"),
                           ),
                         ],
                       ),

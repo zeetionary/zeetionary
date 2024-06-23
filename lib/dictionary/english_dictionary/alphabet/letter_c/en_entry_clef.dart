@@ -95,32 +95,13 @@ class EnglishEntryclef extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سمبولێک لە سەرەتای دێڕێکی میوزیکی نووسراو کە ئاستی بەرزی و نەزمی نۆتەکان پیشان دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Musicians must learn to read both the treble and bass clef to play music accurately."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوزیکژەنان دەبێت فێری خوێندنەوەی کلیلی بەرز و نزم بخوێننەوە بۆ ژەنینی میوزیک بە درووستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clef", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclefs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclefs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Musicians must learn to read both the treble and bass clef to play music accurately.",
+                            kurdishText:
+                                "میوزیکژەنان دەبێت فێری خوێندنەوەی کلیلی بەرز و نزم بخوێننەوە بۆ ژەنینی میوزیک بە درووستی.", // clef",
+                            onPressedBritish: () => speakclefs1("en-GB"),
+                            onPressedAmerican: () => speakclefs1("en-US"),
                           ),
                         ],
                       ),

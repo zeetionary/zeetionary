@@ -194,91 +194,34 @@ class EnglishEntrycandid extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) وتنی ئەوەی کە دەتەوێت بە ڕاستگۆیی و کراوەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I felt she was being less than candid with me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێم‌وابوو ڕێک‌وڕاست نییە لەگەڵم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "candid", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcandids1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcandids1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I felt she was being less than candid with me.",
+                            kurdishText:
+                                "پێم‌وابوو ڕێک‌وڕاست نییە لەگەڵم.", // candid
+                            onPressedBritish: () => speakcandids1("en-GB"),
+                            onPressedAmerican: () => speakcandids1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ex-minister gave a candid interview about his reasons for resigning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەزیری پێشوو چاوپێکەوتنێکی ڕاشکاوانەی ئەنجامدا سەبارەت بە ھۆکارەکانی بۆ دەستلەکارکێشانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcandids2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcandids2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ex-minister gave a candid interview about his reasons for resigning.",
+                            kurdishText:
+                                "وەزیری پێشوو چاوپێکەوتنێکی ڕاشکاوانەی ئەنجامدا سەبارەت بە ھۆکارەکانی بۆ دەستلەکارکێشانەوە.",
+                            onPressedBritish: () => speakcandids2("en-GB"),
+                            onPressedAmerican: () => speakcandids2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) وێنەیەک کە ئەو کەسەی وێنەی گیردراوە ئاگای لێ نەبوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He mingled among the guests and took the candid shots which were much more fun than the formal group photographs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ناو میوانەکاندا ھاتوچۆی بوو و وێنەی ڕاست‌بینانەی دەگرت کە زۆر خۆشتر بوون لە وێنە فەرمییە گرووپییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcandids3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcandids3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He mingled among the guests and took the candid shots which were much more fun than the formal group photographs.",
+                            kurdishText:
+                                "بە ناو میوانەکاندا ھاتوچۆی بوو و وێنەی ڕاست‌بینانەی دەگرت کە زۆر خۆشتر بوون لە وێنە فەرمییە گرووپییەکان.",
+                            onPressedBritish: () => speakcandids3("en-GB"),
+                            onPressedAmerican: () => speakcandids3("en-US"),
                           ),
                         ],
                       ),

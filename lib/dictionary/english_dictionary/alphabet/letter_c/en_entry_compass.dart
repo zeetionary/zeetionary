@@ -120,121 +120,45 @@ class EnglishEntrycompass extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئامێرێک کە دەزییەکی ھەیە ھەمیشە ڕوو لە باکوور دەکات و بۆ دۆزینەوەی ئاراستە بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A compass shows you which direction is north."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قیبلەنمایەک پێت پیشان دەدات باکوور لە کام ئاراستەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compass", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A compass shows you which direction is north.",
+                            kurdishText:
+                                "قیبلەنمایەک پێت پیشان دەدات باکوور لە کام ئاراستەیە.", // compass",
+                            onPressedBritish: () => speakcompasss1("en-GB"),
+                            onPressedAmerican: () => speakcompasss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People arrived from all points of the compass."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراوی) خەڵکی لە ھەموو ئاراستەکانەوە ھاتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People arrived from all points of the compass.",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی) خەڵکی لە ھەموو ئاراستەکانەوە ھاتن.",
+                            onPressedBritish: () => speakcompasss2("en-GB"),
+                            onPressedAmerican: () => speakcompasss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پەرگاڵ؛ ئامێرێک کە لە دوو لاقی باریکی درێژ پێکھاتووە و بەکاردێت بۆ کێشانی بازنە یان پێوانی دووری لەسەر نەخشەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You will need sharp scissors, a ruler, and a pair of compasses for making circles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستیت بە مەقەستی تیژ، ڕاستەیەک، و جووتێک پەرگاڵ دەبێت بۆ کێشانی بازنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You will need sharp scissors, a ruler, and a pair of compasses for making circles.",
+                            kurdishText:
+                                "پێویستیت بە مەقەستی تیژ، ڕاستەیەک، و جووتێک پەرگاڵ دەبێت بۆ کێشانی بازنە.",
+                            onPressedBritish: () => speakcompasss3("en-GB"),
+                            onPressedAmerican: () => speakcompasss3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ڕێژەیەکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The discussion went beyond the compass of my brain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بابەتەکە زیاتر لە توانای مێشکم درێژەی کێشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompasss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompasss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The discussion went beyond the compass of my brain.",
+                            kurdishText:
+                                "بابەتەکە زیاتر لە توانای مێشکم درێژەی کێشا.",
+                            onPressedBritish: () => speakcompasss4("en-GB"),
+                            onPressedAmerican: () => speakcompasss4("en-US"),
                           ),
                         ],
                       ),

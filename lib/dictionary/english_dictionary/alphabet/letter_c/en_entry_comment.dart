@@ -170,235 +170,79 @@ class EnglishEntrycomment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە دەیڵێیت یان دەینووسیت کە بۆچوونێکە یان کەسێک/شتێک ڕووندەکاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She made helpful comments on my work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێدوانی یارمەتیدەری دا لەسەر کارەکانم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comment", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomments1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomments1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She made helpful comments on my work.",
+                            kurdishText:
+                                "لێدوانی یارمەتیدەری دا لەسەر کارەکانم.", // comment",
+                            onPressedBritish: () => speakcomments1("en-GB"),
+                            onPressedAmerican: () => speakcomments1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                      text:
-                                          "Have you any comment to make about the cause of the disaster?",
-                                      note:
-                                          "American English: Do you have any comment to make about the cause of the disaster?",
-                                    ),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ لێدوانێکت ھەیە لەسەر ھۆکاری کارەساتەکە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomments2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomments2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Have you any comment to make about the cause of the disaster?",
+                            englishNote:
+                                "American English: Do you have any comment to make about the cause of the disaster?",
+                            kurdishText:
+                                "ھیچ لێدوانێکت ھەیە لەسەر ھۆکاری کارەساتەکە؟",
+                            onPressedBritish: () => speakcomments2("en-GB"),
+                            onPressedAmerican: () => speakcomments2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He handed me the document without comment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵگەنامەکەی بەبێ لێدوان پێمدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomments3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomments3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He handed me the document without comment.",
+                            kurdishText: "بەڵگەنامەکەی بەبێ لێدوان پێمدا.",
+                            onPressedBritish: () => speakcomments3("en-GB"),
+                            onPressedAmerican: () => speakcomments3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕەخنە کە ھەڵەی شتێک پیشان دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The results are a clear comment on government education policy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەنجامەکان ڕەخنەیەک بوون لەسەر سیاسەتی پەروەردەی حکومەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomments4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomments4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The results are a clear comment on government education policy.",
+                            kurdishText:
+                                "ئەنجامەکان ڕەخنەیەک بوون لەسەر سیاسەتی پەروەردەی حکومەت.",
+                            onPressedBritish: () => speakcomments4("en-GB"),
+                            onPressedAmerican: () => speakcomments4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a lot of comment about his behaviour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێدوانی زۆر ھەبوو لەسەر ھەڵسوکەوتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomments5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomments5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a lot of comment about his behaviour.",
+                            kurdishText: "لێدوانی زۆر ھەبوو لەسەر ھەڵسوکەوتی.",
+                            onPressedBritish: () => speakcomments5("en-GB"),
+                            onPressedAmerican: () => speakcomments5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) دەربڕینی لێدوانێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He refused to comment until after the trial."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەیکردەوە لێدوان بدات تاوەکو دوای دانیشتنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomments6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomments6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He refused to comment until after the trial.",
+                            kurdishText:
+                                "ڕەیکردەوە لێدوان بدات تاوەکو دوای دانیشتنەکە.",
+                            onPressedBritish: () => speakcomments6("en-GB"),
+                            onPressedAmerican: () => speakcomments6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She said she was unable to comment further."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتی ناتوانێت لێدوانی زیاتر بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomments7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomments7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She said she was unable to comment further.",
+                            kurdishText: "وتی ناتوانێت لێدوانی زیاتر بدات.",
+                            onPressedBritish: () => speakcomments7("en-GB"),
+                            onPressedAmerican: () => speakcomments7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't feel I can comment on their decision."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێم وانییە بتوانم لێدوان لەسەر بڕیارەکەیان بدەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomments8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomments8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't feel I can comment on their decision.",
+                            kurdishText:
+                                "پێم وانییە بتوانم لێدوان لەسەر بڕیارەکەیان بدەم.",
+                            onPressedBritish: () => speakcomments8("en-GB"),
+                            onPressedAmerican: () => speakcomments8("en-US"),
                           ),
                           Column(
                             children: [

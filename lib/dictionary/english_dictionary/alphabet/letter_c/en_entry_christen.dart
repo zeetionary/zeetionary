@@ -111,90 +111,31 @@ class EnglishEntrychristen extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پێدانی ناوێک بە منداڵێک لە کاتی توەفنکردنیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The child was christened Mary."),
-                                    ExampleSentenceKurdish(
-                                        text: "منداڵەکە ناونرا ماری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "christen", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchristens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchristens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The child was christened Mary.",
+                            kurdishText: "منداڵەکە ناونرا ماری.", // christen",
+                            onPressedBritish: () => speakchristens1("en-GB"),
+                            onPressedAmerican: () => speakchristens1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) ناونانی کەسێک یان شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They christened the boat ‘Oceania’."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناویان لە کەشتییەکە نا 'ئۆشیانا'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchristens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchristens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They christened the boat ‘Oceania’.",
+                            kurdishText: "ناویان لە کەشتییەکە نا 'ئۆشیانا'.",
+                            onPressedBritish: () => speakchristens2("en-GB"),
+                            onPressedAmerican: () => speakchristens2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) بەکارھێنانی شتێک بۆ یەکەم جار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let's go for a long walk and I'll christen my new boots."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با بچین بۆ پیاسەیەکی درێژ و پووتینە تازەکانم بۆ یەکەم جار بەکاربێنم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchristens3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchristens3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Let's go for a long walk and I'll christen my new boots.",
+                            kurdishText:
+                                "با بچین بۆ پیاسەیەکی درێژ و پووتینە تازەکانم بۆ یەکەم جار بەکاربێنم.",
+                            onPressedBritish: () => speakchristens3("en-GB"),
+                            onPressedAmerican: () => speakchristens3("en-US"),
                           ),
                         ],
                       ),

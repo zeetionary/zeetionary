@@ -191,32 +191,13 @@ class EnglishEntrycartridge extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) قەباغێکی لوولەیی کە لە مادەی تەقەمەنی و سەرێک پێکھاتووە کە دەتەقێندرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soldier swiftly loaded a fresh cartridge into the rifle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکە بەخێرایی فیشەکێکی تازەی خستە تفەنگەکەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cartridge", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcartridges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcartridges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soldier swiftly loaded a fresh cartridge into the rifle.",
+                            kurdishText:
+                                "سەربازەکە بەخێرایی فیشەکێکی تازەی خستە تفەنگەکەیەوە.", // cartridge",
+                            onPressedBritish: () => speakcartridges1("en-GB"),
+                            onPressedAmerican: () => speakcartridges1("en-US"),
                           ),
                         ],
                       ),

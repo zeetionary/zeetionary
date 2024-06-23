@@ -104,62 +104,24 @@ class EnglishEntrychildish extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە منداڵ یان ئەوەی لە منداڵ چاوەڕێ دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His childish handwriting was filled with misspellings and grammar errors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستوخەتە منداڵانەکەی پڕبوو لە ھەڵەی ڕێنووس ڕێزمانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "childish", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchildishs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchildishs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His childish handwriting was filled with misspellings and grammar errors.",
+                            kurdishText:
+                                "دەستوخەتە منداڵانەکەی پڕبوو لە ھەڵەی ڕێنووس ڕێزمانی.", // childish",
+                            onPressedBritish: () => speakchildishs1("en-GB"),
+                            onPressedAmerican: () => speakchildishs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) ڕەفتارکردن وەک منداڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wasn't enjoying the occasion so he thought he'd spoil it for everyone else - it was very childish of him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چێژی لە بۆنەکە نەدەبینی بۆیە بیری لەوە ژردەوە لە ھەموانی تێک بدات، زۆر منداڵانە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchildishs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchildishs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wasn't enjoying the occasion so he thought he'd spoil it for everyone else - it was very childish of him.",
+                            kurdishText:
+                                "چێژی لە بۆنەکە نەدەبینی بۆیە بیری لەوە ژردەوە لە ھەموانی تێک بدات، زۆر منداڵانە بوو.",
+                            onPressedBritish: () => speakchildishs2("en-GB"),
+                            onPressedAmerican: () => speakchildishs2("en-US"),
                           ),
                         ],
                       ),

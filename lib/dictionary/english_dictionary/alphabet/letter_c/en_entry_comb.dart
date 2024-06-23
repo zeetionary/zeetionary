@@ -151,229 +151,73 @@ class EnglishEntrycomb extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) شانەی قژ داھێنان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She ran a comb through her tangled hair."),
-                                    ExampleSentenceKurdish(
-                                        text: "شانەیەکی بە قژە بژەکەیدا ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comb", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She ran a comb through her tangled hair.",
+                            kurdishText:
+                                "شانەیەکی بە قژە بژەکەیدا ھێنا.", // comb",
+                            onPressedBritish: () => speakcombs1("en-GB"),
+                            onPressedAmerican: () => speakcombs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He just had time to wash his face and drag a comb through his hair before going out."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا کاتی ئەوەی ھەبوو ڕووخساری بشوات و شانایەک لە قژی بدات پێش ئەوەی بچێتە دەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He just had time to wash his face and drag a comb through his hair before going out.",
+                            kurdishText:
+                                "تەنھا کاتی ئەوەی ھەبوو ڕووخساری بشوات و شانایەک لە قژی بدات پێش ئەوەی بچێتە دەرەوە.",
+                            onPressedBritish: () => speakcombs2("en-GB"),
+                            onPressedAmerican: () => speakcombs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) شانەکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Your hair needs a good comb."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قژت پێویستی بە شانەکردنێکی باش ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Your hair needs a good comb.",
+                            kurdishText: "قژت پێویستی بە شانەکردنێکی باش ھەیە.",
+                            onPressedBritish: () => speakcombs3("en-GB"),
+                            onPressedAmerican: () => speakcombs3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your hair could do with a comb!"),
-                                    ExampleSentenceKurdish(
-                                        text: "شانەکردنێک باش دەبێت!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Your hair could do with a comb!",
+                            kurdishText: "شانەکردنێک باش دەبێت!",
+                            onPressedBritish: () => speakcombs4("en-GB"),
+                            onPressedAmerican: () => speakcombs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (کردار) شانەکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't forget to comb your hair!"),
-                                    ExampleSentenceKurdish(
-                                        text: "بیرت نەچێت قژت شانە بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don't forget to comb your hair!",
+                            kurdishText: "بیرت نەچێت قژت شانە بکەیت.",
+                            onPressedBritish: () => speakcombs5("en-GB"),
+                            onPressedAmerican: () => speakcombs5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She combed her hair and put on some lipstick."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قژی شانەکرد و ھەندێک سووراوی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She combed her hair and put on some lipstick.",
+                            kurdishText: "قژی شانەکرد و ھەندێک سووراوی کرد.",
+                            onPressedBritish: () => speakcombs6("en-GB"),
+                            onPressedAmerican: () => speakcombs6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) گەڕانی شتێک بەوریاییەوە بۆ دۆزینەوەی شتێک/کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police combed the area for clues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس ناوچەکە بۆ سەرەداو گەڕان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police combed the area for clues.",
+                            kurdishText: "پۆلیس ناوچەکە بۆ سەرەداو گەڕان.",
+                            onPressedBritish: () => speakcombs7("en-GB"),
+                            onPressedAmerican: () => speakcombs7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They combed through the files for evidence of fraud."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە فایلەکاندا گەڕان بۆ بەڵگەی ساختەکاری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They combed through the files for evidence of fraud.",
+                            kurdishText:
+                                "بە فایلەکاندا گەڕان بۆ بەڵگەی ساختەکاری.",
+                            onPressedBritish: () => speakcombs8("en-GB"),
+                            onPressedAmerican: () => speakcombs8("en-US"),
                           ),
                         ],
                       ),

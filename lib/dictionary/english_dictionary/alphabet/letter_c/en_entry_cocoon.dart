@@ -132,32 +132,13 @@ class EnglishEntrycocoon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شوێنێکی ئارام و پارێزراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children grew up in the cocoon of a caring family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان لە ئارامیی خێزانێکی دڵسۆزدا گەورە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcocoons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcocoons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children grew up in the cocoon of a caring family.",
+                            kurdishText:
+                                "منداڵەکان لە ئارامیی خێزانێکی دڵسۆزدا گەورە بوون.",
+                            onPressedBritish: () => speakcocoons2("en-GB"),
+                            onPressedAmerican: () => speakcocoons2("en-US"),
                           ),
                         ],
                       ),

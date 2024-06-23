@@ -102,59 +102,22 @@ class EnglishEntrycommonly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) زۆرجار؛ بەزۆری؛ لەلایەن زۆرینەی خەڵکییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Christopher is commonly known as Kit."),
-                                    ExampleSentenceKurdish(
-                                        text: "کریستۆفەر بەزۆری بە کیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commonly", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommonlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommonlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Christopher is commonly known as Kit.",
+                            kurdishText:
+                                "کریستۆفەر بەزۆری بە کیت.", // commonly",
+                            onPressedBritish: () => speakcommonlys1("en-GB"),
+                            onPressedAmerican: () => speakcommonlys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is one of the most commonly used methods."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە یەکێکە لە بیردۆزە باوە بەکارھێنراوەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommonlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommonlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is one of the most commonly used methods.",
+                            kurdishText:
+                                "ئەمە یەکێکە لە بیردۆزە باوە بەکارھێنراوەکان.",
+                            onPressedBritish: () => speakcommonlys2("en-GB"),
+                            onPressedAmerican: () => speakcommonlys2("en-US"),
                           ),
                         ],
                       ),

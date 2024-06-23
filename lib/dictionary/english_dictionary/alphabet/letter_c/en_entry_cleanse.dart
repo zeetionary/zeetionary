@@ -93,32 +93,13 @@ class EnglishEntrycleanse extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) پاککردنەوەی پێست یان برینێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The wound was then cleansed and dressed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "برینەکە دواتر پاککرایەوە و پێچرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cleanse", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleanses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleanses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The wound was then cleansed and dressed.",
+                            kurdishText:
+                                "برینەکە دواتر پاککرایەوە و پێچرا.", // cleanse",
+                            onPressedBritish: () => speakcleanses1("en-GB"),
+                            onPressedAmerican: () => speakcleanses1("en-US"),
                           ),
                         ],
                       ),

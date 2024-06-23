@@ -117,117 +117,40 @@ class EnglishEntryclog extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) گرتنی شتێک، یان گیربوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The narrow streets were clogged with traffic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەقامە تەسکەکان بە ھاتووچۆ گیرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clog", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclogs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclogs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The narrow streets were clogged with traffic.",
+                            kurdishText:
+                                "شەقامە تەسکەکان بە ھاتووچۆ گیرابوون.", // clog",
+                            onPressedBritish: () => speakclogs1("en-GB"),
+                            onPressedAmerican: () => speakclogs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The wheels got clogged up with mud."),
-                                    ExampleSentenceKurdish(
-                                        text: "ویلەکان پڕبوون لە قوڕ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclogs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclogs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The wheels got clogged up with mud.",
+                            kurdishText: "ویلەکان پڕبوون لە قوڕ.",
+                            onPressedBritish: () => speakclogs2("en-GB"),
+                            onPressedAmerican: () => speakclogs2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Within a few years the pipes began to clog up."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ماوەی چەند ساڵێکدا بۆرییەکان دەستیان بە گیربوون کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclogs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclogs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Within a few years the pipes began to clog up.",
+                            kurdishText:
+                                "لە ماوەی چەند ساڵێکدا بۆرییەکان دەستیان بە گیربوون کرد.",
+                            onPressedBritish: () => speakclogs3("en-GB"),
+                            onPressedAmerican: () => speakclogs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) دارێکی دارین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The farmer's clogs were covered in mud."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەوشە دارینەکەی جوتیارەکە بە قوڕ داپۆشرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclogs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclogs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The farmer's clogs were covered in mud.",
+                            kurdishText:
+                                "کەوشە دارینەکەی جوتیارەکە بە قوڕ داپۆشرابوو.",
+                            onPressedBritish: () => speakclogs4("en-GB"),
+                            onPressedAmerican: () => speakclogs4("en-US"),
                           ),
                         ],
                       ),

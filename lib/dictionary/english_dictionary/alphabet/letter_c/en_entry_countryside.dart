@@ -250,84 +250,27 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ناوچەی دەرەوەی شار کە دەشتایی و کێڵگەی تێدایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Everyone should enjoy the right of access to the countryside."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموان دەبێت مافی چوونە ناو دەشت‌ودەریان ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "countryside", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrysides1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrysides1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Everyone should enjoy the right of access to the countryside.",
+            kurdishText:
+                "ھەموان دەبێت مافی چوونە ناو دەشت‌ودەریان ھەبێت.", // countryside", please follow LX instructions
+            onPressedBritish: () => speakcountrysides1("en-GB"),
+            onPressedAmerican: () => speakcountrysides1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Castles and churches dot the countryside."),
-                    ExampleSentenceKurdish(
-                        text: "قەڵا و کڵێسا دەشت‌ودەرەکەیان گرتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrysides2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrysides2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Castles and churches dot the countryside.",
+            kurdishText: "قەڵا و کڵێسا دەشت‌ودەرەکەیان گرتووە.",
+            onPressedBritish: () => speakcountrysides2("en-GB"),
+            onPressedAmerican: () => speakcountrysides2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I dream of living in the countryside."),
-                    ExampleSentenceKurdish(
-                        text: "خەون بە ژیان لە لادێ دەبینم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrysides3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrysides3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I dream of living in the countryside.",
+            kurdishText: "خەون بە ژیان لە لادێ دەبینم.",
+            onPressedBritish: () => speakcountrysides3("en-GB"),
+            onPressedAmerican: () => speakcountrysides3("en-US"),
           ),
         ],
       ),

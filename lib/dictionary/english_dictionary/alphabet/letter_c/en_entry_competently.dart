@@ -104,67 +104,27 @@ class EnglishEntrycompetently extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە بەشی پێویست شارەزایی پیشان دەدات بۆ کردنی کارێک بە باشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie is well-acted and very competently filmed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە بە باشی نمایشی تێدا کراوە و زۆر بە لێزانانە فیلمی گیراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "competently", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompetentlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompetentlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie is well-acted and very competently filmed.",
+                            kurdishText:
+                                "فیلمەکە بە باشی نمایشی تێدا کراوە و زۆر بە لێزانانە فیلمی گیراوە.", // competently",
+                            onPressedBritish: () => speakcompetentlys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompetentlys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵکار) بەشێوەیەک کە لە ئاستێکی باشە، بەڵام زۆر باش نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The characters are played competently enough, but without any particular distinction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکتەرەکان بە باشی ڕۆڵیان دەبیندرێت، بەڵام بەبێ ھیچ تایبەتییەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompetentlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompetentlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The characters are played competently enough, but without any particular distinction.",
+                            kurdishText:
+                                "کارەکتەرەکان بە باشی ڕۆڵیان دەبیندرێت، بەڵام بەبێ ھیچ تایبەتییەک.",
+                            onPressedBritish: () => speakcompetentlys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompetentlys2("en-US"),
                           ),
                         ],
                       ),

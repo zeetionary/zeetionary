@@ -187,34 +187,14 @@ class EnglishEntrycentenarian extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە تەمەنی ١٠٠ ساڵ یان زیاترە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Family gathered to celebrate their centenarian grandfather."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێزانەکە کۆبوونەوە بۆ ئاھەنگگێڕان بۆ باپیرە سەد ساڵەکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "centenarian", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcentenarians1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcentenarians1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Family gathered to celebrate their centenarian grandfather.",
+                            kurdishText:
+                                "خێزانەکە کۆبوونەوە بۆ ئاھەنگگێڕان بۆ باپیرە سەد ساڵەکەیان.", // centenarian",
+                            onPressedBritish: () => speakcentenarians1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcentenarians1("en-US"),
                           ),
                         ],
                       ),

@@ -188,34 +188,15 @@ class EnglishEntrycentralheating extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سیستەمێکی گەرمکەرەوە کە گەرمی لە یەک شوێنەوە وەردەگرێت و دواتر بە ژوورێکدا بڵاوی دەکاتەوە بە لوولەدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Central heating uses a boiler to generate heat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەرمکەری ناوەکی بۆیلەر بەکاردێنێت بۆ درووستکردنی گەرمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "central heating", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcentralheatings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcentralheatings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Central heating uses a boiler to generate heat.",
+                            kurdishText:
+                                "گەرمکەری ناوەکی بۆیلەر بەکاردێنێت بۆ درووستکردنی گەرمی.", // central heating",
+                            onPressedBritish: () =>
+                                speakcentralheatings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcentralheatings1("en-US"),
                           ),
                         ],
                       ),

@@ -111,91 +111,34 @@ class EnglishEntrycongestion extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) قەرەباڵغ و پڕ لە ھاتووچۆ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Parking near the school causes severe traffic congestion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەستانی ئۆتۆمبێل لە نزیک قوتابخانەکە دەبێتە ھۆی قەرەباڵغی ھاتووچۆی زۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congestion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongestions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongestions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Parking near the school causes severe traffic congestion.",
+                            kurdishText:
+                                "وەستانی ئۆتۆمبێل لە نزیک قوتابخانەکە دەبێتە ھۆی قەرەباڵغی ھاتووچۆی زۆر.", // congestion",
+                            onPressedBritish: () => speakcongestions1("en-GB"),
+                            onPressedAmerican: () => speakcongestions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Better public transport would help ease traffic congestion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گواستنەوەی گشتی باشتر یارمەتیدەر دەبێت لە کەمکردنەوەی قەرەباڵغی ھاتووچۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongestions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongestions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Better public transport would help ease traffic congestion.",
+                            kurdishText:
+                                "گواستنەوەی گشتی باشتر یارمەتیدەر دەبێت لە کەمکردنەوەی قەرەباڵغی ھاتووچۆ.",
+                            onPressedBritish: () => speakcongestions2("en-GB"),
+                            onPressedAmerican: () => speakcongestions2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) گیرانی بەشێکی جەستە بە خوێن یان چڵم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This spray helps to ease nasal congestion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سپراییەکە دەىێتە ھۆی بەربوونی گیرانی لووت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongestions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongestions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This spray helps to ease nasal congestion.",
+                            kurdishText:
+                                "سپراییەکە دەىێتە ھۆی بەربوونی گیرانی لووت.",
+                            onPressedBritish: () => speakcongestions3("en-GB"),
+                            onPressedAmerican: () => speakcongestions3("en-US"),
                           ),
                         ],
                       ),

@@ -191,94 +191,36 @@ class EnglishEntrycarriage extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو بەشەی شەمەندەفەر کە گەشتیار ھەڵدەگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Passengers enjoyed panoramic views from the carriage as the train traversed the long route."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشتیاران چێژیان بینی لە دیمەنی پانۆرامایی لە واگۆنەکەوە کە شەمەندەفەرەکە بە ڕێگا درێژەکەدا تێپەڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carriage", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarriages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarriages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Passengers enjoyed panoramic views from the carriage as the train traversed the long route.",
+                            kurdishText:
+                                "گەشتیاران چێژیان بینی لە دیمەنی پانۆرامایی لە واگۆنەکەوە کە شەمەندەفەرەکە بە ڕێگا درێژەکەدا تێپەڕی.", // carriage",
+                            onPressedBritish: () => speakcarriages1("en-GB"),
+                            onPressedAmerican: () => speakcarriages1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) عەرەبانەی ئەسپ کە جاران بۆ گواستنەوەی خەڵکی بەکاردەھات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A horse and carriage awaited the happy couple."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەسپ و عەرەبانەیەک چاوەڕێی دوو ئەویندارە دەڵخۆشەکە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarriages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarriages2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A horse and carriage awaited the happy couple.",
+                            kurdishText:
+                                "ئەسپ و عەرەبانەیەک چاوەڕێی دوو ئەویندارە دەڵخۆشەکە بوو.",
+                            onPressedBritish: () => speakcarriages2("en-GB"),
+                            onPressedAmerican: () => speakcarriages2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) گواستنەوە یان کرێی گواستنەوەی کاڵا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That will be £150, carriage included."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "١٥٠ پاوەند دەکات، بە گواستنەوەشەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarriages3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarriages3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That will be £150, carriage included.",
+                            kurdishText: "١٥٠ پاوەند دەکات، بە گواستنەوەشەوە.",
+                            onPressedBritish: () => speakcarriages3("en-GB"),
+                            onPressedAmerican: () => speakcarriages3("en-US"),
                           ),
                         ],
                       ),

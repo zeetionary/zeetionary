@@ -94,32 +94,13 @@ class EnglishEntryconcoction extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) تێکەڵەیەکی نامۆ لە شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gave me some of his herbal concoction when I had toothache."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک لە تێکەڵە ڕووەکییەکانیی داپێم کە ددانێشەم بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concoction", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcoctions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcoctions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He gave me some of his herbal concoction when I had toothache.",
+                            kurdishText:
+                                "ھەندێک لە تێکەڵە ڕووەکییەکانیی داپێم کە ددانێشەم بوو.", // concoction",
+                            onPressedBritish: () => speakconcoctions1("en-GB"),
+                            onPressedAmerican: () => speakconcoctions1("en-US"),
                           ),
                         ],
                       ),

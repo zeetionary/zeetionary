@@ -187,32 +187,13 @@ class EnglishEntrycashcow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەشێکی بازرگانییەک کە بەردەوام پارە پەیدا دەکات و پارە بۆ بەشەکانی دیکەی بازرگانییەکە دابین دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The studios discovered that movie rentals were an even bigger cash cow than selling tickets."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستودیۆکان زانیان کە فیلم بە کرێدان قازانجێکی گەورەتر بوون وەک لە فرپشتنی بلیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cash cow", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcashcows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcashcows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The studios discovered that movie rentals were an even bigger cash cow than selling tickets.",
+                            kurdishText:
+                                "ستودیۆکان زانیان کە فیلم بە کرێدان قازانجێکی گەورەتر بوون وەک لە فرپشتنی بلیت.", // cash cow",
+                            onPressedBritish: () => speakcashcows1("en-GB"),
+                            onPressedAmerican: () => speakcashcows1("en-US"),
                           ),
                         ],
                       ),

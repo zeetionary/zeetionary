@@ -187,60 +187,22 @@ class EnglishEntrycastoff extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شتانێک، بە تایبەتی جلوبەرگ، کە چێ دیکە ناتەوێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She used to wear her sister’s cast-offs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران جلی کۆنت خوشکەکەی لەبەردەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cast-off", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastoffs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastoffs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She used to wear her sister’s cast-offs.",
+                            kurdishText:
+                                "جاران جلی کۆنت خوشکەکەی لەبەردەکرد.", // cast-off",
+                            onPressedBritish: () => speakcastoffs1("en-GB"),
+                            onPressedAmerican: () => speakcastoffs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The store recycles cast-off furniture for people in need."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆگاکە کەلوپەلی نەویستراو تازەدەکاتەوە بۆ کەسانی نەدار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastoffs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastoffs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The store recycles cast-off furniture for people in need.",
+                            kurdishText:
+                                "کۆگاکە کەلوپەلی نەویستراو تازەدەکاتەوە بۆ کەسانی نەدار.",
+                            onPressedBritish: () => speakcastoffs2("en-GB"),
+                            onPressedAmerican: () => speakcastoffs2("en-US"),
                           ),
                         ],
                       ),

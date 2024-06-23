@@ -112,96 +112,36 @@ class EnglishEntryconfinement extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخی مانەوە بە زۆرلێکردن لە شوێنێکی داخراو، زیندانێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The animals are kept in close confinement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاژەڵەکان لە لە حەپسی داخراودا ڕادەگیردرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confinement", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfinements1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfinements1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The animals are kept in close confinement.",
+                            kurdishText:
+                                "ئاژەڵەکان لە لە حەپسی داخراودا ڕادەگیردرێن.", // confinement",
+                            onPressedBritish: () => speakconfinements1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfinements1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prisoner was kept in solitary confinement for several weeks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیندانییەکە بۆ چەند ھەفتەیەک لە زیندانی تاکەکەسی ھێڵدرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfinements2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfinements2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prisoner was kept in solitary confinement for several weeks.",
+                            kurdishText:
+                                "زیندانییەکە بۆ چەند ھەفتەیەک لە زیندانی تاکەکەسی ھێڵدرایەوە.",
+                            onPressedBritish: () => speakconfinements2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfinements2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ئەو ماوەیەی ژنێک منداڵی دەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After the confinement, the mother and baby were discharged from the hospital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای منداڵبوونەکە، دایک و منداڵەکە لە نەخۆشخانە دەرکران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfinements3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfinements3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After the confinement, the mother and baby were discharged from the hospital.",
+                            kurdishText:
+                                "لە دوای منداڵبوونەکە، دایک و منداڵەکە لە نەخۆشخانە دەرکران.",
+                            onPressedBritish: () => speakconfinements3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfinements3("en-US"),
                           ),
                         ],
                       ),

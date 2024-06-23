@@ -139,193 +139,73 @@ class EnglishEntrycooperative extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کردنی شتێک بە پێکەوەیی یان کارکردنی ھەرەوەزی بۆ ئامانجێکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cooperative activity is essential to effective community work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چالاکی ھەرەوەزی گرنگە بۆ کاری کۆمەڵگایەکی کاریگەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cooperative", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcooperatives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcooperatives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cooperative activity is essential to effective community work.",
+                            kurdishText:
+                                "چالاکی ھەرەوەزی گرنگە بۆ کاری کۆمەڵگایەکی کاریگەر.", // cooperative",
+                            onPressedBritish: () => speakcooperatives1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcooperatives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The documentary was a cooperative effort by film-makers from five countries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆکیومێنتارییەکە ھەوڵێکی ھەرەوەزییانە بوو لەلایەن فیلم کارانی پێنج وڵاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcooperatives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcooperatives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The documentary was a cooperative effort by film-makers from five countries.",
+                            kurdishText:
+                                "دۆکیومێنتارییەکە ھەوڵێکی ھەرەوەزییانە بوو لەلایەن فیلم کارانی پێنج وڵاتەوە.",
+                            onPressedBritish: () => speakcooperatives2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcooperatives2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is a cooperative venture with the University of Oxford."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە چالاکییەکی ھاوبەشە لەگەڵ زانکۆی ئۆکسفۆردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcooperatives3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcooperatives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is a cooperative venture with the University of Oxford.",
+                            kurdishText:
+                                "ئەمە چالاکییەکی ھاوبەشە لەگەڵ زانکۆی ئۆکسفۆردا.",
+                            onPressedBritish: () => speakcooperatives3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcooperatives3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ھاریکار بە کردنی ئەوەی داوات لێدەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Employees will generally be more cooperative if their views are taken seriously."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارمەندان بەشێوەیەکی گشتی زیاتر ھاریکار دەبن ئەگەر بۆچوونەکانیان بە گرنگییەوە وەربگیرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcooperatives4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcooperatives4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Employees will generally be more cooperative if their views are taken seriously.",
+                            kurdishText:
+                                "کارمەندان بەشێوەیەکی گشتی زیاتر ھاریکار دەبن ئەگەر بۆچوونەکانیان بە گرنگییەوە وەربگیرێت.",
+                            onPressedBritish: () => speakcooperatives4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcooperatives4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) کۆمپانیایەک یان دامەزراوەیەک کە خاوەنداری ھاوبەشی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cooperative movement started in Britain in the nineteenth century."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بزووتنەوە ھاوبەشەکە لە بەریتانیا لە سەدەی نۆزدەیەمدا دەستی پێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcooperatives5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcooperatives5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cooperative movement started in Britain in the nineteenth century.",
+                            kurdishText:
+                                "بزووتنەوە ھاوبەشەکە لە بەریتانیا لە سەدەی نۆزدەیەمدا دەستی پێکرد.",
+                            onPressedBritish: () => speakcooperatives5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcooperatives5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) بازرگانییەک یان چالاکییەکی ھاوبەش"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The family business is now run as a cooperative."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بازرگانییە خێزانییەکە وەک ھاوبەشییەک بەڕێوە دەبردرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcooperatives6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcooperatives6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The family business is now run as a cooperative.",
+                            kurdishText:
+                                "بازرگانییە خێزانییەکە وەک ھاوبەشییەک بەڕێوە دەبردرێت.",
+                            onPressedBritish: () => speakcooperatives6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcooperatives6("en-US"),
                           ),
                         ],
                       ),

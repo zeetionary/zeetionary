@@ -103,60 +103,21 @@ class EnglishEntryconvivial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەسایەتی و کەشێکی ھاوڕێیانە و دڵشاد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We passed a convivial evening at the McCabes’ house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێوارەیەکی دۆستانەمان بەسەر برد لە ماڵی مککەیبز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convivial", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvivials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvivials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We passed a convivial evening at the McCabes’ house.",
+                            kurdishText:
+                                "ئێوارەیەکی دۆستانەمان بەسەر برد لە ماڵی مککەیبز.", // convivial",
+                            onPressedBritish: () => speakconvivials1("en-GB"),
+                            onPressedAmerican: () => speakconvivials1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The talks ended on a convivial note."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گفتوگۆکان بە تێبینییەکی دۆستانە کۆتاییان ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvivials2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvivials2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The talks ended on a convivial note.",
+                            kurdishText:
+                                "گفتوگۆکان بە تێبینییەکی دۆستانە کۆتاییان ھات.",
+                            onPressedBritish: () => speakconvivials2("en-GB"),
+                            onPressedAmerican: () => speakconvivials2("en-US"),
                           ),
                         ],
                       ),

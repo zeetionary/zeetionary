@@ -174,63 +174,23 @@ class EnglishEntrycompetition extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بۆنەیەک کە تێیدا خەڵکی ڕکابەری دەکەن بۆ ئەوەی باشترینەکان بزانن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hundreds of schools entered the competition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەدان قوتابخانە بەژداری کێبڕکێیەکە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "competition", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompetitions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompetitions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Hundreds of schools entered the competition.",
+                            kurdishText:
+                                "سەدان قوتابخانە بەژداری کێبڕکێیەکە بوون.", // competition",
+                            onPressedBritish: () => speakcompetitions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompetitions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He won fourth place in the competition."),
-                                    ExampleSentenceKurdish(
-                                        text: "چوارەم بوو لە کێبڕکێیەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompetitions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompetitions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He won fourth place in the competition.",
+                            kurdishText: "چوارەم بوو لە کێبڕکێیەکەدا.",
+                            onPressedBritish: () => speakcompetitions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompetitions2("en-US"),
                           ),
                           Column(
                             children: [
@@ -333,157 +293,58 @@ class EnglishEntrycompetition extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دۆخێک کە خەڵکی یان کۆمەڵێک ڕێکخراو کێبڕکێ لەگەڵ یەکتر دەکەن بۆ شتێک کە ھەموویان ناتوانن ھەیان بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government said the new laws would enhance competition among banks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت گوتی کە یاسا نوێیەکان ڕکابەری بەھێز دەکات لە نێوان بانکەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompetitions6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompetitions6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government said the new laws would enhance competition among banks.",
+                            kurdishText:
+                                "حکومەت گوتی کە یاسا نوێیەکان ڕکابەری بەھێز دەکات لە نێوان بانکەکاندا.",
+                            onPressedBritish: () => speakcompetitions6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompetitions6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Public education is run in direct competition with the private sector."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندنی گشتی بەڕێوەدەبردرێت لە ڕکابەری ڕاستەوخۆدا لەگەڵ کەرتی تایبەتدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompetitions7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompetitions7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Public education is run in direct competition with the private sector.",
+                            kurdishText:
+                                "خوێندنی گشتی بەڕێوەدەبردرێت لە ڕکابەری ڕاستەوخۆدا لەگەڵ کەرتی تایبەتدا.",
+                            onPressedBritish: () => speakcompetitions7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompetitions7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are in competition with four other companies for the contract."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەگەڵ چوار کۆمپانیای دیکەدا لە ڕکابەریداین بۆ گرێبەستەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompetitions8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompetitions8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are in competition with four other companies for the contract.",
+                            kurdishText:
+                                "لەگەڵ چوار کۆمپانیای دیکەدا لە ڕکابەریداین بۆ گرێبەستەکە.",
+                            onPressedBritish: () => speakcompetitions8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompetitions8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Competition is heating up and sales are shrinking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕکابەری گەرم دەبێت و فرۆشتن دادەبەزێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompetitions9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompetitions9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Competition is heating up and sales are shrinking.",
+                            kurdishText:
+                                "ڕکابەری گەرم دەبێت و فرۆشتن دادەبەزێت.",
+                            onPressedBritish: () => speakcompetitions9("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompetitions9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەو کەسانەی ڕکابەری دەکەن لەگەڵ کەسێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This car consistently outperforms the competition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ئۆتۆمبێلە بەردەوام لەوانی دیکە باشتر دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompetitions10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompetitions10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This car consistently outperforms the competition.",
+                            kurdishText:
+                                "ئەم ئۆتۆمبێلە بەردەوام لەوانی دیکە باشتر دەبێت.",
+                            onPressedBritish: () =>
+                                speakcompetitions10("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompetitions10("en-US"),
                           ),
                         ],
                       ),

@@ -186,34 +186,14 @@ class EnglishEntrycarnivorous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گۆشت‌خۆر، سەربە گۆشت‌خۆران"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I gave up my carnivorous diet several years ago."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەند ساڵێک پێش ئێستا وازم لە خۆراکی گۆشتیم ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carnivorous", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarnivorouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarnivorouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I gave up my carnivorous diet several years ago.",
+                            kurdishText:
+                                "چەند ساڵێک پێش ئێستا وازم لە خۆراکی گۆشتیم ھێنا.", // carnivorous",
+                            onPressedBritish: () => speakcarnivorouss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarnivorouss1("en-US"),
                           ),
                         ],
                       ),

@@ -187,32 +187,13 @@ class EnglishEntrycarrierbag extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) تورەکەیەکی پلاستیکی یان کاغەزی بۆ ھەڵگرتنی ئەو شتانەی دەیکڕیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After shopping, she placed her groceries in a carrier bag."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای بازاڕکردن، شتەکانی خستە ناو تورەکەیەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carrier bag", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarrierbags1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarrierbags1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After shopping, she placed her groceries in a carrier bag.",
+                            kurdishText:
+                                "لە دوای بازاڕکردن، شتەکانی خستە ناو تورەکەیەکەوە.", // carrier bag",
+                            onPressedBritish: () => speakcarrierbags1("en-GB"),
+                            onPressedAmerican: () => speakcarrierbags1("en-US"),
                           ),
                         ],
                       ),

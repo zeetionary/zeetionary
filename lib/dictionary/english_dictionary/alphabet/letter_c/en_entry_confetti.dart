@@ -94,32 +94,13 @@ class EnglishEntryconfetti extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچە کاغەزی بچووک کە خەڵکی زۆرجار لە ئاھەنگی ھاوسەرگیری یان بۆنەی دیکەدا ھەڵیدەدەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Confetti showered down on the newly-weds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەخشانە دەباریە سەر تازە ھاوسەرەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confetti", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfettis1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfettis1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Confetti showered down on the newly-weds.",
+                            kurdishText:
+                                "پەخشانە دەباریە سەر تازە ھاوسەرەکاندا.", // confetti",
+                            onPressedBritish: () => speakconfettis1("en-GB"),
+                            onPressedAmerican: () => speakconfettis1("en-US"),
                           ),
                         ],
                       ),

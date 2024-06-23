@@ -106,61 +106,23 @@ class EnglishEntrycontemplative extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بیرکردنەوە بە ھێمنی و قووڵی سەبارەت بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She was in contemplative mood."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە کەشێکی تێڕاماویدا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contemplative", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemplatives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemplatives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was in contemplative mood.",
+                            kurdishText:
+                                "لە کەشێکی تێڕاماویدا بوو.", // contemplative",
+                            onPressedBritish: () =>
+                                speakcontemplatives1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemplatives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gave her a contemplative look."),
-                                    ExampleSentenceKurdish(
-                                        text: "نیگایەکی تێڕاماوی لێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemplatives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemplatives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He gave her a contemplative look.",
+                            kurdishText: "نیگایەکی تێڕاماوی لێکرد.",
+                            onPressedBritish: () =>
+                                speakcontemplatives2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemplatives2("en-US"),
                           ),
                         ],
                       ),

@@ -190,59 +190,22 @@ class EnglishEntrycarnage extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کوشتنی دڕندانەی ژمارەیەکی زۆر لە خەڵک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The scene of carnage was indescribable."),
-                                    ExampleSentenceKurdish(
-                                        text: "دیمەنی کوشت‌وبڕەکە باسنەدەکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carnage", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarnages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarnages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The scene of carnage was indescribable.",
+                            kurdishText:
+                                "دیمەنی کوشت‌وبڕەکە باسنەدەکرا.", // carnage",
+                            onPressedBritish: () => speakcarnages1("en-GB"),
+                            onPressedAmerican: () => speakcarnages1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How can we reduce the carnage on our roads?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن دەتوانین کوشندەیی ڕێگاکانمان کەم بکەینەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarnages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarnages2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How can we reduce the carnage on our roads?",
+                            kurdishText:
+                                "چۆن دەتوانین کوشندەیی ڕێگاکانمان کەم بکەینەوە؟",
+                            onPressedBritish: () => speakcarnages2("en-GB"),
+                            onPressedAmerican: () => speakcarnages2("en-US"),
                           ),
                         ],
                       ),

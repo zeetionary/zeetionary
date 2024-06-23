@@ -274,58 +274,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) حەزێکی زۆر بۆ زانین سەبارەت بە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Children show curiosity about everything."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵان زانین‌خوازییان بۆ ھەموو شتێک ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curiosity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuriositys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuriositys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Children show curiosity about everything.",
+            kurdishText:
+                "منداڵان زانین‌خوازییان بۆ ھەموو شتێک ھەیە.", // curiosity", please follow LX instructions
+            onPressedBritish: () => speakcuriositys1("en-GB"),
+            onPressedAmerican: () => speakcuriositys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I felt a certain curiosity to see what would happen next."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەستم بە مەراقێکی دیاریکراو کرد کە دواتر چی ڕوودەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuriositys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuriositys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I felt a certain curiosity to see what would happen next.",
+            kurdishText:
+                "ھەستم بە مەراقێکی دیاریکراو کرد کە دواتر چی ڕوودەدات.",
+            onPressedBritish: () => speakcuriositys2("en-GB"),
+            onPressedAmerican: () => speakcuriositys2("en-US"),
           ),
           Column(
             children: [
@@ -419,30 +382,11 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) شتێکی نامۆ یان نائاسایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The museum is full of historical curiosities."),
-                    ExampleSentenceKurdish(
-                        text: "مۆزەخانەکە پڕ لە دانسقەی مێژووییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuriositys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuriositys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The museum is full of historical curiosities.",
+            kurdishText: "مۆزەخانەکە پڕ لە دانسقەی مێژووییە.",
+            onPressedBritish: () => speakcuriositys6("en-GB"),
+            onPressedAmerican: () => speakcuriositys6("en-US"),
           ),
         ],
       ),

@@ -187,32 +187,13 @@ class EnglishEntrycarol extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گۆرانی ئایینی کە لە کریسمسدا دەگوترێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "\"Silent Night\" is my favourite (Christmas) carol."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "\"Silent Night\" سروودی دڵخوازی کریسمسمە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carol", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarols1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarols1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "\"Silent Night\" is my favourite (Christmas) carol.",
+                            kurdishText:
+                                "\"Silent Night\" سروودی دڵخوازی کریسمسمە.", // carol",
+                            onPressedBritish: () => speakcarols1("en-GB"),
+                            onPressedAmerican: () => speakcarols1("en-US"),
                           ),
                         ],
                       ),

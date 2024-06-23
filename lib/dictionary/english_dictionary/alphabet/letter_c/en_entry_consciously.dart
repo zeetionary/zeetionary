@@ -104,67 +104,27 @@ class EnglishEntryconsciously extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە ئاگات لە شتێک ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sound has more profound effects on us than we consciously realize."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگ کاریگەری زۆر زیاتری لەسەرمان ھەیە وەک لەوەی بەئاگایانە پێی دەزانین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consciously", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsciouslys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsciouslys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sound has more profound effects on us than we consciously realize.",
+                            kurdishText:
+                                "دەنگ کاریگەری زۆر زیاتری لەسەرمان ھەیە وەک لەوەی بەئاگایانە پێی دەزانین.", // consciously",
+                            onPressedBritish: () => speakconsciouslys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsciouslys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە بە ئەنقەست دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't think she's consciously rude to people - it's just the way she is."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێم وانییە بە ئەنقەست بێ ڕێزە بەرامبەر خەڵکی، تەنھا ھەر خۆی وایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsciouslys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsciouslys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't think she's consciously rude to people - it's just the way she is.",
+                            kurdishText:
+                                "پێم وانییە بە ئەنقەست بێ ڕێزە بەرامبەر خەڵکی، تەنھا ھەر خۆی وایە.",
+                            onPressedBritish: () => speakconsciouslys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsciouslys2("en-US"),
                           ),
                         ],
                       ),

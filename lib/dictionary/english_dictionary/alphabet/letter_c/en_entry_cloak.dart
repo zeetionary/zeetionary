@@ -119,119 +119,41 @@ class EnglishEntrycloak extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جبەیەک کە قۆڵی نییە و لەسەر شان دەبەسترێت و شۆڕدەبێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She threw a heavy cloak over her shoulders."),
-                                    ExampleSentenceKurdish(
-                                        text: "جبەیەکی قورسی دا بە شانیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cloak", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloaks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloaks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She threw a heavy cloak over her shoulders.",
+                            kurdishText:
+                                "جبەیەکی قورسی دا بە شانیدا.", // cloak",
+                            onPressedBritish: () => speakcloaks1("en-GB"),
+                            onPressedAmerican: () => speakcloaks1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شتێک کە کەسێک/شتێک دەشارێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The author prefers to hide behind a cloak of anonymity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نووسەرەکە وا بەباش دادەنێت کە لە پشت پەردەوە بمێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloaks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloaks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The author prefers to hide behind a cloak of anonymity.",
+                            kurdishText:
+                                "نووسەرەکە وا بەباش دادەنێت کە لە پشت پەردەوە بمێنێتەوە.",
+                            onPressedBritish: () => speakcloaks2("en-GB"),
+                            onPressedAmerican: () => speakcloaks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) داپۆشین یان شاردنەوەی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hills were cloaked in thick mist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گردەکان لە تەمێکی چڕدا داپۆشراوبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloaks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloaks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hills were cloaked in thick mist.",
+                            kurdishText: "گردەکان لە تەمێکی چڕدا داپۆشراوبوون.",
+                            onPressedBritish: () => speakcloaks3("en-GB"),
+                            onPressedAmerican: () => speakcloaks3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The meeting was cloaked in mystery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوپێکەوتنەکە بە نھێنی ھێڵدرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloaks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloaks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The meeting was cloaked in mystery.",
+                            kurdishText: "چاوپێکەوتنەکە بە نھێنی ھێڵدرایەوە.",
+                            onPressedBritish: () => speakcloaks4("en-GB"),
+                            onPressedAmerican: () => speakcloaks4("en-US"),
                           ),
                         ],
                       ),

@@ -103,60 +103,22 @@ class EnglishEntrycopulation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئەنجامدانی سێکس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Among grey seals, copulation may occur either on land or in the water."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە نێوان سەگە ئاوییە خۆڵەمێشییەکاندا، جووتبوون دەکرێت لەسەر زەوی یان لە ئاودا ڕووبدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "copulation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopulations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopulations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Among grey seals, copulation may occur either on land or in the water.",
+                            kurdishText:
+                                "لە نێوان سەگە ئاوییە خۆڵەمێشییەکاندا، جووتبوون دەکرێت لەسەر زەوی یان لە ئاودا ڕووبدات.", // copulation",
+                            onPressedBritish: () => speakcopulations1("en-GB"),
+                            onPressedAmerican: () => speakcopulations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All the while, the petty business of life continues - eating, drinking, copulation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو کات، کاری بێھوودەی ژیان بەردەوام دەبێت لە خواردن و خواردنەوە و جووتبووندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopulations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopulations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All the while, the petty business of life continues - eating, drinking, copulation.",
+                            kurdishText:
+                                "ھەموو کات، کاری بێھوودەی ژیان بەردەوام دەبێت لە خواردن و خواردنەوە و جووتبووندا.",
+                            onPressedBritish: () => speakcopulations2("en-GB"),
+                            onPressedAmerican: () => speakcopulations2("en-US"),
                           ),
                         ],
                       ),

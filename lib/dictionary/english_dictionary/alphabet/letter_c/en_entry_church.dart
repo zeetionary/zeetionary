@@ -185,59 +185,22 @@ class EnglishEntrychurch extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کڵێسا؛ شوێنی مەسیحییەکان بۆ نوێژکردن، بۆنەی ئایینی، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The procession moved into the church."),
-                                    ExampleSentenceKurdish(
-                                        text: "قافڵەکە چوونە ناو کڵێساکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "church", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The procession moved into the church.",
+                            kurdishText:
+                                "قافڵەکە چوونە ناو کڵێساکە.", // church",
+                            onPressedBritish: () => speakchurchs1("en-GB"),
+                            onPressedAmerican: () => speakchurchs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was actively involved in church groups."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە چووستییەوە بەژدار بوو لەناو گرووپەکانی کڵێسادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was actively involved in church groups.",
+                            kurdishText:
+                                "بە چووستییەوە بەژدار بوو لەناو گرووپەکانی کڵێسادا.",
+                            onPressedBritish: () => speakchurchs2("en-GB"),
+                            onPressedAmerican: () => speakchurchs2("en-US"),
                           ),
                           Column(
                             children: [
@@ -372,178 +335,62 @@ class EnglishEntrychurch extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بۆنەیەک یان ئەو بۆنانەی لە کڵێسادا دەکرێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They're in church."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە بۆنەی کڵێساکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They're in church.",
+                            kurdishText: "لە بۆنەی کڵێساکەن.",
+                            onPressedBritish: () => speakchurchs7("en-GB"),
+                            onPressedAmerican: () => speakchurchs7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Lots of people still get married in church."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرکەس ھێشتا لە بۆنەیەکی کڵێسادا ھاوسەرگیری دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Lots of people still get married in church.",
+                            kurdishText:
+                                "زۆرکەس ھێشتا لە بۆنەیەکی کڵێسادا ھاوسەرگیری دەکەن.",
+                            onPressedBritish: () => speakchurchs8("en-GB"),
+                            onPressedAmerican: () => speakchurchs8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) گرووپێکی دیاریکراوی مەسیحییەکان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Catholic Church teaches that life begins at conception."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڵێسای کاسۆلیک ئەوە فێردەکات کە ژیان لە ئاوسبوونەوە دەستپێ‌دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Catholic Church teaches that life begins at conception.",
+                            kurdishText:
+                                "کڵێسای کاسۆلیک ئەوە فێردەکات کە ژیان لە ئاوسبوونەوە دەستپێ‌دەکات.",
+                            onPressedBritish: () => speakchurchs9("en-GB"),
+                            onPressedAmerican: () => speakchurchs9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Small evangelical churches often provide their members with a strong sense of community and family."),
-                                    ExampleSentenceKurdish(
-                                      text:
-                                          "ھەندێک کڵێسای ئینجیلی ھەستێکی بەھێزی کۆمەڵگە و خێزان لای ئەندامەکانیان درووست دەکەن.",
-                                      note:
-                                          "کڵێسای ئینجیلی کڵێسای ئەو کەسانەیە کە باوەڕیان بە گرنگی ئینجیل ھەیە لە ژیانی ڕۆژانەدا و ھەوڵدان بۆ ئەوەی کەسانی دیکەش شوێنیان بکەون",
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Small evangelical churches often provide their members with a strong sense of community and family.",
+                            kurdishText:
+                                "ھەندێک کڵێسای ئینجیلی ھەستێکی بەھێزی کۆمەڵگە و خێزان لای ئەندامەکانیان درووست دەکەن.",
+                            kurdishNote:
+                                "کڵێسای ئینجیلی کڵێسای ئەو کەسانەیە کە باوەڕیان بە گرنگی ئینجیل ھەیە لە ژیانی ڕۆژانەدا و ھەوڵدان بۆ ئەوەی کەسانی دیکەش شوێنیان بکەون",
+                            onPressedBritish: () => speakchurchs10("en-GB"),
+                            onPressedAmerican: () => speakchurchs10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ئەو کەسانەی کە کڵێسا بەڕێوەدەبەن، یان دامەزراوە مەسیحییەکان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Church has a duty to condemn violence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڵێسا دەبێت توندوتیژی سەرکۆنە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Church has a duty to condemn violence.",
+                            kurdishText: "کڵێسا دەبێت توندوتیژی سەرکۆنە بکات.",
+                            onPressedBritish: () => speakchurchs11("en-GB"),
+                            onPressedAmerican: () => speakchurchs11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some people think the Church shouldn't interfere in politics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کەس باوەڕیان وایە کە کڵێسا دەبێت لە سیاسەت تێوەنەگلێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurchs12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchs12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some people think the Church shouldn't interfere in politics.",
+                            kurdishText:
+                                "ھەندێک کەس باوەڕیان وایە کە کڵێسا دەبێت لە سیاسەت تێوەنەگلێت.",
+                            onPressedBritish: () => speakchurchs12("en-GB"),
+                            onPressedAmerican: () => speakchurchs12("en-US"),
                           ),
                         ],
                       ),

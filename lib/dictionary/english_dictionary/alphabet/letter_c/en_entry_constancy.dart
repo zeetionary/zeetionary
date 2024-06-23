@@ -103,62 +103,23 @@ class EnglishEntryconstancy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خاسیەتی مانەوە بە ھەمان شێوە و نەگۆڕان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The constancy of temperature inside the plane ensured a comfortable flight for the passengers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەگۆڕی پلەی گەرمی لەناو فڕۆکەکەدا دڵنیایی لە گەشتێکی ئارام بۆ گەشتیاران کردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constancy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstancys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstancys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The constancy of temperature inside the plane ensured a comfortable flight for the passengers.",
+                            kurdishText:
+                                "نەگۆڕی پلەی گەرمی لەناو فڕۆکەکەدا دڵنیایی لە گەشتێکی ئارام بۆ گەشتیاران کردەوە.", // constancy",
+                            onPressedBritish: () => speakconstancys1("en-GB"),
+                            onPressedAmerican: () => speakconstancys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ھەبوونی وەفاداری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He admired her courage and constancy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسام بوو بە بوێریی و وەفاداریی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstancys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstancys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He admired her courage and constancy.",
+                            kurdishText: "سەرسام بوو بە بوێریی و وەفاداریی.",
+                            onPressedBritish: () => speakconstancys2("en-GB"),
+                            onPressedAmerican: () => speakconstancys2("en-US"),
                           ),
                         ],
                       ),

@@ -130,150 +130,55 @@ class EnglishEntryconception extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تێگەشتن یان باوەڕی ئەوەی شتێک/کەسێک چییە یان دەبێت چۆن بێت "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has no conception of how difficult life is if you're unemployed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ تێگەشتنێکی نییە بۆ ئەوەی چەندە ژیان دەکرێت قورس بێت ئەگەر بێکار بیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conception", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceptions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceptions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has no conception of how difficult life is if you're unemployed.",
+                            kurdishText:
+                                "ھیچ تێگەشتنێکی نییە بۆ ئەوەی چەندە ژیان دەکرێت قورس بێت ئەگەر بێکار بیت.", // conception",
+                            onPressedBritish: () => speakconceptions1("en-GB"),
+                            onPressedAmerican: () => speakconceptions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our conception of relationships is largely formed in early childhood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێگەشتنمان بۆ پەیوەندی بە زۆری لە منداڵیدا درووست دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceptions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceptions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our conception of relationships is largely formed in early childhood.",
+                            kurdishText:
+                                "تێگەشتنمان بۆ پەیوەندی بە زۆری لە منداڵیدا درووست دەبێت.",
+                            onPressedBritish: () => speakconceptions2("en-GB"),
+                            onPressedAmerican: () => speakconceptions2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You have no conception of what her life is like."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ تیگەشتنێکت نییە کە ژیانی دەکرێت چۆن بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceptions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceptions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You have no conception of what her life is like.",
+                            kurdishText:
+                                "ھیچ تیگەشتنێکت نییە کە ژیانی دەکرێت چۆن بێت.",
+                            onPressedBritish: () => speakconceptions3("en-GB"),
+                            onPressedAmerican: () => speakconceptions3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پڕۆسەی گەڵاڵەکردنی بیرۆکەیەک یان پلانێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plan was brilliant in its conception but failed because of lack of money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانەکە لە گەڵاڵەکردنیدا بلیمەتانە بوو بەڵام شکستیھێنا بەھۆی کەمی پارەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceptions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceptions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The plan was brilliant in its conception but failed because of lack of money.",
+                            kurdishText:
+                                "پلانەکە لە گەڵاڵەکردنیدا بلیمەتانە بوو بەڵام شکستیھێنا بەھۆی کەمی پارەوە.",
+                            onPressedBritish: () => speakconceptions4("en-GB"),
+                            onPressedAmerican: () => speakconceptions4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) پڕۆسەی پیتاندنی ھێلکە لە جەستەی ژندا و دەستپێکردنی دووگیانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A child is born about 40 weeks after conception takes place."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵ لەدایک دەبێت نزیکەی ٤٠ ھەفتە دوای ئەوەی دووگیانی ڕوودەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceptions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceptions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A child is born about 40 weeks after conception takes place.",
+                            kurdishText:
+                                "منداڵ لەدایک دەبێت نزیکەی ٤٠ ھەفتە دوای ئەوەی دووگیانی ڕوودەدات.",
+                            onPressedBritish: () => speakconceptions5("en-GB"),
+                            onPressedAmerican: () => speakconceptions5("en-US"),
                           ),
                         ],
                       ),

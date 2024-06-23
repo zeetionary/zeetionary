@@ -298,87 +298,31 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: (بیرکاری، ھێڵ) چەماوە، ھێڵی چەمیو،	چەماوی، چەم، نووچی، داھاتنەوە، کەوانی، کەچی، چەوتی،	(ڕێگا) پێچ،	ھێڵێکی بەردەوام بە بێ‌گۆشە
 """),
           const DefinitionKurdish(text: "١. (ناو) چەماوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The pattern was made up of straight lines and curves."),
-                    ExampleSentenceKurdish(
-                        text: "شێوەکە لە ڕاستەھێڵ و چەماوە پێکھاتبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curve", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurves1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurves1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The pattern was made up of straight lines and curves.",
+            kurdishText:
+                "شێوەکە لە ڕاستەھێڵ و چەماوە پێکھاتبوو.", // curve", please follow LX instructions
+            onPressedBritish: () => speakcurves1("en-GB"),
+            onPressedAmerican: () => speakcurves1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The driver lost control on a curve and the vehicle hit a tree."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شۆفێرەکە لە چەماوەیەکدا کۆنترۆڵی لەدەستدا و کێشای بە درەختێکدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurves2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurves2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The driver lost control on a curve and the vehicle hit a tree.",
+            kurdishText:
+                "شۆفێرەکە لە چەماوەیەکدا کۆنترۆڵی لەدەستدا و کێشای بە درەختێکدا.",
+            onPressedBritish: () => speakcurves2("en-GB"),
+            onPressedAmerican: () => speakcurves2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This figure shows the population curve for the last hundred years."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ئامارە چەماوەیەکی دانیشتووان لە سەد ساڵی ڕابردوودا پیشان دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurves3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurves3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This figure shows the population curve for the last hundred years.",
+            kurdishText:
+                "ئەم ئامارە چەماوەیەکی دانیشتووان لە سەد ساڵی ڕابردوودا پیشان دەدات.",
+            onPressedBritish: () => speakcurves3("en-GB"),
+            onPressedAmerican: () => speakcurves3("en-US"),
           ),
           Column(
             children: [
@@ -444,110 +388,34 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) بەرزی و نزمی لەشی ژن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dress hugged her curves beautifully."),
-                    ExampleSentenceKurdish(
-                        text: "جلەکە قەندەکانی بە جوانی دەرخستبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurves6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurves6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dress hugged her curves beautifully.",
+            kurdishText: "جلەکە قەندەکانی بە جوانی دەرخستبوو.",
+            onPressedBritish: () => speakcurves6("en-GB"),
+            onPressedAmerican: () => speakcurves6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) جوڵان لە شێوەی قەوسێکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The road curved around the bay."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێگاکە لە نزیک کەنداوەکە قەوس دەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurves7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurves7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The road curved around the bay.",
+            kurdishText: "ڕێگاکە لە نزیک کەنداوەکە قەوس دەبوو.",
+            onPressedBritish: () => speakcurves7("en-GB"),
+            onPressedAmerican: () => speakcurves7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The ball curved through the air."),
-                    ExampleSentenceKurdish(
-                        text: "تۆپەکە بە قەوسی چوو بە حەوادا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurves8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurves8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The ball curved through the air.",
+            kurdishText: "تۆپەکە بە قەوسی چوو بە حەوادا.",
+            onPressedBritish: () => speakcurves8("en-GB"),
+            onPressedAmerican: () => speakcurves8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His lips curved in a smile.",
-                        note: "Also: A smile curved his lips."),
-                    ExampleSentenceKurdish(
-                        text: "لێوەکانی بە بزەیەک قەوس بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurves9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurves9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His lips curved in a smile.",
+            englishNote: "Also: A smile curved his lips.",
+            kurdishText: "لێوەکانی بە بزەیەک قەوس بوون.",
+            onPressedBritish: () => speakcurves9("en-GB"),
+            onPressedAmerican: () => speakcurves9("en-US"),
           ),
         ],
       ),

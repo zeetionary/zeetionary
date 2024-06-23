@@ -155,175 +155,60 @@ class EnglishEntrycinema extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بینایەک کە تێیدا فیلم نمایش دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The film has just opened in cinemas across the UK."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە تازەگی لە سینەماکانی بەریتانیا دەستی بە نمایش کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cinema", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcinemas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcinemas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The film has just opened in cinemas across the UK.",
+                            kurdishText:
+                                "فیلمەکە تازەگی لە سینەماکانی بەریتانیا دەستی بە نمایش کرد.", // cinema",
+                            onPressedBritish: () => speakcinemas1("en-GB"),
+                            onPressedAmerican: () => speakcinemas1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We were sitting in the cinema, waiting for the film to begin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە سینەماکە دانیشتبووین و چاوەڕێی فیلمەکە بووین دەستپێ بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcinemas2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcinemas2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We were sitting in the cinema, waiting for the film to begin.",
+                            kurdishText:
+                                "لە سینەماکە دانیشتبووین و چاوەڕێی فیلمەکە بووین دەستپێ بکات.",
+                            onPressedBritish: () => speakcinemas2("en-GB"),
+                            onPressedAmerican: () => speakcinemas2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) چوون بۆ سەیری فیلم لە سینەما"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I used to go to the cinema every week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران ھەموو ھەفتەیەک دەچووم بۆ سینەما."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcinemas3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcinemas3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I used to go to the cinema every week.",
+                            kurdishText:
+                                "جاران ھەموو ھەفتەیەک دەچووم بۆ سینەما.",
+                            onPressedBritish: () => speakcinemas3("en-GB"),
+                            onPressedAmerican: () => speakcinemas3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How often do you go to the cinema?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چەندە دەچیت بۆ سینەما؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcinemas4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcinemas4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "How often do you go to the cinema?",
+                            kurdishText: "چەندە دەچیت بۆ سینەما؟",
+                            onPressedBritish: () => speakcinemas4("en-GB"),
+                            onPressedAmerican: () => speakcinemas4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) فیلم وەک ھونەر یان پیشەسازی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was honoured for his outstanding contribution to cinema."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێزی لێگیردرا بۆ بەخشینی یەکجار باشی بە سینەما."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcinemas5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcinemas5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was honoured for his outstanding contribution to cinema.",
+                            kurdishText:
+                                "ڕێزی لێگیردرا بۆ بەخشینی یەکجار باشی بە سینەما.",
+                            onPressedBritish: () => speakcinemas5("en-GB"),
+                            onPressedAmerican: () => speakcinemas5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was well known for his work in cinema."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باش ناسراو بوو بۆ کارەکانی لە سینەمادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcinemas6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcinemas6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was well known for his work in cinema.",
+                            kurdishText:
+                                "باش ناسراو بوو بۆ کارەکانی لە سینەمادا.",
+                            onPressedBritish: () => speakcinemas6("en-GB"),
+                            onPressedAmerican: () => speakcinemas6("en-US"),
                           ),
                           Column(
                             children: [

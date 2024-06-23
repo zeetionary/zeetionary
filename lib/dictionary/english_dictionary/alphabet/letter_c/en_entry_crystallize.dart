@@ -251,88 +251,27 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) وابکەیت بیرۆکە، باوەڕ، ھتد ڕوون و جێگیر بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Our ideas began to crystallize into a definite plan."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بیرۆکەکانمان دەستیان کرد بەوەی ببن بە پلانێکی دیاریکراو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crystallize", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrystallizes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrystallizes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Our ideas began to crystallize into a definite plan.",
+            kurdishText:
+                "بیرۆکەکانمان دەستیان کرد بەوەی ببن بە پلانێکی دیاریکراو.", // crystallize", please follow LX instructions
+            onPressedBritish: () => speakcrystallizes1("en-GB"),
+            onPressedAmerican: () => speakcrystallizes1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The final chapter crystallizes all the main issues."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆتا بەش ھەموو بابەتە سەرەکییەکان ڕوون دەکاتەوە*."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrystallizes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrystallizes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The final chapter crystallizes all the main issues.",
+            kurdishText: "کۆتا بەش ھەموو بابەتە سەرەکییەکان ڕوون دەکاتەوە*.",
+            onPressedBritish: () => speakcrystallizes2("en-GB"),
+            onPressedAmerican: () => speakcrystallizes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) کردن بە کریستاڵ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The salt crystallizes as the water evaporates."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خوێیەکە دەبێت بە کریستاڵ کە ئاوەکە بە ھەڵم دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrystallizes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrystallizes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The salt crystallizes as the water evaporates.",
+            kurdishText: "خوێیەکە دەبێت بە کریستاڵ کە ئاوەکە بە ھەڵم دەبێت.",
+            onPressedBritish: () => speakcrystallizes3("en-GB"),
+            onPressedAmerican: () => speakcrystallizes3("en-US"),
           ),
         ],
       ),

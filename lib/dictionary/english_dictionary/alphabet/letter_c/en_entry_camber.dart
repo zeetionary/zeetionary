@@ -193,32 +193,13 @@ class EnglishEntrycamber extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) داکشانێک لە ناوەڕاستی ڕێگاوە بۆ ھەردوو لا بۆ ئەوەی ئاو دەربچێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The road was designed with a noticeable camber for water drainage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگاکە بە گورگەپشتێکی دیارەوە دیزاین کرابوو بۆ ڕێگەدان بە ئاوەچۆڕکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "camber", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcambers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcambers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The road was designed with a noticeable camber for water drainage.",
+                            kurdishText:
+                                "ڕێگاکە بە گورگەپشتێکی دیارەوە دیزاین کرابوو بۆ ڕێگەدان بە ئاوەچۆڕکردن.", // camber
+                            onPressedBritish: () => speakcambers1("en-GB"),
+                            onPressedAmerican: () => speakcambers1("en-US"),
                           ),
                         ],
                       ),

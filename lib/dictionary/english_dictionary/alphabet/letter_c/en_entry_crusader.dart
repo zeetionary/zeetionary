@@ -242,62 +242,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە ھەوڵێکی ڕشت و درێژ دەدات بۆ بەدەستھێنانی شتێک کە پێی وایە ڕاستە یان وەستاندنی شتێک کە پێی وایە ھەڵەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He has set himself up as a crusader for higher standards in the media."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆی تەرخان کردووە وەک خەباتکارێک بۆ ستانداردی بەرزتر لە میدیادا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crusader", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrusaders1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrusaders1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He has set himself up as a crusader for higher standards in the media.",
+            kurdishText:
+                "خۆی تەرخان کردووە وەک خەباتکارێک بۆ ستانداردی بەرزتر لە میدیادا.", // crusader", please follow LX instructions
+            onPressedBritish: () => speakcrusaders1("en-GB"),
+            onPressedAmerican: () => speakcrusaders1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) جەنگاوەرێکی جەنگی خاچپەرستان (ھەریەک لەو جەنگانەی کە لە فەلەستین ئەنجامدرا لەلایەن مەسیحییەکانەوە دژ بە موسڵمانان لە سەدەکانی ١١، ١٢، ١٣، و ١٧)"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "In 1204 Crusaders captured Constantinople."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ساڵی ١٢٠٤ خاچپەرستان کۆنستانتینۆپڵیان (ئەستەنبوڵ) گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrusaders2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrusaders2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "In 1204 Crusaders captured Constantinople.",
+            kurdishText:
+                "لە ساڵی ١٢٠٤ خاچپەرستان کۆنستانتینۆپڵیان (ئەستەنبوڵ) گرت.",
+            onPressedBritish: () => speakcrusaders2("en-GB"),
+            onPressedAmerican: () => speakcrusaders2("en-US"),
           ),
         ],
       ),

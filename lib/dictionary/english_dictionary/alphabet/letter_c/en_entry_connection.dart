@@ -239,60 +239,22 @@ class EnglishEntryconnection extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە دوو ڕاستی، بیرۆکە، ھتد پێکەوە دەبەستێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scientists have established a connection between cholesterol levels and heart disease."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاناکان پەیوەندییەکیان لە نێوان ئاستی کۆلێسترۆڵ و نەخۆشی دڵ درووستکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "connection", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnections1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnections1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scientists have established a connection between cholesterol levels and heart disease.",
+                            kurdishText:
+                                "زاناکان پەیوەندییەکیان لە نێوان ئاستی کۆلێسترۆڵ و نەخۆشی دڵ درووستکردووە.", // connection",
+                            onPressedBritish: () => speakconnections1("en-GB"),
+                            onPressedAmerican: () => speakconnections1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His resignation must have some connection with the recent scandal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستلەکارکێشانەوەکەی دەبێت پەیوەندییەکی ھەبووبێت بە ئابڕووچوونەکەی ئەم دواییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnections2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnections2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His resignation must have some connection with the recent scandal.",
+                            kurdishText:
+                                "دەستلەکارکێشانەوەکەی دەبێت پەیوەندییەکی ھەبووبێت بە ئابڕووچوونەکەی ئەم دواییە.",
+                            onPressedBritish: () => speakconnections2("en-GB"),
+                            onPressedAmerican: () => speakconnections2("en-US"),
                           ),
                           Column(
                             children: [
@@ -425,372 +387,132 @@ class EnglishEntryconnection extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دۆخی پێکەوەبەستراوی یان پەیوەستبووی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm having problems with my internet connection."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشەم ھەیە لە پەیوەندی ئینتەرنێتمدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnections7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnections7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm having problems with my internet connection.",
+                            kurdishText: "کێشەم ھەیە لە پەیوەندی ئینتەرنێتمدا.",
+                            onPressedBritish: () => speakconnections7("en-GB"),
+                            onPressedAmerican: () => speakconnections7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Connection to the gas supply was delayed for three days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندی بە سەرچاوەی گازەکەوە دواکەوت بۆ سێ ڕۆژ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnections8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnections8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Connection to the gas supply was delayed for three days.",
+                            kurdishText:
+                                "پەیوەندی بە سەرچاوەی گازەکەوە دواکەوت بۆ سێ ڕۆژ.",
+                            onPressedBritish: () => speakconnections8("en-GB"),
+                            onPressedAmerican: () => speakconnections8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sorry, could you repeat that? This is a very bad connection."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ببوورە، دەتوانیت دووبارەی بکەیتەوە؟ پەیوەندییەکی زۆر خراپە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnections9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnections9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sorry, could you repeat that? This is a very bad connection.",
+                            kurdishText:
+                                "ببوورە، دەتوانیت دووبارەی بکەیتەوە؟ پەیوەندییەکی زۆر خراپە.",
+                            onPressedBritish: () => speakconnections9("en-GB"),
+                            onPressedAmerican: () => speakconnections9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) خاڵێک کە تێیدا دوو بەش یەکدەگرن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A faulty connection caused the machine to stop."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێک‌بەستنەوەیەکی ھەڵە بووە ھۆکاری ئەوەی ئامێرەکە بوەستێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconnections10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconnections10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A faulty connection caused the machine to stop.",
+                            kurdishText:
+                                "پێک‌بەستنەوەیەکی ھەڵە بووە ھۆکاری ئەوەی ئامێرەکە بوەستێت.",
+                            onPressedBritish: () => speakconnections10("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconnections10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you break the connection, the light won't come on."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر پەوەندییەکە بپچڕێنیت، ڕۆشناییەکە پێنابێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconnections11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconnections11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you break the connection, the light won't come on.",
+                            kurdishText:
+                                "ئەگەر پەوەندییەکە بپچڕێنیت، ڕۆشناییەکە پێنابێت.",
+                            onPressedBritish: () => speakconnections11("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconnections11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) شەمەندەفەرێک، پاسێک، یان فڕۆکەیەک کە گەشتیارێکی دەتوانێت سەری بکەوێت ڕاستەوخۆ لە دوای جێھێشتنی یەکێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I missed the connection by five minutes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە پێنج خولەک درێژەپێدەرەکەم لەدەستدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconnections12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconnections12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I missed the connection by five minutes.",
+                            kurdishText:
+                                "بە پێنج خولەک درێژەپێدەرەکەم لەدەستدا.",
+                            onPressedBritish: () => speakconnections12("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconnections12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We arrived in good time for the connection to Paris."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتی گونجاودا گەشتین بۆ درێژەپێدەرەکەمان بۆ پاریس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconnections13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconnections13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We arrived in good time for the connection to Paris.",
+                            kurdishText:
+                                "لە کاتی گونجاودا گەشتین بۆ درێژەپێدەرەکەمان بۆ پاریس.",
+                            onPressedBritish: () => speakconnections13("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconnections13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We'll be lucky if we make our connection."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە بەخت دەبین ئەگەر بگەین بە درێژەپێدەرەکەماندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconnections14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconnections14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We'll be lucky if we make our connection.",
+                            kurdishText:
+                                "بە بەخت دەبین ئەگەر بگەین بە درێژەپێدەرەکەماندا.",
+                            onPressedBritish: () => speakconnections14("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconnections14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) ئامرازی گواستنەوە لە شوێنێکەوە بۆ شوێنێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are good bus and train connections between the resort and major cities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گواستنەوەی باشی پاس و شەمەندەفەر ھەیە لە نێوان سەیرانگاکە و شارە گرنگەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconnections15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconnections15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are good bus and train connections between the resort and major cities.",
+                            kurdishText:
+                                "گواستنەوەی باشی پاس و شەمەندەفەر ھەیە لە نێوان سەیرانگاکە و شارە گرنگەکاندا.",
+                            onPressedBritish: () => speakconnections15("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconnections15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) کەسێک یان دامەزراوەیەک کە دەیناسیت و یارمەتی و ڕاوێژ بە یەکدی دەدەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One of my business connections gave them my name."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە ناسیاوەکانی کارکردنم ناومی پێیان دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconnections16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconnections16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One of my business connections gave them my name.",
+                            kurdishText:
+                                "یەکێک لە ناسیاوەکانی کارکردنم ناومی پێیان دا.",
+                            onPressedBritish: () => speakconnections16("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconnections16("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He got his job through connections."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکەی وەرگرت لە ڕێگەی ناسیاوییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconnections17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconnections17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He got his job through connections.",
+                            kurdishText: "کارەکەی وەرگرت لە ڕێگەی ناسیاوییەوە.",
+                            onPressedBritish: () => speakconnections17("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconnections17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) کەسانێک کە خزمتن بەڵام ئەندامی خزانەکەت نین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is British but also has German connections."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەریتانییە بەڵام چەند خزمێکی ئەڵمانی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconnections18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconnections18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is British but also has German connections.",
+                            kurdishText:
+                                "بەریتانییە بەڵام چەند خزمێکی ئەڵمانی ھەیە.",
+                            onPressedBritish: () => speakconnections18("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconnections18("en-US"),
                           ),
                         ],
                       ),

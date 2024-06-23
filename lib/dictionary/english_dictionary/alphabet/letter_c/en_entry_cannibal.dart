@@ -193,32 +193,13 @@ class EnglishEntrycannibal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) مرۆڤێک کە مرۆڤ دەخوات، یان ئاژەڵێک کە لە ھەمان جۆری خۆی دەخوات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the horror movie, a group of friends stumbled upon a cave inhabited by cannibals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە فیلمە ترسناکەکەدا، ژمارەیەک ھاوڕێ ڕێیان ھەڵدەکەوێتە ئەشکەوتێک کە مرۆڤخۆری تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cannibal", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcannibals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcannibals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the horror movie, a group of friends stumbled upon a cave inhabited by cannibals.",
+                            kurdishText:
+                                "لە فیلمە ترسناکەکەدا، ژمارەیەک ھاوڕێ ڕێیان ھەڵدەکەوێتە ئەشکەوتێک کە مرۆڤخۆری تێدایە.", // cannibal
+                            onPressedBritish: () => speakcannibals1("en-GB"),
+                            onPressedAmerican: () => speakcannibals1("en-US"),
                           ),
                         ],
                       ),

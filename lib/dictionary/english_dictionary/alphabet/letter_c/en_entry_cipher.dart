@@ -130,152 +130,56 @@ class EnglishEntrycipher extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شێوازێکی نھێنی نووسین، بەتایبەتی یەکێک کە ژمارەیەک پیت و سمبول بەکاردێن بۆ ھێماکردنی ئەوانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The message was written in cipher."),
-                                    ExampleSentenceKurdish(
-                                        text: "نامەکە بە ھێما نووسرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cipher", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakciphers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakciphers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The message was written in cipher.",
+                            kurdishText:
+                                "نامەکە بە ھێما نووسرابوو.", // cipher",
+                            onPressedBritish: () => speakciphers1("en-GB"),
+                            onPressedAmerican: () => speakciphers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کەسێک یان شتێکی بێ‌نرخ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "To her employers she was a mere cipher, with no human feelings at all."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لای خاوەن کارەکانی تەنھا ھیچەکەیەک بووی تەواو بێ‌ھەست بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakciphers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakciphers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "To her employers she was a mere cipher, with no human feelings at all.",
+                            kurdishText:
+                                "لای خاوەن کارەکانی تەنھا ھیچەکەیەک بووی تەواو بێ‌ھەست بوو.",
+                            onPressedBritish: () => speakciphers2("en-GB"),
+                            onPressedAmerican: () => speakciphers2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) یەکەم پیتی ناوی کەسێک کە دیزاین کراوە و بەکاردێت وەک ھێمایەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The glasses were engraved with the Queen’s cipher."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شووشەکان ھێمای شاژنیان لێ درابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakciphers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakciphers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The glasses were engraved with the Queen’s cipher.",
+                            kurdishText: "شووشەکان ھێمای شاژنیان لێ درابوو.",
+                            onPressedBritish: () => speakciphers3("en-GB"),
+                            onPressedAmerican: () => speakciphers3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) کەسێک یان گرووپێک خەڵک کە دەسەڵاتیان نییە و لەلایەن کەسانی دیکەوە بۆ مەبەستی خۆیان بەکاردەھێنرێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The interim government is a mere cipher for military rule."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەتە کاربەڕێکەرەکە بوکەڵەی دەستی سوپایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakciphers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakciphers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The interim government is a mere cipher for military rule.",
+                            kurdishText:
+                                "حکومەتە کاربەڕێکەرەکە بوکەڵەی دەستی سوپایە.",
+                            onPressedBritish: () => speakciphers4("en-GB"),
+                            onPressedAmerican: () => speakciphers4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٥. (ناو) سفر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you have no children, enter a cipher in the space on the form."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر ھیچ منداڵت نییە، ژمارە سفر دابنێ لە بۆشایی فۆرمەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakciphers5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakciphers5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you have no children, enter a cipher in the space on the form.",
+                            kurdishText:
+                                "ئەگەر ھیچ منداڵت نییە، ژمارە سفر دابنێ لە بۆشایی فۆرمەکەدا.",
+                            onPressedBritish: () => speakciphers5("en-GB"),
+                            onPressedAmerican: () => speakciphers5("en-US"),
                           ),
                         ],
                       ),

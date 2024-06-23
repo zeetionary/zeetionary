@@ -112,99 +112,39 @@ class EnglishEntryconditional extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) مەرجدار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Payment is conditional upon delivery of the goods (= if the goods are not delivered, the money will not be paid)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارەدان مەرجدارە لەگەڵ گەشتنی کاڵاکان (کە کاڵاکان گەشتن ئەو کات پارە دەدەیت)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conditional", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconditionals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconditionals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Payment is conditional upon delivery of the goods (= if the goods are not delivered, the money will not be paid).",
+                            kurdishText:
+                                "پارەدان مەرجدارە لەگەڵ گەشتنی کاڵاکان (کە کاڵاکان گەشتن ئەو کات پارە دەدەیت).", // conditional",
+                            onPressedBritish: () => speakconditionals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconditionals1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) (ڕێزمان) ئەوەی کە شتێک ڕووبدات یان ڕاست بێت بۆ ئەوەی شتێکی دیکە ڕووبدات یان ڕاست بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "\"If I won a lot of money, I'd travel the world\" is an example of a conditional (sentence)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "\"ئەگەر پارەیەکی زۆر ببەمەوە بە جیھاندا گەشت دەکەم\" نموونەیەکی ڕستەی مەرجییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconditionals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconditionals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "\"If I won a lot of money, I'd travel the world\" is an example of a conditional (sentence).",
+                            kurdishText:
+                                "\"ئەگەر پارەیەکی زۆر ببەمەوە بە جیھاندا گەشت دەکەم\" نموونەیەکی ڕستەی مەرجییە.",
+                            onPressedBritish: () => speakconditionals2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconditionals2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ڕستەیەکی مەرجی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In English, the conditional is expressed by \"would\"."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئینگلیزیدا ڕستەی مەرجی بە \"would\" دەردەبڕدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconditionals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconditionals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In English, the conditional is expressed by \"would\".",
+                            kurdishText:
+                                "لە ئینگلیزیدا ڕستەی مەرجی بە \"would\" دەردەبڕدرێت.",
+                            onPressedBritish: () => speakconditionals3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconditionals3("en-US"),
                           ),
                         ],
                       ),

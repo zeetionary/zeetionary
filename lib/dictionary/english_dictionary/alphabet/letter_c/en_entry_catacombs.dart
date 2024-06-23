@@ -190,32 +190,13 @@ class EnglishEntrycatacombs extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) زنجیرەیەک لە تونێلی ژێر زەوی کە بۆ ناشتنی مردوو بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They went down into catacombs beneath the church."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوونەخوارەوە بۆ گۆڕستانی ژێر کڵێساکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catacombs", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatacombss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatacombss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They went down into catacombs beneath the church.",
+                            kurdishText:
+                                "چوونەخوارەوە بۆ گۆڕستانی ژێر کڵێساکە.", // catacombs",
+                            onPressedBritish: () => speakcatacombss1("en-GB"),
+                            onPressedAmerican: () => speakcatacombss1("en-US"),
                           ),
                         ],
                       ),

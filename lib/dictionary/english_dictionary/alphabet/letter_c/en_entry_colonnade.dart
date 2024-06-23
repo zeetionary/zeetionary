@@ -95,32 +95,13 @@ class EnglishEntrycolonnade extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆمەڵە لە ڕیزە ستوون کە بۆشایی یەکسان لە نێوانیانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The colonnade provided shade and shelter from the rain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕیزەستوونەکە سێبەر و پەناگەی لە بارانەکە دابین دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colonnade", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonnades1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonnades1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The colonnade provided shade and shelter from the rain.",
+                            kurdishText:
+                                "ڕیزەستوونەکە سێبەر و پەناگەی لە بارانەکە دابین دەکرد.", // colonnade",
+                            onPressedBritish: () => speakcolonnades1("en-GB"),
+                            onPressedAmerican: () => speakcolonnades1("en-US"),
                           ),
                         ],
                       ),

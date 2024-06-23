@@ -103,60 +103,22 @@ class EnglishEntrycollusion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕێککەوتنی نھێنی، بەتایبەتی بۆ فریودانی کەسانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police were corrupt and were operating in collusion with the drug dealers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس گەندەڵ بوون بە ھەماھەنگی لەگەڵ بازرگانانی مادە ھۆشبەرەکان کاریان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collusion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollusions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollusions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police were corrupt and were operating in collusion with the drug dealers.",
+                            kurdishText:
+                                "پۆلیس گەندەڵ بوون بە ھەماھەنگی لەگەڵ بازرگانانی مادە ھۆشبەرەکان کاریان دەکرد.", // collusion",
+                            onPressedBritish: () => speakcollusions1("en-GB"),
+                            onPressedAmerican: () => speakcollusions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was collusion between the two witnesses (= they gave the same false evidence)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەین‌وبەین ھەبوو لە نێوان دوو شایەتحاڵەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollusions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollusions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was collusion between the two witnesses (= they gave the same false evidence).",
+                            kurdishText:
+                                "کەین‌وبەین ھەبوو لە نێوان دوو شایەتحاڵەکەدا.",
+                            onPressedBritish: () => speakcollusions2("en-GB"),
+                            onPressedAmerican: () => speakcollusions2("en-US"),
                           ),
                         ],
                       ),

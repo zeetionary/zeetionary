@@ -104,63 +104,25 @@ class EnglishEntrychauvinist extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پیاوێک کە پێی وایە پیاوان زیرەکتر، گرنگتر، و باشترن لە ژنان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They are uneducated chauvinists who think men rule in society."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوسالاری نەخوێندەوارن کە وابیردەکەنەوە پیاو کۆمەڵگە بەڕێوەدەبەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chauvinist", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchauvinists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchauvinists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They are uneducated chauvinists who think men rule in society.",
+                            kurdishText:
+                                "پیاوسالاری نەخوێندەوارن کە وابیردەکەنەوە پیاو کۆمەڵگە بەڕێوەدەبەن.", // chauvinist",
+                            onPressedBritish: () => speakchauvinists1("en-GB"),
+                            onPressedAmerican: () => speakchauvinists1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە باوەڕێکی کوێرانە و توندڕەوانەی ھەیە کە وڵاتەکەی باشترە لە ھەموو ئەوانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The English tend to be chauvinists - they expect you to speak in their language."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئینگلیزەکان خولیایان ھەیە نیشتمان‌پەرست بن، چاوەڕێی ئەوە دەکەن کە بە زمانەکەیان قسە بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchauvinists2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchauvinists2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The English tend to be chauvinists - they expect you to speak in their language.",
+                            kurdishText:
+                                "ئینگلیزەکان خولیایان ھەیە نیشتمان‌پەرست بن، چاوەڕێی ئەوە دەکەن کە بە زمانەکەیان قسە بکەیت.",
+                            onPressedBritish: () => speakchauvinists2("en-GB"),
+                            onPressedAmerican: () => speakchauvinists2("en-US"),
                           ),
                         ],
                       ),

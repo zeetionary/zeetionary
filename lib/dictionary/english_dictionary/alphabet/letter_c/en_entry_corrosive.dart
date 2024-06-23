@@ -251,90 +251,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەبوونی خاسیەتی ڕزاندنی ھەیە بە کارلێکی کیمیایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Protective gear is required when working with corrosive acids."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جلی پارێزەر پێویستە لە کاتی کارکردن لەگەڵ ترشەڵۆکی ڕزێنەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corrosive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrosives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrosives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Protective gear is required when working with corrosive acids.",
+            kurdishText:
+                "جلی پارێزەر پێویستە لە کاتی کارکردن لەگەڵ ترشەڵۆکی ڕزێنەر.", // corrosive", please follow LX instructions
+            onPressedBritish: () => speakcorrosives1("en-GB"),
+            onPressedAmerican: () => speakcorrosives1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The spillage of corrosive acid required immediate cleanup to prevent damage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕژانی ترشەڵۆکی ڕزێنەر پێویستی بە پاککردنەوەی دەستبەجێی بوو بۆ ڕێگری لە زیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrosives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrosives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The spillage of corrosive acid required immediate cleanup to prevent damage.",
+            kurdishText:
+                "ڕژانی ترشەڵۆکی ڕزێنەر پێویستی بە پاککردنەوەی دەستبەجێی بوو بۆ ڕێگری لە زیان.",
+            onPressedBritish: () => speakcorrosives2("en-GB"),
+            onPressedAmerican: () => speakcorrosives2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) ھەبوونی خاسیەتی کۆتایی ھێنان بە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Unemployment is having a corrosive effect on our economy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بێ‌کاری کاریگەری وێرانکەری ھەیە لەسەر ئابووریمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrosives3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrosives3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Unemployment is having a corrosive effect on our economy.",
+            kurdishText: "بێ‌کاری کاریگەری وێرانکەری ھەیە لەسەر ئابووریمان.",
+            onPressedBritish: () => speakcorrosives3("en-GB"),
+            onPressedAmerican: () => speakcorrosives3("en-US"),
           ),
         ],
       ),

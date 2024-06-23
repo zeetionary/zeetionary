@@ -113,100 +113,43 @@ class EnglishEntryconsecration extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بە فەرمی پیرۆزکردنی شتێک بەشێوەیەک کە دەکرێت بۆ بۆنەی ئایینی بەکاربێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A large congregation gathered for the consecration of the church."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمەڵە خواپەرستێکی زۆر کۆبوونەوە بۆ پیرۆزکردنی کڵێساکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consecration", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsecrations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsecrations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A large congregation gathered for the consecration of the church.",
+                            kurdishText:
+                                "کۆمەڵە خواپەرستێکی زۆر کۆبوونەوە بۆ پیرۆزکردنی کڵێساکە.", // consecration",
+                            onPressedBritish: () =>
+                                speakconsecrations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsecrations1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بە فەرمی دیاریکردنی کەسێک وەک قەشە، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The consecration of the priests to their office is described in chapter 29."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیاریکردنی قەشەکان بۆ پۆستەکانیان لە بەشی ٢٩ دا باسکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsecrations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsecrations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The consecration of the priests to their office is described in chapter 29.",
+                            kurdishText:
+                                "دیاریکردنی قەشەکان بۆ پۆستەکانیان لە بەشی ٢٩ دا باسکراوە.",
+                            onPressedBritish: () =>
+                                speakconsecrations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsecrations2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کرداری خۆتەرخانکردن یان تەرخانکردنی کەسێک یان شتێک بۆ ئامانجێکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As a sign of their consecration to religious life, they are to clothe themselves plainly and to live in simplicity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک ئاماژەیەکی خۆتەرخانکردنیان بۆ ژیانێکی ئایینی، بە سادەیی جل لەبەردەکەن و بە سادەیی دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsecrations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsecrations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As a sign of their consecration to religious life, they are to clothe themselves plainly and to live in simplicity.",
+                            kurdishText:
+                                "وەک ئاماژەیەکی خۆتەرخانکردنیان بۆ ژیانێکی ئایینی، بە سادەیی جل لەبەردەکەن و بە سادەیی دەژین.",
+                            onPressedBritish: () =>
+                                speakconsecrations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsecrations3("en-US"),
                           ),
                         ],
                       ),

@@ -192,59 +192,21 @@ class EnglishEntrycertain extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) دڵنیا لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think it was him, but I can't be certain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێم‌وایە ئەوبوو، بەڵام ناتوانم دڵنیابم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "certain", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertains1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertains1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I think it was him, but I can't be certain.",
+                            kurdishText:
+                                "پێم‌وایە ئەوبوو، بەڵام ناتوانم دڵنیابم.", // certain",
+                            onPressedBritish: () => speakcertains1("en-GB"),
+                            onPressedAmerican: () => speakcertains1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wasn’t certain (that) he had seen her."),
-                                    ExampleSentenceKurdish(
-                                        text: "دڵنیا نەبوو لەوەی بینیویەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertains2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertains2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wasn’t certain (that) he had seen her.",
+                            kurdishText: "دڵنیا نەبوو لەوەی بینیویەتی.",
+                            onPressedBritish: () => speakcertains2("en-GB"),
+                            onPressedAmerican: () => speakcertains2("en-US"),
                           ),
                           Column(
                             children: [
@@ -317,59 +279,20 @@ class EnglishEntrycertain extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) شتێک کە بە دڵنیایی ڕاستە یان ڕوودەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The climbers face certain death if the rescue today is unsuccessful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاھەڵگژان ڕووبەڕووی مردنی مسۆگەر دەبنەوە ئەگەر ھەوڵی ڕزگارکردنەکە ناسەرکەوتوو بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertains5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertains5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The climbers face certain death if the rescue today is unsuccessful.",
+                            kurdishText:
+                                "پیاھەڵگژان ڕووبەڕووی مردنی مسۆگەر دەبنەوە ئەگەر ھەوڵی ڕزگارکردنەکە ناسەرکەوتوو بێت.",
+                            onPressedBritish: () => speakcertains5("en-GB"),
+                            onPressedAmerican: () => speakcertains5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is certain that they will agree."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەوە مسۆگەرە کە ڕازی دەبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertains6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertains6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It is certain that they will agree.",
+                            kurdishText: "ئەوە مسۆگەرە کە ڕازی دەبن.",
+                            onPressedBritish: () => speakcertains6("en-GB"),
+                            onPressedAmerican: () => speakcertains6("en-US"),
                           ),
                           Column(
                             children: [
@@ -442,149 +365,53 @@ class EnglishEntrycertain extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) بەکاردێت بۆ ناوھێنانی شتێک، کەسێک، یان گرووپێک بەبێ پێدانی زانیاریی زیادە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Certain people might disagree with this."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسانی دیاریکراو لەوانەیە ناڕازی بن لەگەڵ ئەمە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertains9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertains9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Certain people might disagree with this.",
+                            kurdishText:
+                                "کەسانی دیاریکراو لەوانەیە ناڕازی بن لەگەڵ ئەمە.",
+                            onPressedBritish: () => speakcertains9("en-GB"),
+                            onPressedAmerican: () => speakcertains9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This car appeals to a certain type of driver."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە بۆ جۆرە شۆفێرێکی دیاریکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertains10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertains10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This car appeals to a certain type of driver.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە بۆ جۆرە شۆفێرێکی دیاریکراوە.",
+                            onPressedBritish: () => speakcertains10("en-GB"),
+                            onPressedAmerican: () => speakcertains10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They refused to release their hostages unless certain conditions were met."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەتیان کردەوە زیندانییەکان ئازادبکەن مەگەر ئەوەی ژمارەیەک مەرجی دیاریکراو بەدیبھێندرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertains11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertains11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They refused to release their hostages unless certain conditions were met.",
+                            kurdishText:
+                                "ڕەتیان کردەوە زیندانییەکان ئازادبکەن مەگەر ئەوەی ژمارەیەک مەرجی دیاریکراو بەدیبھێندرێن.",
+                            onPressedBritish: () => speakcertains11("en-GB"),
+                            onPressedAmerican: () => speakcertains11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) کەمێک بەشێوەیەک کە ئاسانە ببیندرێت بەڵام باس ناکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That's true, to a certain extent."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەوە ڕاستە، تا ئاستێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertains12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertains12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That's true, to a certain extent.",
+                            kurdishText: "ئەوە ڕاستە، تا ئاستێک.",
+                            onPressedBritish: () => speakcertains12("en-GB"),
+                            onPressedAmerican: () => speakcertains12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ھاوەڵناو) لەگەڵ ناوی کەسێک بەکاردێت بۆ وتنی ئەوەی ئاخێوەر کەسەکە ناناسێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a certain Dr Davis who performed the operation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێک بەناوی دکتۆر دەیڤس بوو کە نەشتەرگەرییەکەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertains13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertains13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was a certain Dr Davis who performed the operation.",
+                            kurdishText:
+                                "کەسێک بەناوی دکتۆر دەیڤس بوو کە نەشتەرگەرییەکەی کرد.",
+                            onPressedBritish: () => speakcertains13("en-GB"),
+                            onPressedAmerican: () => speakcertains13("en-US"),
                           ),
                         ],
                       ),

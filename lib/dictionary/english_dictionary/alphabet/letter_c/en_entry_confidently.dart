@@ -103,66 +103,27 @@ class EnglishEntryconfidently extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) پیشاندانی ھەستی متمانەیی سەبارەت بە تواناکانی خۆت و ئەوەی سەرکەوتوو بیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Carla smiled confidently at the cameras."),
-                                    ExampleSentenceKurdish(
-                                        text: "کارلا بە متمانەوە بزەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confidently", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidentlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidentlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Carla smiled confidently at the cameras.",
+                            kurdishText:
+                                "کارلا بە متمانەوە بزەی دەکرد.", // confidently",
+                            onPressedBritish: () => speakconfidentlys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidentlys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک دڵنیایی پیشان دەدات لەوەی شتێک ڕوودەدات بەو شێوەیەی کە دەتەوێت یان پێشبینی دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Investors can confidently expect to make an average of 5% a year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەبەرھێنەران دەتوانن بێ‌خەمانە پێشبینی قازانجی ٥٪ بکەن لە ساڵێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidentlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidentlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Investors can confidently expect to make an average of 5% a year.",
+                            kurdishText:
+                                "وەبەرھێنەران دەتوانن بێ‌خەمانە پێشبینی قازانجی ٥٪ بکەن لە ساڵێکدا.",
+                            onPressedBritish: () => speakconfidentlys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidentlys2("en-US"),
                           ),
                         ],
                       ),

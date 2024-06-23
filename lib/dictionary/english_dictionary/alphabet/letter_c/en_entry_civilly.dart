@@ -103,61 +103,23 @@ class EnglishEntrycivilly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەکی فەرمی و بەڕێزەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She greeted him civilly."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەڕێزەوە خێراتنی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "civilly", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivillys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivillys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She greeted him civilly.",
+                            kurdishText: "بەڕێزەوە خێراتنی کرد.", // civilly",
+                            onPressedBritish: () => speakcivillys1("en-GB"),
+                            onPressedAmerican: () => speakcivillys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەکی یاسایی کە پەیوەندی بە کێشەی کەسییەوە ھەیە نەک تاوانکاری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The companies run the risk of being held criminally or civilly liable for any damages."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکان خۆیان دەخەنە مەترسی ئەوەی بە شێوەیەکی تاوانکاری یان مەدەنی بەرپرسیار بن بۆ زیانەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivillys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivillys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The companies run the risk of being held criminally or civilly liable for any damages.",
+                            kurdishText:
+                                "کۆمپانیاکان خۆیان دەخەنە مەترسی ئەوەی بە شێوەیەکی تاوانکاری یان مەدەنی بەرپرسیار بن بۆ زیانەکان.",
+                            onPressedBritish: () => speakcivillys2("en-GB"),
+                            onPressedAmerican: () => speakcivillys2("en-US"),
                           ),
                         ],
                       ),

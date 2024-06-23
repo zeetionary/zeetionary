@@ -180,60 +180,22 @@ class EnglishEntrychief extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) گرنگترین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He became the chief architect of the Treaty of Paris."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوو بە گرنگترین دانەری پەیماننامەی پاریس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chief", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchiefs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchiefs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He became the chief architect of the Treaty of Paris.",
+                            kurdishText:
+                                "بوو بە گرنگترین دانەری پەیماننامەی پاریس.", // chief",
+                            onPressedBritish: () => speakchiefs1("en-GB"),
+                            onPressedAmerican: () => speakchiefs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She cites the economy as her chief concern."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئابووری بە نیگەرانیی یەکەمی ناودێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchiefs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchiefs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She cites the economy as her chief concern.",
+                            kurdishText:
+                                "ئابووری بە نیگەرانیی یەکەمی ناودێنێت.",
+                            onPressedBritish: () => speakchiefs2("en-GB"),
+                            onPressedAmerican: () => speakchiefs2("en-US"),
                           ),
                           Column(
                             children: [
@@ -305,117 +267,41 @@ class EnglishEntrychief extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) باڵترین لە پێگەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new police chief has really made his presence felt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێوبەرە تازەکەی پۆلیس جێ‌دەستی خۆی پیشانداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchiefs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchiefs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new police chief has really made his presence felt.",
+                            kurdishText:
+                                "بەڕێوبەرە تازەکەی پۆلیس جێ‌دەستی خۆی پیشانداوە.",
+                            onPressedBritish: () => speakchiefs5("en-GB"),
+                            onPressedAmerican: () => speakchiefs5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was a Zulu chief."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەرۆکی (تیرەی) زولو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchiefs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchiefs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was a Zulu chief.",
+                            kurdishText: "سەرۆکی (تیرەی) زولو بوو.",
+                            onPressedBritish: () => speakchiefs6("en-GB"),
+                            onPressedAmerican: () => speakchiefs6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەسێک کە پلەی بەرزە یان بەرزترین پلەی ھەیە لە کۆمپانیایەک یان دامەزراوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is Washington bureau chief for The New York Times."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاربەدەستی بەشی واشنتۆنە بۆ ڕۆژنامەی نیویۆرک تایمز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchiefs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchiefs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is Washington bureau chief for The New York Times.",
+                            kurdishText:
+                                "کاربەدەستی بەشی واشنتۆنە بۆ ڕۆژنامەی نیویۆرک تایمز.",
+                            onPressedBritish: () => speakchiefs7("en-GB"),
+                            onPressedAmerican: () => speakchiefs7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He served as chief of police between 2002 and 2009."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک بەڕێوبەری پۆلیس کاربەدەست بوو لە ٢٠٠٢ بۆ ٢٠٠٩."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchiefs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchiefs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He served as chief of police between 2002 and 2009.",
+                            kurdishText:
+                                "وەک بەڕێوبەری پۆلیس کاربەدەست بوو لە ٢٠٠٢ بۆ ٢٠٠٩.",
+                            onPressedBritish: () => speakchiefs8("en-GB"),
+                            onPressedAmerican: () => speakchiefs8("en-US"),
                           ),
                           Column(
                             children: [

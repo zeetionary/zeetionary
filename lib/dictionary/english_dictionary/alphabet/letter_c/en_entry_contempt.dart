@@ -146,146 +146,49 @@ class EnglishEntrycontempt extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو ھەستەی کە کەسێک ھیچ نرخی نییە و شایەنی ڕێز نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She looked at him with contempt."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە سووکی سەیری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contempt", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontempts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontempts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She looked at him with contempt.",
+                            kurdishText: "بە سووکی سەیری کرد.", // contempt",
+                            onPressedBritish: () => speakcontempts1("en-GB"),
+                            onPressedAmerican: () => speakcontempts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I shall treat that suggestion with the contempt it deserves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەو سووکیەوە لەو پێشنیارە دەڕوانم کە شایەنیەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontempts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontempts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I shall treat that suggestion with the contempt it deserves.",
+                            kurdishText:
+                                "بەو سووکیەوە لەو پێشنیارە دەڕوانم کە شایەنیەتی.",
+                            onPressedBritish: () => speakcontempts2("en-GB"),
+                            onPressedAmerican: () => speakcontempts2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Politicians seem to be generally held in contempt by ordinary people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیاسەتوانان بەشێوەیەکی گشتی وادەردەکەون بە سووک لەلایەن خەڵکانی ئاساییەوە سەیر بکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontempts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontempts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Politicians seem to be generally held in contempt by ordinary people.",
+                            kurdishText:
+                                "سیاسەتوانان بەشێوەیەکی گشتی وادەردەکەون بە سووک لەلایەن خەڵکانی ئاساییەوە سەیر بکرێن.",
+                            onPressedBritish: () => speakcontempts3("en-GB"),
+                            onPressedAmerican: () => speakcontempts3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has a deep contempt for racists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێ‌ڕێزییەکی زۆری بۆ ڕەگەزپەرستان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontempts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontempts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He has a deep contempt for racists.",
+                            kurdishText:
+                                "بێ‌ڕێزییەکی زۆری بۆ ڕەگەزپەرستان ھەیە.",
+                            onPressedBritish: () => speakcontempts4("en-GB"),
+                            onPressedAmerican: () => speakcontempts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) گرنگی نەدان بە یاسا، مەترسی، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The firefighters showed a contempt for their own safety."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگرکوژێنەوەکان بەھێندنەگرتنیان بۆ سەلامەتی خۆیان پیشان دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontempts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontempts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The firefighters showed a contempt for their own safety.",
+                            kurdishText:
+                                "ئاگرکوژێنەوەکان بەھێندنەگرتنیان بۆ سەلامەتی خۆیان پیشان دەدا.",
+                            onPressedBritish: () => speakcontempts5("en-GB"),
+                            onPressedAmerican: () => speakcontempts5("en-US"),
                           ),
                           // const DividerSentences(),
                           // Row(
@@ -318,32 +221,13 @@ class EnglishEntrycontempt extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) تاوانی پشتگوێ خستنی بڕیاری دادگا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He could be jailed for two years for contempt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەکرێت بۆ دوو ساڵ بەند بکرێت بۆ سووکایەتی بە دادگا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontempts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontempts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He could be jailed for two years for contempt.",
+                            kurdishText:
+                                "دەکرێت بۆ دوو ساڵ بەند بکرێت بۆ سووکایەتی بە دادگا.",
+                            onPressedBritish: () => speakcontempts7("en-GB"),
+                            onPressedAmerican: () => speakcontempts7("en-US"),
                           ),
                         ],
                       ),

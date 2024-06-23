@@ -271,60 +271,22 @@ class EnglishEntrychoice extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەڵبژاردن لە نێوان دوو ھەڵبژاردە یان زیاتردا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are faced with a difficult choice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووبەڕووی ھەڵبژاردنی سەخت بووینەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "choice", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoices1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoices1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are faced with a difficult choice.",
+                            kurdishText:
+                                "ڕووبەڕووی ھەڵبژاردنی سەخت بووینەتەوە.", // choice",
+                            onPressedBritish: () => speakchoices1("en-GB"),
+                            onPressedAmerican: () => speakchoices1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I am sure you have made the right choice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیام ھەڵبژاردنێکی درووستت ئەنجام‌داوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoices2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoices2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I am sure you have made the right choice.",
+                            kurdishText:
+                                "دڵنیام ھەڵبژاردنێکی درووستت ئەنجام‌داوە.",
+                            onPressedBritish: () => speakchoices2("en-GB"),
+                            onPressedAmerican: () => speakchoices2("en-US"),
                           ),
                           Column(
                             children: [
@@ -396,60 +358,22 @@ class EnglishEntrychoice extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) مافی ھەڵبژاردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If I had the choice, I would stop working tomorrow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر بمتوانیایە، سبەی وازم لە کارکردن دەھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoices5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoices5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If I had the choice, I would stop working tomorrow.",
+                            kurdishText:
+                                "ئەگەر بمتوانیایە، سبەی وازم لە کارکردن دەھێنا.",
+                            onPressedBritish: () => speakchoices5("en-GB"),
+                            onPressedAmerican: () => speakchoices5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had no choice but to leave (= this was the only thing he could do)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ ھەڵبژاردەیەکی نەبوو جگە لە ڕۆشتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoices6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoices6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had no choice but to leave (= this was the only thing he could do).",
+                            kurdishText:
+                                "ھیچ ھەڵبژاردەیەکی نەبوو جگە لە ڕۆشتن.",
+                            onPressedBritish: () => speakchoices6("en-GB"),
+                            onPressedAmerican: () => speakchoices6("en-US"),
                           ),
                           Column(
                             children: [
@@ -551,87 +475,28 @@ class EnglishEntrychoice extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) کەسێک یان شتێک کە ھەڵبژاردەیەکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This colour wasn't my first choice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ڕەنگە یەکەم ھەڵبژاردەم نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoices10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoices10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This colour wasn't my first choice.",
+                            kurdishText: "ئەم ڕەنگە یەکەم ھەڵبژاردەم نەبوو.",
+                            onPressedBritish: () => speakchoices10("en-GB"),
+                            onPressedAmerican: () => speakchoices10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's the obvious choice for the job."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەڵبژاردەی ئاشکرایە بۆ کارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoices11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoices11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's the obvious choice for the job.",
+                            kurdishText: "ھەڵبژاردەی ئاشکرایە بۆ کارەکە.",
+                            onPressedBritish: () => speakchoices11("en-GB"),
+                            onPressedAmerican: () => speakchoices11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hawaii remains a popular choice for winter vacation travel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوایی ھەڵبژاردەیەکی باوە بۆ گەشتی پشووی زستانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoices12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoices12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Hawaii remains a popular choice for winter vacation travel.",
+                            kurdishText:
+                                "ھاوایی ھەڵبژاردەیەکی باوە بۆ گەشتی پشووی زستانە.",
+                            onPressedBritish: () => speakchoices12("en-GB"),
+                            onPressedAmerican: () => speakchoices12("en-US"),
                           ),
                           Column(
                             children: [
@@ -733,60 +598,22 @@ class EnglishEntrychoice extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) ئەو ھەڵبژاردانەی کە بەردەستن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The menu has a good choice of desserts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێنووەکە ژمارەیەک ھەڵبژاردەی باشی لێیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoices16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoices16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The menu has a good choice of desserts.",
+                            kurdishText:
+                                "مێنووەکە ژمارەیەک ھەڵبژاردەی باشی لێیە.",
+                            onPressedBritish: () => speakchoices16("en-GB"),
+                            onPressedAmerican: () => speakchoices16("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't decide. There's too much choice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم بڕیار بدەم. ھەڵبژاردەی زۆر ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoices17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoices17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't decide. There's too much choice.",
+                            kurdishText:
+                                "ناتوانم بڕیار بدەم. ھەڵبژاردەی زۆر ھەیە.",
+                            onPressedBritish: () => speakchoices17("en-GB"),
+                            onPressedAmerican: () => speakchoices17("en-US"),
                           ),
                           Column(
                             children: [
@@ -889,63 +716,25 @@ class EnglishEntrychoice extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) بە کوالێتی زۆر باش (لە ئەمریکا واتە زۆر باش بەڵام نەک باشترین)"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had the the most expensive dish on the menu - a choice fillet of fish."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرانترین خواردنی سەر مێنووەکەم خوارد، پارچەیەک گۆشتی خاوی زۆر باشی خاو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoices21("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoices21("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had the the most expensive dish on the menu - a choice fillet of fish.",
+                            kurdishText:
+                                "گرانترین خواردنی سەر مێنووەکەم خوارد، پارچەیەک گۆشتی خاوی زۆر باشی خاو.",
+                            onPressedBritish: () => speakchoices21("en-GB"),
+                            onPressedAmerican: () => speakchoices21("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ھاوەڵناو) زمانی توندی قسەکردن کە بە ئەنقەستە بۆ ئەوەی کاریگەری ھەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She summed up the situation in a few choice phrases."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆخەکەی بە چەند زاراوەیەکی زبر کورتکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoices22("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoices22("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She summed up the situation in a few choice phrases.",
+                            kurdishText:
+                                "دۆخەکەی بە چەند زاراوەیەکی زبر کورتکردەوە.",
+                            onPressedBritish: () => speakchoices22("en-GB"),
+                            onPressedAmerican: () => speakchoices22("en-US"),
                           ),
                         ],
                       ),

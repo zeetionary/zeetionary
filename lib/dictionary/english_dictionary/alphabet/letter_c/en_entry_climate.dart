@@ -178,59 +178,21 @@ class EnglishEntryclimate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئاو و ھەوا؛ کەشووھەوای ساڵانە لە شوێنێکی دیاریکراودا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The city has a cold climate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەکە ئاو و ھەوایەکی ساردی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "climate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The city has a cold climate.",
+                            kurdishText:
+                                "شارەکە ئاو و ھەوایەکی ساردی ھەیە.", // climate",
+                            onPressedBritish: () => speakclimates1("en-GB"),
+                            onPressedAmerican: () => speakclimates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Tomato flavour varies depending on climate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تامی تەماتە بەپێی ئاو و ھەوا دەگۆڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Tomato flavour varies depending on climate.",
+                            kurdishText:
+                                "تامی تەماتە بەپێی ئاو و ھەوا دەگۆڕێت.",
+                            onPressedBritish: () => speakclimates2("en-GB"),
+                            onPressedAmerican: () => speakclimates2("en-US"),
                           ),
                           Column(
                             children: [
@@ -303,119 +265,40 @@ class EnglishEntryclimate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ناوچەیەک کە ئاو و ھەوای دیاریکراوی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Little grows in such a dry climate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەم شت دەڕوێت لە کەشێکی وەھا وشکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimates5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimates5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Little grows in such a dry climate.",
+                            kurdishText: "کەم شت دەڕوێت لە کەشێکی وەھا وشکدا.",
+                            onPressedBritish: () => speakclimates5("en-GB"),
+                            onPressedAmerican: () => speakclimates5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They wanted to move to a warmer climate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیانویست کۆچ بکەن بۆ کەشێکی گەرمتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimates6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimates6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They wanted to move to a warmer climate.",
+                            kurdishText: "دەیانویست کۆچ بکەن بۆ کەشێکی گەرمتر.",
+                            onPressedBritish: () => speakclimates6("en-GB"),
+                            onPressedAmerican: () => speakclimates6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەشێک یان دۆخێک کە لە شوێنێکدا بوونی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We need to create a climate in which business can prosper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستە کەشێک درووست بکەین کە تێیدا بازرگانییەکان دەتوانن گەشە بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimates7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimates7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We need to create a climate in which business can prosper.",
+                            kurdishText:
+                                "پێویستە کەشێک درووست بکەین کە تێیدا بازرگانییەکان دەتوانن گەشە بکەن.",
+                            onPressedBritish: () => speakclimates7("en-GB"),
+                            onPressedAmerican: () => speakclimates7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They hope this will provide the right climate for social change."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیواخوازن ئەمە کەشی لەبار بڕەخسێنێت بۆ گۆڕانی کۆمەڵایەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimates8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimates8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They hope this will provide the right climate for social change.",
+                            kurdishText:
+                                "ھیواخوازن ئەمە کەشی لەبار بڕەخسێنێت بۆ گۆڕانی کۆمەڵایەتی.",
+                            onPressedBritish: () => speakclimates8("en-GB"),
+                            onPressedAmerican: () => speakclimates8("en-US"),
                           ),
                           Column(
                             children: [

@@ -111,88 +111,30 @@ class EnglishEntrychime extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) زەنگ لێدان، پیشاندانی کات بە زەنگ لێدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I heard the clock chime."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێم لە کاتژمێرەکە بوو زەنگی لێدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chime", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchimes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchimes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I heard the clock chime.",
+                            kurdishText:
+                                "گوێم لە کاتژمێرەکە بوو زەنگی لێدا.", // chime",
+                            onPressedBritish: () => speakchimes1("en-GB"),
+                            onPressedAmerican: () => speakchimes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Eight o'clock had already chimed."),
-                                    ExampleSentenceKurdish(
-                                        text: "کاتژمێر ھەشت لەمێژە تێپەڕیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchimes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchimes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Eight o'clock had already chimed.",
+                            kurdishText: "کاتژمێر ھەشت لەمێژە تێپەڕیوە.",
+                            onPressedBritish: () => speakchimes2("en-GB"),
+                            onPressedAmerican: () => speakchimes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) دەنگی زەنگێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He turned off the door chimes to avoid being disturbed while working."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەنگی دەرگاکەی کوژاندەوە بۆ ئەوەی دوور بێت لەوەی سەرنجی بچێت لەکاتی کاردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchimes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchimes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He turned off the door chimes to avoid being disturbed while working.",
+                            kurdishText:
+                                "زەنگی دەرگاکەی کوژاندەوە بۆ ئەوەی دوور بێت لەوەی سەرنجی بچێت لەکاتی کاردا.",
+                            onPressedBritish: () => speakchimes3("en-GB"),
+                            onPressedAmerican: () => speakchimes3("en-US"),
                           ),
                         ],
                       ),

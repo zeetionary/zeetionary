@@ -233,30 +233,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو، کردار) جۆرە خواردنێکی باشووری ئاسیا کە لە گۆشت، سەوزە، ھتد پێکدێت و لە سۆسی تووندا لێدەنرێت، و زۆرجار لەگەڵ برنج دەخورێت؛ درووستکردنی ئەم خواردنە بە گۆشت، سەوزە، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Would you like some more curry?"),
-                    ExampleSentenceKurdish(
-                        text: "حەزت بە ھەندێک کەری زیاتر ھەیە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curry", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Would you like some more curry?",
+            kurdishText:
+                "حەزت بە ھەندێک کەری زیاتر ھەیە؟", // curry", please follow LX instructions
+            onPressedBritish: () => speakcurrys1("en-GB"),
+            onPressedAmerican: () => speakcurrys1("en-US"),
           ),
         ],
       ),

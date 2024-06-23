@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ئاسمان‌گەڕێکی یەکێتیی سۆڤیەت یان ڕووسیا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Yuri Gagarin was the first cosmonaut to travel into space."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یوری گاگارین یەکەم ئاسمان‌گەڕی ڕووسی بوو بچێتە بۆشایی ئاسمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosmonaut", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosmonauts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosmonauts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Yuri Gagarin was the first cosmonaut to travel into space.",
+            kurdishText:
+                "یوری گاگارین یەکەم ئاسمان‌گەڕی ڕووسی بوو بچێتە بۆشایی ئاسمان.", // cosmonaut", please follow LX instructions
+            onPressedBritish: () => speakcosmonauts1("en-GB"),
+            onPressedAmerican: () => speakcosmonauts1("en-US"),
           ),
         ],
       ),

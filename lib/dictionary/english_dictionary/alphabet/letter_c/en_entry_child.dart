@@ -209,58 +209,21 @@ class EnglishEntrychild extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) منداڵێک کە ھێشتا پێگەشتوو نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Children grow up so quickly!"),
-                                    ExampleSentenceKurdish(
-                                        text: "منداڵان زۆر خوو گەورە دەبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "child", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchilds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchilds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Children grow up so quickly!",
+                            kurdishText:
+                                "منداڵان زۆر خوو گەورە دەبن.", // child",
+                            onPressedBritish: () => speakchilds1("en-GB"),
+                            onPressedAmerican: () => speakchilds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The film is not suitable for young children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە گونجاو نییە بۆ منداڵانی گەنج."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchilds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchilds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The film is not suitable for young children.",
+                            kurdishText:
+                                "فیلمەکە گونجاو نییە بۆ منداڵانی گەنج.",
+                            onPressedBritish: () => speakchilds2("en-GB"),
+                            onPressedAmerican: () => speakchilds2("en-US"),
                           ),
                           Column(
                             children: [
@@ -452,58 +415,20 @@ class EnglishEntrychild extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کوڕ و کچی باوک و دایکێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They can't have children."),
-                                    ExampleSentenceKurdish(
-                                        text: "ناتوانن منداڵیان ببێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchilds9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchilds9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They can't have children.",
+                            kurdishText: "ناتوانن منداڵیان ببێت.",
+                            onPressedBritish: () => speakchilds9("en-GB"),
+                            onPressedAmerican: () => speakchilds9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She didn't have her first child until she was nearly forty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەم منداڵی نەبوو تاوەکو نزیکەی تەمەنی ٤٠ ساڵی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchilds10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchilds10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She didn't have her first child until she was nearly forty.",
+                            kurdishText:
+                                "یەکەم منداڵی نەبوو تاوەکو نزیکەی تەمەنی ٤٠ ساڵی.",
+                            onPressedBritish: () => speakchilds10("en-GB"),
+                            onPressedAmerican: () => speakchilds10("en-US"),
                           ),
                           Column(
                             children: [
@@ -606,61 +531,23 @@ class EnglishEntrychild extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەسێک کە کاریگەر بوو بە سەردەمێک یان دۆخێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Me, I'm a child of the 60s."),
-                                    ExampleSentenceKurdish(
-                                        text: "من، من منداڵێکی ١٩٦٠ـەکانم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchilds14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchilds14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Me, I'm a child of the 60s.",
+                            kurdishText: "من، من منداڵێکی ١٩٦٠ـەکانم.",
+                            onPressedBritish: () => speakchilds14("en-GB"),
+                            onPressedAmerican: () => speakchilds14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) پێگەشتوویەک کە وەک منداڵ ڕەفتار دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's such a child if he doesn't get his own way."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت بە منداڵێک کە ئەوەی دەست نەکەوێت کە دەیەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchilds15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchilds15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's such a child if he doesn't get his own way.",
+                            kurdishText:
+                                "دەبێت بە منداڵێک کە ئەوەی دەست نەکەوێت کە دەیەوێت.",
+                            onPressedBritish: () => speakchilds15("en-GB"),
+                            onPressedAmerican: () => speakchilds15("en-US"),
                           ),
                         ],
                       ),

@@ -95,32 +95,13 @@ class EnglishEntryconversely extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە پێچەوانەی شتێکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can add the fluid to the powder, or, conversely, the powder to the fluid."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت شلەکە بۆ ھاڕاوەکە زیاد بکەیت، یان بە پێچەوانەوە، ھاڕاوەکە بۆ شلەکە زیاد بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conversely", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverselys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverselys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can add the fluid to the powder, or, conversely, the powder to the fluid.",
+                            kurdishText:
+                                "دەتوانیت شلەکە بۆ ھاڕاوەکە زیاد بکەیت، یان بە پێچەوانەوە، ھاڕاوەکە بۆ شلەکە زیاد بکەیت.", // conversely",
+                            onPressedBritish: () => speakconverselys1("en-GB"),
+                            onPressedAmerican: () => speakconverselys1("en-US"),
                           ),
                         ],
                       ),

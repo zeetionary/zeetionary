@@ -139,180 +139,66 @@ class EnglishEntryconcession extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە ڕێگەی پێدەدەیت یان دەیکەیت، یان دەھێڵیت کەسێک شتێکی ھەبێت، بۆ کۆتایی ھێنان بە مشتومڕێک یان دۆخی سەخت ھێوربکەیتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The firm will be forced to make concessions if it wants to avoid a strike."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە ناچار دەبێت مل‌کەچ بکات ئەگەر بیەوێت ڕێگا لە مانگرتنێک بگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concession", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcessions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcessions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The firm will be forced to make concessions if it wants to avoid a strike.",
+                            kurdishText:
+                                "کۆمپانیاکە ناچار دەبێت مل‌کەچ بکات ئەگەر بیەوێت ڕێگا لە مانگرتنێک بگرێت.", // concession",
+                            onPressedBritish: () => speakconcessions1("en-GB"),
+                            onPressedAmerican: () => speakconcessions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They remained unwilling to make any substantial concessions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نائامادە مانەوە بۆ ھەر سازانێکی گەورە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcessions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcessions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They remained unwilling to make any substantial concessions.",
+                            kurdishText:
+                                "نائامادە مانەوە بۆ ھەر سازانێکی گەورە.",
+                            onPressedBritish: () => speakconcessions2("en-GB"),
+                            onPressedAmerican: () => speakconcessions2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کرداری مل‌کەچکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Military support was offered in return for the concession of territory."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشتگیری سەربازی پێشکەش کرا لە بەرامبەر دەستبەرداربوون لە خاک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcessions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcessions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Military support was offered in return for the concession of territory.",
+                            kurdishText:
+                                "پشتگیری سەربازی پێشکەش کرا لە بەرامبەر دەستبەرداربوون لە خاک.",
+                            onPressedBritish: () => speakconcessions3("en-GB"),
+                            onPressedAmerican: () => speakconcessions3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەمکردنەوە لە بڕە پارەیەک کە دەبێت بدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Tickets are £3; there is a £1 concession for students."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بلیت ٣ پاوەندە؛ ١ پاوەند داشکاندن بۆ خوێندکاران ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcessions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcessions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Tickets are £3; there is a £1 concession for students.",
+                            kurdishText:
+                                "بلیت ٣ پاوەندە؛ ١ پاوەند داشکاندن بۆ خوێندکاران ھەیە.",
+                            onPressedBritish: () => speakconcessions4("en-GB"),
+                            onPressedAmerican: () => speakconcessions4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Travel concessions are available to older people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داشکاندنی گەشت بەردەستە بۆ کەسانی بەتەمەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcessions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcessions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Travel concessions are available to older people.",
+                            kurdishText:
+                                "داشکاندنی گەشت بەردەستە بۆ کەسانی بەتەمەن.",
+                            onPressedBritish: () => speakconcessions5("en-GB"),
+                            onPressedAmerican: () => speakconcessions5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) مافێک یان سوودمەندییەک کە دەرێت بە کەسێک، دامەزراوەیەک، ھتد، بەتایبەتی لەلایەن حکومەت یان خاوەن کارەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company has just won a mining concession in the north of the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە تازەگی مافێکی کان لێدانی بردووەتەوە لە باکووری وڵاتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcessions6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcessions6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company has just won a mining concession in the north of the country.",
+                            kurdishText:
+                                "کۆمپانیاکە تازەگی مافێکی کان لێدانی بردووەتەوە لە باکووری وڵاتەکە.",
+                            onPressedBritish: () => speakconcessions6("en-GB"),
+                            onPressedAmerican: () => speakconcessions6("en-US"),
                           ),
                         ],
                       ),

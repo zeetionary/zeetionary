@@ -102,63 +102,25 @@ class EnglishEntrychopper extends StatelessWidget {
 کوردی: چەپەچاخ، سیکارد، قیمەکێش، چەپەخان، گۆشجن، ساتۆر،	ھێلی‌کوپتەر
 """),
                           const DefinitionKurdish(text: "١. (ناو) ھێلی‌کوپتەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The news crew arrived at the scene in a chopper to report on the accident."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمە ھەواڵییەکە بە ھێلی‌کۆپتەرێک گەشتنە شوێنەکە بۆ ڕاپۆرتکردن لەسەر ڕووداوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chopper", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoppers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoppers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The news crew arrived at the scene in a chopper to report on the accident.",
+                            kurdishText:
+                                "تیمە ھەواڵییەکە بە ھێلی‌کۆپتەرێک گەشتنە شوێنەکە بۆ ڕاپۆرتکردن لەسەر ڕووداوەکە.", // chopper",
+                            onPressedBritish: () => speakchoppers1("en-GB"),
+                            onPressedAmerican: () => speakchoppers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) چەقۆیەکی گەورە یان تەورێکی بچووک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He sharpened his chopper before chopping firewood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەورەکەیی تیژ کرد پێش ئەوەی ئێزنگ بشکێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoppers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoppers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He sharpened his chopper before chopping firewood.",
+                            kurdishText:
+                                "تەورەکەیی تیژ کرد پێش ئەوەی ئێزنگ بشکێنێت.",
+                            onPressedBritish: () => speakchoppers2("en-GB"),
+                            onPressedAmerican: () => speakchoppers2("en-US"),
                           ),
                         ],
                       ),

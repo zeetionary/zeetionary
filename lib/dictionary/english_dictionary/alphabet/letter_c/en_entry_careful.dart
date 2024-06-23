@@ -191,57 +191,18 @@ class EnglishEntrycareful extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پێدانی ھۆشیاری و گرنگی بەوەی دەیکەیت بپ ئەوەی ھیچی ھەڵە ڕوونەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: " Be careful!"),
-                                    ExampleSentenceKurdish(text: "ئاگادار بە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "careful", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarefuls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarefuls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: " Be careful!",
+                            kurdishText: "ئاگادار بە!", // careful",
+                            onPressedBritish: () => speakcarefuls1("en-GB"),
+                            onPressedAmerican: () => speakcarefuls1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was careful to keep out of sight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئاگا بوو کە لە چاو بە دوور بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarefuls2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarefuls2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was careful to keep out of sight.",
+                            kurdishText: "بە ئاگا بوو کە لە چاو بە دوور بێت.",
+                            onPressedBritish: () => speakcarefuls2("en-GB"),
+                            onPressedAmerican: () => speakcarefuls2("en-US"),
                           ),
                           Column(
                             children: [
@@ -343,59 +304,21 @@ class EnglishEntrycareful extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) پێدانی سەرنجی زۆر بە وردەکاری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A successful party requires careful planning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاھەنگێکی سەرکەوتووانە پێویستی بە پلانی ورد ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarefuls6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarefuls6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A successful party requires careful planning.",
+                            kurdishText:
+                                "ئاھەنگێکی سەرکەوتووانە پێویستی بە پلانی ورد ھەیە.",
+                            onPressedBritish: () => speakcarefuls6("en-GB"),
+                            onPressedAmerican: () => speakcarefuls6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She made a careful analysis of the evidence."),
-                                    ExampleSentenceKurdish(
-                                        text: "شیکارییەکی وردی بەڵگەکەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarefuls7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarefuls7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She made a careful analysis of the evidence.",
+                            kurdishText: "شیکارییەکی وردی بەڵگەکەی کرد.",
+                            onPressedBritish: () => speakcarefuls7("en-GB"),
+                            onPressedAmerican: () => speakcarefuls7("en-US"),
                           ),
                         ],
                       ),

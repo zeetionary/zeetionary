@@ -233,30 +233,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) سۆسێکی شیرین کە لە شەکر و شیر و ھێلکە و ئارد درووست دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Strain the custard to remove lumps."),
-                    ExampleSentenceKurdish(
-                        text: "کاستەرەکە بپاڵێوە بۆ لادانی تۆپەڵەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "custard", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustards1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustards1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Strain the custard to remove lumps.",
+            kurdishText:
+                "کاستەرەکە بپاڵێوە بۆ لادانی تۆپەڵەکانی.", // custard", please follow LX instructions
+            onPressedBritish: () => speakcustards1("en-GB"),
+            onPressedAmerican: () => speakcustards1("en-US"),
           ),
         ],
       ),

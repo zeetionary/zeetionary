@@ -137,175 +137,60 @@ class EnglishEntryconference extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆبوونەوەیەکی گەورەی فەرمی، کە زۆرجار چەند ڕۆژێک دەخایەنێت، تێیدا خەڵکی لە پیشە جیاوازەکانەوە کۆدەبنەوە بۆ باسکردنی بۆچوونیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hotel is used for exhibitions, conferences and social events."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھوتێلەکە بۆ پێشانگا، کۆنفرانس و بۆنەی کۆمەڵایەتی بەکاردێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conference", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconferences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconferences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hotel is used for exhibitions, conferences and social events.",
+                            kurdishText:
+                                "ھوتێلەکە بۆ پێشانگا، کۆنفرانس و بۆنەی کۆمەڵایەتی بەکاردێت.", // conference",
+                            onPressedBritish: () => speakconferences1("en-GB"),
+                            onPressedAmerican: () => speakconferences1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The conference will be held in Glasgow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆنفرانسەکە لە گلاسگۆ ساز دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconferences2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconferences2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The conference will be held in Glasgow.",
+                            kurdishText: "کۆنفرانسەکە لە گلاسگۆ ساز دەکرێت.",
+                            onPressedBritish: () => speakconferences2("en-GB"),
+                            onPressedAmerican: () => speakconferences2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We met at an international conference."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆنفرانسێکی نێودەوڵەتی یەکمان بینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconferences3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconferences3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We met at an international conference.",
+                            kurdishText:
+                                "لە کۆنفرانسێکی نێودەوڵەتی یەکمان بینی.",
+                            onPressedBritish: () => speakconferences3("en-GB"),
+                            onPressedAmerican: () => speakconferences3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کۆبوونەوەیەک کە تێیدا خەڵکی گفتووگۆی فەرمیان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They agreed to convene a peace conference by mid-November."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕازیبوون کۆنفرانسێکی ئاشتی سازبکەن تاوەکو ناوەڕاستی تشرینی دووەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconferences4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconferences4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They agreed to convene a peace conference by mid-November.",
+                            kurdishText:
+                                "ڕازیبوون کۆنفرانسێکی ئاشتی سازبکەن تاوەکو ناوەڕاستی تشرینی دووەم.",
+                            onPressedBritish: () => speakconferences4("en-GB"),
+                            onPressedAmerican: () => speakconferences4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her working day consists of conferences with foreign diplomats."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژانی کاری پێکدێت لە کۆنفرانس لەگەڵ دیپلۆماتانی بیانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconferences5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconferences5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her working day consists of conferences with foreign diplomats.",
+                            kurdishText:
+                                "ڕۆژانی کاری پێکدێت لە کۆنفرانس لەگەڵ دیپلۆماتانی بیانی.",
+                            onPressedBritish: () => speakconferences5("en-GB"),
+                            onPressedAmerican: () => speakconferences5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was in conference with his lawyers all day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ڕۆژەکە لەگەڵ پارێزەرانی لە کۆبوونەوەدا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconferences6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconferences6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was in conference with his lawyers all day.",
+                            kurdishText:
+                                "تەواوی ڕۆژەکە لەگەڵ پارێزەرانی لە کۆبوونەوەدا بوو.",
+                            onPressedBritish: () => speakconferences6("en-GB"),
+                            onPressedAmerican: () => speakconferences6("en-US"),
                           ),
                         ],
                       ),

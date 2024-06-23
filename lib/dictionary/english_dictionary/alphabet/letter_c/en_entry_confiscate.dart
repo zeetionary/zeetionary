@@ -101,60 +101,22 @@ class EnglishEntryconfiscate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) سەندنی شتێک لە کەسێک بە فەرمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their land was confiscated after the war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەوییەکەیان دەستی بەسەردا گیرا لە دوای جەنگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confiscate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfiscates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfiscates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their land was confiscated after the war.",
+                            kurdishText:
+                                "زەوییەکەیان دەستی بەسەردا گیرا لە دوای جەنگەکە.", // confiscate",
+                            onPressedBritish: () => speakconfiscates1("en-GB"),
+                            onPressedAmerican: () => speakconfiscates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our belongings were temporarily confiscated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەلوپەلەکانمان بۆ ماوەیەک دەستبەسەر کران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfiscates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfiscates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our belongings were temporarily confiscated.",
+                            kurdishText:
+                                "کەلوپەلەکانمان بۆ ماوەیەک دەستبەسەر کران.",
+                            onPressedBritish: () => speakconfiscates2("en-GB"),
+                            onPressedAmerican: () => speakconfiscates2("en-US"),
                           ),
                         ],
                       ),

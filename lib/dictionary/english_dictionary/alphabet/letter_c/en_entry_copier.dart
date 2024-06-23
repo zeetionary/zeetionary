@@ -94,32 +94,13 @@ class EnglishEntrycopier extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The copier ran out of paper halfway through the job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ناوەڕاستی کارەکەدا دەزگای کۆپییەکە کاغەزی تێدا نەما."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "copier", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopiers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopiers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The copier ran out of paper halfway through the job.",
+                            kurdishText:
+                                "لە ناوەڕاستی کارەکەدا دەزگای کۆپییەکە کاغەزی تێدا نەما.", // copier",
+                            onPressedBritish: () => speakcopiers1("en-GB"),
+                            onPressedAmerican: () => speakcopiers1("en-US"),
                           ),
                         ],
                       ),

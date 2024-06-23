@@ -104,60 +104,22 @@ class EnglishEntrycoexist extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پێکەوەبوون لە ھەمان کات یان شوێندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The illness frequently coexists with other chronic diseases."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشییەکە زۆرجار ھاوکات دەبێت لەگەڵ نەخۆشی درێژخایەندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coexist", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoexists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoexists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The illness frequently coexists with other chronic diseases.",
+                            kurdishText:
+                                "نەخۆشییەکە زۆرجار ھاوکات دەبێت لەگەڵ نەخۆشی درێژخایەندا.", // coexist",
+                            onPressedBritish: () => speakcoexists1("en-GB"),
+                            onPressedAmerican: () => speakcoexists1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "English speakers now coexist peacefully with their Spanish-speaking neighbours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاخێوەرانی ئینگلیزی ئێستا بە ئاشتییانە ھەڵدەکەن لەگەڵ ئاخێوەرە ئیسپانییەکانی دراوسێیاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoexists2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoexists2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "English speakers now coexist peacefully with their Spanish-speaking neighbours.",
+                            kurdishText:
+                                "ئاخێوەرانی ئینگلیزی ئێستا بە ئاشتییانە ھەڵدەکەن لەگەڵ ئاخێوەرە ئیسپانییەکانی دراوسێیاندا.",
+                            onPressedBritish: () => speakcoexists2("en-GB"),
+                            onPressedAmerican: () => speakcoexists2("en-US"),
                           ),
                         ],
                       ),

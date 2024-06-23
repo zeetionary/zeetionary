@@ -144,207 +144,75 @@ class EnglishEntryclasp extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) گرتنی شتێک بەتوندی لە دەستتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They clasped hands (= held each other's hands)."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە توندی دەستی یەکدییان گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clasp", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclasps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclasps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They clasped hands (= held each other's hands).",
+                            kurdishText:
+                                "بە توندی دەستی یەکدییان گرت.", // clasp",
+                            onPressedBritish: () => speakclasps1("en-GB"),
+                            onPressedAmerican: () => speakclasps1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I stood there, clasping the door handle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەوێ وەستابووم و دەسکی دەرگاکەم گرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclasps2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclasps2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I stood there, clasping the door handle.",
+                            kurdishText:
+                                "لەوێ وەستابووم و دەسکی دەرگاکەم گرتبوو.",
+                            onPressedBritish: () => speakclasps2("en-GB"),
+                            onPressedAmerican: () => speakclasps2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She clasped her bag tightly as she walked through the crowd."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە توندی جانتاکەی گرتبوو و بەناو خەڵکەکەدا ڕێی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclasps3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclasps3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She clasped her bag tightly as she walked through the crowd.",
+                            kurdishText:
+                                "بە توندی جانتاکەی گرتبوو و بەناو خەڵکەکەدا ڕێی دەکرد.",
+                            onPressedBritish: () => speakclasps3("en-GB"),
+                            onPressedAmerican: () => speakclasps3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) لە باوەشگرتنی کەسێک/شتێک بە توندی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She clasped the children in her arms."),
-                                    ExampleSentenceKurdish(
-                                        text: "منداڵەکانی لە باوەش گرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclasps4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclasps4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She clasped the children in her arms.",
+                            kurdishText: "منداڵەکانی لە باوەش گرتبوو.",
+                            onPressedBritish: () => speakclasps4("en-GB"),
+                            onPressedAmerican: () => speakclasps4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) بەستنی شتێک بە ئاغزوونەیەک "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She clasped the bracelet around her wrist."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەستبەندەکەی لە مەچەکی بەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclasps5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclasps5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She clasped the bracelet around her wrist.",
+                            kurdishText: "دەستبەندەکەی لە مەچەکی بەست.",
+                            onPressedBritish: () => speakclasps5("en-GB"),
+                            onPressedAmerican: () => speakclasps5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ئامرازێک کە شتێک دەبەستێت، بۆ نموونە جانتایەک یان کۆتاییەکانی قایشێک یان خشڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He tried to undo the clasp on the briefcase, but it was stuck."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵیدا ئاغزوونەی جانتا دەستییەکەی، بەڵام گیربوو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclasps6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclasps6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He tried to undo the clasp on the briefcase, but it was stuck.",
+                            kurdishText:
+                                "ھەوڵیدا ئاغزوونەی جانتا دەستییەکەی، بەڵام گیربوو بوو.",
+                            onPressedBritish: () => speakclasps6("en-GB"),
+                            onPressedAmerican: () => speakclasps6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ناو) گرتنی توند بە دەست"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She held the child's hand in a firm clasp as they crossed the road."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی منداڵەکەی گرتبوو بە گرتنێکی توندەوە کە لە ڕێگاکە دەپەڕینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclasps7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclasps7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She held the child's hand in a firm clasp as they crossed the road.",
+                            kurdishText:
+                                "دەستی منداڵەکەی گرتبوو بە گرتنێکی توندەوە کە لە ڕێگاکە دەپەڕینەوە.",
+                            onPressedBritish: () => speakclasps7("en-GB"),
+                            onPressedAmerican: () => speakclasps7("en-US"),
                           ),
                         ],
                       ),

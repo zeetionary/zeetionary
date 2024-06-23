@@ -104,64 +104,26 @@ class EnglishEntryconditioning extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کاریگەری، ڕاھێنان، یان ئەزموون کە کەسێک یان ئاژەڵێک ھەیەتی کە ڕای دەھێنێت بۆ دۆخێکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Is personality the result of conditioning from parents and society, or are we born with it?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئایا کەسایەتی ئەنجامی کاریگەری دایک و باوک و کۆمەڵگەیە یان شتێکە لەگەڵمان لەدایک دەبێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conditioning", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconditionings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconditionings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Is personality the result of conditioning from parents and society, or are we born with it?",
+                            kurdishText:
+                                "ئایا کەسایەتی ئەنجامی کاریگەری دایک و باوک و کۆمەڵگەیە یان شتێکە لەگەڵمان لەدایک دەبێت؟", // conditioning",
+                            onPressedBritish: () =>
+                                speakconditionings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconditionings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Conditioning starts as soon as boys are given guns to play with and girls are given dolls."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاھێنان دەستپێ دەکات ھەرکە کوڕان چەکیان پێدەدرێت یاری پێبکەن و کچانیش بووکەڵە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconditionings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconditionings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Conditioning starts as soon as boys are given guns to play with and girls are given dolls.",
+                            kurdishText:
+                                "ڕاھێنان دەستپێ دەکات ھەرکە کوڕان چەکیان پێدەدرێت یاری پێبکەن و کچانیش بووکەڵە.",
+                            onPressedBritish: () =>
+                                speakconditionings2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconditionings2("en-US"),
                           ),
                         ],
                       ),

@@ -103,63 +103,26 @@ class EnglishEntryclosefitting extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) جلوبەرگێک کە بە تەسکی دەگونجێت و ڕووخسار دەردەخات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wore a close-fitting dress to the party."),
-                                    ExampleSentenceKurdish(
-                                        text: "جلی تەسکی بۆ ئاھەنگەکە پۆشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "close-fitting", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclosefittings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclosefittings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wore a close-fitting dress to the party.",
+                            kurdishText:
+                                "جلی تەسکی بۆ ئاھەنگەکە پۆشی.", // close-fitting",
+                            onPressedBritish: () =>
+                                speakclosefittings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclosefittings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The close-fitting swimsuit accentuated her curves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلە مەلە تەسکەکە قەندەکانی دەرخستبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclosefittings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclosefittings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The close-fitting swimsuit accentuated her curves.",
+                            kurdishText:
+                                "جلە مەلە تەسکەکە قەندەکانی دەرخستبوو.",
+                            onPressedBritish: () =>
+                                speakclosefittings2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclosefittings2("en-US"),
                           ),
                         ],
                       ),

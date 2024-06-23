@@ -111,88 +111,31 @@ class EnglishEntryclassified extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە بە فەرمی نھێنییە و تەنھا بۆ چەند کەسێک بەردەستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These documents contain classified material."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم بەڵگەنامانە زانیاری نھێنی لەخۆدەگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "classified", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassifieds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassifieds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These documents contain classified material.",
+                            kurdishText:
+                                "ئەم بەڵگەنامانە زانیاری نھێنی لەخۆدەگرن.", // classified",
+                            onPressedBritish: () => speakclassifieds1("en-GB"),
+                            onPressedAmerican: () => speakclassifieds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has access to some of the nation's most highly classified information."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مافی بینینی ژمارەیەک لە ھەرە نھێنیترین زانیارییەکانی وڵاتەکەی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassifieds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassifieds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has access to some of the nation's most highly classified information.",
+                            kurdishText:
+                                "مافی بینینی ژمارەیەک لە ھەرە نھێنیترین زانیارییەکانی وڵاتەکەی ھەیە.",
+                            onPressedBritish: () => speakclassifieds2("en-GB"),
+                            onPressedAmerican: () => speakclassifieds2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The details of the case remain classified."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وردەکارییەکانی کەیسەکە بە نھێنی ھێڵدراونەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassifieds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassifieds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The details of the case remain classified.",
+                            kurdishText:
+                                "وردەکارییەکانی کەیسەکە بە نھێنی ھێڵدراونەتەوە.",
+                            onPressedBritish: () => speakclassifieds3("en-GB"),
+                            onPressedAmerican: () => speakclassifieds3("en-US"),
                           ),
                         ],
                       ),

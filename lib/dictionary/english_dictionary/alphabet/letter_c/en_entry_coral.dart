@@ -104,62 +104,24 @@ class EnglishEntrycoral extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مادەیەکی سەخت کە سوور، پەمەیی، یان سپییە، لە بنکی دەریادا لە ئێسکی ئاژەڵە بچووکەکان درووست دەبێت، و زۆرجار بۆ درووستکردنی خشڵ بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The coral necklace was a gift from her grandmother and held sentimental value."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ملوانکە مەرجانەکە دیارییەک بوو لە داپیرەیەوە و بەھای سۆزداری ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coral", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcorals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcorals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The coral necklace was a gift from her grandmother and held sentimental value.",
+                            kurdishText:
+                                "ملوانکە مەرجانەکە دیارییەک بوو لە داپیرەیەوە و بەھای سۆزداری ھەبوو.", // coral",
+                            onPressedBritish: () => speakcorals1("en-GB"),
+                            onPressedAmerican: () => speakcorals1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو، ھاوەڵناو) ڕەنگی پەمەیی یان سوور"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Paul wore pale grey trousers with a coral T-shirt and black jacket."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاوڵ پانتۆڵی خۆڵەمێشی کاڵی لەبەرکردبوو لەگەڵ درێسی مەرجانی و چاکەتی ڕەش."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcorals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcorals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Paul wore pale grey trousers with a coral T-shirt and black jacket.",
+                            kurdishText:
+                                "پاوڵ پانتۆڵی خۆڵەمێشی کاڵی لەبەرکردبوو لەگەڵ درێسی مەرجانی و چاکەتی ڕەش.",
+                            onPressedBritish: () => speakcorals2("en-GB"),
+                            onPressedAmerican: () => speakcorals2("en-US"),
                           ),
                         ],
                       ),

@@ -110,91 +110,34 @@ class EnglishEntrycongested extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) جەنجاڵ؛ پڕ لە ھاتووچۆ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many of Europe's airports are heavily congested."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرێک لە فڕۆکەخانەکانی ئەورووپا تەواو قەرەباڵغن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congested", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongesteds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongesteds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many of Europe's airports are heavily congested.",
+                            kurdishText:
+                                "زۆرێک لە فڕۆکەخانەکانی ئەورووپا تەواو قەرەباڵغن.", // congested",
+                            onPressedBritish: () => speakcongesteds1("en-GB"),
+                            onPressedAmerican: () => speakcongesteds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The roads to Bordeaux were heavily congested."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگاکانی چوون بۆ بۆردۆ تەواو شلۆق بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongesteds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongesteds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The roads to Bordeaux were heavily congested.",
+                            kurdishText:
+                                "ڕێگاکانی چوون بۆ بۆردۆ تەواو شلۆق بوون.",
+                            onPressedBritish: () => speakcongesteds2("en-GB"),
+                            onPressedAmerican: () => speakcongesteds2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) بەشێکی جەستە کە بە خوێن یان چڵم گیراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His chest felt congested with phlegm, causing a persistent cough."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە گیراوی دەکرد بەھۆی بەڵغەمەوە و دەبووە ھۆی کۆکەیەکی بەردەوام."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongesteds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongesteds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His chest felt congested with phlegm, causing a persistent cough.",
+                            kurdishText:
+                                "ھەستی بە گیراوی دەکرد بەھۆی بەڵغەمەوە و دەبووە ھۆی کۆکەیەکی بەردەوام.",
+                            onPressedBritish: () => speakcongesteds3("en-GB"),
+                            onPressedAmerican: () => speakcongesteds3("en-US"),
                           ),
                         ],
                       ),

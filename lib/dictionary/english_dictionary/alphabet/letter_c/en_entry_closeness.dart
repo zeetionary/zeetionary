@@ -120,125 +120,49 @@ class EnglishEntrycloseness extends StatelessWidget {
 کوردی: گەرم‌گوڕی،	نزیکایەتی،	وردی، دروستی،	دەس‌قووچاوی، ڕژدی
 """),
                           const DefinitionKurdish(text: "١. (ناو) نزیکییەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Maltese cuisine is influenced by Malta’s physical closeness to Italy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستاوی ماڵتایی کاریگەری نزیکییەتی ماڵتای لە ئیتاڵیاوە لەسەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "closeness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosenesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosenesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Maltese cuisine is influenced by Malta’s physical closeness to Italy.",
+                            kurdishText:
+                                "دەستاوی ماڵتایی کاریگەری نزیکییەتی ماڵتای لە ئیتاڵیاوە لەسەرە.", // closeness",
+                            onPressedBritish: () => speakclosenesss1("en-GB"),
+                            onPressedAmerican: () => speakclosenesss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ناسینی کەسێک/شتێک زۆر بە باشی و حەزکردن لێیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jefferson always felt a closeness to the land and to a rural way of life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێفەرسن ھەمیشە ھەستی بە پەیوەندییەک بە خاکەکەوە دەکرد و بە شێوازی لادێیی ژیانکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosenesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosenesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Jefferson always felt a closeness to the land and to a rural way of life.",
+                            kurdishText:
+                                "جێفەرسن ھەمیشە ھەستی بە پەیوەندییەک بە خاکەکەوە دەکرد و بە شێوازی لادێیی ژیانکردن.",
+                            onPressedBritish: () => speakclosenesss2("en-GB"),
+                            onPressedAmerican: () => speakclosenesss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) زۆر بەژدار لە کار و چالاکی کەسێکی دیکەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The closeness of their friendship was evident in how they always supported each other."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توندی ھاوڕێیەتییان ئاشکرا بوو لە شێوەیەی کە ھەمیشە پاڵپشتی یەکدییان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosenesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosenesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The closeness of their friendship was evident in how they always supported each other.",
+                            kurdishText:
+                                "توندی ھاوڕێیەتییان ئاشکرا بوو لە شێوەیەی کە ھەمیشە پاڵپشتی یەکدییان دەکرد.",
+                            onPressedBritish: () => speakclosenesss3("en-GB"),
+                            onPressedAmerican: () => speakclosenesss3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) بردنەوەیەک کە بە جیاوازییەکی کەم بووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All the emphasis on the closeness of the election may encourage more people to vote."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ئەو سەرنجەی لەسەر ڕکابەرییەتی توندە لە ھەڵبژاردنەکەدا وا لە خەڵکی زیاتر دەدات دەنگ بدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosenesss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosenesss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All the emphasis on the closeness of the election may encourage more people to vote.",
+                            kurdishText:
+                                "ھەموو ئەو سەرنجەی لەسەر ڕکابەرییەتی توندە لە ھەڵبژاردنەکەدا وا لە خەڵکی زیاتر دەدات دەنگ بدەن.",
+                            onPressedBritish: () => speakclosenesss4("en-GB"),
+                            onPressedAmerican: () => speakclosenesss4("en-US"),
                           ),
                         ],
                       ),

@@ -95,32 +95,13 @@ class EnglishEntrycogent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) دەربڕین بە بەھێزی و ڕوونی بەشێوەیەک کە کاریگەری ھەیە لەسەر ئەوەی خەڵکی باوەڕ بە چی دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She put forward some cogent reasons for abandoning the plan."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک ھۆکاری قایلکەری گوت بۆ وازھێنان لە پلانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cogent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcogents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcogents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She put forward some cogent reasons for abandoning the plan.",
+                            kurdishText:
+                                "ھەندێک ھۆکاری قایلکەری گوت بۆ وازھێنان لە پلانەکە.", // cogent",
+                            onPressedBritish: () => speakcogents1("en-GB"),
+                            onPressedAmerican: () => speakcogents1("en-US"),
                           ),
                         ],
                       ),

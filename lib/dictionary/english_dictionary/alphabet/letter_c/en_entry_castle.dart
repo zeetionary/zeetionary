@@ -190,60 +190,22 @@ class EnglishEntrycastle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بینایەکی گەورە و بەھێز کە دیواری بەرز و شوورای ھەیە و لە ڕابردوودا لەلایەن پاشا و شاژن و کەسانی گرنگەوە درووست دەکران بۆ بەرگری لە خۆیان دژ بە ھێرش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were invited to a banquet in the castle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانگھێشتکران بۆ میوانییەک لە قەڵاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "castle", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were invited to a banquet in the castle.",
+                            kurdishText:
+                                "بانگھێشتکران بۆ میوانییەک لە قەڵاکە.", // castle",
+                            onPressedBritish: () => speakcastles1("en-GB"),
+                            onPressedAmerican: () => speakcastles1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They sought safety within the castle walls."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ پاراستن ھانایان برد بۆ دیوارەکانی قەڵاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They sought safety within the castle walls.",
+                            kurdishText:
+                                "بۆ پاراستن ھانایان برد بۆ دیوارەکانی قەڵاکە.",
+                            onPressedBritish: () => speakcastles2("en-GB"),
+                            onPressedAmerican: () => speakcastles2("en-US"),
                           ),
                         ],
                       ),

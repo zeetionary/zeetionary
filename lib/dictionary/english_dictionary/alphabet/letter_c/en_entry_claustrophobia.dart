@@ -97,34 +97,15 @@ class EnglishEntryclaustrophobia extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ترسێکی زۆر لەوەی لە شوێنێکی تەنگدا گیر بخۆیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I hate lifts—they give me claustrophobia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕقم لە بەرزکەرەوەیە، تووشی تەنگەبەرترسیم دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "claustrophobia", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclaustrophobias1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclaustrophobias1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I hate lifts—they give me claustrophobia.",
+                            kurdishText:
+                                "ڕقم لە بەرزکەرەوەیە، تووشی تەنگەبەرترسیم دەکەن.", // claustrophobia",
+                            onPressedBritish: () =>
+                                speakclaustrophobias1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclaustrophobias1("en-US"),
                           ),
                         ],
                       ),

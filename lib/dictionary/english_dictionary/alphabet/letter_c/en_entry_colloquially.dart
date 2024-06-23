@@ -95,34 +95,15 @@ class EnglishEntrycolloquially extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە لە گفتوگۆدا بەکاردێت نەک لە نووسیندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jardine writes clearly and colloquially for the non-academic reader."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاردین بەڕوونی و شێوازی گفتوگۆ دەنووسێت بۆ کەسانی نا ئەکادیمی ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colloquially", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcolloquiallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcolloquiallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Jardine writes clearly and colloquially for the non-academic reader.",
+                            kurdishText:
+                                "جاردین بەڕوونی و شێوازی گفتوگۆ دەنووسێت بۆ کەسانی نا ئەکادیمی .", // colloquially",
+                            onPressedBritish: () =>
+                                speakcolloquiallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcolloquiallys1("en-US"),
                           ),
                         ],
                       ),

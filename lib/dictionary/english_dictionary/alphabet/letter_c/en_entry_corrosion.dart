@@ -241,56 +241,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پڕۆسەی لەناوبردنی شتێک، بەتایبەتی بە کارلێکی کیمیایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Look for signs of corrosion."),
-                    ExampleSentenceKurdish(text: "بۆ ئاماژەی داخوران بگەڕێ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corrosion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrosions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrosions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Look for signs of corrosion.",
+            kurdishText:
+                "بۆ ئاماژەی داخوران بگەڕێ.", // corrosion", please follow LX instructions
+            onPressedBritish: () => speakcorrosions1("en-GB"),
+            onPressedAmerican: () => speakcorrosions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Clean off any corrosion before applying the paint."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو ڕزینێک پاک بکەوە پێش لێدانی بۆیەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrosions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrosions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Clean off any corrosion before applying the paint.",
+            kurdishText: "ھەموو ڕزینێک پاک بکەوە پێش لێدانی بۆیەکە.",
+            onPressedBritish: () => speakcorrosions2("en-GB"),
+            onPressedAmerican: () => speakcorrosions2("en-US"),
           ),
         ],
       ),

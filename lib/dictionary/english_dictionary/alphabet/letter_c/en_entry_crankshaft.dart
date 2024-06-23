@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پارچە کانزایەکی درێژ کە بزوێنەری ئۆتۆمبێل بە ویلەکانەوە دەبەستێتەوە و ھێزی بزوێنەرەکە دەگۆڕێت بۆ جووڵە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A damaged crankshaft can cause serious engine problems."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "میلەنگێکی زیان پێگەشتوو دەکرێت کێشەی گەورە بۆ بزوێنەرەکە درووست بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crankshaft", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrankshafts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrankshafts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A damaged crankshaft can cause serious engine problems.",
+            kurdishText:
+                "میلەنگێکی زیان پێگەشتوو دەکرێت کێشەی گەورە بۆ بزوێنەرەکە درووست بکات.", // crankshaft", please follow LX instructions
+            onPressedBritish: () => speakcrankshafts1("en-GB"),
+            onPressedAmerican: () => speakcrankshafts1("en-US"),
           ),
         ],
       ),

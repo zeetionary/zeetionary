@@ -241,58 +241,21 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) دادگایەکی سەربازی بۆ ئەو کەسانەی یاسا دەشکێنن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was convicted at a court martial."),
-                    ExampleSentenceKurdish(
-                        text: "لە دادگایەکی سەربازی بە تاوانبار دانرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "court martial", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtmartials1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtmartials1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was convicted at a court martial.",
+            kurdishText:
+                "لە دادگایەکی سەربازی بە تاوانبار دانرا.", // court martial", please follow LX instructions
+            onPressedBritish: () => speakcourtmartials1("en-GB"),
+            onPressedAmerican: () => speakcourtmartials1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) دادگایی کردن لە دادگای سەربازی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was court-martialled for desertion."),
-                    ExampleSentenceKurdish(
-                        text: "بردرایە دادگای سەربازی بۆ ھەڵھاتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtmartials2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtmartials2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was court-martialled for desertion.",
+            kurdishText: "بردرایە دادگای سەربازی بۆ ھەڵھاتن.",
+            onPressedBritish: () => speakcourtmartials2("en-GB"),
+            onPressedAmerican: () => speakcourtmartials2("en-US"),
           ),
         ],
       ),

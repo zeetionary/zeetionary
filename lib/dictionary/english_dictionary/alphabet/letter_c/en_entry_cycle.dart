@@ -332,360 +332,108 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سوور، خول، چەرخ، گەڕ، سووڕ یان چەرخی بە نۆرە،	کۆمەڵە، زنجیرە،	دووپێچکە، ڕەوڕەوە، چەرخ،	مۆتۆر (سیکلێت)،	(ئەستێرەوانی) سووڕگە، خولگە، خولگە یان بازنەیێکی وادانراوی ئاسمانی،	چەرخ و سەردەمێکی دوور و درێژ
 """),
           const DefinitionKurdish(text: "١. (ناو) پاسکیل یان ماتۆڕ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was riding his cycle home when he was hit by a lorry."),
-                    ExampleSentenceKurdish(
-                        text: "دووچەرخەکەی دەڕانی بۆ ماڵەوە کە لۆرییەک لێیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cycle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcycles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcycles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was riding his cycle home when he was hit by a lorry.",
+            kurdishText:
+                "دووچەرخەکەی دەڕانی بۆ ماڵەوە کە لۆرییەک لێیدا.", // cycle", please follow LX instructions
+            onPressedBritish: () => speakcycles1("en-GB"),
+            onPressedAmerican: () => speakcycles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We went for a cycle ride on Sunday."),
-                    ExampleSentenceKurdish(
-                        text: "چووین بۆ دووچەرخە ڕانینێک لە ڕۆژی یەکشەممەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcycles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcycles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We went for a cycle ride on Sunday.",
+            kurdishText: "چووین بۆ دووچەرخە ڕانینێک لە ڕۆژی یەکشەممەدا.",
+            onPressedBritish: () => speakcycles2("en-GB"),
+            onPressedAmerican: () => speakcycles2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Lots of people arrived in cars or on cycles."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەکی زۆر خەڵکی گەشتن بە ئۆتۆمبێل یان دووچەرخە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcycles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcycles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Lots of people arrived in cars or on cycles.",
+            kurdishText: "ژمارەیەکی زۆر خەڵکی گەشتن بە ئۆتۆمبێل یان دووچەرخە.",
+            onPressedBritish: () => speakcycles3("en-GB"),
+            onPressedAmerican: () => speakcycles3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They completed their journey by cycle."),
-                    ExampleSentenceKurdish(
-                        text: "گەشتەکەیان بە دووچەرخە تەواو کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcycles4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcycles4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They completed their journey by cycle.",
+            kurdishText: "گەشتەکەیان بە دووچەرخە تەواو کرد.",
+            onPressedBritish: () => speakcycles4("en-GB"),
+            onPressedAmerican: () => speakcycles4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) دووبارەکردنەوەی زنجیرەیەک ڕووداو بە ژمارەیەکی زۆر و ھەمان ڕیزبەندی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Every business goes through cycles."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو بازرگانییەک بە ژمارەیەک سووڕدا تێدەپەڕێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcycles5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcycles5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Every business goes through cycles.",
+            kurdishText: "ھەموو بازرگانییەک بە ژمارەیەک سووڕدا تێدەپەڕێت.",
+            onPressedBritish: () => speakcycles5("en-GB"),
+            onPressedAmerican: () => speakcycles5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The argument is that reprisals perpetuate the cycle of violence."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مشتومڕەکە ئەوەیە تۆڵەکردنەوە بەردەوامی دەدات بە سووڕی توندتوتیژی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcycles6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcycles6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The argument is that reprisals perpetuate the cycle of violence.",
+            kurdishText:
+                "مشتومڕەکە ئەوەیە تۆڵەکردنەوە بەردەوامی دەدات بە سووڕی توندتوتیژی.",
+            onPressedBritish: () => speakcycles6("en-GB"),
+            onPressedAmerican: () => speakcycles6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Life is a natural cycle, just like the changing seasons."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژیان سووڕێکی سرووشتییە، ھەر وەکو گۆڕانی وەرزەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcycles7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcycles7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Life is a natural cycle, just like the changing seasons.",
+            kurdishText: "ژیان سووڕێکی سرووشتییە، ھەر وەکو گۆڕانی وەرزەکان.",
+            onPressedBritish: () => speakcycles7("en-GB"),
+            onPressedAmerican: () => speakcycles7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The European market is going through an economic cycle."),
-                    ExampleSentenceKurdish(
-                        text: "بازاڕی ئەورووپا بە چەرخی ئابووریدا تێدەپەڕێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcycles8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcycles8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The European market is going through an economic cycle.",
+            kurdishText: "بازاڕی ئەورووپا بە چەرخی ئابووریدا تێدەپەڕێت.",
+            onPressedBritish: () => speakcycles8("en-GB"),
+            onPressedAmerican: () => speakcycles8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This cycle of events continually repeats itself."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چەرخی ڕووداوەکان بەردەوام خۆیان دووبارە دەکەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcycles9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcycles9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This cycle of events continually repeats itself.",
+            kurdishText: "چەرخی ڕووداوەکان بەردەوام خۆیان دووبارە دەکەنەوە.",
+            onPressedBritish: () => speakcycles9("en-GB"),
+            onPressedAmerican: () => speakcycles9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "To complete the cycle, oxygen is necessary."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ تەواوکردنی سووڕەکە، ئۆکسجین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcycles10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcycles10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "To complete the cycle, oxygen is necessary.",
+            kurdishText: "بۆ تەواوکردنی سووڕەکە، ئۆکسجین.",
+            onPressedBritish: () => speakcycles10("en-GB"),
+            onPressedAmerican: () => speakcycles10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) زنجیرەیەکی تەواو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She waited for the washing machine's spin cycle to finish before transferring the clothes to the dryer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چاوەڕێی تەواوبوونی خولانەوەی خلشۆرەکە بوو کە تەواو بێت بۆ ئەوەی جلەکان بگوازێتەوە بۆ وشککەرەوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcycles11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcycles11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She waited for the washing machine's spin cycle to finish before transferring the clothes to the dryer.",
+            kurdishText:
+                "چاوەڕێی تەواوبوونی خولانەوەی خلشۆرەکە بوو کە تەواو بێت بۆ ئەوەی جلەکان بگوازێتەوە بۆ وشککەرەوەکە.",
+            onPressedBritish: () => speakcycles11("en-GB"),
+            onPressedAmerican: () => speakcycles11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) ڕانینی پاسکیل"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I usually cycle home through the park."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرجار بە پارکەکەدا پاسکیل دەڕانمە ماڵەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcycles12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcycles12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I usually cycle home through the park.",
+            kurdishText: "زۆرجار بە پارکەکەدا پاسکیل دەڕانمە ماڵەوە.",
+            onPressedBritish: () => speakcycles12("en-GB"),
+            onPressedAmerican: () => speakcycles12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He cycles ten miles to and from work every day."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو ڕۆژێک ١٠ میل پاسکیل دەڕانێت بۆ سەر کار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcycles13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcycles13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He cycles ten miles to and from work every day.",
+            kurdishText: "ھەموو ڕۆژێک ١٠ میل پاسکیل دەڕانێت بۆ سەر کار.",
+            onPressedBritish: () => speakcycles13("en-GB"),
+            onPressedAmerican: () => speakcycles13("en-US"),
           ),
         ],
       ),

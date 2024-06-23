@@ -191,32 +191,13 @@ class EnglishEntrycatcall extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھاوارکردن کە لە کەسێک دەکرێت کە لە شوێنێکی گشتیدا نمایش یان قسە دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A chorus of catcalls and boos erupted in the middle of the ballet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوارێک لە ھووھا و ھاتوھاوار بەرزبووەوە لە ناوەڕاستی سەمای بالێیەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catcall", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatcalls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatcalls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A chorus of catcalls and boos erupted in the middle of the ballet.",
+                            kurdishText:
+                                "ھاوارێک لە ھووھا و ھاتوھاوار بەرزبووەوە لە ناوەڕاستی سەمای بالێیەکەدا.", // catcall",
+                            onPressedBritish: () => speakcatcalls1("en-GB"),
+                            onPressedAmerican: () => speakcatcalls1("en-US"),
                           ),
                         ],
                       ),

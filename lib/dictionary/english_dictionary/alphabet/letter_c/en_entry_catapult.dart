@@ -193,94 +193,37 @@ class EnglishEntrycatapult extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دارێک کە لە شێوەی پیتی Y دایە و بەکاردێت بۆ بەرد ھاویشتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He used a catapult made from a tree branch and rubber band to launch acorns at the squirrels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قۆچەقانی بەکارھێنا کە لە لقی درەختێک و لاستیک درووستکرابوو بۆ ھاویشتنی بەڕوو بۆ سمۆرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catapult", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatapults1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatapults1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He used a catapult made from a tree branch and rubber band to launch acorns at the squirrels.",
+                            kurdishText:
+                                "قۆچەقانی بەکارھێنا کە لە لقی درەختێک و لاستیک درووستکرابوو بۆ ھاویشتنی بەڕوو بۆ سمۆرەکە.", // catapult",
+                            onPressedBritish: () => speakcatapults1("en-GB"),
+                            onPressedAmerican: () => speakcatapults1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) چەکێک کە لە کۆندا بەکاردەھات بۆ ھاویشتنی بەردی گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the past, armies used catapults to hurl heavy stones at enemy fortifications."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆندا سوپاکان مەنجەنیقیان بەکاردەھێنا بۆ ھاویشتنی بەردی قورس لە شووراکانی دوژمن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatapults2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatapults2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the past, armies used catapults to hurl heavy stones at enemy fortifications.",
+                            kurdishText:
+                                "لە کۆندا سوپاکان مەنجەنیقیان بەکاردەھێنا بۆ ھاویشتنی بەردی قورس لە شووراکانی دوژمن.",
+                            onPressedBritish: () => speakcatapults2("en-GB"),
+                            onPressedAmerican: () => speakcatapults2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) ھاویشتنی شتێک یان کەسێک بە توندی بۆ ئاسمان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was catapulted out of the car as it hit the wall."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئۆتۆمبێلەکە فڕێدرایە دەرەوە کە لە دیوارەکەی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatapults3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatapults3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was catapulted out of the car as it hit the wall.",
+                            kurdishText:
+                                "لە ئۆتۆمبێلەکە فڕێدرایە دەرەوە کە لە دیوارەکەی دا.",
+                            onPressedBritish: () => speakcatapults3("en-GB"),
+                            onPressedAmerican: () => speakcatapults3("en-US"),
                           ),
                         ],
                       ),

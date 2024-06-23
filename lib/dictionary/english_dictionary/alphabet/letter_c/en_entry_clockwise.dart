@@ -103,59 +103,21 @@ class EnglishEntryclockwise extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو، ھاوەڵکار) بە ئاراستەی میلی کاتژمێر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Turn the key clockwise."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلیلەکە بە ئاراستەی میلی کاتژمێر بسووڕێنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clockwise", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclockwises1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclockwises1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Turn the key clockwise.",
+                            kurdishText:
+                                "کلیلەکە بە ئاراستەی میلی کاتژمێر بسووڕێنە.", // clockwise",
+                            onPressedBritish: () => speakclockwises1("en-GB"),
+                            onPressedAmerican: () => speakclockwises1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In our picture, clockwise from top left, are James Brown, Helen Taylor and Holly Jones."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە وێنەکەماندا بە ئاراستەی میلی کاتژمێر لە سەرەوە دەستە چەپ، جەیمس براون، ھێلن تەیلەر، و ھۆڵی جەونز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclockwises2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclockwises2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In our picture, clockwise from top left, are James Brown, Helen Taylor and Holly Jones.",
+                            kurdishText:
+                                "لە وێنەکەماندا بە ئاراستەی میلی کاتژمێر لە سەرەوە دەستە چەپ، جەیمس براون، ھێلن تەیلەر، و ھۆڵی جەونز.",
+                            onPressedBritish: () => speakclockwises2("en-GB"),
+                            onPressedAmerican: () => speakclockwises2("en-US"),
                           ),
                         ],
                       ),

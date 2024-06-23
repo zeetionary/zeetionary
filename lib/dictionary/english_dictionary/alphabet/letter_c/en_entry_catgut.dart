@@ -188,60 +188,22 @@ class EnglishEntrycatgut extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دەزوویەکی بەھێزی باریک کە لە ڕیخۆڵەی ئاژەڵ درووست دەکرێت و لە درووستکردنی ئامێری میوزیکیدا بەکاردێت، یان بۆ تەقەڵی پزیشکی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Violin, cello, and other string instruments traditionally use catgut strings for their rich sound."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمانچە، چەلۆ، و ئامێرە میوزیکییەکانی دیکە تەلی ژێ بەکاردێنن بۆ دەنگە پڕ و خۆشەکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catgut", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatguts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatguts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Violin, cello, and other string instruments traditionally use catgut strings for their rich sound.",
+                            kurdishText:
+                                "کەمانچە، چەلۆ، و ئامێرە میوزیکییەکانی دیکە تەلی ژێ بەکاردێنن بۆ دەنگە پڕ و خۆشەکەیان.", // catgut",
+                            onPressedBritish: () => speakcatguts1("en-GB"),
+                            onPressedAmerican: () => speakcatguts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Early surgeons relied on catgut sutures to close wounds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەشتەرگەرە پێشینەکان پشتیان بە تەقەڵی ژێ دەبەست بۆ دوورینەوەی برین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatguts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatguts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Early surgeons relied on catgut sutures to close wounds.",
+                            kurdishText:
+                                "نەشتەرگەرە پێشینەکان پشتیان بە تەقەڵی ژێ دەبەست بۆ دوورینەوەی برین.",
+                            onPressedBritish: () => speakcatguts2("en-GB"),
+                            onPressedAmerican: () => speakcatguts2("en-US"),
                           ),
                         ],
                       ),

@@ -190,34 +190,14 @@ class EnglishEntrycasehistory extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕابردووی کەسێک یان نەخۆشێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She familiarized herself with the case history of her new patient."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی ئاشناکرد لەگەڵ تۆماری ڕابردووی نەخۆشە تازەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "case history", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcasehistorys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcasehistorys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She familiarized herself with the case history of her new patient.",
+                            kurdishText:
+                                "خۆی ئاشناکرد لەگەڵ تۆماری ڕابردووی نەخۆشە تازەکەی.", // case history",
+                            onPressedBritish: () => speakcasehistorys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcasehistorys1("en-US"),
                           ),
                         ],
                       ),

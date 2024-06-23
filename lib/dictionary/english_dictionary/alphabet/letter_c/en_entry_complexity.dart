@@ -112,91 +112,34 @@ class EnglishEntrycomplexity extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئاڵۆزی؛ پێکھاتوو لە بەشی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was astonished by the size and complexity of the problem."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسام بووم بە ئەندازە و ئاڵۆزی کێشەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complexity", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplexitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplexitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was astonished by the size and complexity of the problem.",
+                            kurdishText:
+                                "سەرسام بووم بە ئەندازە و ئاڵۆزی کێشەکە.", // complexity",
+                            onPressedBritish: () => speakcomplexitys1("en-GB"),
+                            onPressedAmerican: () => speakcomplexitys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Only now did he understand the full complexity of the problem."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا ئێستا لە ئاڵۆزی تەواوی کێشەکە تێدەگات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplexitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplexitys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Only now did he understand the full complexity of the problem.",
+                            kurdishText:
+                                "تەنھا ئێستا لە ئاڵۆزی تەواوی کێشەکە تێدەگات.",
+                            onPressedBritish: () => speakcomplexitys2("en-GB"),
+                            onPressedAmerican: () => speakcomplexitys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) لایەنەکانی کێشەیەک یان دۆخێک کە سەختن بۆ تێگەشتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The critics failed to understand the structural complexities of the novel's language."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەخنەگران نەیانتوانی لە ئاڵۆزی داڕشتنی زمانی ڕۆمانەکە تێبگەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplexitys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplexitys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The critics failed to understand the structural complexities of the novel's language.",
+                            kurdishText:
+                                "ڕەخنەگران نەیانتوانی لە ئاڵۆزی داڕشتنی زمانی ڕۆمانەکە تێبگەن.",
+                            onPressedBritish: () => speakcomplexitys3("en-GB"),
+                            onPressedAmerican: () => speakcomplexitys3("en-US"),
                           ),
                         ],
                       ),

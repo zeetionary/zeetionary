@@ -243,60 +243,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کێڵان؛ ئامادەکردن و بەکارھێنانی زەوی بۆ چاندن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cultivation of wheat required the most fertile lands."),
-                    ExampleSentenceKurdish(
-                        text: "چاندنی دانەوێڵە پێویستی بە بەپیتترین خاک ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cultivation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultivations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultivations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cultivation of wheat required the most fertile lands.",
+            kurdishText:
+                "چاندنی دانەوێڵە پێویستی بە بەپیتترین خاک ھەیە.", // cultivation", please follow LX instructions
+            onPressedBritish: () => speakcultivations1("en-GB"),
+            onPressedAmerican: () => speakcultivations1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) درووستکردنی پەیوەندییەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "For the cultivation of friends we need above all time for conversation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ درووستکردنی ھاوڕێیەتی زیاتر لە ھەر شتێک پێویستیمان بە کاتە بە کاتە گفتوگۆکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultivations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultivations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "For the cultivation of friends we need above all time for conversation.",
+            kurdishText:
+                "بۆ درووستکردنی ھاوڕێیەتی زیاتر لە ھەر شتێک پێویستیمان بە کاتە بە کاتە گفتوگۆکردن.",
+            onPressedBritish: () => speakcultivations2("en-GB"),
+            onPressedAmerican: () => speakcultivations2("en-US"),
           ),
         ],
       ),

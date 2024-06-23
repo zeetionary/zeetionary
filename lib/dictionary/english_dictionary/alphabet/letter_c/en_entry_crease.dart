@@ -273,173 +273,61 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لۆچ، چرچ، چین، گنج، ناوە،	چرچ‌ولۆچی، ژاکاوی (لە پێست‌دا)،	قەد، دەق، خەت
 """),
           const DefinitionKurdish(text: "١. (ناو) لۆچی پەڕە یان جلوبەرگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She smoothed the creases out of her skirt."),
-                    ExampleSentenceKurdish(
-                        text: "لۆچییەکانی تەنوورەکەیی سافکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crease", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreases1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreases1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She smoothed the creases out of her skirt.",
+            kurdishText:
+                "لۆچییەکانی تەنوورەکەیی سافکردەوە.", // crease", please follow LX instructions
+            onPressedBritish: () => speakcreases1("en-GB"),
+            onPressedAmerican: () => speakcreases1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He ironed out the creases in his shirt."),
-                    ExampleSentenceKurdish(
-                        text: "لۆچییەکانی درێسەکەی ئوتوو کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreases2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreases2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He ironed out the creases in his shirt.",
+            kurdishText: "لۆچییەکانی درێسەکەی ئوتوو کرد.",
+            onPressedBritish: () => speakcreases2("en-GB"),
+            onPressedAmerican: () => speakcreases2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ھێڵێکی ڕێک کە درووستی دەکەیت لەکاتی قەدکردنی پەڕە یان جلوبەرگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Make a crease in the paper and then unfold it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەتێک لە پەڕەکەدا درووست بکە و دواتر قەدکردنەکەی بکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreases3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreases3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Make a crease in the paper and then unfold it.",
+            kurdishText:
+                "خەتێک لە پەڕەکەدا درووست بکە و دواتر قەدکردنەکەی بکەوە.",
+            onPressedBritish: () => speakcreases3("en-GB"),
+            onPressedAmerican: () => speakcreases3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ھێڵێکی سەر جەستە، بەتایبەتی لە ڕووخساردا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had lots of deep creases at the corners of her eyes."),
-                    ExampleSentenceKurdish(
-                        text: "ژمارەیەکی زۆر چرچی ھەبوو لە سووچی چاوەکانیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreases4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreases4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She had lots of deep creases at the corners of her eyes.",
+            kurdishText: "ژمارەیەکی زۆر چرچی ھەبوو لە سووچی چاوەکانیدا.",
+            onPressedBritish: () => speakcreases4("en-GB"),
+            onPressedAmerican: () => speakcreases4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) درووستکردنی ھێڵ لەسەر پەڕە یان جلوبەرگ بە قەدکردن یان پەستان خستنە سەری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Pack your suit carefully so that you don't crease it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قاتەکەت بە وریاییەوە قەد بکە بۆ ئەوەی لۆچی تێنەکەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreases5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreases5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Pack your suit carefully so that you don't crease it.",
+            kurdishText:
+                "قاتەکەت بە وریاییەوە قەد بکە بۆ ئەوەی لۆچی تێنەکەوێت.",
+            onPressedBritish: () => speakcreases5("en-GB"),
+            onPressedAmerican: () => speakcreases5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) درووستبوونی چرچی لەسەر پێست"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A frown creased her forehead."),
-                    ExampleSentenceKurdish(text: "مۆنییەک ناوچەوانی گرژکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreases6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreases6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A frown creased her forehead.",
+            kurdishText: "مۆنییەک ناوچەوانی گرژکرد.",
+            onPressedBritish: () => speakcreases6("en-GB"),
+            onPressedAmerican: () => speakcreases6("en-US"),
           ),
         ],
       ),

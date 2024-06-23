@@ -258,113 +258,36 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: باوەش، ئامێز، حمێز
 """),
           const DefinitionKurdish(text: "١. (کردار) لەباوەش گرتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A couple of teenagers were kissing and cuddling on the doorstep."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک گەنج لە بەردەرگاکە ماچ‌ماچێنیان بوو و یەکیان لە ئامێز دەگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cuddle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuddles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuddles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A couple of teenagers were kissing and cuddling on the doorstep.",
+            kurdishText:
+                "ژمارەیەک گەنج لە بەردەرگاکە ماچ‌ماچێنیان بوو و یەکیان لە ئامێز دەگرت.", // cuddle", please follow LX instructions
+            onPressedBritish: () => speakcuddles1("en-GB"),
+            onPressedAmerican: () => speakcuddles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She cuddled the baby and eventually it stopped crying."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکەی لە باوەش گرت و لەکۆتاییدا وەستا لە گریان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuddles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuddles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She cuddled the baby and eventually it stopped crying.",
+            kurdishText: "منداڵەکەی لە باوەش گرت و لەکۆتاییدا وەستا لە گریان.",
+            onPressedBritish: () => speakcuddles2("en-GB"),
+            onPressedAmerican: () => speakcuddles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) لەباوەش‌گرتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He gave her a big cuddle and told her not to worry."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باوەشێکی گەورەی پێیدا کرد و پێی گوت نیگەران نەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuddles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuddles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He gave her a big cuddle and told her not to worry.",
+            kurdishText: "باوەشێکی گەورەی پێیدا کرد و پێی گوت نیگەران نەبێت.",
+            onPressedBritish: () => speakcuddles3("en-GB"),
+            onPressedAmerican: () => speakcuddles3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Give Mummy a big cuddle."),
-                    ExampleSentenceKurdish(text: "باوەشێکی گەورە بدە دایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuddles4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuddles4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Give Mummy a big cuddle.",
+            kurdishText: "باوەشێکی گەورە بدە دایە.",
+            onPressedBritish: () => speakcuddles4("en-GB"),
+            onPressedAmerican: () => speakcuddles4("en-US"),
           ),
         ],
       ),

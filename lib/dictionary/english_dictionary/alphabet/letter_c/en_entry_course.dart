@@ -452,57 +452,19 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کۆمەڵە وانەیەک لەسەر بابەتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He took a course in Russian language and literature."),
-                    ExampleSentenceKurdish(
-                        text: "بەژداری کۆرسێکی لەسەر زمان و ئەدەبی ڕووسی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "course", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He took a course in Russian language and literature.",
+            kurdishText:
+                "بەژداری کۆرسێکی لەسەر زمان و ئەدەبی ڕووسی کرد.", // course", please follow LX instructions
+            onPressedBritish: () => speakcourses1("en-GB"),
+            onPressedAmerican: () => speakcourses1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I want to do a course in art and design."),
-                    ExampleSentenceKurdish(
-                        text: "دەمەوێت کۆرسێکی ھونەر و دیزاین ئەنجام بدەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I want to do a course in art and design.",
+            kurdishText: "دەمەوێت کۆرسێکی ھونەر و دیزاین ئەنجام بدەم.",
+            onPressedBritish: () => speakcourses2("en-GB"),
+            onPressedAmerican: () => speakcourses2("en-US"),
           ),
           Column(
             children: [
@@ -599,284 +561,93 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ماوەیەکی خوێندن لە کۆلێژ یان زانکۆ کە بە تاقیکردنەوە یان وەرگرتنی بڕوانامە کۆتایی دێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What degree course did you choose?"),
-                    ExampleSentenceKurdish(
-                        text: "چی کۆرسێکی بڕوانامەت ھەڵبژارد؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What degree course did you choose?",
+            kurdishText: "چی کۆرسێکی بڕوانامەت ھەڵبژارد؟",
+            onPressedBritish: () => speakcourses6("en-GB"),
+            onPressedAmerican: () => speakcourses6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The university offers a course in computer games technology."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زانکۆکە کۆرسێک لەسەر تەکنەلۆژیای یاریی کۆمپیوتەر پێشکەش دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The university offers a course in computer games technology.",
+            kurdishText:
+                "زانکۆکە کۆرسێک لەسەر تەکنەلۆژیای یاریی کۆمپیوتەر پێشکەش دەکات.",
+            onPressedBritish: () => speakcourses7("en-GB"),
+            onPressedAmerican: () => speakcourses7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The course leads to a master's degree."),
-                    ExampleSentenceKurdish(
-                        text: "کۆرسەکە دەگات بە بڕوانامەی ماستەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The course leads to a master's degree.",
+            kurdishText: "کۆرسەکە دەگات بە بڕوانامەی ماستەر.",
+            onPressedBritish: () => speakcourses8("en-GB"),
+            onPressedAmerican: () => speakcourses8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ناوچەیەکی گەورە کە بۆ یاری گۆڵف ئامادە کراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He spends every weekend out on the golf course."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو کۆتاییەکی ھەفتە لە گۆڕەپانی گۆڵفەکە بەسەر دەبات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He spends every weekend out on the golf course.",
+            kurdishText:
+                "ھەموو کۆتاییەکی ھەفتە لە گۆڕەپانی گۆڵفەکە بەسەر دەبات.",
+            onPressedBritish: () => speakcourses9("en-GB"),
+            onPressedAmerican: () => speakcourses9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) زەوییەک یان ناوچەیەکی ئاوی کە تێیدا پێشبڕکێیەک ساز دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Only ten yachts completed the course."),
-                    ExampleSentenceKurdish(
-                        text: "تەنھا دە یەخت مەوداکەیان تەواوکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Only ten yachts completed the course.",
+            kurdishText: "تەنھا دە یەخت مەوداکەیان تەواوکرد.",
+            onPressedBritish: () => speakcourses10("en-GB"),
+            onPressedAmerican: () => speakcourses10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) یەکێک لە بەشە جیاوازەکانی ژەمە خواردنێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We had chicken for our main course."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ بەشی سەرەکیمان مریشکمان ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We had chicken for our main course.",
+            kurdishText: "بۆ بەشی سەرەکیمان مریشکمان ھەبوو.",
+            onPressedBritish: () => speakcourses11("en-GB"),
+            onPressedAmerican: () => speakcourses11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) ڕێڕەوی فڕۆکەیەک یان کەشتییەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He radioed the pilot to change course."),
-                    ExampleSentenceKurdish(
-                        text: "ئاماژەی بۆ فڕۆکەوانەکە نارد ڕێڕەوەکەی بگۆڕێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He radioed the pilot to change course.",
+            kurdishText: "ئاماژەی بۆ فڕۆکەوانەکە نارد ڕێڕەوەکەی بگۆڕێت.",
+            onPressedBritish: () => speakcourses12("en-GB"),
+            onPressedAmerican: () => speakcourses12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We're on course for our destination."),
-                    ExampleSentenceKurdish(
-                        text: "لەسەر ڕێڕەوی گەشتن بە ئامانجەکەمانین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We're on course for our destination.",
+            kurdishText: "لەسەر ڕێڕەوی گەشتن بە ئامانجەکەمانین.",
+            onPressedBritish: () => speakcourses13("en-GB"),
+            onPressedAmerican: () => speakcourses13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٧. (ناو) ئاراستەیەک کە بیرۆکە و کرداری کەسێک بۆی دەچێت، یان ئاقاری گەشەکردنی ڕووداوەکان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The president appears likely to change course on some key issues."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرۆک وادەردەکەوێت ئەگەری ھەبێت ڕەوتی بگۆڕێت لەسەر ھەندێک بابەتی گرنگ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The president appears likely to change course on some key issues.",
+            kurdishText:
+                "سەرۆک وادەردەکەوێت ئەگەری ھەبێت ڕەوتی بگۆڕێت لەسەر ھەندێک بابەتی گرنگ.",
+            onPressedBritish: () => speakcourses14("en-GB"),
+            onPressedAmerican: () => speakcourses14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dollar fell sharply for two days, and then reversed course."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دۆلار بۆ دوو ڕۆژ بە زۆری داتەپی، و دواتر ڕێڕەوی گۆڕی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dollar fell sharply for two days, and then reversed course.",
+            kurdishText:
+                "دۆلار بۆ دوو ڕۆژ بە زۆری داتەپی، و دواتر ڕێڕەوی گۆڕی.",
+            onPressedBritish: () => speakcourses15("en-GB"),
+            onPressedAmerican: () => speakcourses15("en-US"),
           ),
           Column(
             children: [
@@ -1000,222 +771,69 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (ناو) شێوازی مامەڵەکردن لەگەڵ دۆخێکی دیاریکراودا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There are various courses open to us."),
-                    ExampleSentenceKurdish(
-                        text: "ژمارەیەک ڕێگای لە پێشمان کراوەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There are various courses open to us.",
+            kurdishText: "ژمارەیەک ڕێگای لە پێشمان کراوەن.",
+            onPressedBritish: () => speakcourses20("en-GB"),
+            onPressedAmerican: () => speakcourses20("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What course of action would you recommend?"),
-                    ExampleSentenceKurdish(
-                        text: "چی ڕێگاچارەیەک پێشنیار دەکەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What course of action would you recommend?",
+            kurdishText: "چی ڕێگاچارەیەک پێشنیار دەکەیت؟",
+            onPressedBritish: () => speakcourses21("en-GB"),
+            onPressedAmerican: () => speakcourses21("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The wisest course would be to say nothing."),
-                    ExampleSentenceKurdish(
-                        text: "باشترین ڕێگا ئەوەیە ھیچ نەڵێیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The wisest course would be to say nothing.",
+            kurdishText: "باشترین ڕێگا ئەوەیە ھیچ نەڵێیت.",
+            onPressedBritish: () => speakcourses22("en-GB"),
+            onPressedAmerican: () => speakcourses22("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (ناو) ڕێگای بەرەوپێشچوونی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This was an event that changed the course of history."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە ڕووداوێک بوو کە ئاقاری مێژووی گۆڕی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This was an event that changed the course of history.",
+            kurdishText: "ئەمە ڕووداوێک بوو کە ئاقاری مێژووی گۆڕی.",
+            onPressedBritish: () => speakcourses23("en-GB"),
+            onPressedAmerican: () => speakcourses23("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "War has determined the course of much of human history."),
-                    ExampleSentenceKurdish(
-                        text: "جەنگ زۆرینەی ڕەوتی مێژووی دیاریکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "War has determined the course of much of human history.",
+            kurdishText: "جەنگ زۆرینەی ڕەوتی مێژووی دیاریکردووە.",
+            onPressedBritish: () => speakcourses24("en-GB"),
+            onPressedAmerican: () => speakcourses24("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٠. (ناو) ڕێڕەوی ڕووبارێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The path follows the course of the river."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێگاکە بە شوێن ڕێڕەوی ڕووبارەکەدا دەچێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses25("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses25("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The path follows the course of the river.",
+            kurdishText: "ڕێگاکە بە شوێن ڕێڕەوی ڕووبارەکەدا دەچێت.",
+            onPressedBritish: () => speakcourses25("en-GB"),
+            onPressedAmerican: () => speakcourses25("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١١. (ناو) زنجیرە چارەسەرێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When taking antibiotics it is important to finish the course."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە دژەبەکتریا وەردەگریت باشتر وایە زنجیرە چارەسەرییەکە تەواو بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses26("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses26("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When taking antibiotics it is important to finish the course.",
+            kurdishText:
+                "کە دژەبەکتریا وەردەگریت باشتر وایە زنجیرە چارەسەرییەکە تەواو بکەیت.",
+            onPressedBritish: () => speakcourses26("en-GB"),
+            onPressedAmerican: () => speakcourses26("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٢. (کردار) جوڵان بە خێرایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He stopped talking and tears coursed down his cheeks."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە قسەکردن وەستا و فرمێسک بە گۆنایدا ڕژا بە چاویدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourses27("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourses27("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He stopped talking and tears coursed down his cheeks.",
+            kurdishText: "لە قسەکردن وەستا و فرمێسک بە گۆنایدا ڕژا بە چاویدا.",
+            onPressedBritish: () => speakcourses27("en-GB"),
+            onPressedAmerican: () => speakcourses27("en-US"),
           ),
         ],
       ),

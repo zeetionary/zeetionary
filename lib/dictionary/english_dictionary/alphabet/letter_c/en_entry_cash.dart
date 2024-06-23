@@ -192,59 +192,20 @@ class EnglishEntrycash extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پارەی دراو یان کاغەز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How much cash do you have on you?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چەند پارەت پێیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cash", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcashs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcashs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "How much cash do you have on you?",
+                            kurdishText: "چەند پارەت پێیە؟", // cash",
+                            onPressedBritish: () => speakcashs1("en-GB"),
+                            onPressedAmerican: () => speakcashs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Customers are offered a 10% discount if they pay cash."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڕیاران ١٠٪ داشکاندنیان بۆ دەکرێت ئەگەر بە کاش پارە بدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcashs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcashs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Customers are offered a 10% discount if they pay cash.",
+                            kurdishText:
+                                "کڕیاران ١٠٪ داشکاندنیان بۆ دەکرێت ئەگەر بە کاش پارە بدەن.",
+                            onPressedBritish: () => speakcashs2("en-GB"),
+                            onPressedAmerican: () => speakcashs2("en-US"),
                           ),
                           Column(
                             children: [
@@ -286,116 +247,39 @@ class EnglishEntrycash extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) پارە بە ھەموو جۆرەکانییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'm short of cash right now."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئێستادا پارەم بە دەستەوە نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcashs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcashs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'm short of cash right now.",
+                            kurdishText: "لە ئێستادا پارەم بە دەستەوە نییە.",
+                            onPressedBritish: () => speakcashs4("en-GB"),
+                            onPressedAmerican: () => speakcashs4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm constantly strapped for cash (= without enough money)."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەردەوام بێ‌پارەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcashs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcashs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm constantly strapped for cash (= without enough money).",
+                            kurdishText: "بەردەوام بێ‌پارەم.",
+                            onPressedBritish: () => speakcashs5("en-GB"),
+                            onPressedAmerican: () => speakcashs5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Local schools have been starved of cash for a number of years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندنگە ناوخۆییەکان بۆ چەند ساڵێک دەبێت پارەیان نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcashs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcashs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Local schools have been starved of cash for a number of years.",
+                            kurdishText:
+                                "خوێندنگە ناوخۆییەکان بۆ چەند ساڵێک دەبێت پارەیان نییە.",
+                            onPressedBritish: () => speakcashs6("en-GB"),
+                            onPressedAmerican: () => speakcashs6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) کردنی چەکێکی بانکی بە پارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company cashed my cheque but then failed to send the goods I’d ordered."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە چەکەکەمی کرد بە پارە بەڵام دواتر ئەو کەلوپەلانەی بۆم نەنارد کە داوام کردبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcashs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcashs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company cashed my cheque but then failed to send the goods I’d ordered.",
+                            kurdishText:
+                                "کۆمپانیاکە چەکەکەمی کرد بە پارە بەڵام دواتر ئەو کەلوپەلانەی بۆم نەنارد کە داوام کردبوون.",
+                            onPressedBritish: () => speakcashs7("en-GB"),
+                            onPressedAmerican: () => speakcashs7("en-US"),
                           ),
                         ],
                       ),

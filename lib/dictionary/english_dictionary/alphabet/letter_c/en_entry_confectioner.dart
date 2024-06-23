@@ -95,34 +95,15 @@ class EnglishEntryconfectioner extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک یان بازرگانییەک کە کێک یان شیرینی دەفرۆشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The confectioner prepared a variety of chocolates for the holiday season."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شیرینی‌فرۆشەکە ژمارەیەکی جیاواز چکلێتی ئامادەکرد بۆ وەرزی پشوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confectioner", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfectioners1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfectioners1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The confectioner prepared a variety of chocolates for the holiday season.",
+                            kurdishText:
+                                "شیرینی‌فرۆشەکە ژمارەیەکی جیاواز چکلێتی ئامادەکرد بۆ وەرزی پشوو.", // confectioner",
+                            onPressedBritish: () =>
+                                speakconfectioners1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfectioners1("en-US"),
                           ),
                         ],
                       ),

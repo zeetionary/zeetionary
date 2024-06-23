@@ -104,64 +104,26 @@ class EnglishEntrycongressional extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە کۆنگرێس یان کۆنگرێسی ئەمریکا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He blocked congressional approval of the rescue plan."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەسەندکردنی کۆنگرێسی بۆ پلانی بەھاناوەچوونەکە بلۆک کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congressional", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongressionals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongressionals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He blocked congressional approval of the rescue plan.",
+                            kurdishText:
+                                "پەسەندکردنی کۆنگرێسی بۆ پلانی بەھاناوەچوونەکە بلۆک کرد.", // congressional",
+                            onPressedBritish: () =>
+                                speakcongressionals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongressionals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In congressional hearings, company directors denied negligence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دانیشتنی کۆنگرێسدا، بەڕێوبەرانی کۆمپانیاکان نکۆڵیان لە کەمتەرخەمی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongressionals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongressionals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In congressional hearings, company directors denied negligence.",
+                            kurdishText:
+                                "لە دانیشتنی کۆنگرێسدا، بەڕێوبەرانی کۆمپانیاکان نکۆڵیان لە کەمتەرخەمی کرد.",
+                            onPressedBritish: () =>
+                                speakcongressionals2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongressionals2("en-US"),
                           ),
                         ],
                       ),

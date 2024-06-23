@@ -93,32 +93,13 @@ class EnglishEntrycheery extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) خۆشحاڵ و دڵخۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She walked in with a cheery \"Good morning!\""),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاتە ژوورە بە \"بەیانی باش\" ـێکی دڵگەشەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheery", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheerys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheerys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She walked in with a cheery \"Good morning!\"",
+                            kurdishText:
+                                "ھاتە ژوورە بە \"بەیانی باش\" ـێکی دڵگەشەوە.", // cheery",
+                            onPressedBritish: () => speakcheerys1("en-GB"),
+                            onPressedAmerican: () => speakcheerys1("en-US"),
                           ),
                         ],
                       ),

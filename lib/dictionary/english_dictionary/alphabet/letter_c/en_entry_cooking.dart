@@ -117,117 +117,37 @@ class EnglishEntrycooking extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پڕۆسەی ئامادەکردنی خواردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My husband does all the cooking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوسەرەکەم ھەموو کاری چێشتلێنان دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cooking", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcookings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcookings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My husband does all the cooking.",
+                            kurdishText:
+                                "ھاوسەرەکەم ھەموو کاری چێشتلێنان دەکات.", // cooking",
+                            onPressedBritish: () => speakcookings1("en-GB"),
+                            onPressedAmerican: () => speakcookings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We always use olive oil for cooking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە ڕۆزی زەیتوون بۆ چێشتلێنان بەکاردێنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcookings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcookings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We always use olive oil for cooking.",
+                            kurdishText:
+                                "ھەمیشە ڕۆزی زەیتوون بۆ چێشتلێنان بەکاردێنین.",
+                            onPressedBritish: () => speakcookings2("en-GB"),
+                            onPressedAmerican: () => speakcookings2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) خواردنێک کە بەشێوەیەکی دیاریکراو درووستکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They serve good French cooking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواردنی فەرەنسی باش پێشکەش دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcookings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcookings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They serve good French cooking.",
+                            kurdishText: "خواردنی فەرەنسی باش پێشکەش دەکەن.",
+                            onPressedBritish: () => speakcookings3("en-GB"),
+                            onPressedAmerican: () => speakcookings3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Her cooking is wonderful."),
-                                    ExampleSentenceKurdish(
-                                        text: "خواردنەکەی نایابە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcookings4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcookings4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her cooking is wonderful.",
+                            kurdishText: "خواردنەکەی نایابە.",
+                            onPressedBritish: () => speakcookings4("en-GB"),
+                            onPressedAmerican: () => speakcookings4("en-US"),
                           ),
                         ],
                       ),

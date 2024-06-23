@@ -189,34 +189,13 @@ class EnglishEntryceaselessly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بەبێ وەستان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He worked ceaselessly for charity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێ وەستان کاری بۆ ڕێکخراوی خێرخوازی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "ceaselessly", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakceaselesslys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakceaselesslys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He worked ceaselessly for charity.",
+                            kurdishText:
+                                "بێ وەستان کاری بۆ ڕێکخراوی خێرخوازی کرد.", // ceaselessly",
+                            onPressedBritish: () => speakceaselesslys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakceaselesslys1("en-US"),
                           ),
                         ],
                       ),

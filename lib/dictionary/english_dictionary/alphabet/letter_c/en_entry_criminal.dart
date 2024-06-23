@@ -284,202 +284,69 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تاوان‌کار، گوناەکار، خراپەکار، خەتابار،	ھەڵەی ئاکاری، کردەوەی دژی ئاکار،	پێچەوانەی ئاکار یان قانوون، شەرماوی، ناڕەوا،	تاوان‌کاری‌یانە، سزایی 
 """),
           const DefinitionKurdish(text: "١. (ناو) تاوانکار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Police sometimes put themselves in danger when arresting violent criminals."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆلیس ھەندێک جار خۆیان دەخەنەوە مەترسییەوە کە تاوانکارە توندوتیژەکان دەگرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "criminal", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriminals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriminals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Police sometimes put themselves in danger when arresting violent criminals.",
+            kurdishText:
+                "پۆلیس ھەندێک جار خۆیان دەخەنەوە مەترسییەوە کە تاوانکارە توندوتیژەکان دەگرن.", // criminal", please follow LX instructions
+            onPressedBritish: () => speakcriminals1("en-GB"),
+            onPressedAmerican: () => speakcriminals1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has been associating with known criminals."),
-                    ExampleSentenceKurdish(
-                        text: "گرێدراوە بە تاوانکارە ناسراوەکانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriminals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriminals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has been associating with known criminals.",
+            kurdishText: "گرێدراوە بە تاوانکارە ناسراوەکانەوە.",
+            onPressedBritish: () => speakcriminals2("en-GB"),
+            onPressedAmerican: () => speakcriminals2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I told him to pass the information to the police so they could catch the criminals."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێم گوت زانیارییەکە بگوازێتەوە بۆ پۆلیس بەڵکو بتوانن تاوانکارەکان دەستگیر بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriminals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriminals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I told him to pass the information to the police so they could catch the criminals.",
+            kurdishText:
+                "پێم گوت زانیارییەکە بگوازێتەوە بۆ پۆلیس بەڵکو بتوانن تاوانکارەکان دەستگیر بکەن.",
+            onPressedBritish: () => speakcriminals3("en-GB"),
+            onPressedAmerican: () => speakcriminals3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) پەیوەندیدار بە تاوانەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It should be a criminal offence to inflict cruelty on any animal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دڕندەیی بەرامبەر ھەر ئاژەڵێک دەبێت کارێکی تاوانکاری بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriminals4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriminals4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It should be a criminal offence to inflict cruelty on any animal.",
+            kurdishText:
+                "دڕندەیی بەرامبەر ھەر ئاژەڵێک دەبێت کارێکی تاوانکاری بێت.",
+            onPressedBritish: () => speakcriminals4("en-GB"),
+            onPressedAmerican: () => speakcriminals4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Criminal activities pose significant threats to the economy and national security."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چالاکی تاوانکاری ھەڕەشەیەکی گەورەیە بۆ ئابووری و ئاسایشی نیشتیمانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriminals5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriminals5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Criminal activities pose significant threats to the economy and national security.",
+            kurdishText:
+                "چالاکی تاوانکاری ھەڕەشەیەکی گەورەیە بۆ ئابووری و ئاسایشی نیشتیمانی.",
+            onPressedBritish: () => speakcriminals5("en-GB"),
+            onPressedAmerican: () => speakcriminals5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) پەیوەندیدار بە یاسای تاوانکاری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The former minister could face criminal proceedings over his involvement in the deal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەزیرە پێشووترەکە دەکرێت تووشی ڕێکاری تاوانکاری ببێتەوە بەھۆی تێوەگلانی لە ڕێککەوتنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriminals6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriminals6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The former minister could face criminal proceedings over his involvement in the deal.",
+            kurdishText:
+                "وەزیرە پێشووترەکە دەکرێت تووشی ڕێکاری تاوانکاری ببێتەوە بەھۆی تێوەگلانی لە ڕێککەوتنەکە.",
+            onPressedBritish: () => speakcriminals6("en-GB"),
+            onPressedAmerican: () => speakcriminals6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ھاوەڵناو) شتێک کە لە ڕووی ئەخلاقییەوە ھەڵەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This is a criminal waste of resources."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە بەفیڕۆدانی چەوتی سەرچاوەکانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriminals7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriminals7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is a criminal waste of resources.",
+            kurdishText: "ئەمە بەفیڕۆدانی چەوتی سەرچاوەکانە.",
+            onPressedBritish: () => speakcriminals7("en-GB"),
+            onPressedAmerican: () => speakcriminals7("en-US"),
           ),
         ],
       ),

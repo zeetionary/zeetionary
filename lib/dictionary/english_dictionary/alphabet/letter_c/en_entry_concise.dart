@@ -94,31 +94,13 @@ class EnglishEntryconcise extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پێدانی تەنھا ئەو زانیارییانەی کە پێویست و گرنگن بە بەکارھێنانی وشەی کەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She gave us clear and concise instructions."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕێنمایی کورت و پوختی پێداین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concise", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcises1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcises1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She gave us clear and concise instructions.",
+                            kurdishText:
+                                "ڕێنمایی کورت و پوختی پێداین.", // concise",
+                            onPressedBritish: () => speakconcises1("en-GB"),
+                            onPressedAmerican: () => speakconcises1("en-US"),
                           ),
                         ],
                       ),

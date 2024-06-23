@@ -120,121 +120,43 @@ class EnglishEntrycomprise extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ھەبوونی شتێک وەک پێکھێنەر، بەشێک، یان ئەندامێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The collection comprises 327 paintings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆکراوەکە ٣٢٧ تابلۆ لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comprise", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomprises1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomprises1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The collection comprises 327 paintings.",
+                            kurdishText:
+                                "کۆکراوەکە ٣٢٧ تابلۆ لەخۆدەگرێت.", // comprise",
+                            onPressedBritish: () => speakcomprises1("en-GB"),
+                            onPressedAmerican: () => speakcomprises1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The committee is comprised of representatives from both the public and private sectors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لیژنەکە پێکھاتووە لە نوێنەرانی ھەردوو کەرتی گشتی و تایبەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomprises2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomprises2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The committee is comprised of representatives from both the public and private sectors.",
+                            kurdishText:
+                                "لیژنەکە پێکھاتووە لە نوێنەرانی ھەردوو کەرتی گشتی و تایبەتەوە.",
+                            onPressedBritish: () => speakcomprises2("en-GB"),
+                            onPressedAmerican: () => speakcomprises2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                      text: "The country comprises 20 states.",
-                                      note:
-                                          "also: The country is comprised of twenty states.",
-                                    ),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتەکە لە ٢٠ ویلایەت پێکھاتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomprises3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomprises3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The country comprises 20 states.",
+                            englishNote:
+                                "also: The country is comprised of twenty states.",
+                            kurdishText: "وڵاتەکە لە ٢٠ ویلایەت پێکھاتووە.",
+                            onPressedBritish: () => speakcomprises3("en-GB"),
+                            onPressedAmerican: () => speakcomprises3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بوون بە پێکھێنەر، بەشێک، یان ئەندامی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Older people comprise a large proportion of those living in poverty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسانی بەتەمەن ڕێژەیەکی زۆر لەوانە پێکدێنن کە لە ھەژاریدا دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomprises4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomprises4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Older people comprise a large proportion of those living in poverty.",
+                            kurdishText:
+                                "کەسانی بەتەمەن ڕێژەیەکی زۆر لەوانە پێکدێنن کە لە ھەژاریدا دەژین.",
+                            onPressedBritish: () => speakcomprises4("en-GB"),
+                            onPressedAmerican: () => speakcomprises4("en-US"),
                           ),
                         ],
                       ),

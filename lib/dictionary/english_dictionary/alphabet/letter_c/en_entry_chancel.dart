@@ -91,32 +91,13 @@ class EnglishEntrychancel extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەو بەشەی کڵێسا کە قەشە و دەستەی گۆرانیبێژان تێیدا دادەنیشن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The choir assembled in the chancel to sing hymns during the church service."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستەی گۆرانیبێژان لە چانسڵەکە کۆبوونەوە بۆ چڕینی گۆرانی ئایینی لە کاتی خزمەتگوزاری کڵێساکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chancel", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchancels1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchancels1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The choir assembled in the chancel to sing hymns during the church service.",
+                            kurdishText:
+                                "دەستەی گۆرانیبێژان لە چانسڵەکە کۆبوونەوە بۆ چڕینی گۆرانی ئایینی لە کاتی خزمەتگوزاری کڵێساکە.", // chancel",
+                            onPressedBritish: () => speakchancels1("en-GB"),
+                            onPressedAmerican: () => speakchancels1("en-US"),
                           ),
                         ],
                       ),

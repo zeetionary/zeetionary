@@ -145,202 +145,68 @@ class EnglishEntryconsume extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بەکارھێنانی شتێک، بەتایبەتی سووتەمەنی، وزە، یان کات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The electricity industry consumes large amounts of fossil fuels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیشەسازی کارەبا ڕێژەیەکی زۆر لە سووتەمەنی بەبەردبوو بەکاردێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consume", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsumes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsumes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The electricity industry consumes large amounts of fossil fuels.",
+                            kurdishText:
+                                "پیشەسازی کارەبا ڕێژەیەکی زۆر لە سووتەمەنی بەبەردبوو بەکاردێنێت.", // consume",
+                            onPressedBritish: () => speakconsumes1("en-GB"),
+                            onPressedAmerican: () => speakconsumes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "25 per cent of the world’s population consumes 80 per cent of the planet’s resources."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "٢٥ لە سەدی دانیشتوانی جیھان ٨٠ لە سەدی سەرچاوەکانی زەوی بەکاردێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsumes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsumes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "25 per cent of the world’s population consumes 80 per cent of the planet’s resources.",
+                            kurdishText:
+                                "٢٥ لە سەدی دانیشتوانی جیھان ٨٠ لە سەدی سەرچاوەکانی زەوی بەکاردێنن.",
+                            onPressedBritish: () => speakconsumes2("en-GB"),
+                            onPressedAmerican: () => speakconsumes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) خواردن یان خواردنەوەی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Before he died, he had consumed a large quantity of alcohol."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێش ئەوەی بمرێت، ڕێژەیەکی زۆر لە مادەی کحولی خواردبووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsumes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsumes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Before he died, he had consumed a large quantity of alcohol.",
+                            kurdishText:
+                                "پێش ئەوەی بمرێت، ڕێژەیەکی زۆر لە مادەی کحولی خواردبووەوە.",
+                            onPressedBritish: () => speakconsumes3("en-GB"),
+                            onPressedAmerican: () => speakconsumes3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Red meat should be consumed in moderation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆشتی سوور دەبێت بە ڕێژەیەکی مام‌ناوەند بخورێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsumes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsumes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Red meat should be consumed in moderation.",
+                            kurdishText:
+                                "گۆشتی سوور دەبێت بە ڕێژەیەکی مام‌ناوەند بخورێت.",
+                            onPressedBritish: () => speakconsumes4("en-GB"),
+                            onPressedAmerican: () => speakconsumes4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) پێدانی ھەستێکی زۆر بە کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Carolyn was consumed with guilt."),
-                                    ExampleSentenceKurdish(
-                                        text: "کارۆلین پڕ لە ھەستی تاوان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsumes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsumes5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Carolyn was consumed with guilt.",
+                            kurdishText: "کارۆلین پڕ لە ھەستی تاوان بوو.",
+                            onPressedBritish: () => speakconsumes5("en-GB"),
+                            onPressedAmerican: () => speakconsumes5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Rage consumed him."),
-                                    ExampleSentenceKurdish(
-                                        text: "تووڕەیی غەرقی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsumes6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsumes6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Rage consumed him.",
+                            kurdishText: "تووڕەیی غەرقی کرد.",
+                            onPressedBritish: () => speakconsumes6("en-GB"),
+                            onPressedAmerican: () => speakconsumes6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) بە تەواوی لەناوبردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hotel was quickly consumed by fire."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھوتێلەکە زوو بە ئاگر لەناوچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsumes7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsumes7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hotel was quickly consumed by fire.",
+                            kurdishText: "ھوتێلەکە زوو بە ئاگر لەناوچوو.",
+                            onPressedBritish: () => speakconsumes7("en-GB"),
+                            onPressedAmerican: () => speakconsumes7("en-US"),
                           ),
                         ],
                       ),

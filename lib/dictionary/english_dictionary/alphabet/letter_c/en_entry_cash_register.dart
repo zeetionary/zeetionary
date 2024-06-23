@@ -191,34 +191,15 @@ class EnglishEntrycashregister extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دەزگایەک لە کە لە فرۆشگایەک، چێشتخانەیەک، ھتد دادەنرێت و پارەی تێدەخرێت و نرخی ئەو شتانە پیشان دەدات کە فرۆشراون و تۆماریان دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gave her £10 from the cash register."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "١٠ پاوەندی لە پارەنووسەکە پێدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cash register", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcashregisters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcashregisters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He gave her £10 from the cash register.",
+                            kurdishText:
+                                "١٠ پاوەندی لە پارەنووسەکە پێدا.", // cash register",
+                            onPressedBritish: () =>
+                                speakcashregisters1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcashregisters1("en-US"),
                           ),
                         ],
                       ),

@@ -240,60 +240,23 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: جیڕن، پڕلەجیڕەجیڕ، جیڕەجیڕاوی،	کۆنە،	لەق، شپرژە، لەرزۆک، ڕووخەک
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There was a creaky old chair in the corner."),
-                    ExampleSentenceKurdish(
-                        text: "کورسییەکی جیڕنی کۆنە لە سووچەکەدا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creaky", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreakys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreakys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was a creaky old chair in the corner.",
+            kurdishText:
+                "کورسییەکی جیڕنی کۆنە لە سووچەکەدا بوو.", // creaky", please follow LX instructions
+            onPressedBritish: () => speakcreakys1("en-GB"),
+            onPressedAmerican: () => speakcreakys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) شتێک کە کۆنە باوە و چی دیکە کاریگەر نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Reforms are needed to modernize the creaky legal system."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چاکسازی پێویستە بۆ نۆژەنکردنەوەی سیستەمە لەپەلکەوتووەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreakys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreakys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Reforms are needed to modernize the creaky legal system.",
+            kurdishText:
+                "چاکسازی پێویستە بۆ نۆژەنکردنەوەی سیستەمە لەپەلکەوتووەکە.",
+            onPressedBritish: () => speakcreakys2("en-GB"),
+            onPressedAmerican: () => speakcreakys2("en-US"),
           ),
         ],
       ),

@@ -259,116 +259,38 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گۆڕانی لەناکاوی حکومەت کە زۆرجار نایاسایی و توندوتیژانەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He seized power in a military coup in 2008."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە کودەتایەکی سەربازیدا لە ٢٠٠٨ دەسەڵاتی قۆرخکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "coup", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoups1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoups1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He seized power in a military coup in 2008.",
+            kurdishText:
+                "لە کودەتایەکی سەربازیدا لە ٢٠٠٨ دەسەڵاتی قۆرخکرد.", // coup", please follow LX instructions
+            onPressedBritish: () => speakcoups1("en-GB"),
+            onPressedAmerican: () => speakcoups1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was sentenced to death for his part in the attempted coup."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سزای مەرگی پێدرا بۆ تێوەگلانی لە کودەتا شکستخواردووەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoups2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoups2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was sentenced to death for his part in the attempted coup.",
+            kurdishText:
+                "سزای مەرگی پێدرا بۆ تێوەگلانی لە کودەتا شکستخواردووەکە.",
+            onPressedBritish: () => speakcoups2("en-GB"),
+            onPressedAmerican: () => speakcoups2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The coup was immediately put down and the plotters were shot."),
-                    ExampleSentenceKurdish(
-                        text: "کودەتاکە دەستبەجێ کپ کرا و پیلانگێڕان کوژران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoups3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoups3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The coup was immediately put down and the plotters were shot.",
+            kurdishText: "کودەتاکە دەستبەجێ کپ کرا و پیلانگێڕان کوژران.",
+            onPressedBritish: () => speakcoups3("en-GB"),
+            onPressedAmerican: () => speakcoups3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) بەدەستھێنانی شتێک کە سەخت بوو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He managed to pull off a major diplomatic coup."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "توانی سەرکەوتنێکی گەورەی دیپلۆماسی بەدەست بھێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoups4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoups4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He managed to pull off a major diplomatic coup.",
+            kurdishText: "توانی سەرکەوتنێکی گەورەی دیپلۆماسی بەدەست بھێنێت.",
+            onPressedBritish: () => speakcoups4("en-GB"),
+            onPressedAmerican: () => speakcoups4("en-US"),
           ),
         ],
       ),

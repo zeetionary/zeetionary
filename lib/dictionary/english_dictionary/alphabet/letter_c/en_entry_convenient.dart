@@ -164,258 +164,86 @@ class EnglishEntryconvenient extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بەسوود، ئاسان، و خێرا بۆ ئەنجامدان؛ بێ کێشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Fruit is a convenient source of vitamins and energy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوە سەرچاوەیەکی بەسوودی ڤیتامین و وزەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convenient", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvenients1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvenients1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Fruit is a convenient source of vitamins and energy.",
+                            kurdishText:
+                                "میوە سەرچاوەیەکی بەسوودی ڤیتامین و وزەیە.", // convenient",
+                            onPressedBritish: () => speakconvenients1("en-GB"),
+                            onPressedAmerican: () => speakconvenients1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A bicycle is often more convenient than a car in towns."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاسکیل زۆرجار بەسوودترە وەک لە ئۆتۆمبێل لە شاردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvenients2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvenients2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A bicycle is often more convenient than a car in towns.",
+                            kurdishText:
+                                "پاسکیل زۆرجار بەسوودترە وەک لە ئۆتۆمبێل لە شاردا.",
+                            onPressedBritish: () => speakconvenients2("en-GB"),
+                            onPressedAmerican: () => speakconvenients2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't see him now—it isn't convenient."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێستا ناتوانم بیبینم، ئاسان نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvenients3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvenients3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't see him now—it isn't convenient.",
+                            kurdishText: "ئێستا ناتوانم بیبینم، ئاسان نییە.",
+                            onPressedBritish: () => speakconvenients3("en-GB"),
+                            onPressedAmerican: () => speakconvenients3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'll call back at a more convenient time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتێکی گونجاوتردا پەیوەندیت پێوە دەکەمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvenients4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvenients4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'll call back at a more convenient time.",
+                            kurdishText:
+                                "لە کاتێکی گونجاوتردا پەیوەندیت پێوە دەکەمەوە.",
+                            onPressedBritish: () => speakconvenients4("en-GB"),
+                            onPressedAmerican: () => speakconvenients4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Flying is the most convenient way to travel in such a large country as China."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕین باشترین جۆری گەشتکردنە لە وڵاتێکی گەورەی وەک چیندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvenients5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvenients5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Flying is the most convenient way to travel in such a large country as China.",
+                            kurdishText:
+                                "فڕین باشترین جۆری گەشتکردنە لە وڵاتێکی گەورەی وەک چیندا.",
+                            onPressedBritish: () => speakconvenients5("en-GB"),
+                            onPressedAmerican: () => speakconvenients5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He used his wife's birthday as a convenient excuse for not going to the meeting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژی لەدایکبوونی ژنەکەی بەکارھێنا وەک بیانوویەکی لەبار بۆ نەچوون بۆ کۆبوونەوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvenients6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvenients6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He used his wife's birthday as a convenient excuse for not going to the meeting.",
+                            kurdishText:
+                                "ڕۆژی لەدایکبوونی ژنەکەی بەکارھێنا وەک بیانوویەکی لەبار بۆ نەچوون بۆ کۆبوونەوەکە.",
+                            onPressedBritish: () => speakconvenients6("en-GB"),
+                            onPressedAmerican: () => speakconvenients6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Holding the debate at that time was not politically convenient."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سازکردنی چاوپێکەوتنەکە لەوکاتەدا لە ڕووی سیاسییەوە گونجاو نەدەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvenients7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvenients7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Holding the debate at that time was not politically convenient.",
+                            kurdishText:
+                                "سازکردنی چاوپێکەوتنەکە لەوکاتەدا لە ڕووی سیاسییەوە گونجاو نەدەبوو.",
+                            onPressedBritish: () => speakconvenients7("en-GB"),
+                            onPressedAmerican: () => speakconvenients7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) نزیک لە شوێنێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The office is just five minutes from the station, so it's very convenient."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆفیسەکە تەنھا پێنج خولەک لە وێستگەکەوە دوورە، بۆ زۆر نزیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvenients8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvenients8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The office is just five minutes from the station, so it's very convenient.",
+                            kurdishText:
+                                "ئۆفیسەکە تەنھا پێنج خولەک لە وێستگەکەوە دوورە، بۆ زۆر نزیکە.",
+                            onPressedBritish: () => speakconvenients8("en-GB"),
+                            onPressedAmerican: () => speakconvenients8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The house is very convenient for several schools."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووەکە زۆر نزیکە لە ژمارەیەک خوێندنگەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvenients9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvenients9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The house is very convenient for several schools.",
+                            kurdishText:
+                                "خانووەکە زۆر نزیکە لە ژمارەیەک خوێندنگەوە.",
+                            onPressedBritish: () => speakconvenients9("en-GB"),
+                            onPressedAmerican: () => speakconvenients9("en-US"),
                           ),
                         ],
                       ),

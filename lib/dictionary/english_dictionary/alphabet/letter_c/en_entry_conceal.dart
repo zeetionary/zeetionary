@@ -110,88 +110,31 @@ class EnglishEntryconceal extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) شاردنەوەی کەسێک/شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Tim could barely conceal his disappointment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیم بە ئاستەنگ دەیتوانی نایومێدییەکەی بشارێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conceal", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Tim could barely conceal his disappointment.",
+                            kurdishText:
+                                "تیم بە ئاستەنگ دەیتوانی نایومێدییەکەی بشارێتەوە.", // conceal",
+                            onPressedBritish: () => speakconceals1("en-GB"),
+                            onPressedAmerican: () => speakconceals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She sat down to conceal the fact that she was trembling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانیشت بۆ شاردنەوەی ئەوەی کە دەلەرزی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She sat down to conceal the fact that she was trembling.",
+                            kurdishText:
+                                "دانیشت بۆ شاردنەوەی ئەوەی کە دەلەرزی.",
+                            onPressedBritish: () => speakconceals2("en-GB"),
+                            onPressedAmerican: () => speakconceals2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For a long time his death was concealed from her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ماوەیەکی زۆر مەرگی شاردرایەوە لێی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For a long time his death was concealed from her.",
+                            kurdishText:
+                                "بۆ ماوەیەکی زۆر مەرگی شاردرایەوە لێی.",
+                            onPressedBritish: () => speakconceals3("en-GB"),
+                            onPressedAmerican: () => speakconceals3("en-US"),
                           ),
                         ],
                       ),

@@ -121,129 +121,48 @@ class EnglishEntrycontributor extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە وتار بۆ گۆڤار، کتێب یان وتارێک دەنووسێت، یان قسە دەکات لە پڕۆگرامێکی تەلەفیزیۆنی یان ڕادیۆیی، یان لە چاوپێکەوتنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I am a contributor to several blogs."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ژمارەیەک بلۆگ نووسەرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contributor", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I am a contributor to several blogs.",
+                            kurdishText:
+                                "لە ژمارەیەک بلۆگ نووسەرم.", // contributor",
+                            onPressedBritish: () => speakcontributors1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributors1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was a long-time contributor to Time Magazine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نووسەرێکی کۆنی گۆڤاری تایم بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributors2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributors2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was a long-time contributor to Time Magazine.",
+                            kurdishText: "نووسەرێکی کۆنی گۆڤاری تایم بوو.",
+                            onPressedBritish: () => speakcontributors2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributors2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک یان شتێک کە پارە و کەلووپەل دەبەخشێت بۆ یارمەتیدانی یان پشتگیری شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Older people are important contributors to the economy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسانی بەتەمەن بەخشەری گرنگن بە ئابووری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributors3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributors3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Older people are important contributors to the economy.",
+                            kurdishText:
+                                "کەسانی بەتەمەن بەخشەری گرنگن بە ئابووری.",
+                            onPressedBritish: () => speakcontributors3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributors3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شتێک کە یارمەتیدەری ڕوودانی شتێکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sulphur dioxide is a major contributor to acid rain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆکسیدی سلفەر ھۆکارێکی گرنگی ترشە بارانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributors4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributors4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sulphur dioxide is a major contributor to acid rain.",
+                            kurdishText:
+                                "ئۆکسیدی سلفەر ھۆکارێکی گرنگی ترشە بارانە.",
+                            onPressedBritish: () => speakcontributors4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributors4("en-US"),
                           ),
                         ],
                       ),

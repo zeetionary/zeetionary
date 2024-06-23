@@ -138,175 +138,61 @@ class EnglishEntryconvey extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) گەیاندنی بیرۆکە، ھەست، ھتد بە کەسانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Colours like red convey a sense of energy and strength."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەنگی وەک سوور ھەستێکی وزە و بەھێزی دەبەخشن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convey", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconveys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconveys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Colours like red convey a sense of energy and strength.",
+                            kurdishText:
+                                "ڕەنگی وەک سوور ھەستێکی وزە و بەھێزی دەبەخشن.", // convey",
+                            onPressedBritish: () => speakconveys1("en-GB"),
+                            onPressedAmerican: () => speakconveys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please convey my apologies to your wife."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یکایە لێبوردنخوازیم بگەیەنە بە ژنەکەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconveys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconveys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please convey my apologies to your wife.",
+                            kurdishText:
+                                "یکایە لێبوردنخوازیم بگەیەنە بە ژنەکەت.",
+                            onPressedBritish: () => speakconveys2("en-GB"),
+                            onPressedAmerican: () => speakconveys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She did not wish to convey that they were all at fault."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەیدەویست ئەوە بگەیەنێت کە ھەموویان لە ھەڵەدا بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconveys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconveys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She did not wish to convey that they were all at fault.",
+                            kurdishText:
+                                "نەیدەویست ئەوە بگەیەنێت کە ھەموویان لە ھەڵەدا بوون.",
+                            onPressedBritish: () => speakconveys3("en-GB"),
+                            onPressedAmerican: () => speakconveys3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The novel vividly conveys the experience of growing up during the war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆمانەکە زۆرباش ئەزموونی گەورەبوونی لە ماوەی جەنگدا دەگەیەنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconveys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconveys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The novel vividly conveys the experience of growing up during the war.",
+                            kurdishText:
+                                "ڕۆمانەکە زۆرباش ئەزموونی گەورەبوونی لە ماوەی جەنگدا دەگەیەنێت.",
+                            onPressedBritish: () => speakconveys4("en-GB"),
+                            onPressedAmerican: () => speakconveys4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بردن یان ھەڵگرتنی کەسێک یان شتێک لە شوێنێکەوە بۆ شوێنێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Pipes convey hot water from the boiler to the radiators."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆڕی ئاوی گەرم لە گەرمکەرەوەکەوە بۆ ڕادیاتەرەکە دەگوازێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconveys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconveys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Pipes convey hot water from the boiler to the radiators.",
+                            kurdishText:
+                                "بۆڕی ئاوی گەرم لە گەرمکەرەوەکەوە بۆ ڕادیاتەرەکە دەگوازێتەوە.",
+                            onPressedBritish: () => speakconveys5("en-GB"),
+                            onPressedAmerican: () => speakconveys5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A car was waiting to convey her home."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلێک چاوەڕێ بوو کە بیگەیەنێت بە ماڵەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconveys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconveys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A car was waiting to convey her home.",
+                            kurdishText:
+                                "ئۆتۆمبێلێک چاوەڕێ بوو کە بیگەیەنێت بە ماڵەوە.",
+                            onPressedBritish: () => speakconveys6("en-GB"),
+                            onPressedAmerican: () => speakconveys6("en-US"),
                           ),
                         ],
                       ),

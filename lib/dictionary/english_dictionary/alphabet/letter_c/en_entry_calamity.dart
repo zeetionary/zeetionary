@@ -193,32 +193,13 @@ class EnglishEntrycalamity extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ڕووداوێک کە دەبێتە ھۆی زیانی گەورە بۆ ژیانی خەڵکی و ماڵیان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country suffered a series of calamities during the 1980s."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتەکە تووشی چەند بەڵایەک بوو لە ساڵانی ١٩٨٠ یەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calamity", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalamitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalamitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The country suffered a series of calamities during the 1980s.",
+                            kurdishText:
+                                "وڵاتەکە تووشی چەند بەڵایەک بوو لە ساڵانی ١٩٨٠ یەکان.", // calamity
+                            onPressedBritish: () => speakcalamitys1("en-GB"),
+                            onPressedAmerican: () => speakcalamitys1("en-US"),
                           ),
                         ],
                       ),

@@ -94,34 +94,15 @@ class EnglishEntryconviviality extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەشێک یان کەسایەتییەکی دۆستانە و دڵشاد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was known for his conviviality as a host."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک خاوەنماڵ بۆ دۆستایەتییەکەی ناسراوبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conviviality", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvivialitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvivialitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was known for his conviviality as a host.",
+                            kurdishText:
+                                "وەک خاوەنماڵ بۆ دۆستایەتییەکەی ناسراوبوو.", // conviviality",
+                            onPressedBritish: () =>
+                                speakconvivialitys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvivialitys1("en-US"),
                           ),
                         ],
                       ),

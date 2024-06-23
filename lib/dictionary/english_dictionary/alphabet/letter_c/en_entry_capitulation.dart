@@ -193,67 +193,29 @@ class EnglishEntrycapitulation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پەسەندکردنی شکست"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "To withdraw the remaining troops would have been a humiliating capitulation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کشاندنەوەی سەربازە ماوەکان دەبوو بەملکەچکردنێکی شەرمھێنەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capitulation", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcapitulations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcapitulations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "To withdraw the remaining troops would have been a humiliating capitulation.",
+                            kurdishText:
+                                "کشاندنەوەی سەربازە ماوەکان دەبوو بەملکەچکردنێکی شەرمھێنەر.", // capitulation",
+                            onPressedBritish: () =>
+                                speakcapitulations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcapitulations1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕێککەوتن لەسەر کردنی شتێک کە پێشووتر ڕەتتکردووەتەوە بیکەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Negotiators had to walk a delicate line between capitulation to the hijackers and appearing callous about the hostages."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانووستانکاران دەبوو ھێڵێکی ھەستیار بکێشن لە نێوان ملکەچکردن بۆ ڕفێنەران و دەرکەوتن وەک خەمسارد بەرامبەر بارنتەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcapitulations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcapitulations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Negotiators had to walk a delicate line between capitulation to the hijackers and appearing callous about the hostages.",
+                            kurdishText:
+                                "دانووستانکاران دەبوو ھێڵێکی ھەستیار بکێشن لە نێوان ملکەچکردن بۆ ڕفێنەران و دەرکەوتن وەک خەمسارد بەرامبەر بارنتەکان.",
+                            onPressedBritish: () =>
+                                speakcapitulations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcapitulations2("en-US"),
                           ),
                         ],
                       ),

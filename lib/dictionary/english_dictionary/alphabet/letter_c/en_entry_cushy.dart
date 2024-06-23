@@ -240,59 +240,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خۆش، ئاسوودە، ڕەحەت، ئاسان، بێ‌ئەرک
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) ئاسان و خۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many see teaching as a cushy job, but it comes with its challenges."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر کەس مامۆستایەتی بە کارێکی ئاسان دەبینن، بەڵام سەختی خۆی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cushy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcushys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcushys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many see teaching as a cushy job, but it comes with its challenges.",
+            kurdishText:
+                "زۆر کەس مامۆستایەتی بە کارێکی ئاسان دەبینن، بەڵام سەختی خۆی ھەیە.", // cushy", please follow LX instructions
+            onPressedBritish: () => speakcushys1("en-GB"),
+            onPressedAmerican: () => speakcushys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) ئاسوودەبەخش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The leather seats are soft and cushy."),
-                    ExampleSentenceKurdish(
-                        text: "جێگا چەرمەکان نەرم و ئاسوودەبەخشن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcushys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcushys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The leather seats are soft and cushy.",
+            kurdishText: "جێگا چەرمەکان نەرم و ئاسوودەبەخشن.",
+            onPressedBritish: () => speakcushys2("en-GB"),
+            onPressedAmerican: () => speakcushys2("en-US"),
           ),
         ],
       ),

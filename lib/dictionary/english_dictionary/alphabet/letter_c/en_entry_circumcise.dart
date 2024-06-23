@@ -122,119 +122,43 @@ class EnglishEntrycircumcise extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لێکردنەوەی داپۆشەری سەری چووکی کوڕێک یان پیاوێک بۆ ھۆکاری ئایینی یان تەندرووستی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The United States has a strong tradition of circumcising baby boys."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمریکا نەریتێکی بەھێزی خەتەنەکردنی منداڵە کوڕەکانیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circumcise", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircumcises1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircumcises1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The United States has a strong tradition of circumcising baby boys.",
+                            kurdishText:
+                                "ئەمریکا نەریتێکی بەھێزی خەتەنەکردنی منداڵە کوڕەکانیان ھەیە.", // circumcise",
+                            onPressedBritish: () => speakcircumcises1("en-GB"),
+                            onPressedAmerican: () => speakcircumcises1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "5% of intact adult males eventually get circumcised for medical reasons."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "٥٪ـی ئەو پیاوانەی دەستکاری نەکراون لە کۆتاییدا بە ھۆکاری تەندرووستی خەتەنە دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircumcises2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircumcises2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "5% of intact adult males eventually get circumcised for medical reasons.",
+                            kurdishText:
+                                "٥٪ـی ئەو پیاوانەی دەستکاری نەکراون لە کۆتاییدا بە ھۆکاری تەندرووستی خەتەنە دەکرێن.",
+                            onPressedBritish: () => speakcircumcises2("en-GB"),
+                            onPressedAmerican: () => speakcircumcises2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) لابردنی بەشێک لە ئەندامی زاوزێی کچان یان ژنان بۆ ھۆکاری نەریتی یان ئایینی کە لە ژمارەیەک وڵات ئەنجام دەدرێت بەڵام لە زۆرێک قەدەغەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In parts of Africa, some girls are circumcised when they are a week old."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ھەندێک بەشی ئەفریقا، کچان خەتەنە دەکرێن کە یەک ھەفتە تەمەنیانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircumcises3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircumcises3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In parts of Africa, some girls are circumcised when they are a week old.",
+                            kurdishText:
+                                "لە ھەندێک بەشی ئەفریقا، کچان خەتەنە دەکرێن کە یەک ھەفتە تەمەنیانە.",
+                            onPressedBritish: () => speakcircumcises3("en-GB"),
+                            onPressedAmerican: () => speakcircumcises3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She sometimes dreams that the midwife who circumcised her is coming back to perform the procedure again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێکجار خەون بەوە دەبینێت کە ئەو مامانەی کە خەتەنەی کرد دێتەوە بۆ دووبارە ئەنجامدانی کارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircumcises4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircumcises4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She sometimes dreams that the midwife who circumcised her is coming back to perform the procedure again.",
+                            kurdishText:
+                                "ھەندێکجار خەون بەوە دەبینێت کە ئەو مامانەی کە خەتەنەی کرد دێتەوە بۆ دووبارە ئەنجامدانی کارەکە.",
+                            onPressedBritish: () => speakcircumcises4("en-GB"),
+                            onPressedAmerican: () => speakcircumcises4("en-US"),
                           ),
                         ],
                       ),

@@ -113,91 +113,34 @@ class EnglishEntryclumsiness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەڵەشەیی؛ کردنی شت بە نائاگاییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Weakness or clumsiness of the hands is characteristic of the disease."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لاوازی یان لەرزۆکی دەست لە خاسیەتەکانی نەخۆشییەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clumsiness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumsinesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumsinesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Weakness or clumsiness of the hands is characteristic of the disease.",
+                            kurdishText:
+                                "لاوازی یان لەرزۆکی دەست لە خاسیەتەکانی نەخۆشییەکەن.", // clumsiness",
+                            onPressedBritish: () => speakclumsinesss1("en-GB"),
+                            onPressedAmerican: () => speakclumsinesss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کردن بە ناشارەزاییانە کە خەڵکی بێزار دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "With her usual clumsiness, she had opened her mouth and upset everyone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ھەڵەشەیی پیشەییانەی، دەمی کردەوە و ھەموانی بێزارکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumsinesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumsinesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "With her usual clumsiness, she had opened her mouth and upset everyone.",
+                            kurdishText:
+                                "بە ھەڵەشەیی پیشەییانەی، دەمی کردەوە و ھەموانی بێزارکرد.",
+                            onPressedBritish: () => speakclumsinesss2("en-GB"),
+                            onPressedAmerican: () => speakclumsinesss2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The minister displayed a political clumsiness that his opponents exploited."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەزیرەکە ناکارامەییەکی سیاسی پیشاندا کە ڕکابەرەکانی قۆستیانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumsinesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumsinesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The minister displayed a political clumsiness that his opponents exploited.",
+                            kurdishText:
+                                "وەزیرەکە ناکارامەییەکی سیاسی پیشاندا کە ڕکابەرەکانی قۆستیانەوە.",
+                            onPressedBritish: () => speakclumsinesss3("en-GB"),
+                            onPressedAmerican: () => speakclumsinesss3("en-US"),
                           ),
                         ],
                       ),

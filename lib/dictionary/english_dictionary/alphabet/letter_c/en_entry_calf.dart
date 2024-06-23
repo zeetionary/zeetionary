@@ -193,63 +193,24 @@ class EnglishEntrycalf extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەناو) بەشی پشتەوەی قاچ لە خوارەوەی چۆک و سەرەوەی قولەپێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's been unable to play since January because of a torn calf muscle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کانوونی دووەمەوە توانای یاریکردنی نییە بەھۆی ماسولکەیەکی پچڕاو لە نەرمەی پووزی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calf", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalfs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalfs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's been unable to play since January because of a torn calf muscle.",
+                            kurdishText:
+                                "لە کانوونی دووەمەوە توانای یاریکردنی نییە بەھۆی ماسولکەیەکی پچڕاو لە نەرمەی پووزی.", // calf
+                            onPressedBritish: () => speakcalfs1("en-GB"),
+                            onPressedAmerican: () => speakcalfs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) گوێرەکە؛ بەچکە مانگا، یان ئاژەڵی دیکە، بۆ نموونە بەچکەی فیل و نەھەنگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These calves are reared for beef."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم گوێرەکانە بۆ گۆشتەکەیان گەورە دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalfs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalfs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "These calves are reared for beef.",
+                            kurdishText:
+                                "ئەم گوێرەکانە بۆ گۆشتەکەیان گەورە دەکرێن.",
+                            onPressedBritish: () => speakcalfs2("en-GB"),
+                            onPressedAmerican: () => speakcalfs2("en-US"),
                           ),
                         ],
                       ),

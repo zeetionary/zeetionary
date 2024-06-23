@@ -95,34 +95,14 @@ class EnglishEntrycharismatic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی تایبەتمەندیی بەھێزی کەسایەتی کە سەرنجی کەسانی دیکە ڕادەکێشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Few were able to resist this charismatic and persuasive leader."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەم کەس دەیانتوانی بوەستن لە پێش سەرکردە لێھاتوو و قایلکەرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "charismatic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcharismatics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcharismatics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Few were able to resist this charismatic and persuasive leader.",
+                            kurdishText:
+                                "کەم کەس دەیانتوانی بوەستن لە پێش سەرکردە لێھاتوو و قایلکەرەکە.", // charismatic",
+                            onPressedBritish: () => speakcharismatics1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcharismatics1("en-US"),
                           ),
                         ],
                       ),

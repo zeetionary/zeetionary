@@ -230,32 +230,12 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: ئەندامی ئەنجومەن
 // """),
           const DefinitionKurdish(text: "١. (ناو) ئەندامێکی ئەنجوومەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Talk to your local councillor about the problem."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قسە لەگەڵ ئەندامی ئەنجوومەنەکەت بکە سەبارەت بە کێشەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "councillor", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouncillors1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouncillors1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Talk to your local councillor about the problem.",
+            kurdishText:
+                "قسە لەگەڵ ئەندامی ئەنجوومەنەکەت بکە سەبارەت بە کێشەکە.", // councillor", please follow LX instructions
+            onPressedBritish: () => speakcouncillors1("en-GB"),
+            onPressedAmerican: () => speakcouncillors1("en-US"),
           ),
         ],
       ),

@@ -159,261 +159,89 @@ class EnglishEntrycook extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ئامادەکردنی خواردن، بە کوڵاندن یان برژاندن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Where did you learn to cook?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کوێ فێری خواردن لێنان بوویت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cook", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Where did you learn to cook?",
+                            kurdishText:
+                                "لە کوێ فێری خواردن لێنان بوویت؟", // cook",
+                            onPressedBritish: () => speakcooks1("en-GB"),
+                            onPressedAmerican: () => speakcooks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Add the onion and cook for three minutes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیازەکان زیاد بکە و بۆ سێ خولەک لێی بنێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Add the onion and cook for three minutes.",
+                            kurdishText:
+                                "پیازەکان زیاد بکە و بۆ سێ خولەک لێی بنێ.",
+                            onPressedBritish: () => speakcooks2("en-GB"),
+                            onPressedAmerican: () => speakcooks2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                      text: "He cooked lunch for me.",
-                                      note: "also: He cooked me lunch.",
-                                    ),
-                                    ExampleSentenceKurdish(
-                                        text: "خواردنی نیوەڕۆی بۆ ئامادەکردم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He cooked lunch for me.",
+                            englishNote: "also: He cooked me lunch.",
+                            kurdishText: "خواردنی نیوەڕۆی بۆ ئامادەکردم.",
+                            onPressedBritish: () => speakcooks3("en-GB"),
+                            onPressedAmerican: () => speakcooks3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ئامادەبوونی خواردنی لە کاتی لێناندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "While the pasta is cooking, prepare the sauce."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە پاستاکە پێدەگات، ساسەکە ئامادە بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "While the pasta is cooking, prepare the sauce.",
+                            kurdishText:
+                                "کە پاستاکە پێدەگات، سۆسەکە ئامادە بکە.",
+                            onPressedBritish: () => speakcooks4("en-GB"),
+                            onPressedAmerican: () => speakcooks4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Turn the fish over so that it cooks evenly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماسییەکە ھەڵبگێڕەوە بۆ ئەوەی بە یەکسانی ببرژێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooks5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Turn the fish over so that it cooks evenly.",
+                            kurdishText:
+                                "ماسییەکە ھەڵبگێڕەوە بۆ ئەوەی بە یەکسانی ببرژێت.",
+                            onPressedBritish: () => speakcooks5("en-GB"),
+                            onPressedAmerican: () => speakcooks5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) بەنھێنی پلان بۆ دانراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everyone is being very secretive—there's something cooking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموان زۆر نھێنی‌گرن، دەبێت شتێک لە گۆڕێدا بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooks6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Everyone is being very secretive—there's something cooking.",
+                            kurdishText:
+                                "ھەموان زۆر نھێنی‌گرن، دەبێت شتێک لە گۆڕێدا بێت.",
+                            onPressedBritish: () => speakcooks6("en-GB"),
+                            onPressedAmerican: () => speakcooks6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) کەسێک کە خواردن لێدەنێت یان پیشەکەی خواردن لێنانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "John is a very good cook (= he cooks well)."),
-                                    ExampleSentenceKurdish(
-                                        text: "جۆن چێشتلێنەرێکی زۆر باشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooks7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "John is a very good cook (= he cooks well).",
+                            kurdishText: "جۆن چێشتلێنەرێکی زۆر باشە.",
+                            onPressedBritish: () => speakcooks7("en-GB"),
+                            onPressedAmerican: () => speakcooks7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who was the cook (= who cooked the food)?"),
-                                    ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooks8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Who was the cook (= who cooked the food)?",
+                            kurdishText: "رستە_رستە_رستە_رستە.",
+                            onPressedBritish: () => speakcooks8("en-GB"),
+                            onPressedAmerican: () => speakcooks8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was employed as a cook in a hotel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک چێشتلێنەرێک لە ھوتێلێک کاری پێدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooks9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooks9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was employed as a cook in a hotel.",
+                            kurdishText:
+                                "وەک چێشتلێنەرێک لە ھوتێلێک کاری پێدرا.",
+                            onPressedBritish: () => speakcooks9("en-GB"),
+                            onPressedAmerican: () => speakcooks9("en-US"),
                           ),
                         ],
                       ),

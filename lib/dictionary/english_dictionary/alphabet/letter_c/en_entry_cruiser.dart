@@ -241,30 +241,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەشتییەکی گەورە کە لە جەنگدا بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He served on a battle cruiser."),
-                    ExampleSentenceKurdish(
-                        text: "لەسەر کەشتییەکی جەنگی خزمەتی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cruiser", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruisers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruisers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He served on a battle cruiser.",
+            kurdishText:
+                "لەسەر کەشتییەکی جەنگی خزمەتی کرد.", // cruiser", please follow LX instructions
+            onPressedBritish: () => speakcruisers1("en-GB"),
+            onPressedAmerican: () => speakcruisers1("en-US"),
           ),
           const DividerDefinition(),
           Column(
@@ -290,31 +272,12 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) ئۆتۆمبێلی پۆلیس"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Two cops were sitting outside in a cruiser."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوو پۆلیس لە ناو ئۆتۆمبێلێکدا لە دەرەوە (ئۆتۆمبێلەکە لە دەرەوە بوو) دانیشتبوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruisers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruisers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Two cops were sitting outside in a cruiser.",
+            kurdishText:
+                "دوو پۆلیس لە ناو ئۆتۆمبێلێکدا لە دەرەوە (ئۆتۆمبێلەکە لە دەرەوە بوو) دانیشتبوون.",
+            onPressedBritish: () => speakcruisers2("en-GB"),
+            onPressedAmerican: () => speakcruisers2("en-US"),
           ),
         ],
       ),

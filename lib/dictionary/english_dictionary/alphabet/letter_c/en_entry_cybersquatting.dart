@@ -236,32 +236,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) چالاکیی نایاسایی کڕین و بە فەرمی تۆمارکردنی ناونیشانێک لەسەر ئینتەرنێت کە ناوی کۆمپانیایەک یان کەسێکی ناسراوە، بە مەبەستی فرۆشتنی بە خاوەنەکەی بۆ قازانج"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cybersquatting can harm a brand's reputation and lead to confusion among consumers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داگیرکاری ئینتەرنێتی دەکرێت زیان بگەیەنێت بە ناوبانگی براندێک و ببێتە ھۆکاری شڵەژاوی لەلای کڕیاران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cybersquatting", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcybersquattings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcybersquattings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Cybersquatting can harm a brand's reputation and lead to confusion among consumers.",
+            kurdishText:
+                "داگیرکاری ئینتەرنێتی دەکرێت زیان بگەیەنێت بە ناوبانگی براندێک و ببێتە ھۆکاری شڵەژاوی لەلای کڕیاران.", // cybersquatting", please follow LX instructions
+            onPressedBritish: () => speakcybersquattings1("en-GB"),
+            onPressedAmerican: () => speakcybersquattings1("en-US"),
           ),
         ],
       ),

@@ -103,60 +103,22 @@ class EnglishEntrychariot extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئەڕابە کە بە ئەسپ ڕادەکێشرێت و لە کۆندا لە جەنگدا یان بۆ پێشبڕکێ بەکاردەھات """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The warriors rode into battle in a chariot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەنگاوەرەکان چوونە جەنگەوە بە ئەڕابە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chariot", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchariots1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchariots1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The warriors rode into battle in a chariot.",
+                            kurdishText:
+                                "جەنگاوەرەکان چوونە جەنگەوە بە ئەڕابە.", // chariot",
+                            onPressedBritish: () => speakchariots1("en-GB"),
+                            onPressedAmerican: () => speakchariots1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In ancient Rome, chariot races were a popular form of entertainment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕۆمی کۆندا، پێشبڕکێی ئەڕابە جۆرێکی بەناوبانگی چێژبەخشین بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchariots2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchariots2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In ancient Rome, chariot races were a popular form of entertainment.",
+                            kurdishText:
+                                "لە ڕۆمی کۆندا، پێشبڕکێی ئەڕابە جۆرێکی بەناوبانگی چێژبەخشین بوو.",
+                            onPressedBritish: () => speakchariots2("en-GB"),
+                            onPressedAmerican: () => speakchariots2("en-US"),
                           ),
                         ],
                       ),

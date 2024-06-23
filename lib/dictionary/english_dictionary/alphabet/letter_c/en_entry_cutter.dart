@@ -250,88 +250,32 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(text: "١. (ناو) کەسێک یان شتێک کە شت دەبڕێت"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Slide the frittata out of the pan and slice it with a pizza cutter."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فریتایەکە لە تاوەکە بێنە دەرەوە و بە بڕەرێکی پیتزا پارچەی بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutters2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutters2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Slide the frittata out of the pan and slice it with a pizza cutter.",
+            kurdishText:
+                "فریتایەکە لە تاوەکە بێنە دەرەوە و بە بڕەرێکی پیتزا پارچەی بکە.",
+            onPressedBritish: () => speakcutters2("en-GB"),
+            onPressedAmerican: () => speakcutters2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ئامرازێک کە شت دەبڕێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This cutter has a six-inch blade."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم کەتەرە دەمێکی شەش ئینجی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cutter", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutters1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutters1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This cutter has a six-inch blade.",
+            kurdishText:
+                "ئەم کەتەرە دەمێکی شەش ئینجی ھەیە.", // cutter", please follow LX instructions
+            onPressedBritish: () => speakcutters1("en-GB"),
+            onPressedAmerican: () => speakcutters1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کەسێک کە شتێک کەم دەکاتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Determined cutters have repeatedly slashed NASA's budget."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەرجبڕە سەرسەختەکان بەردەوام بودجەی ناسایان کەمکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutters3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutters3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Determined cutters have repeatedly slashed NASA's budget.",
+            kurdishText:
+                "خەرجبڕە سەرسەختەکان بەردەوام بودجەی ناسایان کەمکردووە.",
+            onPressedBritish: () => speakcutters3("en-GB"),
+            onPressedAmerican: () => speakcutters3("en-US"),
           ),
         ],
       ),

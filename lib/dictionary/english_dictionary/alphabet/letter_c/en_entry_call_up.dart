@@ -190,62 +190,24 @@ class EnglishEntrycallup extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) فرمانی پەیوەندیکردن بە سوپاوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Because of his occupation, he was not liable for call-up."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھۆی پیشەکەیەوە، خزمەتی سەربازی نەیدەگرتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "call-up", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcallups1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcallups1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Because of his occupation, he was not liable for call-up.",
+                            kurdishText:
+                                "بەھۆی پیشەکەیەوە، خزمەتی سەربازی نەیدەگرتەوە.", // call-up
+                            onPressedBritish: () => speakcallups1("en-GB"),
+                            onPressedAmerican: () => speakcallups1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ھەلی یاریکردن لە تیمێکی وەرزشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His recent form has earned him a call-up to the England squad."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاستی ئەم دواییەی وایکردووە بانگ بکرێت بۆ تیمی ئەنگلتەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcallups2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcallups2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His recent form has earned him a call-up to the England squad.",
+                            kurdishText:
+                                "ئاستی ئەم دواییەی وایکردووە بانگ بکرێت بۆ تیمی ئەنگلتەرە.",
+                            onPressedBritish: () => speakcallups2("en-GB"),
+                            onPressedAmerican: () => speakcallups2("en-US"),
                           ),
                         ],
                       ),

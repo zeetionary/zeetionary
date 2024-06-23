@@ -105,63 +105,26 @@ class EnglishEntryconfidentiality extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخێک کە تێیدا چآوەڕێی ئەوە لە کەسێک دەکەیت شتێک بە نھێنی بھێڵێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They signed a confidentiality agreement."),
-                                    ExampleSentenceKurdish(
-                                        text: "نھێنییەکی سڕپۆشییان واژۆکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confidentiality", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidentialitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidentialitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They signed a confidentiality agreement.",
+                            kurdishText:
+                                "نھێنییەکی سڕپۆشییان واژۆکرد.", // confidentiality",
+                            onPressedBritish: () =>
+                                speakconfidentialitys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidentialitys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All letters will be treated with complete confidentiality."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو نامەکان بە سڕپۆشی تەواوە مامەڵەیان لەگەڵ دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfidentialitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfidentialitys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All letters will be treated with complete confidentiality.",
+                            kurdishText:
+                                "ھەموو نامەکان بە سڕپۆشی تەواوە مامەڵەیان لەگەڵ دەکرێت.",
+                            onPressedBritish: () =>
+                                speakconfidentialitys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfidentialitys2("en-US"),
                           ),
                         ],
                       ),

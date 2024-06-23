@@ -300,248 +300,80 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) جوڵان بە ھێواشی و لەسەرخۆیی و وریایی، چونکە ناتەوێت کەس بتبینێت یان گوێی لێت بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I crept up the stairs, trying not to wake my parents."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە پلەکانەکاندا بە پێ‌خشکە چوومە سەرەوە و ھەوڵمدا دایک و باوکم ھەڵنەسێنم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creep", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreeps1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreeps1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I crept up the stairs, trying not to wake my parents.",
+            kurdishText:
+                "بە پلەکانەکاندا بە پێ‌خشکە چوومە سەرەوە و ھەوڵمدا دایک و باوکم ھەڵنەسێنم.", // creep", please follow LX instructions
+            onPressedBritish: () => speakcreeps1("en-GB"),
+            onPressedAmerican: () => speakcreeps1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She crept up behind me."),
-                    ExampleSentenceKurdish(text: "بەبێ خشپە لە دوامەوە ھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreeps2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreeps2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She crept up behind me.",
+            kurdishText: "بەبێ خشپە لە دوامەوە ھات.",
+            onPressedBritish: () => speakcreeps2("en-GB"),
+            onPressedAmerican: () => speakcreeps2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) گاگوڵکێ کردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She turned off the light and crept through the door."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆشناییەکەی کوژاندەوە و بە دەرگاکە بە گاگوڵکێ چوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreeps3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreeps3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She turned off the light and crept through the door.",
+            kurdishText: "ڕۆشناییەکەی کوژاندەوە و بە دەرگاکە بە گاگوڵکێ چوو.",
+            onPressedBritish: () => speakcreeps3("en-GB"),
+            onPressedAmerican: () => speakcreeps3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) زۆر ھێواش جوڵان یان گەشەکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her arms crept around his neck."),
-                    ExampleSentenceKurdish(text: "باڵی بە دەوری ملیدا سووڕدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreeps4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreeps4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her arms crept around his neck.",
+            kurdishText: "باڵی بە دەوری ملیدا سووڕدا.",
+            onPressedBritish: () => speakcreeps4("en-GB"),
+            onPressedAmerican: () => speakcreeps4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A slight feeling of suspicion crept over me."),
-                    ExampleSentenceKurdish(
-                        text: "کەمێک ھەستی گومان بە سەرمدا زاڵ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreeps5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreeps5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A slight feeling of suspicion crept over me.",
+            kurdishText: "کەمێک ھەستی گومان بە سەرمدا زاڵ بوو.",
+            onPressedBritish: () => speakcreeps5("en-GB"),
+            onPressedAmerican: () => speakcreeps5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) زۆر ھاوڕێیانە و دۆست لەگەڵ کەسێکی دەسەڵاتدار کە کارت پێی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He's always creeping to the boss."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمیشە بە دەوری بەڕێوبەرەکەدا خۆی بادەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreeps6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreeps6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's always creeping to the boss.",
+            kurdishText: "ھەمیشە بە دەوری بەڕێوبەرەکەدا خۆی بادەدات.",
+            onPressedBritish: () => speakcreeps6("en-GB"),
+            onPressedAmerican: () => speakcreeps6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) کەسێک کە زۆر ڕقت لێیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He's a nasty little creep!"),
-                    ExampleSentenceKurdish(text: "سووکێکی ھیچی قێزەونە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreeps7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreeps7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's a nasty little creep!",
+            kurdishText: "سووکێکی ھیچی قێزەونە.",
+            onPressedBritish: () => speakcreeps7("en-GB"),
+            onPressedAmerican: () => speakcreeps7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) کەسێکی کە مەرایت بۆ دەکات بۆ ئەوەی لێی ڕازی بیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He’s the sort of creep who would do that kind of thing!"),
-                    ExampleSentenceKurdish(
-                        text: "ئەو ماستاوچییەیە کە ئەو جۆرە کارە دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreeps8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreeps8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He’s the sort of creep who would do that kind of thing!",
+            kurdishText: "ئەو ماستاوچییەیە کە ئەو جۆرە کارە دەکات.",
+            onPressedBritish: () => speakcreeps8("en-GB"),
+            onPressedAmerican: () => speakcreeps8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (ناو) تێپەڕاندنی سنووری دانراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We need to prevent this slow creep of costs."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت ڕێگری لەم زیادبوونە ھێواشەی تێچوو بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreeps9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreeps9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We need to prevent this slow creep of costs.",
+            kurdishText: "دەبێت ڕێگری لەم زیادبوونە ھێواشەی تێچوو بکەین.",
+            onPressedBritish: () => speakcreeps9("en-GB"),
+            onPressedAmerican: () => speakcreeps9("en-US"),
           ),
         ],
       ),

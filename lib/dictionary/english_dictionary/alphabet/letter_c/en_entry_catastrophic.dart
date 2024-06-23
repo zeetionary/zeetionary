@@ -188,67 +188,29 @@ class EnglishEntrycatastrophic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) شتێک کە دەبێتەھۆی ناڕەحەتی بۆ زۆر کەس"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An unchecked increase in the use of fossil fuels could have catastrophic results for the planet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیادبوونی کۆنتڕۆڵ‌نەکراوی بەکارھێنانی سووتەمەنی بەبەردبوو ئەنجامی کارەستباری بۆ زەوی دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catastrophic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatastrophics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatastrophics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An unchecked increase in the use of fossil fuels could have catastrophic results for the planet.",
+                            kurdishText:
+                                "زیادبوونی کۆنتڕۆڵ‌نەکراوی بەکارھێنانی سووتەمەنی بەبەردبوو ئەنجامی کارەستباری بۆ زەوی دەبێت.", // catastrophic",
+                            onPressedBritish: () =>
+                                speakcatastrophics1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcatastrophics1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) زۆر خراپ کە کێشەیەکی زۆر درووست دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had to put her catastrophic Olympic performance out of her mind."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویست بوو نمایشە شپرزەکەی لە ئۆڵمپیاد لە مێشکی دەربکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatastrophics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatastrophics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had to put her catastrophic Olympic performance out of her mind.",
+                            kurdishText:
+                                "پێویست بوو نمایشە شپرزەکەی لە ئۆڵمپیاد لە مێشکی دەربکات.",
+                            onPressedBritish: () =>
+                                speakcatastrophics2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcatastrophics2("en-US"),
                           ),
                         ],
                       ),

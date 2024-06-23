@@ -191,34 +191,14 @@ class EnglishEntryceremonious extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ڕەفتارکردن یان ئەنجامدانی شتێکی بەشێوەیەکی تەواو فەرمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Diplomats exchanged ceremonious greetings before beginning the peace negotiations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نێردە سیاسییەکان سڵاوی فەرمییان لەیەک کرد پێش ئەوەی گفتوگۆی ئاشتی دەستپێ بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "ceremonious", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakceremoniouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakceremoniouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Diplomats exchanged ceremonious greetings before beginning the peace negotiations.",
+                            kurdishText:
+                                "نێردە سیاسییەکان سڵاوی فەرمییان لەیەک کرد پێش ئەوەی گفتوگۆی ئاشتی دەستپێ بکەن.", // ceremonious",
+                            onPressedBritish: () => speakceremoniouss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakceremoniouss1("en-US"),
                           ),
                         ],
                       ),

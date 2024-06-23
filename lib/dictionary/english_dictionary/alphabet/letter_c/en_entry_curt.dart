@@ -242,58 +242,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) بێ‌ڕێزانە بەھۆی ئەوەی وشەی کەم بەکارھاتووە یان خێرا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A curt note of rejection arrived from the company director."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تێبینییەکی کورتی ڕەتکردنەوە گەشت لە بەڕێوەبەری کۆمپانیاکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curt", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A curt note of rejection arrived from the company director.",
+            kurdishText:
+                "تێبینییەکی کورتی ڕەتکردنەوە گەشت لە بەڕێوەبەری کۆمپانیاکەوە.", // curt", please follow LX instructions
+            onPressedBritish: () => speakcurts1("en-GB"),
+            onPressedAmerican: () => speakcurts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His tone was curt and unfriendly."),
-                    ExampleSentenceKurdish(
-                        text: "تۆنەکەی خێرا و ناھاوڕێیانە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His tone was curt and unfriendly.",
+            kurdishText: "تۆنەکەی خێرا و ناھاوڕێیانە بوو.",
+            onPressedBritish: () => speakcurts2("en-GB"),
+            onPressedAmerican: () => speakcurts2("en-US"),
           ),
         ],
       ),

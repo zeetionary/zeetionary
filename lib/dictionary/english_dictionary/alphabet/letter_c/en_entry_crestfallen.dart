@@ -243,57 +243,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دڵتەنگ و بێ‌ھیوا بەھۆی ئەوەی شکستھێناوە و چاوەڕوان نەبوویت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Mrs Clark looked quite crestfallen all of a sudden."),
-                    ExampleSentenceKurdish(
-                        text: "خاتوو کلارک لەناکاو زۆر ھەناسەسارد دیار بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crestfallen", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrestfallens1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrestfallens1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Mrs Clark looked quite crestfallen all of a sudden.",
+            kurdishText:
+                "خاتوو کلارک لەناکاو زۆر ھەناسەسارد دیار بوو.", // crestfallen", please follow LX instructions
+            onPressedBritish: () => speakcrestfallens1("en-GB"),
+            onPressedAmerican: () => speakcrestfallens1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He looked crestfallen at their decision."),
-                    ExampleSentenceKurdish(
-                        text: "بێ‌ھیوا دیاربوو بە بڕیارەکەیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrestfallens2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrestfallens2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He looked crestfallen at their decision.",
+            kurdishText: "بێ‌ھیوا دیاربوو بە بڕیارەکەیان.",
+            onPressedBritish: () => speakcrestfallens2("en-GB"),
+            onPressedAmerican: () => speakcrestfallens2("en-US"),
           ),
         ],
       ),

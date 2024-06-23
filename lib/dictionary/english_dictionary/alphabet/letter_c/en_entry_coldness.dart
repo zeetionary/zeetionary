@@ -101,60 +101,23 @@ class EnglishEntrycoldness extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ساردوسڕی لە ھەڵسوکەوتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was hurt by the coldness in his voice."),
-                                    ExampleSentenceKurdish(
-                                        text: "دڵی ڕەنجا بە ساردوسڕی دەنگی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coldness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoldnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoldnesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was hurt by the coldness in his voice.",
+                            kurdishText:
+                                "دڵی ڕەنجا بە ساردوسڕی دەنگی.", // coldness",
+                            onPressedBritish: () => speakcoldnesss1("en-GB"),
+                            onPressedAmerican: () => speakcoldnesss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) سەرما"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The icy coldness of the water revived her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرمای تەزێنەری ئاوەکە ھۆشی ھێنایەوە بەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoldnesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoldnesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The icy coldness of the water revived her.",
+                            kurdishText:
+                                "سەرمای تەزێنەری ئاوەکە ھۆشی ھێنایەوە بەر.",
+                            onPressedBritish: () => speakcoldnesss2("en-GB"),
+                            onPressedAmerican: () => speakcoldnesss2("en-US"),
                           ),
                         ],
                       ),

@@ -193,152 +193,55 @@ class EnglishEntrycarve extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) درووستکردنی ئامراز و کەرەستە بە داتاشین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The statue was carved out of a single piece of stone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیکەرەکە لە یەک پارچە بەرد داتاشرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carve", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarves1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarves1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The statue was carved out of a single piece of stone.",
+                            kurdishText:
+                                "پەیکەرەکە لە یەک پارچە بەرد داتاشرا.", // carve",
+                            onPressedBritish: () => speakcarves1("en-GB"),
+                            onPressedAmerican: () => speakcarves1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The wood had been carved into the shape of a flower."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دارەکە تاشراوەتە سەر شێوەی گوڵێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarves2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarves2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The wood had been carved into the shape of a flower.",
+                            kurdishText: "دارەکە تاشراوەتە سەر شێوەی گوڵێک.",
+                            onPressedBritish: () => speakcarves2("en-GB"),
+                            onPressedAmerican: () => speakcarves2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) نووسین لەسەر ڕوویەک بە داتاشین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They carved their initials on the desk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەم پیتی ناوەکانیان لەسەر ڕەحلەکە ھەڵکۆڵی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarves3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarves3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They carved their initials on the desk.",
+                            kurdishText:
+                                "یەکەم پیتی ناوەکانیان لەسەر ڕەحلەکە ھەڵکۆڵی.",
+                            onPressedBritish: () => speakcarves3("en-GB"),
+                            onPressedAmerican: () => speakcarves3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) پارچەپارچەکردنی پارچەیەک کۆشتی گەورەی کوڵاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who's going to carve the turkey?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کێ قەلەکە پارچە دەکات؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarves4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarves4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Who's going to carve the turkey?",
+                            kurdishText: "کێ قەلەکە پارچە دەکات؟",
+                            onPressedBritish: () => speakcarves4("en-GB"),
+                            onPressedAmerican: () => speakcarves4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) ھەوڵدانی زۆر بۆ بەدەستھێنانی کار، ناوبانگم ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He succeeded in carving out a career in the media."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکەوتووبوو لە بەچنگخستنی کارێک لە میدیادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarves5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarves5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He succeeded in carving out a career in the media.",
+                            kurdishText:
+                                "سەرکەوتووبوو لە بەچنگخستنی کارێک لە میدیادا.",
+                            onPressedBritish: () => speakcarves5("en-GB"),
+                            onPressedAmerican: () => speakcarves5("en-US"),
                           ),
                         ],
                       ),

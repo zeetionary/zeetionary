@@ -241,58 +241,21 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک کە کەسێک کاتێکی زۆری لەگەڵ بەسەر دەبات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was playing cards with his cronies."),
-                    ExampleSentenceKurdish(
-                        text: "یاری کاردی دەکرد لەگەڵ دۆستە نزیکەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crony", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcronys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcronys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was playing cards with his cronies.",
+            kurdishText:
+                "یاری کاردی دەکرد لەگەڵ دۆستە نزیکەکانی.", // crony", please follow LX instructions
+            onPressedBritish: () => speakcronys1("en-GB"),
+            onPressedAmerican: () => speakcronys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The general and his cronies are now awaiting trial for drug smuggling."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژەنەڕاڵەکە و دۆستەکانی چاوەڕێی دادگایین بۆ بازرگانی مادەی ھۆشبەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcronys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcronys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The general and his cronies are now awaiting trial for drug smuggling.",
+            kurdishText:
+                "ژەنەڕاڵەکە و دۆستەکانی چاوەڕێی دادگایین بۆ بازرگانی مادەی ھۆشبەر.",
+            onPressedBritish: () => speakcronys2("en-GB"),
+            onPressedAmerican: () => speakcronys2("en-US"),
           ),
         ],
       ),

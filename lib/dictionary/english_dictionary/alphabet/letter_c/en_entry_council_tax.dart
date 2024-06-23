@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) باجێک کە دەرێت بە ئەنجوومەنی خۆجێیی بۆ خزمەتگوزارییە خۆجێییەکان و بەپێی نرخی خانوو دیاری دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was ordered to appear in court for non-payment of council tax."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فەرمانی پێکرا لە دادگا ئامادەبێت بۆ پێنەدانی باجی ئەنجوومەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "council tax", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounciltaxs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounciltaxs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was ordered to appear in court for non-payment of council tax.",
+            kurdishText:
+                "فەرمانی پێکرا لە دادگا ئامادەبێت بۆ پێنەدانی باجی ئەنجوومەن.", // council tax", please follow LX instructions
+            onPressedBritish: () => speakcounciltaxs1("en-GB"),
+            onPressedAmerican: () => speakcounciltaxs1("en-US"),
           ),
         ],
       ),

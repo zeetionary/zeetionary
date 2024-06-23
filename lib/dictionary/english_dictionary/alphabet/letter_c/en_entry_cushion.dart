@@ -285,204 +285,71 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) قوماشێک کە پڕکراوە لە مادەی نەرم بۆ ئەوەی دانیشتن ئاسان بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I rested my elbow on a cushion."),
-                    ExampleSentenceKurdish(text: "باڵم لەسەر پشتییەک دانا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cushion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcushions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcushions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I rested my elbow on a cushion.",
+            kurdishText:
+                "باڵم لەسەر پشتییەک دانا.", // cushion", please follow LX instructions
+            onPressedBritish: () => speakcushions1("en-GB"),
+            onPressedAmerican: () => speakcushions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She plumped up the sofa cushions before the guests arrived."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرینەکانی قەنەفەکەی ڕاتەکاند پێش ئەوەی میوانەکان بگەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcushions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcushions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She plumped up the sofa cushions before the guests arrived.",
+            kurdishText:
+                "سەرینەکانی قەنەفەکەی ڕاتەکاند پێش ئەوەی میوانەکان بگەن.",
+            onPressedBritish: () => speakcushions2("en-GB"),
+            onPressedAmerican: () => speakcushions2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) چینێکی جیاکەرەوە لە نێوان دوو شتدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Underlay forms a cushion between the carpet and the floor, to minimize wear."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژێرڕاخەرەکە بەینێک درووست دەکات لە نێوان ڕاخەرەکە و زەوییەکە بۆ کەمکردنەوەی کۆنەبوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcushions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcushions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Underlay forms a cushion between the carpet and the floor, to minimize wear.",
+            kurdishText:
+                "ژێرڕاخەرەکە بەینێک درووست دەکات لە نێوان ڕاخەرەکە و زەوییەکە بۆ کەمکردنەوەی کۆنەبوون.",
+            onPressedBritish: () => speakcushions3("en-GB"),
+            onPressedAmerican: () => speakcushions3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) شتێکی پارێزەر لە شتێکی خراپ لە ئەگەری ڕوودانیدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His savings were a comfortable cushion against financial problems."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاشەکەوتەکەی پارێزەرێکی باش بوون دژ بە کێشە داراییەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcushions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcushions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His savings were a comfortable cushion against financial problems.",
+            kurdishText:
+                "پاشەکەوتەکەی پارێزەرێکی باش بوون دژ بە کێشە داراییەکانی.",
+            onPressedBritish: () => speakcushions4("en-GB"),
+            onPressedAmerican: () => speakcushions4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) کەمکردنەوەی کاریگەری کەوتنێک یان لێدانێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My fall was cushioned by the deep snow."),
-                    ExampleSentenceKurdish(
-                        text: "کەوتنەکەم بە بەفرە زۆرەکە ئازاری کەم کرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcushions5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcushions5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My fall was cushioned by the deep snow.",
+            kurdishText: "کەوتنەکەم بە بەفرە زۆرەکە ئازاری کەم کرایەوە.",
+            onPressedBritish: () => speakcushions5("en-GB"),
+            onPressedAmerican: () => speakcushions5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (کردار) پاراستنی کەسێک/شتێک لە کاریگەرییە خراپەکانی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The south of the country has been cushioned from the worst effects of the recession."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باشووری وڵاتەکە پارێزراوە لە خراپترین کاریگەرییەکانی قەیرانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcushions6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcushions6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The south of the country has been cushioned from the worst effects of the recession.",
+            kurdishText:
+                "باشووری وڵاتەکە پارێزراوە لە خراپترین کاریگەرییەکانی قەیرانەکە.",
+            onPressedBritish: () => speakcushions6("en-GB"),
+            onPressedAmerican: () => speakcushions6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Homeowners will be cushioned from any tax rises."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خاوەن ماڵەکان دەپارێزرێن لە ھەر بەرزبوونەوەیەکی باج."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcushions7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcushions7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Homeowners will be cushioned from any tax rises.",
+            kurdishText: "خاوەن ماڵەکان دەپارێزرێن لە ھەر بەرزبوونەوەیەکی باج.",
+            onPressedBritish: () => speakcushions7("en-GB"),
+            onPressedAmerican: () => speakcushions7("en-US"),
           ),
         ],
       ),

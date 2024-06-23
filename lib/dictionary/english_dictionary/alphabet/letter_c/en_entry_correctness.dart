@@ -249,90 +249,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دروستی، ڕاستی، ڕاست‌بوون
 """),
           const DefinitionKurdish(text: "١. (ناو) ڕاستبوون، بەبێ ھەڵە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You must check the correctness of HTML coding manually."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت خۆکارانە بۆ درووستی کۆدی HTML بگەڕێیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "correctness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrectnesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrectnesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You must check the correctness of HTML coding manually.",
+            kurdishText:
+                "دەبێت خۆکارانە بۆ درووستی کۆدی HTML بگەڕێیت.", // correctness", please follow LX instructions
+            onPressedBritish: () => speakcorrectnesss1("en-GB"),
+            onPressedAmerican: () => speakcorrectnesss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ڕاستی و گونجاوی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The correctness of this decision may be doubted."),
-                    ExampleSentenceKurdish(
-                        text: "ڕاستی ئەم بڕیارە لەوانەیە گومانی لێ بکرێت ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrectnesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrectnesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The correctness of this decision may be doubted.",
+            kurdishText: "ڕاستی ئەم بڕیارە لەوانەیە گومانی لێ بکرێت .",
+            onPressedBritish: () => speakcorrectnesss2("en-GB"),
+            onPressedAmerican: () => speakcorrectnesss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) ئاگایی بۆ قسەکردن و ڕەفتارکردن بەشێوەیەک کە پەسەندە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He speaks with such correctness that it sometimes sounds very formal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێندە بە ئاگاییەوە قسە دەکات کە ھەندێک جار فەرمی دیارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrectnesss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrectnesss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He speaks with such correctness that it sometimes sounds very formal.",
+            kurdishText:
+                "ھێندە بە ئاگاییەوە قسە دەکات کە ھەندێک جار فەرمی دیارە.",
+            onPressedBritish: () => speakcorrectnesss3("en-GB"),
+            onPressedAmerican: () => speakcorrectnesss3("en-US"),
           ),
         ],
       ),

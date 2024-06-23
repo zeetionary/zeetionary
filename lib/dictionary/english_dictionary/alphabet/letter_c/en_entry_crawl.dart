@@ -296,246 +296,80 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خزیان، خشان، سنگەخشکێ، لەسەرچۆک‌ڕۆیشتن، گاگوڵکێ،	باسکەمەلە، مەلەباسکە
 """),
           const DefinitionKurdish(text: "١. (کردار) گاگۆڵکی کردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Our baby is just starting to crawl."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵەکەمان تازە فێری گاگۆڵکێ بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crawl", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrawls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrawls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Our baby is just starting to crawl.",
+            kurdishText:
+                "منداڵەکەمان تازە فێری گاگۆڵکێ بووە.", // crawl", please follow LX instructions
+            onPressedBritish: () => speakcrawls1("en-GB"),
+            onPressedAmerican: () => speakcrawls1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She crawled under the fence."),
-                    ExampleSentenceKurdish(text: "بەژێر پەرژینەکەدا خشا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrawls2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrawls2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She crawled under the fence.",
+            kurdishText: "بەژێر پەرژینەکەدا خشا.",
+            onPressedBritish: () => speakcrawls2("en-GB"),
+            onPressedAmerican: () => speakcrawls2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) خشانی مێروو، جاڵجاڵۆکە، ھتد لەسەر لاقەکانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There's a spider crawling up your leg."),
-                    ExampleSentenceKurdish(
-                        text: "جاڵجاڵۆکەیەک جەریکە بە لاقتدا دەخشێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrawls3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrawls3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There's a spider crawling up your leg.",
+            kurdishText: "جاڵجاڵۆکەیەک جەریکە بە لاقتدا دەخشێت.",
+            onPressedBritish: () => speakcrawls3("en-GB"),
+            onPressedAmerican: () => speakcrawls3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) جوڵان زۆر بە ھێواشی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The weeks crawled by."),
-                    ExampleSentenceKurdish(text: "ھەفتەکان تێپەڕین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrawls4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrawls4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The weeks crawled by.",
+            kurdishText: "ھەفتەکان تێپەڕین.",
+            onPressedBritish: () => speakcrawls4("en-GB"),
+            onPressedAmerican: () => speakcrawls4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The traffic was crawling along."),
-                    ExampleSentenceKurdish(text: "ھاتووچۆ بۆ پێشەوە دەچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrawls5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrawls5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The traffic was crawling along.",
+            kurdishText: "ھاتووچۆ بۆ پێشەوە دەچوو.",
+            onPressedBritish: () => speakcrawls5("en-GB"),
+            onPressedAmerican: () => speakcrawls5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) نزیکبوون لە کەسێکی دەسەڵاتدار، بەتایبەتی کە بۆ بەدەستھێنانی شتێکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's always crawling to the boss."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمیشە کلکەسووتەیەتی بە لای سەرپەرشتیارەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrawls6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrawls6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's always crawling to the boss.",
+            kurdishText: "ھەمیشە کلکەسووتەیەتی بە لای سەرپەرشتیارەکەدا.",
+            onPressedBritish: () => speakcrawls6("en-GB"),
+            onPressedAmerican: () => speakcrawls6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) خێرایی زۆر کەم"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The traffic slowed to a crawl."),
-                    ExampleSentenceKurdish(
-                        text: "ھاتووچۆ خاوبوویەوە بۆ ھێواشییەکی کەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrawls7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrawls7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The traffic slowed to a crawl.",
+            kurdishText: "ھاتووچۆ خاوبوویەوە بۆ ھێواشییەکی کەم.",
+            onPressedBritish: () => speakcrawls7("en-GB"),
+            onPressedAmerican: () => speakcrawls7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The traffic was moving at a slow crawl."),
-                    ExampleSentenceKurdish(
-                        text: "ھاتووچۆ بە خێراییەکی ھێواش دەچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrawls8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrawls8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The traffic was moving at a slow crawl.",
+            kurdishText: "ھاتووچۆ بە خێراییەکی ھێواش دەچوو.",
+            onPressedBritish: () => speakcrawls8("en-GB"),
+            onPressedAmerican: () => speakcrawls8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (ناو) جۆرە مەلەکردنێک کە دەست یەک بە یەک بەسەر سەرتدا دەبەیت بەشێوەیەکی بازنەیی و بە پێیەکانت پاڵنان دەکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She can do the crawl, backstroke, and breaststroke, which is amazing for someone so young."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانێت باسکەمەلە، پشتەمەلە، و بۆقەمەلە، کە سەرنجڕاکێشە بۆ کەسێکی وەھا گەنج."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrawls9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrawls9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She can do the crawl, backstroke, and breaststroke, which is amazing for someone so young.",
+            kurdishText:
+                "دەتوانێت باسکەمەلە، پشتەمەلە، و بۆقەمەلە، کە سەرنجڕاکێشە بۆ کەسێکی وەھا گەنج.",
+            onPressedBritish: () => speakcrawls9("en-GB"),
+            onPressedAmerican: () => speakcrawls9("en-US"),
           ),
         ],
       ),

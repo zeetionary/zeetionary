@@ -96,34 +96,14 @@ class EnglishEntrycoordinator extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە بەشە جیاوازەکانی چالاکییەک و کەسانی بەژداربوو تێیدا ڕێکدەخات بۆ ئەوەی باش کار بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The campaign needs an effective coordinator."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمپینەکە پێویستی بە ڕێکخەرێکی کارا ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coordinator", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoordinators1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoordinators1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The campaign needs an effective coordinator.",
+                            kurdishText:
+                                "کەمپینەکە پێویستی بە ڕێکخەرێکی کارا ھەیە.", // coordinator",
+                            onPressedBritish: () => speakcoordinators1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoordinators1("en-US"),
                           ),
                         ],
                       ),

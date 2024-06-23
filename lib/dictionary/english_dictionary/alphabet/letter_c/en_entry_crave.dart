@@ -240,56 +240,19 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) بوونی ئارەزوویەکی زۆر بۆ شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She has always craved excitement."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمیشە حەزی بە جۆش‌وخرۆشی بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crave", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraves1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraves1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has always craved excitement.",
+            kurdishText:
+                "ھەمیشە حەزی بە جۆش‌وخرۆشی بووە.", // crave", please follow LX instructions
+            onPressedBritish: () => speakcraves1("en-GB"),
+            onPressedAmerican: () => speakcraves1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They craved to return to their homeland."),
-                    ExampleSentenceKurdish(
-                        text: "بە ھیوابوون بگەڕێنەوە بۆ نیشتیمانیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraves2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraves2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They craved to return to their homeland.",
+            kurdishText: "بە ھیوابوون بگەڕێنەوە بۆ نیشتیمانیان.",
+            onPressedBritish: () => speakcraves2("en-GB"),
+            onPressedAmerican: () => speakcraves2("en-US"),
           ),
         ],
       ),

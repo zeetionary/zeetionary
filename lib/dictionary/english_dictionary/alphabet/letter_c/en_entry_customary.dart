@@ -251,88 +251,30 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە خەڵکی لە شوێنێک یان دۆخێکی دیاریکراودا دەیکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Is it customary to tip hairdressers in this country?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەریتە کە شاگردانە بدەیت بە سەرتاشان لەم وڵاتە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "customary", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomarys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomarys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Is it customary to tip hairdressers in this country?",
+            kurdishText:
+                "نەریتە کە شاگردانە بدەیت بە سەرتاشان لەم وڵاتە؟", // customary", please follow LX instructions
+            onPressedBritish: () => speakcustomarys1("en-GB"),
+            onPressedAmerican: () => speakcustomarys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It has been customary for the chair to be re-elected for a second year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوە بووە بە نەریتێک کە سەرۆک بۆ ساڵی دووەم دووبارە ھەڵبژێردرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomarys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomarys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It has been customary for the chair to be re-elected for a second year.",
+            kurdishText:
+                "ئەوە بووە بە نەریتێک کە سەرۆک بۆ ساڵی دووەم دووبارە ھەڵبژێردرێتەوە.",
+            onPressedBritish: () => speakcustomarys2("en-GB"),
+            onPressedAmerican: () => speakcustomarys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) تایبەت بە کەسێکی دیاریکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She worked with her customary thoroughness."),
-                    ExampleSentenceKurdish(
-                        text: "بە وردیی ھەمیشەییەوە کاری کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomarys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomarys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She worked with her customary thoroughness.",
+            kurdishText: "بە وردیی ھەمیشەییەوە کاری کرد.",
+            onPressedBritish: () => speakcustomarys3("en-GB"),
+            onPressedAmerican: () => speakcustomarys3("en-US"),
           ),
         ],
       ),

@@ -94,34 +94,15 @@ class EnglishEntrychristianname extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوێک کە دەدرێت بە کەسێک لە مەراسیمی تەوفن کردنی و دەبێت بە ناوی کەسی (ناوی یەکەم)"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We're all on Christian-name terms here."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێرە ھەموو بە ناوی یەکەم یەکدی بانگ دەکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "Christian name", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakChristiannames1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakChristiannames1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We're all on Christian-name terms here.",
+                            kurdishText:
+                                "لێرە ھەموو بە ناوی یەکەم یەکدی بانگ دەکەین.", // Christian name",
+                            onPressedBritish: () =>
+                                speakChristiannames1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakChristiannames1("en-US"),
                           ),
                         ],
                       ),

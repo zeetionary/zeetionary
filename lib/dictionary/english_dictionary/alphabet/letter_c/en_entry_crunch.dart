@@ -300,262 +300,89 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دەنگێک وەک ئەوەی شتێکی ڕەق پەستانی بخرێتە سەر یان بشکێندرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The car drew up with a crunch of gravel."),
-                    ExampleSentenceKurdish(
-                        text: "ئۆتۆمبێلەکە وەستا بە دەنگی خشەی زیخ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crunch", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The car drew up with a crunch of gravel.",
+            kurdishText:
+                "ئۆتۆمبێلەکە وەستا بە دەنگی خشەی زیخ.", // crunch", please follow LX instructions
+            onPressedBritish: () => speakcrunchs1("en-GB"),
+            onPressedAmerican: () => speakcrunchs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The snow gave a crunch as we stepped onto it."),
-                    ExampleSentenceKurdish(
-                        text: "بەفرەکە کرپەیەکی کرد کە پێمان لەسەر دانا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The snow gave a crunch as we stepped onto it.",
+            kurdishText: "بەفرەکە کرپەیەکی کرد کە پێمان لەسەر دانا.",
+            onPressedBritish: () => speakcrunchs2("en-GB"),
+            onPressedAmerican: () => speakcrunchs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) دۆخێک یان زانیارییەک کە گرنگە و زۆرجار ناخۆشە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crunch came when she returned from America."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دۆخە ناخۆشەکە دەستیپێکرد کە لە ئەمریکا گەڕایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The crunch came when she returned from America.",
+            kurdishText: "دۆخە ناخۆشەکە دەستیپێکرد کە لە ئەمریکا گەڕایەوە.",
+            onPressedBritish: () => speakcrunchs3("en-GB"),
+            onPressedAmerican: () => speakcrunchs3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crunch is that we can't afford to go abroad this year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شتە ناخۆشەکە ئەوەیە ناتوانین خەرجی چوونە دەرەوە بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The crunch is that we can't afford to go abroad this year.",
+            kurdishText:
+                "شتە ناخۆشەکە ئەوەیە ناتوانین خەرجی چوونە دەرەوە بکەین.",
+            onPressedBritish: () => speakcrunchs4("en-GB"),
+            onPressedAmerican: () => speakcrunchs4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) دۆخێک کە لەناکاو بەشی پێویست لە شتێک نییە، بەتایبەتی پارە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Higher grain prices are putting a crunch on cattle feeders."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نرخی بەرزی گەنم زەختێکیان خستووەتە سەر بەخێوکەرانی ڕەشەوڵاخ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Higher grain prices are putting a crunch on cattle feeders.",
+            kurdishText:
+                "نرخی بەرزی گەنم زەختێکیان خستووەتە سەر بەخێوکەرانی ڕەشەوڵاخ.",
+            onPressedBritish: () => speakcrunchs5("en-GB"),
+            onPressedAmerican: () => speakcrunchs5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) قەپگرتن لە شتێک بە خرمەخرمەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She crunched her apple noisily."),
-                    ExampleSentenceKurdish(
-                        text: "بە دەنگە دەنگەوە سێوەکەی خوارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She crunched her apple noisily.",
+            kurdishText: "بە دەنگە دەنگەوە سێوەکەی خوارد.",
+            onPressedBritish: () => speakcrunchs6("en-GB"),
+            onPressedAmerican: () => speakcrunchs6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (کردار) درووستکردنی دەنگێک وەک ئەوەی شتێک پەستانی بخرێتە سەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The snow crunched under our feet."),
-                    ExampleSentenceKurdish(
-                        text: "بەفرەکە کرپەی دەھات لەژێر پێماندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The snow crunched under our feet.",
+            kurdishText: "بەفرەکە کرپەی دەھات لەژێر پێماندا.",
+            onPressedBritish: () => speakcrunchs7("en-GB"),
+            onPressedAmerican: () => speakcrunchs7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (کردار) ڕێکردن بەسەر شتێک و درووستکردنی دەنگێک وەک ئەوەی شتێک پەستانی بخرێتە سەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I crunched across the gravel to the front door."),
-                    ExampleSentenceKurdish(
-                        text: "بەسەر زیخەکەدا چووم بۆ دەرگاکەی پێشەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I crunched across the gravel to the front door.",
+            kurdishText: "بەسەر زیخەکەدا چووم بۆ دەرگاکەی پێشەوە.",
+            onPressedBritish: () => speakcrunchs8("en-GB"),
+            onPressedAmerican: () => speakcrunchs8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) مامەڵەکردن بەخێرایی لەگەڵ ژمارەیەکی زۆری داتا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We are waiting for the results officials who are still crunching numbers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چاوەڕێی ئەنجامی ئەو بەرپرسانە دەکەین کە ژمارەکان شەن‌وکەو دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We are waiting for the results officials who are still crunching numbers.",
+            kurdishText:
+                "چاوەڕێی ئەنجامی ئەو بەرپرسانە دەکەین کە ژمارەکان شەن‌وکەو دەکەن.",
+            onPressedBritish: () => speakcrunchs9("en-GB"),
+            onPressedAmerican: () => speakcrunchs9("en-US"),
           ),
         ],
       ),

@@ -103,60 +103,22 @@ class EnglishEntrycommotion extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) دەنگەدەنگ و جەنجاڵی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I heard a commotion and went to see what was happening."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێم لە دەنگەدەنگێک بوو و چووم بزانم چی ڕوودەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commotion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommotions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommotions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I heard a commotion and went to see what was happening.",
+                            kurdishText:
+                                "گوێم لە دەنگەدەنگێک بوو و چووم بزانم چی ڕوودەدات.", // commotion",
+                            onPressedBritish: () => speakcommotions1("en-GB"),
+                            onPressedAmerican: () => speakcommotions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The crowd waiting outside was causing a commotion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو جەماوەرەی لە دەرەوە وەستابوون جەنجاڵییەکیان درووست کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommotions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommotions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The crowd waiting outside was causing a commotion.",
+                            kurdishText:
+                                "ئەو جەماوەرەی لە دەرەوە وەستابوون جەنجاڵییەکیان درووست کردبوو.",
+                            onPressedBritish: () => speakcommotions2("en-GB"),
+                            onPressedAmerican: () => speakcommotions2("en-US"),
                           ),
                         ],
                       ),

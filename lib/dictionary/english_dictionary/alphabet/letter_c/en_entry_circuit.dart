@@ -121,122 +121,46 @@ class EnglishEntrycircuit extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھێڵێک، ڕێگایەک، یان گەشتێک بە دەوری شوێنێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We did a complete circuit of the park in twenty minutes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەوارنێکی تەواوی پارکەکەمان ئەنجامدا لە ٢٠ خولەکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circuit", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircuits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuits1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We did a complete circuit of the park in twenty minutes.",
+                            kurdishText:
+                                "دەوارنێکی تەواوی پارکەکەمان ئەنجامدا لە ٢٠ خولەکدا.", // circuit",
+                            onPressedBritish: () => speakcircuits1("en-GB"),
+                            onPressedAmerican: () => speakcircuits1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The earth takes around 365 days to make a circuit of (= go around) the sun."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەوی نزیکەی ٣٦٥ ڕۆژی پێدەچێت بۆ سووڕێ بە دەوری خۆردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircuits2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuits2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The earth takes around 365 days to make a circuit of (= go around) the sun.",
+                            kurdishText:
+                                "زەوی نزیکەی ٣٦٥ ڕۆژی پێدەچێت بۆ سووڕێ بە دەوری خۆردا.",
+                            onPressedBritish: () => speakcircuits2("en-GB"),
+                            onPressedAmerican: () => speakcircuits2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) سیستەمێکی داخراوی وایەر و ئامێر کە پێیدا کارەبا تێپەڕێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A defect was found in the water-cooling circuit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵەیەک دۆزرایەوە لە سیستەمی ئاو ساردکەرەوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircuits3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuits3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A defect was found in the water-cooling circuit.",
+                            kurdishText:
+                                "ھەڵەیەک دۆزرایەوە لە سیستەمی ئاو ساردکەرەوەکە.",
+                            onPressedBritish: () => speakcircuits3("en-GB"),
+                            onPressedAmerican: () => speakcircuits3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) زنجیرە یاری و ڕووبەڕووبوونەوەیەک کە تێیدا ژمارەیەک کەس زوو زوو بەژداری تێدا دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He announced his retirement from the professional circuit last year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵی ڕابردوو وازھێنانی لە یارییە فەرمییەکان ڕاگەیاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircuits4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuits4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He announced his retirement from the professional circuit last year.",
+                            kurdishText:
+                                "ساڵی ڕابردوو وازھێنانی لە یارییە فەرمییەکان ڕاگەیاند.",
+                            onPressedBritish: () => speakcircuits4("en-GB"),
+                            onPressedAmerican: () => speakcircuits4("en-US"),
                           ),
                         ],
                       ),

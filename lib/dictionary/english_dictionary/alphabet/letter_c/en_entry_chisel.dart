@@ -111,90 +111,31 @@ class EnglishEntrychisel extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئامێرێک کە نووکێکی تیژی ھەیە بۆ ھەڵکەندن لە دار، بەرد،، کانزا، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She sharpened the chisel before starting work on the stone sculpture."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەکارەکەی تیژکرد پێش ئەوەی دەست بکات بە کارکردن لەسەر پەیکەرە بەردینەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chisel", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchisels1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchisels1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She sharpened the chisel before starting work on the stone sculpture.",
+                            kurdishText:
+                                "مەکارەکەی تیژکرد پێش ئەوەی دەست بکات بە کارکردن لەسەر پەیکەرە بەردینەکە.", // chisel",
+                            onPressedBritish: () => speakchisels1("en-GB"),
+                            onPressedAmerican: () => speakchisels1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بڕین یان نەخشاندنی دار یان بەرد بە مەکارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A name was chiselled into the stone."),
-                                    ExampleSentenceKurdish(
-                                        text: "ناوێک لە بەردەکە ھەڵکۆڵرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchisels2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchisels2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A name was chiselled into the stone.",
+                            kurdishText: "ناوێک لە بەردەکە ھەڵکۆڵرابوو.",
+                            onPressedBritish: () => speakchisels2("en-GB"),
+                            onPressedAmerican: () => speakchisels2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She chiselled a figure out of the marble."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێنەی کەسێکی ھەڵکۆڵی لە مەڕمەڕەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchisels3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchisels3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She chiselled a figure out of the marble.",
+                            kurdishText: "وێنەی کەسێکی ھەڵکۆڵی لە مەڕمەڕەکە.",
+                            onPressedBritish: () => speakchisels3("en-GB"),
+                            onPressedAmerican: () => speakchisels3("en-US"),
                           ),
                         ],
                       ),

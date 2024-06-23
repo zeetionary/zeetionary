@@ -236,58 +236,20 @@ class EnglishEntrycloud extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ھەور یان تۆپەڵە ھەور"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Dark clouds were gathering in the west."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوری ڕەش لە ڕۆژئاوا کۆدەبوونەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cloud", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Dark clouds were gathering in the west.",
+                            kurdishText:
+                                "ھەوری ڕەش لە ڕۆژئاوا کۆدەبوونەوە.", // cloud",
+                            onPressedBritish: () => speakclouds1("en-GB"),
+                            onPressedAmerican: () => speakclouds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The sun went behind a cloud."),
-                                    ExampleSentenceKurdish(
-                                        text: "خۆر کەوتە پشتی تۆپەڵە ھەورێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The sun went behind a cloud.",
+                            kurdishText: "خۆر کەوتە پشتی تۆپەڵە ھەورێک.",
+                            onPressedBritish: () => speakclouds2("en-GB"),
+                            onPressedAmerican: () => speakclouds2("en-US"),
                           ),
                           Column(
                             children: [
@@ -360,411 +322,141 @@ class EnglishEntrycloud extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) تۆپەڵێکی گەورە لە شتێک لە ئاسماندا، بۆ نموونە دووکەڵ یان خۆڵ، یان ژمارەیەکی زۆر لە مێروو کە پێکەوە دەفڕن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bees flew out of their hives, forming a thick black cloud."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێشەنگەکان لە پوورەھەنگەکەیان فڕین و تۆپەڵێکی ڕەشی گەورەیان درووستکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bees flew out of their hives, forming a thick black cloud.",
+                            kurdishText:
+                                "مێشەنگەکان لە پوورەھەنگەکەیان فڕین و تۆپەڵێکی ڕەشی گەورەیان درووستکرد.",
+                            onPressedBritish: () => speakclouds5("en-GB"),
+                            onPressedAmerican: () => speakclouds5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I saw an enormous cloud of smoke rising over the city."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆپەڵە دووکەڵێکی گەورەم بینی بەسەر شارەکەدا بەرزدەبووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I saw an enormous cloud of smoke rising over the city.",
+                            kurdishText:
+                                "تۆپەڵە دووکەڵێکی گەورەم بینی بەسەر شارەکەدا بەرزدەبووەوە.",
+                            onPressedBritish: () => speakclouds6("en-GB"),
+                            onPressedAmerican: () => speakclouds6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) شتێک کە دڵتەنگ یان بێزارت دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her father's illness cast a cloud over her wedding day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشییەکەی باوکی خەمناکییەکی کێشا بەسەر ڕۆژی ھاوسەرگیرییەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her father's illness cast a cloud over her wedding day.",
+                            kurdishText:
+                                "نەخۆشییەکەی باوکی خەمناکییەکی کێشا بەسەر ڕۆژی ھاوسەرگیرییەکەیدا.",
+                            onPressedBritish: () => speakclouds7("en-GB"),
+                            onPressedAmerican: () => speakclouds7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) تۆڕێک لە سێرڤەر کە تێیدا زانیاری و نەرمامێر کۆگا کراون و بەکارھێنەران لە ڕێگەی ئینتەرنێتەوە بەکاریدێنن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All the photographs are kept on the cloud rather than on hard drives."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو وێنەکان لەسەر کلاود پارێزراون نەک لەسەر ھارد درایڤ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All the photographs are kept on the cloud rather than on hard drives.",
+                            kurdishText:
+                                "ھەموو وێنەکان لەسەر کلاود پارێزراون نەک لەسەر ھارد درایڤ.",
+                            onPressedBritish: () => speakclouds8("en-GB"),
+                            onPressedAmerican: () => speakclouds8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) سەختکردنی بیرکەوتنەوە یان تێگەشتن لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Doubts were beginning to cloud my mind."),
-                                    ExampleSentenceKurdish(
-                                        text: "گومان ھزرمیان تەڵخ کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Doubts were beginning to cloud my mind.",
+                            kurdishText: "گومان ھزرمیان تەڵخ کردبوو.",
+                            onPressedBritish: () => speakclouds9("en-GB"),
+                            onPressedAmerican: () => speakclouds9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His judgement was clouded by jealousy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیاردانی کوێربوو بوو بە حەسوودی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His judgement was clouded by jealousy.",
+                            kurdishText: "بڕیاردانی کوێربوو بوو بە حەسوودی.",
+                            onPressedBritish: () => speakclouds10("en-GB"),
+                            onPressedAmerican: () => speakclouds10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) پیشاندانی دڵتەنگی، ترس، تووڕەیی، ھتد یان وا بکەیت کەسێک ئەم ھەستانە پیشان بدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her face clouded over with anger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووخساری ھاواری دەکرد لە تووڕەییدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her face clouded over with anger.",
+                            kurdishText: "ڕووخساری ھاواری دەکرد لە تووڕەییدا.",
+                            onPressedBritish: () => speakclouds11("en-GB"),
+                            onPressedAmerican: () => speakclouds11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Suspicion clouded his face."),
-                                    ExampleSentenceKurdish(
-                                        text: "گومان باڵی بەسەریدا کێشابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Suspicion clouded his face.",
+                            kurdishText: "گومان باڵی بەسەریدا کێشابوو.",
+                            onPressedBritish: () => speakclouds12("en-GB"),
+                            onPressedAmerican: () => speakclouds12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) ناڕوونکردنی شتێک کە باسی دەکەیت یان بیری لێ دەکەیتەوە، بەتایبەتی بە باسکردنی شتی دیکە کە پەیوەندی نییە پێوەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cost factors should not be allowed to cloud the issue."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فاکتەری تێچوون نابێت بابەتەکە بەلاڕێدا بەرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cost factors should not be allowed to cloud the issue.",
+                            kurdishText:
+                                "فاکتەری تێچوون نابێت بابەتەکە بەلاڕێدا بەرێت.",
+                            onPressedBritish: () => speakclouds13("en-GB"),
+                            onPressedAmerican: () => speakclouds13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) پڕبوون لە ھەور یان تۆپەڵە ھەور"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That day, the skies had clouded and it had become cool."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ڕۆژە، ئاسمان ھەوراوی بووبوو و ساردبووبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That day, the skies had clouded and it had become cool.",
+                            kurdishText:
+                                "ئەو ڕۆژە، ئاسمان ھەوراوی بووبوو و ساردبووبوو.",
+                            onPressedBritish: () => speakclouds14("en-GB"),
+                            onPressedAmerican: () => speakclouds14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sky clouded over and it started to rain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاسمان پڕ لە ھەور بوو و دەستی بە باران کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sky clouded over and it started to rain.",
+                            kurdishText:
+                                "ئاسمان پڕ لە ھەور بوو و دەستی بە باران کرد.",
+                            onPressedBritish: () => speakclouds15("en-GB"),
+                            onPressedAmerican: () => speakclouds15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٩. (کردار) ناخۆشکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His last years were clouded by financial worries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵانی کۆتایی بە نیگەرانی دارایی تاڵ بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His last years were clouded by financial worries.",
+                            kurdishText:
+                                "ساڵانی کۆتایی بە نیگەرانی دارایی تاڵ بوون.",
+                            onPressedBritish: () => speakclouds16("en-GB"),
+                            onPressedAmerican: () => speakclouds16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٠. (کردار) تەڵخ بوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Her eyes clouded with tears."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوەکانی تەڵخ بوون لە فرمێسکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her eyes clouded with tears.",
+                            kurdishText: "چاوەکانی تەڵخ بوون لە فرمێسکدا.",
+                            onPressedBritish: () => speakclouds17("en-GB"),
+                            onPressedAmerican: () => speakclouds17("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Steam had clouded the mirror."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەڵم ئاوێنەکەی تەڵخ کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouds18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouds18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Steam had clouded the mirror.",
+                            kurdishText: "ھەڵم ئاوێنەکەی تەڵخ کردبوو.",
+                            onPressedBritish: () => speakclouds18("en-GB"),
+                            onPressedAmerican: () => speakclouds18("en-US"),
                           ),
                         ],
                       ),

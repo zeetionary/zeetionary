@@ -103,60 +103,22 @@ class EnglishEntrycollude extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) کارکردن پێکەوە بە نایاسایی و نھێنی بۆ فریودانی کەسانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several people had colluded in the murder."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک کەس لە کووشتنەکەدا پلانیان گێڕا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collude", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolludes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolludes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several people had colluded in the murder.",
+                            kurdishText:
+                                "ژمارەیەک کەس لە کووشتنەکەدا پلانیان گێڕا بوو.", // collude",
+                            onPressedBritish: () => speakcolludes1("en-GB"),
+                            onPressedAmerican: () => speakcolludes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They colluded with terrorists to overthrow the government."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەگەڵ تیرۆریستان پلانیان دانا بۆ ڕووخاندنی حکومەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolludes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolludes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They colluded with terrorists to overthrow the government.",
+                            kurdishText:
+                                "لەگەڵ تیرۆریستان پلانیان دانا بۆ ڕووخاندنی حکومەت.",
+                            onPressedBritish: () => speakcolludes2("en-GB"),
+                            onPressedAmerican: () => speakcolludes2("en-US"),
                           ),
                         ],
                       ),

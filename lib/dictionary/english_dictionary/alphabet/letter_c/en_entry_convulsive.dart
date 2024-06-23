@@ -94,32 +94,12 @@ class EnglishEntryconvulsive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) لەناکاو و ئەستەم بۆ کۆنترۆڵکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her breath came in convulsive gasps."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەناسەدانەکەی بە ھەناسەبڕکێی کۆنترۆڵ‌نەکراو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convulsive", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvulsives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvulsives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her breath came in convulsive gasps.",
+                            kurdishText:
+                                "ھەناسەدانەکەی بە ھەناسەبڕکێی کۆنترۆڵ‌نەکراو بوو.", // convulsive",
+                            onPressedBritish: () => speakconvulsives1("en-GB"),
+                            onPressedAmerican: () => speakconvulsives1("en-US"),
                           ),
                         ],
                       ),

@@ -129,205 +129,72 @@ class EnglishEntrycoincide extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پێکەوە ڕوودانی دوو ڕووداو یان زیاتر پێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's a pity our trips to New York don't coincide."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێگەی داخە گەشتەکانمان بۆ نیویۆرک ھاوکات نابن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coincide", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoincides1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoincides1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's a pity our trips to New York don't coincide.",
+                            kurdishText:
+                                "جێگەی داخە گەشتەکانمان بۆ نیویۆرک ھاوکات نابن.", // coincide",
+                            onPressedBritish: () => speakcoincides1("en-GB"),
+                            onPressedAmerican: () => speakcoincides1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The strike was timed to coincide with the party conference."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مانگرتنەکە ڕێکخرا بۆ ئەوەی ھاوکات بێت لەگەڵ کۆنفرانسی پارتەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoincides2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoincides2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The strike was timed to coincide with the party conference.",
+                            kurdishText:
+                                "مانگرتنەکە ڕێکخرا بۆ ئەوەی ھاوکات بێت لەگەڵ کۆنفرانسی پارتەکەدا.",
+                            onPressedBritish: () => speakcoincides2("en-GB"),
+                            onPressedAmerican: () => speakcoincides2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) لێکچوون لە شێوە، بۆچوون، بیرکردنەوە، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The interests of employers and employees do not always coincide."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرژەوەندییەکانی خاوەن کاران ھەمیشە یەکنین لەگەڵ ئەوانەی کرێکاران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoincides3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoincides3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The interests of employers and employees do not always coincide.",
+                            kurdishText:
+                                "بەرژەوەندییەکانی خاوەن کاران ھەمیشە یەکنین لەگەڵ ئەوانەی کرێکاران.",
+                            onPressedBritish: () => speakcoincides3("en-GB"),
+                            onPressedAmerican: () => speakcoincides3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her story coincided exactly with her brother's."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیرۆکەکەی و ئەوەی براکەی یەکدەگرنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoincides2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoincides2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her story coincided exactly with her brother's.",
+                            kurdishText:
+                                "چیرۆکەکەی و ئەوەی براکەی یەکدەگرنەوە.",
+                            onPressedBritish: () => speakcoincides2("en-GB"),
+                            onPressedAmerican: () => speakcoincides2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our views on this issue coincide closely with yours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیدمان لەسەر بابەتە زۆر یەکدەگرێتەوە لەگەڵ ئەوەی ئێوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoincides3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoincides3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our views on this issue coincide closely with yours.",
+                            kurdishText:
+                                "دیدمان لەسەر بابەتە زۆر یەکدەگرێتەوە لەگەڵ ئەوەی ئێوە.",
+                            onPressedBritish: () => speakcoincides3("en-GB"),
+                            onPressedAmerican: () => speakcoincides3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) گەشتن بە یەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At this point the two paths coincide briefly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەم خاڵەدا دوو ڕێگاکە بۆ کەمێک یەکدەگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoincides4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoincides4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At this point the two paths coincide briefly.",
+                            kurdishText:
+                                "لەم خاڵەدا دوو ڕێگاکە بۆ کەمێک یەکدەگرن.",
+                            onPressedBritish: () => speakcoincides4("en-GB"),
+                            onPressedAmerican: () => speakcoincides4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The present position of the house coincides with that of an earlier dwelling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شوێنی ئێستای خانووەکە ھاوشوێنە لەگەڵ خانوویەکی دیکەی پێشووتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoincides5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoincides5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The present position of the house coincides with that of an earlier dwelling.",
+                            kurdishText:
+                                "شوێنی ئێستای خانووەکە ھاوشوێنە لەگەڵ خانوویەکی دیکەی پێشووتر.",
+                            onPressedBritish: () => speakcoincides5("en-GB"),
+                            onPressedAmerican: () => speakcoincides5("en-US"),
                           ),
                         ],
                       ),

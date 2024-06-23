@@ -95,32 +95,13 @@ class EnglishEntrycolonist extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە نیشتەجێی ناوچەیەک دەبێت کە داگیرکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The early colonists faced many hardships in the new world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆلۆنی‌نشینە سەرەتاییەکان ڕووبەڕووی سەختی زۆر بوونەوە لە جیھانە تازەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colonist", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The early colonists faced many hardships in the new world.",
+                            kurdishText:
+                                "کۆلۆنی‌نشینە سەرەتاییەکان ڕووبەڕووی سەختی زۆر بوونەوە لە جیھانە تازەکەدا.", // colonist",
+                            onPressedBritish: () => speakcolonists1("en-GB"),
+                            onPressedAmerican: () => speakcolonists1("en-US"),
                           ),
                         ],
                       ),

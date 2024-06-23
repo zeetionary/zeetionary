@@ -194,32 +194,13 @@ class EnglishEntrycctv extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کامێرای چاودێری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The whole incident was captured on CCTV."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ڕووداوەکە لەلایەن کامێرای چاودێرییەوە گیردرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "CCTV", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakCCTVs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakCCTVs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The whole incident was captured on CCTV.",
+                            kurdishText:
+                                "تەواوی ڕووداوەکە لەلایەن کامێرای چاودێرییەوە گیردرا.", // CCTV",
+                            onPressedBritish: () => speakCCTVs1("en-GB"),
+                            onPressedAmerican: () => speakCCTVs1("en-US"),
                           ),
                         ],
                       ),

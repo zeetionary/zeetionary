@@ -179,323 +179,113 @@ class EnglishEntrycombine extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) یەکگرتن بۆ درووستکردنی یەکەیەک یان گرووپێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hydrogen and oxygen combine to form water."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھایدرۆجین و ئۆکسجین یەکدەگرن بۆ درووستکردنی ئاو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "combine", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Hydrogen and oxygen combine to form water.",
+                            kurdishText:
+                                "ھایدرۆجین و ئۆکسجین یەکدەگرن بۆ درووستکردنی ئاو.", // combine",
+                            onPressedBritish: () => speakcombines1("en-GB"),
+                            onPressedAmerican: () => speakcombines1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several factors had combined to ruin our plans."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک فاکتەر یەکیان گرتبوو بۆ تێکدانی پلانەکانمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombines2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombines2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several factors had combined to ruin our plans.",
+                            kurdishText:
+                                "ژمارەیەک فاکتەر یەکیان گرتبوو بۆ تێکدانی پلانەکانمان.",
+                            onPressedBritish: () => speakcombines2("en-GB"),
+                            onPressedAmerican: () => speakcombines2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Archaeological and historical evidence combine to create a picture of what life must have been like at that time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵگەی شوێنەوارناسی و مێژووی یەکدەگرن بۆ درووستکردنی وێنەیەکی ئەوەی دەکرێت ژیان چۆن بووبا ئەوکاتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombines3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombines3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Archaeological and historical evidence combine to create a picture of what life must have been like at that time.",
+                            kurdishText:
+                                "بەڵگەی شوێنەوارناسی و مێژووی یەکدەگرن بۆ درووستکردنی وێنەیەکی ئەوەی دەکرێت ژیان چۆن بووبا ئەوکاتە.",
+                            onPressedBritish: () => speakcombines3("en-GB"),
+                            onPressedAmerican: () => speakcombines3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) ھەبوونی دوو خاسیەت یان زیاتر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are still looking for someone who combines all the necessary qualities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا بۆ کەسێک دەگەڕێین کە ھەموو خاسیەتە پێویستەکانی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombines4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombines4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are still looking for someone who combines all the necessary qualities.",
+                            kurdishText:
+                                "ھێشتا بۆ کەسێک دەگەڕێین کە ھەموو خاسیەتە پێویستەکانی تێدایە.",
+                            onPressedBritish: () => speakcombines4("en-GB"),
+                            onPressedAmerican: () => speakcombines4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This model combines a printer and scanner."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرھەمەکە کۆکەرەوەی پرینتەرێک و سکانەرێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombines5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombines5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This model combines a printer and scanner.",
+                            kurdishText:
+                                "بەرھەمەکە کۆکەرەوەی پرینتەرێک و سکانەرێک.",
+                            onPressedBritish: () => speakcombines5("en-GB"),
+                            onPressedAmerican: () => speakcombines5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The other room was a kitchen and dining room combined."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژوورەکەی دیکە لە یەک کاتدا چێشتخانە و ژووری نانخواردن بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombines6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombines6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The other room was a kitchen and dining room combined.",
+                            kurdishText:
+                                "ژوورەکەی دیکە لە یەک کاتدا چێشتخانە و ژووری نانخواردن بوو.",
+                            onPressedBritish: () => speakcombines6("en-GB"),
+                            onPressedAmerican: () => speakcombines6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) کردنی دوو شت یان زیاتر لە یەک کاتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The trip will combine business with pleasure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشتەکە ھەم بازرگانی و ھەم خۆشی دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombines7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombines7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The trip will combine business with pleasure.",
+                            kurdishText:
+                                "گەشتەکە ھەم بازرگانی و ھەم خۆشی دەبێت.",
+                            onPressedBritish: () => speakcombines7("en-GB"),
+                            onPressedAmerican: () => speakcombines7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She successfully combines her career with family life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکەوتووانە کارەکەی لەگەڵ ژیانی خێزانیدا دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombines8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombines8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She successfully combines her career with family life.",
+                            kurdishText:
+                                "سەرکەوتووانە کارەکەی لەگەڵ ژیانی خێزانیدا دەکات.",
+                            onPressedBritish: () => speakcombines8("en-GB"),
+                            onPressedAmerican: () => speakcombines8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) یەکگرتن بۆ پێکەوە کارکردن یان ھەنگانان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They combined against a common enemy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دژ بە دووژمنێکی ھاوبەش یەکیان گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombines9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombines9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They combined against a common enemy.",
+                            kurdishText: "دژ بە دووژمنێکی ھاوبەش یەکیان گرت.",
+                            onPressedBritish: () => speakcombines9("en-GB"),
+                            onPressedAmerican: () => speakcombines9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You should try to combine exercise with a healthy diet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت ھەوڵ بدەیت ڕاھێنان تێکەڵ بە خواردنی تەندرووست بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombines10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombines10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You should try to combine exercise with a healthy diet.",
+                            kurdishText:
+                                "دەبێت ھەوڵ بدەیت ڕاھێنان تێکەڵ بە خواردنی تەندرووست بکەیت.",
+                            onPressedBritish: () => speakcombines10("en-GB"),
+                            onPressedAmerican: () => speakcombines10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) دەڕاسە کە بۆ دوورینەوەی دروێنە بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The farmer used a combine to harvest the wheat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوتیارەکە دەڕاسەیەکی بەکارھێنا بۆ دوورینەوەی گەنمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombines11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombines11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The farmer used a combine to harvest the wheat.",
+                            kurdishText:
+                                "جوتیارەکە دەڕاسەیەکی بەکارھێنا بۆ دوورینەوەی گەنمەکە.",
+                            onPressedBritish: () => speakcombines11("en-GB"),
+                            onPressedAmerican: () => speakcombines11("en-US"),
                           ),
                         ],
                       ),

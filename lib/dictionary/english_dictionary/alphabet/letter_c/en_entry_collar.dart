@@ -128,153 +128,57 @@ class EnglishEntrycollar extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو بەشەی جل کە دەکەوێتە دەوری مل"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wore a collar and tie for the occasion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلێکی ملیواندار و بۆینباخی لەبەرکرد بۆ بۆنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collar", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wore a collar and tie for the occasion.",
+                            kurdishText:
+                                "جلێکی ملیواندار و بۆینباخی لەبەرکرد بۆ بۆنەکە.", // collar",
+                            onPressedBritish: () => speakcollars1("en-GB"),
+                            onPressedAmerican: () => speakcollars1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She turned up her coat collar for extra warmth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ملیوانی پاڵتاوەکەی ھەڵکرد بۆ گەرمی زیاتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollars2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollars2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She turned up her coat collar for extra warmth.",
+                            kurdishText:
+                                "ملیوانی پاڵتاوەکەی ھەڵکرد بۆ گەرمی زیاتر.",
+                            onPressedBritish: () => speakcollars2("en-GB"),
+                            onPressedAmerican: () => speakcollars2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پارچە قوماشێک یان پلاستیکێک کە لە دەوری ملی ئاژەڵێک، بەتایبەتی سەگ، دەبەسترێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dog slipped its collar and ran off."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگەکە لە قەڵاتەکەی دەرچوو و ھەڵھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollars3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollars3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dog slipped its collar and ran off.",
+                            kurdishText: "سەگەکە لە قەڵاتەکەی دەرچوو و ھەڵھات.",
+                            onPressedBritish: () => speakcollars3("en-GB"),
+                            onPressedAmerican: () => speakcollars3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) گرتنی کەسێک و ڕاگرتنی بەشێوەیەک کە ھەڵنەیەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Police collared the culprit as he was leaving the premises."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس تاوانبارەکەی دەستگیرکرد کە لە بیناکە دەردەچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollars4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollars4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Police collared the culprit as he was leaving the premises.",
+                            kurdishText:
+                                "پۆلیس تاوانبارەکەی دەستگیرکرد کە لە بیناکە دەردەچوو.",
+                            onPressedBritish: () => speakcollars4("en-GB"),
+                            onPressedAmerican: () => speakcollars4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) وەستاندنی کەسێک بۆ قسەکردن لەگەڵی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was collared in the street by a woman doing a survey."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە شەقامەکە وەستێندرام لەلایەن ژنێکەوە کە ڕاپرسییەکی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollars5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollars5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was collared in the street by a woman doing a survey.",
+                            kurdishText:
+                                "لە شەقامەکە وەستێندرام لەلایەن ژنێکەوە کە ڕاپرسییەکی دەکرد.",
+                            onPressedBritish: () => speakcollars5("en-GB"),
+                            onPressedAmerican: () => speakcollars5("en-US"),
                           ),
                         ],
                       ),

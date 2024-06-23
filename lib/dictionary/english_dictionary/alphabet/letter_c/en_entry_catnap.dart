@@ -187,32 +187,13 @@ class EnglishEntrycatnap extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کورتە خەوێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Taking a catnap can enhance alertness and productivity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەرگرتنی سووکەڵەخەوێک دەکرێت بەئاگایی و بەبەرھەمی زیاد بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catnap", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatnaps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatnaps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Taking a catnap can enhance alertness and productivity.",
+                            kurdishText:
+                                "وەرگرتنی سووکەڵەخەوێک دەکرێت بەئاگایی و بەبەرھەمی زیاد بکات.", // catnap",
+                            onPressedBritish: () => speakcatnaps1("en-GB"),
+                            onPressedAmerican: () => speakcatnaps1("en-US"),
                           ),
                         ],
                       ),

@@ -119,118 +119,41 @@ class EnglishEntrychunk extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچەیەکی سەخت و گەورە کە بڕاوە یان لێکراوەتەوە لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He cut the food up into bite-size chunks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواردنەکەی کرد بە پارچەی پڕ پڕبەدەمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chunk", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchunks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchunks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He cut the food up into bite-size chunks.",
+                            kurdishText:
+                                "خواردنەکەی کرد بە پارچەی پڕ پڕبەدەمەوە.", // chunk",
+                            onPressedBritish: () => speakchunks1("en-GB"),
+                            onPressedAmerican: () => speakchunks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I bought the cheese in one big chunk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنیرەکەم بە یەک پارچەی گەورە کڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchunks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchunks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I bought the cheese in one big chunk.",
+                            kurdishText: "پەنیرەکەم بە یەک پارچەی گەورە کڕی.",
+                            onPressedBritish: () => speakchunks2("en-GB"),
+                            onPressedAmerican: () => speakchunks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕێژەیەکی تاڕادەیەک زۆر لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've already written a fair chunk of the article."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشوەختە بەشێکی تاڕادەیەک زۆری وتارەکەم نووسیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchunks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchunks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've already written a fair chunk of the article.",
+                            kurdishText:
+                                "پێشوەختە بەشێکی تاڕادەیەک زۆری وتارەکەم نووسیوە.",
+                            onPressedBritish: () => speakchunks3("en-GB"),
+                            onPressedAmerican: () => speakchunks3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This one project has taken a substantial chunk of our budget."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم پڕۆژەیە بەشێکی زۆر لە بودجەکەمانی بردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchunks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchunks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This one project has taken a substantial chunk of our budget.",
+                            kurdishText:
+                                "ئەم پڕۆژەیە بەشێکی زۆر لە بودجەکەمانی بردووە.",
+                            onPressedBritish: () => speakchunks4("en-GB"),
+                            onPressedAmerican: () => speakchunks4("en-US"),
                           ),
                         ],
                       ),

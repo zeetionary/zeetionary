@@ -93,32 +93,13 @@ class EnglishEntrychummy extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر ھاوڕێیانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They're very chummy with their neighbours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر دۆستانەن لەگەڵ دراوسێیەکانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chummy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchummys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchummys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They're very chummy with their neighbours.",
+                            kurdishText:
+                                "زۆر دۆستانەن لەگەڵ دراوسێیەکانیان.", // chummy",
+                            onPressedBritish: () => speakchummys1("en-GB"),
+                            onPressedAmerican: () => speakchummys1("en-US"),
                           ),
                         ],
                       ),

@@ -136,176 +136,62 @@ class EnglishEntrycomedy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شانۆیەک، فیلمێک، یان درامایەک کە پێکەنیناوییە و زۆرجار کۆتاییەکی خۆشی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He moved to Los Angeles to write comedy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوو بۆ لۆس ئەنجلس بۆ نووسینی کۆمیدی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comedy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomedys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomedys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He moved to Los Angeles to write comedy.",
+                            kurdishText:
+                                "چوو بۆ لۆس ئەنجلس بۆ نووسینی کۆمیدی.", // comedy",
+                            onPressedBritish: () => speakcomedys1("en-GB"),
+                            onPressedAmerican: () => speakcomedys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She went on to star in a hit comedy series."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشت بە ڕۆڵبینین لە درامایەکی بەناوبانگی کۆمیدی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomedys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomedys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She went on to star in a hit comedy series.",
+                            kurdishText:
+                                "گەشت بە ڕۆڵبینین لە درامایەکی بەناوبانگی کۆمیدی.",
+                            onPressedBritish: () => speakcomedys2("en-GB"),
+                            onPressedAmerican: () => speakcomedys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His TV comedy shows ran during the 70s and 80s."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دراما بەناوبانگە کۆمیدییەکان لە ساڵانی ١٩٧٠ و ١٩٨٠ ـکان بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomedys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomedys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His TV comedy shows ran during the 70s and 80s.",
+                            kurdishText:
+                                "دراما بەناوبانگە کۆمیدییەکان لە ساڵانی ١٩٧٠ و ١٩٨٠ ـکان بوون.",
+                            onPressedBritish: () => speakcomedys3("en-GB"),
+                            onPressedAmerican: () => speakcomedys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) نمایشێکی پڕۆفیشناڵانە کە نوکتە، کورتە نمایش، ھتد ـی تێدایە و ئامانجیەتی پێکەنیناوی بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The show combines theatre with the best of comedy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نمایشەکە شانۆ و باشترین کۆمیدیای تێکەڵ کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomedys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomedys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The show combines theatre with the best of comedy.",
+                            kurdishText:
+                                "نمایشەکە شانۆ و باشترین کۆمیدیای تێکەڵ کردبوو.",
+                            onPressedBritish: () => speakcomedys4("en-GB"),
+                            onPressedAmerican: () => speakcomedys4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) لایەنی پێکەنیناوی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He didn't appreciate the comedy of the situation."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەزمەساتی دۆخەکەی بەدڵ نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomedys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomedys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He didn't appreciate the comedy of the situation.",
+                            kurdishText: "بەزمەساتی دۆخەکەی بەدڵ نەبوو.",
+                            onPressedBritish: () => speakcomedys5("en-GB"),
+                            onPressedAmerican: () => speakcomedys5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her imaginative interpretation of the script brought out the comedy inherent in it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێگەشنی ئەندێشەییانەی بۆ نووسینەکە کۆمیدی لە کڕۆکیدا بینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomedys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomedys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her imaginative interpretation of the script brought out the comedy inherent in it.",
+                            kurdishText:
+                                "تێگەشنی ئەندێشەییانەی بۆ نووسینەکە کۆمیدی لە کڕۆکیدا بینی.",
+                            onPressedBritish: () => speakcomedys6("en-GB"),
+                            onPressedAmerican: () => speakcomedys6("en-US"),
                           ),
                         ],
                       ),

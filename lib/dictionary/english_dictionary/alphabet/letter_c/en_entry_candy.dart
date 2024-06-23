@@ -193,59 +193,20 @@ class EnglishEntrycandy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شیرینی کە لە شەکر و چکلێت درووست دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who wants the last piece of candy?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کێ کۆتا پارچە شیرینی دەوێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "candy", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcandys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcandys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Who wants the last piece of candy?",
+                            kurdishText: "کێ کۆتا پارچە شیرینی دەوێت؟", // candy
+                            onPressedBritish: () => speakcandys1("en-GB"),
+                            onPressedAmerican: () => speakcandys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had enough candies in her pocket for all the children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە گیرفانەکانیدا بەشی ھەموو منداڵەکان شیرینی پێبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcandys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcandys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had enough candies in her pocket for all the children.",
+                            kurdishText:
+                                "لە گیرفانەکانیدا بەشی ھەموو منداڵەکان شیرینی پێبوو.",
+                            onPressedBritish: () => speakcandys2("en-GB"),
+                            onPressedAmerican: () => speakcandys2("en-US"),
                           ),
                         ],
                       ),

@@ -193,88 +193,31 @@ class EnglishEntryceasefire extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کاتێک کە دوژمن دەوەستن لە شەڕکردن، بەزۆری بۆ ئەوەی ڕێگایەک بدۆزنەوە بۆ ئەوەی شەڕ بە تەواوی بوەستێنن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Observers have reported serious violations of the ceasefire."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاودێران سەرپێچیی توندی ئاگربەستەکەیان بینیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "ceasefire", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceasefires1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceasefires1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Observers have reported serious violations of the ceasefire.",
+                            kurdishText:
+                                "چاودێران سەرپێچیی توندی ئاگربەستەکەیان بینیوە.", // ceasefire",
+                            onPressedBritish: () => speakceasefires1("en-GB"),
+                            onPressedAmerican: () => speakceasefires1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The UN has passed a resolution calling for an immediate ceasefire."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەتەوە یەکگرتووەکان پڕۆژە یاسایەکی تێپەڕاندووە کە داوای ئاگربەستی دەستبەجێ دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceasefires2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceasefires2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The UN has passed a resolution calling for an immediate ceasefire.",
+                            kurdishText:
+                                "نەتەوە یەکگرتووەکان پڕۆژە یاسایەکی تێپەڕاندووە کە داوای ئاگربەستی دەستبەجێ دەکات.",
+                            onPressedBritish: () => speakceasefires2("en-GB"),
+                            onPressedAmerican: () => speakceasefires2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are concerns that the ceasefire might not hold."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیگەرانی ھەیە کە ئاگربەستەکە بەردەوام نەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceasefires3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceasefires3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are concerns that the ceasefire might not hold.",
+                            kurdishText:
+                                "نیگەرانی ھەیە کە ئاگربەستەکە بەردەوام نەبێت.",
+                            onPressedBritish: () => speakceasefires3("en-GB"),
+                            onPressedAmerican: () => speakceasefires3("en-US"),
                           ),
                         ],
                       ),

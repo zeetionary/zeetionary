@@ -94,34 +94,15 @@ class EnglishEntrychimneystack extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بەشی سەرەوەی دووکەڵ‌کێشێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The old house had a tall chimney stack that could be seen from a distance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووە کۆنەکە دووکەڵ‌کێشێکی بەرزی سەربانی ھەبوو کە لە دوورەوە دەبینرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chimney stack", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchimneystacks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchimneystacks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The old house had a tall chimney stack that could be seen from a distance.",
+                            kurdishText:
+                                "خانووە کۆنەکە دووکەڵ‌کێشێکی بەرزی سەربانی ھەبوو کە لە دوورەوە دەبینرا.", // chimney stack",
+                            onPressedBritish: () =>
+                                speakchimneystacks1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchimneystacks1("en-US"),
                           ),
                         ],
                       ),

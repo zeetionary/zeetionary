@@ -95,31 +95,13 @@ class EnglishEntryclothesline extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ناو) تەناف بۆ وشککردنەوەی جلوبەرگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She hung the laundry on the clothesline."),
-                                    ExampleSentenceKurdish(
-                                        text: "جلەکانی دا بە تەنافەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clothes line", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => clotheslinees1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => clotheslinees1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She hung the laundry on the clothesline.",
+                            kurdishText:
+                                "جلەکانی دا بە تەنافەکەدا.", // clothes line",
+                            onPressedBritish: () => clotheslinees1("en-GB"),
+                            onPressedAmerican: () => clotheslinees1("en-US"),
                           ),
                         ],
                       ),

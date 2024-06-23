@@ -93,32 +93,13 @@ class EnglishEntrycleverness extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) زیرەکی لە فێربوون و تێگەشتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Brain size and cleverness do not go together."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەبارەی مێشک و زیرەکی پەیوەندییان بە یەکەوە نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cleverness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclevernesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclevernesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Brain size and cleverness do not go together.",
+                            kurdishText:
+                                "قەبارەی مێشک و زیرەکی پەیوەندییان بە یەکەوە نییە.", // cleverness",
+                            onPressedBritish: () => speakclevernesss1("en-GB"),
+                            onPressedAmerican: () => speakclevernesss1("en-US"),
                           ),
                         ],
                       ),

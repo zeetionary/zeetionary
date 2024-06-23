@@ -338,519 +338,169 @@ class EnglishEntrycondition extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئەو دۆخەی شتێکی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many of the paintings are in poor condition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرێک لە تابلۆکان لە دۆخی خراپدان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "condition", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many of the paintings are in poor condition.",
+                            kurdishText:
+                                "زۆرێک لە تابلۆکان لە دۆخی خراپدان.", // condition",
+                            onPressedBritish: () => speakconditions1("en-GB"),
+                            onPressedAmerican: () => speakconditions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The condition of the roads is poor."),
-                                    ExampleSentenceKurdish(
-                                        text: "دۆخی ڕێگاوبانەکان خراپە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The condition of the roads is poor.",
+                            kurdishText: "دۆخی ڕێگاوبانەکان خراپە.",
+                            onPressedBritish: () => speakconditions2("en-GB"),
+                            onPressedAmerican: () => speakconditions2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car is still in excellent condition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە ھێشتا لە دۆخێکی یەکجارباشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The car is still in excellent condition.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە ھێشتا لە دۆخێکی یەکجارباشە.",
+                            onPressedBritish: () => speakconditions3("en-GB"),
+                            onPressedAmerican: () => speakconditions3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دۆخی تەندرووستی کەسێک؛ ئەوەی تا چەند تەندرووستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is overweight and out of condition (= not physically fit)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشی زۆرە و لەشوولاری ناتەندرووستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is overweight and out of condition (= not physically fit).",
+                            kurdishText: "کێشی زۆرە و لەشوولاری ناتەندرووستە.",
+                            onPressedBritish: () => speakconditions4("en-GB"),
+                            onPressedAmerican: () => speakconditions4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The motorcyclist was in a critical condition (= at risk of dying) in hospital last night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماتۆڕسوارەکە دوێنێ شەو لە دۆخی ناجێگیردا بوو لە نەخۆشخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The motorcyclist was in a critical condition (= at risk of dying) in hospital last night.",
+                            kurdishText:
+                                "ماتۆڕسوارەکە دوێنێ شەو لە دۆخی ناجێگیردا بوو لە نەخۆشخانە.",
+                            onPressedBritish: () => speakconditions5("en-GB"),
+                            onPressedAmerican: () => speakconditions5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You are in no condition (= too ill/sick, etc.) to go anywhere."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دۆخێکی وەھادا نیت بچیتە ھیچ شوێنێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You are in no condition (= too ill/sick, etc.) to go anywhere.",
+                            kurdishText:
+                                "لە دۆخێکی وەھادا نیت بچیتە ھیچ شوێنێک.",
+                            onPressedBritish: () => speakconditions6("en-GB"),
+                            onPressedAmerican: () => speakconditions6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her condition has deteriorated."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەندرووستی خراپتر بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her condition has deteriorated.",
+                            kurdishText: "تەندرووستی خراپتر بووە.",
+                            onPressedBritish: () => speakconditions7("en-GB"),
+                            onPressedAmerican: () => speakconditions7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) نەخۆشییەک کە ماوەیەکی زۆرە ھەتە بەھۆی ئەوەی چارەسەر ناکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Does your child have any kind of medical condition that we should know about?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکەت ھیچ نەخۆشییەکی تەندرووستی ھەیە کە پێویست بکات بیزانین؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Does your child have any kind of medical condition that we should know about?",
+                            kurdishText:
+                                "منداڵەکەت ھیچ نەخۆشییەکی تەندرووستی ھەیە کە پێویست بکات بیزانین؟",
+                            onPressedBritish: () => speakconditions8("en-GB"),
+                            onPressedAmerican: () => speakconditions8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has a serious health condition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشییەکی تەندرووستی سەختی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She has a serious health condition.",
+                            kurdishText: "نەخۆشییەکی تەندرووستی سەختی ھەیە.",
+                            onPressedBritish: () => speakconditions9("en-GB"),
+                            onPressedAmerican: () => speakconditions9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He suffers from a serious heart condition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە دەست نەخۆشییەکی سەختی دڵەوە دەناڵێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He suffers from a serious heart condition.",
+                            kurdishText:
+                                "بە دەست نەخۆشییەکی سەختی دڵەوە دەناڵێنێت.",
+                            onPressedBritish: () => speakconditions10("en-GB"),
+                            onPressedAmerican: () => speakconditions10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ھەلومەرج؛ ئەو دۆخەی تێیدا خەڵکی دەژین، کاردەکەن، یان ئیشەکانیان دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were working under appalling conditions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ھەلومەرجی زۆر خراپدا کاریان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were working under appalling conditions.",
+                            kurdishText:
+                                "لە ھەلومەرجی زۆر خراپدا کاریان دەکرد.",
+                            onPressedBritish: () => speakconditions11("en-GB"),
+                            onPressedAmerican: () => speakconditions11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He grew up in conditions of poverty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ھەلومەرجی نەداریدا گەورە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He grew up in conditions of poverty.",
+                            kurdishText: "لە ھەلومەرجی نەداریدا گەورە بوو.",
+                            onPressedBritish: () => speakconditions12("en-GB"),
+                            onPressedAmerican: () => speakconditions12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) دۆخێک کە کاریگەری لەسەر چۆنیەتی ڕوودانی شتێک دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plants grow best in cool, damp conditions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووەکەکان گەشە بە باشترین دەکەن لە دۆخی سارد و شێداردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The plants grow best in cool, damp conditions.",
+                            kurdishText:
+                                "ڕووەکەکان گەشە بە باشترین دەکەن لە دۆخی سارد و شێداردا.",
+                            onPressedBritish: () => speakconditions13("en-GB"),
+                            onPressedAmerican: () => speakconditions13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The boat sank in adverse weather conditions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەلەمە نغرۆبوو لە دۆخی کەشووھەوای نەلەباردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The boat sank in adverse weather conditions.",
+                            kurdishText:
+                                "بەلەمە نغرۆبوو لە دۆخی کەشووھەوای نەلەباردا.",
+                            onPressedBritish: () => speakconditions14("en-GB"),
+                            onPressedAmerican: () => speakconditions14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Conditions are ideal for sailing today."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەمڕۆ دۆخەکە نایابە بۆ فرۆشتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Conditions are ideal for sailing today.",
+                            kurdishText: "ئەمڕۆ دۆخەکە نایابە بۆ فرۆشتن.",
+                            onPressedBritish: () => speakconditions15("en-GB"),
+                            onPressedAmerican: () => speakconditions15("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Animals adapt to changing environmental conditions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاژەڵ ڕادێت بە دۆخی گۆڕاوی ژینگەیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Animals adapt to changing environmental conditions.",
+                            kurdishText: "ئاژەڵ ڕادێت بە دۆخی گۆڕاوی ژینگەیی.",
+                            onPressedBritish: () => speakconditions16("en-GB"),
+                            onPressedAmerican: () => speakconditions16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) مەرج؛ یاسایەک یان بڕیارێک کە دەبێت پێی ڕازی بیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The offer is subject to certain conditions."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئۆفەرەکە کۆمەڵێک مەرجی لەگەڵە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The offer is subject to certain conditions.",
+                            kurdishText: "ئۆفەرەکە کۆمەڵێک مەرجی لەگەڵە.",
+                            onPressedBritish: () => speakconditions17("en-GB"),
+                            onPressedAmerican: () => speakconditions17("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The officials spoke on condition of anonymity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسەکان بە مەرجی نھێنیبوون قسەیان کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The officials spoke on condition of anonymity.",
+                            kurdishText:
+                                "بەرپرسەکان بە مەرجی نھێنیبوون قسەیان کردووە.",
+                            onPressedBritish: () => speakconditions18("en-GB"),
+                            onPressedAmerican: () => speakconditions18("en-US"),
                           ),
                           Column(
                             children: [
@@ -983,240 +633,88 @@ class EnglishEntrycondition extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) دۆخێک کە مەرجە بوونی ھەبێت بۆ ئەوەی دۆخێکی تر درووست ببێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Stable political leadership is a necessary condition for economic growth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکردایەتی سیاسی سەقامگیر مەرجێکی پێویستە بۆ گەشەی ئابووری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions23("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions23("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Stable political leadership is a necessary condition for economic growth.",
+                            kurdishText:
+                                "سەرکردایەتی سیاسی سەقامگیر مەرجێکی پێویستە بۆ گەشەی ئابووری.",
+                            onPressedBritish: () => speakconditions23("en-GB"),
+                            onPressedAmerican: () => speakconditions23("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are working to create the conditions for peace."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کار دەکەین بۆ خولقاندنی ھەلومەرجی ئاشتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions24("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions24("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are working to create the conditions for peace.",
+                            kurdishText:
+                                "کار دەکەین بۆ خولقاندنی ھەلومەرجی ئاشتی.",
+                            onPressedBritish: () => speakconditions24("en-GB"),
+                            onPressedAmerican: () => speakconditions24("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Applicants must agree to teach for three years as a condition of admission to the program."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوازیاران دەبێت ڕازی بن بۆ سێ ساڵ وانە بڵێنەوە وەک مەرجی بەژدارییان لە پڕۆگرامەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions25("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions25("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Applicants must agree to teach for three years as a condition of admission to the program.",
+                            kurdishText:
+                                "خوازیاران دەبێت ڕازی بن بۆ سێ ساڵ وانە بڵێنەوە وەک مەرجی بەژدارییان لە پڕۆگرامەکە.",
+                            onPressedBritish: () => speakconditions25("en-GB"),
+                            onPressedAmerican: () => speakconditions25("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (ناو) دۆخی کۆمەڵە کەسێک بەھۆی دۆخیان لە ژیاندا، کێشەکانیان، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spoke angrily about the condition of the urban poor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تووڕەییەوە قسەیکرد دژ بە دۆخی ھەژارانی گوندنشین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions26("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions26("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He spoke angrily about the condition of the urban poor.",
+                            kurdishText:
+                                "بە تووڕەییەوە قسەیکرد دژ بە دۆخی ھەژارانی گوندنشین.",
+                            onPressedBritish: () => speakconditions26("en-GB"),
+                            onPressedAmerican: () => speakconditions26("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) ڕاھێنانی کەسێک کە بە شێوەیەکی دیاریکراو ڕەفتار بکات یان بە دۆخێکی دیاریکراو ڕابێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Patients can become conditioned to particular forms of treatment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆش دەکرێت ڕابێت بە جۆرە جیاوازەکانی چارەسەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions27("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions27("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Patients can become conditioned to particular forms of treatment.",
+                            kurdishText:
+                                "نەخۆش دەکرێت ڕابێت بە جۆرە جیاوازەکانی چارەسەر.",
+                            onPressedBritish: () => speakconditions27("en-GB"),
+                            onPressedAmerican: () => speakconditions27("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rats had been conditioned to ring a bell when they wanted food."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مشکەکان ڕاھێنرابوون کە زەنگێک لێ بدەن کە خواردنیان بوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions28("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions28("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The rats had been conditioned to ring a bell when they wanted food.",
+                            kurdishText:
+                                "مشکەکان ڕاھێنرابوون کە زەنگێک لێ بدەن کە خواردنیان بوێت.",
+                            onPressedBritish: () => speakconditions28("en-GB"),
+                            onPressedAmerican: () => speakconditions28("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (کردار) ھەبوونی کاریگەرییەکی گرنگ لەسەر کەسێک/شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Gender roles are often conditioned by cultural factors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەرکە ڕەگەزییەکان زۆرجار بە کاریگەری فاکتەرە کەلتوورییەکانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions29("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions29("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Gender roles are often conditioned by cultural factors.",
+                            kurdishText:
+                                "ئەرکە ڕەگەزییەکان زۆرجار بە کاریگەری فاکتەرە کەلتوورییەکانن.",
+                            onPressedBritish: () => speakconditions29("en-GB"),
+                            onPressedAmerican: () => speakconditions29("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١١. (کردار) پاراستنی شتێک بە تەندرووست، بۆ نموونە قژت یان پێست؛ بەکارھێنانی شتێک، بۆ نموونە کرێم، کە بە تەندرووست دەیھێڵێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He conditions his beard with oil to keep it soft."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕیشی بە زەیت بە چەور دەکات بۆ ھێشتنەوەی بە نەرمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconditions30("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconditions30("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He conditions his beard with oil to keep it soft.",
+                            kurdishText:
+                                "ڕیشی بە زەیت بە چەور دەکات بۆ ھێشتنەوەی بە نەرمی.",
+                            onPressedBritish: () => speakconditions30("en-GB"),
+                            onPressedAmerican: () => speakconditions30("en-US"),
                           ),
                         ],
                       ),

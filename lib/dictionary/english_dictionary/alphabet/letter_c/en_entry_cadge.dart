@@ -192,59 +192,21 @@ class EnglishEntrycadge extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) داواکردنی پارە، خواردن، ھتد بەتایبەتی بەھۆی ئەوەی خۆت ناتوانیت یان نەتەوێت بیدەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I managed to cadge some money off my dad."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانیم ھەندێک پارە لە باوکم دەربێنم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cadge", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcadges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcadges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I managed to cadge some money off my dad.",
+                            kurdishText:
+                                "توانیم ھەندێک پارە لە باوکم دەربێنم.", // cadge
+                            onPressedBritish: () => speakcadges1("en-GB"),
+                            onPressedAmerican: () => speakcadges1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He cadges off all his friends."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەست لە ھەموو ھاوڕێکانی پان دەکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcadges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcadges2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He cadges off all his friends.",
+                            kurdishText:
+                                "دەست لە ھەموو ھاوڕێکانی پان دەکاتەوە.",
+                            onPressedBritish: () => speakcadges2("en-GB"),
+                            onPressedAmerican: () => speakcadges2("en-US"),
                           ),
                         ],
                       ),

@@ -188,235 +188,79 @@ class EnglishEntryc extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سێیەم پیتی ئەلفوبێی ئینگلیزی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "‘Cat’ begins with (a) C/‘C’."),
-                                    ExampleSentenceKurdish(
-                                        text: "وشەی cat بە C دەستپێ‌دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "c", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "‘Cat’ begins with (a) C/‘C’.",
+                            kurdishText: "وشەی cat بە C دەستپێ‌دەکات.", // c
+                            onPressedBritish: () => speakcs1("en-GB"),
+                            onPressedAmerican: () => speakcs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) نمرەیەکی خوێندکارێک کە پەسەندە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She got (a) C/‘C’ in physics."),
-                                    ExampleSentenceKurdish(
-                                        text: "پەسەندەی ھێنا لە فیزیادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She got (a) C/‘C’ in physics.",
+                            kurdishText: "پەسەندەی ھێنا لە فیزیادا.",
+                            onPressedBritish: () => speakcs2("en-GB"),
+                            onPressedAmerican: () => speakcs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کورتکراوە) یەک سەنت؛ ڕێژەی ١٪ دراوێک، بۆ نموونە ١٠٠ سەنت یەک دۆلاری ئەمریکییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A one-minute phone call to the UK cost 10 cs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەک خولەک پەیوندی بۆ شانشینی یەکگرتوو ١٠ سەنت دەبات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A one-minute phone call to the UK cost 10 cs.",
+                            kurdishText:
+                                "یەک خولەک پەیوندی بۆ شانشینی یەکگرتوو ١٠ سەنت دەبات.",
+                            onPressedBritish: () => speakcs3("en-GB"),
+                            onPressedAmerican: () => speakcs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کورتکراوە) کورتکراوە بۆ سەدە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were two world wars in 21st c."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو جەنگی جیھانی لە سەدەی ٢١ ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "There were two world wars in 21st c.",
+                            kurdishText: "دوو جەنگی جیھانی لە سەدەی ٢١ ھەبوو.",
+                            onPressedBritish: () => speakcs4("en-GB"),
+                            onPressedAmerican: () => speakcs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) کورتکراوە بۆ circa کە لە لاتیندا واتا بە نزیکەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was born c1890."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە نزیکەی ١٨٩٠ لەدایکبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was born c1890.",
+                            kurdishText: "لە نزیکەی ١٨٩٠ لەدایکبوو.",
+                            onPressedBritish: () => speakcs5("en-GB"),
+                            onPressedAmerican: () => speakcs5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کورتکراوە) کورتکراوە بۆ کوپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Add 2c. flour to the mixture."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو کووپ ئارد بۆ تێکەڵەکە زیادبکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Add 2c. flour to the mixture.",
+                            kurdishText: "دوو کووپ ئارد بۆ تێکەڵەکە زیادبکە.",
+                            onPressedBritish: () => speakcs6("en-GB"),
+                            onPressedAmerican: () => speakcs6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) کورتکراوە بۆ پلەی سیلیزی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Water freezes at 0°C."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاو لە سفر پلەی سیلیزی دەیبەستێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Water freezes at 0°C.",
+                            kurdishText: "ئاو لە سفر پلەی سیلیزی دەیبەستێت.",
+                            onPressedBritish: () => speakcs7("en-GB"),
+                            onPressedAmerican: () => speakcs7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (ناو) کورتکراوە بۆ کۆپیڕایت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "© Oxford University Press 2020"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆپیڕایتی ناوەندی زانکۆی ئۆکسفۆرد ٢٠٢٠."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "© Oxford University Press 2020",
+                            kurdishText:
+                                "کۆپیڕایتی ناوەندی زانکۆی ئۆکسفۆرد ٢٠٢٠.",
+                            onPressedBritish: () => speakcs8("en-GB"),
+                            onPressedAmerican: () => speakcs8("en-US"),
                           ),
                         ],
                       ),

@@ -113,90 +113,33 @@ class EnglishEntrycohere extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ھەبوونی پەیوەندی لۆژیکی لە نێوان بیرۆەک، ڕستە، ھتد بەشێوەیەک کە تەواوکەری یەکدی بن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This view does not cohere with their other beliefs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم دیدە یەکناگرێتەوە لەگەڵ باوەڕەکانی دیکەیاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cohere", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoheres1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoheres1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This view does not cohere with their other beliefs.",
+                            kurdishText:
+                                "ئەم دیدە یەکناگرێتەوە لەگەڵ باوەڕەکانی دیکەیاندا.", // cohere",
+                            onPressedBritish: () => speakcoheres1("en-GB"),
+                            onPressedAmerican: () => speakcoheres1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The various sections of the report fail to cohere into a satisfactory whole."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشە جیاوازەکانی ڕاپۆرتەکە شکست دێنن لە درووستکردنی پێکەوەییەکی قایلکەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoheres2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoheres2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The various sections of the report fail to cohere into a satisfactory whole.",
+                            kurdishText:
+                                "بەشە جیاوازەکانی ڕاپۆرتەکە شکست دێنن لە درووستکردنی پێکەوەییەکی قایلکەر.",
+                            onPressedBritish: () => speakcoheres2("en-GB"),
+                            onPressedAmerican: () => speakcoheres2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) کارکردن پێکەوە بە نزیکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It can be difficult to get a group of people to cohere."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەکرێت سەخت بێت گرووپێک لە خەڵکی قایل بە پێکەوە کارکردن بکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoheres3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoheres3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It can be difficult to get a group of people to cohere.",
+                            kurdishText:
+                                "دەکرێت سەخت بێت گرووپێک لە خەڵکی قایل بە پێکەوە کارکردن بکرێن.",
+                            onPressedBritish: () => speakcoheres3("en-GB"),
+                            onPressedAmerican: () => speakcoheres3("en-US"),
                           ),
                         ],
                       ),

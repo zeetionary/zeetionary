@@ -122,122 +122,46 @@ class EnglishEntryconserve extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پاراستنی شتێک و ڕێگری لەوەی بگۆڕێت یان لەناوبچێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The nationalists are very eager to conserve their customs and language."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەتەوەپەرستەکان زۆر بەپەرۆشن بۆ پاراستنی نەریت و زمانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conserve", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconserves1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconserves1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The nationalists are very eager to conserve their customs and language.",
+                            kurdishText:
+                                "نەتەوەپەرستەکان زۆر بەپەرۆشن بۆ پاراستنی نەریت و زمانیان.", // conserve",
+                            onPressedBritish: () => speakconserves1("en-GB"),
+                            onPressedAmerican: () => speakconserves1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەکارھێنانی کەمترین ڕێژە لە شتێک بۆ ئەوەی بەشی زۆرترین ماوە بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Renewable energy resources can help conserve fossil fuels and reduce carbon emissions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرچاوەکانی وزەی نوێبووەوە دەکرێت یارمەتیدەر بن بۆ پاراستنی سووتەمەنی بەبەردبوو و کەمکردنەوەی دەرھاویشتەی کاربۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconserves2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconserves2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Renewable energy resources can help conserve fossil fuels and reduce carbon emissions.",
+                            kurdishText:
+                                "سەرچاوەکانی وزەی نوێبووەوە دەکرێت یارمەتیدەر بن بۆ پاراستنی سووتەمەنی بەبەردبوو و کەمکردنەوەی دەرھاویشتەی کاربۆن.",
+                            onPressedBritish: () => speakconserves2("en-GB"),
+                            onPressedAmerican: () => speakconserves2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm not being lazy - I'm just conserving my energy for later."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەمەڵ نیم، تەنھا وزەم بۆ داھاتوو ھەڵدەگرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconserves3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconserves3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm not being lazy - I'm just conserving my energy for later.",
+                            kurdishText:
+                                "تەمەڵ نیم، تەنھا وزەم بۆ داھاتوو ھەڵدەگرم.",
+                            onPressedBritish: () => speakconserves3("en-GB"),
+                            onPressedAmerican: () => speakconserves3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) جۆرە مرەبایەک کە میوەکەی بە ساغی یان پارچەی گەورە تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bought a jar of orange conserve to enjoy with his afternoon tea."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شووشەیەک مرەبای پرتەقاڵی کڕی بۆ خواردنی لەگەڵ چایی نیوەڕۆیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconserves4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconserves4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He bought a jar of orange conserve to enjoy with his afternoon tea.",
+                            kurdishText:
+                                "شووشەیەک مرەبای پرتەقاڵی کڕی بۆ خواردنی لەگەڵ چایی نیوەڕۆیدا.",
+                            onPressedBritish: () => speakconserves4("en-GB"),
+                            onPressedAmerican: () => speakconserves4("en-US"),
                           ),
                         ],
                       ),

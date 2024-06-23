@@ -189,60 +189,20 @@ class EnglishEntrycaptivate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) سەرنجڕاکێشانی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children were captivated by her stories."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵان سەرسامبوون بە چیرۆکەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "captivate", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptivates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptivates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children were captivated by her stories.",
+                            kurdishText:
+                                "منداڵان سەرسامبوون بە چیرۆکەکانی.", // captivate
+                            onPressedBritish: () => speakcaptivates1("en-GB"),
+                            onPressedAmerican: () => speakcaptivates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Men were captivated by her charm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوان سەرسامبوون بە شۆخییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptivates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptivates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Men were captivated by her charm.",
+                            kurdishText: "پیاوان سەرسامبوون بە شۆخییەکەی.",
+                            onPressedBritish: () => speakcaptivates2("en-GB"),
+                            onPressedAmerican: () => speakcaptivates2("en-US"),
                           ),
                         ],
                       ),

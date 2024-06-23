@@ -249,89 +249,32 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) شتێک کە ساختەیە و کۆپی شتێکی دیکەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Are you aware these notes are counterfeit?"),
-                    ExampleSentenceKurdish(
-                        text: "ئاگاداریت ئەم پارانە ساختەن؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "counterfeit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterfeits1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterfeits1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Are you aware these notes are counterfeit?",
+            kurdishText:
+                "ئاگاداریت ئەم پارانە ساختەن؟", // counterfeit", please follow LX instructions
+            onPressedBritish: () => speakcounterfeits1("en-GB"),
+            onPressedAmerican: () => speakcounterfeits1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شتێک کە ئەو شتە نییە کە بانگەشەی بۆ دەکرێت بەڵام بەشێوەیەک درووستکراوە کە ڕاستەوخۆ لێی بچێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Inspect the tickets carefully for counterfeits."),
-                    ExampleSentenceKurdish(
-                        text: "بەوریاییەوە بلیتەکان بپشکنە بۆ ساختەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterfeits2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterfeits2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Inspect the tickets carefully for counterfeits.",
+            kurdishText: "بەوریاییەوە بلیتەکان بپشکنە بۆ ساختەکان.",
+            onPressedBritish: () => speakcounterfeits2("en-GB"),
+            onPressedAmerican: () => speakcounterfeits2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) ساختەکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Two women and a man have been convicted of counterfeiting \$100 bills."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوو ژن و پیاوێک تاوانبارکراون بە ساختەکردنی دراوی ١٠٠ دۆلاری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterfeits3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterfeits3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Two women and a man have been convicted of counterfeiting \$100 bills.",
+            kurdishText:
+                "دوو ژن و پیاوێک تاوانبارکراون بە ساختەکردنی دراوی ١٠٠ دۆلاری.",
+            onPressedBritish: () => speakcounterfeits3("en-GB"),
+            onPressedAmerican: () => speakcounterfeits3("en-US"),
           ),
         ],
       ),

@@ -102,60 +102,22 @@ class EnglishEntrycoating extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) توێژاڵێک لە مادەیەک کە ڕوویەک دادەپۆشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Apply a thin coating of glue to the surface."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژاڵێکی باریک لە سرێش بدە لە ڕووەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coating", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoatings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoatings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Apply a thin coating of glue to the surface.",
+                            kurdishText:
+                                "توێژاڵێکی باریک لە سرێش بدە لە ڕووەکە.", // coating",
+                            onPressedBritish: () => speakcoatings1("en-GB"),
+                            onPressedAmerican: () => speakcoatings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Frost formed a white coating on the windows."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زوقم توێژاڵێکی سپی لەسەر پەنجەرەکان درووستکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoatings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoatings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Frost formed a white coating on the windows.",
+                            kurdishText:
+                                "زوقم توێژاڵێکی سپی لەسەر پەنجەرەکان درووستکرد.",
+                            onPressedBritish: () => speakcoatings2("en-GB"),
+                            onPressedAmerican: () => speakcoatings2("en-US"),
                           ),
                         ],
                       ),

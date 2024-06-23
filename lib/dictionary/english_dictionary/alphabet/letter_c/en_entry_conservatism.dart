@@ -114,100 +114,43 @@ class EnglishEntryconservatism extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) حەزی دژبوون بە گۆڕانکاری گەورە و لەناکاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ryan espoused the traditional social conservatism of the district."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕایان پشتگیری لە کۆنەپارێزیی کۆمەڵایەتیی نەریتی ناوچەکە دەکرد.."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conservatism", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservatisms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservatisms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ryan espoused the traditional social conservatism of the district.",
+                            kurdishText:
+                                "ڕایان پشتگیری لە کۆنەپارێزیی کۆمەڵایەتیی نەریتی ناوچەکە دەکرد..", // conservatism",
+                            onPressedBritish: () =>
+                                speakconservatisms1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservatisms1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) باوەڕی سیاسی کە دەبێت کۆمەڵگە زۆر بە کەمی بگۆڕێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a spectacular slide in support for Conservatism in Scotland."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆڕانێکی گەورە لە پشتگیری بۆ کۆنەپارێزی لە سکۆتلەندا ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservatisms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservatisms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a spectacular slide in support for Conservatism in Scotland.",
+                            kurdishText:
+                                "گۆڕانێکی گەورە لە پشتگیری بۆ کۆنەپارێزی لە سکۆتلەندا ھەبوو.",
+                            onPressedBritish: () =>
+                                speakconservatisms2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservatisms2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بنچینە و بنەماکانی پارتی پارێزگارانی بەریتانیا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The politics of the newspaper reflect traditional Conservatism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیاسەتی ڕۆژنامەکە ڕەنگدانەوەی پارتی پارێزگارانی کۆنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservatisms3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservatisms3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The politics of the newspaper reflect traditional Conservatism.",
+                            kurdishText:
+                                "سیاسەتی ڕۆژنامەکە ڕەنگدانەوەی پارتی پارێزگارانی کۆنە.",
+                            onPressedBritish: () =>
+                                speakconservatisms3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservatisms3("en-US"),
                           ),
                         ],
                       ),

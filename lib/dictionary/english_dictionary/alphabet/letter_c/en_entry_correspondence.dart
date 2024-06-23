@@ -295,227 +295,73 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نامە، ئیمەیڵ، ھتد کە دەینێریت بۆ کەسێک و پێت دەگات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The editor welcomes correspondence from readers on any subject."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆژنامەنووسەکە پێشوازی لە نامەی خوێنەران لەسەر ھەر بابەتێک دەگات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "correspondence", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondences1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondences1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The editor welcomes correspondence from readers on any subject.",
+            kurdishText:
+                "ڕۆژنامەنووسەکە پێشوازی لە نامەی خوێنەران لەسەر ھەر بابەتێک دەگات.", // correspondence", please follow LX instructions
+            onPressedBritish: () => speakcorrespondences1("en-GB"),
+            onPressedAmerican: () => speakcorrespondences1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Jane Austen's correspondence with her sister provides insights into her life and thoughts."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نامەگۆڕینەوەی خەین ئۆستن لەگەڵ خوشکەکەی تێگەشتن دەدات بەدەستەوە لەسەر ژیان و بیرکردنەوەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondences2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondences2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Jane Austen's correspondence with her sister provides insights into her life and thoughts.",
+            kurdishText:
+                "نامەگۆڕینەوەی خەین ئۆستن لەگەڵ خوشکەکەی تێگەشتن دەدات بەدەستەوە لەسەر ژیان و بیرکردنەوەی.",
+            onPressedBritish: () => speakcorrespondences2("en-GB"),
+            onPressedAmerican: () => speakcorrespondences2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The secretary deals with all the correspondence."),
-                    ExampleSentenceKurdish(
-                        text: "سکرتێرەکە مامەڵە لەگەڵ ھەموو ئیمەیڵەکان دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondences3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondences3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The secretary deals with all the correspondence.",
+            kurdishText: "سکرتێرەکە مامەڵە لەگەڵ ھەموو ئیمەیڵەکان دەکات.",
+            onPressedBritish: () => speakcorrespondences3("en-GB"),
+            onPressedAmerican: () => speakcorrespondences3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) نامەنووسی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I refused to enter into any correspondence (= to exchange letters) with him about it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕەتم کردەوە بەژدار بم لە ھیچ کارێکی نامەنووسی لەگەڵی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondences4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondences4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I refused to enter into any correspondence (= to exchange letters) with him about it.",
+            kurdishText:
+                "ڕەتم کردەوە بەژدار بم لە ھیچ کارێکی نامەنووسی لەگەڵی.",
+            onPressedBritish: () => speakcorrespondences4("en-GB"),
+            onPressedAmerican: () => speakcorrespondences4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We have been in correspondence for months."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ چەندین مانگ دەبێت لە پەیوەندیداین (بە نامە)."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondences5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondences5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We have been in correspondence for months.",
+            kurdishText: "بۆ چەندین مانگ دەبێت لە پەیوەندیداین (بە نامە).",
+            onPressedBritish: () => speakcorrespondences5("en-GB"),
+            onPressedAmerican: () => speakcorrespondences5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We kept up a correspondence for many years."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ چەندین ساڵ پەیوەندیمان ڕاگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondences6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondences6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We kept up a correspondence for many years.",
+            kurdishText: "بۆ چەندین ساڵ پەیوەندیمان ڕاگرت.",
+            onPressedBritish: () => speakcorrespondences6("en-GB"),
+            onPressedAmerican: () => speakcorrespondences6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) پەیوەندی یان لێکچوونی دوو شت"),
           const AlsoEnglishckb(word: "ھەروەھا: correspondency"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The survey found no correspondence between crime and unemployment rates."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاپرسییەکە ھیچ پەیوەندی لە نێوان ڕێژەی تاوان و بێ‌کاریدا نەدۆزییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondences7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondences7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The survey found no correspondence between crime and unemployment rates.",
+            kurdishText:
+                "ڕاپرسییەکە ھیچ پەیوەندی لە نێوان ڕێژەی تاوان و بێ‌کاریدا نەدۆزییەوە.",
+            onPressedBritish: () => speakcorrespondences7("en-GB"),
+            onPressedAmerican: () => speakcorrespondences7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Here, the correspondency between the two situations ends."),
-                    ExampleSentenceKurdish(
-                        text: "لێرەدا، پەیوەندی نێوان دوو دۆخەکە کۆتایی دێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondences8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondences8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Here, the correspondency between the two situations ends.",
+            kurdishText: "لێرەدا، پەیوەندی نێوان دوو دۆخەکە کۆتایی دێت.",
+            onPressedBritish: () => speakcorrespondences8("en-GB"),
+            onPressedAmerican: () => speakcorrespondences8("en-US"),
           ),
         ],
       ),

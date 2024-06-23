@@ -104,64 +104,26 @@ class EnglishEntryconspicuously extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە ئاسانە بۆ بینین و تێبینیکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Women were conspicuously absent from the planning committee (= not present on it, when they should have been)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنان بەشێوەیەکی بەرچاو بوونیان نییە لە لیژنەی پلاندانانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conspicuously", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconspicuouslys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconspicuouslys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Women were conspicuously absent from the planning committee (= not present on it, when they should have been).",
+                            kurdishText:
+                                "ژنان بەشێوەیەکی بەرچاو بوونیان نییە لە لیژنەی پلاندانانەکە.", // conspicuously",
+                            onPressedBritish: () =>
+                                speakconspicuouslys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconspicuouslys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Escaping from prisons was one of his specialities, but this time he had conspicuously failed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵھاتن لە زیندان یەکێک لە شارەزاییەکانی بوو، بەڵام ئەمجارە بەشێوەیەکی دیار شکستیھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconspicuouslys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconspicuouslys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Escaping from prisons was one of his specialities, but this time he had conspicuously failed.",
+                            kurdishText:
+                                "ھەڵھاتن لە زیندان یەکێک لە شارەزاییەکانی بوو، بەڵام ئەمجارە بەشێوەیەکی دیار شکستیھێنا.",
+                            onPressedBritish: () =>
+                                speakconspicuouslys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconspicuouslys2("en-US"),
                           ),
                         ],
                       ),

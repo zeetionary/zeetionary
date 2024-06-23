@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بەرزترین ئاست یان کۆتایی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The reforms marked the successful culmination of a long campaign."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چاکسازییەکان بەرھەمی سەرکەوتووانەی کەمپینێکی درێ بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "culmination", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculminations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculminations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The reforms marked the successful culmination of a long campaign.",
+            kurdishText:
+                "چاکسازییەکان بەرھەمی سەرکەوتووانەی کەمپینێکی درێ بوون.", // culmination", please follow LX instructions
+            onPressedBritish: () => speakculminations1("en-GB"),
+            onPressedAmerican: () => speakculminations1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The space race reached its culmination in the first moon walk."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێشبڕکێی بۆشایی ئاسمان گەشت بە دەرەنجام لە یەکەم چوونە سەر مانگدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculminations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculminations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The space race reached its culmination in the first moon walk.",
+            kurdishText:
+                "پێشبڕکێی بۆشایی ئاسمان گەشت بە دەرەنجام لە یەکەم چوونە سەر مانگدا.",
+            onPressedBritish: () => speakculminations2("en-GB"),
+            onPressedAmerican: () => speakculminations2("en-US"),
           ),
         ],
       ),

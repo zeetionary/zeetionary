@@ -234,31 +234,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بەشێکی چەکێکی بانکی، بلیتێک، ھتد کە دەیھێڵیتەوە لە کاتێکدا بەشەکەی دیکەی دەدەیت بە کەسێک "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After paying the bill, she tore off the counterfoil."),
-                    ExampleSentenceKurdish(
-                        text: "لە دوای دانەوەی خەرجییەکان، بنەچەکەکەی دڕاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "counterfoil", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterfoils1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterfoils1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "After paying the bill, she tore off the counterfoil.",
+            kurdishText:
+                "لە دوای دانەوەی خەرجییەکان، بنەچەکەکەی دڕاند.", // counterfoil", please follow LX instructions
+            onPressedBritish: () => speakcounterfoils1("en-GB"),
+            onPressedAmerican: () => speakcounterfoils1("en-US"),
           ),
         ],
       ),

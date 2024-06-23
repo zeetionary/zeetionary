@@ -249,85 +249,29 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ھەبوونی چینێک یان ڕێژەیەک لە شتێک لەسەری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His face was covered in blood."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووخساری بە خوێن داپۆشرابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "covered", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcovereds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcovereds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His face was covered in blood.",
+            kurdishText:
+                "ڕووخساری بە خوێن داپۆشرابوو.", // covered", please follow LX instructions
+            onPressedBritish: () => speakcovereds1("en-GB"),
+            onPressedAmerican: () => speakcovereds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I was completely covered in mud."),
-                    ExampleSentenceKurdish(
-                        text: "بە تەواوی بە قوڕ داپۆشرابووم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcovereds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcovereds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was completely covered in mud.",
+            kurdishText: "بە تەواوی بە قوڕ داپۆشرابووم.",
+            onPressedBritish: () => speakcovereds2("en-GB"),
+            onPressedAmerican: () => speakcovereds2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) ھەبوونی سەربانێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The town's covered bridge was built in the 19th century and is still in use today."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پردە داخراوەکەی شارۆچکەکە لە سەدەی نۆزدەیەم درووستکرا و ھێشتا تا ئەم ڕۆژە لە کاردایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcovereds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcovereds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The town's covered bridge was built in the 19th century and is still in use today.",
+            kurdishText:
+                "پردە داخراوەکەی شارۆچکەکە لە سەدەی نۆزدەیەم درووستکرا و ھێشتا تا ئەم ڕۆژە لە کاردایە.",
+            onPressedBritish: () => speakcovereds3("en-GB"),
+            onPressedAmerican: () => speakcovereds3("en-US"),
           ),
         ],
       ),

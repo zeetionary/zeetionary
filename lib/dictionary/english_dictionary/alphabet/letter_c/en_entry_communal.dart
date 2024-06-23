@@ -114,91 +114,34 @@ class EnglishEntrycommunal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە بەکاردێت، یان ھی کۆمەڵە کەسێکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As a student he tried communal living for a few years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک خوێندکارێک ھەوڵیدا بە ژیانی ھاوبەش بژی بۆ چەند ساڵێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "communal", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As a student he tried communal living for a few years.",
+                            kurdishText:
+                                "وەک خوێندکارێک ھەوڵیدا بە ژیانی ھاوبەش بژی بۆ چەند ساڵێک.", // communal",
+                            onPressedBritish: () => speakcommunals1("en-GB"),
+                            onPressedAmerican: () => speakcommunals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The gardens surrounding the building were communal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو باخچانەی دەوری بیناکەیان دابوو ھاوبەش بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The gardens surrounding the building were communal.",
+                            kurdishText:
+                                "ئەو باخچانەی دەوری بیناکەیان دابوو ھاوبەش بوون.",
+                            onPressedBritish: () => speakcommunals2("en-GB"),
+                            onPressedAmerican: () => speakcommunals2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پەیوەندیدار بە گرووپی جیاواز لە کەسانی کۆمەڵگەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Communal riots/disturbances have once again broken out between the two ethnic groups."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاژاوەی ناوخۆیی جارێکی تر دووبارە سەریھەڵداوە لە نێوان گرووپە کەمینەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Communal riots/disturbances have once again broken out between the two ethnic groups.",
+                            kurdishText:
+                                "ئاژاوەی ناوخۆیی جارێکی تر دووبارە سەریھەڵداوە لە نێوان گرووپە کەمینەکاندا.",
+                            onPressedBritish: () => speakcommunals3("en-GB"),
+                            onPressedAmerican: () => speakcommunals3("en-US"),
                           ),
                         ],
                       ),

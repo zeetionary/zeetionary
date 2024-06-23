@@ -266,144 +266,48 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) سنووقێکی گەورە بۆ گواستنەوەی کەلوپەل"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The spider was found hiding in a crate of bananas."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جاڵجاڵۆکەکە دۆزرایەوە کە خۆی لە سنووقێکی مۆزدا شاردبووەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The spider was found hiding in a crate of bananas.",
+            kurdishText:
+                "جاڵجاڵۆکەکە دۆزرایەوە کە خۆی لە سنووقێکی مۆزدا شاردبووەوە.", // crate", please follow LX instructions
+            onPressedBritish: () => speakcrates1("en-GB"),
+            onPressedAmerican: () => speakcrates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They packed the books into the crates."),
-                    ExampleSentenceKurdish(
-                        text: "کتێبەکانیان خستە سنووقەکانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They packed the books into the crates.",
+            kurdishText: "کتێبەکانیان خستە سنووقەکانەوە.",
+            onPressedBritish: () => speakcrates2("en-GB"),
+            onPressedAmerican: () => speakcrates2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) سنووقێک کە بەش بەش کراوە و بوتڵە شووشەی تێ دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The man was sitting on an upturned beer crate."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پیاوەکە لەسەر سنووقە بیرەیەکی ھەڵگەڕاوە دانیشتبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The man was sitting on an upturned beer crate.",
+            kurdishText: "پیاوەکە لەسەر سنووقە بیرەیەکی ھەڵگەڕاوە دانیشتبوو.",
+            onPressedBritish: () => speakcrates3("en-GB"),
+            onPressedAmerican: () => speakcrates3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ئەو ڕێژەیەی لە سنووقێکدا جێگای دەبێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They drank two crates of beer."),
-                    ExampleSentenceKurdish(text: "دوو سنووق بیرەیان خواردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They drank two crates of beer.",
+            kurdishText: "دوو سنووق بیرەیان خواردەوە.",
+            onPressedBritish: () => speakcrates4("en-GB"),
+            onPressedAmerican: () => speakcrates4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) دانان لە سنووقدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Any extra parts will have to be crated and shipped separately."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەر بەشێکی زیادە دەبێت لە سنووق بخرێت و بە جیا بگوازرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrates5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrates5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Any extra parts will have to be crated and shipped separately.",
+            kurdishText:
+                "ھەر بەشێکی زیادە دەبێت لە سنووق بخرێت و بە جیا بگوازرێتەوە.",
+            onPressedBritish: () => speakcrates5("en-GB"),
+            onPressedAmerican: () => speakcrates5("en-US"),
           ),
         ],
       ),

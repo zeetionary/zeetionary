@@ -191,32 +191,13 @@ class EnglishEntrycarpark extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوچەیەک کە خەڵکی ئۆتۆمبێلەکانیان ڕادەگرن تێیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The multilevel car park near the shopping center accommodates hundreds of cars."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەراجە چەند نھۆمییەکە لە نزیکی سەنتەری بازاڕکردنەکە جێگەی سەدان ئۆتۆمبێلی تێدا دەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "car park", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarparks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarparks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The multilevel car park near the shopping center accommodates hundreds of cars.",
+                            kurdishText:
+                                "گەراجە چەند نھۆمییەکە لە نزیکی سەنتەری بازاڕکردنەکە جێگەی سەدان ئۆتۆمبێلی تێدا دەبێتەوە.", // car park",
+                            onPressedBritish: () => speakcarparks1("en-GB"),
+                            onPressedAmerican: () => speakcarparks1("en-US"),
                           ),
                         ],
                       ),

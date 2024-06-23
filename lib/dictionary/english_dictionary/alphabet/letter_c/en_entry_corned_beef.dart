@@ -95,32 +95,13 @@ class EnglishEntrycornedbeef extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گۆشتی مانگا کە لێنراوە و پارێزراوە بە بەکارھێنانی خوێ، و بەزۆری لە قووتوودا دەفرۆشرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Corned beef sandwiches are a popular lunch option in many delis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەفەی گۆشتی لە قووتووکراو ھەڵبژاردەیەکی باوی خواردنی نیوەڕۆن لە زۆر فرۆشگادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "corned beef", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcornedbeefs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcornedbeefs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Corned beef sandwiches are a popular lunch option in many delis.",
+                            kurdishText:
+                                "لەفەی گۆشتی لە قووتووکراو ھەڵبژاردەیەکی باوی خواردنی نیوەڕۆن لە زۆر فرۆشگادا.", // corned beef",
+                            onPressedBritish: () => speakcornedbeefs1("en-GB"),
+                            onPressedAmerican: () => speakcornedbeefs1("en-US"),
                           ),
                         ],
                       ),

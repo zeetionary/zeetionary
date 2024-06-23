@@ -250,85 +250,28 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) کەم کەم لەناوبردنی کانزا، ئاسن، یان مادەی تر بە کارلێکی کیمیایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Acid corrodes metal."),
-                    ExampleSentenceKurdish(text: "ترشەڵۆک کانزا دەڕزێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corrode", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrodes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrodes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Acid corrodes metal.",
+            kurdishText:
+                "ترشەڵۆک کانزا دەڕزێنێت.", // corrode", please follow LX instructions
+            onPressedBritish: () => speakcorrodes1("en-GB"),
+            onPressedAmerican: () => speakcorrodes1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Steel tends to corrode faster in a salty atmosphere."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئستیل مەیلی ئەوەی ھەیە لە کەشی شۆردا زیاتر بڕزێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrodes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrodes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Steel tends to corrode faster in a salty atmosphere.",
+            kurdishText: "ئستیل مەیلی ئەوەی ھەیە لە کەشی شۆردا زیاتر بڕزێت.",
+            onPressedBritish: () => speakcorrodes2("en-GB"),
+            onPressedAmerican: () => speakcorrodes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) کەم کەم لەناوبردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Corruption corrodes public confidence in a political system."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەندەڵی متمانەی خەڵکی بە سیستەمی سیاسی لەناودەبات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrodes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrodes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Corruption corrodes public confidence in a political system.",
+            kurdishText: "گەندەڵی متمانەی خەڵکی بە سیستەمی سیاسی لەناودەبات.",
+            onPressedBritish: () => speakcorrodes3("en-GB"),
+            onPressedAmerican: () => speakcorrodes3("en-US"),
           ),
         ],
       ),

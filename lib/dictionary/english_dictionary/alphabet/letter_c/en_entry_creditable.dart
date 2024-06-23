@@ -240,58 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) لە ئاستێکی باش کە شایەنی ستایشە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It was a very creditable result for the team."),
-                    ExampleSentenceKurdish(
-                        text: "ئەنجامێکی زۆر شایستە بوو بۆ تیمەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creditable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreditables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreditables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was a very creditable result for the team.",
+            kurdishText:
+                "ئەنجامێکی زۆر شایستە بوو بۆ تیمەکە.", // creditable", please follow LX instructions
+            onPressedBritish: () => speakcreditables1("en-GB"),
+            onPressedAmerican: () => speakcreditables1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) لە ڕووی ئەخلاقییەوە باش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was nothing very creditable in what he did."),
-                    ExampleSentenceKurdish(
-                        text: "شتێکی زۆر ئەخلاقیانە نەبوو لەوەی کردی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreditables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreditables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was nothing very creditable in what he did.",
+            kurdishText: "شتێکی زۆر ئەخلاقیانە نەبوو لەوەی کردی.",
+            onPressedBritish: () => speakcreditables2("en-GB"),
+            onPressedAmerican: () => speakcreditables2("en-US"),
           ),
         ],
       ),

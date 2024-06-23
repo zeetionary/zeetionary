@@ -111,32 +111,13 @@ class EnglishEntryclothe extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) لەبەرکردنی جل، یان کردنەبەری کەسێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They clothe their children in the latest fashions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تازەترین مۆدەکان دەکەنە بەری منداڵەکانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clothe", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclothes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclothes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They clothe their children in the latest fashions.",
+                            kurdishText:
+                                "تازەترین مۆدەکان دەکەنە بەری منداڵەکانیان.", // clothe",
+                            onPressedBritish: () => speakclothes1("en-GB"),
+                            onPressedAmerican: () => speakclothes1("en-US"),
                           ),
                           // const DividerSentences(),
                           // Row(
@@ -166,32 +147,13 @@ class EnglishEntryclothe extends StatelessWidget {
                           // ],
                           // ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It costs a lot to feed and clothe five children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێرکردن و پۆشینی پێنج منداڵ تێچووی زۆرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclothes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclothes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It costs a lot to feed and clothe five children.",
+                            kurdishText:
+                                "تێرکردن و پۆشینی پێنج منداڵ تێچووی زۆرە.",
+                            onPressedBritish: () => speakclothes3("en-GB"),
+                            onPressedAmerican: () => speakclothes3("en-US"),
                           ),
                         ],
                       ),

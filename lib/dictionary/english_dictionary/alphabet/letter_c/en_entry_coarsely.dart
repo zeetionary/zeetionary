@@ -102,61 +102,23 @@ class EnglishEntrycoarsely extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە کردنە پارچەی گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Chop the cabbage coarsely."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەلەرمەکە بە پارچەی گەورەوە ورد بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coarsely", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoarselys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoarselys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Chop the cabbage coarsely.",
+                            kurdishText:
+                                "کەلەرمەکە بە پارچەی گەورەوە ورد بکە.", // coarsely",
+                            onPressedBritish: () => speakcoarselys1("en-GB"),
+                            onPressedAmerican: () => speakcoarselys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵکار) بەشێوەیەکی ناشرین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had never heard anyone speak so coarsely before."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز پێشتر کەسم گوێ لێ نەبووبوو ھێندە بێ‌ڕەوشتانە قسە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoarselys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoarselys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had never heard anyone speak so coarsely before.",
+                            kurdishText:
+                                "ھەرگیز پێشتر کەسم گوێ لێ نەبووبوو ھێندە بێ‌ڕەوشتانە قسە بکات.",
+                            onPressedBritish: () => speakcoarselys2("en-GB"),
+                            onPressedAmerican: () => speakcoarselys2("en-US"),
                           ),
                         ],
                       ),

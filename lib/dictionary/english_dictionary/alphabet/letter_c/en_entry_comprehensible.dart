@@ -105,64 +105,26 @@ class EnglishEntrycomprehensible extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە دەکرێت تێگەشتنی بۆ بکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His French was barely comprehensible."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فەرەنسییەکەی بە ئاستەنگ لە تێگەشتن دەھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comprehensible", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensibles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensibles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His French was barely comprehensible.",
+                            kurdishText:
+                                "فەرەنسییەکەی بە ئاستەنگ لە تێگەشتن دەھات.", // comprehensible",
+                            onPressedBritish: () =>
+                                speakcomprehensibles1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomprehensibles1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The instructions should be easily comprehensible to parents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێنماییەکان دەبێت بە ئاسانی لە تێگەشتن بێن بۆ دایکان و باوکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensibles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensibles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The instructions should be easily comprehensible to parents.",
+                            kurdishText:
+                                "ڕێنماییەکان دەبێت بە ئاسانی لە تێگەشتن بێن بۆ دایکان و باوکان.",
+                            onPressedBritish: () =>
+                                speakcomprehensibles2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomprehensibles2("en-US"),
                           ),
                         ],
                       ),

@@ -309,288 +309,98 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) وشک و ڕەق و خۆش"),
           const AlsoEnglishckb(word: "ھەروەھا: crispy"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Bake until the pastry is golden and crisp."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بیبرژێنە تاوەکو ھەویرەکە ئاڵتوونی و خرمدار دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crisp", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisps1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisps1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Bake until the pastry is golden and crisp.",
+            kurdishText:
+                "بیبرژێنە تاوەکو ھەویرەکە ئاڵتوونی و خرمدار دەبێت.", // crisp", please follow LX instructions
+            onPressedBritish: () => speakcrisps1("en-GB"),
+            onPressedAmerican: () => speakcrisps1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) ڕەق و تازە"),
           const AlsoEnglishckb(word: "ھەروەھا: crispy"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crisp apple had a satisfying crunch with every bite."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سێوە تازەکە خرمەیەکی خۆشی ھەبوو لەگەڵ ھەر گازێکدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisps2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisps2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The crisp apple had a satisfying crunch with every bite.",
+            kurdishText: "سێوە تازەکە خرمەیەکی خۆشی ھەبوو لەگەڵ ھەر گازێکدا.",
+            onPressedBritish: () => speakcrisps2("en-GB"),
+            onPressedAmerican: () => speakcrisps2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) پاک و خاوێن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The sheets looked clean and crisp."),
-                    ExampleSentenceKurdish(
-                        text: "ڕایەخەکە پاک و خاوێن دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisps3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisps3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The sheets looked clean and crisp.",
+            kurdishText: "ڕایەخەکە پاک و خاوێن دیاربوو.",
+            onPressedBritish: () => speakcrisps3("en-GB"),
+            onPressedAmerican: () => speakcrisps3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ھاوەڵناو) وشک و سارد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It was a crisp winter morning."),
-                    ExampleSentenceKurdish(text: "بەیانییەکی ساردی زستان بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisps4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisps4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was a crisp winter morning.",
+            kurdishText: "بەیانییەکی ساردی زستان بوو.",
+            onPressedBritish: () => speakcrisps4("en-GB"),
+            onPressedAmerican: () => speakcrisps4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ھاوەڵناو) گەڵا، بەفر، ھتد کە ڕەق و وشکن و دەنگی قرچەقرچ دەردەکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The ground was covered with crisp leaves in the autumn."),
-                    ExampleSentenceKurdish(
-                        text: "لە زستاندا زەوییەکە بە گەڵای ڕەق داپۆشرابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisps5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisps5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The ground was covered with crisp leaves in the autumn.",
+            kurdishText: "لە زستاندا زەوییەکە بە گەڵای ڕەق داپۆشرابوو.",
+            onPressedBritish: () => speakcrisps5("en-GB"),
+            onPressedAmerican: () => speakcrisps5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ھاوەڵناو) ڕوون و تیژ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The recording sounds very crisp, considering its age."),
-                    ExampleSentenceKurdish(
-                        text: "تۆمارەکە زۆر ڕوونە بە لەبەرچاوگرتنی تەمەنەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisps6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisps6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The recording sounds very crisp, considering its age.",
+            kurdishText: "تۆمارەکە زۆر ڕوونە بە لەبەرچاوگرتنی تەمەنەکەی.",
+            onPressedBritish: () => speakcrisps6("en-GB"),
+            onPressedAmerican: () => speakcrisps6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (ھاوەڵناو) شێوازی قسەکردنی کەسێک کە سەرقاڵی پیشان دەدات یان ئەوەی کە کراوە نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her answer was crisp, and she gave no details."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەڵامەکەی یەکلایی‌کەرەوە بوو و ھیچ وردەکارییەکی نەگووت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisps7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisps7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her answer was crisp, and she gave no details.",
+            kurdishText:
+                "وەڵامەکەی یەکلایی‌کەرەوە بوو و ھیچ وردەکارییەکی نەگووت.",
+            onPressedBritish: () => speakcrisps7("en-GB"),
+            onPressedAmerican: () => speakcrisps7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (ناو) چپسی پەتاتە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If you gorge yourself on crisps like that, you won't eat your dinner."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر خۆت بەو شێوەیە بە چپسی پەتاتە بتەقێنیت، ناتوانیت نانی ئێوارە بخۆیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisps8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisps8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "If you gorge yourself on crisps like that, you won't eat your dinner.",
+            kurdishText:
+                "ئەگەر خۆت بەو شێوەیە بە چپسی پەتاتە بتەقێنیت، ناتوانیت نانی ئێوارە بخۆیت.",
+            onPressedBritish: () => speakcrisps8("en-GB"),
+            onPressedAmerican: () => speakcrisps8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If you eat three good meals a day, you're less likely to snack on biscuits and crisps."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر سێ ژەمە خواردنی باشی ڕۆژانە بخۆیت ئەگەری کەم دەبێت بەربیتە بسکیت و چپسی پەتاتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisps9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisps9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "If you eat three good meals a day, you're less likely to snack on biscuits and crisps.",
+            kurdishText:
+                "ئەگەر سێ ژەمە خواردنی باشی ڕۆژانە بخۆیت ئەگەری کەم دەبێت بەربیتە بسکیت و چپسی پەتاتە.",
+            onPressedBritish: () => speakcrisps9("en-GB"),
+            onPressedAmerican: () => speakcrisps9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٩. (کردار) برژاندن یان لێنانی خواردن تاوەکو توێژاڵێکی ڕەقی دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Cook until the bacon starts to crisp."),
-                    ExampleSentenceKurdish(
-                        text: "تاوەکو گۆشتە بەرازەکە ڕەق دەبێتەوە بیبرژێنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisps10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisps10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Cook until the bacon starts to crisp.",
+            kurdishText: "تاوەکو گۆشتە بەرازەکە ڕەق دەبێتەوە بیبرژێنە.",
+            onPressedBritish: () => speakcrisps10("en-GB"),
+            onPressedAmerican: () => speakcrisps10("en-US"),
           ),
         ],
       ),

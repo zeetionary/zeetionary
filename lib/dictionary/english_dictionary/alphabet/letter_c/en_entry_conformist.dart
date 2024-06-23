@@ -95,32 +95,13 @@ class EnglishEntryconformist extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە وەک زۆرینەی گرووپێک یان کۆمەڵگە ڕەفتار دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In a society that values individuality, being a conformist is often seen as a negative trait."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆمەڵگەیەکدا کە گرنگی بە تاکێتی دەدرێت، بوون بە خۆگونجێنێک وەک نیشانەیەکی نەرێنی دەبینرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conformist", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconformists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconformists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In a society that values individuality, being a conformist is often seen as a negative trait.",
+                            kurdishText:
+                                "لە کۆمەڵگەیەکدا کە گرنگی بە تاکێتی دەدرێت، بوون بە خۆگونجێنێک وەک نیشانەیەکی نەرێنی دەبینرێت.", // conformist",
+                            onPressedBritish: () => speakconformists1("en-GB"),
+                            onPressedAmerican: () => speakconformists1("en-US"),
                           ),
                         ],
                       ),

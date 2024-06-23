@@ -260,117 +260,42 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پێشبڕکێیەکی ڕاکردن یان بەفرەخلیسکێ بە دەشت‌ودەردا؛ وەرزشی لەم شێوەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Who won the cross-country?"),
-                    ExampleSentenceKurdish(
-                        text: "کێ ڕاکردنی دەشت‌دەرییەکەی بردەوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cross-country", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosscountrys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosscountrys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Who won the cross-country?",
+            kurdishText:
+                "کێ ڕاکردنی دەشت‌دەرییەکەی بردەوە؟", // cross-country", please follow LX instructions
+            onPressedBritish: () => speakcrosscountrys1("en-GB"),
+            onPressedAmerican: () => speakcrosscountrys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) بە دەشت‌دەردا وەک لەوەی لەسەر ڕێگا و شەقام بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "We rode cross-country."),
-                    ExampleSentenceKurdish(
-                        text: "بە دەشت‌ودەرەکاندا سواریمان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosscountrys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosscountrys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We rode cross-country.",
+            kurdishText: "بە دەشت‌ودەرەکاندا سواریمان کرد.",
+            onPressedBritish: () => speakcrosscountrys2("en-GB"),
+            onPressedAmerican: () => speakcrosscountrys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) بە بەشێکی وڵاتێکدا بۆ یەکێکی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The author had just finished a cross-country tour."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نووسەرەکە تازە تەواوبوو بوو لە گەشتێکی بە وڵاتەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosscountrys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosscountrys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The author had just finished a cross-country tour.",
+            kurdishText: "نووسەرەکە تازە تەواوبوو بوو لە گەشتێکی بە وڵاتەکەدا.",
+            onPressedBritish: () => speakcrosscountrys3("en-GB"),
+            onPressedAmerican: () => speakcrosscountrys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ھاوەڵناو) بە دوو وڵات یان زیاتردا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The report contains the findings of a cross-country comparison of crime statistics."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاپۆرتەکە دۆزینەوەی بەراوردکاریی ئامارەکانی تاوان لە چەند وڵاتێک لەخۆدەگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosscountrys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosscountrys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The report contains the findings of a cross-country comparison of crime statistics.",
+            kurdishText:
+                "ڕاپۆرتەکە دۆزینەوەی بەراوردکاریی ئامارەکانی تاوان لە چەند وڵاتێک لەخۆدەگرێت.",
+            onPressedBritish: () => speakcrosscountrys4("en-GB"),
+            onPressedAmerican: () => speakcrosscountrys4("en-US"),
           ),
         ],
       ),

@@ -104,60 +104,22 @@ class EnglishEntrycontravene extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) کردنی شتێک کە بەپێی یاسا ڕێگەپێنەدراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company was found guilty of contravening safety regulations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە بە تاوانباری سەرپێچیکردنی ڕێوشوێنەکانی سەلامەتی دانرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contravene", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontravenes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontravenes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company was found guilty of contravening safety regulations.",
+                            kurdishText:
+                                "کۆمپانیاکە بە تاوانباری سەرپێچیکردنی ڕێوشوێنەکانی سەلامەتی دانرا.", // contravene",
+                            onPressedBritish: () => speakcontravenes1("en-GB"),
+                            onPressedAmerican: () => speakcontravenes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company knew its actions contravened international law."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە دەیزانی کارەکانی سەرپێچی یاسای نێودەوڵەتی دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontravenes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontravenes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company knew its actions contravened international law.",
+                            kurdishText:
+                                "کۆمپانیاکە دەیزانی کارەکانی سەرپێچی یاسای نێودەوڵەتی دەکات.",
+                            onPressedBritish: () => speakcontravenes2("en-GB"),
+                            onPressedAmerican: () => speakcontravenes2("en-US"),
                           ),
                         ],
                       ),

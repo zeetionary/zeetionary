@@ -198,388 +198,138 @@ class EnglishEntrycapture extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) گرتنی کەسێک یان ئاژەڵێک وەک دیل"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Allied troops captured over 300 enemy soldiers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزەکانی ھاوپەیمانان زیاد لە ٣٠٠ سەربازی دوژمنیان بەدیل گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capture", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptures1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptures1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Allied troops captured over 300 enemy soldiers.",
+                            kurdishText:
+                                "ھێزەکانی ھاوپەیمانان زیاد لە ٣٠٠ سەربازی دوژمنیان بەدیل گرت.", // capture
+                            onPressedBritish: () => speakcaptures1("en-GB"),
+                            onPressedAmerican: () => speakcaptures1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Two of the soldiers were killed and the rest were captured."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو سەرباز کوژران و ئەوانی دیکە بەدیل گیردران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptures2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptures2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Two of the soldiers were killed and the rest were captured.",
+                            kurdishText:
+                                "دوو سەرباز کوژران و ئەوانی دیکە بەدیل گیردران.",
+                            onPressedBritish: () => speakcaptures2("en-GB"),
+                            onPressedAmerican: () => speakcaptures2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) کۆنترۆڵکردنی شوێنێک بە ھێز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The city was captured in 1941."),
-                                    ExampleSentenceKurdish(
-                                        text: "شارەکە لە ساڵی ١٩٤١ گیردرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptures3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptures3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The city was captured in 1941.",
+                            kurdishText: "شارەکە لە ساڵی ١٩٤١ گیردرا.",
+                            onPressedBritish: () => speakcaptures3("en-GB"),
+                            onPressedAmerican: () => speakcaptures3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) سەرکەوتن لە بەدەستھێنانی شتێک کە کەسانی دیکەش دەیانەوێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Google has captured 40 per cent of the digital advertising market."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گووگڵ ٤٠٪ بازاڕی ڕیکلامی دیجیتاڵی کۆنترۆڵکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptures4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptures4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Google has captured 40 per cent of the digital advertising market.",
+                            kurdishText:
+                                "گووگڵ ٤٠٪ بازاڕی ڕیکلامی دیجیتاڵی کۆنترۆڵکردووە.",
+                            onPressedBritish: () => speakcaptures4("en-GB"),
+                            onPressedAmerican: () => speakcaptures4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) سەرنجڕاکێشانی کەسێک بە لای شتێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His story captured the attention of Hollywood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیرۆکەکەی سەرنجی ھۆڵیوودی ڕاکێشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptures5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptures5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His story captured the attention of Hollywood.",
+                            kurdishText: "چیرۆکەکەی سەرنجی ھۆڵیوودی ڕاکێشا.",
+                            onPressedBritish: () => speakcaptures5("en-GB"),
+                            onPressedAmerican: () => speakcaptures5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) سەرکەوتن لە دەربڕینی ھەستێک، کەشێک، ھتد لە وێنەیەک، نووسراوێک، فیلمێک، ھتددا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her photos capture the essence of her subjects."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێنەکانی کرۆکی بابەتەکانی وێنا دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptures6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptures6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her photos capture the essence of her subjects.",
+                            kurdishText:
+                                "وێنەکانی کرۆکی بابەتەکانی وێنا دەکەن.",
+                            onPressedBritish: () => speakcaptures6("en-GB"),
+                            onPressedAmerican: () => speakcaptures6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) گرتنی وێنە، فیلم، یان تۆمارێک، یان کێشانی وێنەی کەسێک یان شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The photographer's camera captures images of extreme beauty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کامێرای وێنەگرەکە وێنەی تەواو جوان دەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptures7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptures7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The photographer's camera captures images of extreme beauty.",
+                            kurdishText:
+                                "کامێرای وێنەگرەکە وێنەی تەواو جوان دەگرێت.",
+                            onPressedBritish: () => speakcaptures7("en-GB"),
+                            onPressedAmerican: () => speakcaptures7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The attack was captured on film by security cameras."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێرشەکە لەلایەن کامێراکانی چاودێرییەوە گیردرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptures8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptures8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The attack was captured on film by security cameras.",
+                            kurdishText:
+                                "ھێرشەکە لەلایەن کامێراکانی چاودێرییەوە گیردرا.",
+                            onPressedBritish: () => speakcaptures8("en-GB"),
+                            onPressedAmerican: () => speakcaptures8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کردار) ڕاکێشانی دڵی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their first glance captured a spark that ignited into love."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەم نیگایان ھەستێکی دەستپێکرد کە بوو بە خۆشەویستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptures9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptures9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their first glance captured a spark that ignited into love.",
+                            kurdishText:
+                                "یەکەم نیگایان ھەستێکی دەستپێکرد کە بوو بە خۆشەویستی.",
+                            onPressedBritish: () => speakcaptures9("en-GB"),
+                            onPressedAmerican: () => speakcaptures9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (ناو) کردەی گرتنی کەسێک یان شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He evaded capture for three days."),
-                                    ExampleSentenceKurdish(
-                                        text: "بۆ سێ رۆژ خۆی گرتن پاراست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptures10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptures10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He evaded capture for three days.",
+                            kurdishText: "بۆ سێ رۆژ خۆی گرتن پاراست.",
+                            onPressedBritish: () => speakcaptures10("en-GB"),
+                            onPressedAmerican: () => speakcaptures10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This information led to the capture of the murderer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانیارییەکە بوو بەھۆی گرتنی بکوژەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptures11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptures11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This information led to the capture of the murderer.",
+                            kurdishText: "زانیارییەکە بوو بەھۆی گرتنی بکوژەکە.",
+                            onPressedBritish: () => speakcaptures11("en-GB"),
+                            onPressedAmerican: () => speakcaptures11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٩. (ناو) کردەی گرتنی شوێنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They witnessed the capture of the city by rebel troops."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شاھێدی گرتنی شارەکە بوون لەلایەن سەربازە یاخیبووەکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptures12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptures12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They witnessed the capture of the city by rebel troops.",
+                            kurdishText:
+                                "شاھێدی گرتنی شارەکە بوون لەلایەن سەربازە یاخیبووەکانەوە.",
+                            onPressedBritish: () => speakcaptures12("en-GB"),
+                            onPressedAmerican: () => speakcaptures12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (ناو) کردە یان پڕۆسەی تۆمارکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was the first movie to use motion capture for its entire length."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە یەکەم فیلم بوو وێنەی جوڵاو بۆ تەواوی ماوەکەی بەکاربێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptures13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptures13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was the first movie to use motion capture for its entire length.",
+                            kurdishText:
+                                "ئەوە یەکەم فیلم بوو وێنەی جوڵاو بۆ تەواوی ماوەکەی بەکاربێنێت.",
+                            onPressedBritish: () => speakcaptures13("en-GB"),
+                            onPressedAmerican: () => speakcaptures13("en-US"),
                           ),
                         ],
                       ),

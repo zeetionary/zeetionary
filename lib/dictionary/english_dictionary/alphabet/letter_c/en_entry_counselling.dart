@@ -241,60 +241,22 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: ڕاوێژکاری
 // """),
           const DefinitionKurdish(text: "١. (ناو) ڕاوێژ سەبارەت بە کێشەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The couple decided to go for relationship counselling."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوو ئەویندارەکە بڕیاریاندا بچن بۆ ئامۆژگاری پەیوەندی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "counselling", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounsellings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounsellings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The couple decided to go for relationship counselling.",
+            kurdishText:
+                "دوو ئەویندارەکە بڕیاریاندا بچن بۆ ئامۆژگاری پەیوەندی.", // counselling", please follow LX instructions
+            onPressedBritish: () => speakcounsellings1("en-GB"),
+            onPressedAmerican: () => speakcounsellings1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many of the victims of the tragedy still need counselling."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرێک لە قوربانییانی تراژیدیاکە ھێشتا پێویستیان بە ڕاوێژ ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounsellings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounsellings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many of the victims of the tragedy still need counselling.",
+            kurdishText:
+                "زۆرێک لە قوربانییانی تراژیدیاکە ھێشتا پێویستیان بە ڕاوێژ ھەیە.",
+            onPressedBritish: () => speakcounsellings2("en-GB"),
+            onPressedAmerican: () => speakcounsellings2("en-US"),
           ),
         ],
       ),

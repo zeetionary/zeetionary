@@ -240,60 +240,22 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بە خراپی، بە گەندەڵی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He resigned in February, a day before pleading guilty to corruptly receiving illegal payments."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە شوبات دەستی لەکارکێشایەوە، ڕۆژێک پێش ئەوەی دانی نا بە گەندەڵانە وەرگرتنی پارەی نایاسایی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corruptly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorruptlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorruptlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He resigned in February, a day before pleading guilty to corruptly receiving illegal payments.",
+            kurdishText:
+                "لە شوبات دەستی لەکارکێشایەوە، ڕۆژێک پێش ئەوەی دانی نا بە گەندەڵانە وەرگرتنی پارەی نایاسایی.", // corruptly", please follow LX instructions
+            onPressedBritish: () => speakcorruptlys1("en-GB"),
+            onPressedAmerican: () => speakcorruptlys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They insisted that the property had not been acquired corruptly."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێداگیریان دەکرد کە زەوییەکە بە خراپی بەدەستنەھاتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorruptlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorruptlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They insisted that the property had not been acquired corruptly.",
+            kurdishText:
+                "پێداگیریان دەکرد کە زەوییەکە بە خراپی بەدەستنەھاتووە.",
+            onPressedBritish: () => speakcorruptlys2("en-GB"),
+            onPressedAmerican: () => speakcorruptlys2("en-US"),
           ),
         ],
       ),

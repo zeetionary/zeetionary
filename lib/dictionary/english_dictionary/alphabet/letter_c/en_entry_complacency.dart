@@ -104,64 +104,24 @@ class EnglishEntrycomplacency extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەستی ڕازیبوون بە توانا و ئەو دۆخەی تێیدایت بەشێوەیەک کە ھیچ ھەوڵێک بۆ باشتربوون نادەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What annoys me about these girls is their complacency - they seem to have no desire to expand their horizons."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چی دەربارەی ئەم کچانە بێزارم دەکات خەیاڵ‌تەختییانە، وادەردەکەون ھیچ ئارەزوویان نەبێت ئاسۆیان فراوان بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complacency", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomplacencys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomplacencys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What annoys me about these girls is their complacency - they seem to have no desire to expand their horizons.",
+                            kurdishText:
+                                "چی دەربارەی ئەم کچانە بێزارم دەکات خەیاڵ‌تەختییانە، وادەردەکەون ھیچ ئارەزوویان نەبێت ئاسۆیان فراوان بکەن.", // complacency",
+                            onPressedBritish: () => speakcomplacencys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomplacencys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's no room for complacency if we want to stay in this competition!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ مەجالێک بۆ خۆلاقایلی نییە ئەگەر بمانەوێت لەم ڕکابەرییەدا بمێنینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomplacencys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomplacencys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's no room for complacency if we want to stay in this competition!",
+                            kurdishText:
+                                "ھیچ مەجالێک بۆ خۆلاقایلی نییە ئەگەر بمانەوێت لەم ڕکابەرییەدا بمێنینەوە.",
+                            onPressedBritish: () => speakcomplacencys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomplacencys2("en-US"),
                           ),
                         ],
                       ),

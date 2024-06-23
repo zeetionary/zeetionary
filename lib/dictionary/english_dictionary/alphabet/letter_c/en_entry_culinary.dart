@@ -240,58 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) پەیوەندیدار بە چێشتلێنان و خواردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Savour the culinary delights of Mexico."),
-                    ExampleSentenceKurdish(
-                        text: "تامی خۆشییەکانی خواردنی مەکسیک بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "culinary", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculinarys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculinarys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Savour the culinary delights of Mexico.",
+            kurdishText:
+                "تامی خۆشییەکانی خواردنی مەکسیک بکە.", // culinary", please follow LX instructions
+            onPressedBritish: () => speakculinarys1("en-GB"),
+            onPressedAmerican: () => speakculinarys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My culinary skills are limited to boiling water (= I am not very good at cooking)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تواناکانی چێشتلێنانم لە کوڵاندنی ئاو تێپەڕ ناکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculinarys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculinarys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "My culinary skills are limited to boiling water (= I am not very good at cooking).",
+            kurdishText: "تواناکانی چێشتلێنانم لە کوڵاندنی ئاو تێپەڕ ناکات.",
+            onPressedBritish: () => speakculinarys2("en-GB"),
+            onPressedAmerican: () => speakculinarys2("en-US"),
           ),
         ],
       ),

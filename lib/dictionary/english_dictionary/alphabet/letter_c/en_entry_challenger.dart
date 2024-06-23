@@ -95,32 +95,13 @@ class EnglishEntrychallenger extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە ڕکابەری لەگەڵ کەسێکی دیکە دەکات لە بۆنەیەکی وەرزشی یان لە سیاسەتدا بۆ پێگەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Senator faces a challenger with conservative views."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیناتۆرەکە ڕووبەڕووی ڕکابەرێک دەبێتەوە کە کۆنەپارێزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "challenger", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchallengers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchallengers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Senator faces a challenger with conservative views.",
+                            kurdishText:
+                                "سیناتۆرەکە ڕووبەڕووی ڕکابەرێک دەبێتەوە کە کۆنەپارێزە.", // challenger",
+                            onPressedBritish: () => speakchallengers1("en-GB"),
+                            onPressedAmerican: () => speakchallengers1("en-US"),
                           ),
                         ],
                       ),

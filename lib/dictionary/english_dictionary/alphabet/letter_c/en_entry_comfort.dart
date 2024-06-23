@@ -222,60 +222,22 @@ class EnglishEntrycomfort extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) دۆخی ئاسوودەیی دوور لە ئازار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hotel offers a high standard of comfort and service."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھوتێلەکە ئاستێکی بەرزی ئاسوودەیی و خزمەت پێشکەش دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comfort", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomforts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomforts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hotel offers a high standard of comfort and service.",
+                            kurdishText:
+                                "ھوتێلەکە ئاستێکی بەرزی ئاسوودەیی و خزمەت پێشکەش دەکات.", // comfort",
+                            onPressedBritish: () => speakcomforts1("en-GB"),
+                            onPressedAmerican: () => speakcomforts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I didn't want to leave the comfort of my bed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەمدەویست ئاسوودەیی جێخەوەکەم بە جێبھێڵم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomforts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomforts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I didn't want to leave the comfort of my bed.",
+                            kurdishText:
+                                "نەمدەویست ئاسوودەیی جێخەوەکەم بە جێبھێڵم.",
+                            onPressedBritish: () => speakcomforts2("en-GB"),
+                            onPressedAmerican: () => speakcomforts2("en-US"),
                           ),
                           Column(
                             children: [
@@ -347,88 +309,30 @@ class EnglishEntrycomfort extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) دۆخی نەبوونی نیگەرانی و ئازار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I tried to offer a few words of comfort."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵم دا ھەندێک وشەی دڵنەوایی بڵێم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomforts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomforts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I tried to offer a few words of comfort.",
+                            kurdishText: "ھەوڵم دا ھەندێک وشەی دڵنەوایی بڵێم.",
+                            onPressedBritish: () => speakcomforts5("en-GB"),
+                            onPressedAmerican: () => speakcomforts5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His words were of little comfort in the circumstances."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قسەکانی دڵدانەوەی کەم بوون لە دۆخەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomforts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomforts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His words were of little comfort in the circumstances.",
+                            kurdishText:
+                                "قسەکانی دڵدانەوەی کەم بوون لە دۆخەکەدا.",
+                            onPressedBritish: () => speakcomforts6("en-GB"),
+                            onPressedAmerican: () => speakcomforts6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If it's any comfort to you, I'm in the same situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر ھیچ دڵدانەوەیک دەبێت بۆت، منیش لە ھەمان دۆخدام."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomforts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomforts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If it's any comfort to you, I'm in the same situation.",
+                            kurdishText:
+                                "ئەگەر ھیچ دڵدانەوەیک دەبێت بۆت، منیش لە ھەمان دۆخدام.",
+                            onPressedBritish: () => speakcomforts7("en-GB"),
+                            onPressedAmerican: () => speakcomforts7("en-US"),
                           ),
                           Column(
                             children: [
@@ -471,233 +375,79 @@ class EnglishEntrycomfort extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شتێک یان کەسێک کە جێگەی دڵدانەوەیە بۆت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her being with me was such a comfort."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوونی لەگەڵم دڵدانەوەیەکی گەورە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomforts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomforts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her being with me was such a comfort.",
+                            kurdishText: "بوونی لەگەڵم دڵدانەوەیەکی گەورە بوو.",
+                            onPressedBritish: () => speakcomforts9("en-GB"),
+                            onPressedAmerican: () => speakcomforts9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children have been a great comfort to me through all of this."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان دڵنەواییەکی گەورە بوون بەدرێژایی ھەموو ئەەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomforts10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomforts10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children have been a great comfort to me through all of this.",
+                            kurdishText:
+                                "منداڵەکان دڵنەواییەکی گەورە بوون بەدرێژایی ھەموو ئەەم.",
+                            onPressedBritish: () => speakcomforts10("en-GB"),
+                            onPressedAmerican: () => speakcomforts10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's a comfort to know that she is safe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانینی ئەوەی کە سەلامەتە ئارامبەخشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomforts11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomforts11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's a comfort to know that she is safe.",
+                            kurdishText: "زانینی ئەوەی کە سەلامەتە ئارامبەخشە.",
+                            onPressedBritish: () => speakcomforts11("en-GB"),
+                            onPressedAmerican: () => speakcomforts11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a comfort to her to know that I was never far away."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەم‌ڕەوێنییەک بوو بۆی کە دەیزانی ھەرگیز زۆر دوور نەبووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomforts12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomforts12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was a comfort to her to know that I was never far away.",
+                            kurdishText:
+                                "خەم‌ڕەوێنییەک بوو بۆی کە دەیزانی ھەرگیز زۆر دوور نەبووم.",
+                            onPressedBritish: () => speakcomforts12("en-GB"),
+                            onPressedAmerican: () => speakcomforts12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) شتێک کە ژیانت ئاسوودە دەکات یان ئاسانتری دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hotel has all modern comforts (/every modern comfort)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھوتێلەکە ھەموو ئاسانکارییەکانی سەردەمی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomforts13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomforts13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hotel has all modern comforts (/every modern comfort).",
+                            kurdishText:
+                                "ھوتێلەکە ھەموو ئاسانکارییەکانی سەردەمی تێدایە.",
+                            onPressedBritish: () => speakcomforts13("en-GB"),
+                            onPressedAmerican: () => speakcomforts13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) دڵنەوایی دانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The victim's widow was today being comforted by family and friends."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێوەژنی قوربانییەکە ئەمڕۆ لەلایەن خێزان و ھاوڕێیانەوە دڵنەوایی دەکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomforts14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomforts14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The victim's widow was today being comforted by family and friends.",
+                            kurdishText:
+                                "بێوەژنی قوربانییەکە ئەمڕۆ لەلایەن خێزان و ھاوڕێیانەوە دڵنەوایی دەکرا.",
+                            onPressedBritish: () => speakcomforts14("en-GB"),
+                            onPressedAmerican: () => speakcomforts14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The idea that he was not alone comforted him greatly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیرکردنەوەی ئەوەی کە تەنھا نەبوو زۆر ئاسوودەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomforts15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomforts15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The idea that he was not alone comforted him greatly.",
+                            kurdishText:
+                                "بیرکردنەوەی ئەوەی کە تەنھا نەبوو زۆر ئاسوودەی دەکرد.",
+                            onPressedBritish: () => speakcomforts15("en-GB"),
+                            onPressedAmerican: () => speakcomforts15("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She comforted herself with the thought that it would soon be spring."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵی خۆی دەدایەوە بەوەی زوو نابا بەھار دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomforts16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomforts16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She comforted herself with the thought that it would soon be spring.",
+                            kurdishText:
+                                "دڵی خۆی دەدایەوە بەوەی زوو نابا بەھار دەبێت.",
+                            onPressedBritish: () => speakcomforts16("en-GB"),
+                            onPressedAmerican: () => speakcomforts16("en-US"),
                           ),
                         ],
                       ),

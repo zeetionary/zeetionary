@@ -191,32 +191,13 @@ class EnglishEntrycatty extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) وتنی قسەی ڕەق بە کەسانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's always making catty remarks about her sister."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە قسەی بوغازەوی دەکات لەسەر خوشکەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catty", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcattys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcattys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's always making catty remarks about her sister.",
+                            kurdishText:
+                                "ھەمیشە قسەی بوغازەوی دەکات لەسەر خوشکەکەی.", // catty",
+                            onPressedBritish: () => speakcattys1("en-GB"),
+                            onPressedAmerican: () => speakcattys1("en-US"),
                           ),
                         ],
                       ),

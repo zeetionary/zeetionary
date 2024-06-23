@@ -96,34 +96,15 @@ class EnglishEntrychronologically extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە ڕیزبەندی کراوە بەپێی کاتی ڕوودان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dates are arranged chronologically."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەروارەکان بەپێی ڕیزبەندی مێژوویی ڕیزکراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chronologically", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchronologicallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchronologicallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dates are arranged chronologically.",
+                            kurdishText:
+                                "بەروارەکان بەپێی ڕیزبەندی مێژوویی ڕیزکراون.", // chronologically",
+                            onPressedBritish: () =>
+                                speakchronologicallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchronologicallys1("en-US"),
                           ),
                         ],
                       ),

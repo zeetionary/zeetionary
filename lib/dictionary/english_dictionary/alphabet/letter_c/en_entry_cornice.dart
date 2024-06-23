@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بەشی سەرەوەی دیوارێک کە تێیدا دیوارەکە دەگات بە بنبانی بیناکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She admired the intricate details of the cornice in the historic house."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرسام بوو بە وردەکارییە ئاڵۆزەکەی پاسارەی خانووە مێژووییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cornice", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcornices1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcornices1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She admired the intricate details of the cornice in the historic house.",
+            kurdishText:
+                "سەرسام بوو بە وردەکارییە ئاڵۆزەکەی پاسارەی خانووە مێژووییەکە.", // cornice", please follow LX instructions
+            onPressedBritish: () => speakcornices1("en-GB"),
+            onPressedAmerican: () => speakcornices1("en-US"),
           ),
         ],
       ),

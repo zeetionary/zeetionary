@@ -94,32 +94,13 @@ class EnglishEntrycogwheel extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ویلێک کە زنجیرەیەک لە ددانی ھەیە و ھەریەکیان دەگونجێت لەگەڵ ئەوەی دواتریدا و یارمەتی دەدات لە جوڵاندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The machine was driven by a series of cogwheels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامێرەکە لەلایەن زنجیرەیەک لە زنجیرکێشەوە دەجوڵێنرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cogwheel", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcogwheels1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcogwheels1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The machine was driven by a series of cogwheels.",
+                            kurdishText:
+                                "ئامێرەکە لەلایەن زنجیرەیەک لە زنجیرکێشەوە دەجوڵێنرا.", // cogwheel",
+                            onPressedBritish: () => speakcogwheels1("en-GB"),
+                            onPressedAmerican: () => speakcogwheels1("en-US"),
                           ),
                         ],
                       ),

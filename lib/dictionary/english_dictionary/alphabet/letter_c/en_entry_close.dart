@@ -787,58 +787,19 @@ class EnglishEntryclose extends StatelessWidget {
 کوردی: نزیک،	گەرم‌گوڕ، گیانی‌گیانی، بستە،	پێوەدراو، داخراو، گیراو، بەسراو، گرتی،	پێک‌نزیک، پاڵ‌بەپاڵ، لەپاڵ‌یەک‌دا، پۆڕ، کەڵەکەبڕک، سیکەنەسەرخان، چڕ، بە تەنگی یەکەوە، پێکەوەنووساو، پێکەوەچەسپاو، نزیک بە یەک،	چکۆلە، تەنگ‌وتەسک، بەرتەنگ،	بۆخاو، خاو، گەرم، قورس، ناخۆش، گنخاو، خەفە (ھەوا)،	شاراوە، نادیار، نھێنی،	بەرچاوتەنگ، لەچەر، بەغیل، ڕژد،	سەخت، ڕشت، مجد، شێلگیر، لە پاڵ‌یەک‌دا، نزیک بە یەک، زۆر کورت، بەتەواوەتی، دەوروبەری، نزیکەی،	جێگای دەوردراو، دەوروبەر، حەوشە (کلێسا)،	بن‌بەست، بێ‌سەرەدەر، کوچکە (کۆڵان)
 """),
                           const DefinitionKurdish(text: "١. (کردار) داخستن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He closed the door firmly."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەرگاکەی بە قایمی گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "close", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He closed the door firmly.",
+                            kurdishText: "دەرگاکەی بە قایمی گرت.", // close",
+                            onPressedBritish: () => speakcloses1("en-GB"),
+                            onPressedAmerican: () => speakcloses1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Would anyone mind if I closed the window?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەس گرنگە لای ئەگەر دەرگاکە بگرم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Would anyone mind if I closed the window?",
+                            kurdishText: "کەس گرنگە لای ئەگەر دەرگاکە بگرم؟",
+                            onPressedBritish: () => speakcloses2("en-GB"),
+                            onPressedAmerican: () => speakcloses2("en-US"),
                           ),
                           Column(
                             children: [
@@ -971,147 +932,48 @@ class EnglishEntryclose extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) لکاندنی بەشە جیاوازەکانی شتێک پێکەوە بۆ ئەوەی چی دیکە کراوە نەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He ate greedily, without closing his mouth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چڵێسانە دەیخوارد بەبێ داخستنی دەمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He ate greedily, without closing his mouth.",
+                            kurdishText: "چڵێسانە دەیخوارد بەبێ داخستنی دەمی.",
+                            onPressedBritish: () => speakcloses7("en-GB"),
+                            onPressedAmerican: () => speakcloses7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He stopped reading and closed the book."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە خوێندنەوە وەستا و کتێبەکەی داخست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He stopped reading and closed the book.",
+                            kurdishText: "لە خوێندنەوە وەستا و کتێبەکەی داخست.",
+                            onPressedBritish: () => speakcloses8("en-GB"),
+                            onPressedAmerican: () => speakcloses8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He opened his umbrella when it started raining."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەترەکەی کردەوە کە باران دەستیپێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He opened his umbrella when it started raining.",
+                            kurdishText: "چەترەکەی کردەوە کە باران دەستیپێکرد.",
+                            onPressedBritish: () => speakcloses9("en-GB"),
+                            onPressedAmerican: () => speakcloses9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) داخستنی فرۆشگایەک، کۆمپانیایەک، ھتد بۆ ماوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The school was closed because of the heavy snow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوتابخانەکە داخرا بەھۆی بەفربارینی دژوار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The school was closed because of the heavy snow.",
+                            kurdishText:
+                                "قوتابخانەکە داخرا بەھۆی بەفربارینی دژوار.",
+                            onPressedBritish: () => speakcloses10("en-GB"),
+                            onPressedAmerican: () => speakcloses10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The museum has been closed for renovation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆزەخانەکە بۆ نۆژەنکردنەوە داخراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The museum has been closed for renovation.",
+                            kurdishText: "مۆزەخانەکە بۆ نۆژەنکردنەوە داخراوە.",
+                            onPressedBritish: () => speakcloses11("en-GB"),
+                            onPressedAmerican: () => speakcloses11("en-US"),
                           ),
                           Column(
                             children: [
@@ -1184,59 +1046,20 @@ class EnglishEntryclose extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) وەستانی کۆمپانیایەک، فرۆشگایەک، ھتد لە کارکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hospital closed at the end of last year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشخانەکە داخرا لە کۆتایی ساڵی پار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hospital closed at the end of last year.",
+                            kurdishText:
+                                "نەخۆشخانەکە داخرا لە کۆتایی ساڵی پار.",
+                            onPressedBritish: () => speakcloses14("en-GB"),
+                            onPressedAmerican: () => speakcloses14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The club was closed by the police."),
-                                    ExampleSentenceKurdish(
-                                        text: "یانەکە لەلایەن پۆلیسەوە داخرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The club was closed by the police.",
+                            kurdishText: "یانەکە لەلایەن پۆلیسەوە داخرا.",
+                            onPressedBritish: () => speakcloses15("en-GB"),
+                            onPressedAmerican: () => speakcloses15("en-US"),
                           ),
                           Column(
                             children: [
@@ -1309,60 +1132,21 @@ class EnglishEntryclose extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) کۆتایی ھاتن یان کۆتایی پێھێنان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The meeting will close at 10.00 p.m."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوپێکەوتنەکە لە ١٠.٠٠ ـی شەو کۆتایی دێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The meeting will close at 10.00 p.m.",
+                            kurdishText:
+                                "چاوپێکەوتنەکە لە ١٠.٠٠ ـی شەو کۆتایی دێت.",
+                            onPressedBritish: () => speakcloses18("en-GB"),
+                            onPressedAmerican: () => speakcloses18("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The offer closes at the end of the week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆفەرەکە لە کۆتایی ھەفتە تەواو دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The offer closes at the end of the week.",
+                            kurdishText:
+                                "ئۆفەرەکە لە کۆتایی ھەفتە تەواو دەبێت.",
+                            onPressedBritish: () => speakcloses19("en-GB"),
+                            onPressedAmerican: () => speakcloses19("en-US"),
                           ),
                           Column(
                             children: [
@@ -1495,297 +1279,105 @@ class EnglishEntryclose extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) ئامادەکردن و بەستنی ڕێککەوتنێکی بازرگانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Right now we are trying to close the deal with our sponsors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئێستادا ھەوڵ دەدەین ڕێککەوتنەکە لەگەڵ سپۆنسەرەکانمان کۆتایی پێبێنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses24("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses24("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Right now we are trying to close the deal with our sponsors.",
+                            kurdishText:
+                                "لە ئێستادا ھەوڵ دەدەین ڕێککەوتنەکە لەگەڵ سپۆنسەرەکانمان کۆتایی پێبێنین.",
+                            onPressedBritish: () => speakcloses24("en-GB"),
+                            onPressedAmerican: () => speakcloses24("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We closed a deal with a major supermarket."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتنێکمان لەگەڵ سوپەرمارکێتێکی گەورە بەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses25("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses25("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We closed a deal with a major supermarket.",
+                            kurdishText:
+                                "ڕێککەوتنێکمان لەگەڵ سوپەرمارکێتێکی گەورە بەست.",
+                            onPressedBritish: () => speakcloses25("en-GB"),
+                            onPressedAmerican: () => speakcloses25("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) کۆتایی ھێنان بە ھەڵەیەک لە شتێکدا کە مەترسی لە سەلامتیدا درووست دەکات یان دژ بە کەسێک دەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company acted quickly to close a security hole in its online systems."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە بە خێرایی ھەنگاوی نا بۆ چارەسەری کێشەیەکی سەلامەتی لە سیستەمی ئۆنلاینیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses26("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses26("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company acted quickly to close a security hole in its online systems.",
+                            kurdishText:
+                                "کۆمپانیاکە بە خێرایی ھەنگاوی نا بۆ چارەسەری کێشەیەکی سەلامەتی لە سیستەمی ئۆنلاینیدا.",
+                            onPressedBritish: () => speakcloses26("en-GB"),
+                            onPressedAmerican: () => speakcloses26("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Congressional leaders have agreed to close a loophole that gave small businesses a big tax break."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسانی کۆنگرێس ڕێککەوتن کۆتایی بە دەروویەک بێنن کە داشکانێکی گەورەی لە بادان دەدا بە بازرگانییە بچووکەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses27("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses27("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Congressional leaders have agreed to close a loophole that gave small businesses a big tax break.",
+                            kurdishText:
+                                "بەرپرسانی کۆنگرێس ڕێککەوتن کۆتایی بە دەروویەک بێنن کە داشکانێکی گەورەی لە بادان دەدا بە بازرگانییە بچووکەکان.",
+                            onPressedBritish: () => speakcloses27("en-GB"),
+                            onPressedAmerican: () => speakcloses27("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) وەستان لە بەکارھێنانی پڕۆگرامێک یان فایلێکی کۆمپیوتەرێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Once I got a few apps closed, it started working again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە چەند ئەپێکم داخست، دووبارە دەستی بە کارکردن کردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses28("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses28("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Once I got a few apps closed, it started working again.",
+                            kurdishText:
+                                "کە چەند ئەپێکم داخست، دووبارە دەستی بە کارکردن کردەوە.",
+                            onPressedBritish: () => speakcloses28("en-GB"),
+                            onPressedAmerican: () => speakcloses28("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٩. (کردار) نرخی شتێک لە کۆتایی ڕۆژێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The pound closed at (= was worth) \$1.47 at the end of the day's trading."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاوەند یەکسان بوو بە ١,٤٧ دۆلار لە کۆتایی مامەڵەی ڕۆژەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses29("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses29("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The pound closed at (= was worth) \$1.47 at the end of the day's trading.",
+                            kurdishText:
+                                "پاوەند یەکسان بوو بە ١,٤٧ دۆلار لە کۆتایی مامەڵەی ڕۆژەکەدا.",
+                            onPressedBritish: () => speakcloses29("en-GB"),
+                            onPressedAmerican: () => speakcloses29("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (کردار) کەمبوونی مەودای نێوان دوو کەس یان شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These measures are aimed at closing the gap between rich and poor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ھەنگاوانە ئامانج لێیانە کە مەودای نێوان دەوڵەمەند و ھەژار کەم بکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses30("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses30("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These measures are aimed at closing the gap between rich and poor.",
+                            kurdishText:
+                                "ئەم ھەنگاوانە ئامانج لێیانە کە مەودای نێوان دەوڵەمەند و ھەژار کەم بکاتەوە.",
+                            onPressedBritish: () => speakcloses30("en-GB"),
+                            onPressedAmerican: () => speakcloses30("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The gap between the two top teams is closing all the time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جیاوازی نێوان دوو تیمەکە ھەموو کات کەم دەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses31("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses31("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The gap between the two top teams is closing all the time.",
+                            kurdishText:
+                                "جیاوازی نێوان دوو تیمەکە ھەموو کات کەم دەبێتەوە.",
+                            onPressedBritish: () => speakcloses31("en-GB"),
+                            onPressedAmerican: () => speakcloses31("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١١. (ناو) کۆتایی ماوەیەک، کاتێک، یان چالاکییەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His life was drawing to a close."),
-                                    ExampleSentenceKurdish(
-                                        text: "ژیانی بە کۆتا دەگەشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses32("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses32("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His life was drawing to a close.",
+                            kurdishText: "ژیانی بە کۆتا دەگەشت.",
+                            onPressedBritish: () => speakcloses32("en-GB"),
+                            onPressedAmerican: () => speakcloses32("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Can we bring this meeting to a close?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەکرێت کۆتایی بەم گفتوگۆیە بێنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses33("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses33("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Can we bring this meeting to a close?",
+                            kurdishText: "دەکرێت کۆتایی بەم گفتوگۆیە بێنین.",
+                            onPressedBritish: () => speakcloses33("en-GB"),
+                            onPressedAmerican: () => speakcloses33("en-US"),
                           ),
                           Column(
                             children: [
@@ -1886,87 +1478,30 @@ class EnglishEntryclose extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "١٢. (ناو) داخران"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The door's close was gentle."),
-                                    ExampleSentenceKurdish(
-                                        text: "داخرانی دەرگاکە لەسەرخۆ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses37("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses37("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The door's close was gentle.",
+                            kurdishText: "داخرانی دەرگاکە لەسەرخۆ بوو.",
+                            onPressedBritish: () => speakcloses37("en-GB"),
+                            onPressedAmerican: () => speakcloses37("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "١٣. (ھاوەڵناو) نزیک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had no idea the beach was so close."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ زانیارییەکم نەبوو کەناراوەکە ھێندە نزیک بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses38("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses38("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had no idea the beach was so close.",
+                            kurdishText:
+                                "ھیچ زانیارییەکم نەبوو کەناراوەکە ھێندە نزیک بوو.",
+                            onPressedBritish: () => speakcloses38("en-GB"),
+                            onPressedAmerican: () => speakcloses38("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our new house is close to the school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووە تازەکەمان نزیکە لە قوتابخانەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses39("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses39("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our new house is close to the school.",
+                            kurdishText:
+                                "خانووە تازەکەمان نزیکە لە قوتابخانەکەوە.",
+                            onPressedBritish: () => speakcloses39("en-GB"),
+                            onPressedAmerican: () => speakcloses39("en-US"),
                           ),
                           Column(
                             children: [
@@ -2069,57 +1604,18 @@ class EnglishEntryclose extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١٤. (ناو) ناسی کەسێک زۆر بە باشی و خۆشویستنیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is very close to her father."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر نزیکە لە باوکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses43("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses43("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She is very close to her father.",
+                            kurdishText: "زۆر نزیکە لە باوکی.",
+                            onPressedBritish: () => speakcloses43("en-GB"),
+                            onPressedAmerican: () => speakcloses43("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Jo is a very close friend."),
-                                    ExampleSentenceKurdish(
-                                        text: "جۆ ھاوڕێیەکی گیانی بە گیانییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses44("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses44("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Jo is a very close friend.",
+                            kurdishText: "جۆ ھاوڕێیەکی گیانی بە گیانییە.",
+                            onPressedBritish: () => speakcloses44("en-GB"),
+                            onPressedAmerican: () => speakcloses44("en-US"),
                           ),
                           Column(
                             children: [
@@ -2190,60 +1686,22 @@ class EnglishEntryclose extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٥. (ھاوەڵناو) نزیک لە پەیوەندی خێزانیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The groom and his close family took their places."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاوا و ئەندامانی نزیکی خێزەنەکەی چوونە شوێنەکانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses47("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses47("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The groom and his close family took their places.",
+                            kurdishText:
+                                "زاوا و ئەندامانی نزیکی خێزەنەکەی چوونە شوێنەکانیان.",
+                            onPressedBritish: () => speakcloses47("en-GB"),
+                            onPressedAmerican: () => speakcloses47("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There weren't many people at the funeral - just close family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر کەس لە مەراسیمی ناشتنەکە نەبوون، تەنھا ئەندامانی نزیکی خێزان بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses48("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses48("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There weren't many people at the funeral - just close family.",
+                            kurdishText:
+                                "زۆر کەس لە مەراسیمی ناشتنەکە نەبوون، تەنھا ئەندامانی نزیکی خێزان بوون.",
+                            onPressedBritish: () => speakcloses48("en-GB"),
+                            onPressedAmerican: () => speakcloses48("en-US"),
                           ),
                           Column(
                             children: [
@@ -2286,60 +1744,22 @@ class EnglishEntryclose extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١٦. (ناو) زۆر بەژدار لە کار و چالاکی کەسێکی دیکە و بەردەوام بینین و قسەکردن لەگەڵیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has kept in close contact with the victims' families."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندی نزیکی ڕاگرتووە لەگەڵ خێزانی قوربانییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses50("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses50("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has kept in close contact with the victims' families.",
+                            kurdishText:
+                                "پەیوەندی نزیکی ڕاگرتووە لەگەڵ خێزانی قوربانییەکە.",
+                            onPressedBritish: () => speakcloses50("en-GB"),
+                            onPressedAmerican: () => speakcloses50("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have forged a close working relationship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندییەکی نزیکی کارکردنیان درووستکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses51("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses51("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have forged a close working relationship.",
+                            kurdishText:
+                                "پەیوەندییەکی نزیکی کارکردنیان درووستکردووە.",
+                            onPressedBritish: () => speakcloses51("en-GB"),
+                            onPressedAmerican: () => speakcloses51("en-US"),
                           ),
                           Column(
                             children: [
@@ -2441,59 +1861,21 @@ class EnglishEntryclose extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٧. (ھاوەڵناو) بە وریایی و تەواوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Take a close look at this photograph."),
-                                    ExampleSentenceKurdish(
-                                        text: "چاوێکی ورد بنۆڕە لەم وێنەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses55("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses55("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Take a close look at this photograph.",
+                            kurdishText: "چاوێکی ورد بنۆڕە لەم وێنەیە.",
+                            onPressedBritish: () => speakcloses55("en-GB"),
+                            onPressedAmerican: () => speakcloses55("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "On closer examination, the painting proved to be a fake."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای وردبوونەوەی وردتر، تابلۆکە وادەرچوو ساختە بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses56("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses56("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "On closer examination, the painting proved to be a fake.",
+                            kurdishText:
+                                "لە دوای وردبوونەوەی وردتر، تابلۆکە وادەرچوو ساختە بێت.",
+                            onPressedBritish: () => speakcloses56("en-GB"),
+                            onPressedAmerican: () => speakcloses56("en-US"),
                           ),
                           Column(
                             children: [
@@ -2566,60 +1948,20 @@ class EnglishEntryclose extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١٨. (ناو) نزیک لە دۆخێکی دیاریکراو؛ نزیک لە کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The airline is close to collapse."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێڵە ئاسمانییەکە نزیکە لە داڕمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses59("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses59("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The airline is close to collapse.",
+                            kurdishText: "ھێڵە ئاسمانییەکە نزیکە لە داڕمان.",
+                            onPressedBritish: () => speakcloses59("en-GB"),
+                            onPressedAmerican: () => speakcloses59("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The species is dangerously close to extinction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەشنەکە بەشێوەیەکی مەترسیدار نزیکە لە لەناوچوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses60("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses60("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The species is dangerously close to extinction.",
+                            kurdishText:
+                                "چەشنەکە بەشێوەیەکی مەترسیدار نزیکە لە لەناوچوون.",
+                            onPressedBritish: () => speakcloses60("en-GB"),
+                            onPressedAmerican: () => speakcloses60("en-US"),
                           ),
                           Column(
                             children: [
@@ -2691,60 +2033,21 @@ class EnglishEntryclose extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٩. (ھاوەڵناو) زۆر نزیک لە شتێک یان بڕێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's a close resemblance between them (= they look very similar)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێکچوونێکی زۆر ھەیە لە نێوانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses63("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses63("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's a close resemblance between them (= they look very similar).",
+                            kurdishText: "لێکچوونێکی زۆر ھەیە لە نێوانیان.",
+                            onPressedBritish: () => speakcloses63("en-GB"),
+                            onPressedAmerican: () => speakcloses63("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This movie is about as close to perfect as you could wish for."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە تا بەرزترین ئاست کە ھیوای پێ بخوازیت نزیکە لە بێ‌خەوشییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses64("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses64("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This movie is about as close to perfect as you could wish for.",
+                            kurdishText:
+                                "فیلمەکە تا بەرزترین ئاست کە ھیوای پێ بخوازیت نزیکە لە بێ‌خەوشییەوە.",
+                            onPressedBritish: () => speakcloses64("en-GB"),
+                            onPressedAmerican: () => speakcloses64("en-US"),
                           ),
                           Column(
                             children: [
@@ -2847,87 +2150,28 @@ class EnglishEntryclose extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢٠. (ناو) بردنەوە بە مەودایەک یان بڕێکی کەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was pretty close but we lost."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر نزیک بوو بەڵام دۆڕاندمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses68("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses68("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It was pretty close but we lost.",
+                            kurdishText: "زۆر نزیک بوو بەڵام دۆڕاندمان.",
+                            onPressedBritish: () => speakcloses68("en-GB"),
+                            onPressedAmerican: () => speakcloses68("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "No one expected such a close finish."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ کەس پێشبینی کۆتاییەکی وەھا سەختی نەدەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses69("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses69("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "No one expected such a close finish.",
+                            kurdishText:
+                                "ھیچ کەس پێشبینی کۆتاییەکی وەھا سەختی نەدەکرد.",
+                            onPressedBritish: () => speakcloses69("en-GB"),
+                            onPressedAmerican: () => speakcloses69("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The result is going to be too close to call (= either side may win)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەنجامەکان زۆر لە یەک نزیک دەبن کە پێشبینی بکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses70("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses70("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The result is going to be too close to call (= either side may win).",
+                            kurdishText:
+                                "ئەنجامەکان زۆر لە یەک نزیک دەبن کە پێشبینی بکرێن.",
+                            onPressedBritish: () => speakcloses70("en-GB"),
+                            onPressedAmerican: () => speakcloses70("en-US"),
                           ),
                           // const DividerDefinition(),
                           // const DefinitionKurdish(text: "٢١. (ھاوەڵناو) بۆ باسکردنی دۆخێک کە زۆرجار ناخۆش یان ترسناکە و نزیکە لە ڕوودان"),
@@ -2962,238 +2206,84 @@ class EnglishEntryclose extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢١. (ناو) بەبێ بۆشایی لە نێواندا، یان بە بۆشاییەکی کەمەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soldiers advanced in close formation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکان بۆ پێشەوە دەچوون بە ڕێکخستنێکی چکۆلە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses72("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses72("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soldiers advanced in close formation.",
+                            kurdishText:
+                                "سەربازەکان بۆ پێشەوە دەچوون بە ڕێکخستنێکی چکۆلە.",
+                            onPressedBritish: () => speakcloses72("en-GB"),
+                            onPressedAmerican: () => speakcloses72("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢٢. (ناو) زۆر کورت بڕاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A close haircut is ideal for hot weather."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قژێکی کوڵ زۆر باشە بۆ کەشێ گەرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses73("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses73("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A close haircut is ideal for hot weather.",
+                            kurdishText: "قژێکی کوڵ زۆر باشە بۆ کەشێ گەرم.",
+                            onPressedBritish: () => speakcloses73("en-GB"),
+                            onPressedAmerican: () => speakcloses73("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢٣. (ناو) زۆر بە توندی پاسەوانیکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The donor's identity is a close secret."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناسنامەی بەخشەرەکە نھێنییەکی پارێزراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses74("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses74("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The donor's identity is a close secret.",
+                            kurdishText:
+                                "ناسنامەی بەخشەرەکە نھێنییەکی پارێزراوە.",
+                            onPressedBritish: () => speakcloses74("en-GB"),
+                            onPressedAmerican: () => speakcloses74("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢٤. (ھاوەڵناو) گەرم بەشێوەیەکی ناخۆش بەھۆی ئەوەی زۆر ھەوای خۆش نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It’s very close today—I think there’s going to be a storm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمڕۆ زۆر بۆخاوە، پێم‌وایە زریانێک دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses75("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses75("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It’s very close today—I think there’s going to be a storm.",
+                            kurdishText:
+                                "ئەمڕۆ زۆر بۆخاوە، پێم‌وایە زریانێک دەبێت.",
+                            onPressedBritish: () => speakcloses75("en-GB"),
+                            onPressedAmerican: () => speakcloses75("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢٥. (ھاوەڵناو) کەسێک کە ئامادە نییە زانیاری لەسەر خۆی ئاشکرا بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was close about his past."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر داخراو بوو سەبارەت بە ڕابردووی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses76("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses76("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was close about his past.",
+                            kurdishText: "زۆر داخراو بوو سەبارەت بە ڕابردووی.",
+                            onPressedBritish: () => speakcloses76("en-GB"),
+                            onPressedAmerican: () => speakcloses76("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢٦. (ھاوەڵناو) ڕەزیل؛ چرووک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's always been very close with her money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە چڕووک بووە سەبارەت بە پارەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses77("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses77("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's always been very close with her money.",
+                            kurdishText:
+                                "ھەمیشە چڕووک بووە سەبارەت بە پارەکانی.",
+                            onPressedBritish: () => speakcloses77("en-GB"),
+                            onPressedAmerican: () => speakcloses77("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢٧. (ھاوەڵکار) نزیک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They sat close together."),
-                                    ExampleSentenceKurdish(
-                                        text: "نزیک لە یەک پێکەوە دانیشتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses78("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses78("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They sat close together.",
+                            kurdishText: "نزیک لە یەک پێکەوە دانیشتن.",
+                            onPressedBritish: () => speakcloses78("en-GB"),
+                            onPressedAmerican: () => speakcloses78("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A second police car followed close behind."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووەمین ئۆتۆمبێلی پۆلیس نزیک لە دواوە کەوتە شوێنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloses79("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloses79("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A second police car followed close behind.",
+                            kurdishText:
+                                "دووەمین ئۆتۆمبێلی پۆلیس نزیک لە دواوە کەوتە شوێنی.",
+                            onPressedBritish: () => speakcloses79("en-GB"),
+                            onPressedAmerican: () => speakcloses79("en-US"),
                           ),
                           Column(
                             children: [

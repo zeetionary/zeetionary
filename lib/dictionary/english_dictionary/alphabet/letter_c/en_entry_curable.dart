@@ -232,32 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) نەخۆشییەک کە دەکرێت چارەسەر بکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Most skin cancers are curable if treated early."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرینەی شێرپەنجەی پێست لەچارەھاتووە ئەگەر زوو چارەسەر بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Most skin cancers are curable if treated early.",
+            kurdishText:
+                "زۆرینەی شێرپەنجەی پێست لەچارەھاتووە ئەگەر زوو چارەسەر بکرێت.", // curable", please follow LX instructions
+            onPressedBritish: () => speakcurables1("en-GB"),
+            onPressedAmerican: () => speakcurables1("en-US"),
           ),
         ],
       ),

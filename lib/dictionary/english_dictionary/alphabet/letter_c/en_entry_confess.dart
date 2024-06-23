@@ -127,144 +127,48 @@ class EnglishEntryconfess extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) داننان بەوەی شتێکی نایاسایی یان ھەڵەت کردووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After hours of questioning, the suspect confessed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای چەندین کاتژمێر لە لێکۆڵینەوە، گومانلێکراوەکە لە کۆتاییدا دانیپیانا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confess", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After hours of questioning, the suspect confessed.",
+                            kurdishText:
+                                "لە دوای چەندین کاتژمێر لە لێکۆڵینەوە، گومانلێکراوەکە لە کۆتاییدا دانیپیانا.", // confess",
+                            onPressedBritish: () => speakconfesss1("en-GB"),
+                            onPressedAmerican: () => speakconfesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She confessed to the murder."),
-                                    ExampleSentenceKurdish(
-                                        text: "دانینا بە کوشتنەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She confessed to the murder.",
+                            kurdishText: "دانینا بە کوشتنەکەدا.",
+                            onPressedBritish: () => speakconfesss2("en-GB"),
+                            onPressedAmerican: () => speakconfesss2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He confessed that he had stolen the money."),
-                                    ExampleSentenceKurdish(
-                                        text: "دانینا بە دزینی پارەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He confessed that he had stolen the money.",
+                            kurdishText: "دانینا بە دزینی پارەکەدا.",
+                            onPressedBritish: () => speakconfesss3("en-GB"),
+                            onPressedAmerican: () => speakconfesss3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) داننان بە شتێک کە شەرمەزار یان خەجاڵەتی پێی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was reluctant to confess her ignorance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نابەدڵ بوو دان بە نەزانییدا بنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfesss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfesss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was reluctant to confess her ignorance.",
+                            kurdishText: "نابەدڵ بوو دان بە نەزانییدا بنێت.",
+                            onPressedBritish: () => speakconfesss4("en-GB"),
+                            onPressedAmerican: () => speakconfesss4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I must confess to knowing nothing about golf."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت دان بەوەدا بنێم ھیچ لەسەر گۆڵف نازانم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfesss5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfesss5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I must confess to knowing nothing about golf.",
+                            kurdishText:
+                                "دەبێت دان بەوەدا بنێم ھیچ لەسەر گۆڵف نازانم.",
+                            onPressedBritish: () => speakconfesss5("en-GB"),
+                            onPressedAmerican: () => speakconfesss5("en-US"),
                           ),
                         ],
                       ),

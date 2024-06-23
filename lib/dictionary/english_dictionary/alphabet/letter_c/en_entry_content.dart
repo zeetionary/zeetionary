@@ -236,527 +236,180 @@ class EnglishEntrycontent extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئەو شتانەی لە شتێکدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He tipped the contents of the bag onto the table."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناواخنی جانتاکەی خستە سەر مێزەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "content", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He tipped the contents of the bag onto the table.",
+                            kurdishText:
+                                "ناواخنی جانتاکەی خستە سەر مێزەکە.", // content",
+                            onPressedBritish: () => speakcontents1("en-GB"),
+                            onPressedAmerican: () => speakcontents1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Fire has caused severe damage to the contents of the building."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگر زیانی زۆری داوە لە شتەکانی ناو بیناکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Fire has caused severe damage to the contents of the building.",
+                            kurdishText:
+                                "ئاگر زیانی زۆری داوە لە شتەکانی ناو بیناکە.",
+                            onPressedBritish: () => speakcontents2("en-GB"),
+                            onPressedAmerican: () => speakcontents2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She picked up the glass and drank the contents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گڵاسەکەی ھەڵگرت و ئەوەی لە ناوی بوو خواردییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She picked up the glass and drank the contents.",
+                            kurdishText:
+                                "گڵاسەکەی ھەڵگرت و ئەوەی لە ناوی بوو خواردییەوە.",
+                            onPressedBritish: () => speakcontents3("en-GB"),
+                            onPressedAmerican: () => speakcontents3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) بەشە جیاوازەکانی کتێبێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scroll down the table of (= list of) contents to find areas that interest you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە خشتەی ناوەڕۆکەکاندا بچۆ خوارەوە بۆ دۆزینەوەی ئەو باباتانەی کە سەرنجت ڕادەکێشن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scroll down the table of (= list of) contents to find areas that interest you.",
+                            kurdishText:
+                                "بە خشتەی ناوەڕۆکەکاندا بچۆ خوارەوە بۆ دۆزینەوەی ئەو باباتانەی کە سەرنجت ڕادەکێشن.",
+                            onPressedBritish: () => speakcontents4("en-GB"),
+                            onPressedAmerican: () => speakcontents4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەو بابەتەی کتێبێک، وتارێک، پڕۆگرامێک، ھتد باسی دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her poetry has a good deal of political content."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھۆنراوەکانی ڕێژەیەکی زۆر لە ناوەڕۆکی سیاسییان تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her poetry has a good deal of political content.",
+                            kurdishText:
+                                "ھۆنراوەکانی ڕێژەیەکی زۆر لە ناوەڕۆکی سیاسییان تێدایە.",
+                            onPressedBritish: () => speakcontents5("en-GB"),
+                            onPressedAmerican: () => speakcontents5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The content of the course depends on what the students would like to study."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوەڕۆکی کۆرسەکە دەوەستێتە سەر ئەوەی خوێندکاران حەز دەکەن بیخوێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The content of the course depends on what the students would like to study.",
+                            kurdishText:
+                                "ناوەڕۆکی کۆرسەکە دەوەستێتە سەر ئەوەی خوێندکاران حەز دەکەن بیخوێنن.",
+                            onPressedBritish: () => speakcontents6("en-GB"),
+                            onPressedAmerican: () => speakcontents6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ئەو ڕێژەیە لە شت کە لە شتێکی دیکەدا جێگای دەبێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Chocolate has a high fat content."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چکلێت بڕێکی زۆر لە چەوری تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Chocolate has a high fat content.",
+                            kurdishText: "چکلێت بڕێکی زۆر لە چەوری تێدایە.",
+                            onPressedBritish: () => speakcontents7("en-GB"),
+                            onPressedAmerican: () => speakcontents7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) زانیاری و بابەتی دیکەی سەر وێبسایتێک یان میدیای دیجیتاڵی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We plan to spend more on creating content for the website."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانمان ھەیە زیاتر خەرج بکەین لە درووستکردنی بابەت بۆ وێبسایتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We plan to spend more on creating content for the website.",
+                            kurdishText:
+                                "پلانمان ھەیە زیاتر خەرج بکەین لە درووستکردنی بابەت بۆ وێبسایتەکە.",
+                            onPressedBritish: () => speakcontents8("en-GB"),
+                            onPressedAmerican: () => speakcontents8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They haven't updated the content of their site."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بابەتی سایتەکەیان تازە نەکردووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They haven't updated the content of their site.",
+                            kurdishText: "بابەتی سایتەکەیان تازە نەکردووەتەوە.",
+                            onPressedBritish: () => speakcontents9("en-GB"),
+                            onPressedAmerican: () => speakcontents9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) ئاسوودە بەوەی ھەتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Not content with stealing my boyfriend (= not thinking that this was enough), she has turned all my friends against me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەک ئەوەی ئاسوودە بووبێت بە دزینی دڵدارە کوڕەکەم، ھەموو ھاوڕێکانمی دژم ھانداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Not content with stealing my boyfriend (= not thinking that this was enough), she has turned all my friends against me.",
+                            kurdishText:
+                                "نەک ئەوەی ئاسوودە بووبێت بە دزینی دڵدارە کوڕەکەم، ھەموو ھاوڕێکانمی دژم ھانداوە.",
+                            onPressedBritish: () => speakcontents10("en-GB"),
+                            onPressedAmerican: () => speakcontents10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had to be content with third place."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەبێت قانع بێت بە پلەی سێیەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had to be content with third place.",
+                            kurdishText: "دەبێت قانع بێت بە پلەی سێیەم.",
+                            onPressedBritish: () => speakcontents11("en-GB"),
+                            onPressedAmerican: () => speakcontents11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She seemed quite content with the idea."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواو بەقەناعەت بوو بە پێشنیارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She seemed quite content with the idea.",
+                            kurdishText: "تەواو بەقەناعەت بوو بە پێشنیارەکە.",
+                            onPressedBritish: () => speakcontents12("en-GB"),
+                            onPressedAmerican: () => speakcontents12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) ئامادەی کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I was content to wait."),
-                                    ExampleSentenceKurdish(
-                                        text: "قایل بووم بە چاوەڕێ کردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I was content to wait.",
+                            kurdishText: "قایل بووم بە چاوەڕێ کردن.",
+                            onPressedBritish: () => speakcontents13("en-GB"),
+                            onPressedAmerican: () => speakcontents13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (ناو) ھەستی دڵخۆشی و ئاسوودەیی بەوەی ھەتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She stood for a moment looking with content at her husband."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ساتێک وەستا بە ڕەزامەندییەوە لە ھاوسەرەکەی ڕوانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She stood for a moment looking with content at her husband.",
+                            kurdishText:
+                                "بۆ ساتێک وەستا بە ڕەزامەندییەوە لە ھاوسەرەکەی ڕوانی.",
+                            onPressedBritish: () => speakcontents14("en-GB"),
+                            onPressedAmerican: () => speakcontents14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) پەسەندکردن و ڕازیبوون بەوەی ھەتە و ھەوڵی باشتر نەدەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Martina contented herself with a bowl of soup."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مارتینا بە دەفرێک شۆربا قەناعەتی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Martina contented herself with a bowl of soup.",
+                            kurdishText:
+                                "مارتینا بە دەفرێک شۆربا قەناعەتی کرد.",
+                            onPressedBritish: () => speakcontents15("en-GB"),
+                            onPressedAmerican: () => speakcontents15("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The crowd contented themselves with shouting insults."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەماوەرەکە خۆیان ئاسوودە کرد بە جوێندان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The crowd contented themselves with shouting insults.",
+                            kurdishText:
+                                "جەماوەرەکە خۆیان ئاسوودە کرد بە جوێندان.",
+                            onPressedBritish: () => speakcontents16("en-GB"),
+                            onPressedAmerican: () => speakcontents16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١١. (کردار) دڵخۆشکردن یان ئاسوودەکردنی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My apology seemed to content him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێبووردنخوازییەکەم وادیاربوو ئاسوودەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My apology seemed to content him.",
+                            kurdishText:
+                                "لێبووردنخوازییەکەم وادیاربوو ئاسوودەی کرد.",
+                            onPressedBritish: () => speakcontents17("en-GB"),
+                            onPressedAmerican: () => speakcontents17("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Nothing would content her."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ ھێوری نەدەکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontents18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontents18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Nothing would content her.",
+                            kurdishText: "ھیچ ھێوری نەدەکردەوە.",
+                            onPressedBritish: () => speakcontents18("en-GB"),
+                            onPressedAmerican: () => speakcontents18("en-US"),
                           ),
                         ],
                       ),

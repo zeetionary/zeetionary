@@ -146,150 +146,55 @@ class EnglishEntryconquer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) کۆنترۆڵکردنی وڵاتێک یان شارێک و خەڵکەکەی بە ھێز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Normans conquered England in 1066."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نۆرمانەکان لە ساڵی ١٠٦٦ ئینگلتەرەیان کۆنترۆڵ کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conquer", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconquers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconquers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Normans conquered England in 1066.",
+                            kurdishText:
+                                "نۆرمانەکان لە ساڵی ١٠٦٦ ئینگلتەرەیان کۆنترۆڵ کرد.", // conquer",
+                            onPressedBritish: () => speakconquers1("en-GB"),
+                            onPressedAmerican: () => speakconquers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In 330 BC Persia was conquered by Alexander the Great."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ساڵی ٣٣٠ پ.ز پێرسیای داگیرکرا لەلایەن ئەسکەندەری مەزنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconquers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconquers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In 330 BC Persia was conquered by Alexander the Great.",
+                            kurdishText:
+                                "لە ساڵی ٣٣٠ پ.ز پێرسیای داگیرکرا لەلایەن ئەسکەندەری مەزنەوە.",
+                            onPressedBritish: () => speakconquers2("en-GB"),
+                            onPressedAmerican: () => speakconquers2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Roman empire offered citizenship to its conquered peoples."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئیمپراتۆریەتی ڕۆم ناسنامەی دەدا بە کەسانی داگیرکراوی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconquers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconquers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Roman empire offered citizenship to its conquered peoples.",
+                            kurdishText:
+                                "ئیمپراتۆریەتی ڕۆم ناسنامەی دەدا بە کەسانی داگیرکراوی.",
+                            onPressedBritish: () => speakconquers3("en-GB"),
+                            onPressedAmerican: () => speakconquers3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بردنەوە لە کەسێک لە ڕکابەرییەک، پێشبڕکێیەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The world champion conquered yet another challenger last night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاڵەوانی جیھان دوێنێ شەو ڕکابەرێکی دیکەشی تێکشکاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconquers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconquers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The world champion conquered yet another challenger last night.",
+                            kurdishText:
+                                "پاڵەوانی جیھان دوێنێ شەو ڕکابەرێکی دیکەشی تێکشکاند.",
+                            onPressedBritish: () => speakconquers4("en-GB"),
+                            onPressedAmerican: () => speakconquers4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) سەرکەوتن لە مامەڵەکردن لەگەڵ شتێک یان کۆنترۆڵکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The only way to conquer a fear is to face it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا ڕێگا بۆ زاڵبوون بەسەر ترسێک ڕووبەڕووبوونەوەیەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconquers5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconquers5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The only way to conquer a fear is to face it.",
+                            kurdishText:
+                                "تەنھا ڕێگا بۆ زاڵبوون بەسەر ترسێک ڕووبەڕووبوونەوەیەتی.",
+                            onPressedBritish: () => speakconquers5("en-GB"),
+                            onPressedAmerican: () => speakconquers5("en-US"),
                           ),
                           // const DividerSentences(),
                           // Row(
@@ -322,32 +227,13 @@ class EnglishEntryconquer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) دەستکەوتنی ناوبانگ یان سەرکەوتنێکی زۆر لە شوێنێکی دیاریکراودا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is a British film which could conquer the US market."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە فیلمێکی بەریتانییە کە بازاڕی ئەمریکا داگیر دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconquers7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconquers7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is a British film which could conquer the US market.",
+                            kurdishText:
+                                "ئەمە فیلمێکی بەریتانییە کە بازاڕی ئەمریکا داگیر دەکات.",
+                            onPressedBritish: () => speakconquers7("en-GB"),
+                            onPressedAmerican: () => speakconquers7("en-US"),
                           ),
                         ],
                       ),

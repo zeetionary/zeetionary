@@ -119,123 +119,45 @@ class EnglishEntrycompose extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) نووسینی میوزیک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mozart composed his last opera shortly before he died."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆزارت کۆتا ئۆپێرای نووسی ماوەیەکی کەم پێش مردنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compose", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomposes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomposes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mozart composed his last opera shortly before he died.",
+                            kurdishText:
+                                "مۆزارت کۆتا ئۆپێرای نووسی ماوەیەکی کەم پێش مردنی.", // compose",
+                            onPressedBritish: () => speakcomposes1("en-GB"),
+                            onPressedAmerican: () => speakcomposes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) نووسینی نامەیەک، ھتد، زۆرجار بە وریایی زۆرەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She composed a letter of protest."),
-                                    ExampleSentenceKurdish(
-                                        text: "نامەیەکی ناڕەزایی نووسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomposes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomposes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She composed a letter of protest.",
+                            kurdishText: "نامەیەکی ناڕەزایی نووسی.",
+                            onPressedBritish: () => speakcomposes2("en-GB"),
+                            onPressedAmerican: () => speakcomposes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) پێکەوەنان بۆ درووستکردنی یەک شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ten people compose the committee."),
-                                    ExampleSentenceKurdish(
-                                        text: "دە کەس لیژنەکە پێکدێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomposes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomposes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Ten people compose the committee.",
+                            kurdishText: "دە کەس لیژنەکە پێکدێنن.",
+                            onPressedBritish: () => speakcomposes3("en-GB"),
+                            onPressedAmerican: () => speakcomposes3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) کۆنترۆڵکردنی ھەستەکانت و دەربڕینت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was so confused that I could hardly compose my thoughts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر شڵەژاو بووم کە بە ئاستەنگ بیرکردنەوەکانمم کۆنترۆڵ دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomposes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomposes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was so confused that I could hardly compose my thoughts.",
+                            kurdishText:
+                                "زۆر شڵەژاو بووم کە بە ئاستەنگ بیرکردنەوەکانمم کۆنترۆڵ دەکرد.",
+                            onPressedBritish: () => speakcomposes4("en-GB"),
+                            onPressedAmerican: () => speakcomposes4("en-US"),
                           ),
                         ],
                       ),

@@ -103,60 +103,22 @@ class EnglishEntrycockup extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ناو) شتێک کە بە خراپی کراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "So, it was delivered to the wrong place? What a cock-up!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەواتە، بۆ ناونیشانێکی ھەڵە نێردرا؟ چی سەھوویەک!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cock-up", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcockups1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcockups1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "So, it was delivered to the wrong place? What a cock-up!",
+                            kurdishText:
+                                "کەواتە، بۆ ناونیشانێکی ھەڵە نێردرا؟ چی سەھوویەک!", // cock-up",
+                            onPressedBritish: () => speakcockups1("en-GB"),
+                            onPressedAmerican: () => speakcockups1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's been a bit of a cock-up over the travel arrangements."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمێک شاشی لە ڕێکخستنەکانی گەشتەکەدا ڕوویداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcockups2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcockups2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's been a bit of a cock-up over the travel arrangements.",
+                            kurdishText:
+                                "کەمێک شاشی لە ڕێکخستنەکانی گەشتەکەدا ڕوویداوە.",
+                            onPressedBritish: () => speakcockups2("en-GB"),
+                            onPressedAmerican: () => speakcockups2("en-US"),
                           ),
                         ],
                       ),

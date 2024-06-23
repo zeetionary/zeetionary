@@ -104,62 +104,24 @@ class EnglishEntrycone extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شێوەیەک کە تەختە، خڕ، یان ھێلکەیی ھەیە و لایەلانی بەرەوە سەرەوە دەچن تاوەکو لە خاڵێک یەکدەگرن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The construction crew placed traffic cones along the road to divert traffic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمی بیناسازییەکە مۆتەی ھاتووچۆیان لە ڕێگاکەدا دانا بۆ گۆڕینی ئاراستەی ھاتووچۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cone", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcones1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcones1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The construction crew placed traffic cones along the road to divert traffic.",
+                            kurdishText:
+                                "تیمی بیناسازییەکە مۆتەی ھاتووچۆیان لە ڕێگاکەدا دانا بۆ گۆڕینی ئاراستەی ھاتووچۆ.", // cone",
+                            onPressedBritish: () => speakcones1("en-GB"),
+                            onPressedAmerican: () => speakcones1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شتێک کە شێوەی قووچەکی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children licked their ice cream cones as they walked through the park."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان قووچەکە ئایس کرێمییەکانیان دەلێسایەوە کە بە پارکەکەدا پیاسەیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcones2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcones2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children licked their ice cream cones as they walked through the park.",
+                            kurdishText:
+                                "منداڵەکان قووچەکە ئایس کرێمییەکانیان دەلێسایەوە کە بە پارکەکەدا پیاسەیان دەکرد.",
+                            onPressedBritish: () => speakcones2("en-GB"),
+                            onPressedAmerican: () => speakcones2("en-US"),
                           ),
                         ],
                       ),

@@ -244,60 +244,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەستکردن بە سەرلێشێواوی و نیگەرانی کە ڕەنگە کەسێک تووشی ببێت کاتێک سەردانی وڵاتێکی تر دەکات یان ئەزموونی شێوازێکی جیاواز لە ژیان دەکات کە زۆر جیاوازە لەوەی کە ڕاھاتووە پێی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He had never left his village before so arriving in the capital was a big culture shock."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەرگیز پێشووتر گوندەکەی جێنەھێشتبوو بۆیە گەشتن بە پایتەخت گورزێکی کەلتووری گەورە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "culture shock", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultureshocks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultureshocks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He had never left his village before so arriving in the capital was a big culture shock.",
+            kurdishText:
+                "ھەرگیز پێشووتر گوندەکەی جێنەھێشتبوو بۆیە گەشتن بە پایتەخت گورزێکی کەلتووری گەورە بوو.", // culture shock", please follow LX instructions
+            onPressedBritish: () => speakcultureshocks1("en-GB"),
+            onPressedAmerican: () => speakcultureshocks1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She experienced great culture shock when she first came to Europe."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تووشی شۆکی کەلتووری گەورە بوو کە یەکەمجار ھات بۆ ئەورووپا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultureshocks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultureshocks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She experienced great culture shock when she first came to Europe.",
+            kurdishText:
+                "تووشی شۆکی کەلتووری گەورە بوو کە یەکەمجار ھات بۆ ئەورووپا.",
+            onPressedBritish: () => speakcultureshocks2("en-GB"),
+            onPressedAmerican: () => speakcultureshocks2("en-US"),
           ),
         ],
       ),

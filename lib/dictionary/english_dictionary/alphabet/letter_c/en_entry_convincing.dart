@@ -102,59 +102,22 @@ class EnglishEntryconvincing extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کە کەسێک ڕازی دەکات بەوەی شتێک ڕاستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She sounded very convincing to me (= I believed what she said)."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر قایل‌کەر دیاربوو لام."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convincing", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvincings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvincings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She sounded very convincing to me (= I believed what she said).",
+                            kurdishText:
+                                "زۆر قایل‌کەر دیاربوو لام.", // convincing",
+                            onPressedBritish: () => speakconvincings1("en-GB"),
+                            onPressedAmerican: () => speakconvincings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was far from convincing as a leader."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک سەرکردەیەک ھیچ بەدەگەر/بەبڕشت نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvincings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvincings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was far from convincing as a leader.",
+                            kurdishText:
+                                "وەک سەرکردەیەک ھیچ بەدەگەر/بەبڕشت نەبوو.",
+                            onPressedBritish: () => speakconvincings2("en-GB"),
+                            onPressedAmerican: () => speakconvincings2("en-US"),
                           ),
                         ],
                       ),

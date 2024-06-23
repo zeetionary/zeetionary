@@ -162,272 +162,92 @@ class EnglishEntryconsequence extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئەنجامی شتێک کە ڕوویداوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Remember that actions have consequences."),
-                                    ExampleSentenceKurdish(
-                                        text: "بیرت بێت کردار ئەنجامی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consequence", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsequences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsequences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Remember that actions have consequences.",
+                            kurdishText:
+                                "بیرت بێت کردار ئەنجامی ھەیە.", // consequence",
+                            onPressedBritish: () => speakconsequences1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsequences1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Have you considered the possible consequences?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیرت لە ئەنجامە ڕێ‌تێچووەکان کردووەتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsequences2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsequences2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Have you considered the possible consequences?",
+                            kurdishText:
+                                "بیرت لە ئەنجامە ڕێ‌تێچووەکان کردووەتەوە؟",
+                            onPressedBritish: () => speakconsequences2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsequences2("en-US"),
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Reform often produces unintended consequences."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاکسازی ھەمیشە ئەنجامی نەخوازراو لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsequences3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsequences3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Reform often produces unintended consequences.",
+                            kurdishText:
+                                "چاکسازی ھەمیشە ئەنجامی نەخوازراو لەخۆدەگرێت.",
+                            onPressedBritish: () => speakconsequences3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsequences3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They must be prepared to accept the consequences of their actions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت ئامادە بن ئەنجامی کردارەکانیان پەسەند بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsequences4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsequences4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They must be prepared to accept the consequences of their actions.",
+                            kurdishText:
+                                "دەبێت ئامادە بن ئەنجامی کردارەکانیان پەسەند بکەن.",
+                            onPressedBritish: () => speakconsequences4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsequences4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This decision could have serious consequences for the industry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارەکە دەکرێت ئەنجامی خراپی ھەبێت بۆ پیشەسازییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsequences5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsequences5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This decision could have serious consequences for the industry.",
+                            kurdishText:
+                                "بڕیارەکە دەکرێت ئەنجامی خراپی ھەبێت بۆ پیشەسازییەکە.",
+                            onPressedBritish: () => speakconsequences5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsequences5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Two hundred people lost their jobs as a direct consequence of the merger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو سەد کەس کارەکانیان لە دەستدا لە ئەنجامی ڕاستەوخۆی یەکگرتنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsequences6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsequences6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Two hundred people lost their jobs as a direct consequence of the merger.",
+                            kurdishText:
+                                "دوو سەد کەس کارەکانیان لە دەستدا لە ئەنجامی ڕاستەوخۆی یەکگرتنەکە.",
+                            onPressedBritish: () => speakconsequences6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsequences6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) گرنگی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't worry. It's of no consequence."),
-                                    ExampleSentenceKurdish(
-                                        text: "نیگەران مەبە. گرنگی نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsequences7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsequences7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don't worry. It's of no consequence.",
+                            kurdishText: "نیگەران مەبە. گرنگی نییە.",
+                            onPressedBritish: () => speakconsequences7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsequences7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His work made him a person of some consequence in the art world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکەی کردی بە کەسێکی تا ڕادەیەک گرنگ لە جیھانی ھونەردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsequences8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsequences8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His work made him a person of some consequence in the art world.",
+                            kurdishText:
+                                "کارەکەی کردی بە کەسێکی تا ڕادەیەک گرنگ لە جیھانی ھونەردا.",
+                            onPressedBritish: () => speakconsequences8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsequences8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'd never done anything of consequence in my life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز ھیچ شتێکی گرنگم لە ژیانمدا نەکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsequences9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsequences9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'd never done anything of consequence in my life.",
+                            kurdishText:
+                                "ھەرگیز ھیچ شتێکی گرنگم لە ژیانمدا نەکردووە.",
+                            onPressedBritish: () => speakconsequences9("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsequences9("en-US"),
                           ),
                         ],
                       ),

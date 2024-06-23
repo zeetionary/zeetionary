@@ -193,32 +193,13 @@ class EnglishEntrycape extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جلێکی فش کە قۆڵی نییە و دەدرێت بەسەر شاندا، وەک عەبا وایە بەڵام کورتترە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He strode out of the room, his black cape flowing behind him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ژوورەکە ھاتە دەرەوە و کۆڵوانەکەی لە دواوەی فشبوو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cape", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He strode out of the room, his black cape flowing behind him.",
+                            kurdishText:
+                                "لە ژوورەکە ھاتە دەرەوە و کۆڵوانەکەی لە دواوەی فشبوو بوو.", // cape
+                            onPressedBritish: () => speakcapes1("en-GB"),
+                            onPressedAmerican: () => speakcapes1("en-US"),
                           ),
                         ],
                       ),

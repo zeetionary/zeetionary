@@ -104,63 +104,25 @@ class EnglishEntrychivalry extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەڵسوکەوتی پڕ لە ڕێز و میھرەبانانە، بەتایبەتی لەلایەن پیاوەوە بۆ ژنان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She appreciated the chivalry of opening doors for her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوامێری کردنەوەی دەرگای بۆی بەرز دەنرخاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chivalry", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchivalrys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchivalrys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She appreciated the chivalry of opening doors for her.",
+                            kurdishText:
+                                "جوامێری کردنەوەی دەرگای بۆی بەرز دەنرخاند.", // chivalry",
+                            onPressedBritish: () => speakchivalrys1("en-GB"),
+                            onPressedAmerican: () => speakchivalrys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) سیستەمی ھەڵسوکەوتی سەردەمی ناوەڕاست لەلایەن سوارچاکەکانەوە کە ڕێز و میھرەبانی و بوێری دەخستە ئاستێکی بەرز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The knight showed chivalry by defending the castle against invaders."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکە جوامێری پیشاندا بە بەرگری لە قەڵاکە دژ بە داگیرکەران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchivalrys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchivalrys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The knight showed chivalry by defending the castle against invaders.",
+                            kurdishText:
+                                "سەربازەکە جوامێری پیشاندا بە بەرگری لە قەڵاکە دژ بە داگیرکەران.",
+                            onPressedBritish: () => speakchivalrys2("en-GB"),
+                            onPressedAmerican: () => speakchivalrys2("en-US"),
                           ),
                         ],
                       ),

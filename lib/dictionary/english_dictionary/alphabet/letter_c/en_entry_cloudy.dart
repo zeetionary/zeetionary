@@ -109,90 +109,33 @@ class EnglishEntrycloudy extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) کەشێکی ھەوراوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It stayed cloudy for most of the day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ زۆرینەی ڕۆژەکە ھەوراوی مایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cloudy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloudys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloudys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It stayed cloudy for most of the day.",
+                            kurdishText:
+                                "بۆ زۆرینەی ڕۆژەکە ھەوراوی مایەوە.", // cloudy",
+                            onPressedBritish: () => speakcloudys1("en-GB"),
+                            onPressedAmerican: () => speakcloudys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Later it will become cloudy with rain in places."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دواتر ھەوراوی دەبێت لەگەڵ باران لە ژمارەیەک شوێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloudys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloudys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Later it will become cloudy with rain in places.",
+                            kurdishText:
+                                "دواتر ھەوراوی دەبێت لەگەڵ باران لە ژمارەیەک شوێن.",
+                            onPressedBritish: () => speakcloudys2("en-GB"),
+                            onPressedAmerican: () => speakcloudys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) لێڵ؛ تەڵخ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The water looked cloudy and not fit to drink."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاوەکە لێڵ دیاربوو و گونجاو نەبوو بۆ خواردنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloudys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloudys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The water looked cloudy and not fit to drink.",
+                            kurdishText:
+                                "ئاوەکە لێڵ دیاربوو و گونجاو نەبوو بۆ خواردنەوە.",
+                            onPressedBritish: () => speakcloudys3("en-GB"),
+                            onPressedAmerican: () => speakcloudys3("en-US"),
                           ),
                         ],
                       ),

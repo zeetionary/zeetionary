@@ -139,177 +139,63 @@ class EnglishEntryconfusion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخی شڵەژاوی؛ کە تێیدا نازانیت چی بکەیت، چی بڵێیت، واتای شتێک چییە، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The announcement caused a lot of confusion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاگەیاندنەکە بوو بەھۆی پەشۆکاوی زۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confusion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfusions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfusions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The announcement caused a lot of confusion.",
+                            kurdishText:
+                                "ڕاگەیاندنەکە بوو بەھۆی پەشۆکاوی زۆر.", // confusion",
+                            onPressedBritish: () => speakconfusions1("en-GB"),
+                            onPressedAmerican: () => speakconfusions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is some confusion about what the correct procedure should be."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک سەرلێ‌شێواوی ھەیە سەبارەت بەوەی کە ڕێکاری دروست دەبێت چی بێت.."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfusions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfusions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is some confusion about what the correct procedure should be.",
+                            kurdishText:
+                                "ھەندێک سەرلێ‌شێواوی ھەیە سەبارەت بەوەی کە ڕێکاری دروست دەبێت چی بێت..",
+                            onPressedBritish: () => speakconfusions2("en-GB"),
+                            onPressedAmerican: () => speakconfusions2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) تێکەڵکردنی ئەوەی کەسێک کێیە یان شتێک چییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "To avoid confusion, please write the children's names clearly on all their school clothes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ دووربوون لە تێکەڵکردن، تکایە ناوی منداڵەکان بە ڕوونی لەسەر جلی قوتابخانەیان بنووسن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfusions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfusions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "To avoid confusion, please write the children's names clearly on all their school clothes.",
+                            kurdishText:
+                                "بۆ دووربوون لە تێکەڵکردن، تکایە ناوی منداڵەکان بە ڕوونی لەسەر جلی قوتابخانەیان بنووسن.",
+                            onPressedBritish: () => speakconfusions3("en-GB"),
+                            onPressedAmerican: () => speakconfusions3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They are very hard to tell apart, so the confusion is understandable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر سەختن بۆ جیاکردنەوە، تێکەڵکردنەکە مایەی تێگەشتنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfusions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfusions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They are very hard to tell apart, so the confusion is understandable.",
+                            kurdishText:
+                                "زۆر سەختن بۆ جیاکردنەوە، تێکەڵکردنەکە مایەی تێگەشتنە.",
+                            onPressedBritish: () => speakconfusions4("en-GB"),
+                            onPressedAmerican: () => speakconfusions4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) دۆخێک کە نازانیت چی ڕوودەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Fighting had broken out and all was chaos and confusion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەڕ دەستی پێکردبوو و ھەمووی پشێوی و سەرلێ‌شێواوی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfusions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfusions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Fighting had broken out and all was chaos and confusion.",
+                            kurdishText:
+                                "شەڕ دەستی پێکردبوو و ھەمووی پشێوی و سەرلێ‌شێواوی بوو.",
+                            onPressedBritish: () => speakconfusions5("en-GB"),
+                            onPressedAmerican: () => speakconfusions5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her unexpected arrival threw us into total confusion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشتنی لەناکاوی خستمانییە ئاڵۆزییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfusions6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfusions6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her unexpected arrival threw us into total confusion.",
+                            kurdishText:
+                                "گەشتنی لەناکاوی خستمانییە ئاڵۆزییەوە.",
+                            onPressedBritish: () => speakconfusions6("en-GB"),
+                            onPressedAmerican: () => speakconfusions6("en-US"),
                           ),
                         ],
                       ),

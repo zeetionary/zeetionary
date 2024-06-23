@@ -146,202 +146,67 @@ class EnglishEntrycopyright extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەبوونی مافی بڵاوکردنەوەی شتێک بە شێوەی یاسایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Copyright expires seventy years after the death of the author."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مافی بڵاوکردنەوە حەفتا ساڵ لە دوای گیان لەدەستدانی نووسەر کۆتایی دێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "copyright", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopyrights1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopyrights1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Copyright expires seventy years after the death of the author.",
+                            kurdishText:
+                                "مافی بڵاوکردنەوە حەفتا ساڵ لە دوای گیان لەدەستدانی نووسەر کۆتایی دێت.", // copyright",
+                            onPressedBritish: () => speakcopyrights1("en-GB"),
+                            onPressedAmerican: () => speakcopyrights1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were sued for breach/infringement of copyright."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سکاڵایان لەسەر تۆمارکرا بۆ پێشێلکردنی مافی بڵاوکردنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopyrights2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopyrights2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were sued for breach/infringement of copyright.",
+                            kurdishText:
+                                "سکاڵایان لەسەر تۆمارکرا بۆ پێشێلکردنی مافی بڵاوکردنەوە.",
+                            onPressedBritish: () => speakcopyrights2("en-GB"),
+                            onPressedAmerican: () => speakcopyrights2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The songs remain in copyright."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆرانییەکان مافی بڵاوکردنەوەیان ماوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopyrights3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopyrights3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The songs remain in copyright.",
+                            kurdishText:
+                                "گۆرانییەکان مافی بڵاوکردنەوەیان ماوە.",
+                            onPressedBritish: () => speakcopyrights3("en-GB"),
+                            onPressedAmerican: () => speakcopyrights3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His work is now out of copyright."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکەی مافی بڵاوکردنەوەی لەدەستداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopyrights4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopyrights4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His work is now out of copyright.",
+                            kurdishText:
+                                "کارەکەی مافی بڵاوکردنەوەی لەدەستداوە.",
+                            onPressedBritish: () => speakcopyrights4("en-GB"),
+                            onPressedAmerican: () => speakcopyrights4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who owns the copyright on this song?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێ خاوەنی مافی بڵاوکردنەوەی ئەم گۆرانییەیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopyrights5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopyrights5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Who owns the copyright on this song?",
+                            kurdishText:
+                                "کێ خاوەنی مافی بڵاوکردنەوەی ئەم گۆرانییەیە؟",
+                            onPressedBritish: () => speakcopyrights5("en-GB"),
+                            onPressedAmerican: () => speakcopyrights5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) وەرگرتنی مافی بڵاوکردنەوە بۆ شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Even though he has copyrighted the design, that hasn't prevented companies from copying it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەرچی مافی بڵاوکردنەوەی بۆ دیزاینەکە وەرگرتووە، ئەوە ڕێگری لە کۆمپانیاکان نەکردووە کۆپی بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopyrights6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopyrights6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Even though he has copyrighted the design, that hasn't prevented companies from copying it.",
+                            kurdishText:
+                                "ئەگەرچی مافی بڵاوکردنەوەی بۆ دیزاینەکە وەرگرتووە، ئەوە ڕێگری لە کۆمپانیاکان نەکردووە کۆپی بکەن.",
+                            onPressedBritish: () => speakcopyrights6("en-GB"),
+                            onPressedAmerican: () => speakcopyrights6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If a work is copyrighted by the author, the protection lasts until 70 years after his or her death."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر بەرھەمێک لەلایەن نووسەرێکەوە مافی بەرگرتنەوەی بۆ وەربگیرێت، پاراستنەکە تاوەکو ٧٠ ساڵ دوای مردنی بەردەوام دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopyrights7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopyrights7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If a work is copyrighted by the author, the protection lasts until 70 years after his or her death.",
+                            kurdishText:
+                                "ئەگەر بەرھەمێک لەلایەن نووسەرێکەوە مافی بەرگرتنەوەی بۆ وەربگیرێت، پاراستنەکە تاوەکو ٧٠ ساڵ دوای مردنی بەردەوام دەبێت.",
+                            onPressedBritish: () => speakcopyrights7("en-GB"),
+                            onPressedAmerican: () => speakcopyrights7("en-US"),
                           ),
                         ],
                       ),

@@ -189,32 +189,13 @@ class EnglishEntrycanonlaw extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) یاسای کڵێسای مەسیحییەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Eastern Orthodox Church follows its unique canon law."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڵێسای ئۆرسۆدۆکسی ڕۆژھەڵات شوێن یاسای کڵێسای تایبەتی خۆی دەکەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canon law", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanonlaws1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanonlaws1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Eastern Orthodox Church follows its unique canon law.",
+                            kurdishText:
+                                "کڵێسای ئۆرسۆدۆکسی ڕۆژھەڵات شوێن یاسای کڵێسای تایبەتی خۆی دەکەوێت.", // canon law
+                            onPressedBritish: () => speakcanonlaws1("en-GB"),
+                            onPressedAmerican: () => speakcanonlaws1("en-US"),
                           ),
                         ],
                       ),

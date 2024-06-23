@@ -186,32 +186,13 @@ class EnglishEntrycdrom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جۆرە سی‌دییەک کە لەگەڵ کۆمپیوتەر بەکاردێت و زانیاری و دەنگ و وێنە لەسەری تەنھا دەخوێندرێتەوە و نانووسرێت لەلایەن کۆمپیوتەرەکەوە """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The encyclopedia is available on CD-ROM."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئینسایکلۆپیدیا بەردەستە بە سی‌دی-ڕۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "CD-ROM", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakCDROMs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakCDROMs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The encyclopedia is available on CD-ROM.",
+                            kurdishText:
+                                "ئینسایکلۆپیدیا بەردەستە بە سی‌دی-ڕۆم.", // CD-ROM",
+                            onPressedBritish: () => speakCDROMs1("en-GB"),
+                            onPressedAmerican: () => speakCDROMs1("en-US"),
                           ),
                         ],
                       ),

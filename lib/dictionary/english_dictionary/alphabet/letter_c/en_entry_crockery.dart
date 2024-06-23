@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گۆزەودیزە، قاپ‌وقاچاخی گڵێنە، گڵێنەمەنی، حاجەتی لە سواڵەت
 """),
           const DefinitionKurdish(text: "١. (ناو) قاپ‌وقاچاخی نانخواردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They would like crockery and cutlery as wedding presents."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حەزیان بە قاپ‌وقاچاخ و کەوچک و کاردە وەک دیاری ھاوسەرگیری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crockery", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrockerys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrockerys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They would like crockery and cutlery as wedding presents.",
+            kurdishText:
+                "حەزیان بە قاپ‌وقاچاخ و کەوچک و کاردە وەک دیاری ھاوسەرگیری.", // crockery", please follow LX instructions
+            onPressedBritish: () => speakcrockerys1("en-GB"),
+            onPressedAmerican: () => speakcrockerys1("en-US"),
           ),
         ],
       ),

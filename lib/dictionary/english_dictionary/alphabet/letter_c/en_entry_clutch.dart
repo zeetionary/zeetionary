@@ -193,380 +193,128 @@ class EnglishEntryclutch extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) گرتنی کەسێک/شتێک بە توندی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He clutched the child to him."),
-                                    ExampleSentenceKurdish(
-                                        text: "منداڵەکەی توند گرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clutch", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclutchs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclutchs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He clutched the child to him.",
+                            kurdishText: "منداڵەکەی توند گرتبوو.", // clutch",
+                            onPressedBritish: () => speakclutchs1("en-GB"),
+                            onPressedAmerican: () => speakclutchs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She stood there, the flowers still clutched in her hand."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەوێ وەستابوو، و گوڵەکان ھێشتا لەناو دەستی بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclutchs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclutchs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She stood there, the flowers still clutched in her hand.",
+                            kurdishText:
+                                "لەوێ وەستابوو، و گوڵەکان ھێشتا لەناو دەستی بوون.",
+                            onPressedBritish: () => speakclutchs2("en-GB"),
+                            onPressedAmerican: () => speakclutchs2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She clutched her handbag tightly in one hand."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جانتا دەستییەکەی توند گرتبوو بە دەستییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclutchs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclutchs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She clutched her handbag tightly in one hand.",
+                            kurdishText:
+                                "جانتا دەستییەکەی توند گرتبوو بە دەستییەوە.",
+                            onPressedBritish: () => speakclutchs3("en-GB"),
+                            onPressedAmerican: () => speakclutchs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) گرتنی شتێک لەناکاو، بەتایبەتی بەھۆی ئەوەی دەترسیت یان لە ئازاردایت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He collapsed, clutching his stomach."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەوت و گەدەی گرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclutchs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclutchs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He collapsed, clutching his stomach.",
+                            kurdishText: "کەوت و گەدەی گرتبوو.",
+                            onPressedBritish: () => speakclutchs4("en-GB"),
+                            onPressedAmerican: () => speakclutchs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کلاچی ئۆتۆمبێل کە بەکاردێت لە کاتی گێڕ گۆڕیندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Put your foot on the clutch."),
-                                    ExampleSentenceKurdish(
-                                        text: "پێت بخە سەر کلاچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclutchs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclutchs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Put your foot on the clutch.",
+                            kurdishText: "پێت بخە سەر کلاچەکە.",
+                            onPressedBritish: () => speakclutchs5("en-GB"),
+                            onPressedAmerican: () => speakclutchs5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Put it into first gear and let the clutch out slowly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیخە گێڕی یەک و بەھێواشی کلاچەکە بەربدە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclutchs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclutchs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Put it into first gear and let the clutch out slowly.",
+                            kurdishText:
+                                "بیخە گێڕی یەک و بەھێواشی کلاچەکە بەربدە.",
+                            onPressedBritish: () => speakclutchs6("en-GB"),
+                            onPressedAmerican: () => speakclutchs6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) دەزگایەک لە ئامێرێکدا کە بەشەکان پێکەوە دەبەستێت و جیادەکاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The car needs a new clutch."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلاچی ئۆتۆمبێلەکە پێویستی بە گۆڕینە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclutchs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclutchs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The car needs a new clutch.",
+                            kurdishText: "کلاچی ئۆتۆمبێلەکە پێویستی بە گۆڕینە.",
+                            onPressedBritish: () => speakclutchs7("en-GB"),
+                            onPressedAmerican: () => speakclutchs7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ناو) ژمارەیەک لە خەڵک، ئاژەڵ، یان شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's won a whole clutch of awards."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەستەیەک خەڵاتی بردووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclutchs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclutchs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's won a whole clutch of awards.",
+                            kurdishText: "دەستەیەک خەڵاتی بردووەتەوە.",
+                            onPressedBritish: () => speakclutchs8("en-GB"),
+                            onPressedAmerican: () => speakclutchs8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) ھێز و دەسەڵات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He managed to escape from their clutches."),
-                                    ExampleSentenceKurdish(
-                                        text: "توانی لە کۆنترۆڵیان ھەڵبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclutchs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclutchs9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He managed to escape from their clutches.",
+                            kurdishText: "توانی لە کۆنترۆڵیان ھەڵبێت.",
+                            onPressedBritish: () => speakclutchs9("en-GB"),
+                            onPressedAmerican: () => speakclutchs9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She fell into the clutches of the rebel forces."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەوتە ژێر چنگی ھێزە یاخییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclutchs10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclutchs10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She fell into the clutches of the rebel forces.",
+                            kurdishText: "کەوتە ژێر چنگی ھێزە یاخییەکان.",
+                            onPressedBritish: () => speakclutchs10("en-GB"),
+                            onPressedAmerican: () => speakclutchs10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) گرتنی توندی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She felt the sudden clutch of fear."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە تارمایی لەناکاوی ترس کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclutchs11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclutchs11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She felt the sudden clutch of fear.",
+                            kurdishText: "ھەستی بە تارمایی لەناکاوی ترس کرد.",
+                            onPressedBritish: () => speakclutchs11("en-GB"),
+                            onPressedAmerican: () => speakclutchs11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (ناو) ژمارەیەک ھێلکە کە باڵندەیەک لە یەک کاتدا دەیانکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The female lays a clutch of about seven eggs, laying one egg each day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێینەکە حەوت ھێلکە بەنزیکەیی دەکات، یەک ھێلکە بۆ ھەر ڕۆژێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclutchs12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclutchs12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The female lays a clutch of about seven eggs, laying one egg each day.",
+                            kurdishText:
+                                "مێینەکە حەوت ھێلکە بەنزیکەیی دەکات، یەک ھێلکە بۆ ھەر ڕۆژێک.",
+                            onPressedBritish: () => speakclutchs12("en-GB"),
+                            onPressedAmerican: () => speakclutchs12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (ھاوەڵناو) کردنی شتێک کە سەختە یان پێویستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Miami succeeds in clutch situations better than any other team."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میامی سەردەکەوێت لە دۆخە ھەستیارەکاندا باشتر لە ھەر تیمێکی دیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclutchs13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclutchs13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Miami succeeds in clutch situations better than any other team.",
+                            kurdishText:
+                                "میامی سەردەکەوێت لە دۆخە ھەستیارەکاندا باشتر لە ھەر تیمێکی دیکە.",
+                            onPressedBritish: () => speakclutchs13("en-GB"),
+                            onPressedAmerican: () => speakclutchs13("en-US"),
                           ),
                         ],
                       ),

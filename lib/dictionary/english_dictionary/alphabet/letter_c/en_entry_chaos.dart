@@ -128,143 +128,48 @@ class EnglishEntrychaos extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخێک کە پڕ لە ئاڵۆزی و شپرزەییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Heavy snow has caused total chaos on the roads."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەفربارینی سەخت بووە بەھۆی شپرزەیی تەواو لەسەر ڕێگاکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chaos", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchaoss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchaoss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Heavy snow has caused total chaos on the roads.",
+                            kurdishText:
+                                "بەفربارینی سەخت بووە بەھۆی شپرزەیی تەواو لەسەر ڕێگاکان.", // chaos",
+                            onPressedBritish: () => speakchaoss1("en-GB"),
+                            onPressedAmerican: () => speakchaoss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The house was in chaos after the party."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووەکە شپرزە بوو لە دوای ئاھەنگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchaoss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchaoss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The house was in chaos after the party.",
+                            kurdishText:
+                                "خانووەکە شپرزە بوو لە دوای ئاھەنگەکە.",
+                            onPressedBritish: () => speakchaoss2("en-GB"),
+                            onPressedAmerican: () => speakchaoss2("en-US"),
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country was thrown/plunged into chaos by the president's death."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتەکە کەوتە ناو پاشاگەردانییەوە لە دوای مردنی سەرۆک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchaoss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchaoss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The country was thrown/plunged into chaos by the president's death.",
+                            kurdishText:
+                                "وڵاتەکە کەوتە ناو پاشاگەردانییەوە لە دوای مردنی سەرۆک.",
+                            onPressedBritish: () => speakchaoss3("en-GB"),
+                            onPressedAmerican: () => speakchaoss3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Chaos broke out when the fire started."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشێوی دەستیپێکرد کە ئاگرەکە دەستیپێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchaoss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchaoss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Chaos broke out when the fire started.",
+                            kurdishText:
+                                "پشێوی دەستیپێکرد کە ئاگرەکە دەستیپێکرد.",
+                            onPressedBritish: () => speakchaoss4("en-GB"),
+                            onPressedAmerican: () => speakchaoss4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are on the brink of chaos, economically speaking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە لایەنی ئابوورییەوە قسەبکەین، لەسەر لێواری داڕووخانین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchaoss5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchaoss5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are on the brink of chaos, economically speaking.",
+                            kurdishText:
+                                "لە لایەنی ئابوورییەوە قسەبکەین، لەسەر لێواری داڕووخانین.",
+                            onPressedBritish: () => speakchaoss5("en-GB"),
+                            onPressedAmerican: () => speakchaoss5("en-US"),
                           ),
                         ],
                       ),

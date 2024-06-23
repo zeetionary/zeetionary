@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) درووستکردنی حەزی لە باوەش گرتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She described her son as a cuddly child who loved bedtime stories."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کوڕەکەی وەھا باسکرد کە منداڵێکی ژیکەڵە بوو و حەزی بە چیرۆکی خەوتنان بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cuddly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuddlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuddlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She described her son as a cuddly child who loved bedtime stories.",
+            kurdishText:
+                "کوڕەکەی وەھا باسکرد کە منداڵێکی ژیکەڵە بوو و حەزی بە چیرۆکی خەوتنان بوو.", // cuddly", please follow LX instructions
+            onPressedBritish: () => speakcuddlys1("en-GB"),
+            onPressedAmerican: () => speakcuddlys1("en-US"),
           ),
         ],
       ),

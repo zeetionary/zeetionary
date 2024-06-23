@@ -103,60 +103,21 @@ class EnglishEntrycondone extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پەسەندکردنی ڕەفتاری نائەخلاقی، یان مامەڵەکردن لەگەڵی وەک ئەوەی گرنگ نەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Terrorism can never be condoned."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیرۆریزم نابێت ھەرگیز چاوپۆشێ لێبکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "condone", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondones1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondones1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Terrorism can never be condoned.",
+                            kurdishText:
+                                "تیرۆریزم نابێت ھەرگیز چاوپۆشێ لێبکرێت.", // condone",
+                            onPressedBritish: () => speakcondones1("en-GB"),
+                            onPressedAmerican: () => speakcondones1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The college cannot condone any behaviour that involves illicit drugs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆلێژەکە ھیچ ھەڵسوکەوتێک چاوپۆشێ لێ ناکات کە پەیوەندیدارە بە مادەی ھۆشبەری نایاسایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondones2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondones2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The college cannot condone any behaviour that involves illicit drugs.",
+                            kurdishText:
+                                "کۆلێژەکە ھیچ ھەڵسوکەوتێک چاوپۆشێ لێ ناکات کە پەیوەندیدارە بە مادەی ھۆشبەری نایاسایی.",
+                            onPressedBritish: () => speakcondones2("en-GB"),
+                            onPressedAmerican: () => speakcondones2("en-US"),
                           ),
                         ],
                       ),

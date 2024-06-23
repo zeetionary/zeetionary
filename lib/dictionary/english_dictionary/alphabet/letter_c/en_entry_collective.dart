@@ -122,88 +122,31 @@ class EnglishEntrycollective extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە ھەموو ئەندامانی گرووپێک؛ کردنی شتێک لەلایەن ھەموو ئەندامانی گرووپێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "MPs heaved a collective sigh of relief when the news was announced last night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندامانی پەرلەمان ھەناسەیەکی بەکۆمەڵی ئارامکەرەوەیان ھەڵکێشا کە ھەواڵەکە دوێنێ شەو ڕاگەیەندرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collective", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollectives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollectives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "MPs heaved a collective sigh of relief when the news was announced last night.",
+                            kurdishText:
+                                "ئەندامانی پەرلەمان ھەناسەیەکی بەکۆمەڵی ئارامکەرەوەیان ھەڵکێشا کە ھەواڵەکە دوێنێ شەو ڕاگەیەندرا.", // collective",
+                            onPressedBritish: () => speakcollectives1("en-GB"),
+                            onPressedAmerican: () => speakcollectives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The austerities of wartime Europe were still fresh in the collective memory."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆخی سەختی ماوەی جەنگ لە ئەورووپا ھێشتا تازە بوو لە یادەوەری ھەمواندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollectives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollectives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The austerities of wartime Europe were still fresh in the collective memory.",
+                            kurdishText:
+                                "دۆخی سەختی ماوەی جەنگ لە ئەورووپا ھێشتا تازە بوو لە یادەوەری ھەمواندا.",
+                            onPressedBritish: () => speakcollectives2("en-GB"),
+                            onPressedAmerican: () => speakcollectives2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There has to be a balance between individual choice and collective responsibility."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت ھاوسەنگییەک ھەبێت لە نێوان بڕیاری تاکەکەسی و بەرپرسیاریەتیی گشتگیر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollectives3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollectives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There has to be a balance between individual choice and collective responsibility.",
+                            kurdishText:
+                                "دەبێت ھاوسەنگییەک ھەبێت لە نێوان بڕیاری تاکەکەسی و بەرپرسیاریەتیی گشتگیر.",
+                            onPressedBritish: () => speakcollectives3("en-GB"),
+                            onPressedAmerican: () => speakcollectives3("en-US"),
                           ),
                           // const DividerDefinition(),
                           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) بۆ ئاماژەکردن بە تەواوی ئەندامانی گرووپێک"),

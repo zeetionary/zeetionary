@@ -258,115 +258,38 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) لەخۆگرتنی بەکارھێنانی خەیاڵ و شارەزایی بۆ درووستکردنی شتێکی تازە یان کارێکی ھونەری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She channels her creative energy into her art."),
-                    ExampleSentenceKurdish(
-                        text: "وزەی ئافرێنەری دەخاتە گەڕ بۆ ھونەرەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creative", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreatives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreatives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She channels her creative energy into her art.",
+            kurdishText:
+                "وزەی ئافرێنەری دەخاتە گەڕ بۆ ھونەرەکەی.", // creative", please follow LX instructions
+            onPressedBritish: () => speakcreatives1("en-GB"),
+            onPressedAmerican: () => speakcreatives1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You can get creative with this recipe and add whatever fruit you like."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانیت تازەگەر بیت بەم ڕەچەتەیەوە و چیت بوێت تێی بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreatives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreatives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You can get creative with this recipe and add whatever fruit you like.",
+            kurdishText:
+                "دەتوانیت تازەگەر بیت بەم ڕەچەتەیەوە و چیت بوێت تێی بکەیت.",
+            onPressedBritish: () => speakcreatives2("en-GB"),
+            onPressedAmerican: () => speakcreatives2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) داھێنەر و تازەگەر؛ ھەبوونی شارەزایی بۆ کردنی شتێکی تازە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She's very creative—she writes poetry and paints."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر داھێنەرە، ھۆنراوە دەنووسێت و وێنە دەکێشێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreatives3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreatives3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's very creative—she writes poetry and paints.",
+            kurdishText: "زۆر داھێنەرە، ھۆنراوە دەنووسێت و وێنە دەکێشێت.",
+            onPressedBritish: () => speakcreatives3("en-GB"),
+            onPressedAmerican: () => speakcreatives3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Do you have any ideas? You're the creative one."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ بیرۆکەیەکت ھەیە؟ کەسە داھێنەرەکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreatives4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreatives4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do you have any ideas? You're the creative one.",
+            kurdishText: "ھیچ بیرۆکەیەکت ھەیە؟ کەسە داھێنەرەکەیت.",
+            onPressedBritish: () => speakcreatives4("en-GB"),
+            onPressedAmerican: () => speakcreatives4("en-US"),
           ),
         ],
       ),

@@ -248,85 +248,28 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بە لاری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A large portrait was hanging crookedly on the wall."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وێنەیەکی گەورە بە لاری لەسەر دیوارەکە ھەڵواسرابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crookedly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrookedlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrookedlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A large portrait was hanging crookedly on the wall.",
+            kurdishText:
+                "وێنەیەکی گەورە بە لاری لەسەر دیوارەکە ھەڵواسرابوو.", // crookedly", please follow LX instructions
+            onPressedBritish: () => speakcrookedlys1("en-GB"),
+            onPressedAmerican: () => speakcrookedlys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵکار) بەشێوەیەکی ناڕاستگۆیانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Officials can act crookedly."),
-                    ExampleSentenceKurdish(
-                        text: "بەرپرسان دەکرێت بە ناڕاستگۆیانە ھەنگاو بنێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrookedlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrookedlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Officials can act crookedly.",
+            kurdishText: "بەرپرسان دەکرێت بە ناڕاستگۆیانە ھەنگاو بنێن.",
+            onPressedBritish: () => speakcrookedlys2("en-GB"),
+            onPressedAmerican: () => speakcrookedlys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She smiled crookedly at me."),
-                    ExampleSentenceKurdish(
-                        text: "بە ناسەرڕاستییەوە پێم پێدەکەنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrookedlys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrookedlys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She smiled crookedly at me.",
+            kurdishText: "بە ناسەرڕاستییەوە پێم پێدەکەنی.",
+            onPressedBritish: () => speakcrookedlys3("en-GB"),
+            onPressedAmerican: () => speakcrookedlys3("en-US"),
           ),
         ],
       ),

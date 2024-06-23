@@ -193,152 +193,56 @@ class EnglishEntrycaptain extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە بەڕێوبەری کەشتییەک یان فڕۆکەیەکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The captain gave the order to abandon ship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاپتنەکە فەرمانی جیھێشتنی کەشتییەکەی دەرکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "captain", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptains1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptains1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The captain gave the order to abandon ship.",
+                            kurdishText:
+                                "کاپتنەکە فەرمانی جیھێشتنی کەشتییەکەی دەرکرد.", // captain
+                            onPressedBritish: () => speakcaptains1("en-GB"),
+                            onPressedAmerican: () => speakcaptains1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The captain of the plane announced our arrival."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاپتنی فڕۆکەکە گەشتنمانی ڕاگەیاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptains2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptains2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The captain of the plane announced our arrival.",
+                            kurdishText: "کاپتنی فڕۆکەکە گەشتنمانی ڕاگەیاند.",
+                            onPressedBritish: () => speakcaptains2("en-GB"),
+                            onPressedAmerican: () => speakcaptains2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەفسەرێکی تا ڕادەیەک پلە بەرز لە ھێزی دەریایی، ئاسمانی، و سوپای ئەمریکادا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has since been promoted to the rank of captain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلەی لەوکاتەوە بەرزکراوەتەوە بۆ پلەی کاپتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptains3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptains3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has since been promoted to the rank of captain.",
+                            kurdishText:
+                                "پلەی لەوکاتەوە بەرزکراوەتەوە بۆ پلەی کاپتن.",
+                            onPressedBritish: () => speakcaptains3("en-GB"),
+                            onPressedAmerican: () => speakcaptains3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) سەرکردەی کۆمەڵە کەسێک، بەتایبەتی تیمێکی وەرزشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's a former captain of the English national team."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاپتنی پێشووتری ھەڵبژاردەی نیشتیمانیی ئینگلتەرەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptains4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptains4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's a former captain of the English national team.",
+                            kurdishText:
+                                "کاپتنی پێشووتری ھەڵبژاردەی نیشتیمانیی ئینگلتەرەیە.",
+                            onPressedBritish: () => speakcaptains4("en-GB"),
+                            onPressedAmerican: () => speakcaptains4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) ھەڵگری پۆستی کاپتنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She will captain England on their match against Australia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕابەرایەتی ئینگلتەرە دەکات لە یارییەکەیان دژ بە ئوسترالیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptains5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptains5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She will captain England on their match against Australia.",
+                            kurdishText:
+                                "ڕابەرایەتی ئینگلتەرە دەکات لە یارییەکەیان دژ بە ئوسترالیا.",
+                            onPressedBritish: () => speakcaptains5("en-GB"),
+                            onPressedAmerican: () => speakcaptains5("en-US"),
                           ),
                         ],
                       ),

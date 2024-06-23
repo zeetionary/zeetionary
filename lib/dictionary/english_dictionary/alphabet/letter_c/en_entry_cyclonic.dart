@@ -241,60 +241,22 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پەیوەندیدار بە باھۆز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In the Pacific, tropical cyclonic storms cause destruction like nowhere else in the world."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە زەریای ھێمندا، زریانی باھۆزی خولگەیی دەبێتە ھۆی وێرانکاری جیاواز لە ھەموو شوێنێکی دیکەی جیھان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cyclonic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcyclonics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcyclonics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In the Pacific, tropical cyclonic storms cause destruction like nowhere else in the world.",
+            kurdishText:
+                "لە زەریای ھێمندا، زریانی باھۆزی خولگەیی دەبێتە ھۆی وێرانکاری جیاواز لە ھەموو شوێنێکی دیکەی جیھان.", // cyclonic", please follow LX instructions
+            onPressedBritish: () => speakcyclonics1("en-GB"),
+            onPressedAmerican: () => speakcyclonics1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She is working as an engineer on a housebuilding project in a cyclonic area in the Caribbean."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەک ئەندازیارێک کار دەکات لەسەر پڕۆژەیەکی بنیادنانی خانوو لە ناوچەیەکی باھۆزاوی کاریبی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcyclonics2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcyclonics2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She is working as an engineer on a housebuilding project in a cyclonic area in the Caribbean.",
+            kurdishText:
+                "وەک ئەندازیارێک کار دەکات لەسەر پڕۆژەیەکی بنیادنانی خانوو لە ناوچەیەکی باھۆزاوی کاریبی.",
+            onPressedBritish: () => speakcyclonics2("en-GB"),
+            onPressedAmerican: () => speakcyclonics2("en-US"),
           ),
         ],
       ),

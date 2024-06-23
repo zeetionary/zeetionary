@@ -95,32 +95,13 @@ class EnglishEntrycommander extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە بەرپرسی شتێکە، بەتایبەتی بەرپرسی گرووپێک یان ئۆپەراسیۆنێکی سەربازی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "General Eisenhower was Supreme Allied Commander in Western Europe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژەنەراڵ ئایزنھاوەر فەرمانداری باڵای ھاوپەیمانان بوو لە ڕۆژئاوای ئەورووپا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commander", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommanders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommanders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "General Eisenhower was Supreme Allied Commander in Western Europe.",
+                            kurdishText:
+                                "ژەنەراڵ ئایزنھاوەر فەرمانداری باڵای ھاوپەیمانان بوو لە ڕۆژئاوای ئەورووپا.", // commander",
+                            onPressedBritish: () => speakcommanders1("en-GB"),
+                            onPressedAmerican: () => speakcommanders1("en-US"),
                           ),
                         ],
                       ),

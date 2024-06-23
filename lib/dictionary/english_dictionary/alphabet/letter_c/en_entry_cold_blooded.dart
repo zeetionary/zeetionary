@@ -102,67 +102,26 @@ class EnglishEntrycoldblooded extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بێ ھەست و دڕندە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The author's novel featured a chilling portrayal of a cold-blooded killer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆمانی نووسەرەکە وێنایەکی تۆقێنەری بکوژێکی بێ ھەست بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cold-blooded", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoldbloodeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoldbloodeds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The author's novel featured a chilling portrayal of a cold-blooded killer.",
+                            kurdishText:
+                                "ڕۆمانی نووسەرەکە وێنایەکی تۆقێنەری بکوژێکی بێ ھەست بوو.", // cold-blooded",
+                            onPressedBritish: () => speakcoldbloodeds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoldbloodeds1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئاژەڵی خوێن سارد؛ ئەو ئاژەڵانەی کە پلەی گەرمی جەستەیان پشت بە ژینگە دەبەستێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Snakes and lizards are cold-blooded animals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مار و مارمێلکە ئاژەڵی خوێن ساردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoldbloodeds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoldbloodeds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Snakes and lizards are cold-blooded animals.",
+                            kurdishText: "مار و مارمێلکە ئاژەڵی خوێن ساردن.",
+                            onPressedBritish: () => speakcoldbloodeds2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoldbloodeds2("en-US"),
                           ),
                         ],
                       ),

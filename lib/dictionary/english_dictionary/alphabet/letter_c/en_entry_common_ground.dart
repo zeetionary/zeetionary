@@ -105,64 +105,26 @@ class EnglishEntrycommonground extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بۆچوونێک، بیرۆکەیەک، یان ئامانجێک کە ڕازیت لەسەری لەگەڵ کەسێکی دیکەدا، بەڵام مەرج نییە لە شتی دیکەدا پێکەوە ڕازی بن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Despite our disagreements, we have been able to find some common ground."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەڕای ناکۆکییەکانمان، توانیومانە خاڵی ھاوبەش بدۆزینەوە لە نێوانماندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "common ground", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommongrounds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommongrounds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Despite our disagreements, we have been able to find some common ground.",
+                            kurdishText:
+                                "سەرەڕای ناکۆکییەکانمان، توانیومانە خاڵی ھاوبەش بدۆزینەوە لە نێوانماندا.", // common ground",
+                            onPressedBritish: () =>
+                                speakcommongrounds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommongrounds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We found ourselves on common ground on the question of education."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشتین بە خاڵی ھاوبەش لە بارەی بابەتی پەروەردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommongrounds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommongrounds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We found ourselves on common ground on the question of education.",
+                            kurdishText:
+                                "گەشتین بە خاڵی ھاوبەش لە بارەی بابەتی پەروەردەوە.",
+                            onPressedBritish: () =>
+                                speakcommongrounds2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommongrounds2("en-US"),
                           ),
                         ],
                       ),

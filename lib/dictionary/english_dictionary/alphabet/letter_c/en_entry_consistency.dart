@@ -129,157 +129,56 @@ class EnglishEntryconsistency extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خاسیەتی بەردەوام ڕەفتارکردن بە یەک شێواز یان ھەبوونی ھەمان بۆچوون، ستاندارد، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has played with great consistency all season."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی وەرزەکە نەگۆڕی ناوازەوە یاری کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consistency", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsistencys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsistencys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has played with great consistency all season.",
+                            kurdishText:
+                                "تەواوی وەرزەکە نەگۆڕی ناوازەوە یاری کردووە.", // consistency",
+                            onPressedBritish: () => speakconsistencys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsistencys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We need to ensure the consistency of service to our customers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت دڵنیایی لە نەگۆڕی خزمەتگوزاری بۆ کڕیارانمان بکەینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsistencys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsistencys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We need to ensure the consistency of service to our customers.",
+                            kurdishText:
+                                "دەبێت دڵنیایی لە نەگۆڕی خزمەتگوزاری بۆ کڕیارانمان بکەینەوە.",
+                            onPressedBritish: () => speakconsistencys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsistencys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has shown remarkable consistency in his exam results."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێگیریی نایابی پیشانداوە لە ئەنجامی تاقیکردنەوەکانیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsistencys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsistencys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has shown remarkable consistency in his exam results.",
+                            kurdishText:
+                                "جێگیریی نایابی پیشانداوە لە ئەنجامی تاقیکردنەوەکانیدا.",
+                            onPressedBritish: () => speakconsistencys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsistencys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئاستی خەستی، شلی، ھتد ـی تێکەڵەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Beat the ingredients together to a creamy consistency."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەچەتەکان پێکەوە بکوتە بۆ خەستییەکی کرێمدار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsistencys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsistencys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Beat the ingredients together to a creamy consistency.",
+                            kurdishText:
+                                "ڕەچەتەکان پێکەوە بکوتە بۆ خەستییەکی کرێمدار.",
+                            onPressedBritish: () => speakconsistencys4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsistencys4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soil is baked to a rock-like consistency."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوڕەکە گەرمکراوە بۆ ئاستی ڕەقی بەرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsistencys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsistencys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soil is baked to a rock-like consistency.",
+                            kurdishText: "قوڕەکە گەرمکراوە بۆ ئاستی ڕەقی بەرد.",
+                            onPressedBritish: () => speakconsistencys5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsistencys5("en-US"),
                           ),
                         ],
                       ),

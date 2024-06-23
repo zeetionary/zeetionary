@@ -95,32 +95,13 @@ class EnglishEntrychromosome extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) یەکێک لە پێکھاتە بچووکەکانی ئاژەڵ و ڕووەک کە وەک تاڵە موویەک وایە و جینەکانی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Humans have 23 pairs of chromosomes in their cells."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مرۆڤ ٢٣ جووتەکرۆمۆسۆمی ھەیە لە خانەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chromosome", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchromosomes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchromosomes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Humans have 23 pairs of chromosomes in their cells.",
+                            kurdishText:
+                                "مرۆڤ ٢٣ جووتەکرۆمۆسۆمی ھەیە لە خانەکانی.", // chromosome",
+                            onPressedBritish: () => speakchromosomes1("en-GB"),
+                            onPressedAmerican: () => speakchromosomes1("en-US"),
                           ),
                         ],
                       ),

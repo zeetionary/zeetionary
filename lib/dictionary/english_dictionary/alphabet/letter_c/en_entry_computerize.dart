@@ -102,66 +102,25 @@ class EnglishEntrycomputerize extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) دابینکردنی کۆمپیوتەر بۆ کردنی کارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The factory has been fully computerized."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارگەکە بە تەواوی بە کۆمپیوتەر کراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "computerize", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomputerizes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomputerizes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The factory has been fully computerized.",
+                            kurdishText:
+                                "کارگەکە بە تەواوی بە کۆمپیوتەر کراوە.", // computerize",
+                            onPressedBritish: () => speakcomputerizes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomputerizes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) کۆگاکردن لەسەر کۆمپیوتەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The firm has computerized its records."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە تۆمارەکانی ھەڵگرتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomputerizes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomputerizes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The firm has computerized its records.",
+                            kurdishText: "کۆمپانیاکە تۆمارەکانی ھەڵگرتووە.",
+                            onPressedBritish: () => speakcomputerizes2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomputerizes2("en-US"),
                           ),
                         ],
                       ),

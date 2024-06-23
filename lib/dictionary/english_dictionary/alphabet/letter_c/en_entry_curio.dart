@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) شتێکی بچووک کە دەگمەن یان نائاساییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The antique shop was filled with all sorts of curios."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فرۆشگا ئەنتیکەکە پڕبوو لە ھەموو جۆرە دانسقەیەک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curio", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurios1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurios1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The antique shop was filled with all sorts of curios.",
+            kurdishText:
+                "فرۆشگا ئەنتیکەکە پڕبوو لە ھەموو جۆرە دانسقەیەک.", // curio", please follow LX instructions
+            onPressedBritish: () => speakcurios1("en-GB"),
+            onPressedAmerican: () => speakcurios1("en-US"),
           ),
         ],
       ),

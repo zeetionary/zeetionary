@@ -231,30 +231,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕووترش، مڕومۆچ، مۆن، ڕووگرژ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) توڕە و بێزار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You're very crabby today. What's bothering you?"),
-                    ExampleSentenceKurdish(text: "ئەمڕۆ زۆر مۆنیت. چی بووە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crabby", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrabbys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrabbys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You're very crabby today. What's bothering you?",
+            kurdishText:
+                "ئەمڕۆ زۆر مۆنیت. چی بووە؟", // crabby", please follow LX instructions
+            onPressedBritish: () => speakcrabbys1("en-GB"),
+            onPressedAmerican: () => speakcrabbys1("en-US"),
           ),
         ],
       ),

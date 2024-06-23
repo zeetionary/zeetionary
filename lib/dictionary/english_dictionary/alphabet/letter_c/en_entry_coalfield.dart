@@ -95,32 +95,13 @@ class EnglishEntrycoalfield extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوچەیەک کە ڕێژەیەکی زۆر خەڵووزی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The coalfield provided jobs for many local residents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵووزەڵانەکە کاری بۆ ژمارەیەکی زۆر لە ھاوڵاتیان ڕەخساند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coalfield", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoalfields1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoalfields1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The coalfield provided jobs for many local residents.",
+                            kurdishText:
+                                "خەڵووزەڵانەکە کاری بۆ ژمارەیەکی زۆر لە ھاوڵاتیان ڕەخساند.", // coalfield",
+                            onPressedBritish: () => speakcoalfields1("en-GB"),
+                            onPressedAmerican: () => speakcoalfields1("en-US"),
                           ),
                         ],
                       ),

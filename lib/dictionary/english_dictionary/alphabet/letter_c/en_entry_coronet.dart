@@ -241,61 +241,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) تاجێکی بچووک کە لەلایەن شازادە و شازادە خاتوون و بەگزادەکانەوە لەسەر دەکرێت لە بۆنەکاندا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The painting of the queen showed her wearing a golden coronet."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تابلۆی شاژنەکە پیشانی دا بە لەسەرکردنی تاجۆکەیەکی ئاڵتوونییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "coronet", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoronets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoronets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The painting of the queen showed her wearing a golden coronet.",
+            kurdishText:
+                "تابلۆی شاژنەکە پیشانی دا بە لەسەرکردنی تاجۆکەیەکی ئاڵتوونییەوە.", // coronet", please follow LX instructions
+            onPressedBritish: () => speakcoronets1("en-GB"),
+            onPressedAmerican: () => speakcoronets1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ڕازاندنەوەیەکی خڕ بۆ لەسەرکردن، بە تایبەت کە لە گوڵ دروستکرا بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The bride wore a beautiful roses in her hair."),
-                    ExampleSentenceKurdish(
-                        text: "بووکەکە تاجەگوڵێکی جوانی لە قژی بەستبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoronets2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoronets2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The bride wore a beautiful roses in her hair.",
+            kurdishText: "بووکەکە تاجەگوڵێکی جوانی لە قژی بەستبوو.",
+            onPressedBritish: () => speakcoronets2("en-GB"),
+            onPressedAmerican: () => speakcoronets2("en-US"),
           ),
         ],
       ),

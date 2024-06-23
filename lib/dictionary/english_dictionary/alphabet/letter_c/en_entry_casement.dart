@@ -191,32 +191,13 @@ class EnglishEntrycasement extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پەنجەرەیەک کە وەک دەرگا دەکرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Casement windows are popular in older homes for their charming design."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجەرەی دەرگایی لە خانووە کۆنەکاندا باون بەھۆی دیزاینی جوانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "casement", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasements1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasements1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Casement windows are popular in older homes for their charming design.",
+                            kurdishText:
+                                "پەنجەرەی دەرگایی لە خانووە کۆنەکاندا باون بەھۆی دیزاینی جوانیان.", // casement",
+                            onPressedBritish: () => speakcasements1("en-GB"),
+                            onPressedAmerican: () => speakcasements1("en-US"),
                           ),
                         ],
                       ),

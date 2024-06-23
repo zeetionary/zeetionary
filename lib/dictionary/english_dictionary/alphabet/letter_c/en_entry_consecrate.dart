@@ -110,92 +110,34 @@ class EnglishEntryconsecrate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بە فەرمی گوتن لە بۆنەیەکدا کە شتێک پیرۆزە و دەکرێت بۆ مەبەستی ئایینی بەکاربێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The church was consecrated in 1853."),
-                                    ExampleSentenceKurdish(
-                                        text: "کڵێساکە لە ١٨٥٣ پیرۆزکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consecrate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsecrates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsecrates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The church was consecrated in 1853.",
+                            kurdishText:
+                                "کڵێساکە لە ١٨٥٣ پیرۆزکرا.", // consecrate",
+                            onPressedBritish: () => speakconsecrates1("en-GB"),
+                            onPressedAmerican: () => speakconsecrates1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بە فەرمی دیاریکردنی کەسێک وەک قەشە، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was consecrated (as) bishop last year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵی ڕابردوو وەک قەشەی باڵا ڕاگەیەنرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsecrates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsecrates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was consecrated (as) bishop last year.",
+                            kurdishText:
+                                "ساڵی ڕابردوو وەک قەشەی باڵا ڕاگەیەنرا.",
+                            onPressedBritish: () => speakconsecrates2("en-GB"),
+                            onPressedAmerican: () => speakconsecrates2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) پێدانی ئامانجێک بە خۆت، کەسێک، شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She consecrated her life to God."),
-                                    ExampleSentenceKurdish(
-                                        text: "خۆی بۆ خودا تەرخانکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsecrates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsecrates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She consecrated her life to God.",
+                            kurdishText: "خۆی بۆ خودا تەرخانکرد.",
+                            onPressedBritish: () => speakconsecrates3("en-GB"),
+                            onPressedAmerican: () => speakconsecrates3("en-US"),
                           ),
                         ],
                       ),

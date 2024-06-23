@@ -189,60 +189,22 @@ class EnglishEntrycasing extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بەرگێک کە شتێک دەپارێزێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The keyboard has a black plastic casing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کیبۆردەکە بەرگێکی پلاستیکی ڕەشی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "casing", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The keyboard has a black plastic casing.",
+                            kurdishText:
+                                "کیبۆردەکە بەرگێکی پلاستیکی ڕەشی ھەبوو.", // casing",
+                            onPressedBritish: () => speakcasings1("en-GB"),
+                            onPressedAmerican: () => speakcasings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The factory produced shell casings and grenades."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارگەکە قەباخی گوللەتۆپ و نارنجۆکی درووست دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The factory produced shell casings and grenades.",
+                            kurdishText:
+                                "کارگەکە قەباخی گوللەتۆپ و نارنجۆکی درووست دەکرد.",
+                            onPressedBritish: () => speakcasings2("en-GB"),
+                            onPressedAmerican: () => speakcasings2("en-US"),
                           ),
                         ],
                       ),

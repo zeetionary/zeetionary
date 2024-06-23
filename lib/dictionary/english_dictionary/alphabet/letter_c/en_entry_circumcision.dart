@@ -95,34 +95,15 @@ class EnglishEntrycircumcision extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خەتەنە؛ کرداری لێکردنەوەی داپۆشەری سەری چووکی کوڕێک یان پیاوێک بۆ ھۆکاری ئایینی یان تەندرووستی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Circumcision is an important rite in a number of religions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەتەنەکردن بۆنەیەکی گرنگە لە ژمارەیەک ئاییندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circumcision", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcircumcisions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcircumcisions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Circumcision is an important rite in a number of religions.",
+                            kurdishText:
+                                "خەتەنەکردن بۆنەیەکی گرنگە لە ژمارەیەک ئاییندا.", // circumcision",
+                            onPressedBritish: () =>
+                                speakcircumcisions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcircumcisions1("en-US"),
                           ),
                         ],
                       ),

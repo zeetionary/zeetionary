@@ -103,64 +103,24 @@ class EnglishEntrycommonsense extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) توانای بیرکردنەوە بەشێوەیەکی کرداری و بڕیاردانی ژیرانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For goodness' sake, just use your common sense!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ خاتری خودا، تەنھا ژیریت بەکاربێنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "common sense", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommonsenses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommonsenses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For goodness' sake, just use your common sense!",
+                            kurdishText:
+                                "بۆ خاتری خودا، تەنھا ژیریت بەکاربێنە.", // common sense",
+                            onPressedBritish: () => speakcommonsenses1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommonsenses1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It’s common sense to keep medicines away from children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە بیروھۆشی تەواوە کە دەرمان لە منداڵان بەدووربگریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommonsenses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommonsenses2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It’s common sense to keep medicines away from children.",
+                            kurdishText:
+                                "ئەوە بیروھۆشی تەواوە کە دەرمان لە منداڵان بەدووربگریت.",
+                            onPressedBritish: () => speakcommonsenses2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommonsenses2("en-US"),
                           ),
                         ],
                       ),

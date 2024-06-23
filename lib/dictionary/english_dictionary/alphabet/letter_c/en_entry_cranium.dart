@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کاسەی سەر؛ ئەو پێکھاتە ئێسکییەی کە سەر پێکدێنێت و مێشک دەپارێزێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cranium is made up of several bones fused together."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاسەی سەر لە ژمارەیەک ئێسک پێکھاتووە کە پێکەوە لکاون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cranium", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraniums1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraniums1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cranium is made up of several bones fused together.",
+            kurdishText:
+                "کاسەی سەر لە ژمارەیەک ئێسک پێکھاتووە کە پێکەوە لکاون.", // cranium", please follow LX instructions
+            onPressedBritish: () => speakcraniums1("en-GB"),
+            onPressedAmerican: () => speakcraniums1("en-US"),
           ),
         ],
       ),

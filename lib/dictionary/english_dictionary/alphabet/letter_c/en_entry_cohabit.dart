@@ -104,60 +104,22 @@ class EnglishEntrycohabit extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ژیانکردن پێکەوە و ھەبوونی پەیوەندی سێکسی بەبێ ھاوسەرگیری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She refused to cohabit with him before the wedding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەتیکردەوە پێش ھاوسەرگیرییەکە لەگەڵی بژی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cohabit", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcohabits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcohabits1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She refused to cohabit with him before the wedding.",
+                            kurdishText:
+                                "ڕەتیکردەوە پێش ھاوسەرگیرییەکە لەگەڵی بژی.", // cohabit",
+                            onPressedBritish: () => speakcohabits1("en-GB"),
+                            onPressedAmerican: () => speakcohabits1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "About 23 percent of men and women aged 25 to 34 told researchers they had previously cohabited with a partner without it leading to marriage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نزیکەی ٢٣ لە سەدی پیاوان و ٢٥ بۆ ٣٤ لە سەدی ژنان بە توێژەرانیان گوت کە پێشووتر لەگەڵ ھاوسەرێک ژیاون بەبێ کۆتایی ھاتن بە ھاوسەرگیری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcohabits2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcohabits2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "About 23 percent of men and women aged 25 to 34 told researchers they had previously cohabited with a partner without it leading to marriage.",
+                            kurdishText:
+                                "نزیکەی ٢٣ لە سەدی پیاوان و ٢٥ بۆ ٣٤ لە سەدی ژنان بە توێژەرانیان گوت کە پێشووتر لەگەڵ ھاوسەرێک ژیاون بەبێ کۆتایی ھاتن بە ھاوسەرگیری.",
+                            onPressedBritish: () => speakcohabits2("en-GB"),
+                            onPressedAmerican: () => speakcohabits2("en-US"),
                           ),
                         ],
                       ),

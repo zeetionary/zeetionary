@@ -240,59 +240,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بە شێوەیەک کە جێگای ستایشە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The team performed creditably."),
-                    ExampleSentenceKurdish(
-                        text: "تیمەکە بە شایستەی ستایشەوە نمایشیان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creditably", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreditablys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreditablys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The team performed creditably.",
+            kurdishText:
+                "تیمەکە بە شایستەی ستایشەوە نمایشیان کرد.", // creditably", please follow LX instructions
+            onPressedBritish: () => speakcreditablys1("en-GB"),
+            onPressedAmerican: () => speakcreditablys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵکار) لە ڕووی ئەخلاقییەوە باش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They very creditably tried to help."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر بە نیەت‌پاکییەوە ھەوڵیان دا یارمەتی پێشکەش بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreditablys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreditablys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They very creditably tried to help.",
+            kurdishText: "زۆر بە نیەت‌پاکییەوە ھەوڵیان دا یارمەتی پێشکەش بکەن.",
+            onPressedBritish: () => speakcreditablys2("en-GB"),
+            onPressedAmerican: () => speakcreditablys2("en-US"),
           ),
         ],
       ),

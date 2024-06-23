@@ -234,31 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھێمایەکی پێغەمبەر عیسا بەسەر خاچەوە کە وەک سمبولی ئایینی مەسیحییەت بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She always wears a small gold crucifix round her neck."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمیشە خاچێکی بچووکی ئاڵتوونی لە ملی دەبەستێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crucifix", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrucifixs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrucifixs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She always wears a small gold crucifix round her neck.",
+            kurdishText:
+                "ھەمیشە خاچێکی بچووکی ئاڵتوونی لە ملی دەبەستێت.", // crucifix", please follow LX instructions
+            onPressedBritish: () => speakcrucifixs1("en-GB"),
+            onPressedAmerican: () => speakcrucifixs1("en-US"),
           ),
         ],
       ),

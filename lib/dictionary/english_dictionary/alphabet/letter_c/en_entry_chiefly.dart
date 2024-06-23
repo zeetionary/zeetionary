@@ -103,60 +103,22 @@ class EnglishEntrychiefly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) وەک ھۆکاری سەرەکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's travelled widely, chiefly in Africa and Asia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەفراوانی گەشت دەکات، بەتایبەتی لە ئەفریقا و ئاسیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chiefly", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchieflys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchieflys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's travelled widely, chiefly in Africa and Asia.",
+                            kurdishText:
+                                "بەفراوانی گەشت دەکات، بەتایبەتی لە ئەفریقا و ئاسیا.", // chiefly",
+                            onPressedBritish: () => speakchieflys1("en-GB"),
+                            onPressedAmerican: () => speakchieflys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The following chapter is chiefly concerned with answering these questions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشی دواتر بەشێوەیەکی سەرەکی سەرنج دەخاتە سەر وەڵامدانەوەی ئەم پرسیارانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchieflys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchieflys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The following chapter is chiefly concerned with answering these questions.",
+                            kurdishText:
+                                "بەشی دواتر بەشێوەیەکی سەرەکی سەرنج دەخاتە سەر وەڵامدانەوەی ئەم پرسیارانە.",
+                            onPressedBritish: () => speakchieflys2("en-GB"),
+                            onPressedAmerican: () => speakchieflys2("en-US"),
                           ),
                         ],
                       ),

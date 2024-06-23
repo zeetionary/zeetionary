@@ -94,34 +94,14 @@ class EnglishEntrycombustible extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە بە ئاسانی دەست دەکات بە سووتان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Wood and coal are both combustible substances."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دار و خەڵووز ھەردووکیان مادەی بسووتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "combustible", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcombustibles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcombustibles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Wood and coal are both combustible substances.",
+                            kurdishText:
+                                "دار و خەڵووز ھەردووکیان مادەی بسووتن.", // combustible",
+                            onPressedBritish: () => speakcombustibles1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcombustibles1("en-US"),
                           ),
                         ],
                       ),

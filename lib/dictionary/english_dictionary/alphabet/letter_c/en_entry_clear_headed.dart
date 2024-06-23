@@ -94,34 +94,14 @@ class EnglishEntryclearheaded extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) مێشک ساف؛ ھەبوونی توانای بیرکردنەوە بە ڕوونی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In business Jane was clear-headed and decisive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بڕیارداندا جەین مێشک ساف و بڕیاردەر بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clear-headed", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclearheadeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclearheadeds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In business Jane was clear-headed and decisive.",
+                            kurdishText:
+                                "لە بڕیارداندا جەین مێشک ساف و بڕیاردەر بوو.", // clear-headed",
+                            onPressedBritish: () => speakclearheadeds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclearheadeds1("en-US"),
                           ),
                         ],
                       ),

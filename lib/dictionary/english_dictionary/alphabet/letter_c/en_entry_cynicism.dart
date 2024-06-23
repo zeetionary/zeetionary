@@ -242,60 +242,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەو باوەڕەی کە خەڵکی تەنھا بۆ سوودی خۆیان کاردەکەن و ھۆکاری دڵسۆزی و باشەیان نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In a world full of cynicism she was the one person I felt I could trust."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دونیایەکی پڕ لە بەدگومانیدا ئەو ئەو تاکە کەسە بوو کە ھەستم دەکرد دەتوانم متمانەی پێ بکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cynicism", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcynicisms1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcynicisms1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In a world full of cynicism she was the one person I felt I could trust.",
+            kurdishText:
+                "لە دونیایەکی پڕ لە بەدگومانیدا ئەو ئەو تاکە کەسە بوو کە ھەستم دەکرد دەتوانم متمانەی پێ بکەم.", // cynicism", please follow LX instructions
+            onPressedBritish: () => speakcynicisms1("en-GB"),
+            onPressedAmerican: () => speakcynicisms1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) باوەڕی ئەوەی کە شتێکی باش ڕوونادات یان ئەوەی شتێک گرنگ نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The response was one of cynicism."),
-                    ExampleSentenceKurdish(text: "وەڵامەکەی ڕەشبینی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcynicisms2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcynicisms2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The response was one of cynicism.",
+            kurdishText: "وەڵامەکەی ڕەشبینی بوو.",
+            onPressedBritish: () => speakcynicisms2("en-GB"),
+            onPressedAmerican: () => speakcynicisms2("en-US"),
           ),
         ],
       ),

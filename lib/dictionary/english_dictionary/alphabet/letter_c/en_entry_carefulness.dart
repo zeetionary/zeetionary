@@ -192,64 +192,24 @@ class EnglishEntrycarefulness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گرنیدان و ھۆشیاری بە شتێک کە دەیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is evident from her notes that she read with great carefulness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تێبینییەکانییەوە دیارە کە بۆ وریایی تەواوە خوێندییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carefulness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarefulnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarefulnesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is evident from her notes that she read with great carefulness.",
+                            kurdishText:
+                                "لە تێبینییەکانییەوە دیارە کە بۆ وریایی تەواوە خوێندییەوە.", // carefulness",
+                            onPressedBritish: () => speakcarefulnesss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarefulnesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The carefulness of his answer made him seem evasive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگایی لە وەڵامەکەیدا وەک خۆدزەرەوە دەریخست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarefulnesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarefulnesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The carefulness of his answer made him seem evasive.",
+                            kurdishText:
+                                "ئاگایی لە وەڵامەکەیدا وەک خۆدزەرەوە دەریخست.",
+                            onPressedBritish: () => speakcarefulnesss2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarefulnesss2("en-US"),
                           ),
                         ],
                       ),

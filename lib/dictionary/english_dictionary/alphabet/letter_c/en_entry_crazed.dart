@@ -241,59 +241,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) پڕ لە ھەست و بەبێ کۆنترۆڵ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He became crazed with anger."),
-                    ExampleSentenceKurdish(text: "لە تووڕەییدا ڕق‌ھەستاو بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crazed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He became crazed with anger.",
+            kurdishText:
+                "لە تووڕەییدا ڕق‌ھەستاو بوو.", // crazed", please follow LX instructions
+            onPressedBritish: () => speakcrazeds1("en-GB"),
+            onPressedAmerican: () => speakcrazeds1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) بە ژمارەیەکی زۆر درز یان قڵیشانەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The ancient vase is still in one piece but finely crazed all over."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گوڵدانە کۆنەکە ھێشتا یەک پارچەیە بەڵام ھەمووی درزی باریکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The ancient vase is still in one piece but finely crazed all over.",
+            kurdishText:
+                "گوڵدانە کۆنەکە ھێشتا یەک پارچەیە بەڵام ھەمووی درزی باریکە.",
+            onPressedBritish: () => speakcrazeds2("en-GB"),
+            onPressedAmerican: () => speakcrazeds2("en-US"),
           ),
         ],
       ),

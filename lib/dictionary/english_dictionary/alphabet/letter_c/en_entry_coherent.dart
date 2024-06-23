@@ -111,91 +111,33 @@ class EnglishEntrycoherent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ڕوون و ئاسان؛ بەشێوەیەک کە ڕێکخراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The party's policies were based on prejudice rather than on any coherent ideology."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیاسەتەکانی پارتەکە لەسەر ڕق دامەزرابوون نەک ئایدۆلۆژیایەکی یەکگرتوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coherent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoherents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoherents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The party's policies were based on prejudice rather than on any coherent ideology.",
+                            kurdishText:
+                                "سیاسەتەکانی پارتەکە لەسەر ڕق دامەزرابوون نەک ئایدۆلۆژیایەکی یەکگرتوو.", // coherent",
+                            onPressedBritish: () => speakcoherents1("en-GB"),
+                            onPressedAmerican: () => speakcoherents1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She gave a clear, coherent account to the court."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گێڕانەوەیەکی ڕوون و ڕێکخراوی دا بە دادگا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoherents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoherents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She gave a clear, coherent account to the court.",
+                            kurdishText:
+                                "گێڕانەوەیەکی ڕوون و ڕێکخراوی دا بە دادگا.",
+                            onPressedBritish: () => speakcoherents2("en-GB"),
+                            onPressedAmerican: () => speakcoherents2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) کەسێک کە بە ڕوونی قسە دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When she calmed down, she was more coherent (= able to speak clearly and be understood)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە ئارام بوویەوە قسەڕەوانتر بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoherents3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoherents3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When she calmed down, she was more coherent (= able to speak clearly and be understood).",
+                            kurdishText: "کە ئارام بوویەوە قسەڕەوانتر بوو.",
+                            onPressedBritish: () => speakcoherents3("en-GB"),
+                            onPressedAmerican: () => speakcoherents3("en-US"),
                           ),
                         ],
                       ),

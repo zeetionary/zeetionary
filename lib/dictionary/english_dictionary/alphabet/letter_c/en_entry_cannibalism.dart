@@ -193,34 +193,14 @@ class EnglishEntrycannibalism extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کردەی خواردنی مرۆڤ، یان خواردنی ئاژەڵێک لەلایەن یەکێکی دیکەی ھاوجۆری خۆی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The paper describes a Stone Age tribe that practised cannibalism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژینەوەکە باس لە خێڵێکی چاخی بەردین دەکات کە کاری مرۆڤخۆریان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cannibalism", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcannibalisms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcannibalisms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The paper describes a Stone Age tribe that practised cannibalism.",
+                            kurdishText:
+                                "توێژینەوەکە باس لە خێڵێکی چاخی بەردین دەکات کە کاری مرۆڤخۆریان دەکرد.", // cannibalism",
+                            onPressedBritish: () => speakcannibalisms1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcannibalisms1("en-US"),
                           ),
                         ],
                       ),

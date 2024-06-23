@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) واژۆکردن یان مۆرکردنی بەڵگەنامەیەک کە پێشووتر لەلایەن کەسێکی دیکەوە واژۆ یان مۆرکراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All orders must be countersigned by one of the directors."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو فەرمانەکان دەبێت دووبارە واژۆ بکرێن لەلایەن یەکێک لە بەڕێوبەرەکانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "countersign", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountersigns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountersigns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All orders must be countersigned by one of the directors.",
+            kurdishText:
+                "ھەموو فەرمانەکان دەبێت دووبارە واژۆ بکرێن لەلایەن یەکێک لە بەڕێوبەرەکانەوە.", // countersign", please follow LX instructions
+            onPressedBritish: () => speakcountersigns1("en-GB"),
+            onPressedAmerican: () => speakcountersigns1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'm not prepared to countersign this report as it stands."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامادەنیم دووەم واژۆی ئەم ڕاپۆرتە بکەم بەو شێوەیەی ئێستا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountersigns2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountersigns2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I'm not prepared to countersign this report as it stands.",
+            kurdishText:
+                "ئامادەنیم دووەم واژۆی ئەم ڕاپۆرتە بکەم بەو شێوەیەی ئێستا.",
+            onPressedBritish: () => speakcountersigns2("en-GB"),
+            onPressedAmerican: () => speakcountersigns2("en-US"),
           ),
         ],
       ),

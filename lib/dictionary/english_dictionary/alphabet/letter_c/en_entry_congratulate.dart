@@ -112,97 +112,40 @@ class EnglishEntrycongratulate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) وتن بە کەسێک کە دڵخۆشیت بە سەرکەوتن و بەدەستھێنانەکانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I congratulated them all on their results."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیرۆزباییم لە ھەموویان کرد بۆ ئەنجامەکانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congratulate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongratulates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongratulates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I congratulated them all on their results.",
+                            kurdishText:
+                                "پیرۆزباییم لە ھەموویان کرد بۆ ئەنجامەکانیان.", // congratulate",
+                            onPressedBritish: () =>
+                                speakcongratulates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongratulates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was just congratulating Sheryl on winning/on having won her race."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا دەمەوێت پیرۆزبایی لە شێریڵ بکەم بەھۆی بردنەوەی پێشبڕکێیەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongratulates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongratulates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was just congratulating Sheryl on winning/on having won her race.",
+                            kurdishText:
+                                "تەنھا دەمەوێت پیرۆزبایی لە شێریڵ بکەم بەھۆی بردنەوەی پێشبڕکێیەکەی.",
+                            onPressedBritish: () =>
+                                speakcongratulates2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongratulates2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ھەستکردن بە شانازی بەھۆی بەدەستھێنانی شتێکی گرنگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can congratulate yourself on having done an excellent job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت شانازی بە خۆتەوە بکەیت بۆ کردنی کارێکی نایاب."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongratulates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongratulates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can congratulate yourself on having done an excellent job.",
+                            kurdishText:
+                                "دەتوانیت شانازی بە خۆتەوە بکەیت بۆ کردنی کارێکی نایاب.",
+                            onPressedBritish: () =>
+                                speakcongratulates3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongratulates3("en-US"),
                           ),
                         ],
                       ),

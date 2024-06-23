@@ -193,32 +193,13 @@ class EnglishEntrycagoule extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) چاکەتێکی درێژ کە کڵاوێکی ھەیە و دژ بە باران لەبەر دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bad weather is likely, so please wear boots and a cagoule."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەری کەشوھەوای دژوار ھەیە، بۆیە تکایە پۆتین و باگیرێک لەبەربکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cagoule", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcagoules1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcagoules1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bad weather is likely, so please wear boots and a cagoule.",
+                            kurdishText:
+                                "ئەگەری کەشوھەوای دژوار ھەیە، بۆیە تکایە پۆتین و باگیرێک لەبەربکە.", // cagoule
+                            onPressedBritish: () => speakcagoules1("en-GB"),
+                            onPressedAmerican: () => speakcagoules1("en-US"),
                           ),
                         ],
                       ),

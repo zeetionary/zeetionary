@@ -131,160 +131,60 @@ class EnglishEntrycompetitive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بۆ باسکردنی دۆخێک کە خەڵکی یان ژمارەیەک دامەزراوە لە ڕکابەریدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Graduates have to fight for jobs in an increasingly competitive market."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرچووان دەبێت بجەنگن بۆ کار لە بازاڕێکی بەردەوام زیاتر ڕکابەرانەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "competitive", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompetitives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompetitives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Graduates have to fight for jobs in an increasingly competitive market.",
+                            kurdishText:
+                                "دەرچووان دەبێت بجەنگن بۆ کار لە بازاڕێکی بەردەوام زیاتر ڕکابەرانەدا.", // competitive",
+                            onPressedBritish: () => speakcompetitives1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompetitives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Those businesses are operating in an extremely competitive environment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو بازرگانییانە کار دەکەن لە ژینگەیەکی تەواو ڕکابەرانەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompetitives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompetitives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Those businesses are operating in an extremely competitive environment.",
+                            kurdishText:
+                                "ئەو بازرگانییانە کار دەکەن لە ژینگەیەکی تەواو ڕکابەرانەدا.",
+                            onPressedBritish: () => speakcompetitives2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompetitives2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company has succeeded in a highly competitive industry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە لە ژینگەیەکی تەواو ڕکابەرانەدا سەرکەوتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompetitives3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompetitives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company has succeeded in a highly competitive industry.",
+                            kurdishText:
+                                "کۆمپانیاکە لە ژینگەیەکی تەواو ڕکابەرانەدا سەرکەوتووە.",
+                            onPressedBritish: () => speakcompetitives3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompetitives3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) کەسێک کە زۆر ھەوڵ دەدات لە کەسانی دیکە باشتر بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You have to be highly competitive to do well in sport these days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەم ڕۆژانەدا دەبێت تەواو پێشبڕکێ‌خواز بیت بۆ سەرکەوتن لە وەرزشدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompetitives4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompetitives4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You have to be highly competitive to do well in sport these days.",
+                            kurdishText:
+                                "لەم ڕۆژانەدا دەبێت تەواو پێشبڕکێ‌خواز بیت بۆ سەرکەوتن لە وەرزشدا.",
+                            onPressedBritish: () => speakcompetitives4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompetitives4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) کەسێک کە وەک کەسانی دیکە باشە، یان باشترە لێیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What is your strategy for helping the company stay competitive in a global market?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستراتیژیت چییە بۆ یارمەتیدانی کۆمپانیاکە لە مانەوە بە بەرزەفڕی لە بازاڕی جیھانیدا؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompetitives5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompetitives5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What is your strategy for helping the company stay competitive in a global market?",
+                            kurdishText:
+                                "ستراتیژیت چییە بۆ یارمەتیدانی کۆمپانیاکە لە مانەوە بە بەرزەفڕی لە بازاڕی جیھانیدا؟",
+                            onPressedBritish: () => speakcompetitives5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompetitives5("en-US"),
                           ),
                         ],
                       ),

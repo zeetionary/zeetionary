@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) ئاژەڵێکی کێوی گەورەی ئەمریکی کە لە خێزانی پشیلەکانە کە فەرووی خۆڵەمێشی یان قاوەیی زەردباوی ھەیە"),
           const AlsoEnglishckb(word: "ھەروەھا: cougar"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The puma is known for its stealth and agility in hunting."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گیڤڕ ناسراوە بۆ بێ‌خشپەیی و گورجوگۆڵیی لە ڕاوکردندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "puma", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakpumas1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakpumas1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The puma is known for its stealth and agility in hunting.",
+            kurdishText:
+                "گیڤڕ ناسراوە بۆ بێ‌خشپەیی و گورجوگۆڵیی لە ڕاوکردندا.", // puma", please follow LX instructions
+            onPressedBritish: () => speakpumas1("en-GB"),
+            onPressedAmerican: () => speakpumas1("en-US"),
           ),
         ],
       ),

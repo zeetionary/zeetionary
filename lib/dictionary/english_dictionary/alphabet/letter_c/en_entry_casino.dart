@@ -186,32 +186,13 @@ class EnglishEntrycasino extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) قومارخانە، کازینۆ؛ بینایەکی گشتی یان ژوورێک کە خەڵکی تێیدا یاری قومار دەکەن بۆ پارە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He opened a new casino in California."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قومارخانەیەکی تازەی لە کالیفۆرنیا کردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "casino", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasinos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasinos1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He opened a new casino in California.",
+                            kurdishText:
+                                "قومارخانەیەکی تازەی لە کالیفۆرنیا کردەوە.", // casino",
+                            onPressedBritish: () => speakcasinos1("en-GB"),
+                            onPressedAmerican: () => speakcasinos1("en-US"),
                           ),
                         ],
                       ),

@@ -103,62 +103,23 @@ class EnglishEntrycompost extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تێکەڵەیەک لە ڕووەک، میوە، ھتد ـی مردوو کە زیاد دەکرێت بۆ خاک بۆ یارمەتیدانی گەشەی ڕووەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Repot the plant in fresh compost."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووەکەکان بخە گۆزەڵەی ترەوە بە پەیینی تازەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compost", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomposts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomposts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Repot the plant in fresh compost.",
+                            kurdishText:
+                                "ڕووەکەکان بخە گۆزەڵەی ترەوە بە پەیینی تازەوە.", // compost",
+                            onPressedBritish: () => speakcomposts1("en-GB"),
+                            onPressedAmerican: () => speakcomposts1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) کردن بە پەیین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Restaurants should compost food waste whenever possible."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چێشتخانەکان دەبێت خواردنی بەفیڕۆدراو بکەن بە پەیین ھەرکە بگونجێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomposts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomposts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Restaurants should compost food waste whenever possible.",
+                            kurdishText:
+                                "چێشتخانەکان دەبێت خواردنی بەفیڕۆدراو بکەن بە پەیین ھەرکە بگونجێت.",
+                            onPressedBritish: () => speakcomposts2("en-GB"),
+                            onPressedAmerican: () => speakcomposts2("en-US"),
                           ),
                         ],
                       ),

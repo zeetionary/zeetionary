@@ -147,222 +147,89 @@ class EnglishEntryconventional extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بەپێی ئەوەی باوە و دابونەریتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's very conventional in her views."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر پابەند بە دەستوورە لە ڕوانگەکانییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conventional", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconventionals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconventionals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's very conventional in her views.",
+                            kurdishText:
+                                "زۆر پابەند بە دەستوورە لە ڕوانگەکانییەوە.", // conventional",
+                            onPressedBritish: () =>
+                                speakconventionals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconventionals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They rejected what they saw as the hypocrisy of conventional society."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوەی ڕەتکردەوە کە بە دووڕووی کۆمەڵگای خاوەن عورف ناوزەدی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconventionals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconventionals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They rejected what they saw as the hypocrisy of conventional society.",
+                            kurdishText:
+                                "ئەوەی ڕەتکردەوە کە بە دووڕووی کۆمەڵگای خاوەن عورف ناوزەدی کرد.",
+                            onPressedBritish: () =>
+                                speakconventionals2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconventionals2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) بەو شێوەیەی کە باوە و بۆ ماوەیەکی زۆر کراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can use a microwave or cook it in a conventional oven."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت مایکرۆوەیڤێک بەکاربھێنیت یان بە فڕنی ئاسایی لێی بنێیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconventionals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconventionals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can use a microwave or cook it in a conventional oven.",
+                            kurdishText:
+                                "دەتوانیت مایکرۆوەیڤێک بەکاربھێنیت یان بە فڕنی ئاسایی لێی بنێیت.",
+                            onPressedBritish: () =>
+                                speakconventionals3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconventionals3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her face is not beautiful in conventional terms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەلایەنە بوەکانەوە ڕووخساری جوان نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconventionals4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconventionals4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her face is not beautiful in conventional terms.",
+                            kurdishText:
+                                "لەلایەنە بوەکانەوە ڕووخساری جوان نییە.",
+                            onPressedBritish: () =>
+                                speakconventionals4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconventionals4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Raising such a large amount of money from conventional sources would be difficult."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆکردنەوەی پارەیەکی وەھا زۆر بە ڕێگا باوەکان سەخت دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconventionals5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconventionals5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Raising such a large amount of money from conventional sources would be difficult.",
+                            kurdishText:
+                                "کۆکردنەوەی پارەیەکی وەھا زۆر بە ڕێگا باوەکان سەخت دەبێت.",
+                            onPressedBritish: () =>
+                                speakconventionals5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconventionals5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) شێوازەکانی چارەسەری تەندرووستی بە دەرمانی ڕۆژئاوایی، وەک بەکارھێنانی دەوای دەستکرد و نەشتەرگەری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Conventional treatments for this condition have been only partially successful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چارەسەرە باوەکانی ئەم نەخۆشییە تا ڕادەیەک سەرکەوتوو بوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconventionals6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconventionals6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Conventional treatments for this condition have been only partially successful.",
+                            kurdishText:
+                                "چارەسەرە باوەکانی ئەم نەخۆشییە تا ڕادەیەک سەرکەوتوو بوونە.",
+                            onPressedBritish: () =>
+                                speakconventionals6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconventionals6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ھاوەڵناو) چەکێک کە ئەتۆمی نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A conventional war would still cause unacceptable devastation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەنگێکی نا ئەتۆمی ھێشتا کاولکاری قەبووڵ‌نەکراو لێدەکەوێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconventionals7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconventionals7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A conventional war would still cause unacceptable devastation.",
+                            kurdishText:
+                                "جەنگێکی نا ئەتۆمی ھێشتا کاولکاری قەبووڵ‌نەکراو لێدەکەوێتەوە.",
+                            onPressedBritish: () =>
+                                speakconventionals7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconventionals7("en-US"),
                           ),
                         ],
                       ),

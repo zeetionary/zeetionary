@@ -191,32 +191,13 @@ class EnglishEntrycentipede extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گیانلەبەرێکی بچووک کە جەستەیەکی باریک و درێژی ھەیە لەگەڵ پێی زۆردا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Despite their name, centipedes do not have 100 legs; the number varies by species."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەڕای ناوەکەیان، سەدپێ سەدپێی نییە. ژمارەکە بەپێی جۆر دەگۆڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "centipede", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentipedes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentipedes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Despite their name, centipedes do not have 100 legs; the number varies by species.",
+                            kurdishText:
+                                "سەرەڕای ناوەکەیان، سەدپێ سەدپێی نییە. ژمارەکە بەپێی جۆر دەگۆڕێت.", // centipede",
+                            onPressedBritish: () => speakcentipedes1("en-GB"),
+                            onPressedAmerican: () => speakcentipedes1("en-US"),
                           ),
                         ],
                       ),

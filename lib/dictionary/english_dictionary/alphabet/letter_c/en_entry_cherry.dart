@@ -102,61 +102,23 @@ class EnglishEntrycherry extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) میوەیەکی بچووکی نەرمی خڕ کە توێکڵێکی سوور یان ڕەشی بریقەداری ھەیە و تۆوێکی گەورە لە ناویدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She placed a bowl of cherries on the table."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەفرێک گێلاسی لەسەر مێزەکە دانا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cherry", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcherrys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcherrys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She placed a bowl of cherries on the table.",
+                            kurdishText:
+                                "دەفرێک گێلاسی لەسەر مێزەکە دانا.", // cherry",
+                            onPressedBritish: () => speakcherrys1("en-GB"),
+                            onPressedAmerican: () => speakcherrys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) دار گێلاس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cherry tree is beginning to blossom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دار گێلاسەکە خەریکە دەست دەکات بە بەرگرتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcherrys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcherrys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cherry tree is beginning to blossom.",
+                            kurdishText:
+                                "دار گێلاسەکە خەریکە دەست دەکات بە بەرگرتن.",
+                            onPressedBritish: () => speakcherrys2("en-GB"),
+                            onPressedAmerican: () => speakcherrys2("en-US"),
                           ),
                         ],
                       ),

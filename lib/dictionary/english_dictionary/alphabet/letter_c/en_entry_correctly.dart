@@ -256,115 +256,39 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەک کە ڕاستە؛ بێ ھەڵەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Have you spelled it correctly?"),
-                    ExampleSentenceKurdish(text: "بە درووستی ڕێنووست کردووە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "correctly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrectlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrectlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Have you spelled it correctly?",
+            kurdishText:
+                "بە درووستی ڕێنووست کردووە؟", // correctly", please follow LX instructions
+            onPressedBritish: () => speakcorrectlys1("en-GB"),
+            onPressedAmerican: () => speakcorrectlys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If I remember correctly, he was still the prime minister at that point."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر بە درووستی بیرم بێتەوە، لەو کاتەدا ھێشتا سەرۆک وەزیران بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrectlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrectlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "If I remember correctly, he was still the prime minister at that point.",
+            kurdishText:
+                "ئەگەر بە درووستی بیرم بێتەوە، لەو کاتەدا ھێشتا سەرۆک وەزیران بوو.",
+            onPressedBritish: () => speakcorrectlys2("en-GB"),
+            onPressedAmerican: () => speakcorrectlys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵکار) بەشێوەیەک کە ڕاست و گونجاوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We're making sure everything is done correctly."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دڵنیایی ئەوە دەکەین کە ھەموو شتێک بە گونجاوی دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrectlys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrectlys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We're making sure everything is done correctly.",
+            kurdishText: "دڵنیایی ئەوە دەکەین کە ھەموو شتێک بە گونجاوی دەکرێت.",
+            onPressedBritish: () => speakcorrectlys3("en-GB"),
+            onPressedAmerican: () => speakcorrectlys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵکار) بەشێوەیەک کە پەسەندکراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My parents have taught me to behave correctly."),
-                    ExampleSentenceKurdish(
-                        text: "دایبابم فێریان کردم بە درووستی ڕەفتار بکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrectlys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrectlys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My parents have taught me to behave correctly.",
+            kurdishText: "دایبابم فێریان کردم بە درووستی ڕەفتار بکەم.",
+            onPressedBritish: () => speakcorrectlys4("en-GB"),
+            onPressedAmerican: () => speakcorrectlys4("en-US"),
           ),
         ],
       ),

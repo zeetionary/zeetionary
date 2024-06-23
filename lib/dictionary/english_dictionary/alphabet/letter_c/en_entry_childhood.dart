@@ -101,58 +101,20 @@ class EnglishEntrychildhood extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ماوەی ژیانی منداڵی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spent his childhood in India."),
-                                    ExampleSentenceKurdish(
-                                        text: "مناڵیی کە ھندستان بەسەربرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "childhood", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchildhoods1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchildhoods1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He spent his childhood in India.",
+                            kurdishText:
+                                "مناڵیی کە ھندستان بەسەربرد.", // childhood",
+                            onPressedBritish: () => speakchildhoods1("en-GB"),
+                            onPressedAmerican: () => speakchildhoods1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have known each other since childhood."),
-                                    ExampleSentenceKurdish(
-                                        text: "یەکتریمان لە منداڵیوە ناسیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchildhoods2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchildhoods2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have known each other since childhood.",
+                            kurdishText: "یەکتریمان لە منداڵیوە ناسیوە.",
+                            onPressedBritish: () => speakchildhoods2("en-GB"),
+                            onPressedAmerican: () => speakchildhoods2("en-US"),
                           ),
                         ],
                       ),

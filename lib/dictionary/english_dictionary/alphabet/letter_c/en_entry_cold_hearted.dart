@@ -94,34 +94,14 @@ class EnglishEntrycoldhearted extends StatelessWidget {
 // کوردی:
 // """),
                           const DefinitionKurdish(text: "١. (ھاوەڵناو) دڵڕەق"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dictator's cold-hearted policies caused suffering for many."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیاسەتی دڵڕەقانەی دیکتاتۆرەکە بوو بە ھۆی ئازار بۆ زۆر کەس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cold-hearted", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoldhearteds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoldhearteds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dictator's cold-hearted policies caused suffering for many.",
+                            kurdishText:
+                                "سیاسەتی دڵڕەقانەی دیکتاتۆرەکە بوو بە ھۆی ئازار بۆ زۆر کەس.", // cold-hearted",
+                            onPressedBritish: () => speakcoldhearteds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoldhearteds1("en-US"),
                           ),
                         ],
                       ),

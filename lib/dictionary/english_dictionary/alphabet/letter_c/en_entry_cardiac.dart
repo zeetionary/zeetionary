@@ -189,60 +189,21 @@ class EnglishEntrycardiac extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پەیوەندیدار بە دڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The patient had a history of cardiac disease."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشەکە پێشینەیەکی لەگەڵ نەخۆشی دڵ ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cardiac", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcardiacs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcardiacs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The patient had a history of cardiac disease.",
+                            kurdishText:
+                                "نەخۆشەکە پێشینەیەکی لەگەڵ نەخۆشی دڵ ھەبوو.", // cardiac",
+                            onPressedBritish: () => speakcardiacs1("en-GB"),
+                            onPressedAmerican: () => speakcardiacs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is credited as the father of cardiac surgery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک باوکی نەشتەرگەری دڵ دادەنرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcardiacs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcardiacs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is credited as the father of cardiac surgery.",
+                            kurdishText: "وەک باوکی نەشتەرگەری دڵ دادەنرێت.",
+                            onPressedBritish: () => speakcardiacs2("en-GB"),
+                            onPressedAmerican: () => speakcardiacs2("en-US"),
                           ),
                         ],
                       ),

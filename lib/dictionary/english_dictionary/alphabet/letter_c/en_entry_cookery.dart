@@ -103,59 +103,21 @@ class EnglishEntrycookery extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھونەر یان چالاکی لێنان و ئامادەکردنی خواردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'm going on a cookery course."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەژداری کۆرسێکی چێشتلێنان دەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cookery", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcookerys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcookerys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'm going on a cookery course.",
+                            kurdishText:
+                                "بەژداری کۆرسێکی چێشتلێنان دەکەم.", // cookery",
+                            onPressedBritish: () => speakcookerys1("en-GB"),
+                            onPressedAmerican: () => speakcookerys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Before he leaves home, he needs to learn some basic cookery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێش ئەوەی ماڵ جێبھێڵێت، دەبێت فێری چەند چێشتلێنانێکی سەرەتایی ببێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcookerys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcookerys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Before he leaves home, he needs to learn some basic cookery.",
+                            kurdishText:
+                                "پێش ئەوەی ماڵ جێبھێڵێت، دەبێت فێری چەند چێشتلێنانێکی سەرەتایی ببێت.",
+                            onPressedBritish: () => speakcookerys2("en-GB"),
+                            onPressedAmerican: () => speakcookerys2("en-US"),
                           ),
                         ],
                       ),

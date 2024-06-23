@@ -102,64 +102,25 @@ class EnglishEntrycondescending extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ڕەفتارکردن وەک ئەوەی گرنگتر یا زیرەکتریت لە کەسانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has a condescending attitude towards women."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسوکەوتێکی لەخۆڕازی ھەیە بەرامبەر بە ژنان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "condescending", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcondescendings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcondescendings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has a condescending attitude towards women.",
+                            kurdishText:
+                                "ھەڵسوکەوتێکی لەخۆڕازی ھەیە بەرامبەر بە ژنان.", // condescending",
+                            onPressedBritish: () =>
+                                speakcondescendings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcondescendings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her tone of voice was always so condescending."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆنی دەنگی ھەمیشە بەتڕوتۆپ بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcondescendings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcondescendings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her tone of voice was always so condescending.",
+                            kurdishText: "تۆنی دەنگی ھەمیشە بەتڕوتۆپ بووە.",
+                            onPressedBritish: () =>
+                                speakcondescendings2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcondescendings2("en-US"),
                           ),
                         ],
                       ),

@@ -240,58 +240,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) زۆرجار؛ ھێندە زۆر کە ژمارە ناکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I've warned her countless times."),
-                    ExampleSentenceKurdish(
-                        text: "بەڕێژەی بێشومار ئاگادارم کردووەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "countless", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountlesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountlesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I've warned her countless times.",
+            kurdishText:
+                "بەڕێژەی بێشومار ئاگادارم کردووەتەوە.", // countless", please follow LX instructions
+            onPressedBritish: () => speakcountlesss1("en-GB"),
+            onPressedAmerican: () => speakcountlesss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The new treatment could save Emma's life and the lives of countless others."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چارەسەرە تازەکە دەکرێت ژیانی ئێما و چەندینی دیکە لەژمارەنەھاتوو ڕزگار بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountlesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountlesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The new treatment could save Emma's life and the lives of countless others.",
+            kurdishText:
+                "چارەسەرە تازەکە دەکرێت ژیانی ئێما و چەندینی دیکە لەژمارەنەھاتوو ڕزگار بکات.",
+            onPressedBritish: () => speakcountlesss2("en-GB"),
+            onPressedAmerican: () => speakcountlesss2("en-US"),
           ),
         ],
       ),

@@ -242,57 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە بوێر نییە یان زاتی ئەوەی نییە کە ئەو شتانە بکات کە کەسانی دیکە وا ھەست ناکەن زۆر سەخت بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You coward! What are you afraid of?"),
-                    ExampleSentenceKurdish(text: "ترسنۆک، لە چ دەترسیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "coward", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowards1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowards1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You coward! What are you afraid of?",
+            kurdishText:
+                "ترسنۆک، لە چ دەترسیت؟", // coward", please follow LX instructions
+            onPressedBritish: () => speakcowards1("en-GB"),
+            onPressedAmerican: () => speakcowards1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'm a real coward when it comes to going to the dentist."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ترسنۆکێکی تەواوم کە دێتە سەر چوون بۆ لای پزیشکی ددان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowards2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowards2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I'm a real coward when it comes to going to the dentist.",
+            kurdishText:
+                "ترسنۆکێکی تەواوم کە دێتە سەر چوون بۆ لای پزیشکی ددان.",
+            onPressedBritish: () => speakcowards2("en-GB"),
+            onPressedAmerican: () => speakcowards2("en-US"),
           ),
         ],
       ),

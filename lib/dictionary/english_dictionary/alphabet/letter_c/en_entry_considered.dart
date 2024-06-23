@@ -95,32 +95,13 @@ class EnglishEntryconsidered extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بۆچوونێک، بڕیارێک، ھتد کە تەواو بیری لێکراوەتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is my considered opinion that he should be promoted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو بۆچوونی لێکۆڵراومە کە دەبێت پلەی بەرزبکرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "considered", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsidereds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsidereds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is my considered opinion that he should be promoted.",
+                            kurdishText:
+                                "ئەو بۆچوونی لێکۆڵراومە کە دەبێت پلەی بەرزبکرێتەوە.", // considered",
+                            onPressedBritish: () => speakconsidereds1("en-GB"),
+                            onPressedAmerican: () => speakconsidereds1("en-US"),
                           ),
                         ],
                       ),

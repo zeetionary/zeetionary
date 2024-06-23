@@ -101,60 +101,20 @@ class EnglishEntrycopiously extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە ئاستێکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We ate and drank copiously at the party."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرمان خوارد و خواردەوە لە ئاھەنگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "copiously", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopiouslys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopiouslys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We ate and drank copiously at the party.",
+                            kurdishText:
+                                "زۆرمان خوارد و خواردەوە لە ئاھەنگەکە.", // copiously",
+                            onPressedBritish: () => speakcopiouslys1("en-GB"),
+                            onPressedAmerican: () => speakcopiouslys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "During the trial she wept copiously."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ماوەی دادگاییەکەدا زۆر گریا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopiouslys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopiouslys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "During the trial she wept copiously.",
+                            kurdishText: "لە ماوەی دادگاییەکەدا زۆر گریا.",
+                            onPressedBritish: () => speakcopiouslys2("en-GB"),
+                            onPressedAmerican: () => speakcopiouslys2("en-US"),
                           ),
                         ],
                       ),

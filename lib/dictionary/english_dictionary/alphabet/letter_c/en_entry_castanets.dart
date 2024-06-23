@@ -187,32 +187,13 @@ class EnglishEntrycastanets extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چەقەنە، چاروە؛ ئامێرێکی میوزیکی کە لە دوو پارچە تەختەی بچووک پێکدێت و دەیان کێشیت بە یەکدا بۆ درووستکردنی دەنگ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In Spanish traditional music, castanets add a lively and distinctive element."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە میوزیکی کەلتووری ئیسپانیادا، چەقەنە بەشێکی بەجۆش و تایبەت زیاد دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "castanets", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastanetss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastanetss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In Spanish traditional music, castanets add a lively and distinctive element.",
+                            kurdishText:
+                                "لە میوزیکی کەلتووری ئیسپانیادا، چەقەنە بەشێکی بەجۆش و تایبەت زیاد دەکات.", // castanets",
+                            onPressedBritish: () => speakcastanetss1("en-GB"),
+                            onPressedAmerican: () => speakcastanetss1("en-US"),
                           ),
                         ],
                       ),

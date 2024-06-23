@@ -234,32 +234,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەوکردنی میزڵدان، بەتایبەتی لە ژناندا، کە ئازار درووست دەکات لەکاتی میزکردندا و زۆرجار ڕوودەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Drinking plenty of water can help prevent cystitis."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خواردنی ئاوی زۆر دەکرێت ڕێگری لە ھەوکردنی میزڵدان بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cystitis", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcystitiss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcystitiss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Drinking plenty of water can help prevent cystitis.",
+            kurdishText:
+                "خواردنی ئاوی زۆر دەکرێت ڕێگری لە ھەوکردنی میزڵدان بکات.", // cystitis", please follow LX instructions
+            onPressedBritish: () => speakcystitiss1("en-GB"),
+            onPressedAmerican: () => speakcystitiss1("en-US"),
           ),
         ],
       ),

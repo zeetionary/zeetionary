@@ -190,86 +190,29 @@ class EnglishEntrycar extends StatelessWidget {
 کوردی: ئۆتۆمبێل، ئۆتۆمبێل، مەکینە
 """),
                           const DefinitionKurdish(text: "١. (ناو) ئۆتۆمبێل"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Paula got into the car and drove off."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاولا چووە ناو ئۆتۆمبێلەکە و لێیخوڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "car", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Paula got into the car and drove off.",
+                            kurdishText:
+                                "پاولا چووە ناو ئۆتۆمبێلەکە و لێیخوڕی.", // car
+                            onPressedBritish: () => speakcars1("en-GB"),
+                            onPressedAmerican: () => speakcars1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Where can I park the car?"),
-                                    ExampleSentenceKurdish(
-                                        text: "لە کوێ ئۆتۆمبێلەکە ڕابگرم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcars2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcars2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Where can I park the car?",
+                            kurdishText: "لە کوێ ئۆتۆمبێلەکە ڕابگرم؟",
+                            onPressedBritish: () => speakcars2("en-GB"),
+                            onPressedAmerican: () => speakcars2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were parked cars on both sides of the road."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلی پارککراو لە ھەردوو لای ڕێگاکە ھەبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcars3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcars3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were parked cars on both sides of the road.",
+                            kurdishText:
+                                "ئۆتۆمبێلی پارککراو لە ھەردوو لای ڕێگاکە ھەبوون.",
+                            onPressedBritish: () => speakcars3("en-GB"),
+                            onPressedAmerican: () => speakcars3("en-US"),
                           ),
                           Column(
                             children: [
@@ -431,32 +374,11 @@ class EnglishEntrycar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) بەشێکی جیاکراوەی شەمەندەفەرێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several cars went off the rails."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک واگۆن لە سکەکە دەرچوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcars9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcars9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Several cars went off the rails.",
+                            kurdishText: "ژمارەیەک واگۆن لە سکەکە دەرچوون.",
+                            onPressedBritish: () => speakcars9("en-GB"),
+                            onPressedAmerican: () => speakcars9("en-US"),
                           ),
                         ],
                       ),

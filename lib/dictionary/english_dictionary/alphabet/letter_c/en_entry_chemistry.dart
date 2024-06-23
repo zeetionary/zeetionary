@@ -111,93 +111,37 @@ class EnglishEntrychemistry extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کیمیا؛ لێکۆڵینەوەی زانستی لە پێکھاتەی مادەکان، چۆن کارلێک دەکەن کاتێک تێکەڵ دەبن یان بەرکەوتنیان لەگەڵ یەکتردا ھەیە، و چۆن لە ژێر بارودۆخی جیاوازدا ڕەفتار دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He did physics and chemistry at university."),
-                                    ExampleSentenceKurdish(
-                                        text: "فیزیا و کیمیای خوێند لە زانکۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chemistry", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchemistrys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchemistrys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He did physics and chemistry at university.",
+                            kurdishText:
+                                "فیزیا و کیمیای خوێند لە زانکۆ.", // chemistry",
+                            onPressedBritish: () => speakchemistrys1("en-GB"),
+                            onPressedAmerican: () => speakchemistrys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پێکھاتەی کیمیایی و ڕەفتاری مادەیەکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We do not fully understand the chemistry of genes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تەواوی لە ڕەوشتی کیمیایی جینەکان تێ ناگەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchemistrys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchemistrys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We do not fully understand the chemistry of genes.",
+                            kurdishText:
+                                "بە تەواوی لە ڕەوشتی کیمیایی جینەکان تێ ناگەین.",
+                            onPressedBritish: () => speakchemistrys2("en-GB"),
+                            onPressedAmerican: () => speakchemistrys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) پەیوەندی نێوان دوو کەس، بەتایبەتی پەیوەندییەکی سێکسیی توند"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sexual chemistry between them was obvious."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزی پەیوەندی سێکسیی نێوانیان ئاشکرا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchemistrys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchemistrys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sexual chemistry between them was obvious.",
+                            kurdishText:
+                                "حەزی پەیوەندی سێکسیی نێوانیان ئاشکرا بوو.",
+                            onPressedBritish: () => speakchemistrys3("en-GB"),
+                            onPressedAmerican: () => speakchemistrys3("en-US"),
                           ),
                         ],
                       ),

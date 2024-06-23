@@ -96,34 +96,14 @@ class EnglishEntrychildminder extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە ئاگای لە منداڵێک دەبێت کە دایک و باوکی لە کارن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The childminder took the children to the park every afternoon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەلەکە ھەموو نیوەڕۆیەک منداڵەکانی دەبرد بۆ پارکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "childminder", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchildminders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchildminders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The childminder took the children to the park every afternoon.",
+                            kurdishText:
+                                "لەلەکە ھەموو نیوەڕۆیەک منداڵەکانی دەبرد بۆ پارکەکە.", // childminder",
+                            onPressedBritish: () => speakchildminders1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchildminders1("en-US"),
                           ),
                         ],
                       ),

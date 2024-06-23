@@ -268,143 +268,46 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک یان دامەزراوەیەک کە کەلوپەل یان خزمەتگوزاری لە فرۆشگایەک یان بازرگانییەک دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company rewards loyal customers with discounts."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە پاداشتی کڕیارە دڵسۆزەکان دەداتەوە بە داشکاندن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "customer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The company rewards loyal customers with discounts.",
+            kurdishText:
+                "کۆمپانیاکە پاداشتی کڕیارە دڵسۆزەکان دەداتەوە بە داشکاندن.", // customer", please follow LX instructions
+            onPressedBritish: () => speakcustomers1("en-GB"),
+            onPressedAmerican: () => speakcustomers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They know me—I'm a regular customer."),
-                    ExampleSentenceKurdish(
-                        text: "دەمناسن، کڕیارێکی ھەمیشەییم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They know me—I'm a regular customer.",
+            kurdishText: "دەمناسن، کڕیارێکی ھەمیشەییم.",
+            onPressedBritish: () => speakcustomers2("en-GB"),
+            onPressedAmerican: () => speakcustomers2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The firm has excellent customer relations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە پەیوەندیی نایابی لەگەڵ کڕیاراندا ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The firm has excellent customer relations.",
+            kurdishText: "کۆمپانیاکە پەیوەندیی نایابی لەگەڵ کڕیاراندا ھەیە.",
+            onPressedBritish: () => speakcustomers3("en-GB"),
+            onPressedAmerican: () => speakcustomers3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) لە دوای ھاوەڵناوێک بەکاردێت بۆ باسکردنی کەسێک یان شتێکی دیاریکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Sars virus is turning out to be a tricky customer."),
-                    ExampleSentenceKurdish(
-                        text: "ڤایرۆسی سارس وا دەردەکەوێت شتێکی دژوار بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomers4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomers4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Sars virus is turning out to be a tricky customer.",
+            kurdishText: "ڤایرۆسی سارس وا دەردەکەوێت شتێکی دژوار بێت.",
+            onPressedBritish: () => speakcustomers4("en-GB"),
+            onPressedAmerican: () => speakcustomers4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The team desperately need a win, and that will make them very difficult customers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیمەکە بێھوودانە پێویستی بە بردنەوەیەکە، و ئەوە دەیانکات بە کەسانی سەخت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomers5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomers5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The team desperately need a win, and that will make them very difficult customers.",
+            kurdishText:
+                "تیمەکە بێھوودانە پێویستی بە بردنەوەیەکە، و ئەوە دەیانکات بە کەسانی سەخت.",
+            onPressedBritish: () => speakcustomers5("en-GB"),
+            onPressedAmerican: () => speakcustomers5("en-US"),
           ),
         ],
       ),

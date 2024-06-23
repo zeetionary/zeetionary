@@ -324,83 +324,28 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شێوازێکی پەسەندکراوی ڕەفتارکردن یان کردنی شتەکان لە کۆمەڵگەدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "It's a local custom."),
-                    ExampleSentenceKurdish(text: "ڕێسایەکی ناوخۆییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "custom", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustoms1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustoms1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's a local custom.",
+            kurdishText:
+                "ڕێسایەکی ناوخۆییە.", // custom", please follow LX instructions
+            onPressedBritish: () => speakcustoms1("en-GB"),
+            onPressedAmerican: () => speakcustoms1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She grew up with Chinese customs and traditions."),
-                    ExampleSentenceKurdish(
-                        text: "بە داب و نەریتی چینییەوە گەورەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustoms2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustoms2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She grew up with Chinese customs and traditions.",
+            kurdishText: "بە داب و نەریتی چینییەوە گەورەبوو.",
+            onPressedBritish: () => speakcustoms2("en-GB"),
+            onPressedAmerican: () => speakcustoms2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "According to custom, one son inherited all the family property."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەپێی داب و نەریت، یەک کوڕ ھەموو سامانی خێزانەکەی وەردەگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustoms3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustoms3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "According to custom, one son inherited all the family property.",
+            kurdishText:
+                "بەپێی داب و نەریت، یەک کوڕ ھەموو سامانی خێزانەکەی وەردەگرت.",
+            onPressedBritish: () => speakcustoms3("en-GB"),
+            onPressedAmerican: () => speakcustoms3("en-US"),
           ),
           Column(
             children: [
@@ -523,145 +468,49 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) شێوازی ڕەفتارکردنی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It was her custom to rise early."),
-                    ExampleSentenceKurdish(
-                        text: "ئەوە خوویەکی بوو کە زوو لە خەو ھەستێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustoms8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustoms8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was her custom to rise early.",
+            kurdishText: "ئەوە خوویەکی بوو کە زوو لە خەو ھەستێت.",
+            onPressedBritish: () => speakcustoms8("en-GB"),
+            onPressedAmerican: () => speakcustoms8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "As was his custom, he knocked three times."),
-                    ExampleSentenceKurdish(
-                        text: "وەک خووی ھەمیشەیی، سێ جار لە دەرگای دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustoms9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustoms9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "As was his custom, he knocked three times.",
+            kurdishText: "وەک خووی ھەمیشەیی، سێ جار لە دەرگای دا.",
+            onPressedBritish: () => speakcustoms9("en-GB"),
+            onPressedAmerican: () => speakcustoms9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) کڕینی خزمەتگوزاری و کاڵا لە فرۆشگایەک یان بازرگانییەک لە لایەن خەڵکییەوە"),
           const AlsoEnglishckb(word: "ھەروەھا: business"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Thank you for your custom. Please call again."),
-                    ExampleSentenceKurdish(
-                        text: "سوپاس بۆ ھەڵبژاردنمان. تکایە پەیوەندی بکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustoms10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustoms10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Thank you for your custom. Please call again.",
+            kurdishText: "سوپاس بۆ ھەڵبژاردنمان. تکایە پەیوەندی بکەوە.",
+            onPressedBritish: () => speakcustoms10("en-GB"),
+            onPressedAmerican: () => speakcustoms10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We've lost a lot of custom since prices went up."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێژەیەکی زۆر فرۆشمان لەدەستداوە لەوەتەی نرخەکان بەرزبوونەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustoms11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustoms11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We've lost a lot of custom since prices went up.",
+            kurdishText:
+                "ڕێژەیەکی زۆر فرۆشمان لەدەستداوە لەوەتەی نرخەکان بەرزبوونەتەوە.",
+            onPressedBritish: () => speakcustoms11("en-GB"),
+            onPressedAmerican: () => speakcustoms11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) دیزاین کراو و بەکارھێنراو بۆ ھۆکارێکی تایبەت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The tool allows researchers to easily create custom software for analysing data."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامرازەکە ڕێگا دەدات بە توێژەران کە نەرمامێری کەسی درووست بکەن شیکردنەوەی داتا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustoms12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustoms12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The tool allows researchers to easily create custom software for analysing data.",
+            kurdishText:
+                "ئامرازەکە ڕێگا دەدات بە توێژەران کە نەرمامێری کەسی درووست بکەن شیکردنەوەی داتا.",
+            onPressedBritish: () => speakcustoms12("en-GB"),
+            onPressedAmerican: () => speakcustoms12("en-US"),
           ),
         ],
       ),

@@ -95,32 +95,13 @@ class EnglishEntrycharioteer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە ئەسپ و ئەڕابە لێ‌دەخوڕێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In ancient Greece, charioteers competed in the Olympics for glory and honor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە یۆنانی کۆندا، ئەڕابەوانان لە ئۆڵۆمپیاددا ڕکابەریان دەکرد بۆ شکۆ و شانازی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "charioteer", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharioteers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharioteers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In ancient Greece, charioteers competed in the Olympics for glory and honor.",
+                            kurdishText:
+                                "لە یۆنانی کۆندا، ئەڕابەوانان لە ئۆڵۆمپیاددا ڕکابەریان دەکرد بۆ شکۆ و شانازی.", // charioteer",
+                            onPressedBritish: () => speakcharioteers1("en-GB"),
+                            onPressedAmerican: () => speakcharioteers1("en-US"),
                           ),
                         ],
                       ),

@@ -95,34 +95,15 @@ class EnglishEntrychrysanthemum extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گوڵێکی ناو باخچە کە درەوشاوە و گەورەیە و شیوەی تۆپی ھەیە، و پێکھاتووە لە پەڕەی درێژ پێکھاتووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She picked a bouquet of chrysanthemums to decorate the table."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەپکێک گوڵە داوودی ھەڵگرت بۆ ڕازاندنەوەی مێزەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chrysanthemum", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchrysanthemums1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchrysanthemums1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She picked a bouquet of chrysanthemums to decorate the table.",
+                            kurdishText:
+                                "چەپکێک گوڵە داوودی ھەڵگرت بۆ ڕازاندنەوەی مێزەکە.", // chrysanthemum",
+                            onPressedBritish: () =>
+                                speakchrysanthemums1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchrysanthemums1("en-US"),
                           ),
                         ],
                       ),

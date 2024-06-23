@@ -231,30 +231,12 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) ژوورێکی بچووک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My office is a cubbyhole in the basement."),
-                    ExampleSentenceKurdish(
-                        text: "ئۆفیسەکەم لە ژوورۆچکەیەکی ژێر زەمینەکە دایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cubbyhole", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcubbyholes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcubbyholes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My office is a cubbyhole in the basement.",
+            kurdishText:
+                "ئۆفیسەکەم لە ژوورۆچکەیەکی ژێر زەمینەکە دایە.", // cubbyhole", please follow LX instructions
+            onPressedBritish: () => speakcubbyholes1("en-GB"),
+            onPressedAmerican: () => speakcubbyholes1("en-US"),
           ),
         ],
       ),

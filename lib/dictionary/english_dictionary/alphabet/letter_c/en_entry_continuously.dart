@@ -113,97 +113,40 @@ class EnglishEntrycontinuously extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە بۆ ماوەیەک بەبێ پچڕان بوونی ھەیە یان ڕوودەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has lived and worked in France almost continuously since 1990."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تا ڕادەیەک بەبێ دابڕان لە ساڵی ١٩٩٠ ـەوە لە فەرەنسا ژیاوە و کاری کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "continuously", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinuouslys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinuouslys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has lived and worked in France almost continuously since 1990.",
+                            kurdishText:
+                                "تا ڕادەیەک بەبێ دابڕان لە ساڵی ١٩٩٠ ـەوە لە فەرەنسا ژیاوە و کاری کردووە.", // continuously",
+                            onPressedBritish: () =>
+                                speakcontinuouslys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinuouslys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Heat the mixture until thickened, stirring continuously."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێکەڵەکە گەرم بکە تاوەکو خەست دەبێتەوە و بەردەوام تێی ڕابدە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinuouslys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinuouslys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Heat the mixture until thickened, stirring continuously.",
+                            kurdishText:
+                                "تێکەڵەکە گەرم بکە تاوەکو خەست دەبێتەوە و بەردەوام تێی ڕابدە.",
+                            onPressedBritish: () =>
+                                speakcontinuouslys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinuouslys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە زۆر دووبارە دەبێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This prevents the system from continuously trying to deliver email."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە ڕێگری لە سیستەمەکە دەکات بەردەوام ھەوڵ بدات ئیمەیڵ بنێرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinuouslys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinuouslys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This prevents the system from continuously trying to deliver email.",
+                            kurdishText:
+                                "ئەمە ڕێگری لە سیستەمەکە دەکات بەردەوام ھەوڵ بدات ئیمەیڵ بنێرێت.",
+                            onPressedBritish: () =>
+                                speakcontinuouslys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinuouslys3("en-US"),
                           ),
                         ],
                       ),

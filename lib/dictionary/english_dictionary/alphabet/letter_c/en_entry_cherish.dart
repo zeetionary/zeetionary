@@ -120,117 +120,42 @@ class EnglishEntrycherish extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) خۆشویستنی کەسێک/شتێک بە ئاستێکی زۆر و پاراستنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Children need to be cherished."),
-                                    ExampleSentenceKurdish(
-                                        text: "منداڵان دەبێت خۆشبویسترێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cherish", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcherishs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcherishs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Children need to be cherished.",
+                            kurdishText:
+                                "منداڵان دەبێت خۆشبویسترێن.", // cherish",
+                            onPressedBritish: () => speakcherishs1("en-GB"),
+                            onPressedAmerican: () => speakcherishs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Although I cherish my children, I do allow them their independence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەرچی منداڵەکانمم خۆشدەوێت، سەربەخۆییان پێدەدەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcherishs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcherishs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Although I cherish my children, I do allow them their independence.",
+                            kurdishText:
+                                "ئەگەرچی منداڵەکانمم خۆشدەوێت، سەربەخۆییان پێدەدەم.",
+                            onPressedBritish: () => speakcherishs2("en-GB"),
+                            onPressedAmerican: () => speakcherishs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) پاراستنی بیرۆکەیەک، ھیوایەک، ھتد بۆ ماوەیەکی زۆر لە خەیاڵتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cherish the memory of those days in Paris."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یادەوەری ئەو ڕۆژانە لە پاریس بەرز ڕابگرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcherishs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcherishs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cherish the memory of those days in Paris.",
+                            kurdishText:
+                                "یادەوەری ئەو ڕۆژانە لە پاریس بەرز ڕابگرە.",
+                            onPressedBritish: () => speakcherishs3("en-GB"),
+                            onPressedAmerican: () => speakcherishs3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He cherishes the hope that one day they will meet again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ھیوایە بەزیندوویی دەھێڵێت کە ڕۆژێک یەکدی ببیننەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcherishs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcherishs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He cherishes the hope that one day they will meet again.",
+                            kurdishText:
+                                "ئەو ھیوایە بەزیندوویی دەھێڵێت کە ڕۆژێک یەکدی ببیننەوە.",
+                            onPressedBritish: () => speakcherishs4("en-GB"),
+                            onPressedAmerican: () => speakcherishs4("en-US"),
                           ),
                         ],
                       ),

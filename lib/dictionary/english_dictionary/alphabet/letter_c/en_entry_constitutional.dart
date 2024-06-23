@@ -122,126 +122,50 @@ class EnglishEntryconstitutional extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە دەستووری وڵاتێک یان دامەزراوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had long advocated constitutional reform."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ماوەیەکی زۆر پشتگیری چاکسازی دەستووری کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constitutional", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstitutionals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstitutionals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had long advocated constitutional reform.",
+                            kurdishText:
+                                "بۆ ماوەیەکی زۆر پشتگیری چاکسازی دەستووری کردبوو.", // constitutional",
+                            onPressedBritish: () =>
+                                speakconstitutionals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstitutionals1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ڕێگەپێدراو بەپێی دەستووری وڵاتێک یان دامەزراوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They can't pass this law. It's not constitutional."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانن ئەم یاسایە تێپەڕێنن. لە چوارچێوەی دەستوور نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstitutionals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstitutionals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They can't pass this law. It's not constitutional.",
+                            kurdishText:
+                                "ناتوانن ئەم یاسایە تێپەڕێنن. لە چوارچێوەی دەستوور نییە.",
+                            onPressedBritish: () =>
+                                speakconstitutionals2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstitutionals2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Such a policy would not be constitutional."),
-                                    ExampleSentenceKurdish(
-                                        text: "سیاسەتێکی وەھا دەستووری نابێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstitutionals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstitutionals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Such a policy would not be constitutional.",
+                            kurdishText: "سیاسەتێکی وەھا دەستووری نابێت.",
+                            onPressedBritish: () =>
+                                speakconstitutionals3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstitutionals3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Freedom of speech should be a constitutional right."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئازادیی ڕادەربڕین دەبێت مافێکی دەستووری بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstitutionals4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstitutionals4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Freedom of speech should be a constitutional right.",
+                            kurdishText:
+                                "ئازادیی ڕادەربڕین دەبێت مافێکی دەستووری بێت.",
+                            onPressedBritish: () =>
+                                speakconstitutionals4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstitutionals4("en-US"),
                           ),
                         ],
                       ),

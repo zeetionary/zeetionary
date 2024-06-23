@@ -110,94 +110,37 @@ class EnglishEntrychemist extends StatelessWidget {
 کوردی: کیمیازان،	دەرمان‌گرەوە، دەرمان‌ساز،	دەرمان‌خانە
 """),
                           const DefinitionKurdish(text: "١. (ناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chemist was known for his friendly service and helpful advice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرماسازەکە ناسرابوو بۆ خزمەتی ھاوڕێیانەی و ڕاوێژی بەسوودی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chemist", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchemists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchemists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chemist was known for his friendly service and helpful advice.",
+                            kurdishText:
+                                "دەرماسازەکە ناسرابوو بۆ خزمەتی ھاوڕێیانەی و ڕاوێژی بەسوودی.", // chemist",
+                            onPressedBritish: () => speakchemists1("en-GB"),
+                            onPressedAmerican: () => speakchemists1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) فرۆشگایەک کە دەرمان دەفرۆشێت، و زۆرجار سابوون، مەیکەپ، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She visited the chemist to pick up some cough syrup."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەردانی دەرمانسازەکەی کرد بۆ کڕینی ھەندێک شرووبی کۆکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchemists2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchemists2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She visited the chemist to pick up some cough syrup.",
+                            kurdishText:
+                                "سەردانی دەرمانسازەکەی کرد بۆ کڕینی ھەندێک شرووبی کۆکە.",
+                            onPressedBritish: () => speakchemists2("en-GB"),
+                            onPressedAmerican: () => speakchemists2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کیمیازان؛ زانایەک کە کیمیا دەخوێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She worked as a chemist for the water company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک کیمیازان بۆ کۆمپانیای ئاوەکە کاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchemists3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchemists3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She worked as a chemist for the water company.",
+                            kurdishText:
+                                "وەک کیمیازان بۆ کۆمپانیای ئاوەکە کاری دەکرد.",
+                            onPressedBritish: () => speakchemists3("en-GB"),
+                            onPressedAmerican: () => speakchemists3("en-US"),
                           ),
                         ],
                       ),

@@ -95,32 +95,13 @@ class EnglishEntryclarinet extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کلارینێت؛ ئامێرێکی میوزیکی کە لە شێوەی لوولەدایە و لێدەدرێت بە فووکردن بە زمانەیەکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Learning to play the clarinet requires practice and dedication."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فێربوونی لێدانی کلارینێت پێویستی بە مەشق و خۆبەخت‌کردن ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clarinet", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclarinets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclarinets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Learning to play the clarinet requires practice and dedication.",
+                            kurdishText:
+                                "فێربوونی لێدانی کلارینێت پێویستی بە مەشق و خۆبەخت‌کردن ھەیە.", // clarinet",
+                            onPressedBritish: () => speakclarinets1("en-GB"),
+                            onPressedAmerican: () => speakclarinets1("en-US"),
                           ),
                         ],
                       ),

@@ -121,126 +121,49 @@ class EnglishEntrychampionship extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پێشبڕکێیەک بۆ زانینی باشترین کەس یان تیم لە وەرزشێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He won a silver medal at the European Championships."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەدالیای زیوی بردەوە لە پاڵەوانێتی ئەورووپادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "championship", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchampionships1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchampionships1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He won a silver medal at the European Championships.",
+                            kurdishText:
+                                "مەدالیای زیوی بردەوە لە پاڵەوانێتی ئەورووپادا.", // championship",
+                            onPressedBritish: () =>
+                                speakchampionships1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchampionships1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has won four major championships in the last five years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوار پاڵەوانێتی گرنگی بردووەتەوە لە پێنج ساڵی ڕابردوودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchampionships2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchampionships2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has won four major championships in the last five years.",
+                            kurdishText:
+                                "چوار پاڵەوانێتی گرنگی بردووەتەوە لە پێنج ساڵی ڕابردوودا.",
+                            onPressedBritish: () =>
+                                speakchampionships2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchampionships2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) بوون لە پێگەی پاڵەوانیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They've held the championship for the past two years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ دوو ساڵی ڕابردوو لە پێگەی پاڵەوانێتیدا بوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchampionships3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchampionships3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They've held the championship for the past two years.",
+                            kurdishText:
+                                "بۆ دوو ساڵی ڕابردوو لە پێگەی پاڵەوانێتیدا بوونە.",
+                            onPressedBritish: () =>
+                                speakchampionships3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchampionships3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She managed to retain the championship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانی پێگەی پاڵەوانێتی بپارێزێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchampionships4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchampionships4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She managed to retain the championship.",
+                            kurdishText: "توانی پێگەی پاڵەوانێتی بپارێزێت.",
+                            onPressedBritish: () =>
+                                speakchampionships4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchampionships4("en-US"),
                           ),
                         ],
                       ),

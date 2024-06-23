@@ -194,128 +194,49 @@ class EnglishEntrycalculation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کاری بەکارھێنانی ژمارە بۆ زانینی بڕێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Cathy did a rough calculation."),
-                                    ExampleSentenceKurdish(
-                                        text: "کاسی شیکارکردنێکی سادەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calculation", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcalculations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcalculations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Cathy did a rough calculation.",
+                            kurdishText:
+                                "کاسی شیکارکردنێکی سادەی کرد.", // calculation",
+                            onPressedBritish: () => speakcalculations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcalculations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "By my calculation(s), we made a profit of £20 000 last year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەپێی لێکدانەوەکانی من، ساڵی پار قازانجی ٢٠٠٠٠ پاوەندمان ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcalculations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcalculations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "By my calculation(s), we made a profit of £20 000 last year.",
+                            kurdishText:
+                                "بەپێی لێکدانەوەکانی من، ساڵی پار قازانجی ٢٠٠٠٠ پاوەندمان ھەبوو.",
+                            onPressedBritish: () => speakcalculations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcalculations2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھەڵسەنگاندنی مەترسی، ئەگەر، و کاریگەرییەکانی دۆخێک یان ڕێڕەوێکی ھەنگاونان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Decisions are shaped by political calculations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارەکان دەدرێن بەپێی حیساباتی سیاسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcalculations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcalculations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Decisions are shaped by political calculations.",
+                            kurdishText:
+                                "بڕیارەکان دەدرێن بەپێی حیساباتی سیاسی.",
+                            onPressedBritish: () => speakcalculations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcalculations3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) پلانی ورد بۆ بەکارھێنانی دۆخێک لە بەرژەوەندی خۆت، بەبێ گرنگیدان بە کەسانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's an element of calculation in his behaviour that makes me distrust him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک خۆپەرستیی تێدا ھەیە کە وادەکات متمانەی پێ نەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcalculations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcalculations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's an element of calculation in his behaviour that makes me distrust him.",
+                            kurdishText:
+                                "ھەندێک خۆپەرستیی تێدا ھەیە کە وادەکات متمانەی پێ نەکەم.",
+                            onPressedBritish: () => speakcalculations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcalculations4("en-US"),
                           ),
                         ],
                       ),

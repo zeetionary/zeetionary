@@ -104,62 +104,24 @@ class EnglishEntryconvergent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بەشێوەیەک کە نزیکبوونەوە دەبێت تا گەشتن بە یەک خاڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rays become more convergent as they leave the lens."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیشکەکان لێک نزیکدەبنەوە کە ھاوێنەکە جێدێڵن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convergent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvergents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvergents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The rays become more convergent as they leave the lens.",
+                            kurdishText:
+                                "تیشکەکان لێک نزیکدەبنەوە کە ھاوێنەکە جێدێڵن.", // convergent",
+                            onPressedBritish: () => speakconvergents1("en-GB"),
+                            onPressedAmerican: () => speakconvergents1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) بوون بە یەک یان ھاوشێوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two countries have convergent views on regional and international issues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو وڵاتەکە بۆچوونی ھاوشێوەیان ھەیە لە بابەتە ھەرێمی و نێودەوڵەتییەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvergents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvergents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two countries have convergent views on regional and international issues.",
+                            kurdishText:
+                                "دوو وڵاتەکە بۆچوونی ھاوشێوەیان ھەیە لە بابەتە ھەرێمی و نێودەوڵەتییەکاندا.",
+                            onPressedBritish: () => speakconvergents2("en-GB"),
+                            onPressedAmerican: () => speakconvergents2("en-US"),
                           ),
                         ],
                       ),

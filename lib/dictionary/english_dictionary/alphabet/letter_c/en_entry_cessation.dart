@@ -191,60 +191,22 @@ class EnglishEntrycessation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) وەستان یان ناوبڕ خستنە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Religious leaders have called for a total cessation of the bombing campaign."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕابەرە ئاینییەکان داوای وەستانی تەواوی کەمپینی بۆمبارانیان کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cessation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcessations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcessations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Religious leaders have called for a total cessation of the bombing campaign.",
+                            kurdishText:
+                                "ڕابەرە ئاینییەکان داوای وەستانی تەواوی کەمپینی بۆمبارانیان کردووە.", // cessation",
+                            onPressedBritish: () => speakcessations1("en-GB"),
+                            onPressedAmerican: () => speakcessations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mexico called for an immediate cessation of hostilities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەکسیک داوای وەستانی دەستبەجێی توندوتیژی کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcessations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcessations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mexico called for an immediate cessation of hostilities.",
+                            kurdishText:
+                                "مەکسیک داوای وەستانی دەستبەجێی توندوتیژی کردووە.",
+                            onPressedBritish: () => speakcessations2("en-GB"),
+                            onPressedAmerican: () => speakcessations2("en-US"),
                           ),
                         ],
                       ),

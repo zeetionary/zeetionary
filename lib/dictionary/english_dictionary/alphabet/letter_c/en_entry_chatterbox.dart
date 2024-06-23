@@ -94,32 +94,13 @@ class EnglishEntrychatterbox extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She hardly said a word until she was two, but now she's a little chatterbox."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئاستەنگ وشەیەکی دەگوت تا تەمەنی دوو ساڵی، بەڵام ئێستا ئەڵێی ڕادیۆی شکاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chatterbox", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatterboxs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatterboxs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She hardly said a word until she was two, but now she's a little chatterbox.",
+                            kurdishText:
+                                "بە ئاستەنگ وشەیەکی دەگوت تا تەمەنی دوو ساڵی، بەڵام ئێستا ئەڵێی ڕادیۆی شکاوە.", // chatterbox",
+                            onPressedBritish: () => speakchatterboxs1("en-GB"),
+                            onPressedAmerican: () => speakchatterboxs1("en-US"),
                           ),
                         ],
                       ),

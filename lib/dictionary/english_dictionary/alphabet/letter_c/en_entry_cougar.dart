@@ -242,64 +242,26 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئاژەڵێکی کێوی گەورەی ئەمریکی کە لە خێزانی پشیلەکانە کە فەرووی خۆڵەمێشی یان قاوەیی زەردباوی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cougars are solitary animals that hunt deer and other small mammals."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گیڤڕ ئاژەڵی دوورەپەرێزن کە ئاسک و شیردەری بچووک ڕاودەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cougar", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcougars1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcougars1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Cougars are solitary animals that hunt deer and other small mammals.",
+            kurdishText:
+                "گیڤڕ ئاژەڵی دوورەپەرێزن کە ئاسک و شیردەری بچووک ڕاودەکەن.", // cougar", please follow LX instructions
+            onPressedBritish: () => speakcougars1("en-GB"),
+            onPressedAmerican: () => speakcougars1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ژنێکی بەتەمەن کە بە شوێن پەیوەندی سێکسییەوەیە لەگەڵ پیاوێکی زۆر گەنجتر"),
           const AlsoEnglishckb(word: "ھەروەھا: puma"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The TV show depicted a cougar pursuing a younger man for romance."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دراما تەلەفیزیۆنییەکە باس لە کەوڵەکۆنێک دەکات کە بە شوێن پەیوەندیی سۆزدارییەوەیە لەگەڵ پیاوێکی گەنجدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcougars2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcougars2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The TV show depicted a cougar pursuing a younger man for romance.",
+            kurdishText:
+                "دراما تەلەفیزیۆنییەکە باس لە کەوڵەکۆنێک دەکات کە بە شوێن پەیوەندیی سۆزدارییەوەیە لەگەڵ پیاوێکی گەنجدا.",
+            onPressedBritish: () => speakcougars2("en-GB"),
+            onPressedAmerican: () => speakcougars2("en-US"),
           ),
         ],
       ),

@@ -95,32 +95,13 @@ class EnglishEntryconcerto extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچەیەکی نووسراو لە میوزیک کە نۆ یەک ئامێری میوزیکی سۆلۆ (کە یەک دەیژەنێت) یان زیاتر نووسراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The pianist performed a Mozart concerto with the orchestra."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیانۆژەنەکە کۆنسێرتیەکۆ مۆزارتی ئەنجامدا لەگەڵ ئۆرکێستراکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concerto", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcertos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcertos1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The pianist performed a Mozart concerto with the orchestra.",
+                            kurdishText:
+                                "پیانۆژەنەکە کۆنسێرتیەکۆ مۆزارتی ئەنجامدا لەگەڵ ئۆرکێستراکە.", // concerto",
+                            onPressedBritish: () => speakconcertos1("en-GB"),
+                            onPressedAmerican: () => speakconcertos1("en-US"),
                           ),
                         ],
                       ),

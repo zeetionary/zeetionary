@@ -153,242 +153,88 @@ class EnglishEntrychatter extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) قسەکردن بەخێرایی و بەردەوامی لەسەر شتیانێک کە گرنگ نین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They chattered away happily for a while."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵخۆشانە بۆ ماوەیەک قسەیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chatter", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They chattered away happily for a while.",
+                            kurdishText:
+                                "دڵخۆشانە بۆ ماوەیەک قسەیان کرد.", // chatter",
+                            onPressedBritish: () => speakchatters1("en-GB"),
+                            onPressedAmerican: () => speakchatters1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He chattered excitedly to his friends."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە جۆشوخرۆشییەوە دەمەتەقێی بۆ ھاوڕێکانی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He chattered excitedly to his friends.",
+                            kurdishText:
+                                "بە جۆشوخرۆشییەوە دەمەتەقێی بۆ ھاوڕێکانی دەکرد.",
+                            onPressedBritish: () => speakchatters2("en-GB"),
+                            onPressedAmerican: () => speakchatters2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) کڕاندنی ددان بە یەکدا بەھۆی سەرما یان ترس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her teeth chattered as she dressed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ددانەکانی کڕەیان دەھات کە جلی لەبەردەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her teeth chattered as she dressed.",
+                            kurdishText:
+                                "ددانەکانی کڕەیان دەھات کە جلی لەبەردەکرد.",
+                            onPressedBritish: () => speakchatters3("en-GB"),
+                            onPressedAmerican: () => speakchatters3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) درووستکردنی دەنگی زیق لەلایەن ئاژەڵانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The gun shot made the monkeys chatter in alarm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگی فیشەکەکە وای لە مەیموونەکان کرد دەست بە زیقەزیق بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The gun shot made the monkeys chatter in alarm.",
+                            kurdishText:
+                                "دەنگی فیشەکەکە وای لە مەیموونەکان کرد دەست بە زیقەزیق بکەن.",
+                            onPressedBritish: () => speakchatters4("en-GB"),
+                            onPressedAmerican: () => speakchatters4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) قسەی بەردەوام لەسەر ئەو شتانەی کە گرنگ نین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jane's constant chatter was beginning to annoy him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەنەدانی بەردەوامی جەین خەریک بوو دەستی بە بێزارکردنی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Jane's constant chatter was beginning to annoy him.",
+                            kurdishText:
+                                "چەنەدانی بەردەوامی جەین خەریک بوو دەستی بە بێزارکردنی دەکرد.",
+                            onPressedBritish: () => speakchatters5("en-GB"),
+                            onPressedAmerican: () => speakchatters5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I wish you'd stop wasting time in idle chatter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیوادارم دەوەستایت لە قسەی ھیچ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I wish you'd stop wasting time in idle chatter.",
+                            kurdishText: "ھیوادارم دەوەستایت لە قسەی ھیچ.",
+                            onPressedBritish: () => speakchatters6("en-GB"),
+                            onPressedAmerican: () => speakchatters6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) دەنگی زیقی بەردەوامی ھەندێک ئاژەڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He could hear the chatter of birds in the trees overhead."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیتوانی گوێی لە چریوەی باڵندە بێت لەسەر سەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He could hear the chatter of birds in the trees overhead.",
+                            kurdishText:
+                                "دەیتوانی گوێی لە چریوەی باڵندە بێت لەسەر سەری.",
+                            onPressedBritish: () => speakchatters7("en-GB"),
+                            onPressedAmerican: () => speakchatters7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) دەنگی شت کە بەر یەکدی دەکەون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As they waited for help to arrive, the lost hikers could hear the chatter of teeth in the darkness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە واستابوون بۆ گەشتنی یارمەتی، شاخەوانە ونبووەکان گوێیان لە کڕەی ددان بوو لە تاریکییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatters8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatters8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As they waited for help to arrive, the lost hikers could hear the chatter of teeth in the darkness.",
+                            kurdishText:
+                                "کە واستابوون بۆ گەشتنی یارمەتی، شاخەوانە ونبووەکان گوێیان لە کڕەی ددان بوو لە تاریکییەکەدا.",
+                            onPressedBritish: () => speakchatters8("en-GB"),
+                            onPressedAmerican: () => speakchatters8("en-US"),
                           ),
                         ],
                       ),

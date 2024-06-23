@@ -111,91 +111,34 @@ class EnglishEntrycordial extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) خۆش و ھاوڕێیانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The talks took place in a cordial atmosphere."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گفتوگۆکان لە کەشێکی گەرموگوڕدا ڕوویاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cordial", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcordials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcordials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The talks took place in a cordial atmosphere.",
+                            kurdishText:
+                                "گفتوگۆکان لە کەشێکی گەرموگوڕدا ڕوویاندا.", // cordial",
+                            onPressedBritish: () => speakcordials1("en-GB"),
+                            onPressedAmerican: () => speakcordials1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government wisely maintained cordial relations with the Russians."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت ژیرانە پەیوەندی گەرموگوڕی ھێشتەوە لەگەڵ ڕووسەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcordials2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcordials2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government wisely maintained cordial relations with the Russians.",
+                            kurdishText:
+                                "حکومەت ژیرانە پەیوەندی گەرموگوڕی ھێشتەوە لەگەڵ ڕووسەکاندا.",
+                            onPressedBritish: () => speakcordials2("en-GB"),
+                            onPressedAmerican: () => speakcordials2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) خواردنەوەیەک کە کحولی تێدا نییە و لە ئاوی میوە درووست دەکرێت و ئاوی تێدەکرێت؛ گڵاسێک شەربەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the summer, it's nice to relax with a tall glass of chilled lemon cordial."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ھاویندا خۆشە بحەسێیتەوە بە گڵاسێکی درێژ لە شەربەتی میوەی کەلەتەزێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcordials3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcordials3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the summer, it's nice to relax with a tall glass of chilled lemon cordial.",
+                            kurdishText:
+                                "لە ھاویندا خۆشە بحەسێیتەوە بە گڵاسێکی درێژ لە شەربەتی میوەی کەلەتەزێن.",
+                            onPressedBritish: () => speakcordials3("en-GB"),
+                            onPressedAmerican: () => speakcordials3("en-US"),
                           ),
                         ],
                       ),

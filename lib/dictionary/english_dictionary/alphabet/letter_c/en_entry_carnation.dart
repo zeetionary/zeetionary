@@ -186,32 +186,13 @@ class EnglishEntrycarnation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گوڵێکی سپی، پەمەیی، سوور، یان زەرد کە زۆرجار وەک جوانکاری لە بۆنەی فەرمیدا دەبەسترێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was wearing a carnation in his buttonhole."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوڵێکی بەستبوو لە کونەدوگمەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carnation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarnations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarnations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was wearing a carnation in his buttonhole.",
+                            kurdishText:
+                                "گوڵێکی بەستبوو لە کونەدوگمەکەی.", // carnation",
+                            onPressedBritish: () => speakcarnations1("en-GB"),
+                            onPressedAmerican: () => speakcarnations1("en-US"),
                           ),
                         ],
                       ),

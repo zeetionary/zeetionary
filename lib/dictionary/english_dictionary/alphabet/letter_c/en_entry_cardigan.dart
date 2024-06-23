@@ -187,32 +187,13 @@ class EnglishEntrycardigan extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کراسی خوری؛ چاکەتێک کە لە خوری درووستکراوە بەڵام بە دووگمە دەبەسترێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wore her cozy cardigan to stay warm in the chilly weather."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاکەتە خورییە گەرم‌وگوڕەکەیی پۆشی بۆ گەرم مانەوە لە کەشە ساردەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cardigan", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcardigans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcardigans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wore her cozy cardigan to stay warm in the chilly weather.",
+                            kurdishText:
+                                "چاکەتە خورییە گەرم‌وگوڕەکەیی پۆشی بۆ گەرم مانەوە لە کەشە ساردەکەدا.", // cardigan",
+                            onPressedBritish: () => speakcardigans1("en-GB"),
+                            onPressedAmerican: () => speakcardigans1("en-US"),
                           ),
                         ],
                       ),

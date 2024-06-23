@@ -250,90 +250,32 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لە خاچ دان، بە دار ھەڵاوەسین
 """),
           const DefinitionKurdish(text: "١. (کردار) کوشتنی کەسێک بە لەخاچدان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Roman soldiers crucified criminals as a form of punishment."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەربازە ڕۆمەکان تاوانبارانیان وەک جۆرێک لە سزادام لەخاچ دەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crucify", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrucifys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrucifys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Roman soldiers crucified criminals as a form of punishment.",
+            kurdishText:
+                "سەربازە ڕۆمەکان تاوانبارانیان وەک جۆرێک لە سزادام لەخاچ دەدا.", // crucify", please follow LX instructions
+            onPressedBritish: () => speakcrucifys1("en-GB"),
+            onPressedAmerican: () => speakcrucifys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The rebels were captured and crucified by the king's army."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یاخیبووان گیردران و لەخاچدران لەلایەن سوپای پاشاوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrucifys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrucifys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The rebels were captured and crucified by the king's army.",
+            kurdishText: "یاخیبووان گیردران و لەخاچدران لەلایەن سوپای پاشاوە.",
+            onPressedBritish: () => speakcrucifys2("en-GB"),
+            onPressedAmerican: () => speakcrucifys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) لۆمەکردن یان سزادانی کەسێک زۆر بە توندی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The prime minister was crucified in the press for his handling of the affair."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرۆک وەزیران لە میدیادا سەرکۆنە کرا بۆ مامەڵەکردنی لەگەڵ دۆخەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrucifys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrucifys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The prime minister was crucified in the press for his handling of the affair.",
+            kurdishText:
+                "سەرۆک وەزیران لە میدیادا سەرکۆنە کرا بۆ مامەڵەکردنی لەگەڵ دۆخەکەدا.",
+            onPressedBritish: () => speakcrucifys3("en-GB"),
+            onPressedAmerican: () => speakcrucifys3("en-US"),
           ),
         ],
       ),

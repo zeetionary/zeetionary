@@ -186,32 +186,13 @@ class EnglishEntrycavernous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شوێنێکی گەورە و تاریک وەک ئەشکەوت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He opened his cavernous mouth and yawned."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمە ئەشکەوت‌ئاساکەی کردەوە و باوێشکی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cavernous", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcavernouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcavernouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He opened his cavernous mouth and yawned.",
+                            kurdishText:
+                                "دەمە ئەشکەوت‌ئاساکەی کردەوە و باوێشکی دا.", // cavernous",
+                            onPressedBritish: () => speakcavernouss1("en-GB"),
+                            onPressedAmerican: () => speakcavernouss1("en-US"),
                           ),
                         ],
                       ),

@@ -95,32 +95,13 @@ class EnglishEntrycontraband extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەلوپەل کە بەشێوەی نایاسایی لە سنووری وڵاتێکەوە ھاتووچۆی پێدەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The lorry contained thousands of pounds worth of contraband."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لۆرییەکە بە بەھای ھەزاران پاوەند مادەی قاچاغی تێدابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contraband", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrabands1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrabands1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The lorry contained thousands of pounds worth of contraband.",
+                            kurdishText:
+                                "لۆرییەکە بە بەھای ھەزاران پاوەند مادەی قاچاغی تێدابوو.", // contraband",
+                            onPressedBritish: () => speakcontrabands1("en-GB"),
+                            onPressedAmerican: () => speakcontrabands1("en-US"),
                           ),
                         ],
                       ),

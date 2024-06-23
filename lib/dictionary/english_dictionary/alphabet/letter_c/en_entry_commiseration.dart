@@ -102,62 +102,23 @@ class EnglishEntrycommiseration extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھاوسۆزی دەربڕین بۆ کەسێک کە شتێکی ناخۆشی بەسەرھاتووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I offered him my commiseration."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھاوسۆزی خۆمم پێشکەش کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commiseration", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommiserations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommiserations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I offered him my commiseration.",
+                            kurdishText:
+                                "ھاوسۆزی خۆمم پێشکەش کرد.", // commiseration",
+                            onPressedBritish: () =>
+                                speakcommiserations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommiserations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Commiserations to the losing team!"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھاوسۆزی بۆ تیمی دۆڕاو!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommiserations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommiserations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Commiserations to the losing team!",
+                            kurdishText: "ھاوسۆزی بۆ تیمی دۆڕاو!",
+                            onPressedBritish: () =>
+                                speakcommiserations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommiserations2("en-US"),
                           ),
                         ],
                       ),

@@ -122,121 +122,45 @@ class EnglishEntrycharitable extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە ڕێکخراوی خێرخوازی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She set up a charitable trust to fund education projects."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێکخراوێکی خێرخوازی درووستکرد بۆ خەرجی لە پڕۆژەی پەروەردەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "charitable", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharitables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharitables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She set up a charitable trust to fund education projects.",
+                            kurdishText:
+                                "ڕێکخراوێکی خێرخوازی درووستکرد بۆ خەرجی لە پڕۆژەی پەروەردەدا.", // charitable",
+                            onPressedBritish: () => speakcharitables1("en-GB"),
+                            onPressedAmerican: () => speakcharitables1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their family charitable foundation has given millions of dollars for medical research."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دامەزراوە خێرخوازییەکەی خێزانەکەیان ملیۆنان دۆلاری داوە بۆ توێژینەوەی تەندرووستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharitables2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharitables2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their family charitable foundation has given millions of dollars for medical research.",
+                            kurdishText:
+                                "دامەزراوە خێرخوازییەکەی خێزانەکەیان ملیۆنان دۆلاری داوە بۆ توێژینەوەی تەندرووستی.",
+                            onPressedBritish: () => speakcharitables2("en-GB"),
+                            onPressedAmerican: () => speakcharitables2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) یارمەتیدانی کەسانی ھەژار و دەست‌کورتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His later years were devoted largely to charitable work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵەکانی کۆتایی تەرخانکرد بەشێوەیەکی سەرەکی بۆ کاری خێرخوازی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharitables3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharitables3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His later years were devoted largely to charitable work.",
+                            kurdishText:
+                                "ساڵەکانی کۆتایی تەرخانکرد بەشێوەیەکی سەرەکی بۆ کاری خێرخوازی.",
+                            onPressedBritish: () => speakcharitables3("en-GB"),
+                            onPressedAmerican: () => speakcharitables3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) بەخشندە و میھرەبان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let's be charitable and assume she just made a mistake."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با میھرەبان بین و تەنھا وا دابنێین کە ھەڵەیەکی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharitables4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharitables4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Let's be charitable and assume she just made a mistake.",
+                            kurdishText:
+                                "با میھرەبان بین و تەنھا وا دابنێین کە ھەڵەیەکی کرد.",
+                            onPressedBritish: () => speakcharitables4("en-GB"),
+                            onPressedAmerican: () => speakcharitables4("en-US"),
                           ),
                         ],
                       ),

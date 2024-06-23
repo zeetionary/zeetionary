@@ -104,60 +104,22 @@ class EnglishEntryconfirmed extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی خوویەک یان شێوازی ژیان و ئەگەری کەمی گۆڕانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This chocolate dessert is the ultimate dish for confirmed chocaholics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم شیرینییە چکلێتە خواردنی باشترین خواردنە بۆ یەکلایی‌کراوە بۆ ئاڵوودە بە چکلێتەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confirmed", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfirmeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfirmeds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This chocolate dessert is the ultimate dish for confirmed chocaholics.",
+                            kurdishText:
+                                "ئەم شیرینییە چکلێتە خواردنی باشترین خواردنە بۆ یەکلایی‌کراوە بۆ ئاڵوودە بە چکلێتەکان.", // confirmed",
+                            onPressedBritish: () => speakconfirmeds1("en-GB"),
+                            onPressedAmerican: () => speakconfirmeds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Despite the doctor's advice, he is a confirmed smoker and refuses to quit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەڕای ڕاوێژی پزیشکەکە، جگەرەکێشێکی خووگرتووە و ڕەتی دەکاتەوە وازبھێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfirmeds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfirmeds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Despite the doctor's advice, he is a confirmed smoker and refuses to quit.",
+                            kurdishText:
+                                "سەرەڕای ڕاوێژی پزیشکەکە، جگەرەکێشێکی خووگرتووە و ڕەتی دەکاتەوە وازبھێنێت.",
+                            onPressedBritish: () => speakconfirmeds2("en-GB"),
+                            onPressedAmerican: () => speakconfirmeds2("en-US"),
                           ),
                         ],
                       ),

@@ -96,32 +96,13 @@ class EnglishEntryconsortium extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گرووپێک خەڵک، وڵات، کۆمپانیا، ھتد کە پێکەوە کاردەکەن لەسەر بابەتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our company forms part of a consortium of local businesses working for environmental change."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکەمان بەشێک لە کۆمەڵەی بازرگانییە خۆجێییەکان پێکدێنێت کە کار بۆ گۆڕانی ژیمگەیی دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consortium", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsortiums1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsortiums1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our company forms part of a consortium of local businesses working for environmental change.",
+                            kurdishText:
+                                "کۆمپانیاکەمان بەشێک لە کۆمەڵەی بازرگانییە خۆجێییەکان پێکدێنێت کە کار بۆ گۆڕانی ژیمگەیی دەکەن.", // consortium",
+                            onPressedBritish: () => speakconsortiums1("en-GB"),
+                            onPressedAmerican: () => speakconsortiums1("en-US"),
                           ),
                         ],
                       ),

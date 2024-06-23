@@ -92,32 +92,13 @@ class EnglishEntrycolliery extends StatelessWidget {
 کوردی: کانی خەڵووز، کانەخەڵووز، خەڵووزکان
 """),
                           const DefinitionKurdish(text: "١. (ناو) کانی خەڵووز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The colliery employed hundreds of workers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کانە خەڵووزەکە سەدان کرێکاری ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colliery", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollierys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollierys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The colliery employed hundreds of workers.",
+                            kurdishText:
+                                "کانە خەڵووزەکە سەدان کرێکاری ھەبوو.", // colliery",
+                            onPressedBritish: () => speakcollierys1("en-GB"),
+                            onPressedAmerican: () => speakcollierys1("en-US"),
                           ),
                         ],
                       ),

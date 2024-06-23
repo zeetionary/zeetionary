@@ -249,83 +249,27 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) درووستکردنی دەنگێک کە وەک دەنگی سووتانی شت لە ئاگردا وایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A log fire crackled in the hearth."),
-                    ExampleSentenceKurdish(
-                        text: "کۆلکەدارێک قرچەقەرچی کرد لە ئاگردانەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crackle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrackles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrackles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A log fire crackled in the hearth.",
+            kurdishText:
+                "کۆلکەدارێک قرچەقەرچی کرد لە ئاگردانەکەدا.", // crackle", please follow LX instructions
+            onPressedBritish: () => speakcrackles1("en-GB"),
+            onPressedAmerican: () => speakcrackles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The radio crackled into life."),
-                    ExampleSentenceKurdish(
-                        text: "ڕادیۆکە بە قرچەقرچ کەوتە کار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrackles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrackles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The radio crackled into life.",
+            kurdishText: "ڕادیۆکە بە قرچەقرچ کەوتە کار.",
+            onPressedBritish: () => speakcrackles2("en-GB"),
+            onPressedAmerican: () => speakcrackles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) دەنگی قرچەقرچ، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The planes arrived with a crackle of gunfire."),
-                    ExampleSentenceKurdish(
-                        text: "فڕۆکە بە زرمەزرمی تەقەوە ھاتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrackles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrackles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The planes arrived with a crackle of gunfire.",
+            kurdishText: "فڕۆکە بە زرمەزرمی تەقەوە ھاتن.",
+            onPressedBritish: () => speakcrackles3("en-GB"),
+            onPressedAmerican: () => speakcrackles3("en-US"),
           ),
         ],
       ),

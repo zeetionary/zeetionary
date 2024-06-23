@@ -95,32 +95,13 @@ class EnglishEntrychandelier extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لایتێکی جوانکاری کە لە بنبانێکەوە شۆڕدەبێتەوە و ژمارەیەک لقی ھەیە کە گڵۆپان پێوەیە، یان لە ڕابردوودا مۆمیان پێوە بوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Guests admired the sparkling crystals hanging from the chandelier in the dining room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوانەکان سەرسام بوون بە کریستاڵە درەوشاوەکە کە لە چلچراکەوە شۆڕبووبوونەوە لە ژووری نان‌خواردنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chandelier", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchandeliers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchandeliers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Guests admired the sparkling crystals hanging from the chandelier in the dining room.",
+                            kurdishText:
+                                "میوانەکان سەرسام بوون بە کریستاڵە درەوشاوەکە کە لە چلچراکەوە شۆڕبووبوونەوە لە ژووری نان‌خواردنەکە.", // chandelier",
+                            onPressedBritish: () => speakchandeliers1("en-GB"),
+                            onPressedAmerican: () => speakchandeliers1("en-US"),
                           ),
                         ],
                       ),

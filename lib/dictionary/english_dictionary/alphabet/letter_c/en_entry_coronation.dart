@@ -242,31 +242,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بە فەرمی دانانی تاجی شاھانە لەسەر پاشایەک یان شاژنێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was present at the coronation of Queen Victoria."),
-                    ExampleSentenceKurdish(
-                        text: "لە تاج‌لەسەرنانی شاژن ڤیکتۆریا ئامادەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "coronation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoronations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoronations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was present at the coronation of Queen Victoria.",
+            kurdishText:
+                "لە تاج‌لەسەرنانی شاژن ڤیکتۆریا ئامادەبوو.", // coronation", please follow LX instructions
+            onPressedBritish: () => speakcoronations1("en-GB"),
+            onPressedAmerican: () => speakcoronations1("en-US"),
           ),
           // const DividerSentences(),
           // Row(

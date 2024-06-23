@@ -129,162 +129,62 @@ class EnglishEntrycomparative extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بڕیار لەسەردان یان ھەڵسەنگاندن بە بەروارد بە شتێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was living in comparative comfort (= compared with others or with his own life at a previous time)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە بەراوردەوە لە ژیانێکی ئاسوودەدا دەژیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comparative", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomparatives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomparatives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was living in comparative comfort (= compared with others or with his own life at a previous time).",
+                            kurdishText:
+                                "بە بەراوردەوە لە ژیانێکی ئاسوودەدا دەژیا.", // comparative",
+                            onPressedBritish: () => speakcomparatives1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomparatives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company is a comparative newcomer to the software market (= other companies have been in business much longer)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە بە بەروارد تازەھاتووە بۆ بازاڕی نەرمامێر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomparatives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomparatives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company is a comparative newcomer to the software market (= other companies have been in business much longer).",
+                            kurdishText:
+                                "کۆمپانیاکە بە بەروارد تازەھاتووە بۆ بازاڕی نەرمامێر.",
+                            onPressedBritish: () => speakcomparatives2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomparatives2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پەیوەندیدار بە لێکۆڵینەوە لە شتەکان بۆ دۆزینەوەی خاڵی ھاوبەش و جیاوازی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's carrying out a comparative study of health in inner cities and rural areas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێژینەوەیەکی بەراودرکارییانە دەکات لەسەر تەندرووستی لە شارەکان و ناوچە لادێییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomparatives3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomparatives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's carrying out a comparative study of health in inner cities and rural areas.",
+                            kurdishText:
+                                "تێژینەوەیەکی بەراودرکارییانە دەکات لەسەر تەندرووستی لە شارەکان و ناوچە لادێییەکان.",
+                            onPressedBritish: () => speakcomparatives3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomparatives3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) پەیوەندیدار بە جۆری ھاوەڵناوێک کە لە پلەی بەراورددایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The comparative form of \"slow\" is \"slower\"."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێوەی بەرواردنی 'slow' دەبێتە 'slower'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomparatives4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomparatives4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The comparative form of \"slow\" is \"slower\".",
+                            kurdishText:
+                                "شێوەی بەرواردنی 'slow' دەبێتە 'slower'.",
+                            onPressedBritish: () => speakcomparatives4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomparatives4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) شێوەی بەراوردی ھاوەڵناوێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘Better’ is the comparative of ‘good’ and ‘more difficult’ is the comparative of ‘difficult’."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "'Better' شێوەی پلەی بەرواردی 'good' ـە و 'more difficult' شێوەی بەراوردی 'difficult' ـە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomparatives5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomparatives5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘Better’ is the comparative of ‘good’ and ‘more difficult’ is the comparative of ‘difficult’.",
+                            kurdishText:
+                                "'Better' شێوەی پلەی بەرواردی 'good' ـە و 'more difficult' شێوەی بەراوردی 'difficult' ـە.",
+                            onPressedBritish: () => speakcomparatives5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomparatives5("en-US"),
                           ),
                         ],
                       ),

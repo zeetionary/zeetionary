@@ -111,94 +111,37 @@ class EnglishEntryconsiderably extends StatelessWidget {
 کوردی: بە شێوەیەکی بەرچاو، زۆر؛ گەلێک
 """),
                           const DefinitionKurdish(text: "١. (ھاوەڵکار) زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The need for sleep varies considerably from person to person."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستی خەو زۆر دەگۆڕێت لە کەسێکەوە بۆ کەسێکی دیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "considerably", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsiderablys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsiderablys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The need for sleep varies considerably from person to person.",
+                            kurdishText:
+                                "پێویستی خەو زۆر دەگۆڕێت لە کەسێکەوە بۆ کەسێکی دیکە.", // considerably",
+                            onPressedBritish: () =>
+                                speakconsiderablys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsiderablys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Pollution levels have considerably reduced in this time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاستی پیسبوونی ژینگەیی لەم کاتەدا بە ئاستێکی زۆر کەم بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsiderablys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsiderablys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Pollution levels have considerably reduced in this time.",
+                            kurdishText:
+                                "ئاستی پیسبوونی ژینگەیی لەم کاتەدا بە ئاستێکی زۆر کەم بووە.",
+                            onPressedBritish: () =>
+                                speakconsiderablys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsiderablys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Prices are considerably higher than they were a year ago."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخەکان زۆر بەرزترن بە ساڵێک پێشتا ئێستا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsiderablys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsiderablys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Prices are considerably higher than they were a year ago.",
+                            kurdishText:
+                                "نرخەکان زۆر بەرزترن بە ساڵێک پێشتا ئێستا.",
+                            onPressedBritish: () =>
+                                speakconsiderablys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsiderablys3("en-US"),
                           ),
                         ],
                       ),

@@ -122,118 +122,42 @@ class EnglishEntrycompel extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) زۆرکردن لە کەسێک بۆ کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The law can compel fathers to make regular payments for their children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاساکە دەکرێت باوکان ناچار بکات کە پارەی ماوە ماوە بدەن بە منداڵەکانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compel", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompels1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompels1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The law can compel fathers to make regular payments for their children.",
+                            kurdishText:
+                                "یاساکە دەکرێت باوکان ناچار بکات کە پارەی ماوە ماوە بدەن بە منداڵەکانیان.", // compel",
+                            onPressedBritish: () => speakcompels1("en-GB"),
+                            onPressedAmerican: () => speakcompels1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I feel compelled to write and tell you how much I enjoyed your book."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەست بە ناچاری دەکەم کە بۆت بنووسم و پێت بڵێم چەندە چێژم لە کتێبەکەت بینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompels2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompels2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I feel compelled to write and tell you how much I enjoyed your book.",
+                            kurdishText:
+                                "ھەست بە ناچاری دەکەم کە بۆت بنووسم و پێت بڵێم چەندە چێژم لە کتێبەکەت بینی.",
+                            onPressedBritish: () => speakcompels2("en-GB"),
+                            onPressedAmerican: () => speakcompels2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The court has powers to compel witnesses to attend."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دادگاکان دەسەڵاتیان ھەیە شایەتحاڵەکان بانگ بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompels3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompels3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The court has powers to compel witnesses to attend.",
+                            kurdishText:
+                                "دادگاکان دەسەڵاتیان ھەیە شایەتحاڵەکان بانگ بکەن.",
+                            onPressedBritish: () => speakcompels3("en-GB"),
+                            onPressedAmerican: () => speakcompels3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) بوون بە ھۆکاری کاردانەوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spoke with an authority that compelled the attention of the whole crowd."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ھێزێکی وەھاوە قسەیکرد کە سەرنجی تەواوی جەماوەرەکەی ڕاکێشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompels4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompels4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He spoke with an authority that compelled the attention of the whole crowd.",
+                            kurdishText:
+                                "بە ھێزێکی وەھاوە قسەیکرد کە سەرنجی تەواوی جەماوەرەکەی ڕاکێشا.",
+                            onPressedBritish: () => speakcompels4("en-GB"),
+                            onPressedAmerican: () => speakcompels4("en-US"),
                           ),
                         ],
                       ),

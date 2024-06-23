@@ -94,34 +94,14 @@ class EnglishEntrycontemptible extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بەشێوەیەک خراپ کە شایەنی ڕێز نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her behaviour was contemptible."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسوکەوتی چەپەڵ/ھیچ‌وپووچ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contemptible", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemptibles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemptibles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her behaviour was contemptible.",
+                            kurdishText:
+                                "ھەڵسوکەوتی چەپەڵ/ھیچ‌وپووچ بوو.", // contemptible",
+                            onPressedBritish: () =>
+                                speakcontemptibles1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemptibles1("en-US"),
                           ),
                         ],
                       ),

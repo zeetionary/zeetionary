@@ -250,91 +250,35 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ناوچەیەک کە پەرژینێکی لە دەورە بۆ ئەسپ، مانگا، ھتد لە کێڵگەیەکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They drove the ponies into a corral."),
-                    ExampleSentenceKurdish(
-                        text: "سواری ئەسپۆکەکانیان دەکرد لە حەوشەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corral", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They drove the ponies into a corral.",
+            kurdishText:
+                "سواری ئەسپۆکەکانیان دەکرد لە حەوشەکەدا.", // corral", please follow LX instructions
+            onPressedBritish: () => speakcorrals1("en-GB"),
+            onPressedAmerican: () => speakcorrals1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بردنی ئەسپ یان مانگا بپ حەوشەیەکی پەرژیندار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We need to corral the cows before they wander off too far."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێویستە مانگاکان ببەینە ناو پەرژینەکەوە پێش ئەوەی زۆر دووربکەونەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We need to corral the cows before they wander off too far.",
+            kurdishText:
+                "پێویستە مانگاکان ببەینە ناو پەرژینەکەوە پێش ئەوەی زۆر دووربکەونەوە.",
+            onPressedBritish: () => speakcorrals2("en-GB"),
+            onPressedAmerican: () => speakcorrals2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) کۆکردنەوەی کۆمەڵە کەسێک لە شوێنێکدا، بەتایبەتی بۆ کۆنترۆڵکردنیان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Police corralled most of the demonstrators in a small area near the station."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆلیس زۆرینەی خۆپیشاندەرانی لە ناوچەیەکی بچووکدا خڕکردەوە لە نزیک وێستگەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Police corralled most of the demonstrators in a small area near the station.",
+            kurdishText:
+                "پۆلیس زۆرینەی خۆپیشاندەرانی لە ناوچەیەکی بچووکدا خڕکردەوە لە نزیک وێستگەکە.",
+            onPressedBritish: () => speakcorrals3("en-GB"),
+            onPressedAmerican: () => speakcorrals3("en-US"),
           ),
         ],
       ),

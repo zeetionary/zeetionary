@@ -191,91 +191,34 @@ class EnglishEntrycarelessly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) کارێک کە بە خراپی و بەبێ سەرنج و گرنگییەوە کراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Someone had carelessly left a window open."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێک خەمساردانە پەنجەرەیەکی بە کراوەیی جێھێشتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carelessly", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarelesslys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarelesslys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Someone had carelessly left a window open.",
+                            kurdishText:
+                                "کەسێک خەمساردانە پەنجەرەیەکی بە کراوەیی جێھێشتبوو.", // carelessly",
+                            onPressedBritish: () => speakcarelesslys1("en-GB"),
+                            onPressedAmerican: () => speakcarelesslys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The fire was started by a carelessly discarded cigarette."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگرەکە دەستیپێکردبوو بە جگەرەیەکی ناھۆشیارانە فڕێدراو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarelesslys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarelesslys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The fire was started by a carelessly discarded cigarette.",
+                            kurdishText:
+                                "ئاگرەکە دەستیپێکردبوو بە جگەرەیەکی ناھۆشیارانە فڕێدراو.",
+                            onPressedBritish: () => speakcarelesslys2("en-GB"),
+                            onPressedAmerican: () => speakcarelesslys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە حەز و ھەوڵدانێک پیشان نادات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She threw her coat carelessly onto the chair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەخەمشەسەرێ پاڵتاوەکەی فڕێدایە سەر کورسییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarelesslys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarelesslys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She threw her coat carelessly onto the chair.",
+                            kurdishText:
+                                "بەخەمشەسەرێ پاڵتاوەکەی فڕێدایە سەر کورسییەکە.",
+                            onPressedBritish: () => speakcarelesslys3("en-GB"),
+                            onPressedAmerican: () => speakcarelesslys3("en-US"),
                           ),
                         ],
                       ),

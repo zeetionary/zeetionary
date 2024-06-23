@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کریکێت‌زان، یاریزانی کریکێت، کریکێت‌باز
 """),
           const DefinitionKurdish(text: "١. (ناو) یاریزانی کریکێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He is a talented cricketer who has represented his country in many matches."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یاریزانێکی لێھاتووی کریکێتە کە لە زۆر یاریدا نوێنەرایەتی وڵاتەکەی کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cricketer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcricketers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcricketers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He is a talented cricketer who has represented his country in many matches.",
+            kurdishText:
+                "یاریزانێکی لێھاتووی کریکێتە کە لە زۆر یاریدا نوێنەرایەتی وڵاتەکەی کردووە.", // cricketer", please follow LX instructions
+            onPressedBritish: () => speakcricketers1("en-GB"),
+            onPressedAmerican: () => speakcricketers1("en-US"),
           ),
         ],
       ),

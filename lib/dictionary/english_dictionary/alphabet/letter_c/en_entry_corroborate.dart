@@ -242,60 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) پێدانی بەڵگە یان زانیاری کە شتێک پشتڕاستدەکاتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The evidence was corroborated by two independent witnesses."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەڵگەکە لەلایەن دوو شایەتحاڵەوە پشتڕاستکرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corroborate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorroborates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorroborates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The evidence was corroborated by two independent witnesses.",
+            kurdishText:
+                "بەڵگەکە لەلایەن دوو شایەتحاڵەوە پشتڕاستکرایەوە.", // corroborate", please follow LX instructions
+            onPressedBritish: () => speakcorroborates1("en-GB"),
+            onPressedAmerican: () => speakcorroborates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Recent research seems to corroborate his theory."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "توێژینەوەی تازە وادەردەکەوێت بیردۆزەکەی پشت‌ڕاست بکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorroborates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorroborates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Recent research seems to corroborate his theory.",
+            kurdishText:
+                "توێژینەوەی تازە وادەردەکەوێت بیردۆزەکەی پشت‌ڕاست بکاتەوە.",
+            onPressedBritish: () => speakcorroborates2("en-GB"),
+            onPressedAmerican: () => speakcorroborates2("en-US"),
           ),
         ],
       ),

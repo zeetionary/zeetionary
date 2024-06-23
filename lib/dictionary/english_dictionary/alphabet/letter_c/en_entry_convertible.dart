@@ -103,67 +103,27 @@ class EnglishEntryconvertible extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کە دەکرێت بگۆڕێت بۆ جۆر یان بەکارھێنانێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bonds are convertible into ordinary shares."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆندەکان دەکرێت بگۆڕدرێن بۆ پشکی ئاسایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convertible", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvertibles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvertibles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bonds are convertible into ordinary shares.",
+                            kurdishText:
+                                "بۆندەکان دەکرێت بگۆڕدرێن بۆ پشکی ئاسایی.", // convertible",
+                            onPressedBritish: () => speakconvertibles1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvertibles1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو، ناو) ئۆتۆمبێلێک کە سەرەکەی دەکرێت دابخرێت و ھەڵبدرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She drove her white convertible Mercedes with the roof down."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مارسیدزە سپییە میچ‌نووشتاوەکەی بە سەری ھەڵدراوەوە لێدەخوڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvertibles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvertibles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She drove her white convertible Mercedes with the roof down.",
+                            kurdishText:
+                                "مارسیدزە سپییە میچ‌نووشتاوەکەی بە سەری ھەڵدراوەوە لێدەخوڕی.",
+                            onPressedBritish: () => speakconvertibles2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvertibles2("en-US"),
                           ),
                         ],
                       ),

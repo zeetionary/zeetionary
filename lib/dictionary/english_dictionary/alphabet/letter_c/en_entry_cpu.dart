@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بەشێکی کۆمپیوتەر کە تەواوی بەشەکانی دیکە کۆنترۆڵ دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The CPU is often referred to as the \"brain\" of the computer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێکخەری ناوەندی زۆرجار پێی دەگوترێت 'مێشکی' کۆمپیوتەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "CPU", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakCPUs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakCPUs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The CPU is often referred to as the \"brain\" of the computer.",
+            kurdishText:
+                "ڕێکخەری ناوەندی زۆرجار پێی دەگوترێت 'مێشکی' کۆمپیوتەر.", // CPU", please follow LX instructions
+            onPressedBritish: () => speakCPUs1("en-GB"),
+            onPressedAmerican: () => speakCPUs1("en-US"),
           ),
         ],
       ),

@@ -104,60 +104,22 @@ class EnglishEntrycivilize extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پێدانی خوێندن و پەروەردە یان باشترکردنی کۆمەڵگەیەک بۆ ئەوەی ببن بە شارستانیەت؛ باشترکردنی ھەڵسوکەوتی ڕەفتاری کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The girls in a class tend to have a civilizing influence on the boys."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەبوونی کچان لە پۆلێکدا وادەردەکەوێت کاریگەری باشی لەسەر ڕەفتاری کوڕان ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "civilize", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivilizes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivilizes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The girls in a class tend to have a civilizing influence on the boys.",
+                            kurdishText:
+                                "ھەبوونی کچان لە پۆلێکدا وادەردەکەوێت کاریگەری باشی لەسەر ڕەفتاری کوڕان ھەبێت.", // civilize",
+                            onPressedBritish: () => speakcivilizes1("en-GB"),
+                            onPressedAmerican: () => speakcivilizes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Romans set out to civilize the Ancient Britons."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆمەکان پەلیان ھاویشت بۆ بەشارستانیکردنی بەریتانییە کۆنەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivilizes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivilizes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Romans set out to civilize the Ancient Britons.",
+                            kurdishText:
+                                "ڕۆمەکان پەلیان ھاویشت بۆ بەشارستانیکردنی بەریتانییە کۆنەکان.",
+                            onPressedBritish: () => speakcivilizes2("en-GB"),
+                            onPressedAmerican: () => speakcivilizes2("en-US"),
                           ),
                         ],
                       ),

@@ -97,34 +97,15 @@ class EnglishEntryconcentrationcamp extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) زیندانێک، بەتایبەتی یەکێک کە لە ژمارەیەک بینا پێکدێت، زیندانییان تێیدا لە دۆخێکی خراپدا ڕادەگیرێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "During World War II, millions of Jews were imprisoned in concentration camps."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ماوەی جەنگی دووەمی جیھانیدا، ملیۆنان جوو لە ئۆردوگا زۆرەملێیەکاندا زیندانی کران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concentration camp", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcentrationcamps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcentrationcamps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "During World War II, millions of Jews were imprisoned in concentration camps.",
+                            kurdishText:
+                                "لە ماوەی جەنگی دووەمی جیھانیدا، ملیۆنان جوو لە ئۆردوگا زۆرەملێیەکاندا زیندانی کران.", // concentration camp",
+                            onPressedBritish: () =>
+                                speakconcentrationcamps1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcentrationcamps1("en-US"),
                           ),
                         ],
                       ),

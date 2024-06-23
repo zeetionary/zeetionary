@@ -191,63 +191,25 @@ class EnglishEntrycaress extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) دەستھێنان بە شتێک یان کەسێکدا، بە تایبەتی بۆ پیشاندانی خۆشەویستی یان حەزی جەستەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His fingers gently caressed her cheek."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجەکانی بە نەرمی ساوی بە گۆنایدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "caress", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaresss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaresss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His fingers gently caressed her cheek.",
+                            kurdishText:
+                                "پەنجەکانی بە نەرمی ساوی بە گۆنایدا.", // caress",
+                            onPressedBritish: () => speakcaresss1("en-GB"),
+                            onPressedAmerican: () => speakcaresss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دەستھێنان یان ماچێکی نەرمی خۆشەویستانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She closed her eyes, and lifted her face to the sun, enjoying its light, warm caress on her cheeks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوی داخست، و ڕووی لە خۆرەکە کرد بە چێژ وەرگرتن لە بەرکەوتنە گەرم و ڕۆشنەکەی بەسەر گۆنایدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaresss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaresss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She closed her eyes, and lifted her face to the sun, enjoying its light, warm caress on her cheeks.",
+                            kurdishText:
+                                "چاوی داخست، و ڕووی لە خۆرەکە کرد بە چێژ وەرگرتن لە بەرکەوتنە گەرم و ڕۆشنەکەی بەسەر گۆنایدا.",
+                            onPressedBritish: () => speakcaresss2("en-GB"),
+                            onPressedAmerican: () => speakcaresss2("en-US"),
                           ),
                         ],
                       ),

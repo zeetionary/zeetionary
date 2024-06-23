@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کڵاوێکی بەھێز کە بەکاردێت بۆ پاراستنی سەر لە کاتی پاسکیل یان ماتۆڕ سواری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He always wears a crash helmet when riding his motorcycle."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەمیشە کڵاوێکی پارێزەر لەسەر دەکات کە ماتۆڕسواری دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crash helmet", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashhelmets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashhelmets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He always wears a crash helmet when riding his motorcycle.",
+            kurdishText:
+                "ھەمیشە کڵاوێکی پارێزەر لەسەر دەکات کە ماتۆڕسواری دەکات.", // crash helmet", please follow LX instructions
+            onPressedBritish: () => speakcrashhelmets1("en-GB"),
+            onPressedAmerican: () => speakcrashhelmets1("en-US"),
           ),
         ],
       ),

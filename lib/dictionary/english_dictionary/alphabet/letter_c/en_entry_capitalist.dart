@@ -191,94 +191,37 @@ class EnglishEntrycapitalist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پشتبەستوو بە سیستەمی سەرمایەداری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She says that the capitalist system has never worked for the poor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەڵێت کەوا سیستەمی سەرمایەداری ھەرگیز لە قازانجی ھەژاران نەبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capitalist", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitalists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitalists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She says that the capitalist system has never worked for the poor.",
+                            kurdishText:
+                                "دەڵێت کەوا سیستەمی سەرمایەداری ھەرگیز لە قازانجی ھەژاران نەبووە.", // capitalist
+                            onPressedBritish: () => speakcapitalists1("en-GB"),
+                            onPressedAmerican: () => speakcapitalists1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە پشتیوانی سیستەمی سەرمایەدارییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "High interest rates are good for capitalists as they allow them to accumulate wealth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوونی ڕێژەی سووی بەرز باشە بۆ سەرمایەداران بەھۆی ئەوەی ێگەیان پێ دەدات سامانێکی زۆر کۆبکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitalists2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitalists2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "High interest rates are good for capitalists as they allow them to accumulate wealth.",
+                            kurdishText:
+                                "بوونی ڕێژەی سووی بەرز باشە بۆ سەرمایەداران بەھۆی ئەوەی ێگەیان پێ دەدات سامانێکی زۆر کۆبکەنەوە.",
+                            onPressedBritish: () => speakcapitalists2("en-GB"),
+                            onPressedAmerican: () => speakcapitalists2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەسێک کە سامانێکی زۆری ھەیە و بەکاریدێنێت بۆ دەستکەوتنی سامانی زیاتر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many of these capitalists have been able to benefit from privatization."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرێک لەم سەرمایەدارانە توانیویانە سوود ببینن لە ناحکومی‌کردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitalists3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitalists3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many of these capitalists have been able to benefit from privatization.",
+                            kurdishText:
+                                "زۆرێک لەم سەرمایەدارانە توانیویانە سوود ببینن لە ناحکومی‌کردن.",
+                            onPressedBritish: () => speakcapitalists3("en-GB"),
+                            onPressedAmerican: () => speakcapitalists3("en-US"),
                           ),
                         ],
                       ),

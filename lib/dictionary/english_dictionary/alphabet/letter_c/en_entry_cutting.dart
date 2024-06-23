@@ -250,92 +250,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) وتارێک یان چیرۆکێک کە لە ڕۆژنامەیەک یان گۆڤارێک دەیبڕیت و ھەڵیدەگریت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had kept all the press cuttings about the murder."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو لێکراوەکانی میدیای سەبارەت بە کوشتنەکە ھەڵگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cutting", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuttings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuttings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She had kept all the press cuttings about the murder.",
+            kurdishText:
+                "ھەموو لێکراوەکانی میدیای سەبارەت بە کوشتنەکە ھەڵگرت.", // cutting", please follow LX instructions
+            onPressedBritish: () => speakcuttings1("en-GB"),
+            onPressedAmerican: () => speakcuttings1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) پارچەیەک کە لە ڕووەکێکەوە لێدەکرێتەوە بۆ سەوزبوونی ڕووەکێکی تازە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Take cuttings from mature plants in the spring."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شەتڵ لە ڕووەکی پێگەشتووەوە ببە لە کۆتایی بەھاردا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuttings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuttings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Take cuttings from mature plants in the spring.",
+            kurdishText: "شەتڵ لە ڕووەکی پێگەشتووەوە ببە لە کۆتایی بەھاردا.",
+            onPressedBritish: () => speakcuttings2("en-GB"),
+            onPressedAmerican: () => speakcuttings2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) توند و ناخۆش کە ئازاری ھەستەکانی کەسێک دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He can be very cutting when he chooses to be!"),
-                    ExampleSentenceKurdish(
-                        text: "کە بیەوێت دەتوانێت زۆر نامیھرەبان بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuttings3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuttings3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He can be very cutting when he chooses to be!",
+            kurdishText: "کە بیەوێت دەتوانێت زۆر نامیھرەبان بێت.",
+            onPressedBritish: () => speakcuttings3("en-GB"),
+            onPressedAmerican: () => speakcuttings3("en-US"),
           ),
         ],
       ),

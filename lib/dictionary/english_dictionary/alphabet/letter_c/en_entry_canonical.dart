@@ -196,125 +196,49 @@ class EnglishEntrycanonical extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) بەشێک لەو کتێبە پیرۆزانەی کە پەسەندکراون بۆ ئەوەی کە باوەڕ وایە ھەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Gospel of Matthew and the Book of Genesis are both canonical texts in Christianity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبی ئینجیلی ماسیو و کتێبی جێنەسیز ھەردووکیان وەک نووسینی پەسەندکراون لە مەسیحییەتدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canonical", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanonicals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanonicals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Gospel of Matthew and the Book of Genesis are both canonical texts in Christianity.",
+                            kurdishText:
+                                "کتێبی ئینجیلی ماسیو و کتێبی جێنەسیز ھەردووکیان وەک نووسینی پەسەندکراون لە مەسیحییەتدا.", // canonical
+                            onPressedBritish: () => speakcanonicals1("en-GB"),
+                            onPressedAmerican: () => speakcanonicals1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) بەپێی یاسای کڵێسای مەسیحییەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Pope indicated that he would not consider any applications for canonical pardon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاپا ئاماژەی پێدا کە ھیچ داواکارییەک وەرناگرێت بۆ لێخۆشبوونی کڵێسایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanonicals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanonicals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Pope indicated that he would not consider any applications for canonical pardon.",
+                            kurdishText:
+                                "پاپا ئاماژەی پێدا کە ھیچ داواکارییەک وەرناگرێت بۆ لێخۆشبوونی کڵێسایی.",
+                            onPressedBritish: () => speakcanonicals2("en-GB"),
+                            onPressedAmerican: () => speakcanonicals2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) بەشێک لە کاری کۆمەڵە نووسەرێک یان بەرھەمی ئەدەبی کە تەواو ڕێزلێگیراون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Canonical writers like Jane Austen have left an enduring legacy with their contributions to literature."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نووسەری ڕێزلێگیراوی وەک جەین ئۆستن کاریگەرییەکی بەردەوامیان بەجێھێشتووە بە بەرھەمەکانیان لە وێژەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanonicals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanonicals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Canonical writers like Jane Austen have left an enduring legacy with their contributions to literature.",
+                            kurdishText:
+                                "نووسەری ڕێزلێگیراوی وەک جەین ئۆستن کاریگەرییەکی بەردەوامیان بەجێھێشتووە بە بەرھەمەکانیان لە وێژەدا.",
+                            onPressedBritish: () => speakcanonicals3("en-GB"),
+                            onPressedAmerican: () => speakcanonicals3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) پەسەندکراو وەک شتێک کە ڕاست، درووست، یان بەبنەمایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The university teaches canonical science methods for experimentation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانکۆکە ڕێگا درووستەکانی زانست دەڵێتەوە بۆ توێژینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanonicals4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanonicals4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The university teaches canonical science methods for experimentation.",
+                            kurdishText:
+                                "زانکۆکە ڕێگا درووستەکانی زانست دەڵێتەوە بۆ توێژینەوە.",
+                            onPressedBritish: () => speakcanonicals4("en-GB"),
+                            onPressedAmerican: () => speakcanonicals4("en-US"),
                           ),
                         ],
                       ),

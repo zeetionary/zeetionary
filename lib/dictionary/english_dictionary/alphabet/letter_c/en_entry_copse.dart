@@ -94,32 +94,13 @@ class EnglishEntrycopse extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوچەیەکی بچووک کە تێیدا کۆمەڵە دارێک ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a small copse of trees in the distance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوورەوە بێشەڵانێکی بچووک دیاربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "copse", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a small copse of trees in the distance.",
+                            kurdishText:
+                                "لە دوورەوە بێشەڵانێکی بچووک دیاربوو.", // copse",
+                            onPressedBritish: () => speakcopses1("en-GB"),
+                            onPressedAmerican: () => speakcopses1("en-US"),
                           ),
                         ],
                       ),

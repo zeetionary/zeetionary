@@ -121,118 +121,42 @@ class EnglishEntryconstrain extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) زۆرکردن لە کەسێک بۆ کردنی شتێک یان ڕەفتارکردن بەشێوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The evidence was so compelling that he felt constrained to accept it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵگەکە زۆر قایلکەر بوو کە ھەستی بە ناچاری کرد پەسەندی بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constrain", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstrains1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstrains1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The evidence was so compelling that he felt constrained to accept it.",
+                            kurdishText:
+                                "بەڵگەکە زۆر قایلکەر بوو کە ھەستی بە ناچاری کرد پەسەندی بکات.", // constrain",
+                            onPressedBritish: () => speakconstrains1("en-GB"),
+                            onPressedAmerican: () => speakconstrains1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company said that it was constrained to raise prices."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە گوتی ناچاربوو نرخەکان بەرز بکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstrains2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstrains2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company said that it was constrained to raise prices.",
+                            kurdishText:
+                                "کۆمپانیاکە گوتی ناچاربوو نرخەکان بەرز بکاتەوە.",
+                            onPressedBritish: () => speakconstrains2("en-GB"),
+                            onPressedAmerican: () => speakconstrains2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) سنووردارکردنی کەسێک یان شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Research has been constrained by a lack of funds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژینەوە سنووردارکراوە بەھۆی کەمی خەرجییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstrains3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstrains3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Research has been constrained by a lack of funds.",
+                            kurdishText:
+                                "توێژینەوە سنووردارکراوە بەھۆی کەمی خەرجییەوە.",
+                            onPressedBritish: () => speakconstrains3("en-GB"),
+                            onPressedAmerican: () => speakconstrains3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are a number of factors that constrain agricultural development."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک فاکتەر ھەن کە گەشەی کشتوکاڵ سنووردار دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstrains4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstrains4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are a number of factors that constrain agricultural development.",
+                            kurdishText:
+                                "ژمارەیەک فاکتەر ھەن کە گەشەی کشتوکاڵ سنووردار دەکەن.",
+                            onPressedBritish: () => speakconstrains4("en-GB"),
+                            onPressedAmerican: () => speakconstrains4("en-US"),
                           ),
                         ],
                       ),

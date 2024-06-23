@@ -249,85 +249,29 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: وێران، زەندەق، زات، دڵ‌وجەرگ، چاوسووری، ئازایەتی
 """),
           const DefinitionKurdish(text: "١. (ناو) توانای کردنی شتێکی ترسناک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He showed great courage and determination."),
-                    ExampleSentenceKurdish(
-                        text: "بوێری و کۆڵنەدانی گەورەی پیشاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "courage", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourages1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourages1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He showed great courage and determination.",
+            kurdishText:
+                "بوێری و کۆڵنەدانی گەورەی پیشاندا.", // courage", please follow LX instructions
+            onPressedBritish: () => speakcourages1("en-GB"),
+            onPressedAmerican: () => speakcourages1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They had the courage to stand up and fight for what they believed in."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بوێری ئەوەیان بوو بوەستن و بجەنگن بۆ ئەوەی باوەڕیان پێی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourages2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourages2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They had the courage to stand up and fight for what they believed in.",
+            kurdishText:
+                "بوێری ئەوەیان بوو بوەستن و بجەنگن بۆ ئەوەی باوەڕیان پێی بوو.",
+            onPressedBritish: () => speakcourages2("en-GB"),
+            onPressedAmerican: () => speakcourages2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He couldn't find the courage to tell his daughters what had happened."),
-                    ExampleSentenceKurdish(
-                        text: "زاتی ئەوەی نەبوو بە کچەکانی بڵێت چی ڕوویدابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourages3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourages3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He couldn't find the courage to tell his daughters what had happened.",
+            kurdishText: "زاتی ئەوەی نەبوو بە کچەکانی بڵێت چی ڕوویدابوو.",
+            onPressedBritish: () => speakcourages3("en-GB"),
+            onPressedAmerican: () => speakcourages3("en-US"),
           ),
         ],
       ),

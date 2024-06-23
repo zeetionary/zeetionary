@@ -102,61 +102,23 @@ class EnglishEntrycomposed extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) درووستکراو، درووست بوو لە ژمارەیەک بەش، شت، یان خەڵک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The committee is composed mainly of lawyers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لیژنەکە بەشێوەیەکی سەرەکی لە پارێزەران پێکھاتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "composed", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomposeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomposeds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The committee is composed mainly of lawyers.",
+                            kurdishText:
+                                "لیژنەکە بەشێوەیەکی سەرەکی لە پارێزەران پێکھاتووە.", // composed",
+                            onPressedBritish: () => speakcomposeds1("en-GB"),
+                            onPressedAmerican: () => speakcomposeds1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) ئارام و کۆنترۆڵکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He remained perfectly composed and calm."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەواو ئارام و لەسەرخۆ دیاربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomposeds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomposeds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He remained perfectly composed and calm.",
+                            kurdishText: "تەواو ئارام و لەسەرخۆ دیاربوو.",
+                            onPressedBritish: () => speakcomposeds2("en-GB"),
+                            onPressedAmerican: () => speakcomposeds2("en-US"),
                           ),
                         ],
                       ),

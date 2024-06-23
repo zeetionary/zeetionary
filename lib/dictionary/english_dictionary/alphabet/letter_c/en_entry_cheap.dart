@@ -203,60 +203,22 @@ class EnglishEntrycheap extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ھەرزان لە ڕووی نرخەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their cheap prices have helped them pick up new customers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخە ھەرزانەکانیان یارمەتی داون کڕیاری تازە کۆبکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheap", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheaps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheaps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their cheap prices have helped them pick up new customers.",
+                            kurdishText:
+                                "نرخە ھەرزانەکانیان یارمەتی داون کڕیاری تازە کۆبکەنەوە.", // cheap",
+                            onPressedBritish: () => speakcheaps1("en-GB"),
+                            onPressedAmerican: () => speakcheaps1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They're offering incredibly cheap fares to Eastern Europe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرێی تەواو ھەرزان وەردەگرن بۆ ڕۆژھەڵاتی ئەورووپا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheaps2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheaps2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They're offering incredibly cheap fares to Eastern Europe.",
+                            kurdishText:
+                                "کرێی تەواو ھەرزان وەردەگرن بۆ ڕۆژھەڵاتی ئەورووپا.",
+                            onPressedBritish: () => speakcheaps2("en-GB"),
+                            onPressedAmerican: () => speakcheaps2("en-US"),
                           ),
                           Column(
                             children: [
@@ -358,259 +320,88 @@ class EnglishEntrycheap extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) داواکردنی نرخی کەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's a good restaurant, and incredibly cheap."),
-                                    ExampleSentenceKurdish(
-                                        text: "چێشتخانەیەکی باشە و ھەرزانیشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheaps6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheaps6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's a good restaurant, and incredibly cheap.",
+                            kurdishText: "چێشتخانەیەکی باشە و ھەرزانیشە.",
+                            onPressedBritish: () => speakcheaps6("en-GB"),
+                            onPressedAmerican: () => speakcheaps6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Italy was a very cheap country to visit in those days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ڕۆژانە ئیتالیا وڵاتێکی ھەرزان بوو بۆ سەردانکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheaps7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheaps7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Italy was a very cheap country to visit in those days.",
+                            kurdishText:
+                                "ئەو ڕۆژانە ئیتالیا وڵاتێکی ھەرزان بوو بۆ سەردانکردن.",
+                            onPressedBritish: () => speakcheaps7("en-GB"),
+                            onPressedAmerican: () => speakcheaps7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ھەرزان و خراپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was just a bottle of cheap perfume."),
-                                    ExampleSentenceKurdish(
-                                        text: "بوتڵێک لە بۆنی ھەرزان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheaps8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheaps8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was just a bottle of cheap perfume.",
+                            kurdishText: "بوتڵێک لە بۆنی ھەرزان بوو.",
+                            onPressedBritish: () => speakcheaps8("en-GB"),
+                            onPressedAmerican: () => speakcheaps8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bought some cheap shoes that fell apart after a couple of months."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک پێڵاوی ھەرزانی کڕی کە پاش چەند مانگێک دڕان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheaps9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheaps9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He bought some cheap shoes that fell apart after a couple of months.",
+                            kurdishText:
+                                "ھەندێک پێڵاوی ھەرزانی کڕی کە پاش چەند مانگێک دڕان.",
+                            onPressedBritish: () => speakcheaps9("en-GB"),
+                            onPressedAmerican: () => speakcheaps9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They sold cheap and nasty watches at hugely inflated prices."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتژمێری ھەرزان و خراپیان دەفرۆشت بە نرخی زۆر بەرز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheaps10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheaps10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They sold cheap and nasty watches at hugely inflated prices.",
+                            kurdishText:
+                                "کاتژمێری ھەرزان و خراپیان دەفرۆشت بە نرخی زۆر بەرز.",
+                            onPressedBritish: () => speakcheaps10("en-GB"),
+                            onPressedAmerican: () => speakcheaps10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ھاوەڵناو) ناخۆش و دڵڕەقانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I wish you'd stop making cheap jokes about my friends."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیوادارم بوەستی لە گاڵتەی لەم شێوەیە لەسەر ھاوڕێیەکانم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheaps11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheaps11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I wish you'd stop making cheap jokes about my friends.",
+                            kurdishText:
+                                "ھیوادارم بوەستی لە گاڵتەی لەم شێوەیە لەسەر ھاوڕێیەکانم.",
+                            onPressedBritish: () => speakcheaps11("en-GB"),
+                            onPressedAmerican: () => speakcheaps11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) کەسێکی ئاست نزم کە شایەنی ڕێز نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He's just a cheap crook."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەنھا ناپەسەندێکی ناکەسە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheaps12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheaps12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's just a cheap crook.",
+                            kurdishText: "تەنھا ناپەسەندێکی ناکەسە.",
+                            onPressedBritish: () => speakcheaps12("en-GB"),
+                            onPressedAmerican: () => speakcheaps12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) کەسێک کە پارە خەرج ناکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Don't be so cheap!"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھێندە ڕەزیل مەبە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheaps13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheaps13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don't be so cheap!",
+                            kurdishText: "ھێندە ڕەزیل مەبە!",
+                            onPressedBritish: () => speakcheaps13("en-GB"),
+                            onPressedAmerican: () => speakcheaps13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was just too cheap to buy a real present."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر چرووک بوو کە دیارییەکی شیاو بکڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheaps14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheaps14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was just too cheap to buy a real present.",
+                            kurdishText:
+                                "زۆر چرووک بوو کە دیارییەکی شیاو بکڕێت.",
+                            onPressedBritish: () => speakcheaps14("en-GB"),
+                            onPressedAmerican: () => speakcheaps14("en-US"),
                           ),
                         ],
                       ),

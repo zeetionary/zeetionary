@@ -193,149 +193,54 @@ class EnglishEntryceiling extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەشی سەرەوەی ڕووی ناوەوەی خانوویەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The walls and ceiling were painted white."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیوارەکان و بنبانەکە بە سپی بۆیە کران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "ceiling", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceilings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceilings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The walls and ceiling were painted white.",
+                            kurdishText:
+                                "دیوارەکان و بنبانەکە بە سپی بۆیە کران.", // ceiling",
+                            onPressedBritish: () => speakceilings1("en-GB"),
+                            onPressedAmerican: () => speakceilings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A large chandelier hangs from the ceiling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چلچرایەکی گەورە لە بنبانەکەوە شۆڕبووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceilings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceilings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A large chandelier hangs from the ceiling.",
+                            kurdishText:
+                                "چلچرایەکی گەورە لە بنبانەکەوە شۆڕبووەتەوە.",
+                            onPressedBritish: () => speakceilings2("en-GB"),
+                            onPressedAmerican: () => speakceilings2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) زۆرترین بڕی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government has decided to lift price ceilings on bread and milk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت بڕیاری داوە نرخی دیاریکردنی نرخ لەسەر نان و شیر لاببات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceilings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceilings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government has decided to lift price ceilings on bread and milk.",
+                            kurdishText:
+                                "حکومەت بڕیاری داوە نرخی دیاریکردنی نرخ لەسەر نان و شیر لاببات.",
+                            onPressedBritish: () => speakceilings3("en-GB"),
+                            onPressedAmerican: () => speakceilings3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The reality is the economy is hitting the ceiling and the growth rate must slow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاستی ئەوەیە کە ئابووری گەشتووەتە ئەوپەڕی و گەشەکردن دەبێت ھێواش ببێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceilings4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceilings4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The reality is the economy is hitting the ceiling and the growth rate must slow.",
+                            kurdishText:
+                                "ڕاستی ئەوەیە کە ئابووری گەشتووەتە ئەوپەڕی و گەشەکردن دەبێت ھێواش ببێتەوە.",
+                            onPressedBritish: () => speakceilings4("en-GB"),
+                            onPressedAmerican: () => speakceilings4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەوپەڕی بەرزایی کە فڕۆکەیەکی دیاریکراو دەتوانێت تێیدا بفڕێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were travelling in an aircraft with a ceiling of 20 000 feet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە فڕۆکەیەک گەشتیان دەکرد کە تا ئەوپەڕی بەرزی ٢٠٠٠٠ پێ دەچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceilings5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceilings5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were travelling in an aircraft with a ceiling of 20 000 feet.",
+                            kurdishText:
+                                "بە فڕۆکەیەک گەشتیان دەکرد کە تا ئەوپەڕی بەرزی ٢٠٠٠٠ پێ دەچوو.",
+                            onPressedBritish: () => speakceilings5("en-GB"),
+                            onPressedAmerican: () => speakceilings5("en-US"),
                           ),
                         ],
                       ),

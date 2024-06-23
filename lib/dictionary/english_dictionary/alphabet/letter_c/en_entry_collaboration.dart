@@ -121,129 +121,52 @@ class EnglishEntrycollaboration extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کارکردن لەگەڵ کەسێک یان گرووپێک بۆ بەرھەمھێنان یان درووستکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a collaboration that produced extremely useful results."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوکارییەک بوو ئەنجامی تەواو بەسوودی بەرھەمھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collaboration", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcollaborations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcollaborations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was a collaboration that produced extremely useful results.",
+                            kurdishText:
+                                "ھاوکارییەک بوو ئەنجامی تەواو بەسوودی بەرھەمھێنا.", // collaboration",
+                            onPressedBritish: () =>
+                                speakcollaborations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcollaborations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wrote the book in collaboration with one of her students."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکەی بە ھاوکاری لەگەڵ یەکێک لە خوێندکارەکانی نووسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcollaborations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcollaborations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wrote the book in collaboration with one of her students.",
+                            kurdishText:
+                                "کتێبەکەی بە ھاوکاری لەگەڵ یەکێک لە خوێندکارەکانی نووسی.",
+                            onPressedBritish: () =>
+                                speakcollaborations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcollaborations2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شتێک کە بە ھاوکاری بەرھەمھاتووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This mission was a collaboration between the National Space Agency of Japan and NASA."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ئەرکە ھاوبەشییەک بوو لە نێوان دەزگای ئاسمانەوانی نیشتیمانی ژاپۆن و ناسا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcollaborations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcollaborations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This mission was a collaboration between the National Space Agency of Japan and NASA.",
+                            kurdishText:
+                                "ئەم ئەرکە ھاوبەشییەک بوو لە نێوان دەزگای ئاسمانەوانی نیشتیمانی ژاپۆن و ناسا بوو.",
+                            onPressedBritish: () =>
+                                speakcollaborations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcollaborations3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کاری یەرمەتیدانی ھێزی داگیرکەری دووژمن لە کاتی جەنگدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was accused of collaboration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ھاودەستی لەگەڵ دووژمن تۆمەتبارکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcollaborations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcollaborations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was accused of collaboration.",
+                            kurdishText:
+                                "بە ھاودەستی لەگەڵ دووژمن تۆمەتبارکرا.",
+                            onPressedBritish: () =>
+                                speakcollaborations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcollaborations4("en-US"),
                           ),
                         ],
                       ),

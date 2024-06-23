@@ -163,268 +163,97 @@ class EnglishEntrychart extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ھێڵکارییەک کە زانیاری لەسەرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The charts of 138 patients with chronic heart failure were reviewed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێڵکاری ١٣٨ نەخۆش کە سستبوونی درێژخایەنی دڵیان ھەبوو پێداچوونەوەی بۆ کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chart", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The charts of 138 patients with chronic heart failure were reviewed.",
+                            kurdishText:
+                                "ھێڵکاری ١٣٨ نەخۆش کە سستبوونی درێژخایەنی دڵیان ھەبوو پێداچوونەوەی بۆ کرا.", // chart",
+                            onPressedBritish: () => speakcharts1("en-GB"),
+                            onPressedAmerican: () => speakcharts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The accompanying chart shows data for eight countries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێڵکارییە ھاوپێچەکە داتای ھەشت وڵات پیشان دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The accompanying chart shows data for eight countries.",
+                            kurdishText:
+                                "ھێڵکارییە ھاوپێچەکە داتای ھەشت وڵات پیشان دەدات.",
+                            onPressedBritish: () => speakcharts2("en-GB"),
+                            onPressedAmerican: () => speakcharts2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Gas prices have risen over the past decade, as shown in the chart below."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخی گاز بەرزبووەتەوە لە دەیەی ڕابردوودا، وەک لە ھێڵکارییەکەی خوارەوەدا پیشان دراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Gas prices have risen over the past decade, as shown in the chart below.",
+                            kurdishText:
+                                "نرخی گاز بەرزبووەتەوە لە دەیەی ڕابردوودا، وەک لە ھێڵکارییەکەی خوارەوەدا پیشان دراوە.",
+                            onPressedBritish: () => speakcharts3("en-GB"),
+                            onPressedAmerican: () => speakcharts3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) نەخشەیەکی وردی دەریا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The maritime museum contains charts dating back to the 15th century."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆزەخانە دەریاییەکە نەخشەی تێدایە کە بۆ سەدەی ١٥ دەگەڕێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The maritime museum contains charts dating back to the 15th century.",
+                            kurdishText:
+                                "مۆزەخانە دەریاییەکە نەخشەی تێدایە کە بۆ سەدەی ١٥ دەگەڕێتەوە.",
+                            onPressedBritish: () => speakcharts4("en-GB"),
+                            onPressedAmerican: () => speakcharts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) لیستێک کە ھەفتانە درووست دەکرێت و کە زۆرترین کۆپییان لێ درۆشراوە یان زۆرترین جار ستریم کراون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The song topped the charts for three weeks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆرانییەکە لە لیستی سەرەوەی چارتەکان بوو سێ ھەفتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The song topped the charts for three weeks.",
+                            kurdishText:
+                                "گۆرانییەکە لە لیستی سەرەوەی چارتەکان بوو سێ ھەفتە.",
+                            onPressedBritish: () => speakcharts5("en-GB"),
+                            onPressedAmerican: () => speakcharts5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) تۆمارکردن یان شوێنکەوتنی گەشەی شتێک/کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The exhibition charts the history of the palace."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشانگاکە مێژووی کۆشکەکە دەخاتە بەرچاو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The exhibition charts the history of the palace.",
+                            kurdishText:
+                                "پێشانگاکە مێژووی کۆشکەکە دەخاتە بەرچاو.",
+                            onPressedBritish: () => speakcharts6("en-GB"),
+                            onPressedAmerican: () => speakcharts6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book charts the history of the airport."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە مێژووی فڕۆکەخانەکە تۆمار دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book charts the history of the airport.",
+                            kurdishText:
+                                "کتێبەکە مێژووی فڕۆکەخانەکە تۆمار دەکات.",
+                            onPressedBritish: () => speakcharts7("en-GB"),
+                            onPressedAmerican: () => speakcharts7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) پلاندانانی زنجیرە کردارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The local branch of the party is meeting to chart their election campaign."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لقە خۆجێیەکەی پارتەکە کۆدەبێتەوە بۆ داڕشتنی پلانی کەمپینی ھەڵبژاردنیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The local branch of the party is meeting to chart their election campaign.",
+                            kurdishText:
+                                "لقە خۆجێیەکەی پارتەکە کۆدەبێتەوە بۆ داڕشتنی پلانی کەمپینی ھەڵبژاردنیان.",
+                            onPressedBritish: () => speakcharts8("en-GB"),
+                            onPressedAmerican: () => speakcharts8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) کێشانی نەخشەی شوێنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Captain Cook charted the coast of New Zealand in 1768."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاپتن کووک کەنارەوەکانی نیوزلەندای نەخشەکێشا لە ساڵی ١٧٦٨."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Captain Cook charted the coast of New Zealand in 1768.",
+                            kurdishText:
+                                "کاپتن کووک کەنارەوەکانی نیوزلەندای نەخشەکێشا لە ساڵی ١٧٦٨.",
+                            onPressedBritish: () => speakcharts9("en-GB"),
+                            onPressedAmerican: () => speakcharts9("en-US"),
                           ),
                         ],
                       ),

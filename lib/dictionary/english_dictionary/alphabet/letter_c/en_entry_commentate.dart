@@ -94,31 +94,13 @@ class EnglishEntrycommentate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) کەسێک کە باسی ڕووداوێک دەکات کە ڕوودەدات، بەزۆری لەسەر تەلەفیزیۆن و ڕادیۆ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who will be commentating on the game?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کێ شیکەرەوەی یارییەکە دەبێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commentate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommentates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommentates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Who will be commentating on the game?",
+                            kurdishText:
+                                "کێ شیکەرەوەی یارییەکە دەبێت؟", // commentate",
+                            onPressedBritish: () => speakcommentates1("en-GB"),
+                            onPressedAmerican: () => speakcommentates1("en-US"),
                           ),
                         ],
                       ),

@@ -94,32 +94,13 @@ class EnglishEntrycog extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) یەکێک لە ددانەکانی لێواری ویلێک کە دەگونجێت لەگەڵ ددانی دواتردا و دەبێتە ھۆی جوڵەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cogs in the machine turned smoothly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ددانەکانی ئامێرەکە بە لەسەرخۆیی دەجوڵان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cog", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcogs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcogs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cogs in the machine turned smoothly.",
+                            kurdishText:
+                                "ددانەکانی ئامێرەکە بە لەسەرخۆیی دەجوڵان.", // cog",
+                            onPressedBritish: () => speakcogs1("en-GB"),
+                            onPressedAmerican: () => speakcogs1("en-US"),
                           ),
                         ],
                       ),

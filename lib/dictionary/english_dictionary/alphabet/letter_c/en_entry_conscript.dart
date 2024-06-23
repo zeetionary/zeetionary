@@ -111,90 +111,34 @@ class EnglishEntryconscript extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) فەرمانکردن بە کەسێک بە پێی یاسا بۆ پەیوەندیکردن بە سوپاوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was conscripted into the army in 1939."),
-                                    ExampleSentenceKurdish(
-                                        text: "ساڵی ١٩٣٩ بانگکرا بۆ سوپا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conscript", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconscripts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconscripts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was conscripted into the army in 1939.",
+                            kurdishText:
+                                "ساڵی ١٩٣٩ بانگکرا بۆ سوپا.", // conscript",
+                            onPressedBritish: () => speakconscripts1("en-GB"),
+                            onPressedAmerican: () => speakconscripts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was conscripted into the army at the age of 18."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تەمەنی ١٨ ساڵیدا بانگکرایە ناو سوپا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconscripts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconscripts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was conscripted into the army at the age of 18.",
+                            kurdishText:
+                                "لە تەمەنی ١٨ ساڵیدا بانگکرایە ناو سوپا.",
+                            onPressedBritish: () => speakconscripts2("en-GB"),
+                            onPressedAmerican: () => speakconscripts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە فەرمانی پێکراوە پەیوەندی بە سوپاوە بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Over half the army was composed of conscripts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەروو نیوەی سوپاکە لە سەربازی زۆرەملێ پێکھاتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconscripts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconscripts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Over half the army was composed of conscripts.",
+                            kurdishText:
+                                "سەروو نیوەی سوپاکە لە سەربازی زۆرەملێ پێکھاتبوو.",
+                            onPressedBritish: () => speakconscripts3("en-GB"),
+                            onPressedAmerican: () => speakconscripts3("en-US"),
                           ),
                         ],
                       ),

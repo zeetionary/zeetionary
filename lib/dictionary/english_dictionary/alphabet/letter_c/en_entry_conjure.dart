@@ -103,60 +103,22 @@ class EnglishEntryconjure extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ئەنجامدانی شتی زیرەکانەی وەک ئەوەی وا لە شت بکەیت دیار نەمێنن وەک ئەوەی بە سیحر بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her grandfather taught her to conjure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باپیرەی فێری کرد چۆن سیحر بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conjure", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconjures1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconjures1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her grandfather taught her to conjure.",
+                            kurdishText:
+                                "باپیرەی فێری کرد چۆن سیحر بکات.", // conjure",
+                            onPressedBritish: () => speakconjures1("en-GB"),
+                            onPressedAmerican: () => speakconjures1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In an instant, the magician had conjured (up) a dove from his hat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە چەقەنەیەکدا، سیحربازەکە کۆترێکی لە کڵاوەکەیەوە دەرھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconjures2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconjures2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In an instant, the magician had conjured (up) a dove from his hat.",
+                            kurdishText:
+                                "لە چەقەنەیەکدا، سیحربازەکە کۆترێکی لە کڵاوەکەیەوە دەرھێنا.",
+                            onPressedBritish: () => speakconjures2("en-GB"),
+                            onPressedAmerican: () => speakconjures2("en-US"),
                           ),
                         ],
                       ),

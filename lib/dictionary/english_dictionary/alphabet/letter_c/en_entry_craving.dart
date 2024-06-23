@@ -239,55 +239,19 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەپەرۆشی، تامەزرۆیی، تاسە، ئارەزوو، بێزوو، بێزگ، گز، ھەوەس، ئیشتیا، کەڵکەڵە، خولیا، حەز
 """),
           const DefinitionKurdish(text: "١. (ناو) حەزی زۆر بۆ شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Don't give in to those food cravings."),
-                    ExampleSentenceKurdish(text: "چۆکدا مەدە بۆ حەزی خواردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "craving", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcravings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcravings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't give in to those food cravings.",
+            kurdishText:
+                "چۆکدا مەدە بۆ حەزی خواردن.", // craving", please follow LX instructions
+            onPressedBritish: () => speakcravings1("en-GB"),
+            onPressedAmerican: () => speakcravings1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had a craving to see the world."),
-                    ExampleSentenceKurdish(
-                        text: "ئارەزووی بینینی جیھانی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcravings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcravings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had a craving to see the world.",
+            kurdishText: "ئارەزووی بینینی جیھانی ھەبوو.",
+            onPressedBritish: () => speakcravings2("en-GB"),
+            onPressedAmerican: () => speakcravings2("en-US"),
           ),
         ],
       ),

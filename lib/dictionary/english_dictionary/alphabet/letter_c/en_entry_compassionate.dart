@@ -104,64 +104,26 @@ class EnglishEntrycompassionate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەستکردن بە میھرەبانی بۆ مرۆڤ و ئاژەڵ کە لە ئازاردان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Politicians are not usually regarded as warm or compassionate people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیاسەتمەداران زۆرجار بە کەسانی گەرموگوڕ و خەم‌خۆر دانانرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compassionate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompassionates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompassionates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Politicians are not usually regarded as warm or compassionate people.",
+                            kurdishText:
+                                "سیاسەتمەداران زۆرجار بە کەسانی گەرموگوڕ و خەم‌خۆر دانانرێن.", // compassionate",
+                            onPressedBritish: () =>
+                                speakcompassionates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompassionates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Are these the actions of a compassionate and caring society?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئایا ئەمە کردارەکانی کۆمەڵگەیەکی میھرەبان و دڵسۆزە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompassionates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompassionates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Are these the actions of a compassionate and caring society?",
+                            kurdishText:
+                                "ئایا ئەمە کردارەکانی کۆمەڵگەیەکی میھرەبان و دڵسۆزە؟",
+                            onPressedBritish: () =>
+                                speakcompassionates2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompassionates2("en-US"),
                           ),
                         ],
                       ),

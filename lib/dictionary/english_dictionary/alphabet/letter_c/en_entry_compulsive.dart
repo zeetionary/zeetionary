@@ -130,148 +130,53 @@ class EnglishEntrycompulsive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ڕەفتارێک یان شتێک کە سەختە کۆنترۆڵ بکرێت یان بوەستێنرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His family had been unaware of his compulsive gambling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێزانەکەی بێ‌ئاگا بووبوون لە قومارە نەبڕاوەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compulsive", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompulsives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompulsives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His family had been unaware of his compulsive gambling.",
+                            kurdishText:
+                                "خێزانەکەی بێ‌ئاگا بووبوون لە قومارە نەبڕاوەکەی.", // compulsive",
+                            onPressedBritish: () => speakcompulsives1("en-GB"),
+                            onPressedAmerican: () => speakcompulsives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She went through periods of compulsive overeating."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە زۆرخۆریی کۆنترۆڵنەکراوی ماوە ماوەدا تێدەپەڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompulsives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompulsives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She went through periods of compulsive overeating.",
+                            kurdishText:
+                                "بە زۆرخۆریی کۆنترۆڵنەکراوی ماوە ماوەدا تێدەپەڕی.",
+                            onPressedBritish: () => speakcompulsives2("en-GB"),
+                            onPressedAmerican: () => speakcompulsives2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) کەسێک کە ناتوانێت خۆی کۆنترۆڵ بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was a compulsive gambler."),
-                                    ExampleSentenceKurdish(
-                                        text: "قومارکارێکی سەرسەخت بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompulsives3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompulsives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was a compulsive gambler.",
+                            kurdishText: "قومارکارێکی سەرسەخت بوو.",
+                            onPressedBritish: () => speakcompulsives3("en-GB"),
+                            onPressedAmerican: () => speakcompulsives3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book offers advice and help for compulsive eaters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە ڕاوێژ و یارمەتی دەدات بە کەسانی زۆرخۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompulsives4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompulsives4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book offers advice and help for compulsive eaters.",
+                            kurdishText:
+                                "کتێبەکە ڕاوێژ و یارمەتی دەدات بە کەسانی زۆرخۆر.",
+                            onPressedBritish: () => speakcompulsives4("en-GB"),
+                            onPressedAmerican: () => speakcompulsives4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) شتێک کە وات لێدەکات سەرنج بدەیت چونکە زۆر سەرنجڕاکێشە یان جێژبەخشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I always find programmes about hospitals compulsive viewing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە ئەو پڕۆگرامانەی سەبارەت بە نەخۆشخانەن بە سەیرکردنێکی دڵنیایی دەبینم (کە دەبێت سەیری بکەم)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompulsives5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompulsives5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I always find programmes about hospitals compulsive viewing.",
+                            kurdishText:
+                                "ھەمیشە ئەو پڕۆگرامانەی سەبارەت بە نەخۆشخانەن بە سەیرکردنێکی دڵنیایی دەبینم (کە دەبێت سەیری بکەم).",
+                            onPressedBritish: () => speakcompulsives5("en-GB"),
+                            onPressedAmerican: () => speakcompulsives5("en-US"),
                           ),
                         ],
                       ),

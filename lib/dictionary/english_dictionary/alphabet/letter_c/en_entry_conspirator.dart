@@ -94,34 +94,14 @@ class EnglishEntryconspirator extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پیلان‌گێڕ؛ کەسێک کە بەژدارە لە پیلانێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The emperor pardoned five of the conspirators."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئیمپراتۆر لە پێنج لە پیلانگێڕەکان خۆشبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conspirator", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconspirators1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconspirators1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The emperor pardoned five of the conspirators.",
+                            kurdishText:
+                                "ئیمپراتۆر لە پێنج لە پیلانگێڕەکان خۆشبوو.", // conspirator",
+                            onPressedBritish: () => speakconspirators1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconspirators1("en-US"),
                           ),
                         ],
                       ),

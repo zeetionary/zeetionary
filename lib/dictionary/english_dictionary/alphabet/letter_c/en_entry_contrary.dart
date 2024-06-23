@@ -155,235 +155,83 @@ class EnglishEntrycontrary extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) جیاواز یان پێچەوانەی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Contrary to popular belief, many cats dislike milk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێچەوانەی باوەڕی بەرفراوان، زۆر پشیلە ڕقیان لە شیرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contrary", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Contrary to popular belief, many cats dislike milk.",
+                            kurdishText:
+                                "پێچەوانەی باوەڕی بەرفراوان، زۆر پشیلە ڕقیان لە شیرە.", // contrary",
+                            onPressedBritish: () => speakcontrarys1("en-GB"),
+                            onPressedAmerican: () => speakcontrarys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Contrary to the weather forecast, we had a fine day for the experiment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێچەوانەی پێشبینیی کەشووھەوا، ڕۆژێکی گونجاومان ھەبوو بۆ تاقیکردنەوەکە ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrarys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrarys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Contrary to the weather forecast, we had a fine day for the experiment.",
+                            kurdishText:
+                                "پێچەوانەی پێشبینیی کەشووھەوا، ڕۆژێکی گونجاومان ھەبوو بۆ تاقیکردنەوەکە .",
+                            onPressedBritish: () => speakcontrarys2("en-GB"),
+                            onPressedAmerican: () => speakcontrarys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These results run contrary to our expectations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ئەنجامانە دژ بە پێشبینییەکانمان دەوەستنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrarys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrarys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These results run contrary to our expectations.",
+                            kurdishText:
+                                "ئەم ئەنجامانە دژ بە پێشبینییەکانمان دەوەستنەوە.",
+                            onPressedBritish: () => speakcontrarys3("en-GB"),
+                            onPressedAmerican: () => speakcontrarys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) تەواو جیاواز لەوەی دەردەکەوێت یان باوەڕ دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Despite all the contrary evidence, they still believed that the Earth was flat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەڕای ھەموو بەڵگە دژەکان، ھێشتا باوەڕیان وابوو زەوی تەختە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrarys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrarys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Despite all the contrary evidence, they still believed that the Earth was flat.",
+                            kurdishText:
+                                "سەرەڕای ھەموو بەڵگە دژەکان، ھێشتا باوەڕیان وابوو زەوی تەختە.",
+                            onPressedBritish: () => speakcontrarys4("en-GB"),
+                            onPressedAmerican: () => speakcontrarys4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My own experience is completely contrary."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەزموونی خۆم تەواو پێچەوانەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrarys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrarys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My own experience is completely contrary.",
+                            kurdishText: "ئەزموونی خۆم تەواو پێچەوانەیە.",
+                            onPressedBritish: () => speakcontrarys5("en-GB"),
+                            onPressedAmerican: () => speakcontrarys5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) خراپ ڕەفتارکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was such a contrary child—it was impossible to please her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵێکی زۆر لاسار بوو، ئەستەم بوو دڵخۆش بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrarys8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrarys8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was such a contrary child—it was impossible to please her.",
+                            kurdishText:
+                                "منداڵێکی زۆر لاسار بوو، ئەستەم بوو دڵخۆش بکرێت.",
+                            onPressedBritish: () => speakcontrarys8("en-GB"),
+                            onPressedAmerican: () => speakcontrarys8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ڕاستی، دۆخ، یان بۆنەیەکی پێچەوانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His death will be considered accidental unless the contrary is shown by evidence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مردنەکەی بە ڕووداوێک دادەنرێت مەگەر ئەوەی پێچەوانەکەی پیشان بدرێت بە بەڵگە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrarys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrarys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His death will be considered accidental unless the contrary is shown by evidence.",
+                            kurdishText:
+                                "مردنەکەی بە ڕووداوێک دادەنرێت مەگەر ئەوەی پێچەوانەکەی پیشان بدرێت بە بەڵگە.",
+                            onPressedBritish: () => speakcontrarys6("en-GB"),
+                            onPressedAmerican: () => speakcontrarys6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was worried that it might be too hard for me but it turned out the contrary was true."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیگەران بووم کە زۆر سەخت بێت بۆم بەڵام دەرکەوت پێچەوانەکەی ڕاستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrarys7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrarys7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was worried that it might be too hard for me but it turned out the contrary was true.",
+                            kurdishText:
+                                "نیگەران بووم کە زۆر سەخت بێت بۆم بەڵام دەرکەوت پێچەوانەکەی ڕاستە.",
+                            onPressedBritish: () => speakcontrarys7("en-GB"),
+                            onPressedAmerican: () => speakcontrarys7("en-US"),
                           ),
                         ],
                       ),

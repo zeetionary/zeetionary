@@ -104,67 +104,29 @@ class EnglishEntrychauvinistic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی باوەڕی ئەوەی پیاوان گرنگتر، زیرەکتر، یان باشترن لە ژنان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is a deeply chauvinist community where the few women who have jobs are ridiculed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەڕەکێکی تەواو پیاوسالارانەیە کە ئەو ڕێژە کەمەی ژنان کە کاریان ھەیە گاڵتەیان پێ‌دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chauvinistic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchauvinistics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchauvinistics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is a deeply chauvinist community where the few women who have jobs are ridiculed.",
+                            kurdishText:
+                                "گەڕەکێکی تەواو پیاوسالارانەیە کە ئەو ڕێژە کەمەی ژنان کە کاریان ھەیە گاڵتەیان پێ‌دەکرێت.", // chauvinistic",
+                            onPressedBritish: () =>
+                                speakchauvinistics1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchauvinistics1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پیشاندانی باوەڕی کوێرانە و توندڕەوانە کە وڵاتەکەت باشترە لە ھەموو ئەوانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The crowd was enthusiastically singing chauvinistic songs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەماوەرەکە بە جۆشوخرۆشییەوە گۆرانی نیشتمان‌پەرستییانەیان دەگوتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchauvinistics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchauvinistics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The crowd was enthusiastically singing chauvinistic songs.",
+                            kurdishText:
+                                "جەماوەرەکە بە جۆشوخرۆشییەوە گۆرانی نیشتمان‌پەرستییانەیان دەگوتەوە.",
+                            onPressedBritish: () =>
+                                speakchauvinistics2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchauvinistics2("en-US"),
                           ),
                         ],
                       ),

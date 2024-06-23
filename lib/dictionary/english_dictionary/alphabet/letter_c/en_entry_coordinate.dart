@@ -139,181 +139,66 @@ class EnglishEntrycoordinate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ڕێکخستنی بەشە جیاوازەکانی چالاکییەک و ئەو کەسانەی تێیدا بەژدارن بۆ ئەوەی باش کار بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They appointed a new manager to coordinate the work of the team."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێوبەرێکی تازەیان دیاریکرد بۆ کارەکە لەگەڵ تیمەکە ڕێکبخات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coordinate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoordinates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoordinates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They appointed a new manager to coordinate the work of the team.",
+                            kurdishText:
+                                "بەڕێوبەرێکی تازەیان دیاریکرد بۆ کارەکە لەگەڵ تیمەکە ڕێکبخات.", // coordinate",
+                            onPressedBritish: () => speakcoordinates1("en-GB"),
+                            onPressedAmerican: () => speakcoordinates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We try to coordinate our activities with those of other groups."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ دەدەین چالاکییەکانمان ڕێکبخەین لەگەڵ ئەوانەی گرووپەکانی دیکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoordinates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoordinates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We try to coordinate our activities with those of other groups.",
+                            kurdishText:
+                                "ھەوڵ دەدەین چالاکییەکانمان ڕێکبخەین لەگەڵ ئەوانەی گرووپەکانی دیکەدا.",
+                            onPressedBritish: () => speakcoordinates2("en-GB"),
+                            onPressedAmerican: () => speakcoordinates2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) واکردنی ئەوەی بەشە جیاوازەکانی جەستەت پێکەوە کار بکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The brain helps coordinate movements so we can walk and run."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێشک ھەوڵ دەدات جوڵە ڕێکبخات بۆ ئەوەی بتوانین ڕێ بکەین ڕا بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoordinates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoordinates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The brain helps coordinate movements so we can walk and run.",
+                            kurdishText:
+                                "مێشک ھەوڵ دەدات جوڵە ڕێکبخات بۆ ئەوەی بتوانین ڕێ بکەین ڕا بکەین.",
+                            onPressedBritish: () => speakcoordinates3("en-GB"),
+                            onPressedAmerican: () => speakcoordinates3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) دانان و ڕێکخستن بەشێوەیەک کە جوان دەربکەوێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This shade coordinates with a wide range of other colours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ڕەنگە لەگەڵ ژمارەیەکی زۆری دیکەی ڕەنگەکاندا دەگونجێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoordinates4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoordinates4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This shade coordinates with a wide range of other colours.",
+                            kurdishText:
+                                "ئەم ڕەنگە لەگەڵ ژمارەیەکی زۆری دیکەی ڕەنگەکاندا دەگونجێت.",
+                            onPressedBritish: () => speakcoordinates4("en-GB"),
+                            onPressedAmerican: () => speakcoordinates4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ئەو دوو ژمارەیەی کە خاڵێک لەسەر نەخشە دیاری دەکەن بەپێی بازنەکانی پانی و ھێڵەکانی درێژی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Put in the GPS coordinates and zoom in on the map."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلەکانی جی‌پی‌ئێسەکە دابنێ و نەخشەکە نزیک بکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoordinates5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoordinates5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Put in the GPS coordinates and zoom in on the map.",
+                            kurdishText:
+                                "پلەکانی جی‌پی‌ئێسەکە دابنێ و نەخشەکە نزیک بکەوە.",
+                            onPressedBritish: () => speakcoordinates5("en-GB"),
+                            onPressedAmerican: () => speakcoordinates5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The pilot had been given the wrong co-ordinates."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەوانەکە پلەی ھەڵەی پێدرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoordinates6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoordinates6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The pilot had been given the wrong co-ordinates.",
+                            kurdishText: "فڕۆکەوانەکە پلەی ھەڵەی پێدرابوو.",
+                            onPressedBritish: () => speakcoordinates6("en-GB"),
+                            onPressedAmerican: () => speakcoordinates6("en-US"),
                           ),
                         ],
                       ),

@@ -108,83 +108,25 @@ class EnglishEntrycheque extends StatelessWidget {
 کوردی: چەک، حەواڵە، ھێمای حەوتک (√)
 """),
                           const DefinitionKurdish(text: "١. (ناو) چەکی بانکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can I write you a cheque?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چەکێکت بۆ بنووسم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheque", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheques1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheques1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can I write you a cheque?",
+                            kurdishText: "چەکێکت بۆ بنووسم؟", // cheque",
+                            onPressedBritish: () => speakcheques1("en-GB"),
+                            onPressedAmerican: () => speakcheques1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I wrote him a cheque for £50."),
-                                    ExampleSentenceKurdish(
-                                        text: "چەکێکی ٥٠ پاوەندیم بۆ نووسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheques2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheques2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I wrote him a cheque for £50.",
+                            kurdishText: "چەکێکی ٥٠ پاوەندیم بۆ نووسی.",
+                            onPressedBritish: () => speakcheques2("en-GB"),
+                            onPressedAmerican: () => speakcheques2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Does the restaurant accept cheques?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چێشتخانەکە چەک وەردەگرێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheques3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheques3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Does the restaurant accept cheques?",
+                            kurdishText: "چێشتخانەکە چەک وەردەگرێت؟",
+                            onPressedBritish: () => speakcheques3("en-GB"),
+                            onPressedAmerican: () => speakcheques3("en-US"),
                           ),
                         ],
                       ),

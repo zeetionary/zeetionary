@@ -113,93 +113,36 @@ class EnglishEntrycork extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ماددەیەکی سووک و نەرمە و لە توێکڵی ئەستووری جۆرێک لە دار بەڕوو لە دەریای ناوەڕاست درووست دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cork tiles are often used in music studios because they absorb sound well."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناسکەخشتی تەپەدۆر زۆرجار لە ستۆدیۆی میوزیکی بەکاردێت چونکە باش دەنگ ھەڵدەمژن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cork", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcorks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcorks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cork tiles are often used in music studios because they absorb sound well.",
+                            kurdishText:
+                                "ناسکەخشتی تەپەدۆر زۆرجار لە ستۆدیۆی میوزیکی بەکاردێت چونکە باش دەنگ ھەڵدەمژن.", // cork",
+                            onPressedBritish: () => speakcorks1("en-GB"),
+                            onPressedAmerican: () => speakcorks1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) تۆپەوانەیەک کە لەسەر بوتڵ دادەنرێت بۆ ئەوەی شلەی ناوی نەڕژێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't get the cork out of the bottle - can you try?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم تۆپەوانەکە لە بوتڵەکە دەربکەم، دەتوانیت ھەوڵ بدەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcorks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcorks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't get the cork out of the bottle - can you try?",
+                            kurdishText:
+                                "ناتوانم تۆپەوانەکە لە بوتڵەکە دەربکەم، دەتوانیت ھەوڵ بدەیت؟",
+                            onPressedBritish: () => speakcorks2("en-GB"),
+                            onPressedAmerican: () => speakcorks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) بەستنی بوتڵێک بە تۆپەوانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'll cork the bottle and we can drink the rest later."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆپەوانەکە دەخەمە سەر بوتڵەکە و دەتوانین دواتر ئەوی دیکە بخۆینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcorks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcorks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'll cork the bottle and we can drink the rest later.",
+                            kurdishText:
+                                "تۆپەوانەکە دەخەمە سەر بوتڵەکە و دەتوانین دواتر ئەوی دیکە بخۆینەوە.",
+                            onPressedBritish: () => speakcorks3("en-GB"),
+                            onPressedAmerican: () => speakcorks3("en-US"),
                           ),
                         ],
                       ),

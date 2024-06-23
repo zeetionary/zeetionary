@@ -95,32 +95,13 @@ class EnglishEntrycommandeer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) کۆنترۆڵکردنی شوێنێک، ئۆتۆمبێلێک، ھتد لە کاتی جەنگدا و بەکارھێنانی بە مەبەستی سەربازی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soldiers had commandeered the farm and the villa five months ago."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکان کۆنترۆڵی کێڵگە و ڤێلاکەیان پێنج مانگ پێش ئێستا کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commandeer", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommandeers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommandeers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soldiers had commandeered the farm and the villa five months ago.",
+                            kurdishText:
+                                "سەربازەکان کۆنترۆڵی کێڵگە و ڤێلاکەیان پێنج مانگ پێش ئێستا کردبوو.", // commandeer",
+                            onPressedBritish: () => speakcommandeers1("en-GB"),
+                            onPressedAmerican: () => speakcommandeers1("en-US"),
                           ),
                         ],
                       ),

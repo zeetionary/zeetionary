@@ -241,58 +241,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە شارەزاییەکی تایبەتی ھەیە، بەتایبەتی کەسێک کە کاری دەستی دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It is clearly the work of a master craftsman."),
-                    ExampleSentenceKurdish(
-                        text: "بە ئاشکرایی کاری پیشەسازێکی لێزانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "craftsman", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraftsmans1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraftsmans1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is clearly the work of a master craftsman.",
+            kurdishText:
+                "بە ئاشکرایی کاری پیشەسازێکی لێزانە.", // craftsman", please follow LX instructions
+            onPressedBritish: () => speakcraftsmans1("en-GB"),
+            onPressedAmerican: () => speakcraftsmans1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The plates are painted by our finest craftsmen."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەورییەکان لەلایەن باشترین پیشەسازانمانەوە بۆیە کراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraftsmans2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraftsmans2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The plates are painted by our finest craftsmen.",
+            kurdishText:
+                "دەورییەکان لەلایەن باشترین پیشەسازانمانەوە بۆیە کراون.",
+            onPressedBritish: () => speakcraftsmans2("en-GB"),
+            onPressedAmerican: () => speakcraftsmans2("en-US"),
           ),
         ],
       ),

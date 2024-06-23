@@ -95,32 +95,13 @@ class EnglishEntrycommunique extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لێدوانێک یان بەیاننمایەکی فەرمی، بەتایبەتی بۆ ڕۆژنامەکان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The leaders attending the conference have issued a joint communiqué."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو سەرکردانەی بەژادری کۆنفرانسەکە دەکەن دەبێت بەیاننامەیەکی ھاوبەش دەربکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "communique", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommuniques1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommuniques1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The leaders attending the conference have issued a joint communiqué.",
+                            kurdishText:
+                                "ئەو سەرکردانەی بەژادری کۆنفرانسەکە دەکەن دەبێت بەیاننامەیەکی ھاوبەش دەربکەن.", // communique",
+                            onPressedBritish: () => speakcommuniques1("en-GB"),
+                            onPressedAmerican: () => speakcommuniques1("en-US"),
                           ),
                         ],
                       ),

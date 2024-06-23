@@ -186,31 +186,12 @@ class EnglishEntrycasting extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پڕۆسەی ھەڵبژاردنی ئەکتەرەکانی فیلمێک یان شانۆیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Casting was completed by May."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵبژاردنی ئەکتەرەکان تا ئایار تەواو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "casting", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Casting was completed by May.",
+                            kurdishText:
+                                "ھەڵبژاردنی ئەکتەرەکان تا ئایار تەواو بوو.", // casting",
+                            onPressedBritish: () => speakcastings1("en-GB"),
+                            onPressedAmerican: () => speakcastings1("en-US"),
                           ),
                         ],
                       ),

@@ -102,67 +102,27 @@ class EnglishEntryconcurrence extends StatelessWidget {
 کوردی: ڕێک‌کەوتن، سازبوون، پێک‌ھاتن،	ھاوکاتی،	(بیرکاری) پێک‌گەیشتن، گەیینەوە،	خاڵی پێک‌گەیشتن، جەمسەر
 """),
                           const DefinitionKurdish(text: "١. (ناو) ڕێککەوتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The doctor may seek the concurrence of a relative before carrying out the procedure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پزیشکەکە ڕەنگە داوای ڕازیبوونی خزمێک بکات پێش ئەوەی نەشتەرگەرییەکە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concurrence", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcurrences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcurrences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The doctor may seek the concurrence of a relative before carrying out the procedure.",
+                            kurdishText:
+                                "پزیشکەکە ڕەنگە داوای ڕازیبوونی خزمێک بکات پێش ئەوەی نەشتەرگەرییەکە بکات.", // concurrence",
+                            onPressedBritish: () => speakconcurrences1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcurrences1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دۆخێک کە تێیدا دوو شت یان زیاتر پێکەوە ڕوودەدەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It will be difficult to get any sort of statewide concurrence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەخت دەبێت یەکدەنگی لە تەواوی ویلایەتەکەدا بەدەستبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcurrences2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcurrences2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It will be difficult to get any sort of statewide concurrence.",
+                            kurdishText:
+                                "سەخت دەبێت یەکدەنگی لە تەواوی ویلایەتەکەدا بەدەستبێت.",
+                            onPressedBritish: () => speakconcurrences2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcurrences2("en-US"),
                           ),
                         ],
                       ),

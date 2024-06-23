@@ -102,60 +102,22 @@ class EnglishEntrycontrition extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پەشیمانی زۆر بۆ شتێک کە کردووتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He feels no contrition for what he did."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەست بە ھیچ پەشیمانییەک ناکات بۆ ئەوەی کردی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contrition", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontritions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontritions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He feels no contrition for what he did.",
+                            kurdishText:
+                                "ھەست بە ھیچ پەشیمانییەک ناکات بۆ ئەوەی کردی.", // contrition",
+                            onPressedBritish: () => speakcontritions1("en-GB"),
+                            onPressedAmerican: () => speakcontritions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Those involved in the crime have failed to express contrition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوانەی بەژداری تاوانەکە بوونە پەشیمانییان دەرنەبڕیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontritions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontritions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Those involved in the crime have failed to express contrition.",
+                            kurdishText:
+                                "ئەوانەی بەژداری تاوانەکە بوونە پەشیمانییان دەرنەبڕیوە.",
+                            onPressedBritish: () => speakcontritions2("en-GB"),
+                            onPressedAmerican: () => speakcontritions2("en-US"),
                           ),
                         ],
                       ),

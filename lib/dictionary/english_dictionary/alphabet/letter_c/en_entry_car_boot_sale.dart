@@ -189,34 +189,14 @@ class EnglishEntrycarbootsale extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مەزاتکردنێک کە خەڵکی ئەو شتانەی کە نایانەوێت لەسەر مێز یان پشتەوەی ئۆتۆمبێلەکانیان دادەنێن بۆ فرۆشتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At the car boot sale, I found a camera for a bargain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە مەزاتەکەدا کامێرایەکم کڕی زۆر بە ھەرزان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "car boot sale", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarbootsales1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarbootsales1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At the car boot sale, I found a camera for a bargain.",
+                            kurdishText:
+                                "لە مەزاتەکەدا کامێرایەکم کڕی زۆر بە ھەرزان.", // car boot sale",
+                            onPressedBritish: () => speakcarbootsales1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarbootsales1("en-US"),
                           ),
                         ],
                       ),

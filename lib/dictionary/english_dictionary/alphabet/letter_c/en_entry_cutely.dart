@@ -240,56 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەک کە جوان و سەرنجڕاکێشە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He smiled cutely at her."),
-                    ExampleSentenceKurdish(
-                        text: "سەرنجڕاکێشانە بزەیەکی بۆ کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cutely", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He smiled cutely at her.",
+            kurdishText:
+                "سەرنجڕاکێشانە بزەیەکی بۆ کرد.", // cutely", please follow LX instructions
+            onPressedBritish: () => speakcutelys1("en-GB"),
+            onPressedAmerican: () => speakcutelys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵکار) زیرەکانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She cutely tries to gain his trust."),
-                    ExampleSentenceKurdish(
-                        text: "زیرەکانە ھەوڵ دەدات متمانەی بەدەستبھێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutelys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutelys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She cutely tries to gain his trust.",
+            kurdishText: "زیرەکانە ھەوڵ دەدات متمانەی بەدەستبھێنێت.",
+            onPressedBritish: () => speakcutelys2("en-GB"),
+            onPressedAmerican: () => speakcutelys2("en-US"),
           ),
         ],
       ),

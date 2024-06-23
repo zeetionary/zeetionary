@@ -103,61 +103,23 @@ class EnglishEntrycohesive extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) یەکگرتوو و کارکردن پێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The project team's cohesive efforts resulted in a successful outcome."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵی یەکگرتووی تیمی پڕۆژەکە ئەنجامێکی سەرکەوتووانەی لێکەوتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cohesive", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcohesives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcohesives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The project team's cohesive efforts resulted in a successful outcome.",
+                            kurdishText:
+                                "ھەوڵی یەکگرتووی تیمی پڕۆژەکە ئەنجامێکی سەرکەوتووانەی لێکەوتەوە.", // cohesive",
+                            onPressedBritish: () => speakcohesives1("en-GB"),
+                            onPressedAmerican: () => speakcohesives1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ھاوەڵناو) یەکخەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cohesive power of the team was evident in their strong bond."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزی یەکخەری تیمەکە لە پەیوەندی بەھێزیاندا دیاربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcohesives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcohesives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cohesive power of the team was evident in their strong bond.",
+                            kurdishText:
+                                "ھێزی یەکخەری تیمەکە لە پەیوەندی بەھێزیاندا دیاربوو.",
+                            onPressedBritish: () => speakcohesives2("en-GB"),
+                            onPressedAmerican: () => speakcohesives2("en-US"),
                           ),
                         ],
                       ),

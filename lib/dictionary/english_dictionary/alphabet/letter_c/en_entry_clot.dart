@@ -111,88 +111,30 @@ class EnglishEntryclot extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کڵۆ؛ مادەیەکی چڕ و سەخت کە درووست دەبێت کاتێک خوێن وشک دەبێتەوە یان خەست دەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They removed a clot from his brain."),
-                                    ExampleSentenceKurdish(
-                                        text: "کڵۆیەکیان لە مێشکی لادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clot", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclots1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclots1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They removed a clot from his brain.",
+                            kurdishText: "کڵۆیەکیان لە مێشکی لادا.", // clot",
+                            onPressedBritish: () => speakclots1("en-GB"),
+                            onPressedAmerican: () => speakclots1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had a blood clot removed from his brain."),
-                                    ExampleSentenceKurdish(
-                                        text: "کڵۆ خوێنێکیان لە مێشکی دەرکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclots2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclots2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had a blood clot removed from his brain.",
+                            kurdishText: "کڵۆ خوێنێکیان لە مێشکی دەرکرد.",
+                            onPressedBritish: () => speakclots2("en-GB"),
+                            onPressedAmerican: () => speakclots2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) درووستکردنی کڵۆ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was rushed into hospital because his blood wasn't clotting properly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بردرا بۆ نەخۆشخانە بەھۆی ئەوەی خوێنی بە گونجاوی کڵۆی درووست نەدەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclots3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclots3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was rushed into hospital because his blood wasn't clotting properly.",
+                            kurdishText:
+                                "بردرا بۆ نەخۆشخانە بەھۆی ئەوەی خوێنی بە گونجاوی کڵۆی درووست نەدەکرد.",
+                            onPressedBritish: () => speakclots3("en-GB"),
+                            onPressedAmerican: () => speakclots3("en-US"),
                           ),
                         ],
                       ),

@@ -242,59 +242,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) سنووردارکردنی شتێک یان وا بکەیت کە تەنھا بۆ ماوەیەکی کەم بەردەوام بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Spending on books has been severely curtailed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەرجکردنی پارە لەسەر کتێب بە توندی سنووردار کراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curtail", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtails1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtails1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Spending on books has been severely curtailed.",
+            kurdishText:
+                "خەرجکردنی پارە لەسەر کتێب بە توندی سنووردار کراوە.", // curtail", please follow LX instructions
+            onPressedBritish: () => speakcurtails1("en-GB"),
+            onPressedAmerican: () => speakcurtails1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The lecture was curtailed by the fire alarm going off."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وانەکە بڕایەوە بەھۆی ئەوەی زەنگی ئاگرەکە کەوتە کار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtails2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtails2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The lecture was curtailed by the fire alarm going off.",
+            kurdishText: "وانەکە بڕایەوە بەھۆی ئەوەی زەنگی ئاگرەکە کەوتە کار.",
+            onPressedBritish: () => speakcurtails2("en-GB"),
+            onPressedAmerican: () => speakcurtails2("en-US"),
           ),
         ],
       ),

@@ -95,34 +95,14 @@ class EnglishEntrychlorophyll extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مادەیەکی سەوز لە ڕووەکدا کە تیشکی خۆر وەردەگرێت بۆ گەشەی ڕووەکەەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The biologist studied the process of photosynthesis and the role of chlorophyll in plants."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیندەزانەکە لێکۆڵینەوەی لە پڕۆسەی ڕۆشنەپێکھاتن و ئەرکی کلۆرۆفیل دەکرد لە ڕووەکەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chlorophyll", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchlorophylls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchlorophylls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The biologist studied the process of photosynthesis and the role of chlorophyll in plants.",
+                            kurdishText:
+                                "زیندەزانەکە لێکۆڵینەوەی لە پڕۆسەی ڕۆشنەپێکھاتن و ئەرکی کلۆرۆفیل دەکرد لە ڕووەکەکاندا.", // chlorophyll",
+                            onPressedBritish: () => speakchlorophylls1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchlorophylls1("en-US"),
                           ),
                         ],
                       ),

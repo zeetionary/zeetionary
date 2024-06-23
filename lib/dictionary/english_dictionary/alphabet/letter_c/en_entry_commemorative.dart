@@ -95,34 +95,15 @@ class EnglishEntrycommemorative extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە ئامانج لێی یادکردنەوەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everyone who takes part in the race will get a commemorative medal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرکەسێک کە لە پێشبڕکێکە بەژدار دەبێت مەدالیایەکی یادەوەری وەردەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commemorative", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommemoratives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommemoratives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Everyone who takes part in the race will get a commemorative medal.",
+                            kurdishText:
+                                "ھەرکەسێک کە لە پێشبڕکێکە بەژدار دەبێت مەدالیایەکی یادەوەری وەردەگرێت.", // commemorative",
+                            onPressedBritish: () =>
+                                speakcommemoratives1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommemoratives1("en-US"),
                           ),
                         ],
                       ),

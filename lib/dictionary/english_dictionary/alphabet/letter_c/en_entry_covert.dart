@@ -241,61 +241,23 @@ class KurdishMeaning extends StatelessWidget {
 2	بێشە(ڵان)
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) نھێنی یان شاراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Every measure, both overt and covert, is being taken against terrorists."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو ھەنگاوێک، چی ئاشکرا یان نھێنی، دژ بە تیرۆریستان دەگیردرێتە بەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "covert", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Every measure, both overt and covert, is being taken against terrorists.",
+            kurdishText:
+                "ھەموو ھەنگاوێک، چی ئاشکرا یان نھێنی، دژ بە تیرۆریستان دەگیردرێتە بەر.", // covert", please follow LX instructions
+            onPressedBritish: () => speakcoverts1("en-GB"),
+            onPressedAmerican: () => speakcoverts1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ناوچەیەکی چڕی گژوگیا و درەخت کە تێیدا ئاژەڵەکان دەتوانن خۆیان بشارنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The fox disappeared into the covert."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێوییەکە ونبووە ناو نھێنگەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The fox disappeared into the covert.",
+            kurdishText: "ڕێوییەکە ونبووە ناو نھێنگەکە.",
+            onPressedBritish: () => speakcoverts2("en-GB"),
+            onPressedAmerican: () => speakcoverts2("en-US"),
           ),
         ],
       ),

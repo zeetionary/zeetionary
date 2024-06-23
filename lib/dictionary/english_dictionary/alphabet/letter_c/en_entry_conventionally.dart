@@ -104,67 +104,29 @@ class EnglishEntryconventionally extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە پابەندە بە ئاداب و نەریتی کۆمەڵایەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Though not conventionally pretty، she dressed with flair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەرچی بەپێی ئەوەی باوە جوان نەبوو، بەڵام بە بەھرەوە جلی دەپۆشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conventionally", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconventionallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconventionallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Though not conventionally pretty، she dressed with flair.",
+                            kurdishText:
+                                "ئەگەرچی بەپێی ئەوەی باوە جوان نەبوو، بەڵام بە بەھرەوە جلی دەپۆشی.", // conventionally",
+                            onPressedBritish: () =>
+                                speakconventionallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconventionallys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە پابەندە بەوەی باوە یان بۆ ماوەیەکی زۆر ئەنجامدراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Not all conventionally grown fruits are vulnerable to pests."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو جۆرە میوە ئاسایی چێندراوەکان لاواز نین بە مەگەز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconventionallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconventionallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Not all conventionally grown fruits are vulnerable to pests.",
+                            kurdishText:
+                                "ھەموو جۆرە میوە ئاسایی چێندراوەکان لاواز نین بە مەگەز.",
+                            onPressedBritish: () =>
+                                speakconventionallys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconventionallys2("en-US"),
                           ),
                         ],
                       ),

@@ -95,32 +95,13 @@ class EnglishEntrycopycat extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە بە تەواوی لاسایی کەسێکی دیکە دەکاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Whether it is the original attacker or a copycat, he must be caught soon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئایا کە ھێرشکارە سەرەکییەکەیە یان لاسایی‌کەرەوەیەک، دەبێت زوو بگیرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "copycat", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopycats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopycats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Whether it is the original attacker or a copycat, he must be caught soon.",
+                            kurdishText:
+                                "ئایا کە ھێرشکارە سەرەکییەکەیە یان لاسایی‌کەرەوەیەک، دەبێت زوو بگیرێت.", // copycat",
+                            onPressedBritish: () => speakcopycats1("en-GB"),
+                            onPressedAmerican: () => speakcopycats1("en-US"),
                           ),
                         ],
                       ),

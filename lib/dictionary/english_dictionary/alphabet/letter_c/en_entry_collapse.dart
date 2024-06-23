@@ -221,474 +221,170 @@ class EnglishEntrycollapse extends StatelessWidget {
 کوردی: ڕووخان، داڕووخان، کەوتن، داتەپین، تێک‌تەپین، تیاچوون، لەنێوچوون، ھەرەس‌ھێنان، ڕمان، داڕمان، ھەڕەمین، لێک‌ھەڵوەشان، تێشکان، بەزین،	پێچوون، کزبوون، داچوون،	کەم‌بوونەوەی کت‌وپڕی نرخ،	(جوگڕافی) تلیسانەوە 
 """),
                           const DefinitionKurdish(text: "١. (کردار) ڕووخان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The roof collapsed under the weight of snow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربانەکە لەژێر کێشی بەفردا ڕووخا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collapse", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The roof collapsed under the weight of snow.",
+                            kurdishText:
+                                "سەربانەکە لەژێر کێشی بەفردا ڕووخا.", // collapse",
+                            onPressedBritish: () => speakcollapses1("en-GB"),
+                            onPressedAmerican: () => speakcollapses1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The building had partially collapsed."),
-                                    ExampleSentenceKurdish(
-                                        text: "بیناکە بەشێکی داڕما."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The building had partially collapsed.",
+                            kurdishText: "بیناکە بەشێکی داڕما.",
+                            onPressedBritish: () => speakcollapses2("en-GB"),
+                            onPressedAmerican: () => speakcollapses2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (کردار) لەھۆشچوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She collapsed and was rushed to hospital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەھۆش خۆی چوو و گوازرایەوە بۆ نەخۆشخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She collapsed and was rushed to hospital.",
+                            kurdishText:
+                                "لەھۆش خۆی چوو و گوازرایەوە بۆ نەخۆشخانە.",
+                            onPressedBritish: () => speakcollapses3("en-GB"),
+                            onPressedAmerican: () => speakcollapses3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He collapsed in the street and died two hours later."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر شەقامەکە بێھۆش بوو و دوای دوو کاتژمێر گیانی لەدەستدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He collapsed in the street and died two hours later.",
+                            kurdishText:
+                                "لەسەر شەقامەکە بێھۆش بوو و دوای دوو کاتژمێر گیانی لەدەستدا.",
+                            onPressedBritish: () => speakcollapses4("en-GB"),
+                            onPressedAmerican: () => speakcollapses4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) دانیشتن و حەسانەوە، بەتایبەتی لە دوای کارکردنی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When I get home I like to collapse on the sofa and listen to music."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە دەگەمەوە ماڵەوە دەمەوێت لەسەر قەنەفەکە پاڵبکەوم و گوێ لە میوزیک بگرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When I get home I like to collapse on the sofa and listen to music.",
+                            kurdishText:
+                                "کە دەگەمەوە ماڵەوە دەمەوێت لەسەر قەنەفەکە پاڵبکەوم و گوێ لە میوزیک بگرم.",
+                            onPressedBritish: () => speakcollapses5("en-GB"),
+                            onPressedAmerican: () => speakcollapses5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) شکستھێنانی لەناکاو یان تەواوەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Talks between management and unions have collapsed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانوستانی نێوان بەڕێوبەرایەتی و سەندیکاکان شکستیھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Talks between management and unions have collapsed.",
+                            kurdishText:
+                                "دانوستانی نێوان بەڕێوبەرایەتی و سەندیکاکان شکستیھێناوە.",
+                            onPressedBritish: () => speakcollapses6("en-GB"),
+                            onPressedAmerican: () => speakcollapses6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All opposition to the plan has collapsed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو دژبەرییەک بەرامبەر پلانەکان شکستیان ھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All opposition to the plan has collapsed.",
+                            kurdishText:
+                                "ھەموو دژبەرییەک بەرامبەر پلانەکان شکستیان ھێناوە.",
+                            onPressedBritish: () => speakcollapses7("en-GB"),
+                            onPressedAmerican: () => speakcollapses7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) کەمبوونی لەناکاو لە بڕ یان نرخدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She lost a lot of money when the property market collapsed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر لە پارەی لەدەستدا کە بازاڕی خانووبەرە داتەپی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She lost a lot of money when the property market collapsed.",
+                            kurdishText:
+                                "ڕێژەیەکی زۆر لە پارەی لەدەستدا کە بازاڕی خانووبەرە داتەپی.",
+                            onPressedBritish: () => speakcollapses8("en-GB"),
+                            onPressedAmerican: () => speakcollapses8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) قەدکردنی شتێک بۆ شێوەیەک کە جێگای کەمتر دەگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The table collapses for easy storage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێزەکە دەنووشتێیەوە بۆ ھەڵگرتنی ئاسان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The table collapses for easy storage.",
+                            kurdishText:
+                                "مێزەکە دەنووشتێیەوە بۆ ھەڵگرتنی ئاسان.",
+                            onPressedBritish: () => speakcollapses9("en-GB"),
+                            onPressedAmerican: () => speakcollapses9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) شکستھێنانی لەناکاوی شتێک، وەک دامەزراوەیەک، بازرگانییەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The peace talks were on the verge of collapse."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گفتوگۆکانی ئاشتی لەسەر لێواری داڕمانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The peace talks were on the verge of collapse.",
+                            kurdishText:
+                                "گفتوگۆکانی ئاشتی لەسەر لێواری داڕمانن.",
+                            onPressedBritish: () => speakcollapses10("en-GB"),
+                            onPressedAmerican: () => speakcollapses10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They thought their strategy would cause the collapse of the regime."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وایان دەفکری کە ستراتیژییەکەیان دەبێتە ھۆی داڕمانی ڕژێمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They thought their strategy would cause the collapse of the regime.",
+                            kurdishText:
+                                "وایان دەفکری کە ستراتیژییەکەیان دەبێتە ھۆی داڕمانی ڕژێمەکە.",
+                            onPressedBritish: () => speakcollapses11("en-GB"),
+                            onPressedAmerican: () => speakcollapses11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The war has led to the collapse of agriculture in the area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەنگەکە بووە بەھۆی داڕمانی کشتوکاڵ لە ناوچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The war has led to the collapse of agriculture in the area.",
+                            kurdishText:
+                                "جەنگەکە بووە بەھۆی داڕمانی کشتوکاڵ لە ناوچەکە.",
+                            onPressedBritish: () => speakcollapses12("en-GB"),
+                            onPressedAmerican: () => speakcollapses12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (ناو) داڕمانی بینایەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The walls were strengthened to protect them from collapse."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیوارەکان بەھێز کران بۆ پاراستن لە داڕووخان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The walls were strengthened to protect them from collapse.",
+                            kurdishText:
+                                "دیوارەکان بەھێز کران بۆ پاراستن لە داڕووخان.",
+                            onPressedBritish: () => speakcollapses13("en-GB"),
+                            onPressedAmerican: () => speakcollapses13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (ناو) دۆخێکی تەندرووستی کە کەسێک لەناکاو زۆر نەخۆش دەکەوێت، یان لەھۆش دەچێت کە زۆر نەخۆش دەکەوێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was taken to hospital after her collapse at work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بردرا بۆ نەخۆشخانە لە دوای لەھۆشچوونی لەسەر کار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was taken to hospital after her collapse at work.",
+                            kurdishText:
+                                "بردرا بۆ نەخۆشخانە لە دوای لەھۆشچوونی لەسەر کار.",
+                            onPressedBritish: () => speakcollapses14("en-GB"),
+                            onPressedAmerican: () => speakcollapses14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was in a state of mental and physical collapse."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دۆخی داڕووخانی دەروونی و جەستەیی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was in a state of mental and physical collapse.",
+                            kurdishText:
+                                "لە دۆخی داڕووخانی دەروونی و جەستەیی بوو.",
+                            onPressedBritish: () => speakcollapses15("en-GB"),
+                            onPressedAmerican: () => speakcollapses15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٦. (ناو) داکەوتنی لەناکاو لە نرخدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Shares suffered a fresh collapse today."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشکەکان تووشی داتەپینی تازە بوونەوە ئەمڕۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollapses16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollapses16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Shares suffered a fresh collapse today.",
+                            kurdishText:
+                                "پشکەکان تووشی داتەپینی تازە بوونەوە ئەمڕۆ.",
+                            onPressedBritish: () => speakcollapses16("en-GB"),
+                            onPressedAmerican: () => speakcollapses16("en-US"),
                           ),
                         ],
                       ),

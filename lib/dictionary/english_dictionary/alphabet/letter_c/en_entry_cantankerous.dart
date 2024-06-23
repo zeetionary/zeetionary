@@ -192,34 +192,15 @@ class EnglishEntrycantankerous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەسێک کە زوو تووڕە دەبێت و بەردەوام ناڕەزایی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's getting a bit cantankerous in his old age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمێک ڕووتاڵ بووە لە تەمەنی پیرییدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cantankerous", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcantankerouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcantankerouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's getting a bit cantankerous in his old age.",
+                            kurdishText:
+                                "کەمێک ڕووتاڵ بووە لە تەمەنی پیرییدا.", // cantankerous",
+                            onPressedBritish: () =>
+                                speakcantankerouss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcantankerouss1("en-US"),
                           ),
                         ],
                       ),

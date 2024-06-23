@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەلێنێکی کراوە، بەتایبەتی لەسەر ڕووی بەردێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Most of the year the insects are hidden in rock crevices."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرینەی ساڵەکە مێرووەکان لە کەلێنی بەردەکاندا شاراوەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crevice", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrevices1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrevices1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Most of the year the insects are hidden in rock crevices.",
+            kurdishText:
+                "زۆرینەی ساڵەکە مێرووەکان لە کەلێنی بەردەکاندا شاراوەن.", // crevice", please follow LX instructions
+            onPressedBritish: () => speakcrevices1("en-GB"),
+            onPressedAmerican: () => speakcrevices1("en-US"),
           ),
         ],
       ),

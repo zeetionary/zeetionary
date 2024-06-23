@@ -186,30 +186,12 @@ class EnglishEntrycello extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چەلۆ؛ ئامێرێکی میوزیکی گەورە کە تەلی ھەیە و وەک کەمانچەیەکی گەورە وایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "My girlfriend plays the cello."),
-                                    ExampleSentenceKurdish(
-                                        text: "دۆستە کچەکەم چەلۆ دەژەنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cello", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcellos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcellos1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My girlfriend plays the cello.",
+                            kurdishText:
+                                "دۆستە کچەکەم چەلۆ دەژەنێت.", // cello",
+                            onPressedBritish: () => speakcellos1("en-GB"),
+                            onPressedAmerican: () => speakcellos1("en-US"),
                           ),
                         ],
                       ),

@@ -128,149 +128,53 @@ class EnglishEntryconverse extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ھەبوونی گفتوگۆیەک لەگەڵ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She conversed with the Romanians in French."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە فەرەنسی قسەی لەگەڵ ڕۆمانییەکان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "converse", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She conversed with the Romanians in French.",
+                            kurdishText:
+                                "بە فەرەنسی قسەی لەگەڵ ڕۆمانییەکان کرد.", // converse",
+                            onPressedBritish: () => speakconverses1("en-GB"),
+                            onPressedAmerican: () => speakconverses1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were conversing on music and opera."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر میوزیک و ئۆپێرا قسەیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverses2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were conversing on music and opera.",
+                            kurdishText: "لەسەر میوزیک و ئۆپێرا قسەیان دەکرد.",
+                            onPressedBritish: () => speakconverses2("en-GB"),
+                            onPressedAmerican: () => speakconverses2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) پێچەوانەی ڕاستییەک یان لێدوانێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the US, you drive on the right-hand side of the road, but in the UK the converse applies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئەمریکا لە بەشی لای ڕاستی شەقامەوە لێدەخوڕیت، بەڵام لە بەریتانیا پێچەوانەکەی ڕاستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverses3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverses3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the US, you drive on the right-hand side of the road, but in the UK the converse applies.",
+                            kurdishText:
+                                "لە ئەمریکا لە بەشی لای ڕاستی شەقامەوە لێدەخوڕیت، بەڵام لە بەریتانیا پێچەوانەکەی ڕاستە.",
+                            onPressedBritish: () => speakconverses3("en-GB"),
+                            onPressedAmerican: () => speakconverses3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "However, the converse of this theory may also be true."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەروەھا پێچەوانەی ئەم چیرۆکەش دەکرێت ڕاست بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverses4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverses4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "However, the converse of this theory may also be true.",
+                            kurdishText:
+                                "ھەروەھا پێچەوانەی ئەم چیرۆکەش دەکرێت ڕاست بێت.",
+                            onPressedBritish: () => speakconverses4("en-GB"),
+                            onPressedAmerican: () => speakconverses4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) پێچەوانەی ڕاستییەک یان قسەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Building new roads increases traffic and the converse is equally true: reducing the number and size of roads means less traffic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بنیاتنانی ڕێگای تازە ھاتووچۆ زیاد دەکات و پێچەوانەکەشی بە ھەمان شێوە ڕاستە: کەمکردنەوەی ژمارە و قەبارەی ڕێگاکان واتا ھاتووچۆی کەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverses5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverses5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Building new roads increases traffic and the converse is equally true: reducing the number and size of roads means less traffic.",
+                            kurdishText:
+                                "بنیاتنانی ڕێگای تازە ھاتووچۆ زیاد دەکات و پێچەوانەکەشی بە ھەمان شێوە ڕاستە: کەمکردنەوەی ژمارە و قەبارەی ڕێگاکان واتا ھاتووچۆی کەم.",
+                            onPressedBritish: () => speakconverses5("en-GB"),
+                            onPressedAmerican: () => speakconverses5("en-US"),
                           ),
                         ],
                       ),

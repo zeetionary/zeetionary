@@ -94,32 +94,12 @@ class EnglishEntrycontritely extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە وای پیشان دەدات زۆر بەداخەوەیت بۆ شتێکی خارپ کە کردووتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He contritely admitted his guilt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە داخەوە دانی بە تاوانەکەیدا نا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contritely", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontritelys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontritelys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He contritely admitted his guilt.",
+                            kurdishText:
+                                "بە داخەوە دانی بە تاوانەکەیدا نا.", // contritely",
+                            onPressedBritish: () => speakcontritelys1("en-GB"),
+                            onPressedAmerican: () => speakcontritelys1("en-US"),
                           ),
                         ],
                       ),

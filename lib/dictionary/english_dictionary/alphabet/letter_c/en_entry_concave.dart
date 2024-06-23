@@ -102,59 +102,22 @@ class EnglishEntryconcave extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) چەماوە بەرەو ناوەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The upper surface is slightly concave."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕووی سەرەوە کەمێک قوپاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concave", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcaves1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcaves1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The upper surface is slightly concave.",
+                            kurdishText:
+                                "ڕووی سەرەوە کەمێک قوپاوە.", // concave",
+                            onPressedBritish: () => speakconcaves1("en-GB"),
+                            onPressedAmerican: () => speakconcaves1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The inside of a shiny spoon is a common example of a concave mirror."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوەوەی کەوچکێکی درەوشاوە نموونەیەکی باوی ئاوێنەیەکی قوپاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcaves2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcaves2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The inside of a shiny spoon is a common example of a concave mirror.",
+                            kurdishText:
+                                "ناوەوەی کەوچکێکی درەوشاوە نموونەیەکی باوی ئاوێنەیەکی قوپاوە.",
+                            onPressedBritish: () => speakconcaves2("en-GB"),
+                            onPressedAmerican: () => speakconcaves2("en-US"),
                           ),
                         ],
                       ),

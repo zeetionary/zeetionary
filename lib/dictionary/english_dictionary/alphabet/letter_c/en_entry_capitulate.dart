@@ -194,90 +194,33 @@ class EnglishEntrycapitulate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ڕازی بوون بە کردنی شتێک کە بۆ ماوەیەکی زۆر ڕەتتکردووتەوە بیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were finally forced to capitulate to the terrorists' demands."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتایی ناچارکران ملبدەن بۆ داوای تیرۆریستان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capitulate", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitulates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitulates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were finally forced to capitulate to the terrorists' demands.",
+                            kurdishText:
+                                "لە کۆتایی ناچارکران ملبدەن بۆ داوای تیرۆریستان.", // capitulate
+                            onPressedBritish: () => speakcapitulates1("en-GB"),
+                            onPressedAmerican: () => speakcapitulates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The defence minister today capitulated to calls for his resignation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەزیری بەرگری ئەمڕۆ ملیدا بۆ داواکان بۆ دەستلەکارکێشانەوەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitulates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitulates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The defence minister today capitulated to calls for his resignation.",
+                            kurdishText:
+                                "وەزیری بەرگری ئەمڕۆ ملیدا بۆ داواکان بۆ دەستلەکارکێشانەوەی.",
+                            onPressedBritish: () => speakcapitulates2("en-GB"),
+                            onPressedAmerican: () => speakcapitulates2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) خۆبەدەستەوەدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The town capitulated after a three-week siege."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارۆچکەکە لە دوای گەمارۆیەکی سێ ھەفتەیی خۆی ڕادەستکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitulates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitulates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The town capitulated after a three-week siege.",
+                            kurdishText:
+                                "شارۆچکەکە لە دوای گەمارۆیەکی سێ ھەفتەیی خۆی ڕادەستکرد.",
+                            onPressedBritish: () => speakcapitulates3("en-GB"),
+                            onPressedAmerican: () => speakcapitulates3("en-US"),
                           ),
                         ],
                       ),

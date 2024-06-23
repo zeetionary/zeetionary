@@ -236,32 +236,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ل‌ێپێچینەوەی توند لە کەسێک سەبارەت بەو وەڵامانەی کە پێشوەختە داویانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He broke down under cross-examination and admitted his part in the assault."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەژێر لێ‌پێچینەوەدا کۆڵی دا و دانی نا بە تێوەگلانی لە ھێرشەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cross-examination", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossexaminations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossexaminations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He broke down under cross-examination and admitted his part in the assault.",
+            kurdishText:
+                "لەژێر لێ‌پێچینەوەدا کۆڵی دا و دانی نا بە تێوەگلانی لە ھێرشەکەدا.", // cross-examination", please follow LX instructions
+            onPressedBritish: () => speakcrossexaminations1("en-GB"),
+            onPressedAmerican: () => speakcrossexaminations1("en-US"),
           ),
         ],
       ),

@@ -125,143 +125,47 @@ class EnglishEntrychew extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) جوینی خواردن لەناو دەمدا بۆ ئەوەی ورد بێت و ئاسان قوتبدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After the operation you may find it difficult to chew and swallow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای نەشتەرگەرییەکە ڕەنگە زەحمەت بێت کە شت بجاویت و قوتی بدەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chew", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchews1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchews1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After the operation you may find it difficult to chew and swallow.",
+                            kurdishText:
+                                "لە دوای نەشتەرگەرییەکە ڕەنگە زەحمەت بێت کە شت بجاویت و قوتی بدەیت.", // chew",
+                            onPressedBritish: () => speakchews1("en-GB"),
+                            onPressedAmerican: () => speakchews1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He is always chewing gum."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەمیشە بنێشت دەجاوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchews2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchews2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He is always chewing gum.",
+                            kurdishText: "ھەمیشە بنێشت دەجاوێت.",
+                            onPressedBritish: () => speakchews2("en-GB"),
+                            onPressedAmerican: () => speakchews2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بەردەوام قەپگرتن لە شتێک بەھۆی ئەوەی دەتەوێت تامی بکەیت یان شڵەژاویت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The dog was chewing on a bone."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەگەکە قەپی دەگرت لە ئێسکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchews3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchews3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The dog was chewing on a bone.",
+                            kurdishText: "سەگەکە قەپی دەگرت لە ئێسکەکە.",
+                            onPressedBritish: () => speakchews3("en-GB"),
+                            onPressedAmerican: () => speakchews3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was chewing at her lower lip."),
-                                    ExampleSentenceKurdish(
-                                        text: "گازی لە لێوی خوارەوەی دەگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchews4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchews4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was chewing at her lower lip.",
+                            kurdishText: "گازی لە لێوی خوارەوەی دەگرت.",
+                            onPressedBritish: () => speakchews4("en-GB"),
+                            onPressedAmerican: () => speakchews4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٣. (ناو) جاوینی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She paused to take a chew of her sandwich before continuing her story."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەستا بۆ گازگرتنێک لە لەفەکەی پێش ئەوەی بەردەوام بێت لە چیرۆکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchews5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchews5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She paused to take a chew of her sandwich before continuing her story.",
+                            kurdishText:
+                                "وەستا بۆ گازگرتنێک لە لەفەکەی پێش ئەوەی بەردەوام بێت لە چیرۆکەکە.",
+                            onPressedBritish: () => speakchews5("en-GB"),
+                            onPressedAmerican: () => speakchews5("en-US"),
                           ),
                         ],
                       ),

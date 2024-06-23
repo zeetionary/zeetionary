@@ -187,32 +187,13 @@ class EnglishEntrycastaway extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە کەشتییەکەی تێکشکاوە و مەلەی کردووە بۆ شوێنێکی دوورەپەرێز، بەزۆری بۆ دوورگەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After the shipwreck, the lone survivor became a castaway on a deserted island."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای تێکشکانەکە، ڕزگاربووەکە تەنھاکە بۆ بە دابڕاوێک لەسەر دوورگەیەکی چۆڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "castaway", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastaways1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastaways1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After the shipwreck, the lone survivor became a castaway on a deserted island.",
+                            kurdishText:
+                                "لە دوای تێکشکانەکە، ڕزگاربووەکە تەنھاکە بۆ بە دابڕاوێک لەسەر دوورگەیەکی چۆڵ.", // castaway",
+                            onPressedBritish: () => speakcastaways1("en-GB"),
+                            onPressedAmerican: () => speakcastaways1("en-US"),
                           ),
                         ],
                       ),

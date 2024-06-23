@@ -112,93 +112,36 @@ class EnglishEntrycoinage extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو سکانەی لە شوێنێک یان کاتێکی دیاریکراودا بەکاردێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The study of Roman coinage provides insights into Roman history and culture."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێکۆڵینەوە لە دراوی ڕۆم زانیاری دەدات بەدەستەوە لەسەر مێژوو و کەلتووری ڕۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coinage", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoinages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoinages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The study of Roman coinage provides insights into Roman history and culture.",
+                            kurdishText:
+                                "لێکۆڵینەوە لە دراوی ڕۆم زانیاری دەدات بەدەستەوە لەسەر مێژوو و کەلتووری ڕۆم.", // coinage",
+                            onPressedBritish: () => speakcoinages1("en-GB"),
+                            onPressedAmerican: () => speakcoinages1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) سیستەمی پارەی وڵاتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Decimal coinage simplifies calculations and currency conversions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیستەمی دەیان ژماردن و گۆڕین ئاسان دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoinages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoinages2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Decimal coinage simplifies calculations and currency conversions.",
+                            kurdishText:
+                                "سیستەمی دەیان ژماردن و گۆڕین ئاسان دەکات.",
+                            onPressedBritish: () => speakcoinages2("en-GB"),
+                            onPressedAmerican: () => speakcoinages2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) وشەیەک یان دەستەواژەیەک کە تازە درووستکراوە؛ پڕۆسەی درووستکردنی وشە و دەستەواژەی تازە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The expression \"boy band\" is a 1990s coinage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستەواژەی \"boyband\" داتاشینێکی ١٩٩٠ ـەکانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoinages3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoinages3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The expression \"boy band\" is a 1990s coinage.",
+                            kurdishText:
+                                "دەستەواژەی \"boyband\" داتاشینێکی ١٩٩٠ ـەکانە.",
+                            onPressedBritish: () => speakcoinages3("en-GB"),
+                            onPressedAmerican: () => speakcoinages3("en-US"),
                           ),
                         ],
                       ),

@@ -103,60 +103,22 @@ class EnglishEntryclergy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پیاوانی ئایینی، بەتایبەتی لە ئایینی مەسیحیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All the local clergy were asked to attend the ceremony."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تواوی پیاوە ئاینییە خۆجێییەکان داوایان لێکرا بەژداری ئاھەنگەکە بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clergy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclergys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclergys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All the local clergy were asked to attend the ceremony.",
+                            kurdishText:
+                                "تواوی پیاوە ئاینییە خۆجێییەکان داوایان لێکرا بەژداری ئاھەنگەکە بن.", // clergy",
+                            onPressedBritish: () => speakclergys1("en-GB"),
+                            onPressedAmerican: () => speakclergys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new proposals affect both clergy and laity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانە تازەکان کاریگەرییان لەسەر پیاوانی ئایینی و پەیڕەوان دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclergys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclergys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new proposals affect both clergy and laity.",
+                            kurdishText:
+                                "پلانە تازەکان کاریگەرییان لەسەر پیاوانی ئایینی و پەیڕەوان دەبێت.",
+                            onPressedBritish: () => speakclergys2("en-GB"),
+                            onPressedAmerican: () => speakclergys2("en-US"),
                           ),
                         ],
                       ),

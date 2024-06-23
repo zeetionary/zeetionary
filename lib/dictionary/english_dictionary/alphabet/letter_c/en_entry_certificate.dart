@@ -193,97 +193,37 @@ class EnglishEntrycertificate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەڵگەنامە کە دەکرێت بەکاربێت بۆ پشت‌ڕاست‌کردنەوەی زانیارییەکانی سەری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everyone entering the country needs to show a health certificate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرکەس کە دێتە وڵاتەکەوە دەبێت بڕوانامەی تەندرووستی پیشان بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "certificate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcertificates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcertificates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Everyone entering the country needs to show a health certificate.",
+                            kurdishText:
+                                "ھەرکەس کە دێتە وڵاتەکەوە دەبێت بڕوانامەی تەندرووستی پیشان بدات.", // certificate",
+                            onPressedBritish: () => speakcertificates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcertificates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This certificate is an important document. Keep it in a safe place."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم سەنەدە بەڵگەنامەیەکی گرنگە. لە شوێنێکی پارێزراو بیپارێزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcertificates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcertificates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This certificate is an important document. Keep it in a safe place.",
+                            kurdishText:
+                                "ئەم سەنەدە بەڵگەنامەیەکی گرنگە. لە شوێنێکی پارێزراو بیپارێزە.",
+                            onPressedBritish: () => speakcertificates2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcertificates2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەڵگەنامەیەکی فەرمی کە دەیسەلمێنێت کە کۆرسێکی خوێندن یان تاقیکردنەوەیەکت تەواو کردووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A certificate of completion will be issued to all who complete the course."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕوانامەیەکی تەواوکردن دەدرێت بە ھەموو ئەوانەی کە کۆرسەکە تەواو دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcertificates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcertificates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A certificate of completion will be issued to all who complete the course.",
+                            kurdishText:
+                                "بڕوانامەیەکی تەواوکردن دەدرێت بە ھەموو ئەوانەی کە کۆرسەکە تەواو دەکەن.",
+                            onPressedBritish: () => speakcertificates3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcertificates3("en-US"),
                           ),
                         ],
                       ),

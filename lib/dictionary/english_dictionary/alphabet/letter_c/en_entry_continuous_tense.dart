@@ -97,34 +97,15 @@ class EnglishEntrycontinuoustense extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بەو کردارانەی کە لە دەمی بەردەوامیدان و بەکاردێن بۆ باسکردن لە چالاکییەک کە ھێشتا بۆ ماوەیەک بەردەوامە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The continuous tenses can be challenging for learners, especially when distinguishing between them and the simple tenses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمەکانی بەردەوامی دەکرێت سەخت بن بۆ فێرخوازان، بەتایبەتی لە کاتی جیاکردنەوە لە نێوانیان و دەمە سادەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "continuous tense", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinuoustenses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinuoustenses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The continuous tenses can be challenging for learners, especially when distinguishing between them and the simple tenses.",
+                            kurdishText:
+                                "دەمەکانی بەردەوامی دەکرێت سەخت بن بۆ فێرخوازان، بەتایبەتی لە کاتی جیاکردنەوە لە نێوانیان و دەمە سادەکان.", // continuous tense",
+                            onPressedBritish: () =>
+                                speakcontinuoustenses1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinuoustenses1("en-US"),
                           ),
                         ],
                       ),

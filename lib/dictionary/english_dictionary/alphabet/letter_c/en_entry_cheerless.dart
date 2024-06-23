@@ -94,32 +94,13 @@ class EnglishEntrycheerless extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) شوێنێک کە خەمھێنەرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Despite the festive decorations, the party felt cheerless without her presence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەڕای ڕازاندنەوە تایبەتەکە، ئاھەنگەکە کزومات بوو بەبێ ئامادەیی ئەو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheerless", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheerlesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheerlesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Despite the festive decorations, the party felt cheerless without her presence.",
+                            kurdishText:
+                                "سەرەڕای ڕازاندنەوە تایبەتەکە، ئاھەنگەکە کزومات بوو بەبێ ئامادەیی ئەو.", // cheerless",
+                            onPressedBritish: () => speakcheerlesss1("en-GB"),
+                            onPressedAmerican: () => speakcheerlesss1("en-US"),
                           ),
                         ],
                       ),

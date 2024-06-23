@@ -239,58 +239,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: (ڕەنگ) زرشکی، ئەرخەوانی، ڕەنگی خوێنی، سووری تۆخ، سووری توند
 """),
           const DefinitionKurdish(text: "١. (ناو) ڕەنگی سووری تۆخ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The artist used crimson to paint the sunset."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھونەرمەندەکە ڕەنگی سووری خوێنی بەکارھێنا بۆ کێشانی خۆرئاوابوونەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crimson", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrimsons1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrimsons1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The artist used crimson to paint the sunset.",
+            kurdishText:
+                "ھونەرمەندەکە ڕەنگی سووری خوێنی بەکارھێنا بۆ کێشانی خۆرئاوابوونەکە.", // crimson", please follow LX instructions
+            onPressedBritish: () => speakcrimsons1("en-GB"),
+            onPressedAmerican: () => speakcrimsons1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) ھەبوونی ڕەنگی سووری تۆخ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She turned crimson with embarrassment."),
-                    ExampleSentenceKurdish(text: "لە شەرمدا سووربووەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrimsons2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrimsons2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She turned crimson with embarrassment.",
+            kurdishText: "لە شەرمدا سووربووەوە.",
+            onPressedBritish: () => speakcrimsons2("en-GB"),
+            onPressedAmerican: () => speakcrimsons2("en-US"),
           ),
         ],
       ),

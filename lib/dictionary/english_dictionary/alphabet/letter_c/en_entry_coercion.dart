@@ -103,60 +103,22 @@ class EnglishEntrycoercion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) زۆرلێ‌کردن لە کەسێک بەوەی شتێک کە نایەوێت بە بەکارھێنانی ھەڕەشە و فشار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He claimed he had only acted under coercion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانگەشەی ئەوەی کرد کە تەنھا لە ژێر فشاردا ھەنگاوی نابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coercion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoercions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoercions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He claimed he had only acted under coercion.",
+                            kurdishText:
+                                "بانگەشەی ئەوەی کرد کە تەنھا لە ژێر فشاردا ھەنگاوی نابوو.", // coercion",
+                            onPressedBritish: () => speakcoercions1("en-GB"),
+                            onPressedAmerican: () => speakcoercions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He claimed the police had used coercion, threats, and promises to obtain the statement illegally."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانگەشەی ئەوەی کرد کە پۆلیس زۆرلێ‌کردن، ھەڕەشە، و بەڵێنی بەکارھێنابوو بۆ وەرگرتنی لێدوان بە نایاسایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoercions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoercions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He claimed the police had used coercion, threats, and promises to obtain the statement illegally.",
+                            kurdishText:
+                                "بانگەشەی ئەوەی کرد کە پۆلیس زۆرلێ‌کردن، ھەڕەشە، و بەڵێنی بەکارھێنابوو بۆ وەرگرتنی لێدوان بە نایاسایی.",
+                            onPressedBritish: () => speakcoercions2("en-GB"),
+                            onPressedAmerican: () => speakcoercions2("en-US"),
                           ),
                         ],
                       ),

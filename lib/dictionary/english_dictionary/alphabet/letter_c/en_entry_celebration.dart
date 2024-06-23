@@ -193,186 +193,66 @@ class EnglishEntrycelebration extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بۆنەیەکی تایبەت کە ڕێکدەخرێت بۆ پیرۆزکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I hope you'll join in the Christmas celebrations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیوادارم پەیوەندی بکەیت بە ئاھەنگگێڕانی کریسمسەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "celebration", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcelebrations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcelebrations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I hope you'll join in the Christmas celebrations.",
+                            kurdishText:
+                                "ھیوادارم پەیوەندی بکەیت بە ئاھەنگگێڕانی کریسمسەوە.", // celebration",
+                            onPressedBritish: () => speakcelebrations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcelebrations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As part of the celebrations, the school is planning an open day for the public."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک بەشێک لە ئاھەنگگێڕانەکە، قوتابخانەکە پلانی ھەیە ڕۆژێک بە ڕووی خەڵکیدا بکرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcelebrations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcelebrations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As part of the celebrations, the school is planning an open day for the public.",
+                            kurdishText:
+                                "وەک بەشێک لە ئاھەنگگێڕانەکە، قوتابخانەکە پلانی ھەیە ڕۆژێک بە ڕووی خەڵکیدا بکرێتەوە.",
+                            onPressedBritish: () => speakcelebrations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcelebrations2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were among the crowd that attended the celebration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ناو ئەو جەماوەرە بوون کە بەژداری ئاھەنگگێڕانەکەیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcelebrations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcelebrations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were among the crowd that attended the celebration.",
+                            kurdishText:
+                                "لە ناو ئەو جەماوەرە بوون کە بەژداری ئاھەنگگێڕانەکەیان کرد.",
+                            onPressedBritish: () => speakcelebrations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcelebrations3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They held a special celebration in his honour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆنەیەکی تایبەتیان ڕێکخست وەک ڕێز بۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcelebrations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcelebrations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They held a special celebration in his honour.",
+                            kurdishText:
+                                "بۆنەیەکی تایبەتیان ڕێکخست وەک ڕێز بۆی.",
+                            onPressedBritish: () => speakcelebrations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcelebrations4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کرداری ئاھەنگگێڕانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her triumph was a cause for celebration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەدەستھێنانەکەی مایەی ئاھەنگگێڕان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcelebrations5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcelebrations5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her triumph was a cause for celebration.",
+                            kurdishText:
+                                "بەدەستھێنانەکەی مایەی ئاھەنگگێڕان بوو.",
+                            onPressedBritish: () => speakcelebrations5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcelebrations5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The city's annual celebration of Caribbean culture kicks off on June 4."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاھەنگگێڕانی ساڵانەی شارەکە بۆ کەلتووری کاریبی لە ٤ی حوزەیران دەستپێ‌دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcelebrations6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcelebrations6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The city's annual celebration of Caribbean culture kicks off on June 4.",
+                            kurdishText:
+                                "ئاھەنگگێڕانی ساڵانەی شارەکە بۆ کەلتووری کاریبی لە ٤ی حوزەیران دەستپێ‌دەکات.",
+                            onPressedBritish: () => speakcelebrations6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcelebrations6("en-US"),
                           ),
                         ],
                       ),

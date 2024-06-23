@@ -193,180 +193,65 @@ class EnglishEntrycatalogue extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لیستێکی تەواوی کۆمەڵە شتێک، بۆ نموونە شتانێک کە خەڵکی دەتوانن سەیری بکەن یان بیکڕن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An illustrated catalogue accompanies the exhibition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتەلۆگێکی وێنەدار لەگەڵ پێشانگاکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catalogue", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatalogues1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatalogues1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An illustrated catalogue accompanies the exhibition.",
+                            kurdishText:
+                                "کاتەلۆگێکی وێنەدار لەگەڵ پێشانگاکەیە.", // catalogue",
+                            onPressedBritish: () => speakcatalogues1("en-GB"),
+                            onPressedAmerican: () => speakcatalogues1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please take a look at our online catalogue."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە بڕوانە لیستە ئۆنلاینەکەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatalogues2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatalogues2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please take a look at our online catalogue.",
+                            kurdishText: "تکایە بڕوانە لیستە ئۆنلاینەکەمان.",
+                            onPressedBritish: () => speakcatalogues2("en-GB"),
+                            onPressedAmerican: () => speakcatalogues2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) زنجیرەیەک لە شت کە ڕوودەدەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What followed was a whole catalogue of disasters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوەی دواتر ڕوویدا یەک زنجیرە لە کارەسات بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatalogues3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatalogues3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What followed was a whole catalogue of disasters.",
+                            kurdishText:
+                                "ئەوەی دواتر ڕوویدا یەک زنجیرە لە کارەسات بوو.",
+                            onPressedBritish: () => speakcatalogues3("en-GB"),
+                            onPressedAmerican: () => speakcatalogues3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) درووستکردنی تۆمارێک لە کاتەلۆگێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It took six years to catalogue all the paintings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەش ساڵی پێچوو تا ھەموو تابلۆکانمان کاتەلۆگ کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatalogues4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatalogues4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It took six years to catalogue all the paintings.",
+                            kurdishText:
+                                "شەش ساڵی پێچوو تا ھەموو تابلۆکانمان کاتەلۆگ کرد.",
+                            onPressedBritish: () => speakcatalogues4("en-GB"),
+                            onPressedAmerican: () => speakcatalogues4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "New books are catalogued on an electronic database."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبە تازەکان لەسەر داتابەیسێکی ئەلیکترۆنی لیست دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatalogues5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatalogues5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "New books are catalogued on an electronic database.",
+                            kurdishText:
+                                "کتێبە تازەکان لەسەر داتابەیسێکی ئەلیکترۆنی لیست دەکرێن.",
+                            onPressedBritish: () => speakcatalogues5("en-GB"),
+                            onPressedAmerican: () => speakcatalogues5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) بەدەستەوەدانی ژمارەیەک شت کە پەیوەندیدارن بە کەسێک، ڕووداوێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Interviews with the refugees catalogue a history of discrimination and violence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوپێکەوتن لەگەڵ پەنابەران مێژوویەک لە جیاکاری و توندوتیژی دەگێڕنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatalogues6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatalogues6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Interviews with the refugees catalogue a history of discrimination and violence.",
+                            kurdishText:
+                                "چاوپێکەوتن لەگەڵ پەنابەران مێژوویەک لە جیاکاری و توندوتیژی دەگێڕنەوە.",
+                            onPressedBritish: () => speakcatalogues6("en-GB"),
+                            onPressedAmerican: () => speakcatalogues6("en-US"),
                           ),
                         ],
                       ),

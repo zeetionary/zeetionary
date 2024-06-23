@@ -144,209 +144,73 @@ class EnglishEntrycoat extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پاڵتاو؛ جلێک کە لەسەر جلی دیکەوە لەبەر دەکرێت لە سەرمادا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I dressed in my finest blue wool coat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترین قەمسەڵەی خوری شینمم لەبەرکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coat", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I dressed in my finest blue wool coat.",
+                            kurdishText:
+                                "باشترین قەمسەڵەی خوری شینمم لەبەرکرد.", // coat",
+                            onPressedBritish: () => speakcoats1("en-GB"),
+                            onPressedAmerican: () => speakcoats1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He slipped the letter into his coat pocket."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەکەی خستە گیرفانی پاڵتاوەکەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoats2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoats2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He slipped the letter into his coat pocket.",
+                            kurdishText: "نامەکەی خستە گیرفانی پاڵتاوەکەیەوە.",
+                            onPressedBritish: () => speakcoats2("en-GB"),
+                            onPressedAmerican: () => speakcoats2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Why don't you take off your coat if you're hot?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆچی قەمسەڵەکەت داناکەنیت ئەگەر گەرماتە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoats3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoats3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Why don't you take off your coat if you're hot?",
+                            kurdishText:
+                                "بۆچی قەمسەڵەکەت داناکەنیت ئەگەر گەرماتە؟",
+                            onPressedBritish: () => speakcoats3("en-GB"),
+                            onPressedAmerican: () => speakcoats3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) فەروو، موو، یان خوری جەستەی ئاژەڵێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dog sheds its winter coat once the weather becomes warmer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگەکە تووکە زستانەکەی فڕێ دەدات کە گەرمتر دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoats4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoats4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dog sheds its winter coat once the weather becomes warmer.",
+                            kurdishText:
+                                "سەگەکە تووکە زستانەکەی فڕێ دەدات کە گەرمتر دەبێت.",
+                            onPressedBritish: () => speakcoats4("en-GB"),
+                            onPressedAmerican: () => speakcoats4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بۆیە یان مادەیەکی دیکە کە ڕوویەک دادەپۆشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Make sure the base coat has thoroughly dried before applying the top coat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیابەرەوە کە چینی خوارەوە بە تەواوی وشکبووە پێش ئەوەی چینی سەرەوە لێ بدەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoats5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoats5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Make sure the base coat has thoroughly dried before applying the top coat.",
+                            kurdishText:
+                                "دڵنیابەرەوە کە چینی خوارەوە بە تەواوی وشکبووە پێش ئەوەی چینی سەرەوە لێ بدەیت.",
+                            onPressedBritish: () => speakcoats5("en-GB"),
+                            onPressedAmerican: () => speakcoats5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) داپۆشینی شتێک بە چینێک لە مادەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cookies were thickly coated with chocolate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بسکیتەکان بە چینێکی ئەستووری چکلێت داپۆشرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoats6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoats6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cookies were thickly coated with chocolate.",
+                            kurdishText:
+                                "بسکیتەکان بە چینێکی ئەستووری چکلێت داپۆشرابوون.",
+                            onPressedBritish: () => speakcoats6("en-GB"),
+                            onPressedAmerican: () => speakcoats6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A film of dust coated the table."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەرداڵێک لە تۆز مێزەکەی داپۆشیبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoats7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoats7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A film of dust coated the table.",
+                            kurdishText: "گەرداڵێک لە تۆز مێزەکەی داپۆشیبوو.",
+                            onPressedBritish: () => speakcoats7("en-GB"),
+                            onPressedAmerican: () => speakcoats7("en-US"),
                           ),
                         ],
                       ),

@@ -233,32 +233,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) تەختێکی خەوتن کە لە شەمەندەفەردایە و بە دیواراکەوە قەد دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The train had comfortable couchettes for passengers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شەمەندەفەرەکە تەختی خەوی ئاسوودەبەخشی بۆ گەشتیاران ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "couchette", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouchettes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouchettes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The train had comfortable couchettes for passengers.",
+            kurdishText:
+                "شەمەندەفەرەکە تەختی خەوی ئاسوودەبەخشی بۆ گەشتیاران ھەبوو.", // couchette", please follow LX instructions
+            onPressedBritish: () => speakcouchettes1("en-GB"),
+            onPressedAmerican: () => speakcouchettes1("en-US"),
           ),
         ],
       ),

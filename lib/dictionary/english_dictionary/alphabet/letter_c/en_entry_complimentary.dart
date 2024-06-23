@@ -110,95 +110,37 @@ class EnglishEntrycomplimentary extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بە خۆڕایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hotel offers a complimentary breakfast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھوتێلەکە نانی بەیانی بە خۆڕایی دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complimentary", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomplimentarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomplimentarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hotel offers a complimentary breakfast.",
+                            kurdishText:
+                                "ھوتێلەکە نانی بەیانی بە خۆڕایی دەدات.", // complimentary",
+                            onPressedBritish: () =>
+                                speakcomplimentarys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomplimentarys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) دەربڕینی پیاھەڵدان و ستایش"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was extremely complimentary about his work."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەواو ستایشکاری کارەکەی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomplimentarys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomplimentarys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was extremely complimentary about his work.",
+                            kurdishText: "تەواو ستایشکاری کارەکەی بوو.",
+                            onPressedBritish: () =>
+                                speakcomplimentarys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomplimentarys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Not all of his comments were complimentary."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی لێدوانەکانی دەستخۆشی نەبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomplimentarys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomplimentarys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Not all of his comments were complimentary.",
+                            kurdishText: "تەواوی لێدوانەکانی دەستخۆشی نەبوون.",
+                            onPressedBritish: () =>
+                                speakcomplimentarys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomplimentarys3("en-US"),
                           ),
                         ],
                       ),

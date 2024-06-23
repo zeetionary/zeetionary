@@ -267,141 +267,48 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سەرپەرشتی، چاودێری، سەخبێری، ئاگادێری، ئاگاوانی، ئاگالێ‌بوون، بەرپرسایەتی، لێپرسراوێتی،	ئەمین‌داری،	گل‌دانەوە، زیندانی‌کردن، گرتن، بەندکردن، دەس‌بەسەری،	زیندان، گرتووخانە
 """),
           const DefinitionKurdish(text: "١. (ناو) چاودێری کەسێک یان شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Who will have custody of the children?"),
-                    ExampleSentenceKurdish(text: "کێ چاودێری منداڵەکان دەکات؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "custody", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustodys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustodys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Who will have custody of the children?",
+            kurdishText:
+                "کێ چاودێری منداڵەکان دەکات؟", // custody", please follow LX instructions
+            onPressedBritish: () => speakcustodys1("en-GB"),
+            onPressedAmerican: () => speakcustodys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The parents were given joint custody of the two children."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دایک و باوکەکە چاودێری ھاوبەشی منداڵەکانیان پێدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "custody", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustodys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustodys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The parents were given joint custody of the two children.",
+            kurdishText:
+                "دایک و باوکەکە چاودێری ھاوبەشی منداڵەکانیان پێدرا.", // custody", please follow LX instructions
+            onPressedBritish: () => speakcustodys2("en-GB"),
+            onPressedAmerican: () => speakcustodys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The divorce court awarded custody to the child's mother."),
-                    ExampleSentenceKurdish(
-                        text: "دادگای جیابوونەوە مافی چاودێری بە دایکەکە دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "custody", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustodys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustodys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The divorce court awarded custody to the child's mother.",
+            kurdishText:
+                "دادگای جیابوونەوە مافی چاودێری بە دایکەکە دا.", // custody", please follow LX instructions
+            onPressedBritish: () => speakcustodys3("en-GB"),
+            onPressedAmerican: () => speakcustodys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) مانەوە لە زیندان، بەتایبەت لە ماوەی پێش داگایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After the riot, 32 people were taken into police custody."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای ئاژاوەکە، ٣٢ کەس بردرانە بەندیخانەی پۆلیس."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustodys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustodys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "After the riot, 32 people were taken into police custody.",
+            kurdishText: "لە دوای ئاژاوەکە، ٣٢ کەس بردرانە بەندیخانەی پۆلیس.",
+            onPressedBritish: () => speakcustodys4("en-GB"),
+            onPressedAmerican: () => speakcustodys4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was remanded in custody, charged with the murder of a policeman."),
-                    ExampleSentenceKurdish(
-                        text: "بردرایە بەندیخانە بە تۆمەتی کوشتنی پۆلیسێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustodys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustodys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was remanded in custody, charged with the murder of a policeman.",
+            kurdishText: "بردرایە بەندیخانە بە تۆمەتی کوشتنی پۆلیسێک.",
+            onPressedBritish: () => speakcustodys5("en-GB"),
+            onPressedAmerican: () => speakcustodys5("en-US"),
           ),
         ],
       ),

@@ -94,32 +94,13 @@ class EnglishEntrycheckup extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پشکنینی کەسێک/شتێک، بەتایبەتی ھی تەندرووستی بۆ دڵنیایی لە تەندرووستی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At your age, you should have regular check-ups."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەم تەمەنەی تۆدا، دەبێت پشکنینی ماوەماوەت ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "check-up", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheckups1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckups1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At your age, you should have regular check-ups.",
+                            kurdishText:
+                                "لەم تەمەنەی تۆدا، دەبێت پشکنینی ماوەماوەت ھەبێت.", // check-up",
+                            onPressedBritish: () => speakcheckups1("en-GB"),
+                            onPressedAmerican: () => speakcheckups1("en-US"),
                           ),
                         ],
                       ),

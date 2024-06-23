@@ -103,60 +103,21 @@ class EnglishEntryconspiracy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پلانێک لەلایەن کۆمەڵێک خەڵکەوە بۆ کردنی شتێکی زیانبەخش تان نایاسایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were charged with conspiracy to murder."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆمەتبارکران بە پیلانگێڕان بۆ کوشتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conspiracy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconspiracys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconspiracys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were charged with conspiracy to murder.",
+                            kurdishText:
+                                "تۆمەتبارکران بە پیلانگێڕان بۆ کوشتن.", // conspiracy",
+                            onPressedBritish: () => speakconspiracys1("en-GB"),
+                            onPressedAmerican: () => speakconspiracys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I suspected that he was involved in the conspiracy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گومانم کرد لە پیلانەکە تێوەگلابێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconspiracys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconspiracys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I suspected that he was involved in the conspiracy.",
+                            kurdishText: "گومانم کرد لە پیلانەکە تێوەگلابێت.",
+                            onPressedBritish: () => speakconspiracys2("en-GB"),
+                            onPressedAmerican: () => speakconspiracys2("en-US"),
                           ),
                         ],
                       ),

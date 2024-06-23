@@ -102,59 +102,20 @@ class EnglishEntryclassy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە لە ئاستێکی بەرزە، گران و بەمۆدەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car was a classy German make."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە درووستکراوێکی گران‌بەھای ئەڵمانی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "classy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The car was a classy German make.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە درووستکراوێکی گران‌بەھای ئەڵمانی بوو.", // classy",
+                            onPressedBritish: () => speakclassys1("en-GB"),
+                            onPressedAmerican: () => speakclassys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That's one classy vehicle you've got there."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئۆتۆمبێلێکی گران‌باییت ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That's one classy vehicle you've got there.",
+                            kurdishText: "ئۆتۆمبێلێکی گران‌باییت ھەیە.",
+                            onPressedBritish: () => speakclassys2("en-GB"),
+                            onPressedAmerican: () => speakclassys2("en-US"),
                           ),
                         ],
                       ),

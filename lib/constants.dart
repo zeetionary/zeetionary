@@ -266,13 +266,15 @@ class _YouTubeScrollerState extends State<YouTubeScroller> {
                                 color: _selectedIndex == index
                                     ? Colors.blue
                                     : Colors.transparent,
-                                border: Border.all(color: Colors.grey),
+                                border: Border.all(
+                                  // color: Colors.grey,
+                                  width: 1.0,
+                                ),
                                 shape: BoxShape.circle,
                               ),
                               child: Text(
                                 '${index + 1}',
-                                style: const TextStyle(
-                                    fontSize: 16), // Removed color
+                                style: const TextStyle(fontSize: 12),
                               ),
                             ),
                           );
@@ -643,7 +645,7 @@ class YouTubeVideosContainer extends StatelessWidget {
         children: [
           const DividerDefinition(),
           Container(
-            margin: const EdgeInsets.only(top: 55.0, left: 8, right: 8),
+            margin: const EdgeInsets.only(top: 55.0, left: 4, right: 4),
             padding: const EdgeInsets.all(4.0),
             decoration: BoxDecoration(
               boxShadow: [
@@ -707,7 +709,7 @@ class YouTubeVideosContainerEnd extends StatelessWidget {
         children: [
           const DividerDefinition(),
           Container(
-            margin: const EdgeInsets.only(top: 55.0, left: 8, right: 8),
+            margin: const EdgeInsets.only(top: 55.0, left: 4, right: 4),
             padding: const EdgeInsets.all(4.0),
             decoration: BoxDecoration(
               boxShadow: [
@@ -1439,8 +1441,12 @@ class KurdishVocabulary extends ConsumerWidget {
 }
 
 class SentencesRow extends StatelessWidget {
+  // https://chatgpt.com/c/c373d7a5-1fd2-4995-9296-123092fb9966
+
   final String englishText;
   final String kurdishText;
+  final String? englishNote;
+  final String? kurdishNote;
   final VoidCallback onPressedBritish;
   final VoidCallback onPressedAmerican;
 
@@ -1448,6 +1454,8 @@ class SentencesRow extends StatelessWidget {
     super.key,
     required this.englishText,
     required this.kurdishText,
+    this.englishNote,
+    this.kurdishNote,
     required this.onPressedBritish,
     required this.onPressedAmerican,
   });
@@ -1459,8 +1467,14 @@ class SentencesRow extends StatelessWidget {
         Expanded(
           child: Column(
             children: [
-              ExampleSentenceEnglish(text: englishText),
-              ExampleSentenceKurdish(text: kurdishText),
+              ExampleSentenceEnglish(
+                text: englishText,
+                note: englishNote,
+              ),
+              ExampleSentenceKurdish(
+                text: kurdishText,
+                note: kurdishNote,
+              ),
             ],
           ),
         ),

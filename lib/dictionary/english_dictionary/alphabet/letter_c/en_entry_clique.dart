@@ -95,32 +95,13 @@ class EnglishEntryclique extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆمەڵە کەسێک کە پێکەوە کات بەسەر دەبەن و ڕێگا نادەن کەسی دیکە پەیوەندییان پێوە بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The club is dominated by a small clique of intellectuals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یانەکە بەزۆری شوێنی ژمارەیەک دەستە لە ڕۆشنفکرانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clique", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcliques1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcliques1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The club is dominated by a small clique of intellectuals.",
+                            kurdishText:
+                                "یانەکە بەزۆری شوێنی ژمارەیەک دەستە لە ڕۆشنفکرانە.", // clique",
+                            onPressedBritish: () => speakcliques1("en-GB"),
+                            onPressedAmerican: () => speakcliques1("en-US"),
                           ),
                         ],
                       ),

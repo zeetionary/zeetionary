@@ -155,235 +155,83 @@ class EnglishEntrycluster extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژمارەیەک لە شت کە ھەمان جۆرن و پێکەوە دەردەکەون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The telescope is focused on a dense cluster of stars at the edge of the galaxy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەلیسکۆبەکە سەرنجی لەسەر ھێشوویەکی چڕ لە ئەستێرەیە لە کەناری گەلە ئەستێرەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cluster", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclusters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclusters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The telescope is focused on a dense cluster of stars at the edge of the galaxy.",
+                            kurdishText:
+                                "تەلیسکۆبەکە سەرنجی لەسەر ھێشوویەکی چڕ لە ئەستێرەیە لە کەناری گەلە ئەستێرەکەدا.", // cluster",
+                            onPressedBritish: () => speakclusters1("en-GB"),
+                            onPressedAmerican: () => speakclusters1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plant bears its flowers in clusters."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕووەکەکە بە چەپک گوڵ دەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclusters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclusters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The plant bears its flowers in clusters.",
+                            kurdishText: "ڕووەکەکە بە چەپک گوڵ دەگرێت.",
+                            onPressedBritish: () => speakclusters2("en-GB"),
+                            onPressedAmerican: () => speakclusters2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bacteria form clusters in the gut of the host animal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکتریاکە تۆپەڵ درووست دەکات لە ڕیخۆڵەی ئاژەڵە خانەخوێکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclusters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclusters3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bacteria form clusters in the gut of the host animal.",
+                            kurdishText:
+                                "بەکتریاکە تۆپەڵ درووست دەکات لە ڕیخۆڵەی ئاژەڵە خانەخوێکەدا.",
+                            onPressedBritish: () => speakclusters3("en-GB"),
+                            onPressedAmerican: () => speakclusters3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ژمارەیەک لە مرۆڤ، ئاژەڵ، یان شت پێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The church stood in a small cluster of houses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڵێساکە لە ناو گرووپێکی بچووک لە خانوودا وەستابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclusters4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclusters4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The church stood in a small cluster of houses.",
+                            kurdishText:
+                                "کڵێساکە لە ناو گرووپێکی بچووک لە خانوودا وەستابوو.",
+                            onPressedBritish: () => speakclusters4("en-GB"),
+                            onPressedAmerican: () => speakclusters4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a cluster of fans around him, asking for autographs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرووپێک لە ھەوادار لە دەوری بوون و داوای ئیمزایان لێ دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclusters5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclusters5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a cluster of fans around him, asking for autographs.",
+                            kurdishText:
+                                "گرووپێک لە ھەوادار لە دەوری بوون و داوای ئیمزایان لێ دەکرد.",
+                            onPressedBritish: () => speakclusters5("en-GB"),
+                            onPressedAmerican: () => speakclusters5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ژمارەیەک دەنگی نەبزوێن کە بەدوای یەکدا دێن و بزوێن لە نێوانیاندا نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The /str/ at the beginning of \"stray\" is a cluster."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "/str/ ـەکەی سەرەتای \"stray\" ھێشوویەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclusters6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclusters6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The /str/ at the beginning of \"stray\" is a cluster.",
+                            kurdishText:
+                                "/str/ ـەکەی سەرەتای \"stray\" ھێشوویەکە.",
+                            onPressedBritish: () => speakclusters6("en-GB"),
+                            onPressedAmerican: () => speakclusters6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) کۆبوونەوە لە گرووپی بچووکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children clustered together in the corner of the room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان لە سووچی ژوورەکەدا خۆیان گرمۆڵە دابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclusters7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclusters7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children clustered together in the corner of the room.",
+                            kurdishText:
+                                "منداڵەکان لە سووچی ژوورەکەدا خۆیان گرمۆڵە دابوو.",
+                            onPressedBritish: () => speakclusters7("en-GB"),
+                            onPressedAmerican: () => speakclusters7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children clustered around their teacher."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان لە دەوری مامۆستاکە کۆبوونەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclusters8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclusters8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children clustered around their teacher.",
+                            kurdishText:
+                                "منداڵەکان لە دەوری مامۆستاکە کۆبوونەوە.",
+                            onPressedBritish: () => speakclusters8("en-GB"),
+                            onPressedAmerican: () => speakclusters8("en-US"),
                           ),
                         ],
                       ),

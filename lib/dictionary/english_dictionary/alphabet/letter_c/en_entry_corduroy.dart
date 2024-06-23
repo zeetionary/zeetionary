@@ -95,32 +95,13 @@ class EnglishEntrycorduroy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جۆرە قوماشێکی نەرمی بەھێزی لۆکە کە شێوەی ھێڵی بەرزبووی لەسەرە و بەکاردێت بۆ درووستکردنی جل"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wore a comfortable corduroy jacket on chilly evenings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاکەتێکی کودەری ئاسوودەبەخشێ لەبەردەکرد لە شەوانی ساردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "corduroy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcorduroys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcorduroys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wore a comfortable corduroy jacket on chilly evenings.",
+                            kurdishText:
+                                "چاکەتێکی کودەری ئاسوودەبەخشێ لەبەردەکرد لە شەوانی ساردا.", // corduroy",
+                            onPressedBritish: () => speakcorduroys1("en-GB"),
+                            onPressedAmerican: () => speakcorduroys1("en-US"),
                           ),
                         ],
                       ),

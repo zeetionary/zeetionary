@@ -94,34 +94,15 @@ class EnglishEntrychilliconcarne extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خواردنێکی توونی مەکسیکی درووست دەکرێت بە گۆشت، پیاز، بیبەرەتوونە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She cooked a delicious pot of chilli con carne for dinner."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەنجەڵێک بەلەزەت لە چیلی ئامادەکرد بۆ نانی ئێوارە ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chilli con carne", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchilliconcarnes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchilliconcarnes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She cooked a delicious pot of chilli con carne for dinner.",
+                            kurdishText:
+                                "مەنجەڵێک بەلەزەت لە چیلی ئامادەکرد بۆ نانی ئێوارە .", // chilli con carne",
+                            onPressedBritish: () =>
+                                speakchilliconcarnes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchilliconcarnes1("en-US"),
                           ),
                         ],
                       ),

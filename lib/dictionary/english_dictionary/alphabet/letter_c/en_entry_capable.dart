@@ -195,119 +195,43 @@ class EnglishEntrycapable extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بوونی توانای پێویست بۆ کردنی کارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You are capable of better work than this."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانای کردنی کارێکی باشترت وەک لەمە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capable", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You are capable of better work than this.",
+                            kurdishText:
+                                "توانای کردنی کارێکی باشترت وەک لەمە ھەیە.", // capable
+                            onPressedBritish: () => speakcapables1("en-GB"),
+                            onPressedAmerican: () => speakcapables1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's quite capable of lying to get out of trouble."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانی باشی درۆکردنی ھەیە بۆ دەرچوون لە کێشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapables2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapables2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's quite capable of lying to get out of trouble.",
+                            kurdishText:
+                                "توانی باشی درۆکردنی ھەیە بۆ دەرچوون لە کێشە.",
+                            onPressedBritish: () => speakcapables2("en-GB"),
+                            onPressedAmerican: () => speakcapables2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ھەبوونی توانای کردنی شتێک بە باشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Employees who prove themselves to be capable will usually get promoted quite rapidly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو کارمەندانەی کە دەیسەلمێنن کە لێوەشاوەن زوو پلەیان بەرزدەکرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapables3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapables3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Employees who prove themselves to be capable will usually get promoted quite rapidly.",
+                            kurdishText:
+                                "ئەو کارمەندانەی کە دەیسەلمێنن کە لێوەشاوەن زوو پلەیان بەرزدەکرێتەوە.",
+                            onPressedBritish: () => speakcapables3("en-GB"),
+                            onPressedAmerican: () => speakcapables3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Only the Democratic Party is capable of running the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا پارتی دیموکراتەکان توانای بەڕێوەبردنی وڵاتی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapables4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapables4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Only the Democratic Party is capable of running the country.",
+                            kurdishText:
+                                "تەنھا پارتی دیموکراتەکان توانای بەڕێوەبردنی وڵاتی ھەیە.",
+                            onPressedBritish: () => speakcapables4("en-GB"),
+                            onPressedAmerican: () => speakcapables4("en-US"),
                           ),
                         ],
                       ),

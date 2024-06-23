@@ -121,124 +121,43 @@ class EnglishEntryconsidering extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ئامراز، لێکدەر، ھاوەڵکار) بەکاردێت بۆ گوتنی ئەوەی بیر لە شتێک دەکەیتەوە و کاریگەری لەسەرت ھەیە کە لێدوانێک دەدەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Considering the weather, we got here pretty quickly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە لەبەرچاوگرتنی کەشووھەواکە، زوو گەشتینە ئێرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "considering", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsiderings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsiderings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Considering the weather, we got here pretty quickly.",
+                            kurdishText:
+                                "بە لەبەرچاوگرتنی کەشووھەواکە، زوو گەشتینە ئێرە.", // considering",
+                            onPressedBritish: () => speakconsiderings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsiderings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was impressed that she found the way here, considering she'd only been here once before."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسام بووم کە ڕێگای گەشتنە ئێرەی زانی، لەبەرچاوگرتنی ئەوەی تەنھا جارێک ھاتووەتە ئێرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsiderings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsiderings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was impressed that she found the way here, considering she'd only been here once before.",
+                            kurdishText:
+                                "سەرسام بووم کە ڕێگای گەشتنە ئێرەی زانی، لەبەرچاوگرتنی ئەوەی تەنھا جارێک ھاتووەتە ئێرە.",
+                            onPressedBritish: () => speakconsiderings2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsiderings2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's very active, considering her age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر چالاکە، بە ڕەچاوکردنی تەمەنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsiderings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsiderings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's very active, considering her age.",
+                            kurdishText: "زۆر چالاکە، بە ڕەچاوکردنی تەمەنی.",
+                            onPressedBritish: () => speakconsiderings3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsiderings3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Considering he's only just started, he knows quite a lot about it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەبەرچاوگرتنی ئەوەی تازە دەستیپێکردووە، زۆری لەسەر دەزانێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsiderings4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsiderings4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Considering he's only just started, he knows quite a lot about it.",
+                            kurdishText:
+                                "لەبەرچاوگرتنی ئەوەی تازە دەستیپێکردووە، زۆری لەسەر دەزانێت.",
+                            onPressedBritish: () => speakconsiderings4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsiderings4("en-US"),
                           ),
                         ],
                       ),

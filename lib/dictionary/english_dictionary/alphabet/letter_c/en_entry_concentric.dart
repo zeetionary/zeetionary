@@ -94,32 +94,13 @@ class EnglishEntryconcentric extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ھەبوونی ھەمان چەق"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The target consisted of concentric circles, each worth different points."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانجەکە لە بازنەی ھاوناوەند پێکھاتبوو، ھەر یەکەیان خاڵی جیاوازی لەسەربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concentric", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcentrics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcentrics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The target consisted of concentric circles, each worth different points.",
+                            kurdishText:
+                                "ئامانجەکە لە بازنەی ھاوناوەند پێکھاتبوو، ھەر یەکەیان خاڵی جیاوازی لەسەربوو.", // concentric",
+                            onPressedBritish: () => speakconcentrics1("en-GB"),
+                            onPressedAmerican: () => speakconcentrics1("en-US"),
                           ),
                         ],
                       ),

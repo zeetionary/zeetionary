@@ -103,62 +103,24 @@ class EnglishEntryconcerted extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بە ھاوبەشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The richer countries of the world should take concerted action to help the poorer countries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتە دەوڵەمەندەکانی جیھان دەبێت کرداری ھاوبەش بنێن بۆ یارمەتیدانی وڵاتە ھەژارەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concerted", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerteds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerteds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The richer countries of the world should take concerted action to help the poorer countries.",
+                            kurdishText:
+                                "وڵاتە دەوڵەمەندەکانی جیھان دەبێت کرداری ھاوبەش بنێن بۆ یارمەتیدانی وڵاتە ھەژارەکان.", // concerted",
+                            onPressedBritish: () => speakconcerteds1("en-GB"),
+                            onPressedAmerican: () => speakconcerteds1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) بە پلان و ویستی بەھێزەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has begun to make a concerted effort to find a job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی بە ھەوڵێکی جدی کردووە بۆ دۆزینەوەی کارێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerteds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerteds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has begun to make a concerted effort to find a job.",
+                            kurdishText:
+                                "دەستی بە ھەوڵێکی جدی کردووە بۆ دۆزینەوەی کارێک.",
+                            onPressedBritish: () => speakconcerteds2("en-GB"),
+                            onPressedAmerican: () => speakconcerteds2("en-US"),
                           ),
                         ],
                       ),

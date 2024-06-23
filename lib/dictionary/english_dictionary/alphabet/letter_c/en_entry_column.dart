@@ -161,265 +161,93 @@ class EnglishEntrycolumn extends StatelessWidget {
 کوردی: کۆڵەکە، ستوون، ئەستوون، تەژە،	شتێک لە شێوەی ستوون
 """),
                           const DefinitionKurdish(text: "١. (ناو) ستوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The website has an attractive two-column format."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێبسایتەکە شێوەیەکی دوو ستوونی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "column", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolumns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolumns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The website has an attractive two-column format.",
+                            kurdishText:
+                                "وێبسایتەکە شێوەیەکی دوو ستوونی ھەیە.", // column",
+                            onPressedBritish: () => speakcolumns1("en-GB"),
+                            onPressedAmerican: () => speakcolumns1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Click on the name of your account in the left-hand column."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرتە لەسەر ناوی ھەژمارەکەت بکە لە ستوونی دەستە چەپ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolumns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolumns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Click on the name of your account in the left-hand column.",
+                            kurdishText:
+                                "گرتە لەسەر ناوی ھەژمارەکەت بکە لە ستوونی دەستە چەپ.",
+                            onPressedBritish: () => speakcolumns2("en-GB"),
+                            onPressedAmerican: () => speakcolumns2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Put a mark in the appropriate column."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیشانەیەک لە ستوونی گونجاودا دابنێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolumns3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolumns3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Put a mark in the appropriate column.",
+                            kurdishText: "نیشانەیەک لە ستوونی گونجاودا دابنێ.",
+                            onPressedBritish: () => speakcolumns3("en-GB"),
+                            onPressedAmerican: () => speakcolumns3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) زنجیرە پیتێک کە لەسەر یەک ڕێکخراون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The numbers in the left-hand column are not relevant here."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەکانی دەستە چەپ پەیوەندیدار نین لێرەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolumns4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolumns4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The numbers in the left-hand column are not relevant here.",
+                            kurdishText:
+                                "ژمارەکانی دەستە چەپ پەیوەندیدار نین لێرەدا.",
+                            onPressedBritish: () => speakcolumns4("en-GB"),
+                            onPressedAmerican: () => speakcolumns4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The last column contains the probability of each of those outcomes occurring."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستوونی کۆتایی ئەگەری ڕوودانی ھەریەکە لەو دەرئەنجامانە لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolumns5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolumns5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The last column contains the probability of each of those outcomes occurring.",
+                            kurdishText:
+                                "ستوونی کۆتایی ئەگەری ڕوودانی ھەریەکە لەو دەرئەنجامانە لەخۆدەگرێت.",
+                            onPressedBritish: () => speakcolumns5("en-GB"),
+                            onPressedAmerican: () => speakcolumns5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بەشێکی ڕۆژنامەیەک، گۆڤارێک، یان وێبسایتێک کە زوو زوو دەردەکەوێت و مامەڵە لەگەڵ بابەتێکی دیاریکراو دەکات یان لەلایەن نووسەرێکی دیاریکراوەوە دەنووسرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She writes a monthly column for a leading national newspaper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستوونێکی مانگانە دەنووسێت بۆ ڕۆژنامەیەکی ناوداری نیشتیمانی دەنووسێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolumns6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolumns6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She writes a monthly column for a leading national newspaper.",
+                            kurdishText:
+                                "ستوونێکی مانگانە دەنووسێت بۆ ڕۆژنامەیەکی ناوداری نیشتیمانی دەنووسێت.",
+                            onPressedBritish: () => speakcolumns6("en-GB"),
+                            onPressedAmerican: () => speakcolumns6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I disagree with a lot of what he writes in his column."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناکۆکم لەگەڵ زۆرینەی ئەوەی لە ستوونەکەیدا دەینووسێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolumns7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolumns7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I disagree with a lot of what he writes in his column.",
+                            kurdishText:
+                                "ناکۆکم لەگەڵ زۆرینەی ئەوەی لە ستوونەکەیدا دەینووسێت.",
+                            onPressedBritish: () => speakcolumns7("en-GB"),
+                            onPressedAmerican: () => speakcolumns7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ستوونێکی بەرزی سەخت کە پشتگیری بینایەک دەکات یان بۆ ڕازاندنەوەیە، یان بە تەنھا وەک مۆنیومێنتێک دەوەستێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The temple is supported by marble columns."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرستگاکە ڕاگیرکراوە بە ستوونی مەڕمەڕ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolumns8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolumns8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The temple is supported by marble columns.",
+                            kurdishText:
+                                "پەرستگاکە ڕاگیرکراوە بە ستوونی مەڕمەڕ.",
+                            onPressedBritish: () => speakcolumns8("en-GB"),
+                            onPressedAmerican: () => speakcolumns8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The roof is supported by four huge columns."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربانەکە بە چوار ستوونی گەورە ڕاگیراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolumns9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolumns9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The roof is supported by four huge columns.",
+                            kurdishText:
+                                "سەربانەکە بە چوار ستوونی گەورە ڕاگیراوە.",
+                            onPressedBritish: () => speakcolumns9("en-GB"),
+                            onPressedAmerican: () => speakcolumns9("en-US"),
                           ),
                         ],
                       ),

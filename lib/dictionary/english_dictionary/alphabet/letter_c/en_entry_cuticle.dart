@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) پێستی باریکی بنی نینۆک لەسەر پەنجەکان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She applied lotion to her hands to soften the cuticles."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گیراوەی دا لە دەستەکانی بۆ نەرمکردنەوەی پێستی نینۆکی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cuticle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuticles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuticles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She applied lotion to her hands to soften the cuticles.",
+            kurdishText:
+                "گیراوەی دا لە دەستەکانی بۆ نەرمکردنەوەی پێستی نینۆکی.", // cuticle", please follow LX instructions
+            onPressedBritish: () => speakcuticles1("en-GB"),
+            onPressedAmerican: () => speakcuticles1("en-US"),
           ),
         ],
       ),

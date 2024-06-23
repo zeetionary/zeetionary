@@ -187,32 +187,13 @@ class EnglishEntrycataract extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دۆخێکی تەندرووستی کە تووشی چاو دەبێت و بە کوێربوون کۆتایی دێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A cataract can be removed under local anaesthetic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتراکت دەکرێت لاببردرێت لەژێر سڕکەری شوێنیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cataract", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcataracts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcataracts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A cataract can be removed under local anaesthetic.",
+                            kurdishText:
+                                "کاتراکت دەکرێت لاببردرێت لەژێر سڕکەری شوێنیدا.", // cataract",
+                            onPressedBritish: () => speakcataracts1("en-GB"),
+                            onPressedAmerican: () => speakcataracts1("en-US"),
                           ),
                         ],
                       ),

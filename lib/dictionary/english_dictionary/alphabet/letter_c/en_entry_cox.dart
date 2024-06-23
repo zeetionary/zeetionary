@@ -241,58 +241,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە لە دواوەی بەلەمێکی سەڵدار دادەنیشێت و ئاراستەکەی کۆنترۆڵ دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Coxes are often small, light people."),
-                    ExampleSentenceKurdish(
-                        text: "سوکان‌داران زۆرجار کەسانی بچووک و سووکن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cox", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoxs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoxs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Coxes are often small, light people.",
+            kurdishText:
+                "سوکان‌داران زۆرجار کەسانی بچووک و سووکن.", // cox", please follow LX instructions
+            onPressedBritish: () => speakcoxs1("en-GB"),
+            onPressedAmerican: () => speakcoxs1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بوون بە سووکان‌داری بەلەمێکی سەوڵدار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She coxed for her college for three seasons."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ سێ وەرز سووکان‌داری بۆ ھاوڕێکەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoxs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoxs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She coxed for her college for three seasons.",
+            kurdishText: "بۆ سێ وەرز سووکان‌داری بۆ ھاوڕێکەی کرد.",
+            onPressedBritish: () => speakcoxs2("en-GB"),
+            onPressedAmerican: () => speakcoxs2("en-US"),
           ),
         ],
       ),

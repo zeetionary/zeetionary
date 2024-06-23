@@ -250,86 +250,27 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پێوەرێک کە بەپێی ئەوە ھەڵسەنگاندن دەکرێت یان بڕیار دەدرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She failed to meet the strict selection criteria."),
-                    ExampleSentenceKurdish(
-                        text: "پێوەرە توندەکانی ھەڵبژاردنی تێدا نەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "criterion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriterions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriterions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She failed to meet the strict selection criteria.",
+            kurdishText:
+                "پێوەرە توندەکانی ھەڵبژاردنی تێدا نەبوو.", // criterion", please follow LX instructions
+            onPressedBritish: () => speakcriterions1("en-GB"),
+            onPressedAmerican: () => speakcriterions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "What criteria are used for assessing a student's ability?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چی پێوەرێک بەکاردێت بۆ ھەڵسەنگاندنی توانای خوێندکار؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriterions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriterions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "What criteria are used for assessing a student's ability?",
+            kurdishText: "چی پێوەرێک بەکاردێت بۆ ھەڵسەنگاندنی توانای خوێندکار؟",
+            onPressedBritish: () => speakcriterions2("en-GB"),
+            onPressedAmerican: () => speakcriterions2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "By this criterion, very few people are suitable."),
-                    ExampleSentenceKurdish(
-                        text: "بەپێی ئەم پێوەرە کەم کەس گونجاون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriterions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriterions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "By this criterion, very few people are suitable.",
+            kurdishText: "بەپێی ئەم پێوەرە کەم کەس گونجاون.",
+            onPressedBritish: () => speakcriterions3("en-GB"),
+            onPressedAmerican: () => speakcriterions3("en-US"),
           ),
         ],
       ),

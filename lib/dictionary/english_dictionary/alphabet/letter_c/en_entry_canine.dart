@@ -194,92 +194,35 @@ class EnglishEntrycanine extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پەیوەندیدار بە سەگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The city's canine population (= the number of dogs in the city) has grown dramatically over recent years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانیشتوانی سەگی شارەکە لە چەند ساڵی ڕابردوودا بەشێوەیەکی بەرچاو زیادی کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canine", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The city's canine population (= the number of dogs in the city) has grown dramatically over recent years.",
+                            kurdishText:
+                                "دانیشتوانی سەگی شارەکە لە چەند ساڵی ڕابردوودا بەشێوەیەکی بەرچاو زیادی کردووە.", // canine
+                            onPressedBritish: () => speakcanines1("en-GB"),
+                            onPressedAmerican: () => speakcanines1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) یەکێک لە چوار ددانەکەی پێشەوەی مرۆڤ یان ئاژەڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Carnivores use their canines for tearing meat apart."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆشتخۆرەکان کەڵبەکانیان بەکاردێنن بۆ پارچەکردنی گۆشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanines2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanines2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Carnivores use their canines for tearing meat apart.",
+                            kurdishText:
+                                "گۆشتخۆرەکان کەڵبەکانیان بەکاردێنن بۆ پارچەکردنی گۆشت.",
+                            onPressedBritish: () => speakcanines2("en-GB"),
+                            onPressedAmerican: () => speakcanines2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٣. (ناو) سەگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The domestic canine has been a loyal companion to humans for centuries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ چەندین سەدەیە سەگی ماڵی دۆستی وەفاداری مرۆڤە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanines3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanines3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The domestic canine has been a loyal companion to humans for centuries.",
+                            kurdishText:
+                                "بۆ چەندین سەدەیە سەگی ماڵی دۆستی وەفاداری مرۆڤە.",
+                            onPressedBritish: () => speakcanines3("en-GB"),
+                            onPressedAmerican: () => speakcanines3("en-US"),
                           ),
                         ],
                       ),

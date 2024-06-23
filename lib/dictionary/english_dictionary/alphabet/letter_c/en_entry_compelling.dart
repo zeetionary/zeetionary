@@ -119,121 +119,43 @@ class EnglishEntrycompelling extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بەشێوەیەک کە سەرنج ڕادەکێشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her latest book makes compelling reading."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆتا کتێبی خوێندنەوەیەکی سەرنجڕاکێشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compelling", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompellings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompellings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her latest book makes compelling reading.",
+                            kurdishText:
+                                "کۆتا کتێبی خوێندنەوەیەکی سەرنجڕاکێشە.", // compelling",
+                            onPressedBritish: () => speakcompellings1("en-GB"),
+                            onPressedAmerican: () => speakcompellings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His eyes were strangely compelling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوەکانی بە نامۆیی سەرنجڕاکێش بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompellings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompellings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His eyes were strangely compelling.",
+                            kurdishText: "چاوەکانی بە نامۆیی سەرنجڕاکێش بوون.",
+                            onPressedBritish: () => speakcompellings2("en-GB"),
+                            onPressedAmerican: () => speakcompellings2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) زۆر بەھێز کە بەرگەی ناگریت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a sad man with a compelling need to talk about his unhappiness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوێکی دڵتەنگ بوو بە پێویستییەکی بەھێزەوە بۆ قسەکردن لەسەر پەژارەیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompellings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompellings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a sad man with a compelling need to talk about his unhappiness.",
+                            kurdishText:
+                                "پیاوێکی دڵتەنگ بوو بە پێویستییەکی بەھێزەوە بۆ قسەکردن لەسەر پەژارەیی.",
+                            onPressedBritish: () => speakcompellings3("en-GB"),
+                            onPressedAmerican: () => speakcompellings3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) شتێک کە وات لێ دەکات وەک ڕاستی بیری لێ بکەیتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is no compelling reason to believe him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ ھۆکارێکی قایلکەر نییە باوەڕی پێ بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompellings4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompellings4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is no compelling reason to believe him.",
+                            kurdishText:
+                                "ھیچ ھۆکارێکی قایلکەر نییە باوەڕی پێ بکرێت.",
+                            onPressedBritish: () => speakcompellings4("en-GB"),
+                            onPressedAmerican: () => speakcompellings4("en-US"),
                           ),
                         ],
                       ),

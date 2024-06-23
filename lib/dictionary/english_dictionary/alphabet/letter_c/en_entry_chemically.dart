@@ -104,63 +104,25 @@ class EnglishEntrychemically extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدار بە کیمیا یان مادەی کیمیایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The urine samples were frozen until chemically analyzed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سامپڵە میزەکان بەستران تاوەکو بە کیمیاییانە شیکاری بۆ دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chemically", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchemicallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchemicallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The urine samples were frozen until chemically analyzed.",
+                            kurdishText:
+                                "سامپڵە میزەکان بەستران تاوەکو بە کیمیاییانە شیکاری بۆ دەکرێت.", // chemically",
+                            onPressedBritish: () => speakchemicallys1("en-GB"),
+                            onPressedAmerican: () => speakchemicallys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە گۆڕانکاری لە گەردیلە و تەنۆلکەکان درووست دەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Stomach acid breaks down food, chemically altering it so that the body can extract the required nutrients."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ترشەکانی گەدە خواردن شیدەکەنەوە، لە ڕووی کیمیاییەوە دەیگۆڕن بۆ ئەوەی جەستە مادە خۆراکییە پێویستەکان وەربگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchemicallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchemicallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Stomach acid breaks down food, chemically altering it so that the body can extract the required nutrients.",
+                            kurdishText:
+                                "ترشەکانی گەدە خواردن شیدەکەنەوە، لە ڕووی کیمیاییەوە دەیگۆڕن بۆ ئەوەی جەستە مادە خۆراکییە پێویستەکان وەربگرێت.",
+                            onPressedBritish: () => speakchemicallys2("en-GB"),
+                            onPressedAmerican: () => speakchemicallys2("en-US"),
                           ),
                         ],
                       ),

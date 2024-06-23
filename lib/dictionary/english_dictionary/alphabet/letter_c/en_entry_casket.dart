@@ -191,63 +191,24 @@ class EnglishEntrycasket extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سنووقێکی ڕازێنراوە بۆ ھەڵگرتنی خشڵ و شتی گران‌بەھا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Inside lay a casket of gold coins."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ناوەوە سنووقێکی دراوی ئاڵتوونی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "casket", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaskets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaskets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Inside lay a casket of gold coins.",
+                            kurdishText:
+                                "لە ناوەوە سنووقێکی دراوی ئاڵتوونی ھەیە.", // casket",
+                            onPressedBritish: () => speakcaskets1("en-GB"),
+                            onPressedAmerican: () => speakcaskets1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) تابووت کە تێیدا کەسێک دەنێژرێت یان دەسووتێنرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A procession of mourners slowly followed the casket."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕیزێک لە شیوەنگێڕان بە ھێواشی بە دوای تابووتەکەدا دەچوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaskets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaskets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A procession of mourners slowly followed the casket.",
+                            kurdishText:
+                                "ڕیزێک لە شیوەنگێڕان بە ھێواشی بە دوای تابووتەکەدا دەچوون.",
+                            onPressedBritish: () => speakcaskets2("en-GB"),
+                            onPressedAmerican: () => speakcaskets2("en-US"),
                           ),
                         ],
                       ),

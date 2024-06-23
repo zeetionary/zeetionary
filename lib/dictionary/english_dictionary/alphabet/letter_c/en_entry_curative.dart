@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە توانای چارەسەرکردنی نەخۆشی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She believed in the curative powers of herbal remedies."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باوەڕی بە ھێزی چارەسازی چارەسەرە گیاییەکان ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curative", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuratives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuratives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She believed in the curative powers of herbal remedies.",
+            kurdishText:
+                "باوەڕی بە ھێزی چارەسازی چارەسەرە گیاییەکان ھەبوو.", // curative", please follow LX instructions
+            onPressedBritish: () => speakcuratives1("en-GB"),
+            onPressedAmerican: () => speakcuratives1("en-US"),
           ),
         ],
       ),

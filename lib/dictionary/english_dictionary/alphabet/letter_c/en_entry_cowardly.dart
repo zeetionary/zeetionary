@@ -259,116 +259,39 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ترسنۆک؛ نەبوونی زاتی کردنی ئەو شتانەی کە کەسانی دیکە بە زۆر گران داینانێن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was too cowardly to give the order."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر ترسنۆک بوو کە فەرمان بدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cowardly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowardlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowardlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was too cowardly to give the order.",
+            kurdishText:
+                "زۆر ترسنۆک بوو کە فەرمان بدات.", // cowardly", please follow LX instructions
+            onPressedBritish: () => speakcowardlys1("en-GB"),
+            onPressedAmerican: () => speakcowardlys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These are not cowardly people, but they are cautious."),
-                    ExampleSentenceKurdish(
-                        text: "کەسانی ترسنۆک نیین، بەڵکو بە ھۆشیارن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowardlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowardlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These are not cowardly people, but they are cautious.",
+            kurdishText: "کەسانی ترسنۆک نیین، بەڵکو بە ھۆشیارن.",
+            onPressedBritish: () => speakcowardlys2("en-GB"),
+            onPressedAmerican: () => speakcowardlys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) دژ بە کەسێک کە توانای بەرگری نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This was a particularly brutal and cowardly attack."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمە بە تایبەت ھێرشێکی دڕندانە و ترسنۆکانە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowardlys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowardlys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This was a particularly brutal and cowardly attack.",
+            kurdishText: "ئەمە بە تایبەت ھێرشێکی دڕندانە و ترسنۆکانە بوو.",
+            onPressedBritish: () => speakcowardlys3("en-GB"),
+            onPressedAmerican: () => speakcowardlys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) بەشێوەیەک کە کەسێک خۆی لە مەترسی، سەختی، یان ئازار لادەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It was cowardly not to own up to the mistake."),
-                    ExampleSentenceKurdish(
-                        text: "ترسنۆکانە بوو کە دان بە ھەڵەکەدا نەنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowardlys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowardlys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was cowardly not to own up to the mistake.",
+            kurdishText: "ترسنۆکانە بوو کە دان بە ھەڵەکەدا نەنێت.",
+            onPressedBritish: () => speakcowardlys4("en-GB"),
+            onPressedAmerican: () => speakcowardlys4("en-US"),
           ),
         ],
       ),

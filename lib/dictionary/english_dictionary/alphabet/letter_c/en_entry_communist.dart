@@ -120,122 +120,46 @@ class EnglishEntrycommunist extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پەیوەندیدار بە کۆمیونیزم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Demonstrators denounce the event as Communist propaganda."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆپیشاندەران سەرکۆنەی بۆنەکەیان وەک پڕوپاگەندەی کۆمیونیزم کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "communist", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Demonstrators denounce the event as Communist propaganda.",
+                            kurdishText:
+                                "خۆپیشاندەران سەرکۆنەی بۆنەکەیان وەک پڕوپاگەندەی کۆمیونیزم کرد.", // communist",
+                            onPressedBritish: () => speakcommunists1("en-GB"),
+                            onPressedAmerican: () => speakcommunists1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) وڵاتێک، ھتد کە سیستەمی کۆمیونیزمی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If one country in a region became communist, others would follow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر یەک وڵات لە ھەرێمەکە ببێت بە کۆمیونیزم ئەوانی دیکە شوێنی دەکەون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunists2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunists2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If one country in a region became communist, others would follow.",
+                            kurdishText:
+                                "ئەگەر یەک وڵات لە ھەرێمەکە ببێت بە کۆمیونیزم ئەوانی دیکە شوێنی دەکەون.",
+                            onPressedBritish: () => speakcommunists2("en-GB"),
+                            onPressedAmerican: () => speakcommunists2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەسێک کە باوەڕی بە کۆمیونیزم ھەیە، بەتایبەتی کەسێک کە ئەندامی پارتێکی کۆمیونیستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The president of the new democracy is actually a former Communist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆکی وڵاتە دیموکراسییەکە لە ڕاستیدە کۆنە کۆمیونیستێکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunists3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunists3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The president of the new democracy is actually a former Communist.",
+                            kurdishText:
+                                "سەرۆکی وڵاتە دیموکراسییەکە لە ڕاستیدە کۆنە کۆمیونیستێکە.",
+                            onPressedBritish: () => speakcommunists3("en-GB"),
+                            onPressedAmerican: () => speakcommunists3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Communists have ruled the country since 1959."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ساڵی ١٩٥٩ ـوە کۆمیونیستەکان حوکمی وڵاتەکەیان کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunists4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunists4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Communists have ruled the country since 1959.",
+                            kurdishText:
+                                "لە ساڵی ١٩٥٩ ـوە کۆمیونیستەکان حوکمی وڵاتەکەیان کردووە.",
+                            onPressedBritish: () => speakcommunists4("en-GB"),
+                            onPressedAmerican: () => speakcommunists4("en-US"),
                           ),
                         ],
                       ),

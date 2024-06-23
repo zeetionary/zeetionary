@@ -157,249 +157,89 @@ class EnglishEntryconcentrate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پێدانی تەواوی سەرنجت بە شتێک و بیرنەکردنەوە لە شتی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't concentrate with all that noise going on."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم سەرنج بدەم بەو ھەموو دەنگەدەنگەی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concentrate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcentrates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcentrates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't concentrate with all that noise going on.",
+                            kurdishText:
+                                "ناتوانم سەرنج بدەم بەو ھەموو دەنگەدەنگەی ھەیە.", // concentrate",
+                            onPressedBritish: () => speakconcentrates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcentrates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I struggled to concentrate on my job because I was worried about my son."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەمدەتوانی بیروھۆشـ بدەم بە کارەکەم بەھۆی ئەوەی نیگەران بووم سەبارەت بە کوڕەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcentrates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcentrates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I struggled to concentrate on my job because I was worried about my son.",
+                            kurdishText:
+                                "نەمدەتوانی بیروھۆشـ بدەم بە کارەکەم بەھۆی ئەوەی نیگەران بووم سەبارەت بە کوڕەکەم.",
+                            onPressedBritish: () => speakconcentrates2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcentrates2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She tried to concentrate on reading her book but couldn't."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵی دەدا سەرنج بخاتە سەر خوێندنەوە بەڵام نەیدەتوانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcentrates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcentrates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She tried to concentrate on reading her book but couldn't.",
+                            kurdishText:
+                                "ھەوڵی دەدا سەرنج بخاتە سەر خوێندنەوە بەڵام نەیدەتوانی.",
+                            onPressedBritish: () => speakconcentrates3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcentrates3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I decided to concentrate all my efforts on finding somewhere to live."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارم تەواوی ھەوڵم بدەم بۆ ئەوەی شوێنێک بدۆزمەوە بۆ ژیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcentrates4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcentrates4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I decided to concentrate all my efforts on finding somewhere to live.",
+                            kurdishText:
+                                "بڕیارم تەواوی ھەوڵم بدەم بۆ ئەوەی شوێنێک بدۆزمەوە بۆ ژیان.",
+                            onPressedBritish: () => speakconcentrates4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcentrates4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) پێکەوەنانی شتێک لە شوێنێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Power is largely concentrated in the hands of a small elite."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەسەڵات کۆکراوەتەوە لە دەستی کۆمەڵێکی بچووک لە دەسەڵاتداراندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcentrates5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcentrates5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Power is largely concentrated in the hands of a small elite.",
+                            kurdishText:
+                                "دەسەڵات کۆکراوەتەوە لە دەستی کۆمەڵێکی بچووک لە دەسەڵاتداراندا.",
+                            onPressedBritish: () => speakconcentrates5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcentrates5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Fighting was concentrated around the towns to the north."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەڕکردن لە دەوری شارۆچکەکانی باکوور چڕکرابوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcentrates6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcentrates6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Fighting was concentrated around the towns to the north.",
+                            kurdishText:
+                                "شەڕکردن لە دەوری شارۆچکەکانی باکوور چڕکرابوویەوە.",
+                            onPressedBritish: () => speakconcentrates6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcentrates6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Singapore has a much smaller and more geographically concentrated population than Australia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سنگاپوور دانیشتوانێکی بچووکتر و لە ڕووی جوگرافییەوە چڕتری ھەیە لە ئوسترالیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcentrates7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcentrates7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Singapore has a much smaller and more geographically concentrated population than Australia.",
+                            kurdishText:
+                                "سنگاپوور دانیشتوانێکی بچووکتر و لە ڕووی جوگرافییەوە چڕتری ھەیە لە ئوسترالیا.",
+                            onPressedBritish: () => speakconcentrates7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcentrates7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) مادەیەک کە خەستکراوەتەوە بەھۆی ئەوەی ئاو و مادەکانی دیکەی لێ دەرکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These jams made with fruit juice concentrate are lower in added sugar."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم مرەبایانەی کە لە شەربەتی خەستی میوە درووستکراون شەکری تێکراویان کەمترە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcentrates8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcentrates8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These jams made with fruit juice concentrate are lower in added sugar.",
+                            kurdishText:
+                                "ئەم مرەبایانەی کە لە شەربەتی خەستی میوە درووستکراون شەکری تێکراویان کەمترە.",
+                            onPressedBritish: () => speakconcentrates8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcentrates8("en-US"),
                           ),
                         ],
                       ),

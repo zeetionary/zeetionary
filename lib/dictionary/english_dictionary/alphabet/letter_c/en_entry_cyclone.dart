@@ -242,59 +242,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) زریانێکی توندی خولگەیی کە تێدا با بە سووڕخواردن دەجوڵێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cyclone struck the village late last night."),
-                    ExampleSentenceKurdish(
-                        text: "باھۆزەکە شەوی ڕابردوو لە گوندەکەی دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cyclone", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcyclones1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcyclones1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cyclone struck the village late last night.",
+            kurdishText:
+                "باھۆزەکە شەوی ڕابردوو لە گوندەکەی دا.", // cyclone", please follow LX instructions
+            onPressedBritish: () => speakcyclones1("en-GB"),
+            onPressedAmerican: () => speakcyclones1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The islands have been devastated by cyclones in recent months."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوورگەکان لە چەند مانگی پێشوودا وێرانبوونە بە باھۆز."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcyclones2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcyclones2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The islands have been devastated by cyclones in recent months.",
+            kurdishText: "دوورگەکان لە چەند مانگی پێشوودا وێرانبوونە بە باھۆز.",
+            onPressedBritish: () => speakcyclones2("en-GB"),
+            onPressedAmerican: () => speakcyclones2("en-US"),
           ),
         ],
       ),

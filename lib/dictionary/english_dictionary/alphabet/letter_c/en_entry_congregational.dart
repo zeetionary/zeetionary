@@ -106,67 +106,29 @@ class EnglishEntrycongregational extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە کۆمەڵێک کەس کە لە کڵێسایەک کۆبوونەتەوە بۆ بۆنەی ئایینی، بەبێ لەخۆگرتنی قەشە و کۆچڕەکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The visit’s purpose may be to participate in congregational worship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەبەستی سەردانەکە ڕەنگە بەژداریکردن بێت لە پەرستشی بەکۆمەڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congregational", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongregationals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongregationals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The visit’s purpose may be to participate in congregational worship.",
+                            kurdishText:
+                                "مەبەستی سەردانەکە ڕەنگە بەژداریکردن بێت لە پەرستشی بەکۆمەڵ.", // congregational",
+                            onPressedBritish: () =>
+                                speakcongregationals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongregationals1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) پەیوەندیدار بە کۆمەڵێک کەس کە ماوە ماوە ڕوودەکەنە کڵێسایەکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Congregational leaders met to decide how to deal with the media."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕابەرەکانی کڵێساکە کۆبوونەوە بۆ بڕیاردان لەسەر شێوازی مامەڵەکردن لەگەڵ میدیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongregationals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongregationals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Congregational leaders met to decide how to deal with the media.",
+                            kurdishText:
+                                "ڕابەرەکانی کڵێساکە کۆبوونەوە بۆ بڕیاردان لەسەر شێوازی مامەڵەکردن لەگەڵ میدیا.",
+                            onPressedBritish: () =>
+                                speakcongregationals2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongregationals2("en-US"),
                           ),
                         ],
                       ),

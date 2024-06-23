@@ -95,32 +95,13 @@ class EnglishEntrycomet extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تەنێکی گەورەی سەھۆڵ و خۆڵ کە بە دەوری خەردا دەسووڕێتەوە و وەک ئەستێرەیەکی کلکدار دەردەکەوێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People gathered to watch the comet's rare appearance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی کۆبوونەوە بۆ بینینی دەرکەوتنی دەگمەنی کلکدارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comet", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People gathered to watch the comet's rare appearance.",
+                            kurdishText:
+                                "خەڵکی کۆبوونەوە بۆ بینینی دەرکەوتنی دەگمەنی کلکدارەکە.", // comet",
+                            onPressedBritish: () => speakcomets1("en-GB"),
+                            onPressedAmerican: () => speakcomets1("en-US"),
                           ),
                         ],
                       ),

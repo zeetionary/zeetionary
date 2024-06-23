@@ -118,118 +118,41 @@ class EnglishEntrycontention extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) تووڕەیی لە نێوان کەسانی ناکۆکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Privatization of the health service remains a point of contention."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دان بە کەرتی تایبەتی خزمەتگوزاری تەندرووستی وەک خاڵێکی جێی مشتومڕ ماوەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contention", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontentions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontentions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Privatization of the health service remains a point of contention.",
+                            kurdishText:
+                                "دان بە کەرتی تایبەتی خزمەتگوزاری تەندرووستی وەک خاڵێکی جێی مشتومڕ ماوەتەوە.", // contention",
+                            onPressedBritish: () => speakcontentions1("en-GB"),
+                            onPressedAmerican: () => speakcontentions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is no contention between the two groups."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ ناکۆکی لە نێوان دوو گرووپەکەدا نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontentions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontentions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is no contention between the two groups.",
+                            kurdishText:
+                                "ھیچ ناکۆکی لە نێوان دوو گرووپەکەدا نییە.",
+                            onPressedBritish: () => speakcontentions2("en-GB"),
+                            onPressedAmerican: () => speakcontentions2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) باوەڕێک یان بۆچوونێک کە دەری دەبڕیت، بەتایبەتی لە مشتومڕێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I would reject that contention."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەو بۆچوونە ڕەتدەکەمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontentions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontentions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I would reject that contention.",
+                            kurdishText: "ئەو بۆچوونە ڕەتدەکەمەوە.",
+                            onPressedBritish: () => speakcontentions3("en-GB"),
+                            onPressedAmerican: () => speakcontentions3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is no evidence to support her contention."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ بەڵگەیەک نییە بۆ پشتیوانی لە بۆچوونەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontentions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontentions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is no evidence to support her contention.",
+                            kurdishText:
+                                "ھیچ بەڵگەیەک نییە بۆ پشتیوانی لە بۆچوونەکەی.",
+                            onPressedBritish: () => speakcontentions4("en-GB"),
+                            onPressedAmerican: () => speakcontentions4("en-US"),
                           ),
                         ],
                       ),

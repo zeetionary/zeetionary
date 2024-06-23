@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە زیرەکانەیە و ئەوە بەدەست دێنیت کە دەتەوێت، بەتایبەتی بە فێڵ و تەڵەکەبازی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His parents had craftily concealed from him the fact that they were planning to rent out his room."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دایبابی زۆرزانانە لێیان شاردەوە کە ژوورەکەی بە کرێ دەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "craftily", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraftilys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraftilys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His parents had craftily concealed from him the fact that they were planning to rent out his room.",
+            kurdishText:
+                "دایبابی زۆرزانانە لێیان شاردەوە کە ژوورەکەی بە کرێ دەدەن.", // craftily", please follow LX instructions
+            onPressedBritish: () => speakcraftilys1("en-GB"),
+            onPressedAmerican: () => speakcraftilys1("en-US"),
           ),
         ],
       ),

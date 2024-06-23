@@ -180,349 +180,137 @@ class EnglishEntryconstruction extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پڕۆسە یان شێوازی بنیاتنانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Work has begun on the construction of the new airport."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاری بنیاتنانی فڕۆکەخانە تازەکە دەستیپێکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "construction", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Work has begun on the construction of the new airport.",
+                            kurdishText:
+                                "کاری بنیاتنانی فڕۆکەخانە تازەکە دەستیپێکردووە.", // construction",
+                            onPressedBritish: () =>
+                                speakconstructions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our new offices are still under construction (= being built)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆفیسە تازەکانمان ھێشتا لە پڕۆسەی درووستکردندان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our new offices are still under construction (= being built).",
+                            kurdishText:
+                                "ئۆفیسە تازەکانمان ھێشتا لە پڕۆسەی درووستکردندان.",
+                            onPressedBritish: () =>
+                                speakconstructions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructions2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Construction of the new road has now been completed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بنیاتنانی ڕێگا تازەکە ئێستا تەواو بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Construction of the new road has now been completed.",
+                            kurdishText:
+                                "بنیاتنانی ڕێگا تازەکە ئێستا تەواو بووە.",
+                            onPressedBritish: () =>
+                                speakconstructions3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructions3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کرێکاران و چالاکییەکانی درووستکردنی بینایەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Constructing a new building generates employment opportunities in the construction industry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بنیاتنانی بینایەکی تازە ھەلی کار دەڕەخسێنێت لە پیشەسازی بیناسازی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Constructing a new building generates employment opportunities in the construction industry.",
+                            kurdishText:
+                                "بنیاتنانی بینایەکی تازە ھەلی کار دەڕەخسێنێت لە پیشەسازی بیناسازی.",
+                            onPressedBritish: () =>
+                                speakconstructions4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructions4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) شێوازی درووستکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bridges are similar in construction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پردەکان ھاوشێوەن لە درووستکردندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bridges are similar in construction.",
+                            kurdishText: "پردەکان ھاوشێوەن لە درووستکردندا.",
+                            onPressedBritish: () =>
+                                speakconstructions5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructions5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The earliest Greek temples were small buildings, simple in construction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرستگا سەرەتاییە یۆنانییەکان بینای بچووک بوون و سادە بوون لە بنیاتناندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructions6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructions6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The earliest Greek temples were small buildings, simple in construction.",
+                            kurdishText:
+                                "پەرستگا سەرەتاییە یۆنانییەکان بینای بچووک بوون و سادە بوون لە بنیاتناندا.",
+                            onPressedBritish: () =>
+                                speakconstructions6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructions6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) شتێک کە درووستکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The house was a simple wooden construction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووەکە بینایەکی سادەی دارین بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructions7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructions7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The house was a simple wooden construction.",
+                            kurdishText: "خانووەکە بینایەکی سادەی دارین بوو.",
+                            onPressedBritish: () =>
+                                speakconstructions7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructions7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) شێوازی پێکەوەنانی وشە بۆ درووستکردنی ڕستە، زاراوە، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The writer has used several complex grammatical constructions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نووسەرەکە ژمارەیەک داڕشتنی ڕێزمانی ئاڵۆزی بەکارھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructions8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructions8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The writer has used several complex grammatical constructions.",
+                            kurdishText:
+                                "نووسەرەکە ژمارەیەک داڕشتنی ڕێزمانی ئاڵۆزی بەکارھێناوە.",
+                            onPressedBritish: () =>
+                                speakconstructions8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructions8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) تێگەشتن لە شتێک بە شێوەیەکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How can they put such a damning construction on a perfectly innocent phrase?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن دەتوانن واتایەکی ھێندە خراپ لێکبدەنەوە لە زاراوەیەکی تەواو بێ مەبەست؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructions9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructions9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How can they put such a damning construction on a perfectly innocent phrase?",
+                            kurdishText:
+                                "چۆن دەتوانن واتایەکی ھێندە خراپ لێکبدەنەوە لە زاراوەیەکی تەواو بێ مەبەست؟",
+                            onPressedBritish: () =>
+                                speakconstructions9("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructions9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) شێوازی تێگەشتن لە وشە، کردار، لێدوان، ھتد لەلایەن کەسانی دیکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What construction do you put on this letter (= what do you think it means)?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چۆن لەم نامەیە تێدەگەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructions10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructions10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What construction do you put on this letter (= what do you think it means)?",
+                            kurdishText: "چۆن لەم نامەیە تێدەگەیت؟",
+                            onPressedBritish: () =>
+                                speakconstructions10("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructions10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't want them to put the wrong construction on my actions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەوێت خراپ لە کردارەکانم تێبگەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructions11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructions11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't want them to put the wrong construction on my actions.",
+                            kurdishText: "نامەوێت خراپ لە کردارەکانم تێبگەن.",
+                            onPressedBritish: () =>
+                                speakconstructions11("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructions11("en-US"),
                           ),
                         ],
                       ),

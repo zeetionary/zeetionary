@@ -182,60 +182,22 @@ class EnglishEntrycontinuous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ڕوودان یان بەردەوام بوون بۆ ماوەیەک بەبێ وەستان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Recovery after the accident will be a continuous process that may take several months."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاکبوونەوەی دوای ڕووداوەکە پڕۆسەیەکی بەردەوام دەبێت کە ڕەنگە چەند مانگێکی پێبچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "continuous", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Recovery after the accident will be a continuous process that may take several months.",
+                            kurdishText:
+                                "چاکبوونەوەی دوای ڕووداوەکە پڕۆسەیەکی بەردەوام دەبێت کە ڕەنگە چەند مانگێکی پێبچێت.", // continuous",
+                            onPressedBritish: () => speakcontinuouss1("en-GB"),
+                            onPressedAmerican: () => speakcontinuouss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rain has been almost continuous for weeks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بارانەکە بەنزیکەیی بۆ چەند ھەفتەیەکە بێ‌دابڕان بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuouss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuouss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The rain has been almost continuous for weeks.",
+                            kurdishText:
+                                "بارانەکە بەنزیکەیی بۆ چەند ھەفتەیەکە بێ‌دابڕان بووە.",
+                            onPressedBritish: () => speakcontinuouss2("en-GB"),
+                            onPressedAmerican: () => speakcontinuouss2("en-US"),
                           ),
                           Column(
                             children: [
@@ -368,154 +330,57 @@ class EnglishEntrycontinuous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) بەشێک لە ڕاستەھێڵێک یان ناوچەیەک بەبێ پچڕان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The accident caused a disruption in the continuous flow of traffic on the highway."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووداوەکە بوو بەھۆی پەککەوتنی جوڵەی بەردەوامی ھاتووچۆ لەسەر ڕێگا خێراکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuouss7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuouss7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The accident caused a disruption in the continuous flow of traffic on the highway.",
+                            kurdishText:
+                                "ڕووداوەکە بوو بەھۆی پەککەوتنی جوڵەی بەردەوامی ھاتووچۆ لەسەر ڕێگا خێراکە.",
+                            onPressedBritish: () => speakcontinuouss7("en-GB"),
+                            onPressedAmerican: () => speakcontinuouss7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The eruption resulted in a continuous stream of lava flowing down the mountainside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەقینەکە بوو بەھۆی تەوژمێکی بەردەوامی شلەی گڕکان بە ڕووی چیاکەدا بچۆڕێتە خوارەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuouss8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuouss8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The eruption resulted in a continuous stream of lava flowing down the mountainside.",
+                            kurdishText:
+                                "تەقینەکە بوو بەھۆی تەوژمێکی بەردەوامی شلەی گڕکان بە ڕووی چیاکەدا بچۆڕێتە خوارەوە.",
+                            onPressedBritish: () => speakcontinuouss8("en-GB"),
+                            onPressedAmerican: () => speakcontinuouss8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) دووبارەبووەوە بۆ چەندین جار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For four days the town suffered continuous attacks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ چوار ڕۆژ شارۆچکەکە ڕووبەڕووی ھێرشی بەردەوام بووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuouss9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuouss9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For four days the town suffered continuous attacks.",
+                            kurdishText:
+                                "بۆ چوار ڕۆژ شارۆچکەکە ڕووبەڕووی ھێرشی بەردەوام بووەوە.",
+                            onPressedBritish: () => speakcontinuouss9("en-GB"),
+                            onPressedAmerican: () => speakcontinuouss9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company said the reasons for closure were continuous losses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە وتی ھۆکاری داخرانەکە زیانی بەردەوام بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinuouss10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinuouss10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company said the reasons for closure were continuous losses.",
+                            kurdishText:
+                                "کۆمپانیاکە وتی ھۆکاری داخرانەکە زیانی بەردەوام بوو.",
+                            onPressedBritish: () => speakcontinuouss10("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinuouss10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) پەیوەندیدار بەو کردارانەی کە لە دەمی بەردەوامیدان و بەکاردێن بۆ باسکردن لە چالاکییەک کە ھێشتا بۆ ماوەیەک بەردەوامە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Understanding the continuous tenses is essential for mastering English grammar."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێگەشتن لە دەمەکانی بەردەوامی گرنگە بۆ شارەزابوون لە ڕێزمانی ئینگلیزی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinuouss11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinuouss11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Understanding the continuous tenses is essential for mastering English grammar.",
+                            kurdishText:
+                                "تێگەشتن لە دەمەکانی بەردەوامی گرنگە بۆ شارەزابوون لە ڕێزمانی ئینگلیزی.",
+                            onPressedBritish: () => speakcontinuouss11("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinuouss11("en-US"),
                           ),
                         ],
                       ),

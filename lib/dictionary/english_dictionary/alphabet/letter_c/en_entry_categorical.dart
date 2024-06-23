@@ -191,34 +191,14 @@ class EnglishEntrycategorical extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) دەربڕین بە ڕوونی و بەشێوەیەک کە پیشانی دەدات کە دڵنیایت لەوەی دەیڵێیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They gave him a categorical assurance that he would not be hurt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیایی ڕەھایان پێدا کە ئازاری پێ ناگات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "categorical", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcategoricals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcategoricals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They gave him a categorical assurance that he would not be hurt.",
+                            kurdishText:
+                                "دڵنیایی ڕەھایان پێدا کە ئازاری پێ ناگات.", // categorical",
+                            onPressedBritish: () => speakcategoricals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcategoricals1("en-US"),
                           ),
                         ],
                       ),

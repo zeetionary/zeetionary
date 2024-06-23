@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) داھێنەری؛ بەکارھێنانی شارەزایی و خەیاڵ بۆ درووستکردنی شتێکی تازە یان کاری ھونەری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Creativity and originality are more important than technical skill."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داھێنەری و ڕەسەنێتی گرنگترن لە شارەزایی تەکنیکی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creativity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreativitys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreativitys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Creativity and originality are more important than technical skill.",
+            kurdishText:
+                "داھێنەری و ڕەسەنێتی گرنگترن لە شارەزایی تەکنیکی.", // creativity", please follow LX instructions
+            onPressedBritish: () => speakcreativitys1("en-GB"),
+            onPressedAmerican: () => speakcreativitys1("en-US"),
           ),
         ],
       ),

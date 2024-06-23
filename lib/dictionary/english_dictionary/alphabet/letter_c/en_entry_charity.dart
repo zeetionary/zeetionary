@@ -136,175 +136,61 @@ class EnglishEntrycharity extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) دامەزراوەیەکی خێرخوازی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many charities sent money to help the victims of the famine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر ڕێکخراوی خێرخوازی پارەیان نارد بۆ یارمەتیدانی قوربانیانی وشکەساڵییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "charity", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many charities sent money to help the victims of the famine.",
+                            kurdishText:
+                                "زۆر ڕێکخراوی خێرخوازی پارەیان نارد بۆ یارمەتیدانی قوربانیانی وشکەساڵییەکە.", // charity",
+                            onPressedBritish: () => speakcharitys1("en-GB"),
+                            onPressedAmerican: () => speakcharitys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The concert will raise money for local charities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆنسێرتەکە پارە کۆدەکاتەوە بۆ ڕێکخراوە خێرخوازییە ناوخۆییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharitys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The concert will raise money for local charities.",
+                            kurdishText:
+                                "کۆنسێرتەکە پارە کۆدەکاتەوە بۆ ڕێکخراوە خێرخوازییە ناوخۆییەکان.",
+                            onPressedBritish: () => speakcharitys2("en-GB"),
+                            onPressedAmerican: () => speakcharitys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) تەواوی ئەو دامەزراوانەی کە یارمەتی کەسانی ھەژار دەدەن، یان ئەو یارمەتییەی کە کۆدەکرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most of the runners in the London Marathon are raising money for charity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرێک لە ڕاکەران لە ماراسۆنی لەندەن پارە بۆ خێرخوازی کۆدەکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharitys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharitys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most of the runners in the London Marathon are raising money for charity.",
+                            kurdishText:
+                                "زۆرێک لە ڕاکەران لە ماراسۆنی لەندەن پارە بۆ خێرخوازی کۆدەکەنەوە.",
+                            onPressedBritish: () => speakcharitys3("en-GB"),
+                            onPressedAmerican: () => speakcharitys3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Do you give much to charity?"),
-                                    ExampleSentenceKurdish(
-                                        text: "پارە دەدەیت بە خێرخوازی؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharitys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharitys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Do you give much to charity?",
+                            kurdishText: "پارە دەدەیت بە خێرخوازی؟",
+                            onPressedBritish: () => speakcharitys4("en-GB"),
+                            onPressedAmerican: () => speakcharitys4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "All the profits go to charity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی قازانجەکان بۆ کاری خێرخوازی دەچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharitys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharitys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "All the profits go to charity.",
+                            kurdishText:
+                                "تەواوی قازانجەکان بۆ کاری خێرخوازی دەچێت.",
+                            onPressedBritish: () => speakcharitys5("en-GB"),
+                            onPressedAmerican: () => speakcharitys5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) مامەڵەی میھرەبانانە و ھاوسۆزی بەرامبەر کەسانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her article showed no charity towards her former friends."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکەی ھیچ بەخشندەیی بەرامبەر ھاوڕێ کۆنەکانی پیشان نادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharitys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharitys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her article showed no charity towards her former friends.",
+                            kurdishText:
+                                "وتارەکەی ھیچ بەخشندەیی بەرامبەر ھاوڕێ کۆنەکانی پیشان نادا.",
+                            onPressedBritish: () => speakcharitys6("en-GB"),
+                            onPressedAmerican: () => speakcharitys6("en-US"),
                           ),
                         ],
                       ),

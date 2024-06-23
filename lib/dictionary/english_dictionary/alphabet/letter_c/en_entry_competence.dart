@@ -147,206 +147,73 @@ class EnglishEntrycompetence extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) تونای کردنی شتێک بە باشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gradually developed the competence to deal with the more difficult cases."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەم کەم توانای گەشەپێدا بۆ مامەڵەکردن لەگەڵ کەیسە زیاتر سەختەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "competence", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He gradually developed the competence to deal with the more difficult cases.",
+                            kurdishText:
+                                "کەم کەم توانای گەشەپێدا بۆ مامەڵەکردن لەگەڵ کەیسە زیاتر سەختەکان.", // competence",
+                            onPressedBritish: () => speakcompetences1("en-GB"),
+                            onPressedAmerican: () => speakcompetences1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm afraid the work is beyond his competence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە داخەوەم کە کارەکە لە سەروو توانایەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetences2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetences2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm afraid the work is beyond his competence.",
+                            kurdishText:
+                                "بە داخەوەم کە کارەکە لە سەروو توانایەتی.",
+                            onPressedBritish: () => speakcompetences2("en-GB"),
+                            onPressedAmerican: () => speakcompetences2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Students had questioned her competence as a teacher."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندکاران گومانیان لە توانای وەک مامۆستایەک ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetences3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetences3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Students had questioned her competence as a teacher.",
+                            kurdishText:
+                                "خوێندکاران گومانیان لە توانای وەک مامۆستایەک ھەبوو.",
+                            onPressedBritish: () => speakcompetences3("en-GB"),
+                            onPressedAmerican: () => speakcompetences3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو ھێزەی کە کەسێک، دامەزراوەیەک، یان دادگایەک ھەیەتی بۆ مامەڵەکردن لەگەڵ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The judge has to act within the competence of the court."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دادوەرەکە دەبێت لە لە توانای دادگاکەدا ھەنگاو بنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetences4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetences4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The judge has to act within the competence of the court.",
+                            kurdishText:
+                                "دادوەرەکە دەبێت لە لە توانای دادگاکەدا ھەنگاو بنێت.",
+                            onPressedBritish: () => speakcompetences4("en-GB"),
+                            onPressedAmerican: () => speakcompetences4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The decisions come within the competence of the committee."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارەکان لە ئاستی توانای لیژنەکەدا بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetences5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetences5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The decisions come within the competence of the committee.",
+                            kurdishText:
+                                "بڕیارەکان لە ئاستی توانای لیژنەکەدا بوون.",
+                            onPressedBritish: () => speakcompetences5("en-GB"),
+                            onPressedAmerican: () => speakcompetences5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شارەزاییەک کە پێویستتە بۆ کارێکی یان ئەرکێکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The syllabus lists the knowledge and competences required at this level."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆگرامی خوێندنەکە لێھاتووی و شارەزایی کردووە بە لیست کە بۆ ئەم ئاستە پێویستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetences6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetences6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The syllabus lists the knowledge and competences required at this level.",
+                            kurdishText:
+                                "پڕۆگرامی خوێندنەکە لێھاتووی و شارەزایی کردووە بە لیست کە بۆ ئەم ئاستە پێویستە.",
+                            onPressedBritish: () => speakcompetences6("en-GB"),
+                            onPressedAmerican: () => speakcompetences6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He reached a reasonable level of competence in his English."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشت بە ئاستێکی باشی شارەزایی لە ئینگلیزییەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompetences7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompetences7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He reached a reasonable level of competence in his English.",
+                            kurdishText:
+                                "گەشت بە ئاستێکی باشی شارەزایی لە ئینگلیزییەکەیدا.",
+                            onPressedBritish: () => speakcompetences7("en-GB"),
+                            onPressedAmerican: () => speakcompetences7("en-US"),
                           ),
                         ],
                       ),

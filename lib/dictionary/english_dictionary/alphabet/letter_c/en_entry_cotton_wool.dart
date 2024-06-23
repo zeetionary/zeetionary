@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پارچە قوماشێکی نەرم کە بۆ پاککردنەوەی پێست و برین بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She used cotton wool to apply the ointment to the wound."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لۆکەی بەکارھێنا بۆ لێدانی مەڵھەمەکە لە برینەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cotton wool", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcottonwools1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcottonwools1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She used cotton wool to apply the ointment to the wound.",
+            kurdishText:
+                "لۆکەی بەکارھێنا بۆ لێدانی مەڵھەمەکە لە برینەکە.", // cotton wool", please follow LX instructions
+            onPressedBritish: () => speakcottonwools1("en-GB"),
+            onPressedAmerican: () => speakcottonwools1("en-US"),
           ),
         ],
       ),

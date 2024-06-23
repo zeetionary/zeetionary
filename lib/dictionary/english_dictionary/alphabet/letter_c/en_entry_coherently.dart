@@ -103,60 +103,22 @@ class EnglishEntrycoherently extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەکی لۆژیکی و ڕێکوپێکی کە ئاسانە بۆ تێگەشتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She presented her case clearly and coherently."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەیسەکەی بە ڕوونی و ڕەوانی پێشکەشکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coherently", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoherentlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoherentlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She presented her case clearly and coherently.",
+                            kurdishText:
+                                "کەیسەکەی بە ڕوونی و ڕەوانی پێشکەشکرد.", // coherently",
+                            onPressedBritish: () => speakcoherentlys1("en-GB"),
+                            onPressedAmerican: () => speakcoherentlys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was in a state of shock, and unable to speak coherently."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە شۆکدا بوو و نەیدەتوانی بە ڕەوانی قسە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoherentlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoherentlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was in a state of shock, and unable to speak coherently.",
+                            kurdishText:
+                                "لە شۆکدا بوو و نەیدەتوانی بە ڕەوانی قسە بکات.",
+                            onPressedBritish: () => speakcoherentlys2("en-GB"),
+                            onPressedAmerican: () => speakcoherentlys2("en-US"),
                           ),
                         ],
                       ),

@@ -192,60 +192,21 @@ class EnglishEntrycanter extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جوڵەی ئەسپ کە بەخێراییەک کە زۆرە، بەڵام زۆر زۆر نا کە غاردان بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She set off at a canter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە نەرمە غارێک دەستی بە جوڵە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canter", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She set off at a canter.",
+                            kurdishText:
+                                "بە نەرمە غارێک دەستی بە جوڵە کرد.", // canter
+                            onPressedBritish: () => speakcanters1("en-GB"),
+                            onPressedAmerican: () => speakcanters1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) کردنی نەرمەغار بە ئەسپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We cantered along the beach."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە کەنارەکەدا نەرمە غارێکمان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We cantered along the beach.",
+                            kurdishText: "بە کەنارەکەدا نەرمە غارێکمان کرد.",
+                            onPressedBritish: () => speakcanters2("en-GB"),
+                            onPressedAmerican: () => speakcanters2("en-US"),
                           ),
                         ],
                       ),

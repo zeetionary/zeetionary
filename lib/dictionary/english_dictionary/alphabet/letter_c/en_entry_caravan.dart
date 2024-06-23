@@ -192,94 +192,37 @@ class EnglishEntrycaravan extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) عەرەبانەیەک کە بە ئۆتۆمبێلێک ڕادەکێشرێت و خەڵکی تێیدا دەژین و دەخەون لەکاتی گەشتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The local farmer lets holiday caravans park on his land."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوتیارە لۆکاڵییەکە ڕێگا دەدات کارڤانی گەشتیاری لە زەوییەکەی پارک بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "caravan", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaravans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaravans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+  englishText:
+                                            "The local farmer lets holiday caravans park on his land.",
+                                    kurdishText:
+                                            "جوتیارە لۆکاڵییەکە ڕێگا دەدات کارڤانی گەشتیاری لە زەوییەکەی پارک بکەن.", // caravan",
+                                    onPressedBritish: () => speakcaravans1("en-GB"),
+onPressedAmerican: () => speakcaravans1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) عەرەبانەیەک کە بە ئەسپ ڕادەکێشرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Travelers in the 19th century depended on a caravan of horses for long journeys."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشتیاران لە سەدەی ١٩ دا پشتیان بە عەرەبانەی ئەسپ دەبەست بۆ گەشتی ماوە دەرێژ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaravans2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaravans2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+  englishText:
+                                            "Travelers in the 19th century depended on a caravan of horses for long journeys.",
+                                    kurdishText:
+                                            "گەشتیاران لە سەدەی ١٩ دا پشتیان بە عەرەبانەی ئەسپ دەبەست بۆ گەشتی ماوە دەرێژ.",
+                                    onPressedBritish: () => speakcaravans2("en-GB"),
+onPressedAmerican: () => speakcaravans2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کۆمەڵە کەسێک کە پێکەوە گەشت دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The caravan travelled slowly eastwards."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاروانەکە بەھێواشی بەرەو ڕۆژھەڵات دەچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaravans3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaravans3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+  englishText:
+                                            "The caravan travelled slowly eastwards.",
+                                    kurdishText:
+                                            "کاروانەکە بەھێواشی بەرەو ڕۆژھەڵات دەچوو.",
+                                    onPressedBritish: () => speakcaravans3("en-GB"),
+onPressedAmerican: () => speakcaravans3("en-US"),
                           ),
                         ],
                       ),

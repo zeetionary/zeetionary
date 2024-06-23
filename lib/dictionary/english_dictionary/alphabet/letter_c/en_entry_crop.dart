@@ -359,58 +359,19 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ڕووەکێک کە بۆ ڕێژەیەکی زۆر دەچێندرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Sugar cane is an important crop on the island."),
-                    ExampleSentenceKurdish(
-                        text: "قامیشی شەکر بەروبوویەکی گرنگە لە دوورگەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crop", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrops1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrops1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Sugar cane is an important crop on the island.",
+            kurdishText:
+                "قامیشی شەکر بەروبوویەکی گرنگە لە دوورگەکە.", // crop", please follow LX instructions
+            onPressedBritish: () => speakcrops1("en-GB"),
+            onPressedAmerican: () => speakcrops1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crops are regularly sprayed with pesticides."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەروبووەکان زووزوو مێرووکوژیان بەسەردا دەڕژێندرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrops2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrops2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The crops are regularly sprayed with pesticides.",
+            kurdishText: "بەروبووەکان زووزوو مێرووکوژیان بەسەردا دەڕژێندرێت.",
+            onPressedBritish: () => speakcrops2("en-GB"),
+            onPressedAmerican: () => speakcrops2("en-US"),
           ),
           Column(
             children: [
@@ -507,312 +468,101 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەو ڕێژەیە لە دانەوێڵە کە لە یەک وەرزدا چێندراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Australia's wheat crop is likely to be lower than forecast this year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرھەمی گەنمی ئوسترالیا ئەگەری ھەیە کەمتر بێت لەوەی ئەمساڵ پێشبینی کراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrops6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrops6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Australia's wheat crop is likely to be lower than forecast this year.",
+            kurdishText:
+                "بەرھەمی گەنمی ئوسترالیا ئەگەری ھەیە کەمتر بێت لەوەی ئەمساڵ پێشبینی کراوە.",
+            onPressedBritish: () => speakcrops6("en-GB"),
+            onPressedAmerican: () => speakcrops6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We are looking forward to a bumper crop (= a very large one)."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمساڵ چاوەڕێی بەرھەمێکی زۆر دەکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrops7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrops7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We are looking forward to a bumper crop (= a very large one).",
+            kurdishText: "ئەمساڵ چاوەڕێی بەرھەمێکی زۆر دەکەین.",
+            onPressedBritish: () => speakcrops7("en-GB"),
+            onPressedAmerican: () => speakcrops7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We had a very good crop of apples last year."),
-                    ExampleSentenceKurdish(
-                        text: "ساڵی پار بەرھەمێکی باشی گەنممان ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrops8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrops8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We had a very good crop of apples last year.",
+            kurdishText: "ساڵی پار بەرھەمێکی باشی گەنممان ھەبوو.",
+            onPressedBritish: () => speakcrops8("en-GB"),
+            onPressedAmerican: () => speakcrops8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) کۆمەڵە کەسێک کە شتێک لە ھەمان کاتدا دەکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She is really the cream of the crop (= the best in her group)."),
-                    ExampleSentenceKurdish(
-                        text: "بە ڕاستی باشترینی گرووپەکەیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrops9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrops9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She is really the cream of the crop (= the best in her group).",
+            kurdishText: "بە ڕاستی باشترینی گرووپەکەیەتی.",
+            onPressedBritish: () => speakcrops9("en-GB"),
+            onPressedAmerican: () => speakcrops9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) جەڵدەیەکی بچووک کە لەلایەن ئەسپسوارانەوە بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He held the reins in one hand and the riding crop in the other."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جڵەوەکە لە دەستێکیدا بوو و شەلاقەکە لە ئەوەکەی دیکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrops10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrops10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He held the reins in one hand and the riding crop in the other.",
+            kurdishText:
+                "جڵەوەکە لە دەستێکیدا بوو و شەلاقەکە لە ئەوەکەی دیکەدا.",
+            onPressedBritish: () => speakcrops10("en-GB"),
+            onPressedAmerican: () => speakcrops10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) جۆرە قژێکی کورت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She has her hair cut in a short crop."),
-                    ExampleSentenceKurdish(text: "قژی بە کورتی بڕی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrops11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrops11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has her hair cut in a short crop.",
+            kurdishText: "قژی بە کورتی بڕی بوو.",
+            onPressedBritish: () => speakcrops11("en-GB"),
+            onPressedAmerican: () => speakcrops11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (کردار) بڕینی قژی کەسێک بە کورتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His hair had been cropped short and he looked different."),
-                    ExampleSentenceKurdish(
-                        text: "قژی بە کورتی بڕدرابوو و جیاواز دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrops12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrops12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His hair had been cropped short and he looked different.",
+            kurdishText: "قژی بە کورتی بڕدرابوو و جیاواز دیاربوو.",
+            onPressedBritish: () => speakcrops12("en-GB"),
+            onPressedAmerican: () => speakcrops12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (کردار) بڕینی بەشێکی وێنەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He cropped the photo so that only the face remained."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وێنەکەی بڕی بەشێوەیەک کە تەنھا ڕووخساری مایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrops13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrops13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He cropped the photo so that only the face remained.",
+            kurdishText: "وێنەکەی بڕی بەشێوەیەک کە تەنھا ڕووخساری مایەوە.",
+            onPressedBritish: () => speakcrops13("en-GB"),
+            onPressedAmerican: () => speakcrops13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) خواردنی بەشی سەرەوەی ڕووەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The horses were quietly cropping the grass."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەسپەکان بە ھێمنی لە ناو سەوزەگیاکەدا دەلەوەڕین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrops14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrops14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The horses were quietly cropping the grass.",
+            kurdishText: "ئەسپەکان بە ھێمنی لە ناو سەوزەگیاکەدا دەلەوەڕین.",
+            onPressedBritish: () => speakcrops14("en-GB"),
+            onPressedAmerican: () => speakcrops14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (کردار) ھەبوونی بەروبووم"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The potatoes cropped well this year."),
-                    ExampleSentenceKurdish(
-                        text: "پەتاتەکە ئەمساڵ بەرھەمی باشی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrops15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrops15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The potatoes cropped well this year.",
+            kurdishText: "پەتاتەکە ئەمساڵ بەرھەمی باشی بوو.",
+            onPressedBritish: () => speakcrops15("en-GB"),
+            onPressedAmerican: () => speakcrops15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٠. (کردار) بەکارھێنانی زەوی بۆ بەروبووم"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The river valley is intensively cropped."),
-                    ExampleSentenceKurdish(
-                        text: "دۆڵی ڕووبارەکە بە گشتگیری چێندراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrops16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrops16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The river valley is intensively cropped.",
+            kurdishText: "دۆڵی ڕووبارەکە بە گشتگیری چێندراوە.",
+            onPressedBritish: () => speakcrops16("en-GB"),
+            onPressedAmerican: () => speakcrops16("en-US"),
           ),
         ],
       ),

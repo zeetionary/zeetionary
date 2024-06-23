@@ -120,119 +120,43 @@ class EnglishEntrycivilian extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە ئەندامی سوپا یان پۆلیس نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Two soldiers and one civilian were killed in the explosion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو سەرباز و ھاوڵاتییەکی مەدەنی لە تەقینەوەکەدا کوژران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "civilian", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivilians1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivilians1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Two soldiers and one civilian were killed in the explosion.",
+                            kurdishText:
+                                "دوو سەرباز و ھاوڵاتییەکی مەدەنی لە تەقینەوەکەدا کوژران.", // civilian",
+                            onPressedBritish: () => speakcivilians1("en-GB"),
+                            onPressedAmerican: () => speakcivilians1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Further measures are needed to protect civilians."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەنگاوی زیاتر پێویستن بۆ پاراستنی ھاوڵاتییانی مەدەنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivilians2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivilians2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Further measures are needed to protect civilians.",
+                            kurdishText:
+                                "ھەنگاوی زیاتر پێویستن بۆ پاراستنی ھاوڵاتییانی مەدەنی.",
+                            onPressedBritish: () => speakcivilians2("en-GB"),
+                            onPressedAmerican: () => speakcivilians2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) پەیوەندیدار بە ھاوڵاتی مەدەنی، نەک سوپا یان پۆلیس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He left the army and returned to civilian life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوپای جێھێشت و گەڕایەوە بۆ ژیانی ئاسایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivilians3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivilians3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He left the army and returned to civilian life.",
+                            kurdishText:
+                                "سوپای جێھێشت و گەڕایەوە بۆ ژیانی ئاسایی.",
+                            onPressedBritish: () => speakcivilians3("en-GB"),
+                            onPressedAmerican: () => speakcivilians3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bombs resulted in large numbers of civilian casualties."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆمبەکان بوونە ھۆی قوربانییەکی مەدەنی زۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivilians4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivilians4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bombs resulted in large numbers of civilian casualties.",
+                            kurdishText:
+                                "بۆمبەکان بوونە ھۆی قوربانییەکی مەدەنی زۆر.",
+                            onPressedBritish: () => speakcivilians4("en-GB"),
+                            onPressedAmerican: () => speakcivilians4("en-US"),
                           ),
                         ],
                       ),

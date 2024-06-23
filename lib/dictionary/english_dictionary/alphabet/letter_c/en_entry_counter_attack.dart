@@ -252,89 +252,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھێرشێک کە وەک وەڵامی ھێرشی دوژمن یان ڕکابەرە لە جەنگ، وەرزش، یان مشتومڕێکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Armed forces launched a counter-attack against the rebels."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێزە سەربازییەکان پەرچەھێرشێکیان دژ بە یاخیبووان ئەنجامدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "counter-attack", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterattacks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterattacks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Armed forces launched a counter-attack against the rebels.",
+            kurdishText:
+                "ھێزە سەربازییەکان پەرچەھێرشێکیان دژ بە یاخیبووان ئەنجامدا.", // counter-attack", please follow LX instructions
+            onPressedBritish: () => speakcounterattacks1("en-GB"),
+            onPressedAmerican: () => speakcounterattacks1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He led a counterattack on the enemy's supply lines."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرپەرشتی ھێرشێکی پێچەوانەی دژ بە ھێڵەکانی ئازووقەی دوژمن کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterattacks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterattacks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He led a counterattack on the enemy's supply lines.",
+            kurdishText:
+                "سەرپەرشتی ھێرشێکی پێچەوانەی دژ بە ھێڵەکانی ئازووقەی دوژمن کرد.",
+            onPressedBritish: () => speakcounterattacks2("en-GB"),
+            onPressedAmerican: () => speakcounterattacks2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) ئەنجامدانی ھێرشی پێچەوانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The air force counterattacked and repelled the invasion."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێزی ئاسمانی پەرچەکرداری دایەوە و ھێرشکارییەکەی شکستپێھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterattacks3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterattacks3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The air force counterattacked and repelled the invasion.",
+            kurdishText:
+                "ھێزی ئاسمانی پەرچەکرداری دایەوە و ھێرشکارییەکەی شکستپێھێنا.",
+            onPressedBritish: () => speakcounterattacks3("en-GB"),
+            onPressedAmerican: () => speakcounterattacks3("en-US"),
           ),
         ],
       ),

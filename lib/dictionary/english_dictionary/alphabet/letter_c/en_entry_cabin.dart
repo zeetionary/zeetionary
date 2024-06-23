@@ -192,94 +192,37 @@ class EnglishEntrycabin extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ژوورێکی بچووکی سەر کەشتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I lay in my cabin feeling miserably seasick."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ژوورۆچکەکەمدا پاڵکەوتبووم و بەخراپی نەخۆش بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabin", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabins1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabins1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I lay in my cabin feeling miserably seasick.",
+                            kurdishText:
+                                "لە ژوورۆچکەکەمدا پاڵکەوتبووم و بەخراپی نەخۆش بووم.", // cabin
+                            onPressedBritish: () => speakcabins1("en-GB"),
+                            onPressedAmerican: () => speakcabins1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو بەشەی فڕۆکە کە گەشتیاران تێیدا دەمێننەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The airplane's cabin was well-equipped for a comfortable journey."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کابینەی فڕۆکەکە بە باشی سازێندرابوو بۆ گەشتێکی ئاسوودە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabins2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabins2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The airplane's cabin was well-equipped for a comfortable journey.",
+                            kurdishText:
+                                "کابینەی فڕۆکەکە بە باشی سازێندرابوو بۆ گەشتێکی ئاسوودە.",
+                            onPressedBritish: () => speakcabins2("en-GB"),
+                            onPressedAmerican: () => speakcabins2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) خانوو یان پەناگەیەکی بچووک کە بەزۆری لە دار درووستکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We spent weekends in a cozy cabin by the lake."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆتایی ھەفتەمان لە کابینەیەکی ئاسوودەبەخش بەسەر دەبرد لە نزیک دەریاچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabins3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabins3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We spent weekends in a cozy cabin by the lake.",
+                            kurdishText:
+                                "کۆتایی ھەفتەمان لە کابینەیەکی ئاسوودەبەخش بەسەر دەبرد لە نزیک دەریاچەکە.",
+                            onPressedBritish: () => speakcabins3("en-GB"),
+                            onPressedAmerican: () => speakcabins3("en-US"),
                           ),
                         ],
                       ),

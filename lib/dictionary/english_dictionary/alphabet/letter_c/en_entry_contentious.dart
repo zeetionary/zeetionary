@@ -111,97 +111,36 @@ class EnglishEntrycontentious extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێکی کە ئەگەری ھەیە ببێتە جێگەی مشتومڕ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Try to avoid any contentious wording."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ بدە لە زمانی توند بەدوور بە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contentious", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontentiouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontentiouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Try to avoid any contentious wording.",
+                            kurdishText:
+                                "ھەوڵ بدە لە زمانی توند بەدوور بە.", // contentious",
+                            onPressedBritish: () => speakcontentiouss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontentiouss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Both views are highly contentious."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو تێڕوانینەکە تەواو مشت‌ومڕلەسەرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontentiouss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontentiouss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Both views are highly contentious.",
+                            kurdishText:
+                                "ھەردوو تێڕوانینەکە تەواو مشت‌ومڕلەسەرن.",
+                            onPressedBritish: () => speakcontentiouss2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontentiouss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) شتێک کە مشتومڕی زۆری تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The couple were in the middle of a contentious divorce."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو ھاوژینەکە لە ناوەڕاستی جیابوونەوەیەکی کێشاوی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontentiouss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontentiouss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The couple were in the middle of a contentious divorce.",
+                            kurdishText:
+                                "دوو ھاوژینەکە لە ناوەڕاستی جیابوونەوەیەکی کێشاوی بوو.",
+                            onPressedBritish: () => speakcontentiouss3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontentiouss3("en-US"),
                           ),
                         ],
                       ),

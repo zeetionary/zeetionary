@@ -121,127 +121,47 @@ class EnglishEntrycooperation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کردنی شتێک پێکەوە یان کارکردن پێکەوە بۆ ئامانجێکی ھاوبەش "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They offered their cooperation on the project."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوکاری خۆیان لە پڕۆژەکەدا پێشکەشکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cooperation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcooperations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcooperations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They offered their cooperation on the project.",
+                            kurdishText:
+                                "ھاوکاری خۆیان لە پڕۆژەکەدا پێشکەشکرد.", // cooperation",
+                            onPressedBritish: () => speakcooperations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcooperations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We would like to see closer cooperation between parents and schools."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمانەوێت ھاوکاری زیاتر لە نێوان دایک و باوکان و قوتابخانەکاندا ببینین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcooperations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcooperations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We would like to see closer cooperation between parents and schools.",
+                            kurdishText:
+                                "دەمانەوێت ھاوکاری زیاتر لە نێوان دایک و باوکان و قوتابخانەکاندا ببینین.",
+                            onPressedBritish: () => speakcooperations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcooperations2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We should like to thank you for your cooperation with us."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمانەوێت سوپاستان بکەین بۆ ھاریکاریتان لەگەڵمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcooperations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcooperations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We should like to thank you for your cooperation with us.",
+                            kurdishText:
+                                "دەمانەوێت سوپاستان بکەین بۆ ھاریکاریتان لەگەڵمان.",
+                            onPressedBritish: () => speakcooperations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcooperations3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئارەزووی یارمەتیدەری و کردنی ئەوەی داوات لێدەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We would be grateful for your cooperation in clearing the hall as quickly as possible."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوپاسگوزار دەبین بۆ ھاوکاریتان لە چۆڵکردنی ھۆڵەکەدا ھەرچەندە زووتر بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcooperations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcooperations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We would be grateful for your cooperation in clearing the hall as quickly as possible.",
+                            kurdishText:
+                                "سوپاسگوزار دەبین بۆ ھاوکاریتان لە چۆڵکردنی ھۆڵەکەدا ھەرچەندە زووتر بێت.",
+                            onPressedBritish: () => speakcooperations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcooperations4("en-US"),
                           ),
                         ],
                       ),

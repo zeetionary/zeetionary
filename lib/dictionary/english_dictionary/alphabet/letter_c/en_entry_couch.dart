@@ -251,93 +251,35 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) قەنەفە؛ جێگایەکی دانیشتنی ئاسوودەبەخشی درێژ کە بۆ دوو کەس یان زیاترە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was sprawled on the living-room couch watching TV."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەسەر قەنەفەی دیوەخانەکە ڕاکشابوو سەیری تەلەفیزیۆنی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "couch", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouchs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouchs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was sprawled on the living-room couch watching TV.",
+            kurdishText:
+                "لەسەر قەنەفەی دیوەخانەکە ڕاکشابوو سەیری تەلەفیزیۆنی دەکرد.", // couch", please follow LX instructions
+            onPressedBritish: () => speakcouchs1("en-GB"),
+            onPressedAmerican: () => speakcouchs1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) تەختێکی ڕاکشان کە وەک جێخەوێک وایە و زۆرجار لە ئۆفیسی پزیشکدا ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He spends several hours a week on the dentist's couch."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چەند کاتژمێرێک لە ھەفتەیەلدا بەسەر دەبات لەسەر تەختی پزیشکە ددانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouchs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouchs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He spends several hours a week on the dentist's couch.",
+            kurdishText:
+                "چەند کاتژمێرێک لە ھەفتەیەلدا بەسەر دەبات لەسەر تەختی پزیشکە ددانەکە.",
+            onPressedBritish: () => speakcouchs2("en-GB"),
+            onPressedAmerican: () => speakcouchs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) گوتن یان نووسین بەشێوەیەکی دیاریکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The letter was deliberately couched in very vague terms."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نامەکە بە ئەنقەست نووسرابوو بە دەستەواژەی ناڕوونەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouchs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouchs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The letter was deliberately couched in very vague terms.",
+            kurdishText: "نامەکە بە ئەنقەست نووسرابوو بە دەستەواژەی ناڕوونەوە.",
+            onPressedBritish: () => speakcouchs3("en-GB"),
+            onPressedAmerican: () => speakcouchs3("en-US"),
           ),
         ],
       ),

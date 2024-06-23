@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شتێک کە دەکرێت بۆ شاردنەوەی ھەڵەیەک یان کارێکی نایاسایی لە ڕای گشتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Government sources denied there had been a deliberate coverup."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرچاوەکای حکومەت ڕەتیانکردەوە داپۆشینێکی بەئەنقەست ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "coverup", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverups1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverups1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Government sources denied there had been a deliberate coverup.",
+            kurdishText:
+                "سەرچاوەکای حکومەت ڕەتیانکردەوە داپۆشینێکی بەئەنقەست ھەبێت.", // coverup", please follow LX instructions
+            onPressedBritish: () => speakcoverups1("en-GB"),
+            onPressedAmerican: () => speakcoverups1("en-US"),
           ),
         ],
       ),

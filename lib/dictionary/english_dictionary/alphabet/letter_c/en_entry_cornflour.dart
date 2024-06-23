@@ -103,60 +103,22 @@ class EnglishEntrycornflour extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئاردی سپی گەنمەشامی کە بەکاردێت بۆ ئەوەی شلە خەست بکاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Place the cornflour in a small bowl and gradually stir in the water until smooth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاردی گەنمەشامییەکە بکە دەفرێکەوە و کەم کەم تێکی بدە لە ئاوەکە تاوەکو لووس دەبێت ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cornflour", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcornflours1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcornflours1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Place the cornflour in a small bowl and gradually stir in the water until smooth.",
+                            kurdishText:
+                                "ئاردی گەنمەشامییەکە بکە دەفرێکەوە و کەم کەم تێکی بدە لە ئاوەکە تاوەکو لووس دەبێت .", // cornflour",
+                            onPressedBritish: () => speakcornflours1("en-GB"),
+                            onPressedAmerican: () => speakcornflours1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Stir in the cornflour paste to thicken the sauce."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەویری ئاردە گەنمەشامییەکە تێک بدە بۆ خەستکردنەوەی سۆسەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcornflours2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcornflours2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Stir in the cornflour paste to thicken the sauce.",
+                            kurdishText:
+                                "ھەویری ئاردە گەنمەشامییەکە تێک بدە بۆ خەستکردنەوەی سۆسەکە.",
+                            onPressedBritish: () => speakcornflours2("en-GB"),
+                            onPressedAmerican: () => speakcornflours2("en-US"),
                           ),
                         ],
                       ),

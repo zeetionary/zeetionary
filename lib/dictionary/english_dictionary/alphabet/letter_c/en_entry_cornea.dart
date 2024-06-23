@@ -104,60 +104,22 @@ class EnglishEntrycornea extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چینی درەوەی چاو کە ڕوونە و چاو دادەپۆشێت و دەیپارێزێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cornea is highly sensitive and contains many nerve endings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆرنیا زۆر ھەستیارە و ژمارەیەکی زۆر سەرە دەمار لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cornea", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcorneas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcorneas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cornea is highly sensitive and contains many nerve endings.",
+                            kurdishText:
+                                "کۆرنیا زۆر ھەستیارە و ژمارەیەکی زۆر سەرە دەمار لەخۆدەگرێت.", // cornea",
+                            onPressedBritish: () => speakcorneas1("en-GB"),
+                            onPressedAmerican: () => speakcorneas1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Damage to the cornea can result in blurred vision or other vision problems."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیان گەشتن بە کۆرنیا دەکرێت ببێتە ھۆی بینایی تەڵخ و کێشەکانی دیکەی بینایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcorneas2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcorneas2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Damage to the cornea can result in blurred vision or other vision problems.",
+                            kurdishText:
+                                "زیان گەشتن بە کۆرنیا دەکرێت ببێتە ھۆی بینایی تەڵخ و کێشەکانی دیکەی بینایی.",
+                            onPressedBritish: () => speakcorneas2("en-GB"),
+                            onPressedAmerican: () => speakcorneas2("en-US"),
                           ),
                         ],
                       ),

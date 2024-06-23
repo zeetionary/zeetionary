@@ -123,127 +123,51 @@ class EnglishEntrycoordination extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕێکخستنی بەشە جیاوازەکانی شتێک یان گرووپێک لە خەڵکی بۆ ئەوەی بە ڕێکخراوی کار بکەن پێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The aim was to improve the coordination of services."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانجەکە ئەوە بوو پێکەوەکاری خزمەتگوزارییەکان بەھێز بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coordination", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoordinations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoordinations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The aim was to improve the coordination of services.",
+                            kurdishText:
+                                "ئامانجەکە ئەوە بوو پێکەوەکاری خزمەتگوزارییەکان بەھێز بکرێت.", // coordination",
+                            onPressedBritish: () =>
+                                speakcoordinations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoordinations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The job requires a lot of coordination with others."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکە پێویستی بە ھاوئاھەنگی زۆرە لەگەڵ کەسانی دیکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoordinations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoordinations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The job requires a lot of coordination with others.",
+                            kurdishText:
+                                "کارەکە پێویستی بە ھاوئاھەنگی زۆرە لەگەڵ کەسانی دیکەدا.",
+                            onPressedBritish: () =>
+                                speakcoordinations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoordinations2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's a need for greater coordination between departments."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستییەک بۆ ھاوئاھەنگی زیاتر لە نێوان بەشەکاندا ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoordinations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoordinations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's a need for greater coordination between departments.",
+                            kurdishText:
+                                "پێویستییەک بۆ ھاوئاھەنگی زیاتر لە نێوان بەشەکاندا ھەیە.",
+                            onPressedBritish: () =>
+                                speakcoordinations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoordinations3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) توانای کۆنترۆڵکردنی جوڵەت بە باشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You need good hand-eye coordination to play ball games."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستت بە کۆنترۆڵی باشی دەست و چاوت ھەیە بۆ ئەنجامدانی یارییە تۆپێنەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoordinations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoordinations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You need good hand-eye coordination to play ball games.",
+                            kurdishText:
+                                "پێویستت بە کۆنترۆڵی باشی دەست و چاوت ھەیە بۆ ئەنجامدانی یارییە تۆپێنەکان.",
+                            onPressedBritish: () =>
+                                speakcoordinations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoordinations4("en-US"),
                           ),
                         ],
                       ),

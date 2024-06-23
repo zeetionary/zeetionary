@@ -194,59 +194,21 @@ class EnglishEntrycancer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شێرپەنجە؛ نەخۆشییەکی کوشندە کە تێیدا تۆپەڵە خانە لە لەشێ مرۆڤدا درووست دەبن و خانە ئاساییەکان دەکوژن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most skin cancers are completely curable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی شێرپەنجەی پێست چارەسەر دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cancer", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcancers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcancers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most skin cancers are completely curable.",
+                            kurdishText:
+                                "زۆرینەی شێرپەنجەی پێست چارەسەر دەکرێن.", // cancer
+                            onPressedBritish: () => speakcancers1("en-GB"),
+                            onPressedAmerican: () => speakcancers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cancer has spread to his stomach."),
-                                    ExampleSentenceKurdish(
-                                        text: "شێرپەنجەکە گەشتووە بە گەدەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcancers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcancers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cancer has spread to his stomach.",
+                            kurdishText: "شێرپەنجەکە گەشتووە بە گەدەی.",
+                            onPressedBritish: () => speakcancers2("en-GB"),
+                            onPressedAmerican: () => speakcancers2("en-US"),
                           ),
                           Column(
                             children: [
@@ -319,93 +281,34 @@ class EnglishEntrycancer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شتێکی خراپ کە بە زوویی بڵاودەبێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Violence is a cancer in our society."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توندوتیژی شێرپەنجەیە لە کۆمەڵگاکەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcancers5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcancers5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Violence is a cancer in our society.",
+                            kurdishText:
+                                "توندوتیژی شێرپەنجەیە لە کۆمەڵگاکەمان.",
+                            onPressedBritish: () => speakcancers5("en-GB"),
+                            onPressedAmerican: () => speakcancers5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەلووی قرژاڵ، چوارەم کەلوو لە ناوچەی کەلووەکان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If your birthday is July 10 then your zodiac sign is Cancer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر ڕۆژی لەدایکبوونت ١٠ ی تەممووزە، ئەوا کەلووەکەت قرژاڵە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcancers6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcancers6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If your birthday is July 10 then your zodiac sign is Cancer.",
+                            kurdishText:
+                                "ئەگەر ڕۆژی لەدایکبوونت ١٠ ی تەممووزە، ئەوا کەلووەکەت قرژاڵە.",
+                            onPressedBritish: () => speakcancers6("en-GB"),
+                            onPressedAmerican: () => speakcancers6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) کەسێک کە لە دایکبووی نێوان ٢٢ ی حوزەیران و ٢٢ ی تەمووزە و کەلووەکەی قرژاڵە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "My baby is a Cancer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکەم سەر بە کەلووی قرژاڵە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcancers7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcancers7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My baby is a Cancer.",
+                            kurdishText: "منداڵەکەم سەر بە کەلووی قرژاڵە.",
+                            onPressedBritish: () => speakcancers7("en-GB"),
+                            onPressedAmerican: () => speakcancers7("en-US"),
                           ),
                         ],
                       ),

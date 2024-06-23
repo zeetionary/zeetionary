@@ -104,67 +104,29 @@ class EnglishEntrycontamination extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پڕۆسە یان کاری پیسکردنی شتێک بە زیادکردنی مادەیەکی پیس یان یەکێک کە نەخۆشی ھەڵدەگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Environmental contamination resulting from human activities is a major health concern."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیسبوونی ژینگەیی بەھۆی چالاکییەکانی مرۆڤەوە نیگەرانییەنی تەندرووستی گرنگە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contamination", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontaminations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontaminations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Environmental contamination resulting from human activities is a major health concern.",
+                            kurdishText:
+                                "پیسبوونی ژینگەیی بەھۆی چالاکییەکانی مرۆڤەوە نیگەرانییەنی تەندرووستی گرنگە.", // contamination",
+                            onPressedBritish: () =>
+                                speakcontaminations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontaminations1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دانانی کاریگەری خراپ لەسەر بیرۆکە و ھەلسوکەوتی خەڵکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They feared cultural contamination from the influx of tourists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تێکچوونی کەلتووری دەترسان بەھۆی ژمارەی زۆری گەشتیارەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontaminations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontaminations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They feared cultural contamination from the influx of tourists.",
+                            kurdishText:
+                                "لە تێکچوونی کەلتووری دەترسان بەھۆی ژمارەی زۆری گەشتیارەوە.",
+                            onPressedBritish: () =>
+                                speakcontaminations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontaminations2("en-US"),
                           ),
                         ],
                       ),

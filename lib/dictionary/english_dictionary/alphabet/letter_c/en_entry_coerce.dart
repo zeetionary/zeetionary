@@ -110,88 +110,30 @@ class EnglishEntrycoerce extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) زۆرکردن لە کەسێک بۆ ئەوەی شتێک بکات بە بەکارھێنانی ھەڕەشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She hadn’t coerced him in any way."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ھیچ شێوەیەک زۆری لێ نەکردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coerce", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoerces1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoerces1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She hadn’t coerced him in any way.",
+                            kurdishText:
+                                "بە ھیچ شێوەیەک زۆری لێ نەکردبوو.", // coerce",
+                            onPressedBritish: () => speakcoerces1("en-GB"),
+                            onPressedAmerican: () => speakcoerces1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were coerced into negotiating a settlement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناچارکران بە دانووستان لەسەر ڕێککەوتنێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoerces2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoerces2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were coerced into negotiating a settlement.",
+                            kurdishText:
+                                "ناچارکران بە دانووستان لەسەر ڕێککەوتنێک.",
+                            onPressedBritish: () => speakcoerces2("en-GB"),
+                            onPressedAmerican: () => speakcoerces2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They tried to coerce him to sign away his rights."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵیان دا زۆری لێ بکەن دەستبەرداری مافەکانی بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoerces3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoerces3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They tried to coerce him to sign away his rights.",
+                            kurdishText:
+                                "ھەوڵیان دا زۆری لێ بکەن دەستبەرداری مافەکانی بێت.",
+                            onPressedBritish: () => speakcoerces3("en-GB"),
+                            onPressedAmerican: () => speakcoerces3("en-US"),
                           ),
                         ],
                       ),

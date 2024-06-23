@@ -194,90 +194,33 @@ class EnglishEntrycapability extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) توانای پێویست بۆ کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has the capability to become a very fine doctor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانستی ھەیە ببێت بە دکتۆرێکی زۆر باش."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capability", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapabilitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapabilitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has the capability to become a very fine doctor.",
+                            kurdishText:
+                                "توانستی ھەیە ببێت بە دکتۆرێکی زۆر باش.", // capability
+                            onPressedBritish: () => speakcapabilitys1("en-GB"),
+                            onPressedAmerican: () => speakcapabilitys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Animals in the zoo have lost the capability of catching food for themselves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاژەڵانی باخچەی ئاژەڵان توانای گرتنی خواردنیان بۆ خۆیان لەدەستداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapabilitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapabilitys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Animals in the zoo have lost the capability of catching food for themselves.",
+                            kurdishText:
+                                "ئاژەڵانی باخچەی ئاژەڵان توانای گرتنی خواردنیان بۆ خۆیان لەدەستداوە.",
+                            onPressedBritish: () => speakcapabilitys2("en-GB"),
+                            onPressedAmerican: () => speakcapabilitys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) چەک و توانای سەربازی وڵاتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several countries are trying to develop a nuclear capability."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک وڵات ھەوڵ دەدەن توانای چەکی ئەتۆمییان ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapabilitys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapabilitys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several countries are trying to develop a nuclear capability.",
+                            kurdishText:
+                                "ژمارەیەک وڵات ھەوڵ دەدەن توانای چەکی ئەتۆمییان ھەبێت.",
+                            onPressedBritish: () => speakcapabilitys3("en-GB"),
+                            onPressedAmerican: () => speakcapabilitys3("en-US"),
                           ),
                         ],
                       ),

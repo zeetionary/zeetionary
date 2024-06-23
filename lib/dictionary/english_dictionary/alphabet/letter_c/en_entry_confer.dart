@@ -104,63 +104,25 @@ class EnglishEntryconfer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) باسکردنی شتێک لەگەڵ کەسێک، بەتایبەتی بۆ گۆڕینەوەی بیروڕا، یان وەرگرتنی ڕاوێژ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wanted to confer with his colleagues before reaching a decision."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیویست ڕاوێژ لەگەڵ ھاوکارەکانی بکات پێش گەشتن بە بڕیارێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confer", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wanted to confer with his colleagues before reaching a decision.",
+                            kurdishText:
+                                "دەیویست ڕاوێژ لەگەڵ ھاوکارەکانی بکات پێش گەشتن بە بڕیارێک.", // confer",
+                            onPressedBritish: () => speakconfers1("en-GB"),
+                            onPressedAmerican: () => speakconfers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) پێدانی خەڵاتێک، بڕوانامەی زانکۆ، یان ڕێزلێنان بە کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An honorary degree was conferred on him by Oxford University in 2019."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕوانامەی ڕێزلێنانی پێدرا لەلایەن ئۆکسفۆردەوە لە ساڵی ٢٠١٩ ـدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An honorary degree was conferred on him by Oxford University in 2019.",
+                            kurdishText:
+                                "بڕوانامەی ڕێزلێنانی پێدرا لەلایەن ئۆکسفۆردەوە لە ساڵی ٢٠١٩ ـدا.",
+                            onPressedBritish: () => speakconfers2("en-GB"),
+                            onPressedAmerican: () => speakconfers2("en-US"),
                           ),
                         ],
                       ),

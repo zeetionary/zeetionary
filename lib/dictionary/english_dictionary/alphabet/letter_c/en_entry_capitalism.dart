@@ -190,60 +190,22 @@ class EnglishEntrycapitalism extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سەرمایەداری؛ سیستەمێکی حکومڕانی ئابووری کە تێیدا پیشەسازی و بازرگانیی وڵاتێک کۆنترۆڵکراوە و بەڕێوە دەبردرێت بۆ قازانج لەلایەن خاوەنەکانیانەوە وەک لە حکومەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She deplored unbridled capitalism as much as communism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێندەی کۆمیونیزم ڕقی لە سەرمایەداریی بێ‌جڵەو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capitalism", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitalisms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitalisms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She deplored unbridled capitalism as much as communism.",
+                            kurdishText:
+                                "ھێندەی کۆمیونیزم ڕقی لە سەرمایەداریی بێ‌جڵەو بوو.", // capitalism
+                            onPressedBritish: () => speakcapitalisms1("en-GB"),
+                            onPressedAmerican: () => speakcapitalisms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She said that capitalism was devastating the environment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتی کەوا سەرمایەداری ژینگە وێران دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitalisms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitalisms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She said that capitalism was devastating the environment.",
+                            kurdishText:
+                                "وتی کەوا سەرمایەداری ژینگە وێران دەکات.",
+                            onPressedBritish: () => speakcapitalisms2("en-GB"),
+                            onPressedAmerican: () => speakcapitalisms2("en-US"),
                           ),
                         ],
                       ),

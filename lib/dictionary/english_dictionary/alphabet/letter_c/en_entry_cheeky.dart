@@ -94,30 +94,12 @@ class EnglishEntrycheeky extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بێ‌شەرم بەشێوەیەکی بێزارکەرانە یان بە گاڵتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You're getting far too cheeky!"),
-                                    ExampleSentenceKurdish(
-                                        text: "خەریکە زۆر بێ‌شەرم دەبیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheeky", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheekys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheekys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You're getting far too cheeky!",
+                            kurdishText:
+                                "خەریکە زۆر بێ‌شەرم دەبیت.", // cheeky",
+                            onPressedBritish: () => speakcheekys1("en-GB"),
+                            onPressedAmerican: () => speakcheekys1("en-US"),
                           ),
                         ],
                       ),

@@ -119,120 +119,43 @@ class EnglishEntryclout extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) دەسەڵات و کاریگەری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I knew his opinion carried a lot of clout with them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمزانی بۆچوونی کاریگەری زۆری ھەیە لەسەریان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clout", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I knew his opinion carried a lot of clout with them.",
+                            kurdishText:
+                                "دەمزانی بۆچوونی کاریگەری زۆری ھەیە لەسەریان.", // clout",
+                            onPressedBritish: () => speakclouts1("en-GB"),
+                            onPressedAmerican: () => speakclouts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The companies used their clout to influence policy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکان دەسەڵاتیان بەکارھێنا بۆ کاریگەری لەسەر سیاسەتەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The companies used their clout to influence policy.",
+                            kurdishText:
+                                "کۆمپانیاکان دەسەڵاتیان بەکارھێنا بۆ کاریگەری لەسەر سیاسەتەکان.",
+                            onPressedBritish: () => speakclouts2("en-GB"),
+                            onPressedAmerican: () => speakclouts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) لێدانێکی توند بە مشت یان بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gives the ball an almighty clout."),
-                                    ExampleSentenceKurdish(
-                                        text: "لێدانێکی بەھێزی لە تۆپەکە دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He gives the ball an almighty clout.",
+                            kurdishText: "لێدانێکی بەھێزی لە تۆپەکە دا.",
+                            onPressedBritish: () => speakclouts3("en-GB"),
+                            onPressedAmerican: () => speakclouts3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) لێدان لە کەسێک بە توندی، بەتایبەتی بە دەست"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Something clouted me on the left shoulder."),
-                                    ExampleSentenceKurdish(
-                                        text: "شتێک کێشای بە شانی چەپمدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclouts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclouts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Something clouted me on the left shoulder.",
+                            kurdishText: "شتێک کێشای بە شانی چەپمدا.",
+                            onPressedBritish: () => speakclouts4("en-GB"),
+                            onPressedAmerican: () => speakclouts4("en-US"),
                           ),
                         ],
                       ),

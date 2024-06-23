@@ -102,59 +102,21 @@ class EnglishEntryconsuming extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھێندە بەھێز کە ھەموو ھێز و توانات دەبات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They both had a consuming interest in cricket."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردووکیان حەزێکی بەھێزیان بۆ کریکت ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consuming", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsumings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsumings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They both had a consuming interest in cricket.",
+                            kurdishText:
+                                "ھەردووکیان حەزێکی بەھێزیان بۆ کریکت ھەبوو.", // consuming",
+                            onPressedBritish: () => speakconsumings1("en-GB"),
+                            onPressedAmerican: () => speakconsumings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Running is a consuming passion with him."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕاکردن حەزێکی بەھێزە لای."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsumings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsumings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Running is a consuming passion with him.",
+                            kurdishText: "ڕاکردن حەزێکی بەھێزە لای.",
+                            onPressedBritish: () => speakconsumings2("en-GB"),
+                            onPressedAmerican: () => speakconsumings2("en-US"),
                           ),
                         ],
                       ),

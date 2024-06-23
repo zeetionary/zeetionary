@@ -94,32 +94,13 @@ class EnglishEntrycompiler extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە شتێک کۆدەکاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dictionary compiler researched the meanings of words."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆکەرەوەی فەرھەنگەکە لێکۆڵینەوەی لە واتای وشەکان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compiler", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompilers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompilers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dictionary compiler researched the meanings of words.",
+                            kurdishText:
+                                "کۆکەرەوەی فەرھەنگەکە لێکۆڵینەوەی لە واتای وشەکان کرد.", // compiler",
+                            onPressedBritish: () => speakcompilers1("en-GB"),
+                            onPressedAmerican: () => speakcompilers1("en-US"),
                           ),
                         ],
                       ),

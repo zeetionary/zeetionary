@@ -242,61 +242,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئامێرێکی میوزیکی کە وەک زوڕنا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She learned to play the cornet in her school band."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فێری ژەنینی کۆرنێت بوو لە باندی قوتابخانەکەیەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cornet", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcornets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcornets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She learned to play the cornet in her school band.",
+            kurdishText:
+                "فێری ژەنینی کۆرنێت بوو لە باندی قوتابخانەکەیەوە.", // cornet", please follow LX instructions
+            onPressedBritish: () => speakcornets1("en-GB"),
+            onPressedAmerican: () => speakcornets1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) بسکیتی ئایس کریم"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She ordered a scoop of vanilla ice cream in a cone."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داوای کەوچکێکی ئایس کریمی ڤانێلای کرد لە بسکیتێکدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcornets2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcornets2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She ordered a scoop of vanilla ice cream in a cone.",
+            kurdishText: "داوای کەوچکێکی ئایس کریمی ڤانێلای کرد لە بسکیتێکدا.",
+            onPressedBritish: () => speakcornets2("en-GB"),
+            onPressedAmerican: () => speakcornets2("en-US"),
           ),
         ],
       ),

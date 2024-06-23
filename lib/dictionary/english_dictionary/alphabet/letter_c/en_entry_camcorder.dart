@@ -193,32 +193,13 @@ class EnglishEntrycamcorder extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کامێرایەکی ڤیدیۆیی کە وێنە و دەنگ تۆمار دەکات و دەستییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He captured the family vacation memories using his camcorder."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یادەوەرییەکانی گەشتە خێزانییەکەی بە کامێرا دەستییەکەی وێنە گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "camcorder", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamcorders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamcorders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He captured the family vacation memories using his camcorder.",
+                            kurdishText:
+                                "یادەوەرییەکانی گەشتە خێزانییەکەی بە کامێرا دەستییەکەی وێنە گرت.", // camcorder
+                            onPressedBritish: () => speakcamcorders1("en-GB"),
+                            onPressedAmerican: () => speakcamcorders1("en-US"),
                           ),
                         ],
                       ),

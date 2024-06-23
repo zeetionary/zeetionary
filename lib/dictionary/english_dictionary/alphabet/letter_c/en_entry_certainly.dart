@@ -189,91 +189,33 @@ class EnglishEntrycertainly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بێ گومان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Without treatment, she will almost certainly die."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێ چارەسەر، بە ئەگەری زۆرەوە دەمرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "certainly", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertainlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertainlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Without treatment, she will almost certainly die.",
+                            kurdishText:
+                                "بێ چارەسەر، بە ئەگەری زۆرەوە دەمرێت.", // certainly",
+                            onPressedBritish: () => speakcertainlys1("en-GB"),
+                            onPressedAmerican: () => speakcertainlys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm certainly never going there again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە دڵنیایی‌یەوە ئیتر ناچمەوە ئەوێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertainlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertainlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm certainly never going there again.",
+                            kurdishText: "بە دڵنیایی‌یەوە ئیتر ناچمەوە ئەوێ.",
+                            onPressedBritish: () => speakcertainlys2("en-GB"),
+                            onPressedAmerican: () => speakcertainlys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) لە وەڵامی پرسیاردا بەکاردێت بۆ وتنی ئەوەی بە دڵنیاییەوە ڕازیت یان شتێک دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘May I see your passport, Mr Scott?’ ‘Certainly.’"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "'دەکرێت پاسپۆرتەکەم ببینم، بەڕێز سکۆت' 'بە دڵنیاییەوە'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcertainlys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcertainlys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘May I see your passport, Mr Scott?’ ‘Certainly.’",
+                            kurdishText:
+                                "'دەکرێت پاسپۆرتەکەم ببینم، بەڕێز سکۆت' 'بە دڵنیاییەوە'.",
+                            onPressedBritish: () => speakcertainlys3("en-GB"),
+                            onPressedAmerican: () => speakcertainlys3("en-US"),
                           ),
                         ],
                       ),

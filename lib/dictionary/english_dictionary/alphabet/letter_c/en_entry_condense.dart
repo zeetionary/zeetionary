@@ -110,94 +110,37 @@ class EnglishEntrycondense extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) گۆڕینی دۆخی گازی بۆ دۆخی شلی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Steam condenses into water when it cools."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵم دەبێت بە ئاو کە سارد دەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "condense", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondenses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondenses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Steam condenses into water when it cools.",
+                            kurdishText:
+                                "ھەڵم دەبێت بە ئاو کە سارد دەبێتەوە.", // condense",
+                            onPressedBritish: () => speakcondenses1("en-GB"),
+                            onPressedAmerican: () => speakcondenses1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) چڕکردن یان خەستکردنی شلە بە سڕینەوەی بەشێک لە ئاوەکەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Condense the soup by boiling it for several minutes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆرباکە خەست بکەوە بە کوڵاندنی بۆ چەند خولەکێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondenses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondenses2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Condense the soup by boiling it for several minutes.",
+                            kurdishText:
+                                "شۆرباکە خەست بکەوە بە کوڵاندنی بۆ چەند خولەکێک.",
+                            onPressedBritish: () => speakcondenses2("en-GB"),
+                            onPressedAmerican: () => speakcondenses2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) کورتکردنەوەی شتێک، بۆ نموونە پارچە نووسراوێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The article was condensed into just two pages."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکە بۆ تەنھا سوو پەڕە کورتکرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondenses3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondenses3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The article was condensed into just two pages.",
+                            kurdishText:
+                                "وتارەکە بۆ تەنھا سوو پەڕە کورتکرایەوە.",
+                            onPressedBritish: () => speakcondenses3("en-GB"),
+                            onPressedAmerican: () => speakcondenses3("en-US"),
                           ),
                         ],
                       ),

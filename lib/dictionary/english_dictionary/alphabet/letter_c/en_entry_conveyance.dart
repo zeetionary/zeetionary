@@ -113,93 +113,36 @@ class EnglishEntryconveyance extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پڕۆسەی گواستنەوەی کەس یان شت لە شوێنێکەوە بۆ شوێنێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The conveyance of goods by rail is often preferred for long-distance transportation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گواستنەوەی کەلوپەل بە شەمەندەفەر زۆرجار بە باشتر دادەنرێت بۆ گواستنەوەی دوور مەودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conveyance", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconveyances1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconveyances1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The conveyance of goods by rail is often preferred for long-distance transportation.",
+                            kurdishText:
+                                "گواستنەوەی کەلوپەل بە شەمەندەفەر زۆرجار بە باشتر دادەنرێت بۆ گواستنەوەی دوور مەودا.", // conveyance",
+                            onPressedBritish: () => speakconveyances1("en-GB"),
+                            onPressedAmerican: () => speakconveyances1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ئامرازێکی گوێزەرەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Horse-drawn conveyances were an integral part of daily life in the 19th century."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێزەرەوە ئەسپیەکان بەشێوەکی گرنگی ژیانی ڕۆژانە بوون لە سەدەی ١٩ ـدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconveyances2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconveyances2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Horse-drawn conveyances were an integral part of daily life in the 19th century.",
+                            kurdishText:
+                                "گوێزەرەوە ئەسپیەکان بەشێوەکی گرنگی ژیانی ڕۆژانە بوون لە سەدەی ١٩ ـدا.",
+                            onPressedBritish: () => speakconveyances2("en-GB"),
+                            onPressedAmerican: () => speakconveyances2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بەڵگەنامەیەک کە خاوەندارێتی سامانێک لە کەسێکەوە بۆ کەسێکی دیکە دەگوێزێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The lawyer was asked to draw up a conveyance for the sale of the property."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارێزەرەکە داوای لێکرا ڕاگوێستن‌نامەیەک بنووسێت بۆ فرۆشتنی زەوییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconveyances3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconveyances3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The lawyer was asked to draw up a conveyance for the sale of the property.",
+                            kurdishText:
+                                "پارێزەرەکە داوای لێکرا ڕاگوێستن‌نامەیەک بنووسێت بۆ فرۆشتنی زەوییەکە.",
+                            onPressedBritish: () => speakconveyances3("en-GB"),
+                            onPressedAmerican: () => speakconveyances3("en-US"),
                           ),
                         ],
                       ),

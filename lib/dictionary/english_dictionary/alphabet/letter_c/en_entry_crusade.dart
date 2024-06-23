@@ -259,118 +259,41 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەوڵێکی ڕشت و درێژ بۆ بەدەستھێنانی شتێک کە پێتوایە ڕاستە یان وەستاندنی شتێک کە پێتوایە ھەڵەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her moral crusade began in 1963."),
-                    ExampleSentenceKurdish(
-                        text: "ھەڵمەتە ئەخلاقییەکەی لە ساڵی ١٩٦٣ دەستیپێکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crusade", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrusades1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrusades1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her moral crusade began in 1963.",
+            kurdishText:
+                "ھەڵمەتە ئەخلاقییەکەی لە ساڵی ١٩٦٣ دەستیپێکرد.", // crusade", please follow LX instructions
+            onPressedBritish: () => speakcrusades1("en-GB"),
+            onPressedAmerican: () => speakcrusades1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "For 23 years he led a crusade for peace."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ ٢٣ ساڵ ڕابەرایەتی ھەڵمەتێکی بۆ ئاشتی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrusades2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrusades2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "For 23 years he led a crusade for peace.",
+            kurdishText: "بۆ ٢٣ ساڵ ڕابەرایەتی ھەڵمەتێکی بۆ ئاشتی کرد.",
+            onPressedBritish: () => speakcrusades2("en-GB"),
+            onPressedAmerican: () => speakcrusades2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ھەریەک لەو جەنگانەی کە لە فەلەستین ئەنجامدرا لەلایەن مەسیحییەکانەوە دژ بە موسڵمانان لە سەدەکانی ١١، ١٢، ١٣، و ١٧"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The First Crusade was called by Pope Urban II in 1095."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکەم شەڕی خاچپەرستان داواکرا لەلایەن پاپا ئۆربانی دووەم لە ساڵی ١٠٩٥."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrusades3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrusades3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The First Crusade was called by Pope Urban II in 1095.",
+            kurdishText:
+                "یەکەم شەڕی خاچپەرستان داواکرا لەلایەن پاپا ئۆربانی دووەم لە ساڵی ١٠٩٥.",
+            onPressedBritish: () => speakcrusades3("en-GB"),
+            onPressedAmerican: () => speakcrusades3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) ھەوڵدان بۆ بەدەستھێنانی شتێک کە باوەڕت پێی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She crusaded against sex and violence on television."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەباتی کرد دژ بە سێکس و توندوتیژی لەسەر تەلەفیزیۆن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrusades4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrusades4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She crusaded against sex and violence on television.",
+            kurdishText: "خەباتی کرد دژ بە سێکس و توندوتیژی لەسەر تەلەفیزیۆن.",
+            onPressedBritish: () => speakcrusades4("en-GB"),
+            onPressedAmerican: () => speakcrusades4("en-US"),
           ),
         ],
       ),

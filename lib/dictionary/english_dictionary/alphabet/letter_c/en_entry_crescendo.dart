@@ -242,60 +242,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەو ساتەی ژاواژاوێک یان پارچە میوزیکێک لەو پەڕی بەرزییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The music reached a crescendo."),
-                    ExampleSentenceKurdish(text: "میوزیکەکە گەشتە ئەوپەڕی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crescendo", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrescendos1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrescendos1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The music reached a crescendo.",
+            kurdishText:
+                "میوزیکەکە گەشتە ئەوپەڕی.", // crescendo", please follow LX instructions
+            onPressedBritish: () => speakcrescendos1("en-GB"),
+            onPressedAmerican: () => speakcrescendos1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) زیادبوونی جۆش‌وخرۆشی، مەترسی، کردار، ھتد یان ئەو ساتەی زیادکردنەکە ڕوودەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There has been a rising crescendo of violence in the region."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەڵکشکانێکی بەردەوام لە توندوتیژی لە ھەرێمەکە ڕوویداوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrescendos2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrescendos2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There has been a rising crescendo of violence in the region.",
+            kurdishText:
+                "ھەڵکشکانێکی بەردەوام لە توندوتیژی لە ھەرێمەکە ڕوویداوە.",
+            onPressedBritish: () => speakcrescendos2("en-GB"),
+            onPressedAmerican: () => speakcrescendos2("en-US"),
           ),
         ],
       ),

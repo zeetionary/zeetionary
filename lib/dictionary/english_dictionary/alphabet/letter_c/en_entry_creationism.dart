@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) باوەڕی ئەوەی جیھان لەلایەن خوداوە درووستکرا بەو شێوەیەی لە ئینجیلدا باسکراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Some people believe in creationism instead of evolution."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک کەس باوەڕیان بە ئافرێنەری ھەیە وەک لە پەرەسەندن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creationism", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreationisms1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreationisms1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Some people believe in creationism instead of evolution.",
+            kurdishText:
+                "ھەندێک کەس باوەڕیان بە ئافرێنەری ھەیە وەک لە پەرەسەندن.", // creationism", please follow LX instructions
+            onPressedBritish: () => speakcreationisms1("en-GB"),
+            onPressedAmerican: () => speakcreationisms1("en-US"),
           ),
         ],
       ),

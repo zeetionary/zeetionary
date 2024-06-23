@@ -112,94 +112,34 @@ class EnglishEntryconsiderate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) گرنگیدان بە ھەست و سۆزی کەسانی دیکە بۆ ئەوەی بێزاریان نەکەیت؛ میھرەبان و یارمەتیدەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is always polite and considerate towards her employees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە بەڕێز و میھرەبان بووە بەرامبەر کارمەندەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "considerate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsiderates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsiderates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is always polite and considerate towards her employees.",
+                            kurdishText:
+                                "ھەمیشە بەڕێز و میھرەبان بووە بەرامبەر کارمەندەکانی.", // considerate",
+                            onPressedBritish: () => speakconsiderates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsiderates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was very considerate of him to wait."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر لە بیرفراوانیی بوو کە چاوەڕێی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsiderates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsiderates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was very considerate of him to wait.",
+                            kurdishText:
+                                "زۆر لە بیرفراوانیی بوو کە چاوەڕێی کرد.",
+                            onPressedBritish: () => speakconsiderates2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsiderates2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It wasn't very considerate of you to drink all the milk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر لە دڵسۆزیت نەبوو کە ھەموو شیرەکەت خواردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsiderates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsiderates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It wasn't very considerate of you to drink all the milk.",
+                            kurdishText:
+                                "زۆر لە دڵسۆزیت نەبوو کە ھەموو شیرەکەت خواردەوە.",
+                            onPressedBritish: () => speakconsiderates3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsiderates3("en-US"),
                           ),
                         ],
                       ),

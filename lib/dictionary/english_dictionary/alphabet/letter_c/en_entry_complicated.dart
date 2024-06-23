@@ -102,63 +102,24 @@ class EnglishEntrycomplicated extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ئاڵۆز؛ پێکھاتوو لە ژمارەیەکی زۆر بەش"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The instructions look very complicated."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕێنماییەکان زۆر ئاڵۆز دیارن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complicated", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomplicateds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomplicateds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The instructions look very complicated.",
+                            kurdishText:
+                                "ڕێنماییەکان زۆر ئاڵۆز دیارن.", // complicated",
+                            onPressedBritish: () => speakcomplicateds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomplicateds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is where the story gets complicated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە ئەو شوێنەیە کە چیرۆکەکە ئاڵۆز دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomplicateds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomplicateds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is where the story gets complicated.",
+                            kurdishText:
+                                "ئەمە ئەو شوێنەیە کە چیرۆکەکە ئاڵۆز دەبێت.",
+                            onPressedBritish: () => speakcomplicateds2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomplicateds2("en-US"),
                           ),
                         ],
                       ),

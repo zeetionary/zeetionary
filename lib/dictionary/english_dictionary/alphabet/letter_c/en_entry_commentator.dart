@@ -95,34 +95,14 @@ class EnglishEntrycommentator extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە باسی ڕووداوێک دەکات کە ڕوودەدات، بەتایبەتی لەسەر تەلەفیزیۆن یان ڕادیۆ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's one of the great sports commentators of our time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێکە لە شیکەرەوە گەورە وەرزشییەکانی سەردەمەکەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commentator", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommentators1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommentators1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's one of the great sports commentators of our time.",
+                            kurdishText:
+                                "یەکێکە لە شیکەرەوە گەورە وەرزشییەکانی سەردەمەکەمان.", // commentator",
+                            onPressedBritish: () => speakcommentators1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommentators1("en-US"),
                           ),
                         ],
                       ),

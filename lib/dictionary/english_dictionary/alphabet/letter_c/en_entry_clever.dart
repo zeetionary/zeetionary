@@ -176,56 +176,19 @@ class EnglishEntryclever extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) خێرا کە فێربوون و تێگەشتندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Clever girl!"),
-                                    ExampleSentenceKurdish(text: "کچی زرنگ!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clever", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclevers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclevers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Clever girl!",
+                            kurdishText: "کچی زرنگ!", // clever",
+                            onPressedBritish: () => speakclevers1("en-GB"),
+                            onPressedAmerican: () => speakclevers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They're not clever enough to find the code."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھێندە زیرەک نین کۆدەکە بزانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclevers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclevers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They're not clever enough to find the code.",
+                            kurdishText: "ھێندە زیرەک نین کۆدەکە بزانن.",
+                            onPressedBritish: () => speakclevers2("en-GB"),
+                            onPressedAmerican: () => speakclevers2("en-US"),
                           ),
                           Column(
                             children: [
@@ -297,117 +260,39 @@ class EnglishEntryclever extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) ھەبوونی شارەزایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's always been clever at chess."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە لە شەترەنجدا شارەزا بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclevers5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclevers5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's always been clever at chess.",
+                            kurdishText: "ھەمیشە لە شەترەنجدا شارەزا بووە.",
+                            onPressedBritish: () => speakclevers5("en-GB"),
+                            onPressedAmerican: () => speakclevers5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's clever at getting what she wants."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەزایە لە بەدەستخستنی ئەوەی دەیەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclevers6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclevers6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's clever at getting what she wants.",
+                            kurdishText:
+                                "شارەزایە لە بەدەستخستنی ئەوەی دەیەوێت.",
+                            onPressedBritish: () => speakclevers6("en-GB"),
+                            onPressedAmerican: () => speakclevers6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) ھەبوونی زیرەکی یان شارەزایی لە بیرکردنەوە لە بیرۆکەیەک، کێشان و دانانی دیزاینێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "What a clever idea!"),
-                                    ExampleSentenceKurdish(
-                                        text: "چی بیرۆکەیەکی بێ‌وێنەیە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclevers7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclevers7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "What a clever idea!",
+                            kurdishText: "چی بیرۆکەیەکی بێ‌وێنەیە!",
+                            onPressedBritish: () => speakclevers7("en-GB"),
+                            onPressedAmerican: () => speakclevers7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Admitting her mistake may have been quite a clever move on her part."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داننان بە ھەڵەکەی ڕەنگە کردارێکی ئاقڵانە بووبێت لەلایەن ئەوەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclevers8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclevers8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Admitting her mistake may have been quite a clever move on her part.",
+                            kurdishText:
+                                "داننان بە ھەڵەکەی ڕەنگە کردارێکی ئاقڵانە بووبێت لەلایەن ئەوەوە.",
+                            onPressedBritish: () => speakclevers8("en-GB"),
+                            onPressedAmerican: () => speakclevers8("en-US"),
                           ),
                           Column(
                             children: [
@@ -480,30 +365,11 @@ class EnglishEntryclever extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) زوو وەڵامدانەوە بەشێوەیەک کە خەڵکی بێزار دەکات یان ڕێز پیشان نادات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Don't you get clever with me!"),
-                                    ExampleSentenceKurdish(
-                                        text: "زمان درێژ مەبە بەرامبەرم!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclevers11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclevers11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don't you get clever with me!",
+                            kurdishText: "زمان درێژ مەبە بەرامبەرم!",
+                            onPressedBritish: () => speakclevers11("en-GB"),
+                            onPressedAmerican: () => speakclevers11("en-US"),
                           ),
                         ],
                       ),

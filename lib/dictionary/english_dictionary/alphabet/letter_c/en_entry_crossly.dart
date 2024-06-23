@@ -240,54 +240,19 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) خوێنتاڵانە؛ بە بێزاری یان کەمێک تووڕەیی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "\"Of course not,\" he denied crossly."),
-                    ExampleSentenceKurdish(
-                        text: "'بە دڵنیاییەوە نا،' بە تووڕەییەوە گوتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crossly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosslys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosslys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "\"Of course not,\" he denied crossly.",
+            kurdishText:
+                "'بە دڵنیاییەوە نا،' بە تووڕەییەوە گوتی.", // crossly", please follow LX instructions
+            onPressedBritish: () => speakcrosslys1("en-GB"),
+            onPressedAmerican: () => speakcrosslys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She glanced at him crossly."),
-                    ExampleSentenceKurdish(text: "بە تووڕەییەوە لێی دەڕوانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosslys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosslys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She glanced at him crossly.",
+            kurdishText: "بە تووڕەییەوە لێی دەڕوانی.",
+            onPressedBritish: () => speakcrosslys2("en-GB"),
+            onPressedAmerican: () => speakcrosslys2("en-US"),
           ),
         ],
       ),

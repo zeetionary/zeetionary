@@ -151,60 +151,22 @@ class EnglishEntryconfident extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەستی متمانەیی بە تواناکانی خۆت و ئەوەی سەرکەوتوو بیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was in a relaxed, confident mood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کەشێکی ئاسوودە و باوەڕبەخۆیی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confident", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfidents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfidents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was in a relaxed, confident mood.",
+                            kurdishText:
+                                "لە کەشێکی ئاسوودە و باوەڕبەخۆیی بوو.", // confident",
+                            onPressedBritish: () => speakconfidents1("en-GB"),
+                            onPressedAmerican: () => speakconfidents1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The teacher wants the children to feel confident about asking questions when they don't understand."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستاکە لە منداڵەکانی دەوێت ھەست بە باوەڕبەخۆیی بکەن سەبارەت بە پرسیارکردن کە تێناگەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfidents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfidents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The teacher wants the children to feel confident about asking questions when they don't understand.",
+                            kurdishText:
+                                "مامۆستاکە لە منداڵەکانی دەوێت ھەست بە باوەڕبەخۆیی بکەن سەبارەت بە پرسیارکردن کە تێناگەن.",
+                            onPressedBritish: () => speakconfidents2("en-GB"),
+                            onPressedAmerican: () => speakconfidents2("en-US"),
                           ),
                           Column(
                             children: [
@@ -307,115 +269,34 @@ class EnglishEntryconfident extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) دڵنیایی لەوەی شتێک ڕوودەدات بەو شێوەیەی کە دەتەوێت یان پێشبینی دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Democrats were confident of victory."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیموکراتەکان لە سەرکەوتن دڵنیابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfidents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfidents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Democrats were confident of victory.",
+                            kurdishText: "دیموکراتەکان لە سەرکەوتن دڵنیابوون.",
+                            onPressedBritish: () => speakconfidents2("en-GB"),
+                            onPressedAmerican: () => speakconfidents2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team feels confident of winning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە متمانەی بە بردنەوە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfidents6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfidents6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The team feels confident of winning.",
+                            kurdishText: "تیمەکە متمانەی بە بردنەوە ھەیە.",
+                            onPressedBritish: () => speakconfidents6("en-GB"),
+                            onPressedAmerican: () => speakconfidents6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are confident about the future."),
-                                    ExampleSentenceKurdish(
-                                        text: "گەشبینین بە داھاتوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfidents7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfidents7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We are confident about the future.",
+                            kurdishText: "گەشبینین بە داھاتوو.",
+                            onPressedBritish: () => speakconfidents7("en-GB"),
+                            onPressedAmerican: () => speakconfidents7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm confident that you will get the job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشبینم بەوەی کارەکە وەردەگریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfidents8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfidents8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm confident that you will get the job.",
+                            kurdishText: "گەشبینم بەوەی کارەکە وەردەگریت.",
+                            onPressedBritish: () => speakconfidents8("en-GB"),
+                            onPressedAmerican: () => speakconfidents8("en-US"),
                           ),
                         ],
                       ),

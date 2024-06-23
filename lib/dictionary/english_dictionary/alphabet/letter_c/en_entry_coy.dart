@@ -249,82 +249,28 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) شەرمن یان خۆدەرخەستن بەو شێوەیە، بەتایبەتی پەیوەندیدار بە خۆشەویستی و سێکس"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She gave me a coy smile."),
-                    ExampleSentenceKurdish(text: "بزەیەکی شەرمنانەی لێکردم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "coy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She gave me a coy smile.",
+            kurdishText:
+                "بزەیەکی شەرمنانەی لێکردم.", // coy", please follow LX instructions
+            onPressedBritish: () => speakcoys1("en-GB"),
+            onPressedAmerican: () => speakcoys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She gave him a rather coy look."),
-                    ExampleSentenceKurdish(text: "نیگایەکی شەرمنانەی لێمکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She gave him a rather coy look.",
+            kurdishText: "نیگایەکی شەرمنانەی لێمکرد.",
+            onPressedBritish: () => speakcoys2("en-GB"),
+            onPressedAmerican: () => speakcoys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) نەدانی زانیاریی زۆر دەربارەی شتێک یان خۆت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company is coy about revealing its profits."),
-                    ExampleSentenceKurdish(
-                        text: "کۆمپانیاکە زمان‌پارێزە دەربارەی قازانجەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The company is coy about revealing its profits.",
+            kurdishText: "کۆمپانیاکە زمان‌پارێزە دەربارەی قازانجەکانی.",
+            onPressedBritish: () => speakcoys3("en-GB"),
+            onPressedAmerican: () => speakcoys3("en-US"),
           ),
         ],
       ),

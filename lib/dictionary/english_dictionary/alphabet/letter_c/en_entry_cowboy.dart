@@ -258,113 +258,38 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە سواری ئەسپێک دەکات و کاری ئەوەیە کە ئاگای لە گاگەلێک بێت لە بەشی ڕۆژئاوای ئەمریکا؛ یان کارەکتەرێکی وا کە لە فیلمێکدا پیشان دەدرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was wearing jeans and cowboy boots."),
-                    ExampleSentenceKurdish(
-                        text: "کابۆ و پووتی گالەوەڕێنی لەبەرکردبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cowboy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowboys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowboys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was wearing jeans and cowboy boots.",
+            kurdishText:
+                "کابۆ و پووتی گالەوەڕێنی لەبەرکردبوو.", // cowboy", please follow LX instructions
+            onPressedBritish: () => speakcowboys1("en-GB"),
+            onPressedAmerican: () => speakcowboys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I don't much like cowboy films."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر حەزم بە فیلمی کاوبۆی نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowboys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowboys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I don't much like cowboy films.",
+            kurdishText: "زۆر حەزم بە فیلمی کاوبۆی نییە.",
+            onPressedBritish: () => speakcowboys2("en-GB"),
+            onPressedAmerican: () => speakcowboys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They employed ten or twelve cowboys."),
-                    ExampleSentenceKurdish(
-                        text: "دە بۆ دوازدە گاوانیان بەکرێ گرتبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowboys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowboys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They employed ten or twelve cowboys.",
+            kurdishText: "دە بۆ دوازدە گاوانیان بەکرێ گرتبوو.",
+            onPressedBritish: () => speakcowboys3("en-GB"),
+            onPressedAmerican: () => speakcowboys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک کە سەرڕاست نییە و کار بە خراپی دەکات یان پارەی زۆر وەردەگرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Those builders are a bunch of cowboys - they didn't finish the job on time."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو بنیاتنەرانە ژمارەیەک قۆڵبڕ بوون، کارەکەیان لە کاتی خۆیدا تەواو نەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowboys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowboys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Those builders are a bunch of cowboys - they didn't finish the job on time.",
+            kurdishText:
+                "ئەو بنیاتنەرانە ژمارەیەک قۆڵبڕ بوون، کارەکەیان لە کاتی خۆیدا تەواو نەکرد.",
+            onPressedBritish: () => speakcowboys4("en-GB"),
+            onPressedAmerican: () => speakcowboys4("en-US"),
           ),
         ],
       ),

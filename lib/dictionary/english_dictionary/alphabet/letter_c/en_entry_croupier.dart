@@ -234,32 +234,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە لە قومارخانە بەرپرسی یارییەکە و پارە وەردەگرێت و دەبەخشێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He trained for months to become a skilled croupier."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ چەندین ڕاھێنانی کرد بۆ بوون بە میزگێڕێکی شارەزا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "croupier", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcroupiers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcroupiers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He trained for months to become a skilled croupier.",
+            kurdishText:
+                "بۆ چەندین ڕاھێنانی کرد بۆ بوون بە میزگێڕێکی شارەزا.", // croupier", please follow LX instructions
+            onPressedBritish: () => speakcroupiers1("en-GB"),
+            onPressedAmerican: () => speakcroupiers1("en-US"),
           ),
         ],
       ),

@@ -95,34 +95,15 @@ class EnglishEntrychimneysweep extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە ناو دووکەڵ‌کێش پاک دەکاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He hired a chimney sweep to inspect and clean the chimney before winter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووکەڵکێش‌سڕێکی گرت بۆ ئەوەی دووکەڵ‌کێشەکە بپشکنێت و پاکی بکاتەوە پێش زستان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chimney sweep", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchimneysweeps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchimneysweeps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He hired a chimney sweep to inspect and clean the chimney before winter.",
+                            kurdishText:
+                                "دووکەڵکێش‌سڕێکی گرت بۆ ئەوەی دووکەڵ‌کێشەکە بپشکنێت و پاکی بکاتەوە پێش زستان.", // chimney sweep",
+                            onPressedBritish: () =>
+                                speakchimneysweeps1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchimneysweeps1("en-US"),
                           ),
                         ],
                       ),

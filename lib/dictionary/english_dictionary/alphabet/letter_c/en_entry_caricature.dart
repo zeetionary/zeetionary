@@ -193,155 +193,58 @@ class EnglishEntrycaricature extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) وێنەیەک یان وێنەیەکی کێشراوی کەسێک کە وەک گاڵتەجاڕی دەردەکەوێت بە گەورەکردنی ھەندێک ڕووخسار و جەستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the newspaper, a brilliant caricature depicted the mayor with oversized glasses and a hat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕۆژنامەکەدا، کاریکاتێرێکی بلیمەتانە سەرۆک شارەوانییەکەی پیشاندا بە چاویلکەی گەورە کڵاوێکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "caricature", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaricatures1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaricatures1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the newspaper, a brilliant caricature depicted the mayor with oversized glasses and a hat.",
+                            kurdishText:
+                                "لە ڕۆژنامەکەدا، کاریکاتێرێکی بلیمەتانە سەرۆک شارەوانییەکەی پیشاندا بە چاویلکەی گەورە کڵاوێکەوە.", // caricature",
+                            onPressedBritish: () => speakcaricatures1("en-GB"),
+                            onPressedAmerican: () => speakcaricatures1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پێناسەیەکی کەسێک یان شتێک کە بە گاڵتەجاڕانە پیشانیان دەدات بە جەنختکردنەوە لە بەشێک لە خاسیەتەکانیان، یان پیشاندانی تەنھا بەشێک لە خاسیەتەکانیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The film gives a crude caricature of African history."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە کاریکاتێرێکی توندی مێژووی ئەفریقا پیشان دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaricatures2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaricatures2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The film gives a crude caricature of African history.",
+                            kurdishText:
+                                "فیلمەکە کاریکاتێرێکی توندی مێژووی ئەفریقا پیشان دەدات.",
+                            onPressedBritish: () => speakcaricatures2("en-GB"),
+                            onPressedAmerican: () => speakcaricatures2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەسێک کە خۆی گاڵتەجاڕانە پیشان دەدات بە پیشاندانی زۆری بەشێک لە خاسیەتەکانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two stars had become caricatures."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو ئەستێرەکە بووبوون بە ئەکتەری گاڵتەجاڕ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaricatures3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaricatures3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two stars had become caricatures.",
+                            kurdishText:
+                                "دوو ئەستێرەکە بووبوون بە ئەکتەری گاڵتەجاڕ.",
+                            onPressedBritish: () => speakcaricatures3("en-GB"),
+                            onPressedAmerican: () => speakcaricatures3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ھونەری نووسین و کێشانی کاریکاتێر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The portrait verged on caricature."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆرترەیتەکە لە کاریکاتێر دەچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaricatures4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaricatures4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The portrait verged on caricature.",
+                            kurdishText: "پۆرترەیتەکە لە کاریکاتێر دەچوو.",
+                            onPressedBritish: () => speakcaricatures4("en-GB"),
+                            onPressedAmerican: () => speakcaricatures4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) کێشانی کاریکاتێری کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was unfairly caricatured as a dumb blonde."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە نادادیانە وەک قژ زەردێکی گەوج کاریکاتێری کێشرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaricatures5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaricatures5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was unfairly caricatured as a dumb blonde.",
+                            kurdishText:
+                                "بە نادادیانە وەک قژ زەردێکی گەوج کاریکاتێری کێشرا.",
+                            onPressedBritish: () => speakcaricatures5("en-GB"),
+                            onPressedAmerican: () => speakcaricatures5("en-US"),
                           ),
                         ],
                       ),

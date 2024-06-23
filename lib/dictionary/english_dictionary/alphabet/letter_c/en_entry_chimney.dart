@@ -101,60 +101,20 @@ class EnglishEntrychimney extends StatelessWidget {
 کوردی: دووکەڵ‌کێش، لووجن، بوغاری، ڕۆژینگ، قۆڵەدووکەڵ، لوولەدووکەڵ، باکێش، باجە، کونەباجە،	کونی پیاھەڵچوون یان سەرکەوتن، دووڵەک‌کێش یان بوغاری بەردین (لە شاخەوانی‌دا)،	شووشە چرا، شووشە لامپا، قۆڵ یان لوولەی چرا یان لامپا
 """),
                           const DefinitionKurdish(text: "١. (ناو) دووکەڵ‌کێش"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He threw a bit of paper onto the fire and it flew up the chimney."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارچە کاغەزێکی خستە ئاگرەکەوە و بە دووکەڵ‌کێشەکەدا بەرزبووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chimney", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchimneys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchimneys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He threw a bit of paper onto the fire and it flew up the chimney.",
+                            kurdishText:
+                                "پارچە کاغەزێکی خستە ئاگرەکەوە و بە دووکەڵ‌کێشەکەدا بەرزبووەوە.", // chimney",
+                            onPressedBritish: () => speakchimneys1("en-GB"),
+                            onPressedAmerican: () => speakchimneys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This chimney doesn’t draw very well."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووکەڵ‌کێشەکە زۆرباش نەفەس ناکێشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchimneys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchimneys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This chimney doesn’t draw very well.",
+                            kurdishText: "دووکەڵ‌کێشەکە زۆرباش نەفەس ناکێشێت.",
+                            onPressedBritish: () => speakchimneys2("en-GB"),
+                            onPressedAmerican: () => speakchimneys2("en-US"),
                           ),
                         ],
                       ),

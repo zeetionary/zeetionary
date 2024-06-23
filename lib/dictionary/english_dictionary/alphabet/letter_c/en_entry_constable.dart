@@ -95,32 +95,13 @@ class EnglishEntryconstable extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەفسەرێکی پۆلیس لە نزمترین پلەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children were taken out of the room by a woman police constable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان لە ژوورەکە بردرانە دەرەوە لەلایەن ژنە پۆلیسێکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constable", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children were taken out of the room by a woman police constable.",
+                            kurdishText:
+                                "منداڵەکان لە ژوورەکە بردرانە دەرەوە لەلایەن ژنە پۆلیسێکەوە.", // constable",
+                            onPressedBritish: () => speakconstables1("en-GB"),
+                            onPressedAmerican: () => speakconstables1("en-US"),
                           ),
                         ],
                       ),

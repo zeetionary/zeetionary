@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) مادەیەکی نەرمی خەست کە درووست دەبێت کاتێک شیر ترش دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She learned how to make curd from her grandmother's recipe."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فێربوو چۆن لۆرک درووست بکات لە ڕەچەتەکەی داپیرەیەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curd", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She learned how to make curd from her grandmother's recipe.",
+            kurdishText:
+                "فێربوو چۆن لۆرک درووست بکات لە ڕەچەتەکەی داپیرەیەوە.", // curd", please follow LX instructions
+            onPressedBritish: () => speakcurds1("en-GB"),
+            onPressedAmerican: () => speakcurds1("en-US"),
           ),
         ],
       ),

@@ -260,115 +260,38 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) دارشەقێک کە لەژێر باڵتی دادەنێیت بۆ ئەوەی ڕێ بکەیت لە دوای ئەوەی لاقت یان پێت بریندار کردووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She can only walk with crutches."),
-                    ExampleSentenceKurdish(
-                        text: "تەنھا بە دارشەق دەتوانێت ڕێ بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crutch", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrutchs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrutchs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She can only walk with crutches.",
+            kurdishText:
+                "تەنھا بە دارشەق دەتوانێت ڕێ بکات.", // crutch", please follow LX instructions
+            onPressedBritish: () => speakcrutchs1("en-GB"),
+            onPressedAmerican: () => speakcrutchs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After the accident I spent six months on crutches."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای ڕووداوەکە شەش مانگم بە دارشەقەوە بەسەربرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrutchs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrutchs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "After the accident I spent six months on crutches.",
+            kurdishText: "لە دوای ڕووداوەکە شەش مانگم بە دارشەقەوە بەسەربرد.",
+            onPressedBritish: () => speakcrutchs2("en-GB"),
+            onPressedAmerican: () => speakcrutchs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک یان شتێک کە زۆرجار یارمەتی و پشتیوانیت پێ دەدات بەڵام وات لێ دەکات زۆر پشتی پێ ببەستیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She uses her work as a psychological crutch."),
-                    ExampleSentenceKurdish(
-                        text: "کارەکەی وەک پەنایەکی دەروونی بەکاردێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrutchs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrutchs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She uses her work as a psychological crutch.",
+            kurdishText: "کارەکەی وەک پەنایەکی دەروونی بەکاردێنێت.",
+            onPressedBritish: () => speakcrutchs3("en-GB"),
+            onPressedAmerican: () => speakcrutchs3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "High interest rates are merely a crutch for the country’s ailing economy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرزی ئاستی سوو تەنھا پاڵپشتییەکە بۆ ئابووری لاوازی وڵاتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrutchs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrutchs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "High interest rates are merely a crutch for the country’s ailing economy.",
+            kurdishText:
+                "بەرزی ئاستی سوو تەنھا پاڵپشتییەکە بۆ ئابووری لاوازی وڵاتەکە.",
+            onPressedBritish: () => speakcrutchs4("en-GB"),
+            onPressedAmerican: () => speakcrutchs4("en-US"),
           ),
           // const DividerDefinition(),
           // Column(

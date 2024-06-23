@@ -201,58 +201,19 @@ class EnglishEntrycapital extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پایتەخت؛ گرنگترین شارۆچکە یان شاری وڵاتێک یان ھەرێمێک کە لێیەوە حکومەت کاردەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Oslo is the capital of Norway."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئۆسلۆ پایتەختی نەرویجە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capital", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Oslo is the capital of Norway.",
+                            kurdishText: "ئۆسلۆ پایتەختی نەرویجە.", // capital
+                            onPressedBritish: () => speakcapitals1("en-GB"),
+                            onPressedAmerican: () => speakcapitals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Rennes is the provincial capital of Brittany."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕینز پایتەختی ھەرێمی بریتانییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Rennes is the provincial capital of Brittany.",
+                            kurdishText: "ڕینز پایتەختی ھەرێمی بریتانییە.",
+                            onPressedBritish: () => speakcapitals2("en-GB"),
+                            onPressedAmerican: () => speakcapitals2("en-US"),
                           ),
                           Column(
                             children: [
@@ -325,180 +286,65 @@ class EnglishEntrycapital extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پیتی گەورە، بۆ نموونە A، B، C، نەک a،b، c"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Please write in capitals."),
-                                    ExampleSentenceKurdish(
-                                        text: "تکایە بە پیتی گەورە بنووسە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitals5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitals5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Please write in capitals.",
+                            kurdishText: "تکایە بە پیتی گەورە بنووسە.",
+                            onPressedBritish: () => speakcapitals5("en-GB"),
+                            onPressedAmerican: () => speakcapitals5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) سەروەت و سامان کە بۆ خستنە سەرمایەوە بەکاردێت، یان بۆ دەستپێکردنی بازرگانییەکی تازە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had various ideas on how to raise capital for the project."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک بیرۆکەی ھەبوو کە چۆن دەسمایە بۆ پڕۆژەکە پەیدا بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitals6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitals6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had various ideas on how to raise capital for the project.",
+                            kurdishText:
+                                "ژمارەیەک بیرۆکەی ھەبوو کە چۆن دەسمایە بۆ پڕۆژەکە پەیدا بکات.",
+                            onPressedBritish: () => speakcapitals6("en-GB"),
+                            onPressedAmerican: () => speakcapitals6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our capital is all tied up in property."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی سەرمایەمان لە زەوی‌وزاردایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitals7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitals7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our capital is all tied up in property.",
+                            kurdishText: "تەواوی سەرمایەمان لە زەوی‌وزاردایە.",
+                            onPressedBritish: () => speakcapitals7("en-GB"),
+                            onPressedAmerican: () => speakcapitals7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) سەرچاوەیەکی بەنرخ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Education creates intellectual capital to convert into economic rewards."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەروەردە سەرنایەیەکی بیرمەندانە درووست دەکات کە دەکرێت بکرێت بە پاداشتی ئابووری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitals8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitals8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Education creates intellectual capital to convert into economic rewards.",
+                            kurdishText:
+                                "پەروەردە سەرنایەیەکی بیرمەندانە درووست دەکات کە دەکرێت بکرێت بە پاداشتی ئابووری.",
+                            onPressedBritish: () => speakcapitals8("en-GB"),
+                            onPressedAmerican: () => speakcapitals8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ھاوەڵناو) پیتێک کە بەشێوەی گەورە نووسراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "English is written with a capital ‘E’."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وشەی English بە پیتی ‘E’ی گەورە دەنووسرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitals9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitals9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "English is written with a capital ‘E’.",
+                            kurdishText:
+                                "وشەی English بە پیتی ‘E’ی گەورە دەنووسرێت.",
+                            onPressedBritish: () => speakcapitals9("en-GB"),
+                            onPressedAmerican: () => speakcapitals9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ھاوەڵناو) سزایەک کە مردنە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In some countries, importing drugs is a capital offence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ژمارەیەک وڵات، ھەناردەکردنی مادەی ھۆشبەر سزای مەرگی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitals10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitals10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In some countries, importing drugs is a capital offence.",
+                            kurdishText:
+                                "لە ژمارەیەک وڵات، ھەناردەکردنی مادەی ھۆشبەر سزای مەرگی ھەیە.",
+                            onPressedBritish: () => speakcapitals10("en-GB"),
+                            onPressedAmerican: () => speakcapitals10("en-US"),
                           ),
                         ],
                       ),

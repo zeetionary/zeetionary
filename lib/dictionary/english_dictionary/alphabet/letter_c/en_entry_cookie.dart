@@ -101,60 +101,22 @@ class EnglishEntrycookie extends StatelessWidget {
 // کوردی:
 // """),
                           const DefinitionKurdish(text: "١. (ناو) بسکیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you eat three good meals a day, you shouldn't need to snack on cookies and crisps."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر سێ ژەم لە ڕۆژێکدا بخۆیت، پێویستت بەوە نییە بسکیت و چبسی پەتاتە بخۆیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cookie", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcookies1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcookies1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you eat three good meals a day, you shouldn't need to snack on cookies and crisps.",
+                            kurdishText:
+                                "ئەگەر سێ ژەم لە ڕۆژێکدا بخۆیت، پێویستت بەوە نییە بسکیت و چبسی پەتاتە بخۆیت.", // cookie",
+                            onPressedBritish: () => speakcookies1("en-GB"),
+                            onPressedAmerican: () => speakcookies1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کەسێکی زیرەک یان جیڕ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She's a smart/tough cookie."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەسێکی زیرەکە/جیڕە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcookies2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcookies2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's a smart/tough cookie.",
+                            kurdishText: "کەسێکی زیرەکە/جیڕە.",
+                            onPressedBritish: () => speakcookies2("en-GB"),
+                            onPressedAmerican: () => speakcookies2("en-US"),
                           ),
                         ],
                       ),

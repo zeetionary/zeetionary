@@ -98,32 +98,13 @@ class EnglishEntrycockpit extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەشی فڕۆکەیەک، بەلەمێک، یان ئۆتۆمبێلێکی پێشبڕکێ کە تێیدا فڕۆکەوان یان شۆفێرەکە دادەنیشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cockpit door was securely locked during the flight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرگای ژووری فڕۆکەوانی بە توندی قوفڵکرا لە ماوەی گەشتەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cockpit", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcockpits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcockpits1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cockpit door was securely locked during the flight.",
+                            kurdishText:
+                                "دەرگای ژووری فڕۆکەوانی بە توندی قوفڵکرا لە ماوەی گەشتەکەدا.", // cockpit",
+                            onPressedBritish: () => speakcockpits1("en-GB"),
+                            onPressedAmerican: () => speakcockpits1("en-US"),
                           ),
                         ],
                       ),

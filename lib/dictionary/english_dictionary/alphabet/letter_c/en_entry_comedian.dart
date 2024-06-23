@@ -103,62 +103,24 @@ class EnglishEntrycomedian extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە خەڵکی دەخاتە پێکەنین بە نمایشی پێکەنیناوی، بۆ نموونە بە گێڕانەوەی نوکتە یان چیرۆک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He started out as a comedian in Liverpool."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک ئەکتەرێکی کۆمیدی لە لیڤەرپوولەوە دەستیپێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comedian", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomedians1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomedians1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He started out as a comedian in Liverpool.",
+                            kurdishText:
+                                "وەک ئەکتەرێکی کۆمیدی لە لیڤەرپوولەوە دەستیپێکرد.", // comedian",
+                            onPressedBritish: () => speakcomedians1("en-GB"),
+                            onPressedAmerican: () => speakcomedians1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کەسێکی گاڵتەجاڕ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The speaker was a bit of a comedian, so it was an amusing session."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قسەکەرەکە کەمێک گاڵتەجاڕ بوو، بۆیە دانیشتنێکی خۆش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomedians2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomedians2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The speaker was a bit of a comedian, so it was an amusing session.",
+                            kurdishText:
+                                "قسەکەرەکە کەمێک گاڵتەجاڕ بوو، بۆیە دانیشتنێکی خۆش بوو.",
+                            onPressedBritish: () => speakcomedians2("en-GB"),
+                            onPressedAmerican: () => speakcomedians2("en-US"),
                           ),
                         ],
                       ),

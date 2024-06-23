@@ -112,88 +112,31 @@ class EnglishEntryconcept extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بیرۆکەیەک یان بنچینەیەک کە پەیوەندیدارە بە شتێکی واتاییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Culture is a fairly nebulous concept."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەلتوور چەمکێکی تا ڕادەیەک ناڕوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concept", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcepts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcepts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Culture is a fairly nebulous concept.",
+                            kurdishText:
+                                "کەلتوور چەمکێکی تا ڕادەیەک ناڕوونە.", // concept",
+                            onPressedBritish: () => speakconcepts1("en-GB"),
+                            onPressedAmerican: () => speakconcepts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Not all companies have embraced the concept of diversity in the workplace."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو کۆمپانیایەک چەمکی ھەمەڕەنگی لە شوێنی کاردا پەیڕەو نەکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcepts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcepts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Not all companies have embraced the concept of diversity in the workplace.",
+                            kurdishText:
+                                "ھەموو کۆمپانیایەک چەمکی ھەمەڕەنگی لە شوێنی کاردا پەیڕەو نەکردووە.",
+                            onPressedBritish: () => speakconcepts2("en-GB"),
+                            onPressedAmerican: () => speakconcepts2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Teachers should have a clear concept of what a multiracial society is."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستایان دەبێت چەمکێکی ڕوونیان ھەبێت کە کۆمەڵگایەکی فرەڕەھەند چییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcepts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcepts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Teachers should have a clear concept of what a multiracial society is.",
+                            kurdishText:
+                                "مامۆستایان دەبێت چەمکێکی ڕوونیان ھەبێت کە کۆمەڵگایەکی فرەڕەھەند چییە.",
+                            onPressedBritish: () => speakconcepts3("en-GB"),
+                            onPressedAmerican: () => speakconcepts3("en-US"),
                           ),
                         ],
                       ),

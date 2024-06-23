@@ -192,34 +192,14 @@ class EnglishEntrycatchphrase extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) وشەیەک یان زاراوەیەک کە ئەکتەرێک، سیاسەتمەدارێک، یان کەسێکی تری گەرنگ بەکاریھێناوە و ناساندویەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What we need now is a catchphrase for the marketing campaign."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستیمان بە وێردێکی سەرزمانە بۆ کەمپینی بەبازاڕکردنمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catchphrase", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatchphrases1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatchphrases1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What we need now is a catchphrase for the marketing campaign.",
+                            kurdishText:
+                                "پێویستیمان بە وێردێکی سەرزمانە بۆ کەمپینی بەبازاڕکردنمان.", // catchphrase",
+                            onPressedBritish: () => speakcatchphrases1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcatchphrases1("en-US"),
                           ),
                         ],
                       ),

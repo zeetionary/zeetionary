@@ -193,63 +193,25 @@ class EnglishEntrycanteen extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شوێنی خۆراک خواردن لە قوتابخانە، کارگە، ھتد"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I usually have my lunch in the canteen at school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرجار نانی نیوەڕۆ لە حانووتی قوتابخانە دەخۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canteen", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanteens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanteens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I usually have my lunch in the canteen at school.",
+                            kurdishText:
+                                "زۆرجار نانی نیوەڕۆ لە حانووتی قوتابخانە دەخۆم.", // canteen
+                            onPressedBritish: () => speakcanteens1("en-GB"),
+                            onPressedAmerican: () => speakcanteens1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دەفرێکی بچووک کە لەلایەن سەربازەوە بەکاردێت بۆ ھەڵگرتنی ئاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Soldiers rely on their canteens to quench their thirst in the field."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازان پشت بە قومقومە دەبەستن بۆ شکاندنی تینوێتییان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanteens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanteens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Soldiers rely on their canteens to quench their thirst in the field.",
+                            kurdishText:
+                                "سەربازان پشت بە قومقومە دەبەستن بۆ شکاندنی تینوێتییان.",
+                            onPressedBritish: () => speakcanteens2("en-GB"),
+                            onPressedAmerican: () => speakcanteens2("en-US"),
                           ),
                         ],
                       ),

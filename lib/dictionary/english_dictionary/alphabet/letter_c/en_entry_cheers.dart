@@ -110,88 +110,30 @@ class EnglishEntrycheers extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (سەرسوڕمان) وشەیەکە لە کاتی خواردنەوەدا دەوترێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Cheers! Your good health."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەخۆشی! بۆ تەندرووستی باشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheers", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheerss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheerss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Cheers! Your good health.",
+                            kurdishText:
+                                "بەخۆشی! بۆ تەندرووستی باشت.", // cheers",
+                            onPressedBritish: () => speakcheerss1("en-GB"),
+                            onPressedAmerican: () => speakcheerss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (سەرسوڕمان) سوپاس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘Have another biscuit.’ ‘Cheers.’"),
-                                    ExampleSentenceKurdish(
-                                        text: "'بسکیتێکی دیکە بخۆ.' 'سوپاس.'"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheerss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheerss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "‘Have another biscuit.’ ‘Cheers.’",
+                            kurdishText: "'بسکیتێکی دیکە بخۆ.' 'سوپاس.'",
+                            onPressedBritish: () => speakcheerss2("en-GB"),
+                            onPressedAmerican: () => speakcheerss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (سەرسوڕمان) لەکاتی خوداحافیزی دەگوترێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Cheers then. See you later."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەواتە خوات لەگەڵ، دواتر دەتبینمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheerss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheerss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Cheers then. See you later.",
+                            kurdishText: "کەواتە خوات لەگەڵ، دواتر دەتبینمەوە.",
+                            onPressedBritish: () => speakcheerss3("en-GB"),
+                            onPressedAmerican: () => speakcheerss3("en-US"),
                           ),
                         ],
                       ),

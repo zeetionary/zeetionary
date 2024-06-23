@@ -494,60 +494,22 @@ class EnglishEntrycare extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چاودێریکردنی کەسێک یان شتێک و پێدانی ئەوەی پێویستیانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some people were badly injured and needed medical care."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کەس بە خراپی برینداربوون و پێویستیان بە چاودێریی تەندرووستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "care", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcares1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcares1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some people were badly injured and needed medical care.",
+                            kurdishText:
+                                "ھەندێک کەس بە خراپی برینداربوون و پێویستیان بە چاودێریی تەندرووستی.", // care",
+                            onPressedBritish: () => speakcares1("en-GB"),
+                            onPressedAmerican: () => speakcares1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We aim to continually improve the quality of patient care."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانجمانە بە بەردەوامی کوالێتیی چاودێریی نەخۆشان باشتر بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcares2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcares2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We aim to continually improve the quality of patient care.",
+                            kurdishText:
+                                "ئامانجمانە بە بەردەوامی کوالێتیی چاودێریی نەخۆشان باشتر بکەین.",
+                            onPressedBritish: () => speakcares2("en-GB"),
+                            onPressedAmerican: () => speakcares2("en-US"),
                           ),
                           Column(
                             children: [
@@ -620,262 +582,91 @@ class EnglishEntrycare extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دابینکردنی ماڵ بۆ ئەو منداڵانەی کە ناتوانن لەگەڵ دایک و باوکیان بژین لە کۆمەڵگەیەکی نیشتەجێبوون یان ماڵێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two girls were taken into care after their parents were killed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو کچەکە بردرانە کۆمەڵگەی نیشتەجێبوون لە دوای دایک و باوکیان کوژران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcares5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcares5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two girls were taken into care after their parents were killed.",
+                            kurdishText:
+                                "دوو کچەکە بردرانە کۆمەڵگەی نیشتەجێبوون لە دوای دایک و باوکیان کوژران.",
+                            onPressedBritish: () => speakcares5("en-GB"),
+                            onPressedAmerican: () => speakcares5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had been in foster care since he was five."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە خانەی بێ‌نەوایان بووە لە تەمەنی پێنج ساڵییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcares6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcares6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had been in foster care since he was five.",
+                            kurdishText:
+                                "لە خانەی بێ‌نەوایان بووە لە تەمەنی پێنج ساڵییەوە.",
+                            onPressedBritish: () => speakcares6("en-GB"),
+                            onPressedAmerican: () => speakcares6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەو سەرنجەی کە بە شتێکی دەدەیت بۆ ئەوەی بە باشی و بێ ھەڵە بیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Great care is needed when buying a used car."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وریایی زۆر پێویستە کە ئۆتۆمبێلێکی دەستی دوو دەکڕیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcares7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcares7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Great care is needed when buying a used car.",
+                            kurdishText:
+                                "وریایی زۆر پێویستە کە ئۆتۆمبێلێکی دەستی دوو دەکڕیت.",
+                            onPressedBritish: () => speakcares7("en-GB"),
+                            onPressedAmerican: () => speakcares7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She chose her words with care."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە وریاییەوە وشەکانی ھەڵبژارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcares8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcares8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She chose her words with care.",
+                            kurdishText: "بە وریاییەوە وشەکانی ھەڵبژارد.",
+                            onPressedBritish: () => speakcares8("en-GB"),
+                            onPressedAmerican: () => speakcares8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Transporting an atomic bomb requires great care."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گواستنەوەی چەکێکی ئەتۆمی پێویستی بە چاودێری زۆر ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcares9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcares9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Transporting an atomic bomb requires great care.",
+                            kurdishText:
+                                "گواستنەوەی چەکێکی ئەتۆمی پێویستی بە چاودێری زۆر ھەیە.",
+                            onPressedBritish: () => speakcares9("en-GB"),
+                            onPressedAmerican: () => speakcares9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) ھەستی نیگەرانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I felt free from the cares of the day as soon as I left the building."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرکە بیانکەم جێھێشت ھەموو نیگەرانی ڕۆژەکەم بیرچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcares10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcares10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I felt free from the cares of the day as soon as I left the building.",
+                            kurdishText:
+                                "ھەرکە بیانکەم جێھێشت ھەموو نیگەرانی ڕۆژەکەم بیرچوو.",
+                            onPressedBritish: () => speakcares10("en-GB"),
+                            onPressedAmerican: () => speakcares10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sam looked as if he didn't have a care in the world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سام وادیاربوو کە ھیچ خەمێکی لە دونیادا نەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcares11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcares11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sam looked as if he didn't have a care in the world.",
+                            kurdishText:
+                                "سام وادیاربوو کە ھیچ خەمێکی لە دونیادا نەبێت.",
+                            onPressedBritish: () => speakcares11("en-GB"),
+                            onPressedAmerican: () => speakcares11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) ھەستکردن بەوەی شتێک گرنگە و ھی ئەوەیە نیگەران بیت بۆی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't care (= I will not be upset) if I never see him again!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرنگ نییە لام ئەگەر ھەرگیز نەیبینمەوە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcares12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcares12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't care (= I will not be upset) if I never see him again!",
+                            kurdishText:
+                                "گرنگ نییە لام ئەگەر ھەرگیز نەیبینمەوە!",
+                            onPressedBritish: () => speakcares12("en-GB"),
+                            onPressedAmerican: () => speakcares12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He threatened to fire me, as if I cared!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڕەشەی دەرکردنمی کرد وەک ئەوەی گرنگ بێت لام!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcares13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcares13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He threatened to fire me, as if I cared!",
+                            kurdishText:
+                                "ھەڕەشەی دەرکردنمی کرد وەک ئەوەی گرنگ بێت لام!",
+                            onPressedBritish: () => speakcares13("en-GB"),
+                            onPressedAmerican: () => speakcares13("en-US"),
                           ),
                           Column(
                             children: [
@@ -948,90 +739,31 @@ class EnglishEntrycare extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) حەزکردن و خۆشویستنی کەسێک و گرنگیدان بەوەی چیان بەسەر دێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He genuinely cares about his employees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕاستی گرنگی دەدات بە کارمەندەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcares16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcares16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He genuinely cares about his employees.",
+                            kurdishText: "بەڕاستی گرنگی دەدات بە کارمەندەکانی.",
+                            onPressedBritish: () => speakcares16("en-GB"),
+                            onPressedAmerican: () => speakcares16("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They care an awful lot about each other."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕادەبەر گرنگی بە یەکدی دەدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcares17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcares17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They care an awful lot about each other.",
+                            kurdishText: "لە ڕادەبەر گرنگی بە یەکدی دەدەن.",
+                            onPressedBritish: () => speakcares17("en-GB"),
+                            onPressedAmerican: () => speakcares17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کردار) ھەوڵدان بۆ کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've done this job more times than I care to remember."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم کارەم زیاد لەوە کردووە کە حەوسەڵەم ھەبێت بیر خۆمی بێنمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcares18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcares18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've done this job more times than I care to remember.",
+                            kurdishText:
+                                "ئەم کارەم زیاد لەوە کردووە کە حەوسەڵەم ھەبێت بیر خۆمی بێنمەوە.",
+                            onPressedBritish: () => speakcares18("en-GB"),
+                            onPressedAmerican: () => speakcares18("en-US"),
                           ),
                         ],
                       ),

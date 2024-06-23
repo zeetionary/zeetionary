@@ -92,32 +92,13 @@ class EnglishEntrychatline extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خزمەتگوزارییەکی پەیوەندی کە ڕێگا دەدات ژمارەیەک کەس کە بەجیا پەیوەندی دەکەن پێکەوە قسەبکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He ran up an enormous phone bill by calling chatlines all the time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەسڵێکی زۆری پەیوەندی تەلەفۆنی بۆ ھاتەوە بەھۆی ھەمیشە پەیوەندی‌کردنی گرووپی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chatline", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatlines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatlines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He ran up an enormous phone bill by calling chatlines all the time.",
+                            kurdishText:
+                                "وەسڵێکی زۆری پەیوەندی تەلەفۆنی بۆ ھاتەوە بەھۆی ھەمیشە پەیوەندی‌کردنی گرووپی.", // chatline",
+                            onPressedBritish: () => speakchatlines1("en-GB"),
+                            onPressedAmerican: () => speakchatlines1("en-US"),
                           ),
                         ],
                       ),

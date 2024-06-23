@@ -267,609 +267,209 @@ class EnglishEntryconcern extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) کاریگەری کردن لە کەسێک/شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't interfere in what doesn't concern you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆت مەگلێنە لە شتێک کە پەیوەندی پێوەت نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concern", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Don't interfere in what doesn't concern you.",
+                            kurdishText:
+                                "خۆت مەگلێنە لە شتێک کە پەیوەندی پێوەت نییە.", // concern",
+                            onPressedBritish: () => speakconcerns1("en-GB"),
+                            onPressedAmerican: () => speakconcerns1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please pay attention because this information concerns all of you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە سەرنج بدەن چونکە ئەم زانیارییە پەیوەندی بە ھەموانەوە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please pay attention because this information concerns all of you.",
+                            kurdishText:
+                                "تکایە سەرنج بدەن چونکە ئەم زانیارییە پەیوەندی بە ھەموانەوە ھەیە.",
+                            onPressedBritish: () => speakconcerns2("en-GB"),
+                            onPressedAmerican: () => speakconcerns2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The letter is for both of us, but it mainly concerns you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەکە بۆ ھەردووکمانە، بەڵام زیاتر پەیوەندی بە تۆوە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The letter is for both of us, but it mainly concerns you.",
+                            kurdishText:
+                                "نامەکە بۆ ھەردووکمانە، بەڵام زیاتر پەیوەندی بە تۆوە ھەیە.",
+                            onPressedBritish: () => speakconcerns3("en-GB"),
+                            onPressedAmerican: () => speakconcerns3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) دەربارەی شتێک بوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The story concerns the prince's efforts to rescue Pamina."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیرۆکەکە دەربارەی ھەوڵەکانی شازادەیە بۆ ڕزگارکردنی پامینا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The story concerns the prince's efforts to rescue Pamina.",
+                            kurdishText:
+                                "چیرۆکەکە دەربارەی ھەوڵەکانی شازادەیە بۆ ڕزگارکردنی پامینا.",
+                            onPressedBritish: () => speakconcerns4("en-GB"),
+                            onPressedAmerican: () => speakconcerns4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book is primarily concerned with Soviet-American relations during the Cold War."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە بە شێوەیەکی سەرەکی دەربارەی پەیوەندییەکانی ئەمریکا و سۆڤیەتە لە ماوەی جەنگی سارددا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book is primarily concerned with Soviet-American relations during the Cold War.",
+                            kurdishText:
+                                "کتێبەکە بە شێوەیەکی سەرەکی دەربارەی پەیوەندییەکانی ئەمریکا و سۆڤیەتە لە ماوەی جەنگی سارددا.",
+                            onPressedBritish: () => speakconcerns5("en-GB"),
+                            onPressedAmerican: () => speakconcerns5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My question concerns the way he handles the evidence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پرسیارەکەم دەربارەی شێوازی مامەڵەیەتی لەگەڵ بەڵگەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My question concerns the way he handles the evidence.",
+                            kurdishText:
+                                "پرسیارەکەم دەربارەی شێوازی مامەڵەیەتی لەگەڵ بەڵگەکەدا.",
+                            onPressedBritish: () => speakconcerns6("en-GB"),
+                            onPressedAmerican: () => speakconcerns6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) نیگەرانکردنی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It concerns me that you no longer seem to care."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە نیگەران دەکات کە وا دەردەکەویت کە چی دیکە گرنگی نادەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It concerns me that you no longer seem to care.",
+                            kurdishText:
+                                "ئەوە نیگەران دەکات کە وا دەردەکەویت کە چی دیکە گرنگی نادەیت.",
+                            onPressedBritish: () => speakconcerns7("en-GB"),
+                            onPressedAmerican: () => speakconcerns7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It really concerns me that he doesn't eat properly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە نیگەرانم دەکات کە بە درووستی نان ناخوات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It really concerns me that he doesn't eat properly.",
+                            kurdishText:
+                                "ئەوە نیگەرانم دەکات کە بە درووستی نان ناخوات.",
+                            onPressedBritish: () => speakconcerns8("en-GB"),
+                            onPressedAmerican: () => speakconcerns8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) حەزکردن لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He didn't concern himself with the details."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی لە وردەکارییەکان تێوە نەگلاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He didn't concern himself with the details.",
+                            kurdishText: "خۆی لە وردەکارییەکان تێوە نەگلاند.",
+                            onPressedBritish: () => speakconcerns9("en-GB"),
+                            onPressedAmerican: () => speakconcerns9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) نیگەرانی، بەتایبەتی وەک ھەستێکی گشتگیر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Villagers expressed concern about the level of traffic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوندنشینەکان نیگەرانییان دەربڕی سەبارەت بە ئاستی ھاتووچۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Villagers expressed concern about the level of traffic.",
+                            kurdishText:
+                                "گوندنشینەکان نیگەرانییان دەربڕی سەبارەت بە ئاستی ھاتووچۆ.",
+                            onPressedBritish: () => speakconcerns10("en-GB"),
+                            onPressedAmerican: () => speakconcerns10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is growing concern about violence in the media."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیگەرانی گەشەسەندوو ھەیە لەسەر توندوتیژی کە میدیادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is growing concern about violence in the media.",
+                            kurdishText:
+                                "نیگەرانی گەشەسەندوو ھەیە لەسەر توندوتیژی کە میدیادا.",
+                            onPressedBritish: () => speakconcerns11("en-GB"),
+                            onPressedAmerican: () => speakconcerns11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She hasn't been seen for four days and there is concern for her safety."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ چوار ڕۆژ دەبێت نەبینراوە و نیگەرانی ھەیە بۆ سەلامەتیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She hasn't been seen for four days and there is concern for her safety.",
+                            kurdishText:
+                                "بۆ چوار ڕۆژ دەبێت نەبینراوە و نیگەرانی ھەیە بۆ سەلامەتیی.",
+                            onPressedBritish: () => speakconcerns12("en-GB"),
+                            onPressedAmerican: () => speakconcerns12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) ئارەزووی پاراستن و یارمەتیدانی کەسێک/شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He showed deep concern for his employees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵەڕاوکێی زۆری بۆ کارمەندانی دەردەبڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He showed deep concern for his employees.",
+                            kurdishText:
+                                "دڵەڕاوکێی زۆری بۆ کارمەندانی دەردەبڕی.",
+                            onPressedBritish: () => speakconcerns13("en-GB"),
+                            onPressedAmerican: () => speakconcerns13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She forgot her own worries in her concern for him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیگەرانییەکانی خۆی بیرچوو لە دڵەڕاوکێیدا بۆ ئەو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She forgot her own worries in her concern for him.",
+                            kurdishText:
+                                "نیگەرانییەکانی خۆی بیرچوو لە دڵەڕاوکێیدا بۆ ئەو.",
+                            onPressedBritish: () => speakconcerns14("en-GB"),
+                            onPressedAmerican: () => speakconcerns14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I appreciate everyone's concern and help at this difficult time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵەڕاوکێ و یارمەتی ھەموان بەرزدەنرخێنم لەم کاتە سەختەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I appreciate everyone's concern and help at this difficult time.",
+                            kurdishText:
+                                "دڵەڕاوکێ و یارمەتی ھەموان بەرزدەنرخێنم لەم کاتە سەختەدا.",
+                            onPressedBritish: () => speakconcerns15("en-GB"),
+                            onPressedAmerican: () => speakconcerns15("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Thanks for your concern and sympathy."),
-                                    ExampleSentenceKurdish(
-                                        text: "سوپاس بۆ خەمخۆری و ھاوسۆزیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Thanks for your concern and sympathy.",
+                            kurdishText: "سوپاس بۆ خەمخۆری و ھاوسۆزیت.",
+                            onPressedBritish: () => speakconcerns16("en-GB"),
+                            onPressedAmerican: () => speakconcerns16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) شتێک کە گرنگە بۆ کەسێک، دامەزراوەیەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our main concern is to ensure the safety of the children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسیاریەتی سەرەکیمان سەلامەتی منداڵەکانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our main concern is to ensure the safety of the children.",
+                            kurdishText:
+                                "بەرپرسیاریەتی سەرەکیمان سەلامەتی منداڵەکانە.",
+                            onPressedBritish: () => speakconcerns17("en-GB"),
+                            onPressedAmerican: () => speakconcerns17("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government's primary concern is to reduce crime."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانجی سەرەکی حکومەت کەمکردنەوەی تاوانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government's primary concern is to reduce crime.",
+                            kurdishText:
+                                "ئامانجی سەرەکی حکومەت کەمکردنەوەی تاوانە.",
+                            onPressedBritish: () => speakconcerns18("en-GB"),
+                            onPressedAmerican: () => speakconcerns18("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (ناو) شتێک کە بەرپرسیاریەتیتە، یان مافت ھەیە بیزانیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "This matter is their concern."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم بابەتە بەرپرسیاریەتییانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This matter is their concern.",
+                            kurdishText: "ئەم بابەتە بەرپرسیاریەتییانە.",
+                            onPressedBritish: () => speakconcerns19("en-GB"),
+                            onPressedAmerican: () => speakconcerns19("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How much money I make is none of your concern."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەندە پارە قازانج دەکەم ھیچ پەیوەندی پێتەوە نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns20("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns20("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How much money I make is none of your concern.",
+                            kurdishText:
+                                "چەندە پارە قازانج دەکەم ھیچ پەیوەندی پێتەوە نییە.",
+                            onPressedBritish: () => speakconcerns20("en-GB"),
+                            onPressedAmerican: () => speakconcerns20("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٩. (ناو) کۆمپانیایەک یان بازرگانییەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It started slowly, but the company is now a going concern (= doing business effectively)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ھێواشی دەستیپێکرد، بەڵام کۆمپانیاکە لە ئێستادا بازرگانییەکی تۆکمەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcerns21("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcerns21("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It started slowly, but the company is now a going concern (= doing business effectively).",
+                            kurdishText:
+                                "بە ھێواشی دەستیپێکرد، بەڵام کۆمپانیاکە لە ئێستادا بازرگانییەکی تۆکمەیە.",
+                            onPressedBritish: () => speakconcerns21("en-GB"),
+                            onPressedAmerican: () => speakconcerns21("en-US"),
                           ),
                         ],
                       ),

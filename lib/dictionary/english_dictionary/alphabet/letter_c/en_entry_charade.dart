@@ -112,89 +112,32 @@ class EnglishEntrycharade extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دۆخێک کە خەڵکی وادادەنێن کە شتێک ڕاستە لەکاتێکدا ئاشکرایە کە وانییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their whole marriage had been a charade—they had never loved each other."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ھاوسەرگیرییەکەیان درۆ بوو، ھەرگیز یەکیان خۆشنەویست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "charade", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharades1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharades1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their whole marriage had been a charade—they had never loved each other.",
+                            kurdishText:
+                                "تەواوی ھاوسەرگیرییەکەیان درۆ بوو، ھەرگیز یەکیان خۆشنەویست.", // charade",
+                            onPressedBritish: () => speakcharades1("en-GB"),
+                            onPressedAmerican: () => speakcharades1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I suggest you give up this little charade of yours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوادەکەم واز لەم خۆبەگەوج‌نیشاندانەت بێنیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharades2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharades2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I suggest you give up this little charade of yours.",
+                            kurdishText:
+                                "داوادەکەم واز لەم خۆبەگەوج‌نیشاندانەت بێنیت.",
+                            onPressedBritish: () => speakcharades2("en-GB"),
+                            onPressedAmerican: () => speakcharades2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) یارییەک کە تێیدا کەسێک ھەوڵ دەدات بڕگەیەک یان وشەیەک بە نواندن بە کەسی ھاوکاری بڵێت بۆ ئەوەی وەڵامەکە ھەڵبێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Let's play charades."),
-                                    ExampleSentenceKurdish(
-                                        text: "با یاری قەبڵێن بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharades3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharades3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Let's play charades.",
+                            kurdishText: "با یاری قەبڵێن بکەین.",
+                            onPressedBritish: () => speakcharades3("en-GB"),
+                            onPressedAmerican: () => speakcharades3("en-US"),
                           ),
                         ],
                       ),

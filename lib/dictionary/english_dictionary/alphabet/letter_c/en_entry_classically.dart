@@ -120,133 +120,52 @@ class EnglishEntryclassically extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەکی سادە و جوان کە خەڵکی ھەمیشە حەزیان لێیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her face is classically beautiful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووخساری بە شێوەیەکی سادە جوانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "classically", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclassicallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclassicallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her face is classically beautiful.",
+                            kurdishText:
+                                "ڕووخساری بە شێوەیەکی سادە جوانە.", // classically",
+                            onPressedBritish: () => speakclassicallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclassicallys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە ھەموو ئەو خاسیەتانەی تێدایە کە لێی چاوەڕێ دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Classically, pregnant women may experience increased emotional sensitivity as they approach childbirth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەکی ئاسایی، ژنانی دووگیان ڕەنگە تووشی ھەستیاری زیاتری دەرووینی ببنەوە کە لە منداڵبوون نزیکدەبنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclassicallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclassicallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Classically, pregnant women may experience increased emotional sensitivity as they approach childbirth.",
+                            kurdishText:
+                                "بەشێوەیەکی ئاسایی، ژنانی دووگیان ڕەنگە تووشی ھەستیاری زیاتری دەرووینی ببنەوە کە لە منداڵبوون نزیکدەبنەوە.",
+                            onPressedBritish: () => speakclassicallys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclassicallys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵکار) بەکارھێنانی ستایڵی کۆن بەشێوەیەک کە بۆ ماوەیەکی زۆر پەسەندکراوە و بەکارھێنراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is the economic system as classically described in the textbooks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە ئەو سیستەمە ئابوورییەیە کە بەشێوەیەکی ھەمیشەیی لە پڕۆگرامی خوێندندا باسکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclassicallys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclassicallys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is the economic system as classically described in the textbooks.",
+                            kurdishText:
+                                "ئەمە ئەو سیستەمە ئابوورییەیە کە بەشێوەیەکی ھەمیشەیی لە پڕۆگرامی خوێندندا باسکراوە.",
+                            onPressedBritish: () => speakclassicallys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclassicallys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵکار) لەسەر شێوازی میوزیکی ڕۆژئاوایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Kate is a classically trained violinist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەیت کەمانچەژەنێکی ڕاھێنراوە لەسەر ستایلی ڕۆژئاوا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclassicallys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclassicallys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Kate is a classically trained violinist.",
+                            kurdishText:
+                                "کەیت کەمانچەژەنێکی ڕاھێنراوە لەسەر ستایلی ڕۆژئاوا.",
+                            onPressedBritish: () => speakclassicallys4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclassicallys4("en-US"),
                           ),
                           // const DividerDefinition(),
                           // const DefinitionKurdish(text: "٥. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدار یان کاریگەرە بە ئەدەبی یۆنان و ڕۆمی کۆن"),

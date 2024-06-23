@@ -242,61 +242,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک کە لە ھەمان وڵاتی کەسێکی دیکە دەژی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The champion looks set to play his fellow countryman in the final."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاڵەوانەکە وا بڕیارە یاری لەگەڵ ھاونیشتیمانییەکەی بکات لە کۆتاییدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "countryman", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrymans1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrymans1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The champion looks set to play his fellow countryman in the final.",
+            kurdishText:
+                "پاڵەوانەکە وا بڕیارە یاری لەگەڵ ھاونیشتیمانییەکەی بکات لە کۆتاییدا.", // countryman", please follow LX instructions
+            onPressedBritish: () => speakcountrymans1("en-GB"),
+            onPressedAmerican: () => speakcountrymans1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کەسێک کە لە لادێ دەژی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He married a countrywoman and moved to her family's farm."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژنە لادێنشینێکی مارەکرد و چوو بۆ کێڵگەی خێزانەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountrymans2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountrymans2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He married a countrywoman and moved to her family's farm.",
+            kurdishText: "ژنە لادێنشینێکی مارەکرد و چوو بۆ کێڵگەی خێزانەکەی.",
+            onPressedBritish: () => speakcountrymans2("en-GB"),
+            onPressedAmerican: () => speakcountrymans2("en-US"),
           ),
         ],
       ),

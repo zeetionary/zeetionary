@@ -95,34 +95,15 @@ class EnglishEntryconveyorbelt extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) قایشێکی گوازەرەوەی جوڵاو کە کەلوپەل لە شوێنێکەوە بۆ شوێنێکی دیکە دەگوازێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The conveyor belt carried the boxes to the loading dock."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قایشە گوازەرەوەکە سنووقی دەگواستەوە بۆ جێگەی بارکردنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conveyor belt", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconveyorbelts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconveyorbelts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The conveyor belt carried the boxes to the loading dock.",
+                            kurdishText:
+                                "قایشە گوازەرەوەکە سنووقی دەگواستەوە بۆ جێگەی بارکردنەکە.", // conveyor belt",
+                            onPressedBritish: () =>
+                                speakconveyorbelts1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconveyorbelts1("en-US"),
                           ),
                         ],
                       ),

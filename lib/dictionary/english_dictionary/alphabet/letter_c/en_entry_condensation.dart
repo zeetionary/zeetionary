@@ -113,99 +113,42 @@ class EnglishEntrycondensation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دڵۆپە ئاو کە لەسەر ڕوویەک درووست دەبێت کاتێک ھەڵم سارد دەبێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We get a lot of condensation on the walls in the winter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر لە دڵۆپە ئاومان لەسەر دیوارەکە دەبێت لە زستاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "condensation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcondensations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcondensations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We get a lot of condensation on the walls in the winter.",
+                            kurdishText:
+                                "ڕێژەیەکی زۆر لە دڵۆپە ئاومان لەسەر دیوارەکە دەبێت لە زستاندا.", // condensation",
+                            onPressedBritish: () =>
+                                speakcondensations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcondensations1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) پڕۆسەی گۆڕانی گاز بۆ شلە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Condensation formed on the lid of the pot as the steam from the boiling water cooled."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵۆپە ئاو لەسەر سەقاپەکە درووست بوو کە ھەڵمی ئاوە گەرمەکە ساردبوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcondensations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcondensations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Condensation formed on the lid of the pot as the steam from the boiling water cooled.",
+                            kurdishText:
+                                "دڵۆپە ئاو لەسەر سەقاپەکە درووست بوو کە ھەڵمی ئاوە گەرمەکە ساردبوویەوە.",
+                            onPressedBritish: () =>
+                                speakcondensations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcondensations2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) پڕۆسەی کورتکردنەوەی کتێبێک، ھتد بە کابردنی ھەر شتێک کە پێویست نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The essay should be a readable condensation of the recent scientific discoveries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکە دەبێت کورتکراوەیەکی تازەترین دۆزینەوە زانستییەکان بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcondensations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcondensations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The essay should be a readable condensation of the recent scientific discoveries.",
+                            kurdishText:
+                                "وتارەکە دەبێت کورتکراوەیەکی تازەترین دۆزینەوە زانستییەکان بێت.",
+                            onPressedBritish: () =>
+                                speakcondensations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcondensations3("en-US"),
                           ),
                         ],
                       ),

@@ -95,34 +95,15 @@ class EnglishEntrycoeducational extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) سیستەمی خوێندن کە تێیدا کچ و کوڕ پێکەوە دەخوێنن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The school has now made the decision to go fully co-educational."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوتابخانەکە بڕیاریداوە بە تەواوی ببێت بە سیستەمی تێکەڵاو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "co-educational", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoeducationals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoeducationals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The school has now made the decision to go fully co-educational.",
+                            kurdishText:
+                                "قوتابخانەکە بڕیاریداوە بە تەواوی ببێت بە سیستەمی تێکەڵاو.", // co-educational",
+                            onPressedBritish: () =>
+                                speakcoeducationals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoeducationals1("en-US"),
                           ),
                         ],
                       ),

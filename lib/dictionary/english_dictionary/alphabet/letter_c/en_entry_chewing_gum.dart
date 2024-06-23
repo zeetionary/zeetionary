@@ -100,59 +100,21 @@ class EnglishEntrychewinggum extends StatelessWidget {
 کوردی: جۆرێ چەقە،	بنێشت، جاچکە، وێژەن
 """),
                           const DefinitionKurdish(text: "١. (ناو) بنێشت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Would you like a piece/stick of chewing gum?"),
-                                    ExampleSentenceKurdish(
-                                        text: "حەزت بە کەمێک لە بنێشت ھەیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chewing gum", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchewinggums1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchewinggums1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Would you like a piece/stick of chewing gum?",
+                            kurdishText:
+                                "حەزت بە کەمێک لە بنێشت ھەیە؟", // chewing gum",
+                            onPressedBritish: () => speakchewinggums1("en-GB"),
+                            onPressedAmerican: () => speakchewinggums1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've got chewing gum stuck on my shoe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بنێشت نووساوە بە پێڵاوەکانمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchewinggums2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchewinggums2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've got chewing gum stuck on my shoe.",
+                            kurdishText: "بنێشت نووساوە بە پێڵاوەکانمەوە.",
+                            onPressedBritish: () => speakchewinggums2("en-GB"),
+                            onPressedAmerican: () => speakchewinggums2("en-US"),
                           ),
                         ],
                       ),

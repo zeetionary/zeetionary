@@ -146,202 +146,68 @@ class EnglishEntrycommend extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ستایشکردنی کەسێک/شتێک، بە تایبەتی بە گشتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was commended on her handling of the situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستایشکرا بۆ مامەڵەی لەگەڵ دۆخەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commend", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommends1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommends1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was commended on her handling of the situation.",
+                            kurdishText:
+                                "ستایشکرا بۆ مامەڵەی لەگەڵ دۆخەکە.", // commend",
+                            onPressedBritish: () => speakcommends1("en-GB"),
+                            onPressedAmerican: () => speakcommends1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His book was highly commended."),
-                                    ExampleSentenceKurdish(
-                                        text: "کتێبەکەی بە بەرزی نمایش کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommends2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommends2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His book was highly commended.",
+                            kurdishText: "کتێبەکەی بە بەرزی نمایش کرا.",
+                            onPressedBritish: () => speakcommends2("en-GB"),
+                            onPressedAmerican: () => speakcommends2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) پێشنیازکردنی کەسێک/شتێک بۆ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is an excellent worker and I commend her to you without reservation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرێکارێکی باشە و بەبێ گومانی پێشنیازی دەکەم بۆت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommends3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommends3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is an excellent worker and I commend her to you without reservation.",
+                            kurdishText:
+                                "کرێکارێکی باشە و بەبێ گومانی پێشنیازی دەکەم بۆت.",
+                            onPressedBritish: () => speakcommends3("en-GB"),
+                            onPressedAmerican: () => speakcommends3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie has little to commend it (= it has few good qualities)."),
-                                    ExampleSentenceKurdish(
-                                        text: "فیلمەکە پیاھەڵدانی کەمی دەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommends4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommends4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie has little to commend it (= it has few good qualities).",
+                            kurdishText: "فیلمەکە پیاھەڵدانی کەمی دەوێت.",
+                            onPressedBritish: () => speakcommends4("en-GB"),
+                            onPressedAmerican: () => speakcommends4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She said she would commend the proposal to the Board."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتی پێشنیازەکە دەخەمە پێش دەستەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommends5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommends5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She said she would commend the proposal to the Board.",
+                            kurdishText: "وتی پێشنیازەکە دەخەمە پێش دەستەکە.",
+                            onPressedBritish: () => speakcommends5("en-GB"),
+                            onPressedAmerican: () => speakcommends5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) شتێک کە پەسەندکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His outspoken behaviour did not commend itself to his colleagues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسوکەوتی ڕاشکاوانەی پەسەند نەبوو لای ھاوکارەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommends6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommends6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His outspoken behaviour did not commend itself to his colleagues.",
+                            kurdishText:
+                                "ھەڵسوکەوتی ڕاشکاوانەی پەسەند نەبوو لای ھاوکارەکانی.",
+                            onPressedBritish: () => speakcommends6("en-GB"),
+                            onPressedAmerican: () => speakcommends6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) ڕاسپاردنی کەسێک/شتێک بە کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We commend her soul to God."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕۆحی بە خودا دەسپێرین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommends7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommends7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We commend her soul to God.",
+                            kurdishText: "ڕۆحی بە خودا دەسپێرین.",
+                            onPressedBritish: () => speakcommends7("en-GB"),
+                            onPressedAmerican: () => speakcommends7("en-US"),
                           ),
                         ],
                       ),

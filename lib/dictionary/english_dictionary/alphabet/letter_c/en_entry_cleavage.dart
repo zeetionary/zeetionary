@@ -113,91 +113,34 @@ class EnglishEntrycleavage extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نێوانی مەمکی ژنێک کە لە سەرەوەی جلێکەوە دەبینرێت کە بە تەواوی دایناپۆشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She leaned forward slightly, revealing a deep cleavage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمێک بۆ پێشەوە چەمایەوە و سینگێکی گەورەی بەدەرخست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cleavage", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleavages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleavages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She leaned forward slightly, revealing a deep cleavage.",
+                            kurdishText:
+                                "کەمێک بۆ پێشەوە چەمایەوە و سینگێکی گەورەی بەدەرخست.", // cleavage",
+                            onPressedBritish: () => speakcleavages1("en-GB"),
+                            onPressedAmerican: () => speakcleavages1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Clare was wearing a low-cut dress that showed off her cleavage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلێر جلێکی سینگ نزمی لەبەرکردبوو کە بەینی مەمانی بەدەرخستبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleavages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleavages2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Clare was wearing a low-cut dress that showed off her cleavage.",
+                            kurdishText:
+                                "کلێر جلێکی سینگ نزمی لەبەرکردبوو کە بەینی مەمانی بەدەرخستبوو.",
+                            onPressedBritish: () => speakcleavages2("en-GB"),
+                            onPressedAmerican: () => speakcleavages2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) جیاوازییەک یان جوداییەک لە نێوان دوو شتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a marked cleavage between the parties about the government's defence policy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووبەرەکییەکی زۆر ھەیە لە نێوان پارتەکاندا لەسەر سیاسەتی بەرگری حکومەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleavages3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleavages3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a marked cleavage between the parties about the government's defence policy.",
+                            kurdishText:
+                                "دووبەرەکییەکی زۆر ھەیە لە نێوان پارتەکاندا لەسەر سیاسەتی بەرگری حکومەت.",
+                            onPressedBritish: () => speakcleavages3("en-GB"),
+                            onPressedAmerican: () => speakcleavages3("en-US"),
                           ),
                         ],
                       ),

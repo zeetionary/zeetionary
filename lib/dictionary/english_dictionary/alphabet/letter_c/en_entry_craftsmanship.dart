@@ -232,30 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پیشەگەری، پیشەسازی، وەستاکاری، سازگەری، مامۆستایی، شارەزایی، ھونەرمەندی
 """),
           const DefinitionKurdish(text: "١. (ناو) شارەزایی لە کاری دەستی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The jewellery showed exquisite craftsmanship."),
-                    ExampleSentenceKurdish(
-                        text: "خشڵەکە پیشەگەری بێ‌ھاوتای تێدابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "craftsmanship", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraftsmanships1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraftsmanships1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The jewellery showed exquisite craftsmanship.",
+            kurdishText:
+                "خشڵەکە پیشەگەری بێ‌ھاوتای تێدابوو.", // craftsmanship", please follow LX instructions
+            onPressedBritish: () => speakcraftsmanships1("en-GB"),
+            onPressedAmerican: () => speakcraftsmanships1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ناو) پێنناسە"),

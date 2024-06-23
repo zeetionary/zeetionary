@@ -138,175 +138,60 @@ class EnglishEntrycontinuity extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) نەگۆڕان یان نەوەستان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "To ensure continuity of care, it is better for a single doctor to treat the patient."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ دڵنیایی لە بەردەوامی چاودێری، باشترە یەک پزیشک چارەسەری نەخۆشەکە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "continuity", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "To ensure continuity of care, it is better for a single doctor to treat the patient.",
+                            kurdishText:
+                                "بۆ دڵنیایی لە بەردەوامی چاودێری، باشترە یەک پزیشک چارەسەری نەخۆشەکە بکات.", // continuity",
+                            onPressedBritish: () => speakcontinuitys1("en-GB"),
+                            onPressedAmerican: () => speakcontinuitys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government is working to maintain continuity of fuel supplies during the crisis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت کاردەکات بۆ پاراستنی بەردەوامی سەرچاوەی وزەی سووتەمەنی لە ماوەی قەیرانەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuitys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government is working to maintain continuity of fuel supplies during the crisis.",
+                            kurdishText:
+                                "حکومەت کاردەکات بۆ پاراستنی بەردەوامی سەرچاوەی وزەی سووتەمەنی لە ماوەی قەیرانەکەدا.",
+                            onPressedBritish: () => speakcontinuitys2("en-GB"),
+                            onPressedAmerican: () => speakcontinuitys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "More liaison between the old manager and the new one should ensure greater continuity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاویاھەنگی زیاتری نێوان بەڕێوبەرە کۆنەکە و دانە تازەکە دەبێت دڵنیایی زیاتر لە بەردەوامی بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuitys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuitys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "More liaison between the old manager and the new one should ensure greater continuity.",
+                            kurdishText:
+                                "ھاویاھەنگی زیاتری نێوان بەڕێوبەرە کۆنەکە و دانە تازەکە دەبێت دڵنیایی زیاتر لە بەردەوامی بدات.",
+                            onPressedBritish: () => speakcontinuitys3("en-GB"),
+                            onPressedAmerican: () => speakcontinuitys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پەیوەندی لۆژیکی نێوان بەشەکانی شتێک، یان نێوان دوو شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The novel fails to achieve narrative continuity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆمانەکە یەکگرتوویی گێڕانەوە نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuitys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuitys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The novel fails to achieve narrative continuity.",
+                            kurdishText: "ڕۆمانەکە یەکگرتوویی گێڕانەوە نییە.",
+                            onPressedBritish: () => speakcontinuitys4("en-GB"),
+                            onPressedAmerican: () => speakcontinuitys4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are obvious continuities between diet and health."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندیی ئاشکرا لە نێوان خۆراکی ڕۆژانە و تەندرووستی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuitys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuitys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are obvious continuities between diet and health.",
+                            kurdishText:
+                                "پەیوەندیی ئاشکرا لە نێوان خۆراکی ڕۆژانە و تەندرووستی ھەیە.",
+                            onPressedBritish: () => speakcontinuitys5("en-GB"),
+                            onPressedAmerican: () => speakcontinuitys5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is often a lack of continuity between one government and the next."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرجار کەمیی یەکگرتووی لە نێوان حکومەتێک و ئەوەی دواتری ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuitys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuitys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is often a lack of continuity between one government and the next.",
+                            kurdishText:
+                                "زۆرجار کەمیی یەکگرتووی لە نێوان حکومەتێک و ئەوەی دواتری ھەیە.",
+                            onPressedBritish: () => speakcontinuitys6("en-GB"),
+                            onPressedAmerican: () => speakcontinuitys6("en-US"),
                           ),
                         ],
                       ),

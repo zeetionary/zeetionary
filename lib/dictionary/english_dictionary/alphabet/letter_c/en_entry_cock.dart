@@ -126,121 +126,45 @@ class EnglishEntrycock extends StatelessWidget {
 کوردی: کەڵەشێر، کەڵەباب، کووک،	نێر، جوڕەـ (لە لێکدانا)،	شێرە (ئا و ھتد)،	چەخماخە، چەکوش (تفەنگ)،	ئامادەی تەقاندنەوە، دۆخی سوارکراو.	ھەڵیت‌وپڵیت، حەلەق‌ومەلەق،	نافەرمی ڕووداری، ڕووھەڵماڵراوی،	براکەم، کاکە (بۆ پرسینی ناونیشان)،	نافەرمی کیر، کێر، چووک،	پێشەوا، سەرۆک، سەرگەورە، سەردەستە،	لاردانان (وەکوو کڵاو)
 """),
                           const DefinitionKurdish(text: "١. (ناو) کەڵەشێر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The cock crowed."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەڵەشێرەکە قووقاندی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cock", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcocks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcocks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The cock crowed.",
+                            kurdishText: "کەڵەشێرەکە قووقاندی.", // cock",
+                            onPressedBritish: () => speakcocks1("en-GB"),
+                            onPressedAmerican: () => speakcocks1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) نێرینەی ھەر باڵندەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cock pheasant's colorful feathers were striking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەڕە ڕەنگینەکانی قەرقاوڵە نێرەکە سەرنجڕاکێش بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcocks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcocks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cock pheasant's colorful feathers were striking.",
+                            kurdishText:
+                                "پەڕە ڕەنگینەکانی قەرقاوڵە نێرەکە سەرنجڕاکێش بوون.",
+                            onPressedBritish: () => speakcocks2("en-GB"),
+                            onPressedAmerican: () => speakcocks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) چووک؛ ئەندام زاوزێی پیاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cock sizes in historical paintings have gradually increased over the past seven centuries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەبارەی کێر لە تابلۆ مێژووییەکاندا کەم کەم زیادی کردووە لە حەوت دەیەی ڕابردوودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcocks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcocks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cock sizes in historical paintings have gradually increased over the past seven centuries.",
+                            kurdishText:
+                                "قەبارەی کێر لە تابلۆ مێژووییەکاندا کەم کەم زیادی کردووە لە حەوت دەیەی ڕابردوودا.",
+                            onPressedBritish: () => speakcocks3("en-GB"),
+                            onPressedAmerican: () => speakcocks3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) بەرزکردنەوەی بەشێکی جەستە بەشێوەیەک کە ڕووی لە ئاراستەیەکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She cocked her head to one side and looked at me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەری بە لایەکدا بەرزکردەوە و سەیرمی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcocks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcocks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She cocked her head to one side and looked at me.",
+                            kurdishText:
+                                "سەری بە لایەکدا بەرزکردەوە و سەیرمی کرد.",
+                            onPressedBritish: () => speakcocks4("en-GB"),
+                            onPressedAmerican: () => speakcocks4("en-US"),
                           ),
                           // const DividerSentences(),
                           // Row(

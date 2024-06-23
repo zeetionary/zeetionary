@@ -192,34 +192,14 @@ class EnglishEntrycentrifugal extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) جوڵان بۆ دوور لە چەق"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When a car rounds a curve, centrifugal force pushes the passengers to the side."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە ئۆتۆمبێلێک لە چەماوەیەکدا پێچدەکاتەوە، ھێزی ناوەندڕەوێن سەرنشینەکان بۆ لا پاڵدەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "centrifugal", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcentrifugals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcentrifugals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When a car rounds a curve, centrifugal force pushes the passengers to the side.",
+                            kurdishText:
+                                "کە ئۆتۆمبێلێک لە چەماوەیەکدا پێچدەکاتەوە، ھێزی ناوەندڕەوێن سەرنشینەکان بۆ لا پاڵدەدات.", // centrifugal",
+                            onPressedBritish: () => speakcentrifugals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcentrifugals1("en-US"),
                           ),
                         ],
                       ),

@@ -110,88 +110,29 @@ class EnglishEntryclang extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) درووستکردنی دەنگێکی زرنگانەوەی بەرز وەک ئەوەی کانزایەک لێی بدرێت، یان ئەوەی لە شتێک بدەیت بۆ ئەوەی ئەم دەنگە درووست بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bells were clanging in the tower."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەنگەکان لە قوللەکە دەزرنگانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clang", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclangs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclangs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Bells were clanging in the tower.",
+                            kurdishText:
+                                "زەنگەکان لە قوللەکە دەزرنگانەوە.", // clang",
+                            onPressedBritish: () => speakclangs1("en-GB"),
+                            onPressedAmerican: () => speakclangs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The gates clanged shut."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەروازەکان بە زرنگانەوە تەواو بەستران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclangs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclangs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The gates clanged shut.",
+                            kurdishText:
+                                "دەروازەکان بە زرنگانەوە تەواو بەستران.",
+                            onPressedBritish: () => speakclangs2("en-GB"),
+                            onPressedAmerican: () => speakclangs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) زرنگانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bell made a resounding clang."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەنگۆڵەکە زرنگانەوەیەکی بەرزی درووستکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclangs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclangs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The bell made a resounding clang.",
+                            kurdishText:
+                                "زەنگۆڵەکە زرنگانەوەیەکی بەرزی درووستکرد.",
+                            onPressedBritish: () => speakclangs3("en-GB"),
+                            onPressedAmerican: () => speakclangs3("en-US"),
                           ),
                         ],
                       ),

@@ -95,32 +95,13 @@ class EnglishEntrycorncob extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەشە ڕەقەکەی گەنمەشامی کە دەنکەکانی لەسەری گەشە دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children used corncobs to feed the chickens on the farm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان ساقەتەی گەنمەشامییان بەکارھێنا بۆ خواردن دان بە مریشکەکانی کێڵگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "corncob", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcorncobs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcorncobs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children used corncobs to feed the chickens on the farm.",
+                            kurdishText:
+                                "منداڵەکان ساقەتەی گەنمەشامییان بەکارھێنا بۆ خواردن دان بە مریشکەکانی کێڵگەکە.", // corncob",
+                            onPressedBritish: () => speakcorncobs1("en-GB"),
+                            onPressedAmerican: () => speakcorncobs1("en-US"),
                           ),
                         ],
                       ),

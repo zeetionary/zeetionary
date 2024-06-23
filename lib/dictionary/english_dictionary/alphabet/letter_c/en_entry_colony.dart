@@ -128,152 +128,56 @@ class EnglishEntrycolony extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوچەیەک یان وڵاتێک کە لەلایەن یەکێکی دیکەی بەھێزترەوە بەڕێوەدەبرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "By 1733, the British had set up a total of 13 colonies in North America."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاوەکو ١٧٣٣، بەریتانیا ١٣ کۆلۆنی لە ئەمریکای باکوور بنیات نابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colony", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "By 1733, the British had set up a total of 13 colonies in North America.",
+                            kurdishText:
+                                "تاوەکو ١٧٣٣، بەریتانیا ١٣ کۆلۆنی لە ئەمریکای باکوور بنیات نابوو.", // colony",
+                            onPressedBritish: () => speakcolonys1("en-GB"),
+                            onPressedAmerican: () => speakcolonys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "East Timor was a former Portuguese colony."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەیمووری ڕۆژھەڵات کۆلۆنییەکی کۆنی پرتوگال بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "East Timor was a former Portuguese colony.",
+                            kurdishText:
+                                "تەیمووری ڕۆژھەڵات کۆلۆنییەکی کۆنی پرتوگال بوو.",
+                            onPressedBritish: () => speakcolonys2("en-GB"),
+                            onPressedAmerican: () => speakcolonys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کۆمەڵە کەسێک کە کۆچ دەکەن بۆ ئەوەی بۆ ھەمیشەیی لە کۆلۆنییەکدا بژین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The colony established a new community in the wilderness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆلۆنییەکە کۆمەڵگەیەکی تازەیان درووستکرد لە چۆڵەوانییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The colony established a new community in the wilderness.",
+                            kurdishText:
+                                "کۆلۆنییەکە کۆمەڵگەیەکی تازەیان درووستکرد لە چۆڵەوانییەکە.",
+                            onPressedBritish: () => speakcolonys3("en-GB"),
+                            onPressedAmerican: () => speakcolonys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کۆمەڵێک کەس لە ھەمان شوێنن یان ھەمان کار یان یان خولیایان ھەیە و لە شارێک یان وڵاتێکی دیاریکراودا، یان پێکەوە دەژین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The musician colony thrived in the city."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستەی میوزیکژەنان لە شارەکە دەبووژایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The musician colony thrived in the city.",
+                            kurdishText:
+                                "دەستەی میوزیکژەنان لە شارەکە دەبووژایەوە.",
+                            onPressedBritish: () => speakcolonys4("en-GB"),
+                            onPressedAmerican: () => speakcolonys4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) کۆمەڵە ڕووەکێک یان ئاژەڵێک کە پێکەوە دەژین یان گەشە دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The birds nest in huge colonies."),
-                                    ExampleSentenceKurdish(
-                                        text: "باڵندە بە گرووپی گەورە دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The birds nest in huge colonies.",
+                            kurdishText: "باڵندە بە گرووپی گەورە دەژین.",
+                            onPressedBritish: () => speakcolonys5("en-GB"),
+                            onPressedAmerican: () => speakcolonys5("en-US"),
                           ),
                         ],
                       ),

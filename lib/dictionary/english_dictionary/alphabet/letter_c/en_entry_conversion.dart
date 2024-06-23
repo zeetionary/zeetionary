@@ -121,119 +121,43 @@ class EnglishEntryconversion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کردار یان پڕۆسەی گۆڕانی شتێک لە جۆرێک، بەکارھێنانێک، یان سیستەمێکەوە بۆ یەکێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Conversion to gas central heating will save you a lot of money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆڕین بۆ گەرمکەری ناوەکی گاز پارەی زۆرت بۆ دەگێڕێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conversion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconversions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Conversion to gas central heating will save you a lot of money.",
+                            kurdishText:
+                                "گۆڕین بۆ گەرمکەری ناوەکی گاز پارەی زۆرت بۆ دەگێڕێتەوە.", // conversion",
+                            onPressedBritish: () => speakconversions1("en-GB"),
+                            onPressedAmerican: () => speakconversions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Consult the conversion table to figure out the weight in kilos."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە خشتەی گۆڕینەکە بڕوانە بۆ زانینی کێشەکە بە کیلۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconversions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Consult the conversion table to figure out the weight in kilos.",
+                            kurdishText:
+                                "لە خشتەی گۆڕینەکە بڕوانە بۆ زانینی کێشەکە بە کیلۆ.",
+                            onPressedBritish: () => speakconversions2("en-GB"),
+                            onPressedAmerican: () => speakconversions2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are no charges for currency conversion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ بڕێک وەرناگیرێت بۆ گۆڕینەوەی پارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconversions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are no charges for currency conversion.",
+                            kurdishText:
+                                "ھیچ بڕێک وەرناگیرێت بۆ گۆڕینەوەی پارە.",
+                            onPressedBritish: () => speakconversions3("en-GB"),
+                            onPressedAmerican: () => speakconversions3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پڕۆسە یان ئەزموونی گۆڕینی باوەڕ یان ئایینی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Late in life she experienced a religious conversion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتایی ژیانیدا بە گۆڕینی ئاییندا تێپەڕبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconversions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconversions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Late in life she experienced a religious conversion.",
+                            kurdishText:
+                                "لە کۆتایی ژیانیدا بە گۆڕینی ئاییندا تێپەڕبوو.",
+                            onPressedBritish: () => speakconversions4("en-GB"),
+                            onPressedAmerican: () => speakconversions4("en-US"),
                           ),
                         ],
                       ),

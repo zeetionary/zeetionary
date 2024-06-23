@@ -94,32 +94,13 @@ class EnglishEntrycombatant extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بەژداربوویەکی شەڕێک یان جەنگێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was involved in the war, but not as a combatant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە جەنگەکە بەژداربوو، بەڵام نەک وەک جەنگاوەرێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "combatant", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombatants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombatants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was involved in the war, but not as a combatant.",
+                            kurdishText:
+                                "لە جەنگەکە بەژداربوو، بەڵام نەک وەک جەنگاوەرێک.", // combatant",
+                            onPressedBritish: () => speakcombatants1("en-GB"),
+                            onPressedAmerican: () => speakcombatants1("en-US"),
                           ),
                         ],
                       ),

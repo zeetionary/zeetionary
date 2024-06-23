@@ -194,63 +194,25 @@ class EnglishEntrycanopy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) داپۆشەرێک کە لەسەر جێگەیەکی نووستن، کورسییەک، ھتد درووست دەکرێت بۆ سێبەر یان جوانکاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Canopies in medieval times often symbolized wealth and status."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژوورسەر لە سەردەمانی ناوەڕاستدا زۆرجار نیشانەی سامان و پێگە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canopy", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanopys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanopys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Canopies in medieval times often symbolized wealth and status.",
+                            kurdishText:
+                                "ژوورسەر لە سەردەمانی ناوەڕاستدا زۆرجار نیشانەی سامان و پێگە بوون.", // canopy
+                            onPressedBritish: () => speakcanopys1("en-GB"),
+                            onPressedAmerican: () => speakcanopys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕوویەک لە شتێک کە بەسەر ناوچەیەکدا بڵاودەبێتەوە، بەتایبەتی لقەکانی دار بەسەر دارستاندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We could see the sky through gaps in the forest canopy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمانتوانی ئاسمان ببینین بە بۆشایی نێوان چەتری دارستانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanopys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanopys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We could see the sky through gaps in the forest canopy.",
+                            kurdishText:
+                                "دەمانتوانی ئاسمان ببینین بە بۆشایی نێوان چەتری دارستانەکە.",
+                            onPressedBritish: () => speakcanopys2("en-GB"),
+                            onPressedAmerican: () => speakcanopys2("en-US"),
                           ),
                           // skipped_meaning
                         ],

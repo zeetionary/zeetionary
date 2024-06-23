@@ -94,32 +94,13 @@ class EnglishEntrycolumnist extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەسێک کە وتارێک بە بەردەوامی بۆ ڕۆژنامەیەک یان گۆڤارێک دەنووسێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's a columnist for the New York Times."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستوون‌نووسێکە بۆ نیویۆرک تایمز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "columnist", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolumnists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolumnists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's a columnist for the New York Times.",
+                            kurdishText:
+                                "ستوون‌نووسێکە بۆ نیویۆرک تایمز.", // columnist",
+                            onPressedBritish: () => speakcolumnists1("en-GB"),
+                            onPressedAmerican: () => speakcolumnists1("en-US"),
                           ),
                         ],
                       ),

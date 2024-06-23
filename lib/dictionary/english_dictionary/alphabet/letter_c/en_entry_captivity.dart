@@ -190,60 +190,22 @@ class EnglishEntrycaptivity extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) دۆخی لە دیلیدا بوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was held in captivity for three years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ چوار ساڵ بە یەخسیری ھێڵدرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "captivity", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptivitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptivitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was held in captivity for three years.",
+                            kurdishText:
+                                "بۆ چوار ساڵ بە یەخسیری ھێڵدرایەوە.", // captivity
+                            onPressedBritish: () => speakcaptivitys1("en-GB"),
+                            onPressedAmerican: () => speakcaptivitys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Wild animals do not always breed well in captivity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاژەڵی کێوی زۆرجار بەباشی زاوزێ ناکەن لە دیلیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptivitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptivitys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Wild animals do not always breed well in captivity.",
+                            kurdishText:
+                                "ئاژەڵی کێوی زۆرجار بەباشی زاوزێ ناکەن لە دیلیدا.",
+                            onPressedBritish: () => speakcaptivitys2("en-GB"),
+                            onPressedAmerican: () => speakcaptivitys2("en-US"),
                           ),
                         ],
                       ),

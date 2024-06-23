@@ -118,91 +118,34 @@ class EnglishEntrychairman extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە سەرپەرشتی چاوپێکەوتنێک دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sir Herbert took it upon himself to act as chairman."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێر ھێربێرت بەرپرسیاریەتی سەرکۆڕیکردنی خستە ئەستۆی خۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chairman", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchairmans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchairmans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+  englishText:
+                                            "Sir Herbert took it upon himself to act as chairman.",
+                                    kurdishText:
+                                            "سێر ھێربێرت بەرپرسیاریەتی سەرکۆڕیکردنی خستە ئەستۆی خۆی.", // chairman",
+                                    onPressedBritish: () => speakchairmans1("en-GB"),
+onPressedAmerican: () => speakchairmans1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک کە بەرپرسی لیژنەیەک، کۆمپانیایەک، ھتد دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chairman of the company presented the annual report."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆکی کۆمپانیاکە ڕاپۆرتی ساڵانەی پێشکەشکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchairmans2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchairmans2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                                  "٢. (ناو) کەسێک کە وەک بەرپرسی لیژنەیەک، کۆمپانیایەک، ھتد کار دەکات"),
+                          SentencesRow(
+  englishText:
+                                            "The chairman of the company presented the annual report.",
+                                    kurdishText:
+                                            "سەرۆکی کۆمپانیاکە ڕاپۆرتی ساڵانەی پێشکەشکرد.",
+                                    onPressedBritish: () => speakchairmans2("en-GB"),
+onPressedAmerican: () => speakchairmans2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has taken over as chairman and chief executive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پۆستی سەرۆکایەتی و بەڕێوبەری گشتی دەستبەکاربووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchairmans3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchairmans3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+  englishText:
+                                            "He has taken over as chairman and chief executive.",
+                                    kurdishText:
+                                            "لە پۆستی سەرۆکایەتی و بەڕێوبەری گشتی دەستبەکاربووە.",
+                                    onPressedBritish: () => speakchairmans3("en-GB"),
+onPressedAmerican: () => speakchairmans3("en-US"),
                           ),
                         ],
                       ),

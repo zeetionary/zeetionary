@@ -284,56 +284,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) درووستکردنی شتێکی تازە، یان شتێک کە پێشووتر بوونی نەبووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Job creation needs to be the top priority."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەخساندنی کار ئەولەویەتی سەرەکییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Job creation needs to be the top priority.",
+            kurdishText:
+                "ڕەخساندنی کار ئەولەویەتی سەرەکییە.", // creation", please follow LX instructions
+            onPressedBritish: () => speakcreations1("en-GB"),
+            onPressedAmerican: () => speakcreations1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The reforms led to the creation of 220 jobs."),
-                    ExampleSentenceKurdish(
-                        text: "چاکسازییەکان بوون بەھۆی ڕەخساندنی ٢٢٠ کار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The reforms led to the creation of 220 jobs.",
+            kurdishText: "چاکسازییەکان بوون بەھۆی ڕەخساندنی ٢٢٠ کار.",
+            onPressedBritish: () => speakcreations2("en-GB"),
+            onPressedAmerican: () => speakcreations2("en-US"),
           ),
           Column(
             children: [
@@ -401,90 +364,30 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شتێک کە کەسێک درووستی کردووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cake was a delicious creation of sponge, cream and fruit."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کێکەکە چێ‌کردنێکی بەلەزەتی سپۆنج، کرێم، و میوە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreations5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreations5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cake was a delicious creation of sponge, cream and fruit.",
+            kurdishText: "کێکەکە چێ‌کردنێکی بەلەزەتی سپۆنج، کرێم، و میوە بوو.",
+            onPressedBritish: () => speakcreations5("en-GB"),
+            onPressedAmerican: () => speakcreations5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "What an amazing creation (= a very unusual and new piece of clothing) you’re wearing!"),
-                    ExampleSentenceKurdish(
-                        text: "چی درووستکراوێکی سەرسووڕھێنەرت پۆشیوە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreations6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreations6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "What an amazing creation (= a very unusual and new piece of clothing) you’re wearing!",
+            kurdishText: "چی درووستکراوێکی سەرسووڕھێنەرت پۆشیوە!",
+            onPressedBritish: () => speakcreations6("en-GB"),
+            onPressedAmerican: () => speakcreations6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) درووستکردنی جیھان لەلایەن خوداوە؛ جیھان و گیانلەبەرەکانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We need to consider how we care for all creation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت بیر لەوە بکەینەوە کە چۆن گرنگی بە گێتی دەدەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreations7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreations7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We need to consider how we care for all creation.",
+            kurdishText: "دەبێت بیر لەوە بکەینەوە کە چۆن گرنگی بە گێتی دەدەین.",
+            onPressedBritish: () => speakcreations7("en-GB"),
+            onPressedAmerican: () => speakcreations7("en-US"),
           ),
         ],
       ),

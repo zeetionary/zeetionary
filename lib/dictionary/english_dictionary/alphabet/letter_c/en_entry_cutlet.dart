@@ -232,30 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) پارچە گۆشتێکی ئەستوور کە ھێشتا پێشەکەی پێوەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She ordered a chicken cutlet for dinner."),
-                    ExampleSentenceKurdish(
-                        text: "داوای پارچە گۆشتێکی مریشکی بۆ نانی ئێوارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cutlet", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutlets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutlets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She ordered a chicken cutlet for dinner.",
+            kurdishText:
+                "داوای پارچە گۆشتێکی مریشکی بۆ نانی ئێوارە.", // cutlet", please follow LX instructions
+            onPressedBritish: () => speakcutlets1("en-GB"),
+            onPressedAmerican: () => speakcutlets1("en-US"),
           ),
         ],
       ),

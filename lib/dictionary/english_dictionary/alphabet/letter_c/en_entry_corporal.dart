@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەفسەرێکی پلە نزم لە ھێزی مارێنزی ئەمریکی یان ھێزی ئاسمانی ئاسمانی بەریتانیا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The corporal oversaw the training of new recruits in the army."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەفسەرەکە سەرپەرشتی ڕاھێنانی تازە وەرگیراوانی سوپای دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corporal", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorporals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorporals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The corporal oversaw the training of new recruits in the army.",
+            kurdishText:
+                "ئەفسەرەکە سەرپەرشتی ڕاھێنانی تازە وەرگیراوانی سوپای دەکرد.", // corporal", please follow LX instructions
+            onPressedBritish: () => speakcorporals1("en-GB"),
+            onPressedAmerican: () => speakcorporals1("en-US"),
           ),
         ],
       ),

@@ -128,154 +128,57 @@ class EnglishEntryconversation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گفتوگۆیەکی نافەرمی کە ژمارەیەک کەس یان تەنھا دوو کەس لەخۆدەگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The main topic of conversation was the likely outcome of the election."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بابەتی سەرەکیی گفتوگۆکە ئەنجامی پێشبینیکراوی ھەڵبژاردنەکە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conversation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconversations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconversations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The main topic of conversation was the likely outcome of the election.",
+                            kurdishText:
+                                "بابەتی سەرەکیی گفتوگۆکە ئەنجامی پێشبینیکراوی ھەڵبژاردنەکە بوو.", // conversation",
+                            onPressedBritish: () =>
+                                speakconversations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconversations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had a long conversation with her the other day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ڕۆژە گفتوگۆیەکی درێژم لەگەڵیدا ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconversations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconversations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had a long conversation with her the other day.",
+                            kurdishText:
+                                "ئەو ڕۆژە گفتوگۆیەکی درێژم لەگەڵیدا ھەبوو.",
+                            onPressedBritish: () =>
+                                speakconversations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconversations2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was engaged in conversation with a colleague."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گفتوگۆیەکی لەگەڵ ھاوکارێکی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconversations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconversations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was engaged in conversation with a colleague.",
+                            kurdishText: "گفتوگۆیەکی لەگەڵ ھاوکارێکی ھەبوو.",
+                            onPressedBritish: () =>
+                                speakconversations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconversations3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We had to listen to endless conversations about high prices and food shortages."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبوو گوێ بگرین لە گفتوگۆی نەبڕاوە لەسەر بەرزیی نرخ و کەمی خۆراک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconversations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconversations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We had to listen to endless conversations about high prices and food shortages.",
+                            kurdishText:
+                                "دەبوو گوێ بگرین لە گفتوگۆی نەبڕاوە لەسەر بەرزیی نرخ و کەمی خۆراک.",
+                            onPressedBritish: () =>
+                                speakconversations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconversations4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I spent an hour in conversation with him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتژمێرێکم لەگەڵ بە گفتوگۆ بەسەربرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconversations5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconversations5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I spent an hour in conversation with him.",
+                            kurdishText: "کاتژمێرێکم لەگەڵ بە گفتوگۆ بەسەربرد.",
+                            onPressedBritish: () =>
+                                speakconversations5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconversations5("en-US"),
                           ),
                         ],
                       ),

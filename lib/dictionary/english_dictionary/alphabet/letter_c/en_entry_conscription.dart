@@ -94,34 +94,15 @@ class EnglishEntryconscription extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سیستەمی سەربازی زۆرەملێ؛ بەزۆر بانگکردن بۆ سوپا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He injured himself to avoid conscription."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی بریندار کرد بۆ دووربوون لە سەربازگیری زۆرەملێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conscription", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconscriptions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconscriptions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He injured himself to avoid conscription.",
+                            kurdishText:
+                                "خۆی بریندار کرد بۆ دووربوون لە سەربازگیری زۆرەملێ.", // conscription",
+                            onPressedBritish: () =>
+                                speakconscriptions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconscriptions1("en-US"),
                           ),
                         ],
                       ),

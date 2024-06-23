@@ -95,32 +95,13 @@ class EnglishEntrycondiment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مادەیەکی وەک خوێ، بیبەر، یان ساس کە زیاد دەکرێت بۆ خواردن بۆ زیادکردنی تام"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The table was set with various condiments, including vinegar, ketchup, and salt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێزەکە پڕ بوو لە ژمارەیەک لە تامی وەک سرکە و کەچەپ و خوێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "condiment", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondiments1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondiments1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The table was set with various condiments, including vinegar, ketchup, and salt.",
+                            kurdishText:
+                                "مێزەکە پڕ بوو لە ژمارەیەک لە تامی وەک سرکە و کەچەپ و خوێ.", // condiment",
+                            onPressedBritish: () => speakcondiments1("en-GB"),
+                            onPressedAmerican: () => speakcondiments1("en-US"),
                           ),
                         ],
                       ),

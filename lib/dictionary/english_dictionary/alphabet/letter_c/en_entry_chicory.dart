@@ -95,32 +95,13 @@ class EnglishEntrychicory extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕووەکێکی بچووکی سەوزی کاڵ کە گەڵاکانی تاڵن و بە کاڵی دەخورێت یان وەک سەوزە دەکوڵێنرێت. دەتوانرێت ڕەگەکەی وشک بکرێتەوە و لەگەڵ قاوە یان لەبری قاوە بەکاربھێنرێت."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I like to grill red or white chicory to go with the meat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزدەکەم چەقچەقەی سوور و سپی ببرژێنم بۆ خواردن لەگەڵ گۆشتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chicory", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchicorys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchicorys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I like to grill red or white chicory to go with the meat.",
+                            kurdishText:
+                                "حەزدەکەم چەقچەقەی سوور و سپی ببرژێنم بۆ خواردن لەگەڵ گۆشتەکە.", // chicory",
+                            onPressedBritish: () => speakchicorys1("en-GB"),
+                            onPressedAmerican: () => speakchicorys1("en-US"),
                           ),
                         ],
                       ),

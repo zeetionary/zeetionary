@@ -186,62 +186,23 @@ class EnglishEntrycastingvote extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دەنگی دیاری‌کەر یان یەکلایی‌کەرەوە کە دەدرێت لەلایەن ئەو کەسەی کە سەرپەرشتی چاوپێکەوتنێک دەکات کاتێک کە دەنگی ئەندامەکان یەکسانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You have the casting vote."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەنگی یەکلاکەرەوە لای تۆیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "casting vote", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcastingvotes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcastingvotes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You have the casting vote.",
+                            kurdishText:
+                                "دەنگی یەکلاکەرەوە لای تۆیە.", // casting vote",
+                            onPressedBritish: () => speakcastingvotes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcastingvotes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chairman gave his casting vote in favour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکۆڕەکە دەنگی یەکلاکەرەوەی لە بەرژەوەندی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcastingvotes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcastingvotes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chairman gave his casting vote in favour.",
+                            kurdishText:
+                                "سەرکۆڕەکە دەنگی یەکلاکەرەوەی لە بەرژەوەندی دا.",
+                            onPressedBritish: () => speakcastingvotes2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcastingvotes2("en-US"),
                           ),
                         ],
                       ),

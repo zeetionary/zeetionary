@@ -247,77 +247,26 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: فڕ، لوول، کرژ، کلیل
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) لوول"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I wish my hair was curly."),
-                    ExampleSentenceKurdish(text: "بەھیوام قژم لوول بایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I wish my hair was curly.",
+            kurdishText:
+                "بەھیوام قژم لوول بایە.", // curly", please follow LX instructions
+            onPressedBritish: () => speakcurlys1("en-GB"),
+            onPressedAmerican: () => speakcurlys1("en-US"),
           ),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She wished she had naturally curly hair."),
-                    ExampleSentenceKurdish(
-                        text: "ئاواتەخوازبوو قژی سرووشتی لوولی ھەبایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She wished she had naturally curly hair.",
+            kurdishText:
+                "ئاواتەخوازبوو قژی سرووشتی لوولی ھەبایە.", // curly", please follow LX instructions
+            onPressedBritish: () => speakcurlys2("en-GB"),
+            onPressedAmerican: () => speakcurlys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Your hair’s gone all curly!"),
-                    ExampleSentenceKurdish(text: "قژم ھەمووی لوول بووە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurlys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurlys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Your hair’s gone all curly!",
+            kurdishText: "قژم ھەمووی لوول بووە!",
+            onPressedBritish: () => speakcurlys3("en-GB"),
+            onPressedAmerican: () => speakcurlys3("en-US"),
           ),
         ],
       ),

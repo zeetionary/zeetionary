@@ -110,91 +110,33 @@ class EnglishEntrycommunion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پەیوەندییەکی نزیک لەگەڵ شتێک کە تێیدا ھەست و سۆز دەگۆڕدرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He lived in close communion with nature."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پەیوەندی نزیکدا لەگەڵ سرووشت دەژیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "communion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He lived in close communion with nature.",
+                            kurdishText:
+                                "لە پەیوەندی نزیکدا لەگەڵ سرووشت دەژیا.", // communion",
+                            onPressedBritish: () => speakcommunions1("en-GB"),
+                            onPressedAmerican: () => speakcommunions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He found spiritual communion with her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی ڕۆحی لەگەڵیدا دەدۆزییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He found spiritual communion with her.",
+                            kurdishText: "ھەستی ڕۆحی لەگەڵیدا دەدۆزییەوە.",
+                            onPressedBritish: () => speakcommunions2("en-GB"),
+                            onPressedAmerican: () => speakcommunions2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بۆنەیەک لە کڵێسای کاسۆلیک کە تێیدا خەڵکی نان دەخۆن و دەخۆنەوە بە یادی کۆتا ژەمی عیسای مەسیح لەگەڵ خوێندکارەکانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most of the people present took Communion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی ئەو کەسانەی کە ئامادەبوون خواردنیان خوارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommunions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommunions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most of the people present took Communion.",
+                            kurdishText:
+                                "زۆرینەی ئەو کەسانەی کە ئامادەبوون خواردنیان خوارد.",
+                            onPressedBritish: () => speakcommunions3("en-GB"),
+                            onPressedAmerican: () => speakcommunions3("en-US"),
                           ),
                         ],
                       ),

@@ -138,175 +138,59 @@ class EnglishEntrycongress extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆبوونەوەیەکی فەرمی گەورە، یان زنجیرەیەک لە کۆبوونەوە کە تێیدا ژمارەیەک نوێنەر لە گرووپی جیاوازەوە بیرۆکە، بڕیار، ھتد باس دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Republican congress applauded this news enthusiastically."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆبوونەوەی کۆمارییەکان بە جۆش‌وخرۆشییەوە پیرۆزباییان لە ھەواڵەکە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congress", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongresss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongresss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Republican congress applauded this news enthusiastically.",
+                            kurdishText:
+                                "کۆبوونەوەی کۆمارییەکان بە جۆش‌وخرۆشییەوە پیرۆزباییان لە ھەواڵەکە کرد.", // congress",
+                            onPressedBritish: () => speakcongresss1("en-GB"),
+                            onPressedAmerican: () => speakcongresss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The general secretary opened the congress on global warming."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سکرتێری گشتی کۆنگرەی فەرمی لەسەر گەرمبوونی جیھانی دەستپێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongresss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongresss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The general secretary opened the congress on global warming.",
+                            kurdishText:
+                                "سکرتێری گشتی کۆنگرەی فەرمی لەسەر گەرمبوونی جیھانی دەستپێکرد.",
+                            onPressedBritish: () => speakcongresss2("en-GB"),
+                            onPressedAmerican: () => speakcongresss2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We met again at the annual congress."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکمان دییەوە لە کۆبوونەوە ساڵانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongresss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongresss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We met again at the annual congress.",
+                            kurdishText: "یەکمان دییەوە لە کۆبوونەوە ساڵانەکە.",
+                            onPressedBritish: () => speakcongresss3("en-GB"),
+                            onPressedAmerican: () => speakcongresss3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) لە ئەمریکا و ژمارەیەک وڵاتی دیکە ژمارەیەک کەسن کە کاری یاسادانان دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Congress will vote on the proposals tomorrow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆنگرێس سبەی دەنگ لەسەر پێشنیارەکە دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongresss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongresss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Congress will vote on the proposals tomorrow.",
+                            kurdishText:
+                                "کۆنگرێس سبەی دەنگ لەسەر پێشنیارەکە دەدات.",
+                            onPressedBritish: () => speakcongresss4("en-GB"),
+                            onPressedAmerican: () => speakcongresss4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Congress annually enacts legislation to fund NASA."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆنگرێس ساڵانە یاسا دەردەکات بۆ خەرجی کردنی ناسا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongresss5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongresss5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Congress annually enacts legislation to fund NASA.",
+                            kurdishText:
+                                "کۆنگرێس ساڵانە یاسا دەردەکات بۆ خەرجی کردنی ناسا.",
+                            onPressedBritish: () => speakcongresss5("en-GB"),
+                            onPressedAmerican: () => speakcongresss5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They will have to go to Congress to get the money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت پەنا بۆ کۆنگرێس ببەن بۆ وەرگرتنی پارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongresss6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongresss6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They will have to go to Congress to get the money.",
+                            kurdishText:
+                                "دەبێت پەنا بۆ کۆنگرێس ببەن بۆ وەرگرتنی پارەکە.",
+                            onPressedBritish: () => speakcongresss6("en-GB"),
+                            onPressedAmerican: () => speakcongresss6("en-US"),
                           ),
                         ],
                       ),

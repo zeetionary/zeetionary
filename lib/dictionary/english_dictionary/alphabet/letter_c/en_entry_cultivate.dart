@@ -276,174 +276,57 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) ئامادەکردن و بەکارھێنانی زەوی بۆ چاندن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The land around here has never been cultivated."),
-                    ExampleSentenceKurdish(
-                        text: "زەوی ئێرە ھەرگیز نەکێڵدراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cultivate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultivates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultivates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The land around here has never been cultivated.",
+            kurdishText:
+                "زەوی ئێرە ھەرگیز نەکێڵدراوە.", // cultivate", please follow LX instructions
+            onPressedBritish: () => speakcultivates1("en-GB"),
+            onPressedAmerican: () => speakcultivates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The land here has been intensively cultivated for generations."),
-                    ExampleSentenceKurdish(
-                        text: "خاکی ئێرە بە ڕژدی بۆ چەندین نەوە چێندراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultivates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultivates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The land here has been intensively cultivated for generations.",
+            kurdishText: "خاکی ئێرە بە ڕژدی بۆ چەندین نەوە چێندراوە.",
+            onPressedBritish: () => speakcultivates2("en-GB"),
+            onPressedAmerican: () => speakcultivates2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) چاندنی ڕووەک و دانەوێڵە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The people cultivate mainly rice and beans."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەڵکەکە بەشێوەیەکی سەرەکی برنج و پاقلەمەنی دەچێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultivates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultivates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The people cultivate mainly rice and beans.",
+            kurdishText: "خەڵکەکە بەشێوەیەکی سەرەکی برنج و پاقلەمەنی دەچێنن.",
+            onPressedBritish: () => speakcultivates3("en-GB"),
+            onPressedAmerican: () => speakcultivates3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Olives have been cultivated successfully in southern Australia."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زەیتوون بە سەرکەوتووی لە باشووری ئەمریکا چێندراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultivates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultivates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Olives have been cultivated successfully in southern Australia.",
+            kurdishText: "زەیتوون بە سەرکەوتووی لە باشووری ئەمریکا چێندراوە.",
+            onPressedBritish: () => speakcultivates4("en-GB"),
+            onPressedAmerican: () => speakcultivates4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) ھەوڵدان بۆ بەدەستھێنانی ھاوڕێیەتی یان پشتگیری کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He purposely tried to cultivate good relations with the press."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەمەبستەوە ھەوڵیدا پەیوەندی باش لەگەڵ میدیادا درووست بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultivates5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultivates5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He purposely tried to cultivate good relations with the press.",
+            kurdishText:
+                "بەمەبستەوە ھەوڵیدا پەیوەندی باش لەگەڵ میدیادا درووست بکات.",
+            onPressedBritish: () => speakcultivates5("en-GB"),
+            onPressedAmerican: () => speakcultivates5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It helps if you go out of your way to cultivate the local people."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باش دەبێت ئەگەر ھەوڵ بدەیت خەڵکە خۆجێییەکە بناسیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultivates6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultivates6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It helps if you go out of your way to cultivate the local people.",
+            kurdishText: "باش دەبێت ئەگەر ھەوڵ بدەیت خەڵکە خۆجێییەکە بناسیت.",
+            onPressedBritish: () => speakcultivates6("en-GB"),
+            onPressedAmerican: () => speakcultivates6("en-US"),
           ),
         ],
       ),

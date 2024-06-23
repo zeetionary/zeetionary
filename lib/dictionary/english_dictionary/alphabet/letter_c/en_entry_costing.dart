@@ -238,56 +238,19 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: ھەڵسەنگاندن یان نرخاندنی تێچوون
 // """),
           const DefinitionKurdish(text: "١. (ناو) خەمڵاندنی تێچووی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Here is a detailed costing of our proposals."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە نرخاندنێکی وردی پێشنیارەکانمانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "costing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Here is a detailed costing of our proposals.",
+            kurdishText:
+                "ئەمە نرخاندنێکی وردی پێشنیارەکانمانە.", // costing", please follow LX instructions
+            onPressedBritish: () => speakcostings1("en-GB"),
+            onPressedAmerican: () => speakcostings1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You'd better do some costings."),
-                    ExampleSentenceKurdish(
-                        text: "باشترە ھەندێک نرخاندن بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You'd better do some costings.",
+            kurdishText: "باشترە ھەندێک نرخاندن بکەیت.",
+            onPressedBritish: () => speakcostings2("en-GB"),
+            onPressedAmerican: () => speakcostings2("en-US"),
           ),
         ],
       ),

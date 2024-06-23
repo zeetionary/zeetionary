@@ -144,203 +144,69 @@ class EnglishEntrycomplaint extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) گازندە؛ سکاڵا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She said the police had immediately investigated the complaint."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوتی پۆلیس دەستبەجێ لێکۆڵینەوەی لە سکاڵاکە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complaint", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplaints1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplaints1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She said the police had immediately investigated the complaint.",
+                            kurdishText:
+                                "گوتی پۆلیس دەستبەجێ لێکۆڵینەوەی لە سکاڵاکە کرد.", // complaint",
+                            onPressedBritish: () => speakcomplaints1("en-GB"),
+                            onPressedAmerican: () => speakcomplaints1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The most common complaint is about poor service."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوترین جۆری گازندە خزمەتگوزاری خراپە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplaints2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplaints2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The most common complaint is about poor service.",
+                            kurdishText:
+                                "باوترین جۆری گازندە خزمەتگوزاری خراپە.",
+                            onPressedBritish: () => speakcomplaints2("en-GB"),
+                            onPressedAmerican: () => speakcomplaints2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'd like to make a complaint about the noise."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمەوێت سکاڵا بکەم سەبارەت بە دەنگەدەنگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplaints3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplaints3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'd like to make a complaint about the noise.",
+                            kurdishText:
+                                "دەمەوێت سکاڵا بکەم سەبارەت بە دەنگەدەنگەکە.",
+                            onPressedBritish: () => speakcomplaints3("en-GB"),
+                            onPressedAmerican: () => speakcomplaints3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کاری ناڕەزایی دەربڕین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can see no grounds for complaint."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ ھۆکارێک بۆ ناڕەزایی دەربڕین نابینم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplaints4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplaints4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I can see no grounds for complaint.",
+                            kurdishText:
+                                "ھیچ ھۆکارێک بۆ ناڕەزایی دەربڕین نابینم.",
+                            onPressedBritish: () => speakcomplaints4("en-GB"),
+                            onPressedAmerican: () => speakcomplaints4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm planning to write a formal letter of complaint."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمەوێت نامەیەکی فەرمی ناڕەزایی دەربڕین بنووسم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplaints5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplaints5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm planning to write a formal letter of complaint.",
+                            kurdishText:
+                                "دەمەوێت نامەیەکی فەرمی ناڕەزایی دەربڕین بنووسم.",
+                            onPressedBritish: () => speakcomplaints5("en-GB"),
+                            onPressedAmerican: () => speakcomplaints5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) نەخۆشییەک، بەتایبەتی یەکێک کە سەخت نییە، و بەزۆری یەکێک کە بەشێکی جەستە دەگرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He has a minor skin complaint."),
-                                    ExampleSentenceKurdish(
-                                        text: "نەخۆشییەکی بچووکی جەستەی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplaints6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplaints6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He has a minor skin complaint.",
+                            kurdishText: "نەخۆشییەکی بچووکی جەستەی ھەیە.",
+                            onPressedBritish: () => speakcomplaints6("en-GB"),
+                            onPressedAmerican: () => speakcomplaints6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Not being able to sleep at night is a very common complaint."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەبوونی توانای خەوتن لە شەودا نەخۆشییەکی باوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplaints7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplaints7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Not being able to sleep at night is a very common complaint.",
+                            kurdishText:
+                                "نەبوونی توانای خەوتن لە شەودا نەخۆشییەکی باوە.",
+                            onPressedBritish: () => speakcomplaints7("en-GB"),
+                            onPressedAmerican: () => speakcomplaints7("en-US"),
                           ),
                         ],
                       ),

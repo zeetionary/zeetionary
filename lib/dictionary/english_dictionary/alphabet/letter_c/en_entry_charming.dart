@@ -126,58 +126,20 @@ class EnglishEntrycharming extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر دڵڕفێنەر و سەرنجڕاکێش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cottage is tiny, but it's charming."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کووخەکە بچووکە، بەڵام دڵڕفێنەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "charming", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharmings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharmings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cottage is tiny, but it's charming.",
+                            kurdishText:
+                                "کووخەکە بچووکە، بەڵام دڵڕفێنەرە.", // charming",
+                            onPressedBritish: () => speakcharmings1("en-GB"),
+                            onPressedAmerican: () => speakcharmings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She's a charming person."),
-                                    ExampleSentenceKurdish(
-                                        text: "کچێکی نازدارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharmings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharmings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's a charming person.",
+                            kurdishText: "کچێکی نازدارە.",
+                            onPressedBritish: () => speakcharmings2("en-GB"),
+                            onPressedAmerican: () => speakcharmings2("en-US"),
                           ),
                           Column(
                             children: [
@@ -247,32 +209,13 @@ class EnglishEntrycharming extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) پیشاندانی ئەوەی کە بۆچوونێکی نزمت ھەیە بۆ ھەڵسوکەوتی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They left me to tidy it all up myself. Charming, wasn't it?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە جێیان ھێشتم کە ھەمووی بۆ خۆم بە تەنھا پاکبکمەوە. سەرنجڕاکێش بوو، وانییە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharmings5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharmings5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They left me to tidy it all up myself. Charming, wasn't it?",
+                            kurdishText:
+                                "بە جێیان ھێشتم کە ھەمووی بۆ خۆم بە تەنھا پاکبکمەوە. سەرنجڕاکێش بوو، وانییە؟",
+                            onPressedBritish: () => speakcharmings5("en-GB"),
+                            onPressedAmerican: () => speakcharmings5("en-US"),
                           ),
                         ],
                       ),

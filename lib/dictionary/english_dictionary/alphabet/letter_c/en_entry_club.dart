@@ -160,272 +160,98 @@ class EnglishEntryclub extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دامەزراوەیەک بۆ ئەو کەسانەی کە ھەمان خولیایان ھەیە یان چالاکییەک پێکەوە دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They belong to the same golf club."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەر بە ھەمان یانەی گۆڵفن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "club", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclubs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They belong to the same golf club.",
+                            kurdishText: "سەر بە ھەمان یانەی گۆڵفن.", // club",
+                            onPressedBritish: () => speakclubs1("en-GB"),
+                            onPressedAmerican: () => speakclubs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Grandad is a member of the bowling club."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باپیرە ئەندامی یانەیەکی بۆوڵینگە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclubs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Grandad is a member of the bowling club.",
+                            kurdishText: "باپیرە ئەندامی یانەیەکی بۆوڵینگە.",
+                            onPressedBritish: () => speakclubs2("en-GB"),
+                            onPressedAmerican: () => speakclubs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو بینا یان ژوورانەی کە یانەیەک بەکاریدێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We had lunch at the golf club."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نانی نیوەڕۆمان لە یانەی گۆڵفەکە خوارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclubs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We had lunch at the golf club.",
+                            kurdishText:
+                                "نانی نیوەڕۆمان لە یانەی گۆڵفەکە خوارد.",
+                            onPressedBritish: () => speakclubs3("en-GB"),
+                            onPressedAmerican: () => speakclubs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) یانەیەکی پڕۆفیشناڵی وەرزشی کە یاریزانان و ڕاھێنەر و بەڕێوبەران و خاوەنەکان لەخۆدەگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The club have signed a new coach for next season."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یانەکە ڕاھێنەرێکی تازەیان ھێناوە بۆ وەرزی تازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclubs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The club have signed a new coach for next season.",
+                            kurdishText:
+                                "یانەکە ڕاھێنەرێکی تازەیان ھێناوە بۆ وەرزی تازە.",
+                            onPressedBritish: () => speakclubs4("en-GB"),
+                            onPressedAmerican: () => speakclubs4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is expected to sign for a Premier League club next season."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وا چاوەڕوان دەکرێت لە وەرزی دواتردا پەیوەندی بە یانەیەکی پریمەر لیگەوە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclubs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is expected to sign for a Premier League club next season.",
+                            kurdishText:
+                                "وا چاوەڕوان دەکرێت لە وەرزی دواتردا پەیوەندی بە یانەیەکی پریمەر لیگەوە بکات.",
+                            onPressedBritish: () => speakclubs5("en-GB"),
+                            onPressedAmerican: () => speakclubs5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) شوێنێک کە تێیدا کەسانی گەنج دەچن بۆ گوێگرتن لە گۆرانی، سەماکردن، بینینی کۆمیدی، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I went to that new club that's just opened."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چووم بۆ ئەو یانە تازە کە تازەگی کراوەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclubs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I went to that new club that's just opened.",
+                            kurdishText:
+                                "چووم بۆ ئەو یانە تازە کە تازەگی کراوەتەوە.",
+                            onPressedBritish: () => speakclubs6("en-GB"),
+                            onPressedAmerican: () => speakclubs6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) دامەزراوەیەک و شوێنێک کە خەڵکی بۆی دەچن بۆ چاوپێکەوتن و مانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's a member of several London clubs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندامی ژمارەیەک یانەی لەندەنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclubs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's a member of several London clubs.",
+                            kurdishText: "ئەندامی ژمارەیەک یانەی لەندەنە.",
+                            onPressedBritish: () => speakclubs7("en-GB"),
+                            onPressedAmerican: () => speakclubs7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) بازرگانییەک کە بە ھەرزان کاڵا بە ئەندامانی دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You could become a member of an investment club."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەکرێت ببیت بە ئەندامی دەستەیەکی وەبەرھێنان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclubs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You could become a member of an investment club.",
+                            kurdishText:
+                                "دەکرێت ببیت بە ئەندامی دەستەیەکی وەبەرھێنان.",
+                            onPressedBritish: () => speakclubs8("en-GB"),
+                            onPressedAmerican: () => speakclubs8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو، کردار) کوتەکێکی قورس؛ لێدان لە کەسێک بە کوتەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The victim was clubbed to death with a baseball bat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوربانییەکە بە دارێکی یاری بەیسبۆڵ بە کوتەک کوژرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclubs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclubs9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The victim was clubbed to death with a baseball bat.",
+                            kurdishText:
+                                "قوربانییەکە بە دارێکی یاری بەیسبۆڵ بە کوتەک کوژرا.",
+                            onPressedBritish: () => speakclubs9("en-GB"),
+                            onPressedAmerican: () => speakclubs9("en-US"),
                           ),
                         ],
                       ),

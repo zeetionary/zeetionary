@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) زۆر ئامادە بۆ باوەڕکردن بە شتەکان بە شێوەیەک کە ئاسان بخەڵەتێندرێیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was so credulous that she believed everything she read online."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر خۆش‌باوەڕ بوو کە باوەڕی بە ھەموو شتێک دەکرد کە لەسەر ئینتەرنێت دەیخوێندەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "credulous", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredulouss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredulouss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was so credulous that she believed everything she read online.",
+            kurdishText:
+                "زۆر خۆش‌باوەڕ بوو کە باوەڕی بە ھەموو شتێک دەکرد کە لەسەر ئینتەرنێت دەیخوێندەوە.", // credulous", please follow LX instructions
+            onPressedBritish: () => speakcredulouss1("en-GB"),
+            onPressedAmerican: () => speakcredulouss1("en-US"),
           ),
         ],
       ),

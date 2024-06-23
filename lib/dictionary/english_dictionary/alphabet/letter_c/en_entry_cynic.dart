@@ -242,59 +242,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە پێی وایە خەڵکی تەنھا بۆ یارمەتیدانی خۆیان کار دەکەن، نەک بە ھۆکاری باش یان دڵسۆزی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Don’t be such a cynic!"),
-                    ExampleSentenceKurdish(text: "ھێندە بەدگومان مەبە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cynic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcynics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcynics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don’t be such a cynic!",
+            kurdishText:
+                "ھێندە بەدگومان مەبە!", // cynic", please follow LX instructions
+            onPressedBritish: () => speakcynics1("en-GB"),
+            onPressedAmerican: () => speakcynics1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک کە پێی وانییە شتێکی باش ڕوودەدات یان ئەوەی شتێک گرنگە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cynics will say that there is not the slightest chance of success."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕەشبینەکان دەڵێن کە بچووکترین شانسی سەرکەوتن نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcynics2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcynics2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Cynics will say that there is not the slightest chance of success.",
+            kurdishText: "ڕەشبینەکان دەڵێن کە بچووکترین شانسی سەرکەوتن نییە.",
+            onPressedBritish: () => speakcynics2("en-GB"),
+            onPressedAmerican: () => speakcynics2("en-US"),
           ),
         ],
       ),

@@ -252,88 +252,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) پەیوەندیدار یان لێکچوو لەگەڵ شتێکی دیکە کە باست کردووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Profits have risen by 15 per cent compared with the corresponding period last year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قازانج بە ١٥ لە سەد بەرزبووەتەوە بەراورد بە ھەمان ماوەی ساڵی ڕابردوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corresponding", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Profits have risen by 15 per cent compared with the corresponding period last year.",
+            kurdishText:
+                "قازانج بە ١٥ لە سەد بەرزبووەتەوە بەراورد بە ھەمان ماوەی ساڵی ڕابردوو.", // corresponding", please follow LX instructions
+            onPressedBritish: () => speakcorrespondings1("en-GB"),
+            onPressedAmerican: () => speakcorrespondings1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Fewer houses are available, but there is no corresponding decrease in demand."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خانووی کەمتر بەردەستن، بەڵام کەمبوونی ھاوشێوە لە خواستدا نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Fewer houses are available, but there is no corresponding decrease in demand.",
+            kurdishText:
+                "خانووی کەمتر بەردەستن، بەڵام کەمبوونی ھاوشێوە لە خواستدا نییە.",
+            onPressedBritish: () => speakcorrespondings2("en-GB"),
+            onPressedAmerican: () => speakcorrespondings2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Give each picture a number corresponding to its position on the page."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک بدە بە ھەر وێنەیەک کە گونجاوە لەگەڵ شوێنی لەسەر پەڕەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondings3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondings3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Give each picture a number corresponding to its position on the page.",
+            kurdishText:
+                "ژمارەیەک بدە بە ھەر وێنەیەک کە گونجاوە لەگەڵ شوێنی لەسەر پەڕەکە.",
+            onPressedBritish: () => speakcorrespondings3("en-GB"),
+            onPressedAmerican: () => speakcorrespondings3("en-US"),
           ),
         ],
       ),

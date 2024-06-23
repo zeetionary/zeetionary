@@ -119,120 +119,43 @@ class EnglishEntryclinch extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) سەرکەوتن لە بەدەستھێنان یان بردنەوەی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They clinched a place in the semi-finals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێگەیەکیان لە نیوەی کۆتایی مسۆگەرکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clinch", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinchs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinchs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They clinched a place in the semi-finals.",
+                            kurdishText:
+                                "پێگەیەکیان لە نیوەی کۆتایی مسۆگەرکرد.", // clinch",
+                            onPressedBritish: () => speakclinchs1("en-GB"),
+                            onPressedAmerican: () => speakclinchs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) پێدانی وەڵام بە شتێک؛ وا لە شتێک بکەیت کە بڕیار بدات کە چی بکات لە دوای بیرکردنەوەیەکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These findings clinched the matter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم دۆزینەوانە وەڵامی کێشەکەیان دایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinchs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinchs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "These findings clinched the matter.",
+                            kurdishText:
+                                "ئەم دۆزینەوانە وەڵامی کێشەکەیان دایەوە.",
+                            onPressedBritish: () => speakclinchs2("en-GB"),
+                            onPressedAmerican: () => speakclinchs2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When they said the job would involve travelling to Paris, that clinched it (for her) (= that made her certain that she wanted the job)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە وتیان کارەکە گەشتکردن بۆ پاریس لە خۆدەگرێت، ئەوە یەکلایی کردەوە بۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinchs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinchs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When they said the job would involve travelling to Paris, that clinched it (for her) (= that made her certain that she wanted the job).",
+                            kurdishText:
+                                "کە وتیان کارەکە گەشتکردن بۆ پاریس لە خۆدەگرێت، ئەوە یەکلایی کردەوە بۆی.",
+                            onPressedBritish: () => speakclinchs3("en-GB"),
+                            onPressedAmerican: () => speakclinchs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٣. (ناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie's climax featured a romantic clinch."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلایماکسی فیلمەکە باوەشێکی خۆشەویستانەی لەخۆگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinchs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinchs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie's climax featured a romantic clinch.",
+                            kurdishText:
+                                "کلایماکسی فیلمەکە باوەشێکی خۆشەویستانەی لەخۆگرت.",
+                            onPressedBritish: () => speakclinchs4("en-GB"),
+                            onPressedAmerican: () => speakclinchs4("en-US"),
                           ),
                         ],
                       ),

@@ -102,62 +102,23 @@ class EnglishEntrycocoa extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھاڕاوەیەکی قاوەیی کە لە دانی کاکاو درووست دەکرێت، کە بەکاردێت بۆ درووستکردنی چکلێت و بەخشینی تامی چکلێت بە خواردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The recipe called for a tablespoon of cocoa."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەچەتەکە یەک کەوچکی چێشتخۆر کاکاوی دەویست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cocoa", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcocoas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcocoas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The recipe called for a tablespoon of cocoa.",
+                            kurdishText:
+                                "ڕەچەتەکە یەک کەوچکی چێشتخۆر کاکاوی دەویست.", // cocoa",
+                            onPressedBritish: () => speakcocoas1("en-GB"),
+                            onPressedAmerican: () => speakcocoas1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) خواردنەوەیەک کە درووست دەکرێت بە تێکەڵکردنی ھاڕاوەی کاکاو و شیر ئاو ، زۆرجار شەکریش"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He enjoyed a creamy cup of cocoa."),
-                                    ExampleSentenceKurdish(
-                                        text: "کوپێک کاکاوی کرێمدار خواردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcocoas2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcocoas2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He enjoyed a creamy cup of cocoa.",
+                            kurdishText: "کوپێک کاکاوی کرێمدار خواردەوە.",
+                            onPressedBritish: () => speakcocoas2("en-GB"),
+                            onPressedAmerican: () => speakcocoas2("en-US"),
                           ),
                         ],
                       ),

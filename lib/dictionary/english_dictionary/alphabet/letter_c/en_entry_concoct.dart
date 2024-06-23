@@ -104,63 +104,25 @@ class EnglishEntryconcoct extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) درووستکردنی شتێک، بەتایبەتی خواردن و خواردنەوە، بە تێکەڵکردنی شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soup was concocted from different kinds of fish."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سووپەکە درووستکرا لە ژمارەیەک جۆری جیاوازی ماسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concoct", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcocts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcocts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soup was concocted from different kinds of fish.",
+                            kurdishText:
+                                "سووپەکە درووستکرا لە ژمارەیەک جۆری جیاوازی ماسی.", // concoct",
+                            onPressedBritish: () => speakconcocts1("en-GB"),
+                            onPressedAmerican: () => speakconcocts1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) درووستکردنی چیرۆکێک، بەھانەیەک، ھتد بۆ دانانی پلانێک، بە تایبەتی بۆ مەبەستێکی خراپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He concocted a story about working late at the office."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیرۆکێکی درووست کرد سەبارەت بە کارکردنی درەنگی لە ئۆفیس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcocts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcocts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He concocted a story about working late at the office.",
+                            kurdishText:
+                                "چیرۆکێکی درووست کرد سەبارەت بە کارکردنی درەنگی لە ئۆفیس.",
+                            onPressedBritish: () => speakconcocts2("en-GB"),
+                            onPressedAmerican: () => speakconcocts2("en-US"),
                           ),
                         ],
                       ),

@@ -266,143 +266,49 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) پێکھاتوو لە خەڵکی جۆراوجۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Jamaica is a very cosmopolitan island."),
-                    ExampleSentenceKurdish(
-                        text: "جامایکا دوورگەیەکی زۆر ھەمەڕەنگە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosmopolitan", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosmopolitans1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosmopolitans1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Jamaica is a very cosmopolitan island.",
+            kurdishText:
+                "جامایکا دوورگەیەکی زۆر ھەمەڕەنگە.", // cosmopolitan", please follow LX instructions
+            onPressedBritish: () => speakcosmopolitans1("en-GB"),
+            onPressedAmerican: () => speakcosmopolitans1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She liked the cosmopolitan atmosphere of the city."),
-                    ExampleSentenceKurdish(
-                        text: "حەزی بە کەشی جیھان‌گیری شارەکە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosmopolitans2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosmopolitans2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She liked the cosmopolitan atmosphere of the city.",
+            kurdishText: "حەزی بە کەشی جیھان‌گیری شارەکە بوو.",
+            onPressedBritish: () => speakcosmopolitans2("en-GB"),
+            onPressedAmerican: () => speakcosmopolitans2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) ھەبوونی ئەزموونی بەرفراوان لە زۆر وڵاتی جیاوازەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Young people today are much more cosmopolitan."),
-                    ExampleSentenceKurdish(
-                        text: "کەسانی گەنجی ئەم سەردەمە دنیادیتووترن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosmopolitans3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosmopolitans3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Young people today are much more cosmopolitan.",
+            kurdishText: "کەسانی گەنجی ئەم سەردەمە دنیادیتووترن.",
+            onPressedBritish: () => speakcosmopolitans3("en-GB"),
+            onPressedAmerican: () => speakcosmopolitans3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) کە لە ھەموو جیھاندا ھەیە، بۆ نموونە ئاژەڵێک یان ڕووەکێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Sea urchins are cosmopolitan in their distribution."),
-                    ExampleSentenceKurdish(
-                        text: "ژیشکی دەریا لە دابەشبوونیاندا جیھان‌گیرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosmopolitans4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosmopolitans4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Sea urchins are cosmopolitan in their distribution.",
+            kurdishText: "ژیشکی دەریا لە دابەشبوونیاندا جیھان‌گیرن.",
+            onPressedBritish: () => speakcosmopolitans4("en-GB"),
+            onPressedAmerican: () => speakcosmopolitans4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) کەسێک کە ئەزموونی زۆری لە زۆر وڵاتی جیھانەوە ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She's a real cosmopolitan."),
-                    ExampleSentenceKurdish(text: "دنیادیتوویەکی تەواوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosmopolitans5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosmopolitans5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's a real cosmopolitan.",
+            kurdishText: "دنیادیتوویەکی تەواوە.",
+            onPressedBritish: () => speakcosmopolitans5("en-GB"),
+            onPressedAmerican: () => speakcosmopolitans5("en-US"),
           ),
         ],
       ),

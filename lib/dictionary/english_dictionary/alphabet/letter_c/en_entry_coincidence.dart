@@ -120,127 +120,47 @@ class EnglishEntrycoincidence extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕێکەوت؛ ڕوودانی دوو شت پێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What a coincidence! I wasn't expecting to see you here."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چی ڕێککەوتێک! پێشبینی ئەوەم نەدەکرد لێرە بتبینم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coincidence", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoincidences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoincidences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What a coincidence! I wasn't expecting to see you here.",
+                            kurdishText:
+                                "چی ڕێککەوتێک! پێشبینی ئەوەم نەدەکرد لێرە بتبینم.", // coincidence",
+                            onPressedBritish: () => speakcoincidences1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoincidences1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's not a coincidence that none of the directors are women (= it did not happen by chance)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ ڕێککەوت نییە ھیچ کام لە بەڕێوبەرەکان ژن نین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoincidences2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoincidences2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's not a coincidence that none of the directors are women (= it did not happen by chance).",
+                            kurdishText:
+                                "ھیچ ڕێککەوت نییە ھیچ کام لە بەڕێوبەرەکان ژن نین.",
+                            onPressedBritish: () => speakcoincidences2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoincidences2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "By coincidence, we both went to the same school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ڕێکەوت، ھەردووکمان ڕۆشتینە ھەمان قوتابخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoincidences3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoincidences3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "By coincidence, we both went to the same school.",
+                            kurdishText:
+                                "بە ڕێکەوت، ھەردووکمان ڕۆشتینە ھەمان قوتابخانە.",
+                            onPressedBritish: () => speakcoincidences3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoincidences3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بوونی شت لە پێکەوە لە ھەمان کاتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The economist noted the coincidence of rising prices and job losses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئابووریزانەکە تێبینی بەرزبوونەوەی نرخی لەدەستچوونی کاری پێکەوە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoincidences4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoincidences4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The economist noted the coincidence of rising prices and job losses.",
+                            kurdishText:
+                                "ئابووریزانەکە تێبینی بەرزبوونەوەی نرخی لەدەستچوونی کاری پێکەوە کرد.",
+                            onPressedBritish: () => speakcoincidences4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoincidences4("en-US"),
                           ),
                         ],
                       ),

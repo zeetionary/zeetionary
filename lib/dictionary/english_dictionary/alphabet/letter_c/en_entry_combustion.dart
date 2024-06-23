@@ -103,63 +103,25 @@ class EnglishEntrycombustion extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پڕۆسەی سووتان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Poisonous gases are produced during fossil fuel combustion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گازی ژەھراوی درووست دەبن لە کاتی سووتانی سووتەمەنی بەبەردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "combustion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombustions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombustions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Poisonous gases are produced during fossil fuel combustion.",
+                            kurdishText:
+                                "گازی ژەھراوی درووست دەبن لە کاتی سووتانی سووتەمەنی بەبەردبوو.", // combustion",
+                            onPressedBritish: () => speakcombustions1("en-GB"),
+                            onPressedAmerican: () => speakcombustions1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پڕۆسەی کیمیایی کە تێیدا مادە یەکدەگرێت لەگەڵ ئۆکسجندا لە ھەوادا بۆ درووستکردنی گەرمی و ڕۆشنایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ratio must be correct in order to achieve complete combustion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەکە دەبێت درووست بێت بۆ ئەوەی سووتانی تەواو بەدەست بھێندرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombustions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombustions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ratio must be correct in order to achieve complete combustion.",
+                            kurdishText:
+                                "ڕێژەکە دەبێت درووست بێت بۆ ئەوەی سووتانی تەواو بەدەست بھێندرێت.",
+                            onPressedBritish: () => speakcombustions2("en-GB"),
+                            onPressedAmerican: () => speakcombustions2("en-US"),
                           ),
                         ],
                       ),

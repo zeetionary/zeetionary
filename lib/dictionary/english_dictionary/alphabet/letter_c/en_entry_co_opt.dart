@@ -103,62 +103,24 @@ class EnglishEntrycoopt extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) کردنی کەسێک بە ئەندامی گرووپێک، لیژنەیەک، ھتد بە ڕازیبوونی ھەموو ئەندامانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was co-opted onto the board."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەڵبژێردرایە ناو دەستەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "co-opt", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoopts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoopts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was co-opted onto the board.",
+                            kurdishText:
+                                "ھەڵبژێردرایە ناو دەستەکە.", // co-opt",
+                            onPressedBritish: () => speakcoopts1("en-GB"),
+                            onPressedAmerican: () => speakcoopts1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) گۆڕینی شتێک/کەسێک و پێدانی ئەرکێکی دیکە پێی؛ بردنی بیرۆکەی کەسێک و بەکارھێنانی بۆ مەبەستی خۆت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Politicians have been trying to co-opt the movement without embracing its values."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیاسییەکان لە ھەوڵدابوونە بۆ بەکارھێنانی بزووتنەوەکە بەبێ ڕێزنان لە بەھاکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoopts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoopts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Politicians have been trying to co-opt the movement without embracing its values.",
+                            kurdishText:
+                                "سیاسییەکان لە ھەوڵدابوونە بۆ بەکارھێنانی بزووتنەوەکە بەبێ ڕێزنان لە بەھاکانی.",
+                            onPressedBritish: () => speakcoopts2("en-GB"),
+                            onPressedAmerican: () => speakcoopts2("en-US"),
                           ),
                         ],
                       ),

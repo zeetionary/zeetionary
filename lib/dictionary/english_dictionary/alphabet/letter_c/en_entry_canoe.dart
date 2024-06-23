@@ -192,61 +192,23 @@ class EnglishEntrycanoe extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بەلەمێکی سووکی باریک کە بە سەوڵ دەیجوڵێنیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We crossed the lake by canoe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە بەلەم بە دەریاچەکەدا پەڕینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canoe", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanoes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanoes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We crossed the lake by canoe.",
+                            kurdishText:
+                                "بە بەلەم بە دەریاچەکەدا پەڕینەوە.", // canoe
+                            onPressedBritish: () => speakcanoes1("en-GB"),
+                            onPressedAmerican: () => speakcanoes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) گەشتکردن بە canoe"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She dreamed of canoeing down the Amazon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەونی بە بەلەم‌سواری لە ڕووباری ئەمازۆندا دەبینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanoes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanoes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She dreamed of canoeing down the Amazon.",
+                            kurdishText:
+                                "خەونی بە بەلەم‌سواری لە ڕووباری ئەمازۆندا دەبینی.",
+                            onPressedBritish: () => speakcanoes2("en-GB"),
+                            onPressedAmerican: () => speakcanoes2("en-US"),
                           ),
                         ],
                       ),

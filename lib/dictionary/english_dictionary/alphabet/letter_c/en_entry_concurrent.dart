@@ -95,32 +95,13 @@ class EnglishEntryconcurrent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ڕوودان یان بوون لە ھەمان کاتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was imprisoned for two concurrent terms of 30 months and 18 months."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ دوو ماوەی ٣٠ مانگ و ١٨ مانگ زیندانی کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concurrent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcurrents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcurrents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was imprisoned for two concurrent terms of 30 months and 18 months.",
+                            kurdishText:
+                                "بۆ دوو ماوەی ٣٠ مانگ و ١٨ مانگ زیندانی کرا.", // concurrent",
+                            onPressedBritish: () => speakconcurrents1("en-GB"),
+                            onPressedAmerican: () => speakconcurrents1("en-US"),
                           ),
                         ],
                       ),

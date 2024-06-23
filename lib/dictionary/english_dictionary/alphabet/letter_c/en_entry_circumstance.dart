@@ -159,64 +159,26 @@ class EnglishEntrycircumstance extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو دۆخ و ڕاستییانەی کە پەئوەندیدارن بە دۆخێک و کاریگەرییان ھەیە لەسەری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Police said there were no suspicious circumstances surrounding the boy's death."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس گوتی ھیچ بارودۆخێکی گوماناوی نەبوو پەیوەندیدار بە گیان لەدەستدانی منداڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circumstance", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcircumstances1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcircumstances1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Police said there were no suspicious circumstances surrounding the boy's death.",
+                            kurdishText:
+                                "پۆلیس گوتی ھیچ بارودۆخێکی گوماناوی نەبوو پەیوەندیدار بە گیان لەدەستدانی منداڵەکە.", // circumstance",
+                            onPressedBritish: () =>
+                                speakcircumstances1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcircumstances1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Under normal circumstances, your white blood cells are able to fight infections."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دۆخی ئاساییدا، خڕۆکە سپییەکانی خوێنت توانایان ھەیە ڕووبەڕووی تووشبوون ببنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcircumstances2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcircumstances2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Under normal circumstances, your white blood cells are able to fight infections.",
+                            kurdishText:
+                                "لە دۆخی ئاساییدا، خڕۆکە سپییەکانی خوێنت توانایان ھەیە ڕووبەڕووی تووشبوون ببنەوە.",
+                            onPressedBritish: () =>
+                                speakcircumstances2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcircumstances2("en-US"),
                           ),
                           Column(
                             children: [
@@ -288,127 +250,51 @@ class EnglishEntrycircumstance extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) دۆخی ژیانی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We want to work towards improving the often difficult circumstances in which people find themselves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمانەوێت کاربکەین بۆ باشترکردنی ئەو دۆخە زۆرجار سەختەی کە خەڵکی تێیدان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcircumstances5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcircumstances5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We want to work towards improving the often difficult circumstances in which people find themselves.",
+                            kurdishText:
+                                "دەمانەوێت کاربکەین بۆ باشترکردنی ئەو دۆخە زۆرجار سەختەی کە خەڵکی تێیدان.",
+                            onPressedBritish: () =>
+                                speakcircumstances5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcircumstances5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The amount paid will vary according to circumstances."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ڕێژەیەی کە دابەش دەکرێت جیاواز دەبێت بەپێی دۆخ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcircumstances6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcircumstances6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The amount paid will vary according to circumstances.",
+                            kurdishText:
+                                "ئەو ڕێژەیەی کە دابەش دەکرێت جیاواز دەبێت بەپێی دۆخ.",
+                            onPressedBritish: () =>
+                                speakcircumstances6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcircumstances6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەو ڕووداو و دۆخانەی کە کاریگەری لەسەر ژیانت دەکەن و لە دەستی خۆتدا نین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had to leave the country through force of circumstance (= events made it necessary)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناچاربوو وڵاتەکە جێبھێڵێت لەژێر باری دۆخەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcircumstances7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcircumstances7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had to leave the country through force of circumstance (= events made it necessary).",
+                            kurdishText:
+                                "ناچاربوو وڵاتەکە جێبھێڵێت لەژێر باری دۆخەکەدا.",
+                            onPressedBritish: () =>
+                                speakcircumstances7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcircumstances7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The survivors ate plants and insects by force of circumstance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕزگاربووان ڕووەک و مێروویان خوارد لەژێر باری ھەلومەرجەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcircumstances8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcircumstances8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The survivors ate plants and insects by force of circumstance.",
+                            kurdishText:
+                                "ڕزگاربووان ڕووەک و مێروویان خوارد لەژێر باری ھەلومەرجەکەدا.",
+                            onPressedBritish: () =>
+                                speakcircumstances8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcircumstances8("en-US"),
                           ),
                         ],
                       ),

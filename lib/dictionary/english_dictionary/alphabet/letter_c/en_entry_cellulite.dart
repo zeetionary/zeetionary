@@ -187,32 +187,13 @@ class EnglishEntrycellulite extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چەوری ژێر پێست کە وادەکات پێست ساف و لووس دەرنەکەوێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Having cellulite is normal and doesn't affect your overall health."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەبوونی خانۆچکە ئاساییە و کاریگەری نییە لەسەر تەندرووستیت بە گشتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cellulite", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcellulites1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcellulites1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Having cellulite is normal and doesn't affect your overall health.",
+                            kurdishText:
+                                "ھەبوونی خانۆچکە ئاساییە و کاریگەری نییە لەسەر تەندرووستیت بە گشتی.", // cellulite",
+                            onPressedBritish: () => speakcellulites1("en-GB"),
+                            onPressedAmerican: () => speakcellulites1("en-US"),
                           ),
                         ],
                       ),

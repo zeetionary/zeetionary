@@ -95,34 +95,14 @@ class EnglishEntryconceivably extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە دەتوانیت خەیاڵی بکەیت یان بیری لێ بکەیتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The disease could conceivably be transferred to humans."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشییەکە دەشێت بگوازرێتەوە بۆ مرۆڤ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conceivably", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconceivablys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconceivablys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The disease could conceivably be transferred to humans.",
+                            kurdishText:
+                                "نەخۆشییەکە دەشێت بگوازرێتەوە بۆ مرۆڤ.", // conceivably",
+                            onPressedBritish: () => speakconceivablys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconceivablys1("en-US"),
                           ),
                         ],
                       ),

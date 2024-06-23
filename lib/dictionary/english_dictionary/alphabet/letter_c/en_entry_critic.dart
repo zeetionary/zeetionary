@@ -267,115 +267,39 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕەخنەگر؛ کەسێک کە لایەنە باش و خراپەکانی شتێک پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Bradley Cooper's gripping performance has been praised by critics."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نمایشی سەرنجڕاکێشی برادلی کووپەر لەلایەن ڕەخنەگرانەوە بەرزنرخێندراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "critic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcritics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcritics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Bradley Cooper's gripping performance has been praised by critics.",
+            kurdishText:
+                "نمایشی سەرنجڕاکێشی برادلی کووپەر لەلایەن ڕەخنەگرانەوە بەرزنرخێندراوە.", // critic", please follow LX instructions
+            onPressedBritish: () => speakcritics1("en-GB"),
+            onPressedAmerican: () => speakcritics1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The critics loved the movie."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەخنەگران حەزیان بە فیلمەکە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcritics2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcritics2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The critics loved the movie.",
+            kurdishText: "ڕەخنەگران حەزیان بە فیلمەکە بوو.",
+            onPressedBritish: () => speakcritics2("en-GB"),
+            onPressedAmerican: () => speakcritics2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The play was panned by critics."),
-                    ExampleSentenceKurdish(
-                        text: "شانۆکە لەلایەن ڕەخنەگرانەوە سەرکۆنەکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcritics3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcritics3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The play was panned by critics.",
+            kurdishText: "شانۆکە لەلایەن ڕەخنەگرانەوە سەرکۆنەکرا.",
+            onPressedBritish: () => speakcritics3("en-GB"),
+            onPressedAmerican: () => speakcritics3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک کە ڕقی لە کەسێک یان شتێکە و باسی شتە خراپەکانی دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has become one of the ruling party's most outspoken critics."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بووە بە یەکێک لە ھەرە زووڵاڵترین ڕەخنەگرەکانی پارتی دەسەڵاتدار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcritics4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcritics4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She has become one of the ruling party's most outspoken critics.",
+            kurdishText:
+                "بووە بە یەکێک لە ھەرە زووڵاڵترین ڕەخنەگرەکانی پارتی دەسەڵاتدار.",
+            onPressedBritish: () => speakcritics4("en-GB"),
+            onPressedAmerican: () => speakcritics4("en-US"),
           ),
           Column(
             children: [

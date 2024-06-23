@@ -241,63 +241,25 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) درووستکراو بۆ ڕاستکردنەوەی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We need to take corrective action to halt this country's decline."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێویستیمان بە ھەنگاوی ڕاستکەرەوە ھەیە بۆ وەستاندنی داتەپینی ئەم وڵاتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corrective", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrectives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrectives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We need to take corrective action to halt this country's decline.",
+            kurdishText:
+                "پێویستیمان بە ھەنگاوی ڕاستکەرەوە ھەیە بۆ وەستاندنی داتەپینی ئەم وڵاتە.", // corrective", please follow LX instructions
+            onPressedBritish: () => speakcorrectives1("en-GB"),
+            onPressedAmerican: () => speakcorrectives1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شتێک کە دیدێکی درووستتری شتێک یان کەسێک دەدات بە دەستەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I should like to add a corrective to what I have written previously."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەمەوێت ڕاستکردنەوەیەک زیاد بکەم بۆ ئەوەی پێشووتر نووسیومە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrectives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrectives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I should like to add a corrective to what I have written previously.",
+            kurdishText:
+                "دەمەوێت ڕاستکردنەوەیەک زیاد بکەم بۆ ئەوەی پێشووتر نووسیومە.",
+            onPressedBritish: () => speakcorrectives2("en-GB"),
+            onPressedAmerican: () => speakcorrectives2("en-US"),
           ),
         ],
       ),

@@ -94,34 +94,15 @@ class EnglishEntryconstabulary extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ھێزی پۆلیسی ناوچەیەکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The constabulary worked tirelessly to apprehend the suspect."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس ماندوونەناسانە کاریان دەکرد بۆ گرتنی گومانلێکراوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constabulary", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstabularys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstabularys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The constabulary worked tirelessly to apprehend the suspect.",
+                            kurdishText:
+                                "پۆلیس ماندوونەناسانە کاریان دەکرد بۆ گرتنی گومانلێکراوەکە.", // constabulary",
+                            onPressedBritish: () =>
+                                speakconstabularys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstabularys1("en-US"),
                           ),
                         ],
                       ),

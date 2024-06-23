@@ -91,32 +91,13 @@ class EnglishEntrychimneypot extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١. (ناو) لوولەی سەر دووکەڵ‌کێش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The old house had several chimney pots of different shapes and sizes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووە کۆنەکە ژمارەیەک لوولەی دووکەڵ‌کێشی ھەبوو لە شێوە و قەبارەی جیاواز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chimney pot", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchimneypots1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchimneypots1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The old house had several chimney pots of different shapes and sizes.",
+                            kurdishText:
+                                "خانووە کۆنەکە ژمارەیەک لوولەی دووکەڵ‌کێشی ھەبوو لە شێوە و قەبارەی جیاواز.", // chimney pot",
+                            onPressedBritish: () => speakchimneypots1("en-GB"),
+                            onPressedAmerican: () => speakchimneypots1("en-US"),
                           ),
                         ],
                       ),

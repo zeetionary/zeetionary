@@ -190,58 +190,20 @@ class EnglishEntrycake extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خواردنێکی شیرین کە لە تێکەڵەیەک لە ئارد، ھێلکە، کەرە، شەکر، ھتد دروست دەکرێت و لە فڕندا دەبرژێنرێت. کێک بە شێوە و قەبارەی جۆراوجۆر دروست دەکرێت و زۆرجار دەڕازێنرێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everyone cheered as the bride and groom cut the wedding cake."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمووان ھاوار و قیژەیان بوو کە بووک و زاوا کێکەکەیان بڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cake", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcakes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcakes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Everyone cheered as the bride and groom cut the wedding cake.",
+                            kurdishText:
+                                "ھەمووان ھاوار و قیژەیان بوو کە بووک و زاوا کێکەکەیان بڕی.", // cake
+                            onPressedBritish: () => speakcakes1("en-GB"),
+                            onPressedAmerican: () => speakcakes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He cut her a slice of cake."),
-                                    ExampleSentenceKurdish(
-                                        text: "پارچە کێکێکی بۆ بڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcakes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcakes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He cut her a slice of cake.",
+                            kurdishText: "پارچە کێکێکی بۆ بڕی.",
+                            onPressedBritish: () => speakcakes2("en-GB"),
+                            onPressedAmerican: () => speakcakes2("en-US"),
                           ),
                           Column(
                             children: [
@@ -284,58 +246,20 @@ class EnglishEntrycake extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) داپۆشینی شتێک بە توێژاڵێکی ئەستوور لە شتێکی نەرم کە ڕەق دەبێت لەکاتی وشکبوونەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Her shoes were caked with mud."),
-                                    ExampleSentenceKurdish(
-                                        text: "پێڵاوەکانی بە قوڕ داپۆشرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcakes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcakes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her shoes were caked with mud.",
+                            kurdishText: "پێڵاوەکانی بە قوڕ داپۆشرابوون.",
+                            onPressedBritish: () => speakcakes4("en-GB"),
+                            onPressedAmerican: () => speakcakes4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When he ran onstage, his face was caked with make-up."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە ھاتە سەر ستەیج، ڕخساری پڕ لە مەیکەپ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcakes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcakes5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When he ran onstage, his face was caked with make-up.",
+                            kurdishText:
+                                "کە ھاتە سەر ستەیج، ڕخساری پڕ لە مەیکەپ بوو.",
+                            onPressedBritish: () => speakcakes5("en-GB"),
+                            onPressedAmerican: () => speakcakes5("en-US"),
                           ),
                         ],
                       ),

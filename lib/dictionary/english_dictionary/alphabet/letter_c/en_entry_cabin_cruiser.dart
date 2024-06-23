@@ -199,34 +199,15 @@ class EnglishEntrycabincruiser extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بەلەمێک کە ماتۆڕێکی پێوەیە لەگەڵ ژوورێک بۆ خەوتن تێیدا، بەکاردێت بۆ ڕابواردن لەسەری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cabin cruiser sailed smoothly across the calm waters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەلەمەکە بە نەرمی بەسەر ئاوە ھێمنەکەدا دەچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabin cruiser", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
+                          SentencesRow(
+  englishText:
+                                            "The cabin cruiser sailed smoothly across the calm waters.",
+                                    kurdishText:
+                                            "بەلەمەکە بە نەرمی بەسەر ئاوە ھێمنەکەدا دەچوو.", // cabin cruiser",
+                                    onPressedBritish: () =>
                                         speakcabincruisers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
+onPressedAmerican: () =>
                                         speakcabincruisers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
                           ),
                         ],
                       ),

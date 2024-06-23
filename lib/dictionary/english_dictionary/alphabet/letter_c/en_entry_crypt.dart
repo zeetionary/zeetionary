@@ -237,32 +237,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ژوورێک لە ژێر زەمینی کڵێسایەک، بە تایبەتی لە ڕابردوودا بۆ ناشتنی مردوو بەکاردەھات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Nelson’s final resting place was in the crypt of St Paul’s Cathedral."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوا مەنزڵگای نێڵسن لە ژێر زەمینی کڵێسای قەشە پاوڵ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crypt", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrypts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrypts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Nelson’s final resting place was in the crypt of St Paul’s Cathedral.",
+            kurdishText:
+                "دوا مەنزڵگای نێڵسن لە ژێر زەمینی کڵێسای قەشە پاوڵ بوو.", // crypt", please follow LX instructions
+            onPressedBritish: () => speakcrypts1("en-GB"),
+            onPressedAmerican: () => speakcrypts1("en-US"),
           ),
         ],
       ),

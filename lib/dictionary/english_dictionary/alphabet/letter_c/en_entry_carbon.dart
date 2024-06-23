@@ -186,61 +186,24 @@ class EnglishEntrycarbon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مادەیەکی کیمیایی کە لە ھەموو شتێکی زیندوودا ھەیە و لەشێوەی بێ‌خەوشیدا لە ئەڵماس و گرافیتدا ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The substance was identified as carbon."),
-                                    ExampleSentenceKurdish(
-                                        text: "مادەکە وەک کاربۆن ناسێنرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carbon", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarbons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarbons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The substance was identified as carbon.",
+                            kurdishText:
+                                "مادەکە وەک کاربۆن ناسێنرا.", // carbon",
+                            onPressedBritish: () => speakcarbons1("en-GB"),
+                            onPressedAmerican: () => speakcarbons1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) گازی دووەم ئۆکسیدی کاربۆن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How do we move to a low-carbon economy?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن بگەین بە ئابوورییەکی کەم پشتبەستوو بە کاربۆن؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarbons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarbons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How do we move to a low-carbon economy?",
+                            kurdishText:
+                                "چۆن بگەین بە ئابوورییەکی کەم پشتبەستوو بە کاربۆن؟",
+                            onPressedBritish: () => speakcarbons2("en-GB"),
+                            onPressedAmerican: () => speakcarbons2("en-US"),
                           ),
                         ],
                       ),

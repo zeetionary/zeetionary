@@ -258,122 +258,45 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ھەندیل، قۆڵ، باسک، باسکە، میل، کرەنک، دەسک، دەسکەلار، دەسکەتەوەر، لاقە (شێوەی لاقی ھەیە)،	کەسێکی سەیر
 """),
           const DefinitionKurdish(text: "١. (ناو) کەسێک کە بیرۆکەی نامۆی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Vegans are no longer dismissed as cranks."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مرۆڤە ڤیگنەکان چیتر وەک کەسانی سەیر سەیر ناکرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crank", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcranks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcranks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Vegans are no longer dismissed as cranks.",
+            kurdishText:
+                "مرۆڤە ڤیگنەکان چیتر وەک کەسانی سەیر سەیر ناکرێن.", // crank", please follow LX instructions
+            onPressedBritish: () => speakcranks1("en-GB"),
+            onPressedAmerican: () => speakcranks1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە زوو تووڕە و بێزار دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Everybody—apart from a few cranks like me—will be content."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەمووان، جگە لە کەسانی جاڕزی وەک من، ڕازی دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcranks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcranks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Everybody—apart from a few cranks like me—will be content.",
+            kurdishText: "ھەمووان، جگە لە کەسانی جاڕزی وەک من، ڕازی دەبێت.",
+            onPressedBritish: () => speakcranks2("en-GB"),
+            onPressedAmerican: () => speakcranks2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) دەسکی ئامێرێک کە لە شێوەی پیتی ییییی ــدایە و سووڕی دەدەیت یان ڕایدەکێشیت بۆ درووستکردنی جووڵە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The toy had a crank that, when turned, made the music play."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یارییە منداڵانەکە دەسکێکی ھەبوو کە سووڕ دەدرا میوزیکەکەی لێدەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcranks3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcranks3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The toy had a crank that, when turned, made the music play.",
+            kurdishText:
+                "یارییە منداڵانەکە دەسکێکی ھەبوو کە سووڕ دەدرا میوزیکەکەی لێدەدا.",
+            onPressedBritish: () => speakcranks3("en-GB"),
+            onPressedAmerican: () => speakcranks3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) بەکارھێنانی دەسک بۆ درووستکردنی جووڵە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He has a limited time to crank the reforms into action."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "(بەکارھێنانی خوازراوی) کاتی کەمی ھەبووە بۆ خستنەگەڕی چاکسازییەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcranks4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcranks4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He has a limited time to crank the reforms into action.",
+            kurdishText:
+                "(بەکارھێنانی خوازراوی) کاتی کەمی ھەبووە بۆ خستنەگەڕی چاکسازییەکان.",
+            onPressedBritish: () => speakcranks4("en-GB"),
+            onPressedAmerican: () => speakcranks4("en-US"),
           ),
         ],
       ),

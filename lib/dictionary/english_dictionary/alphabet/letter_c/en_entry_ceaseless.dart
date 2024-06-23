@@ -190,32 +190,13 @@ class EnglishEntryceaseless extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) دەرکەوتن وەک ئەوەی کۆتایی نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His ceaseless questions began to annoy me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پرسیارە بێ‌کۆتاکانی بوون بە مایەی بێزاریم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "ceaseless", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceaselesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceaselesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His ceaseless questions began to annoy me.",
+                            kurdishText:
+                                "پرسیارە بێ‌کۆتاکانی بوون بە مایەی بێزاریم.", // ceaseless",
+                            onPressedBritish: () => speakceaselesss1("en-GB"),
+                            onPressedAmerican: () => speakceaselesss1("en-US"),
                           ),
                         ],
                       ),

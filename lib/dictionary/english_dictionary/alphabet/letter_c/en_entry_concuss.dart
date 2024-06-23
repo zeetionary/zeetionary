@@ -95,32 +95,13 @@ class EnglishEntryconcuss extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) لێدانی کەسێک لە سەردا کە وای لێدەکات بۆ ماوەیەک ئاگای لە دەورووبەر نەمێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was concussed in a car accident and had temporary memory loss."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پێکدادانیکی ئۆتۆمبێلدا زەربەی سەری بەرکەوت و لەدەستدانی بۆماوەیی بیرەوەری تووشبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concuss", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcusss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcusss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was concussed in a car accident and had temporary memory loss.",
+                            kurdishText:
+                                "لە پێکدادانیکی ئۆتۆمبێلدا زەربەی سەری بەرکەوت و لەدەستدانی بۆماوەیی بیرەوەری تووشبوو.", // concuss",
+                            onPressedBritish: () => speakconcusss1("en-GB"),
+                            onPressedAmerican: () => speakconcusss1("en-US"),
                           ),
                         ],
                       ),

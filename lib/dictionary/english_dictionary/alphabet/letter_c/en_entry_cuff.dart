@@ -275,28 +275,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بەشی خوارەوەی پاڵتۆیەک یان قۆڵی جلێک لەسەر مەچەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He buttoned his cuffs."),
-                    ExampleSentenceKurdish(text: "سەرقۆڵەکانی بەست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cuff", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuffs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuffs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He buttoned his cuffs.",
+            kurdishText:
+                "سەرقۆڵەکانی بەست.", // cuff", please follow LX instructions
+            onPressedBritish: () => speakcuffs1("en-GB"),
+            onPressedAmerican: () => speakcuffs1("en-US"),
           ),
           const DividerDefinition(),
           Column(
@@ -322,140 +306,47 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) بەشی خوارەوەی پانتۆڵێک کە ھەڵگێڕدراوەتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He wears a polo shirt and cuffs on his pants."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "درێسێکی پۆلۆ لەبەردەکات لەگەڵ نووشتانەوەی پانتۆڵەکەیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuffs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuffs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He wears a polo shirt and cuffs on his pants.",
+            kurdishText:
+                "درێسێکی پۆلۆ لەبەردەکات لەگەڵ نووشتانەوەی پانتۆڵەکەیدا.",
+            onPressedBritish: () => speakcuffs2("en-GB"),
+            onPressedAmerican: () => speakcuffs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) بە گاڵتەوە لێدان لە کەسێک بە دەستت بە ھێواشی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She gave him a playful cuff on the shoulder."),
-                    ExampleSentenceKurdish(text: "بە سووکی کێشای بە شانیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuffs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuffs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She gave him a playful cuff on the shoulder.",
+            kurdishText: "بە سووکی کێشای بە شانیدا.",
+            onPressedBritish: () => speakcuffs3("en-GB"),
+            onPressedAmerican: () => speakcuffs3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) لێدان لە کەسێک بە خێرایی و ھێواشی بە دەستت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She cuffed him lightly around his head."),
-                    ExampleSentenceKurdish(text: "بە ھێواشی کێشای بە سەریدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuffs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuffs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She cuffed him lightly around his head.",
+            kurdishText: "بە ھێواشی کێشای بە سەریدا.",
+            onPressedBritish: () => speakcuffs4("en-GB"),
+            onPressedAmerican: () => speakcuffs4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) بەستنی کەلەپچە لە دەستی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Both men were cuffed and detained for several hours."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەر دوو پیاوەکە کەلەپچە کران و بۆ چەند کاتژمێرێک گیردران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuffs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuffs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Both men were cuffed and detained for several hours.",
+            kurdishText:
+                "ھەر دوو پیاوەکە کەلەپچە کران و بۆ چەند کاتژمێرێک گیردران.",
+            onPressedBritish: () => speakcuffs5("en-GB"),
+            onPressedAmerican: () => speakcuffs5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her hands were cuffed behind her back."),
-                    ExampleSentenceKurdish(text: "دەستەکانی کەلەپچە کران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuffs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuffs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her hands were cuffed behind her back.",
+            kurdishText: "دەستەکانی کەلەپچە کران.",
+            onPressedBritish: () => speakcuffs6("en-GB"),
+            onPressedAmerican: () => speakcuffs6("en-US"),
           ),
         ],
       ),

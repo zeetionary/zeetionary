@@ -120,116 +120,40 @@ class EnglishEntrycooperate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two groups agreed to cooperate with each other."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو گرووپەکە ڕازی بوون پێکەوە کار بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cooperate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooperates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooperates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two groups agreed to cooperate with each other.",
+                            kurdishText:
+                                "دوو گرووپەکە ڕازی بوون پێکەوە کار بکەن.", // cooperate",
+                            onPressedBritish: () => speakcooperates1("en-GB"),
+                            onPressedAmerican: () => speakcooperates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They had cooperated closely in the planning of the project."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە وردی پێکەوە کاریان کردبوو لە پلاندانانی پڕۆژەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooperates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooperates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They had cooperated closely in the planning of the project.",
+                            kurdishText:
+                                "بە وردی پێکەوە کاریان کردبوو لە پلاندانانی پڕۆژەکەدا.",
+                            onPressedBritish: () => speakcooperates2("en-GB"),
+                            onPressedAmerican: () => speakcooperates2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) یارمەتیدەر لە کردنی کارێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their captors told them they would be killed unless they cooperated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیل‌گرەکانیان پێیان گوتن دەکوژرێن مەگەر ئەوەی ھاوکار بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooperates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooperates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their captors told them they would be killed unless they cooperated.",
+                            kurdishText:
+                                "دیل‌گرەکانیان پێیان گوتن دەکوژرێن مەگەر ئەوەی ھاوکار بن.",
+                            onPressedBritish: () => speakcooperates3("en-GB"),
+                            onPressedAmerican: () => speakcooperates3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He refused to cooperate."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕەتیکردەوە ھاریکار بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcooperates4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcooperates4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He refused to cooperate.",
+                            kurdishText: "ڕەتیکردەوە ھاریکار بێت.",
+                            onPressedBritish: () => speakcooperates4("en-GB"),
+                            onPressedAmerican: () => speakcooperates4("en-US"),
                           ),
                         ],
                       ),

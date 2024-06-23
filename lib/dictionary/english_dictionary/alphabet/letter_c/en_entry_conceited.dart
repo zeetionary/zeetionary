@@ -95,32 +95,13 @@ class EnglishEntryconceited extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی شانازی زۆر بە خۆت و ئەوەی دەیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's very conceited of you to assume that your work is always the best."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر لە لووت‌بەرزیتە کە وا دابنێیت کارەکەت ھەمیشە باشترینە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conceited", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceiteds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceiteds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's very conceited of you to assume that your work is always the best.",
+                            kurdishText:
+                                "زۆر لە لووت‌بەرزیتە کە وا دابنێیت کارەکەت ھەمیشە باشترینە.", // conceited",
+                            onPressedBritish: () => speakconceiteds1("en-GB"),
+                            onPressedAmerican: () => speakconceiteds1("en-US"),
                           ),
                         ],
                       ),

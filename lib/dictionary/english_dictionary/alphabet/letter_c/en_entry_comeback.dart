@@ -112,93 +112,34 @@ class EnglishEntrycomeback extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کردنەوەی شتێک لە دوای ماوەیەک لە وەستان، یان دووبارە بەناوبانگ بوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The player is on the comeback trail after a serious knee injury."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاریزانەکە لەسەر ڕێڕەوی گەڕانەوەیە لە دوای ماوەیەکی لە پێکانی سەختی لاق."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comeback", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomebacks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomebacks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The player is on the comeback trail after a serious knee injury.",
+                            kurdishText:
+                                "یاریزانەکە لەسەر ڕێڕەوی گەڕانەوەیە لە دوای ماوەیەکی لە پێکانی سەختی لاق.", // comeback",
+                            onPressedBritish: () => speakcomebacks1("en-GB"),
+                            onPressedAmerican: () => speakcomebacks1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دووبارە بەناوبانگ بوونی شتێک،  یان بوونەوە بە فاشن یان سەرکەوتوو بوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The party's comeback was largely due to their promises to lower tax."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستانەوەی پارتەکە زیاتر بەھۆی بەڵێنیان بوو بۆ کەمکردنەوەی باج."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomebacks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomebacks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The party's comeback was largely due to their promises to lower tax.",
+                            kurdishText:
+                                "ھەستانەوەی پارتەکە زیاتر بەھۆی بەڵێنیان بوو بۆ کەمکردنەوەی باج.",
+                            onPressedBritish: () => speakcomebacks2("en-GB"),
+                            onPressedAmerican: () => speakcomebacks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) وەڵامێکی خێرا بۆ لێدوانێکی توند"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His comeback silenced his critics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەڵامەکەی ڕەخنەگرانی بێ‌دەنگ کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomebacks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomebacks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His comeback silenced his critics.",
+                            kurdishText: "وەڵامەکەی ڕەخنەگرانی بێ‌دەنگ کرد.",
+                            onPressedBritish: () => speakcomebacks3("en-GB"),
+                            onPressedAmerican: () => speakcomebacks3("en-US"),
                           ),
                         ],
                       ),

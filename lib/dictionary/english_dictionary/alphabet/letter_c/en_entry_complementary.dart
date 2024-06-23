@@ -105,64 +105,26 @@ class EnglishEntrycomplementary extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتانێک یان کەسانێک کە جیاوازن بەڵام پێکەوە دەستەیەکی جوان یان بەسوود درووست دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The school's approach must be complementary to that of the parents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێبازی قوتابخانە دەبێت تەواوکەر بێت لەگەڵ ئەوانەی دایکان و باوکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complementary", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomplementarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomplementarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The school's approach must be complementary to that of the parents.",
+                            kurdishText:
+                                "ڕێبازی قوتابخانە دەبێت تەواوکەر بێت لەگەڵ ئەوانەی دایکان و باوکان.", // complementary",
+                            onPressedBritish: () =>
+                                speakcomplementarys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomplementarys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We provide a service that is essentially complementary to that of the banks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خزمەتگوزارییەک دابین دەکەین کە تەواوکەری ئەوانەی بانکەکانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomplementarys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomplementarys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We provide a service that is essentially complementary to that of the banks.",
+                            kurdishText:
+                                "خزمەتگوزارییەک دابین دەکەین کە تەواوکەری ئەوانەی بانکەکانە.",
+                            onPressedBritish: () =>
+                                speakcomplementarys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomplementarys3("en-US"),
                           ),
                         ],
                       ),

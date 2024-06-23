@@ -231,30 +231,12 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: پاسکیلسوار، چەرخ‌سوار، مۆتۆڕسوار
 // """),
           const DefinitionKurdish(text: "١. (ناو) پاسکیلسوار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They are both very keen cyclists."),
-                    ExampleSentenceKurdish(
-                        text: "ھەردووکیان پاسکیلسواری بەتامەزرۆ بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cyclist", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcyclists1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcyclists1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They are both very keen cyclists.",
+            kurdishText:
+                "ھەردووکیان پاسکیلسواری بەتامەزرۆ بوون.", // cyclist", please follow LX instructions
+            onPressedBritish: () => speakcyclists1("en-GB"),
+            onPressedAmerican: () => speakcyclists1("en-US"),
           ),
         ],
       ),

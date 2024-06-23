@@ -194,213 +194,78 @@ class EnglishEntrycascade extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) تاڤگەیەکی بچووک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soothing sound of the cascade echoed through the surroundings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگی ھێورکەرەوەی نیمچەتاڤگەکە بە دەورووبەردا بڵاوبووبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cascade", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcascades1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcascades1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soothing sound of the cascade echoed through the surroundings.",
+                            kurdishText:
+                                "دەنگی ھێورکەرەوەی نیمچەتاڤگەکە بە دەورووبەردا بڵاوبووبوو.", // cascade",
+                            onPressedBritish: () => speakcascades1("en-GB"),
+                            onPressedAmerican: () => speakcascades1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕێژەیەکی زۆر لە شتێک کە دێتەخوارەوە، دەکەوێت، یان شۆڕبوەتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sudden cascade of rainwater overwhelmed the drainage system."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوڕەمی ڕەھێڵە سیستەمی ئاوەڕۆی پڕکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcascades2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcascades2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sudden cascade of rainwater overwhelmed the drainage system.",
+                            kurdishText: "خوڕەمی ڕەھێڵە سیستەمی ئاوەڕۆی پڕکرد.",
+                            onPressedBritish: () => speakcascades2("en-GB"),
+                            onPressedAmerican: () => speakcascades2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sudden cascade of rainwater overwhelmed the drainage system."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەپکێک لە قژی ئاڵتوونی لە پشتەوەی شۆڕبووبووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcascades3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcascades3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sudden cascade of rainwater overwhelmed the drainage system.",
+                            kurdishText:
+                                "چەپکێک لە قژی ئاڵتوونی لە پشتەوەی شۆڕبووبووەوە.",
+                            onPressedBritish: () => speakcascades3("en-GB"),
+                            onPressedAmerican: () => speakcascades3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کۆمەڵە شتێک کە ڕوودەدەن بە دوای یەکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The protein can trigger a cascade of events that leads to heart failure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆتینەکە دەکرێت زنجیرەیەک لە ڕووداو درووست بکات کە ببێتە ھۆی وەستانی دڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcascades4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcascades4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The protein can trigger a cascade of events that leads to heart failure.",
+                            kurdishText:
+                                "پڕۆتینەکە دەکرێت زنجیرەیەک لە ڕووداو درووست بکات کە ببێتە ھۆی وەستانی دڵ.",
+                            onPressedBritish: () => speakcascades4("en-GB"),
+                            onPressedAmerican: () => speakcascades4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) ھاتنەخوارەوە بە ڕێژەیەکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Water cascaded down the mountainside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاو بە ڕووی شاخەکەدا ھاتەخوارەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcascades5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcascades5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Water cascaded down the mountainside.",
+                            kurdishText: "ئاو بە ڕووی شاخەکەدا ھاتەخوارەوە.",
+                            onPressedBritish: () => speakcascades5("en-GB"),
+                            onPressedAmerican: () => speakcascades5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) کەوتن یان شۆڕبوونەوە بە ڕێژەیەکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Blonde hair cascaded over her shoulders."),
-                                    ExampleSentenceKurdish(
-                                        text: "قژی زەرد بە شانیدا شۆڕبووبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcascades6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcascades6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Blonde hair cascaded over her shoulders.",
+                            kurdishText: "قژی زەرد بە شانیدا شۆڕبووبوو.",
+                            onPressedBritish: () => speakcascades6("en-GB"),
+                            onPressedAmerican: () => speakcascades6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) گواستنەوەی زانیاری، ھتد بە کەسێک بۆ ئەوەی بیدات بە کەسانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is vital to ensure these values cascade to all employees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرنگە کە دڵنیابینەوە لەوەی ئەم بەھایانە بگەن بە ھەموو کارمەندان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcascades7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcascades7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is vital to ensure these values cascade to all employees.",
+                            kurdishText:
+                                "گرنگە کە دڵنیابینەوە لەوەی ئەم بەھایانە بگەن بە ھەموو کارمەندان.",
+                            onPressedBritish: () => speakcascades7("en-GB"),
+                            onPressedAmerican: () => speakcascades7("en-US"),
                           ),
                         ],
                       ),

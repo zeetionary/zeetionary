@@ -112,119 +112,42 @@ class EnglishEntrycoo extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو، کردار) دەنگی ھێمنی کۆتر؛ دەرکردنی دەنگێکی وەھا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He imitated the sound of the dove's coo to attract the bird closer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گمەگمی کۆترەکەی دووبارە دەکردەوە بۆ ئەوەی نزیکتری بکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coo", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoos1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He imitated the sound of the dove's coo to attract the bird closer.",
+                            kurdishText:
+                                "گمەگمی کۆترەکەی دووبارە دەکردەوە بۆ ئەوەی نزیکتری بکاتەوە.", // coo",
+                            onPressedBritish: () => speakcoos1("en-GB"),
+                            onPressedAmerican: () => speakcoos1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو، کردار) قسەی ھێمن و لەسەرخۆ بۆ کەسێک کە خۆشت دەوێت؛ قسەکردن بەم شێوەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Repeating back coos from the baby helps the infant to understand the nature of language."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووبارەکردنەوەی ئغەئغی منداڵ یارمەتیدەری منداڵەکە دەبێت لە تێگەشتن لە سرووشتی زمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoos2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoos2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Repeating back coos from the baby helps the infant to understand the nature of language.",
+                            kurdishText:
+                                "دووبارەکردنەوەی ئغەئغی منداڵ یارمەتیدەری منداڵەکە دەبێت لە تێگەشتن لە سرووشتی زمان.",
+                            onPressedBritish: () => speakcoos2("en-GB"),
+                            onPressedAmerican: () => speakcoos2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The baby lay in his cot cooing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکە لە لانکەکەیدا ڕاکشاوە و ئغەئغ دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoos3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoos3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The baby lay in his cot cooing.",
+                            kurdishText:
+                                "منداڵەکە لە لانکەکەیدا ڕاکشاوە و ئغەئغ دەکات.",
+                            onPressedBritish: () => speakcoos3("en-GB"),
+                            onPressedAmerican: () => speakcoos3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (سەرسوڕمان) بۆ پیشاندانی سەرسوڕمانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Coo, look at him!"),
-                                    ExampleSentenceKurdish(
-                                        text: "پەح، سەیری بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoos3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoos3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Coo, look at him!",
+                            kurdishText: "پەح، سەیری بکە.",
+                            onPressedBritish: () => speakcoos3("en-GB"),
+                            onPressedAmerican: () => speakcoos3("en-US"),
                           ),
                         ],
                       ),

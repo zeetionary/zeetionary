@@ -190,32 +190,13 @@ class EnglishEntrycastoroil extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕۆنێکی زەرد کە لە ڕووەکێکی خولگەیی دەردەھێنرێت و لا ڕابردوودا وەک دەرمان بەکاردەھات، بەتایبەتی بۆ بەتاڵکردنی ڕیخۆڵە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Applying castor oil can help moisturize dry skin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکارھێنانی ڕۆنە گەرچەک دەکرێت یارمەتی ڕووخساری وشک شێداربکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "castor oil", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastoroils1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastoroils1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Applying castor oil can help moisturize dry skin.",
+                            kurdishText:
+                                "بەکارھێنانی ڕۆنە گەرچەک دەکرێت یارمەتی ڕووخساری وشک شێداربکاتەوە.", // castor oil",
+                            onPressedBritish: () => speakcastoroils1("en-GB"),
+                            onPressedAmerican: () => speakcastoroils1("en-US"),
                           ),
                         ],
                       ),

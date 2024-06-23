@@ -193,32 +193,13 @@ class EnglishEntrycant extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) قسەیەک، بەتایبەتی کە دەربارەی بابەتی ئایینی یان ئەخلاقییە، و بە ڕاست و دڵپاکانەی نابینی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His speech was full of political, social and religious cant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکەی پڕ لە قسەی ھەلەق و بەلەقی سیاسی و کۆمەڵایەتی و ئایینی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cant", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His speech was full of political, social and religious cant.",
+                            kurdishText:
+                                "وتارەکەی پڕ لە قسەی ھەلەق و بەلەقی سیاسی و کۆمەڵایەتی و ئایینی بوو.", // cant
+                            onPressedBritish: () => speakcants1("en-GB"),
+                            onPressedAmerican: () => speakcants1("en-US"),
                           ),
                         ],
                       ),

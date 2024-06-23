@@ -114,97 +114,37 @@ class EnglishEntrycompactness extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) خاسیەتی گرتنی شوێنی کەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I thought the compactness of this house was wonderful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێموابوو پەستێوراوی ماڵەکەی جوان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compactness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompactnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompactnesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I thought the compactness of this house was wonderful.",
+                            kurdishText:
+                                "پێموابوو پەستێوراوی ماڵەکەی جوان بوو.", // compactness",
+                            onPressedBritish: () => speakcompactnesss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompactnesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The compactness of the town means you can walk around it easily."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ترنجاوی شارۆچکەکە واتای ئەوەیە کە دەتوانیت بە ئاسانی پیاسەی تێدا بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompactnesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompactnesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The compactness of the town means you can walk around it easily.",
+                            kurdishText:
+                                "ترنجاوی شارۆچکەکە واتای ئەوەیە کە دەتوانیت بە ئاسانی پیاسەی تێدا بکەیت.",
+                            onPressedBritish: () => speakcompactnesss2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompactnesss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک یان ئاژەڵێک کە جەستەیەکی بچووک و بەھێزی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had the natural compactness of a good football player."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پتەوی سرووشتی یاریزانێکی تۆپی پێی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompactnesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompactnesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had the natural compactness of a good football player.",
+                            kurdishText:
+                                "پتەوی سرووشتی یاریزانێکی تۆپی پێی ھەبوو.",
+                            onPressedBritish: () => speakcompactnesss3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompactnesss3("en-US"),
                           ),
                         ],
                       ),

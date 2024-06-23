@@ -192,148 +192,53 @@ class EnglishEntrycentral extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) لە ناوەڕاستی ناوچەیەک یان شوێنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There will be rain later in central and eastern parts of the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دواتر باران بارین دەبێت لە ناوەڕاست و ڕۆژھەڵاتی وڵاتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "central", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentrals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentrals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There will be rain later in central and eastern parts of the country.",
+                            kurdishText:
+                                "دواتر باران بارین دەبێت لە ناوەڕاست و ڕۆژھەڵاتی وڵاتەکە.", // central",
+                            onPressedBritish: () => speakcentrals1("en-GB"),
+                            onPressedAmerican: () => speakcentrals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I love the wide open spaces of central Australia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزم لە دەشتە کراوە و فراوانەکەی ناوەڕاستی ئوسترالیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentrals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentrals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I love the wide open spaces of central Australia.",
+                            kurdishText:
+                                "حەزم لە دەشتە کراوە و فراوانەکەی ناوەڕاستی ئوسترالیا.",
+                            onPressedBritish: () => speakcentrals2("en-GB"),
+                            onPressedAmerican: () => speakcentrals2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) شتێک کە بە ئاسانی دەست پێی دەگات لە ھەموو لایەکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The offices are in a central location."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئۆفیسەکان لە چەقی شوێنەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentrals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentrals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The offices are in a central location.",
+                            kurdishText: "ئۆفیسەکان لە چەقی شوێنەکەن.",
+                            onPressedBritish: () => speakcentrals3("en-GB"),
+                            onPressedAmerican: () => speakcentrals3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) گرنگترین شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The central issue is that of widespread racism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بابەتی ھەرە گرنگ ڕەگەزپەرستیی بەرفراوانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentrals4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentrals4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The central issue is that of widespread racism.",
+                            kurdishText:
+                                "بابەتی ھەرە گرنگ ڕەگەزپەرستیی بەرفراوانە.",
+                            onPressedBritish: () => speakcentrals4("en-GB"),
+                            onPressedAmerican: () => speakcentrals4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The gap between rich and poor is becoming a central theme of the election."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جیاوازی نێوان دەوڵەمەند و ھەژار بووە بە بابەتێکی گرنگی ھەڵبژاردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentrals5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentrals5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The gap between rich and poor is becoming a central theme of the election.",
+                            kurdishText:
+                                "جیاوازی نێوان دەوڵەمەند و ھەژار بووە بە بابەتێکی گرنگی ھەڵبژاردن.",
+                            onPressedBritish: () => speakcentrals5("en-GB"),
+                            onPressedAmerican: () => speakcentrals5("en-US"),
                           ),
                         ],
                       ),

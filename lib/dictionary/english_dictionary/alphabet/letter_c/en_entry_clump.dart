@@ -135,179 +135,63 @@ class EnglishEntryclump extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژمارەیەکی کەم لە شت یان خەڵک کە زۆر لە یەکەوە نزیکن، بە تایبەتی دار و ڕووەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He tore out a clump of her hair."),
-                                    ExampleSentenceKurdish(
-                                        text: "گورزەیەک لە قژی لێکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clump", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He tore out a clump of her hair.",
+                            kurdishText: "گورزەیەک لە قژی لێکردەوە.", // clump",
+                            onPressedBritish: () => speakclumps1("en-GB"),
+                            onPressedAmerican: () => speakclumps1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I tripped over a clump of grass in the darkness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەوت بەسەر گورزەیەک لە گیادا لە تاریکییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumps2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumps2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I tripped over a clump of grass in the darkness.",
+                            kurdishText:
+                                "کەوت بەسەر گورزەیەک لە گیادا لە تاریکییەکەدا.",
+                            onPressedBritish: () => speakclumps2("en-GB"),
+                            onPressedAmerican: () => speakclumps2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They planted trees in clumps around the park."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەسکە داری بە دەوری پارکەکەدا ناشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumps3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumps3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They planted trees in clumps around the park.",
+                            kurdishText: "دەسکە داری بە دەوری پارکەکەدا ناشت.",
+                            onPressedBritish: () => speakclumps3("en-GB"),
+                            onPressedAmerican: () => speakclumps3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دەنگی پێی کەسێک کە بە توندی دەیدات بە زەویدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I heard the heavy clump of feet on the stairs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێم لە تەپەتەپی پێ بوو لەسەر پلەکانەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumps4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumps4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I heard the heavy clump of feet on the stairs.",
+                            kurdishText:
+                                "گوێم لە تەپەتەپی پێ بوو لەسەر پلەکانەکان.",
+                            onPressedBritish: () => speakclumps4("en-GB"),
+                            onPressedAmerican: () => speakclumps4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) تەپەتەپکردن بە پێ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children clumped down the stairs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان تەپەتەپیان دەکرد لەسەر پلەکانەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumps5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumps5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children clumped down the stairs.",
+                            kurdishText:
+                                "منداڵەکان تەپەتەپیان دەکرد لەسەر پلەکانەکان.",
+                            onPressedBritish: () => speakclumps5("en-GB"),
+                            onPressedAmerican: () => speakclumps5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) درووستکردنی دەستە و گرووپی نزیک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As it started to rain, everyone clumped together in doorways."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە دەستی کرد بە باران، ھەموان لە بەردەرگاکان کۆبوونەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumps6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumps6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As it started to rain, everyone clumped together in doorways.",
+                            kurdishText:
+                                "کە دەستی کرد بە باران، ھەموان لە بەردەرگاکان کۆبوونەوە.",
+                            onPressedBritish: () => speakclumps6("en-GB"),
+                            onPressedAmerican: () => speakclumps6("en-US"),
                           ),
                         ],
                       ),

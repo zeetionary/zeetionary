@@ -102,61 +102,22 @@ class EnglishEntrycordially extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بەشێوەیەکی خۆش و ھاوڕێیانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You are cordially invited to a celebration for Mr Michael Brown on his retirement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دڵەوە بانگھێشت کراویت بۆ ئاھەنگگێڕانێک بۆ بەڕێز مایکڵ براون بە بۆنەی خانەنشین بوونییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cordially", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcordiallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcordiallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You are cordially invited to a celebration for Mr Michael Brown on his retirement.",
+                            kurdishText:
+                                "لە دڵەوە بانگھێشت کراویت بۆ ئاھەنگگێڕانێک بۆ بەڕێز مایکڵ براون بە بۆنەی خانەنشین بوونییەوە.", // cordially",
+                            onPressedBritish: () => speakcordiallys1("en-GB"),
+                            onPressedAmerican: () => speakcordiallys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵکار) ئێجگار زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They cordially detest each other."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئێجگار زۆر ڕقیان لە یەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcordiallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcordiallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They cordially detest each other.",
+                            kurdishText: "ئێجگار زۆر ڕقیان لە یەکە.",
+                            onPressedBritish: () => speakcordiallys2("en-GB"),
+                            onPressedAmerican: () => speakcordiallys2("en-US"),
                           ),
                         ],
                       ),

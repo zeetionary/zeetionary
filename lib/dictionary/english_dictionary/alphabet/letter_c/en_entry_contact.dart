@@ -325,60 +325,22 @@ class EnglishEntrycontact extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پەیوەندیکردن لەگەڵ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't have much contact with my uncle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێندە تێکەڵیم لەگەڵ مامم/خاڵم نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contact", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't have much contact with my uncle.",
+                            kurdishText:
+                                "ھێندە تێکەڵیم لەگەڵ مامم/خاڵم نییە.", // contact",
+                            onPressedBritish: () => speakcontacts1("en-GB"),
+                            onPressedAmerican: () => speakcontacts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We've been unable to establish radio contact with the pilot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەمانتوانیوە پەیوەندی ڕادیۆیی لەگەڵ فڕۆکەوانەکە ببەستین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We've been unable to establish radio contact with the pilot.",
+                            kurdishText:
+                                "نەمانتوانیوە پەیوەندی ڕادیۆیی لەگەڵ فڕۆکەوانەکە ببەستین.",
+                            onPressedBritish: () => speakcontacts2("en-GB"),
+                            onPressedAmerican: () => speakcontacts2("en-US"),
                           ),
                           Column(
                             children: [
@@ -511,347 +473,115 @@ class EnglishEntrycontact extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بینینی کەسێک یان ئەوەی پێویست بێت مامەڵە لەگەڵ شتێک بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She always avoided contact with the press."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە دووردەکەوتەوە لە بینینی ڕۆژنامەنووسان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She always avoided contact with the press.",
+                            kurdishText:
+                                "ھەمیشە دووردەکەوتەوە لە بینینی ڕۆژنامەنووسان.",
+                            onPressedBritish: () => speakcontacts7("en-GB"),
+                            onPressedAmerican: () => speakcontacts7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He'd prefer a job where he doesn't have to be in direct contact with the public."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارێکی پێخۆشە کە پێویست نەکات تێکەڵی ڕاستەوخۆی لەگەڵ خەڵکیدا ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He'd prefer a job where he doesn't have to be in direct contact with the public.",
+                            kurdishText:
+                                "کارێکی پێخۆشە کە پێویست نەکات تێکەڵی ڕاستەوخۆی لەگەڵ خەڵکیدا ھەبێت.",
+                            onPressedBritish: () => speakcontacts8("en-GB"),
+                            onPressedAmerican: () => speakcontacts8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In her job she often comes into contact with (= meets) lawyers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کارەکەیدا زۆرجار مامەڵەی لەگەڵ پارێزەراندا دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In her job she often comes into contact with (= meets) lawyers.",
+                            kurdishText:
+                                "لە کارەکەیدا زۆرجار مامەڵەی لەگەڵ پارێزەراندا دەبێت.",
+                            onPressedBritish: () => speakcontacts9("en-GB"),
+                            onPressedAmerican: () => speakcontacts9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Children should be brought into contact with poetry at an early age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵان دەبێت لە تەمەنێکی کەمدا بە ھۆنراوە ئاشنا بکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Children should be brought into contact with poetry at an early age.",
+                            kurdishText:
+                                "منداڵان دەبێت لە تەمەنێکی کەمدا بە ھۆنراوە ئاشنا بکرێن.",
+                            onPressedBritish: () => speakcontacts10("en-GB"),
+                            onPressedAmerican: () => speakcontacts10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بۆنەیەک کە تێیدا کەسێک دەبینیت یان پەیوەندی لەگەڵ دەبەستیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Even the US, which has no embassy there, is beginning to forge contacts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنانەت ئەمریکاش، کە ھیچ باڵیۆزخانەی لەوێ نییە، خەریکە دەست دەکات بە درووستکردنی پەیوەندی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Even the US, which has no embassy there, is beginning to forge contacts.",
+                            kurdishText:
+                                "تەنانەت ئەمریکاش، کە ھیچ باڵیۆزخانەی لەوێ نییە، خەریکە دەست دەکات بە درووستکردنی پەیوەندی.",
+                            onPressedBritish: () => speakcontacts11("en-GB"),
+                            onPressedAmerican: () => speakcontacts11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company has maintained trade contacts with India."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە پەیوەندیی بازرگانیی لەگەڵ ھندستان پاراستووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company has maintained trade contacts with India.",
+                            kurdishText:
+                                "کۆمپانیاکە پەیوەندیی بازرگانیی لەگەڵ ھندستان پاراستووە.",
+                            onPressedBritish: () => speakcontacts12("en-GB"),
+                            onPressedAmerican: () => speakcontacts12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) کەسێکی ناسیاو، بەتایبەتی کەسێک کە یارمەتیدەر دەبێت بۆت لە کاردا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've made some useful contacts in journalism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک ناسیاویم پەیداکردووە لە ڕۆنامەوانیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've made some useful contacts in journalism.",
+                            kurdishText:
+                                "ھەندێک ناسیاویم پەیداکردووە لە ڕۆنامەوانیدا.",
+                            onPressedBritish: () => speakcontacts13("en-GB"),
+                            onPressedAmerican: () => speakcontacts13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has several contacts in New York."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک ناسیاوی لە نیویۆرک درووستکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has several contacts in New York.",
+                            kurdishText:
+                                "ھەندێک ناسیاوی لە نیویۆرک درووستکردووە.",
+                            onPressedBritish: () => speakcontacts14("en-GB"),
+                            onPressedAmerican: () => speakcontacts14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has a contact at the White House."),
-                                    ExampleSentenceKurdish(
-                                        text: "ناسیاوێکی لە کۆشكی سپی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He has a contact at the White House.",
+                            kurdishText: "ناسیاوێکی لە کۆشكی سپی ھەیە.",
+                            onPressedBritish: () => speakcontacts15("en-GB"),
+                            onPressedAmerican: () => speakcontacts15("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He used his contacts to get his son a publishing job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناسیاوەکانی بەکارھێنا بۆ دەستخستنی کارێکی بڵاوکردنەوە بۆ کوڕەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He used his contacts to get his son a publishing job.",
+                            kurdishText:
+                                "ناسیاوەکانی بەکارھێنا بۆ دەستخستنی کارێکی بڵاوکردنەوە بۆ کوڕەکەی.",
+                            onPressedBritish: () => speakcontacts16("en-GB"),
+                            onPressedAmerican: () => speakcontacts16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ناو) بەرکەوتن/دەستدان لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The disease is spread by contact."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشییەکە بە بەرکەوتن بڵاودەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The disease is spread by contact.",
+                            kurdishText: "نەخۆشییەکە بە بەرکەوتن بڵاودەبێتەوە.",
+                            onPressedBritish: () => speakcontacts17("en-GB"),
+                            onPressedAmerican: () => speakcontacts17("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His fingers were briefly in contact with the ball."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجەکانی بۆ کەمێک بەر تۆپەکە کەوتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His fingers were briefly in contact with the ball.",
+                            kurdishText: "پەنجەکانی بۆ کەمێک بەر تۆپەکە کەوتن.",
+                            onPressedBritish: () => speakcontacts18("en-GB"),
+                            onPressedAmerican: () => speakcontacts18("en-US"),
                           ),
                           Column(
                             children: [
@@ -983,90 +713,33 @@ class EnglishEntrycontact extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) پەیوەندیی کارەبایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The switches close the contacts and complete the circuit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سویچەکان کلیلەکان دادەخەن و کۆتایی بە سووڕەکە دێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts23("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts23("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The switches close the contacts and complete the circuit.",
+                            kurdishText:
+                                "سویچەکان کلیلەکان دادەخەن و کۆتایی بە سووڕەکە دێنن.",
+                            onPressedBritish: () => speakcontacts23("en-GB"),
+                            onPressedAmerican: () => speakcontacts23("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کردار) پەیوەندیکردن لەگەڵ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've been trying to contact you all day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ڕۆژەکە ھەوڵم داوە پەیوەندیت پێوە بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts24("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts24("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've been trying to contact you all day.",
+                            kurdishText:
+                                "تەواوی ڕۆژەکە ھەوڵم داوە پەیوەندیت پێوە بکەم.",
+                            onPressedBritish: () => speakcontacts24("en-GB"),
+                            onPressedAmerican: () => speakcontacts24("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Witnesses to the accident are asked to contact the police."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شایەتحاڵانی ڕووداوەکە داوایان لێدەکرێت پەیوەندی بە پۆلیسەوە بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontacts25("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontacts25("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Witnesses to the accident are asked to contact the police.",
+                            kurdishText:
+                                "شایەتحاڵانی ڕووداوەکە داوایان لێدەکرێت پەیوەندی بە پۆلیسەوە بکەن.",
+                            onPressedBritish: () => speakcontacts25("en-GB"),
+                            onPressedAmerican: () => speakcontacts25("en-US"),
                           ),
                           Column(
                             children: [

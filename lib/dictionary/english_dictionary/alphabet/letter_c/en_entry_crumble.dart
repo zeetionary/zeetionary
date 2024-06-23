@@ -264,138 +264,42 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) شکان، یان شکاندن بۆ چەند پارچەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Rice flour makes the cake less likely to crumble."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاردی برنج وا دەکات کێکەکە ئەگەری کەمتر بێت ورد بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crumble", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrumbles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrumbles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Rice flour makes the cake less likely to crumble.",
+            kurdishText:
+                "ئاردی برنج وا دەکات کێکەکە ئەگەری کەمتر بێت ورد بێت.", // crumble", please follow LX instructions
+            onPressedBritish: () => speakcrumbles1("en-GB"),
+            onPressedAmerican: () => speakcrumbles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Crumble the cheese over the salad."),
-                    ExampleSentenceKurdish(
-                        text: "پەنیرەکە وردبکە سەر زەڵاتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrumbles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrumbles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Crumble the cheese over the salad.",
+            kurdishText: "پەنیرەکە وردبکە سەر زەڵاتەکە.",
+            onPressedBritish: () => speakcrumbles2("en-GB"),
+            onPressedAmerican: () => speakcrumbles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) داڕووخانی بەشێکی بینایەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The cliff is gradually crumbling away."),
-                    ExampleSentenceKurdish(
-                        text: "قەدپاڵەکە کەم کەم دادەڕووخێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrumbles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrumbles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cliff is gradually crumbling away.",
+            kurdishText: "قەدپاڵەکە کەم کەم دادەڕووخێت.",
+            onPressedBritish: () => speakcrumbles3("en-GB"),
+            onPressedAmerican: () => speakcrumbles3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They live in a crumbling old mansion."),
-                    ExampleSentenceKurdish(
-                        text: "لە کۆشکێکی کۆنی داڕووخاودا دەژین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrumbles4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrumbles4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They live in a crumbling old mansion.",
+            kurdishText: "لە کۆشکێکی کۆنی داڕووخاودا دەژین.",
+            onPressedBritish: () => speakcrumbles4("en-GB"),
+            onPressedAmerican: () => speakcrumbles4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) پێنناسە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "All his hopes began to crumble away."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو ھیواکانی دەستیان بە داڕووخان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrumbles5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrumbles5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All his hopes began to crumble away.",
+            kurdishText: "ھەموو ھیواکانی دەستیان بە داڕووخان کرد.",
+            onPressedBritish: () => speakcrumbles5("en-GB"),
+            onPressedAmerican: () => speakcrumbles5("en-US"),
           ),
         ],
       ),

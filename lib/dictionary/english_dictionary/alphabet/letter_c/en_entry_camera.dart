@@ -188,115 +188,36 @@ class EnglishEntrycamera extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کامێرا؛ ئامرازێک کە بەکاردێت بۆ گرتنی وێنە، وێنەی جوڵاو، یان وێنەی تەلەفیزیۆنی. کامێرا دەکرێت سەربەخۆ بێت یان بەشێک بێت لە ئامێرێکی دیکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Just point the camera and press the button."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا کامێراکە ئاراستە بکە و پەنجە بنێ بە دووگمەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "camera", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcameras1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcameras1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Just point the camera and press the button.",
+                            kurdishText:
+                                "تەنھا کامێراکە ئاراستە بکە و پەنجە بنێ بە دووگمەکەدا.", // camera
+                            onPressedBritish: () => speakcameras1("en-GB"),
+                            onPressedAmerican: () => speakcameras1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most phones have a built-in camera."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر موبایل کامێرای ناوەکی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcameras2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcameras2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Most phones have a built-in camera.",
+                            kurdishText: "زۆر موبایل کامێرای ناوەکی ھەیە.",
+                            onPressedBritish: () => speakcameras2("en-GB"),
+                            onPressedAmerican: () => speakcameras2("en-US"),
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A security camera caught her shoplifting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کامێرایەکی چاودێری لە کاتی دزیدا گرتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcameras3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcameras3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A security camera caught her shoplifting.",
+                            kurdishText:
+                                "کامێرایەکی چاودێری لە کاتی دزیدا گرتی.",
+                            onPressedBritish: () => speakcameras3("en-GB"),
+                            onPressedAmerican: () => speakcameras3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The camera can be operated remotely."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کامێراکە دەکرێت لە دوورەوە کاری پێ بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcameras4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcameras4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The camera can be operated remotely.",
+                            kurdishText:
+                                "کامێراکە دەکرێت لە دوورەوە کاری پێ بکرێت.",
+                            onPressedBritish: () => speakcameras4("en-GB"),
+                            onPressedAmerican: () => speakcameras4("en-US"),
                           ),
                         ],
                       ),

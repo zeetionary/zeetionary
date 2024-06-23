@@ -113,93 +113,33 @@ class EnglishEntryconstipated extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) نەبوونی توانای کردنە دەرەوەی پیسایی لە جەستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You should eat more fibre and fruit if you are constipated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت ڕیشاڵ و میوەی زیاتر بخۆیت ئەگەر ھەست بە قەبزی دەکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constipated", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstipateds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstipateds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You should eat more fibre and fruit if you are constipated.",
+                            kurdishText:
+                                "دەبێت ڕیشاڵ و میوەی زیاتر بخۆیت ئەگەر ھەست بە قەبزی دەکەیت.", // constipated",
+                            onPressedBritish: () => speakconstipateds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstipateds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A diet that is high in fiber may relieve constipation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژەمە خواردنی ڕۆژانەی پڕ لە ڕیشاڵ دەکرێت قەبزی نەھێڵێت ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstipateds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstipateds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A diet that is high in fiber may relieve constipation.",
+                            kurdishText:
+                                "ژەمە خواردنی ڕۆژانەی پڕ لە ڕیشاڵ دەکرێت قەبزی نەھێڵێت .",
+                            onPressedBritish: () => speakconstipateds2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstipateds2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you ate more fibre you wouldn't get constipated."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەگەر ڕیشاڵ بخۆیت قەبز نابیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstipateds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstipateds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you ate more fibre you wouldn't get constipated.",
+                            kurdishText: "ئەگەر ڕیشاڵ بخۆیت قەبز نابیت.",
+                            onPressedBritish: () => speakconstipateds3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstipateds3("en-US"),
                           ),
                         ],
                       ),

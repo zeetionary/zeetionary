@@ -246,59 +246,20 @@ class EnglishEntrycommon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە باوە و زۆر ڕوودەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Breast cancer is the most common form of cancer among women in this country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێرپەنجەی مەمک یەکێکە لە باوترین جۆرەکانی شێرپەنجە لە ناو ژناندا لەم وڵاتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "common", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Breast cancer is the most common form of cancer among women in this country.",
+                            kurdishText:
+                                "شێرپەنجەی مەمک یەکێکە لە باوترین جۆرەکانی شێرپەنجە لە ناو ژناندا لەم وڵاتە.", // common",
+                            onPressedBritish: () => speakcommons1("en-GB"),
+                            onPressedAmerican: () => speakcommons1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jackson is a common English name."),
-                                    ExampleSentenceKurdish(
-                                        text: "جاکسن ناوێکی ئینگلیزی باوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Jackson is a common English name.",
+                            kurdishText: "جاکسن ناوێکی ئینگلیزی باوە.",
+                            onPressedBritish: () => speakcommons2("en-GB"),
+                            onPressedAmerican: () => speakcommons2("en-US"),
                           ),
                           Column(
                             children: [
@@ -431,60 +392,21 @@ class EnglishEntrycommon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شتێک کە بوونی ھەیە لە دوو کەس یان زیاتردا، یان لە ژمارەیەک کەسدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They share a common interest in photography."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خولیایەکی ھاوبەشیان ھەیە بۆ وێنەگرتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommons7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommons7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They share a common interest in photography.",
+                            kurdishText:
+                                "خولیایەکی ھاوبەشیان ھەیە بۆ وێنەگرتن.",
+                            onPressedBritish: () => speakcommons7("en-GB"),
+                            onPressedAmerican: () => speakcommons7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are working together for a common purpose."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ئامانجێکی ھاوبەش کار دەکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommons8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommons8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are working together for a common purpose.",
+                            kurdishText: "بۆ ئامانجێکی ھاوبەش کار دەکەین.",
+                            onPressedBritish: () => speakcommons8("en-GB"),
+                            onPressedAmerican: () => speakcommons8("en-US"),
                           ),
                           Column(
                             children: [
@@ -557,60 +479,22 @@ class EnglishEntrycommon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) شتێک کە ئاساییە؛ تایبەت نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Shakespeare's work was popular among the common people in his day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکانی شکسپیر زۆر بەناوبانگ بوون لەناو خەڵکی ئاساییدا لە ڕپژانی خۆیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommons11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommons11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Shakespeare's work was popular among the common people in his day.",
+                            kurdishText:
+                                "کارەکانی شکسپیر زۆر بەناوبانگ بوون لەناو خەڵکی ئاساییدا لە ڕپژانی خۆیدا.",
+                            onPressedBritish: () => speakcommons11("en-GB"),
+                            onPressedAmerican: () => speakcommons11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In most people's eyes she was nothing more than a common criminal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕوانگەی زۆر کەسەەو تەنھا تاوانبارێکی ئاسایی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommons12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommons12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In most people's eyes she was nothing more than a common criminal.",
+                            kurdishText:
+                                "لە ڕوانگەی زۆر کەسەەو تەنھا تاوانبارێکی ئاسایی بوو.",
+                            onPressedBritish: () => speakcommons12("en-GB"),
+                            onPressedAmerican: () => speakcommons12("en-US"),
                           ),
                           Column(
                             children: [
@@ -683,150 +567,53 @@ class EnglishEntrycommon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) ئاژەڵێک یان ڕووەکێک کە بە ژمارەی زۆر بوونی ھەیە و دەگمەن نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This fish is not common in European waters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ماسییە باو نییە لە ئاوەکانی ئەورووپیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommons15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommons15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This fish is not common in European waters.",
+                            kurdishText:
+                                "ئەم ماسییە باو نییە لە ئاوەکانی ئەورووپیا.",
+                            onPressedBritish: () => speakcommons15("en-GB"),
+                            onPressedAmerican: () => speakcommons15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ھاوەڵناو) تایبەت بە کەسێکی کە لە چینی خوارەوەیە و ھەڵسوکەوتی باشی نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She thought he was very common and uneducated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وای بیردەکردەوە کە زۆر عەشایەر و نەخوێندەوارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommons16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommons16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She thought he was very common and uneducated.",
+                            kurdishText:
+                                "وای بیردەکردەوە کە زۆر عەشایەر و نەخوێندەوارە.",
+                            onPressedBritish: () => speakcommons16("en-GB"),
+                            onPressedAmerican: () => speakcommons16("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I wish you wouldn't use that word—it sounds so common."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھیوابووم ئەو وشەیە بەکارنەھێنیت، زۆر عەشایەرانەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommons17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommons17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I wish you wouldn't use that word—it sounds so common.",
+                            kurdishText:
+                                "بەھیوابووم ئەو وشەیە بەکارنەھێنیت، زۆر عەشایەرانەیە.",
+                            onPressedBritish: () => speakcommons17("en-GB"),
+                            onPressedAmerican: () => speakcommons17("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't like Sandra. She seems a bit common to me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزم بە ساندرا نییە، زۆر عەشایەرە لام."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommons18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommons18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't like Sandra. She seems a bit common to me.",
+                            kurdishText:
+                                "حەزم بە ساندرا نییە، زۆر عەشایەرە لام.",
+                            onPressedBritish: () => speakcommons18("en-GB"),
+                            onPressedAmerican: () => speakcommons18("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) ناوچەیەک لە گوندێک یان شارۆچکەیەک کە ھەموو کەس دەتوانێت بەکاریبێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We went for a walk on the common."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چووین بۆ پیاسەیەک لە باخە گشتییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommons19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommons19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We went for a walk on the common.",
+                            kurdishText: "چووین بۆ پیاسەیەک لە باخە گشتییەکە.",
+                            onPressedBritish: () => speakcommons19("en-GB"),
+                            onPressedAmerican: () => speakcommons19("en-US"),
                           ),
                         ],
                       ),

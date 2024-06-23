@@ -190,60 +190,20 @@ class EnglishEntrycartilage extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شانەیەکی بەھێزی سپی کە گرنگە لە پشتگیری و پێکەوەبەستنی بەشەکانی جەستە، و بەتایبەتی لە دەمارەکاندا بۆ ڕێگری لە لێکخشانی جومگەکان دژ بە یەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I’ve damaged the cartilage in my knee."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڕکڕاگەی چۆکم ئازاری پێگەشتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cartilage", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcartilages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcartilages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I’ve damaged the cartilage in my knee.",
+                            kurdishText:
+                                "کڕکڕاگەی چۆکم ئازاری پێگەشتووە.", // cartilage",
+                            onPressedBritish: () => speakcartilages1("en-GB"),
+                            onPressedAmerican: () => speakcartilages1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has a torn cartilage in his knee."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڕکڕاگەیەکی شکاو لە ئەژنۆیدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcartilages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcartilages2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He has a torn cartilage in his knee.",
+                            kurdishText: "کڕکڕاگەیەکی شکاو لە ئەژنۆیدایە.",
+                            onPressedBritish: () => speakcartilages2("en-GB"),
+                            onPressedAmerican: () => speakcartilages2("en-US"),
                           ),
                         ],
                       ),

@@ -189,58 +189,19 @@ class EnglishEntrycarefree extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) کەسێک کە ئەرک و خەمی نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He looked happy and carefree."),
-                                    ExampleSentenceKurdish(
-                                        text: "جڵخۆش و بێ‌خەم دیارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carefree", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarefrees1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarefrees1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He looked happy and carefree.",
+                            kurdishText: "جڵخۆش و بێ‌خەم دیارە.", // carefree",
+                            onPressedBritish: () => speakcarefrees1("en-GB"),
+                            onPressedAmerican: () => speakcarefrees1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I remember my carefree student days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژانی بێ‌خەمیی خوێندکاریەتیمم لەبیرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarefrees2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarefrees2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I remember my carefree student days.",
+                            kurdishText:
+                                "ڕۆژانی بێ‌خەمیی خوێندکاریەتیمم لەبیرە.",
+                            onPressedBritish: () => speakcarefrees2("en-GB"),
+                            onPressedAmerican: () => speakcarefrees2("en-US"),
                           ),
                         ],
                       ),

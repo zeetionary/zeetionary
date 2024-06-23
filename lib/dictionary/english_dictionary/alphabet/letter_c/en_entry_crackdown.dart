@@ -243,60 +243,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕێوشوێنی توند کە دەگیردرێتەبەر بۆ سنووردارکردنی چالاکیی تاوانباران یان کەسانی دژبەری حکومەت یان کەسێکی دەسەڵاتدار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government has ordered a crackdown on truancy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت بڕیاری ڕێوشوێنی توندی دژ بە خۆدزینەوە لە خوێندن داوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crackdown", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrackdowns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrackdowns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The government has ordered a crackdown on truancy.",
+            kurdishText:
+                "حکومەت بڕیاری ڕێوشوێنی توندی دژ بە خۆدزینەوە لە خوێندن داوە.", // crackdown", please follow LX instructions
+            onPressedBritish: () => speakcrackdowns1("en-GB"),
+            onPressedAmerican: () => speakcrackdowns1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are signs the crackdown is working as designed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاماژە ھەیە کە سەرکوتکردنەکە بەو شێوەیە بەڕێوە دەچێت کە دیزاین کراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrackdowns2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrackdowns2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are signs the crackdown is working as designed.",
+            kurdishText:
+                "ئاماژە ھەیە کە سەرکوتکردنەکە بەو شێوەیە بەڕێوە دەچێت کە دیزاین کراوە.",
+            onPressedBritish: () => speakcrackdowns2("en-GB"),
+            onPressedAmerican: () => speakcrackdowns2("en-US"),
           ),
         ],
       ),

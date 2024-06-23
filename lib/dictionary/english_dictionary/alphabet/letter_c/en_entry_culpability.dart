@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بەرپرس و شایەنی لۆمە بۆ کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The punishment should be proportionate to the gravity of the offence and the degree of culpability of the offender."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سزاکە دەبێت ھاوڕێژە بێت لەگەڵ سەختی تاوانەکە و ئاستی بەرپرسیارییەتی تاوانبارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "culpability", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculpabilitys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculpabilitys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The punishment should be proportionate to the gravity of the offence and the degree of culpability of the offender.",
+            kurdishText:
+                "سزاکە دەبێت ھاوڕێژە بێت لەگەڵ سەختی تاوانەکە و ئاستی بەرپرسیارییەتی تاوانبارەکە.", // culpability", please follow LX instructions
+            onPressedBritish: () => speakculpabilitys1("en-GB"),
+            onPressedAmerican: () => speakculpabilitys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After the accident, the company refused to accept culpability."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای ڕووداوەکە کۆمپانیاکە ڕەتیکردەوە بەرپرسیارییەتی ھەڵبگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculpabilitys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculpabilitys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "After the accident, the company refused to accept culpability.",
+            kurdishText:
+                "لە دوای ڕووداوەکە کۆمپانیاکە ڕەتیکردەوە بەرپرسیارییەتی ھەڵبگرێت.",
+            onPressedBritish: () => speakculpabilitys2("en-GB"),
+            onPressedAmerican: () => speakculpabilitys2("en-US"),
           ),
         ],
       ),

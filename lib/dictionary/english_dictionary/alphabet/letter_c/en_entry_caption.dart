@@ -192,91 +192,33 @@ class EnglishEntrycaption extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نووسراوێک کە لە ژێر وێنەیەک، کارتۆنێک، ھتد کە ڕوونکردنەوە دەدەن بەدەستەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He drew cartoons with captions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێنەی کارتۆنی دەکێشا بە سەرباسەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "caption", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He drew cartoons with captions.",
+                            kurdishText:
+                                "وێنەی کارتۆنی دەکێشا بە سەرباسەوە.", // caption
+                            onPressedBritish: () => speakcaptions1("en-GB"),
+                            onPressedAmerican: () => speakcaptions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jo tweeted the picture of herself with the cake with the caption 'Cake from my favourite bakery!'"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژۆ وێنەی خۆی تویت کرد بە سەرباسی 'کێکی نانەواخانەی دڵخوازم!'"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Jo tweeted the picture of herself with the cake with the caption 'Cake from my favourite bakery!'",
+                            kurdishText:
+                                "ژۆ وێنەی خۆی تویت کرد بە سەرباسی 'کێکی نانەواخانەی دڵخوازم!'",
+                            onPressedBritish: () => speakcaptions2("en-GB"),
+                            onPressedAmerican: () => speakcaptions2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) دانانی کاپشن بۆ وێنەیەک، کارتۆنێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The picture was captioned 'Catherine Deneuve in London'."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێنەکە لەسەری نووسرابوو 'کاسرین دینوڤە لە لەندەن'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The picture was captioned 'Catherine Deneuve in London'.",
+                            kurdishText:
+                                "وێنەکە لەسەری نووسرابوو 'کاسرین دینوڤە لە لەندەن'.",
+                            onPressedBritish: () => speakcaptions3("en-GB"),
+                            onPressedAmerican: () => speakcaptions3("en-US"),
                           ),
                         ],
                       ),

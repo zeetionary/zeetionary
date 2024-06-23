@@ -111,90 +111,33 @@ class EnglishEntrycolourless extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بێ ڕەنگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The reaction will produce a colourless liquid."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارلێکەکە شلەیەکی بێ ڕەنگ درووست دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colourless", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolourlesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolourlesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The reaction will produce a colourless liquid.",
+                            kurdishText:
+                                "کارلێکەکە شلەیەکی بێ ڕەنگ درووست دەکات.", // colourless",
+                            onPressedBritish: () => speakcolourlesss1("en-GB"),
+                            onPressedAmerican: () => speakcolourlesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her illness had left her face deathly white and her lips colourless."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشییەکەی ڕووخساری تەواو سپی کردەوە و لێوەکانی ڕەنگپەڕیو کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolourlesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolourlesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her illness had left her face deathly white and her lips colourless.",
+                            kurdishText:
+                                "نەخۆشییەکەی ڕووخساری تەواو سپی کردەوە و لێوەکانی ڕەنگپەڕیو کرد.",
+                            onPressedBritish: () => speakcolourlesss2("en-GB"),
+                            onPressedAmerican: () => speakcolourlesss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) شتێک کە سەرنجڕاکێش نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a small, colourless man who worked as a clerk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوێکی بچووکی جاڕسکەر بوو کە وەک فەرمانبەرێک کاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolourlesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolourlesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a small, colourless man who worked as a clerk.",
+                            kurdishText:
+                                "پیاوێکی بچووکی جاڕسکەر بوو کە وەک فەرمانبەرێک کاری دەکرد.",
+                            onPressedBritish: () => speakcolourlesss3("en-GB"),
+                            onPressedAmerican: () => speakcolourlesss3("en-US"),
                           ),
                         ],
                       ),

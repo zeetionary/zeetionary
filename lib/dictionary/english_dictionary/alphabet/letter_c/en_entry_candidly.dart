@@ -192,60 +192,21 @@ class EnglishEntrycandidly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بە ڕاستگۆیی و ڕاستی و درووستی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She candidly admitted her mistakes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاشکاوانە دانی بە ھەڵەکانیدا نا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "candidly", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcandidlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcandidlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She candidly admitted her mistakes.",
+                            kurdishText:
+                                "ڕاشکاوانە دانی بە ھەڵەکانیدا نا.", // candidly
+                            onPressedBritish: () => speakcandidlys1("en-GB"),
+                            onPressedAmerican: () => speakcandidlys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I find she is easy to speak to candidly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وایدەبین ئاسان بێت ڕاشکاوانە لەگەڵی بدوێی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcandidlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcandidlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I find she is easy to speak to candidly.",
+                            kurdishText:
+                                "وایدەبین ئاسان بێت ڕاشکاوانە لەگەڵی بدوێی.",
+                            onPressedBritish: () => speakcandidlys2("en-GB"),
+                            onPressedAmerican: () => speakcandidlys2("en-US"),
                           ),
                         ],
                       ),

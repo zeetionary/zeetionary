@@ -97,34 +97,15 @@ class EnglishEntrycivilengineering extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دیزاین، بنیاتنان، و چاککردنەوەی ڕێگا، پرد، نۆکەند، ھتد؛ یان خوێندنی ئەم بوارە "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The civil engineering team worked on the design of the new bridge across the river."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمی ئەندازیاریی شارستانی کاریان کرد لەسەر دیزاینی پردە نوێیەکە بەسەر ڕووبارەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "civil engineering", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilengineerings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilengineerings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The civil engineering team worked on the design of the new bridge across the river.",
+                            kurdishText:
+                                "تیمی ئەندازیاریی شارستانی کاریان کرد لەسەر دیزاینی پردە نوێیەکە بەسەر ڕووبارەکەدا.", // civil engineering",
+                            onPressedBritish: () =>
+                                speakcivilengineerings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcivilengineerings1("en-US"),
                           ),
                         ],
                       ),

@@ -122,133 +122,57 @@ class EnglishEntrycommonwealth extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دامەزراوەیەک کە لە بەریتانیا و ژمارەیەک وڵاتی دیکە پێکدێت، بەتایبەتی ئەو وڵاتانەی کە بەشێک بوون لە ئیمپراتۆریەتیی بەریتانیا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is an annual meeting of Commonwealth heads of government."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوپێکەوتنێکی ساڵانەی سەرۆک حکومەتەکانی وڵاتانی کۆمۆنوێڵس دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commonwealth", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommonwealths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommonwealths1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is an annual meeting of Commonwealth heads of government.",
+                            kurdishText:
+                                "چاوپێکەوتنێکی ساڵانەی سەرۆک حکومەتەکانی وڵاتانی کۆمۆنوێڵس دەکرێت.", // commonwealth",
+                            onPressedBritish: () =>
+                                speakcommonwealths1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommonwealths1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پەیوەندیدار بە کۆمەڵێک ویلایەتی ئەمریکا (کنتاکی، ماساچووسیتس، پێنسیلڤانیا، و ڤیرجینیا)"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The city and the Commonwealth have lost a great leader."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەکە و کۆمۆنوێڵس سەرکردەیەکی گەورەیان لەدەستداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommonwealths2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommonwealths2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The city and the Commonwealth have lost a great leader.",
+                            kurdishText:
+                                "شارەکە و کۆمۆنوێڵس سەرکردەیەکی گەورەیان لەدەستداوە.",
+                            onPressedBritish: () =>
+                                speakcommonwealths2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommonwealths2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) وڵاتێکی سەربەخۆ کە بە توندی پەیوەندیدارە بە ئەمریکا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Puerto Rico remains a US commonwealth, not a state."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆرتۆ ریکۆ کۆمۆنوێڵسێکی ئەمریکایە، نەک ویلایەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommonwealths3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommonwealths3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Puerto Rico remains a US commonwealth, not a state.",
+                            kurdishText:
+                                "پۆرتۆ ریکۆ کۆمۆنوێڵسێکی ئەمریکایە، نەک ویلایەت.",
+                            onPressedBritish: () =>
+                                speakcommonwealths3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommonwealths3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) لە ناوی کۆمەڵە وڵاتێکدا بەکاردێت کە لە ڕووی سیاسییەوە پەیوەندیدارن بە یەکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We want to create a commonwealth of democratic, self-governing countries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمانەوێت گرووپێکی وڵاتانی دیموکراسی و سەربەخۆ درووست بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommonwealths4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommonwealths4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We want to create a commonwealth of democratic, self-governing countries.",
+                            kurdishText:
+                                "دەمانەوێت گرووپێکی وڵاتانی دیموکراسی و سەربەخۆ درووست بکەین.",
+                            onPressedBritish: () =>
+                                speakcommonwealths4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommonwealths4("en-US"),
                           ),
                         ],
                       ),

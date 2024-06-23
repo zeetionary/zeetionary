@@ -196,60 +196,22 @@ class EnglishEntrycaution extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھۆشیارییەک کە دەیگریتە بەر بۆ ئەوەی لە مەترسی و ھەڵە دووربیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Statistics should be treated with caution."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامارەکان دەبێت بە پارێزەەو وەربگیردرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "caution", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcautions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcautions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Statistics should be treated with caution.",
+                            kurdishText:
+                                "ئامارەکان دەبێت بە پارێزەەو وەربگیردرێن.", // caution",
+                            onPressedBritish: () => speakcautions1("en-GB"),
+                            onPressedAmerican: () => speakcautions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The information on the website should be treated with some caution."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانیاری سەر وێبسایتەکە دەبێت بە وریاییەوە وەربگیردرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcautions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcautions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The information on the website should be treated with some caution.",
+                            kurdishText:
+                                "زانیاری سەر وێبسایتەکە دەبێت بە وریاییەوە وەربگیردرێت.",
+                            onPressedBritish: () => speakcautions2("en-GB"),
+                            onPressedAmerican: () => speakcautions2("en-US"),
                           ),
                           Column(
                             children: [
@@ -292,184 +254,69 @@ class EnglishEntrycaution extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئاگادارییەک کە لەلایەن پۆلیسەوە دەدرێت بە کەسێک کە تاوانێکی سووکی کردووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As a first offender, she got off with a caution."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک یەکەم تاوانباریی، بە ئاگادارکردنەوەیەک ڕزگاری بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcautions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcautions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As a first offender, she got off with a caution.",
+                            kurdishText:
+                                "وەک یەکەم تاوانباریی، بە ئاگادارکردنەوەیەک ڕزگاری بوو.",
+                            onPressedBritish: () => speakcautions4("en-GB"),
+                            onPressedAmerican: () => speakcautions4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئاگادارکردنەوەیەک یان ڕاوێژێک سەبارەت بە مەترسییەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some cautions must be mentioned—for example good tools are essential to do the job well."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک ھۆشداری دەبێت بگیردرێتەبەر، بح نموونە ئامرازی باش بنچینەیین بۆ کردنی کارەکە بەباشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcautions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcautions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some cautions must be mentioned—for example good tools are essential to do the job well.",
+                            kurdishText:
+                                "ھەندێک ھۆشداری دەبێت بگیردرێتەبەر، بح نموونە ئامرازی باش بنچینەیین بۆ کردنی کارەکە بەباشی.",
+                            onPressedBritish: () => speakcautions5("en-GB"),
+                            onPressedAmerican: () => speakcautions5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) ئاگادارکردنەوەی کەسێک سەبارەت بە مەترسی یان کێشەکانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I would caution against getting too involved."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھۆشداری دەدەم دژ بە زۆر تێوەگلان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcautions6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcautions6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I would caution against getting too involved.",
+                            kurdishText: "ھۆشداری دەدەم دژ بە زۆر تێوەگلان.",
+                            onPressedBritish: () => speakcautions6("en-GB"),
+                            onPressedAmerican: () => speakcautions6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sam cautioned him against making a hasty decision."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سام ھۆشداری پێدا دژ بە بڕیاردانی بەپەلە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcautions7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcautions7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sam cautioned him against making a hasty decision.",
+                            kurdishText:
+                                "سام ھۆشداری پێدا دژ بە بڕیاردانی بەپەلە.",
+                            onPressedBritish: () => speakcautions7("en-GB"),
+                            onPressedAmerican: () => speakcautions7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) بە فەرمی ھۆشداریدان بە کەسێک کە ھەرچی بڵێت دەکرێت لە دادگا دژی بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Suspects must be cautioned before any questions are asked."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گومان‌لێ‌کراوان دەبێت وریابکرێنەوە پێش ئەوەی ھیچ پرسیارێک بکردرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcautions8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcautions8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Suspects must be cautioned before any questions are asked.",
+                            kurdishText:
+                                "گومان‌لێ‌کراوان دەبێت وریابکرێنەوە پێش ئەوەی ھیچ پرسیارێک بکردرێت.",
+                            onPressedBritish: () => speakcautions8("en-GB"),
+                            onPressedAmerican: () => speakcautions8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) ئاگادارکردنەوەی کەسێک کە سزا دەدرێت ئەگەر تاوانێکی دیکە بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wasn't sent to the court; instead she was cautioned."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەبردرا بۆ دادگا، لە جیاتیدا ھۆشداری پێدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcautions9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcautions9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wasn't sent to the court; instead she was cautioned.",
+                            kurdishText:
+                                "نەبردرا بۆ دادگا، لە جیاتیدا ھۆشداری پێدرا.",
+                            onPressedBritish: () => speakcautions9("en-GB"),
+                            onPressedAmerican: () => speakcautions9("en-US"),
                           ),
                         ],
                       ),

@@ -121,129 +121,49 @@ class EnglishEntryconstituent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە لە مەڵبەندێکی ھەڵبژاردندا دەژی و دەنگ دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has the full support of her constituents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشتگیری تەواوی دەنگدەرەکانی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constituent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstituents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstituents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has the full support of her constituents.",
+                            kurdishText:
+                                "پشتگیری تەواوی دەنگدەرەکانی ھەیە.", // constituent",
+                            onPressedBritish: () => speakconstituents1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstituents1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) یەکێک لەو بەشانەی کە شتێک پێکدەھێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Vitamins are natural food constituents which are essential in helping to maintain good health."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڤیتامینەکان پێکھێنەری سرووشتی خواردنن کە گرنگن لە یارمەتیدانی پاراستنی تەندرووستی باش."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstituents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstituents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Vitamins are natural food constituents which are essential in helping to maintain good health.",
+                            kurdishText:
+                                "ڤیتامینەکان پێکھێنەری سرووشتی خواردنن کە گرنگن لە یارمەتیدانی پاراستنی تەندرووستی باش.",
+                            onPressedBritish: () => speakconstituents2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstituents2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) کارکردن وەک پێکھێنەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let's look at the constituent parts of this sentence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با بڕوانین لە بەشە پێکھێنەرەکانی ئەم ڕستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstituents3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstituents3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Let's look at the constituent parts of this sentence.",
+                            kurdishText:
+                                "با بڕوانین لە بەشە پێکھێنەرەکانی ئەم ڕستە.",
+                            onPressedBritish: () => speakconstituents3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstituents3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The process of breaking down food into its constituent elements begins."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆسەی شیکردنەوەی خۆراک بۆ بەشە پێکھێنەرەکانی دەستپێ دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstituents4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstituents4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The process of breaking down food into its constituent elements begins.",
+                            kurdishText:
+                                "پڕۆسەی شیکردنەوەی خۆراک بۆ بەشە پێکھێنەرەکانی دەستپێ دەکات.",
+                            onPressedBritish: () => speakconstituents4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstituents4("en-US"),
                           ),
                         ],
                       ),

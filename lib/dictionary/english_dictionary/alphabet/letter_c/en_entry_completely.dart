@@ -118,114 +118,36 @@ class EnglishEntrycompletely extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە تەواوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was completely different from how I had imagined it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواو جیاوازبوو لەوەی خەیاڵم کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "completely", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompletelys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompletelys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was completely different from how I had imagined it.",
+                            kurdishText:
+                                "تەواو جیاوازبوو لەوەی خەیاڵم کردبوو.", // completely",
+                            onPressedBritish: () => speakcompletelys1("en-GB"),
+                            onPressedAmerican: () => speakcompletelys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've completely forgotten her name."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە تەواوی ناویم لەبیرکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompletelys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompletelys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I've completely forgotten her name.",
+                            kurdishText: "بە تەواوی ناویم لەبیرکردووە.",
+                            onPressedBritish: () => speakcompletelys2("en-GB"),
+                            onPressedAmerican: () => speakcompletelys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The technique is completely new."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەکنیکەکە تەواو تازەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompletelys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompletelys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The technique is completely new.",
+                            kurdishText: "تەکنیکەکە تەواو تازەیە.",
+                            onPressedBritish: () => speakcompletelys3("en-GB"),
+                            onPressedAmerican: () => speakcompletelys3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He should recover completely in time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت بە تەواوی لەکاتی خۆیدا چاکببێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompletelys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompletelys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He should recover completely in time.",
+                            kurdishText:
+                                "دەبێت بە تەواوی لەکاتی خۆیدا چاکببێتەوە.",
+                            onPressedBritish: () => speakcompletelys4("en-GB"),
+                            onPressedAmerican: () => speakcompletelys4("en-US"),
                           ),
                         ],
                       ),

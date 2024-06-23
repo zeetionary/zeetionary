@@ -249,86 +249,28 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) جێگەیەکی خەو بۆ منداڵان کە لاکانی بەرزن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She put the baby down in the crib for a nap."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵەکەی خستە جۆلانەکەوە بۆ سەرخەوێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crib", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcribs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcribs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She put the baby down in the crib for a nap.",
+            kurdishText:
+                "منداڵەکەی خستە جۆلانەکەوە بۆ سەرخەوێک.", // crib", please follow LX instructions
+            onPressedBritish: () => speakcribs1("en-GB"),
+            onPressedAmerican: () => speakcribs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He slept soundly in his crib through the night."),
-                    ExampleSentenceKurdish(
-                        text: "تەواوی شەوەکە بە قووڵی لە جۆلانەکەدا خەوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcribs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcribs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He slept soundly in his crib through the night.",
+            kurdishText: "تەواوی شەوەکە بە قووڵی لە جۆلانەکەدا خەوت.",
+            onPressedBritish: () => speakcribs2("en-GB"),
+            onPressedAmerican: () => speakcribs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ئاخوڕی ئەسپ و مانگا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cows gathered around the crib to eat their feed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مانگاکان لە دەوری ئاخوڕەکە کۆبوونەوە بۆ خواردنی ئالیکەکەیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcribs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcribs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cows gathered around the crib to eat their feed.",
+            kurdishText:
+                "مانگاکان لە دەوری ئاخوڕەکە کۆبوونەوە بۆ خواردنی ئالیکەکەیان.",
+            onPressedBritish: () => speakcribs3("en-GB"),
+            onPressedAmerican: () => speakcribs3("en-US"),
           ),
         ],
       ),

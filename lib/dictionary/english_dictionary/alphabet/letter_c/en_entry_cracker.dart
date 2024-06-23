@@ -242,57 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بسکیتێکی باریکی وشک کە زۆرجار شۆرە و لەگەڵ پەنیردا دەخورێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We were offered cheese and crackers with our drinks."),
-                    ExampleSentenceKurdish(
-                        text: "لەگەڵ خواردنەوەکانمان بسکیتی سوێرمان پێدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cracker", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrackers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrackers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We were offered cheese and crackers with our drinks.",
+            kurdishText:
+                "لەگەڵ خواردنەوەکانمان بسکیتی سوێرمان پێدرا.", // cracker
+            onPressedBritish: () => speakcrackers1("en-GB"),
+            onPressedAmerican: () => speakcrackers1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) شتێک کە پێتوایە نایابە یان پێکەنیناوییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "It was a cracker of a goal."),
-                    ExampleSentenceKurdish(text: "ئامانجێکی نایاب بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrackers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrackers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was a cracker of a goal.",
+            kurdishText: "ئامانجێکی نایاب بوو.",
+            onPressedBritish: () => speakcrackers2("en-GB"),
+            onPressedAmerican: () => speakcrackers2("en-US"),
           ),
         ],
       ),

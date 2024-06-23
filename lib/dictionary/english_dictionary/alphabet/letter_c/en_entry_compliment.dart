@@ -144,203 +144,70 @@ class EnglishEntrycompliment extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ستایش و دەستخۆشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's a great compliment to be asked to do the job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستایشێکی گەورەیە کە داوات لێ بکرێت کارەکە بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compliment", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompliments1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompliments1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's a great compliment to be asked to do the job.",
+                            kurdishText:
+                                "ستایشێکی گەورەیە کە داوات لێ بکرێت کارەکە بکەیت.", // compliment",
+                            onPressedBritish: () => speakcompliments1("en-GB"),
+                            onPressedAmerican: () => speakcompliments1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He returned her compliment by saying how well she looked."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەڵامی پەسندانەوەکەیی دایەوە بە وتنی ئەوەی چەند جوان دەردەکەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompliments2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompliments2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He returned her compliment by saying how well she looked.",
+                            kurdishText:
+                                "وەڵامی پەسندانەوەکەیی دایەوە بە وتنی ئەوەی چەند جوان دەردەکەوێت.",
+                            onPressedBritish: () => speakcompliments2("en-GB"),
+                            onPressedAmerican: () => speakcompliments2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She received several compliments on her speech."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک دەستخۆشی بۆ وتارەکەی وەرگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompliments3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompliments3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She received several compliments on her speech.",
+                            kurdishText:
+                                "ژمارەیەک دەستخۆشی بۆ وتارەکەی وەرگرت.",
+                            onPressedBritish: () => speakcompliments3("en-GB"),
+                            onPressedAmerican: () => speakcompliments3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھیوای باش خواستن یان وتەی باش بەتایبەتی کاتێک کە پەسنی کەسێک دەدەیت یان دەستخۆشی لێ دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "My compliments to the chef!"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەستخۆشیم ھەیە بۆ شێف!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompliments4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompliments4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My compliments to the chef!",
+                            kurdishText: "دەستخۆشیم ھەیە بۆ شێف!",
+                            onPressedBritish: () => speakcompliments4("en-GB"),
+                            onPressedAmerican: () => speakcompliments4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please accept these flowers with the compliments of (= as a gift from) the manager."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە ئەم گوڵانە وەک ڕێزی بەڕێوبەر پەسەند بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompliments5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompliments5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please accept these flowers with the compliments of (= as a gift from) the manager.",
+                            kurdishText:
+                                "تکایە ئەم گوڵانە وەک ڕێزی بەڕێوبەر پەسەند بکە.",
+                            onPressedBritish: () => speakcompliments5("en-GB"),
+                            onPressedAmerican: () => speakcompliments5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please give my compliments to your parents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە دەستخۆشیم بگەیەنە بە دایک و باوکت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompliments6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompliments6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please give my compliments to your parents.",
+                            kurdishText:
+                                "تکایە دەستخۆشیم بگەیەنە بە دایک و باوکت.",
+                            onPressedBritish: () => speakcompliments6("en-GB"),
+                            onPressedAmerican: () => speakcompliments6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) ستایشکردنی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She complimented him on his excellent German."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستایشی کرد بۆ زمانە ئەڵمانییە باشەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompliments7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompliments7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She complimented him on his excellent German.",
+                            kurdishText:
+                                "ستایشی کرد بۆ زمانە ئەڵمانییە باشەکەی.",
+                            onPressedBritish: () => speakcompliments7("en-GB"),
+                            onPressedAmerican: () => speakcompliments7("en-US"),
                           ),
                         ],
                       ),

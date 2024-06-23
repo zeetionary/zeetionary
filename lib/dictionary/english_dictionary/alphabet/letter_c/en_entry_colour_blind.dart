@@ -103,66 +103,26 @@ class EnglishEntrycolourblind extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) نەبوونی توانای بینینی ھەندێک ڕەنگ، وەک سەوز و سوور؛ بینینی ڕەش و سپی بە تەنھا (ئەم جۆرەیان لە مرۆڤدا دەگمەنە)"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Colour-blind women are relatively rare."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنی ڕەنگ کوێر تا ڕادەیەک دەگمەنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colour-blind", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcolourblinds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcolourblinds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Colour-blind women are relatively rare.",
+                            kurdishText:
+                                "ژنی ڕەنگ کوێر تا ڕادەیەک دەگمەنن.", // colour-blind",
+                            onPressedBritish: () => speakcolourblinds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcolourblinds1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) گرنگی نەدان بە ڕەنگی پێست"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We aspire to a society whose institutions are colour-blind and whose citizens progress on their own merit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ھیوای کۆمەڵگەیەکین کە دامەزراوەکانی ڕەنگ کوێرن و ھاوڵاتییەکانی بە لێھاتووی خۆیان دەچنە پێشەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcolourblinds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcolourblinds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We aspire to a society whose institutions are colour-blind and whose citizens progress on their own merit.",
+                            kurdishText:
+                                "بە ھیوای کۆمەڵگەیەکین کە دامەزراوەکانی ڕەنگ کوێرن و ھاوڵاتییەکانی بە لێھاتووی خۆیان دەچنە پێشەوە.",
+                            onPressedBritish: () => speakcolourblinds2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcolourblinds2("en-US"),
                           ),
                         ],
                       ),

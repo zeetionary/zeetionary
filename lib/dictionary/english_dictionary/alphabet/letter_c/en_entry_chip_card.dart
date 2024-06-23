@@ -97,35 +97,15 @@ class EnglishEntrychipcard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کارتێکی زانیاری بچووک کە زانیاری بە شێوەی ئەلیکترۆنی لەسەر کۆگاکراوە و بە ئامێرێک زانیارییەکانی ناوی دەخوێنرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Overall, chip cards are more secure than magnetic cards."),
-                                    ExampleSentenceKurdish(
-                                      text:
+                          SentencesRow(
+  englishText:
+                                            "Overall, chip cards are more secure than magnetic cards.",
+kurdishText:
                                           "بەشێوەیەکی گشتی کارتی زیرەک سەلامتترە لە کارتی ماگنێتیک.",
-                                      note:
-                                          "کارتی ماگنێتیک زانیارییەکانی لەسەر نووسراوە",
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chip card", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchipcards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchipcards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                                      kurdishNote:
+                                          "کارتی ماگنێتیک زانیارییەکانی لەسەر نووسراوە", // chip card",
+                                    onPressedBritish: () => speakchipcards1("en-GB"),
+onPressedAmerican: () => speakchipcards1("en-US"),
                           ),
                         ],
                       ),

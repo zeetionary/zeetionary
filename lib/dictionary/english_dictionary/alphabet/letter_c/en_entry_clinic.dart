@@ -131,150 +131,53 @@ class EnglishEntryclinic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بینایەک یان بەشێکی نەخۆشخانەیەک کە کە تێیدا خەڵکی دەچن بۆ ڕاوێژ یان چارەسەری تەندرووستی تایبەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was treated at the hospital's eye clinic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کلینکی چاوی نەخۆشخانەکە چارەسەرکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clinic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was treated at the hospital's eye clinic.",
+                            kurdishText:
+                                "لە کلینکی چاوی نەخۆشخانەکە چارەسەرکرا.", // clinic",
+                            onPressedBritish: () => speakclinics1("en-GB"),
+                            onPressedAmerican: () => speakclinics1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is being treated at a diabetic clinic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کلینکێکی نەخۆشی شەکرە چارەسەر وەردەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is being treated at a diabetic clinic.",
+                            kurdishText:
+                                "لە کلینکێکی نەخۆشی شەکرە چارەسەر وەردەگرێت.",
+                            onPressedBritish: () => speakclinics2("en-GB"),
+                            onPressedAmerican: () => speakclinics2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The clinic is staffed by volunteers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلینکەکە لەلایەن خۆبەخشەوە بەڕێوەدەبرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinics3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinics3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The clinic is staffed by volunteers.",
+                            kurdishText:
+                                "کلینکەکە لەلایەن خۆبەخشەوە بەڕێوەدەبرێت.",
+                            onPressedBritish: () => speakclinics3("en-GB"),
+                            onPressedAmerican: () => speakclinics3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ماوەیەک کە پزیشکان ڕاوێژ و چارەسەری تەندرووستی تایبەت دەدەن بە نەخۆش"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The antenatal clinic is on Wednesdays."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلینکی ژنانی دووگیان لە ڕۆژی چوارشەممانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinics4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinics4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The antenatal clinic is on Wednesdays.",
+                            kurdishText:
+                                "کلینکی ژنانی دووگیان لە ڕۆژی چوارشەممانە.",
+                            onPressedBritish: () => speakclinics4("en-GB"),
+                            onPressedAmerican: () => speakclinics4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) نەخۆشخانەیەکی تایبەت، یان یەکێک کە جۆرە نەخۆشییەکی دیاریکراو چارەسەر دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is being treated at the London clinic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کلینکی لەندەن چارەسەر دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinics5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinics5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is being treated at the London clinic.",
+                            kurdishText: "لە کلینکی لەندەن چارەسەر دەکرێت.",
+                            onPressedBritish: () => speakclinics5("en-GB"),
+                            onPressedAmerican: () => speakclinics5("en-US"),
                           ),
                         ],
                       ),

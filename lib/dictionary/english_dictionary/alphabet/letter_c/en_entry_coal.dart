@@ -129,58 +129,21 @@ class EnglishEntrycoal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مادەیەکی نائەندامی سەختی ڕەش کە لە ژێر زەویدایە و دەسووتێنرێت بۆ درووستکردنی گەرمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I put more coal on the fire."),
-                                    ExampleSentenceKurdish(
-                                        text: "خەڵووزی زیاترم خستە ئاگرەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coal", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I put more coal on the fire.",
+                            kurdishText:
+                                "خەڵووزی زیاترم خستە ئاگرەکەوە.", // coal",
+                            onPressedBritish: () => speakcoals1("en-GB"),
+                            onPressedAmerican: () => speakcoals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She sat by the coal fire in the kitchen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تەنیشت ئاگری لای چێشتخانەکە دانیشتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She sat by the coal fire in the kitchen.",
+                            kurdishText:
+                                "لە تەنیشت ئاگری لای چێشتخانەکە دانیشتبوو.",
+                            onPressedBritish: () => speakcoals2("en-GB"),
+                            onPressedAmerican: () => speakcoals2("en-US"),
                           ),
                           Column(
                             children: [
@@ -253,32 +216,13 @@ class EnglishEntrycoal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پارچە خەڵووزێک، بەتایبەتی یەکێک کە ھێشتا دەسووتێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A hot coal fell out of the fire and burnt the carpet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵووزێکی گەرم لە ئاگرەکە کەوت و فەرشەکەی سووتاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoals5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoals5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A hot coal fell out of the fire and burnt the carpet.",
+                            kurdishText:
+                                "خەڵووزێکی گەرم لە ئاگرەکە کەوت و فەرشەکەی سووتاند.",
+                            onPressedBritish: () => speakcoals5("en-GB"),
+                            onPressedAmerican: () => speakcoals5("en-US"),
                           ),
                         ],
                       ),

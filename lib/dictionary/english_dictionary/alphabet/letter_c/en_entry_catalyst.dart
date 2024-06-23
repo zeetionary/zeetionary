@@ -191,63 +191,24 @@ class EnglishEntrycatalyst extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لە کیمیادا مادەیەکە کە کارلێکێکی کیمیایی خێراتر دەکات بەبێ ئەوەی خۆی گۆڕێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Chlorine will act as a catalyst."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلۆر وەک ھاندەرێکی کیمیایی کاردەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catalyst", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatalysts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatalysts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Chlorine will act as a catalyst.",
+                            kurdishText:
+                                "کلۆر وەک ھاندەرێکی کیمیایی کاردەکات.", // catalyst",
+                            onPressedBritish: () => speakcatalysts1("en-GB"),
+                            onPressedAmerican: () => speakcatalysts1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک یان شتێک کە گۆڕانێک درووست دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The high suicide rate acted as a catalyst for change in the prison system."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەی زۆری خۆکوشتن پاڵنەرێک بوو گۆڕان لە سیستەمی زینداندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatalysts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatalysts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The high suicide rate acted as a catalyst for change in the prison system.",
+                            kurdishText:
+                                "ڕێژەی زۆری خۆکوشتن پاڵنەرێک بوو گۆڕان لە سیستەمی زینداندا.",
+                            onPressedBritish: () => speakcatalysts2("en-GB"),
+                            onPressedAmerican: () => speakcatalysts2("en-US"),
                           ),
                         ],
                       ),

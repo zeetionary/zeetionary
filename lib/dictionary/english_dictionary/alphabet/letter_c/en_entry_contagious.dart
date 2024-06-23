@@ -121,118 +121,42 @@ class EnglishEntrycontagious extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) نەخۆشییەک کە بە بەرکەوتن دەگوازرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new disease proved contagious."),
-                                    ExampleSentenceKurdish(
-                                        text: "نەخۆشییە تازەکە ڕاگوێزەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contagious", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontagiouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontagiouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The new disease proved contagious.",
+                            kurdishText:
+                                "نەخۆشییە تازەکە ڕاگوێزەرە.", // contagious",
+                            onPressedBritish: () => speakcontagiouss1("en-GB"),
+                            onPressedAmerican: () => speakcontagiouss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The infection is highly contagious, so don't let anyone else use your towel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەتاکە تەواو ڕاگوێزەرە، بۆیە مەھێڵە ھیچ کەس خاولییەکەت بەکاربھێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontagiouss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontagiouss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The infection is highly contagious, so don't let anyone else use your towel.",
+                            kurdishText:
+                                "پەتاکە تەواو ڕاگوێزەرە، بۆیە مەھێڵە ھیچ کەس خاولییەکەت بەکاربھێنێت.",
+                            onPressedBritish: () => speakcontagiouss2("en-GB"),
+                            onPressedAmerican: () => speakcontagiouss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) کەسێک کە نەخۆشییەکی ڕاگوێزەری ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Keep him out of school until he's not contagious anymore."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە قوتابخانە بە دووری بگرە تاوەکو چی دیکە نەخۆش نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontagiouss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontagiouss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Keep him out of school until he's not contagious anymore.",
+                            kurdishText:
+                                "لە قوتابخانە بە دووری بگرە تاوەکو چی دیکە نەخۆش نییە.",
+                            onPressedBritish: () => speakcontagiouss3("en-GB"),
+                            onPressedAmerican: () => speakcontagiouss3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The patient is most contagious for the first 3 weeks from their earliest symptom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشەکە زیاترین گواستنەوەی ھەیە لە یەکەمین ٣ ھەفتە لە دوای دەرکەوتنی نیشانە سەرەتاییەکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontagiouss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontagiouss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The patient is most contagious for the first 3 weeks from their earliest symptom.",
+                            kurdishText:
+                                "نەخۆشەکە زیاترین گواستنەوەی ھەیە لە یەکەمین ٣ ھەفتە لە دوای دەرکەوتنی نیشانە سەرەتاییەکانەوە.",
+                            onPressedBritish: () => speakcontagiouss4("en-GB"),
+                            onPressedAmerican: () => speakcontagiouss4("en-US"),
                           ),
                         ],
                       ),

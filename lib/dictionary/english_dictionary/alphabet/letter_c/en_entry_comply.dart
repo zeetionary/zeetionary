@@ -111,88 +111,31 @@ class EnglishEntrycomply extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پابەندبوون بە یاسایەک، بڕیارێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They refused to comply with the UN resolution."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەتیانکردەوە پابەندی بڕیاری نەتەوە یەکگرتووەکان بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comply", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They refused to comply with the UN resolution.",
+                            kurdishText:
+                                "ڕەتیانکردەوە پابەندی بڕیاری نەتەوە یەکگرتووەکان بن.", // comply",
+                            onPressedBritish: () => speakcomplys1("en-GB"),
+                            onPressedAmerican: () => speakcomplys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When requested to leave, they refused to comply."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە داوایان لێکرا بڕۆن، ڕەتیانکردەوە پابەند بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When requested to leave, they refused to comply.",
+                            kurdishText:
+                                "کە داوایان لێکرا بڕۆن، ڕەتیانکردەوە پابەند بن.",
+                            onPressedBritish: () => speakcomplys2("en-GB"),
+                            onPressedAmerican: () => speakcomplys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What sanctions can they take against us if we fail to comply?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چی سزایەک دژمان دەگرنە بەر ئەگەر نەتوانین پابەند بین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What sanctions can they take against us if we fail to comply?",
+                            kurdishText:
+                                "چی سزایەک دژمان دەگرنە بەر ئەگەر نەتوانین پابەند بین.",
+                            onPressedBritish: () => speakcomplys3("en-GB"),
+                            onPressedAmerican: () => speakcomplys3("en-US"),
                           ),
                         ],
                       ),

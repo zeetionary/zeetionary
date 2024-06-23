@@ -95,32 +95,13 @@ class EnglishEntrychurchyard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوچەی دەوری کڵێسایەک، زۆرجار بۆ ناشتنی مردوو بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Volunteers lovingly tended the flowers in the churchyard."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆبەخشان بە خۆشەویستییەوە ئاگاداری گوڵەکانی کڵێساکە دەبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "churchyard", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurchyards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurchyards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Volunteers lovingly tended the flowers in the churchyard.",
+                            kurdishText:
+                                "خۆبەخشان بە خۆشەویستییەوە ئاگاداری گوڵەکانی کڵێساکە دەبوون.", // churchyard",
+                            onPressedBritish: () => speakchurchyards1("en-GB"),
+                            onPressedAmerican: () => speakchurchyards1("en-US"),
                           ),
                         ],
                       ),

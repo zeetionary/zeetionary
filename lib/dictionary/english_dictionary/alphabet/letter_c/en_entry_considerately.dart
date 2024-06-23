@@ -112,94 +112,37 @@ class EnglishEntryconsiderately extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە گرنگی دەدەیت بە ھەست و سۆزی کەسانی دیکە بۆ ئەوەی بێزاریان نەکەیت؛ بەشێوەیەکی میھرەبانانە و یارمەتیدەرانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She drives carefully and considerately."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە وریایی و بیرفراوانییەوە شۆفێری دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "considerately", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsideratelys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsideratelys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She drives carefully and considerately.",
+                            kurdishText:
+                                "بە وریایی و بیرفراوانییەوە شۆفێری دەکات.", // considerately",
+                            onPressedBritish: () =>
+                                speakconsideratelys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsideratelys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Why can't you behave more considerately towards your sister?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆچی میھرەبانانەتر مامەڵە لەگەڵ خوشکەکەت ناکەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsideratelys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsideratelys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Why can't you behave more considerately towards your sister?",
+                            kurdishText:
+                                "بۆچی میھرەبانانەتر مامەڵە لەگەڵ خوشکەکەت ناکەیت؟",
+                            onPressedBritish: () =>
+                                speakconsideratelys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsideratelys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People ought to act more considerately towards their neighbours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی دەبێت دۆستانەتر مامەڵە لەگەڵ درواسێیەکانیان بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsideratelys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsideratelys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People ought to act more considerately towards their neighbours.",
+                            kurdishText:
+                                "خەڵکی دەبێت دۆستانەتر مامەڵە لەگەڵ درواسێیەکانیان بکەن.",
+                            onPressedBritish: () =>
+                                speakconsideratelys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsideratelys3("en-US"),
                           ),
                         ],
                       ),

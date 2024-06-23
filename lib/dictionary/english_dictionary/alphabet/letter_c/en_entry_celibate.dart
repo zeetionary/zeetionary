@@ -191,93 +191,36 @@ class EnglishEntrycelibate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) نەبوون لە پەیوەندی ھاوسەریدا و دووربوون لە سێکس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some individuals choose to remain celibate for personal reasons, such as focusing on career or academic pursuits."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک وای ھەڵدەبژێرن کە بە زگوردی بمێننەوە بۆ مەبەستی کەسی، بۆ نموونە بۆ سەرنجدان بە کار خوێندنی ئەکادیمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "celibate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelibates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelibates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some individuals choose to remain celibate for personal reasons, such as focusing on career or academic pursuits.",
+                            kurdishText:
+                                "ھەندێک وای ھەڵدەبژێرن کە بە زگوردی بمێننەوە بۆ مەبەستی کەسی، بۆ نموونە بۆ سەرنجدان بە کار خوێندنی ئەکادیمی.", // celibate",
+                            onPressedBritish: () => speakcelibates1("en-GB"),
+                            onPressedAmerican: () => speakcelibates1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) دوور لە سێکس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've been celibate for the past six months."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ شەش مانگ دەبێت دوور لە سێکس بوومە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelibates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelibates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've been celibate for the past six months.",
+                            kurdishText:
+                                "بۆ شەش مانگ دەبێت دوور لە سێکس بوومە.",
+                            onPressedBritish: () => speakcelibates2("en-GB"),
+                            onPressedAmerican: () => speakcelibates2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەسێک کە بڕیاری داوە ھاوسەرگیری نەکات، و ھەرگیز سێکس نەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's been a celibate since his break-up."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا بەووە لەوەتەی جیابوونەوەکەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelibates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelibates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's been a celibate since his break-up.",
+                            kurdishText:
+                                "تەنھا بەووە لەوەتەی جیابوونەوەکەیەوە.",
+                            onPressedBritish: () => speakcelibates3("en-GB"),
+                            onPressedAmerican: () => speakcelibates3("en-US"),
                           ),
                         ],
                       ),

@@ -120,120 +120,45 @@ class EnglishEntryconsign extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) دانانی کەسێک/شتێک لە شوێنێک بۆ ڕزگاربوون لێی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I consigned her letter to the wastebasket."),
-                                    ExampleSentenceKurdish(
-                                        text: "نامەکەیم خستە زبڵدانەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consign", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsigns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsigns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I consigned her letter to the wastebasket.",
+                            kurdishText:
+                                "نامەکەیم خستە زبڵدانەکەوە.", // consign",
+                            onPressedBritish: () => speakconsigns1("en-GB"),
+                            onPressedAmerican: () => speakconsigns1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What I didn't want was to see my mother consigned to an old people's home."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوەی کە نەمدەویست بیبینم ئەوە بوو دایکم بکەوێتە خانەی بەساڵاچووانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsigns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsigns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What I didn't want was to see my mother consigned to an old people's home.",
+                            kurdishText:
+                                "ئەوەی کە نەمدەویست بیبینم ئەوە بوو دایکم بکەوێتە خانەی بەساڵاچووانەوە.",
+                            onPressedBritish: () => speakconsigns2("en-GB"),
+                            onPressedAmerican: () => speakconsigns2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) دانانی کەسێک/شتێک لە دۆخێکی ناخۆشدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A car accident consigned him to a wheelchair for the rest of his life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکدادانێکی ئۆتۆمبێل بۆ ماوەی ژیانی خستییە سەر کورسی کارەبایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsigns3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsigns3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A car accident consigned him to a wheelchair for the rest of his life.",
+                            kurdishText:
+                                "پێکدادانێکی ئۆتۆمبێل بۆ ماوەی ژیانی خستییە سەر کورسی کارەبایی.",
+                            onPressedBritish: () => speakconsigns3("en-GB"),
+                            onPressedAmerican: () => speakconsigns3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) ناردنی شتێک بۆ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The goods were consigned to last week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەلووۆپەلەکانت ھەفتەی ڕابردوو بۆ نێردران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsigns4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsigns4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The goods were consigned to last week.",
+                            kurdishText:
+                                "کەلووۆپەلەکانت ھەفتەی ڕابردوو بۆ نێردران.",
+                            onPressedBritish: () => speakconsigns4("en-GB"),
+                            onPressedAmerican: () => speakconsigns4("en-US"),
                           ),
                         ],
                       ),

@@ -167,59 +167,20 @@ class EnglishEntrychoke extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) نەبوونی توانای ھەناسەدان بەھۆی ئەوەی ڕێچکەی ھەوات گیراوە یان ناتوانی ھەناسەی پێویست ھەڵبمژیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She almost choked to death in the thick fumes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تەمە دژوارەکەدا خەریک بوو بخنکێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "choke", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchokes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchokes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She almost choked to death in the thick fumes.",
+                            kurdishText:
+                                "لە تەمە دژوارەکەدا خەریک بوو بخنکێت.", // choke",
+                            onPressedBritish: () => speakchokes1("en-GB"),
+                            onPressedAmerican: () => speakchokes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was choking on a piece of toast."),
-                                    ExampleSentenceKurdish(
-                                        text: "پارچەیەک پەڕییە قوڕگی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchokes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchokes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was choking on a piece of toast.",
+                            kurdishText: "پارچەیەک پەڕییە قوڕگی.",
+                            onPressedBritish: () => speakchokes2("en-GB"),
+                            onPressedAmerican: () => speakchokes2("en-US"),
                           ),
                           Column(
                             children: [
@@ -292,178 +253,61 @@ class EnglishEntrychoke extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) خنکاندنی کەسێک بە دەستخستنە ملی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He may have been choked or poisoned."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەوانەیە خنکێندرابێت یان ژەھرخوارد کرابێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchokes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchokes5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He may have been choked or poisoned.",
+                            kurdishText:
+                                "لەوانەیە خنکێندرابێت یان ژەھرخوارد کرابێت.",
+                            onPressedBritish: () => speakchokes5("en-GB"),
+                            onPressedAmerican: () => speakchokes5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had been choked to death in her room."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ژوورەکەیدا خنکێندرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchokes6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchokes6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had been choked to death in her room.",
+                            kurdishText: "لە ژوورەکەیدا خنکێندرابوو.",
+                            onPressedBritish: () => speakchokes6("en-GB"),
+                            onPressedAmerican: () => speakchokes6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) بێ توانابوون لەوەی بە ئاسایی قسە بکەیت بەھۆی ھەستی زۆرەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His voice was choking with rage."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەنگی لە تووڕەییدا دەلەرزی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchokes7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchokes7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His voice was choking with rage.",
+                            kurdishText: "دەنگی لە تووڕەییدا دەلەرزی.",
+                            onPressedBritish: () => speakchokes7("en-GB"),
+                            onPressedAmerican: () => speakchokes7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) گرتنی ڕێچکەیەک، ڕێگایەک، شوێنێک، ھتد بەشێوەیەک کە جوڵان تێیدا ئاستەنگ بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The roads are choked up with traffic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگاکان بە زۆری ھاتووچۆ گیراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchokes8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchokes8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The roads are choked up with traffic.",
+                            kurdishText: "ڕێگاکان بە زۆری ھاتووچۆ گیراون.",
+                            onPressedBritish: () => speakchokes8("en-GB"),
+                            onPressedAmerican: () => speakchokes8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The pond was choked with rotten leaves."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆنگاوەکە بە گەڵا گیرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchokes9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchokes9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The pond was choked with rotten leaves.",
+                            kurdishText: "زۆنگاوەکە بە گەڵا گیرابوو.",
+                            onPressedBritish: () => speakchokes9("en-GB"),
+                            onPressedAmerican: () => speakchokes9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) شکستھێنان لە شتێک، بۆ نموونە بەھۆی ئەوەی شڵەژاوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We were the only team not to choke at the big moment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا تیم بووین لە ساتەوەختە گەورەکەدا شکست نەھێنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchokes10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchokes10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We were the only team not to choke at the big moment.",
+                            kurdishText:
+                                "تەنھا تیم بووین لە ساتەوەختە گەورەکەدا شکست نەھێنین.",
+                            onPressedBritish: () => speakchokes10("en-GB"),
+                            onPressedAmerican: () => speakchokes10("en-US"),
                           ),
                         ],
                       ),

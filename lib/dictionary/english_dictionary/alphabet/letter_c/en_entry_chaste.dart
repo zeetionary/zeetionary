@@ -111,92 +111,33 @@ class EnglishEntrychaste extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) نەبوونی سێکس لەگەڵ ھیچ کەسێکدا، یان تەنھا لەگەڵ ئەو کەسەی ھاوسەرگیریت لەگەڵی کردووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the past, a woman needed to be chaste to make a good marriage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆندا، ژن دەبوو داوێن‌پاک بێت بۆ دەستکەوتنی ھاوسەرگیرییەکی باش."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chaste", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchastes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchastes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the past, a woman needed to be chaste to make a good marriage.",
+                            kurdishText:
+                                "لە کۆندا، ژن دەبوو داوێن‌پاک بێت بۆ دەستکەوتنی ھاوسەرگیرییەکی باش.", // chaste",
+                            onPressedBritish: () => speakchastes1("en-GB"),
+                            onPressedAmerican: () => speakchastes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) بەبێ بوونی ھەستی جەستەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They exchanged a few chaste kisses (= not expressing sexual desire)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک ماچی پاکانەی یەکدییان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchastes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchastes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They exchanged a few chaste kisses (= not expressing sexual desire).",
+                            kurdishText: "ھەندێک ماچی پاکانەی یەکدییان کرد.",
+                            onPressedBritish: () => speakchastes2("en-GB"),
+                            onPressedAmerican: () => speakchastes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) ستایلێکی سادە "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wore a chaste gold chain around her neck."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زنجیرێکی ئاڵتوونی سادەی لەمل بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchastes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchastes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wore a chaste gold chain around her neck.",
+                            kurdishText: "زنجیرێکی ئاڵتوونی سادەی لەمل بوو.",
+                            onPressedBritish: () => speakchastes3("en-GB"),
+                            onPressedAmerican: () => speakchastes3("en-US"),
                           ),
                         ],
                       ),

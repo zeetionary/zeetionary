@@ -95,32 +95,13 @@ class EnglishEntryconsulate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کونسوڵخانە؛ بینای نوێنەرایەتیی وڵاتێک لە شارێکی بیانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Israeli consulate in Istanbul was attacked by some Turkish terrorists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کونسوڵخانەی ئیسرائیل لە ئەستەنبوڵ لەلایەن ھەندێک تیرۆریستی تورکەوە ھێرشی کرایە سەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consulate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsulates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsulates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Israeli consulate in Istanbul was attacked by some Turkish terrorists.",
+                            kurdishText:
+                                "کونسوڵخانەی ئیسرائیل لە ئەستەنبوڵ لەلایەن ھەندێک تیرۆریستی تورکەوە ھێرشی کرایە سەر.", // consulate",
+                            onPressedBritish: () => speakconsulates1("en-GB"),
+                            onPressedAmerican: () => speakconsulates1("en-US"),
                           ),
                         ],
                       ),

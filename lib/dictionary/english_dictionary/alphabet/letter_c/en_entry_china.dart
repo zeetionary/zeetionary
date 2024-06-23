@@ -102,61 +102,22 @@ class EnglishEntrychina extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) قوڕی سپی کە گەرم دەکرێت و بەکاردێت بۆ درووستکردنی دەفر، دەوری، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The restaurant served tea in delicate china cups."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چێشتخانەکە قوڕی پێشکەش دەکرد لە پێڵای گڵەسپی ناسکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "china", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchinas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchinas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The restaurant served tea in delicate china cups.",
+                            kurdishText:
+                                "چێشتخانەکە قوڕی پێشکەش دەکرد لە پێڵای گڵەسپی ناسکدا.", // china",
+                            onPressedBritish: () => speakchinas1("en-GB"),
+                            onPressedAmerican: () => speakchinas1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شتێک کە لە گڵەسپی درووستکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She bought the best china."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترین قاپ‌وقاچاخی گڵەسپی کڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchinas2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchinas2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She bought the best china.",
+                            kurdishText: "باشترین قاپ‌وقاچاخی گڵەسپی کڕی.",
+                            onPressedBritish: () => speakchinas2("en-GB"),
+                            onPressedAmerican: () => speakchinas2("en-US"),
                           ),
                         ],
                       ),

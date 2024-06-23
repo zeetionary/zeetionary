@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک یان کۆمپانیایەک کە قەرزی لای کەسێکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The property will be sold to pay off their creditors."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زەوییەکە دەفرۆشرێت بۆ دانەوەی قەرزی خاوەن قەرزەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creditor", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreditors1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreditors1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The property will be sold to pay off their creditors.",
+            kurdishText:
+                "زەوییەکە دەفرۆشرێت بۆ دانەوەی قەرزی خاوەن قەرزەکان.", // creditor", please follow LX instructions
+            onPressedBritish: () => speakcreditors1("en-GB"),
+            onPressedAmerican: () => speakcreditors1("en-US"),
           ),
         ],
       ),

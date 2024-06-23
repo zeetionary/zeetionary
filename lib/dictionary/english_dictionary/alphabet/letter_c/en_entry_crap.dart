@@ -295,243 +295,78 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گوو، پیسایی،	ھەڵیت‌وپڵیت، قسەی قۆڕ، شڕم‌وبڕم،	خراپۆکە، گەن‌وگووژاڵ، بازاڕی، بێ‌بایەخ، ھیچەکە، خراپ، بێ‌نرخ، خڵتەوخاڵ، ئاشاخە، لاف، فڵتەفڵت
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) زۆر خراپ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The team played crap yesterday."),
-                    ExampleSentenceKurdish(
-                        text: "تیمەکە دوێنێ زۆر خراپ یاری کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crap", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The team played crap yesterday.",
+            kurdishText:
+                "تیمەکە دوێنێ زۆر خراپ یاری کرد.", // crap", please follow LX instructions
+            onPressedBritish: () => speakcraps1("en-GB"),
+            onPressedAmerican: () => speakcraps1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) بیرۆکە و قسە و بیر و باوەڕ کە پێت وایە ڕاست نیین یان ھیچن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Let's cut the crap and get down to business."),
-                    ExampleSentenceKurdish(
-                        text: "با واز لە قسەی قۆڕ بێنین و دەست بە کار بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Let's cut the crap and get down to business.",
+            kurdishText: "با واز لە قسەی قۆڕ بێنین و دەست بە کار بکەین.",
+            onPressedBritish: () => speakcraps2("en-GB"),
+            onPressedAmerican: () => speakcraps2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He's so full of crap."),
-                    ExampleSentenceKurdish(text: "پڕ لە ھەڵیت‌وپەڵیتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's so full of crap.",
+            kurdishText: "پڕ لە ھەڵیت‌وپەڵیتە.",
+            onPressedBritish: () => speakcraps3("en-GB"),
+            onPressedAmerican: () => speakcraps3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) بە شتێکی دەگوترێت کە پێتوایە لە ئاستێکی نزمدایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "This work is complete crap."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم کارە تەواو گەن‌وگووژاڵە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This work is complete crap.",
+            kurdishText: "ئەم کارە تەواو گەن‌وگووژاڵە.",
+            onPressedBritish: () => speakcraps4("en-GB"),
+            onPressedAmerican: () => speakcraps4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I won’t put up with any old crap."),
-                    ExampleSentenceKurdish(
-                        text: "بەرگەی ھیچ فڵتەفڵتی تر ناگرم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I won’t put up with any old crap.",
+            kurdishText: "بەرگەی ھیچ فڵتەفڵتی تر ناگرم.",
+            onPressedBritish: () => speakcraps5("en-GB"),
+            onPressedAmerican: () => speakcraps5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) وشەیەک بۆ ڕەفتار و ڕەخنە کە پێتوایە ناڕەوایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm not going to take this crap any more."),
-                    ExampleSentenceKurdish(
-                        text: "چیتر ڕێگا بەم نادادییە نادەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm not going to take this crap any more.",
+            kurdishText: "چیتر ڕێگا بەم نادادییە نادەم.",
+            onPressedBritish: () => speakcraps6("en-GB"),
+            onPressedAmerican: () => speakcraps6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) پیسایی؛ پیسایی کردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The baby's diaper was full of crap."),
-                    ExampleSentenceKurdish(
-                        text: "دایبی منداڵەکە پڕ لە پیسایی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The baby's diaper was full of crap.",
+            kurdishText: "دایبی منداڵەکە پڕ لە پیسایی بوو.",
+            onPressedBritish: () => speakcraps7("en-GB"),
+            onPressedAmerican: () => speakcraps7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ھاوەڵناو) ئاست نزم"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The concert was crap."),
-                    ExampleSentenceKurdish(text: "کۆنسێرتەکە پڕوپووچ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The concert was crap.",
+            kurdishText: "کۆنسێرتەکە پڕوپووچ بوو.",
+            onPressedBritish: () => speakcraps8("en-GB"),
+            onPressedAmerican: () => speakcraps8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (ناو) پیسایی کردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dog crapped on the carpet."),
-                    ExampleSentenceKurdish(
-                        text: "سەگەکە لەسەر ڕایەخەکە پیسایی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dog crapped on the carpet.",
+            kurdishText: "سەگەکە لەسەر ڕایەخەکە پیسایی کرد.",
+            onPressedBritish: () => speakcraps9("en-GB"),
+            onPressedAmerican: () => speakcraps9("en-US"),
           ),
         ],
       ),

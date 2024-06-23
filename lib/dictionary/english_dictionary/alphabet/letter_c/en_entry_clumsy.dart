@@ -146,209 +146,75 @@ class EnglishEntryclumsy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کردنی شت بە شێوەیەک کە بە ئاگاییانەوە نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I spilt your coffee. Sorry—that was clumsy of me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قاوەکەتم ڕژاند، ببوورە، لە ھەڵەشەییم بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clumsy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumsys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumsys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I spilt your coffee. Sorry—that was clumsy of me.",
+                            kurdishText:
+                                "قاوەکەتم ڕژاند، ببوورە، لە ھەڵەشەییم بوو.", // clumsy",
+                            onPressedBritish: () => speakclumsys1("en-GB"),
+                            onPressedAmerican: () => speakclumsys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His clumsy fingers couldn't untie the knot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستە لەرزۆکەکانی نەیاندەتوانی گرێیەکە بکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumsys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumsys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His clumsy fingers couldn't untie the knot.",
+                            kurdishText:
+                                "دەستە لەرزۆکەکانی نەیاندەتوانی گرێیەکە بکەنەوە.",
+                            onPressedBritish: () => speakclumsys2("en-GB"),
+                            onPressedAmerican: () => speakclumsys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That's the third glass you've smashed this week - you're so clumsy!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە سێیەم گڵاسە ئەم ھەفتەیە دەیشکێنیت، زۆر ھەڵەشەیت!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumsys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumsys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That's the third glass you've smashed this week - you're so clumsy!",
+                            kurdishText:
+                                "ئەوە سێیەم گڵاسە ئەم ھەفتەیە دەیشکێنیت، زۆر ھەڵەشەیت!",
+                            onPressedBritish: () => speakclumsys4("en-GB"),
+                            onPressedAmerican: () => speakclumsys4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) کردار و قسە کە بەشێوەیەکە کە شارەزایی تێدا نییە یان خەڵکی بێزار دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She made a clumsy attempt to apologize."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵێکی لەرزۆکی دا بۆ لێبووردنخوازی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumsys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumsys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She made a clumsy attempt to apologize.",
+                            kurdishText: "ھەوڵێکی لەرزۆکی دا بۆ لێبووردنخوازی.",
+                            onPressedBritish: () => speakclumsys3("en-GB"),
+                            onPressedAmerican: () => speakclumsys3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her clumsy handling of the situation only made it worse."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامەڵەی سستی سستەپەلەی بۆ دۆخەکە تەنھا خراپتری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumsys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumsys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her clumsy handling of the situation only made it worse.",
+                            kurdishText:
+                                "مامەڵەی سستی سستەپەلەی بۆ دۆخەکە تەنھا خراپتری کرد.",
+                            onPressedBritish: () => speakclumsys5("en-GB"),
+                            onPressedAmerican: () => speakclumsys5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) شتێک کە دیزاینێکی ھەیە کە ئاسان نییە بۆ بەکارھێنان و گواستنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The first mobile phones were heavy and clumsy to use, but nowadays they are much easier to handle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەمین موبایلەکان قورس و قەبە بوون بۆ بەکارھێنان، بەڵام ئێستا زۆر ئاسانترن بۆ بەکارھێنان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumsys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumsys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The first mobile phones were heavy and clumsy to use, but nowadays they are much easier to handle.",
+                            kurdishText:
+                                "یەکەمین موبایلەکان قورس و قەبە بوون بۆ بەکارھێنان، بەڵام ئێستا زۆر ئاسانترن بۆ بەکارھێنان.",
+                            onPressedBritish: () => speakclumsys6("en-GB"),
+                            onPressedAmerican: () => speakclumsys6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) زۆر گران بۆ تێگەشتن یان بەکارھێنان بە ئاسانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The complaints procedure is clumsy and time-consuming."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێوشوێنی پەڵپگرتن خاووخلیچک و کاتکوژە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumsys7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumsys7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The complaints procedure is clumsy and time-consuming.",
+                            kurdishText:
+                                "ڕێوشوێنی پەڵپگرتن خاووخلیچک و کاتکوژە.",
+                            onPressedBritish: () => speakclumsys7("en-GB"),
+                            onPressedAmerican: () => speakclumsys7("en-US"),
                           ),
                         ],
                       ),

@@ -236,31 +236,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نەخۆشییەک کە بە ھێواشی دەبێتە ھۆکاری لەدەستدانی کۆنترۆڵی ھێواش بەسەر مێشک و جەستەدا، و بە مردن کۆتایی دێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is no cure for Creutzfeldt-Jakob disease, and it is always fatal."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ چارەسەرێک بۆ CJD نییە و ھەمیشە کوشندەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "Creutzfeldt-Jakob disease", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreutzfeldtjakobdiseases1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreutzfeldtjakobdiseases1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is no cure for Creutzfeldt-Jakob disease, and it is always fatal.",
+            kurdishText:
+                "ھیچ چارەسەرێک بۆ CJD نییە و ھەمیشە کوشندەیە.", // Creutzfeldt-Jakob disease", please follow LX instructions
+            onPressedBritish: () => speakcreutzfeldtjakobdiseases1("en-GB"),
+            onPressedAmerican: () => speakcreutzfeldtjakobdiseases1("en-US"),
           ),
         ],
       ),

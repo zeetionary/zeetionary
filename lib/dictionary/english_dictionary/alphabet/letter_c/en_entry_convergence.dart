@@ -113,97 +113,37 @@ class EnglishEntryconvergence extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پڕۆسەی جوڵان پێکەوە جوڵان بۆ ھەمان خاڵ و گەشتن بە یەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The city was a natural point of convergence for river-based traffic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەکە خاڵێکی سرووشتی یەک‌گیر بوو بۆ ھاتووچۆی ناو ڕووبار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convergence", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvergences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvergences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The city was a natural point of convergence for river-based traffic.",
+                            kurdishText:
+                                "شارەکە خاڵێکی سرووشتی یەک‌گیر بوو بۆ ھاتووچۆی ناو ڕووبار.", // convergence",
+                            onPressedBritish: () => speakconvergences1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvergences1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The diagram shows the convergence of two oceanic plates."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێڵکارییەکە یەکگرتنی دوو پلێتی زریایی پیشان دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvergences2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvergences2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The diagram shows the convergence of two oceanic plates.",
+                            kurdishText:
+                                "ھێڵکارییەکە یەکگرتنی دوو پلێتی زریایی پیشان دەدات.",
+                            onPressedBritish: () => speakconvergences2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvergences2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پڕۆسەی بوون بە یەک یان ھاوشێوە بوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The convergence of mobile technology and the internet will continue to revolutionize the way businesses interact with consumers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکگرتنی تەکنەلۆژیای موبایل و ئینتەرنێت بەردەوام دەبێت لە درووستکردنی گۆڕانکاری گەورە لە شێوازی مامەڵەی بازرگانییەکان لەگەڵ کڕیاراندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvergences3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvergences3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The convergence of mobile technology and the internet will continue to revolutionize the way businesses interact with consumers.",
+                            kurdishText:
+                                "یەکگرتنی تەکنەلۆژیای موبایل و ئینتەرنێت بەردەوام دەبێت لە درووستکردنی گۆڕانکاری گەورە لە شێوازی مامەڵەی بازرگانییەکان لەگەڵ کڕیاراندا.",
+                            onPressedBritish: () => speakconvergences3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvergences3("en-US"),
                           ),
                         ],
                       ),

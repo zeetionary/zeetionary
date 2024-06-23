@@ -95,32 +95,13 @@ class EnglishEntryclergyman extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پیاوێکی ئایینی، بەتایبەتی لە ئایینی مەسیحیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As a clergyman, he dedicated his life to serving his community."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک قەشەیەک، ژیانی بۆ خزمەتی کۆمەڵگەکەی تەرخانکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clergyman", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclergymans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclergymans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As a clergyman, he dedicated his life to serving his community.",
+                            kurdishText:
+                                "وەک قەشەیەک، ژیانی بۆ خزمەتی کۆمەڵگەکەی تەرخانکرد.", // clergyman",
+                            onPressedBritish: () => speakclergymans1("en-GB"),
+                            onPressedAmerican: () => speakclergymans1("en-US"),
                           ),
                         ],
                       ),

@@ -95,32 +95,13 @@ class EnglishEntryconciliate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ھێورکردنەوەی کەسێک بۆ کەمکردنەوەی تووڕەیی بە پێدانی شتێک یان میھرەبان بوون لەگەڵیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These changes have been made in an attempt to conciliate critics of the plan."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم گۆڕانکارییانە ئەنجام دراون بۆ ھێورکردنەوەی دژبەرانی پلانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conciliate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconciliates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconciliates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These changes have been made in an attempt to conciliate critics of the plan.",
+                            kurdishText:
+                                "ئەم گۆڕانکارییانە ئەنجام دراون بۆ ھێورکردنەوەی دژبەرانی پلانەکە.", // conciliate",
+                            onPressedBritish: () => speakconciliates1("en-GB"),
+                            onPressedAmerican: () => speakconciliates1("en-US"),
                           ),
                         ],
                       ),

@@ -452,11 +452,13 @@ class KurdishMeaning extends StatelessWidget {
                       text: "I took the dog for a walk.",
                       note: "Similar: I'm just going to walk the dog.",
                     ),
-                    ExampleSentenceKurdish(text: "سەگەکەم بردە پیاسەیەک."),
+                    ExampleSentenceKurdish(
+                        text: "سەگەکەم بردە پیاسەیەک.",
+                        note: "بەڵێ ئەوە ڕاستە کە بردی."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "dog", please follow LX instructions
+              const CustomSizedBoxForTTS(),
               Column(
                 children: [
                   CustomIconButtonBritish(

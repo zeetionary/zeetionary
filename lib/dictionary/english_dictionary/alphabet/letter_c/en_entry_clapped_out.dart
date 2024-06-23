@@ -93,30 +93,12 @@ class EnglishEntryclappedout extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) کۆن و لە دۆخێکی خراپدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The car's totally clapped out."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئۆتۆمبێلەکە تەواو شڕ بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clapped out", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclappedouts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclappedouts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The car's totally clapped out.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە تەواو شڕ بووە.", // clapped out",
+                            onPressedBritish: () => speakclappedouts1("en-GB"),
+                            onPressedAmerican: () => speakclappedouts1("en-US"),
                           ),
                         ],
                       ),

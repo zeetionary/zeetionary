@@ -270,147 +270,51 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەڵسوکەوتی جوان کە ڕێز بۆ کەسانی دیکە پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I was treated with the utmost courtesy by the staff."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەوپەڕێ ڕێزەوە لەلایەن ستافەوە مامەڵەم لەگەڵ کرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "courtesy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtesys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtesys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was treated with the utmost courtesy by the staff.",
+            kurdishText:
+                "بەوپەڕێ ڕێزەوە لەلایەن ستافەوە مامەڵەم لەگەڵ کرا.", // courtesy", please follow LX instructions
+            onPressedBritish: () => speakcourtesys1("en-GB"),
+            onPressedAmerican: () => speakcourtesys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We asked them, as a matter of courtesy, if we could photograph their house."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەک ڕێزێک پرسیارمان لێکردن کە بتوانین وێنەی خانووەکەیان بگرین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtesys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtesys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We asked them, as a matter of courtesy, if we could photograph their house.",
+            kurdishText:
+                "وەک ڕێزێک پرسیارمان لێکردن کە بتوانین وێنەی خانووەکەیان بگرین.",
+            onPressedBritish: () => speakcourtesys2("en-GB"),
+            onPressedAmerican: () => speakcourtesys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He listened to all the complaints with great courtesy."),
-                    ExampleSentenceKurdish(
-                        text: "بەڕێزەوە گوێی لە ھەموو ناڕەزاییەکان گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtesys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtesys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He listened to all the complaints with great courtesy.",
+            kurdishText: "بەڕێزەوە گوێی لە ھەموو ناڕەزاییەکان گرت.",
+            onPressedBritish: () => speakcourtesys3("en-GB"),
+            onPressedAmerican: () => speakcourtesys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شتێکی جوان کە دەیکەیت یان دەیڵێیت کە خەڵکی لە بۆنەی فەرمیدا دەبینیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The prime minister was welcomed with the usual courtesies."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرۆک وەزیران بە ڕێزلێنانە ھەمیشەییەکانەوە پێشوازی لێکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtesys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtesys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The prime minister was welcomed with the usual courtesies.",
+            kurdishText:
+                "سەرۆک وەزیران بە ڕێزلێنانە ھەمیشەییەکانەوە پێشوازی لێکرا.",
+            onPressedBritish: () => speakcourtesys4("en-GB"),
+            onPressedAmerican: () => speakcourtesys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) بێ‌بەرامبەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A courtesy bus operates between the hotel and the beach."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاسێکی بێ‌بەرامبەر لە نێوان ھوتێلەکە و کەنار دەریاکە کاردەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtesys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtesys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A courtesy bus operates between the hotel and the beach.",
+            kurdishText:
+                "پاسێکی بێ‌بەرامبەر لە نێوان ھوتێلەکە و کەنار دەریاکە کاردەکات.",
+            onPressedBritish: () => speakcourtesys5("en-GB"),
+            onPressedAmerican: () => speakcourtesys5("en-US"),
           ),
         ],
       ),

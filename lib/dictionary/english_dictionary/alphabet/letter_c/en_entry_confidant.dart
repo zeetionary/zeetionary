@@ -96,32 +96,13 @@ class EnglishEntryconfidant extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە متمانەت پێی ھەیە و نھێنی و ژیانی کەسیتی لا باس دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were times when a semi-stranger was a better confidante than a close friend."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کات ھەبوو کە کەسێکی تا ڕادەیەک نامۆ ڕازگرێکی باشتر بوو وەک لە کەسێکی نزیک ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confidant", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfidants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfidants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were times when a semi-stranger was a better confidante than a close friend.",
+                            kurdishText:
+                                "ھەندێک کات ھەبوو کە کەسێکی تا ڕادەیەک نامۆ ڕازگرێکی باشتر بوو وەک لە کەسێکی نزیک .", // confidant",
+                            onPressedBritish: () => speakconfidants1("en-GB"),
+                            onPressedAmerican: () => speakconfidants1("en-US"),
                           ),
                         ],
                       ),

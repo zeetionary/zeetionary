@@ -128,159 +128,59 @@ class EnglishEntrycomposition extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بەشە جیاوازەکانی پێکھێنەری شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The overall composition of the Senate was Democrats 57 and Republicans 43."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکھاتەی گشتی ئەنجوومەنی پیران ٥٧ دیموکرات و ٤٣ کۆماری بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "composition", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompositions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompositions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The overall composition of the Senate was Democrats 57 and Republicans 43.",
+                            kurdishText:
+                                "پێکھاتەی گشتی ئەنجوومەنی پیران ٥٧ دیموکرات و ٤٣ کۆماری بوو.", // composition",
+                            onPressedBritish: () => speakcompositions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompositions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two drugs are nearly identical in composition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو دەرمانەکە بەنزیکەیی لێکچوون لە پێکھاتەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompositions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompositions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two drugs are nearly identical in composition.",
+                            kurdishText:
+                                "دوو دەرمانەکە بەنزیکەیی لێکچوون لە پێکھاتەدا.",
+                            onPressedBritish: () => speakcompositions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompositions2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Has household composition changed in the last decade?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دەیەی ڕابردوودا پێکھاتەی ماڵ گۆڕاوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompositions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompositions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Has household composition changed in the last decade?",
+                            kurdishText:
+                                "لە دەیەی ڕابردوودا پێکھاتەی ماڵ گۆڕاوە؟",
+                            onPressedBritish: () => speakcompositions3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompositions3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) وتارێکی کورت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the exam you will have to do a composition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تاقیکردنەوەکەدا دەبێت کورتە وتارێک بنووسیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompositions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompositions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the exam you will have to do a composition.",
+                            kurdishText:
+                                "لە تاقیکردنەوەکەدا دەبێت کورتە وتارێک بنووسیت.",
+                            onPressedBritish: () => speakcompositions4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompositions4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) پارچە میوزیکێک یان کارێکی ھونەری، یان ھۆنراوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This concerto is one of her earlier compositions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم کۆنسێرتۆیە یەکێکە لە بەرھەمەکانی سەرەتای."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompositions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompositions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This concerto is one of her earlier compositions.",
+                            kurdishText:
+                                "ئەم کۆنسێرتۆیە یەکێکە لە بەرھەمەکانی سەرەتای.",
+                            onPressedBritish: () => speakcompositions5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompositions5("en-US"),
                           ),
                         ],
                       ),

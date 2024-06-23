@@ -108,93 +108,36 @@ class EnglishEntrychancellor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سەرۆکی حکومەت لە ئەڵمانیا و نەمسا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The talks were headed by Germany’s Chancellor Merkel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گفتوگۆکان لەلایەن مێرکڵی ڕاوێژکاری ئەڵمانیاوە سەرکردایەتی دەکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chancellor", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchancellors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchancellors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The talks were headed by Germany’s Chancellor Merkel.",
+                            kurdishText:
+                                "گفتوگۆکان لەلایەن مێرکڵی ڕاوێژکاری ئەڵمانیاوە سەرکردایەتی دەکرا.", // chancellor",
+                            onPressedBritish: () => speakchancellors1("en-GB"),
+                            onPressedAmerican: () => speakchancellors1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) وەزیری دارایی بەریتانیا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "MPs waited for the chancellor's announcement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندامانی پەرلەمان چاوەڕوانی گەشتنی وەزیری دارایی بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchancellors2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchancellors2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "MPs waited for the chancellor's announcement.",
+                            kurdishText:
+                                "ئەندامانی پەرلەمان چاوەڕوانی گەشتنی وەزیری دارایی بوون.",
+                            onPressedBritish: () => speakchancellors2("en-GB"),
+                            onPressedAmerican: () => speakchancellors2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) سەرۆکی زانکۆیەک لە بەریتانیا و و ھەندێک شوێنی ئەمریکا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prime minister was shown around the university by the chancellor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک وەزیران لەلایەن سەرۆکەکەوە زانکۆکەی پیشاندرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchancellors3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchancellors3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prime minister was shown around the university by the chancellor.",
+                            kurdishText:
+                                "سەرۆک وەزیران لەلایەن سەرۆکەکەوە زانکۆکەی پیشاندرا.",
+                            onPressedBritish: () => speakchancellors3("en-GB"),
+                            onPressedAmerican: () => speakchancellors3("en-US"),
                           ),
                         ],
                       ),

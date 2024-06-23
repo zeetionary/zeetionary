@@ -242,56 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) زیرەک لە بەدەستھێنانی ئەوەی دەتەوێت، بەتایبەتی بە فێڵ و تەڵەکەبازی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He's a crafty old devil."),
-                    ExampleSentenceKurdish(text: "شەیتانێکی فێڵاوی بەتەمەنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crafty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraftys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraftys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's a crafty old devil.",
+            kurdishText:
+                "شەیتانێکی فێڵاوی بەتەمەنە.", // crafty", please follow LX instructions
+            onPressedBritish: () => speakcraftys1("en-GB"),
+            onPressedAmerican: () => speakcraftys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I have some crafty ideas for getting around the regulations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک بیرۆکەی زۆرزانانەم ھەیە بۆ جۆلادان لە ڕێساکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraftys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraftys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I have some crafty ideas for getting around the regulations.",
+            kurdishText:
+                "ھەندێک بیرۆکەی زۆرزانانەم ھەیە بۆ جۆلادان لە ڕێساکان.",
+            onPressedBritish: () => speakcraftys2("en-GB"),
+            onPressedAmerican: () => speakcraftys2("en-US"),
           ),
         ],
       ),

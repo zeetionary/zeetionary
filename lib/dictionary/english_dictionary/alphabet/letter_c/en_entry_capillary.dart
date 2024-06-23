@@ -192,32 +192,12 @@ class EnglishEntrycapillary extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) موولوولەی خوێن؛ ئەو ڕێچکە بچووکانەی جەستە کە خوێن دەگوازنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Oxygen diffuses through capillaries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆکسجین لە ڕێگەی موولوولەکانی خوێنەوە دەگوازرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capillary", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapillarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapillarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Oxygen diffuses through capillaries.",
+                            kurdishText:
+                                "ئۆکسجین لە ڕێگەی موولوولەکانی خوێنەوە دەگوازرێتەوە.", // capillary
+                            onPressedBritish: () => speakcapillarys1("en-GB"),
+                            onPressedAmerican: () => speakcapillarys1("en-US"),
                           ),
                         ],
                       ),

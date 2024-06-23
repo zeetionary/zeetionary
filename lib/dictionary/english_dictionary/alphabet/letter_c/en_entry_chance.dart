@@ -239,60 +239,22 @@ class EnglishEntrychance extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئەگەری ڕوودانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Is there any chance of getting tickets for tonight?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ شانسێکی دەستکەوتنی بلیت ھەیە بۆ ئەمشەو؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chance", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchances1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchances1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Is there any chance of getting tickets for tonight?",
+                            kurdishText:
+                                "ھیچ شانسێکی دەستکەوتنی بلیت ھەیە بۆ ئەمشەو؟", // chance",
+                            onPressedBritish: () => speakchances1("en-GB"),
+                            onPressedAmerican: () => speakchances1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She only has a slim chance of passing the exam."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا کەمێک شانسی دەرچوونی لە تاقیکردنەوەکە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchances2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchances2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She only has a slim chance of passing the exam.",
+                            kurdishText:
+                                "تەنھا کەمێک شانسی دەرچوونی لە تاقیکردنەوەکە ھەیە.",
+                            onPressedBritish: () => speakchances2("en-GB"),
+                            onPressedAmerican: () => speakchances2("en-US"),
                           ),
                           Column(
                             children: [
@@ -395,60 +357,21 @@ class EnglishEntrychance extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کات یان دۆخێکی باش بۆ کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was the chance she had been waiting for."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە ئەو دەرفەتە بوو کە چاوەڕێی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchances6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchances6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was the chance she had been waiting for.",
+                            kurdishText: "ئەوە ئەو دەرفەتە بوو کە چاوەڕێی بوو.",
+                            onPressedBritish: () => speakchances6("en-GB"),
+                            onPressedAmerican: () => speakchances6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jeff deceived me once already—I won't give him a second chance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێف پێشوەختە جارێک فریوی داوم، ھەلی دووەمی پێ نادەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchances7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchances7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Jeff deceived me once already—I won't give him a second chance.",
+                            kurdishText:
+                                "جێف پێشوەختە جارێک فریوی داوم، ھەلی دووەمی پێ نادەم.",
+                            onPressedBritish: () => speakchances7("en-GB"),
+                            onPressedAmerican: () => speakchances7("en-US"),
                           ),
                           Column(
                             children: [
@@ -520,264 +443,92 @@ class EnglishEntrychance extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ئەگەرێکی ناخۆش و خراپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When installing electrical equipment don't take any chances. A mistake could kill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتی دانانی ئامێری کارەبایی، ھیچ کەمتەرخەمی مەنوێنە. یەک ھەڵە دەکرێت بتکوژێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchances10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchances10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When installing electrical equipment don't take any chances. A mistake could kill.",
+                            kurdishText:
+                                "لە کاتی دانانی ئامێری کارەبایی، ھیچ کەمتەرخەمی مەنوێنە. یەک ھەڵە دەکرێت بتکوژێت.",
+                            onPressedBritish: () => speakchances10("en-GB"),
+                            onPressedAmerican: () => speakchances10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car might break down but that's a chance we'll have to take."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە لەوانەیە لە کار بکەوێت، بەڵام ئەوە مەترسییەکە دەبێت بیگرینەبەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchances11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchances11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The car might break down but that's a chance we'll have to take.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە لەوانەیە لە کار بکەوێت، بەڵام ئەوە مەترسییەکە دەبێت بیگرینەبەر.",
+                            onPressedBritish: () => speakchances11("en-GB"),
+                            onPressedAmerican: () => speakchances11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شێوازی ڕوودانی شتێک بەبێ ھیچ ھۆیەک کە بیبینیت یان لێی تێ بگەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I met her by chance (= without planning to) at the airport."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ڕێکەوت لە فڕۆکەخانەکە بینیم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchances12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchances12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I met her by chance (= without planning to) at the airport.",
+                            kurdishText: "بە ڕێکەوت لە فڕۆکەخانەکە بینیم.",
+                            onPressedBritish: () => speakchances12("en-GB"),
+                            onPressedAmerican: () => speakchances12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Chess is not a game of chance."),
-                                    ExampleSentenceKurdish(
-                                        text: "شەترەنج یاری شانس نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchances13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchances13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Chess is not a game of chance.",
+                            kurdishText: "شەترەنج یاری شانس نییە.",
+                            onPressedBritish: () => speakchances13("en-GB"),
+                            onPressedAmerican: () => speakchances13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) گرتنەبەری مەترسییەک، ئەگەرچی دەزانیت ئەنجامەکەی ڕەنگە سەرکەوتوو نەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was chancing her luck driving without a licence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەختی خۆی تاقیدەکردەوە بە لێخوڕین بەبێ مۆڵەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchances14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchances14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was chancing her luck driving without a licence.",
+                            kurdishText:
+                                "بەختی خۆی تاقیدەکردەوە بە لێخوڕین بەبێ مۆڵەت.",
+                            onPressedBritish: () => speakchances14("en-GB"),
+                            onPressedAmerican: () => speakchances14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You'd be a fool to chance your life savings on a single investment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەمژە دەبیت کە پاشەکەوتی ژیانت بخەیتە یەک وەبەرھێنانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchances15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchances15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You'd be a fool to chance your life savings on a single investment.",
+                            kurdishText:
+                                "گەمژە دەبیت کە پاشەکەوتی ژیانت بخەیتە یەک وەبەرھێنانەوە.",
+                            onPressedBritish: () => speakchances15("en-GB"),
+                            onPressedAmerican: () => speakchances15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) ڕوودان یان کردنی شتێک بە شانس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If I do chance to find out where she is, I'll inform you immediately."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر شانسی ئەوەم ھەبوو بزانم لە کوێیە، دەستبەجێ ئاگادارت دەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchances16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchances16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If I do chance to find out where she is, I'll inform you immediately.",
+                            kurdishText:
+                                "ئەگەر شانسی ئەوەم ھەبوو بزانم لە کوێیە، دەستبەجێ ئاگادارت دەکەم.",
+                            onPressedBritish: () => speakchances16("en-GB"),
+                            onPressedAmerican: () => speakchances16("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They chanced to be staying at the same hotel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێکەوتی کرد کە لە ھەمان ھوتێل مانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchances17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchances17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They chanced to be staying at the same hotel.",
+                            kurdishText:
+                                "ڕێکەوتی کرد کە لە ھەمان ھوتێل مانەوە.",
+                            onPressedBritish: () => speakchances17("en-GB"),
+                            onPressedAmerican: () => speakchances17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ھاوەڵناو) شتێک کە بە ڕێکەوت ڕوودەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A chance encounter with another artist changed her life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوپێکەوتنی بەڕێکەوتی لەگەڵ ھونەرمەندێکی دیکە ژیانی گۆڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchances18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchances18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A chance encounter with another artist changed her life.",
+                            kurdishText:
+                                "چاوپێکەوتنی بەڕێکەوتی لەگەڵ ھونەرمەندێکی دیکە ژیانی گۆڕی.",
+                            onPressedBritish: () => speakchances18("en-GB"),
+                            onPressedAmerican: () => speakchances18("en-US"),
                           ),
                         ],
                       ),

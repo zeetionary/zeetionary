@@ -258,112 +258,36 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) دانانی شتێک یان کەسێک بە زۆر لە شوێنێکی بچووکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He crammed eight people into his car."),
-                    ExampleSentenceKurdish(
-                        text: "ھەشت کەسی تەپاندە ناو ئۆتۆمبێلەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cram", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrams1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrams1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He crammed eight people into his car.",
+            kurdishText:
+                "ھەشت کەسی تەپاندە ناو ئۆتۆمبێلەکەی.", // cram", please follow LX instructions
+            onPressedBritish: () => speakcrams1("en-GB"),
+            onPressedAmerican: () => speakcrams1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I could never cram in all that she does in a day."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەرگیز نەمدەتوانی ھەموو ئەوە بکەم کە ئەو لە ڕۆژێکدا دەیکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrams2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrams2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I could never cram in all that she does in a day.",
+            kurdishText:
+                "ھەرگیز نەمدەتوانی ھەموو ئەوە بکەم کە ئەو لە ڕۆژێکدا دەیکات.",
+            onPressedBritish: () => speakcrams2("en-GB"),
+            onPressedAmerican: () => speakcrams2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Supporters crammed the streets."),
-                    ExampleSentenceKurdish(
-                        text: "پشتگیران شەقامەکانیان تلیقاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrams3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrams3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Supporters crammed the streets.",
+            kurdishText: "پشتگیران شەقامەکانیان تلیقاند.",
+            onPressedBritish: () => speakcrams3("en-GB"),
+            onPressedAmerican: () => speakcrams3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I bought a large basket and crammed it full of presents."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەبەتەیەکی گەورەم کڕی و بە ھەموو دیارییەکان فلیقاندنم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrams4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrams4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I bought a large basket and crammed it full of presents.",
+            kurdishText:
+                "سەبەتەیەکی گەورەم کڕی و بە ھەموو دیارییەکان فلیقاندنم.",
+            onPressedBritish: () => speakcrams4("en-GB"),
+            onPressedAmerican: () => speakcrams4("en-US"),
           ),
         ],
       ),

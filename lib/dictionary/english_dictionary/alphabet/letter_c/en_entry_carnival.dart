@@ -191,63 +191,25 @@ class EnglishEntrycarnival extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) فیستیڤاڵێکی گشتی، بەتایبەتی یەکێک کە لە کاتێکی دیاریکراودا ھەموو ساڵیک ڕوودەدات و سەما و میوزیکی لو شەقامەکان تێدایە لەگەڵ پۆشینی جلی ڕەنگاوڕەنگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a local carnival every year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ساڵێک کەرنەڤاڵێکی ناوخۆیی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carnival", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarnivals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarnivals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a local carnival every year.",
+                            kurdishText:
+                                "ھەموو ساڵێک کەرنەڤاڵێکی ناوخۆیی ھەیە.", // carnival",
+                            onPressedBritish: () => speakcarnivals1("en-GB"),
+                            onPressedAmerican: () => speakcarnivals1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بۆنەیەکی ئاھەنگگێڕان کە لەلایەن شارۆچکەیەک یان گوندێکەوە ڕێکدەخرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children are getting ready for the village carnival."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان خۆیان ئامادە دەکەن بۆ کەرنەڤاڵی گوندەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarnivals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarnivals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children are getting ready for the village carnival.",
+                            kurdishText:
+                                "منداڵەکان خۆیان ئامادە دەکەن بۆ کەرنەڤاڵی گوندەکە.",
+                            onPressedBritish: () => speakcarnivals2("en-GB"),
+                            onPressedAmerican: () => speakcarnivals2("en-US"),
                           ),
                         ],
                       ),

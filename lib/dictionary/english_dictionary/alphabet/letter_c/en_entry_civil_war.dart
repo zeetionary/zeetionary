@@ -103,60 +103,22 @@ class EnglishEntrycivilwar extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شەڕی ناوخۆیی؛ جەنگێک لە نێوانی گرووپی جیاوازی ھەمان وڵاتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He fears the violence could spark a civil war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەترسێت توندوتیژییەکە ملبکێشێت بۆ شەڕی ناوخۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "civil war", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivilwars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivilwars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He fears the violence could spark a civil war.",
+                            kurdishText:
+                                "دەترسێت توندوتیژییەکە ملبکێشێت بۆ شەڕی ناوخۆ.", // civil war",
+                            onPressedBritish: () => speakcivilwars1("en-GB"),
+                            onPressedAmerican: () => speakcivilwars1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country had just emerged from the horrors of civil war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتەکە تازە لە ترسناکی شەڕی ناوخۆ دەرچووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivilwars2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivilwars2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The country had just emerged from the horrors of civil war.",
+                            kurdishText:
+                                "وڵاتەکە تازە لە ترسناکی شەڕی ناوخۆ دەرچووە.",
+                            onPressedBritish: () => speakcivilwars2("en-GB"),
+                            onPressedAmerican: () => speakcivilwars2("en-US"),
                           ),
                         ],
                       ),

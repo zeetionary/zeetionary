@@ -95,32 +95,13 @@ class EnglishEntryconifer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەر درەختێک کە میوەی وشکی ڕەق بەرھەمدێنێت کە شێوەی قووچەکی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The conifer provided shelter for many birds and small animals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆنیفەرەکە پەناگەی بۆ زۆر باڵندە و ئاژەڵی بچووک دابین کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conifer", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconifers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconifers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The conifer provided shelter for many birds and small animals.",
+                            kurdishText:
+                                "کۆنیفەرەکە پەناگەی بۆ زۆر باڵندە و ئاژەڵی بچووک دابین کردبوو.", // conifer",
+                            onPressedBritish: () => speakconifers1("en-GB"),
+                            onPressedAmerican: () => speakconifers1("en-US"),
                           ),
                         ],
                       ),

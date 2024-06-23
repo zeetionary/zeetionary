@@ -296,60 +296,21 @@ class EnglishEntrycalm extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ئارام و لەسەرخۆ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is important to keep calm in an emergency."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەرخۆیی گرنگە لە بارودۆخی لەناکاودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calm", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is important to keep calm in an emergency.",
+                            kurdishText:
+                                "لەسەرخۆیی گرنگە لە بارودۆخی لەناکاودا.", // calm
+                            onPressedBritish: () => speakcalms1("en-GB"),
+                            onPressedAmerican: () => speakcalms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He always stays calm under pressure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە لەژێر فشاردا لەسەرخۆ دەمێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He always stays calm under pressure.",
+                            kurdishText:
+                                "ھەمیشە لەژێر فشاردا لەسەرخۆ دەمێنێتەوە.",
+                            onPressedBritish: () => speakcalms2("en-GB"),
+                            onPressedAmerican: () => speakcalms2("en-US"),
                           ),
                           Column(
                             children: [
@@ -422,173 +383,59 @@ class EnglishEntrycalm extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) دەریایەکی لەسەرخۆ و بێ شەپۆل"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sea was flat calm (= with no waves at all)."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەریاکە تەواو ئارام بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalms5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalms5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sea was flat calm (= with no waves at all).",
+                            kurdishText: "دەریاکە تەواو ئارام بوو.",
+                            onPressedBritish: () => speakcalms5("en-GB"),
+                            onPressedAmerican: () => speakcalms5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) کەشێکی بێ با"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The weather was calm and dry."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەشەکە ئارام و وشک بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalms6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalms6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The weather was calm and dry.",
+                            kurdishText: "کەشەکە ئارام و وشک بوو.",
+                            onPressedBritish: () => speakcalms6("en-GB"),
+                            onPressedAmerican: () => speakcalms6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) ھێورکردنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The announcement by the government did little to calm the fears of investors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاگەیاندنەکەی حکومەت کاریگەری کەمی بوو لەسەر ئەھۆنکردنەوەی وەبەرھێنەران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalms7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalms7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The announcement by the government did little to calm the fears of investors.",
+                            kurdishText:
+                                "ڕاگەیاندنەکەی حکومەت کاریگەری کەمی بوو لەسەر ئەھۆنکردنەوەی وەبەرھێنەران.",
+                            onPressedBritish: () => speakcalms7("en-GB"),
+                            onPressedAmerican: () => speakcalms7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I breathed in slowly, trying to calm myself."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھێواشی ھەناسەم ھەڵمژی بە ھەوڵدان بۆ ئارامکردنەوەی خۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalms8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalms8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I breathed in slowly, trying to calm myself.",
+                            kurdishText:
+                                "بەھێواشی ھەناسەم ھەڵمژی بە ھەوڵدان بۆ ئارامکردنەوەی خۆم.",
+                            onPressedBritish: () => speakcalms8("en-GB"),
+                            onPressedAmerican: () => speakcalms8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ناو) دۆخێکی ئارام و ھێمن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The police appealed for calm."),
-                                    ExampleSentenceKurdish(
-                                        text: "پۆلیس داوای ئارامی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalms9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalms9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The police appealed for calm.",
+                            kurdishText: "پۆلیس داوای ئارامی دەکرد.",
+                            onPressedBritish: () => speakcalms9("en-GB"),
+                            onPressedAmerican: () => speakcalms9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bombings ended a period of relative calm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەقینەوەکان کۆتاییان بە سەردەمێکی تا ڕادەیەک ئارامی ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalms10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalms10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bombings ended a period of relative calm.",
+                            kurdishText:
+                                "تەقینەوەکان کۆتاییان بە سەردەمێکی تا ڕادەیەک ئارامی ھێنا.",
+                            onPressedBritish: () => speakcalms10("en-GB"),
+                            onPressedAmerican: () => speakcalms10("en-US"),
                           ),
                           Column(
                             children: [
@@ -630,88 +477,31 @@ class EnglishEntrycalm extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) کاتێک کە ھیچ بایەک نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They landed in a flat calm."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ھێمنییەکی تەواودا نیشتنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalms12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalms12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They landed in a flat calm.",
+                            kurdishText: "لە ھێمنییەکی تەواودا نیشتنەوە.",
+                            onPressedBritish: () => speakcalms12("en-GB"),
+                            onPressedAmerican: () => speakcalms12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) ھەڵسوکەوتی لەسەرخۆ و بێ‌دەنگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He struggled to maintain his calm as they waited."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەیدەتوانی شێنەیی خۆی بپارێزێت کە چاوەڕێ بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalms13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalms13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He struggled to maintain his calm as they waited.",
+                            kurdishText:
+                                "نەیدەتوانی شێنەیی خۆی بپارێزێت کە چاوەڕێ بوون.",
+                            onPressedBritish: () => speakcalms13("en-GB"),
+                            onPressedAmerican: () => speakcalms13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Under his apparent calm lay real anxiety."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەژێر ئارامییە ڕووکەشییەکەی نیگەرانییەکی تەواو ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalms14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalms14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Under his apparent calm lay real anxiety.",
+                            kurdishText:
+                                "لەژێر ئارامییە ڕووکەشییەکەی نیگەرانییەکی تەواو ھەیە.",
+                            onPressedBritish: () => speakcalms14("en-GB"),
+                            onPressedAmerican: () => speakcalms14("en-US"),
                           ),
                         ],
                       ),

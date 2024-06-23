@@ -188,32 +188,13 @@ class EnglishEntrycaramel extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شیرینییەکی ڕەقی لینج کە لە کەرە و شەکر و شیر درووست دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The delightful aroma of caramel wafted through the kitchen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆنی خۆشی کەرەمێلەکە بە چێشتخانەکەدا بڵاوبوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "caramel", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaramels1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaramels1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The delightful aroma of caramel wafted through the kitchen.",
+                            kurdishText:
+                                "بۆنی خۆشی کەرەمێلەکە بە چێشتخانەکەدا بڵاوبوویەوە.", // caramel",
+                            onPressedBritish: () => speakcaramels1("en-GB"),
+                            onPressedAmerican: () => speakcaramels1("en-US"),
                           ),
                         ],
                       ),

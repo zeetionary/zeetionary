@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئامێرێک یان چێوەیەک کە لەسەر دانەیەکی دیکە دادەنرێت یان دەبەسترێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The carpenter attached a crosspiece to each side of the frame to give extra support to the roof."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دارتاشەکە چوارباڵییەکی بەست لە ھەر لایەکی چوارچێوەکە بۆ پێدانی پاڵپشتی زیاتر بە سەربانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crosspiece", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosspieces1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosspieces1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The carpenter attached a crosspiece to each side of the frame to give extra support to the roof.",
+            kurdishText:
+                "دارتاشەکە چوارباڵییەکی بەست لە ھەر لایەکی چوارچێوەکە بۆ پێدانی پاڵپشتی زیاتر بە سەربانەکە.", // crosspiece", please follow LX instructions
+            onPressedBritish: () => speakcrosspieces1("en-GB"),
+            onPressedAmerican: () => speakcrosspieces1("en-US"),
           ),
         ],
       ),

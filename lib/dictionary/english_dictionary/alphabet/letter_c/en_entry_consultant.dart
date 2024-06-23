@@ -103,91 +103,34 @@ class EnglishEntryconsultant extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە زانیارییەکی زۆری ھەیە لەسەر بابەتێک و بە کرێ دەگیرێت بۆ ڕاوێژپێدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was happy to act as a consultant to the company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵخۆش بوو وەک ڕاوێژکارێک بۆ کۆمپانیاکە کاربکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consultant", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsultants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsultants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was happy to act as a consultant to the company.",
+                            kurdishText:
+                                "دڵخۆش بوو وەک ڕاوێژکارێک بۆ کۆمپانیاکە کاربکات.", // consultant",
+                            onPressedBritish: () => speakconsultants1("en-GB"),
+                            onPressedAmerican: () => speakconsultants1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They work as consultants to a software company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک ڕاوێژکار بۆ کۆمپانیایەکی نەرمامێر کاردەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsultants2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsultants2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They work as consultants to a software company.",
+                            kurdishText:
+                                "وەک ڕاوێژکار بۆ کۆمپانیایەکی نەرمامێر کاردەکات.",
+                            onPressedBritish: () => speakconsultants2("en-GB"),
+                            onPressedAmerican: () => speakconsultants2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پزیشکێکی پسپۆڕ لە بەرزترین ئاستدا کە ڕاھێنانی تایبەتی لە بەشێکی دیاریکراوی چارەسەردا وەرگرتووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is an ear, nose, and throat consultant at a large teaching hospital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پزیشکی پسپۆڕە لە نەخۆشخانەیەکی گەورەی فێرکاری گوێ، لووتم و قوڕگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsultants2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsultants2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is an ear, nose, and throat consultant at a large teaching hospital.",
+                            kurdishText:
+                                "پزیشکی پسپۆڕە لە نەخۆشخانەیەکی گەورەی فێرکاری گوێ، لووتم و قوڕگ.",
+                            onPressedBritish: () => speakconsultants2("en-GB"),
+                            onPressedAmerican: () => speakconsultants2("en-US"),
                           ),
                         ],
                       ),

@@ -251,85 +251,29 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەمێک جواردن، بۆ نموونە نان یان کێک، کە لە بەشێکی گەورەترەوە کەوتووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She stood up and brushed the crumbs from her sweater."),
-                    ExampleSentenceKurdish(
-                        text: "ھەستایە سەرپێ و وردەکەی لە بلووزەکەی کردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crumb", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrumbs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrumbs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She stood up and brushed the crumbs from her sweater.",
+            kurdishText:
+                "ھەستایە سەرپێ و وردەکەی لە بلووزەکەی کردەوە.", // crumb", please follow LX instructions
+            onPressedBritish: () => speakcrumbs1("en-GB"),
+            onPressedAmerican: () => speakcrumbs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He didn't even leave any crumbs on his plate."),
-                    ExampleSentenceKurdish(
-                        text: "تەنانەت ھیچ وردەشی لەسەر دەورییەکەی جێنەھێشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrumbs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrumbs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He didn't even leave any crumbs on his plate.",
+            kurdishText: "تەنانەت ھیچ وردەشی لەسەر دەورییەکەی جێنەھێشت.",
+            onPressedBritish: () => speakcrumbs2("en-GB"),
+            onPressedAmerican: () => speakcrumbs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ڕێژە یان بڕێکی کەم"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I managed to pick up a few crumbs of useful information."),
-                    ExampleSentenceKurdish(
-                        text: "توانیم تۆزقاڵێک زانیاریی بەسوود وەربگرم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrumbs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrumbs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I managed to pick up a few crumbs of useful information.",
+            kurdishText: "توانیم تۆزقاڵێک زانیاریی بەسوود وەربگرم.",
+            onPressedBritish: () => speakcrumbs3("en-GB"),
+            onPressedAmerican: () => speakcrumbs3("en-US"),
           ),
         ],
       ),

@@ -106,67 +106,29 @@ class EnglishEntrycomputerization extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پڕۆسەی دابینکردنی کۆمپیوتەر بۆ کردنی کارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As industry was modernized by computerization, workers' skills became outdated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە پیشەسازی کرا بە سەردەمیانە بە کردنەکۆمپیوتەری، شارەزایی کرێکاران بێ‌سوود بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "computerization", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomputerizations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomputerizations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As industry was modernized by computerization, workers' skills became outdated.",
+                            kurdishText:
+                                "کە پیشەسازی کرا بە سەردەمیانە بە کردنەکۆمپیوتەری، شارەزایی کرێکاران بێ‌سوود بوو.", // computerization",
+                            onPressedBritish: () =>
+                                speakcomputerizations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomputerizations1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پڕۆسەی کۆگاکردنی زانیاری لەسەر کۆمپیوتەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The planned system involves the computerization of all records."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیستەمە پلان بۆدانراوەکە کۆگاکردنی ھەموو تۆمارەکان لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomputerizations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomputerizations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The planned system involves the computerization of all records.",
+                            kurdishText:
+                                "سیستەمە پلان بۆدانراوەکە کۆگاکردنی ھەموو تۆمارەکان لەخۆدەگرێت.",
+                            onPressedBritish: () =>
+                                speakcomputerizations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomputerizations2("en-US"),
                           ),
                         ],
                       ),

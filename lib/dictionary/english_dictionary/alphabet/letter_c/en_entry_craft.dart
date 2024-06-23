@@ -286,208 +286,73 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) چالاکی بەکارھێنانی شارەزاییەکی تایبەت بۆ کاری دەستی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Sheep shearing is a highly skilled craft."),
-                    ExampleSentenceKurdish(
-                        text: "مەقەستکردنی مەڕ پیشەیەکی تەواو شارەزایی‌ویستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "craft", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrafts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrafts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Sheep shearing is a highly skilled craft.",
+            kurdishText:
+                "مەقەستکردنی مەڕ پیشەیەکی تەواو شارەزایی‌ویستە.", // craft", please follow LX instructions
+            onPressedBritish: () => speakcrafts1("en-GB"),
+            onPressedAmerican: () => speakcrafts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The men practised various traditional crafts, such as carving toys out of bone."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پیاوەکان ژمارەیەک کاری دەستی نەریتییان ئەنجام دا، وەک درووستکردنی بوکەڵە لە ئێسک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrafts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrafts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The men practised various traditional crafts, such as carving toys out of bone.",
+            kurdishText:
+                "پیاوەکان ژمارەیەک کاری دەستی نەریتییان ئەنجام دا، وەک درووستکردنی بوکەڵە لە ئێسک.",
+            onPressedBritish: () => speakcrafts2("en-GB"),
+            onPressedAmerican: () => speakcrafts2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ھەموو ئەو شارەزاییانەی پێویستن بۆ چالاکییەکی دیاریکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Mastering the craft of woodworking requires patience, precision, and dedication."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فێربوونی پیشەسازی دارتاشی پێویستی بە پشوودرێژی و وردی و خۆبەخت‌کردن ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrafts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrafts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Mastering the craft of woodworking requires patience, precision, and dedication.",
+            kurdishText:
+                "فێربوونی پیشەسازی دارتاشی پێویستی بە پشوودرێژی و وردی و خۆبەخت‌کردن ھەیە.",
+            onPressedBritish: () => speakcrafts3("en-GB"),
+            onPressedAmerican: () => speakcrafts3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) شارەزایی ئەوەی باوەڕ بە خەڵکی بھێنیت بەوەی کە دەتەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He knew how to win by craft and diplomacy what he could not gain by force."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەیزانی چۆن بە لێزانی و دیپلۆماسی و ئەوە بباتەوە کە بە ھێز بەدەست نەدەھێنرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrafts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrafts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He knew how to win by craft and diplomacy what he could not gain by force.",
+            kurdishText:
+                "دەیزانی چۆن بە لێزانی و دیپلۆماسی و ئەوە بباتەوە کە بە ھێز بەدەست نەدەھێنرا.",
+            onPressedBritish: () => speakcrafts4("en-GB"),
+            onPressedAmerican: () => speakcrafts4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) بەلەم یان کەشتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Hundreds of small craft bobbed around the liner as it steamed into the harbour."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەدان بەلەم ھەڵبەز و دابەزیان بوو بە دەوری کەشتییە گەورەکەدا کە دەچووە ناو بەندەرەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrafts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrafts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Hundreds of small craft bobbed around the liner as it steamed into the harbour.",
+            kurdishText:
+                "سەدان بەلەم ھەڵبەز و دابەزیان بوو بە دەوری کەشتییە گەورەکەدا کە دەچووە ناو بەندەرەکەوە.",
+            onPressedBritish: () => speakcrafts5("en-GB"),
+            onPressedAmerican: () => speakcrafts5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (کردار) درووستکردنی شتێک بە شارەزایی تایبەت، بە تایبەتی بە دەست"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All the furniture is crafted from natural materials."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەواوی کەل‌وپەلەکان لە مادەی سرووشتی درووستکراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrafts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrafts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All the furniture is crafted from natural materials.",
+            kurdishText: "تەواوی کەل‌وپەلەکان لە مادەی سرووشتی درووستکراون.",
+            onPressedBritish: () => speakcrafts6("en-GB"),
+            onPressedAmerican: () => speakcrafts6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These bracelets were crafted by Native Americans."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم دەسبەندانە لەلایەن ئەمریکییە ڕەسەنەکانەوە درووستکران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrafts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrafts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These bracelets were crafted by Native Americans.",
+            kurdishText:
+                "ئەم دەسبەندانە لەلایەن ئەمریکییە ڕەسەنەکانەوە درووستکران.",
+            onPressedBritish: () => speakcrafts7("en-GB"),
+            onPressedAmerican: () => speakcrafts7("en-US"),
           ),
         ],
       ),

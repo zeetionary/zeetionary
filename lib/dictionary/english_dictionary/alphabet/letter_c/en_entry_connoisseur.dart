@@ -104,64 +104,23 @@ class EnglishEntryconnoisseur extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شارەزایەک لەسەر بابەتی جوانی، کوالێتی، یان شارەزایی ھونەری، خواردن، یان میوزیک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Only the true connoisseur could tell the difference between these two wines."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا شارەزایەکی تەواو دەتوانێت جیاوازی ئەم دوو بیرە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "connoisseur", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconnoisseurs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconnoisseurs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Only the true connoisseur could tell the difference between these two wines.",
+                            kurdishText:
+                                "تەنھا شارەزایەکی تەواو دەتوانێت جیاوازی ئەم دوو بیرە بکات.", // connoisseur",
+                            onPressedBritish: () => speakconnoisseurs1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconnoisseurs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was also a connoisseur of Renaissance art."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەزایەکی ھونەری ڕێنیسانس بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconnoisseurs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconnoisseurs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was also a connoisseur of Renaissance art.",
+                            kurdishText: "شارەزایەکی ھونەری ڕێنیسانس بوو.",
+                            onPressedBritish: () => speakconnoisseurs2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconnoisseurs2("en-US"),
                           ),
                         ],
                       ),

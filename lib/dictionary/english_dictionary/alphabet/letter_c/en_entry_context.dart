@@ -145,202 +145,69 @@ class EnglishEntrycontext extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخێک کە تێیدا شتێک ڕوودەدات و یارمەتیدەر دەبێت لە تێگەشطن لێی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government must consider the context of the protests."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت دەبێت ھەلومەرجی خۆپیشاندانەکان لەبەرچاو بگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "context", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government must consider the context of the protests.",
+                            kurdishText:
+                                "حکومەت دەبێت ھەلومەرجی خۆپیشاندانەکان لەبەرچاو بگرێت.", // context",
+                            onPressedBritish: () => speakcontexts1("en-GB"),
+                            onPressedAmerican: () => speakcontexts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This kind of propaganda is used in many different contexts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم جۆرە پڕوپاگەندەیە لە زۆر ڕەوشی جیاوازدا بەکاردێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This kind of propaganda is used in many different contexts.",
+                            kurdishText:
+                                "ئەم جۆرە پڕوپاگەندەیە لە زۆر ڕەوشی جیاوازدا بەکاردێت.",
+                            onPressedBritish: () => speakcontexts2("en-GB"),
+                            onPressedAmerican: () => speakcontexts2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His decision can only be understood in context."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکەی تەنھا لە ھەلومەرجی خۆیدا دەکرێت تێگەشتنی بۆ بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His decision can only be understood in context.",
+                            kurdishText:
+                                "وتارەکەی تەنھا لە ھەلومەرجی خۆیدا دەکرێت تێگەشتنی بۆ بکرێت.",
+                            onPressedBritish: () => speakcontexts3("en-GB"),
+                            onPressedAmerican: () => speakcontexts3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think it's important to put this into context."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێموایە گرنگە یەمە بخرێتە ھەلومەرجی خۆیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I think it's important to put this into context.",
+                            kurdishText:
+                                "پێموایە گرنگە یەمە بخرێتە ھەلومەرجی خۆیەوە.",
+                            onPressedBritish: () => speakcontexts4("en-GB"),
+                            onPressedAmerican: () => speakcontexts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو وشانەی کە لە پێش یان پاشی وشەیەک دێن و یارمەتیدەر دەبن لە تێگەشتن لێی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You should be able to guess the meaning of the word from the context."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت لە واتای ڕستەکە تێبگەیت بەپێی بەستێنەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You should be able to guess the meaning of the word from the context.",
+                            kurdishText:
+                                "دەبێت لە واتای ڕستەکە تێبگەیت بەپێی بەستێنەکەی.",
+                            onPressedBritish: () => speakcontexts5("en-GB"),
+                            onPressedAmerican: () => speakcontexts5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You need to look at the words in context."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت لە بەستێندا سەیری واتای وشەکە بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You need to look at the words in context.",
+                            kurdishText:
+                                "دەبێت لە بەستێندا سەیری واتای وشەکە بکەیت.",
+                            onPressedBritish: () => speakcontexts6("en-GB"),
+                            onPressedAmerican: () => speakcontexts6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This quotation has been taken out of context (= repeated without referring to the rest of the text)."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم وتەیە لە بەستێن دەرکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontexts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontexts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This quotation has been taken out of context (= repeated without referring to the rest of the text).",
+                            kurdishText: "ئەم وتەیە لە بەستێن دەرکراوە.",
+                            onPressedBritish: () => speakcontexts7("en-GB"),
+                            onPressedAmerican: () => speakcontexts7("en-US"),
                           ),
                         ],
                       ),

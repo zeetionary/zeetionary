@@ -136,184 +136,68 @@ class EnglishEntrychurn extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ڕاوەشاندنی ئاو، قوڕ، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The water churned beneath the huge ship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاوەکە لەژێر کەشتییە گەورەکەدا شەپۆلی دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "churn", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The water churned beneath the huge ship.",
+                            kurdishText:
+                                "ئاوەکە لەژێر کەشتییە گەورەکەدا شەپۆلی دەدا.", // churn",
+                            onPressedBritish: () => speakchurns1("en-GB"),
+                            onPressedAmerican: () => speakchurns1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Vast crowds had churned the field into a sea of mud."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی زۆر گۆڕەپانەکەیان کردبوو بە دەریایەک لە قوڕ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Vast crowds had churned the field into a sea of mud.",
+                            kurdishText:
+                                "خەڵکی زۆر گۆڕەپانەکەیان کردبوو بە دەریایەک لە قوڕ.",
+                            onPressedBritish: () => speakchurns2("en-GB"),
+                            onPressedAmerican: () => speakchurns2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) تێکھەڵاتنی گەدە و درووستکردنی ھەستێکی ناخۆش"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My stomach churned as the names were read out."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵم تێکھەڵات کە ناوەکان خوێندرانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurns3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurns3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My stomach churned as the names were read out.",
+                            kurdishText: "دڵم تێکھەڵات کە ناوەکان خوێندرانەوە.",
+                            onPressedBritish: () => speakchurns3("en-GB"),
+                            onPressedAmerican: () => speakchurns3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) درووستکردنی ھەستی بێزاری بۆ کەسێک، یان لەڕووی دەروونییەوە شپرزەی بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It churns me up inside to think what might have happened."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەناخەوە دەمکوڵێنێت کە بیردەکەمەوە چی ئەکرێت ڕوویدابێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurns4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurns4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It churns me up inside to think what might have happened.",
+                            kurdishText:
+                                "لەناخەوە دەمکوڵێنێت کە بیردەکەمەوە چی ئەکرێت ڕوویدابێت.",
+                            onPressedBritish: () => speakchurns4("en-GB"),
+                            onPressedAmerican: () => speakchurns4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) شتێک یان ئامێرێک کە تێیدا شیر یان کرێم ڕادەوەشێنرێت بۆ درووستکردنی کەرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The butter was made in a wooden churn."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەرەکە بە مەشکەیەکی دارین ئامادەکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurns5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurns5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The butter was made in a wooden churn.",
+                            kurdishText: "کەرەکە بە مەشکەیەکی دارین ئامادەکرا.",
+                            onPressedBritish: () => speakchurns5("en-GB"),
+                            onPressedAmerican: () => speakchurns5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) دەفرێکی گەورە کە جاران شیری پێ دەگوازرایەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I used to collect a few churns of milk from my brother's farm to make cheese."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران ھەندێک شیرگرم کۆدەکردەوە لە کێڵگەی براکەم بۆ درووستکردنی پەنیر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchurns6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchurns6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I used to collect a few churns of milk from my brother's farm to make cheese.",
+                            kurdishText:
+                                "جاران ھەندێک شیرگرم کۆدەکردەوە لە کێڵگەی براکەم بۆ درووستکردنی پەنیر.",
+                            onPressedBritish: () => speakchurns6("en-GB"),
+                            onPressedAmerican: () => speakchurns6("en-US"),
                           ),
                         ],
                       ),

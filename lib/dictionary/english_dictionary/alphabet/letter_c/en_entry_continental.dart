@@ -120,133 +120,52 @@ class EnglishEntrycontinental extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە کیشوەری ئەورووپا بەبێ بەریتانیا و ئێرلەندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most continental men like British women."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرێک لە پیاوە ئەورووپاییەکان حەزیان بە ژنانی بەریتانییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "continental", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinentals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinentals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most continental men like British women.",
+                            kurdishText:
+                                "زۆرێک لە پیاوە ئەورووپاییەکان حەزیان بە ژنانی بەریتانییە.", // continental",
+                            onPressedBritish: () => speakcontinentals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinentals1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) پەیوەندیدار بە نەریتەکانی باشوور و ڕۆژئاوای ئەورووپا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She preferred the continental way of life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزی بە شێوە ژیانی ئەورووپی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinentals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinentals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She preferred the continental way of life.",
+                            kurdishText: "حەزی بە شێوە ژیانی ئەورووپی بوو.",
+                            onPressedBritish: () => speakcontinentals2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinentals2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) پەیوەندیدار بە بەشێ سەرەکی کیشوەری ئەمریکای باکوور"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Prices are often higher in Hawaii than in the continental United States."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخەکان زۆرجار بەرزترن لە ھاوایی وەک لە بەشی سەرەکی ئەمریکا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinentals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinentals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Prices are often higher in Hawaii than in the continental United States.",
+                            kurdishText:
+                                "نرخەکان زۆرجار بەرزترن لە ھاوایی وەک لە بەشی سەرەکی ئەمریکا.",
+                            onPressedBritish: () => speakcontinentals3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinentals3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) پەیوەندیدار بە حەوت کیشوەرەکەی زەوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Volcanoes are mainly concentrated on the edges of continental plates."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گڕکانەکان زۆرجار چڕبوونەتەوە لە قەراغەکانی پلێتەکانی کیشوەرەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinentals4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinentals4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Volcanoes are mainly concentrated on the edges of continental plates.",
+                            kurdishText:
+                                "گڕکانەکان زۆرجار چڕبوونەتەوە لە قەراغەکانی پلێتەکانی کیشوەرەکان.",
+                            onPressedBritish: () => speakcontinentals4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinentals4("en-US"),
                           ),
                         ],
                       ),

@@ -191,32 +191,13 @@ class EnglishEntrycassock extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جلیکی درێژ کە زۆرجار سپی یان سوورە و لەلایەن ھەندێک قەشەی مەسیحی و کەسانی دیکەی کڵێسا لەبەر دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The priest donned his black cassock before leading the Sunday service."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەشەکە عەبا ڕەشەکەیی لەبەرکرد پێش ئەوەی بەرنوێژی ڕۆژی یەکشەممە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cassock", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcassocks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcassocks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The priest donned his black cassock before leading the Sunday service.",
+                            kurdishText:
+                                "قەشەکە عەبا ڕەشەکەیی لەبەرکرد پێش ئەوەی بەرنوێژی ڕۆژی یەکشەممە بکات.", // cassock",
+                            onPressedBritish: () => speakcassocks1("en-GB"),
+                            onPressedAmerican: () => speakcassocks1("en-US"),
                           ),
                         ],
                       ),

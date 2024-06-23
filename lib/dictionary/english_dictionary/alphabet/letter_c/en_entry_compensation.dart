@@ -130,160 +130,63 @@ class EnglishEntrycompensation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک، بە زۆری پارە کە کەسێک وەک قەرەبوو پێت دەدات چونکە ئازاریان داویت، یان زیانیان پێگەیاندوویت، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The employer has a duty to pay full compensation for injuries received at work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاوەنکار ئەرکییەتی قەرەبووی تەواو بدات بۆ برین کە لە شوێنی کار ڕووبدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compensation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompensations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompensations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The employer has a duty to pay full compensation for injuries received at work.",
+                            kurdishText:
+                                "خاوەنکار ئەرکییەتی قەرەبووی تەواو بدات بۆ برین کە لە شوێنی کار ڕووبدات.", // compensation",
+                            onPressedBritish: () =>
+                                speakcompensations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompensations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She received £7 000 as compensation for her injuries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "٧٠٠٠ پاوەندی وەک قەرەبوو وەرگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompensations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompensations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She received £7 000 as compensation for her injuries.",
+                            kurdishText: "٧٠٠٠ پاوەندی وەک قەرەبوو وەرگرت.",
+                            onPressedBritish: () =>
+                                speakcompensations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompensations2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They will have to pay £5 000 in compensation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت ٥٠٠٠ پاوەند وەک قەرەبوو بدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompensations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompensations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They will have to pay £5 000 in compensation.",
+                            kurdishText: "دەبێت ٥٠٠٠ پاوەند وەک قەرەبوو بدەن.",
+                            onPressedBritish: () =>
+                                speakcompensations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompensations3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو پارەی کارمەندێک وەریدەگرێت بۆ کردنی کارەکەی لەگەڵ پارەی دیکەدا، بۆ نموونە بەخشیش"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Annual compensation for our executives includes salary and bonus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مووچەی ساڵانەی بەڕێوبەرەکانمان مووچەی خۆیان و بەخشیش لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompensations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompensations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Annual compensation for our executives includes salary and bonus.",
+                            kurdishText:
+                                "مووچەی ساڵانەی بەڕێوبەرەکانمان مووچەی خۆیان و بەخشیش لەخۆدەگرێت.",
+                            onPressedBritish: () =>
+                                speakcompensations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompensations4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شتێک یان کۆمەڵە شتێک کە دۆخێکی خراپ باش دەکات لە دوای ئەوەی شتێکی خراپت بەسەرھاتووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I wish I were young again, but getting older has its compensations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھیوام دووبارە گەنج بوومایە، بەڵام چوونە تەمەندا سوودی خۆی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompensations5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompensations5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I wish I were young again, but getting older has its compensations.",
+                            kurdishText:
+                                "بەھیوام دووبارە گەنج بوومایە، بەڵام چوونە تەمەندا سوودی خۆی ھەیە.",
+                            onPressedBritish: () =>
+                                speakcompensations5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompensations5("en-US"),
                           ),
                         ],
                       ),

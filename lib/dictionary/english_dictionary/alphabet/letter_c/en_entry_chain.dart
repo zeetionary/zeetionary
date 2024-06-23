@@ -168,293 +168,99 @@ class EnglishEntrychain extends StatelessWidget {
 کوردی: زنجیر، زریزە، کۆت‌وبەند، کۆت‌وزنجیر، کۆت‌وپێوەند، زنجیرە، لیزگە، بەندەڵەبەند، ڕەچە، ڕست، ڕیزە، پاوەن، پێوەن، پێبەن، زنجیری ڕووپێوی
 """),
                           const DefinitionKurdish(text: "١. (ناو) زنجیر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wore a gold chain around her neck."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زنجیرێکی ئاڵتوونی لە ملی بەستبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "chain", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchains1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchains1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wore a gold chain around her neck.",
+                            kurdishText:
+                                "زنجیرێکی ئاڵتوونی لە ملی بەستبوو.", // chain",
+                            onPressedBritish: () => speakchains1("en-GB"),
+                            onPressedAmerican: () => speakchains1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prisoners were kept in chains (= with chains around their arms and legs, to prevent them from escaping)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیندانییەکان بە زنجیر کۆتکرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchains2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchains2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prisoners were kept in chains (= with chains around their arms and legs, to prevent them from escaping).",
+                            kurdishText: "زیندانییەکان بە زنجیر کۆتکرابوون.",
+                            onPressedBritish: () => speakchains2("en-GB"),
+                            onPressedAmerican: () => speakchains2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Let the dog off its chain."),
-                                    ExampleSentenceKurdish(
-                                        text: "زنجیرەکە لە سەگەکە بکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchains3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchains3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Let the dog off its chain.",
+                            kurdishText: "زنجیرەکە لە سەگەکە بکەوە.",
+                            onPressedBritish: () => speakchains3("en-GB"),
+                            onPressedAmerican: () => speakchains3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ژمارەیەک شت یان کەس کە پێکەوە بەندن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Volunteers formed a human chain (= line of people) to rescue precious items from the burning house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆبەخشان ڕیزێک لە مرۆڤیان درووستکردبوو بۆ ڕزگارکردنی کەرەستەی بەھادار لە ماڵە سووتاوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchains4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchains4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Volunteers formed a human chain (= line of people) to rescue precious items from the burning house.",
+                            kurdishText:
+                                "خۆبەخشان ڕیزێک لە مرۆڤیان درووستکردبوو بۆ ڕزگارکردنی کەرەستەی بەھادار لە ماڵە سووتاوەکە.",
+                            onPressedBritish: () => speakchains4("en-GB"),
+                            onPressedAmerican: () => speakchains4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's important to make sure the chain of communication is not broken."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرنگە دڵنیایی بکرێتەوە کە ھێڵی پەیوەندی ناپچڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchains5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchains5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's important to make sure the chain of communication is not broken.",
+                            kurdishText:
+                                "گرنگە دڵنیایی بکرێتەوە کە ھێڵی پەیوەندی ناپچڕێت.",
+                            onPressedBritish: () => speakchains5("en-GB"),
+                            onPressedAmerican: () => speakchains5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ژمارەیەک شت، بۆ نموونە سوپەرمارکێت یان ھوتێل، کە لەلایەن یەک کۆمپانیاوە خاوەنداری دەکرێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This hotel is part of a large chain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ھوتێلە بەشێکە لە زنجیرەیەکی گەورە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchains6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchains6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This hotel is part of a large chain.",
+                            kurdishText:
+                                "ئەم ھوتێلە بەشێکە لە زنجیرەیەکی گەورە.",
+                            onPressedBritish: () => speakchains6("en-GB"),
+                            onPressedAmerican: () => speakchains6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) شتێک کە ئازادی کەسێک سنووردار دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At last the country has freed itself from the chains of the authoritarian regime."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتاییدا وڵاتەکە خۆی ڕزگارکرد لە کۆتوبەندی ڕژێمە سەرکوتکەرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchains7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchains7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At last the country has freed itself from the chains of the authoritarian regime.",
+                            kurdishText:
+                                "لە کۆتاییدا وڵاتەکە خۆی ڕزگارکرد لە کۆتوبەندی ڕژێمە سەرکوتکەرەکە.",
+                            onPressedBritish: () => speakchains7("en-GB"),
+                            onPressedAmerican: () => speakchains7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) بەستنەوەی شتێک/کەسێک بە زنجیر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The doors were always locked and chained."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرگاکان ھەموو کات قفڵ و زنجیر کرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchains8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchains8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The doors were always locked and chained.",
+                            kurdishText:
+                                "دەرگاکان ھەموو کات قفڵ و زنجیر کرابوون.",
+                            onPressedBritish: () => speakchains8("en-GB"),
+                            onPressedAmerican: () => speakchains8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was beaten in his cell while in handcuffs and with his legs chained."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بەندیخانەکەیدا لێیدرا لەکاتێکدا دەستبەستراو و لاقەکانی زنجیرکرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchains9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchains9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was beaten in his cell while in handcuffs and with his legs chained.",
+                            kurdishText:
+                                "لە بەندیخانەکەیدا لێیدرا لەکاتێکدا دەستبەستراو و لاقەکانی زنجیرکرابوون.",
+                            onPressedBritish: () => speakchains9("en-GB"),
+                            onPressedAmerican: () => speakchains9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She chained her bicycle to the gate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاسکیلەکەیی بەست بە دەروازەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchains10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchains10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She chained her bicycle to the gate.",
+                            kurdishText: "پاسکیلەکەیی بەست بە دەروازەکەوە.",
+                            onPressedBritish: () => speakchains10("en-GB"),
+                            onPressedAmerican: () => speakchains10("en-US"),
                           ),
                         ],
                       ),

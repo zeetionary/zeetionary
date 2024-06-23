@@ -103,59 +103,20 @@ class EnglishEntrycheckpoint extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شوێنێک، بەتایبەتی لەسەر سنووری دوو وڵات کە خەڵکی تێدا دەوەستن بۆ پشکنینی ئۆتۆمبێل و بەڵگەنامەکانیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are border guards at the checkpoint crossing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاسەوانی سنووری ھەیە لە خاڵە سنوورییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "checkpoint", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheckpoints1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckpoints1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are border guards at the checkpoint crossing.",
+                            kurdishText:
+                                "پاسەوانی سنووری ھەیە لە خاڵە سنوورییەکە.", // checkpoint",
+                            onPressedBritish: () => speakcheckpoints1("en-GB"),
+                            onPressedAmerican: () => speakcheckpoints1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We were stopped at the checkpoint."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە خاڵە سنوورییەکە وەستێنراین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheckpoints2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckpoints2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We were stopped at the checkpoint.",
+                            kurdishText: "لە خاڵە سنوورییەکە وەستێنراین.",
+                            onPressedBritish: () => speakcheckpoints2("en-GB"),
+                            onPressedAmerican: () => speakcheckpoints2("en-US"),
                           ),
                         ],
                       ),

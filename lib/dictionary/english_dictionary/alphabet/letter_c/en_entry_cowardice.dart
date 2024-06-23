@@ -240,58 +240,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ترسەنۆکی، حیزی، بێ‌جەرگی، زراوچوویی
 """),
           const DefinitionKurdish(text: "١. (ناو) ترس، یان نەبوونی بوێری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was ashamed of her cowardice."),
-                    ExampleSentenceKurdish(
-                        text: "شەرمەزار بوو بە ترسنۆکییەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cowardice", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowardices1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowardices1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was ashamed of her cowardice.",
+            kurdishText:
+                "شەرمەزار بوو بە ترسنۆکییەکەی.", // cowardice", please follow LX instructions
+            onPressedBritish: () => speakcowardices1("en-GB"),
+            onPressedAmerican: () => speakcowardices1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cowardice prevented me from doing what I knew I should do."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ترسنۆکی ڕێگری لێکردم لە کردنی ئەوەی دەمزانی دەبوو بیکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowardices2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowardices2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Cowardice prevented me from doing what I knew I should do.",
+            kurdishText:
+                "ترسنۆکی ڕێگری لێکردم لە کردنی ئەوەی دەمزانی دەبوو بیکەم.",
+            onPressedBritish: () => speakcowardices2("en-GB"),
+            onPressedAmerican: () => speakcowardices2("en-US"),
           ),
         ],
       ),

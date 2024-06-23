@@ -250,89 +250,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) دڵنیایی کردنەوەی ئەوەی کە زانیاری، ئامار، ھتد درووستە بە بەکارھێنانی سیستەم یان بیردۆزی جیاواز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Cross-check your answers with a calculator."),
-                    ExampleSentenceKurdish(
-                        text: "بە ژمێرەرێک دڵنیایی لە وەڵامەکانت بکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cross-check", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosschecks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosschecks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Cross-check your answers with a calculator.",
+            kurdishText:
+                "بە ژمێرەرێک دڵنیایی لە وەڵامەکانت بکەوە.", // cross-check", please follow LX instructions
+            onPressedBritish: () => speakcrosschecks1("en-GB"),
+            onPressedAmerican: () => speakcrosschecks1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He didn't crosscheck his facts before publishing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێش بڵاوکردنەوە دڵنیایی لە زانیارییەکانی نەکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosschecks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosschecks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He didn't crosscheck his facts before publishing.",
+            kurdishText: "پێش بڵاوکردنەوە دڵنیایی لە زانیارییەکانی نەکردەوە.",
+            onPressedBritish: () => speakcrosschecks2("en-GB"),
+            onPressedAmerican: () => speakcrosschecks2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) دڵنیایی کردنەوە لەوەی کە زانیاری و ئامار درووستە بە بەکارھێنانی سیستەم و بیردۆزی جیاواز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is useful to incorporate as many cross-checks as possible."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەسوودە کە ھەرچەندە زۆر بکرێت دڵنیایی کردنەوە لەخۆبگریت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosschecks3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosschecks3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is useful to incorporate as many cross-checks as possible.",
+            kurdishText:
+                "بەسوودە کە ھەرچەندە زۆر بکرێت دڵنیایی کردنەوە لەخۆبگریت.",
+            onPressedBritish: () => speakcrosschecks3("en-GB"),
+            onPressedAmerican: () => speakcrosschecks3("en-US"),
           ),
         ],
       ),

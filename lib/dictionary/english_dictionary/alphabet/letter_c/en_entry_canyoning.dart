@@ -189,32 +189,13 @@ class EnglishEntrycanyoning extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) وەرزشێک کە بریتییە لە شوێنکەوتنی ڕووبارێکی خێرا کە بە دۆڵێکی قووڵ و تەسکدا تێدەپەڕێت، بە بەکارھێنانی ژمارەیەک ڕێگا کە بریتین لە سەرکەوتن، چوونەخوارەوە بەسەر لێوارە بەرزەکاندا بە بەکارھێنانی پەت، و مەلەکردن :"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Canyoning requires a permit in most national parks in the United States."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە زۆرینەی پارکە نیشتیمانییەکانی ئەمریکا وەرزشی کانیۆنینگ پێویستی بە مۆڵەت ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canyoning", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanyonings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanyonings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Canyoning requires a permit in most national parks in the United States.",
+                            kurdishText:
+                                "لە زۆرینەی پارکە نیشتیمانییەکانی ئەمریکا وەرزشی کانیۆنینگ پێویستی بە مۆڵەت ھەیە.", // canyoning
+                            onPressedBritish: () => speakcanyonings1("en-GB"),
+                            onPressedAmerican: () => speakcanyonings1("en-US"),
                           ),
                         ],
                       ),

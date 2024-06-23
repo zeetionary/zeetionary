@@ -240,59 +240,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: توڵە، تووتک، کودی، بەچکە، بێچوو، تێژک (شێر، ڕێوی، ورچ و ھتد)،	شێرەمناڵ
 """),
           const DefinitionKurdish(text: "١. (ناو) بەچکە ورچ، شێر، ڕێوی، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A mother bear is fiercely protective of her cubs."),
-                    ExampleSentenceKurdish(
-                        text: "دایکە ورچ زۆر بە توندی پارێزەری بەچکەکانیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cub", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcubs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcubs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A mother bear is fiercely protective of her cubs.",
+            kurdishText:
+                "دایکە ورچ زۆر بە توندی پارێزەری بەچکەکانیەتی.", // cub", please follow LX instructions
+            onPressedBritish: () => speakcubs1("en-GB"),
+            onPressedAmerican: () => speakcubs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The film shows a fox and her cubs playing in the forest."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیلمەکە ڕێوییەک و بەچکەکانی پیشان دەدا کە لە دارستانەکە یاری دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcubs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcubs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The film shows a fox and her cubs playing in the forest.",
+            kurdishText:
+                "فیلمەکە ڕێوییەک و بەچکەکانی پیشان دەدا کە لە دارستانەکە یاری دەکەن.",
+            onPressedBritish: () => speakcubs2("en-GB"),
+            onPressedAmerican: () => speakcubs2("en-US"),
           ),
         ],
       ),

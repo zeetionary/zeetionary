@@ -494,475 +494,169 @@ class EnglishEntrycast extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) سەیرکردن، پێکەنین، ھتد بە ئاراستەیەکی دیاریکراودا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I cast an angry look at him."),
-                                    ExampleSentenceKurdish(
-                                        text: "نیگایەکی ڕقاویم لێ‌کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cast", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I cast an angry look at him.",
+                            kurdishText: "نیگایەکی ڕقاویم لێ‌کرد.", // cast",
+                            onPressedBritish: () => speakcasts1("en-GB"),
+                            onPressedAmerican: () => speakcasts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She cast a quick look in the rear mirror."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەیرێکی خێرای ئاوێنەی پشتەوەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She cast a quick look in the rear mirror.",
+                            kurdishText: "سەیرێکی خێرای ئاوێنەی پشتەوەی کرد.",
+                            onPressedBritish: () => speakcasts2("en-GB"),
+                            onPressedAmerican: () => speakcasts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) دەرخستنی ڕۆشنایی، سێبەر، ھتد لەسەر شوێنێکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The moon had cast a silvery light on the huts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مانگ شەوقێکی زیوینی خستبووە سەر کوخەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The moon had cast a silvery light on the huts.",
+                            kurdishText:
+                                "مانگ شەوقێکی زیوینی خستبووە سەر کوخەکان.",
+                            onPressedBritish: () => speakcasts3("en-GB"),
+                            onPressedAmerican: () => speakcasts3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The setting sun cast an orange glow over the mountains."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆرەئاوابووەکە ڕوناکییەکی پرتەقاڵی خستبووە سەر شاخەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The setting sun cast an orange glow over the mountains.",
+                            kurdishText:
+                                "خۆرەئاوابووەکە ڕوناکییەکی پرتەقاڵی خستبووە سەر شاخەکان.",
+                            onPressedBritish: () => speakcasts4("en-GB"),
+                            onPressedAmerican: () => speakcasts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) وتن، پێشنیازکردن، یان کردنی شتێک کە گومان دەخاتە سەر شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This latest evidence casts serious doubt on his version of events."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم بەڵگەیەی دوایی گومانی توند دەخاتە سەر گێڕانەوەی ئەو بۆ ڕووداوەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This latest evidence casts serious doubt on his version of events.",
+                            kurdishText:
+                                "ئەم بەڵگەیەی دوایی گومانی توند دەخاتە سەر گێڕانەوەی ئەو بۆ ڕووداوەکان.",
+                            onPressedBritish: () => speakcasts5("en-GB"),
+                            onPressedAmerican: () => speakcasts5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The entire economic future of the islands was cast into doubt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی داھاتووی ئابووریی دوورگەکە خرایە ژێر گومانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The entire economic future of the islands was cast into doubt.",
+                            kurdishText:
+                                "تەواوی داھاتووی ئابووریی دوورگەکە خرایە ژێر گومانەوە.",
+                            onPressedBritish: () => speakcasts6("en-GB"),
+                            onPressedAmerican: () => speakcasts6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) دەنگدان بە کەسێک یان شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He refused to cast a vote for either candidate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەتیکردەوە دەنگ بە ھیچ یەک لە دوو کاندیدەکە بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He refused to cast a vote for either candidate.",
+                            kurdishText:
+                                "ڕەتیکردەوە دەنگ بە ھیچ یەک لە دوو کاندیدەکە بدات.",
+                            onPressedBritish: () => speakcasts7("en-GB"),
+                            onPressedAmerican: () => speakcasts7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) ھەڵبژرادنی ئەکتەرێک بۆ بینینی ڕۆڵێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The play is being cast in both the US and Britain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەکتەرانی شانۆکە لە ئەمریکا و بەریتانیاوە دەستنیشان دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The play is being cast in both the US and Britain.",
+                            kurdishText:
+                                "ئەکتەرانی شانۆکە لە ئەمریکا و بەریتانیاوە دەستنیشان دەکرێن.",
+                            onPressedBritish: () => speakcasts8("en-GB"),
+                            onPressedAmerican: () => speakcasts8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has cast her as an ambitious lawyer in his latest movie."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆڵی پارێزەرێکی تەماحبازی پێدابوو لە دواترین فیلمیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has cast her as an ambitious lawyer in his latest movie.",
+                            kurdishText:
+                                "ڕۆڵی پارێزەرێکی تەماحبازی پێدابوو لە دواترین فیلمیدا.",
+                            onPressedBritish: () => speakcasts9("en-GB"),
+                            onPressedAmerican: () => speakcasts9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) ناساندنی کەسێک، شتێک، ھتد بەشێوەیەکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He cast himself as the innocent victim of a hate campaign."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی وەک قوربانیی بێ‌تاوانی کەمپینە ڕقاوییەکە پیشاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He cast himself as the innocent victim of a hate campaign.",
+                            kurdishText:
+                                "خۆی وەک قوربانیی بێ‌تاوانی کەمپینە ڕقاوییەکە پیشاندا.",
+                            onPressedBritish: () => speakcasts10("en-GB"),
+                            onPressedAmerican: () => speakcasts10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) فڕێدانی سەرێکی قولابی ماسی بۆ ناو ئاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He cast the line to the middle of the river."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قولابەکەی فڕێدایە ناوەڕاستی ڕووبارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He cast the line to the middle of the river.",
+                            kurdishText:
+                                "قولابەکەی فڕێدایە ناوەڕاستی ڕووبارەکە.",
+                            onPressedBritish: () => speakcasts11("en-GB"),
+                            onPressedAmerican: () => speakcasts11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (کردار) فڕێدانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The priceless treasures had been cast into the Nile."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەنجینە بەھادارەکان فڕێدرابوونە ناو ڕووباری نیلەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The priceless treasures had been cast into the Nile.",
+                            kurdishText:
+                                "گەنجینە بەھادارەکان فڕێدرابوونە ناو ڕووباری نیلەوە.",
+                            onPressedBritish: () => speakcasts12("en-GB"),
+                            onPressedAmerican: () => speakcasts12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (ناو) ھەموو ئەو کەسانەی کە بەژداری لە فیلمێک، شانۆیەک، ھتد دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The whole cast performs/perform brilliantly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی دەستەکە بلیمەتانە ڕۆڵ دەبینن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The whole cast performs/perform brilliantly.",
+                            kurdishText: "تەواوی دەستەکە بلیمەتانە ڕۆڵ دەبینن.",
+                            onPressedBritish: () => speakcasts13("en-GB"),
+                            onPressedAmerican: () => speakcasts13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The film has a great cast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە ژمارەیەک ئەکتەری ناوازەی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The film has a great cast.",
+                            kurdishText:
+                                "فیلمەکە ژمارەیەک ئەکتەری ناوازەی ھەیە.",
+                            onPressedBritish: () => speakcasts14("en-GB"),
+                            onPressedAmerican: () => speakcasts14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (ناو) شێوازی دەرکەوتنی کەسێک یان شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The colours he wore emphasized the olive cast of his skin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ڕەنگانەی لەبەری دەکردن زەیتوونی دەرکەوتنی پێستی دەردەخست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The colours he wore emphasized the olive cast of his skin.",
+                            kurdishText:
+                                "ئەو ڕەنگانەی لەبەری دەکردن زەیتوونی دەرکەوتنی پێستی دەردەخست.",
+                            onPressedBritish: () => speakcasts15("en-GB"),
+                            onPressedAmerican: () => speakcasts15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١١. (ناو) پلاستەرێک کە لە ئێسکی شکاو دەبەسترێت و دەیپارێزێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Her leg's in a cast."),
-                                    ExampleSentenceKurdish(
-                                        text: "لاقی لە پلاستەردایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasts16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasts16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her leg's in a cast.",
+                            kurdishText: "لاقی لە پلاستەردایە.",
+                            onPressedBritish: () => speakcasts16("en-GB"),
+                            onPressedAmerican: () => speakcasts16("en-US"),
                           ),
                         ],
                       ),

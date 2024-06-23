@@ -95,34 +95,15 @@ class EnglishEntryconfessional extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شوێنێک لە کڵێسادا کە تێیدا خەڵکی دان بە ھەڵەکانیاندا دەنێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She went to the confessional to confess her sins and seek forgiveness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوو بۆ درکانگەکە بۆ داننان بە تاوانەکانیدا و داوای لێخۆشبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confessional", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfessionals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfessionals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She went to the confessional to confess her sins and seek forgiveness.",
+                            kurdishText:
+                                "چوو بۆ درکانگەکە بۆ داننان بە تاوانەکانیدا و داوای لێخۆشبوون.", // confessional",
+                            onPressedBritish: () =>
+                                speakconfessionals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfessionals1("en-US"),
                           ),
                         ],
                       ),

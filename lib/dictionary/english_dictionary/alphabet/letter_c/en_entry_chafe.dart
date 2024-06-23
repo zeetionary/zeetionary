@@ -191,63 +191,25 @@ class EnglishEntrychafe extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ھەبوونی ئازار یان ئازارپێ‌گەیاندن بەھۆی ئەوەی شتێک پێیدا دەڕووشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her wrists chafed where the rope had been."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەچەکانی داماڵراوبوون لەو شوێنەی حەبلەکە بەسترابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "chafe", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchafes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchafes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her wrists chafed where the rope had been.",
+                            kurdishText:
+                                "مەچەکانی داماڵراوبوون لەو شوێنەی حەبلەکە بەسترابوو.", // chafe",
+                            onPressedBritish: () => speakchafes1("en-GB"),
+                            onPressedAmerican: () => speakchafes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بێزار سەبارەت بە شتێک، بەتایبەتی بەھۆی ئەوەی جوڵەت سنووردار دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Young people often go through a phase of chafing under parental control."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسانی گەنج زۆرجار تێپەڕدەبن بە ماوەیەک لە بێزاری بەھۆی جڵەوگرتنی دایک و باوکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchafes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchafes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Young people often go through a phase of chafing under parental control.",
+                            kurdishText:
+                                "کەسانی گەنج زۆرجار تێپەڕدەبن بە ماوەیەک لە بێزاری بەھۆی جڵەوگرتنی دایک و باوکەوە.",
+                            onPressedBritish: () => speakchafes2("en-GB"),
+                            onPressedAmerican: () => speakchafes2("en-US"),
                           ),
                         ],
                       ),

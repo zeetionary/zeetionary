@@ -281,195 +281,64 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ژن‌ومێرد،	دوودەزگیران، جووتەدەزووران،	جووت، جووتەک، جفت، دوانە، دوودانە،	چەند
 """),
           const DefinitionKurdish(text: "١. (ناو) دوو کەس یان شت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I saw a couple of men get out."),
-                    ExampleSentenceKurdish(text: "دوو پیاوم دیت ھاتنە دەرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "couple", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouples1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouples1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I saw a couple of men get out.",
+            kurdishText:
+                "دوو پیاوم دیت ھاتنە دەرەوە.", // couple", please follow LX instructions
+            onPressedBritish: () => speakcouples1("en-GB"),
+            onPressedAmerican: () => speakcouples1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ژمارەیەکی کەم لە خەڵکی یان شت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We went there a couple of years ago."),
-                    ExampleSentenceKurdish(
-                        text: "چەند ساڵێکی کەم پێش ئێستا چووینە ئەوێ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouples2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouples2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We went there a couple of years ago.",
+            kurdishText: "چەند ساڵێکی کەم پێش ئێستا چووینە ئەوێ.",
+            onPressedBritish: () => speakcouples2("en-GB"),
+            onPressedAmerican: () => speakcouples2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I've seen her a couple of times before."),
-                    ExampleSentenceKurdish(text: "چەند جارێک پێشتر دیومە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouples3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouples3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I've seen her a couple of times before.",
+            kurdishText: "چەند جارێک پێشتر دیومە.",
+            onPressedBritish: () => speakcouples3("en-GB"),
+            onPressedAmerican: () => speakcouples3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We can do it in the next couple of weeks."),
-                    ExampleSentenceKurdish(
-                        text: "چەند ھەفتەی دواتر دەتوانین بیکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouples4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouples4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We can do it in the next couple of weeks.",
+            kurdishText: "چەند ھەفتەی دواتر دەتوانین بیکەین.",
+            onPressedBritish: () => speakcouples4("en-GB"),
+            onPressedAmerican: () => speakcouples4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) دوو کەس کە پێکەوەن، بە تایبەتی کە ھاوسەرگیرییان کردووە یان پەیوەندی ڕۆمانسییان ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The royal couple will visit New Zealand next year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوو ئەویندارە شاھانەییەکە ساڵی داھاتوو سەردانی نیوزلەندا دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouples5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouples5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The royal couple will visit New Zealand next year.",
+            kurdishText:
+                "دوو ئەویندارە شاھانەییەکە ساڵی داھاتوو سەردانی نیوزلەندا دەکەن.",
+            onPressedBritish: () => speakcouples5("en-GB"),
+            onPressedAmerican: () => speakcouples5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The couple was/were married in 2022."),
-                    ExampleSentenceKurdish(
-                        text: "دوودەزگیرانەکە لە ساڵی ٢٠٢٢ ھاوسەرگیرییان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouples6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouples6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The couple was/were married in 2022.",
+            kurdishText: "دوودەزگیرانەکە لە ساڵی ٢٠٢٢ ھاوسەرگیرییان کرد.",
+            onPressedBritish: () => speakcouples6("en-GB"),
+            onPressedAmerican: () => speakcouples6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) پێکەوە بەستنی دوو بەشی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This energy is converted into electrical energy by a machine that is coupled to the turbine."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم وزەیە دەگۆڕدرێت بۆ وزەی کارەبایی لەلایەن ئامێرێکەوە کە بەستراوە بە پەروانەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouples7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouples7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This energy is converted into electrical energy by a machine that is coupled to the turbine.",
+            kurdishText:
+                "ئەم وزەیە دەگۆڕدرێت بۆ وزەی کارەبایی لەلایەن ئامێرێکەوە کە بەستراوە بە پەروانەکەوە.",
+            onPressedBritish: () => speakcouples7("en-GB"),
+            onPressedAmerican: () => speakcouples7("en-US"),
           ),
         ],
       ),

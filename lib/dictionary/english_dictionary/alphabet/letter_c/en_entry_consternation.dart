@@ -104,63 +104,24 @@ class EnglishEntryconsternation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەستی دڵتەنگی و نیگەرانی و لە دوای شتێکی لەناکاوی ناخۆشت پێگەشتووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The announcement of her retirement caused consternation among tennis fans."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاگەیاندنی وازھێنانی بوو بەھۆی پەشۆکان لەناو ھەوادارانی تێنسدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consternation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsternations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsternations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The announcement of her retirement caused consternation among tennis fans.",
+                            kurdishText:
+                                "ڕاگەیاندنی وازھێنانی بوو بەھۆی پەشۆکان لەناو ھەوادارانی تێنسدا.", // consternation",
+                            onPressedBritish: () =>
+                                speakconsternations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsternations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She stared at me in consternation."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە حەپەسانەوە لێی دەڕوانیم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsternations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsternations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She stared at me in consternation.",
+                            kurdishText: "بە حەپەسانەوە لێی دەڕوانیم.",
+                            onPressedBritish: () =>
+                                speakconsternations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsternations2("en-US"),
                           ),
                         ],
                       ),

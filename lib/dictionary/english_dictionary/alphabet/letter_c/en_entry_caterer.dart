@@ -187,32 +187,13 @@ class EnglishEntrycaterer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک یان کۆمپانیایەک کە خواردن و خواردنەوە ئامادە دەکات بۆ کۆبوونەوەیەکی بازرگانی یان بۆنەیەکی تایبەتی وەک ئاھەنگی ھاوسەرگیری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They prepare fresh vegetables for restaurants and caterers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوەی تازە ئامادە دەکەن بۆ چێشتخانە و خۆراک ئامادەکاران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "caterer", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaterers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaterers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They prepare fresh vegetables for restaurants and caterers.",
+                            kurdishText:
+                                "میوەی تازە ئامادە دەکەن بۆ چێشتخانە و خۆراک ئامادەکاران.", // caterer",
+                            onPressedBritish: () => speakcaterers1("en-GB"),
+                            onPressedAmerican: () => speakcaterers1("en-US"),
                           ),
                         ],
                       ),

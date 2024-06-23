@@ -94,34 +94,14 @@ class EnglishEntrycircumspect extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بیرکردنەوەی ورد سەبارەت بە شتێک پێش ئەنجامدانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was very circumspect in his financial affairs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر دووربین بوو لە کارە داراییەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circumspect", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcircumspects1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcircumspects1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was very circumspect in his financial affairs.",
+                            kurdishText:
+                                "زۆر دووربین بوو لە کارە داراییەکانی.", // circumspect",
+                            onPressedBritish: () => speakcircumspects1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcircumspects1("en-US"),
                           ),
                         ],
                       ),

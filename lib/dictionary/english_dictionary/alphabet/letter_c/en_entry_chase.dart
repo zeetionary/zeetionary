@@ -206,414 +206,148 @@ class EnglishEntrychase extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چوون بە دوای کەسێک یان شتێک بۆ گرتنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "My dog likes chasing rabbits."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگەکەم حەزی بە شوێنکەوتنی کەروێشکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chase", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchases1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchases1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My dog likes chasing rabbits.",
+                            kurdishText:
+                                "سەگەکەم حەزی بە شوێنکەوتنی کەروێشکە.", // chase",
+                            onPressedBritish: () => speakchases1("en-GB"),
+                            onPressedAmerican: () => speakchases1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The kids chased each other around the kitchen table."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان شوێن یەکدی کەوتبوون بە دەوری مێزی چێشتخانەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchases2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchases2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The kids chased each other around the kitchen table.",
+                            kurdishText:
+                                "منداڵەکان شوێن یەکدی کەوتبوون بە دەوری مێزی چێشتخانەکەدا.",
+                            onPressedBritish: () => speakchases2("en-GB"),
+                            onPressedAmerican: () => speakchases2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ناچارکردنی کەسێک یان شتێک کە ڕابکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Chase the cat out—we don't want her in the kitchen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشیلەکە ڕاوبنێ دەرەوە، نامانەوێت لە چێشتخانەکە بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchases3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchases3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Chase the cat out—we don't want her in the kitchen.",
+                            kurdishText:
+                                "پشیلەکە ڕاوبنێ دەرەوە، نامانەوێت لە چێشتخانەکە بێت.",
+                            onPressedBritish: () => speakchases3("en-GB"),
+                            onPressedAmerican: () => speakchases3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This particular fish chases off any other fish that enters its territory."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم جۆرە ماسییە ھەر جۆرە ماسییەکی دیکە ڕاودەنێت کە بێتە ناوچەکەیەوە ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchases4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchases4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This particular fish chases off any other fish that enters its territory.",
+                            kurdishText:
+                                "ئەم جۆرە ماسییە ھەر جۆرە ماسییەکی دیکە ڕاودەنێت کە بێتە ناوچەکەیەوە .",
+                            onPressedBritish: () => speakchases4("en-GB"),
+                            onPressedAmerican: () => speakchases4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) ھەوڵدان بۆ بەدەستھێنانی شتێک، بۆ نموونە پارە، کار، یان سەرکەوتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Too many people are chasing too few jobs nowadays."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆر خەڵک بەشوێن ژمارەیەکی کەمی کارەوەن ئەم ڕۆژانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchases5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchases5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Too many people are chasing too few jobs nowadays.",
+                            kurdishText:
+                                "ژمارەیەکی زۆر خەڵک بەشوێن ژمارەیەکی کەمی کارەوەن ئەم ڕۆژانە.",
+                            onPressedBritish: () => speakchases5("en-GB"),
+                            onPressedAmerican: () => speakchases5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team is chasing its first win in five games."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە ھەوڵی یەکەم بردنەوەی لە پێنج یاریدا دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchases6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchases6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The team is chasing its first win in five games.",
+                            kurdishText:
+                                "تیمەکە ھەوڵی یەکەم بردنەوەی لە پێنج یاریدا دەدات.",
+                            onPressedBritish: () => speakchases6("en-GB"),
+                            onPressedAmerican: () => speakchases6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) ھەوڵدان بۆ ڕازیکردنی کەسێک بۆ بوونی پەیوەندی سێکسی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Kevin's been chasing after Jane for months."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کیڤن بۆ چەندین مانگە بە شوێن جەینەوەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchases7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchases7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Kevin's been chasing after Jane for months.",
+                            kurdishText:
+                                "کیڤن بۆ چەندین مانگە بە شوێن جەینەوەیە.",
+                            onPressedBritish: () => speakchases7("en-GB"),
+                            onPressedAmerican: () => speakchases7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Girls are always chasing him."),
-                                    ExampleSentenceKurdish(
-                                        text: "کچان ھەمیشە بەدوایەوەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchases8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchases8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Girls are always chasing him.",
+                            kurdishText: "کچان ھەمیشە بەدوایەوەن.",
+                            onPressedBritish: () => speakchases8("en-GB"),
+                            onPressedAmerican: () => speakchases8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) ڕازیکردنی کەسێک بۆ کردنی کارێک کە دەبوو زووتر بیکردایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I need to chase him about organizing the meeting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویست بوو ڕێکخستنی کۆبوونەوەکە بەگوێیدا بدەمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchases9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchases9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I need to chase him about organizing the meeting.",
+                            kurdishText:
+                                "پێویست بوو ڕێکخستنی کۆبوونەوەکە بەگوێیدا بدەمەوە.",
+                            onPressedBritish: () => speakchases9("en-GB"),
+                            onPressedAmerican: () => speakchases9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) چوون بۆ شوێنێک بەپەلە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've been chasing around town all morning looking for a present for Sharon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی بەیانییەکە بە شارۆچکەکەدا گەڕام بۆ دیارییەک بۆ شارۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchases10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchases10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've been chasing around town all morning looking for a present for Sharon.",
+                            kurdishText:
+                                "تەواوی بەیانییەکە بە شارۆچکەکەدا گەڕام بۆ دیارییەک بۆ شارۆن.",
+                            onPressedBritish: () => speakchases10("en-GB"),
+                            onPressedAmerican: () => speakchases10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) شوێنکەوتنی کەسێک یان شتێک بۆ گرتنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The thieves were caught by police after a short chase."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دزەکان لەلایەن پۆلیسەوە گیران لە دوای بەدواکەوتنێکی کورت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchases11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchases11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The thieves were caught by police after a short chase.",
+                            kurdishText:
+                                "دزەکان لەلایەن پۆلیسەوە گیران لە دوای بەدواکەوتنێکی کورت.",
+                            onPressedBritish: () => speakchases11("en-GB"),
+                            onPressedAmerican: () => speakchases11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We lost him in the narrow streets and had to give up the chase (= stop chasing him)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە شەقامە تەسکەکاندا ونمانکرد و ناچاربووین کۆتایی بە ڕاوەدوونانەکە بھێنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchases12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchases12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We lost him in the narrow streets and had to give up the chase (= stop chasing him).",
+                            kurdishText:
+                                "لە شەقامە تەسکەکاندا ونمانکرد و ناچاربووین کۆتایی بە ڕاوەدوونانەکە بھێنین.",
+                            onPressedBritish: () => speakchases12("en-GB"),
+                            onPressedAmerican: () => speakchases12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) ھەوڵدانی زۆر بە دەستخستنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Three teams are involved in the chase for the championship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێ تیم لە کێبڕکی دان بۆ بەدەستھێنانی پاڵەوانێتییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchases13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchases13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Three teams are involved in the chase for the championship.",
+                            kurdishText:
+                                "سێ تیم لە کێبڕکی دان بۆ بەدەستھێنانی پاڵەوانێتییەکە.",
+                            onPressedBritish: () => speakchases13("en-GB"),
+                            onPressedAmerican: () => speakchases13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٩. (ناو) ڕاوکردنی ئاژەڵان بۆ وەرزش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Exhausted and hungry, the hunters finally gave up the chase."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماندوو و برسی، ڕاوکەرەکان لەکۆتاییدا وازیان ھاورد لە ڕاوکردنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchases14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchases14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Exhausted and hungry, the hunters finally gave up the chase.",
+                            kurdishText:
+                                "ماندوو و برسی، ڕاوکەرەکان لەکۆتاییدا وازیان ھاورد لە ڕاوکردنەکە.",
+                            onPressedBritish: () => speakchases14("en-GB"),
+                            onPressedAmerican: () => speakchases14("en-US"),
                           ),
                         ],
                       ),

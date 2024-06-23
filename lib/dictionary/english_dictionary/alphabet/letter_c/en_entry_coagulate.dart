@@ -102,60 +102,21 @@ class EnglishEntrycoagulate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) چڕبوونی شلە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Blood began to coagulate around the edges of the wound."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێن دەستی مەیین کرد لە دەوری برینەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coagulate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoagulates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoagulates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Blood began to coagulate around the edges of the wound.",
+                            kurdishText:
+                                "خوێن دەستی مەیین کرد لە دەوری برینەکە.", // coagulate",
+                            onPressedBritish: () => speakcoagulates1("en-GB"),
+                            onPressedAmerican: () => speakcoagulates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sauce coagulated as it cooled down."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساسەکە دەمەیەت کە سارد ببێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoagulates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoagulates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sauce coagulated as it cooled down.",
+                            kurdishText: "ساسەکە دەمەیەت کە سارد ببێتەوە.",
+                            onPressedBritish: () => speakcoagulates2("en-GB"),
+                            onPressedAmerican: () => speakcoagulates2("en-US"),
                           ),
                         ],
                       ),

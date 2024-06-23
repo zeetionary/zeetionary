@@ -258,87 +258,29 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەبوونی باوەڕ بەوەی کە خەڵکی تەنھا بۆ سوودی خۆیان کاردەکەن و ھۆکاری دڵسۆزی و باشەیان نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Do you have to be so cynical about everything?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت ھێندە بەدگومان بیت سەبارەت بە ھەموو شتێک؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cynical", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcynicals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcynicals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do you have to be so cynical about everything?",
+            kurdishText:
+                "دەبێت ھێندە بەدگومان بیت سەبارەت بە ھەموو شتێک؟", // cynical", please follow LX instructions
+            onPressedBritish: () => speakcynicals1("en-GB"),
+            onPressedAmerican: () => speakcynicals1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) نەبوونی باوەڕ بەوەی کە شتێکی باش ڕوودەدات یان ئەوەی شتێک گرنگە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'm a bit cynical about the benefits of the plan."),
-                    ExampleSentenceKurdish(
-                        text: "کەمێک بێ‌ھیوام سەبارەت بە سوودەکانی پلانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcynicals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcynicals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm a bit cynical about the benefits of the plan.",
+            kurdishText: "کەمێک بێ‌ھیوام سەبارەت بە سوودەکانی پلانەکە.",
+            onPressedBritish: () => speakcynicals2("en-GB"),
+            onPressedAmerican: () => speakcynicals2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm a little cynical about her motives."),
-                    ExampleSentenceKurdish(
-                        text: "کەمێک ڕەشبینم سەبارەت بە پاڵنەرەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcynicals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcynicals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm a little cynical about her motives.",
+            kurdishText: "کەمێک ڕەشبینم سەبارەت بە پاڵنەرەکانی.",
+            onPressedBritish: () => speakcynicals3("en-GB"),
+            onPressedAmerican: () => speakcynicals3("en-US"),
           ),
           // skipped_meaning
           // const DividerDefinition(),

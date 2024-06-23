@@ -187,32 +187,13 @@ class EnglishEntrycastor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) تایەی کەلوپەلێکی ماڵەوە کە جوڵاندنی ئاسان دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Adding castors to the table legs made rearranging the room effortless."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیادکردنی تایە بۆ لاقی مێزەکە ڕێکخستنەوەی ژوورەکەی ئاسان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "castor", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Adding castors to the table legs made rearranging the room effortless.",
+                            kurdishText:
+                                "زیادکردنی تایە بۆ لاقی مێزەکە ڕێکخستنەوەی ژوورەکەی ئاسان کرد.", // castor",
+                            onPressedBritish: () => speakcastors1("en-GB"),
+                            onPressedAmerican: () => speakcastors1("en-US"),
                           ),
                         ],
                       ),

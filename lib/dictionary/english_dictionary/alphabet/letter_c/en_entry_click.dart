@@ -178,323 +178,114 @@ class EnglishEntryclick extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ئەنجامدانیشتێک لەسەر کۆمپیوتەر بە پەنجەنان بە ماوسەکەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Click here to add your opinion to the survey."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێرە گرتە بکە بۆ زیادکردنی بۆچوونت بۆ ڕاپرسییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "click", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Click here to add your opinion to the survey.",
+                            kurdishText:
+                                "لێرە گرتە بکە بۆ زیادکردنی بۆچوونت بۆ ڕاپرسییەکە.", // click",
+                            onPressedBritish: () => speakclicks1("en-GB"),
+                            onPressedAmerican: () => speakclicks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Click the OK button to start."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلیک لە دووگمەی OK بکە بۆ دەستپێکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Click the OK button to start.",
+                            kurdishText:
+                                "کلیک لە دووگمەی OK بکە بۆ دەستپێکردن.",
+                            onPressedBritish: () => speakclicks2("en-GB"),
+                            onPressedAmerican: () => speakclicks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) درووستکردنی قرتەیەکی کورت و خێرا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The door clicked shut."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەرگاکە بە قرتەیەک گیرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The door clicked shut.",
+                            kurdishText: "دەرگاکە بە قرتەیەک گیرا.",
+                            onPressedBritish: () => speakclicks3("en-GB"),
+                            onPressedAmerican: () => speakclicks3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He clicked his fingers at the waiter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەقەنەیەک لێدا بۆ گارسۆنەکە بە پەنجەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He clicked his fingers at the waiter.",
+                            kurdishText:
+                                "چەقەنەیەک لێدا بۆ گارسۆنەکە بە پەنجەکانی.",
+                            onPressedBritish: () => speakclicks4("en-GB"),
+                            onPressedAmerican: () => speakclicks4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police officer clicked a pair of handcuffs around his wrists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەفسەرە پۆلیسەکە کەلەپچەیەکی لە مەچەکەکانی ئاڵاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police officer clicked a pair of handcuffs around his wrists.",
+                            kurdishText:
+                                "ئەفسەرە پۆلیسەکە کەلەپچەیەکی لە مەچەکەکانی ئاڵاند.",
+                            onPressedBritish: () => speakclicks5("en-GB"),
+                            onPressedAmerican: () => speakclicks5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) (بۆ شتێک) کە لەناکاو ڕوون دەبێت و خەڵکی لێی تێ دەگەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Suddenly it clicked—we'd been talking about different people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەناکاو ڕوونبووەوە، قسەمان لەسەر کەسی جیاواز دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Suddenly it clicked—we'd been talking about different people.",
+                            kurdishText:
+                                "لەناکاو ڕوونبووەوە، قسەمان لەسەر کەسی جیاواز دەکرد.",
+                            onPressedBritish: () => speakclicks6("en-GB"),
+                            onPressedAmerican: () => speakclicks6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) لەناکاو بوون بە ھاوڕێ لەگەڵ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We met at a party and clicked immediately."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئاھەنگێک یەکمان ناسی و دەستبەجێ بووین بە دۆست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We met at a party and clicked immediately.",
+                            kurdishText:
+                                "لە ئاھەنگێک یەکمان ناسی و دەستبەجێ بووین بە دۆست.",
+                            onPressedBritish: () => speakclicks7("en-GB"),
+                            onPressedAmerican: () => speakclicks7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) باش کارکردن پێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team don't seem to have clicked yet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە وادەرناکەوێت ھێشتا پێکەوە بگونجێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The team don't seem to have clicked yet.",
+                            kurdishText:
+                                "تیمەکە وادەرناکەوێت ھێشتا پێکەوە بگونجێن.",
+                            onPressedBritish: () => speakclicks8("en-GB"),
+                            onPressedAmerican: () => speakclicks8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) دەستنان بە دووگمەی ماوسی کۆمپیوتەردا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A vast amount of information now available at the click of a mouse."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر لە زانیاری بەردەستە ئێستا بە کلیکی ماوسێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A vast amount of information now available at the click of a mouse.",
+                            kurdishText:
+                                "ڕێژەیەکی زۆر لە زانیاری بەردەستە ئێستا بە کلیکی ماوسێک.",
+                            onPressedBritish: () => speakclicks9("en-GB"),
+                            onPressedAmerican: () => speakclicks9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It only took me a couple of clicks to find what I was looking for."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆزینەوەی ئەوەی دەمویست تەنھا چەند کلیکێکی پێچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It only took me a couple of clicks to find what I was looking for.",
+                            kurdishText:
+                                "دۆزینەوەی ئەوەی دەمویست تەنھا چەند کلیکێکی پێچوو.",
+                            onPressedBritish: () => speakclicks10("en-GB"),
+                            onPressedAmerican: () => speakclicks10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) دەنگێکی تیژی کورت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The door closed with a click."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەرگاکە بە قرتەیەک گیرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclicks11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclicks11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The door closed with a click.",
+                            kurdishText: "دەرگاکە بە قرتەیەک گیرا.",
+                            onPressedBritish: () => speakclicks11("en-GB"),
+                            onPressedAmerican: () => speakclicks11("en-US"),
                           ),
                         ],
                       ),

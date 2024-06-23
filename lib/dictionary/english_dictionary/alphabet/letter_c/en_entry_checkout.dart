@@ -100,63 +100,25 @@ class EnglishEntrycheckout extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شوێنی پارەدانی ئەو شتانەی کە لە فرۆشگایەک دەیکڕیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your fruit and vegetables will be weighed at the checkout."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوە و سەوزەکانت لە مێزی پارەدان دەکێشرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "checkout", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheckouts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckouts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your fruit and vegetables will be weighed at the checkout.",
+                            kurdishText:
+                                "میوە و سەوزەکانت لە مێزی پارەدان دەکێشرێن.", // checkout",
+                            onPressedBritish: () => speakcheckouts1("en-GB"),
+                            onPressedAmerican: () => speakcheckouts1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کاتی دەرچوون لە ھوتێلێک لە کۆتایی مانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At checkout, your bill will be printed for you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حسابەکەت چاپ دەکرێت لە کۆتا دەرچوونت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheckouts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckouts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At checkout, your bill will be printed for you.",
+                            kurdishText:
+                                "حسابەکەت چاپ دەکرێت لە کۆتا دەرچوونت.",
+                            onPressedBritish: () => speakcheckouts2("en-GB"),
+                            onPressedAmerican: () => speakcheckouts2("en-US"),
                           ),
                           // skipped_meaning
                         ],

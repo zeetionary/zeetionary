@@ -120,123 +120,42 @@ class EnglishEntryconspicuous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ئاسان بۆ بینین و تێبینی کردن، زۆرجار بەشێوەیەکی نەویستراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mary's red hair always made her conspicuous at school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قژە سوورەکەی ماری ھەمیشە ھەمیشە بەرچاوی دەخست لە قوتابخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conspicuous", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconspicuouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconspicuouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mary's red hair always made her conspicuous at school.",
+                            kurdishText:
+                                "قژە سوورەکەی ماری ھەمیشە ھەمیشە بەرچاوی دەخست لە قوتابخانە.", // conspicuous",
+                            onPressedBritish: () => speakconspicuouss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconspicuouss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The advertisements were all posted in a conspicuous place."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانگەشەکان ھەموو لە شوێنێکی زەقدا بڵاوکرانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconspicuouss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconspicuouss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The advertisements were all posted in a conspicuous place.",
+                            kurdishText:
+                                "بانگەشەکان ھەموو لە شوێنێکی زەقدا بڵاوکرانەوە.",
+                            onPressedBritish: () => speakconspicuouss2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconspicuouss2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The event was a conspicuous success (= a very great one)."),
-                                    ExampleSentenceKurdish(
-                                        text: "بۆنەکە سەرکەوتنێکی ئاشکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconspicuouss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconspicuouss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The event was a conspicuous success (= a very great one).",
+                            kurdishText: "بۆنەکە سەرکەوتنێکی ئاشکرا.",
+                            onPressedBritish: () => speakconspicuouss3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconspicuouss3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The stain on her dress was horribly conspicuous."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەڵەی سەر جلەکەی ئێجگار زەق بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconspicuouss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconspicuouss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The stain on her dress was horribly conspicuous.",
+                            kurdishText: "پەڵەی سەر جلەکەی ئێجگار زەق بوو.",
+                            onPressedBritish: () => speakconspicuouss4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconspicuouss4("en-US"),
                           ),
                         ],
                       ),

@@ -122,122 +122,46 @@ class EnglishEntrychampion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک یان تیمێک کە پێشبڕکێیەکی بردووەتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were champions at the Winter Olympics in Chamonix."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاڵەوانی ئۆڵمپیادی زستانە بوون لە شامۆنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "champion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchampions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchampions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were champions at the Winter Olympics in Chamonix.",
+                            kurdishText:
+                                "پاڵەوانی ئۆڵمپیادی زستانە بوون لە شامۆنی.", // champion",
+                            onPressedBritish: () => speakchampions1("en-GB"),
+                            onPressedAmerican: () => speakchampions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The reigning champion will defend her title tonight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قارەمانی ھەنووکە ئەمشەو پارێزگاری لە پێگەکەی دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchampions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchampions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The reigning champion will defend her title tonight.",
+                            kurdishText:
+                                "قارەمانی ھەنووکە ئەمشەو پارێزگاری لە پێگەکەی دەکات.",
+                            onPressedBritish: () => speakchampions2("en-GB"),
+                            onPressedAmerican: () => speakchampions2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە پاڵپشتی لە گرووپێک لە خەڵکی یان باوەڕێک دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was a long-term champion of animal rights and environmental protection."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داکۆکی‌کارێکی درێژی مافەکانی ئاژەڵان و پاراستنی ژینگە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchampions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchampions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was a long-term champion of animal rights and environmental protection.",
+                            kurdishText:
+                                "داکۆکی‌کارێکی درێژی مافەکانی ئاژەڵان و پاراستنی ژینگە بوو.",
+                            onPressedBritish: () => speakchampions3("en-GB"),
+                            onPressedAmerican: () => speakchampions3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) پاڵپشتیکردن لە گرووپێک لە خەڵکی یان بیروباوەڕێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has championed constitutional reform for many years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ چەندین ساڵە پاڵپشتی لە ھەمواری دەستوور کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchampions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchampions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has championed constitutional reform for many years.",
+                            kurdishText:
+                                "بۆ چەندین ساڵە پاڵپشتی لە ھەمواری دەستوور کردووە.",
+                            onPressedBritish: () => speakchampions4("en-GB"),
+                            onPressedAmerican: () => speakchampions4("en-US"),
                           ),
                         ],
                       ),

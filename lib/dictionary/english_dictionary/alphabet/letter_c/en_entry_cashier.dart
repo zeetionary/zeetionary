@@ -186,32 +186,13 @@ class EnglishEntrycashier extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک لە بانکێک، فرۆشگایەک، ھوتێلێک، ھتد کە پارە وەردەگرێت و زیادەکەی دەداتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cashier greeted each customer warmly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاشێرەکە بەگەرمی پێشوازی لە ھەموو کڕیارێک کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cashier", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcashiers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcashiers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cashier greeted each customer warmly.",
+                            kurdishText:
+                                "کاشێرەکە بەگەرمی پێشوازی لە ھەموو کڕیارێک کرد.", // cashier",
+                            onPressedBritish: () => speakcashiers1("en-GB"),
+                            onPressedAmerican: () => speakcashiers1("en-US"),
                           ),
                         ],
                       ),

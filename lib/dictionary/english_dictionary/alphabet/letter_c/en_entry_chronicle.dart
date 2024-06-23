@@ -104,63 +104,25 @@ class EnglishEntrychronicle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تۆماری مێژوویی بەپێی ڕیزبەندی کاتی ڕوودان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her latest novel is a chronicle of life in a German village."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تازەترین ڕۆمانی تۆماری ژیانە لە گوندێکی ئەڵمانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chronicle", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchronicles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchronicles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her latest novel is a chronicle of life in a German village.",
+                            kurdishText:
+                                "تازەترین ڕۆمانی تۆماری ژیانە لە گوندێکی ئەڵمانی.", // chronicle",
+                            onPressedBritish: () => speakchronicles1("en-GB"),
+                            onPressedAmerican: () => speakchronicles1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) تۆمارکردنی ڕوودان بەپێی کاتی ڕوودانیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her achievements are chronicled in a new biography out this week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەدەستھێنانەکانی تۆمارکراون لە کتێبێکی ژیاننامەییدا کە ئەم ھەفتەیە بڵاودەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchronicles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchronicles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her achievements are chronicled in a new biography out this week.",
+                            kurdishText:
+                                "بەدەستھێنانەکانی تۆمارکراون لە کتێبێکی ژیاننامەییدا کە ئەم ھەفتەیە بڵاودەبێتەوە.",
+                            onPressedBritish: () => speakchronicles2("en-GB"),
+                            onPressedAmerican: () => speakchronicles2("en-US"),
                           ),
                         ],
                       ),

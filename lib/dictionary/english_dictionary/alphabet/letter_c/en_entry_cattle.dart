@@ -192,60 +192,22 @@ class EnglishEntrycattle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مانگا و نێرەگا کە وەک ئاژەڵی کێڵگە بەخێودەکرێن بۆ شیر و گۆشتەکەیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He moved his cattle farther down into the valley in winter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گاگەلەکەی زیاتر دەبردە دۆڵەکەوە لە زستاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cattle", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcattles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcattles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He moved his cattle farther down into the valley in winter.",
+                            kurdishText:
+                                "گاگەلەکەی زیاتر دەبردە دۆڵەکەوە لە زستاندا.", // cattle",
+                            onPressedBritish: () => speakcattles1("en-GB"),
+                            onPressedAmerican: () => speakcattles1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prisoners were herded into trucks like cattle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیندانییەکان وەک گاگەل خرانە ناو ئۆتۆمبێلەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcattles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcattles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prisoners were herded into trucks like cattle.",
+                            kurdishText:
+                                "زیندانییەکان وەک گاگەل خرانە ناو ئۆتۆمبێلەوە.",
+                            onPressedBritish: () => speakcattles2("en-GB"),
+                            onPressedAmerican: () => speakcattles2("en-US"),
                           ),
                         ],
                       ),

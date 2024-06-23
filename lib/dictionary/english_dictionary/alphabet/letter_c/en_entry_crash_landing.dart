@@ -232,32 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) نیشتنەوەی ناچاری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The pilot attempted a crash-landing on the beach."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فڕۆکەوانەکە ھەوڵی نیشتنەوەی ناچاری دا لە کەناراوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crash landing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrashlandings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrashlandings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The pilot attempted a crash-landing on the beach.",
+            kurdishText:
+                "فڕۆکەوانەکە ھەوڵی نیشتنەوەی ناچاری دا لە کەناراوەکە.", // crash landing", please follow LX instructions
+            onPressedBritish: () => speakcrashlandings1("en-GB"),
+            onPressedAmerican: () => speakcrashlandings1("en-US"),
           ),
         ],
       ),

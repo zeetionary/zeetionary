@@ -194,123 +194,47 @@ class EnglishEntrycache extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) حەشارگەی نھێنی، بۆ نموونە بۆ چەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The squirrel stored nuts in a cache beneath the tree."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سمۆرەکە کاکڵەکەی شاردەوە لە حەشارگەیەک لە ژێر دارەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cache", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaches1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaches1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The squirrel stored nuts in a cache beneath the tree.",
+                            kurdishText:
+                                "سمۆرەکە کاکڵەکەی شاردەوە لە حەشارگەیەک لە ژێر دارەکەدا.", // cache
+                            onPressedBritish: () => speakcaches1("en-GB"),
+                            onPressedAmerican: () => speakcaches1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەشێکی یادگەی کۆمپیوتەرێک کە زانیاری کۆگا دەکات کە زۆرجار پێویستن لە کاتێکدا پڕۆگرامەکە کار دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The browser stores frequently visited sites in a cache."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "براوزەرەکە ئەو وێبسایتانەی کە زووزوو سەردانکراون لە یادگەیەک کۆگا دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaches2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaches2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The browser stores frequently visited sites in a cache.",
+                            kurdishText:
+                                "براوزەرەکە ئەو وێبسایتانەی کە زووزوو سەردانکراون لە یادگەیەک کۆگا دەکات.",
+                            onPressedBritish: () => speakcaches2("en-GB"),
+                            onPressedAmerican: () => speakcaches2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٣. (کردار) شاردنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Pirates cached treasures in a beachside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەتەکان گەنجینەیان لە کەنار دەریایەک شاردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaches3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaches3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Pirates cached treasures in a beachside.",
+                            kurdishText:
+                                "چەتەکان گەنجینەیان لە کەنار دەریایەک شاردەوە.",
+                            onPressedBritish: () => speakcaches3("en-GB"),
+                            onPressedAmerican: () => speakcaches3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) ھەڵگرتنی داتا لە یادگەی کۆمپیوتەرێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Modern browsers cache images for faster loading."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "براوزەرەکانی ئەم سەردەمە وێنە لە یادگە ھەڵدەگرن بۆ خێرا کردنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaches4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaches4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Modern browsers cache images for faster loading.",
+                            kurdishText:
+                                "براوزەرەکانی ئەم سەردەمە وێنە لە یادگە ھەڵدەگرن بۆ خێرا کردنەوە.",
+                            onPressedBritish: () => speakcaches4("en-GB"),
+                            onPressedAmerican: () => speakcaches4("en-US"),
                           ),
                         ],
                       ),

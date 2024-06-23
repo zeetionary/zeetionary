@@ -188,32 +188,12 @@ class EnglishEntrycaffeine extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مادەیەک کە لە چاو قاوەدا ھەیە و چالاکت دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Try to avoid too much caffeine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ بدە لە کافینی زۆر بەدوور بیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "caffeine", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaffeines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaffeines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Try to avoid too much caffeine.",
+                            kurdishText:
+                                "ھەوڵ بدە لە کافینی زۆر بەدوور بیت.", // caffeine
+                            onPressedBritish: () => speakcaffeines1("en-GB"),
+                            onPressedAmerican: () => speakcaffeines1("en-US"),
                           ),
                         ],
                       ),

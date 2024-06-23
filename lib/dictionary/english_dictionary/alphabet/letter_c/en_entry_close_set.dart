@@ -93,30 +93,12 @@ class EnglishEntrycloseset extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر نزیک لە یەکدی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He had close-set eyes."),
-                                    ExampleSentenceKurdish(
-                                        text: "چاوی زۆر نزیک لە یەکدی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "close-set", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosesets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosesets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He had close-set eyes.",
+                            kurdishText:
+                                "چاوی زۆر نزیک لە یەکدی ھەبوو.", // close-set",
+                            onPressedBritish: () => speakclosesets1("en-GB"),
+                            onPressedAmerican: () => speakclosesets1("en-US"),
                           ),
                         ],
                       ),

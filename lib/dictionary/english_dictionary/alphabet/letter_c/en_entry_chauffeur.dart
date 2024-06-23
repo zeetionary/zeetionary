@@ -110,91 +110,34 @@ class EnglishEntrychauffeur extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His chauffeur was waiting in the street outside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆفێرەکەی لە شەقامەکە لە دەرەوە چاوەڕێ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chauffeur", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchauffeurs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchauffeurs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His chauffeur was waiting in the street outside.",
+                            kurdishText:
+                                "شۆفێرەکەی لە شەقامەکە لە دەرەوە چاوەڕێ بوو.", // chauffeur",
+                            onPressedBritish: () => speakchauffeurs1("en-GB"),
+                            onPressedAmerican: () => speakchauffeurs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He needs someone to act as bodyguard and chauffeur."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستی بە کەسێکە ئەرکی پاسەوان و شۆفێر ببینێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchauffeurs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchauffeurs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He needs someone to act as bodyguard and chauffeur.",
+                            kurdishText:
+                                "پێویستی بە کەسێکە ئەرکی پاسەوان و شۆفێر ببینێت.",
+                            onPressedBritish: () => speakchauffeurs2("en-GB"),
+                            onPressedAmerican: () => speakchauffeurs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) شۆفێریکردن بۆ کەسێک لە ئۆتۆمبێلێکدا، بەتایبەتی وەک کارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was chauffeured to all his meetings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ھەموو چاوپێکەوتنەکان بە شۆفێر دەبردرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchauffeurs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchauffeurs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was chauffeured to all his meetings.",
+                            kurdishText:
+                                "بۆ ھەموو چاوپێکەوتنەکان بە شۆفێر دەبردرا.",
+                            onPressedBritish: () => speakchauffeurs3("en-GB"),
+                            onPressedAmerican: () => speakchauffeurs3("en-US"),
                           ),
                         ],
                       ),

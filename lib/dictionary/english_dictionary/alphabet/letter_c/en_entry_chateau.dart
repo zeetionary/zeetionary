@@ -94,31 +94,12 @@ class EnglishEntrychateau extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆشکێک یان ماڵێکی گەورەی دەرەوەی شار لە فەرەنسا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The valley is home to more than 300 chateaux."),
-                                    ExampleSentenceKurdish(
-                                        text: "دۆڵەکە ٣٠٠ کۆشکی لێیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chateau", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchateaus1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchateaus1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The valley is home to more than 300 chateaux.",
+                            kurdishText: "دۆڵەکە ٣٠٠ کۆشکی لێیە.", // chateau",
+                            onPressedBritish: () => speakchateaus1("en-GB"),
+                            onPressedAmerican: () => speakchateaus1("en-US"),
                           ),
                         ],
                       ),

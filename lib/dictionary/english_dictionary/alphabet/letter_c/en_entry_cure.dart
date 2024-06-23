@@ -369,56 +369,19 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) چارەسەرکردنی کەسێک لە نەخۆشی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Will you be able to cure him, Doctor?"),
-                    ExampleSentenceKurdish(
-                        text: "دەتوانیت چارەسەری بکەیت، پزیشک؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cure", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcures1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcures1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Will you be able to cure him, Doctor?",
+            kurdishText:
+                "دەتوانیت چارەسەری بکەیت، پزیشک؟", // cure", please follow LX instructions
+            onPressedBritish: () => speakcures1("en-GB"),
+            onPressedAmerican: () => speakcures1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The doctor managed to cure her of her illness."),
-                    ExampleSentenceKurdish(
-                        text: "پزیشکەکە توانی نەخۆشییەکەی چارەسەر بکات؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcures2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcures2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The doctor managed to cure her of her illness.",
+            kurdishText: "پزیشکەکە توانی نەخۆشییەکەی چارەسەر بکات؟",
+            onPressedBritish: () => speakcures2("en-GB"),
+            onPressedAmerican: () => speakcures2("en-US"),
           ),
           Column(
             children: [
@@ -513,337 +476,109 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) نەھێشتنی نەخۆشییەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is better to prevent rather than cure diseases."),
-                    ExampleSentenceKurdish(
-                        text: "واباشە ڕێگری بکرێت وەک لە چارەسەرکردنی نەخۆشی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcures6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcures6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is better to prevent rather than cure diseases.",
+            kurdishText: "واباشە ڕێگری بکرێت وەک لە چارەسەرکردنی نەخۆشی.",
+            onPressedBritish: () => speakcures6("en-GB"),
+            onPressedAmerican: () => speakcures6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Finding it early is the key to curing most cancers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دۆزینەوەی بەزوویی خاڵی سەرەکییە لە چارەسەرکردنی زۆرینەی جۆرەکانی شێرپەنجە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcures7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcures7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Finding it early is the key to curing most cancers.",
+            kurdishText:
+                "دۆزینەوەی بەزوویی خاڵی سەرەکییە لە چارەسەرکردنی زۆرینەی جۆرەکانی شێرپەنجە.",
+            onPressedBritish: () => speakcures7("en-GB"),
+            onPressedAmerican: () => speakcures7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The disease can be cured with antibiotics."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەخۆشییەکە دەکرێت بە دژە بەکتریا چارەسەر بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcures8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcures8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The disease can be cured with antibiotics.",
+            kurdishText: "نەخۆشییەکە دەکرێت بە دژە بەکتریا چارەسەر بکرێت.",
+            onPressedBritish: () => speakcures8("en-GB"),
+            onPressedAmerican: () => speakcures8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) مامەڵەکردن لەگەڵ کێشەیەک بە سەرکەوتووانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I finally managed to cure the rattling noise in my car."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە کۆتاییدا توانیم دەنگی تەقەتەقەکە لە ئۆتۆمبێلەکەمدا چارەسەر بکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcures9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcures9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I finally managed to cure the rattling noise in my car.",
+            kurdishText:
+                "لە کۆتاییدا توانیم دەنگی تەقەتەقەکە لە ئۆتۆمبێلەکەمدا چارەسەر بکەم.",
+            onPressedBritish: () => speakcures9("en-GB"),
+            onPressedAmerican: () => speakcures9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Charities alone can't cure basic social injustices."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێکخراوە خێرخوازییەکان بە تەنھا ناتوانن چارەسەری نادادییە سەرەتاییە کۆمەڵایەتییەکان بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcures10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcures10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Charities alone can't cure basic social injustices.",
+            kurdishText:
+                "ڕێکخراوە خێرخوازییەکان بە تەنھا ناتوانن چارەسەری نادادییە سەرەتاییە کۆمەڵایەتییەکان بکەن.",
+            onPressedBritish: () => speakcures10("en-GB"),
+            onPressedAmerican: () => speakcures10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Most of the team's faults could be cured with good coaching."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرینەی ھەڵەکانی تیمەکە دەکرێت بە ڕاھێنانی باش چارەسەر بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcures11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcures11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Most of the team's faults could be cured with good coaching.",
+            kurdishText:
+                "زۆرینەی ھەڵەکانی تیمەکە دەکرێت بە ڕاھێنانی باش چارەسەر بکرێت.",
+            onPressedBritish: () => speakcures11("en-GB"),
+            onPressedAmerican: () => speakcures11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) دەرمانێک یان چارەسەرێک بۆ نەخۆشییەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Researchers are working to find a cure for the disease."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "توێژەران کاردەکەن بۆ دۆزینەوەی چارەسەرێک بۆ نەخۆشییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcures12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcures12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Researchers are working to find a cure for the disease.",
+            kurdishText:
+                "توێژەران کاردەکەن بۆ دۆزینەوەی چارەسەرێک بۆ نەخۆشییەکە.",
+            onPressedBritish: () => speakcures12("en-GB"),
+            onPressedAmerican: () => speakcures12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There is no miracle cure for this condition."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ چارەسەرێکی مۆجیزەئاسا بۆ ئەم دۆخە نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcures13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcures13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There is no miracle cure for this condition.",
+            kurdishText: "ھیچ چارەسەرێکی مۆجیزەئاسا بۆ ئەم دۆخە نییە.",
+            onPressedBritish: () => speakcures13("en-GB"),
+            onPressedAmerican: () => speakcures13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The only real cure is rest."),
-                    ExampleSentenceKurdish(text: "تەنھا چارەسەر پشوودانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcures14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcures14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The only real cure is rest.",
+            kurdishText: "تەنھا چارەسەر پشوودانە.",
+            onPressedBritish: () => speakcures14("en-GB"),
+            onPressedAmerican: () => speakcures14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) کاری چارەسەرکردنی کەسێک لە نەخۆشییەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Doctors cannot effect a cure if the disease has spread too far."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پزیشکان ناتوانن چارەسەرێک ئەنجام بدەن ئەگەر نەخۆشییەکە زۆر بڵاوبووبێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcures15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcures15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Doctors cannot effect a cure if the disease has spread too far.",
+            kurdishText:
+                "پزیشکان ناتوانن چارەسەرێک ئەنجام بدەن ئەگەر نەخۆشییەکە زۆر بڵاوبووبێتەوە.",
+            onPressedBritish: () => speakcures15("en-GB"),
+            onPressedAmerican: () => speakcures15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The cure took six weeks."),
-                    ExampleSentenceKurdish(text: "چارەسەرەکە شەش ھەفتەی ویست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcures16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcures16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cure took six weeks.",
+            kurdishText: "چارەسەرەکە شەش ھەفتەی ویست.",
+            onPressedBritish: () => speakcures16("en-GB"),
+            onPressedAmerican: () => speakcures16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (ناو) شتێک کە کێشەیەک چارەسەر دەکات، دۆخێکی خراپ باش دەکات، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Science cannot provide a cure for all the world's problems."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زانست ناتوانێت چارەسەر بۆ ھەموو کێشەکانی جیھان بدات بەدەستەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcures17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcures17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Science cannot provide a cure for all the world's problems.",
+            kurdishText:
+                "زانست ناتوانێت چارەسەر بۆ ھەموو کێشەکانی جیھان بدات بەدەستەوە.",
+            onPressedBritish: () => speakcures17("en-GB"),
+            onPressedAmerican: () => speakcures17("en-US"),
           ),
         ],
       ),

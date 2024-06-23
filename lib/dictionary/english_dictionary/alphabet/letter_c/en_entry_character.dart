@@ -241,59 +241,21 @@ class EnglishEntrycharacter extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک یان شتێک لە شانۆیەک، فیلمێک، یان کتێبێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Who plays the main character?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێ ڕۆڵی کەسایەتی سەرەکی دەبینێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "character", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Who plays the main character?",
+                            kurdishText:
+                                "کێ ڕۆڵی کەسایەتی سەرەکی دەبینێت؟", // character",
+                            onPressedBritish: () => speakcharacters1("en-GB"),
+                            onPressedAmerican: () => speakcharacters1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The writers killed off her character when she got cancer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نووسەرەکان کۆتییان بە کارەکتەرەکەی ھێنا کە تووشی شێرپەنجە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The writers killed off her character when she got cancer.",
+                            kurdishText:
+                                "نووسەرەکان کۆتییان بە کارەکتەرەکەی ھێنا کە تووشی شێرپەنجە بوو.",
+                            onPressedBritish: () => speakcharacters2("en-GB"),
+                            onPressedAmerican: () => speakcharacters2("en-US"),
                           ),
                           Column(
                             children: [
@@ -366,415 +328,148 @@ class EnglishEntrycharacter extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێکی دیاریکراو کە فیلمێک، شانۆیەک، یان زنجیرە درامایەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has developed a skill set from his character work in film, TV and stage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەزاییەکی بەدەستھێناوە کە سەرچاوەی گرتووە لە کارە کارەکتەرییەکانی لە فیلم، تەلەفیزیۆن، و تەختەی شانۆوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has developed a skill set from his character work in film, TV and stage.",
+                            kurdishText:
+                                "شارەزاییەکی بەدەستھێناوە کە سەرچاوەی گرتووە لە کارە کارەکتەرییەکانی لە فیلم، تەلەفیزیۆن، و تەختەی شانۆوە.",
+                            onPressedBritish: () => speakcharacters5("en-GB"),
+                            onPressedAmerican: () => speakcharacters5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) تەواوی خاسیەت و تایبەتمەندی کەسێک کە وادەکات جیاواز بێت لە کەسانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Generosity is part of the American character."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەخشندەیی بەشێکە لە سرووشتی ئەمریکا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Generosity is part of the American character.",
+                            kurdishText: "بەخشندەیی بەشێکە لە سرووشتی ئەمریکا.",
+                            onPressedBritish: () => speakcharacters6("en-GB"),
+                            onPressedAmerican: () => speakcharacters6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His scruffy appearance does not reflect his character."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرکەوتنە شڕوشپرزەکەی پێناسەی کەسایەتیی ناکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His scruffy appearance does not reflect his character.",
+                            kurdishText:
+                                "دەرکەوتنە شڕوشپرزەکەی پێناسەی کەسایەتیی ناکات.",
+                            onPressedBritish: () => speakcharacters7("en-GB"),
+                            onPressedAmerican: () => speakcharacters7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's not in his character to be so secretive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کەسایەتییدا نییە کە نھێنی‌پارێز بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's not in his character to be so secretive.",
+                            kurdishText:
+                                "لە کەسایەتییدا نییە کە نھێنی‌پارێز بێت.",
+                            onPressedBritish: () => speakcharacters8("en-GB"),
+                            onPressedAmerican: () => speakcharacters8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) خاسیەتی کەسیی بەھێز، بۆ نموونە وەک توانای مامەڵەکردن لەگەڵ دۆخی مەترسیدار و سەخت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everyone admires her strength of character and determination for success."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمووان سەرسامی بەھێزیی کەسایەتیی و ویستی بۆ سەرکەوتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Everyone admires her strength of character and determination for success.",
+                            kurdishText:
+                                "ھەمووان سەرسامی بەھێزیی کەسایەتیی و ویستی بۆ سەرکەوتن.",
+                            onPressedBritish: () => speakcharacters9("en-GB"),
+                            onPressedAmerican: () => speakcharacters9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team showed great character in coming back to win."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە لێھاتوویی گەورەی پیشاندا لە گەڕانەوە بۆ بردنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The team showed great character in coming back to win.",
+                            kurdishText:
+                                "تیمەکە لێھاتوویی گەورەی پیشاندا لە گەڕانەوە بۆ بردنەوە.",
+                            onPressedBritish: () => speakcharacters10("en-GB"),
+                            onPressedAmerican: () => speakcharacters10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) خاسیەتێکی دیاریکراو یان تایبەتمەندییەک کە شتێک، بۆنەیەک، یان شوێنێک ھەیەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The character of the neighbourhood hasn't changed at all."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕواڵەتی گەڕەکەکە ھیچ نەگۆڕاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The character of the neighbourhood hasn't changed at all.",
+                            kurdishText: "ڕواڵەتی گەڕەکەکە ھیچ نەگۆڕاوە.",
+                            onPressedBritish: () => speakcharacters11("en-GB"),
+                            onPressedAmerican: () => speakcharacters11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police pointed out the illegal character of the protest action."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس خەسڵەتی نایاسایی‌بوونی ناڕەزایی دەربڕینەکەی خستەبەرچاو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police pointed out the illegal character of the protest action.",
+                            kurdishText:
+                                "پۆلیس خەسڵەتی نایاسایی‌بوونی ناڕەزایی دەربڕینەکەی خستەبەرچاو.",
+                            onPressedBritish: () => speakcharacters12("en-GB"),
+                            onPressedAmerican: () => speakcharacters12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) خاسیەتی سەرنجڕاکێش یان نامۆی شتێک یان کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The restaurant is cheap and full of character."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چێشتخانەکە ھەرزان و پڕ لە تایبەتمەندییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The restaurant is cheap and full of character.",
+                            kurdishText:
+                                "چێشتخانەکە ھەرزان و پڕ لە تایبەتمەندییە.",
+                            onPressedBritish: () => speakcharacters13("en-GB"),
+                            onPressedAmerican: () => speakcharacters13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) کەسێک، بەتایبەتی کەسێک نامۆ و خراپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who's that suspicious character hanging around outside?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو کەسە گوماناوییە کێیە کە لە دەرەوە دەسووڕێتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Who's that suspicious character hanging around outside?",
+                            kurdishText:
+                                "ئەو کەسە گوماناوییە کێیە کە لە دەرەوە دەسووڕێتەوە؟",
+                            onPressedBritish: () => speakcharacters14("en-GB"),
+                            onPressedAmerican: () => speakcharacters14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (ناو) کەسێکی سەرنجڕاکێش و نامۆ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She's a character!"),
-                                    ExampleSentenceKurdish(
-                                        text: "کچێکی سەرنجڕاکێشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's a character!",
+                            kurdishText: "کچێکی سەرنجڕاکێشە.",
+                            onPressedBritish: () => speakcharacters15("en-GB"),
+                            onPressedAmerican: () => speakcharacters15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٩. (ناو) بۆچوونی خەڵکی لەسەرت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He left his job without a stain on his character."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکەی جێھێشت بەبێ ھیچ لەکەیەک لەسەر کەسایەتیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He left his job without a stain on his character.",
+                            kurdishText:
+                                "کارەکەی جێھێشت بەبێ ھیچ لەکەیەک لەسەر کەسایەتیی.",
+                            onPressedBritish: () => speakcharacters16("en-GB"),
+                            onPressedAmerican: () => speakcharacters16("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was prepared to sue for defamation of character."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامادەبوو بۆ شکاتکردن بۆ لەکەدارکردنی کەسایەتیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was prepared to sue for defamation of character.",
+                            kurdishText:
+                                "ئامادەبوو بۆ شکاتکردن بۆ لەکەدارکردنی کەسایەتیی.",
+                            onPressedBritish: () => speakcharacters17("en-GB"),
+                            onPressedAmerican: () => speakcharacters17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (ناو) پیتێک، ئاماژەیەک، نیشانەیەک، یان سمبولێک کە لە نووسین، چاپ، و کۆمپیوتەردا بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These are the Chinese characters meaning ‘wind’ and ‘water’."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ئەو ھێما چینییانەن کە بە واتار 'با' و 'ئاو' دێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharacters18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharacters18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These are the Chinese characters meaning ‘wind’ and ‘water’.",
+                            kurdishText:
+                                "ئەم ئەو ھێما چینییانەن کە بە واتار 'با' و 'ئاو' دێن.",
+                            onPressedBritish: () => speakcharacters18("en-GB"),
+                            onPressedAmerican: () => speakcharacters18("en-US"),
                           ),
                         ],
                       ),

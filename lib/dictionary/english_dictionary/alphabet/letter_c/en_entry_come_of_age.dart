@@ -110,34 +110,15 @@ class EnglishEntrycomeofage extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ئیدیەم) گەشتن بە تەمەنی یاسایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The money will go to the children when they come of age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارەکە دەدرێت بە منداڵەکان کە دەگەن بە تەمەنی یاسایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakCome142251("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakCome142251(
-                                        // REPLACE: come of age /kʌm əv eɪdʒ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The money will go to the children when they come of age.",
+                            kurdishText:
+                                "پارەکە دەدرێت بە منداڵەکان کە دەگەن بە تەمەنی یاسایی.",
+                            onPressedBritish: () => speakCome142251("en-GB"),
+                            onPressedAmerican: () => speakCome142251(
+                                // REPLACE: come of age /kʌm əv eɪdʒ/
+                                "en-US"),
                           ),
                         ],
                       ),

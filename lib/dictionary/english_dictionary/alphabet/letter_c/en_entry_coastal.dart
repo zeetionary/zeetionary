@@ -93,32 +93,12 @@ class EnglishEntrycoastal extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) سەر بە کەنار ئاوێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She grew up in a small coastal town."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە شارۆچکەیەکی کەناراوی بچووک گەورە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coastal", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoastals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoastals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She grew up in a small coastal town.",
+                            kurdishText:
+                                "لە شارۆچکەیەکی کەناراوی بچووک گەورە بوو.", // coastal",
+                            onPressedBritish: () => speakcoastals1("en-GB"),
+                            onPressedAmerican: () => speakcoastals1("en-US"),
                           ),
                         ],
                       ),

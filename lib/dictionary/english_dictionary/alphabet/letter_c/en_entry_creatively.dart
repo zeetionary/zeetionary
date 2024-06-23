@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە خەیاڵ و شارەزایی بەکاردێنێت بۆ درووستکردنی شتێکی تازە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This is a unique opportunity to think creatively about how to fix these problems."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمە دەرفەتێکی باشە بۆ بیرکردنەوە بە تازەگەرییانە سەبارەت بەوەی چۆن ئەم کێشانە چارەسەر بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creatively", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreativelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreativelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This is a unique opportunity to think creatively about how to fix these problems.",
+            kurdishText:
+                "ئەمە دەرفەتێکی باشە بۆ بیرکردنەوە بە تازەگەرییانە سەبارەت بەوەی چۆن ئەم کێشانە چارەسەر بکەین.", // creatively", please follow LX instructions
+            onPressedBritish: () => speakcreativelys1("en-GB"),
+            onPressedAmerican: () => speakcreativelys1("en-US"),
           ),
         ],
       ),

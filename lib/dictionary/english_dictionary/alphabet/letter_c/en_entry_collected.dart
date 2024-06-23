@@ -101,62 +101,24 @@ class EnglishEntrycollected extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر ئارام و لەسەرخۆ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She appeared calm and collected."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئارام و لەسەرخۆ دەرکەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collected", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollecteds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollecteds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She appeared calm and collected.",
+                            kurdishText:
+                                "ئارام و لەسەرخۆ دەرکەوت.", // collected",
+                            onPressedBritish: () => speakcollecteds1("en-GB"),
+                            onPressedAmerican: () => speakcollecteds1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) تەواوی کارە کۆکراوەکانی یەک نووسەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His collected poems were published in 1928."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆکراوەی کارەکانی لە ساڵی ١٩٢٨ بڵاوکرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollecteds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollecteds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His collected poems were published in 1928.",
+                            kurdishText:
+                                "کۆکراوەی کارەکانی لە ساڵی ١٩٢٨ بڵاوکرایەوە.",
+                            onPressedBritish: () => speakcollecteds2("en-GB"),
+                            onPressedAmerican: () => speakcollecteds2("en-US"),
                           ),
                         ],
                       ),

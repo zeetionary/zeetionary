@@ -95,32 +95,13 @@ class EnglishEntrycooker extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئامێرێکی گەورە بۆ خواردن لێنان کە فڕن و چاوی گازی یان کارەبایی لەسەرەوە ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She set the house on fire by leaving a chip pan on the cooker."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگری لە خانووەکە بەردا بە جێھێشتنی تاوەیەک لەسەر غازەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cooker", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcookers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcookers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She set the house on fire by leaving a chip pan on the cooker.",
+                            kurdishText:
+                                "ئاگری لە خانووەکە بەردا بە جێھێشتنی تاوەیەک لەسەر غازەکە.", // cooker",
+                            onPressedBritish: () => speakcookers1("en-GB"),
+                            onPressedAmerican: () => speakcookers1("en-US"),
                           ),
                         ],
                       ),

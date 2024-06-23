@@ -202,412 +202,143 @@ class EnglishEntrycoach extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕاھێنەری تیمێکی وەرزشی یان کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is a former college football coach."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆنە ڕاھێنەرێکی تۆپی پێیە لە کۆلێژ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coach", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoachs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoachs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is a former college football coach.",
+                            kurdishText:
+                                "کۆنە ڕاھێنەرێکی تۆپی پێیە لە کۆلێژ.", // coach",
+                            onPressedBritish: () => speakcoachs1("en-GB"),
+                            onPressedAmerican: () => speakcoachs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Who's the team coach?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕاھێنەری تیمەکە کێیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoachs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoachs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Who's the team coach?",
+                            kurdishText: "ڕاھێنەری تیمەکە کێیە؟",
+                            onPressedBritish: () => speakcoachs2("en-GB"),
+                            onPressedAmerican: () => speakcoachs2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "See you tomorrow, Coach."),
-                                    ExampleSentenceKurdish(
-                                        text: "سبەی دەتبینمەوە، ڕاھێنەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoachs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoachs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "See you tomorrow, Coach.",
+                            kurdishText: "سبەی دەتبینمەوە، ڕاھێنەر.",
+                            onPressedBritish: () => speakcoachs3("en-GB"),
+                            onPressedAmerican: () => speakcoachs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە وانەی تایبەتی بە کەسێک دەڵێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He credited his success to his acting coach's guidance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکەوتنی گەڕاندەوە بۆ ڕێنمایی ڕاھێنەری نمایشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoachs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoachs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He credited his success to his acting coach's guidance.",
+                            kurdishText:
+                                "سەرکەوتنی گەڕاندەوە بۆ ڕێنمایی ڕاھێنەری نمایشی.",
+                            onPressedBritish: () => speakcoachs4("en-GB"),
+                            onPressedAmerican: () => speakcoachs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەسێک کە پارەی پێ دەدەیت بۆ ئەوەی ڕاوێژت پێ بدات لەسەر باشترکردنی ژیانت"),
                           const AlsoEnglishckb(word: "ھەروەھا: life coach"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many life coaches work from home via the telephone and internet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر ڕاوێژەری ژین لە ماڵەوە لە ڕێگەی تەلەفۆن و ئینتەرنێتەوە کاردەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoachs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoachs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many life coaches work from home via the telephone and internet.",
+                            kurdishText:
+                                "زۆر ڕاوێژەری ژین لە ماڵەوە لە ڕێگەی تەلەفۆن و ئینتەرنێتەوە کاردەکەن.",
+                            onPressedBritish: () => speakcoachs5("en-GB"),
+                            onPressedAmerican: () => speakcoachs5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) پاسێک کە بۆ گەشتی دوور مەودا بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Travel is by coach overnight to Berlin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشت بە پاسە لە نیوەشەودا بۆ بەرلین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoachs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoachs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Travel is by coach overnight to Berlin.",
+                            kurdishText: "گەشت بە پاسە لە نیوەشەودا بۆ بەرلین.",
+                            onPressedBritish: () => speakcoachs6("en-GB"),
+                            onPressedAmerican: () => speakcoachs6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was seen boarding a coach to Southampton."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بینرا کە سەرکەوتە پاسێک بۆ ساوسامپتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoachs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoachs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was seen boarding a coach to Southampton.",
+                            kurdishText:
+                                "بینرا کە سەرکەوتە پاسێک بۆ ساوسامپتن.",
+                            onPressedBritish: () => speakcoachs7("en-GB"),
+                            onPressedAmerican: () => speakcoachs7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) بەشێکی جیاکراوەی شەمەندەفەر بۆ گواستنەوەی گەشتیار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Our seats are in Coach D."),
-                                    ExampleSentenceKurdish(
-                                        text: "جێگاکانمان لە واگۆنی D ـن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoachs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoachs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Our seats are in Coach D.",
+                            kurdishText: "جێگاکانمان لە واگۆنی D ـن.",
+                            onPressedBritish: () => speakcoachs8("en-GB"),
+                            onPressedAmerican: () => speakcoachs8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) گالیسکەیەکی داخراو کە لە کۆندا بە ڕاکێشانی ئەسپ بۆ گواستنەوە بەکاردەھات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "This is the old coach road."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەمە ڕێگا کۆنەکەی گالیسکەکانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoachs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoachs9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This is the old coach road.",
+                            kurdishText: "ئەمە ڕێگا کۆنەکەی گالیسکەکانە.",
+                            onPressedBritish: () => speakcoachs9("en-GB"),
+                            onPressedAmerican: () => speakcoachs9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) ھەرزانترین جێگاکانی ناو فڕۆکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Even the company's director flies coach most of the time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنانەت بەڕێوبەری کۆمپانیاکە زۆرجار لە جێگای ھەرزان دەفڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoachs10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoachs10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Even the company's director flies coach most of the time.",
+                            kurdishText:
+                                "تەنانەت بەڕێوبەری کۆمپانیاکە زۆرجار لە جێگای ھەرزان دەفڕێت.",
+                            onPressedBritish: () => speakcoachs10("en-GB"),
+                            onPressedAmerican: () => speakcoachs10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) ڕاھێنەری کردنی تیمێک یان کەسێک بۆ یاری وەرزشی، کردنی شتێک بە باشتر، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has coached the team for five years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێنج ساڵە ڕاھێنەری تیمەکەی کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoachs11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoachs11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has coached the team for five years.",
+                            kurdishText: "پێنج ساڵە ڕاھێنەری تیمەکەی کردووە.",
+                            onPressedBritish: () => speakcoachs11("en-GB"),
+                            onPressedAmerican: () => speakcoachs11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has coached hundreds of young singers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاھێنەری بە سەدا گۆرانیبێژی گەنج کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoachs12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoachs12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has coached hundreds of young singers.",
+                            kurdishText:
+                                "ڕاھێنەری بە سەدا گۆرانیبێژی گەنج کردووە.",
+                            onPressedBritish: () => speakcoachs12("en-GB"),
+                            onPressedAmerican: () => speakcoachs12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her father coached her for the Olympics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوکی بۆ ئۆڵۆمپیاد مەشقی پێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoachs13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoachs13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her father coached her for the Olympics.",
+                            kurdishText: "باوکی بۆ ئۆڵۆمپیاد مەشقی پێکرد.",
+                            onPressedBritish: () => speakcoachs13("en-GB"),
+                            onPressedAmerican: () => speakcoachs13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) پێدانی ڕێنمایی بە کەسێک کە چی بکات یان بڵێت لە دۆخێکی دیاریکراودا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They believed the witnesses had been coached on what to say."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێیان وابوو کە شایەتحاڵەکان ڕێنماییان پێدرابوو چی بڵێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoachs14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoachs14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They believed the witnesses had been coached on what to say.",
+                            kurdishText:
+                                "پێیان وابوو کە شایەتحاڵەکان ڕێنماییان پێدرابوو چی بڵێن.",
+                            onPressedBritish: () => speakcoachs14("en-GB"),
+                            onPressedAmerican: () => speakcoachs14("en-US"),
                           ),
                         ],
                       ),

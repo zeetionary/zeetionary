@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەو خواردنەی کە مانگا و ئاژەڵی دیکە لە گەدەیانەوە دەیھێننەوە بۆ ئەوەی دووبارە بیجاون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The farmer watched the cows chewing their cud in the barn."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاژەڵدارەکە سەیری مانگاکانی دەکرد کە کاوێژیان دەکرد لە ئاخوڕەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cud", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The farmer watched the cows chewing their cud in the barn.",
+            kurdishText:
+                "ئاژەڵدارەکە سەیری مانگاکانی دەکرد کە کاوێژیان دەکرد لە ئاخوڕەکەدا.", // cud", please follow LX instructions
+            onPressedBritish: () => speakcuds1("en-GB"),
+            onPressedAmerican: () => speakcuds1("en-US"),
           ),
         ],
       ),

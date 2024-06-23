@@ -187,34 +187,14 @@ class EnglishEntrycarriageway extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) یەکێک لە سایدەکانی ڕێگایەکی دوو ساید کە ئۆتۆمبێل بە ھەمان ئاراستە تێیدا دەچن، و بە پێچەوانەی سایدەکەی دیکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Drivers should exercise caution when changing lanes on a busy carriageway."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆفێران دەبێت وریایی پیشان بدەن لە گۆڕینی ھێڵ لە سایدێکی قەرەباڵغدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carriageway", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarriageways1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarriageways1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Drivers should exercise caution when changing lanes on a busy carriageway.",
+                            kurdishText:
+                                "شۆفێران دەبێت وریایی پیشان بدەن لە گۆڕینی ھێڵ لە سایدێکی قەرەباڵغدا.", // carriageway",
+                            onPressedBritish: () => speakcarriageways1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarriageways1("en-US"),
                           ),
                         ],
                       ),

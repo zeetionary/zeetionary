@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) بەشێوەیەک کە خەڵکی لە کێبڕکێدان لەگەڵ یەکدیدا بەشێوەیەکی دوژمنکارانە و نادادپەروەرانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The advertising world can be a very cutthroat business."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جیھانی ڕیکلامکردن دەکرێت بازرگانییەکی دوژمنکارانە بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cut-throat", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutthroats1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutthroats1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The advertising world can be a very cutthroat business.",
+            kurdishText:
+                "جیھانی ڕیکلامکردن دەکرێت بازرگانییەکی دوژمنکارانە بێت.", // cut-throat", please follow LX instructions
+            onPressedBritish: () => speakcutthroats1("en-GB"),
+            onPressedAmerican: () => speakcutthroats1("en-US"),
           ),
         ],
       ),

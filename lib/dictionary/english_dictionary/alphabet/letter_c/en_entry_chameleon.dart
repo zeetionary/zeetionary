@@ -95,32 +95,13 @@ class EnglishEntrychameleon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مارمێلکەیەکی بچووک کە ڕەنگی دەگۆڕێت بەپێی دەورووبەری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Predators often struggle to spot chameleons as they hide among branches and foliage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاوکەران زۆرجار کێشەیان ھەیە لەگەڵ دۆزینەوەی ڕۆژپەرستان ھەیە بەھۆی ئەوەی خۆیان لەناو لق و پۆپەکان دەشارنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chameleon", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchameleons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchameleons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Predators often struggle to spot chameleons as they hide among branches and foliage.",
+                            kurdishText:
+                                "ڕاوکەران زۆرجار کێشەیان ھەیە لەگەڵ دۆزینەوەی ڕۆژپەرستان ھەیە بەھۆی ئەوەی خۆیان لەناو لق و پۆپەکان دەشارنەوە.", // chameleon",
+                            onPressedBritish: () => speakchameleons1("en-GB"),
+                            onPressedAmerican: () => speakchameleons1("en-US"),
                           ),
                         ],
                       ),

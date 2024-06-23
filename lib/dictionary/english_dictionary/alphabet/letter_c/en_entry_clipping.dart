@@ -103,63 +103,25 @@ class EnglishEntryclipping extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچەیەک کە لە شتێکی دیکە لێکراوەتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She collected the nail clippings in a tissue."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نینۆکە بڕاوەکانی لە کلێنسێکدا کۆکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clipping", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclippings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclippings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She collected the nail clippings in a tissue.",
+                            kurdishText:
+                                "نینۆکە بڕاوەکانی لە کلێنسێکدا کۆکردەوە.", // clipping",
+                            onPressedBritish: () => speakclippings1("en-GB"),
+                            onPressedAmerican: () => speakclippings1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) وتارێک یان چیرۆکێک کە لە ڕۆژنامەیەک یان گۆڤارێکی دەبڕیت و ھەڵیدەگریت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had kept all the press clippings about the murder."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو بڕشتە ڕۆژنامەوانییەکانی سەبارەت بە کوشتنەکە پاراست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclippings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclippings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had kept all the press clippings about the murder.",
+                            kurdishText:
+                                "ھەموو بڕشتە ڕۆژنامەوانییەکانی سەبارەت بە کوشتنەکە پاراست.",
+                            onPressedBritish: () => speakclippings2("en-GB"),
+                            onPressedAmerican: () => speakclippings2("en-US"),
                           ),
                         ],
                       ),

@@ -252,93 +252,36 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەکتەرێک کە لەگەڵ یەکێکی دیکە لە فیلمێکدا دەردەکەوێت لە کاتێکدا ھەردووکیان ھەمان گرنگیان ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The co-stars of \"Casablanca\" are Ingrid Bergman and Humphrey Bogart."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەکتەرە سەرەکییەکانی فیلمی 'کازابلانکا' ئینگرید بێرگمان و ھەمپبرێی بۆگارتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "co-star", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostars1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostars1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                            "The co-stars of \"Casablanca\" are Ingrid Bergman and Humphrey Bogart.",
+            kurdishText:
+                            "ئەکتەرە سەرەکییەکانی فیلمی 'کازابلانکا' ئینگرید بێرگمان و ھەمپبرێی بۆگارتن.", // co-star", please follow LX instructions
+              onPressedBritish: () => speakcostars1("en-GB"),
+            onPressedAmerican: () => speakcostars1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) دەرکەوتن وەک ئەکتەرێکی سەرەکی ھاوشان لەگەڵ یەکێکی دیکەدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is a movie in which Jennifer Lawrence co-stars with Joel Edgerton."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیلمێکە تێیدا جێنیفەر لۆرنس ڕۆڵ دەبینێت لەگەڵ جۆوڵ ئێدگرتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostars2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostars2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                            "It is a movie in which Jennifer Lawrence co-stars with Joel Edgerton.",
+            kurdishText:
+                            "فیلمێکە تێیدا جێنیفەر لۆرنس ڕۆڵ دەبینێت لەگەڵ جۆوڵ ئێدگرتن.",
+            onPressedBritish: () => speakcostars2("en-GB"),
+            onPressedAmerican: () => speakcostars2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) ھەبوونی دوو ئەکتەری سەرەکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The movie co-stars Jennifer Aniston and Jason Sudeikis."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیلمەکە جێنیفەر ئەنیستن و جەیسن سودەیکیزی وەک ئەکتەری سەرەکی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostars3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostars3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                            "The movie co-stars Jennifer Aniston and Jason Sudeikis.",
+            kurdishText:
+                            "فیلمەکە جێنیفەر ئەنیستن و جەیسن سودەیکیزی وەک ئەکتەری سەرەکی ھەیە.",
+            onPressedBritish: () => speakcostars3("en-GB"),
+            onPressedAmerican: () => speakcostars3("en-US"),
           ),
         ],
       ),

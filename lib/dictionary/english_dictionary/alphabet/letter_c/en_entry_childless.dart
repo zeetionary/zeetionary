@@ -94,32 +94,13 @@ class EnglishEntrychildless extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بێ منداڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Couples who are childless can feel excluded from the rest of society."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو خۆشەویستانەی کە بێ‌منداڵن دەکرێت ھەست بە وەلانراوی بکەن لەلایەن بەشەکەی دیکەی کۆمەڵگەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "childless", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchildlesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchildlesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Couples who are childless can feel excluded from the rest of society.",
+                            kurdishText:
+                                "ئەو خۆشەویستانەی کە بێ‌منداڵن دەکرێت ھەست بە وەلانراوی بکەن لەلایەن بەشەکەی دیکەی کۆمەڵگەوە.", // childless",
+                            onPressedBritish: () => speakchildlesss1("en-GB"),
+                            onPressedAmerican: () => speakchildlesss1("en-US"),
                           ),
                         ],
                       ),

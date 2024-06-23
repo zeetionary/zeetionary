@@ -233,30 +233,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەو ڕێژەیەی کە لە پیاڵە یان پەرداخێکدا جێگای دەبێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Add two cupfuls of milk to the mixture."),
-                    ExampleSentenceKurdish(
-                        text: "دوو پیاڵە شیر زیاد بکە بۆ تێکەڵەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cupful", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcupfuls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcupfuls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Add two cupfuls of milk to the mixture.",
+            kurdishText:
+                "دوو پیاڵە شیر زیاد بکە بۆ تێکەڵەکە.", // cupful", please follow LX instructions
+            onPressedBritish: () => speakcupfuls1("en-GB"),
+            onPressedAmerican: () => speakcupfuls1("en-US"),
           ),
         ],
       ),

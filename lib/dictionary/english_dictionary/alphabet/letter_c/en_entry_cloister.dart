@@ -95,32 +95,13 @@ class EnglishEntrycloister extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕێڕەوێکی سەرداپۆشراو کە قەوسی ھەیە لە دەوری باخچەیەکی لاکێشە یان چوارگۆشەیە، بەتایبەتی لە کڵێسایەک یان خانەقای ڕەبەنانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The 12th century church and cloisters remain surprisingly intact."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڵێسا و داڵانەکەی سەدەی ١٢ـیەم بەشێوەیەکی سەرنجڕاکێش بێ‌خەوش ماوەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cloister", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloisters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloisters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The 12th century church and cloisters remain surprisingly intact.",
+                            kurdishText:
+                                "کڵێسا و داڵانەکەی سەدەی ١٢ـیەم بەشێوەیەکی سەرنجڕاکێش بێ‌خەوش ماوەتەوە.", // cloister",
+                            onPressedBritish: () => speakcloisters1("en-GB"),
+                            onPressedAmerican: () => speakcloisters1("en-US"),
                           ),
                         ],
                       ),

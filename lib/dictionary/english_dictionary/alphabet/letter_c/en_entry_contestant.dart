@@ -103,60 +103,21 @@ class EnglishEntrycontestant extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە بەژداری لە پێشبڕکێیەک یان ڕکابەرییەک دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please welcome our next contestant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە پێشوازی لە ڕکابەری دواترمان بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contestant", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontestants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontestants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Please welcome our next contestant.",
+                            kurdishText:
+                                "تکایە پێشوازی لە ڕکابەری دواترمان بکەن.", // contestant",
+                            onPressedBritish: () => speakcontestants1("en-GB"),
+                            onPressedAmerican: () => speakcontestants1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had once been a contestant in the Miss World competition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشووتر جارێک ڕکابەر بوو لە پێشبڕکێی شاجوانی جیھان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontestants2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontestants2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had once been a contestant in the Miss World competition.",
+                            kurdishText:
+                                "پێشووتر جارێک ڕکابەر بوو لە پێشبڕکێی شاجوانی جیھان.",
+                            onPressedBritish: () => speakcontestants2("en-GB"),
+                            onPressedAmerican: () => speakcontestants2("en-US"),
                           ),
                         ],
                       ),

@@ -190,100 +190,40 @@ class EnglishEntrycannibalize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) کەمکردنەوەی فرۆشی بەرھەمێک لەلایەن کۆمپانیایەکەوە بە ناساندنی بەرھەمێکی دیکەی لێکچوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We believe the two perfumes appeal to different buyers and won’t cannibalize one another’s sales."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێمانوایە دوو بۆنەکە بۆ دوو کڕیاری جیاوازن کار لە فرۆشی یەکدی ناکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cannibalize", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcannibalizes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcannibalizes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We believe the two perfumes appeal to different buyers and won’t cannibalize one another’s sales.",
+                            kurdishText:
+                                "پێمانوایە دوو بۆنەکە بۆ دوو کڕیاری جیاوازن کار لە فرۆشی یەکدی ناکەن.", // cannibalize",
+                            onPressedBritish: () => speakcannibalizes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcannibalizes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ھەڵوەشاندنەوەی بەشەکانی ئامێرێک یان پێڕەوێک و بەکارھێنانی بۆ درووستکردن یان چاککردنەوەی دانەیەکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bought an old engine and cannibalized it for parts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بزوێنەرێکی کۆنی کڕی و ھەڵیوەشاندەوە بۆ بەشەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcannibalizes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcannibalizes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He bought an old engine and cannibalized it for parts.",
+                            kurdishText:
+                                "بزوێنەرێکی کۆنی کڕی و ھەڵیوەشاندەوە بۆ بەشەکانی.",
+                            onPressedBritish: () => speakcannibalizes2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcannibalizes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) خواردنی ئاژەڵێک لەلایەن یەکێکی دیکەی ھاوجۆری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Female spiders cannibalize courting males."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاڵجاڵۆکەی مێینە نێرینە دڵدارەکانیان دەخۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcannibalizes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcannibalizes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Female spiders cannibalize courting males.",
+                            kurdishText:
+                                "جاڵجاڵۆکەی مێینە نێرینە دڵدارەکانیان دەخۆن.",
+                            onPressedBritish: () => speakcannibalizes3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcannibalizes3("en-US"),
                           ),
                         ],
                       ),

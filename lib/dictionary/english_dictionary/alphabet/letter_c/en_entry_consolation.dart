@@ -112,94 +112,34 @@ class EnglishEntryconsolation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە وات لێدەکات ھەست بە باشی بکەیت کە دڵتەنگ یان نائومێدیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If it's any consolation, she didn't get the job, either."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر دڵدانەوە دەبێت بۆت، ئەویش کارەکەی وەرنەگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consolation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsolations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsolations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If it's any consolation, she didn't get the job, either.",
+                            kurdishText:
+                                "ئەگەر دڵدانەوە دەبێت بۆت، ئەویش کارەکەی وەرنەگرت.", // consolation",
+                            onPressedBritish: () => speakconsolations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsolations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children were a great consolation to him when his wife died."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان دڵدانەوەی باشبوون کە ھاوژینەکەی گیانی لەدەستدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsolations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsolations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children were a great consolation to him when his wife died.",
+                            kurdishText:
+                                "منداڵەکان دڵدانەوەی باشبوون کە ھاوژینەکەی گیانی لەدەستدا.",
+                            onPressedBritish: () => speakconsolations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsolations2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At least you weren’t hurt—that’s one consolation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ نەبێت سەلامەتیت، ئەوە مایەی دڵدانەوەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsolations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsolations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At least you weren’t hurt—that’s one consolation.",
+                            kurdishText:
+                                "ھیچ نەبێت سەلامەتیت، ئەوە مایەی دڵدانەوەیە.",
+                            onPressedBritish: () => speakconsolations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsolations3("en-US"),
                           ),
                         ],
                       ),

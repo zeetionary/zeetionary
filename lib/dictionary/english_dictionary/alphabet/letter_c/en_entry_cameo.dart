@@ -193,32 +193,13 @@ class EnglishEntrycameo extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەشێکی بچووکی فیلمێک یان شانۆیەک کە لەلایەن ئەکتەرێکی بەناوبانگەوە ڕۆڵی دەبیندرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He appears briefly towards the end of the film in a cameo role as a priest."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە نزیک کۆتایی فیلمەکە بەکورتی دەردەکەوێت لە ڕۆڵێکی بچووکدا وەک قەشەیەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cameo", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcameos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcameos1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He appears briefly towards the end of the film in a cameo role as a priest.",
+                            kurdishText:
+                                "لە نزیک کۆتایی فیلمەکە بەکورتی دەردەکەوێت لە ڕۆڵێکی بچووکدا وەک قەشەیەک.", // cameo
+                            onPressedBritish: () => speakcameos1("en-GB"),
+                            onPressedAmerican: () => speakcameos1("en-US"),
                           ),
                         ],
                       ),

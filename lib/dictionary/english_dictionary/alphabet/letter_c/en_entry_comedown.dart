@@ -95,32 +95,13 @@ class EnglishEntrycomedown extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخێک کە تێیدا کەسێک وەک جاران گرنگ نییە، یان ڕێزی پیشان نادرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a sad comedown for a band that was so popular only a year ago."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆچوونێکی دڵشکێنەر بوو بۆ باندێک کە تەنھا چەند ساڵی پێش زۆر ناودار بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comedown", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomedowns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomedowns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was a sad comedown for a band that was so popular only a year ago.",
+                            kurdishText:
+                                "ڕۆچوونێکی دڵشکێنەر بوو بۆ باندێک کە تەنھا چەند ساڵی پێش زۆر ناودار بوو.", // comedown",
+                            onPressedBritish: () => speakcomedowns1("en-GB"),
+                            onPressedAmerican: () => speakcomedowns1("en-US"),
                           ),
                         ],
                       ),

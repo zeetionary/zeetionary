@@ -187,34 +187,14 @@ class EnglishEntrycarburettor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەشێکی بزوێنەرێک کە سوتەمەنی و ئاو تێکەڵ دەبن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Classic cars still rely on a carburettor for fuel mixing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلە کۆنەکان ھێشتا پشت بە کاربرێتەر دەبەستن بۆ تێکەڵکردنی سوتەمەنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carburettor", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarburettors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarburettors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Classic cars still rely on a carburettor for fuel mixing.",
+                            kurdishText:
+                                "ئۆتۆمبێلە کۆنەکان ھێشتا پشت بە کاربرێتەر دەبەستن بۆ تێکەڵکردنی سوتەمەنی.", // carburettor",
+                            onPressedBritish: () => speakcarburettors1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarburettors1("en-US"),
                           ),
                         ],
                       ),

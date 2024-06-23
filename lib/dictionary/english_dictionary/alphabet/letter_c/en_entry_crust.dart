@@ -274,169 +274,57 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: توێژەنان،	توێژ، توێکڵ، توێ، ڕووی ڕەق، ڕووڕەق، قاوغ، قاپیلک، سەختەڕوو،	(مەی و ھتد) خڵتە، نیشتوو،	قەتماغە، ڕەقیتە، کڕێژ،	بەڵخ
 """),
           const DefinitionKurdish(text: "١. (ناو) بەشە سەختەکەی نان لە دەرەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We saved a few crusts of bread for the birds."),
-                    ExampleSentenceKurdish(
-                        text: "چەند توێژەنانێکمان ھەڵگرت بۆ باڵندەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crust", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrusts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrusts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We saved a few crusts of bread for the birds.",
+            kurdishText:
+                "چەند توێژەنانێکمان ھەڵگرت بۆ باڵندەکان.", // crust", please follow LX instructions
+            onPressedBritish: () => speakcrusts1("en-GB"),
+            onPressedAmerican: () => speakcrusts1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) توێژاڵێک لە ھەویری شیرینی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Bake until the crust is golden."),
-                    ExampleSentenceKurdish(
-                        text: "بیبرژێنە تاوەکو توێژاڵەکەی ئاڵتوونی دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrusts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrusts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Bake until the crust is golden.",
+            kurdishText: "بیبرژێنە تاوەکو توێژاڵەکەی ئاڵتوونی دەبێت.",
+            onPressedBritish: () => speakcrusts2("en-GB"),
+            onPressedAmerican: () => speakcrusts2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) توێکڵی زەوی؛ چینی دەرەوەی زەوی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The earth's crust is divided into several large and small tectonic plates."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "توێکڵی زەوی دابەش بووە بەسەر ژمارەیەک لە پلێتی تەکتۆنی گەورە و بچووکدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrusts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrusts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The earth's crust is divided into several large and small tectonic plates.",
+            kurdishText:
+                "توێکڵی زەوی دابەش بووە بەسەر ژمارەیەک لە پلێتی تەکتۆنی گەورە و بچووکدا.",
+            onPressedBritish: () => speakcrusts3("en-GB"),
+            onPressedAmerican: () => speakcrusts3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) ڕوو یان چینێکی سەختی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Put the lid on, or a crust will form on the paints."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرێکی لەسەر دابنە، ئەگەرنا توێژاڵێک لەسەر بۆیەکان درووست دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrusts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrusts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Put the lid on, or a crust will form on the paints.",
+            kurdishText:
+                "سەرێکی لەسەر دابنە، ئەگەرنا توێژاڵێک لەسەر بۆیەکان درووست دەبێت.",
+            onPressedBritish: () => speakcrusts4("en-GB"),
+            onPressedAmerican: () => speakcrusts4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) درووستکردنی چینێکی سەخت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Dirt crusted her cheek."),
-                    ExampleSentenceKurdish(text: "قوڕ لەسەر گۆنای درووست بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrusts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrusts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Dirt crusted her cheek.",
+            kurdishText: "قوڕ لەسەر گۆنای درووست بوو.",
+            onPressedBritish: () => speakcrusts5("en-GB"),
+            onPressedAmerican: () => speakcrusts5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Water was beginning to crust over with ice as temperatures dropped."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاو خەریک بوو دەستی دەکرد بە ماسیان کە پلەی گەرمی دادەبەزی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrusts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrusts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Water was beginning to crust over with ice as temperatures dropped.",
+            kurdishText:
+                "ئاو خەریک بوو دەستی دەکرد بە ماسیان کە پلەی گەرمی دادەبەزی.",
+            onPressedBritish: () => speakcrusts6("en-GB"),
+            onPressedAmerican: () => speakcrusts6("en-US"),
           ),
         ],
       ),

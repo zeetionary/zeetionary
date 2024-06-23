@@ -93,32 +93,13 @@ class EnglishEntrycohesion extends StatelessWidget {
 کوردی: یەک‌گرتوویی، ڕێک‌وپێکی، پێوەندی لۆژیکی، ھاوگرتوویی، پێکەوەبەستراوی، یەکیەتی، یەکپارچەیی، یەک‌گیری، ھاوڕێکی، یەک‌گرتن،	(فیزیک) پێوەلکان، پێکانووسان، پێکاچەسپان، پێکەوەنووسان، بەیەکالکان
 """),
                           const DefinitionKurdish(text: "١. (ناو) یەکگرتووی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The lack of cohesion within the party lost them votes in the election."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەبوونی یەکگرتوووی لەناو پارتەکە بوو بەھۆی لە دەستدانی دەنگ لە ھەڵبژاردنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cohesion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcohesions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcohesions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The lack of cohesion within the party lost them votes in the election.",
+                            kurdishText:
+                                "نەبوونی یەکگرتوووی لەناو پارتەکە بوو بەھۆی لە دەستدانی دەنگ لە ھەڵبژاردنەکە.", // cohesion",
+                            onPressedBritish: () => speakcohesions1("en-GB"),
+                            onPressedAmerican: () => speakcohesions1("en-US"),
                           ),
                         ],
                       ),

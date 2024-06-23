@@ -104,63 +104,25 @@ class EnglishEntryclearing extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوچەیەکی کراوە لە دارستانێکدا کە ھیچ داری تێدا نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We made camp that night in a clearing in the woods."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو شەوە کەمپمان ھەڵدا لە ڕووتایی دارستانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clearing", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclearings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclearings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We made camp that night in a clearing in the woods.",
+                            kurdishText:
+                                "ئەو شەوە کەمپمان ھەڵدا لە ڕووتایی دارستانەکە.", // clearing",
+                            onPressedBritish: () => speakclearings1("en-GB"),
+                            onPressedAmerican: () => speakclearings1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) سیستەمێکی وەرگرتن کە لەلایەن زانکۆکانی بەریتانیاوە بەکاردێت بۆ پڕکردنەوەی ئەو کورسییانەی خوێندن کە پڕنەکراونەتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can apply for a place through the clearing system."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت داوای جێگایەک بکەیت لە ڕێگەی سیستەمی پڕکردنەوەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclearings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclearings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can apply for a place through the clearing system.",
+                            kurdishText:
+                                "دەتوانیت داوای جێگایەک بکەیت لە ڕێگەی سیستەمی پڕکردنەوەوە.",
+                            onPressedBritish: () => speakclearings2("en-GB"),
+                            onPressedAmerican: () => speakclearings2("en-US"),
                           ),
                         ],
                       ),

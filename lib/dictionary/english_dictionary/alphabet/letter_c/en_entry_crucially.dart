@@ -241,58 +241,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەک کە تەواو گرنگە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The plants need light and, crucially, a flow of cool air."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووەکەکان پێویستییان بە ڕۆشنایی و گرنتریش ھەواگۆڕکێی ھەوای فێنک ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crucially", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruciallys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruciallys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The plants need light and, crucially, a flow of cool air.",
+            kurdishText:
+                "ڕووەکەکان پێویستییان بە ڕۆشنایی و گرنتریش ھەواگۆڕکێی ھەوای فێنک ھەیە.", // crucially", please follow LX instructions
+            onPressedBritish: () => speakcruciallys1("en-GB"),
+            onPressedAmerican: () => speakcruciallys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Their work is crucially important."),
-                    ExampleSentenceKurdish(
-                        text: "کارەکەیان چارەنووسسازانە گرنگە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruciallys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruciallys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their work is crucially important.",
+            kurdishText: "کارەکەیان چارەنووسسازانە گرنگە.",
+            onPressedBritish: () => speakcruciallys2("en-GB"),
+            onPressedAmerican: () => speakcruciallys2("en-US"),
           ),
         ],
       ),

@@ -232,30 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) بایەک کە بەر ڕاست و چەپی فڕۆکەیەک دەکەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Strong crosswinds blew the plane off course."),
-                    ExampleSentenceKurdish(
-                        text: "پەرچەبای بەھێز فڕۆکەکەیان لە ڕێڕەوەکەی لادا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crosswind", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosswinds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosswinds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Strong crosswinds blew the plane off course.",
+            kurdishText:
+                "پەرچەبای بەھێز فڕۆکەکەیان لە ڕێڕەوەکەی لادا.", // crosswind", please follow LX instructions
+            onPressedBritish: () => speakcrosswinds1("en-GB"),
+            onPressedAmerican: () => speakcrosswinds1("en-US"),
           ),
         ],
       ),

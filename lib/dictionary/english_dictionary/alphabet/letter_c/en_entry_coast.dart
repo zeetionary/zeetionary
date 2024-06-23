@@ -151,236 +151,78 @@ class EnglishEntrycoast extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خاکی تەنیشت یان نزیکی دەریا یان زەریا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They plan to swim around the coast of Ireland."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانیان ھەیە مەلە بە کەنارەکانی ئێرلەندادا بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coast", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoasts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoasts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They plan to swim around the coast of Ireland.",
+                            kurdishText:
+                                "پلانیان ھەیە مەلە بە کەنارەکانی ئێرلەندادا بکەن.", // coast",
+                            onPressedBritish: () => speakcoasts1("en-GB"),
+                            onPressedAmerican: () => speakcoasts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We walked along the coast for five miles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ پێنج میل بە کەنارەکەدا ڕێمان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoasts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoasts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We walked along the coast for five miles.",
+                            kurdishText: "بۆ پێنج میل بە کەنارەکەدا ڕێمان کرد.",
+                            onPressedBritish: () => speakcoasts2("en-GB"),
+                            onPressedAmerican: () => speakcoasts2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We spent the day at the coast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژەکەمان لە کەنارەکە بەسەربرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoasts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoasts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We spent the day at the coast.",
+                            kurdishText: "ڕۆژەکەمان لە کەنارەکە بەسەربرد.",
+                            onPressedBritish: () => speakcoasts3("en-GB"),
+                            onPressedAmerican: () => speakcoasts3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) غلۆربوونەوە بە نزماییەکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car coasted along until it stopped."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە غلۆربوویەوە تاوەکو وەستا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoasts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoasts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The car coasted along until it stopped.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە غلۆربوویەوە تاوەکو وەستا.",
+                            onPressedBritish: () => speakcoasts4("en-GB"),
+                            onPressedAmerican: () => speakcoasts4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She took her feet off the pedals and coasted downhill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێی لەسەر پایدەرەکە لادا و بۆ خوارەوە غلۆربوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoasts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoasts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She took her feet off the pedals and coasted downhill.",
+                            kurdishText:
+                                "پێی لەسەر پایدەرەکە لادا و بۆ خوارەوە غلۆربوویەوە.",
+                            onPressedBritish: () => speakcoasts5("en-GB"),
+                            onPressedAmerican: () => speakcoasts5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) جوڵان بە خێرایی و لەسەرخۆیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We coasted along the country lanes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە شەقامەکانی دەشتەکاندا خێرا چووین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoasts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoasts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We coasted along the country lanes.",
+                            kurdishText: "بە شەقامەکانی دەشتەکاندا خێرا چووین.",
+                            onPressedBritish: () => speakcoasts6("en-GB"),
+                            onPressedAmerican: () => speakcoasts6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) سەرکەتووبوون لە شتێک بەبێ ھەوڵدانی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He coasted through his final exams."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاقیکردنەوەکانی کۆتایی تێپەڕاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoasts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoasts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He coasted through his final exams.",
+                            kurdishText: "تاقیکردنەوەکانی کۆتایی تێپەڕاند.",
+                            onPressedBritish: () => speakcoasts7("en-GB"),
+                            onPressedAmerican: () => speakcoasts7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) ھەوڵدانی کەم بۆ کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You're just coasting—it's time to work hard now."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا کڵاوات دەکەیت، کاتی ئەوەیە ڕەنج بدەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoasts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoasts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You're just coasting—it's time to work hard now.",
+                            kurdishText:
+                                "تەنھا کڵاوات دەکەیت، کاتی ئەوەیە ڕەنج بدەیت.",
+                            onPressedBritish: () => speakcoasts8("en-GB"),
+                            onPressedAmerican: () => speakcoasts8("en-US"),
                           ),
                         ],
                       ),

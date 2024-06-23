@@ -180,330 +180,119 @@ class EnglishEntrycontrast extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جیاوازی نێوان دوو یان زیاتر لە کەس یان شت کە دەتوانیت بە ڕوونی بیبینیت کاتێک بەراورد دەکرێن یان لەگەڵ یەکدی دادەنرێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two cities make an interesting contrast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو شارەکە بەراوردکردنێکی سەرنجڕاکێش درووست دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contrast", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrasts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrasts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two cities make an interesting contrast.",
+                            kurdishText:
+                                "دوو شارەکە بەراوردکردنێکی سەرنجڕاکێش درووست دەکەن.", // contrast",
+                            onPressedBritish: () => speakcontrasts1("en-GB"),
+                            onPressedAmerican: () => speakcontrasts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is an obvious contrast between the cultures of East and West."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جیاوازییەکی ئاشکرا ھەیە لە نێوان کەلتووری ڕۆژھەڵات و ڕۆژئاوادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrasts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrasts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is an obvious contrast between the cultures of East and West.",
+                            kurdishText:
+                                "جیاوازییەکی ئاشکرا ھەیە لە نێوان کەلتووری ڕۆژھەڵات و ڕۆژئاوادا.",
+                            onPressedBritish: () => speakcontrasts2("en-GB"),
+                            onPressedAmerican: () => speakcontrasts2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In contrast, the south suffered very little hurricane damage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بەرامبەردا، بەشی باشوور زیانێکی زۆر کەمی بەھۆی زریانەکانەوە بەرکەوت.."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrasts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrasts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In contrast, the south suffered very little hurricane damage.",
+                            kurdishText:
+                                "لە بەرامبەردا، بەشی باشوور زیانێکی زۆر کەمی بەھۆی زریانەکانەوە بەرکەوت..",
+                            onPressedBritish: () => speakcontrasts3("en-GB"),
+                            onPressedAmerican: () => speakcontrasts3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The situation when we arrived was in marked contrast to the news reports."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە گەشتین دۆخەکە لە جیاوازییەکی زەقدا بوو لەگەڵ ئەوەی لە ھەواڵدا ڕەگەیەندرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrasts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrasts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The situation when we arrived was in marked contrast to the news reports.",
+                            kurdishText:
+                                "کە گەشتین دۆخەکە لە جیاوازییەکی زەقدا بوو لەگەڵ ئەوەی لە ھەواڵدا ڕەگەیەندرابوو.",
+                            onPressedBritish: () => speakcontrasts4("en-GB"),
+                            onPressedAmerican: () => speakcontrasts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک یان شتێک کە تەواو جیاوازە لە یەکێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The work you did today is quite a contrast to (= very much better/worse than) what you did last week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو کارەی ئەمڕۆ کردت تەواو جیاوازە لەوەی ھەفتەی ڕابردوو کردت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrasts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrasts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The work you did today is quite a contrast to (= very much better/worse than) what you did last week.",
+                            kurdishText:
+                                "ئەو کارەی ئەمڕۆ کردت تەواو جیاوازە لەوەی ھەفتەی ڕابردوو کردت.",
+                            onPressedBritish: () => speakcontrasts5("en-GB"),
+                            onPressedAmerican: () => speakcontrasts5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This busy social life was a complete contrast to his old quiet life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ژیانە کۆمەڵایەتییە جەنجاڵە ڕێک پێچەوانەی ژیانە ئارامە کۆنەکەیەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrasts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrasts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This busy social life was a complete contrast to his old quiet life.",
+                            kurdishText:
+                                "ئەم ژیانە کۆمەڵایەتییە جەنجاڵە ڕێک پێچەوانەی ژیانە ئارامە کۆنەکەیەتی.",
+                            onPressedBritish: () => speakcontrasts6("en-GB"),
+                            onPressedAmerican: () => speakcontrasts6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) جیاوازی ڕەنگی تاریک و ڕۆشن کە لە وێنە و تابلۆدا بەکاردێت بۆ درووستکردنی کاریگەری تایبەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The artist's use of contrast is masterly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکارھێنانی کۆنتراستی ھونەرمەندەکە شارەزایانەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrasts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrasts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The artist's use of contrast is masterly.",
+                            kurdishText:
+                                "بەکارھێنانی کۆنتراستی ھونەرمەندەکە شارەزایانەیە.",
+                            onPressedBritish: () => speakcontrasts7("en-GB"),
+                            onPressedAmerican: () => speakcontrasts7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ڕێژەی جیاوازی ڕەنگی تاریک و ڕۆشن لە وێنەیەکدا یان شاشەی تەلەفیزیۆنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Use this button to adjust the contrast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم دووگمەیە بەکاربھێنە بۆ چاککردنی کۆنتراستەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrasts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrasts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Use this button to adjust the contrast.",
+                            kurdishText:
+                                "ئەم دووگمەیە بەکاربھێنە بۆ چاککردنی کۆنتراستەکە.",
+                            onPressedBritish: () => speakcontrasts8("en-GB"),
+                            onPressedAmerican: () => speakcontrasts8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) بەراوردکردنی دوو شت بۆ پیشاندانی جیاوازی نێوانیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The poem contrasts youth and age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھۆنراوەکە جیاوازی نێوان گەنجی و پیری دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrasts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrasts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The poem contrasts youth and age.",
+                            kurdishText:
+                                "ھۆنراوەکە جیاوازی نێوان گەنجی و پیری دەکات.",
+                            onPressedBritish: () => speakcontrasts9("en-GB"),
+                            onPressedAmerican: () => speakcontrasts9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you contrast some of her early writing with her later work, you can see just how much she improved."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر ھەندێک لە نووسینەکانی سەرەتای بەراورد بکەیت لەگەڵ کارەکانی دواتریدا، دەتوانیت ببینیت چەندە باشتربووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrasts10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrasts10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you contrast some of her early writing with her later work, you can see just how much she improved.",
+                            kurdishText:
+                                "ئەگەر ھەندێک لە نووسینەکانی سەرەتای بەراورد بکەیت لەگەڵ کارەکانی دواتریدا، دەتوانیت ببینیت چەندە باشتربووە.",
+                            onPressedBritish: () => speakcontrasts10("en-GB"),
+                            onPressedAmerican: () => speakcontrasts10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) دەرخستنی جیاوازی کە بەراوردکاری دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                      text:
-                                          "Her actions contrasted sharply with her promises.",
-                                      note:
-                                          "also: Her actions and her promises contrasted sharply.",
-                                    ),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کردارەکانی تەواو پێچەوانەی بەڵێنەکانین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrasts11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrasts11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her actions contrasted sharply with her promises.",
+                            englishNote:
+                                "also: Her actions and her promises contrasted sharply.",
+                            kurdishText:
+                                "کردارەکانی تەواو پێچەوانەی بەڵێنەکانین.",
+                            onPressedBritish: () => speakcontrasts11("en-GB"),
+                            onPressedAmerican: () => speakcontrasts11("en-US"),
                           ),
                         ],
                       ),

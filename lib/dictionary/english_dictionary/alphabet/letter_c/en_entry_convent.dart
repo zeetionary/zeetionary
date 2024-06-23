@@ -103,60 +103,21 @@ class EnglishEntryconvent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بینایەک کە تێیدا ژنە ڕەبەنە مەسیحییەکان تێیدا دەژین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She entered a convent at the age of sixteen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تەمەنی شازدە ساڵیدا چووە دەیرێکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She entered a convent at the age of sixteen.",
+                            kurdishText:
+                                "لە تەمەنی شازدە ساڵیدا چووە دەیرێکەوە.", // convent",
+                            onPressedBritish: () => speakconvents1("en-GB"),
+                            onPressedAmerican: () => speakconvents1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She spent her whole life in a convent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ژیانی لە دەیرێکدا بەسەربرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She spent her whole life in a convent.",
+                            kurdishText: "تەواوی ژیانی لە دەیرێکدا بەسەربرد.",
+                            onPressedBritish: () => speakconvents2("en-GB"),
+                            onPressedAmerican: () => speakconvents2("en-US"),
                           ),
                         ],
                       ),

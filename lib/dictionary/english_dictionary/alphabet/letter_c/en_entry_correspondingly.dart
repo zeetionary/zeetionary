@@ -244,60 +244,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە لەگەڵ شتێکی دیکە دەگونجێت کە باستکردووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Life in the city is more expensive, but salaries are correspondingly higher."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژیان لە شار (نرخی) گرانترە، بەڵام لەگەڵێدا مووچە بەرزترە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "correspondingly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondinglys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondinglys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Life in the city is more expensive, but salaries are correspondingly higher.",
+            kurdishText:
+                "ژیان لە شار (نرخی) گرانترە، بەڵام لەگەڵێدا مووچە بەرزترە.", // correspondingly", please follow LX instructions
+            onPressedBritish: () => speakcorrespondinglys1("en-GB"),
+            onPressedAmerican: () => speakcorrespondinglys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "As you get older, it gets correspondingly harder to meet people."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە تەمەن دەکەیت، لەگەڵیدا سەختتر دەبێت بە خەڵکی ئاشنا بیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrespondinglys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrespondinglys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "As you get older, it gets correspondingly harder to meet people.",
+            kurdishText:
+                "کە تەمەن دەکەیت، لەگەڵیدا سەختتر دەبێت بە خەڵکی ئاشنا بیت.",
+            onPressedBritish: () => speakcorrespondinglys2("en-GB"),
+            onPressedAmerican: () => speakcorrespondinglys2("en-US"),
           ),
         ],
       ),

@@ -96,34 +96,15 @@ class EnglishEntryconflagration extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئاگرێکی گەورە کە زیانی زۆری ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The fire services were not adequate to deal with major conflagrations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خزمەتگوزارییەکانی ئاگرکوژێنەوە ھێندە بەشی پێویست نەبوون بۆ مامەڵەکردن لەگەڵ ئاگری زۆر گەورە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conflagration", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconflagrations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconflagrations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The fire services were not adequate to deal with major conflagrations.",
+                            kurdishText:
+                                "خزمەتگوزارییەکانی ئاگرکوژێنەوە ھێندە بەشی پێویست نەبوون بۆ مامەڵەکردن لەگەڵ ئاگری زۆر گەورە.", // conflagration",
+                            onPressedBritish: () =>
+                                speakconflagrations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconflagrations1("en-US"),
                           ),
                         ],
                       ),

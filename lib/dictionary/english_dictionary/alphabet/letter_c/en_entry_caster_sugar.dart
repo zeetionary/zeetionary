@@ -195,33 +195,14 @@ class EnglishEntrycastersugar extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) شەکر بە دەنکی زۆر ورد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sprinkle a teaspoon of caster sugar over the top."),
-                                    ExampleSentenceKurdish(
-                                        text: "وردەشەکر بپرژێنە بە سەرەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "caster sugar", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcastersugars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcastersugars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sprinkle a teaspoon of caster sugar over the top.",
+                            kurdishText:
+                                "وردەشەکر بپرژێنە بە سەرەکەیدا.", // caster sugar",
+                            onPressedBritish: () => speakcastersugars1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcastersugars1("en-US"),
                           ),
                         ],
                       ),

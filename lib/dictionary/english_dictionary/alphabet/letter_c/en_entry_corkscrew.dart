@@ -95,32 +95,13 @@ class EnglishEntrycorkscrew extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئامرازێک بۆ لێکردنەوەی سەرھەڵپچڕ لە بوتڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She always kept a corkscrew in her kitchen drawer for opening wine bottles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە سەرھەڵپچڕێکی ھەڵدەگرت لە چەکمەجەی چێشتخانەکەیدا بۆ کردنەوەی بوتڵی بیرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "corkscrew", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcorkscrews1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcorkscrews1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She always kept a corkscrew in her kitchen drawer for opening wine bottles.",
+                            kurdishText:
+                                "ھەمیشە سەرھەڵپچڕێکی ھەڵدەگرت لە چەکمەجەی چێشتخانەکەیدا بۆ کردنەوەی بوتڵی بیرە.", // corkscrew",
+                            onPressedBritish: () => speakcorkscrews1("en-GB"),
+                            onPressedAmerican: () => speakcorkscrews1("en-US"),
                           ),
                         ],
                       ),

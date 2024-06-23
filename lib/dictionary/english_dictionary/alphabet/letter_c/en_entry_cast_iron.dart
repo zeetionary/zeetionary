@@ -187,32 +187,13 @@ class EnglishEntrycastiron extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جۆرە ئاسنێک کە بە ئاسانی ناچەمێتەوە و پتەوکراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The blacksmith crafted a durable cooking pot from cast iron for the kitchen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاسنگەرەکە تاوەیەکی چێشتلێنانی قایمی درووستکرد لە ئاسنی سەخت بۆ مەتبەخەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cast iron", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastirons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastirons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The blacksmith crafted a durable cooking pot from cast iron for the kitchen.",
+                            kurdishText:
+                                "ئاسنگەرەکە تاوەیەکی چێشتلێنانی قایمی درووستکرد لە ئاسنی سەخت بۆ مەتبەخەکە.", // cast iron",
+                            onPressedBritish: () => speakcastirons1("en-GB"),
+                            onPressedAmerican: () => speakcastirons1("en-US"),
                           ),
                         ],
                       ),

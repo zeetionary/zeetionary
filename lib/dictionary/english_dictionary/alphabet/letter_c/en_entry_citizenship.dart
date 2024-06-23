@@ -103,64 +103,24 @@ class EnglishEntrycitizenship extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) مافی یاسایی بوون بە بەشێک لە وڵاتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were granted full French citizenship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مافی تەواوی ھاوڵاتیبوونی فەرەنسایان پێدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "citizenship", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcitizenships1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcitizenships1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were granted full French citizenship.",
+                            kurdishText:
+                                "مافی تەواوی ھاوڵاتیبوونی فەرەنسایان پێدرا.", // citizenship",
+                            onPressedBritish: () => speakcitizenships1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcitizenships1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can apply for citizenship after five years' residency."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت داوای مافی ھاوڵاتیبوون بکەیت لە دوای پێنج ساڵ بوون بە دانیشتوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcitizenships2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcitizenships2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can apply for citizenship after five years' residency.",
+                            kurdishText:
+                                "دەتوانیت داوای مافی ھاوڵاتیبوون بکەیت لە دوای پێنج ساڵ بوون بە دانیشتوو.",
+                            onPressedBritish: () => speakcitizenships2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcitizenships2("en-US"),
                           ),
                         ],
                       ),

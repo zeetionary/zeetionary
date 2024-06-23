@@ -189,63 +189,25 @@ class EnglishEntrycabaret extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گۆرانی گوتن و سەما کە شەوانە لە چێشتخانەکاندا یان یانەکاندا دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gained recognition through cabaret acts performed at restaurants."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوی دەرکرد بە نمایشە شەوانەکانی لە چێشتخانەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabaret", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabarets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabarets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He gained recognition through cabaret acts performed at restaurants.",
+                            kurdishText:
+                                "ناوی دەرکرد بە نمایشە شەوانەکانی لە چێشتخانەکان.", // cabaret
+                            onPressedBritish: () => speakcabarets1("en-GB"),
+                            onPressedAmerican: () => speakcabarets1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) چێشتخانەیەک یان یانەیەک کە شەوانە گۆرانی و سەمای تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In Paris, we visited several cabarets."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پاریس سەردانی ژمارەیەک شەوە ئاھەنگمان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabarets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabarets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In Paris, we visited several cabarets.",
+                            kurdishText:
+                                "لە پاریس سەردانی ژمارەیەک شەوە ئاھەنگمان کرد.",
+                            onPressedBritish: () => speakcabarets2("en-GB"),
+                            onPressedAmerican: () => speakcabarets2("en-US"),
                           ),
                         ],
                       ),

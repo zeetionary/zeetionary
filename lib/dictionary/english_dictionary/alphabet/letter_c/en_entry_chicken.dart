@@ -166,145 +166,47 @@ class EnglishEntrychicken extends StatelessWidget {
 کوردی: مریشک، جووجە، زڤان، جووچک، باڕۆکە،	کەڵەشێر، کەڵەباب،	گۆشتی باڕۆکە یا مریشک یان کەڵەشێر،	ترسنۆک، حیز، بێ‌غیرەت
 """),
                           const DefinitionKurdish(text: "١. (ناو) مریشک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They keep chickens in the back yard."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مریشک ڕادەگرن لە حەوشەی پشتەوەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chicken", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchickens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchickens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They keep chickens in the back yard.",
+                            kurdishText:
+                                "مریشک ڕادەگرن لە حەوشەی پشتەوەیان.", // chicken",
+                            onPressedBritish: () => speakchickens1("en-GB"),
+                            onPressedAmerican: () => speakchickens1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Chickens were pecking at the ground."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مریشکەکان دەنووکیان لە زەوییەکە دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchickens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchickens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Chickens were pecking at the ground.",
+                            kurdishText:
+                                "مریشکەکان دەنووکیان لە زەوییەکە دەدا.",
+                            onPressedBritish: () => speakchickens2("en-GB"),
+                            onPressedAmerican: () => speakchickens2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Battery chickens have miserable lives."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مریشکی مەسلاحە ژیانێکی ناخۆشیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchickens3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchickens3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Battery chickens have miserable lives.",
+                            kurdishText:
+                                "مریشکی مەسلاحە ژیانێکی ناخۆشیان ھەیە.",
+                            onPressedBritish: () => speakchickens3("en-GB"),
+                            onPressedAmerican: () => speakchickens3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) گۆشتی مریشک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We're having roast/fried chicken for dinner."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆشتی مریشک دەخۆین بۆ نانی ئێوارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchickens4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchickens4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We're having roast/fried chicken for dinner.",
+                            kurdishText: "گۆشتی مریشک دەخۆین بۆ نانی ئێوارە.",
+                            onPressedBritish: () => speakchickens4("en-GB"),
+                            onPressedAmerican: () => speakchickens4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Defrost the chicken thoroughly before cooking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مریشکەکە بە تەواوی بتوێنەوە پێش ئەوەی لێی بنێیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchickens5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchickens5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Defrost the chicken thoroughly before cooking.",
+                            kurdishText:
+                                "مریشکەکە بە تەواوی بتوێنەوە پێش ئەوەی لێی بنێیت.",
+                            onPressedBritish: () => speakchickens5("en-GB"),
+                            onPressedAmerican: () => speakchickens5("en-US"),
                           ),
                           Column(
                             children: [
@@ -376,86 +278,28 @@ class EnglishEntrychicken extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) کەسێک کە بوێر نییە و ترسنۆکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He called me a chicken because I wouldn't swim in the river."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێمی وت ترسنۆک چونکە نەمتوانی لە ڕووبارەکە مەلە بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchickens8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchickens8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He called me a chicken because I wouldn't swim in the river.",
+                            kurdishText:
+                                "پێمی وت ترسنۆک چونکە نەمتوانی لە ڕووبارەکە مەلە بکەم.",
+                            onPressedBritish: () => speakchickens8("en-GB"),
+                            onPressedAmerican: () => speakchickens8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Jump, you chicken!"),
-                                    ExampleSentenceKurdish(
-                                        text: "باز بدە، بێ‌غیرەت!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchickens9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchickens9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Jump, you chicken!",
+                            kurdishText: "باز بدە، بێ‌غیرەت!",
+                            onPressedBritish: () => speakchickens9("en-GB"),
+                            onPressedAmerican: () => speakchickens9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٤. (ھاوەڵناو) ترسنۆک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Why won't you jump? Are you chicken?"),
-                                    ExampleSentenceKurdish(
-                                        text: "بۆ باز نادەیت؟ دەترسیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchickens10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchickens10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Why won't you jump? Are you chicken?",
+                            kurdishText: "بۆ باز نادەیت؟ دەترسیت؟",
+                            onPressedBritish: () => speakchickens10("en-GB"),
+                            onPressedAmerican: () => speakchickens10("en-US"),
                           ),
                         ],
                       ),

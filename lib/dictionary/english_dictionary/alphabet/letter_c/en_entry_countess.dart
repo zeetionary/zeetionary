@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) ژنی کەسێکی خاوەن پێگە لە بەریتانیا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The countess was known for her charitable work in the community."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژنە بەگزادەکە بۆ کارە خێرخوازییەکانی ناسراوبوو لە کۆمەڵگەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "countess", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The countess was known for her charitable work in the community.",
+            kurdishText:
+                "ژنە بەگزادەکە بۆ کارە خێرخوازییەکانی ناسراوبوو لە کۆمەڵگەکەدا.", // countess", please follow LX instructions
+            onPressedBritish: () => speakcountesss1("en-GB"),
+            onPressedAmerican: () => speakcountesss1("en-US"),
           ),
         ],
       ),

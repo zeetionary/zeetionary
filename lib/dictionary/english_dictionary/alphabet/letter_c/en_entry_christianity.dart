@@ -94,34 +94,15 @@ class EnglishEntrychristianity extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو ئایینەی کە پشتی بە وانەکانی پێغەمبەر عیسا بەستووە و باوەڕیان وایە کوڕی خودایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Christianity spread rapidly in the first century."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەسیحییەت بە خێرایی لە سەدەی یەکدا بڵاوبوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "Christianity", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakChristianitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakChristianitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Christianity spread rapidly in the first century.",
+                            kurdishText:
+                                "مەسیحییەت بە خێرایی لە سەدەی یەکدا بڵاوبوویەوە.", // Christianity",
+                            onPressedBritish: () =>
+                                speakChristianitys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakChristianitys1("en-US"),
                           ),
                         ],
                       ),

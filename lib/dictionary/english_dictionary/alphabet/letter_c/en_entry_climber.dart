@@ -94,31 +94,12 @@ class EnglishEntryclimber extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک یان ئاژەڵێک کە سەردەکەوێت بە شتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Monkeys are efficient climbers."),
-                                    ExampleSentenceKurdish(
-                                        text: "مەیموون پیاھەڵگژێکی زۆرباشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "climber", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimbers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimbers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Monkeys are efficient climbers.",
+                            kurdishText:
+                                "مەیموون پیاھەڵگژێکی زۆرباشە.", // climber",
+                            onPressedBritish: () => speakclimbers1("en-GB"),
+                            onPressedAmerican: () => speakclimbers1("en-US"),
                           ),
                         ],
                       ),

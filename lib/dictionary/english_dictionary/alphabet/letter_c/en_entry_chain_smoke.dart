@@ -91,32 +91,13 @@ class EnglishEntrychainsmoke extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) جگەرەکێشان بەشێوەی یەک لە دوای یەک """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Joan's under a lot of pressure these days - she's been chain-smoking ever since her divorce."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوان لەژێر پەستانی زۆرە ئەم ماوەیە، لەوەتەی جیابوونەوەکەیەوە بە زنجیرە جگەرە دەکێشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "chain-smoke", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchainsmokes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchainsmokes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Joan's under a lot of pressure these days - she's been chain-smoking ever since her divorce.",
+                            kurdishText:
+                                "جوان لەژێر پەستانی زۆرە ئەم ماوەیە، لەوەتەی جیابوونەوەکەیەوە بە زنجیرە جگەرە دەکێشێت.", // chain-smoke",
+                            onPressedBritish: () => speakchainsmokes1("en-GB"),
+                            onPressedAmerican: () => speakchainsmokes1("en-US"),
                           ),
                         ],
                       ),

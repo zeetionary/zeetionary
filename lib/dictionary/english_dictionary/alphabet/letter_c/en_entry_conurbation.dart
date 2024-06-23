@@ -95,34 +95,14 @@ class EnglishEntryconurbation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوچەیەکی گەورە کە درووست بووە لە ئەنجامی پێکەوەلکانی ژمارەیەک شارۆچکەی گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The region has several medium-sized towns and cities, but no major conurbations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوچەکە ژمارەیەک لە شارۆچکە و شاری مام ناوەندی ھەیە، بەڵام کۆشاری گەورەی نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conurbation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconurbations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconurbations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The region has several medium-sized towns and cities, but no major conurbations.",
+                            kurdishText:
+                                "ناوچەکە ژمارەیەک لە شارۆچکە و شاری مام ناوەندی ھەیە، بەڵام کۆشاری گەورەی نییە.", // conurbation",
+                            onPressedBritish: () => speakconurbations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconurbations1("en-US"),
                           ),
                         ],
                       ),

@@ -103,67 +103,27 @@ class EnglishEntrycolonialist extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە داگیرکاری وڵاتانی دیکە لەلایەن وڵاتێکی بەھێزەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The colonialist powers of the 19th century included Britain, France, and Spain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزە داگیرکەرەکانی سەدەی ١٩ بریتی بوون لە بەریتانیا، فەرەنسا، ئیسپانیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colonialist", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcolonialists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcolonialists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The colonialist powers of the 19th century included Britain, France, and Spain.",
+                            kurdishText:
+                                "ھێزە داگیرکەرەکانی سەدەی ١٩ بریتی بوون لە بەریتانیا، فەرەنسا، ئیسپانیا.", // colonialist",
+                            onPressedBritish: () => speakcolonialists1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcolonialists1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە پشتگیری کۆلۆنیاڵیزم دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The colonialists imposed war on the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆلۆنیاڵیستەکان جەنگیان سەپاند بەسەر وڵاتەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcolonialists2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcolonialists2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The colonialists imposed war on the country.",
+                            kurdishText:
+                                "کۆلۆنیاڵیستەکان جەنگیان سەپاند بەسەر وڵاتەکەدا.",
+                            onPressedBritish: () => speakcolonialists2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcolonialists2("en-US"),
                           ),
                         ],
                       ),

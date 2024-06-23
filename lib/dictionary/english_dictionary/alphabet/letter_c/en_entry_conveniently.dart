@@ -122,130 +122,54 @@ class EnglishEntryconveniently extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە بەسوود، ئاسان، یان خێرایە بۆ کردن؛ کە کێشە درووست ناکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The report can be conveniently divided into three main sections."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاپۆرتەکە دەکرێت بە ئاسانی دابەش بکرێت بەسەر سێ بەشی سەرەکیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conveniently", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvenientlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvenientlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The report can be conveniently divided into three main sections.",
+                            kurdishText:
+                                "ڕاپۆرتەکە دەکرێت بە ئاسانی دابەش بکرێت بەسەر سێ بەشی سەرەکیدا.", // conveniently",
+                            onPressedBritish: () =>
+                                speakconvenientlys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvenientlys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە نزیکە لە شوێنێکی دیاریکراوەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hotel is conveniently situated close to the beach."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھوتێلەکە ساناھییانە لە نزیک کەناراوەکە ھەڵکەوتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvenientlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvenientlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hotel is conveniently situated close to the beach.",
+                            kurdishText:
+                                "ھوتێلەکە ساناھییانە لە نزیک کەناراوەکە ھەڵکەوتبوو.",
+                            onPressedBritish: () =>
+                                speakconvenientlys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvenientlys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵکار) لەبیرکردن، ونکردن، پشتگوێخستن، ھتد ـی شتێک چونکە پێتوایە ژیانت ئاسان دەکات یان لە کێشە دوورت دەخاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I asked her to clean up the kitchen but of course she conveniently forgot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوام لێکرد چێشتخانەکە پاکبکاتەوە بەڵام بەدڵنیاییەوە بە ئاسانی بیری چوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvenientlys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvenientlys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I asked her to clean up the kitchen but of course she conveniently forgot.",
+                            kurdishText:
+                                "داوام لێکرد چێشتخانەکە پاکبکاتەوە بەڵام بەدڵنیاییەوە بە ئاسانی بیری چوو.",
+                            onPressedBritish: () =>
+                                speakconvenientlys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvenientlys3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When it suits you, you conveniently ignore your own advice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە لە قازانجتە، بە ئاسانی ڕاوێژی خۆت پشتگوێ دەخەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvenientlys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvenientlys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When it suits you, you conveniently ignore your own advice.",
+                            kurdishText:
+                                "کە لە قازانجتە، بە ئاسانی ڕاوێژی خۆت پشتگوێ دەخەیت.",
+                            onPressedBritish: () =>
+                                speakconvenientlys4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvenientlys4("en-US"),
                           ),
                         ],
                       ),

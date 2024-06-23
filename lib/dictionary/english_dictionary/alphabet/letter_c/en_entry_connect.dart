@@ -250,60 +250,22 @@ class EnglishEntryconnect extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بەستنەوەی دوو شت یان زیاتر بە یەکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The towns are connected by train and bus services."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارۆچکەکان بە شەمەندەفەر و پاس پێکەوە گرێدراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "connect", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The towns are connected by train and bus services.",
+                            kurdishText:
+                                "شارۆچکەکان بە شەمەندەفەر و پاس پێکەوە گرێدراون.", // connect",
+                            onPressedBritish: () => speakconnects1("en-GB"),
+                            onPressedAmerican: () => speakconnects1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The island is connected to the mainland by a bridge."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوورگەکە بە پردێک بەستراوە بە ھەرێمە سەرەکییەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The island is connected to the mainland by a bridge.",
+                            kurdishText:
+                                "دوورگەکە بە پردێک بەستراوە بە ھەرێمە سەرەکییەکەوە.",
+                            onPressedBritish: () => speakconnects2("en-GB"),
+                            onPressedAmerican: () => speakconnects2("en-US"),
                           ),
                           Column(
                             children: [
@@ -406,382 +368,133 @@ class EnglishEntryconnect extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بەستنی شتێک بە سەرچاوەی سەرەکی ئاو، کارەبا، غاز، ھتد یان بە ئامێرێکی دیکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "First connect the printer to the computer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەتا پرینتەرەکە پەیوەست بکە بە کۆمپیوتەرەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "First connect the printer to the computer.",
+                            kurdishText:
+                                "سەرەتا پرینتەرەکە پەیوەست بکە بە کۆمپیوتەرەکەوە.",
+                            onPressedBritish: () => speakconnects6("en-GB"),
+                            onPressedAmerican: () => speakconnects6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Connect the machine to the power supply."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامێرەکە پەیوەست بکە بە سەرچاوەی وزەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Connect the machine to the power supply.",
+                            kurdishText:
+                                "ئامێرەکە پەیوەست بکە بە سەرچاوەی وزەکەوە.",
+                            onPressedBritish: () => speakconnects7("en-GB"),
+                            onPressedAmerican: () => speakconnects7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Downstairs toilets were connected directly to the drains."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەوالێتەکانی نھۆمی خوارەوە ڕاستەوخۆ بەسترابوون بە زێرابەکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Downstairs toilets were connected directly to the drains.",
+                            kurdishText:
+                                "تەوالێتەکانی نھۆمی خوارەوە ڕاستەوخۆ بەسترابوون بە زێرابەکانەوە.",
+                            onPressedBritish: () => speakconnects8("en-GB"),
+                            onPressedAmerican: () => speakconnects8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) پەیوەستکردن بە ئینتەرنێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The device can be hooked up to a mobile phone to connect wirelessly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامێرەکە دەکرێت ببەسترێتەوە بە موبایلێکەوە بۆ پەیوەستبوونی بەبێ وایەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The device can be hooked up to a mobile phone to connect wirelessly.",
+                            kurdishText:
+                                "ئامێرەکە دەکرێت ببەسترێتەوە بە موبایلێکەوە بۆ پەیوەستبوونی بەبێ وایەر.",
+                            onPressedBritish: () => speakconnects9("en-GB"),
+                            onPressedAmerican: () => speakconnects9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Click ‘Continue’ to connect to the internet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "‘Continue’ دابگرە بۆ پەیوەستبوون بە ئینتەرنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Click ‘Continue’ to connect to the internet.",
+                            kurdishText:
+                                "‘Continue’ دابگرە بۆ پەیوەستبوون بە ئینتەرنێتەوە.",
+                            onPressedBritish: () => speakconnects10("en-GB"),
+                            onPressedAmerican: () => speakconnects10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Simply connect your device to the camera's Wi-Fi signal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا ئامێرەکەت پەیوەست بکە بە شەپۆلی وای‌فای کامێراکەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Simply connect your device to the camera's Wi-Fi signal.",
+                            kurdishText:
+                                "تەنھا ئامێرەکەت پەیوەست بکە بە شەپۆلی وای‌فای کامێراکەت.",
+                            onPressedBritish: () => speakconnects11("en-GB"),
+                            onPressedAmerican: () => speakconnects11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) درووستکردنی پەیوەندی لە نێوان خەڵکی، شت، ڕووداو، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was nothing to connect him with the crime."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ نەبوو بۆ تێوەگلاندنی لە تاوانەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was nothing to connect him with the crime.",
+                            kurdishText:
+                                "ھیچ نەبوو بۆ تێوەگلاندنی لە تاوانەکەوە.",
+                            onPressedBritish: () => speakconnects12("en-GB"),
+                            onPressedAmerican: () => speakconnects12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He made a statement connecting the terrorist group to the attack."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێدوانێکی دا بۆ بەستنەوەی گرووپە تیرۆریستییەکە با تاوانەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He made a statement connecting the terrorist group to the attack.",
+                            kurdishText:
+                                "لێدوانێکی دا بۆ بەستنەوەی گرووپە تیرۆریستییەکە با تاوانەکەوە.",
+                            onPressedBritish: () => speakconnects13("en-GB"),
+                            onPressedAmerican: () => speakconnects13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bad diet is closely connected with many common illnesses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆراکی ڕۆژانەی ناتەندرووست بەتوندی بەستراوەتەوە بە زۆر نەخۆشی باوەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bad diet is closely connected with many common illnesses.",
+                            kurdishText:
+                                "خۆراکی ڕۆژانەی ناتەندرووست بەتوندی بەستراوەتەوە بە زۆر نەخۆشی باوەوە.",
+                            onPressedBritish: () => speakconnects14("en-GB"),
+                            onPressedAmerican: () => speakconnects14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) گەشتنی فڕۆکەیەک، پاسێک، شەمەندەفەرێک، ھتد کەمێک پێش ئەوەی یەکێکی دیکە بچێت بۆ ئەوەی گەشتیاران بە گۆڕانکاری بکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His flight to Amsterdam connects with an afternoon flight to New York."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشتەکەی بۆ ئەمستردام پەیوەست دەبێت بە گەشتێکی نیوەڕوان بۆ نیویۆرک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His flight to Amsterdam connects with an afternoon flight to New York.",
+                            kurdishText:
+                                "گەشتەکەی بۆ ئەمستردام پەیوەست دەبێت بە گەشتێکی نیوەڕوان بۆ نیویۆرک.",
+                            onPressedBritish: () => speakconnects15("en-GB"),
+                            onPressedAmerican: () => speakconnects15("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's a connecting flight at noon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشتێکی پێکەوەبەست ھەیە لە نیوەڕۆدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "There's a connecting flight at noon.",
+                            kurdishText: "گەشتێکی پێکەوەبەست ھەیە لە نیوەڕۆدا.",
+                            onPressedBritish: () => speakconnects16("en-GB"),
+                            onPressedAmerican: () => speakconnects16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) دانانی کەسێک لەسەر ھەمان ھێڵی پەیوەندی بۆ ئەوەی قسەبکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After a long wait I was connected to customer services."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای چاوەڕوانییەکی زۆر پەیوەست کرام بە خزمەتگوزاری بەژداربووانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After a long wait I was connected to customer services.",
+                            kurdishText:
+                                "لە دوای چاوەڕوانییەکی زۆر پەیوەست کرام بە خزمەتگوزاری بەژداربووانەوە.",
+                            onPressedBritish: () => speakconnects17("en-GB"),
+                            onPressedAmerican: () => speakconnects17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) درووستکردنی پەیوەندییەکی باش لەگەڵ کەسێک بەشێوەیەک حەزتان لە یەکدی بێت و لە یەک تێبگەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They met a couple of times but they didn't really connect."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەند جارێک یەکیان بینی بەڵام نەسازان پێکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnects18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnects18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They met a couple of times but they didn't really connect.",
+                            kurdishText:
+                                "چەند جارێک یەکیان بینی بەڵام نەسازان پێکەوە.",
+                            onPressedBritish: () => speakconnects18("en-GB"),
+                            onPressedAmerican: () => speakconnects18("en-US"),
                           ),
                           // const DividerDefinition(),
                           // const DefinitionKurdish(text: "٨. (کردار) لێدان لە کەسێک"),

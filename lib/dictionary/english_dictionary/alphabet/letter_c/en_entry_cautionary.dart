@@ -191,32 +191,13 @@ class EnglishEntrycautionary extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پێدانی ڕاوێژ یان ئاگادارکردنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In her conclusion, the author sounds a cautionary note."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دەرئەنجامدا، نووسەر تێبینییەکی ھۆشیارکەرەوانە دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cautionary", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcautionarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcautionarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In her conclusion, the author sounds a cautionary note.",
+                            kurdishText:
+                                "لە دەرئەنجامدا، نووسەر تێبینییەکی ھۆشیارکەرەوانە دەدات.", // cautionary",
+                            onPressedBritish: () => speakcautionarys1("en-GB"),
+                            onPressedAmerican: () => speakcautionarys1("en-US"),
                           ),
                         ],
                       ),

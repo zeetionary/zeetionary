@@ -147,204 +147,72 @@ class EnglishEntryconstruct extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) درووستکردن یان بنیاتنانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The building was constructed in 1993."),
-                                    ExampleSentenceKurdish(
-                                        text: "بیناکە لە ساڵی ١٩٩٣ درووستکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "construct", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstructs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstructs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The building was constructed in 1993.",
+                            kurdishText:
+                                "بیناکە لە ساڵی ١٩٩٣ درووستکرا.", // construct",
+                            onPressedBritish: () => speakconstructs1("en-GB"),
+                            onPressedAmerican: () => speakconstructs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They constructed a shelter out of fallen branches."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەناگەیەکیان بە لقە کەوتووەکان درووستکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstructs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstructs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They constructed a shelter out of fallen branches.",
+                            kurdishText:
+                                "پەناگەیەکیان بە لقە کەوتووەکان درووستکرد.",
+                            onPressedBritish: () => speakconstructs2("en-GB"),
+                            onPressedAmerican: () => speakconstructs2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The frame is constructed from lightweight aluminium."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوارچێوەکە لە ئەلەمنیۆمی سووک درووستکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstructs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstructs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The frame is constructed from lightweight aluminium.",
+                            kurdishText:
+                                "چوارچێوەکە لە ئەلەمنیۆمی سووک درووستکراوە.",
+                            onPressedBritish: () => speakconstructs3("en-GB"),
+                            onPressedAmerican: () => speakconstructs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) پێکەوەنانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You must learn how to construct a coherent sentence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت فێربیت چۆن ڕستەیەکی یەکگرتوو درووست بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstructs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstructs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You must learn how to construct a coherent sentence.",
+                            kurdishText:
+                                "دەبێت فێربیت چۆن ڕستەیەکی یەکگرتوو درووست بکەیت.",
+                            onPressedBritish: () => speakconstructs4("en-GB"),
+                            onPressedAmerican: () => speakconstructs4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For these experiments it is necessary to construct a model using data from other sources."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ئەم تاقیکردنەوانە درووستکردنی نموونەیەک پێویستە بە بەکارھێنانی زانیاری لە سەرچاوەی دیکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstructs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstructs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For these experiments it is necessary to construct a model using data from other sources.",
+                            kurdishText:
+                                "بۆ ئەم تاقیکردنەوانە درووستکردنی نموونەیەک پێویستە بە بەکارھێنانی زانیاری لە سەرچاوەی دیکەوە.",
+                            onPressedBritish: () => speakconstructs5("en-GB"),
+                            onPressedAmerican: () => speakconstructs5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بیرۆکە و بیردۆز کە درووستکراوە لە سەرچاوەی دیکەوە کە مەرج نییە ڕاست بن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His reputation as an eccentric is largely a media construct."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوبانگی وەک کەسێکی نائاسایی درووستکراوی میدیایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstructs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstructs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His reputation as an eccentric is largely a media construct.",
+                            kurdishText:
+                                "ناوبانگی وەک کەسێکی نائاسایی درووستکراوی میدیایە.",
+                            onPressedBritish: () => speakconstructs6("en-GB"),
+                            onPressedAmerican: () => speakconstructs6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Marriage is a social construct that is found in most communities and cultures."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوسەرگیری چەمکێکی کۆمەڵایەتییە کە لە زۆر کۆمەڵگە و کەلتووردا ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstructs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstructs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Marriage is a social construct that is found in most communities and cultures.",
+                            kurdishText:
+                                "ھاوسەرگیری چەمکێکی کۆمەڵایەتییە کە لە زۆر کۆمەڵگە و کەلتووردا ھەیە.",
+                            onPressedBritish: () => speakconstructs7("en-GB"),
+                            onPressedAmerican: () => speakconstructs7("en-US"),
                           ),
                         ],
                       ),

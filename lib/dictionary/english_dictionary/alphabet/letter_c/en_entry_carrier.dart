@@ -194,125 +194,49 @@ class EnglishEntrycarrier extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆمپانیای گواستنەوە، بەتایبەتی بە فڕۆکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Delta Air Lines is the third-largest carrier in the US."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێڵی ئاسمانی دەلتا سێیەم گەورەترینە کۆمپانیای گوێزانەوەیە لە ئەمرکادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carrier", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarriers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarriers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Delta Air Lines is the third-largest carrier in the US.",
+                            kurdishText:
+                                "ھێڵی ئاسمانی دەلتا سێیەم گەورەترینە کۆمپانیای گوێزانەوەیە لە ئەمرکادا.", // carrier",
+                            onPressedBritish: () => speakcarriers1("en-GB"),
+                            onPressedAmerican: () => speakcarriers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەشتییەک یان ئۆتۆمبێلێکی سەربازی کە کە سەرباز یان کەرەستە دەگوازێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ship served as a carrier, transporting goods across international waters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشتییەکە وەک گوازەرەوەیەک کاری دەکرد بۆ گواستنەوەی کەلوپەل بە ئاوە نێودەوڵەتییەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarriers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarriers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ship served as a carrier, transporting goods across international waters.",
+                            kurdishText:
+                                "کەشتییەکە وەک گوازەرەوەیەک کاری دەکرد بۆ گواستنەوەی کەلوپەل بە ئاوە نێودەوڵەتییەکاندا.",
+                            onPressedBritish: () => speakcarriers2("en-GB"),
+                            onPressedAmerican: () => speakcarriers2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەسێک کە ھەڵگری نەخۆشییەکە و دەیگوازێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In epidemiology, identifying carriers is crucial for controlling the spread of contagious illnesses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پەتاناسیدا، دۆزینەوەی ھەڵگرەکە گرنگە بۆ کۆنترۆڵی بڵاوبوونەوەی نەخۆشیی ڕاگوێزەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarriers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarriers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In epidemiology, identifying carriers is crucial for controlling the spread of contagious illnesses.",
+                            kurdishText:
+                                "لە پەتاناسیدا، دۆزینەوەی ھەڵگرەکە گرنگە بۆ کۆنترۆڵی بڵاوبوونەوەی نەخۆشیی ڕاگوێزەر.",
+                            onPressedBritish: () => speakcarriers3("en-GB"),
+                            onPressedAmerican: () => speakcarriers3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) کۆمپانیایەک کە خزمەتگوزاری تەلەفۆن و ئینتەرنێت پێشکەش دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can transfer your existing mobile phone number to a new carrier."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانی ژمارەی ئێستای موبایلەکەت بگوازیتەوە بۆ تۆڕێکی نوێی گەیاندن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarriers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarriers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can transfer your existing mobile phone number to a new carrier.",
+                            kurdishText:
+                                "دەتوانی ژمارەی ئێستای موبایلەکەت بگوازیتەوە بۆ تۆڕێکی نوێی گەیاندن.",
+                            onPressedBritish: () => speakcarriers4("en-GB"),
+                            onPressedAmerican: () => speakcarriers4("en-US"),
                           ),
                         ],
                       ),

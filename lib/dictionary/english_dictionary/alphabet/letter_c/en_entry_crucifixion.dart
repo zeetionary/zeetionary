@@ -242,63 +242,25 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: (جاران) لەخاچ‌دان، بەچوارسنگ‌کێشان، لە چوارمێخەدان، چوارمێخە، ئەشکێڵ
 """),
           const DefinitionKurdish(text: "١. (ناو) لەخاچدان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In ancient Rome, crucifixion was a common method of punishment for criminals."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ڕۆمای کۆندا، لەخاچدان ڕێگایەکی باوی سزادان بوو بۆ تاوانباران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crucifixion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrucifixions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrucifixions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In ancient Rome, crucifixion was a common method of punishment for criminals.",
+            kurdishText:
+                "لە ڕۆمای کۆندا، لەخاچدان ڕێگایەکی باوی سزادان بوو بۆ تاوانباران.", // crucifixion", please follow LX instructions
+            onPressedBritish: () => speakcrucifixions1("en-GB"),
+            onPressedAmerican: () => speakcrucifixions1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کارێکی ھونەری کە لەخاچدانی پێغەمبەر عیسا پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many famous artists have created masterpieces depicting the crucifixion."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر ھونەرمەندی بەناوبانگ شاکارێکیان درووستکردووە کە لەخاچدانی عیسا پیشان دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrucifixions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrucifixions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many famous artists have created masterpieces depicting the crucifixion.",
+            kurdishText:
+                "زۆر ھونەرمەندی بەناوبانگ شاکارێکیان درووستکردووە کە لەخاچدانی عیسا پیشان دەدات.",
+            onPressedBritish: () => speakcrucifixions2("en-GB"),
+            onPressedAmerican: () => speakcrucifixions2("en-US"),
           ),
         ],
       ),

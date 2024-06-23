@@ -130,149 +130,54 @@ class EnglishEntryclosure extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) داخرانی قوتابخانەیەک، نەخۆشخانەیەک، کارگەیەک، ھتد بۆ ھەمیشەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Spending cuts could mean the closure of the village school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمکردنەوەی خەرجی دەکرێت ببێتەھۆی داخرانی قوتابخانەی گوندەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "closure", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosures1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosures1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Spending cuts could mean the closure of the village school.",
+                            kurdishText:
+                                "کەمکردنەوەی خەرجی دەکرێت ببێتەھۆی داخرانی قوتابخانەی گوندەکە.", // closure",
+                            onPressedBritish: () => speakclosures1("en-GB"),
+                            onPressedAmerican: () => speakclosures1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The factory is under threat of closure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک کارگە لە ژێر ھەڕەشەی داخستنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosures2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosures2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The factory is under threat of closure.",
+                            kurdishText:
+                                "ژمارەیەک کارگە لە ژێر ھەڕەشەی داخستنن.",
+                            onPressedBritish: () => speakclosures2("en-GB"),
+                            onPressedAmerican: () => speakclosures2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) داخستنی کاتی ڕێگایەک یان پردێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The accident caused the complete closure of the road."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووداوەکە بوو بەھۆی داخرانی تەواوی ڕێگاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosures3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosures3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The accident caused the complete closure of the road.",
+                            kurdishText:
+                                "ڕووداوەکە بوو بەھۆی داخرانی تەواوی ڕێگاکە.",
+                            onPressedBritish: () => speakclosures3("en-GB"),
+                            onPressedAmerican: () => speakclosures3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ھەستی ئەوەی کە دۆخێکی ناخۆش یان سەخت کۆتایی ھاتووە یان بەشێوەیەکی گونجاو مامەڵەی لەگەڵ کراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The conviction of their son's murderer helped to give them a sense of closure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاوانبارکردنی بکوژی کوڕەکەیان یارمەتیدەر بوو لە پێدانی سوکنایی پێیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosures4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosures4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The conviction of their son's murderer helped to give them a sense of closure.",
+                            kurdishText:
+                                "تاوانبارکردنی بکوژی کوڕەکەیان یارمەتیدەر بوو لە پێدانی سوکنایی پێیان.",
+                            onPressedBritish: () => speakclosures4("en-GB"),
+                            onPressedAmerican: () => speakclosures4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People who lose family members need closure, not false hope."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو کەسانەی ئەندامێکی خێزان لەدەست دەدەن پێویستییان بە سوکناییە، نەک ھیوای ساختە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclosures5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclosures5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People who lose family members need closure, not false hope.",
+                            kurdishText:
+                                "ئەو کەسانەی ئەندامێکی خێزان لەدەست دەدەن پێویستییان بە سوکناییە، نەک ھیوای ساختە.",
+                            onPressedBritish: () => speakclosures5("en-GB"),
+                            onPressedAmerican: () => speakclosures5("en-US"),
                           ),
                         ],
                       ),

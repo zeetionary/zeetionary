@@ -154,242 +154,86 @@ class EnglishEntrycomplex extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ئاڵۆز، پێکھاتوو لە ژمارەیەک بەش"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scientists need a better understanding of the complex interactions that cause hurricanes to intensify."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاناکان پێویستییان بە تێگەشتنی زیاتر ھەیە بۆ تێگەشتن لەو کارلێکە ئاڵۆزانەی کە دەبنە ھۆی بەھێزبوونی گەردەلوولەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complex", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplexs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplexs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scientists need a better understanding of the complex interactions that cause hurricanes to intensify.",
+                            kurdishText:
+                                "زاناکان پێویستییان بە تێگەشتنی زیاتر ھەیە بۆ تێگەشتن لەو کارلێکە ئاڵۆزانەی کە دەبنە ھۆی بەھێزبوونی گەردەلوولەکان.", // complex",
+                            onPressedBritish: () => speakcomplexs1("en-GB"),
+                            onPressedAmerican: () => speakcomplexs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We live in an increasingly complex world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە جیھانێکی بەردەوام ئاڵۆزتربوودا دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplexs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplexs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We live in an increasingly complex world.",
+                            kurdishText:
+                                "لە جیھانێکی بەردەوام ئاڵۆزتربوودا دەژین.",
+                            onPressedBritish: () => speakcomplexs2("en-GB"),
+                            onPressedAmerican: () => speakcomplexs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ڕستەیەک یان وشەیەک کە لە بەشێکی سەرەکی و بەشێکی دیکە پێکدێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the complex sentence, ‘I'd like to go to the beach, if it's warm enough’, ‘I'd like to go to the beach’ is the main clause, and ‘if it's warm enough’ is the subordinate clause."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕستەی 'I'd like to go to the beach, if it's warm enough'، بەشی 'I'd like to go to the beach' شاڕستەیە، و 'if it's warm enough' پاڕستەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplexs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplexs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the complex sentence, ‘I'd like to go to the beach, if it's warm enough’, ‘I'd like to go to the beach’ is the main clause, and ‘if it's warm enough’ is the subordinate clause.",
+                            kurdishText:
+                                "لە ڕستەی 'I'd like to go to the beach, if it's warm enough'، بەشی 'I'd like to go to the beach' شاڕستەیە، و 'if it's warm enough' پاڕستەیە.",
+                            onPressedBritish: () => speakcomplexs3("en-GB"),
+                            onPressedAmerican: () => speakcomplexs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کۆمەڵە بینایەکی ھاوشێوە لە ھەمان شوێندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They live in a large apartment complex."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆخانوویەکی دەستەژووریدا دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplexs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplexs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They live in a large apartment complex.",
+                            kurdishText: "لە کۆخانوویەکی دەستەژووریدا دەژین.",
+                            onPressedBritish: () => speakcomplexs4("en-GB"),
+                            onPressedAmerican: () => speakcomplexs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) کۆمەڵە شتێک کە گرێدراون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is just one of a whole complex of issues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە تەنھا یەکێکە لە کۆمەڵە کێشەیەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplexs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplexs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is just one of a whole complex of issues.",
+                            kurdishText: "ئەمە تەنھا یەکێکە لە کۆمەڵە کێشەیەک.",
+                            onPressedBritish: () => speakcomplexs5("en-GB"),
+                            onPressedAmerican: () => speakcomplexs5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) کۆمەڵە باوەڕ و ترسێک کە دەکرێت ببێتە ھۆکاری دڵتەنگی یان نەخۆشی دەروونی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He suffers from a guilt complex."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەدەست گرێیەکی تاوانەوە دەناڵێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplexs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplexs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He suffers from a guilt complex.",
+                            kurdishText: "بەدەست گرێیەکی تاوانەوە دەناڵێنێت.",
+                            onPressedBritish: () => speakcomplexs6("en-GB"),
+                            onPressedAmerican: () => speakcomplexs6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) ھەستی نیگەرانی یان شەرمەزاری سەبارەت بە شتێک کە گرنگ نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has a complex about her big ears."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیگەرانییەکی ھەیە سەبارەت بە گوێیە گەورەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplexs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplexs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has a complex about her big ears.",
+                            kurdishText:
+                                "نیگەرانییەکی ھەیە سەبارەت بە گوێیە گەورەکانی.",
+                            onPressedBritish: () => speakcomplexs7("en-GB"),
+                            onPressedAmerican: () => speakcomplexs7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My parents never spoke about my height because they didn't want me to grow up with a complex."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایک و باوکم ھەرگیز سەبارەت بە باڵام قسەیان نەدەکرد چونکە نەیان دەویست شەرمەزاربم پێی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplexs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplexs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My parents never spoke about my height because they didn't want me to grow up with a complex.",
+                            kurdishText:
+                                "دایک و باوکم ھەرگیز سەبارەت بە باڵام قسەیان نەدەکرد چونکە نەیان دەویست شەرمەزاربم پێی.",
+                            onPressedBritish: () => speakcomplexs8("en-GB"),
+                            onPressedAmerican: () => speakcomplexs8("en-US"),
                           ),
                         ],
                       ),

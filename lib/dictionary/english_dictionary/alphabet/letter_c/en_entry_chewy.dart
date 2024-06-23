@@ -94,31 +94,11 @@ class EnglishEntrychewy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە پێویستی بە جوینە پێش ئەوەی قوتبدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The meat was tasteless and chewy."),
-                                    ExampleSentenceKurdish(
-                                        text: "گۆشتەکە بێ‌تام و جیڕ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chewy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchewys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchewys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The meat was tasteless and chewy.",
+                            kurdishText: "گۆشتەکە بێ‌تام و جیڕ بوو.", // chewy",
+                            onPressedBritish: () => speakchewys1("en-GB"),
+                            onPressedAmerican: () => speakchewys1("en-US"),
                           ),
                         ],
                       ),

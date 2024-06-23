@@ -112,96 +112,36 @@ class EnglishEntryconsolidate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بەھێزکردنی پێگە، دەسەڵات، سەرکەوتن، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "With this new movie he has consolidated his position as the country's leading director."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە فیلمە تازەکەی پێگەی خۆی وەک دەرھێنەری پێشەنگی وڵاتەکە پتەوترکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consolidate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsolidates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsolidates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "With this new movie he has consolidated his position as the country's leading director.",
+                            kurdishText:
+                                "بە فیلمە تازەکەی پێگەی خۆی وەک دەرھێنەری پێشەنگی وڵاتەکە پتەوترکردووە.", // consolidate",
+                            onPressedBritish: () => speakconsolidates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsolidates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Italy consolidated their lead with a second goal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئیتالیا پێشەنگی زیاتر کرد بە گۆڵی دووەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsolidates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsolidates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Italy consolidated their lead with a second goal.",
+                            kurdishText:
+                                "ئیتالیا پێشەنگی زیاتر کرد بە گۆڵی دووەم.",
+                            onPressedBritish: () => speakconsolidates2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsolidates2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) تێکەڵکردن بۆ کردن بە یەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two firms consolidated to form a single company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو کۆمپانیاکە یەکیان گرت بۆ درووستکردنی یەک کۆمپانیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsolidates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsolidates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two firms consolidated to form a single company.",
+                            kurdishText:
+                                "دوو کۆمپانیاکە یەکیان گرت بۆ درووستکردنی یەک کۆمپانیا.",
+                            onPressedBritish: () => speakconsolidates3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsolidates3("en-US"),
                           ),
                         ],
                       ),

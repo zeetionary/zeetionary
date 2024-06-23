@@ -295,59 +295,21 @@ class EnglishEntrycentre extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ناوەڕاستی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He walked to the centre of the circle."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕۆیشتە چەقی بازنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "centre", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He walked to the centre of the circle.",
+                            kurdishText: "ڕۆیشتە چەقی بازنەکە.", // centre",
+                            onPressedBritish: () => speakcentres1("en-GB"),
+                            onPressedAmerican: () => speakcentres1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a long table in the centre of the room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێزێکی درێژ ھەبوو لە ناوەڕاستی ژوورەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a long table in the centre of the room.",
+                            kurdishText:
+                                "مێزێکی درێژ ھەبوو لە ناوەڕاستی ژوورەکەدا.",
+                            onPressedBritish: () => speakcentres2("en-GB"),
+                            onPressedAmerican: () => speakcentres2("en-US"),
                           ),
                           Column(
                             children: [
@@ -420,392 +382,142 @@ class EnglishEntrycentre extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەشێکی شار یان شارۆچکەیەک کە لە ناوەندە و قەرەباڵغە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We both work in the city centre."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردووکمان لە سەنتەری شار کار دەکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We both work in the city centre.",
+                            kurdishText:
+                                "ھەردووکمان لە سەنتەری شار کار دەکەین.",
+                            onPressedBritish: () => speakcentres5("en-GB"),
+                            onPressedAmerican: () => speakcentres5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We've bought a flat in the very centre of Cambridge."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فلاتێکمان کڕیوە لە چەقی کامبریجدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We've bought a flat in the very centre of Cambridge.",
+                            kurdishText: "فلاتێکمان کڕیوە لە چەقی کامبریجدا.",
+                            onPressedBritish: () => speakcentres6("en-GB"),
+                            onPressedAmerican: () => speakcentres6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شوێنێک یان ناوچەیەک کە خەڵکی زۆر تێیدا دەژین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At that time Winchester was still a major centre of population."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوکات وینچستەر ھێشتا ناوەندێکی گرنگی دانیشتوان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At that time Winchester was still a major centre of population.",
+                            kurdishText:
+                                "ئەوکات وینچستەر ھێشتا ناوەندێکی گرنگی دانیشتوان بوو.",
+                            onPressedBritish: () => speakcentres7("en-GB"),
+                            onPressedAmerican: () => speakcentres7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The university is a leading centre for scientific research."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانکۆکە ناوەندی سەرەکی توێژینەوەی زانستییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The university is a leading centre for scientific research.",
+                            kurdishText:
+                                "زانکۆکە ناوەندی سەرەکی توێژینەوەی زانستییە.",
+                            onPressedBritish: () => speakcentres8("en-GB"),
+                            onPressedAmerican: () => speakcentres8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) بینایەک یان شێنێک کە بۆ مەبەستێک یان چالاکییەک بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company has recently opened a new training centre."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە تازەگی ناوەندێکی ڕاھێنانی کردووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company has recently opened a new training centre.",
+                            kurdishText:
+                                "کۆمپانیاکە تازەگی ناوەندێکی ڕاھێنانی کردووەتەوە.",
+                            onPressedBritish: () => speakcentres9("en-GB"),
+                            onPressedAmerican: () => speakcentres9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) شوێنێک کە کارێکی دیاریکراو زۆر بە باشی تێیدا دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The university is recognized as an international centre of excellence for training dentists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانکۆکە ناسراوە وەک ناوەندی نایابی جیھانی بۆ ڕاھێنانی پزیشکانی ددان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The university is recognized as an international centre of excellence for training dentists.",
+                            kurdishText:
+                                "زانکۆکە ناسراوە وەک ناوەندی نایابی جیھانی بۆ ڕاھێنانی پزیشکانی ددان.",
+                            onPressedBritish: () => speakcentres10("en-GB"),
+                            onPressedAmerican: () => speakcentres10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) ئەو خاڵەی کە خەڵکی سەرنج دەخەنە سەری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Children like to be the centre of attention."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵان حەز دەکەن ناوەندی سەرنج بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Children like to be the centre of attention.",
+                            kurdishText: "منداڵان حەز دەکەن ناوەندی سەرنج بن.",
+                            onPressedBritish: () => speakcentres11("en-GB"),
+                            onPressedAmerican: () => speakcentres11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He could never doubt that he was the centre of her world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز گومانی لەوە نەبوو کە لە ناوجەرگەی جیھانی ئەودایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He could never doubt that he was the centre of her world.",
+                            kurdishText:
+                                "ھەرگیز گومانی لەوە نەبوو کە لە ناوجەرگەی جیھانی ئەودایە.",
+                            onPressedBritish: () => speakcentres12("en-GB"),
+                            onPressedAmerican: () => speakcentres12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) ئایدۆلۆژیای سیاسی کە لە نێوان چەپ و ڕاستدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Politically, she is considered to be slightly left of centre."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕووی سیاسییەوە، وا دادەنرێت کەمێک لە چەپی نەرم‌ڕەوی بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Politically, she is considered to be slightly left of centre.",
+                            kurdishText:
+                                "لە ڕووی سیاسییەوە، وا دادەنرێت کەمێک لە چەپی نەرم‌ڕەوی بێت.",
+                            onPressedBritish: () => speakcentres13("en-GB"),
+                            onPressedAmerican: () => speakcentres13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) بوون بەو کەسە یان شتەی کە زۆرینەی چالاکییەکان لە دەوریدا ڕوودەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "State occasions always centred around the king."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆنە نەتەوەییەکان ھەمیشە لە دەوری پاشا دەخولانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "State occasions always centred around the king.",
+                            kurdishText:
+                                "بۆنە نەتەوەییەکان ھەمیشە لە دەوری پاشا دەخولانەوە.",
+                            onPressedBritish: () => speakcentres14("en-GB"),
+                            onPressedAmerican: () => speakcentres14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The debate centred on an important political issue."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیبەیتەکە لەسەر کێشیەکی سیاسی گرنگ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The debate centred on an important political issue.",
+                            kurdishText:
+                                "دیبەیتەکە لەسەر کێشیەکی سیاسی گرنگ بوو.",
+                            onPressedBritish: () => speakcentres15("en-GB"),
+                            onPressedAmerican: () => speakcentres15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) يوودان بەشێوەیەکی سەرەکی لەو شوێنەی کە باسکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most of the fighting was centred in the north of the capital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی شەڕەکە لە باکووری پایتەخت چڕبوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most of the fighting was centred in the north of the capital.",
+                            kurdishText:
+                                "زۆرینەی شەڕەکە لە باکووری پایتەخت چڕبوویەوە.",
+                            onPressedBritish: () => speakcentres16("en-GB"),
+                            onPressedAmerican: () => speakcentres16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (کردار) جوڵانی شتێک و دانانی لە چەقی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Centre (= put at equal distances from the left and right sides of the page) all the headings in this document."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی سەرەبابەتەکان لەم پەڕەیە بخە ناوەڕاستەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentres17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentres17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Centre (= put at equal distances from the left and right sides of the page) all the headings in this document.",
+                            kurdishText:
+                                "تەواوی سەرەبابەتەکان لەم پەڕەیە بخە ناوەڕاستەوە.",
+                            onPressedBritish: () => speakcentres17("en-GB"),
+                            onPressedAmerican: () => speakcentres17("en-US"),
                           ),
                         ],
                       ),

@@ -102,59 +102,22 @@ class EnglishEntrychirpy extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بەکەیف و خۆشحاڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She seemed quite chirpy this morning."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم بەیانییە تەواو خۆشحاڵ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chirpy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchirpys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchirpys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She seemed quite chirpy this morning.",
+                            kurdishText:
+                                "ئەم بەیانییە تەواو خۆشحاڵ بوو.", // chirpy",
+                            onPressedBritish: () => speakchirpys1("en-GB"),
+                            onPressedAmerican: () => speakchirpys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't know how you always sound so chirpy in the morning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێ‌ناگەم چۆن ھەمیشە بەیانییان وەھا خۆشحاڵیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchirpys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchirpys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't know how you always sound so chirpy in the morning.",
+                            kurdishText:
+                                "تێ‌ناگەم چۆن ھەمیشە بەیانییان وەھا خۆشحاڵیت.",
+                            onPressedBritish: () => speakchirpys2("en-GB"),
+                            onPressedAmerican: () => speakchirpys2("en-US"),
                           ),
                         ],
                       ),

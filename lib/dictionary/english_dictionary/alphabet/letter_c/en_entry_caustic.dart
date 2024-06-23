@@ -192,63 +192,25 @@ class EnglishEntrycaustic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) مادەیەکی کیمیایی کە توانای تواندنەوەی مادەکانی دیکەی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Always wear appropriate protective gear when working with caustic substances."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە جلی پارێزەری گونجاو لەبەربکە کە لەگەڵ مادەی توێنەر کار دەکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "caustic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaustics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaustics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Always wear appropriate protective gear when working with caustic substances.",
+                            kurdishText:
+                                "ھەمیشە جلی پارێزەری گونجاو لەبەربکە کە لەگەڵ مادەی توێنەر کار دەکەیت.", // caustic",
+                            onPressedBritish: () => speakcaustics1("en-GB"),
+                            onPressedAmerican: () => speakcaustics1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) لێدوانێک کە دژبەرە بەشێوەیەکی توند"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her speech was a caustic attack on government officials."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکەی ھێرشێکی توند بوو دژ بە بەرپرسانی حکومەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaustics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaustics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her speech was a caustic attack on government officials.",
+                            kurdishText:
+                                "وتارەکەی ھێرشێکی توند بوو دژ بە بەرپرسانی حکومەت.",
+                            onPressedBritish: () => speakcaustics2("en-GB"),
+                            onPressedAmerican: () => speakcaustics2("en-US"),
                           ),
                         ],
                       ),

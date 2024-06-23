@@ -110,90 +110,33 @@ class EnglishEntrycorn extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەر ڕووەکێک کە بۆ دەنکەکەی دەڕوێنرێت، بۆ نموونە گەنم؛ دەنکی ئەم ڕووەکانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The corn is still green."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەغڵ‌ودانەکە ھێشتا سەوزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "corn", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcorns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcorns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The corn is still green.",
+                            kurdishText: "دەغڵ‌ودانەکە ھێشتا سەوزە.", // corn",
+                            onPressedBritish: () => speakcorns1("en-GB"),
+                            onPressedAmerican: () => speakcorns1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) گەنمەشامی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The major crops are wheat, barley and corn."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانەوێڵە سەرەکییەکان گەنم، جۆ، و گەنمەشامین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcorns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcorns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The major crops are wheat, barley and corn.",
+                            kurdishText:
+                                "دانەوێڵە سەرەکییەکان گەنم، جۆ، و گەنمەشامین.",
+                            onPressedBritish: () => speakcorns2("en-GB"),
+                            onPressedAmerican: () => speakcorns2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بەشێکی پێستی جەستە کە ڕەق بووە لەسەر پێ و ھەندێکجار بە ئازارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "See your doctor if you have foot pain or corns."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بچۆ لای دکتۆرەکەت ئەگەر ئازاری پێ یان مێخەکەت ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcorns3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcorns3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "See your doctor if you have foot pain or corns.",
+                            kurdishText:
+                                "بچۆ لای دکتۆرەکەت ئەگەر ئازاری پێ یان مێخەکەت ھەیە.",
+                            onPressedBritish: () => speakcorns3("en-GB"),
+                            onPressedAmerican: () => speakcorns3("en-US"),
                           ),
                         ],
                       ),

@@ -95,34 +95,15 @@ class EnglishEntryconclusively extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە شتێک دەسەلمێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is impossible to demonstrate/prove conclusively that the factory is responsible for the pollution."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەستەمە یەکلایی‌کەرەوانە پیشان بدرێت کە کارگەکە بەرپرسە بۆ پیسکردنی ژینگەیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conclusively", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconclusivelys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconclusivelys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is impossible to demonstrate/prove conclusively that the factory is responsible for the pollution.",
+                            kurdishText:
+                                "ئەستەمە یەکلایی‌کەرەوانە پیشان بدرێت کە کارگەکە بەرپرسە بۆ پیسکردنی ژینگەیی.", // conclusively",
+                            onPressedBritish: () =>
+                                speakconclusivelys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconclusivelys1("en-US"),
                           ),
                         ],
                       ),

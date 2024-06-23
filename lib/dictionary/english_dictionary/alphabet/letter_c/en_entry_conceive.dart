@@ -144,201 +144,65 @@ class EnglishEntryconceive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) گەڵاڵەکردنی بیرۆکەیەک، پلانێک، ھتد لە مێشکتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dam project was originally conceived in 1977."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆژەی بەنداوەکە لە سەرەتادا بیری لێکرایەوە لە ساڵی ١٩٧٧."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conceive", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dam project was originally conceived in 1977.",
+                            kurdishText:
+                                "پڕۆژەی بەنداوەکە لە سەرەتادا بیری لێکرایەوە لە ساڵی ١٩٧٧.", // conceive",
+                            onPressedBritish: () => speakconceives1("en-GB"),
+                            onPressedAmerican: () => speakconceives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plan was brilliantly conceived."),
-                                    ExampleSentenceKurdish(
-                                        text: "پلانەکە بلیمەتانە گەڵاڵە کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The plan was brilliantly conceived.",
+                            kurdishText: "پلانەکە بلیمەتانە گەڵاڵە کرا.",
+                            onPressedBritish: () => speakconceives2("en-GB"),
+                            onPressedAmerican: () => speakconceives2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) خەیاڵکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "God is often conceived of as male."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خودا زۆرجار وەک نێر خەیاڵ دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceives3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "God is often conceived of as male.",
+                            kurdishText: "خودا زۆرجار وەک نێر خەیاڵ دەکرێت.",
+                            onPressedBritish: () => speakconceives3("en-GB"),
+                            onPressedAmerican: () => speakconceives3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I cannot conceive (= I do not believe) (that) he would wish to harm us."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم باوەڕ بکەم ھیوای ئەوەی خواست زیانمان پێ بگەیەنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceives4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceives4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I cannot conceive (= I do not believe) (that) he would wish to harm us.",
+                            kurdishText:
+                                "ناتوانم باوەڕ بکەم ھیوای ئەوەی خواست زیانمان پێ بگەیەنێت.",
+                            onPressedBritish: () => speakconceives4("en-GB"),
+                            onPressedAmerican: () => speakconceives4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I cannot conceive what it must be like."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم خەیاڵی بکەم ئاخۆ دەبێت چۆن بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceives5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceives5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I cannot conceive what it must be like.",
+                            kurdishText:
+                                "ناتوانم خەیاڵی بکەم ئاخۆ دەبێت چۆن بێت.",
+                            onPressedBritish: () => speakconceives5("en-GB"),
+                            onPressedAmerican: () => speakconceives5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) دووگیان بوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She is unable to conceive."),
-                                    ExampleSentenceKurdish(
-                                        text: "ناتوانێت دووگیان بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceives6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceives6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She is unable to conceive.",
+                            kurdishText: "ناتوانێت دووگیان بێت.",
+                            onPressedBritish: () => speakconceives6("en-GB"),
+                            onPressedAmerican: () => speakconceives6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their first child was conceived on their wedding night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەم منداڵیان چووە ڕەحمەوە لە شەوی ھاوسەرگیرییەکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconceives7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconceives7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their first child was conceived on their wedding night.",
+                            kurdishText:
+                                "یەکەم منداڵیان چووە ڕەحمەوە لە شەوی ھاوسەرگیرییەکەیان.",
+                            onPressedBritish: () => speakconceives7("en-GB"),
+                            onPressedAmerican: () => speakconceives7("en-US"),
                           ),
                         ],
                       ),

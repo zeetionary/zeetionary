@@ -191,34 +191,15 @@ class EnglishEntrycarteblanche extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئازادی و دەسەڵاتی تەواو بۆ کردنی ئەوەی دەتەوێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was given carte blanche to say what he liked in the report."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئازادیی تەواوی پێدرا بۆ وتنی ئەوەی حەزی دەکرد لە ڕاپۆرتەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carte blanche", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarteblanches1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarteblanches1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was given carte blanche to say what he liked in the report.",
+                            kurdishText:
+                                "ئازادیی تەواوی پێدرا بۆ وتنی ئەوەی حەزی دەکرد لە ڕاپۆرتەکەدا.", // carte blanche",
+                            onPressedBritish: () =>
+                                speakcarteblanches1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarteblanches1("en-US"),
                           ),
                         ],
                       ),

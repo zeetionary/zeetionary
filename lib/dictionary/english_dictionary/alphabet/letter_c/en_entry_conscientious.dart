@@ -94,34 +94,15 @@ class EnglishEntryconscientious extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) گرنگیدان بەوەی شتەکان بو وریایی و درووستی بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was a popular and conscientious teacher."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستایەکی ناسراو و دڵسۆز بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conscientious", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconscientiouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconscientiouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was a popular and conscientious teacher.",
+                            kurdishText:
+                                "مامۆستایەکی ناسراو و دڵسۆز بوو.", // conscientious",
+                            onPressedBritish: () =>
+                                speakconscientiouss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconscientiouss1("en-US"),
                           ),
                         ],
                       ),

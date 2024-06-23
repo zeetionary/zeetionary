@@ -103,67 +103,27 @@ class EnglishEntrycompression extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کرداری پەستاندن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Tectonic forces caused compression in the earth’s crust."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزی تەکتۆنی دەبێتە ھۆی پەستان لە کرۆکی زەویدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compression", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompressions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompressions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Tectonic forces caused compression in the earth’s crust.",
+                            kurdishText:
+                                "ھێزی تەکتۆنی دەبێتە ھۆی پەستان لە کرۆکی زەویدا.", // compression",
+                            onPressedBritish: () => speakcompressions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompressions1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) کرداری کەمکردنەوەی شتێک بۆ ئەوەی لە شوێن یان کاتی کەمتردا جێگای ببێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The compression of the play into a single three-hour drama required careful editing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمکردنەوەی شانۆکە بۆ درامایەکی سێ کاتژمێری پێویستی بە دەستکاری ورد ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompressions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompressions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The compression of the play into a single three-hour drama required careful editing.",
+                            kurdishText:
+                                "کەمکردنەوەی شانۆکە بۆ درامایەکی سێ کاتژمێری پێویستی بە دەستکاری ورد ھەیە.",
+                            onPressedBritish: () => speakcompressions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompressions2("en-US"),
                           ),
                         ],
                       ),

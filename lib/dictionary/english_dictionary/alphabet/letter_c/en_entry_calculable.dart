@@ -192,32 +192,13 @@ class EnglishEntrycalculable extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) شتێک کە دەجەمڵێندرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The time required to complete the project was calculable given the available resources."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو کاتەی پێویست بوو بۆ تەواوکردنی پڕۆژەکە لێک‌دەدرایەوە بەو زانیارییانەی بەردەست بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calculable", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalculables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalculables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The time required to complete the project was calculable given the available resources.",
+                            kurdishText:
+                                "ئەو کاتەی پێویست بوو بۆ تەواوکردنی پڕۆژەکە لێک‌دەدرایەوە بەو زانیارییانەی بەردەست بوون.", // calculable
+                            onPressedBritish: () => speakcalculables1("en-GB"),
+                            onPressedAmerican: () => speakcalculables1("en-US"),
                           ),
                         ],
                       ),

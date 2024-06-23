@@ -127,142 +127,46 @@ class EnglishEntryclothes extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئەو شتانەی کە لەبەری دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I bought some new clothes for the trip."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک جلوبەرگی تازەم بۆ گەشتەکە کڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clothes", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclothess1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclothess1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I bought some new clothes for the trip.",
+                            kurdishText:
+                                "ھەندێک جلوبەرگی تازەم بۆ گەشتەکە کڕی.", // clothes",
+                            onPressedBritish: () => speakclothess1("en-GB"),
+                            onPressedAmerican: () => speakclothess1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has no clothes sense (= she does not know what clothes look attractive)."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ سەلیقەی پۆشینی نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclothess2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclothess2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has no clothes sense (= she does not know what clothes look attractive).",
+                            kurdishText: "ھیچ سەلیقەی پۆشینی نەبوو.",
+                            onPressedBritish: () => speakclothess2("en-GB"),
+                            onPressedAmerican: () => speakclothess2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wore his best clothes to the interview."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترین جلەکانی بۆ چاوپێکەوتنەکە لەبەرکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclothess3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclothess3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wore his best clothes to the interview.",
+                            kurdishText:
+                                "باشترین جلەکانی بۆ چاوپێکەوتنەکە لەبەرکرد.",
+                            onPressedBritish: () => speakclothess3("en-GB"),
+                            onPressedAmerican: () => speakclothess3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm going to take a set of clean clothes with me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستە جلێکی پاک لەگەڵ خۆم دەبەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclothess4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclothess4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm going to take a set of clean clothes with me.",
+                            kurdishText: "دەستە جلێکی پاک لەگەڵ خۆم دەبەم.",
+                            onPressedBritish: () => speakclothess4("en-GB"),
+                            onPressedAmerican: () => speakclothess4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She didn't recognize him in his everyday clothes."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە جلی ڕۆژانەیدا نەیناسییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclothess5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclothess5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She didn't recognize him in his everyday clothes.",
+                            kurdishText: "لە جلی ڕۆژانەیدا نەیناسییەوە.",
+                            onPressedBritish: () => speakclothess5("en-GB"),
+                            onPressedAmerican: () => speakclothess5("en-US"),
                           ),
                         ],
                       ),

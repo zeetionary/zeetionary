@@ -102,62 +102,23 @@ class EnglishEntrycoffer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سندووقێکی بەھێزی گەورە کە لە کۆندا بۆ ھەڵگرتنی پارە بەکاردەھات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She stored her jewelry in a wooden coffer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خشڵەکانی لە سندووقێکی داریندا ھەڵگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coffer", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoffers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoffers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She stored her jewelry in a wooden coffer.",
+                            kurdishText:
+                                "خشڵەکانی لە سندووقێکی داریندا ھەڵگرت.", // coffer",
+                            onPressedBritish: () => speakcoffers1("en-GB"),
+                            onPressedAmerican: () => speakcoffers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو پارەیەی کە حکومەتێک، دامەزراوەیەک، ھتد ھەیەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The nation's coffers are empty."),
-                                    ExampleSentenceKurdish(
-                                        text: "گەنجینەکانی وڵات بەتاڵن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoffers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoffers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The nation's coffers are empty.",
+                            kurdishText: "گەنجینەکانی وڵات بەتاڵن.",
+                            onPressedBritish: () => speakcoffers2("en-GB"),
+                            onPressedAmerican: () => speakcoffers2("en-US"),
                           ),
                         ],
                       ),

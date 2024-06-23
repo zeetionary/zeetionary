@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) یارییەک کە تێیدا لە چوارگۆشەی ستوونی و ئاسۆییدا وشە دەنووسیت و بۆ زانینی ھەموو وشەکان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I've finished the crossword apart from 3 across and 10 down."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خشتەی پۆتانی وشەکانم تەواوکردووە جگە لە ٣ بە ئاسۆیی و ١٠ بە ستوونی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crossword", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosswords1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosswords1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I've finished the crossword apart from 3 across and 10 down.",
+            kurdishText:
+                "خشتەی پۆتانی وشەکانم تەواوکردووە جگە لە ٣ بە ئاسۆیی و ١٠ بە ستوونی.", // crossword", please follow LX instructions
+            onPressedBritish: () => speakcrosswords1("en-GB"),
+            onPressedAmerican: () => speakcrosswords1("en-US"),
           ),
         ],
       ),

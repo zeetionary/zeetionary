@@ -104,63 +104,25 @@ class EnglishEntryclank extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) درووستکردنی دەنگێکی بەرز وەک ئەوەی دوو کانزا لە یەکدی بدەن، یان ئەوەی لە شتێک بدەیت بۆ ئەوەی ئەم دەنگە درووست بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My bike chain was clanking in an alarming way as I pedalled along."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زنجیری پاسکیلەکەم خڕەخڕی دەھات کە پایدانم بۆ پێشەوە لێدەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clank", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclanks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclanks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My bike chain was clanking in an alarming way as I pedalled along.",
+                            kurdishText:
+                                "زنجیری پاسکیلەکەم خڕەخڕی دەھات کە پایدانم بۆ پێشەوە لێدەدا.", // clank",
+                            onPressedBritish: () => speakclanks1("en-GB"),
+                            onPressedAmerican: () => speakclanks1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دەنگێکی بەرز وەک ئەوەی پارچە کانزا لە یەکدی بدەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I heard the clank of buckets as they went to milk the cows."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێم لە تەقەی سەتڵەکان بوو کە دەچوون مانگاکان بدۆشن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclanks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclanks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I heard the clank of buckets as they went to milk the cows.",
+                            kurdishText:
+                                "گوێم لە تەقەی سەتڵەکان بوو کە دەچوون مانگاکان بدۆشن.",
+                            onPressedBritish: () => speakclanks2("en-GB"),
+                            onPressedAmerican: () => speakclanks2("en-US"),
                           ),
                         ],
                       ),

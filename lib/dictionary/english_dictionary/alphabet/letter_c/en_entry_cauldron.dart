@@ -191,32 +191,13 @@ class EnglishEntrycauldron extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) قاپێکی قووڵ بۆ کوڵاندنی شلە یان لێنانی خواردن لەسەر ئاگر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bubbling cauldron over the campfire filled the air with savory aromas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەنجەڵی سەر ئاگرەکە کە قوڵتەقوڵی دەکرد کەشەکەی پڕکردبوو لە بۆنی خۆش."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cauldron", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcauldrons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcauldrons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bubbling cauldron over the campfire filled the air with savory aromas.",
+                            kurdishText:
+                                "مەنجەڵی سەر ئاگرەکە کە قوڵتەقوڵی دەکرد کەشەکەی پڕکردبوو لە بۆنی خۆش.", // cauldron",
+                            onPressedBritish: () => speakcauldrons1("en-GB"),
+                            onPressedAmerican: () => speakcauldrons1("en-US"),
                           ),
                         ],
                       ),

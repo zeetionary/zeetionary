@@ -192,58 +192,19 @@ class EnglishEntrycabbage extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سەوزەیەکی گەورەی خڕ کە گەڵای سەوز، مۆری مەیلەو سوور، یان سپی ھەیە و دەکرێت بە خاوی بخورێت یان وەک خواردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Do you like cabbage?"),
-                                    ExampleSentenceKurdish(
-                                        text: "حەزت لە کەلەرمە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabbage", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabbages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabbages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Do you like cabbage?",
+                            kurdishText: "حەزت لە کەلەرمە؟", // cabbage
+                            onPressedBritish: () => speakcabbages1("en-GB"),
+                            onPressedAmerican: () => speakcabbages1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have grown a lot of cabbages this year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمساڵ کەلەرمی زۆرمان بەرھەمھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcabbages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcabbages2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have grown a lot of cabbages this year.",
+                            kurdishText: "ئەمساڵ کەلەرمی زۆرمان بەرھەمھێناوە.",
+                            onPressedBritish: () => speakcabbages2("en-GB"),
+                            onPressedAmerican: () => speakcabbages2("en-US"),
                           ),
                         ],
                       ),

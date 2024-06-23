@@ -158,237 +158,85 @@ class EnglishEntrycivil extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە دەنیشتووانی شارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were concerns that the economic reforms might lead to civil unrest."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیگەرانی ھەبوو لەوەی کە چاکسازییە ئابورییەکان لەوانەیە ببنە ھۆی ئاڵۆزی ھاوڵاتییان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "civil", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivils1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivils1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were concerns that the economic reforms might lead to civil unrest.",
+                            kurdishText:
+                                "نیگەرانی ھەبوو لەوەی کە چاکسازییە ئابورییەکان لەوانەیە ببنە ھۆی ئاڵۆزی ھاوڵاتییان.", // civil",
+                            onPressedBritish: () => speakcivils1("en-GB"),
+                            onPressedAmerican: () => speakcivils1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Helicopters are mainly used for military rather than civil use."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێلیکۆپتەر زۆرجار بۆ بەکارھێنانی سەربازییە نەک مەدەنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivils2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivils2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Helicopters are mainly used for military rather than civil use.",
+                            kurdishText:
+                                "ھێلیکۆپتەر زۆرجار بۆ بەکارھێنانی سەربازییە نەک مەدەنی.",
+                            onPressedBritish: () => speakcivils2("en-GB"),
+                            onPressedAmerican: () => speakcivils2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After ten years of military dictatorship, the country now has a civil government."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای ١٠ ساڵ لە دیکتاتۆریەتی سەربازی، وڵاتەکە لەکۆتاییدا حکومەتێکی مەدەنی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivils3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivils3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After ten years of military dictatorship, the country now has a civil government.",
+                            kurdishText:
+                                "لە دوای ١٠ ساڵ لە دیکتاتۆریەتی سەربازی، وڵاتەکە لەکۆتاییدا حکومەتێکی مەدەنی ھەیە.",
+                            onPressedBritish: () => speakcivils3("en-GB"),
+                            onPressedAmerican: () => speakcivils3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) پەیوەندیدار بە وڵات نەک حکومەت یان دامەزراوەی ئایینی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We weren't married in church, but we had a civil ceremony in a registry office."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کڵێسا ھاوسەرگیریمان نەکرد، بەڵکو بۆنەیەکی حکومیمان ھەبوو لە ئۆفیسێکی تۆمار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivils4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivils4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We weren't married in church, but we had a civil ceremony in a registry office.",
+                            kurdishText:
+                                "لە کڵێسا ھاوسەرگیریمان نەکرد، بەڵکو بۆنەیەکی حکومیمان ھەبوو لە ئۆفیسێکی تۆمار.",
+                            onPressedBritish: () => speakcivils4("en-GB"),
+                            onPressedAmerican: () => speakcivils4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have called in the army to assist the civil authorities in rescue operations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندیمان بە سووپاوە کردووە کە یارمەتی بەرپرسە حکوومییەکان بدەن لە ئۆپەراسیۆنەکانی ڕزگارکردندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivils5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivils5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have called in the army to assist the civil authorities in rescue operations.",
+                            kurdishText:
+                                "پەیوەندیمان بە سووپاوە کردووە کە یارمەتی بەرپرسە حکوومییەکان بدەن لە ئۆپەراسیۆنەکانی ڕزگارکردندا.",
+                            onPressedBritish: () => speakcivils5("en-GB"),
+                            onPressedAmerican: () => speakcivils5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) پەیوەندیدار بە بابەتی کەسی یاسایی، نەک تاوانکاری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The matter would be better dealt with in the civil court rather than by an criminal proceeding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بابەتەکە باشتر لە دادگایەکی مەدەنیدا مامەڵەی لەگەڵ دەکرێت نەک بە ڕێوشوێنی تاوانکاری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivils6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivils6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The matter would be better dealt with in the civil court rather than by an criminal proceeding.",
+                            kurdishText:
+                                "بابەتەکە باشتر لە دادگایەکی مەدەنیدا مامەڵەی لەگەڵ دەکرێت نەک بە ڕێوشوێنی تاوانکاری.",
+                            onPressedBritish: () => speakcivils6("en-GB"),
+                            onPressedAmerican: () => speakcivils6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) بەڕێز بە شێوەیەکی فەرمی بەڵام ھاوڕێیانە نا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The less time I have to spend being civil to him the better!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەندە کەمتر ھەوڵ بدەم بەڕێز بم لەگەڵیدا باشترە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivils7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivils7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The less time I have to spend being civil to him the better!",
+                            kurdishText:
+                                "چەندە کەمتر ھەوڵ بدەم بەڕێز بم لەگەڵیدا باشترە.",
+                            onPressedBritish: () => speakcivils7("en-GB"),
+                            onPressedAmerican: () => speakcivils7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He said that the police were perfectly civil in their questioning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوتی پۆلیس تەواو مەدەنییانە بوون لەگەڵیدا لە پرسیارکردندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivils8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivils8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He said that the police were perfectly civil in their questioning.",
+                            kurdishText:
+                                "گوتی پۆلیس تەواو مەدەنییانە بوون لەگەڵیدا لە پرسیارکردندا.",
+                            onPressedBritish: () => speakcivils8("en-GB"),
+                            onPressedAmerican: () => speakcivils8("en-US"),
                           ),
                         ],
                       ),

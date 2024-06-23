@@ -105,66 +105,28 @@ class EnglishEntryconglomeration extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تێکەڵەیەک لە ژمارەیەک شت کە پێکەوەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a strange conglomeration of objects on the mantelpiece."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێکەڵەیەکی نامۆ لە شت ھەبوو لەسەر سەرکوورەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conglomeration", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconglomerations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconglomerations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a strange conglomeration of objects on the mantelpiece.",
+                            kurdishText:
+                                "تێکەڵەیەکی نامۆ لە شت ھەبوو لەسەر سەرکوورەکە.", // conglomeration",
+                            onPressedBritish: () =>
+                                speakconglomerations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconglomerations1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) پڕۆسەی درووستکردنی تێکەڵەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are in an age of massive media conglomeration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە سەردەمی یەکگرتنی گەورەی میدیاداین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconglomerations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconglomerations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are in an age of massive media conglomeration.",
+                            kurdishText:
+                                "لە سەردەمی یەکگرتنی گەورەی میدیاداین.",
+                            onPressedBritish: () =>
+                                speakconglomerations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconglomerations2("en-US"),
                           ),
                         ],
                       ),

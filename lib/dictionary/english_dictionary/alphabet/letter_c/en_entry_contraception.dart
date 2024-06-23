@@ -103,64 +103,25 @@ class EnglishEntrycontraception extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەکارھێنانی ڕێگای دەستکرد بۆ ڕێگری لە دووگیانبوون لە کاتی ئەنجامدانی سێکسدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They never used any contraception."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز ھیچ دژەسکپڕییەکیان بەکارنەھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contraception", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontraceptions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontraceptions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They never used any contraception.",
+                            kurdishText:
+                                "ھەرگیز ھیچ دژەسکپڕییەکیان بەکارنەھێنا.", // contraception",
+                            onPressedBritish: () =>
+                                speakcontraceptions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontraceptions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What is the most reliable form/method of contraception?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "متمانەپێ‌کراوترین جۆری/ڕێگای دژەسکپڕی چییە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontraceptions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontraceptions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What is the most reliable form/method of contraception?",
+                            kurdishText:
+                                "متمانەپێ‌کراوترین جۆری/ڕێگای دژەسکپڕی چییە؟",
+                            onPressedBritish: () =>
+                                speakcontraceptions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontraceptions2("en-US"),
                           ),
                         ],
                       ),

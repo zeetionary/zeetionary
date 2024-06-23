@@ -267,141 +267,48 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) قەلەڕەش؛ باڵندەیەکی گەورە کە بە تەواوی یان زۆربەی ڕەشە و دەنگێکی ناخۆشی نەڕی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She woke up to the sound of crows outside her window."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە دەنگی قەلەڕەش لە دەرەوەی پەنجەرەکەی خەبەری بوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crow", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrows1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrows1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She woke up to the sound of crows outside her window.",
+            kurdishText:
+                "بە دەنگی قەلەڕەش لە دەرەوەی پەنجەرەکەی خەبەری بوویەوە.", // crow", please follow LX instructions
+            onPressedBritish: () => speakcrows1("en-GB"),
+            onPressedAmerican: () => speakcrows1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) دەنگێک وەک قووقەی کەڵەشێر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She gave a little crow of triumph."),
-                    ExampleSentenceKurdish(text: "کەمێک بانگی سەرکەوتنی لێدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrows2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrows2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She gave a little crow of triumph.",
+            kurdishText: "کەمێک بانگی سەرکەوتنی لێدا.",
+            onPressedBritish: () => speakcrows2("en-GB"),
+            onPressedAmerican: () => speakcrows2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) قووقاندن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "A cock began to crow."),
-                    ExampleSentenceKurdish(
-                        text: "کەڵەشێرێک دەستی بە بانگدان/قووقاندن کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrows3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrows3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A cock began to crow.",
+            kurdishText: "کەڵەشێرێک دەستی بە بانگدان/قووقاندن کرد.",
+            onPressedBritish: () => speakcrows3("en-GB"),
+            onPressedAmerican: () => speakcrows3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) قسەکردن بە پۆزەوە سەبارەت بە شتێک کە بەدەستت ھێناوە، بەتایبەتی کە کەسێکی دیکە شکستی ھێناوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He won't stop crowing about his victory."),
-                    ExampleSentenceKurdish(
-                        text: "نایبڕێتەوە سەبارەت بە سەرکەوتنەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrows4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrows4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He won't stop crowing about his victory.",
+            kurdishText: "نایبڕێتەوە سەبارەت بە سەرکەوتنەکەی.",
+            onPressedBritish: () => speakcrows4("en-GB"),
+            onPressedAmerican: () => speakcrows4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company hasn't much to crow about, with sales down compared with last year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیەکە ھیچی نییە پێوەی بنازێت کە فرۆش بەراورد بە ساڵی پار دابەزیوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrows5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrows5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company hasn't much to crow about, with sales down compared with last year.",
+            kurdishText:
+                "کۆمپانیەکە ھیچی نییە پێوەی بنازێت کە فرۆش بەراورد بە ساڵی پار دابەزیوە.",
+            onPressedBritish: () => speakcrows5("en-GB"),
+            onPressedAmerican: () => speakcrows5("en-US"),
           ),
           const DividerDefinition(),
           // const DefinitionKurdish(text: "٥. (کردار) پێنناسە"),

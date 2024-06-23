@@ -245,63 +245,25 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) تێبینییەک کە بە خوێنەر دەڵێت کە سەیری بەشێکی دیکەی کتێبێک یان فایلێک بکات بۆ زانیاریی زیادە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cross references refer you to information in other parts of the dictionary."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نێردەکان دەتنێرن بۆ زانیاری لە بەشەکانی دیکەی فەرھەنگەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cross-reference", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossreferences1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossreferences1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cross references refer you to information in other parts of the dictionary.",
+            kurdishText:
+                "نێردەکان دەتنێرن بۆ زانیاری لە بەشەکانی دیکەی فەرھەنگەکە.", // cross-reference", please follow LX instructions
+            onPressedBritish: () => speakcrossreferences1("en-GB"),
+            onPressedAmerican: () => speakcrossreferences1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) ئاماژەکردن بە نووسراوێکی دیکە یان بەشێکی نووسراوێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You spend a lot of time fact checking and cross referencing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاتێکی زۆر بەسەر دەبەیت بە پشتڕاستکردنەوەی زانیارییەکان و نووسینی ئاماژەکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossreferences2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossreferences2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You spend a lot of time fact checking and cross referencing.",
+            kurdishText:
+                "کاتێکی زۆر بەسەر دەبەیت بە پشتڕاستکردنەوەی زانیارییەکان و نووسینی ئاماژەکردن.",
+            onPressedBritish: () => speakcrossreferences2("en-GB"),
+            onPressedAmerican: () => speakcrossreferences2("en-US"),
           ),
         ],
       ),

@@ -95,32 +95,13 @@ class EnglishEntryconnivance extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) یارمەتیدان لە ئەنجامدانی کارێکی خراپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The crime was committed with the connivance of a police officer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاوانەکە بە ھاودەستی ئەفسەرێکی پۆلیس ئەنجامدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "connivance", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnivances1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnivances1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The crime was committed with the connivance of a police officer.",
+                            kurdishText:
+                                "تاوانەکە بە ھاودەستی ئەفسەرێکی پۆلیس ئەنجامدرا.", // connivance",
+                            onPressedBritish: () => speakconnivances1("en-GB"),
+                            onPressedAmerican: () => speakconnivances1("en-US"),
                           ),
                         ],
                       ),

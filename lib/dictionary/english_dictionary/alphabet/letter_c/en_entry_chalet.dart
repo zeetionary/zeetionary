@@ -95,32 +95,13 @@ class EnglishEntrychalet extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خانوویەک یان کوخێکی بچووک، بەتایبەتی خانوویەکی دارین کە سەربانێکی لێژی ھەیە و زۆرجار لە چیاکان درووست دەکرێت، بە تایبەتی لە سویسرا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The family rented a cozy chalet for their winter vacation in the mountains."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێزانەکە کۆخەوارێکی گەرم و نەرمیان بە کرێ گرت بۆ پشووی زستانەیان لە چیاکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chalet", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchalets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchalets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The family rented a cozy chalet for their winter vacation in the mountains.",
+                            kurdishText:
+                                "خێزانەکە کۆخەوارێکی گەرم و نەرمیان بە کرێ گرت بۆ پشووی زستانەیان لە چیاکان.", // chalet",
+                            onPressedBritish: () => speakchalets1("en-GB"),
+                            onPressedAmerican: () => speakchalets1("en-US"),
                           ),
                         ],
                       ),

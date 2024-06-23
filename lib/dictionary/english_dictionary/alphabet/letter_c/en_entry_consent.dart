@@ -161,263 +161,90 @@ class EnglishEntryconsent extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) مۆڵەتی کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The written consent of a parent is required."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆڵەتی نووسراوی یەکێک لە دایک و باوک پێویستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The written consent of a parent is required.",
+                            kurdishText:
+                                "مۆڵەتی نووسراوی یەکێک لە دایک و باوک پێویستە.", // consent",
+                            onPressedBritish: () => speakconsents1("en-GB"),
+                            onPressedAmerican: () => speakconsents1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Children under 16 cannot give consent to medical treatment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵانی خوار ١٦ ساڵ ناتوانن ڕەزامەندی تەندرووستی بدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Children under 16 cannot give consent to medical treatment.",
+                            kurdishText:
+                                "منداڵانی خوار ١٦ ساڵ ناتوانن ڕەزامەندی تەندرووستی بدەن.",
+                            onPressedBritish: () => speakconsents2("en-GB"),
+                            onPressedAmerican: () => speakconsents2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is charged with taking a car without the owner's consent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاوانبارکراوە بە بردنی ئۆتۆمبێلێک بەبێ مۆڵەتی خاوەنەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsents3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsents3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is charged with taking a car without the owner's consent.",
+                            kurdishText:
+                                "تاوانبارکراوە بە بردنی ئۆتۆمبێلێک بەبێ مۆڵەتی خاوەنەکەی.",
+                            onPressedBritish: () => speakconsents3("en-GB"),
+                            onPressedAmerican: () => speakconsents3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At any time during the study, parents could withdraw their consent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ھەر کاتێکی توێژینەوەکەدا دایکان و باوکان دەکرێت مۆڵەتەکەیان بکشێننەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsents4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsents4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At any time during the study, parents could withdraw their consent.",
+                            kurdishText:
+                                "لە ھەر کاتێکی توێژینەوەکەدا دایکان و باوکان دەکرێت مۆڵەتەکەیان بکشێننەوە.",
+                            onPressedBritish: () => speakconsents4("en-GB"),
+                            onPressedAmerican: () => speakconsents4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕێککەوتن لەسەر شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was chosen as leader by common consent (= everyone agreed to the choice)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک سەرکردە ھەڵبژێردرا بە کۆدەنگیی گشتگیر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsents5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsents5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was chosen as leader by common consent (= everyone agreed to the choice).",
+                            kurdishText:
+                                "وەک سەرکردە ھەڵبژێردرا بە کۆدەنگیی گشتگیر.",
+                            onPressedBritish: () => speakconsents5("en-GB"),
+                            onPressedAmerican: () => speakconsents5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "By mutual consent they didn't go out (= they both agreed not to)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ڕێککەوتنی دوو لایەنە نەچوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsents6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsents6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "By mutual consent they didn't go out (= they both agreed not to).",
+                            kurdishText: "بە ڕێککەوتنی دوو لایەنە نەچوون.",
+                            onPressedBritish: () => speakconsents6("en-GB"),
+                            onPressedAmerican: () => speakconsents6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بەڵگەنامەیەکی فەرمی کە مۆڵەت بە شتێک دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your family signs the consent for you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێزانەکەت مۆڵەتنامەکەت بۆ ئیمزا دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsents7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsents7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your family signs the consent for you.",
+                            kurdishText:
+                                "خێزانەکەت مۆڵەتنامەکەت بۆ ئیمزا دەکات.",
+                            onPressedBritish: () => speakconsents7("en-GB"),
+                            onPressedAmerican: () => speakconsents7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (کردار) ڕازیبوون یان مۆڵەتدان بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When she told them what she intended, they readily consented."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە پێی گوتن چی دەویست، ڕاستەخۆ مۆڵەتیان نەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsents8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsents8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When she told them what she intended, they readily consented.",
+                            kurdishText:
+                                "کە پێی گوتن چی دەویست، ڕاستەخۆ مۆڵەتیان نەدا.",
+                            onPressedBritish: () => speakconsents8("en-GB"),
+                            onPressedAmerican: () => speakconsents8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He reluctantly consented to the proposal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەنابەدڵییەوە بە پێشنیازەکە ڕازیبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsents9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsents9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He reluctantly consented to the proposal.",
+                            kurdishText: "بەنابەدڵییەوە بە پێشنیازەکە ڕازیبوو.",
+                            onPressedBritish: () => speakconsents9("en-GB"),
+                            onPressedAmerican: () => speakconsents9("en-US"),
                           ),
                         ],
                       ),

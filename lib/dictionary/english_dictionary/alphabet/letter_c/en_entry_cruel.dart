@@ -265,142 +265,47 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) دڕندە؛ ھەبوونی حەزی ئازاردانی کەسانی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was known to be a cruel dictator."),
-                    ExampleSentenceKurdish(
-                        text: "بە دیکتاتۆرێکی دڕندە ناسرا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cruel", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruels1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruels1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was known to be a cruel dictator.",
+            kurdishText:
+                "بە دیکتاتۆرێکی دڕندە ناسرا بوو.", // cruel", please follow LX instructions
+            onPressedBritish: () => speakcruels1("en-GB"),
+            onPressedAmerican: () => speakcruels1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I can't stand people who are cruel to animals."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرگەی ئەو کەسانە ناگرم کە دڕندەن بەرامبەر بە ئاژەڵان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruels2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruels2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I can't stand people who are cruel to animals.",
+            kurdishText:
+                "بەرگەی ئەو کەسانە ناگرم کە دڕندەن بەرامبەر بە ئاژەڵان.",
+            onPressedBritish: () => speakcruels2("en-GB"),
+            onPressedAmerican: () => speakcruels2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Sometimes you have to be cruel to be kind (= make somebody suffer because it will be good for them later)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک جار بۆ ئەوەی میھرەبان بیت دەبێت دڕندە بیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruels3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruels3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Sometimes you have to be cruel to be kind (= make somebody suffer because it will be good for them later).",
+            kurdishText: "ھەندێک جار بۆ ئەوەی میھرەبان بیت دەبێت دڕندە بیت.",
+            onPressedBritish: () => speakcruels3("en-GB"),
+            onPressedAmerican: () => speakcruels3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) گەیاندنی ئازاری دەروونی یان جەستەیی بە کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It would be a cruel twist of fate if he escaped only to starve to death once outside."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چارەنووسێکی جەرگبڕ دەبێت کە ڕابکات بەڵام لە برسا بمرێت ھەرکە دەچێتە دەرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruels4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruels4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It would be a cruel twist of fate if he escaped only to starve to death once outside.",
+            kurdishText:
+                "چارەنووسێکی جەرگبڕ دەبێت کە ڕابکات بەڵام لە برسا بمرێت ھەرکە دەچێتە دەرەوە.",
+            onPressedBritish: () => speakcruels4("en-GB"),
+            onPressedAmerican: () => speakcruels4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her father's death was a cruel blow."),
-                    ExampleSentenceKurdish(
-                        text: "مەرگی باوکی ئازارێکی جەرگبڕ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruels5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruels5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her father's death was a cruel blow.",
+            kurdishText: "مەرگی باوکی ئازارێکی جەرگبڕ بوو.",
+            onPressedBritish: () => speakcruels5("en-GB"),
+            onPressedAmerican: () => speakcruels5("en-US"),
           ),
         ],
       ),

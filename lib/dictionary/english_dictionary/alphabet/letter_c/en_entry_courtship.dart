@@ -242,59 +242,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ماوەی دەزگیرانداری؛ ئەو ماوەیەی دوو دڵدار پێکەوەن پێش ھاوسەرگیرییان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They married after a short courtship."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھاوسەرگیرییان کرد لە دوای دەستگیراندارییەکی کورتخایەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "courtship", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtships1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtships1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They married after a short courtship.",
+            kurdishText:
+                "ھاوسەرگیرییان کرد لە دوای دەستگیراندارییەکی کورتخایەن.", // courtship", please follow LX instructions
+            onPressedBritish: () => speakcourtships1("en-GB"),
+            onPressedAmerican: () => speakcourtships1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They often went there together during their courtship."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ماوەی دەزگیراندارییاندا زۆرجار دەچوونە ئەوێ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtships2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtships2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They often went there together during their courtship.",
+            kurdishText: "لە ماوەی دەزگیراندارییاندا زۆرجار دەچوونە ئەوێ.",
+            onPressedBritish: () => speakcourtships2("en-GB"),
+            onPressedAmerican: () => speakcourtships2("en-US"),
           ),
         ],
       ),

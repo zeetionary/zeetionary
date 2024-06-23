@@ -129,147 +129,52 @@ class EnglishEntrycontainer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سنووقێک، کاسەیەک، بوتڵێک، ھتد کە شتی تێدا ھەڵدەگیرێت یان دەگوازرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Food will last longer if kept in an airtight container."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواردن زیاتر دەمێنێتەوە ئەگەر دەفرێکی ھەوانەکێش ھەڵبگیردرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "container", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontainers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontainers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Food will last longer if kept in an airtight container.",
+                            kurdishText:
+                                "خواردن زیاتر دەمێنێتەوە ئەگەر دەفرێکی ھەوانەکێش ھەڵبگیردرێت.", // container",
+                            onPressedBritish: () => speakcontainers1("en-GB"),
+                            onPressedAmerican: () => speakcontainers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These women carry heavy containers of water over long distances."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ژنانە ئاو ھەڵگری قورس بۆ دووری زۆر ھەڵدەگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontainers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontainers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These women carry heavy containers of water over long distances.",
+                            kurdishText:
+                                "ئەم ژنانە ئاو ھەڵگری قورس بۆ دووری زۆر ھەڵدەگرن.",
+                            onPressedBritish: () => speakcontainers2("en-GB"),
+                            onPressedAmerican: () => speakcontainers2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Fill the container with water."),
-                                    ExampleSentenceKurdish(
-                                        text: "کاسەکە پڕبکە لە ئاو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontainers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontainers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Fill the container with water.",
+                            kurdishText: "کاسەکە پڕبکە لە ئاو.",
+                            onPressedBritish: () => speakcontainers3("en-GB"),
+                            onPressedAmerican: () => speakcontainers3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) سنووقێکی گەورەی ئاسنین کە بۆ گواتنەوەی کەلووپەل بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The crane lifted the container off the ship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرزکەرەوەکە سنووقەکەی لە کەشتییەکە ھەڵکێشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontainers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontainers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The crane lifted the container off the ship.",
+                            kurdishText:
+                                "بەرزکەرەوەکە سنووقەکەی لە کەشتییەکە ھەڵکێشا.",
+                            onPressedBritish: () => speakcontainers4("en-GB"),
+                            onPressedAmerican: () => speakcontainers4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) گۆزەی یان کاسەی ڕوواندنی ڕووەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Planting bulbs in containers is a great alternative if you don't have a garden."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕوواندنی سەلکە ڕووەک لە گۆزەدا ھەڵبژاردەیەکی باشە ئەگەر باخچەت نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontainers5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontainers5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Planting bulbs in containers is a great alternative if you don't have a garden.",
+                            kurdishText:
+                                "ڕوواندنی سەلکە ڕووەک لە گۆزەدا ھەڵبژاردەیەکی باشە ئەگەر باخچەت نییە.",
+                            onPressedBritish: () => speakcontainers5("en-GB"),
+                            onPressedAmerican: () => speakcontainers5("en-US"),
                           ),
                         ],
                       ),

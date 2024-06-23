@@ -214,56 +214,18 @@ class EnglishEntrycold extends StatelessWidget {
 کوردی: سارد، ساردایی، بێ‌ھەست، ساردوسڕ، بێ‌سۆز، وشک (ھەڵس‌وکەوت)،	کەم (بۆن)،	ساردمەزاج، سارد (سێکسی)،	مردوو، بێ‌ھۆش، لەسەرخۆچوو، دوور (لە کایەی مناڵان‌دا)،	کت‌وپڕ و بەتەواوەتی، تەواو، بەتەواوی،	بێ‌ئامادەیی، لەخۆوە،	سەرما، ھەوای سارد، ساردی،	ھەڵامەت، سەرمابوون، پەژیک، پەرسیو
 """),
                           const DefinitionKurdish(text: "١. (ھاوەڵناو) سارد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'm cold. Turn the heating up."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەرمامە. گەرمییەکە بکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cold", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'm cold. Turn the heating up.",
+                            kurdishText: "سەرمامە. گەرمییەکە بکەوە.", // cold",
+                            onPressedBritish: () => speakcolds1("en-GB"),
+                            onPressedAmerican: () => speakcolds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It's freezing cold."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەواو سەرمامە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's freezing cold.",
+                            kurdishText: "تەواو سەرمامە.",
+                            onPressedBritish: () => speakcolds2("en-GB"),
+                            onPressedAmerican: () => speakcolds2("en-US"),
                           ),
                           Column(
                             children: [
@@ -333,349 +295,114 @@ class EnglishEntrycold extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) خواردنی سارد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hot and cold food is available in the cafeteria."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواردنی گەرم و سارد لە کافتریاکە بەردەستن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolds5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolds5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Hot and cold food is available in the cafeteria.",
+                            kurdishText:
+                                "خواردنی گەرم و سارد لە کافتریاکە بەردەستن.",
+                            onPressedBritish: () => speakcolds5("en-GB"),
+                            onPressedAmerican: () => speakcolds5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It's cold chicken for lunch."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مریشكی سارد بۆ نانی نیوەڕۆ ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolds6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolds6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's cold chicken for lunch.",
+                            kurdishText: "مریشكی سارد بۆ نانی نیوەڕۆ ھەیە.",
+                            onPressedBritish: () => speakcolds6("en-GB"),
+                            onPressedAmerican: () => speakcolds6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) کەسێکی ساردوسڕ کە ھاوڕێیانە نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was staring at her with cold eyes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە چاوی ساردوسڕییەوە سەیری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolds7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolds7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was staring at her with cold eyes.",
+                            kurdishText: "بە چاوی ساردوسڕییەوە سەیری دەکرد.",
+                            onPressedBritish: () => speakcolds7("en-GB"),
+                            onPressedAmerican: () => speakcolds7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She was very cold towards me."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر ساردوسڕ بوو لەگەڵم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolds8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolds8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was very cold towards me.",
+                            kurdishText: "زۆر ساردوسڕ بوو لەگەڵم.",
+                            onPressedBritish: () => speakcolds8("en-GB"),
+                            onPressedAmerican: () => speakcolds8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) ڕێگایەک کە ئاسان نادۆزرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police followed the robbers to the airport but then the trail went cold."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس شوێن دزەکان کەوتن تاوەکو فڕۆکەخانەکە، بەڵام دواتر شوێنپێیان ونبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolds9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolds9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police followed the robbers to the airport but then the trail went cold.",
+                            kurdishText:
+                                "پۆلیس شوێن دزەکان کەوتن تاوەکو فڕۆکەخانەکە، بەڵام دواتر شوێنپێیان ونبوو.",
+                            onPressedBritish: () => speakcolds9("en-GB"),
+                            onPressedAmerican: () => speakcolds9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٥. (ھاوەڵناو) بێھۆش"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was knocked out cold in the second round."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە دووەم دەوراندا بێھۆشخرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolds10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolds10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was knocked out cold in the second round.",
+                            kurdishText: "لە دووەم دەوراندا بێھۆشخرا.",
+                            onPressedBritish: () => speakcolds10("en-GB"),
+                            onPressedAmerican: () => speakcolds10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) نەخۆشییەکی باو کە کار لە قوڕگ و لووت دەکات و دەبێتە ھۆی کۆکە، پژمە، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I've got a cold."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەڵامەتم گرتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolds11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolds11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I've got a cold.",
+                            kurdishText: "ھەڵامەتم گرتووە.",
+                            onPressedBritish: () => speakcolds11("en-GB"),
+                            onPressedAmerican: () => speakcolds11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you stay out in the rain you'll catch cold!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر لە بەر بارانەکە بمێنیتەوە ھەڵامەت دەگریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolds12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolds12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you stay out in the rain you'll catch cold!",
+                            kurdishText:
+                                "ئەگەر لە بەر بارانەکە بمێنیتەوە ھەڵامەت دەگریت.",
+                            onPressedBritish: () => speakcolds12("en-GB"),
+                            onPressedAmerican: () => speakcolds12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) سەرما؛ کەشی سارد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't stand outside in the cold."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە دەرەوە لە سەرماکە مەوەستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolds13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolds13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don't stand outside in the cold.",
+                            kurdishText: "لە دەرەوە لە سەرماکە مەوەستە.",
+                            onPressedBritish: () => speakcolds13("en-GB"),
+                            onPressedAmerican: () => speakcolds13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She doesn't seem to feel the cold."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وا دەرناکەوێت ھەست بە سەرماکە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolds14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolds14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She doesn't seem to feel the cold.",
+                            kurdishText: "وا دەرناکەوێت ھەست بە سەرماکە بکات.",
+                            onPressedBritish: () => speakcolds14("en-GB"),
+                            onPressedAmerican: () => speakcolds14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (ھاوەڵکار) لەناکاو و بەتەواوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His final request stopped her cold."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆتا داواکاری بە تەواوی وەستاندی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolds15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolds15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His final request stopped her cold.",
+                            kurdishText: "کۆتا داواکاری بە تەواوی وەستاندی.",
+                            onPressedBritish: () => speakcolds15("en-GB"),
+                            onPressedAmerican: () => speakcolds15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٩. (ھاوەڵکار) بەبێ ئامادەکاری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't just walk in there cold and give a speech."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم بەبێ ئامادەکاری بچمە ئەوێ و وتارێک بدەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolds16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolds16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't just walk in there cold and give a speech.",
+                            kurdishText:
+                                "ناتوانم بەبێ ئامادەکاری بچمە ئەوێ و وتارێک بدەم.",
+                            onPressedBritish: () => speakcolds16("en-GB"),
+                            onPressedAmerican: () => speakcolds16("en-US"),
                           ),
                         ],
                       ),

@@ -94,34 +94,15 @@ class EnglishEntryconsecutively extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە دوای یەکدا بە زنجیرەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plays will be performed consecutively and will last eight hours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شانۆکان بە شێوەیەکی دوابەدوای‌یەک پێشکەش دەکرێن و ھەشت کاتژمێر دەخایەنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consecutively", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsecutivelys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsecutivelys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The plays will be performed consecutively and will last eight hours.",
+                            kurdishText:
+                                "شانۆکان بە شێوەیەکی دوابەدوای‌یەک پێشکەش دەکرێن و ھەشت کاتژمێر دەخایەنن.", // consecutively",
+                            onPressedBritish: () =>
+                                speakconsecutivelys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsecutivelys1("en-US"),
                           ),
                         ],
                       ),

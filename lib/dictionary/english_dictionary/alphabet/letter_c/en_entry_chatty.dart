@@ -101,59 +101,20 @@ class EnglishEntrychatty extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) قسەکردنی زۆر بە ھاوڕێیانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You're very chatty today, Alice."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەمڕۆ زۆربڵێیت، ئالیس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chatty", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchattys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchattys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You're very chatty today, Alice.",
+                            kurdishText: "ئەمڕۆ زۆربڵێیت، ئالیس.", // chatty",
+                            onPressedBritish: () => speakchattys1("en-GB"),
+                            onPressedAmerican: () => speakchattys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) ھەبوونی شێوازێکی ھاوڕێیانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He sent me a chatty letter."),
-                                    ExampleSentenceKurdish(
-                                        text: "نامەیەکی ھاوڕێیانەی بۆ ناردم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchattys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchattys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He sent me a chatty letter.",
+                            kurdishText: "نامەیەکی ھاوڕێیانەی بۆ ناردم.",
+                            onPressedBritish: () => speakchattys2("en-GB"),
+                            onPressedAmerican: () => speakchattys2("en-US"),
                           ),
                         ],
                       ),

@@ -251,87 +251,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) درووستبوونی چرچ و لۆچی، بۆ نموونە لەسەر پێست، کاغەز، یان جل"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her face crinkled up in a smile."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووخساری چرچ بوو بە پێکەنینێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crinkle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrinkles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrinkles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her face crinkled up in a smile.",
+            kurdishText:
+                "ڕووخساری چرچ بوو بە پێکەنینێک.", // crinkle", please follow LX instructions
+            onPressedBritish: () => speakcrinkles1("en-GB"),
+            onPressedAmerican: () => speakcrinkles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The pages crinkled and curled and turned to ashes in the fire."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەڕەکان چرچ و لوول بوون و بوون بە خۆڵەمێش لە ئاگرەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrinkles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrinkles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The pages crinkled and curled and turned to ashes in the fire.",
+            kurdishText:
+                "پەڕەکان چرچ و لوول بوون و بوون بە خۆڵەمێش لە ئاگرەکەدا.",
+            onPressedBritish: () => speakcrinkles2("en-GB"),
+            onPressedAmerican: () => speakcrinkles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) چرچ و لۆچی سەر پێست، کاغەز، یان جل"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There were crinkles at the corner of her eyes when she smiled."),
-                    ExampleSentenceKurdish(
-                        text: "چرچی لە سووچی چاوەکانی درووست بوو کە پێکەنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrinkles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrinkles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There were crinkles at the corner of her eyes when she smiled.",
+            kurdishText: "چرچی لە سووچی چاوەکانی درووست بوو کە پێکەنی.",
+            onPressedBritish: () => speakcrinkles3("en-GB"),
+            onPressedAmerican: () => speakcrinkles3("en-US"),
           ),
         ],
       ),

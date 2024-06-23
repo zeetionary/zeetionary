@@ -187,32 +187,13 @@ class EnglishEntrycedar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) درەختێکی ھەمیشە سەوزی بەرز کە لق و پۆپی بڵاوی ھەیە، یان داری ئەم درەختە کە بەکاردێت و بۆنێکی خۆشی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cedars typically have needle-like leaves, cone-shaped structures, and durable, aromatic wood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "درەختی سیدار گەڵای شێوە دەرزی و پەیکەری شێوە قووچەکی و داری خۆگر و بۆن خۆشیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cedar", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcedars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcedars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cedars typically have needle-like leaves, cone-shaped structures, and durable, aromatic wood.",
+                            kurdishText:
+                                "درەختی سیدار گەڵای شێوە دەرزی و پەیکەری شێوە قووچەکی و داری خۆگر و بۆن خۆشیان ھەیە.", // cedar",
+                            onPressedBritish: () => speakcedars1("en-GB"),
+                            onPressedAmerican: () => speakcedars1("en-US"),
                           ),
                         ],
                       ),

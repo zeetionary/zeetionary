@@ -223,58 +223,20 @@ class EnglishEntrychannel extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) وێستگەیەکی تەلەفیزیۆنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "What's on Channel 4 tonight?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەمشەو چی لەسەر کەناڵ 4 دەبێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "channel", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchannels1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchannels1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "What's on Channel 4 tonight?",
+                            kurdishText:
+                                "ئەمشەو چی لەسەر کەناڵ 4 دەبێت؟", // channel",
+                            onPressedBritish: () => speakchannels1("en-GB"),
+                            onPressedAmerican: () => speakchannels1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I changed channels when the news came on."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەناڵەکانم گۆڕی کە ھەواڵەکە گەشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchannels2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchannels2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I changed channels when the news came on.",
+                            kurdishText: "کەناڵەکانم گۆڕی کە ھەواڵەکە گەشت.",
+                            onPressedBritish: () => speakchannels2("en-GB"),
+                            onPressedAmerican: () => speakchannels2("en-US"),
                           ),
                           Column(
                             children: [
@@ -347,91 +309,33 @@ class EnglishEntrychannel extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕێژەیەک لە لەرە کە بەکاردێت بۆ پەخشی شەپۆل یان پڕۆگرامی ڕادیۆ و تەلەفیزیۆن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They broadcast on high-frequency channels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر کەناڵی شەپۆل بەرز پەخش دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchannels5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchannels5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They broadcast on high-frequency channels.",
+                            kurdishText: "لەسەر کەناڵی شەپۆل بەرز پەخش دەکەن.",
+                            onPressedBritish: () => speakchannels5("en-GB"),
+                            onPressedAmerican: () => speakchannels5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) سیستەمێک یان ڕێگایەک کە خەڵکی بەکاریدێنن بۆ وەرگرتنی زانیاری، پەیوەندی کردن، یان ناردنی شتێک بۆ شوێنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Complaints must be made through the proper channels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناڕەزایی دەبێت لە ڕێگەی گونجاوەوە بگەیەندرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchannels6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchannels6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Complaints must be made through the proper channels.",
+                            kurdishText:
+                                "ناڕەزایی دەبێت لە ڕێگەی گونجاوەوە بگەیەندرێت.",
+                            onPressedBritish: () => speakchannels6("en-GB"),
+                            onPressedAmerican: () => speakchannels6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Steps are being taken to implement a ceasefire through diplomatic channels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەنگاو دەگیردرێتە بەر بۆ ھێنانە کارای ئاگربەست لە ڕێگەی کەناڵی دیبلۆماسییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchannels7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchannels7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Steps are being taken to implement a ceasefire through diplomatic channels.",
+                            kurdishText:
+                                "ھەنگاو دەگیردرێتە بەر بۆ ھێنانە کارای ئاگربەست لە ڕێگەی کەناڵی دیبلۆماسییەوە.",
+                            onPressedBritish: () => speakchannels7("en-GB"),
+                            onPressedAmerican: () => speakchannels7("en-US"),
                           ),
                           Column(
                             children: [
@@ -473,176 +377,62 @@ class EnglishEntrychannel extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ناو) ڕێگای دەربڕینی ھەست و بیرۆکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The campaign provided a channel for protest against the war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمپینەکە ڕێگایەکی خستەبەردەست بۆ دەربڕینی ناڕەزایی دژ بە جەنگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchannels9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchannels9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The campaign provided a channel for protest against the war.",
+                            kurdishText:
+                                "کەمپینەکە ڕێگایەکی خستەبەردەست بۆ دەربڕینی ناڕەزایی دژ بە جەنگەکە.",
+                            onPressedBritish: () => speakchannels9("en-GB"),
+                            onPressedAmerican: () => speakchannels9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Music is a great channel for releasing your emotions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوزیک ڕێگایەکی زۆر باشە بۆ دەربڕینی ھەستەکانت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchannels10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchannels10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Music is a great channel for releasing your emotions.",
+                            kurdishText:
+                                "میوزیک ڕێگایەکی زۆر باشە بۆ دەربڕینی ھەستەکانت.",
+                            onPressedBritish: () => speakchannels10("en-GB"),
+                            onPressedAmerican: () => speakchannels10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٦. (ناو) جۆگەی ئاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A channel is being dug to divert the river."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جۆگەیەک درووست دەکرێت بۆ گۆڕینی ئاراستەی ڕووبارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchannels11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchannels11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A channel is being dug to divert the river.",
+                            kurdishText:
+                                "جۆگەیەک درووست دەکرێت بۆ گۆڕینی ئاراستەی ڕووبارەکە.",
+                            onPressedBritish: () => speakchannels11("en-GB"),
+                            onPressedAmerican: () => speakchannels11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The drainage channels had survived since the Roman occupation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جۆگە ئاوەڕۆکان لە سەردەمی نیشتەجێ‌بوونی ڕۆمەکانەوە ماونەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchannels11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchannels11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The drainage channels had survived since the Roman occupation.",
+                            kurdishText:
+                                "جۆگە ئاوەڕۆکان لە سەردەمی نیشتەجێ‌بوونی ڕۆمەکانەوە ماونەتەوە.",
+                            onPressedBritish: () => speakchannels11("en-GB"),
+                            onPressedAmerican: () => speakchannels11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) ئاراستەکردن یان تەرخانکردنی پارە، ھەست، بیرۆکە، ھتد بەرەو شتێک یان مەبەستێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ditches were constructed to channel water away from the buildings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەندەڵان درووستکران بۆ ئاراستەکردنی ئاوەکە دوور لە بیناکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchannels12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchannels12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ditches were constructed to channel water away from the buildings.",
+                            kurdishText:
+                                "کەندەڵان درووستکران بۆ ئاراستەکردنی ئاوەکە دوور لە بیناکان.",
+                            onPressedBritish: () => speakchannels12("en-GB"),
+                            onPressedAmerican: () => speakchannels12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A lot of money has been channelled into research in that particular field."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر پارە تەرخانکراوە بۆ لێکۆڵینەوە لەو بوارە دیاریکراوەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchannels13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchannels13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A lot of money has been channelled into research in that particular field.",
+                            kurdishText:
+                                "ڕێژەیەکی زۆر پارە تەرخانکراوە بۆ لێکۆڵینەوە لەو بوارە دیاریکراوەدا.",
+                            onPressedBritish: () => speakchannels13("en-GB"),
+                            onPressedAmerican: () => speakchannels13("en-US"),
                           ),
                           Column(
                             children: [
@@ -715,32 +505,13 @@ class EnglishEntrychannel extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) لاسایی‌کردنەوەی کەسێک یان شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The band were dressed in 1960s outfits and seemed to be channelling the Beatles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باندەکە جلی ١٩٦٠ ەکانیان لەبەربوو و وادیاربوو کە لاسایی باندی بیتڵز دەکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchannels16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchannels16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The band were dressed in 1960s outfits and seemed to be channelling the Beatles.",
+                            kurdishText:
+                                "باندەکە جلی ١٩٦٠ ەکانیان لەبەربوو و وادیاربوو کە لاسایی باندی بیتڵز دەکەنەوە.",
+                            onPressedBritish: () => speakchannels16("en-GB"),
+                            onPressedAmerican: () => speakchannels16("en-US"),
                           ),
                         ],
                       ),

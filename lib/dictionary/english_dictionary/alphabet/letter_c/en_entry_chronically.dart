@@ -103,67 +103,27 @@ class EnglishEntrychronically extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) نەخۆش بۆ ماوەیەکی بۆ زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They share caring for their chronically ill father."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ھاوبەشی چاودێری باوکە نەخۆشە درێژخایەنەکەیان دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chronically", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchronicallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchronicallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They share caring for their chronically ill father.",
+                            kurdishText:
+                                "بە ھاوبەشی چاودێری باوکە نەخۆشە درێژخایەنەکەیان دەکەن.", // chronically",
+                            onPressedBritish: () => speakchronicallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchronicallys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە کێشەیەک درووست دەکات کە بۆ ماوەیەکی زۆر بەردەوام دەبێت یان دووبارە و دووبارە سەرھەڵدەداتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Court documents say that she and her children are chronically homeless."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵگەنامەکانی دادگا ئەوە پیشان کە ژنەکە و منداڵەکانی بۆ ماوەیەکی درێژ بێ‌لانە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchronicallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchronicallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Court documents say that she and her children are chronically homeless.",
+                            kurdishText:
+                                "بەڵگەنامەکانی دادگا ئەوە پیشان کە ژنەکە و منداڵەکانی بۆ ماوەیەکی درێژ بێ‌لانە بوون.",
+                            onPressedBritish: () => speakchronicallys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchronicallys2("en-US"),
                           ),
                         ],
                       ),

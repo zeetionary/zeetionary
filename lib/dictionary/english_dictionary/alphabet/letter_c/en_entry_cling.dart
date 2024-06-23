@@ -134,173 +134,57 @@ class EnglishEntrycling extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) دەستگرتن بە شتێکەوە بە توندی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Leaves still clung to the branches."),
-                                    ExampleSentenceKurdish(
-                                        text: "گەڵا ھێشتا لکاون بە لقەکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cling", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Leaves still clung to the branches.",
+                            kurdishText:
+                                "گەڵا ھێشتا لکاون بە لقەکانەوە.", // cling",
+                            onPressedBritish: () => speakclings1("en-GB"),
+                            onPressedAmerican: () => speakclings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She clung on to her baby."),
-                                    ExampleSentenceKurdish(
-                                        text: "خۆی ئاڵاندبوو بە منداڵەکەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She clung on to her baby.",
+                            kurdishText: "خۆی ئاڵاندبوو بە منداڵەکەیەوە.",
+                            onPressedBritish: () => speakclings2("en-GB"),
+                            onPressedAmerican: () => speakclings2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They clung together, shivering with cold."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆیان لە یەک ئاڵاند بوو و لە سەرماکەدا دەلەرزین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They clung together, shivering with cold.",
+                            kurdishText:
+                                "خۆیان لە یەک ئاڵاند بوو و لە سەرماکەدا دەلەرزین.",
+                            onPressedBritish: () => speakclings3("en-GB"),
+                            onPressedAmerican: () => speakclings3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) لکان بە شتێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The wet shirt clung to his chest."),
-                                    ExampleSentenceKurdish(
-                                        text: "جلە تەڕەکە لکابوو بە سنگییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclings4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclings4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The wet shirt clung to his chest.",
+                            kurdishText: "جلە تەڕەکە لکابوو بە سنگییەوە.",
+                            onPressedBritish: () => speakclings4("en-GB"),
+                            onPressedAmerican: () => speakclings4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The smell of smoke still clung to her clothes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆنی دووکەڵ نووسابوو بە جلەکانییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclings5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclings5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The smell of smoke still clung to her clothes.",
+                            kurdishText: "بۆنی دووکەڵ نووسابوو بە جلەکانییەوە.",
+                            onPressedBritish: () => speakclings5("en-GB"),
+                            onPressedAmerican: () => speakclings5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) مانەوە نزیک لە کەسێک، بەتایبەتی بەھۆی ئەوەی لە ڕووی دەروونییەوە پێویستت پێیانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After her mother's death, Sara clung to her aunt more than ever."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای مەرگی دایکی، سارا زیاتر لە ھەر کات لە نزیک پووری دەمایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclings6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclings6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After her mother's death, Sara clung to her aunt more than ever.",
+                            kurdishText:
+                                "لە دوای مەرگی دایکی، سارا زیاتر لە ھەر کات لە نزیک پووری دەمایەوە.",
+                            onPressedBritish: () => speakclings6("en-GB"),
+                            onPressedAmerican: () => speakclings6("en-US"),
                           ),
                         ],
                       ),

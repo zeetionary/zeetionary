@@ -233,31 +233,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) ئیمپراتۆری ڕووسیا لە ڕابردوودا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Tsar Nicholas II was known for his autocratic rule."),
-                    ExampleSentenceKurdish(
-                        text: "زار نیکۆلاسی دووەم ناسراوبوو بۆ دڕندەییەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "tsar", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaktsars1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaktsars1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Tsar Nicholas II was known for his autocratic rule.",
+            kurdishText:
+                "زار نیکۆلاسی دووەم ناسراوبوو بۆ دڕندەییەکەی.", // tsar", please follow LX instructions
+            onPressedBritish: () => speaktsars1("en-GB"),
+            onPressedAmerican: () => speaktsars1("en-US"),
           ),
         ],
       ),

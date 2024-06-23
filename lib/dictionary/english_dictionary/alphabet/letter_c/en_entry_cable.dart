@@ -198,91 +198,33 @@ class EnglishEntrycable extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ژمارەیەک وایەر کە داپۆشراوە و کارەبا، ستگناڵی موبایل، ھتد دەگوازێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They're digging up the road to lay cables."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگاکە ھەڵدەکەنن بۆ دانانی کێبڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cable", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They're digging up the road to lay cables.",
+                            kurdishText:
+                                "ڕێگاکە ھەڵدەکەنن بۆ دانانی کێبڵ.", // cable
+                            onPressedBritish: () => speakcables1("en-GB"),
+                            onPressedAmerican: () => speakcables1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Engineers plan to run the telephone cables under the river."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندازیاران پلانیان ھەیە کێبڵی تەلەفۆن لەژێر ڕووبارەکە دابنێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcables2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcables2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Engineers plan to run the telephone cables under the river.",
+                            kurdishText:
+                                "ئەندازیاران پلانیان ھەیە کێبڵی تەلەفۆن لەژێر ڕووبارەکە دابنێن.",
+                            onPressedBritish: () => speakcables2("en-GB"),
+                            onPressedAmerican: () => speakcables2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) سیستەمێکی پەخشی پڕۆگرامی تەلەفیزیۆنی کە وایەر بەکاردێنێت لەجیاتی پەخشی ڕادیۆیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We can receive up to 500 cable channels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانین تا ٥٠٠ کەناڵی کێبڵ بێنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcables3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcables3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We can receive up to 500 cable channels.",
+                            kurdishText: "دەتوانین تا ٥٠٠ کەناڵی کێبڵ بێنین.",
+                            onPressedBritish: () => speakcables3("en-GB"),
+                            onPressedAmerican: () => speakcables3("en-US"),
                           ),
                         ],
                       ),

@@ -192,271 +192,95 @@ class EnglishEntrycard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کاغەزێکی ئەستوور و پتەو بۆ نووسین لەسەری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The model of the building was made of card."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نموونەی بیناکە لەسەر کارد کێشرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "card", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The model of the building was made of card.",
+                            kurdishText:
+                                "نموونەی بیناکە لەسەر کارد کێشرا.", // card",
+                            onPressedBritish: () => speakcards1("en-GB"),
+                            onPressedAmerican: () => speakcards1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Each person wrote their question on a card."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەر کەسێک پرسیارەکەی لەسەر کاغەزێک نووسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcards2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcards2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Each person wrote their question on a card.",
+                            kurdishText:
+                                "ھەر کەسێک پرسیارەکەی لەسەر کاغەزێک نووسی.",
+                            onPressedBritish: () => speakcards2("en-GB"),
+                            onPressedAmerican: () => speakcards2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کاغەزێکی پتەو کە لە ناوەڕاستدا چەمێندراوەتەوە و وێنەیەکی لەسەرە. بەکاردێت بۆ ناردنی پیرۆزبایی، بانگھێشت، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When they got engaged I sent them a card."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە مارە بڕدران، کاردێکم بۆ ناردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcards3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcards3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When they got engaged I sent them a card.",
+                            kurdishText: "کە مارە بڕدران، کاردێکم بۆ ناردن.",
+                            onPressedBritish: () => speakcards3("en-GB"),
+                            onPressedAmerican: () => speakcards3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) پۆستکارد؛ کاردێک کە بۆ نامەناردن بە پۆستە بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Did you get my card from Italy?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆستکاردەکەمت لە ئیتالیاوە پێگەشت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcards4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcards4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Did you get my card from Italy?",
+                            kurdishText: "پۆستکاردەکەمت لە ئیتالیاوە پێگەشت؟",
+                            onPressedBritish: () => speakcards4("en-GB"),
+                            onPressedAmerican: () => speakcards4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) پەڕەیەک یان پارچە پلاستیکێک کە زانیاری لەسەر کەسێک لەسەرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My phone number is here on my business card."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارە موبایلەکەم لێرەیە لەسەر کارتی کارەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcards5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcards5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My phone number is here on my business card.",
+                            kurdishText:
+                                "ژمارە موبایلەکەم لێرەیە لەسەر کارتی کارەکەم.",
+                            onPressedBritish: () => speakcards5("en-GB"),
+                            onPressedAmerican: () => speakcards5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٥. (ناو) کاردی بانکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can I pay with a card?"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەتوانم بە کاردەکەم پارە بدەم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcards6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcards6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can I pay with a card?",
+                            kurdishText: "دەتوانم بە کاردەکەم پارە بدەم؟",
+                            onPressedBritish: () => speakcards6("en-GB"),
+                            onPressedAmerican: () => speakcards6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) یەکێک لە کاردەکانی یاری کۆنکان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "John shuffled (= mixed up) the cards before he dealt them (out) (= gave them to the players)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جۆن کاردەکانی تێکدا پێش ئەوەی دابەشیان بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcards7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcards7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "John shuffled (= mixed up) the cards before he dealt them (out) (= gave them to the players).",
+                            kurdishText:
+                                "جۆن کاردەکانی تێکدا پێش ئەوەی دابەشیان بکات.",
+                            onPressedBritish: () => speakcards7("en-GB"),
+                            onPressedAmerican: () => speakcards7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) یەرییەک کە بە کارد دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've never been very good at cards."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز لە یاری کۆنکاندا باش نەبوومە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcards8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcards8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I've never been very good at cards.",
+                            kurdishText: "ھەرگیز لە یاری کۆنکاندا باش نەبوومە.",
+                            onPressedBritish: () => speakcards8("en-GB"),
+                            onPressedAmerican: () => speakcards8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) داواکردنی بینینی کارتی پێناسی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The security guard cards visitors to ensure safety."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاسەوانەکە داوای پێناسی ھەر سەردانکارێکی دەکرد بۆ دڵنیایی لە پاراستن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcards9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcards9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The security guard cards visitors to ensure safety.",
+                            kurdishText:
+                                "پاسەوانەکە داوای پێناسی ھەر سەردانکارێکی دەکرد بۆ دڵنیایی لە پاراستن.",
+                            onPressedBritish: () => speakcards9("en-GB"),
+                            onPressedAmerican: () => speakcards9("en-US"),
                           ),
                         ],
                       ),

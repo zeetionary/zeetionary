@@ -228,60 +228,22 @@ class EnglishEntrycompare extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بەراوردکردنی شت یان کەس بۆ زانینی خاڵی ھاوبەش و جیاوازی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We compared the two reports carefully."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو ڕاپۆرتەکەمان بەوریاییەوە بەراورد کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compare", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompares1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompares1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We compared the two reports carefully.",
+                            kurdishText:
+                                "دوو ڕاپۆرتەکەمان بەوریاییەوە بەراورد کرد.", // compare",
+                            onPressedBritish: () => speakcompares1("en-GB"),
+                            onPressedAmerican: () => speakcompares1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The internet allows you to compare prices from a variety of companies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئینتەرنێت ڕێگات پێ دەدات نرخەکان لە ژمارەیەک کۆمپانیای جیاوازەوە بەراورد بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompares2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompares2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The internet allows you to compare prices from a variety of companies.",
+                            kurdishText:
+                                "ئینتەرنێت ڕێگات پێ دەدات نرخەکان لە ژمارەیەک کۆمپانیای جیاوازەوە بەراورد بکەیت.",
+                            onPressedBritish: () => speakcompares2("en-GB"),
+                            onPressedAmerican: () => speakcompares2("en-US"),
                           ),
                           Column(
                             children: [
@@ -443,60 +405,22 @@ class EnglishEntrycompare extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) ھاوشێوەی شتێک یان کەسێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This house doesn't compare with our previous one (= it is not as good)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووەک بەراورد ناکرێت بەوەی پێشووترمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompares8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompares8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This house doesn't compare with our previous one (= it is not as good).",
+                            kurdishText:
+                                "خانووەک بەراورد ناکرێت بەوەی پێشووترمان.",
+                            onPressedBritish: () => speakcompares8("en-GB"),
+                            onPressedAmerican: () => speakcompares8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their prices compare favourably to those of their competitors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخەکانیان باش دەردەکەون بەراورد بەوانەی ڕکابەرەکانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompares9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompares9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their prices compare favourably to those of their competitors.",
+                            kurdishText:
+                                "نرخەکانیان باش دەردەکەون بەراورد بەوانەی ڕکابەرەکانیان.",
+                            onPressedBritish: () => speakcompares9("en-GB"),
+                            onPressedAmerican: () => speakcompares9("en-US"),
                           ),
                           Column(
                             children: [
@@ -629,88 +553,31 @@ class EnglishEntrycompare extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) وتن یان پیشاندانی ئەوەی کەسێک/شتێک وەک کەسێک/شتێکی دیکە وایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The critics compared his work to that of Martin Amis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەخنەگران کارەکەیان بەوەی مارتن ئەیمز بەراورد کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompares14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompares14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The critics compared his work to that of Martin Amis.",
+                            kurdishText:
+                                "ڕەخنەگران کارەکەیان بەوەی مارتن ئەیمز بەراورد کرد.",
+                            onPressedBritish: () => speakcompares14("en-GB"),
+                            onPressedAmerican: () => speakcompares14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In her early career she was often compared to Ella Fitzgerald."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە سەرەتای کارکردنیدا زۆرجار بە ئێلا فیتزجێراڵد بەراورد دەکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompares15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompares15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In her early career she was often compared to Ella Fitzgerald.",
+                            kurdishText:
+                                "لە سەرەتای کارکردنیدا زۆرجار بە ئێلا فیتزجێراڵد بەراورد دەکرا.",
+                            onPressedBritish: () => speakcompares15("en-GB"),
+                            onPressedAmerican: () => speakcompares15("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some observers compare the situation to that of the early 1980s."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک لە توێژەران دۆخەکەیان بەوەی ساڵانی سەرەتای ١٩٨٠ ـکان بەراورد دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompares16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompares16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some observers compare the situation to that of the early 1980s.",
+                            kurdishText:
+                                "ھەندێک لە توێژەران دۆخەکەیان بەوەی ساڵانی سەرەتای ١٩٨٠ ـکان بەراورد دەکەن.",
+                            onPressedBritish: () => speakcompares16("en-GB"),
+                            onPressedAmerican: () => speakcompares16("en-US"),
                           ),
                         ],
                       ),

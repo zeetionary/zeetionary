@@ -242,56 +242,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەلوپەلێکی ناوماڵ کە بەکاردێت بۆ ھەڵگرتنی قاپ‌وقاچاخ، کەلوپەل، خواردن، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There's plenty of food in the cupboards."),
-                    ExampleSentenceKurdish(
-                        text: "خواردنێکی زۆر ھەیە لە کەوانتەرەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cupboard", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcupboards1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcupboards1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There's plenty of food in the cupboards.",
+            kurdishText:
+                "خواردنێکی زۆر ھەیە لە کەوانتەرەکەدا.", // cupboard", please follow LX instructions
+            onPressedBritish: () => speakcupboards1("en-GB"),
+            onPressedAmerican: () => speakcupboards1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I found it hidden in the back of a cupboard."),
-                    ExampleSentenceKurdish(
-                        text: "دۆزیمەوە شاردرابوویەوە لە پشتەوەی دۆڵابەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcupboards2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcupboards2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I found it hidden in the back of a cupboard.",
+            kurdishText: "دۆزیمەوە شاردرابوویەوە لە پشتەوەی دۆڵابەکە.",
+            onPressedBritish: () => speakcupboards2("en-GB"),
+            onPressedAmerican: () => speakcupboards2("en-US"),
           ),
           const DividerDefinition(),
           Column(

@@ -241,57 +241,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەلەپچەی پۆلیس بۆ بەستنی دەستی دەستگیرکراوان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was led away in handcuffs."),
-                    ExampleSentenceKurdish(text: "بە کەلەپچەکراوی بردرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "handcuffs", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakhandcuffss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakhandcuffss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was led away in handcuffs.",
+            kurdishText:
+                "بە کەلەپچەکراوی بردرا.", // handcuffs", please follow LX instructions
+            onPressedBritish: () => speakhandcuffss1("en-GB"),
+            onPressedAmerican: () => speakhandcuffss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The prisoners wore handcuffs and iron chains on their legs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زیندانییەکان کەلەپچە و زنجیری ئاسنینیان لە قاچیان بەسترابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakhandcuffss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakhandcuffss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The prisoners wore handcuffs and iron chains on their legs.",
+            kurdishText:
+                "زیندانییەکان کەلەپچە و زنجیری ئاسنینیان لە قاچیان بەسترابوو.",
+            onPressedBritish: () => speakhandcuffss2("en-GB"),
+            onPressedAmerican: () => speakhandcuffss2("en-US"),
           ),
         ],
       ),

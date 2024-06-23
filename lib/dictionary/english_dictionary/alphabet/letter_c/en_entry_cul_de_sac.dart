@@ -241,57 +241,20 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) شەقامێک کە لە لایەکەوە داخراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We live in a quiet cul-de-sac."),
-                    ExampleSentenceKurdish(
-                        text: "لەسەر شەقامێکی یەکسەرە دەژین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cul-de-sac", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculdesacs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculdesacs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We live in a quiet cul-de-sac.",
+            kurdishText:
+                "لەسەر شەقامێکی یەکسەرە دەژین.", // cul-de-sac", please follow LX instructions
+            onPressedBritish: () => speakculdesacs1("en-GB"),
+            onPressedAmerican: () => speakculdesacs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This particular brand of socialism had entered a cul-de-sac (= could make no further progress)."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم شێوازە لە سۆشیاڵیزم ناگات بە ھیچ ئاقارێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculdesacs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculdesacs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This particular brand of socialism had entered a cul-de-sac (= could make no further progress).",
+            kurdishText: "ئەم شێوازە لە سۆشیاڵیزم ناگات بە ھیچ ئاقارێک.",
+            onPressedBritish: () => speakculdesacs2("en-GB"),
+            onPressedAmerican: () => speakculdesacs2("en-US"),
           ),
         ],
       ),

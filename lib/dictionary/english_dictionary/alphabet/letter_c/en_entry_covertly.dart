@@ -232,30 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەک کە نھێنی و شاراوەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She watched him covertly in the mirror."),
-                    ExampleSentenceKurdish(
-                        text: "بەنھێنی لە ئاوێنەکەوە سەیری کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "covertly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcovertlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcovertlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She watched him covertly in the mirror.",
+            kurdishText:
+                "بەنھێنی لە ئاوێنەکەوە سەیری کرد.", // covertly", please follow LX instructions
+            onPressedBritish: () => speakcovertlys1("en-GB"),
+            onPressedAmerican: () => speakcovertlys1("en-US"),
           ),
         ],
       ),

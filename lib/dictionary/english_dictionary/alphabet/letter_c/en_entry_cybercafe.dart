@@ -233,32 +233,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) قاوەخانەیەک کە ئینتەرنێتی تێدایە و سەردانکەران دەتوانن ئینتەرنێت بەکاربێنن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She stopped by the cybercafe to check her email."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە قاوەخانە کۆمپیوتەرییەکە وەستا بۆ پشکنینی ئیمەیڵەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cybercafe", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcybercafes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcybercafes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She stopped by the cybercafe to check her email.",
+            kurdishText:
+                "لە قاوەخانە کۆمپیوتەرییەکە وەستا بۆ پشکنینی ئیمەیڵەکەی.", // cybercafe", please follow LX instructions
+            onPressedBritish: () => speakcybercafes1("en-GB"),
+            onPressedAmerican: () => speakcybercafes1("en-US"),
           ),
         ],
       ),

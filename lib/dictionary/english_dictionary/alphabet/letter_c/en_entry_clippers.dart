@@ -95,32 +95,13 @@ class EnglishEntryclippers extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئامێرێک کە بەکاردێت بۆ بڕینی بەشی بچووک لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He used the nail clippers to trim his fingernails."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نینۆکبڕەکەی بەکارھێنا بۆ بڕینی نینۆکەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clippers", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclipperss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclipperss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He used the nail clippers to trim his fingernails.",
+                            kurdishText:
+                                "نینۆکبڕەکەی بەکارھێنا بۆ بڕینی نینۆکەکانی.", // clippers",
+                            onPressedBritish: () => speakclipperss1("en-GB"),
+                            onPressedAmerican: () => speakclipperss1("en-US"),
                           ),
                         ],
                       ),

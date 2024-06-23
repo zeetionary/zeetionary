@@ -117,119 +117,43 @@ class EnglishEntrycoolness extends StatelessWidget {
 // کوردی:
 // """),
                           const DefinitionKurdish(text: "١. (ناو) فێنکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's a slight coolness in the air - do you think it's going to rain?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمێک فێنکی لە کەشەکەدا ھەیە، پێت وایە باران ببارێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coolness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoolnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoolnesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's a slight coolness in the air - do you think it's going to rain?",
+                            kurdishText:
+                                "کەمێک فێنکی لە کەشەکەدا ھەیە، پێت وایە باران ببارێت؟", // coolness",
+                            onPressedBritish: () => speakcoolnesss1("en-GB"),
+                            onPressedAmerican: () => speakcoolnesss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) جوان و کەشخە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Adele just exudes coolness."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئادێڵ ڕازاوەیی لێدەبارێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoolnesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoolnesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Adele just exudes coolness.",
+                            kurdishText: "ئادێڵ ڕازاوەیی لێدەبارێت.",
+                            onPressedBritish: () => speakcoolnesss2("en-GB"),
+                            onPressedAmerican: () => speakcoolnesss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ھێمنی و لەسەرەخۆیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I admire her coolness under pressure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسامم بە لەسەرەخۆییەکەی لە کاتی فشاردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoolnesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoolnesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I admire her coolness under pressure.",
+                            kurdishText:
+                                "سەرسامم بە لەسەرەخۆییەکەی لە کاتی فشاردا.",
+                            onPressedBritish: () => speakcoolnesss3("en-GB"),
+                            onPressedAmerican: () => speakcoolnesss3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٤. (ناو) سارد و سڕی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I noticed a certain coolness between them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستم بە سارد و سڕییەکی دیاریکراو لە نێوانیاندا کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoolnesss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoolnesss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I noticed a certain coolness between them.",
+                            kurdishText:
+                                "ھەستم بە سارد و سڕییەکی دیاریکراو لە نێوانیاندا کرد.",
+                            onPressedBritish: () => speakcoolnesss4("en-GB"),
+                            onPressedAmerican: () => speakcoolnesss4("en-US"),
                           ),
                         ],
                       ),

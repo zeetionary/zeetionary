@@ -95,32 +95,13 @@ class EnglishEntrycobbled extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) خڕکەڕێژ؛ شەقامێک یان ڕێگایەک کە خڕکەبەردی تێدا ڕێژراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The streets of the main village are still cobbled."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگاکانی گوندە سەرەکییەکە ھێشتا خڕکەڕێژکراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cobbled", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcobbleds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcobbleds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The streets of the main village are still cobbled.",
+                            kurdishText:
+                                "ڕێگاکانی گوندە سەرەکییەکە ھێشتا خڕکەڕێژکراون.", // cobbled",
+                            onPressedBritish: () => speakcobbleds1("en-GB"),
+                            onPressedAmerican: () => speakcobbleds1("en-US"),
                           ),
                         ],
                       ),

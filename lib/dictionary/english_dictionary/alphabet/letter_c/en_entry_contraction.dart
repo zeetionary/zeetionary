@@ -129,159 +129,59 @@ class EnglishEntrycontraction extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پڕۆسەی بچووکبوونەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The design needs to allow for the expansion and contraction of the metal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیزاینەکە دەبێت ڕێگا بە کشان و چوونەوە یەکی کانزاکە بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contraction", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontractions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontractions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The design needs to allow for the expansion and contraction of the metal.",
+                            kurdishText:
+                                "دیزاینەکە دەبێت ڕێگا بە کشان و چوونەوە یەکی کانزاکە بدات.", // contraction",
+                            onPressedBritish: () => speakcontractions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontractions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sudden contraction of the markets left them with a lot of unwanted stock."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داتەپینی لەناکاوی بازاڕ ھێشتیانیەوە بە سەرمایەیەکی زۆری نەویستراو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontractions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontractions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sudden contraction of the markets left them with a lot of unwanted stock.",
+                            kurdishText:
+                                "داتەپینی لەناکاوی بازاڕ ھێشتیانیەوە بە سەرمایەیەکی زۆری نەویستراو.",
+                            onPressedBritish: () => speakcontractions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontractions2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) گرژبوونی لەناکاو و بەئازاری ماسوولکەکان، بەتایبەتی ماولکەی منداڵدانی ژنان لە کاتی منداڵبووندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The contractions started coming every five minutes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژانکردنەکە ھەر پێنج خولەکێک دەستی پێدەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontractions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontractions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The contractions started coming every five minutes.",
+                            kurdishText:
+                                "ژانکردنەکە ھەر پێنج خولەکێک دەستی پێدەکرد.",
+                            onPressedBritish: () => speakcontractions3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontractions3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Neurons control the contraction of muscles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیورۆنەکان گرژبوونی ماسوولکەکان کۆنترۆڵ دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontractions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontractions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Neurons control the contraction of muscles.",
+                            kurdishText:
+                                "نیورۆنەکان گرژبوونی ماسوولکەکان کۆنترۆڵ دەکەن.",
+                            onPressedBritish: () => speakcontractions4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontractions4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) شێوەی کورتکراوەی وشەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘He's’ may be a contraction of ‘he is’ or ‘he has’."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "\"He's\" دەکرێت کورتکراوەی \"he is\" یان \"he has\" بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontractions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontractions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘He's’ may be a contraction of ‘he is’ or ‘he has’.",
+                            kurdishText:
+                                "\"He's\" دەکرێت کورتکراوەی \"he is\" یان \"he has\" بێت.",
+                            onPressedBritish: () => speakcontractions5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontractions5("en-US"),
                           ),
                         ],
                       ),

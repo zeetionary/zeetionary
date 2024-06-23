@@ -120,115 +120,38 @@ class EnglishEntrycommittee extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گرووپێک خەڵک کە ھەڵبژێردراون، زۆرجار لەلایەن گرووپێکی گەورەترەوە، بۆ بڕیاردان یان مامەڵە لەگەڵ بابەتێکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The committee has/have decided to close the restaurant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لیژنەکە بڕیاری داوە چێشتخانەکە دابخات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "committee", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommittees1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommittees1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The committee has/have decided to close the restaurant.",
+                            kurdishText:
+                                "لیژنەکە بڕیاری داوە چێشتخانەکە دابخات.", // committee",
+                            onPressedBritish: () => speakcommittees1("en-GB"),
+                            onPressedAmerican: () => speakcommittees1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The committee unanimously approved the plan."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لیژنەکە تاکلایەنە پلانەکەی پەسەندکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommittees2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommittees2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The committee unanimously approved the plan.",
+                            kurdishText:
+                                "لیژنەکە تاکلایەنە پلانەکەی پەسەندکرد.",
+                            onPressedBritish: () => speakcommittees2("en-GB"),
+                            onPressedAmerican: () => speakcommittees2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's on the planning committee."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە لیژنەی پلاندانانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommittees3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommittees3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's on the planning committee.",
+                            kurdishText: "لە لیژنەی پلاندانانە.",
+                            onPressedBritish: () => speakcommittees3("en-GB"),
+                            onPressedAmerican: () => speakcommittees3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He will be called to give evidence before the committee."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانگ دەکرێت بۆ پیشاندانی بەڵگە لە پێش لیژنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommittees4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommittees4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He will be called to give evidence before the committee.",
+                            kurdishText:
+                                "بانگ دەکرێت بۆ پیشاندانی بەڵگە لە پێش لیژنەکە.",
+                            onPressedBritish: () => speakcommittees4("en-GB"),
+                            onPressedAmerican: () => speakcommittees4("en-US"),
                           ),
                         ],
                       ),

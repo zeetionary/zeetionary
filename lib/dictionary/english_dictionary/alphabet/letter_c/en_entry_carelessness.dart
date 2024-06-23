@@ -192,64 +192,26 @@ class EnglishEntrycarelessness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەمی سەرنج و گرنگیدان لەوەی دەیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most of the forest fires this spring were caused by human carelessness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی ئاگری دارستانەکان ئەم بەھارە بەھۆی کەمتەرخەمی مرۆڤەوە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carelessness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarelessnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarelessnesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most of the forest fires this spring were caused by human carelessness.",
+                            kurdishText:
+                                "زۆرینەی ئاگری دارستانەکان ئەم بەھارە بەھۆی کەمتەرخەمی مرۆڤەوە بوون.", // carelessness",
+                            onPressedBritish: () =>
+                                speakcarelessnesss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarelessnesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A moment of carelessness can cost an animal its life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساتێک لە کەمتەرخەمی دەکرێت ببێتەھۆی مردنی ئاژەڵێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarelessnesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarelessnesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A moment of carelessness can cost an animal its life.",
+                            kurdishText:
+                                "ساتێک لە کەمتەرخەمی دەکرێت ببێتەھۆی مردنی ئاژەڵێک.",
+                            onPressedBritish: () =>
+                                speakcarelessnesss2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarelessnesss2("en-US"),
                           ),
                         ],
                       ),

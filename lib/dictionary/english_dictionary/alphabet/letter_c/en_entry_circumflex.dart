@@ -95,32 +95,13 @@ class EnglishEntrycircumflex extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نیشانەیەک کە لە ھەندێک زماندا لەسەر بزوێنێک دادەنرێت بۆ پیشاندانی چۆنیەتی خوێندنەوە، بۆ نموونە لەسەر پیتی o لە rôle ـدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The circumflex in Greek is used to mark a long vowel, as in \"πῶς\"."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوکڵە لە زمانی یۆنانیدا بەکاردێت بۆ پیشاندانی بزوێنی درێژ بۆ نموونە لە \"πῶς\" ـدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circumflex", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircumflexs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircumflexs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The circumflex in Greek is used to mark a long vowel, as in \"πῶς\".",
+                            kurdishText:
+                                "چوکڵە لە زمانی یۆنانیدا بەکاردێت بۆ پیشاندانی بزوێنی درێژ بۆ نموونە لە \"πῶς\" ـدا.", // circumflex",
+                            onPressedBritish: () => speakcircumflexs1("en-GB"),
+                            onPressedAmerican: () => speakcircumflexs1("en-US"),
                           ),
                         ],
                       ),

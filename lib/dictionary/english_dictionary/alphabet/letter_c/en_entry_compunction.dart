@@ -102,64 +102,24 @@ class EnglishEntrycompunction extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەستکردن بە تاوان سەبارەت بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had lied to her without compunction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "درۆی لەگەڵ کرد بەبێ ھیچ پەشیمانییەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compunction", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompunctions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompunctions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had lied to her without compunction.",
+                            kurdishText:
+                                "درۆی لەگەڵ کرد بەبێ ھیچ پەشیمانییەک.", // compunction",
+                            onPressedBritish: () => speakcompunctions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompunctions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She felt no compunction about leaving her job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بەبێ ھیچ پەشیمانییەک نەکرد سەبارەت بە وازھێنان لە کارەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompunctions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompunctions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She felt no compunction about leaving her job.",
+                            kurdishText:
+                                "ھەستی بەبێ ھیچ پەشیمانییەک نەکرد سەبارەت بە وازھێنان لە کارەکەی.",
+                            onPressedBritish: () => speakcompunctions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompunctions2("en-US"),
                           ),
                         ],
                       ),

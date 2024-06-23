@@ -95,32 +95,13 @@ class EnglishEntryco extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کورتکراوە) لە نامەناردندا بەکاردێت کە ئەو کەسەی بۆی دەنێریت لە ماڵی کەسێکی دیکە دەمێنێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The address was Sylvia Mendez, c/o Ann Smith, 12 Glastonbury Lane, Bickerton."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناونیشانەکە سیلڤیا مێندێز، میوانی ئان سمیس، گلاستنبری لەین ١٢، لە بیکەرتن بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "c/o", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcos1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The address was Sylvia Mendez, c/o Ann Smith, 12 Glastonbury Lane, Bickerton.",
+                            kurdishText:
+                                "ناونیشانەکە سیلڤیا مێندێز، میوانی ئان سمیس، گلاستنبری لەین ١٢، لە بیکەرتن بوو.", // c/o",
+                            onPressedBritish: () => speakcos1("en-GB"),
+                            onPressedAmerican: () => speakcos1("en-US"),
                           ),
                         ],
                       ),

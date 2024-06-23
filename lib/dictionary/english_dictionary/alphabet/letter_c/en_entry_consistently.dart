@@ -103,67 +103,29 @@ class EnglishEntryconsistently extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بەردەوام بە ھەمان شێوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her work has been of a consistently high standard."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکانی بەردەوام لە ئاستی بەرزدا بوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consistently", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsistentlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsistentlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her work has been of a consistently high standard.",
+                            kurdishText:
+                                "کارەکانی بەردەوام لە ئاستی بەرزدا بوونە.", // consistently",
+                            onPressedBritish: () =>
+                                speakconsistentlys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsistentlys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەکی نەگۆڕ کە بەردەوام دەبێت بۆ ماوەیەکی درێژ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have argued consistently for a change in the law."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەردەوام داوامان کردووە بۆ گۆڕانێک لە یاساکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsistentlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsistentlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have argued consistently for a change in the law.",
+                            kurdishText:
+                                "بەردەوام داوامان کردووە بۆ گۆڕانێک لە یاساکە.",
+                            onPressedBritish: () =>
+                                speakconsistentlys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsistentlys2("en-US"),
                           ),
                         ],
                       ),

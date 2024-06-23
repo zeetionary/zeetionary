@@ -267,139 +267,45 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) زۆر گرنگ بەھۆی ئەوەی کاریگەری لە شتی دیکە دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The next few weeks are going to be crucial."),
-                    ExampleSentenceKurdish(
-                        text: "چەند ھەفتەی داھاتوو چارەنووسساز دەبن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crucial", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrucials1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrucials1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The next few weeks are going to be crucial.",
+            kurdishText:
+                "چەند ھەفتەی داھاتوو چارەنووسساز دەبن.", // crucial", please follow LX instructions
+            onPressedBritish: () => speakcrucials1("en-GB"),
+            onPressedAmerican: () => speakcrucials1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Private security cameras can prove crucial in some investigations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کامێرا چاودێرییە تایبەتەکان دەکرێت زۆر گرنگ بن لە ھەندێک لێکۆڵینەوەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrucials2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrucials2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Private security cameras can prove crucial in some investigations.",
+            kurdishText:
+                "کامێرا چاودێرییە تایبەتەکان دەکرێت زۆر گرنگ بن لە ھەندێک لێکۆڵینەوەدا.",
+            onPressedBritish: () => speakcrucials2("en-GB"),
+            onPressedAmerican: () => speakcrucials2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Parents play a crucial role in preparing their child for school."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دایبابان ڕۆڵی گرنگ دەبینن لە ئامادەکردنی منداڵانیان بۆ قوتابخانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrucials3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrucials3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Parents play a crucial role in preparing their child for school.",
+            kurdishText:
+                "دایبابان ڕۆڵی گرنگ دەبینن لە ئامادەکردنی منداڵانیان بۆ قوتابخانە.",
+            onPressedBritish: () => speakcrucials3("en-GB"),
+            onPressedAmerican: () => speakcrucials3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This step is a crucial part of the process."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم ھەنگاوە بەشێکی چارەنووسسازی پڕۆسەکەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrucials4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrucials4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This step is a crucial part of the process.",
+            kurdishText: "ئەم ھەنگاوە بەشێکی چارەنووسسازی پڕۆسەکەیە.",
+            onPressedBritish: () => speakcrucials4("en-GB"),
+            onPressedAmerican: () => speakcrucials4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He wasn't there at the crucial moment (= when he was needed most)."),
-                    ExampleSentenceKurdish(
-                        text: "لە ساتێکی چارەنووسسازدا لەوێ نەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrucials5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrucials5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He wasn't there at the crucial moment (= when he was needed most).",
+            kurdishText: "لە ساتێکی چارەنووسسازدا لەوێ نەبوو.",
+            onPressedBritish: () => speakcrucials5("en-GB"),
+            onPressedAmerican: () => speakcrucials5("en-US"),
           ),
         ],
       ),

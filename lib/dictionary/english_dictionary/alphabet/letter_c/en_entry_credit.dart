@@ -468,366 +468,117 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕێککەوتن لەگەڵ فرۆشگایەک بۆ دواتر پێدانی پارەی ئەو شتانەی کە کڕیوتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We bought the dishwasher on credit."),
-                    ExampleSentenceKurdish(
-                        text: "دەزگای قاپ‌شتنەکەمان بە قەرز کڕی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "credit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We bought the dishwasher on credit.",
+            kurdishText:
+                "دەزگای قاپ‌شتنەکەمان بە قەرز کڕی.", // credit", please follow LX instructions
+            onPressedBritish: () => speakcredits1("en-GB"),
+            onPressedAmerican: () => speakcredits1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Someone with a bad credit history is less likely to be lent money."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەسێکی قەرز کوێر ئەگەری کەمە پارەی بە قەرز پێبدرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Someone with a bad credit history is less likely to be lent money.",
+            kurdishText: "کەسێکی قەرز کوێر ئەگەری کەمە پارەی بە قەرز پێبدرێت.",
+            onPressedBritish: () => speakcredits2("en-GB"),
+            onPressedAmerican: () => speakcredits2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The credit crisis is far from over."),
-                    ExampleSentenceKurdish(
-                        text: "کێشەی قەرزەکە کۆتایی نەھاتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The credit crisis is far from over.",
+            kurdishText: "کێشەی قەرزەکە کۆتایی نەھاتووە.",
+            onPressedBritish: () => speakcredits3("en-GB"),
+            onPressedAmerican: () => speakcredits3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We offer two months' interest-free credit."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ دوو مانگ بەبێ سوو قەرگرتن قەرز دەدەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We offer two months' interest-free credit.",
+            kurdishText: "بۆ دوو مانگ بەبێ سوو قەرگرتن قەرز دەدەین.",
+            onPressedBritish: () => speakcredits4("en-GB"),
+            onPressedAmerican: () => speakcredits4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەو پارەیەی کە لە بانکێک قەرزی دەکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The bank refused further credit to the company."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بانکەکە ڕەتیکردەوە قەزری زیاتر بە کۆمپانیاکە بدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The bank refused further credit to the company.",
+            kurdishText: "بانکەکە ڕەتیکردەوە قەزری زیاتر بە کۆمپانیاکە بدات.",
+            onPressedBritish: () => speakcredits5("en-GB"),
+            onPressedAmerican: () => speakcredits5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ھەبوونی متمانەی ئەوەی کە قەرز دەگەڕێیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her credit isn't good anywhere now."),
-                    ExampleSentenceKurdish(
-                        text: "لە ئێستادا متمانەی ھیچ باش نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her credit isn't good anywhere now.",
+            kurdishText: "لە ئێستادا متمانەی ھیچ باش نییە.",
+            onPressedBritish: () => speakcredits6("en-GB"),
+            onPressedAmerican: () => speakcredits6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) ئەو پارەیەی کە لە ھەژماری بانکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You have a credit balance of £250."),
-                    ExampleSentenceKurdish(
-                        text: "باڵانسی ھەژماری بانکی ٢٥٠ پاوەندت ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You have a credit balance of £250.",
+            kurdishText: "باڵانسی ھەژماری بانکی ٢٥٠ پاوەندت ھەیە.",
+            onPressedBritish: () => speakcredits7("en-GB"),
+            onPressedAmerican: () => speakcredits7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "My account is in credit."),
-                    ExampleSentenceKurdish(text: "ھەژمارەکەم پارەی تێدایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(englishText: "My account is in credit.",
+          kurdishText: "ھەژمارەکەم پارەی تێدایە.",
+            onPressedBritish: () => speakcredits8("en-GB"),
+            onPressedAmerican: () => speakcredits8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) بڕە پارەیەک کە دەخرێتە ھەژمارێکی بانکییەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You'll be paid by direct credit into your bank account."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پارەت پێ دەدرێت بە زیادکردنی ڕاستەوخۆ بۆ سەر ھەژمارە بانکییەکەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You'll be paid by direct credit into your bank account.",
+            kurdishText:
+                "پارەت پێ دەدرێت بە زیادکردنی ڕاستەوخۆ بۆ سەر ھەژمارە بانکییەکەت.",
+            onPressedBritish: () => speakcredits9("en-GB"),
+            onPressedAmerican: () => speakcredits9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) مافی بەکارھێنانی شتێک کە پێشتر پارەت بۆ داوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My phone's run out of credit."),
-                    ExampleSentenceKurdish(
-                        text: "موبایلەکەم باڵانسی تێدا نەماوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My phone's run out of credit.",
+            kurdishText: "موبایلەکەم باڵانسی تێدا نەماوە.",
+            onPressedBritish: () => speakcredits10("en-GB"),
+            onPressedAmerican: () => speakcredits10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٧. (ناو) بڕە پارەیەک کە کەسێک مافی بە سەرەوە ھەیە بە ھۆکارێکی دیاریکراو؛ بڕە پارەیەک کە نایدەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The child tax credit is subject to strict income limitations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پارەی باجی منداڵ پەیوەستە بە سنوورداری توندی داھاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The child tax credit is subject to strict income limitations.",
+            kurdishText:
+                "پارەی باجی منداڵ پەیوەستە بە سنوورداری توندی داھاتەوە.",
+            onPressedBritish: () => speakcredits11("en-GB"),
+            onPressedAmerican: () => speakcredits11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (ناو) ستایش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He's a player who rarely seems to get the credit he deserves."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یاریزانێکە کە بەدەگمەن دەردەکەوێت ئەو ستایشە وەربگرێت کە شایەنیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He's a player who rarely seems to get the credit he deserves.",
+            kurdishText:
+                "یاریزانێکە کە بەدەگمەن دەردەکەوێت ئەو ستایشە وەربگرێت کە شایەنیەتی.",
+            onPressedBritish: () => speakcredits12("en-GB"),
+            onPressedAmerican: () => speakcredits12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We did all the work and she gets all the credit!"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئێمە ھەموو کارەکەمان کرد و ئەو ھەموو ستایشەکە وەردەگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We did all the work and she gets all the credit!",
+            kurdishText:
+                "ئێمە ھەموو کارەکەمان کرد و ئەو ھەموو ستایشەکە وەردەگرێت.",
+            onPressedBritish: () => speakcredits13("en-GB"),
+            onPressedAmerican: () => speakcredits13("en-US"),
           ),
           Column(
             children: [
@@ -923,226 +674,70 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٩. (ناو) کەسێک یان شتێک کە خاسیەت و سەرکەوتنەکانی جێگای ستایشە و ڕێز دێنێت بۆ کەسێک یان شتێکی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She is a credit to the school."),
-                    ExampleSentenceKurdish(text: "جێگای شانازی قوتابخانەکەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(englishText: "She is a credit to the school.",
+          kurdishText: "جێگای شانازی قوتابخانەکەیە.",
+            onPressedBritish: () => speakcredits17("en-GB"),
+            onPressedAmerican: () => speakcredits17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Your children are a great credit to you."),
-                    ExampleSentenceKurdish(text: "منداڵەکانت جێگای شانازیتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(englishText: "Your children are a great credit to you.",
+          kurdishText: "منداڵەکانت جێگای شانازیتن.",
+            onPressedBritish: () => speakcredits18("en-GB"),
+            onPressedAmerican: () => speakcredits18("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١٠. (ناو) ناوھێنانی کەسێک کە کاری کردووە لە پڕۆژەیەکدا، بۆ نموونە فیلمێک یان پڕۆگرامێکی تەلەفیزیۆنی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was given a programme credit for her work on the costumes for the play."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێزی لە پڕۆگرامەکە لێنرا بۆ کارەکانی لەسەر جلوبەرگی شانۆکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was given a programme credit for her work on the costumes for the play.",
+            kurdishText:
+                "ڕێزی لە پڕۆگرامەکە لێنرا بۆ کارەکانی لەسەر جلوبەرگی شانۆکەدا.",
+            onPressedBritish: () => speakcredits19("en-GB"),
+            onPressedAmerican: () => speakcredits19("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We left before the final credits began to roll."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێش ئەوەی ڕێزلێنانی کۆتایی دەست بە دەرکەوتن بکات ڕۆشتین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We left before the final credits began to roll.",
+            kurdishText:
+                "پێش ئەوەی ڕێزلێنانی کۆتایی دەست بە دەرکەوتن بکات ڕۆشتین.",
+            onPressedBritish: () => speakcredits20("en-GB"),
+            onPressedAmerican: () => speakcredits20("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (کردار) زیادکردنی بڕە پارەیەک بۆ ھەژماری بانکی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They credited my account two days later."),
-                    ExampleSentenceKurdish(
-                        text: "دوای دوو ڕۆژ ھەژمارەکەمیان پڕکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They credited my account two days later.",
+            kurdishText: "دوای دوو ڕۆژ ھەژمارەکەمیان پڕکردەوە.",
+            onPressedBritish: () => speakcredits21("en-GB"),
+            onPressedAmerican: () => speakcredits21("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "Your account has been credited with £50 000.",
-                      note: "Or: £50 000 has been credited to your account.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text: "ھەژمارەکەت ٥٠٠٠٠ پاوەندی تێخراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Your account has been credited with £50 000.",
+            englishNote: "Or: £50 000 has been credited to your account.",
+kurdishText: "ھەژمارەکەت ٥٠٠٠٠ پاوەندی تێخراوە.",
+            onPressedBritish: () => speakcredits22("en-GB"),
+            onPressedAmerican: () => speakcredits22("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١٢. (کردار) باوەڕکردن یان گوتنی ئەوەی کە کەسێک بەرپرسە بۆ کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All the contributors are credited on the title page."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەواوی بەژداران لە پەڕەی سەردێڕ ئاماژەیان پێکراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All the contributors are credited on the title page.",
+            kurdishText: "تەواوی بەژداران لە پەڕەی سەردێڕ ئاماژەیان پێکراوە.",
+            onPressedBritish: () => speakcredits23("en-GB"),
+            onPressedAmerican: () => speakcredits23("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She has been wrongly credited as the author."),
-                    ExampleSentenceKurdish(
-                        text: "بە ھەڵە وەک نووسەر ناوی ھێنراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has been wrongly credited as the author.",
+            kurdishText: "بە ھەڵە وەک نووسەر ناوی ھێنراوە.",
+            onPressedBritish: () => speakcredits24("en-GB"),
+            onPressedAmerican: () => speakcredits24("en-US"),
           ),
           Column(
             children: [
@@ -1211,87 +806,30 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٣. (کردار) باوەڕکردن بەوەی کەسێک یان شتێک خاسیەتێک یان تایبەتمەندییەکی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Credit me with some intelligence."),
-                    ExampleSentenceKurdish(text: "کەمێک ژیریم لێ ڕاببینە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits27("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits27("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(englishText: "Credit me with some intelligence.",
+          kurdishText: "کەمێک ژیریم لێ ڕاببینە.",
+            onPressedBritish: () => speakcredits27("en-GB"),
+            onPressedAmerican: () => speakcredits27("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١٤. (کردار) باوەڕبوون بەوەی کەسێک یان شتێک لە جۆرێکی دیاریکراوە یان خاسیەتێکی دیاریکراوی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cheetah is generally credited as the world's fastest animal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چیتا بەشێوەیەکی گشتی بە خێراترین ئاژەڵی جیھان دادەنرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits28("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits28("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cheetah is generally credited as the world's fastest animal.",
+            kurdishText:
+                "چیتا بەشێوەیەکی گشتی بە خێراترین ئاژەڵی جیھان دادەنرێت.",
+            onPressedBritish: () => speakcredits28("en-GB"),
+            onPressedAmerican: () => speakcredits28("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٥. (کردار) باوەڕکردن بە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He's been promoted—would you credit it?"),
-                    ExampleSentenceKurdish(
-                        text: "پلەی بەرزکراوەتەوە، باوەڕ دەکەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredits29("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredits29("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's been promoted—would you credit it?",
+            kurdishText: "پلەی بەرزکراوەتەوە، باوەڕ دەکەیت؟",
+            onPressedBritish: () => speakcredits29("en-GB"),
+            onPressedAmerican: () => speakcredits29("en-US"),
           ),
         ],
       ),

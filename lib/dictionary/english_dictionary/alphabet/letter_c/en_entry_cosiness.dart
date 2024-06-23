@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) ھەستکردن بە گەرمی و ئاسوودەیی و سەلامەتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She enjoyed the cosiness of curling up with a book by the fireplace."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حەزی لە ئاسوودەیی گرمۆڵەبوون بوو بە کتێبێکەوە لە تەنیشت ئاگردانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosiness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosinesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosinesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She enjoyed the cosiness of curling up with a book by the fireplace.",
+            kurdishText:
+                "حەزی لە ئاسوودەیی گرمۆڵەبوون بوو بە کتێبێکەوە لە تەنیشت ئاگردانەکە.", // cosiness", please follow LX instructions
+            onPressedBritish: () => speakcosinesss1("en-GB"),
+            onPressedAmerican: () => speakcosinesss1("en-US"),
           ),
         ],
       ),

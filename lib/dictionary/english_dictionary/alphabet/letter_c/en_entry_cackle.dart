@@ -194,121 +194,43 @@ class EnglishEntrycackle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کە مریشکێک دەنگێکی بەرزی ناخۆش دەردەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hen sitting on the fence started to cackle loudly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مریشکەکە بە دانیشتن لەسەر پەرژینەکە دەستی بە گارەگار کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cackle", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcackles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcackles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hen sitting on the fence started to cackle loudly.",
+                            kurdishText:
+                                "مریشکەکە بە دانیشتن لەسەر پەرژینەکە دەستی بە گارەگار کرد.", // cackle
+                            onPressedBritish: () => speakcackles1("en-GB"),
+                            onPressedAmerican: () => speakcackles1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) پێکەنین بە دەنگی بەرز و ناخۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They all cackled with delight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموویان لەخۆشیدا حیلکەحیلکیان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcackles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcackles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They all cackled with delight.",
+                            kurdishText: "ھەموویان لەخۆشیدا حیلکەحیلکیان بوو.",
+                            onPressedBritish: () => speakcackles2("en-GB"),
+                            onPressedAmerican: () => speakcackles2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) دەنگی بەرزی مریشک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The farmyard was filled with the cheerful cackle of hens."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەوشەی کێڵگەکە پڕبوو لە گارەگاری خۆشی مریشک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcackles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcackles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The farmyard was filled with the cheerful cackle of hens.",
+                            kurdishText:
+                                "حەوشەی کێڵگەکە پڕبوو لە گارەگاری خۆشی مریشک.",
+                            onPressedBritish: () => speakcackles3("en-GB"),
+                            onPressedAmerican: () => speakcackles3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) پێکەنینێکی بەرزی ناخۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He burst into cackles of laughter."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەستی بە حیلکەحیلک کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcackles4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcackles4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He burst into cackles of laughter.",
+                            kurdishText: "دەستی بە حیلکەحیلک کرد.",
+                            onPressedBritish: () => speakcackles4("en-GB"),
+                            onPressedAmerican: () => speakcackles4("en-US"),
                           ),
                         ],
                       ),

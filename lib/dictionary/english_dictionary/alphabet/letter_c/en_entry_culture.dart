@@ -331,59 +331,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نەریت و باوەڕ، ھونەر، شێوازی ژیان و شێوازی ڕێکخستنی کۆمەڵایەتی وڵاتێک یان گرووپێکی دیاریکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cooking is a hugely important part of French culture."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خواردن لێنان بەشێکی زۆر گرنگی کەلتووری فەرەنسایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "culture", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultures1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultures1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Cooking is a hugely important part of French culture.",
+            kurdishText:
+                "خواردن لێنان بەشێکی زۆر گرنگی کەلتووری فەرەنسایە.", // culture", please follow LX instructions
+            onPressedBritish: () => speakcultures1("en-GB"),
+            onPressedAmerican: () => speakcultures1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He is no longer in touch with youth culture."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چیتر لە پەیوەندیدا نییە لەگەڵ کەلتووری گەنجاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultures2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultures2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He is no longer in touch with youth culture.",
+            kurdishText: "چیتر لە پەیوەندیدا نییە لەگەڵ کەلتووری گەنجاندا.",
+            onPressedBritish: () => speakcultures2("en-GB"),
+            onPressedAmerican: () => speakcultures2("en-US"),
           ),
           Column(
             children: [
@@ -479,201 +440,64 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) وڵاتێک، گرووپێک، ھتد کە باوەڕ، ھتد ـی خۆی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The children are taught to respect different cultures."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵان فێردەکرێن کە ڕێزی کەلتوورە جیاوازەکان بگرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultures6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultures6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The children are taught to respect different cultures.",
+            kurdishText: "منداڵان فێردەکرێن کە ڕێزی کەلتوورە جیاوازەکان بگرن.",
+            onPressedBritish: () => speakcultures6("en-GB"),
+            onPressedAmerican: () => speakcultures6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In some cultures children have an important place."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ھەندێک کەلتووردا منداڵان پێگەی تایبەتیان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultures7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultures7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "In some cultures children have an important place.",
+            kurdishText: "لە ھەندێک کەلتووردا منداڵان پێگەی تایبەتیان ھەیە.",
+            onPressedBritish: () => speakcultures7("en-GB"),
+            onPressedAmerican: () => speakcultures7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ھونەر، میوزیک، ئەدەب، ھتد پێکەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Venice is a beautiful city, full of culture and history."),
-                    ExampleSentenceKurdish(
-                        text: "ڤێنیس شارێکی جوانە، پڕ لە چاند و مێژووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultures8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultures8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Venice is a beautiful city, full of culture and history.",
+            kurdishText: "ڤێنیس شارێکی جوانە، پڕ لە چاند و مێژووە.",
+            onPressedBritish: () => speakcultures8("en-GB"),
+            onPressedAmerican: () => speakcultures8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) باوەڕ و بۆچوون سەبارەت بە شتێک کە کەسانی گرووپێک یان دامەزراوەیەکی دیاریکراو باوەڕیان پێیەتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The political cultures of the United States and Europe are very different."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەوشی سیاسی ئەمریکا و ئەورووپا زۆر جیاوازن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultures9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultures9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The political cultures of the United States and Europe are very different.",
+            kurdishText: "ڕەوشی سیاسی ئەمریکا و ئەورووپا زۆر جیاوازن.",
+            onPressedBritish: () => speakcultures9("en-GB"),
+            onPressedAmerican: () => speakcultures9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You can't change the culture of an organization overnight."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناتوانیت کەلتووری دامەزراوەیەک لە شەو و ڕۆژێکدا بگۆڕیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultures10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultures10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You can't change the culture of an organization overnight.",
+            kurdishText:
+                "ناتوانیت کەلتووری دامەزراوەیەک لە شەو و ڕۆژێکدا بگۆڕیت.",
+            onPressedBritish: () => speakcultures10("en-GB"),
+            onPressedAmerican: () => speakcultures10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She believes the media have created a culture of fear."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باوەڕی وایە میدیا کەلتوورێک لە ترسی درووست کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultures11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultures11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She believes the media have created a culture of fear.",
+            kurdishText: "باوەڕی وایە میدیا کەلتوورێک لە ترسی درووست کردووە.",
+            onPressedBritish: () => speakcultures11("en-GB"),
+            onPressedAmerican: () => speakcultures11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The company promotes a culture of innovation."),
-                    ExampleSentenceKurdish(
-                        text: "کۆمپانیاکە فەرھەنگی نوێگەری بڵاودەکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultures12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultures12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The company promotes a culture of innovation.",
+            kurdishText: "کۆمپانیاکە فەرھەنگی نوێگەری بڵاودەکاتەوە.",
+            onPressedBritish: () => speakcultures12("en-GB"),
+            onPressedAmerican: () => speakcultures12("en-US"),
           ),
         ],
       ),

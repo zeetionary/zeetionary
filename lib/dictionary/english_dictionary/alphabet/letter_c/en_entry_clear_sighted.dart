@@ -95,34 +95,15 @@ class EnglishEntryclearsighted extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی توانای بڕیاردانی درووست بە بیرکردنەوەی ڕوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Simon has a clear-sighted vision of the company's future."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سایمن وێنایەکی بیرفراوانی داھاتووی کۆمپانیاکەی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clear-sighted", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclearsighteds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclearsighteds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Simon has a clear-sighted vision of the company's future.",
+                            kurdishText:
+                                "سایمن وێنایەکی بیرفراوانی داھاتووی کۆمپانیاکەی ھەیە.", // clear-sighted",
+                            onPressedBritish: () =>
+                                speakclearsighteds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclearsighteds1("en-US"),
                           ),
                         ],
                       ),

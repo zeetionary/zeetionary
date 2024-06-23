@@ -187,32 +187,13 @@ class EnglishEntrycashcrop extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەرھەمی (بۆ)فرۆش؛ بەرھەمێک کە دەفرۆشرێت لە جیاتی بەکارھێنانی لەلایەن ئەو کەسەی کە دەیچێنێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most farmers now produce cash crops such as coffee and tobacco for the export market."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر جوتیار لە ئێستادا دانەوێڵەی بۆفرۆش بەرھەمدێنن وەک قاوە و تووتن بۆ بازاڕی ھەناردە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cash crop", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcashcrops1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcashcrops1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most farmers now produce cash crops such as coffee and tobacco for the export market.",
+                            kurdishText:
+                                "زۆر جوتیار لە ئێستادا دانەوێڵەی بۆفرۆش بەرھەمدێنن وەک قاوە و تووتن بۆ بازاڕی ھەناردە.", // cash crop",
+                            onPressedBritish: () => speakcashcrops1("en-GB"),
+                            onPressedAmerican: () => speakcashcrops1("en-US"),
                           ),
                         ],
                       ),

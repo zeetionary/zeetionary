@@ -144,205 +144,72 @@ class EnglishEntryconscience extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو بەشەی مێشک کە پێت دەڵێت کارەکانت ڕاستە یان نا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is a matter of individual conscience (= everyone must make their own judgement about it)."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەمە بابەتێکی ویژدانی کەسییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conscience", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is a matter of individual conscience (= everyone must make their own judgement about it).",
+                            kurdishText:
+                                "ئەمە بابەتێکی ویژدانی کەسییە.", // conscience",
+                            onPressedBritish: () => speakconsciences1("en-GB"),
+                            onPressedAmerican: () => speakconsciences1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He won't let it trouble his conscience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگا نادات ویژدانی نائاسوودە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciences2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciences2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He won't let it trouble his conscience.",
+                            kurdishText: "ڕێگا نادات ویژدانی نائاسوودە بکات.",
+                            onPressedBritish: () => speakconsciences2("en-GB"),
+                            onPressedAmerican: () => speakconsciences2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At the end of each day, examine your conscience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتایی ھەموو ڕۆژێکدا لە ویژدانت بکۆڵەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciences3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciences3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At the end of each day, examine your conscience.",
+                            kurdishText:
+                                "لە کۆتایی ھەموو ڕۆژێکدا لە ویژدانت بکۆڵەرەوە.",
+                            onPressedBritish: () => speakconsciences3("en-GB"),
+                            onPressedAmerican: () => speakconsciences3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He felt his conscience telling him to apologize."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستیکرد ویژدانی پێی گوت داوای لێبووردن بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciences4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciences4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He felt his conscience telling him to apologize.",
+                            kurdishText:
+                                "ھەستیکرد ویژدانی پێی گوت داوای لێبووردن بکات.",
+                            onPressedBritish: () => speakconsciences4("en-GB"),
+                            onPressedAmerican: () => speakconsciences4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھەستی تاوانباری سەبارەت بە شتێک کە کردووتە یان نەتتوانیوە بیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have a terrible conscience about it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستێکی تاوانباری خراپم ھەیە دەربارەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciences5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciences5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I have a terrible conscience about it.",
+                            kurdishText:
+                                "ھەستێکی تاوانباری خراپم ھەیە دەربارەی.",
+                            onPressedBritish: () => speakconsciences5("en-GB"),
+                            onPressedAmerican: () => speakconsciences5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had no conscience about taking his brother's money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ ھەستی تاوانباری نەبوو سەبارەت بە بردنی پارەی براکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciences6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciences6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had no conscience about taking his brother's money.",
+                            kurdishText:
+                                "ھیچ ھەستی تاوانباری نەبوو سەبارەت بە بردنی پارەی براکەی.",
+                            onPressedBritish: () => speakconsciences6("en-GB"),
+                            onPressedAmerican: () => speakconsciences6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ڕاستیی ئەوەی بەو شێوەیە ڕەفتار بکەیت کە پێت درووستە ئەگەرچی ببێتە ھۆی کێشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How could people of conscience allow this to happen?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن کەسانی بە ویژدان ڕێگا دەدەن ئەمە ڕووبدات؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsciences7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsciences7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How could people of conscience allow this to happen?",
+                            kurdishText:
+                                "چۆن کەسانی بە ویژدان ڕێگا دەدەن ئەمە ڕووبدات؟",
+                            onPressedBritish: () => speakconsciences7("en-GB"),
+                            onPressedAmerican: () => speakconsciences7("en-US"),
                           ),
                         ],
                       ),

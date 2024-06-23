@@ -268,144 +268,45 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شوێنێک کە لێیەوە دەتوانیت بە سەلامەتی لە ڕووبارێک، ڕێگایەک، ھتد بپەڕیتەوە، یان لە وڵاتکەوە بۆ یەکێکی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The child was killed when a car failed to stop at the crossing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکە گیانی لەدەستدا کە ئۆتۆمبێلێک نەیتوانی لە ڕێگای پەڕینەوەکە بوەستێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crossing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The child was killed when a car failed to stop at the crossing.",
+            kurdishText:
+                "منداڵەکە گیانی لەدەستدا کە ئۆتۆمبێلێک نەیتوانی لە ڕێگای پەڕینەوەکە بوەستێت.", // crossing", please follow LX instructions
+            onPressedBritish: () => speakcrossings1("en-GB"),
+            onPressedAmerican: () => speakcrossings1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was arrested by guards at the border crossing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەلایەن پاسەوانانەوە لە خاڵی پەڕینەوە سنوورییەکە گیردرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was arrested by guards at the border crossing.",
+            kurdishText:
+                "لەلایەن پاسەوانانەوە لە خاڵی پەڕینەوە سنوورییەکە گیردرا.",
+            onPressedBritish: () => speakcrossings2("en-GB"),
+            onPressedAmerican: () => speakcrossings2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) گەشتێک بە دەریایەک یان ڕووبارێکی فراواندا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The price includes accommodation and ferry crossing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نرخەکە جێگای مانەوە و پەڕینەوەی بەلەم لەخۆدەگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossings3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossings3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The price includes accommodation and ferry crossing.",
+            kurdishText: "نرخەکە جێگای مانەوە و پەڕینەوەی بەلەم لەخۆدەگرێت.",
+            onPressedBritish: () => speakcrossings3("en-GB"),
+            onPressedAmerican: () => speakcrossings3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You can only make the crossing in good weather."),
-                    ExampleSentenceKurdish(
-                        text: "تەنھا لە کەشی باشدا دەتوانیت گەشتەکە بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossings4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossings4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You can only make the crossing in good weather.",
+            kurdishText: "تەنھا لە کەشی باشدا دەتوانیت گەشتەکە بکەیت.",
+            onPressedBritish: () => speakcrossings4("en-GB"),
+            onPressedAmerican: () => speakcrossings4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She looked at the sea and knew it would be a rough crossing."),
-                    ExampleSentenceKurdish(
-                        text: "سەیری دەریاکەی کرد و زانی گەشتێکی دژوار دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossings5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossings5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She looked at the sea and knew it would be a rough crossing.",
+            kurdishText: "سەیری دەریاکەی کرد و زانی گەشتێکی دژوار دەبێت.",
+            onPressedBritish: () => speakcrossings5("en-GB"),
+            onPressedAmerican: () => speakcrossings5("en-US"),
           ),
         ],
       ),

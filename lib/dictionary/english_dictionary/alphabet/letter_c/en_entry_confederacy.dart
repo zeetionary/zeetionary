@@ -104,67 +104,27 @@ class EnglishEntryconfederacy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھاوپەیمانییەک لە کۆمەڵە وڵاتێک، گرووپێک لە خەڵکی، یان پارتی سیاسی یەکدەگرن بە یەک ئامانج"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The confederacy of tribes was formed to resist the invading army."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوپەیمانی خێڵەکان درووستکرا بۆ وەستانەوە دژ بە سوپا داگیرکەرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confederacy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfederacys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfederacys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The confederacy of tribes was formed to resist the invading army.",
+                            kurdishText:
+                                "ھاوپەیمانی خێڵەکان درووستکرا بۆ وەستانەوە دژ بە سوپا داگیرکەرەکە.", // confederacy",
+                            onPressedBritish: () => speakconfederacys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfederacys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو ١١ ویلایەتەی باشووری ئەمریکا کە لە ساڵانی ١٨٦٠-١٨٦١ ویلایەتە یەکگرتووەکانی ئەمریکایان جێھێشت و جەنگی ناوخۆییان دەستپێکرد بۆ پاراستنی کۆیلایەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Confederacy's defeat resulted in the abolition of slavery and the reunification of the United States."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شکستی کۆنفێدراسیۆن بوو بەھۆی کۆتایی ھێنان بە کۆیلایەتی و یەکگرتنەوەی ویلایەتە یەکگرتووەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfederacys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfederacys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Confederacy's defeat resulted in the abolition of slavery and the reunification of the United States.",
+                            kurdishText:
+                                "شکستی کۆنفێدراسیۆن بوو بەھۆی کۆتایی ھێنان بە کۆیلایەتی و یەکگرتنەوەی ویلایەتە یەکگرتووەکان.",
+                            onPressedBritish: () => speakconfederacys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfederacys2("en-US"),
                           ),
                         ],
                       ),

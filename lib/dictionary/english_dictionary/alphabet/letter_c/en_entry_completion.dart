@@ -103,60 +103,21 @@ class EnglishEntrycompletion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کردار یان پڕۆسەی تەواوکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Satisfactory completion of the course does not ensure you a job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوکردنی گونجاوی کۆرسەکە واتای ئەوە نییە کارێک وەردەگریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "completion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompletions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompletions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Satisfactory completion of the course does not ensure you a job.",
+                            kurdishText:
+                                "تەواوکردنی گونجاوی کۆرسەکە واتای ئەوە نییە کارێک وەردەگریت.", // completion",
+                            onPressedBritish: () => speakcompletions1("en-GB"),
+                            onPressedAmerican: () => speakcompletions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The project is due for completion in the spring."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆژەکە بڕیارە تەواو بێت لە بەھاردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompletions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompletions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The project is due for completion in the spring.",
+                            kurdishText: "پڕۆژەکە بڕیارە تەواو بێت لە بەھاردا.",
+                            onPressedBritish: () => speakcompletions2("en-GB"),
+                            onPressedAmerican: () => speakcompletions2("en-US"),
                           ),
                         ],
                       ),

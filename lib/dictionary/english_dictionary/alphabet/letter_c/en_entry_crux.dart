@@ -241,57 +241,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) گرنگترین یان سەخترین بەشی کێشەیەک یان بابەتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Now we come to the crux of the matter."),
-                    ExampleSentenceKurdish(
-                        text: "ئێستا دێینە سەر کاکڵی کێشەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crux", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruxs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruxs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Now we come to the crux of the matter.",
+            kurdishText:
+                "ئێستا دێینە سەر کاکڵی کێشەکە.", // crux", please follow LX instructions
+            onPressedBritish: () => speakcruxs1("en-GB"),
+            onPressedAmerican: () => speakcruxs1("en-US"),
           ),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crux of the country's economic problems is its foreign debt."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پرسی دژواری کێشە ئابورییەکانی وڵاتەکە قەرزی دەرەکییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crux", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruxs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruxs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The crux of the country's economic problems is its foreign debt.",
+            kurdishText:
+                "پرسی دژواری کێشە ئابورییەکانی وڵاتەکە قەرزی دەرەکییە.", // crux", please follow LX instructions
+            onPressedBritish: () => speakcruxs2("en-GB"),
+            onPressedAmerican: () => speakcruxs2("en-US"),
           ),
         ],
       ),

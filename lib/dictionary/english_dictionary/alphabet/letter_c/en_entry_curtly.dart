@@ -241,55 +241,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە بێ‌ڕێزانە دەردەکەوێت بەھۆی ئەوەی وشەی کەم بەکارھاتووە یان خێرایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He nodded curtly."),
-                    ExampleSentenceKurdish(text: "بەخێرایی سەری دالەقاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curtly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He nodded curtly.",
+            kurdishText:
+                "بەخێرایی سەری دالەقاند.", // curtly", please follow LX instructions
+            onPressedBritish: () => speakcurtlys1("en-GB"),
+            onPressedAmerican: () => speakcurtlys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Steve answered curtly and turned his back on me."),
-                    ExampleSentenceKurdish(
-                        text: "ستیڤ بێ‌ڕێزانە وەڵامی دایەوە و پشتی لێم لرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Steve answered curtly and turned his back on me.",
+            kurdishText: "ستیڤ بێ‌ڕێزانە وەڵامی دایەوە و پشتی لێم لرد.",
+            onPressedBritish: () => speakcurtlys2("en-GB"),
+            onPressedAmerican: () => speakcurtlys2("en-US"),
           ),
         ],
       ),

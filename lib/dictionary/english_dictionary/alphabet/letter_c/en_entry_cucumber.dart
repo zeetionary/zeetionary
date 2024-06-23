@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) سەوزەیەکی درێژ کە توێکڵەکەی سەوزی تاریکە و لەناوەوە سەوزی ڕۆشنە و زۆرجار بە خاوی دەخورێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cucumbers are usually sliced and eaten raw in salads."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەیار زۆرجار قاژ دەکرێت و بە خاوی لە زەڵاتەدا دەخورێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cucumber", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcucumbers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcucumbers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Cucumbers are usually sliced and eaten raw in salads.",
+            kurdishText:
+                "خەیار زۆرجار قاژ دەکرێت و بە خاوی لە زەڵاتەدا دەخورێت.", // cucumber", please follow LX instructions
+            onPressedBritish: () => speakcucumbers1("en-GB"),
+            onPressedAmerican: () => speakcucumbers1("en-US"),
           ),
         ],
       ),

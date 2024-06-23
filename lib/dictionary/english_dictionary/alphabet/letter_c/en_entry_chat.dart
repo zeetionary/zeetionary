@@ -185,60 +185,21 @@ class EnglishEntrychat extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) گفتوگۆکردن بەشێوەیەکی ھاوڕێیانە لەگەڵ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm sorry I can't stop to chat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ببوورە ناتوانم بۆ دەمەتەقێیەک بوەستم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chat", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'm sorry I can't stop to chat.",
+                            kurdishText:
+                                "ببوورە ناتوانم بۆ دەمەتەقێیەک بوەستم.", // chat",
+                            onPressedBritish: () => speakchats1("en-GB"),
+                            onPressedAmerican: () => speakchats1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two of us got chatting (= started chatting) at the bus stop."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھردووکمان لە وێستگەی پاسەکە دەستمان بە گفتوگۆ کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchats2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchats2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two of us got chatting (= started chatting) at the bus stop.",
+                            kurdishText:
+                                "ھردووکمان لە وێستگەی پاسەکە دەستمان بە گفتوگۆ کرد.",
+                            onPressedBritish: () => speakchats2("en-GB"),
+                            onPressedAmerican: () => speakchats2("en-US"),
                           ),
                           Column(
                             children: [
@@ -311,233 +272,79 @@ class EnglishEntrychat extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) نامەگۆڕینەوە لەگەڵ کەسێک بە ئینتەرنێت کە دەتوانیت دەستبەجێ وەڵامی یەکدی بدەنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've been chatting online with my best friend."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئینتەرنێت لەگەڵ باشترین ھاوڕێم قسەم دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchats5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchats5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've been chatting online with my best friend.",
+                            kurdishText:
+                                "بە ئینتەرنێت لەگەڵ باشترین ھاوڕێم قسەم دەکرد.",
+                            onPressedBritish: () => speakchats5("en-GB"),
+                            onPressedAmerican: () => speakchats5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I use social media to chat with my friends."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆڕە کۆمەڵایەتییەکان بەکاردێنم بۆ قسەکردن لەگەڵ ھاوڕێکانم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchats6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchats6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I use social media to chat with my friends.",
+                            kurdishText:
+                                "تۆڕە کۆمەڵایەتییەکان بەکاردێنم بۆ قسەکردن لەگەڵ ھاوڕێکانم.",
+                            onPressedBritish: () => speakchats6("en-GB"),
+                            onPressedAmerican: () => speakchats6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) گفتوگۆیەکی ھاوڕێیانەی نافەرمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I just called in for a chat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا بۆ دەمەتەقێیەک پەیوەندیم کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchats7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchats7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I just called in for a chat.",
+                            kurdishText: "تەنھا بۆ دەمەتەقێیەک پەیوەندیم کرد.",
+                            onPressedBritish: () => speakchats7("en-GB"),
+                            onPressedAmerican: () => speakchats7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I had a long chat with her."),
-                                    ExampleSentenceKurdish(
-                                        text: "گفتوگۆیەکی درێژم ھەبوو لەگەڵی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchats8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchats8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I had a long chat with her.",
+                            kurdishText: "گفتوگۆیەکی درێژم ھەبوو لەگەڵی.",
+                            onPressedBritish: () => speakchats8("en-GB"),
+                            onPressedAmerican: () => speakchats8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) قسەکردن، بەتایبەتی گفتوگۆی نافەرمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After a few more minutes of chat, she left."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەدوای چەند خولەکێکی دیکە لە قسەکردن، ڕۆشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchats9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchats9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After a few more minutes of chat, she left.",
+                            kurdishText:
+                                "لەدوای چەند خولەکێکی دیکە لە قسەکردن، ڕۆشت.",
+                            onPressedBritish: () => speakchats9("en-GB"),
+                            onPressedAmerican: () => speakchats9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They say he's already married, but it's just idle chat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەڵێت لەمێژە ھاوسەرگیری کردووە، بەڵام تەنھا قسەی ھیچە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchats10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchats10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They say he's already married, but it's just idle chat.",
+                            kurdishText:
+                                "دەڵێت لەمێژە ھاوسەرگیری کردووە، بەڵام تەنھا قسەی ھیچە.",
+                            onPressedBritish: () => speakchats10("en-GB"),
+                            onPressedAmerican: () => speakchats10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) پەیوەندی سەر ئینتەرنێت کە تێیدا لایەنەکان پەیامەکان دەستبەجێت دەبینن و وەڵام دەدەنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Fans are invited to an online chat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوادارەکان بانگھێشتی گفتوگۆیەکی سەر ئینتەرنێت دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchats11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchats11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Fans are invited to an online chat.",
+                            kurdishText:
+                                "ھەوادارەکان بانگھێشتی گفتوگۆیەکی سەر ئینتەرنێت دەکرێن.",
+                            onPressedBritish: () => speakchats11("en-GB"),
+                            onPressedAmerican: () => speakchats11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can take part in a live chat with the movie's director this afternoon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت ئەم نیوەڕۆیە بەژدار بیت لە گفتوگۆیەنی ڕاستەوخۆی سەر ئینتەرنێت لەگەڵ دەرھێنەری فیلمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchats12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchats12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can take part in a live chat with the movie's director this afternoon.",
+                            kurdishText:
+                                "دەتوانیت ئەم نیوەڕۆیە بەژدار بیت لە گفتوگۆیەنی ڕاستەوخۆی سەر ئینتەرنێت لەگەڵ دەرھێنەری فیلمەکە.",
+                            onPressedBritish: () => speakchats12("en-GB"),
+                            onPressedAmerican: () => speakchats12("en-US"),
                           ),
                         ],
                       ),

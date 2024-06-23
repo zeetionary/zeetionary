@@ -101,59 +101,20 @@ class EnglishEntrycircuitous extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ڕێگایەکی درێژ و پێچاوپێچ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He took us on a circuitous route to the hotel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ڕێگایەکی پێچاوپێچدا بردمانی بۆ ھوتێلەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circuitous", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircuitouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuitouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He took us on a circuitous route to the hotel.",
+                            kurdishText:
+                                "بە ڕێگایەکی پێچاوپێچدا بردمانی بۆ ھوتێلەکە.", // circuitous",
+                            onPressedBritish: () => speakcircuitouss1("en-GB"),
+                            onPressedAmerican: () => speakcircuitouss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The journey was circuitous and slow."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕێگاکە پێچاوپێچ و ھێواش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircuitouss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircuitouss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The journey was circuitous and slow.",
+                            kurdishText: "ڕێگاکە پێچاوپێچ و ھێواش بوو.",
+                            onPressedBritish: () => speakcircuitouss2("en-GB"),
+                            onPressedAmerican: () => speakcircuitouss2("en-US"),
                           ),
                         ],
                       ),

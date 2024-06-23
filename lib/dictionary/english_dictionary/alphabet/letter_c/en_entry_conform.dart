@@ -121,121 +121,45 @@ class EnglishEntryconform extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ڕەفتارکردن بە ھەمان شێوەی زۆرینەی گرووپێک یان کۆمەڵگەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is considerable pressure on teenagers to conform."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فشاری زۆر لەسەر گەنجان ھەیە بۆ چاولێکەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conform", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconforms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconforms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is considerable pressure on teenagers to conform.",
+                            kurdishText:
+                                "فشاری زۆر لەسەر گەنجان ھەیە بۆ چاولێکەری.", // conform",
+                            onPressedBritish: () => speakconforms1("en-GB"),
+                            onPressedAmerican: () => speakconforms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He refused to conform to the local customs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەتیکردەە پابەندی نەریتە خۆجێیەکان ببێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconforms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconforms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He refused to conform to the local customs.",
+                            kurdishText:
+                                "ڕەتیکردەە پابەندی نەریتە خۆجێیەکان ببێت.",
+                            onPressedBritish: () => speakconforms2("en-GB"),
+                            onPressedAmerican: () => speakconforms2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) پابەندبوون بە یاسایەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The building does not conform with safety regulations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیناکە پابەند نییە بە ڕێوشوێنەکانی سەلامەتییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconforms3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconforms3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The building does not conform with safety regulations.",
+                            kurdishText:
+                                "بیناکە پابەند نییە بە ڕێوشوێنەکانی سەلامەتییەوە.",
+                            onPressedBritish: () => speakconforms3("en-GB"),
+                            onPressedAmerican: () => speakconforms3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) ڕازیبوون بە شتێک یان گونجان لەگەڵی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Wordsworth changed the ideas of his poem to conform with his later religious and political opinions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێردسوێرس بیرۆکەکانی ھۆنراوەکانی گۆڕی بۆ گونجان لەگەڵ بۆچوونە ئایینی و سیاسییەکانی دواتریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconforms4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconforms4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Wordsworth changed the ideas of his poem to conform with his later religious and political opinions.",
+                            kurdishText:
+                                "وێردسوێرس بیرۆکەکانی ھۆنراوەکانی گۆڕی بۆ گونجان لەگەڵ بۆچوونە ئایینی و سیاسییەکانی دواتریدا.",
+                            onPressedBritish: () => speakconforms4("en-GB"),
+                            onPressedAmerican: () => speakconforms4("en-US"),
                           ),
                         ],
                       ),

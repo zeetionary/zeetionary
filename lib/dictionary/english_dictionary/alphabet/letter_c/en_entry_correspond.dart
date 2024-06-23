@@ -293,58 +293,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) بوون بە ھەمان شت لەگەڵ شتێکی دیکەکەدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Your account and hers do not correspond."),
-                    ExampleSentenceKurdish(
-                        text: "گێڕانەوەکەی تۆ و ئەوەی ئەو یەکناگرنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "correspond", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorresponds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorresponds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Your account and hers do not correspond.",
+            kurdishText:
+                "گێڕانەوەکەی تۆ و ئەوەی ئەو یەکناگرنەوە.", // correspond", please follow LX instructions
+            onPressedBritish: () => speakcorresponds1("en-GB"),
+            onPressedAmerican: () => speakcorresponds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Your account of events does not correspond with hers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گێڕانەوەت بۆ ڕووداوەکان لەگەڵ ئەوەی ئەو یەکناگرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorresponds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorresponds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Your account of events does not correspond with hers.",
+            kurdishText:
+                "گێڕانەوەت بۆ ڕووداوەکان لەگەڵ ئەوەی ئەو یەکناگرێتەوە.",
+            onPressedBritish: () => speakcorresponds2("en-GB"),
+            onPressedAmerican: () => speakcorresponds2("en-US"),
           ),
           Column(
             children: [
@@ -440,89 +403,31 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بوون بە ھەمان شت یان نزیک لە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The word corresponds roughly in meaning to our ‘homesickness’."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وشەکە لە واتادا تا ڕادەیەک ھاوتایە لەگەڵ 'homesickness' ـی خۆمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorresponds6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorresponds6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The word corresponds roughly in meaning to our ‘homesickness’.",
+            kurdishText:
+                "وشەکە لە واتادا تا ڕادەیەک ھاوتایە لەگەڵ 'homesickness' ـی خۆمان.",
+            onPressedBritish: () => speakcorresponds6("en-GB"),
+            onPressedAmerican: () => speakcorresponds6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) نووسین بۆ کەسێک بە نامە یان ئیمەیڵ، ھتد بۆ کەسێک و بەدەست گەشتنی نامە یان ئیمەیڵ، ھتد لێیانەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She corresponded regularly with her former teacher."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە بەردەوامی لە پەیوەندیدایە لەگەڵ مامۆستا کۆنەکەیەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorresponds7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorresponds7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She corresponded regularly with her former teacher.",
+            kurdishText:
+                "بە بەردەوامی لە پەیوەندیدایە لەگەڵ مامۆستا کۆنەکەیەوە.",
+            onPressedBritish: () => speakcorresponds7("en-GB"),
+            onPressedAmerican: () => speakcorresponds7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I have corresponded with him in the past."),
-                    ExampleSentenceKurdish(
-                        text: "لە ڕابردوودا پەیوەندیم لەگەڵی ھەبووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorresponds8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorresponds8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I have corresponded with him in the past.",
+            kurdishText: "لە ڕابردوودا پەیوەندیم لەگەڵی ھەبووە.",
+            onPressedBritish: () => speakcorresponds8("en-GB"),
+            onPressedAmerican: () => speakcorresponds8("en-US"),
           ),
         ],
       ),

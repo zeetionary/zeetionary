@@ -121,119 +121,43 @@ class EnglishEntrycolonial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە وڵاتێک کە یەکێکی دیکەی داگیرکردووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Tunisia achieved independence from French colonial rule in 1956."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تونس سەربەخۆیی بەدەستھێنا لە دەسەڵاتی داگیرکەری فەرەنسا لە ١٩٥٦."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colonial", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Tunisia achieved independence from French colonial rule in 1956.",
+                            kurdishText:
+                                "تونس سەربەخۆیی بەدەستھێنا لە دەسەڵاتی داگیرکەری فەرەنسا لە ١٩٥٦.", // colonial",
+                            onPressedBritish: () => speakcolonials1("en-GB"),
+                            onPressedAmerican: () => speakcolonials1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Various parts of Africa have suffered under colonial rule."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مارەیەک بەشی ئەفریقا ئازاریان چەشتووە بەدەست دەسەڵاتی داگیرکەرییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonials2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonials2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Various parts of Africa have suffered under colonial rule.",
+                            kurdishText:
+                                "مارەیەک بەشی ئەفریقا ئازاریان چەشتووە بەدەست دەسەڵاتی داگیرکەرییەوە.",
+                            onPressedBritish: () => speakcolonials2("en-GB"),
+                            onPressedAmerican: () => speakcolonials2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He still thinks Britain is a great colonial power."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا وابیردەکاتەوە بەریتانیا دەسەڵاتێکی داگیرکەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonials3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonials3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He still thinks Britain is a great colonial power.",
+                            kurdishText:
+                                "ھێشتا وابیردەکاتەوە بەریتانیا دەسەڵاتێکی داگیرکەرە.",
+                            onPressedBritish: () => speakcolonials3("en-GB"),
+                            onPressedAmerican: () => speakcolonials3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە لە وڵاتێکی داگیرکراودا دەژی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The colonials protested against unfair taxation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆلۆنی‌نشینان باجدانی ناڕەوایان سەرکۆنە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonials4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonials4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The colonials protested against unfair taxation.",
+                            kurdishText:
+                                "کۆلۆنی‌نشینان باجدانی ناڕەوایان سەرکۆنە کرد.",
+                            onPressedBritish: () => speakcolonials4("en-GB"),
+                            onPressedAmerican: () => speakcolonials4("en-US"),
                           ),
                         ],
                       ),

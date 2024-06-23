@@ -289,222 +289,72 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گەشتێک بە بەلەم یان کەشتی و سەردانی کردنی شوێنی جیاواز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'd love to go on a round-the-world cruise."),
-                    ExampleSentenceKurdish(
-                        text: "پێمخۆشە بچمە زەریاگەڕییەک بە دەوری جیھاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cruise", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruises1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruises1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'd love to go on a round-the-world cruise.",
+            kurdishText:
+                "پێمخۆشە بچمە زەریاگەڕییەک بە دەوری جیھاندا.", // cruise", please follow LX instructions
+            onPressedBritish: () => speakcruises1("en-GB"),
+            onPressedAmerican: () => speakcruises1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "They met on a cruise."),
-                    ExampleSentenceKurdish(
-                        text: "لە گەشتێکی دەریاییدا یەکیان بینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruises2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruises2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They met on a cruise.",
+            kurdishText: "لە گەشتێکی دەریاییدا یەکیان بینی.",
+            onPressedBritish: () => speakcruises2("en-GB"),
+            onPressedAmerican: () => speakcruises2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) چوون بۆ گەشتی دەریایی بە بەلەم یان کەشتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "They cruised down the Nile."),
-                    ExampleSentenceKurdish(
-                        text: "بە ڕووباری نیلدا گەشتیان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruises3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruises3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They cruised down the Nile.",
+            kurdishText: "بە ڕووباری نیلدا گەشتیان کرد.",
+            onPressedBritish: () => speakcruises3("en-GB"),
+            onPressedAmerican: () => speakcruises3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We spent two weeks cruising the Bahamas."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوو ھەفتەمان بەسەربرد بە گەشتکردن بە دوورگەکانی باھامادا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruises4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruises4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We spent two weeks cruising the Bahamas.",
+            kurdishText:
+                "دوو ھەفتەمان بەسەربرد بە گەشتکردن بە دوورگەکانی باھامادا.",
+            onPressedBritish: () => speakcruises4("en-GB"),
+            onPressedAmerican: () => speakcruises4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) گەشتی فڕۆکەیەک، ئۆتۆمبێلێک، ھتد بە خێراییەکی نەگۆڕ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The plane was cruising at 40 000 feet."),
-                    ExampleSentenceKurdish(
-                        text: "فڕۆکەکە لە بەرزی ٤٠٠٠٠ پێدا دەفڕی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruises5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruises5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The plane was cruising at 40 000 feet.",
+            kurdishText: "فڕۆکەکە لە بەرزی ٤٠٠٠٠ پێدا دەفڕی.",
+            onPressedBritish: () => speakcruises5("en-GB"),
+            onPressedAmerican: () => speakcruises5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The car cruised along at 70 mph."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆتۆمبێلەکە بە خێرایی ٧٠ میل لە کاتژمێرێکدا دەچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruises6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruises6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The car cruised along at 70 mph.",
+            kurdishText: "ئۆتۆمبێلەکە بە خێرایی ٧٠ میل لە کاتژمێرێکدا دەچوو.",
+            onPressedBritish: () => speakcruises6("en-GB"),
+            onPressedAmerican: () => speakcruises6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) شۆفێریکردن یان ڕۆشتن بە ھێواشی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Taxis cruised the streets, looking for fares."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەکسی بە شەقامەکاندا ھاتووچۆی بوو و بۆ نەفەر دەگەڕان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruises7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruises7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Taxis cruised the streets, looking for fares.",
+            kurdishText:
+                "تەکسی بە شەقامەکاندا ھاتووچۆی بوو و بۆ نەفەر دەگەڕان.",
+            onPressedBritish: () => speakcruises7("en-GB"),
+            onPressedAmerican: () => speakcruises7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) بردنەوە یان بەدەستھێنانی شتێک بە ئاسانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The home team cruised to victory."),
-                    ExampleSentenceKurdish(
-                        text: "تیمی میواندار بە ئاسانی بردییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruises8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruises8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The home team cruised to victory.",
+            kurdishText: "تیمی میواندار بە ئاسانی بردییەوە.",
+            onPressedBritish: () => speakcruises8("en-GB"),
+            onPressedAmerican: () => speakcruises8("en-US"),
           ),
         ],
       ),

@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جیھانی ئینتەرنێت؛ ئینتەرنێت کە سەیر دەکرێت وەک جیھانێکی خەیاڵی کە تێیدا کۆمپیوتەرەکان لە پەیوەندیدا دەبن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many more business functions will move into cyberspace."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەکی زۆری زیاتر لە کاری بازرگانی دەچنە ناو جیھانی ئینتەرنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cyberspace", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcyberspaces1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcyberspaces1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many more business functions will move into cyberspace.",
+            kurdishText:
+                "ژمارەیەکی زۆری زیاتر لە کاری بازرگانی دەچنە ناو جیھانی ئینتەرنێت.", // cyberspace", please follow LX instructions
+            onPressedBritish: () => speakcyberspaces1("en-GB"),
+            onPressedAmerican: () => speakcyberspaces1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You can find the answer to almost any question in cyberspace."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانیت وەڵامی تا ڕادەیەک ھەموو پرسیارێک لە جیھانی ئینتەرنێتدا بدۆزیتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcyberspaces2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcyberspaces2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You can find the answer to almost any question in cyberspace.",
+            kurdishText:
+                "دەتوانیت وەڵامی تا ڕادەیەک ھەموو پرسیارێک لە جیھانی ئینتەرنێتدا بدۆزیتەوە.",
+            onPressedBritish: () => speakcyberspaces2("en-GB"),
+            onPressedAmerican: () => speakcyberspaces2("en-US"),
           ),
         ],
       ),

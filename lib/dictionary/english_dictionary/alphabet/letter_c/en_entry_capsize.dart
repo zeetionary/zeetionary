@@ -189,58 +189,19 @@ class EnglishEntrycapsize extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) وەرگەڕان لە ئاودا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The boat capsized and sank."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەلەمەکە وەرگەڕا و نغرۆبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capsize", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapsizes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapsizes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The boat capsized and sank.",
+                            kurdishText:
+                                "بەلەمەکە وەرگەڕا و نغرۆبوو.", // capsize
+                            onPressedBritish: () => speakcapsizes1("en-GB"),
+                            onPressedAmerican: () => speakcapsizes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A huge wave capsized the yacht."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەپۆلێکی گەورە یەختەکەی وەرگەڕاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapsizes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapsizes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A huge wave capsized the yacht.",
+                            kurdishText: "شەپۆلێکی گەورە یەختەکەی وەرگەڕاند.",
+                            onPressedBritish: () => speakcapsizes2("en-GB"),
+                            onPressedAmerican: () => speakcapsizes2("en-US"),
                           ),
                         ],
                       ),

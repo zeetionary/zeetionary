@@ -104,67 +104,29 @@ class EnglishEntryconvincingly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە وا لە کەسێک دەکات باوەڕ بکات شتێک ڕاستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She did talk convincingly about what needed to be done."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قایلکەرانە قسەی کرد سەبارەت بەوەی چی دەبێت بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convincingly", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvincinglys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvincinglys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She did talk convincingly about what needed to be done.",
+                            kurdishText:
+                                "قایلکەرانە قسەی کرد سەبارەت بەوەی چی دەبێت بکرێت.", // convincingly",
+                            onPressedBritish: () =>
+                                speakconvincinglys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvincinglys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک بردنەوە کە ئاشکرایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "None of the candidates won convincingly in either of the races."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ یەکێک لە بەربژێرەکان ڕکابەرییەکەیان بە ئاشکرایی نەبردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvincinglys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvincinglys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "None of the candidates won convincingly in either of the races.",
+                            kurdishText:
+                                "ھیچ یەکێک لە بەربژێرەکان ڕکابەرییەکەیان بە ئاشکرایی نەبردەوە.",
+                            onPressedBritish: () =>
+                                speakconvincinglys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvincinglys2("en-US"),
                           ),
                         ],
                       ),

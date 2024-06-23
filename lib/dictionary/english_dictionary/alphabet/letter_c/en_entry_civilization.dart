@@ -121,132 +121,55 @@ class EnglishEntrycivilization extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شارستانییەت؛ ژینگەیەکی پێشکەوتوو و ڕێکخراوی ژیانی مرۆڤ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some people think that nuclear war would mean the end of civilization."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کەس باوەڕیان وایە جەنگی ئەتۆمی دەبێتە ھۆی کۆتایی شارستانییەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "civilization", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilizations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilizations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some people think that nuclear war would mean the end of civilization.",
+                            kurdishText:
+                                "ھەندێک کەس باوەڕیان وایە جەنگی ئەتۆمی دەبێتە ھۆی کۆتایی شارستانییەت.", // civilization",
+                            onPressedBritish: () =>
+                                speakcivilizations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcivilizations1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کۆمەڵگەیەک، کەلتوورەکەی، و شێوازی ژیان تێیدا لە کاتێکی دیاریکراودا یان شوێنێکی دیاریکراو لە جیھاندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cuzco was the centre of the Inca civilization."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کوزکۆ سەنتەری شارستانیەتی ئینکا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilizations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilizations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cuzco was the centre of the Inca civilization.",
+                            kurdishText: "کوزکۆ سەنتەری شارستانیەتی ئینکا بوو.",
+                            onPressedBritish: () =>
+                                speakcivilizations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcivilizations2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) تەواوی مرۆڤایەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Environmental damage threatens the whole of civilization."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیانی ژینگەیی ھەڕەشە لە تەواوی شارستانیەت دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilizations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilizations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Environmental damage threatens the whole of civilization.",
+                            kurdishText:
+                                "زیانی ژینگەیی ھەڕەشە لە تەواوی شارستانیەت دەکات.",
+                            onPressedBritish: () =>
+                                speakcivilizations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcivilizations3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) شوێنێک کە ژیانێکی ئاسوودەی وەک کۆمەڵگەی سەردەمیانەت پێدەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's good to be back in civilization after two weeks in a tent!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆشە گەڕاومەتەوە ناو شارستانیەت لە دوای دوو ھەفتە لە کوخێکدا!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilizations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilizations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's good to be back in civilization after two weeks in a tent!",
+                            kurdishText:
+                                "خۆشە گەڕاومەتەوە ناو شارستانیەت لە دوای دوو ھەفتە لە کوخێکدا!",
+                            onPressedBritish: () =>
+                                speakcivilizations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcivilizations4("en-US"),
                           ),
                         ],
                       ),

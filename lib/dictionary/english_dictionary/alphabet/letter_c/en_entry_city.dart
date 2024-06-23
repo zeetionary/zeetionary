@@ -144,60 +144,21 @@ class EnglishEntrycity extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) شارۆچکەیەکی گەورە و گرنگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Parking is difficult in the city centre."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەستانی ئۆتۆمبێل سەختە لە سەنتەری شاردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "city", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Parking is difficult in the city centre.",
+                            kurdishText:
+                                "وەستانی ئۆتۆمبێل سەختە لە سەنتەری شاردا.", // city",
+                            onPressedBritish: () => speakcitys1("en-GB"),
+                            onPressedAmerican: () => speakcitys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is one of the world's most beautiful cities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێکە لە جوانترین شارەکانی جیھان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcitys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is one of the world's most beautiful cities.",
+                            kurdishText: "یەکێکە لە جوانترین شارەکانی جیھان.",
+                            onPressedBritish: () => speakcitys2("en-GB"),
+                            onPressedAmerican: () => speakcitys2("en-US"),
                           ),
                           Column(
                             children: [
@@ -269,92 +230,34 @@ class EnglishEntrycity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شارۆچکەیەک کە کڵێسایەکی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The city of Ely has about 15,000 inhabitants."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شاری ئێلی ١٥,٠٠٠ دانیشتووی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcitys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcitys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The city of Ely has about 15,000 inhabitants.",
+                            kurdishText: "شاری ئێلی ١٥,٠٠٠ دانیشتووی ھەیە.",
+                            onPressedBritish: () => speakcitys5("en-GB"),
+                            onPressedAmerican: () => speakcitys5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) تەواوی دانیشتووانی شارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The city turned out to welcome the victorious team home."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەکە ھاتنە سەر شەقامەکان بۆ پیشوازی لە تیمە براوەکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcitys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcitys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The city turned out to welcome the victorious team home.",
+                            kurdishText:
+                                "شارەکە ھاتنە سەر شەقامەکان بۆ پیشوازی لە تیمە براوەکەیان.",
+                            onPressedBritish: () => speakcitys6("en-GB"),
+                            onPressedAmerican: () => speakcitys6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) حکومەتی شارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's the city's responsibility to maintain the pavements."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە ئەرکی بەڕێوبەرایەتی شارەکەیە کە شۆستەکان پاک ڕابگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcitys7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcitys7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's the city's responsibility to maintain the pavements.",
+                            kurdishText:
+                                "ئەوە ئەرکی بەڕێوبەرایەتی شارەکەیە کە شۆستەکان پاک ڕابگرێت.",
+                            onPressedBritish: () => speakcitys7("en-GB"),
+                            onPressedAmerican: () => speakcitys7("en-US"),
                           ),
                         ],
                       ),

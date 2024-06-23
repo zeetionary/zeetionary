@@ -240,59 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) تێڵایەکی کورت کە بۆ شەڕکردن بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The guard wielded a cudgel to fend off attackers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاسەوانەکە تێڵایەکی ھەڵگرت بۆ دوورخستنەوەی ھێرشکارەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cudgel", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcudgels1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcudgels1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The guard wielded a cudgel to fend off attackers.",
+            kurdishText:
+                "پاسەوانەکە تێڵایەکی ھەڵگرت بۆ دوورخستنەوەی ھێرشکارەکان.", // cudgel", please follow LX instructions
+            onPressedBritish: () => speakcudgels1("en-GB"),
+            onPressedAmerican: () => speakcudgels1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) لێدان بە تێڵایەکی کورت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The thief was cudgelled by the angry mob."),
-                    ExampleSentenceKurdish(
-                        text: "دزەکەکە کوتەک کرا لەلایەن گرووپێکی تووڕەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcudgels2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcudgels2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The thief was cudgelled by the angry mob.",
+            kurdishText: "دزەکەکە کوتەک کرا لەلایەن گرووپێکی تووڕەوە.",
+            onPressedBritish: () => speakcudgels2("en-GB"),
+            onPressedAmerican: () => speakcudgels2("en-US"),
           ),
         ],
       ),

@@ -95,34 +95,14 @@ class EnglishEntrychambermaid extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژنە خزمەتکارێک کە کاری پاککردنەوەی ژووری نووستن دەکات، بەتایبەتی لە ھوتێلدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The diligent chambermaid takes pride in keeping the hotel rooms clean and comfortable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنە کارەکەرە زەحمەتکێشەکە شانازی دەکات بە ڕاگرتنی ژوورەکانی ھوتێلەکە بە پاکی و ئاسوودەبەخشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chambermaid", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchambermaids1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchambermaids1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The diligent chambermaid takes pride in keeping the hotel rooms clean and comfortable.",
+                            kurdishText:
+                                "ژنە کارەکەرە زەحمەتکێشەکە شانازی دەکات بە ڕاگرتنی ژوورەکانی ھوتێلەکە بە پاکی و ئاسوودەبەخشی.", // chambermaid",
+                            onPressedBritish: () => speakchambermaids1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchambermaids1("en-US"),
                           ),
                         ],
                       ),

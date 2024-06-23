@@ -165,262 +165,90 @@ class EnglishEntryconfirm extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) گوتن یان پیشاندانی ئەوەی کە شتێک بەدڵنیاییەوە درووستە، بەتایبەتی بە پیشاندانی بەڵگە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have yet to confirm the identities of the victims."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا خەریکین ناسنامەی قوربانییەکان پشت‌ڕاست دەکەینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confirm", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfirms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfirms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have yet to confirm the identities of the victims.",
+                            kurdishText:
+                                "ھێشتا خەریکین ناسنامەی قوربانییەکان پشت‌ڕاست دەکەینەوە.", // confirm",
+                            onPressedBritish: () => speakconfirms1("en-GB"),
+                            onPressedAmerican: () => speakconfirms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She said she could not confirm or deny the allegations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوتی ناتوانێت تۆمەتەکان پشت‌ڕاست یان ڕەتبکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfirms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfirms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She said she could not confirm or deny the allegations.",
+                            kurdishText:
+                                "گوتی ناتوانێت تۆمەتەکان پشت‌ڕاست یان ڕەتبکاتەوە.",
+                            onPressedBritish: () => speakconfirms2("en-GB"),
+                            onPressedAmerican: () => speakconfirms2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The authorities refused to confirm any details."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسان ڕەتیان کردەوە ھیچ وردەکارییەک پشت‌ڕاست بکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfirms3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfirms3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The authorities refused to confirm any details.",
+                            kurdishText:
+                                "بەرپرسان ڕەتیان کردەوە ھیچ وردەکارییەک پشت‌ڕاست بکەنەوە.",
+                            onPressedBritish: () => speakconfirms3("en-GB"),
+                            onPressedAmerican: () => speakconfirms3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Police sources confirmed that ten people had been arrested at the march."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرچاوەکانی پۆلیس پشتڕاستیان کردەوە ١٠ کەس لە ڕێپێوانەکە دەستگیر کرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfirms4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfirms4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Police sources confirmed that ten people had been arrested at the march.",
+                            kurdishText:
+                                "سەرچاوەکانی پۆلیس پشتڕاستیان کردەوە ١٠ کەس لە ڕێپێوانەکە دەستگیر کرابوون.",
+                            onPressedBritish: () => speakconfirms4("en-GB"),
+                            onPressedAmerican: () => speakconfirms4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بە فەرمیکردن یان دڵنیایی کردنەوە لە بۆچوونێک، ڕێککەوتنێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Has everyone confirmed (that) they’re coming?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموان دڵنیاییان کردووە کە دێن؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfirms5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfirms5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Has everyone confirmed (that) they’re coming?",
+                            kurdishText: "ھەموان دڵنیاییان کردووە کە دێن؟",
+                            onPressedBritish: () => speakconfirms5("en-GB"),
+                            onPressedAmerican: () => speakconfirms5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It has been confirmed that the meeting will take place next week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشتڕاستکراوە کە چاوپێکەوتنەکە ھەفتەی داھاتوو دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfirms6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfirms6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It has been confirmed that the meeting will take place next week.",
+                            kurdishText:
+                                "پشتڕاستکراوە کە چاوپێکەوتنەکە ھەفتەی داھاتوو دەبێت.",
+                            onPressedBritish: () => speakconfirms6("en-GB"),
+                            onPressedAmerican: () => speakconfirms6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was confirmed as captain for the rest of the season."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تا کۆتایی وەرزەکە وەک کاپتن پشتڕاستکرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfirms7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfirms7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was confirmed as captain for the rest of the season.",
+                            kurdishText:
+                                "تا کۆتایی وەرزەکە وەک کاپتن پشتڕاستکرایەوە.",
+                            onPressedBritish: () => speakconfirms7("en-GB"),
+                            onPressedAmerican: () => speakconfirms7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) واکردن لە کەسێک کە باوەڕی زیاتر بە شتێک بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The walk in the mountains confirmed his fear of heights."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەڕان بە چیاکاندا ترسی بەرزایی ئەوەی پشتڕاستکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfirms8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfirms8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The walk in the mountains confirmed his fear of heights.",
+                            kurdishText:
+                                "گەڕان بە چیاکاندا ترسی بەرزایی ئەوەی پشتڕاستکردەوە.",
+                            onPressedBritish: () => speakconfirms8("en-GB"),
+                            onPressedAmerican: () => speakconfirms8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This latest tragedy merely confirms my view that the law must be tightened."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم تراژیدیایەی کۆتایی تەنھا ئەوەیە بۆچوونەکانم پشت‌ڕاست دەکاتەوە کە یاساکە دەبێت توندبکرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfirms9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfirms9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This latest tragedy merely confirms my view that the law must be tightened.",
+                            kurdishText:
+                                "ئەم تراژیدیایەی کۆتایی تەنھا ئەوەیە بۆچوونەکانم پشت‌ڕاست دەکاتەوە کە یاساکە دەبێت توندبکرێتەوە.",
+                            onPressedBritish: () => speakconfirms9("en-GB"),
+                            onPressedAmerican: () => speakconfirms9("en-US"),
                           ),
                         ],
                       ),

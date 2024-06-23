@@ -191,32 +191,13 @@ class EnglishEntrycarthorse extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەسپێکی بەھێز کە جاران بۆ کاری قورسی کێڵگە بەکاردەھات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He admired the strength of the carthorse as it pulled the plow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسام بوو بە توانای پاڵانییەکە لە ڕاکێشانی گاسنەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carthorse", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarthorses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarthorses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He admired the strength of the carthorse as it pulled the plow.",
+                            kurdishText:
+                                "سەرسام بوو بە توانای پاڵانییەکە لە ڕاکێشانی گاسنەکەدا.", // carthorse",
+                            onPressedBritish: () => speakcarthorses1("en-GB"),
+                            onPressedAmerican: () => speakcarthorses1("en-US"),
                           ),
                         ],
                       ),

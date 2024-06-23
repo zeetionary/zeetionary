@@ -104,32 +104,13 @@ class EnglishEntrycommando extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سەربازێک یان گرووپێک سەرباز کە ڕاھێنراون ئەرکی خێرا لە ناوچەی دووژمندا ئەنجام بدەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was an experienced commando with 13 years in the Special Forces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆماندۆیەک بوو بە ئەزموونی ١٣ لە ھێزە تایبەتەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commando", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommandos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommandos1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was an experienced commando with 13 years in the Special Forces.",
+                            kurdishText:
+                                "کۆماندۆیەک بوو بە ئەزموونی ١٣ لە ھێزە تایبەتەکاندا.", // commando",
+                            onPressedBritish: () => speakcommandos1("en-GB"),
+                            onPressedAmerican: () => speakcommandos1("en-US"),
                           ),
                           // const DividerSentences(),
                           // Row(

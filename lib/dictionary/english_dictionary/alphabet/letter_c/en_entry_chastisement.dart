@@ -104,66 +104,28 @@ class EnglishEntrychastisement extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) سزای جەستەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Reasonable chastisement of children was allowed under the law."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێدانی گونجاوی منداڵان ڕێگاپێدراو بوو بەپێی یاسا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chastisement", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchastisements1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchastisements1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Reasonable chastisement of children was allowed under the law.",
+                            kurdishText:
+                                "لێدانی گونجاوی منداڵان ڕێگاپێدراو بوو بەپێی یاسا.", // chastisement",
+                            onPressedBritish: () =>
+                                speakchastisements1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchastisements1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) سەرزەنشتی توند"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His bad behaviour invited chastisement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسوکەوتی خراپی شایەنی سەرزەنشت بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchastisements2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchastisements2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His bad behaviour invited chastisement.",
+                            kurdishText:
+                                "ھەڵسوکەوتی خراپی شایەنی سەرزەنشت بوو.",
+                            onPressedBritish: () =>
+                                speakchastisements2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchastisements2("en-US"),
                           ),
                         ],
                       ),

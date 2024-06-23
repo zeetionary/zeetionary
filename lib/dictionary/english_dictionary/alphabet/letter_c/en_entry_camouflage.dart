@@ -196,153 +196,57 @@ class EnglishEntrycamouflage extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شێوەی خۆشاردنەوەی سەرباز و کەرەستەی سەربازی بە بەکارھێنانی بۆیە، گەڵا، ھتد بۆ ئەوەی شێوەیان لە ڕينگی دەورووبەریان بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He pulled the camouflage net over the entrance to the tent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆڕە ڕەنگ‌گرەکەی کێشا بەسەر دەرگای چوونە ناو خێوەتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "camouflage", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamouflages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamouflages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He pulled the camouflage net over the entrance to the tent.",
+                            kurdishText:
+                                "تۆڕە ڕەنگ‌گرەکەی کێشا بەسەر دەرگای چوونە ناو خێوەتەکە.", // camouflage
+                            onPressedBritish: () => speakcamouflages1("en-GB"),
+                            onPressedAmerican: () => speakcamouflages1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شێوازی گونجاندنی ڕەنگ یان شێوەی ئاژەڵێک لەگەڵ دەورووبەریدا کە وا دەکات گران بێت بۆ بینین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The whiteness of polar bears and arctic foxes provides camouflage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سپییەتی ورچە جەمسەرییەکان و ڕێوییەکانی جەمسەری باکوور لە ڕەنگ‌گرتندا بەکاردێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamouflages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamouflages2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The whiteness of polar bears and arctic foxes provides camouflage.",
+                            kurdishText:
+                                "سپییەتی ورچە جەمسەرییەکان و ڕێوییەکانی جەمسەری باکوور لە ڕەنگ‌گرتندا بەکاردێت.",
+                            onPressedBritish: () => speakcamouflages2("en-GB"),
+                            onPressedAmerican: () => speakcamouflages2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ڕەفتارێک کە بە ئەنقەست ڕاستی دەشارێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He believed that her kindness was merely a camouflage for her real intentions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕی وابوو میھرەبانییەکەی تەنھا داپۆشەرێک بوو مەرامە ڕاستییەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamouflages3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamouflages3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He believed that her kindness was merely a camouflage for her real intentions.",
+                            kurdishText:
+                                "باوەڕی وابوو میھرەبانییەکەی تەنھا داپۆشەرێک بوو مەرامە ڕاستییەکانی.",
+                            onPressedBritish: () => speakcamouflages3("en-GB"),
+                            onPressedAmerican: () => speakcamouflages3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) شاردنەوە بە درووستکردنی لێکچوونی ڕەنگ یان شێوەی دەورووبەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soldiers camouflaged themselves with leaves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکان بە گەڵا خۆیان شاردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamouflages4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamouflages4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soldiers camouflaged themselves with leaves.",
+                            kurdishText: "سەربازەکان بە گەڵا خۆیان شاردەوە.",
+                            onPressedBritish: () => speakcamouflages4("en-GB"),
+                            onPressedAmerican: () => speakcamouflages4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The tent was camouflaged to avoid detection by enemy soldiers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێوەتەکە شاردرابووەوە بۆ ئەوەی نەدۆزرێتەوە لەلایەن سەربازانی دوژمنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamouflages5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamouflages5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The tent was camouflaged to avoid detection by enemy soldiers.",
+                            kurdishText:
+                                "خێوەتەکە شاردرابووەوە بۆ ئەوەی نەدۆزرێتەوە لەلایەن سەربازانی دوژمنەوە.",
+                            onPressedBritish: () => speakcamouflages5("en-GB"),
+                            onPressedAmerican: () => speakcamouflages5("en-US"),
                           ),
                         ],
                       ),

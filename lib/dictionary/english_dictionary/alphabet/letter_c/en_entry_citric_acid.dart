@@ -95,32 +95,13 @@ class EnglishEntrycitricacid extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ترشەڵۆکێکی لاواز کە لە لیمۆ و ئەو میوانەی دیکەدا ھەیە کە تامێکی بەھێزیان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Citric acid is commonly used in soft drinks to add a sour taste."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ترشەڵۆکی سیتریک بە زۆری بەکاردێت لە خواردنەوەکاندا بۆ زیادکردنی تامێکی ترش."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "citric acid", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcitricacids1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcitricacids1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Citric acid is commonly used in soft drinks to add a sour taste.",
+                            kurdishText:
+                                "ترشەڵۆکی سیتریک بە زۆری بەکاردێت لە خواردنەوەکاندا بۆ زیادکردنی تامێکی ترش.", // citric acid",
+                            onPressedBritish: () => speakcitricacids1("en-GB"),
+                            onPressedAmerican: () => speakcitricacids1("en-US"),
                           ),
                         ],
                       ),

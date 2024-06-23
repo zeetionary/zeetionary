@@ -266,139 +266,47 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شێوەیەکی شەش لای یەکسانی چوارگۆشەیی کە ناوەکەی بەتاڵە؛ پارچەیەکی چوارگۆشە لە شتێک، بەتایبەتی خواردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Cut the cheese into small cubes."),
-                    ExampleSentenceKurdish(
-                        text: "پەنیرەکە بکە بە چوارگۆشەی بچووکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cube", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcubes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcubes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Cut the cheese into small cubes.",
+            kurdishText:
+                "پەنیرەکە بکە بە چوارگۆشەی بچووکەوە.", // cube", please follow LX instructions
+            onPressedBritish: () => speakcubes1("en-GB"),
+            onPressedAmerican: () => speakcubes1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Cut the meat into cubes."),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcubes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcubes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Cut the meat into cubes.",
+            kurdishText: "رستە_رستە_رستە_رستە.",
+            onPressedBritish: () => speakcubes2("en-GB"),
+            onPressedAmerican: () => speakcubes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەنجامێک کە وەریدەگریت کاتێک ژمارەیەک دووجار لێکدانی خۆی دەکەیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The cube of 5 (5^3) is 125 (5×5×5)."),
-                    ExampleSentenceKurdish(text: "سێجای ٥ دەکاتە ١٢٥."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcubes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcubes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cube of 5 (5^3) is 125 (5×5×5).",
+            kurdishText: "سێجای ٥ دەکاتە ١٢٥.",
+            onPressedBritish: () => speakcubes3("en-GB"),
+            onPressedAmerican: () => speakcubes3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) سێجاکردنی ژمارەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "2 cubed (= 2 x 2 x 2) equals 8, and is written 2^3."),
-                    ExampleSentenceKurdish(
-                        text: "دوو بە سێجاکراوی دەکاتە ٨، و بە ٢^٣ دەنووسرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcubes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcubes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "2 cubed (= 2 x 2 x 2) equals 8, and is written 2^3.",
+            kurdishText: "دوو بە سێجاکراوی دەکاتە ٨، و بە ٢^٣ دەنووسرێت.",
+            onPressedBritish: () => speakcubes4("en-GB"),
+            onPressedAmerican: () => speakcubes4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) بڕینی خواردن لە شێوەی چوارگۆشەدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He carefully cubed the cheese for the salad."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە وریاییەوە پەنیرەکەی کرد بە چوارگۆشەوە بۆ زەڵاتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcubes5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcubes5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He carefully cubed the cheese for the salad.",
+            kurdishText:
+                "بە وریاییەوە پەنیرەکەی کرد بە چوارگۆشەوە بۆ زەڵاتەکە.",
+            onPressedBritish: () => speakcubes5("en-GB"),
+            onPressedAmerican: () => speakcubes5("en-US"),
           ),
         ],
       ),

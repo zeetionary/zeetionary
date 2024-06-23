@@ -190,32 +190,13 @@ class EnglishEntrycensus extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پڕۆسەی ژماردنی شتێک، بە تایبەتی دانیشتوانی وڵاتێک، تۆمارکردنی ژمارەیەک ڕاستی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A national census is taken every ten years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرژمێرییەکی نیشتیمانی ھەر ١٠ ساڵ جارێک دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "census", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcensuss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcensuss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A national census is taken every ten years.",
+                            kurdishText:
+                                "سەرژمێرییەکی نیشتیمانی ھەر ١٠ ساڵ جارێک دەکرێت.", // census",
+                            onPressedBritish: () => speakcensuss1("en-GB"),
+                            onPressedAmerican: () => speakcensuss1("en-US"),
                           ),
                         ],
                       ),

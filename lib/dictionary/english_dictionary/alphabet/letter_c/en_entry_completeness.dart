@@ -94,34 +94,15 @@ class EnglishEntrycompleteness extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) تەواوێتی؛ تەواوبوویی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For the sake of completeness, all names are given in full."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەبەر تەواوێتی، ھەموو ناوەکانی بە تەواوی دراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "completeness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompletenesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompletenesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For the sake of completeness, all names are given in full.",
+                            kurdishText:
+                                "لەبەر تەواوێتی، ھەموو ناوەکانی بە تەواوی دراون.", // completeness",
+                            onPressedBritish: () =>
+                                speakcompletenesss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompletenesss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // Row(

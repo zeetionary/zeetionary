@@ -187,34 +187,14 @@ class EnglishEntrycaustically extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بەشێوەیەکی توند"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The longer the project dragged on, the more caustically his father condemned it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەندە پڕۆژەکە زۆری خایاندبا، ھێندە توندتر باوکی سەرکۆنەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "caustically", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcausticallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcausticallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The longer the project dragged on, the more caustically his father condemned it.",
+                            kurdishText:
+                                "چەندە پڕۆژەکە زۆری خایاندبا، ھێندە توندتر باوکی سەرکۆنەی دەکرد.", // caustically",
+                            onPressedBritish: () => speakcausticallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcausticallys1("en-US"),
                           ),
                         ],
                       ),

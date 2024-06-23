@@ -99,34 +99,15 @@ class EnglishEntryconsumerdurables extends StatelessWidget {
                                   "١. (ناو) ئەو کەلووپەلانەی کە بۆ ماوەیەکی زۆر بەردەوام دەبن لە دوای کڕینیان، بۆ نموونە ئۆتۆمبێل، تەلەفیزیۆن، ھتد"),
                           const AlsoEnglishckb(
                               word: "ھەروەھا: durable goods، durables"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Consumer durables such as refrigerators and washing machines are essential household appliances."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەلووپەلە قایمەکانی وەک ساردکەرەوە و جلشۆر ئامێری سەرەکی ماڵەوەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consumer durables", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsumerdurabless1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsumerdurabless1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Consumer durables such as refrigerators and washing machines are essential household appliances.",
+                            kurdishText:
+                                "کەلووپەلە قایمەکانی وەک ساردکەرەوە و جلشۆر ئامێری سەرەکی ماڵەوەن.", // consumer durables",
+                            onPressedBritish: () =>
+                                speakconsumerdurabless1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsumerdurabless1("en-US"),
                           ),
                         ],
                       ),

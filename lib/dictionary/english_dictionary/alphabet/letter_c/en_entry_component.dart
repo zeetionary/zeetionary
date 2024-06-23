@@ -127,147 +127,51 @@ class EnglishEntrycomponent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) یەکێک لەو بەشانەی شتێکی لێ پێکدێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Nitrogen is the main component of air."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نایترۆجین پێکھێنەری سەرەکی ھەوایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "component", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomponents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomponents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Nitrogen is the main component of air.",
+                            kurdishText:
+                                "نایترۆجین پێکھێنەری سەرەکی ھەوایە.", // component",
+                            onPressedBritish: () => speakcomponents1("en-GB"),
+                            onPressedAmerican: () => speakcomponents1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country still lacks the basic components of a real democratic system."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتەکە ھێشتا کەماسی ھەیە لە نەبوونی پێکھێنەرە سەرەکییەکانی سیستەمێکی دیموکراسیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomponents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomponents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The country still lacks the basic components of a real democratic system.",
+                            kurdishText:
+                                "وڵاتەکە ھێشتا کەماسی ھەیە لە نەبوونی پێکھێنەرە سەرەکییەکانی سیستەمێکی دیموکراسیدا.",
+                            onPressedBritish: () => speakcomponents2("en-GB"),
+                            onPressedAmerican: () => speakcomponents2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Individual components for the car can be very expensive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارچە تاکەکانی ئۆتۆمبێل دەکرێت زۆر گران‌بەھا بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomponents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomponents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Individual components for the car can be very expensive.",
+                            kurdishText:
+                                "پارچە تاکەکانی ئۆتۆمبێل دەکرێت زۆر گران‌بەھا بن.",
+                            onPressedBritish: () => speakcomponents2("en-GB"),
+                            onPressedAmerican: () => speakcomponents2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Trust is a vital component in any relationship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "متمانە بەشێکی گرنگی پەیوەندییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomponents4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomponents4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Trust is a vital component in any relationship.",
+                            kurdishText: "متمانە بەشێکی گرنگی پەیوەندییە.",
+                            onPressedBritish: () => speakcomponents4("en-GB"),
+                            onPressedAmerican: () => speakcomponents4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) بۆ باسکردنی یەکێک لە بەشەکانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Break the problem down into its component parts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشەکە شیبکەرەوە بۆ بەشە پێکھێنەرەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomponents5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomponents5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Break the problem down into its component parts.",
+                            kurdishText:
+                                "کێشەکە شیبکەرەوە بۆ بەشە پێکھێنەرەکانی.",
+                            onPressedBritish: () => speakcomponents5("en-GB"),
+                            onPressedAmerican: () => speakcomponents5("en-US"),
                           ),
                         ],
                       ),

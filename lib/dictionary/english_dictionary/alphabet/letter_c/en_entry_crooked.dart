@@ -247,82 +247,28 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لارووێر، چەپەک، ناڕاست، کووڕ، لار، خوار، گەڕاو، کەچ، گێڕ، چەوت، خواروخێچ، کەل‌وکۆم، چەماو، شەفتوول
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) چەماوە یان لاربوو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Your glasses are on crooked."),
-                    ExampleSentenceKurdish(text: "چاویلکەکەت بە لاری لە چاوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crooked", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrookeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrookeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Your glasses are on crooked.",
+            kurdishText:
+                "چاویلکەکەت بە لاری لە چاوە.", // crooked", please follow LX instructions
+            onPressedBritish: () => speakcrookeds1("en-GB"),
+            onPressedAmerican: () => speakcrookeds1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) ناڕاستگۆ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "All the officials are crooked."),
-                    ExampleSentenceKurdish(text: "ھەموو بەرپرسەکان ناڕاستگۆن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrookeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrookeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All the officials are crooked.",
+            kurdishText: "ھەموو بەرپرسەکان ناڕاستگۆن.",
+            onPressedBritish: () => speakcrookeds2("en-GB"),
+            onPressedAmerican: () => speakcrookeds2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) بێزار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's not you I'm crooked on, it's him."),
-                    ExampleSentenceKurdish(
-                        text: "ئەوە تۆ نیت بێزارم لێی، ئەوە ئەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrookeds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrookeds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's not you I'm crooked on, it's him.",
+            kurdishText: "ئەوە تۆ نیت بێزارم لێی، ئەوە ئەوە.",
+            onPressedBritish: () => speakcrookeds3("en-GB"),
+            onPressedAmerican: () => speakcrookeds3("en-US"),
           ),
         ],
       ),

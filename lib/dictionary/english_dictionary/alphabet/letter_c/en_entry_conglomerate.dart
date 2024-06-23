@@ -95,34 +95,15 @@ class EnglishEntryconglomerate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆمپانیایەکی گەورە کە لە یەکگرتنی ژمارەیەکی دیکە درووست بووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He turned the business into a huge media conglomerate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بازرگانییەکی کرد بە گەورەکۆمپانیایەکی میدیایی زەبەلاح."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conglomerate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconglomerates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconglomerates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He turned the business into a huge media conglomerate.",
+                            kurdishText:
+                                "بازرگانییەکی کرد بە گەورەکۆمپانیایەکی میدیایی زەبەلاح.", // conglomerate",
+                            onPressedBritish: () =>
+                                speakconglomerates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconglomerates1("en-US"),
                           ),
                         ],
                       ),

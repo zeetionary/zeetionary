@@ -191,32 +191,13 @@ class EnglishEntrycentralize extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پێدانی دەسەڵاتی وڵاتێک یان دامەزراوەیەک بە گرووپێک لە یەک شوێنەوە وەک ئەوەی دەسەڵات دابەشکراو بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The law centralized control over the banking industry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاساکە پیشەسازی بانکداری لە ناوەندێکدا چڕکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "centralize", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentralizes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentralizes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The law centralized control over the banking industry.",
+                            kurdishText:
+                                "یاساکە پیشەسازی بانکداری لە ناوەندێکدا چڕکردەوە.", // centralize",
+                            onPressedBritish: () => speakcentralizes1("en-GB"),
+                            onPressedAmerican: () => speakcentralizes1("en-US"),
                           ),
                         ],
                       ),

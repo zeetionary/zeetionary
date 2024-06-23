@@ -191,63 +191,25 @@ class EnglishEntryceramic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە لە قوڕ درووست کراوە و بۆ ھەمیشەیی بە گەرمی ڕەقکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The robot is made of metal, ceramic, and other materials."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆبۆتەکە لە کانزا، سیرامیک، و مادەی دیکە درووستکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "ceramic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceramics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceramics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The robot is made of metal, ceramic, and other materials.",
+                            kurdishText:
+                                "ڕۆبۆتەکە لە کانزا، سیرامیک، و مادەی دیکە درووستکراوە.", // ceramic",
+                            onPressedBritish: () => speakceramics1("en-GB"),
+                            onPressedAmerican: () => speakceramics1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) درووستکراو لە قوڕ کە بۆ ھەمیشەیی بە گەرمی ڕەقکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Use a 13\" by 9\" glass or ceramic baking dish."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گڵاسێکی ١٣ بە ٩ یان قاپێکی چێشت‌لێنانی سیرامیک بەکاربێنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceramics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceramics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Use a 13\" by 9\" glass or ceramic baking dish.",
+                            kurdishText:
+                                "گڵاسێکی ١٣ بە ٩ یان قاپێکی چێشت‌لێنانی سیرامیک بەکاربێنە.",
+                            onPressedBritish: () => speakceramics2("en-GB"),
+                            onPressedAmerican: () => speakceramics2("en-US"),
                           ),
                         ],
                       ),

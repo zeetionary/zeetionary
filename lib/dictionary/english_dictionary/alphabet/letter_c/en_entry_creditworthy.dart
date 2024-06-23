@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کەسێک کە متمانەی پێ دەکرێت کە قەرزی پێ بدرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The bank refused to give him a loan, saying that he wasn't creditworthy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بانکەکە ڕەتیکردەوە قەرزی پێبدات، گوتیان کە قەرز کوێرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creditworthy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreditworthys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreditworthys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The bank refused to give him a loan, saying that he wasn't creditworthy.",
+            kurdishText:
+                "بانکەکە ڕەتیکردەوە قەرزی پێبدات، گوتیان کە قەرز کوێرە.", // creditworthy", please follow LX instructions
+            onPressedBritish: () => speakcreditworthys1("en-GB"),
+            onPressedAmerican: () => speakcreditworthys1("en-US"),
           ),
         ],
       ),

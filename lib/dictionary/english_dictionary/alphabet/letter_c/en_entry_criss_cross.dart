@@ -257,113 +257,37 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) درووستکردنی شێوەیەک کە ژمارەیەک ڕاستەھێڵی تێدایە کە یەکتری دەبڕن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Searchlights were criss-crossing the sky."),
-                    ExampleSentenceKurdish(
-                        text: "لایتەکانی گەڕان بە یەکدا دەچوون لە ئاسماندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "criss-cross", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisscrosss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisscrosss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Searchlights were criss-crossing the sky.",
+            kurdishText:
+                "لایتەکانی گەڕان بە یەکدا دەچوون لە ئاسماندا.", // criss-cross", please follow LX instructions
+            onPressedBritish: () => speakcrisscrosss1("en-GB"),
+            onPressedAmerican: () => speakcrisscrosss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The city is criss-crossed with canals."),
-                    ExampleSentenceKurdish(
-                        text: "شارەکە بڕدراوە بە ژمارەیەک کەناڵ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisscrosss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisscrosss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The city is criss-crossed with canals.",
+            kurdishText: "شارەکە بڕدراوە بە ژمارەیەک کەناڵ.",
+            onPressedBritish: () => speakcrisscrosss2("en-GB"),
+            onPressedAmerican: () => speakcrisscrosss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شێوەیەک لە ژمارەیەک ڕاستەھێڵ کە یەکتر دەبڕن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He wandered through the criss-cross of streets,."),
-                    ExampleSentenceKurdish(
-                        text: "بە شەقامە یەکتربڕەکاندا پیاسەی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisscrosss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisscrosss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He wandered through the criss-cross of streets,.",
+            kurdishText: "بە شەقامە یەکتربڕەکاندا پیاسەی دەکرد.",
+            onPressedBritish: () => speakcrisscrosss3("en-GB"),
+            onPressedAmerican: () => speakcrisscrosss3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) بە ژمارەیەک لە ڕاستەھێڵەوە کە یەکتری دەبڕن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dancers pass along criss-cross paths."),
-                    ExampleSentenceKurdish(
-                        text: "سەماکاران بە ڕێگای یەکتربڕدا تێدەپەڕن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrisscrosss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrisscrosss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dancers pass along criss-cross paths.",
+            kurdishText: "سەماکاران بە ڕێگای یەکتربڕدا تێدەپەڕن.",
+            onPressedBritish: () => speakcrisscrosss4("en-GB"),
+            onPressedAmerican: () => speakcrisscrosss4("en-US"),
           ),
         ],
       ),

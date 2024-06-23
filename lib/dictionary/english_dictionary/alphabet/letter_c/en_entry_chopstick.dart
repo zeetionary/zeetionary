@@ -95,32 +95,13 @@ class EnglishEntrychopstick extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەر یەک لەو دوو چیلکەیەی کە خواردنی پێ دەخورێت، بەتایبەتی لە وڵاتانی ڕۆژھەڵاتی ئاسیا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children practiced using chopsticks to eat spaghetti."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان پرۆڤەی بەکارھێنانی چیلکەی نان‌خواردنیان دەکرد بۆ خواردنی سپاگێتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chopstick", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchopsticks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchopsticks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children practiced using chopsticks to eat spaghetti.",
+                            kurdishText:
+                                "منداڵەکان پرۆڤەی بەکارھێنانی چیلکەی نان‌خواردنیان دەکرد بۆ خواردنی سپاگێتی.", // chopstick",
+                            onPressedBritish: () => speakchopsticks1("en-GB"),
+                            onPressedAmerican: () => speakchopsticks1("en-US"),
                           ),
                         ],
                       ),

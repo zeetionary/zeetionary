@@ -104,60 +104,22 @@ class EnglishEntryclient extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە خزمەتگوزەری یان ڕاوێژی کەسێک یان دەزگایەک بەکاردێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's a well-known lawyer with many famous clients."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارێزەرێکی ناسراوە بە ژمارەیەکی زۆر مشتەری بەناوبانگەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "client", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclients1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclients1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's a well-known lawyer with many famous clients.",
+                            kurdishText:
+                                "پارێزەرێکی ناسراوە بە ژمارەیەکی زۆر مشتەری بەناوبانگەوە.", // client",
+                            onPressedBritish: () => speakclients1("en-GB"),
+                            onPressedAmerican: () => speakclients1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We will advise the client on the best way to solve the problem."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترین ڕێگا بە پیشانی ڕاوێژخوازەکەمان دەدەین بۆ چارەسەرکردنی کێشەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclients2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclients2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We will advise the client on the best way to solve the problem.",
+                            kurdishText:
+                                "باشترین ڕێگا بە پیشانی ڕاوێژخوازەکەمان دەدەین بۆ چارەسەرکردنی کێشەکە.",
+                            onPressedBritish: () => speakclients2("en-GB"),
+                            onPressedAmerican: () => speakclients2("en-US"),
                           ),
                         ],
                       ),

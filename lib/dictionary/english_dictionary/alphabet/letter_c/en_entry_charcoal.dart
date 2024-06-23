@@ -102,62 +102,23 @@ class EnglishEntrycharcoal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مادەیەکی ڕەش کە درووست دەبێت بە ھێواش سوتاندنی دار لە شوێنێک کە کەم ھەوای تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I prefer sketching in charcoal to pencil."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێم باشترە بە خەڵووز نەخشاندن بکەم وەک لە پێنووس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "charcoal", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharcoals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharcoals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I prefer sketching in charcoal to pencil.",
+                            kurdishText:
+                                "پێم باشترە بە خەڵووز نەخشاندن بکەم وەک لە پێنووس.", // charcoal",
+                            onPressedBritish: () => speakcharcoals1("en-GB"),
+                            onPressedAmerican: () => speakcharcoals1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕەنگێکی خەڵووزی زۆر تاریک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The uniform is charcoal (grey) (= dark grey) and red."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلەکە ڕەنگێکی بۆری تاریک و سوورە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharcoals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharcoals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The uniform is charcoal (grey) (= dark grey) and red.",
+                            kurdishText: "جلەکە ڕەنگێکی بۆری تاریک و سوورە.",
+                            onPressedBritish: () => speakcharcoals2("en-GB"),
+                            onPressedAmerican: () => speakcharcoals2("en-US"),
                           ),
                         ],
                       ),

@@ -120,121 +120,45 @@ class EnglishEntrycheapen extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) کەمکردنەوەی بەھا و ڕێزی خۆت یان کەسێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She never cheapened herself by lowering her standards."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز خۆی کەمنەکردەوە بە دابەزاندنی ستانداردەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheapen", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheapens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheapens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She never cheapened herself by lowering her standards.",
+                            kurdishText:
+                                "ھەرگیز خۆی کەمنەکردەوە بە دابەزاندنی ستانداردەکانی.", // cheapen",
+                            onPressedBritish: () => speakcheapens1("en-GB"),
+                            onPressedAmerican: () => speakcheapens1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It just cheapens you when you make jokes like that."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە گاڵتەی لەو شێوەیە دەکەیت لە بەھای خۆت کەمدەکەیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheapens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheapens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It just cheapens you when you make jokes like that.",
+                            kurdishText:
+                                "کە گاڵتەی لەو شێوەیە دەکەیت لە بەھای خۆت کەمدەکەیتەوە.",
+                            onPressedBritish: () => speakcheapens2("en-GB"),
+                            onPressedAmerican: () => speakcheapens2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) دابەزاندنی نرخی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This has had the effect of cheapening UK exports."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە کاریگەری ھەوەی دەبێت نرخی ھەناردەی شانشینی یەکگرتوو دادەبەزێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheapens3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheapens3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This has had the effect of cheapening UK exports.",
+                            kurdishText:
+                                "ئەمە کاریگەری ھەوەی دەبێت نرخی ھەناردەی شانشینی یەکگرتوو دادەبەزێنێت.",
+                            onPressedBritish: () => speakcheapens3("en-GB"),
+                            onPressedAmerican: () => speakcheapens3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) وا لە شتێککردن کە نرخی کەمترە لەوەی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie was accused of cheapening human life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە بە بێ‌بەھاکردنی ژیانی مرۆڤ تەمەتبارکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheapens4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheapens4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie was accused of cheapening human life.",
+                            kurdishText:
+                                "فیلمەکە بە بێ‌بەھاکردنی ژیانی مرۆڤ تەمەتبارکرا.",
+                            onPressedBritish: () => speakcheapens4("en-GB"),
+                            onPressedAmerican: () => speakcheapens4("en-US"),
                           ),
                         ],
                       ),

@@ -187,32 +187,13 @@ class EnglishEntrycellist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە ئامێری میوزیکی چەلۆ دەژەنێت کە وەک کەمانچەیەکی گەورە وایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was principal cellist of the Atlanta Symphony Orchestra."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەلۆژەنی سەرەکی ئۆرکێسترای سیمفۆنیای ئەتلانتا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cellist", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcellists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcellists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was principal cellist of the Atlanta Symphony Orchestra.",
+                            kurdishText:
+                                "چەلۆژەنی سەرەکی ئۆرکێسترای سیمفۆنیای ئەتلانتا بوو.", // cellist",
+                            onPressedBritish: () => speakcellists1("en-GB"),
+                            onPressedAmerican: () => speakcellists1("en-US"),
                           ),
                         ],
                       ),

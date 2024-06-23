@@ -94,32 +94,13 @@ class EnglishEntryconjuror extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە کاری سیحربازی دەکات "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It’s a mystery to me how the conjuror made that rabbit appear."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نھێنییەکە لام کە چۆن سیحربازەکە وایکرد ئەو کەروێشکە دەربکەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conjuror", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconjurors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconjurors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It’s a mystery to me how the conjuror made that rabbit appear.",
+                            kurdishText:
+                                "نھێنییەکە لام کە چۆن سیحربازەکە وایکرد ئەو کەروێشکە دەربکەوێت.", // conjuror",
+                            onPressedBritish: () => speakconjurors1("en-GB"),
+                            onPressedAmerican: () => speakconjurors1("en-US"),
                           ),
                         ],
                       ),

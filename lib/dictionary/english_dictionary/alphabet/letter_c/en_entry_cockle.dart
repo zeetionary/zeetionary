@@ -94,32 +94,13 @@ class EnglishEntrycockle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سەدەفدارێکی بچووک کە دەخورێت و بەزۆری لە ئەورووپا ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cockle shells are often used in craft projects."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەدەفی کاکڵ زۆرجار بۆ پڕۆژەی دەستڕەنگینی بەکاردێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cockle", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcockles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcockles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cockle shells are often used in craft projects.",
+                            kurdishText:
+                                "سەدەفی کاکڵ زۆرجار بۆ پڕۆژەی دەستڕەنگینی بەکاردێت.", // cockle",
+                            onPressedBritish: () => speakcockles1("en-GB"),
+                            onPressedAmerican: () => speakcockles1("en-US"),
                           ),
                         ],
                       ),

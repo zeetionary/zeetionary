@@ -242,60 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جۆش‌وخرۆشییەکی کاتی کە ژمارەیەک خەڵکی زۆر ھەیانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Is this interest in health foods just a passing craze?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم حەزە بۆ خواردنی تەندرووستی تەنھا کەف‌وکوڵێکی بۆماوەییە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "craze", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Is this interest in health foods just a passing craze?",
+            kurdishText:
+                "ئەم حەزە بۆ خواردنی تەندرووستی تەنھا کەف‌وکوڵێکی بۆماوەییە؟", // craze", please follow LX instructions
+            onPressedBritish: () => speakcrazes1("en-GB"),
+            onPressedAmerican: () => speakcrazes1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The princess started a craze for huge earrings."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شازادە خاتوونەکە ھەڵڵایەکی بۆ گوارەی گەورە دەستپێکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The princess started a craze for huge earrings.",
+            kurdishText:
+                "شازادە خاتوونەکە ھەڵڵایەکی بۆ گوارەی گەورە دەستپێکرد.",
+            onPressedBritish: () => speakcrazes2("en-GB"),
+            onPressedAmerican: () => speakcrazes2("en-US"),
           ),
         ],
       ),

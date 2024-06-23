@@ -95,34 +95,14 @@ class EnglishEntryconciseness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خاسیەتی پێدانی تەنھا ئەو زانیارییەی کە پێویست و گرنگە بە بەکارھێنانی وشەی کەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The letters were edited for clarity and conciseness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەکان دەستکاری کران بۆ ڕوونی و پوختی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conciseness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconcisenesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconcisenesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The letters were edited for clarity and conciseness.",
+                            kurdishText:
+                                "نامەکان دەستکاری کران بۆ ڕوونی و پوختی.", // conciseness",
+                            onPressedBritish: () => speakconcisenesss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcisenesss1("en-US"),
                           ),
                         ],
                       ),

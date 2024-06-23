@@ -112,88 +112,31 @@ class EnglishEntrycompile extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بەرھەمھێنانی کتێبێک، لیستێک، ڕاپۆرتێک، ھتد بە کۆکردنەوەی وتار، گۆرانی، بابەت، ھتد لە سەرچاوەی جیاوازەوە؛ کۆکردنەوەی زانیاری بۆ درووستکردنی کتێبێک، لیستێک، ڕاپۆرتێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are trying to compile a list of suitable people for the job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ دەدەین لیستێکی کەسانی گونجاو بۆ کارەکە پێکەوە بنێین ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compile", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompiles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompiles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are trying to compile a list of suitable people for the job.",
+                            kurdishText:
+                                "ھەوڵ دەدەین لیستێکی کەسانی گونجاو بۆ کارەکە پێکەوە بنێین .", // compile",
+                            onPressedBritish: () => speakcompiles1("en-GB"),
+                            onPressedAmerican: () => speakcompiles1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We're compiling some facts and figures for a documentary on the subject."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک زانیاری و ژمارە کۆدەکەینەوە بۆ دۆکیومێنتارییەک لەسەر بابەتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompiles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompiles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We're compiling some facts and figures for a documentary on the subject.",
+                            kurdishText:
+                                "ھەندێک زانیاری و ژمارە کۆدەکەینەوە بۆ دۆکیومێنتارییەک لەسەر بابەتەکە.",
+                            onPressedBritish: () => speakcompiles2("en-GB"),
+                            onPressedAmerican: () => speakcompiles2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It took years to compile this dictionary."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵانێکی پێچوو ئەم فەرھەنگە بنووسرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompiles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompiles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It took years to compile this dictionary.",
+                            kurdishText:
+                                "ساڵانێکی پێچوو ئەم فەرھەنگە بنووسرێتەوە.",
+                            onPressedBritish: () => speakcompiles3("en-GB"),
+                            onPressedAmerican: () => speakcompiles3("en-US"),
                           ),
                         ],
                       ),

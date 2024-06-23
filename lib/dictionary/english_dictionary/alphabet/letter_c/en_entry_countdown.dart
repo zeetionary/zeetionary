@@ -241,32 +241,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ژماردنی پێچەوانە بەرەو ژمارە سفر، بۆ نموونە لە کاتی ھەڵدانی مووشەکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The countdown to the rocket launch will begin at 9.00 a.m."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەرچەژمارە بۆ ھەڵدانی مووشەکەەک لە ٩ ـی بەیانی دەستپێ دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "countdown", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountdowns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountdowns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The countdown to the rocket launch will begin at 9.00 a.m.",
+            kurdishText:
+                "پەرچەژمارە بۆ ھەڵدانی مووشەکەەک لە ٩ ـی بەیانی دەستپێ دەکات.", // countdown", please follow LX instructions
+            onPressedBritish: () => speakcountdowns1("en-GB"),
+            onPressedAmerican: () => speakcountdowns1("en-US"),
           ),
           const DividerDefinition(),
           // const DefinitionKurdish(

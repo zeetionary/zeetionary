@@ -191,32 +191,13 @@ class EnglishEntrycatching extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) نەخۆشییەک کە بە ئاسانی دەگوێزرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Flu is catching, so stay away from work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵامەت ڕاگوێزەرە، بۆیە لە کار دووربە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catching", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatchings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatchings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Flu is catching, so stay away from work.",
+                            kurdishText:
+                                "ھەڵامەت ڕاگوێزەرە، بۆیە لە کار دووربە.", // catching",
+                            onPressedBritish: () => speakcatchings1("en-GB"),
+                            onPressedAmerican: () => speakcatchings1("en-US"),
                           ),
                         ],
                       ),

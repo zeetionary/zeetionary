@@ -123,117 +123,40 @@ class EnglishEntrychristmas extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ٢٥ـی کانوونی یەکەم، ئەو ڕۆژەی مەسیحییەکان ڕۆژی لەدایکبوون عیسای مەسیح پیرۆز دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What did you get for Christmas?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چیت وەرگرت بۆ کریسمس؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "Christmas", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakChristmass1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakChristmass1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "What did you get for Christmas?",
+                            kurdishText: "چیت وەرگرت بۆ کریسمس؟", // Christmas",
+                            onPressedBritish: () => speakChristmass1("en-GB"),
+                            onPressedAmerican: () => speakChristmass1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children are hoping for a white Christmas (= with snow on the ground)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان ھیوای کریسمسێکی بەفراوییان دەخواست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakChristmass2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakChristmass2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children are hoping for a white Christmas (= with snow on the ground).",
+                            kurdishText:
+                                "منداڵەکان ھیوای کریسمسێکی بەفراوییان دەخواست.",
+                            onPressedBritish: () => speakChristmass2("en-GB"),
+                            onPressedAmerican: () => speakChristmass2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ماوەی ڕۆژی کریسمس و ڕۆژەکانی نزیکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Are you spending Christmas with your family?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژانی کریسمس لەگەڵ خێزانەکەت بەسەر دەبەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakChristmass3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakChristmass3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Are you spending Christmas with your family?",
+                            kurdishText:
+                                "ڕۆژانی کریسمس لەگەڵ خێزانەکەت بەسەر دەبەیت؟",
+                            onPressedBritish: () => speakChristmass3("en-GB"),
+                            onPressedAmerican: () => speakChristmass3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Merry Christmas and a Happy New Year!"),
-                                    ExampleSentenceKurdish(
-                                        text: "کریسمس و ساڵی نوێ پیرۆز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakChristmass4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakChristmass4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Merry Christmas and a Happy New Year!",
+                            kurdishText: "کریسمس و ساڵی نوێ پیرۆز.",
+                            onPressedBritish: () => speakChristmass4("en-GB"),
+                            onPressedAmerican: () => speakChristmass4("en-US"),
                           ),
                         ],
                       ),

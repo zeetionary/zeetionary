@@ -112,93 +112,36 @@ class EnglishEntryconsiderable extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بەرچاو و گەورە لە قەبارە، گرنگی، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The project wasted a considerable amount of time and money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆژەکە پارە و کاتی بەرچاوی بەفیڕۆدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "considerable", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsiderables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsiderables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The project wasted a considerable amount of time and money.",
+                            kurdishText:
+                                "پڕۆژەکە پارە و کاتی بەرچاوی بەفیڕۆدا.", // considerable",
+                            onPressedBritish: () =>
+                                speakconsiderables1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsiderables1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Damage to the building was considerable."),
-                                    ExampleSentenceKurdish(
-                                        text: "زیانی بیناکە بەرچاو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsiderables2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsiderables2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Damage to the building was considerable.",
+                            kurdishText: "زیانی بیناکە بەرچاو بوو.",
+                            onPressedBritish: () =>
+                                speakconsiderables2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsiderables2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Considerable progress has been made in finding a cure for the disease."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرەوپێشچوونی بەرچاو ئەنجامدراوە لە دۆزینەوەی چارەسەرێک بۆ نەخۆشییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsiderables3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsiderables3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Considerable progress has been made in finding a cure for the disease.",
+                            kurdishText:
+                                "بەرەوپێشچوونی بەرچاو ئەنجامدراوە لە دۆزینەوەی چارەسەرێک بۆ نەخۆشییەکە.",
+                            onPressedBritish: () =>
+                                speakconsiderables3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsiderables3("en-US"),
                           ),
                         ],
                       ),

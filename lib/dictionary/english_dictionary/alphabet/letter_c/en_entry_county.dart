@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) یەکێک لەو ناوچانەی کە ھەندێک وڵات بەسەریدا دابەشکراوە و حکومەتی خۆجێیی خۆی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Originally, county boundaries often followed the course of a river."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە بنەڕەت‌دا، سنووری پارێزگاکان بەپێی ڕێڕەوی ڕووبارەکان دەکێشران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "county", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Originally, county boundaries often followed the course of a river.",
+            kurdishText:
+                "لە بنەڕەت‌دا، سنووری پارێزگاکان بەپێی ڕێڕەوی ڕووبارەکان دەکێشران.", // county", please follow LX instructions
+            onPressedBritish: () => speakcountys1("en-GB"),
+            onPressedAmerican: () => speakcountys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Most towns and villages throughout the county have experienced a population increase."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرینەی شارۆچکە و گوندەکانی پارێزگاکە زۆربوونی دانیشتوانیان بەخۆوە دیوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Most towns and villages throughout the county have experienced a population increase.",
+            kurdishText:
+                "زۆرینەی شارۆچکە و گوندەکانی پارێزگاکە زۆربوونی دانیشتوانیان بەخۆوە دیوە.",
+            onPressedBritish: () => speakcountys2("en-GB"),
+            onPressedAmerican: () => speakcountys2("en-US"),
           ),
         ],
       ),

@@ -120,122 +120,46 @@ class EnglishEntrychorus extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەشێکی گۆرانییەک کە دووبارە و دووبارە لە دوای ھەر کۆپلەیەک دەوترێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'll sing the verses and I'd like you all to join in the chorus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "من کۆپلەکان دەخوێنم و حەزدەکەم ئێوەش ھەمووتان لە کۆرسەکە بەژدار بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chorus", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoruss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoruss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'll sing the verses and I'd like you all to join in the chorus.",
+                            kurdishText:
+                                "من کۆپلەکان دەخوێنم و حەزدەکەم ئێوەش ھەمووتان لە کۆرسەکە بەژدار بن.", // chorus",
+                            onPressedBritish: () => speakchoruss1("en-GB"),
+                            onPressedAmerican: () => speakchoruss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پارچە میوزیکێک کۆ بۆ دەستەیەک لۆ گۆرانیبێژ دەنووسرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The choir will be performing the Hallelujah Chorus at the concert."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆچڕەکە کۆڕە میویزیکی ھاللویا دەخوێنن لە کۆنسێرتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoruss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoruss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The choir will be performing the Hallelujah Chorus at the concert.",
+                            kurdishText:
+                                "کۆچڕەکە کۆڕە میویزیکی ھاللویا دەخوێنن لە کۆنسێرتەکە.",
+                            onPressedBritish: () => speakchoruss2("en-GB"),
+                            onPressedAmerican: () => speakchoruss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) گرووپێک کە پێکەوە گۆرانی دەڵێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He sings with the Bath Festival Chorus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەگەڵ کۆچڕی فیستیڤاڵی باس گۆرانی دەڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoruss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoruss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He sings with the Bath Festival Chorus.",
+                            kurdishText:
+                                "لەگەڵ کۆچڕی فیستیڤاڵی باس گۆرانی دەڵێت.",
+                            onPressedBritish: () => speakchoruss3("en-GB"),
+                            onPressedAmerican: () => speakchoruss3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) گۆرانی گوتن یان قسەکردن بە کۆمەڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "‘Hello, Paul,’ they chorused."),
-                                    ExampleSentenceKurdish(
-                                        text: "پێکەوە گوتیان 'چۆنی، پاوڵ'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoruss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoruss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "‘Hello, Paul,’ they chorused.",
+                            kurdishText: "پێکەوە گوتیان 'چۆنی، پاوڵ'.",
+                            onPressedBritish: () => speakchoruss4("en-GB"),
+                            onPressedAmerican: () => speakchoruss4("en-US"),
                           ),
                         ],
                       ),

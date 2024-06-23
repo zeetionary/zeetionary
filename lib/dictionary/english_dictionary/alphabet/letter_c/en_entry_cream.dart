@@ -299,257 +299,82 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شلەی سپی یان زەردی کاڵ کە بەرزدەبێتەوە بۆ سەر شیر و لە خواردن درووستکردندا بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We had strawberries and cream for dessert."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ شیرینی تووفەڕەنگی و کرێممان ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cream", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreams1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreams1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We had strawberries and cream for dessert.",
+            kurdishText: "بۆ شیرینی تووفەڕەنگی و کرێممان ھەبوو.",
+            onPressedBritish: () => speakcreams1("en-GB"),
+            onPressedAmerican: () => speakcreams1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I asked for two coffees with cream."),
-                    ExampleSentenceKurdish(
-                        text: "داوای دوو قاوەم بە توێشکەوە کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreams2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreams2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I asked for two coffees with cream.",
+            kurdishText: "داوای دوو قاوەم بە توێشکەوە کرد.",
+            onPressedBritish: () => speakcreams2("en-GB"),
+            onPressedAmerican: () => speakcreams2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) شیرینییەکی نەرم"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I prefer a light chocolate cream for my desserts."),
-                    ExampleSentenceKurdish(
-                        text: "حەزم بە کرێمێکی کەمی چکلێتە بۆ شیرینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreams3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreams3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I prefer a light chocolate cream for my desserts.",
+            kurdishText: "حەزم بە کرێمێکی کەمی چکلێتە بۆ شیرینی.",
+            onPressedBritish: () => speakcreams3("en-GB"),
+            onPressedAmerican: () => speakcreams3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) کرێمی ڕووخسار بۆ پاراستنی یان نەرمکردنی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Put a little antiseptic cream on the grazed skin."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک کرێمی خاوێنکەر بخە سەر پێستە ڕووشاوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreams4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreams4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Put a little antiseptic cream on the grazed skin.",
+            kurdishText: "ھەندێک کرێمی خاوێنکەر بخە سەر پێستە ڕووشاوەکە.",
+            onPressedBritish: () => speakcreams4("en-GB"),
+            onPressedAmerican: () => speakcreams4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) ڕەنگێکی کاڵ کە لە نێوان سپی و زەردە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Do you have this blouse in cream?"),
-                    ExampleSentenceKurdish(
-                        text: "ئەم بلووزەت بە ڕەنگی کرێمی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreams5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreams5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do you have this blouse in cream?",
+            kurdishText: "ئەم بلووزەت بە ڕەنگی کرێمی ھەیە.",
+            onPressedBritish: () => speakcreams5("en-GB"),
+            onPressedAmerican: () => speakcreams5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) باشترینی گرووپێک یان کۆمەڵگەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cream of this year's graduates have gone abroad for jobs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باشترینی دەرچوانی ئەمساڵ چوونەتە دەرەوە بۆ کارکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreams6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreams6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cream of this year's graduates have gone abroad for jobs.",
+            kurdishText: "باشترینی دەرچوانی ئەمساڵ چوونەتە دەرەوە بۆ کارکردن.",
+            onPressedBritish: () => speakcreams6("en-GB"),
+            onPressedAmerican: () => speakcreams6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ھاوەڵناو) ڕەنگی کرێمی، لە نێوان سپی و زەرددا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The walls were cream and the ceiling was painted white."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دیوارەکان کرێمی بوون و بنبانەکە بۆیەی سپی کرابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreams7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreams7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The walls were cream and the ceiling was painted white.",
+            kurdishText: "دیوارەکان کرێمی بوون و بنبانەکە بۆیەی سپی کرابوو.",
+            onPressedBritish: () => speakcreams7("en-GB"),
+            onPressedAmerican: () => speakcreams7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٧. (کردار) تێکەڵکردنی شت بۆ درووستکردنی تێکەڵەیەکی نەرمی شل"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Cream the butter and sugar together."),
-                    ExampleSentenceKurdish(
-                        text: "کەرە و شەکرەکە پێکەوە بکە بە کرێم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreams8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreams8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Cream the butter and sugar together.",
+            kurdishText: "کەرە و شەکرەکە پێکەوە بکە بە کرێم.",
+            onPressedBritish: () => speakcreams8("en-GB"),
+            onPressedAmerican: () => speakcreams8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (کردار) تەواو تێکشکانی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We got creamed in the first round."),
-                    ExampleSentenceKurdish(
-                        text: "لە قۆناغی یەکەمدا تێکشکێندراین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreams9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreams9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We got creamed in the first round.",
+            kurdishText: "لە قۆناغی یەکەمدا تێکشکێندراین.",
+            onPressedBritish: () => speakcreams9("en-GB"),
+            onPressedAmerican: () => speakcreams9("en-US"),
           ),
         ],
       ),

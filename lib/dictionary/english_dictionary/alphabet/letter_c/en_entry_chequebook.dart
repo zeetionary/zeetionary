@@ -92,32 +92,13 @@ class EnglishEntrychequebook extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دەستەچەک؛ کتێبێک کە کۆمەڵە چەکێکی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He always kept his chequebook handy for emergencies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە دەستەچەکەکەی لای خۆی دەھێشت بۆ دۆخی لەناکاو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chequebook", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchequebooks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchequebooks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He always kept his chequebook handy for emergencies.",
+                            kurdishText:
+                                "ھەمیشە دەستەچەکەکەی لای خۆی دەھێشت بۆ دۆخی لەناکاو.", // chequebook",
+                            onPressedBritish: () => speakchequebooks1("en-GB"),
+                            onPressedAmerican: () => speakchequebooks1("en-US"),
                           ),
                         ],
                       ),

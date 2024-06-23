@@ -188,32 +188,13 @@ class EnglishEntrycannery extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شوێنێک کە خواردنی تێدا لە قوتو دەخرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His mother worked in the local tuna cannery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایکی لە کارگەیەکی لەقوتوخستنی خۆجێی ماسی تونا کاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cannery", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcannerys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcannerys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His mother worked in the local tuna cannery.",
+                            kurdishText:
+                                "دایکی لە کارگەیەکی لەقوتوخستنی خۆجێی ماسی تونا کاری دەکرد.", // cannery
+                            onPressedBritish: () => speakcannerys1("en-GB"),
+                            onPressedAmerican: () => speakcannerys1("en-US"),
                           ),
                         ],
                       ),

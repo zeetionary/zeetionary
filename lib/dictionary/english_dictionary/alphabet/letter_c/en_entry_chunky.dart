@@ -112,93 +112,36 @@ class EnglishEntrychunky extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ئەستوور و قورس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wore a chunky sweater to keep warm in the snow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بلووزێکی قەبەی لەبەرکردبوو بۆ گەرم‌مانەوە لە بەفرەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chunky", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchunkys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchunkys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wore a chunky sweater to keep warm in the snow.",
+                            kurdishText:
+                                "بلووزێکی قەبەی لەبەرکردبوو بۆ گەرم‌مانەوە لە بەفرەکەدا.", // chunky",
+                            onPressedBritish: () => speakchunkys1("en-GB"),
+                            onPressedAmerican: () => speakchunkys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ھەبوونی لاشەیەکی بچووک و گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The squat, chunky man easily lifted the heavy boxes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوە بچووکە بەھێزەکە بە ئاسانی سندووقە قورسەکانی بەرزکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchunkys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchunkys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The squat, chunky man easily lifted the heavy boxes.",
+                            kurdishText:
+                                "پیاوە بچووکە بەھێزەکە بە ئاسانی سندووقە قورسەکانی بەرزکردەوە.",
+                            onPressedBritish: () => speakchunkys2("en-GB"),
+                            onPressedAmerican: () => speakchunkys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) خواردنی خەست"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chunky marmalade added a zesty texture to the dessert."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەرەبا خەستەکە ڕواڵەتێکی جوانی بۆ شیرینییەکە زیادکردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchunkys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchunkys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chunky marmalade added a zesty texture to the dessert.",
+                            kurdishText:
+                                "مەرەبا خەستەکە ڕواڵەتێکی جوانی بۆ شیرینییەکە زیادکردبوو.",
+                            onPressedBritish: () => speakchunkys3("en-GB"),
+                            onPressedAmerican: () => speakchunkys3("en-US"),
                           ),
                         ],
                       ),

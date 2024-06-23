@@ -216,288 +216,96 @@ class EnglishEntrycollect extends StatelessWidget {
 کوردی: دۆعا، نزا، کورتەنوێژ، کۆکردنەوە، خڕ کردنەوە، کۆبوونەوە، خڕبوونەوە، گردبوونەوە
 """),
                           const DefinitionKurdish(text: "١. (کردار) کۆکردنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The purpose of his trip was to collect material for a book."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانجی گەشتەکەی کۆکردنەوەی زانیاری بوو بۆ کتێبێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collect", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollects1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollects1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The purpose of his trip was to collect material for a book.",
+                            kurdishText:
+                                "ئامانجی گەشتەکەی کۆکردنەوەی زانیاری بوو بۆ کتێبێک.", // collect",
+                            onPressedBritish: () => speakcollects1("en-GB"),
+                            onPressedAmerican: () => speakcollects1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Samples were collected from over 200 patients."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نموونە لە ٢٠٠ نەخۆشەوە کۆکرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollects2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollects2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Samples were collected from over 200 patients.",
+                            kurdishText: "نموونە لە ٢٠٠ نەخۆشەوە کۆکرایەوە.",
+                            onPressedBritish: () => speakcollects2("en-GB"),
+                            onPressedAmerican: () => speakcollects2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We've been collecting data from various sources."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە سەرچاوەی جیاوازەوە زانیاریمان کۆکردووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollects3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollects3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We've been collecting data from various sources.",
+                            kurdishText:
+                                "لە سەرچاوەی جیاوازەوە زانیاریمان کۆکردووەتەوە.",
+                            onPressedBritish: () => speakcollects3("en-GB"),
+                            onPressedAmerican: () => speakcollects3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کۆکردنەوە شت وەک خولیا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He began collecting antiquities in 1785."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ساڵی ١٧٨٥ دەستیکرد بە کۆکردنەوەی ئەنتیک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollects4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollects4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He began collecting antiquities in 1785.",
+                            kurdishText:
+                                "لە ساڵی ١٧٨٥ دەستیکرد بە کۆکردنەوەی ئەنتیک.",
+                            onPressedBritish: () => speakcollects4("en-GB"),
+                            onPressedAmerican: () => speakcollects4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He started to collect art seriously soon after the turn of the century."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای سەرەتای سەدەکەوە دەستی بە کۆکردنەوەی کاری ھونەری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollects5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollects5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He started to collect art seriously soon after the turn of the century.",
+                            kurdishText:
+                                "لە دوای سەرەتای سەدەکەوە دەستی بە کۆکردنەوەی کاری ھونەری کرد.",
+                            onPressedBritish: () => speakcollects5("en-GB"),
+                            onPressedAmerican: () => speakcollects5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) زیادبوونی لە بڕدا لە شوێنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In spite of their efforts a large pool of liquid continued to collect."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەڕای ھەوڵەکانیان ڕێژەیەکی زۆر لە شلە بەردەوام بوو لە کۆبوونەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollects6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollects6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In spite of their efforts a large pool of liquid continued to collect.",
+                            kurdishText:
+                                "سەرەڕای ھەوڵەکانیان ڕێژەیەکی زۆر لە شلە بەردەوام بوو لە کۆبوونەوە.",
+                            onPressedBritish: () => speakcollects6("en-GB"),
+                            onPressedAmerican: () => speakcollects6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Dirt had collected in the corners of the room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوڕ لە سووچی ژوورەکە کۆبوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollects7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollects7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Dirt had collected in the corners of the room.",
+                            kurdishText: "قوڕ لە سووچی ژوورەکە کۆبوویەوە.",
+                            onPressedBritish: () => speakcollects7("en-GB"),
+                            onPressedAmerican: () => speakcollects7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It’s amazing how she collects friends."),
-                                    ExampleSentenceKurdish(
-                                        text: "دۆزینەوەی ھاوڕێی سەرسوڕھێنەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollects8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollects8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It’s amazing how she collects friends.",
+                            kurdishText: "دۆزینەوەی ھاوڕێی سەرسوڕھێنەرە.",
+                            onPressedBritish: () => speakcollects8("en-GB"),
+                            onPressedAmerican: () => speakcollects8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) چوونە شوێنێک بۆ بردنی شتێک/کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The package is waiting to be collected."),
-                                    ExampleSentenceKurdish(
-                                        text: "پاکێجەکە ئامادەیە بۆ بردنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollects9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollects9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The package is waiting to be collected.",
+                            kurdishText: "پاکێجەکە ئامادەیە بۆ بردنەوە.",
+                            onPressedBritish: () => speakcollects9("en-GB"),
+                            onPressedAmerican: () => speakcollects9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What day do they collect the rubbish/garbage?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چی ڕۆژێک زباڵە کۆدەکەنەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollects10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollects10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What day do they collect the rubbish/garbage?",
+                            kurdishText: "چی ڕۆژێک زباڵە کۆدەکەنەوە؟",
+                            onPressedBritish: () => speakcollects10("en-GB"),
+                            onPressedAmerican: () => speakcollects10("en-US"),
                           ),
                           Column(
                             children: [
@@ -570,120 +378,43 @@ class EnglishEntrycollect extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) داواکردنی پارە لە خەڵکی بۆ مەبەستێکی دیاریکراو، یان بۆ داواکردنەوەی قەرز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We're collecting for local charities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارە بۆ ڕێکخراوە خێرخوازییەکان کۆدەکەینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollects13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollects13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We're collecting for local charities.",
+                            kurdishText:
+                                "پارە بۆ ڕێکخراوە خێرخوازییەکان کۆدەکەینەوە.",
+                            onPressedBritish: () => speakcollects13("en-GB"),
+                            onPressedAmerican: () => speakcollects13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Volunteers have been going door to door, collecting money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆبەخشان دەرگا بە دەرگا گەڕاون بۆ کۆکردنەوەی پارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollects14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollects14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Volunteers have been going door to door, collecting money.",
+                            kurdishText:
+                                "خۆبەخشان دەرگا بە دەرگا گەڕاون بۆ کۆکردنەوەی پارە.",
+                            onPressedBritish: () => speakcollects14("en-GB"),
+                            onPressedAmerican: () => speakcollects14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) وەرگرتن یان بردنەوەی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She collected £25 000 in compensation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "٢٥,٠٠٠ پاوەندی وەک قەرەبوو وەرگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollects15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollects15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She collected £25 000 in compensation.",
+                            kurdishText: "٢٥,٠٠٠ پاوەندی وەک قەرەبوو وەرگرت.",
+                            onPressedBritish: () => speakcollects15("en-GB"),
+                            onPressedAmerican: () => speakcollects15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کردار) کۆبوونەوەی خەڵکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A crowd began to collect in front of the embassy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەماوەرێک دەستیان بە کۆبوونەوە کرد لە پێش باڵیۆزخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollects16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollects16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A crowd began to collect in front of the embassy.",
+                            kurdishText:
+                                "جەماوەرێک دەستیان بە کۆبوونەوە کرد لە پێش باڵیۆزخانەکە.",
+                            onPressedBritish: () => speakcollects16("en-GB"),
+                            onPressedAmerican: () => speakcollects16("en-US"),
                           ),
                         ],
                       ),

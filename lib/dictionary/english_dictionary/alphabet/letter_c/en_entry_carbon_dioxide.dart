@@ -190,34 +190,15 @@ class EnglishEntrycarbondioxide extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گازێک کە لەلایەن مرۆڤ و ئاژەڵەکانەوە دەدرێتەوە یان کە درووست دەبێت کە کاربۆن دەسووتێنرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Trees absorb carbon dioxide and produce oxygen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "درەختەکان دوانۆکسیدی کاربۆن دەمژن و ئۆکسجین دەدەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carbon dioxide", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarbondioxides1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarbondioxides1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Trees absorb carbon dioxide and produce oxygen.",
+                            kurdishText:
+                                "درەختەکان دوانۆکسیدی کاربۆن دەمژن و ئۆکسجین دەدەنەوە.", // carbon dioxide",
+                            onPressedBritish: () =>
+                                speakcarbondioxides1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarbondioxides1("en-US"),
                           ),
                         ],
                       ),

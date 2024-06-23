@@ -104,63 +104,25 @@ class EnglishEntryclink extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) زرنگانەوە، یان کێشانی گڵاس بە یەکدیدا بۆ ئەوەی بزرنگێنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They clinked glasses and drank to each other's health."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گڵاسەکانیان کێشا بە یەکدا و خواردیانەوە بە خۆشی تەندرووستی یەکدی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clink", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They clinked glasses and drank to each other's health.",
+                            kurdishText:
+                                "گڵاسەکانیان کێشا بە یەکدا و خواردیانەوە بە خۆشی تەندرووستی یەکدی.", // clink",
+                            onPressedBritish: () => speakclinks1("en-GB"),
+                            onPressedAmerican: () => speakclinks1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دەنگێکی کەمی زرنگانەوە، بۆ نموونە کە دوو گڵاس بەر یەکدی دەکەون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She heard the sound of voices and the clink of glasses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێی لە دەنگی قسەکردن و رنگەی گڵاس بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclinks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclinks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She heard the sound of voices and the clink of glasses.",
+                            kurdishText:
+                                "گوێی لە دەنگی قسەکردن و رنگەی گڵاس بوو.",
+                            onPressedBritish: () => speakclinks2("en-GB"),
+                            onPressedAmerican: () => speakclinks2("en-US"),
                           ),
                         ],
                       ),

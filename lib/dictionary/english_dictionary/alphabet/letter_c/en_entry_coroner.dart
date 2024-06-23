@@ -241,58 +241,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە لێکۆڵینەوە لە ھۆکاری مردنی لەناکاو، توندوتیژانە، یان گوماناوی دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The coroner issued a burial certificate."),
-                    ExampleSentenceKurdish(
-                        text: "لێکۆڵەرەکە مۆڵەتی ناشتنی دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "coroner", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoroners1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoroners1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The coroner issued a burial certificate.",
+            kurdishText:
+                "لێکۆڵەرەکە مۆڵەتی ناشتنی دا.", // coroner", please follow LX instructions
+            onPressedBritish: () => speakcoroners1("en-GB"),
+            onPressedAmerican: () => speakcoroners1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The coroner ordered an investigation into the man's death."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پشکنەرەکە بڕیاری لێکۆڵینەوەی سەبارەت بە مەرگی پیاوەکە دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoroners2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoroners2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The coroner ordered an investigation into the man's death.",
+            kurdishText:
+                "پشکنەرەکە بڕیاری لێکۆڵینەوەی سەبارەت بە مەرگی پیاوەکە دا.",
+            onPressedBritish: () => speakcoroners2("en-GB"),
+            onPressedAmerican: () => speakcoroners2("en-US"),
           ),
         ],
       ),

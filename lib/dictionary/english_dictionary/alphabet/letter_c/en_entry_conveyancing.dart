@@ -95,34 +95,15 @@ class EnglishEntryconveyancing extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو بەشەی یاسا کە کە ئامادەکردنی بەڵگەنامە لەخۆدەگرێت بۆ گواستنەوەی سامان لە کەسێکەوە بۆ کەسێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When we bought our house, we did our own conveyancing instead of using a lawyer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە خانووەکەمان کڕی خۆمان کاری ڕاگوێستنمان کرد لە جیاتی گرتنی پارێزەرێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conveyancing", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconveyancings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconveyancings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When we bought our house, we did our own conveyancing instead of using a lawyer.",
+                            kurdishText:
+                                "کە خانووەکەمان کڕی خۆمان کاری ڕاگوێستنمان کرد لە جیاتی گرتنی پارێزەرێک.", // conveyancing",
+                            onPressedBritish: () =>
+                                speakconveyancings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconveyancings1("en-US"),
                           ),
                         ],
                       ),

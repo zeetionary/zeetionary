@@ -95,32 +95,13 @@ class EnglishEntrychronology extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕیزبەندی ڕوودانی کۆمەڵە ڕووداوێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Historians seem to have confused the chronology of these events."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێژوونووسان وادەردەکەون کە تۆماری ڕیزبەندی ئەم ڕووداوانەیان تێکەڵ کردبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chronology", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchronologys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchronologys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Historians seem to have confused the chronology of these events.",
+                            kurdishText:
+                                "مێژوونووسان وادەردەکەون کە تۆماری ڕیزبەندی ئەم ڕووداوانەیان تێکەڵ کردبێت.", // chronology",
+                            onPressedBritish: () => speakchronologys1("en-GB"),
+                            onPressedAmerican: () => speakchronologys1("en-US"),
                           ),
                         ],
                       ),

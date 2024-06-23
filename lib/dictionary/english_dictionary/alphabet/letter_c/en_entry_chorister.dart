@@ -95,32 +95,13 @@ class EnglishEntrychorister extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە لە کۆچڕێکی گۆرانی‌گوتندا گۆرانی دەڵێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She joined the choristers to sing in the school choir."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندی بە گۆرانیبێژانی کۆچڕەکەوە کرد لە کۆچڕی قوتابخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chorister", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoristers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoristers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She joined the choristers to sing in the school choir.",
+                            kurdishText:
+                                "پەیوەندی بە گۆرانیبێژانی کۆچڕەکەوە کرد لە کۆچڕی قوتابخانەکە.", // chorister",
+                            onPressedBritish: () => speakchoristers1("en-GB"),
+                            onPressedAmerican: () => speakchoristers1("en-US"),
                           ),
                         ],
                       ),

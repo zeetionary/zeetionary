@@ -241,57 +241,19 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کۆمەڵێک لە بنەما و باوەڕی ئایینی "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We welcome people of all races, colours and creeds."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێشوازی لە خەڵکی ھەموو ڕەگەز و ڕەنگ و ڕێبازێک دەکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We welcome people of all races, colours and creeds.",
+            kurdishText:
+                "پێشوازی لە خەڵکی ھەموو ڕەگەز و ڕەنگ و ڕێبازێک دەکەین.", // creed", please follow LX instructions
+            onPressedBritish: () => speakcreeds1("en-GB"),
+            onPressedAmerican: () => speakcreeds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What is his political creed?"),
-                    ExampleSentenceKurdish(text: "دیدی سیاسیی چییە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What is his political creed?",
+            kurdishText: "دیدی سیاسیی چییە؟",
+            onPressedBritish: () => speakcreeds2("en-GB"),
+            onPressedAmerican: () => speakcreeds2("en-US"),
           ),
         ],
       ),

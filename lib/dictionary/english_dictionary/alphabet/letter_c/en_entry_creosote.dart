@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شلەیەکی توندی قاوەیی کە بەکاردێت بۆ پاراستنی تەختە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The strong smell of creosote filled the air around the factory."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆنی بەھێزی ڕۆنەخەڵووز ھەوای دەوری کارگەکەی تەنیبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creosote", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreosotes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreosotes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The strong smell of creosote filled the air around the factory.",
+            kurdishText:
+                "بۆنی بەھێزی ڕۆنەخەڵووز ھەوای دەوری کارگەکەی تەنیبوو.", // creosote", please follow LX instructions
+            onPressedBritish: () => speakcreosotes1("en-GB"),
+            onPressedAmerican: () => speakcreosotes1("en-US"),
           ),
         ],
       ),

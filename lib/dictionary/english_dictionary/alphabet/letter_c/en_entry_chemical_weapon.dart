@@ -91,34 +91,15 @@ class EnglishEntrychemicalweapon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١. (ناو) چەکی کیمیایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The use of chemical weapons in the conflict violated international law."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکارھێنانی چەکی کیمیایی لە جەنگەکەدا دژ بە یاسای نێودەوڵەتی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chemical weapon", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchemicalweapons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchemicalweapons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The use of chemical weapons in the conflict violated international law.",
+                            kurdishText:
+                                "بەکارھێنانی چەکی کیمیایی لە جەنگەکەدا دژ بە یاسای نێودەوڵەتی بوو.", // chemical weapon",
+                            onPressedBritish: () =>
+                                speakchemicalweapons1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchemicalweapons1("en-US"),
                           ),
                         ],
                       ),

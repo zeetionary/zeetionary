@@ -103,63 +103,25 @@ class EnglishEntrychartered extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەسەندکراو بەپێی یاساکانی دامەزراوەیەکی دانپێدانراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm training to be a chartered accountant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاھێنان دەکەم بۆ بوون بە ژمێریارێکی دانپێدانراو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chartered", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchartereds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchartereds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm training to be a chartered accountant.",
+                            kurdishText:
+                                "ڕاھێنان دەکەم بۆ بوون بە ژمێریارێکی دانپێدانراو.", // chartered",
+                            onPressedBritish: () => speakchartereds1("en-GB"),
+                            onPressedAmerican: () => speakchartereds1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) فڕۆکەیەک، کەشتییەک، یان بەلەمێک کە بەکرێگیردراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They spent their annual holiday on a chartered yacht in the Caribbean."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشووی ساڵانەیان لەسەر یەختێکی کرێ بەسەربرد لە کاریبی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchartereds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchartereds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They spent their annual holiday on a chartered yacht in the Caribbean.",
+                            kurdishText:
+                                "پشووی ساڵانەیان لەسەر یەختێکی کرێ بەسەربرد لە کاریبی.",
+                            onPressedBritish: () => speakchartereds2("en-GB"),
+                            onPressedAmerican: () => speakchartereds2("en-US"),
                           ),
                         ],
                       ),

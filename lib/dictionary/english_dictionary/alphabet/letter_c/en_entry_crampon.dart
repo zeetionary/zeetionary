@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) چوارچێوەیەکی ئاسنین کە لە پێڵاو دەبەسترێت بۆ ئەوەی ڕێکردن لەسەر بەفر و شەختە ئاسان بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The mountaineer strapped on his crampons before beginning the ascent."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شاخەوانەکە سەھۆڵبڕەکەی بەست پێش ئەوەی سەرکەوتنەکەی دەست‌پێ بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crampon", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrampons1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrampons1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The mountaineer strapped on his crampons before beginning the ascent.",
+            kurdishText:
+                "شاخەوانەکە سەھۆڵبڕەکەی بەست پێش ئەوەی سەرکەوتنەکەی دەست‌پێ بکات.", // crampon", please follow LX instructions
+            onPressedBritish: () => speakcrampons1("en-GB"),
+            onPressedAmerican: () => speakcrampons1("en-US"),
           ),
         ],
       ),

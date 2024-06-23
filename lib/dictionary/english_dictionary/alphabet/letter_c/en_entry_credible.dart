@@ -257,116 +257,41 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: باوەڕپێکراو، جێی‌پەسند، لێ‌ڕابینراو، جیێ‌باوەڕ، جێی‌متمانە، بەبایەخ،	سەرڕاست، ڕاست، دروست، ژیرانە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) باوەڕپێکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It is just not credible that she would cheat."),
-                    ExampleSentenceKurdish(
-                        text: "باوەڕپێکراو نییە کە گزی بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "credible", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredibles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredibles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is just not credible that she would cheat.",
+            kurdishText:
+                "باوەڕپێکراو نییە کە گزی بکات.", // credible", please follow LX instructions
+            onPressedBritish: () => speakcredibles1("en-GB"),
+            onPressedAmerican: () => speakcredibles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It seems barely credible that anyone could have walked so far in a day."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە ئەستەم باوەڕپێکراوە کە ھیچ کەس بتوانێت ھێندە لە ڕۆژێکدا ببڕێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredibles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredibles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It seems barely credible that anyone could have walked so far in a day.",
+            kurdishText:
+                "بە ئەستەم باوەڕپێکراوە کە ھیچ کەس بتوانێت ھێندە لە ڕۆژێکدا ببڕێت.",
+            onPressedBritish: () => speakcredibles2("en-GB"),
+            onPressedAmerican: () => speakcredibles2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It seemed to be a credible account of events."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەھا دەردەکەوێت گێڕانەوەیەکی باوەڕپێکراوی ڕووداوەکان بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredibles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredibles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It seemed to be a credible account of events.",
+            kurdishText:
+                "وەھا دەردەکەوێت گێڕانەوەیەکی باوەڕپێکراوی ڕووداوەکان بێت.",
+            onPressedBritish: () => speakcredibles3("en-GB"),
+            onPressedAmerican: () => speakcredibles3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) کە دەکرێت پەسەنف بکرێت بەھۆی ئەوەی دەکرێت سەرکەوتوو بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Community service is seen as the only credible alternative to imprisonment."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خزمەتی کۆمەڵگە وەک تەنھا جێگرەوەی پەسەمدکراوی زیندانی دەبینرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredibles4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredibles4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Community service is seen as the only credible alternative to imprisonment.",
+            kurdishText:
+                "خزمەتی کۆمەڵگە وەک تەنھا جێگرەوەی پەسەمدکراوی زیندانی دەبینرێت.",
+            onPressedBritish: () => speakcredibles4("en-GB"),
+            onPressedAmerican: () => speakcredibles4("en-US"),
           ),
         ],
       ),

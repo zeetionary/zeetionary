@@ -121,125 +121,49 @@ class EnglishEntryclone extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئاژەڵێک یان ڕووەکێک کە بەشێوەیەکی سرووشتی یان دەستکرد لە خانەکانی ئاژەڵێک یان ڕووەکێک و بەم ھۆیەش تەواو وەک یەکدی بن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plant clone was grown in a laboratory."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووەکە لێکچووەکە لە تاقیگە گەشەی پێدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clone", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclones1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclones1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The plant clone was grown in a laboratory.",
+                            kurdishText:
+                                "ڕووەکە لێکچووەکە لە تاقیگە گەشەی پێدرا.", // clone",
+                            onPressedBritish: () => speakclones1("en-GB"),
+                            onPressedAmerican: () => speakclones1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک یان شتێک کە وا دەردەکەوێت لێکچوویەکی تەواوی یەکێکی دیکە بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most people saw her as just another blond-haired, red-lipped Marilyn Monroe clone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر کەس وەک قژ زەردێک، لێو سوورێکی لێکچووی مارلین مۆنرۆ دەیان بینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclones2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclones2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most people saw her as just another blond-haired, red-lipped Marilyn Monroe clone.",
+                            kurdishText:
+                                "زۆر کەس وەک قژ زەردێک، لێو سوورێکی لێکچووی مارلین مۆنرۆ دەیان بینی.",
+                            onPressedBritish: () => speakclones2("en-GB"),
+                            onPressedAmerican: () => speakclones2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کۆمپیوتەرێک کە لێکچووی یەکێکی دیکەی گرانترە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Once they found that the PC clones were just as good, companies saved a lot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتێک کە زانییان کۆمپیوتەرە کۆپییەکان ھەمان باشییان ھەبوو، کۆمپانیاکان پارەیەکی زۆریان قازانج کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclones3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclones3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Once they found that the PC clones were just as good, companies saved a lot.",
+                            kurdishText:
+                                "کاتێک کە زانییان کۆمپیوتەرە کۆپییەکان ھەمان باشییان ھەبوو، کۆمپانیاکان پارەیەکی زۆریان قازانج کرد.",
+                            onPressedBritish: () => speakclones3("en-GB"),
+                            onPressedAmerican: () => speakclones3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) درووستکردنی لێکچوویەکی ئاژەڵێک یان ڕووەکێک بە بەکارھێنانی خانەکانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A team from the UK were the first to successfully clone an animal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمێکی بەریتانی یەکەمین بوون کە بە سەرکەوتوویی ئاژەڵێک کۆپی بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclones4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclones4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A team from the UK were the first to successfully clone an animal.",
+                            kurdishText:
+                                "تیمێکی بەریتانی یەکەمین بوون کە بە سەرکەوتوویی ئاژەڵێک کۆپی بکەن.",
+                            onPressedBritish: () => speakclones4("en-GB"),
+                            onPressedAmerican: () => speakclones4("en-US"),
                           ),
                         ],
                       ),

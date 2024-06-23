@@ -104,66 +104,28 @@ class EnglishEntrycircumstantial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) زانیاری و وردەکاری کە بە بەھێزی ئاماژە بەوە دەکات کە شتێک ڕاستە، بەڵام نایسەلمێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The case against him was largely circumstantial."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەیسەکەی دژی زیاتر پشتبەستوو بە بەڵگە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circumstantial", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcircumstantials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcircumstantials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The case against him was largely circumstantial.",
+                            kurdishText:
+                                "کەیسەکەی دژی زیاتر پشتبەستوو بە بەڵگە بوو.", // circumstantial",
+                            onPressedBritish: () =>
+                                speakcircumstantials1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcircumstantials1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) پەیوەندیدار بە ھەلومەرجێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their problems were circumstantial rather than personal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشەکانیان زیاتر بەھۆی ھەلومەرجەوە بوون نەک ئەوەی کەسی بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcircumstantials2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcircumstantials2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their problems were circumstantial rather than personal.",
+                            kurdishText:
+                                "کێشەکانیان زیاتر بەھۆی ھەلومەرجەوە بوون نەک ئەوەی کەسی بن.",
+                            onPressedBritish: () =>
+                                speakcircumstantials2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcircumstantials2("en-US"),
                           ),
                         ],
                       ),

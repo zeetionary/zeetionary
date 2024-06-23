@@ -130,150 +130,55 @@ class EnglishEntryclassify extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پۆلێنکردن بە پێی تایبەتمەندی و خاسیەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The books in the library are classified according to subject."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکانی کتێبخانەکە بەپێی بابەت پۆلێنکراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "classify", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassifys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassifys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The books in the library are classified according to subject.",
+                            kurdishText:
+                                "کتێبەکانی کتێبخانەکە بەپێی بابەت پۆلێنکراون.", // classify",
+                            onPressedBritish: () => speakclassifys1("en-GB"),
+                            onPressedAmerican: () => speakclassifys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Patients are classified into three categories."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشەکان بەسەر سێ پۆلدا دابەش دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassifys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassifys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Patients are classified into three categories.",
+                            kurdishText:
+                                "نەخۆشەکان بەسەر سێ پۆلدا دابەش دەکرێن.",
+                            onPressedBritish: () => speakclassifys2("en-GB"),
+                            onPressedAmerican: () => speakclassifys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بڕیاردان لەوەی کەسێک/شتێک سەر بە چی گرووپێکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Only eleven of these accidents were classified as major."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا یازدە لەم ڕووداوانە بە گەورە ھەمارکراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassifys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassifys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Only eleven of these accidents were classified as major.",
+                            kurdishText:
+                                "تەنھا یازدە لەم ڕووداوانە بە گەورە ھەمارکراون.",
+                            onPressedBritish: () => speakclassifys3("en-GB"),
+                            onPressedAmerican: () => speakclassifys3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Would you classify it as a hard drug or a soft drug?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە مادەیەکی ھۆشبەری بەھێز یان لاواز دایدەنێیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassifys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassifys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Would you classify it as a hard drug or a soft drug?",
+                            kurdishText:
+                                "بە مادەیەکی ھۆشبەری بەھێز یان لاواز دایدەنێیت؟",
+                            onPressedBritish: () => speakclassifys4("en-GB"),
+                            onPressedAmerican: () => speakclassifys4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) ڕاگەیاندنی ئەوەی کە زانیارییەک بە فەرمی نھێنییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government insists on keeping certain documents classified."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت پێداگری لەوە دەکات ژمارەیەک بەڵگەنامە بە نھێنی ھێڵێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassifys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassifys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government insists on keeping certain documents classified.",
+                            kurdishText:
+                                "حکومەت پێداگری لەوە دەکات ژمارەیەک بەڵگەنامە بە نھێنی ھێڵێتەوە.",
+                            onPressedBritish: () => speakclassifys5("en-GB"),
+                            onPressedAmerican: () => speakclassifys5("en-US"),
                           ),
                         ],
                       ),

@@ -103,64 +103,25 @@ class EnglishEntrycompanionship extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو ھەستە خۆشەی کە ھەتە ئەو کاتەی کە پەیوەندییەکی ھاوڕێیانەت ھەیە و تەنھا نیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They meet at the club for companionship and advice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە یانەکە یەکیان بینی بۆ دۆستایەتی و ڕاوێژ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "companionship", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompanionships1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompanionships1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They meet at the club for companionship and advice.",
+                            kurdishText:
+                                "لە یانەکە یەکیان بینی بۆ دۆستایەتی و ڕاوێژ.", // companionship",
+                            onPressedBritish: () =>
+                                speakcompanionships1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompanionships1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had only her cat for companionship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا پشیلەکەیی ھەبوو بۆ یاوەرێتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompanionships2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompanionships2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had only her cat for companionship.",
+                            kurdishText: "تەنھا پشیلەکەیی ھەبوو بۆ یاوەرێتی.",
+                            onPressedBritish: () =>
+                                speakcompanionships2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompanionships2("en-US"),
                           ),
                         ],
                       ),

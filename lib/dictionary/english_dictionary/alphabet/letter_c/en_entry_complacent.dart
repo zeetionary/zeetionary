@@ -103,60 +103,22 @@ class EnglishEntrycomplacent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھێندە ڕازیت بە توانا و بارودۆخی خۆت کە پێت وایە چی دیکە پێویست ناکات ھەوڵی زیاتر بدەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We can't afford to become complacent about any of our products."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرگەی ئەوە ناگرین قایل بین بە ھیچ یەک لە بەرھەمەکانمان (دەبێت بەردەوام باشتر بین)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complacent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplacents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplacents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We can't afford to become complacent about any of our products.",
+                            kurdishText:
+                                "بەرگەی ئەوە ناگرین قایل بین بە ھیچ یەک لە بەرھەمەکانمان (دەبێت بەردەوام باشتر بین).", // complacent",
+                            onPressedBritish: () => speakcomplacents1("en-GB"),
+                            onPressedAmerican: () => speakcomplacents1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We must not become complacent about progress."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت لەخۆبایی نەبین بە بەرەوپێشچوونمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplacents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplacents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We must not become complacent about progress.",
+                            kurdishText:
+                                "دەبێت لەخۆبایی نەبین بە بەرەوپێشچوونمان.",
+                            onPressedBritish: () => speakcomplacents2("en-GB"),
+                            onPressedAmerican: () => speakcomplacents2("en-US"),
                           ),
                         ],
                       ),

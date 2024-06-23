@@ -112,96 +112,38 @@ class EnglishEntrycongratulation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پیرۆزبایی لێکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "May I be the first to offer my congratulations on your promotion?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەکرێت یەکەم کەس بم پیرۆزباییت لێبکەم بۆ پلە بەرزکردنەوەکەت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congratulation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongratulations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongratulations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "May I be the first to offer my congratulations on your promotion?",
+                            kurdishText:
+                                "دەکرێت یەکەم کەس بم پیرۆزباییت لێبکەم بۆ پلە بەرزکردنەوەکەت؟", // congratulation",
+                            onPressedBritish: () =>
+                                speakcongratulations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongratulations1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) وەک وشەیەک بۆ پیرۆزبایی لێکردن بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Congratulations on your exam results!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەنجامی تاقیکردنەوەکانت پیرۆزە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongratulations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongratulations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Congratulations on your exam results!",
+                            kurdishText: "ئەنجامی تاقیکردنەوەکانت پیرۆزە!",
+                            onPressedBritish: () =>
+                                speakcongratulations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongratulations2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘We're getting married!’ ‘Congratulations!’"),
-                                    ExampleSentenceKurdish(
-                                        text: "'ھاوسەرگیری دەکەین!' 'پیرۆزە!'"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongratulations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongratulations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘We're getting married!’ ‘Congratulations!’",
+                            kurdishText: "'ھاوسەرگیری دەکەین!' 'پیرۆزە!'",
+                            onPressedBritish: () =>
+                                speakcongratulations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongratulations3("en-US"),
                           ),
                         ],
                       ),

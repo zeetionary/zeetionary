@@ -111,91 +111,34 @@ class EnglishEntryclan extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژمارەیەک خێزان کە پەیوەندیدارن بە یەکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He became clan chief after his father's death."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوو بە سەرگەورەی تایەفەکەی لە دوای مەرگی باوکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clan", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He became clan chief after his father's death.",
+                            kurdishText:
+                                "بوو بە سەرگەورەی تایەفەکەی لە دوای مەرگی باوکی.", // clan",
+                            onPressedBritish: () => speakclans1("en-GB"),
+                            onPressedAmerican: () => speakclans1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Heavy fighting between rival clans was reported."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەواڵی پێکدادانی توند لە نێوان تایەفە دژبەرەکاندا بڵاوکرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclans2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclans2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Heavy fighting between rival clans was reported.",
+                            kurdishText:
+                                "ھەواڵی پێکدادانی توند لە نێوان تایەفە دژبەرەکاندا بڵاوکرایەوە.",
+                            onPressedBritish: () => speakclans2("en-GB"),
+                            onPressedAmerican: () => speakclans2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) خێزانێکی زۆر گەورە، یان ژمارەیەک کەس کە پەیوەندییان ھەیە بە ھۆکارێکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's a photo of the whole Kennedy clan on the bookshelf."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێنەیەکی تەواوی بنەماڵەی کەنەدی ھەیە لەسەر ڕەفەی کتێبەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclans3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclans3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's a photo of the whole Kennedy clan on the bookshelf.",
+                            kurdishText:
+                                "وێنەیەکی تەواوی بنەماڵەی کەنەدی ھەیە لەسەر ڕەفەی کتێبەکان.",
+                            onPressedBritish: () => speakclans3("en-GB"),
+                            onPressedAmerican: () => speakclans3("en-US"),
                           ),
                         ],
                       ),

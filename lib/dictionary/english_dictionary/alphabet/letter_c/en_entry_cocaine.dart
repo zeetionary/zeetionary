@@ -94,32 +94,13 @@ class EnglishEntrycocaine extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆکاین؛ مادەیەکی بەھێز کە ھەندێک کەس بە نایاسایی دەیکێشن و دەکرێت ئاڵوودە بن پێی. پزیشکان ھەندێک جار وەک بەنج بەکاریدێنن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He became addicted to cocaine in his twenties."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بیستەکانی تەمەنیدا ئاڵوودە بوو بە کۆکاین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cocaine", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcocaines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcocaines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He became addicted to cocaine in his twenties.",
+                            kurdishText:
+                                "لە بیستەکانی تەمەنیدا ئاڵوودە بوو بە کۆکاین.", // cocaine",
+                            onPressedBritish: () => speakcocaines1("en-GB"),
+                            onPressedAmerican: () => speakcocaines1("en-US"),
                           ),
                         ],
                       ),

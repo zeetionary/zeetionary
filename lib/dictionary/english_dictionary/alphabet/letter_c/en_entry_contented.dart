@@ -94,30 +94,12 @@ class EnglishEntrycontented extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەستکردن بە خۆشی و شادی، بەتایبەتی بەھۆی ئەوەی ژیانت باشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was a contented man."),
-                                    ExampleSentenceKurdish(
-                                        text: "پیاوێکی بە قەناعەت بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contented", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontenteds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontenteds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was a contented man.",
+                            kurdishText:
+                                "پیاوێکی بە قەناعەت بوو.", // contented",
+                            onPressedBritish: () => speakcontenteds1("en-GB"),
+                            onPressedAmerican: () => speakcontenteds1("en-US"),
                           ),
                         ],
                       ),

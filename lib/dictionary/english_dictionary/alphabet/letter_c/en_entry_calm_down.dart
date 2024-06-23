@@ -188,60 +188,21 @@ class EnglishEntrycalmdown extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) ئارامبوونەوە؛ دامرکاندنەوە یان ئارامکردنەوەی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Look, calm down! We'll find her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەیرکە، ئارامبەوە! دەیدۆزینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calm down", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalmdowns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalmdowns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Look, calm down! We'll find her.",
+                            kurdishText:
+                                "سەیرکە، ئارامبەوە! دەیدۆزینەوە.", // calm down
+                            onPressedBritish: () => speakcalmdowns1("en-GB"),
+                            onPressedAmerican: () => speakcalmdowns1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We waited inside until things calmed down."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ژوورەوە چاوەڕێ بووین تا شتەکان دامرکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalmdowns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalmdowns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We waited inside until things calmed down.",
+                            kurdishText:
+                                "لە ژوورەوە چاوەڕێ بووین تا شتەکان دامرکانەوە.",
+                            onPressedBritish: () => speakcalmdowns2("en-GB"),
+                            onPressedAmerican: () => speakcalmdowns2("en-US"),
                           ),
                         ],
                       ),

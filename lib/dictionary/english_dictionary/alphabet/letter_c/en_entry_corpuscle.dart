@@ -231,32 +231,13 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) خڕۆکە سوور و سپییەکانی خوێن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Red blood corpuscles are responsible for carrying oxygen in the blood."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خڕۆکە سوورەکانی خوێن بەرپرسی گواستنەوەی ئۆکسجینن لە خوێندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corpuscle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorpuscles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorpuscles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Red blood corpuscles are responsible for carrying oxygen in the blood.",
+            kurdishText:
+                "خڕۆکە سوورەکانی خوێن بەرپرسی گواستنەوەی ئۆکسجینن لە خوێندا.", // corpuscle", please follow LX instructions
+            onPressedBritish: () => speakcorpuscles1("en-GB"),
+            onPressedAmerican: () => speakcorpuscles1("en-US"),
           ),
         ],
       ),

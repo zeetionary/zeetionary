@@ -194,93 +194,36 @@ class EnglishEntrycannon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) چەکێکی قورس و گەورەی کۆن کە لەسەر ویلە و تۆپەڵە بەرد یان تۆپەڵە ئاسن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Three cannon opened fire."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێ تۆپھاوێژ دەستیان بە بە شەڕ کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cannon", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcannons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcannons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Three cannon opened fire.",
+                            kurdishText:
+                                "سێ تۆپھاوێژ دەستیان بە بە شەڕ کرد.", // cannon
+                            onPressedBritish: () => speakcannons1("en-GB"),
+                            onPressedAmerican: () => speakcannons1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) چەکێک کە بەستراوە بە فڕۆکەیەکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A burst of fire was discharged by the jet's 20mm cannon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەللەیەک لە فیشەک دەستیپێکرد لە چەکە ٢٠ میلیمەترییەکەی فڕۆکەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcannons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcannons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A burst of fire was discharged by the jet's 20mm cannon.",
+                            kurdishText:
+                                "سەللەیەک لە فیشەک دەستیپێکرد لە چەکە ٢٠ میلیمەترییەکەی فڕۆکەکەوە.",
+                            onPressedBritish: () => speakcannons2("en-GB"),
+                            onPressedAmerican: () => speakcannons2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) لێدان لە شتێک بە ھێزێکی زۆرەوە لەکاتێکدا دەجوڵێیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He ran around the corner, cannoning into a group of kids."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە سووچەکەدا ڕایکرد و کێشای بە ژمارەیەک منداڵدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcannons3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcannons3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He ran around the corner, cannoning into a group of kids.",
+                            kurdishText:
+                                "بە سووچەکەدا ڕایکرد و کێشای بە ژمارەیەک منداڵدا.",
+                            onPressedBritish: () => speakcannons3("en-GB"),
+                            onPressedAmerican: () => speakcannons3("en-US"),
                           ),
                         ],
                       ),

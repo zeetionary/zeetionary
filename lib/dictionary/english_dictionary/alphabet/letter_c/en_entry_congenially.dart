@@ -96,34 +96,14 @@ class EnglishEntrycongenially extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە ڕووخۆشی و ھاوڕێیانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He smiled congenially and offered me his hand to shake."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووخۆشانە پێدەکەنی و دەستی بۆم ڕاکێشا بۆ تەوقە کردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congenially", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcongeniallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcongeniallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He smiled congenially and offered me his hand to shake.",
+                            kurdishText:
+                                "ڕووخۆشانە پێدەکەنی و دەستی بۆم ڕاکێشا بۆ تەوقە کردن.", // congenially",
+                            onPressedBritish: () => speakcongeniallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcongeniallys1("en-US"),
                           ),
                         ],
                       ),

@@ -103,63 +103,25 @@ class EnglishEntrychequered extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ڕابردووی کەسێک کە ماوەی سەرکەوتوو و شکستی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's had a chequered business career."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارێکی بازرگانی پڕ لە ھەورازونشێوی ھەبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chequered", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchequereds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchequereds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's had a chequered business career.",
+                            kurdishText:
+                                "کارێکی بازرگانی پڕ لە ھەورازونشێوی ھەبووە.", // chequered",
+                            onPressedBritish: () => speakchequereds1("en-GB"),
+                            onPressedAmerican: () => speakchequereds1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ھەبوونی شێوەی چوارگۆشەیی ڕەنگاوڕەنگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The restaurant's tables were covered with red and white chequered tablecloths."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێزی چێشتخانەکە داپۆشرابوو بە مێزپۆشی خانەخانەی سوور و سپی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchequereds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchequereds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The restaurant's tables were covered with red and white chequered tablecloths.",
+                            kurdishText:
+                                "مێزی چێشتخانەکە داپۆشرابوو بە مێزپۆشی خانەخانەی سوور و سپی.",
+                            onPressedBritish: () => speakchequereds2("en-GB"),
+                            onPressedAmerican: () => speakchequereds2("en-US"),
                           ),
                         ],
                       ),

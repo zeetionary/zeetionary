@@ -93,32 +93,13 @@ class EnglishEntrycobble extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (کردار) چاککردنەوەی پێڵاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The old man cobbled his shoes with care."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوە پیرەکە بە وریاییەوە پێڵاوەکانی چاککردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cobble", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcobbles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcobbles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The old man cobbled his shoes with care.",
+                            kurdishText:
+                                "پیاوە پیرەکە بە وریاییەوە پێڵاوەکانی چاککردەوە.", // cobble",
+                            onPressedBritish: () => speakcobbles1("en-GB"),
+                            onPressedAmerican: () => speakcobbles1("en-US"),
                           ),
                         ],
                       ),

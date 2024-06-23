@@ -94,32 +94,13 @@ class EnglishEntryconcord extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئاشتی و ڕێککەوتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country's foreign policy aims to promote living in concord with neighboring states."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیاسەتی دەرەوەی وڵاتەکە ئامانجییەتی گرنگی بدات بە گونجان بە ئاشتی لەگەڵ وڵاتانی دراوسێدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concord", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcords1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcords1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The country's foreign policy aims to promote living in concord with neighboring states.",
+                            kurdishText:
+                                "سیاسەتی دەرەوەی وڵاتەکە ئامانجییەتی گرنگی بدات بە گونجان بە ئاشتی لەگەڵ وڵاتانی دراوسێدا.", // concord",
+                            onPressedBritish: () => speakconcords1("en-GB"),
+                            onPressedAmerican: () => speakconcords1("en-US"),
                           ),
                         ],
                       ),

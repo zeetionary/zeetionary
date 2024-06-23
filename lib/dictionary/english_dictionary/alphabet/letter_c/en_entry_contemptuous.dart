@@ -102,63 +102,25 @@ class EnglishEntrycontemptuous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پیشاندانی ئەوەی کە ھیچ ڕێزت بۆ کەسێک نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She gave him a contemptuous look."),
-                                    ExampleSentenceKurdish(
-                                        text: "نیگایەکی سووکانەی لێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contemptuous", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemptuouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemptuouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She gave him a contemptuous look.",
+                            kurdishText:
+                                "نیگایەکی سووکانەی لێکرد.", // contemptuous",
+                            onPressedBritish: () =>
+                                speakcontemptuouss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemptuouss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was contemptuous of everything I did."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە سووکی سەیری ھەر شتێکی دەکرد کە دەمکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemptuouss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemptuouss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was contemptuous of everything I did.",
+                            kurdishText:
+                                "بە سووکی سەیری ھەر شتێکی دەکرد کە دەمکرد.",
+                            onPressedBritish: () =>
+                                speakcontemptuouss2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemptuouss2("en-US"),
                           ),
                         ],
                       ),

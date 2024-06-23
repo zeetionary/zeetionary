@@ -95,34 +95,15 @@ class EnglishEntryconvalescent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە چاکدەبێتەوە لە نەخۆشییەک یان نەشتەرگەرییەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I treated him as a convalescent, not as a sick man."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک ڕوولەچاکبوویەک مامەڵەم لەگەڵ دەکرد نەک پیاوێکی نەخۆش."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convalescent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvalescents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvalescents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I treated him as a convalescent, not as a sick man.",
+                            kurdishText:
+                                "وەک ڕوولەچاکبوویەک مامەڵەم لەگەڵ دەکرد نەک پیاوێکی نەخۆش.", // convalescent",
+                            onPressedBritish: () =>
+                                speakconvalescents1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvalescents1("en-US"),
                           ),
                         ],
                       ),

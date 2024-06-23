@@ -267,32 +267,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خاو، نەپاڵێوراو، پوختەنەکراو، کاڵ‌وکرچ، کاڵ، ناتەواو، ناپوخت، نەگەییو،	خۆڕسک، سروشتی،	ناشارەزایانە، سەرسەرەکی، ناشی‌یانە،	سادە، سەرەتایی،	ئاسایی، ھیچەکە، بازاڕی،	بێ‌ڕەوشت، بێ‌ماریفەت،	قسەلەڕوو، بێ‌پەردە،	پیس، ناشیرین، ھەرزە (شۆخی)، ڕاست نەکراوە، خاو، نەوتی خاو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) لەشێوەی سرووشتیدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The price of crude oil fluctuates based on supply and demand."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نرخی نەوتی خاو کەم و زیاد دەکات بە پشت بەستن بە دابین کردن و خواست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crude", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrudes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrudes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The price of crude oil fluctuates based on supply and demand.",
+            kurdishText:
+                "نرخی نەوتی خاو کەم و زیاد دەکات بە پشت بەستن بە دابین کردن و خواست.", // crude", please follow LX instructions
+            onPressedBritish: () => speakcrudes1("en-GB"),
+            onPressedAmerican: () => speakcrudes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) نەگۆڕاو یان ڕەستنەکراوە"),
@@ -325,121 +306,44 @@ class KurdishMeaning extends StatelessWidget {
           // skipped_meaning
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) بێ‌ڕێزانە و ھەرزە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The film had a warning for crude language in some scenes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیلمەکە ھۆشدارییەکی بۆ بەکارھێنانی زمانی ھەرزە لە ھەندێک دیمەندا ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrudes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrudes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The film had a warning for crude language in some scenes.",
+            kurdishText:
+                "فیلمەکە ھۆشدارییەکی بۆ بەکارھێنانی زمانی ھەرزە لە ھەندێک دیمەندا ھەبوو.",
+            onPressedBritish: () => speakcrudes3("en-GB"),
+            onPressedAmerican: () => speakcrudes3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) سادە و بەشێوەیەک کە زۆر درووست نییە بەڵام تێگەشتنێکی گشتگیر دەدات بە دەستەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In crude terms, a heart attack is a plumbing problem in blood vessels around the heart."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە زمانێکی گشتگیر، جەڵدەی دڵ کێشەیەکی سیستەمییە ناردنە لە موولوولەکانی خوێندا لە دەوری دڵدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrudes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrudes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In crude terms, a heart attack is a plumbing problem in blood vessels around the heart.",
+            kurdishText:
+                "بە زمانێکی گشتگیر، جەڵدەی دڵ کێشەیەکی سیستەمییە ناردنە لە موولوولەکانی خوێندا لە دەوری دڵدا.",
+            onPressedBritish: () => speakcrudes4("en-GB"),
+            onPressedAmerican: () => speakcrudes4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ھاوەڵناو) سادە و بەشێوەیەک کە بە شارەزاییەوە ئامادە نەکراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The constructed a crude shelter from branches."),
-                    ExampleSentenceKurdish(
-                        text: "پەناگەیەکی سادەیان لە لقەکان درووستکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrudes5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrudes5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The constructed a crude shelter from branches.",
+            kurdishText: "پەناگەیەکی سادەیان لە لقەکان درووستکرد.",
+            onPressedBritish: () => speakcrudes5("en-GB"),
+            onPressedAmerican: () => speakcrudes5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ناو) نەوتی خاو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The country exported crude to other nations for refining."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وڵاتەکە نەوتی خاوی بۆ وڵاتان دەنارد بۆ پاڵاوتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrudes6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrudes6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The country exported crude to other nations for refining.",
+            kurdishText: "وڵاتەکە نەوتی خاوی بۆ وڵاتان دەنارد بۆ پاڵاوتن.",
+            onPressedBritish: () => speakcrudes6("en-GB"),
+            onPressedAmerican: () => speakcrudes6("en-US"),
           ),
         ],
       ),

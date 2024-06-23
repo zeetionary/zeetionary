@@ -105,64 +105,26 @@ class EnglishEntrycontroversially extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە ناکۆکی و مشتومڕی زۆری لەسەرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Controversially, the girl was expelled from school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مشت‌ومڕلەسەرانە، کچەکە لە خوێندنگا دەرکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "controversially", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontroversiallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontroversiallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Controversially, the girl was expelled from school.",
+                            kurdishText:
+                                "مشت‌ومڕلەسەرانە، کچەکە لە خوێندنگا دەرکرا.", // controversially",
+                            onPressedBritish: () =>
+                                speakcontroversiallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontroversiallys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was controversially removed from his post."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە شێوەیەکی مشتومڕاوی لە پۆستەکەی دوورخرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontroversiallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontroversiallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was controversially removed from his post.",
+                            kurdishText:
+                                "بە شێوەیەکی مشتومڕاوی لە پۆستەکەی دوورخرایەوە.",
+                            onPressedBritish: () =>
+                                speakcontroversiallys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontroversiallys2("en-US"),
                           ),
                         ],
                       ),

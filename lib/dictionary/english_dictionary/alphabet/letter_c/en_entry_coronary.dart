@@ -241,61 +241,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) پەیوەندیدار بەو خوێبەرانەی کە لە دڵەوە خوێن بۆ دڵ خۆی دەگوازنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Regular exercise reduces the risk of coronary heart disease."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاھێنانی بەردەوام مەترسی نەخۆشی خوێنبەرەکانی ناو دڵ کەمدەکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "coronary", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoronarys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoronarys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Regular exercise reduces the risk of coronary heart disease.",
+            kurdishText:
+                "ڕاھێنانی بەردەوام مەترسی نەخۆشی خوێنبەرەکانی ناو دڵ کەمدەکاتەوە.", // coronary", please follow LX instructions
+            onPressedBritish: () => speakcoronarys1("en-GB"),
+            onPressedAmerican: () => speakcoronarys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) وەستانی سوڕی خوێن لە خوێنبەرێکدا کە خوێن بۆ دڵ دەگوازێتەوە"),
           const AlsoEnglishckb(word: "ھەروەھا: coronary thrombosis"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She suffered a coronary thrombosis."),
-                    ExampleSentenceKurdish(text: "تووشی جەڵدەی دڵ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoronarys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoronarys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She suffered a coronary thrombosis.",
+            kurdishText: "تووشی جەڵدەی دڵ بوو.",
+            onPressedBritish: () => speakcoronarys2("en-GB"),
+            onPressedAmerican: () => speakcoronarys2("en-US"),
           ),
         ],
       ),

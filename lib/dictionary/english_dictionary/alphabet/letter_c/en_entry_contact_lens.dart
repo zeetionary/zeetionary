@@ -95,34 +95,14 @@ class EnglishEntrycontactlens extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچە پلاستیکێکی باریک کە بە گلێنەی چاوەوە دەلکێنرێت بۆ توانای باشتری بینین "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I usually wear contact lenses, but I sometimes wear glasses when my eyes are tired."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرجار ھاوێنەی چاو دادەنێم، بەڵام ھەندێک جار چاویلکە لەچاودەکەم کە چاوەکانم ماندوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contact lens", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontactlenss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontactlenss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I usually wear contact lenses, but I sometimes wear glasses when my eyes are tired.",
+                            kurdishText:
+                                "زۆرجار ھاوێنەی چاو دادەنێم، بەڵام ھەندێک جار چاویلکە لەچاودەکەم کە چاوەکانم ماندوون.", // contact lens",
+                            onPressedBritish: () => speakcontactlenss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontactlenss1("en-US"),
                           ),
                         ],
                       ),

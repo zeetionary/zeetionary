@@ -186,30 +186,11 @@ class EnglishEntrycashback extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بڕە پارەیەک کە داوای دەکەیت لە کاتی شت کڕین بە دێبیت کارد، و بڕە پارەکە دەچێتە سەر پسوولەکەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Would you like cashback?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کاشباکت دەوێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cashback", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcashbacks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcashbacks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Would you like cashback?",
+                            kurdishText: "کاشباکت دەوێت؟", // cashback",
+                            onPressedBritish: () => speakcashbacks1("en-GB"),
+                            onPressedAmerican: () => speakcashbacks1("en-US"),
                           ),
                         ],
                       ),

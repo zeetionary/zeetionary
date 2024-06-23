@@ -92,30 +92,11 @@ class EnglishEntrychum extends StatelessWidget {
 کوردی: ھەواڵ، دۆست، یار، ڕەفیق (گیانی‌گیانی)، دەم‌ساز
 """),
                           const DefinitionKurdish(text: "١. (ناو) ھاوڕێیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "That's all right by me, chum."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر ئاساییە لام، ھاوڕێکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chum", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchums1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchums1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That's all right by me, chum.",
+                            kurdishText: "زۆر ئاساییە لام، ھاوڕێکەم.", // chum",
+                            onPressedBritish: () => speakchums1("en-GB"),
+                            onPressedAmerican: () => speakchums1("en-US"),
                           ),
                         ],
                       ),

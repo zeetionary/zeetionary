@@ -94,32 +94,13 @@ class EnglishEntrycoalmine extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کانی خەڵووز؛ شوێنێک لەژێر زەوی کە خەڵووزی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The coal mine employed hundreds of workers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کانە خەڵووزەکە کاری بۆ سەدان کرێکار دابینکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coal mine", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoalmines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoalmines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The coal mine employed hundreds of workers.",
+                            kurdishText:
+                                "کانە خەڵووزەکە کاری بۆ سەدان کرێکار دابینکرد.", // coal mine",
+                            onPressedBritish: () => speakcoalmines1("en-GB"),
+                            onPressedAmerican: () => speakcoalmines1("en-US"),
                           ),
                         ],
                       ),

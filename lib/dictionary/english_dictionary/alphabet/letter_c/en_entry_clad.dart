@@ -110,89 +110,32 @@ class EnglishEntryclad extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پۆشینی جلوبەرگێکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She was clad in blue velvet."),
-                                    ExampleSentenceKurdish(
-                                        text: "قەیفەی شینی لەبەربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clad", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclads1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclads1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was clad in blue velvet.",
+                            kurdishText: "قەیفەی شینی لەبەربوو.", // clad",
+                            onPressedBritish: () => speakclads1("en-GB"),
+                            onPressedAmerican: () => speakclads1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She went home and returned more suitably clad."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چووە ماڵەوە و بە پۆشتەیی گونجاوتر گەڕایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclads2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclads2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She went home and returned more suitably clad.",
+                            kurdishText:
+                                "چووە ماڵەوە و بە پۆشتەیی گونجاوتر گەڕایەوە.",
+                            onPressedBritish: () => speakclads2("en-GB"),
+                            onPressedAmerican: () => speakclads2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) داپۆشراو بە شتێکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We hiked through snow-clad hills for hours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ چەندین کاتژمێر بە گردە بەفرپۆشەکاندا پیادەیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclads3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclads3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We hiked through snow-clad hills for hours.",
+                            kurdishText:
+                                "بۆ چەندین کاتژمێر بە گردە بەفرپۆشەکاندا پیادەیان دەکرد.",
+                            onPressedBritish: () => speakclads3("en-GB"),
+                            onPressedAmerican: () => speakclads3("en-US"),
                           ),
                         ],
                       ),

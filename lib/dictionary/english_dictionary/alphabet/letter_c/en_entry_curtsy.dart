@@ -242,57 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جوڵەیەک کە زیاتر ژنێک دەیکات بە چەماندنەوەی لاقی دانانی پێیەکی لە پێش ئەوەی دیکە بۆ پیشاندانی ڕێز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She gave a curtsy before presenting the flowers to the princess."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆدانەواندنێکی ئەنجامدا پێش ئەوەی گوڵەکان بدات بە شازادە خاتوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curtsy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtsys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtsys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She gave a curtsy before presenting the flowers to the princess.",
+            kurdishText:
+                "خۆدانەواندنێکی ئەنجامدا پێش ئەوەی گوڵەکان بدات بە شازادە خاتوون.", // curtsy", please follow LX instructions
+            onPressedBritish: () => speakcurtsys1("en-GB"),
+            onPressedAmerican: () => speakcurtsys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) ئەنجامدانی خۆدانەواندن "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She curtsied to the Queen."),
-                    ExampleSentenceKurdish(text: "خۆی بۆ شاژن دانەواند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtsys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtsys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She curtsied to the Queen.",
+            kurdishText: "خۆی بۆ شاژن دانەواند.",
+            onPressedBritish: () => speakcurtsys2("en-GB"),
+            onPressedAmerican: () => speakcurtsys2("en-US"),
           ),
         ],
       ),

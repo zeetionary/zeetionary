@@ -103,64 +103,26 @@ class EnglishEntryconsequently extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) لە ئەنجامی ڕوودانی شتێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This poses a threat to agriculture and the food chain, and consequently to human health."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە مەترسی درووست دەکات بۆ کشتوکاڵ و زنجیرەی خۆراکی، و لە ئەنجامدا تەندرووستی مرۆڤ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consequently", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsequentlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsequentlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This poses a threat to agriculture and the food chain, and consequently to human health.",
+                            kurdishText:
+                                "ئەمە مەترسی درووست دەکات بۆ کشتوکاڵ و زنجیرەی خۆراکی، و لە ئەنجامدا تەندرووستی مرۆڤ.", // consequently",
+                            onPressedBritish: () =>
+                                speakconsequentlys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsequentlys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She failed her exams and was consequently unable to start her studies at college."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شکستی ھێنا لە تاقیکردنەوەکانی و لە ئەنجامدا نەیتوانی خوێندنی کۆلێژی دەست‌پێ‌ بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsequentlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsequentlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She failed her exams and was consequently unable to start her studies at college.",
+                            kurdishText:
+                                "شکستی ھێنا لە تاقیکردنەوەکانی و لە ئەنجامدا نەیتوانی خوێندنی کۆلێژی دەست‌پێ‌ بکات.",
+                            onPressedBritish: () =>
+                                speakconsequentlys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsequentlys2("en-US"),
                           ),
                         ],
                       ),

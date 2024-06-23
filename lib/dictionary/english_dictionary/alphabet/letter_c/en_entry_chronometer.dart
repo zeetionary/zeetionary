@@ -95,34 +95,14 @@ class EnglishEntrychronometer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کاتژمێرێکی کە کات زۆر بە درووستی دەخوێنێتەوە و زیاتر لە دەریادا بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ship's captain relied on the chronometer for precise navigation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاپتنی کەشتییەکە پشتی بە کاتژمێرە درووستەکەی دەبەست بۆ ڕێدۆزی درووست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chronometer", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchronometers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchronometers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ship's captain relied on the chronometer for precise navigation.",
+                            kurdishText:
+                                "کاپتنی کەشتییەکە پشتی بە کاتژمێرە درووستەکەی دەبەست بۆ ڕێدۆزی درووست.", // chronometer",
+                            onPressedBritish: () => speakchronometers1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchronometers1("en-US"),
                           ),
                         ],
                       ),

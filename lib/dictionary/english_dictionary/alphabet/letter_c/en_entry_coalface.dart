@@ -94,32 +94,13 @@ class EnglishEntrycoalface extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جێگای ھەرە قووڵی ناو کانێکی خەڵووز کە تێیدا خەڵووز لە ڕووی بەردەکە جیادەکرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The miners had to crawl to reach the coalface."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کانکارەکان دەبوو بە زەوییەکەدا بخشێن بۆ ئەوەی بگەن بە ڕووی خەڵووزەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coalface", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoalfaces1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoalfaces1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The miners had to crawl to reach the coalface.",
+                            kurdishText:
+                                "کانکارەکان دەبوو بە زەوییەکەدا بخشێن بۆ ئەوەی بگەن بە ڕووی خەڵووزەکە.", // coalface",
+                            onPressedBritish: () => speakcoalfaces1("en-GB"),
+                            onPressedAmerican: () => speakcoalfaces1("en-US"),
                           ),
                         ],
                       ),

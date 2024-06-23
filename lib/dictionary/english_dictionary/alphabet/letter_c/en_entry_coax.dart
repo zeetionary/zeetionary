@@ -112,88 +112,31 @@ class EnglishEntrycoax extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) قایلکردنی کەسێک بۆ کردنی شتێک بە قسەکردن لەگەڵی بەشێوەیەکی ئارام"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She coaxed the horse into coming a little closer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەسپەکەی قایلکرد کەمێک نزیک ببێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coax", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoaxs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoaxs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She coaxed the horse into coming a little closer.",
+                            kurdishText:
+                                "ئەسپەکەی قایلکرد کەمێک نزیک ببێتەوە.", // coax",
+                            onPressedBritish: () => speakcoaxs1("en-GB"),
+                            onPressedAmerican: () => speakcoaxs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She never failed to coax good results out of her pupils."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز شکستی نەھێنا لەوەی ئەنجامی باش بەدەست بێنێت لە خوێندکارەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoaxs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoaxs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She never failed to coax good results out of her pupils.",
+                            kurdishText:
+                                "ھەرگیز شکستی نەھێنا لەوەی ئەنجامی باش بەدەست بێنێت لە خوێندکارەکانی.",
+                            onPressedBritish: () => speakcoaxs2("en-GB"),
+                            onPressedAmerican: () => speakcoaxs2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was coaxed out of retirement to help the failing company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قایلکرا کۆتایی بە خانەنشینییەکەی بێنێت و یارمەتی کۆمپانیا شکستخواردووکە بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoaxs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoaxs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was coaxed out of retirement to help the failing company.",
+                            kurdishText:
+                                "قایلکرا کۆتایی بە خانەنشینییەکەی بێنێت و یارمەتی کۆمپانیا شکستخواردووکە بدات.",
+                            onPressedBritish: () => speakcoaxs3("en-GB"),
+                            onPressedAmerican: () => speakcoaxs3("en-US"),
                           ),
                         ],
                       ),

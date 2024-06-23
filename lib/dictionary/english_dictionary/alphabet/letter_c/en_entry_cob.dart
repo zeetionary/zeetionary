@@ -103,62 +103,23 @@ class EnglishEntrycob extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەشە درێژ و سەختەکەی گەنمەشامی کە تۆوە زەردەکان لەسەری گەشە دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cut the corn kernels from the cob."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆوەکان لە ساقەتەی گەنمەشامییەکە بکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cob", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcobs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcobs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Cut the corn kernels from the cob.",
+                            kurdishText:
+                                "تۆوەکان لە ساقەتەی گەنمەشامییەکە بکەوە.", // cob",
+                            onPressedBritish: () => speakcobs1("en-GB"),
+                            onPressedAmerican: () => speakcobs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ئەسپێکی بەھێزی قاچ کورت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One of my early memories is riding a cob called Rufus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە یادەوەرییە کۆنەکانم سواریکردنی ئەسپێکە بەناوی ڕوفوس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcobs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcobs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One of my early memories is riding a cob called Rufus.",
+                            kurdishText:
+                                "یەکێک لە یادەوەرییە کۆنەکانم سواریکردنی ئەسپێکە بەناوی ڕوفوس.",
+                            onPressedBritish: () => speakcobs2("en-GB"),
+                            onPressedAmerican: () => speakcobs2("en-US"),
                           ),
                         ],
                       ),

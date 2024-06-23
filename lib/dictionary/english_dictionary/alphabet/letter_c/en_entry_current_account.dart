@@ -236,32 +236,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جۆرە ھەژمارێکی بانکی کە ھەر بتەوێت دەتوانیت پارەی لێ ڕابکێشیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He checked his current account balance online before making a purchase."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێش کڕین سەیری باڵانسی ھەژمارە ڕەوەنییەکەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "current account", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrentaccounts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrentaccounts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He checked his current account balance online before making a purchase.",
+            kurdishText:
+                "پێش کڕین سەیری باڵانسی ھەژمارە ڕەوەنییەکەی کرد.", // current account", please follow LX instructions
+            onPressedBritish: () => speakcurrentaccounts1("en-GB"),
+            onPressedAmerican: () => speakcurrentaccounts1("en-US"),
           ),
         ],
       ),

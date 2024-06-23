@@ -192,32 +192,13 @@ class EnglishEntrycavalcade extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕیزێک لە خەڵک کە لەسەر ئەسپن یان لە ئۆتۆمبێلن و بەشێکی مەراسیمێکن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were followed by a cavalcade of 20 cars."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەلایەن دەستەیەکی ٢٠ ئۆتۆمبێلییەوە یاوەری دەکران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cavalcade", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcavalcades1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcavalcades1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were followed by a cavalcade of 20 cars.",
+                            kurdishText:
+                                "لەلایەن دەستەیەکی ٢٠ ئۆتۆمبێلییەوە یاوەری دەکران.", // cavalcade",
+                            onPressedBritish: () => speakcavalcades1("en-GB"),
+                            onPressedAmerican: () => speakcavalcades1("en-US"),
                           ),
                         ],
                       ),

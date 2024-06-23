@@ -93,32 +93,13 @@ class EnglishEntrycolt extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بەچکە ئەسپێکی نێرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The colt followed its mother closely."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوانووەکە بەنزیکی لە دوای دایکییەوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colt", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The colt followed its mother closely.",
+                            kurdishText:
+                                "جوانووەکە بەنزیکی لە دوای دایکییەوە بوو.", // colt",
+                            onPressedBritish: () => speakcolts1("en-GB"),
+                            onPressedAmerican: () => speakcolts1("en-US"),
                           ),
                         ],
                       ),

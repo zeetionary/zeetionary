@@ -170,59 +170,20 @@ class EnglishEntryconstant extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بەردەوام ڕوودان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were constant interruptions."),
-                                    ExampleSentenceKurdish(
-                                        text: "پچڕانی بەردەوام ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constant", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "There were constant interruptions.",
+                            kurdishText: "پچڕانی بەردەوام ھەبوو.", // constant",
+                            onPressedBritish: () => speakconstants1("en-GB"),
+                            onPressedAmerican: () => speakconstants1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ruined buildings serve as a constant reminder of the war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بینا وێرانبووەکان بیرھێنەرەوەی بەردەوامی جەنگەکە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstants2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstants2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ruined buildings serve as a constant reminder of the war.",
+                            kurdishText:
+                                "بینا وێرانبووەکان بیرھێنەرەوەی بەردەوامی جەنگەکە بوون.",
+                            onPressedBritish: () => speakconstants2("en-GB"),
+                            onPressedAmerican: () => speakconstants2("en-US"),
                           ),
                           Column(
                             children: [
@@ -383,88 +344,31 @@ class EnglishEntryconstant extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ھاوەڵناو) نەگۆڕ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car was travelling at a constant speed of 50 mph."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە بە خێرایی نەگۆڕی ٥٠ میل/کاتژمێرێکدا دەچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstants8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstants8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The car was travelling at a constant speed of 50 mph.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە بە خێرایی نەگۆڕی ٥٠ میل/کاتژمێرێکدا دەچوو.",
+                            onPressedBritish: () => speakconstants8("en-GB"),
+                            onPressedAmerican: () => speakconstants8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Crime levels remain constant."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕێژەی تاوان بە نەگۆڕ ماوەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstants9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstants9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Crime levels remain constant.",
+                            kurdishText: "ڕێژەی تاوان بە نەگۆڕ ماوەتەوە.",
+                            onPressedBritish: () => speakconstants9("en-GB"),
+                            onPressedAmerican: () => speakconstants9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ژمارە یان بڕێکی نەگۆڕ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The mathematician used the constant \"π\" in his calculations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیرکاریزانەکە نەگۆڕی 'π' ـی بەکارھێنا لە شیکارییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstants10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstants10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The mathematician used the constant \"π\" in his calculations.",
+                            kurdishText:
+                                "بیرکاریزانەکە نەگۆڕی 'π' ـی بەکارھێنا لە شیکارییەکەی.",
+                            onPressedBritish: () => speakconstants10("en-GB"),
+                            onPressedAmerican: () => speakconstants10("en-US"),
                           ),
                         ],
                       ),

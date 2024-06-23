@@ -104,64 +104,24 @@ class EnglishEntrycontretemps extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مشتومڕێکی بچووک؛ ڕووداوێکی ناخۆش یان شەرمھێنەر کە تێیدا خەڵکی ناکۆکن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have been ignoring me since our last contretemps."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەوتەی کۆتا مشتومڕمانەوە پشتگوێم دەخەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contretemps", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontretempss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontretempss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have been ignoring me since our last contretemps.",
+                            kurdishText:
+                                "لەوتەی کۆتا مشتومڕمانەوە پشتگوێم دەخەن.", // contretemps",
+                            onPressedBritish: () => speakcontretempss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontretempss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a slight contretemps between Richard and some guy at the bar."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگە دەنگێک لە نێوان ڕیچارد و پیاوێک لە باڕەکە ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontretempss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontretempss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a slight contretemps between Richard and some guy at the bar.",
+                            kurdishText:
+                                "دەنگە دەنگێک لە نێوان ڕیچارد و پیاوێک لە باڕەکە ھەبوو.",
+                            onPressedBritish: () => speakcontretempss2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontretempss2("en-US"),
                           ),
                         ],
                       ),

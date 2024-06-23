@@ -106,67 +106,29 @@ class EnglishEntrycompatibility extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پێکەوە گونجانی مرۆڤ یان شت پێکەوە بەبێ کێشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The compatibility of brothers and sisters depends on their personalities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکەوە گونجانی خوشک و برا دەکەوێتە سەر کەسایەتییان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compatibility", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompatibilitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompatibilitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The compatibility of brothers and sisters depends on their personalities.",
+                            kurdishText:
+                                "پێکەوە گونجانی خوشک و برا دەکەوێتە سەر کەسایەتییان.", // compatibility",
+                            onPressedBritish: () =>
+                                speakcompatibilitys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompatibilitys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) توانای پێکەوە بەکارھێنانی ئامێر پێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I am not impressed by the file compatibility with previous versions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵخۆش نیم بە گونجانی فایلەکە لەگەڵ وەشانەکانی پێشووتردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompatibilitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompatibilitys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I am not impressed by the file compatibility with previous versions.",
+                            kurdishText:
+                                "دڵخۆش نیم بە گونجانی فایلەکە لەگەڵ وەشانەکانی پێشووتردا.",
+                            onPressedBritish: () =>
+                                speakcompatibilitys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompatibilitys2("en-US"),
                           ),
                         ],
                       ),

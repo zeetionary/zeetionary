@@ -93,32 +93,13 @@ class EnglishEntrycoldly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بەبێ پیشاندانی ھەست"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "\"That's your problem,\" she said coldly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێ ھەستانە وتی 'ئەوە کێشەی خۆتە.'"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coldly", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoldlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoldlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "\"That's your problem,\" she said coldly.",
+                            kurdishText:
+                                "بێ ھەستانە وتی 'ئەوە کێشەی خۆتە.'", // coldly",
+                            onPressedBritish: () => speakcoldlys1("en-GB"),
+                            onPressedAmerican: () => speakcoldlys1("en-US"),
                           ),
                         ],
                       ),

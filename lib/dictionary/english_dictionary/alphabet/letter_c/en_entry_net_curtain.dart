@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پەردەیەکی تەنک کە دەیدەیت بەسەر پەنجەرەیەکدا کە ڕێگا بە ڕووناکی دەدات بەڵام ناھێڵێت خەڵکی دەرەوە ژوورەوە ببینن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Kim stared through the net curtain into the grey sky."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کیم بە پردە تۆڕەکەدا سەیری ئاسمانە خەڵۆمێشییەکەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "net curtain", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaknetcurtains1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaknetcurtains1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Kim stared through the net curtain into the grey sky.",
+            kurdishText:
+                "کیم بە پردە تۆڕەکەدا سەیری ئاسمانە خەڵۆمێشییەکەی کرد.", // net curtain", please follow LX instructions
+            onPressedBritish: () => speaknetcurtains1("en-GB"),
+            onPressedAmerican: () => speaknetcurtains1("en-US"),
           ),
         ],
       ),

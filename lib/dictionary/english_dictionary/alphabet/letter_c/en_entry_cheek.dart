@@ -136,179 +136,62 @@ class EnglishEntrycheek extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) گۆنای ڕووخسار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He kissed her on both cheeks."),
-                                    ExampleSentenceKurdish(
-                                        text: "ماچی ھەردوو گۆنای کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheek", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheeks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheeks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He kissed her on both cheeks.",
+                            kurdishText: "ماچی ھەردوو گۆنای کرد.", // cheek",
+                            onPressedBritish: () => speakcheeks1("en-GB"),
+                            onPressedAmerican: () => speakcheeks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He rested his cheek on her shoulder."),
-                                    ExampleSentenceKurdish(
-                                        text: "گۆنای خستە سەر شانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheeks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheeks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He rested his cheek on her shoulder.",
+                            kurdishText: "گۆنای خستە سەر شانی.",
+                            onPressedBritish: () => speakcheeks2("en-GB"),
+                            onPressedAmerican: () => speakcheeks2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her cheeks were wet with tears."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆنایەکانی بە فرمێسک تەڕبوو بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheeks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheeks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her cheeks were wet with tears.",
+                            kurdishText: "گۆنایەکانی بە فرمێسک تەڕبوو بوون.",
+                            onPressedBritish: () => speakcheeks3("en-GB"),
+                            onPressedAmerican: () => speakcheeks3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھەبوونی ئەو جۆرە گۆنایەی باسکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chubby-cheeked baby's smile melted everyone's heart."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکەنینی منداڵە گۆنا خڕەکە دڵی ھەموانی تواندەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheeks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheeks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chubby-cheeked baby's smile melted everyone's heart.",
+                            kurdishText:
+                                "پێکەنینی منداڵە گۆنا خڕەکە دڵی ھەموانی تواندەوە.",
+                            onPressedBritish: () => speakcheeks4("en-GB"),
+                            onPressedAmerican: () => speakcheeks4("en-US"),
                           ),
                           // skipped_meaning
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ڕەفتار یان قسەکردن کە خەڵکی بە بێزارکەر یان بێ‌ڕێزانەی دادەنێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's an awful cheek, the way he keeps asking you to lend him money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێ‌شەرمییەکی ناشرینە کە بەو شێوەیە بەردەوامە لە داواکردن لێت بۆ قەرز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheeks5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheeks5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's an awful cheek, the way he keeps asking you to lend him money.",
+                            kurdishText:
+                                "بێ‌شەرمییەکی ناشرینە کە بەو شێوەیە بەردەوامە لە داواکردن لێت بۆ قەرز.",
+                            onPressedBritish: () => speakcheeks5("en-GB"),
+                            onPressedAmerican: () => speakcheeks5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) قسەکردن لەگەڵ کەسێک بە بێ‌شەرمییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's always getting into trouble for cheeking his teachers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە دەکەوێتە کێشەوە بۆ بێ‌ڕێزی کردن بە مامۆستاکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheeks6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheeks6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's always getting into trouble for cheeking his teachers.",
+                            kurdishText:
+                                "ھەمیشە دەکەوێتە کێشەوە بۆ بێ‌ڕێزی کردن بە مامۆستاکانی.",
+                            onPressedBritish: () => speakcheeks6("en-GB"),
+                            onPressedAmerican: () => speakcheeks6("en-US"),
                           ),
                         ],
                       ),

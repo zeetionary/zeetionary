@@ -118,149 +118,53 @@ class EnglishEntrycoil extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) قەدکردن بە لوولدان و کردنی بە زنجیرەیەک لە بازنە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The snake coiled up, ready to strike."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مارەکە خۆی لوولدا و ئامادە بوو بۆ پێوەدان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coil", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoils1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoils1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The snake coiled up, ready to strike.",
+                            kurdishText:
+                                "مارەکە خۆی لوولدا و ئامادە بوو بۆ پێوەدان.", // coil",
+                            onPressedBritish: () => speakcoils1("en-GB"),
+                            onPressedAmerican: () => speakcoils1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mist coiled around the tops of the hills."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەم کۆبوویەوە بەدەور سەرەوەی گردەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoils2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoils2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mist coiled around the tops of the hills.",
+                            kurdishText:
+                                "تەم کۆبوویەوە بەدەور سەرەوەی گردەکاندا.",
+                            onPressedBritish: () => speakcoils2("en-GB"),
+                            onPressedAmerican: () => speakcoils2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her hair was coiled on top of her head."),
-                                    ExampleSentenceKurdish(
-                                        text: "قژی تۆپەڵ کرابوو لەسەر سەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoils3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoils3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her hair was coiled on top of her head.",
+                            kurdishText: "قژی تۆپەڵ کرابوو لەسەر سەری.",
+                            onPressedBritish: () => speakcoils3("en-GB"),
+                            onPressedAmerican: () => speakcoils3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) وایەر، حەبل، قژ، ھتد ـی پێچخواردوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A coil of rope lay on the beach."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەبلێکی لوولدراو لەسەر کەنارەکە کەوتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoils3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoils3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A coil of rope lay on the beach.",
+                            kurdishText:
+                                "حەبلێکی لوولدراو لەسەر کەنارەکە کەوتبوو.",
+                            onPressedBritish: () => speakcoils3("en-GB"),
+                            onPressedAmerican: () => speakcoils3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) یەک تاڵ لە وایەر، حەبل، قژ، ھتد لە زنجیرەیەکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Shake the rope and let the coils unwind."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەبلەکە ڕاوەشێنە و بھێڵە پێچەکانی بکرێنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoils4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoils4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Shake the rope and let the coils unwind.",
+                            kurdishText:
+                                "حەبلەکە ڕاوەشێنە و بھێڵە پێچەکانی بکرێنەوە.",
+                            onPressedBritish: () => speakcoils4("en-GB"),
+                            onPressedAmerican: () => speakcoils4("en-US"),
                           ),
                         ],
                       ),

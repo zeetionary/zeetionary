@@ -240,60 +240,23 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دەم یان زاری گڕکان، کونەگڕکان،	قوڵکە، چاڵ، کەندەڵان
 """),
           const DefinitionKurdish(text: "١. (ناو) کونی بەشی سەرەوەی گڕکانێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We peered over the lip of the crater into the volcano."),
-                    ExampleSentenceKurdish(
-                        text: "لە دەمی کونەگڕکانەوە سەیری گڕکانەکەمان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crater", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraters1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraters1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We peered over the lip of the crater into the volcano.",
+            kurdishText:
+                "لە دەمی کونەگڕکانەوە سەیری گڕکانەکەمان کرد.", // crater", please follow LX instructions
+            onPressedBritish: () => speakcraters1("en-GB"),
+            onPressedAmerican: () => speakcraters1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) چاڵێکی گەورە کە بەھۆی بۆمبێکەوە یان پێداکێشانی شتێکی گەورەوە درووست بووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The bomb blew a crater 80 metres across."),
-                    ExampleSentenceKurdish(
-                        text: "بۆمبەکە چاڵێکی ٨٠ مەتر فراوانی درووستکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraters2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraters2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The bomb blew a crater 80 metres across.",
+            kurdishText: "بۆمبەکە چاڵێکی ٨٠ مەتر فراوانی درووستکرد.",
+            onPressedBritish: () => speakcraters2("en-GB"),
+            onPressedAmerican: () => speakcraters2("en-US"),
           ),
         ],
       ),

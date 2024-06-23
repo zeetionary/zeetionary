@@ -234,31 +234,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) سزای جەستەیی کەسێک، بەتایبەتی بە لێدان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many schools have banned the use of corporal punishment."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر قوتابخانە سزای جەستەییان قەدەغە کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corporal punishment", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorporalpunishments1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorporalpunishments1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many schools have banned the use of corporal punishment.",
+            kurdishText:
+                "زۆر قوتابخانە سزای جەستەییان قەدەغە کردووە.", // corporal punishment", please follow LX instructions
+            onPressedBritish: () => speakcorporalpunishments1("en-GB"),
+            onPressedAmerican: () => speakcorporalpunishments1("en-US"),
           ),
         ],
       ),

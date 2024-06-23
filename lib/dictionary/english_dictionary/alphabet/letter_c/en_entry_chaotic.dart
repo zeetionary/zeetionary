@@ -102,60 +102,22 @@ class EnglishEntrychaotic extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) دۆخێکی شێواو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had a chaotic personal life with a series of broken relationships."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژیانێکی کەسی شپرزەی ھەبوو بە زنجیرەیەک لە پەیوەندی ھەڵوەشاوەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chaotic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchaotics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchaotics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had a chaotic personal life with a series of broken relationships.",
+                            kurdishText:
+                                "ژیانێکی کەسی شپرزەی ھەبوو بە زنجیرەیەک لە پەیوەندی ھەڵوەشاوەوە.", // chaotic",
+                            onPressedBritish: () => speakchaotics1("en-GB"),
+                            onPressedAmerican: () => speakchaotics1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Things can be a little chaotic in our house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شتەکان دەکرێت ھەندێک شپرزە بن لە ماڵەکەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchaotics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchaotics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Things can be a little chaotic in our house.",
+                            kurdishText:
+                                "شتەکان دەکرێت ھەندێک شپرزە بن لە ماڵەکەمان.",
+                            onPressedBritish: () => speakchaotics2("en-GB"),
+                            onPressedAmerican: () => speakchaotics2("en-US"),
                           ),
                         ],
                       ),

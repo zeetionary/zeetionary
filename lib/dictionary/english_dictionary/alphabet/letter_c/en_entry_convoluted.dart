@@ -111,90 +111,33 @@ class EnglishEntryconvoluted extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) تەواو ئاڵۆز و سەخت بۆ پابەندبوون پێوەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her book is full of long, convoluted sentences."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکەی پڕ بە لە ڕستەی درێژ و ئاڵۆزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convoluted", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvoluteds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvoluteds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her book is full of long, convoluted sentences.",
+                            kurdishText:
+                                "کتێبەکەی پڕ بە لە ڕستەی درێژ و ئاڵۆزە.", // convoluted",
+                            onPressedBritish: () => speakconvoluteds1("en-GB"),
+                            onPressedAmerican: () => speakconvoluteds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His grammar explanations are terribly convoluted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕوونکردنەوە ڕێزمانییەکانی زۆر ئاڵۆزن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvoluteds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvoluteds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His grammar explanations are terribly convoluted.",
+                            kurdishText:
+                                "ڕوونکردنەوە ڕێزمانییەکانی زۆر ئاڵۆزن.",
+                            onPressedBritish: () => speakconvoluteds2("en-GB"),
+                            onPressedAmerican: () => speakconvoluteds2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) پڕ لە پێچ و چەماوەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Due to road closures, we had to take a very convoluted route to reach our destination."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھۆی داخرانی ڕێگاکان، پێویست بوو ڕێگایەکی زۆر پێچاوپێچ بگرینە بەر بۆ گەشتن بە شوێنەکەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvoluteds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvoluteds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Due to road closures, we had to take a very convoluted route to reach our destination.",
+                            kurdishText:
+                                "بەھۆی داخرانی ڕێگاکان، پێویست بوو ڕێگایەکی زۆر پێچاوپێچ بگرینە بەر بۆ گەشتن بە شوێنەکەمان.",
+                            onPressedBritish: () => speakconvoluteds3("en-GB"),
+                            onPressedAmerican: () => speakconvoluteds3("en-US"),
                           ),
                         ],
                       ),

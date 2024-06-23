@@ -119,118 +119,38 @@ class EnglishEntrycloth extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) قوماش کە بە ڕێسان یان چنین درووستکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They used to export cotton cloth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران قوماشی لۆکەیان ھەناردە دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cloth", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloths1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They used to export cotton cloth.",
+                            kurdishText:
+                                "جاران قوماشی لۆکەیان ھەناردە دەکرد.", // cloth",
+                            onPressedBritish: () => speakcloths1("en-GB"),
+                            onPressedAmerican: () => speakcloths1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Lay the cloth flat across the table."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوماشەکە داپۆشە بەسەر مێزەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloths2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloths2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Lay the cloth flat across the table.",
+                            kurdishText: "قوماشەکە داپۆشە بەسەر مێزەکەدا.",
+                            onPressedBritish: () => speakcloths2("en-GB"),
+                            onPressedAmerican: () => speakcloths2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پارچە قوماشیک کە زۆرجار بۆ مەبەستی دیاریکراو بەکاردێت، وەک پاککردنەوە یان داپۆشین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Wipe the surface with a damp cloth."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕووەکە بە پەڕۆیەکی وشک بسڕە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloths3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloths3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Wipe the surface with a damp cloth.",
+                            kurdishText: "ڕووەکە بە پەڕۆیەکی وشک بسڕە.",
+                            onPressedBritish: () => speakcloths3("en-GB"),
+                            onPressedAmerican: () => speakcloths3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Place the dough in a bowl and cover with a clean cloth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەویرەکە بکە دەفرێکەوە و بە قوماشێک دایپۆشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloths4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloths4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Place the dough in a bowl and cover with a clean cloth.",
+                            kurdishText:
+                                "ھەویرەکە بکە دەفرێکەوە و بە قوماشێک دایپۆشە.",
+                            onPressedBritish: () => speakcloths4("en-GB"),
+                            onPressedAmerican: () => speakcloths4("en-US"),
                           ),
                         ],
                       ),

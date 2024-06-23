@@ -190,32 +190,13 @@ class EnglishEntrycategorize extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) دابەشکردنی خەڵک یان شت بۆ گرووپی جیاواز بەپێی ئەوەی ھەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Participants were categorized according to age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەژداربووان بەپێی تەمەن پۆلێنکران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "categorize", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcategorizes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcategorizes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Participants were categorized according to age.",
+                            kurdishText:
+                                "بەژداربووان بەپێی تەمەن پۆلێنکران.", // categorize",
+                            onPressedBritish: () => speakcategorizes1("en-GB"),
+                            onPressedAmerican: () => speakcategorizes1("en-US"),
                           ),
                         ],
                       ),

@@ -145,87 +145,30 @@ class EnglishEntrychapter extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەشێکی جیاوازی کتێبێک کە ژمارەیەک یان ناونیشانێکی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He devotes an entire chapter to this topic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەک بەشی تەواو بۆ ئەم بابەتە تەرخان دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chapter", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchapters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchapters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He devotes an entire chapter to this topic.",
+                            kurdishText:
+                                "یەک بەشی تەواو بۆ ئەم بابەتە تەرخان دەکات.", // chapter",
+                            onPressedBritish: () => speakchapters1("en-GB"),
+                            onPressedAmerican: () => speakchapters1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I read chapter after chapter of the book."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەش بە بەشی کتێبەکەم خوێندەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchapters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchapters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I read chapter after chapter of the book.",
+                            kurdishText: "بەش بە بەشی کتێبەکەم خوێندەوە.",
+                            onPressedBritish: () => speakchapters2("en-GB"),
+                            onPressedAmerican: () => speakchapters2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a useful summary at the end of the chapter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پوختەیەکی بەسوود ھەیە لە کۆتایی ئەم بەشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchapters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchapters3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a useful summary at the end of the chapter.",
+                            kurdishText:
+                                "پوختەیەکی بەسوود ھەیە لە کۆتایی ئەم بەشە.",
+                            onPressedBritish: () => speakchapters3("en-GB"),
+                            onPressedAmerican: () => speakchapters3("en-US"),
                           ),
                           Column(
                             children: [
@@ -298,63 +241,25 @@ class EnglishEntrychapter extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ماوەیەک لە ژیانی کەسێک یان مێژوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her return to Kansas ended a particularly unhappy chapter in her life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەڕانەوەی بۆ کەنساس کۆتایی بە سەردەمێکی تەواو ناخۆشی ژیانی ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchapters6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchapters6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her return to Kansas ended a particularly unhappy chapter in her life.",
+                            kurdishText:
+                                "گەڕانەوەی بۆ کەنساس کۆتایی بە سەردەمێکی تەواو ناخۆشی ژیانی ھێنا.",
+                            onPressedBritish: () => speakchapters6("en-GB"),
+                            onPressedAmerican: () => speakchapters6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) تەواوی قەشەکانی کڵێسایەک یان ئەندامانی کۆمەڵگەیەکی ئایینی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He persuaded the cathedral chapter to let the college use the room for worship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەشەکانی کڵێسەکەی قایلکرد کە ڕێگا بە کۆلێژەکە بدەن ژوورەکە بۆ پەرستش بەکاربێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchapters7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchapters7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He persuaded the cathedral chapter to let the college use the room for worship.",
+                            kurdishText:
+                                "قەشەکانی کڵێسەکەی قایلکرد کە ڕێگا بە کۆلێژەکە بدەن ژوورەکە بۆ پەرستش بەکاربێنن.",
+                            onPressedBritish: () => speakchapters7("en-GB"),
+                            onPressedAmerican: () => speakchapters7("en-US"),
                           ),
                         ],
                       ),

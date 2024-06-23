@@ -119,35 +119,15 @@ class EnglishEntrycontralto extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دەنگێکی گۆرانی وتن کە نزمترە لە سۆپرانۆ (بەرزترین ئاست)، کەسێک کە بەم شێوەیە گۆرانی دەڵێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She began by singing soprano, then changed to contralto."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ کۆنتراڵتۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakContralto6955("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakContralto6955(
-                                        // REPLACE: contralto /ˈæltəʊ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She began by singing soprano, then changed to contralto.",
+                            kurdishText:
+                                "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ کۆنتراڵتۆ.",
+                            onPressedBritish: () => speakContralto6955("en-GB"),
+                            onPressedAmerican: () => speakContralto6955(
+                                // REPLACE: contralto /ˈæltəʊ/
+                                "en-US"),
                           ),
                         ],
                       ),

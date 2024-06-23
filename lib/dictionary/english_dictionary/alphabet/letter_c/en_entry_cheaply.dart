@@ -102,60 +102,21 @@ class EnglishEntrycheaply extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە خەرجکردنی پارەیەکی کەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm sure I could buy this more cheaply somewhere else."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیام دەتوانم ئەمە بە ھەرزانتر بکڕم لە شوێنێکی دیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheaply", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheaplys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheaplys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm sure I could buy this more cheaply somewhere else.",
+                            kurdishText:
+                                "دڵنیام دەتوانم ئەمە بە ھەرزانتر بکڕم لە شوێنێکی دیکە.", // cheaply",
+                            onPressedBritish: () => speakcheaplys1("en-GB"),
+                            onPressedAmerican: () => speakcheaplys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can live very cheaply in Italy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت بە خەرجییەکی کەم لە ئیتالیا بژیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheaplys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheaplys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You can live very cheaply in Italy.",
+                            kurdishText:
+                                "دەتوانیت بە خەرجییەکی کەم لە ئیتالیا بژیت.",
+                            onPressedBritish: () => speakcheaplys2("en-GB"),
+                            onPressedAmerican: () => speakcheaplys2("en-US"),
                           ),
                         ],
                       ),

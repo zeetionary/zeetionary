@@ -93,34 +93,15 @@ class EnglishEntrythecivilservice extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had a long career in the civil service."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارێکی دوورودرێژی لە فەرمانگەی حکومی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "the civil service", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakthecivilservices1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakthecivilservices1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had a long career in the civil service.",
+                            kurdishText:
+                                "کارێکی دوورودرێژی لە فەرمانگەی حکومی ھەبوو.", // the civil service",
+                            onPressedBritish: () =>
+                                speakthecivilservices1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakthecivilservices1("en-US"),
                           ),
                         ],
                       ),

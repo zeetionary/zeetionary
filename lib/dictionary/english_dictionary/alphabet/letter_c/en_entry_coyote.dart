@@ -233,31 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) گورگێکی بچووک کە لە ئەمریکای باکوور دەژی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The only sound is the howl of coyote and the whisper of the wind."),
-                    ExampleSentenceKurdish(
-                        text: "تەنھا دەنگ لوورەی گورگی بچووک و خشەی بایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "coyote", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoyotes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoyotes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The only sound is the howl of coyote and the whisper of the wind.",
+            kurdishText:
+                "تەنھا دەنگ لوورەی گورگی بچووک و خشەی بایە.", // coyote", please follow LX instructions
+            onPressedBritish: () => speakcoyotes1("en-GB"),
+            onPressedAmerican: () => speakcoyotes1("en-US"),
           ),
         ],
       ),

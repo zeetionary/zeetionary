@@ -95,32 +95,13 @@ class EnglishEntrycoalminer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە لە کانە خەڵووزدا کاردەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Coal miners often faced dangerous working conditions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرێکارانی کانە خەڵووز زۆرجار ڕووبەڕووی دۆخی کارکردنی مەترسیدار دەبنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coal miner", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoalminers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoalminers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Coal miners often faced dangerous working conditions.",
+                            kurdishText:
+                                "کرێکارانی کانە خەڵووز زۆرجار ڕووبەڕووی دۆخی کارکردنی مەترسیدار دەبنەوە.", // coal miner",
+                            onPressedBritish: () => speakcoalminers1("en-GB"),
+                            onPressedAmerican: () => speakcoalminers1("en-US"),
                           ),
                         ],
                       ),

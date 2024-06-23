@@ -104,63 +104,25 @@ class EnglishEntrychapel extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بینایەک یان ژوورێکی بچووک کە مەسیحییەکان دەچن تێیدا نوێژ، بۆنەی ئایینی، ھتد ئەنجام دەدەن لە قوتابخانەیەک، زیندانێک، خانوویەکی گەورە، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were married in a wedding chapel in Las Vegas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە نوێژگەیەکی ھاوسەرگیری زەماوەندیان کرد لە لاس ڤێگاس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chapel", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchapels1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchapels1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were married in a wedding chapel in Las Vegas.",
+                            kurdishText:
+                                "لە نوێژگەیەکی ھاوسەرگیری زەماوەندیان کرد لە لاس ڤێگاس.", // chapel",
+                            onPressedBritish: () => speakchapels1("en-GB"),
+                            onPressedAmerican: () => speakchapels1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەشێکی جیاکراوەی کڵێسایەک کە پێش‌نوێژگەی خۆی ھەیە کە بۆ ھەندێک بۆنە و نوێژی تایبەتی بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The funeral was conducted in one of the smaller chapels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێوڕەسمی ناشتنەکە ئەنجامدرا لە یەکێک لە بەشە بچووکەکانی کڵێساکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchapels2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchapels2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The funeral was conducted in one of the smaller chapels.",
+                            kurdishText:
+                                "ڕێوڕەسمی ناشتنەکە ئەنجامدرا لە یەکێک لە بەشە بچووکەکانی کڵێساکە.",
+                            onPressedBritish: () => speakchapels2("en-GB"),
+                            onPressedAmerican: () => speakchapels2("en-US"),
                           ),
                         ],
                       ),

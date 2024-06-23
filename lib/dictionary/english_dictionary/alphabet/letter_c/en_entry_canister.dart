@@ -194,63 +194,25 @@ class EnglishEntrycanister extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دەفرێک کە بانێکی ھەیە و چا، قاوە، ھتدی تێدا ھەڵدەگیرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The tea canister slipped from my grasp, and all the tea spilled."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوتووچاییەکە کەوت لە دەستم و ھەموو گەڵا چاییەکە ڕژا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canister", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanisters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanisters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The tea canister slipped from my grasp, and all the tea spilled.",
+                            kurdishText:
+                                "قوتووچاییەکە کەوت لە دەستم و ھەموو گەڵا چاییەکە ڕژا.", // canister
+                            onPressedBritish: () => speakcanisters1("en-GB"),
+                            onPressedAmerican: () => speakcanisters1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کاسەیەکی ئاسنینی گەورە کە گاز و مادەی کیمیایی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Police fired tear-gas canisters at the demonstrators."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس گوللەی فرمێسکڕێژی ھاویشتە خۆپیشاندەران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanisters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanisters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Police fired tear-gas canisters at the demonstrators.",
+                            kurdishText:
+                                "پۆلیس گوللەی فرمێسکڕێژی ھاویشتە خۆپیشاندەران.",
+                            onPressedBritish: () => speakcanisters2("en-GB"),
+                            onPressedAmerican: () => speakcanisters2("en-US"),
                           ),
                         ],
                       ),

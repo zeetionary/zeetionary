@@ -147,222 +147,88 @@ class EnglishEntryconsultation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) باسکردنی شتێک لەگەڵ کەسێک  یان گرووپێک لەپێش بڕیاردان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The decision was taken after close consultation with local residents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارەکە درا لە دوای ڕاوێژی نزیک لەگەڵ ھاوڵاتییە خۆجێییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consultation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsultations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsultations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The decision was taken after close consultation with local residents.",
+                            kurdishText:
+                                "بڕیارەکە درا لە دوای ڕاوێژی نزیک لەگەڵ ھاوڵاتییە خۆجێییەکان.", // consultation",
+                            onPressedBritish: () =>
+                                speakconsultations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsultations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There will be a period of public consultation before a decision is reached."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماوەیەک لە پرس‌وڕای گشتی دەبێت پێش گەشتن بە بڕیارێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsultations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsultations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There will be a period of public consultation before a decision is reached.",
+                            kurdishText:
+                                "ماوەیەک لە پرس‌وڕای گشتی دەبێت پێش گەشتن بە بڕیارێک.",
+                            onPressedBritish: () =>
+                                speakconsultations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsultations2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کۆبوونەوەیەکی فەرمی بۆ باسکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There have been extensive consultations between the two countries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆبوونەوەی چڕوپڕ لە نێوان دوو وڵاتەکەدا ھەبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsultations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsultations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There have been extensive consultations between the two countries.",
+                            kurdishText:
+                                "کۆبوونەوەی چڕوپڕ لە نێوان دوو وڵاتەکەدا ھەبووە.",
+                            onPressedBritish: () =>
+                                speakconsultations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsultations3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police chiefs will hold a consultation with all the relevant groups."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسانی پۆلیس چاوپێکەوتنێک سازدەکەن لەگەڵ ھەموو گرووپە پەیوەندیدارەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsultations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsultations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police chiefs will hold a consultation with all the relevant groups.",
+                            kurdishText:
+                                "بەرپرسانی پۆلیس چاوپێکەوتنێک سازدەکەن لەگەڵ ھەموو گرووپە پەیوەندیدارەکان.",
+                            onPressedBritish: () =>
+                                speakconsultations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsultations4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) چاوپێکەوتنێک لەگەڵ شارەزایەک، بەتایبەتی پزیشکێک، بۆ وەرگرتنی ڕاوێژ یان چارەسەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A 30-minute consultation will cost £50."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بینینێکی ٣٠ خولەکی ٥٠ پاوەندی تێدەچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsultations5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsultations5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A 30-minute consultation will cost £50.",
+                            kurdishText:
+                                "بینینێکی ٣٠ خولەکی ٥٠ پاوەندی تێدەچێت.",
+                            onPressedBritish: () =>
+                                speakconsultations5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsultations5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had a consultation with a dermatologist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بینینێکم لەگەڵ پزیشکێکی پێست ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsultations6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsultations6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had a consultation with a dermatologist.",
+                            kurdishText: "بینینێکم لەگەڵ پزیشکێکی پێست ھەبوو.",
+                            onPressedBritish: () =>
+                                speakconsultations6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsultations6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) گەڕان بۆ زانیاری لە کتێبێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a large collection of texts available for consultation in the library."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمەڵێکی گەورە لە نووسراو بەردەستن بۆ پیاچوونەوە لە کتێبخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsultations7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsultations7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a large collection of texts available for consultation in the library.",
+                            kurdishText:
+                                "کۆمەڵێکی گەورە لە نووسراو بەردەستن بۆ پیاچوونەوە لە کتێبخانەکە.",
+                            onPressedBritish: () =>
+                                speakconsultations7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsultations7("en-US"),
                           ),
                         ],
                       ),

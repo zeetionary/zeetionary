@@ -111,88 +111,31 @@ class EnglishEntrycompliant extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) گوێرایەڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "By then, Henry seemed less compliant with his wife's wishes than he had six months before."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تا ئەوکاتە، ھێنری وادیاربوو کەمتر گوێرایەڵی خواستەکانی ژنەکەی بێت وەک لەوەی پێش شەش مانگ وابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compliant", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompliants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompliants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "By then, Henry seemed less compliant with his wife's wishes than he had six months before.",
+                            kurdishText:
+                                "تا ئەوکاتە، ھێنری وادیاربوو کەمتر گوێرایەڵی خواستەکانی ژنەکەی بێت وەک لەوەی پێش شەش مانگ وابوو.", // compliant",
+                            onPressedBritish: () => speakcompliants1("en-GB"),
+                            onPressedAmerican: () => speakcompliants1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We should not be producing compliant students who do not dare to criticize."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نابێت ئەو جۆرە خوێدکارە گوێڕایەڵانە درووست بکەین کە بوێری ئەوە ناکەن ڕەخنەبگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompliants2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompliants2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We should not be producing compliant students who do not dare to criticize.",
+                            kurdishText:
+                                "نابێت ئەو جۆرە خوێدکارە گوێڕایەڵانە درووست بکەین کە بوێری ئەوە ناکەن ڕەخنەبگرن.",
+                            onPressedBritish: () => speakcompliants2("en-GB"),
+                            onPressedAmerican: () => speakcompliants2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) پابەند بە ژمارەیەک یاسا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "This site is HTML compliant."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم سایتە لەگەڵ HTML دەگونجێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompliants3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompliants3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This site is HTML compliant.",
+                            kurdishText: "ئەم سایتە لەگەڵ HTML دەگونجێت.",
+                            onPressedBritish: () => speakcompliants3("en-GB"),
+                            onPressedAmerican: () => speakcompliants3("en-US"),
                           ),
                         ],
                       ),

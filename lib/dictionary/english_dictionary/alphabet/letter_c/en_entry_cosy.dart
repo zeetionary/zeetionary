@@ -266,150 +266,52 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ئاسوودە، تایبەتی، گەرم، خۆش، دۆستانە، خۆمانە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) گەرم و ئاسوودە و ئارام"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I felt warm and cosy sitting by the fire."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەستم بە گەرمی و ئاسوودەیی دەکرد لە نزیک ئاگرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I felt warm and cosy sitting by the fire.",
+            kurdishText:
+                "ھەستم بە گەرمی و ئاسوودەیی دەکرد لە نزیک ئاگرەکە.", // cosy", please follow LX instructions
+            onPressedBritish: () => speakcosys1("en-GB"),
+            onPressedAmerican: () => speakcosys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We stopped in a cosy little cafe for a cup of tea."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە چایخانەیەکی ئاسوودەبەخش وەستاین بۆ پیاڵەیەک چا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We stopped in a cosy little cafe for a cup of tea.",
+            kurdishText: "لە چایخانەیەکی ئاسوودەبەخش وەستاین بۆ پیاڵەیەک چا.",
+            onPressedBritish: () => speakcosys2("en-GB"),
+            onPressedAmerican: () => speakcosys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) ھاوڕێیانە و تایبەت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He called his friend for a cosy chat to catch up on each other's lives."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەیوەندی بە ھاوڕێکەیەوە کرد بۆ گفتوگۆیەکی دۆستانە و ئاگاداربوون لە ژیانی یەکدی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He called his friend for a cosy chat to catch up on each other's lives.",
+            kurdishText:
+                "پەیوەندی بە ھاوڕێکەیەوە کرد بۆ گفتوگۆیەکی دۆستانە و ئاگاداربوون لە ژیانی یەکدی.",
+            onPressedBritish: () => speakcosys3("en-GB"),
+            onPressedAmerican: () => speakcosys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) دۆخێک کە سوودبەخشە بە کۆمەڵە کەسێک بەڵام دەکرێت نایاسایی و نائەخلاقی بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The firm has a cosy relationship with the Ministry of Defence."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە پەیوەندییەکی خۆیانەی ھەیە لەگەڵ وەزیری بەرگریدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The firm has a cosy relationship with the Ministry of Defence.",
+            kurdishText:
+                "کۆمپانیاکە پەیوەندییەکی خۆیانەی ھەیە لەگەڵ وەزیری بەرگریدا.",
+            onPressedBritish: () => speakcosys4("en-GB"),
+            onPressedAmerican: () => speakcosys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) داپۆشەرێک کە دەدرێت بەسەر پیاڵەی چای یان ھێلکەی کوڵاودا بۆ گەرم ھێشتنەوەی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The tea cosy was passed down from generation to generation in the family."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرە پیاڵەکە نەوە بە نەوە لە خێزانەکەدا گواسترایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The tea cosy was passed down from generation to generation in the family.",
+            kurdishText: "سەرە پیاڵەکە نەوە بە نەوە لە خێزانەکەدا گواسترایەوە.",
+            onPressedBritish: () => speakcosys5("en-GB"),
+            onPressedAmerican: () => speakcosys5("en-US"),
           ),
         ],
       ),

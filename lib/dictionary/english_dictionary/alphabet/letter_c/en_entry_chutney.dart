@@ -94,32 +94,13 @@ class EnglishEntrychutney extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ساسێکی خەستی سارد کە لە میوە و شەکر و سرکە و توونی درووستکراوە و لەگەڵ گۆشتی سارد، پەنیر، ھتد دەخورێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mango chutney is absolutely my favorite."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساسی مانگۆ  بەدڵنیاییەوە ھی دڵخوازی منە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chutney", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchutneys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchutneys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mango chutney is absolutely my favorite.",
+                            kurdishText:
+                                "ساسی مانگۆ  بەدڵنیاییەوە ھی دڵخوازی منە.", // chutney",
+                            onPressedBritish: () => speakchutneys1("en-GB"),
+                            onPressedAmerican: () => speakchutneys1("en-US"),
                           ),
                         ],
                       ),

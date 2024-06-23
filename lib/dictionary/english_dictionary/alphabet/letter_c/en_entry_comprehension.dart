@@ -118,126 +118,49 @@ class EnglishEntrycomprehension extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) توانای تێگەشتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His behaviour was completely beyond comprehension (= impossible to understand)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسوکەوتی تەواو لە دەرەوەی توانای تێگەشتن بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comprehension", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His behaviour was completely beyond comprehension (= impossible to understand).",
+                            kurdishText:
+                                "ھەڵسوکەوتی تەواو لە دەرەوەی توانای تێگەشتن بوو.", // comprehension",
+                            onPressedBritish: () =>
+                                speakcomprehensions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomprehensions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had no comprehension of what was involved."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ تێگەشتنی نەبوو بۆ ئەوەی چی ڕوویدابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had no comprehension of what was involved.",
+                            kurdishText:
+                                "ھیچ تێگەشتنی نەبوو بۆ ئەوەی چی ڕوویدابوو.",
+                            onPressedBritish: () =>
+                                speakcomprehensions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomprehensions2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He showed a total lack of comprehension."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ تێگەشتنی نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He showed a total lack of comprehension.",
+                            kurdishText: "ھیچ تێگەشتنی نەبوو.",
+                            onPressedBritish: () =>
+                                speakcomprehensions3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomprehensions3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕاھێنانێک کە خوێندکاران ڕادەھێنێت لە زمانێک تێبگەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We did a listening comprehension."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاھێنانێکی فێرکاری گوێگرتنمان ئەنجامدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We did a listening comprehension.",
+                            kurdishText:
+                                "ڕاھێنانێکی فێرکاری گوێگرتنمان ئەنجامدا.",
+                            onPressedBritish: () =>
+                                speakcomprehensions4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomprehensions4("en-US"),
                           ),
                         ],
                       ),

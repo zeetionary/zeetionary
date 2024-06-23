@@ -196,118 +196,41 @@ class EnglishEntrycancel extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ھەڵوەشاندنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All flights have been cancelled because of bad weather."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو گەشتە ئاسمانییەکان ھەڵوەشێندراونەتەوە بەھۆی کەشوھەوای خراپەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cancel", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcancels1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcancels1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All flights have been cancelled because of bad weather.",
+                            kurdishText:
+                                "ھەموو گەشتە ئاسمانییەکان ھەڵوەشێندراونەتەوە بەھۆی کەشوھەوای خراپەوە.", // cancel
+                            onPressedBritish: () => speakcancels1("en-GB"),
+                            onPressedAmerican: () => speakcancels1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prime minister has abruptly cancelled a trip to Washington."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک وەزیران لەناکاو گەشتێکی بۆ واشنتۆن ھەڵوەشاندەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcancels2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcancels2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prime minister has abruptly cancelled a trip to Washington.",
+                            kurdishText:
+                                "سەرۆک وەزیران لەناکاو گەشتێکی بۆ واشنتۆن ھەڵوەشاندەوە.",
+                            onPressedBritish: () => speakcancels2("en-GB"),
+                            onPressedAmerican: () => speakcancels2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) پاشگەزبوونەوە لە ڕێککەوتنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "No charge will be made if you cancel within 10 days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ تێچوونێک وەرناگیردرێت ئەگەر لە ماوەی ١٠ ڕۆژدا پاشگەزبیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcancels3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcancels3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "No charge will be made if you cancel within 10 days.",
+                            kurdishText:
+                                "ھیچ تێچوونێک وەرناگیردرێت ئەگەر لە ماوەی ١٠ ڕۆژدا پاشگەزبیتەوە.",
+                            onPressedBritish: () => speakcancels3("en-GB"),
+                            onPressedAmerican: () => speakcancels3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Is it too late to cancel my order?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر درەنگە بۆ پوچەڵکردنەوەی داواکارییەکەم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcancels4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcancels4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Is it too late to cancel my order?",
+                            kurdishText:
+                                "زۆر درەنگە بۆ پوچەڵکردنەوەی داواکارییەکەم؟",
+                            onPressedBritish: () => speakcancels4("en-GB"),
+                            onPressedAmerican: () => speakcancels4("en-US"),
                           ),
                           Column(
                             children: [
@@ -351,32 +274,13 @@ class EnglishEntrycancel extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) ڕەتکردنەوە و وەستان لە پشتگیری کەسێک و باسکردنیان لە ژیانی ڕۆژانە و سەر ئینتەرنێت بەھۆی ئەوەی ناڕازیت لەگەڵ بۆچوونێکی یان کرداری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some campaigned to cancel the writer after she expressed her views on transgender rights."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کەمپینیان دەکرد بۆ سفرکردنەوەی نووسەرەکە بەھۆی بۆچوونەکانی لەسەر مافی ھاوڕەگەزخوازان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcancels6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcancels6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some campaigned to cancel the writer after she expressed her views on transgender rights.",
+                            kurdishText:
+                                "ھەندێک کەمپینیان دەکرد بۆ سفرکردنەوەی نووسەرەکە بەھۆی بۆچوونەکانی لەسەر مافی ھاوڕەگەزخوازان.",
+                            onPressedBritish: () => speakcancels6("en-GB"),
+                            onPressedAmerican: () => speakcancels6("en-US"),
                           ),
                         ],
                       ),

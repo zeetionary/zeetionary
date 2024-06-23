@@ -241,59 +241,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ڕەفتار و ھەڵسوکەوتی گەمژانە و نائەقڵانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I get tired of all the craziness in Hollywood."),
-                    ExampleSentenceKurdish(
-                        text: "بێزار دەبم لەو ھەموو نائەقڵانییەی ھۆڵیوود."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "craziness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazinesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazinesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I get tired of all the craziness in Hollywood.",
+            kurdishText:
+                "بێزار دەبم لەو ھەموو نائەقڵانییەی ھۆڵیوود.", // craziness", please follow LX instructions
+            onPressedBritish: () => speakcrazinesss1("en-GB"),
+            onPressedAmerican: () => speakcrazinesss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) جەنجاڵی و چالاکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I tried to keep him out of the craziness of the celebrity world."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵم دا واز لە ھەموو جەنجاڵییەکی ژیانی ناودارەکان بھێنم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazinesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazinesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I tried to keep him out of the craziness of the celebrity world.",
+            kurdishText:
+                "ھەوڵم دا واز لە ھەموو جەنجاڵییەکی ژیانی ناودارەکان بھێنم.",
+            onPressedBritish: () => speakcrazinesss2("en-GB"),
+            onPressedAmerican: () => speakcrazinesss2("en-US"),
           ),
         ],
       ),

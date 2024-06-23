@@ -139,180 +139,65 @@ class EnglishEntrycontinent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە کۆنترۆڵکردنی ھەستەکانت، بەتایبەتی حەزی سێکسی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In some cultures, being continent until marriage is highly valued."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ھەندێک کەلتووردا، مانەوە بە داوێنپاکی تاوەکو ھاوسەرگیری زۆر نرخدارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "continent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In some cultures, being continent until marriage is highly valued.",
+                            kurdishText:
+                                "لە ھەندێک کەلتووردا، مانەوە بە داوێنپاکی تاوەکو ھاوسەرگیری زۆر نرخدارە.", // continent",
+                            onPressedBritish: () => speakcontinents1("en-GB"),
+                            onPressedAmerican: () => speakcontinents1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ھەبوونی توانای میز و پیسایی کردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some people struggle with continent issues as they age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کەس کێشەیان ھەیە لەگەڵ میزڕاگرتن کە تەمەن دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some people struggle with continent issues as they age.",
+                            kurdishText:
+                                "ھەندێک کەس کێشەیان ھەیە لەگەڵ میزڕاگرتن کە تەمەن دەکەن.",
+                            onPressedBritish: () => speakcontinents2("en-GB"),
+                            onPressedAmerican: () => speakcontinents2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کیشوەرەکانی زەوی، بۆ نموونە ئاسیا و ئەورووپا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police investigation spanned three continents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێکۆڵینەوەی پۆلیس لە سێ کیشوەر ئەنجامدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinents3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinents3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police investigation spanned three continents.",
+                            kurdishText:
+                                "لێکۆڵینەوەی پۆلیس لە سێ کیشوەر ئەنجامدرا.",
+                            onPressedBritish: () => speakcontinents3("en-GB"),
+                            onPressedAmerican: () => speakcontinents3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He crossed a whole continent to find his family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی کیشوەرێکی بڕی بۆ دۆزینەوەی خێزانەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinents4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinents4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He crossed a whole continent to find his family.",
+                            kurdishText:
+                                "تەواوی کیشوەرێکی بڕی بۆ دۆزینەوەی خێزانەکەی.",
+                            onPressedBritish: () => speakcontinents4("en-GB"),
+                            onPressedAmerican: () => speakcontinents4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Wolves are still found on the continent of Europe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گورگ ھێشتا لە کیشوەری ئەورووپا ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinents5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinents5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Wolves are still found on the continent of Europe.",
+                            kurdishText: "گورگ ھێشتا لە کیشوەری ئەورووپا ھەیە.",
+                            onPressedBritish: () => speakcontinents5("en-GB"),
+                            onPressedAmerican: () => speakcontinents5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) بەشی سەرەکی کیشوەری ئەورووپا بەبێ بەریتانیا و ئێرلەندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They planned to spend the summer on the Continent."),
-                                    ExampleSentenceKurdish(
-                                        text: "پلانیان بوو ھاوین لە ئەورووپا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinents6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinents6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They planned to spend the summer on the Continent.",
+                            kurdishText: "پلانیان بوو ھاوین لە ئەورووپا.",
+                            onPressedBritish: () => speakcontinents6("en-GB"),
+                            onPressedAmerican: () => speakcontinents6("en-US"),
                           ),
                         ],
                       ),

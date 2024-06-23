@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: چاوسوور، چاوقایم، زەندەق‌دار، دلێر، بوێر، ڕەشید، بەزات، نەترس، نەترسانە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) بوێر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I hope people will be courageous enough to speak out against this injustice."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیوادارم خەڵکی ھێندە بوێر بن دژی نادادییەکەی بەدەنگ بێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "courageous", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourageouss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourageouss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I hope people will be courageous enough to speak out against this injustice.",
+            kurdishText:
+                "ھیوادارم خەڵکی ھێندە بوێر بن دژی نادادییەکەی بەدەنگ بێن.", // courageous", please follow LX instructions
+            onPressedBritish: () => speakcourageouss1("en-GB"),
+            onPressedAmerican: () => speakcourageouss1("en-US"),
           ),
         ],
       ),

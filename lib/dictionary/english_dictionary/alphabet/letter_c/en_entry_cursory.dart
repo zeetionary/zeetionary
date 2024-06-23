@@ -232,30 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کردن بە خێرایی و بەبێ بیرکردنەوەی زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He gave the report a rather cursory look."),
-                    ExampleSentenceKurdish(
-                        text: "سەیرێکی سەرسەرەکی لە ڕاپۆرتەکە کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cursory", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcursorys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcursorys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He gave the report a rather cursory look.",
+            kurdishText:
+                "سەیرێکی سەرسەرەکی لە ڕاپۆرتەکە کرد.", // cursory", please follow LX instructions
+            onPressedBritish: () => speakcursorys1("en-GB"),
+            onPressedAmerican: () => speakcursorys1("en-US"),
           ),
         ],
       ),

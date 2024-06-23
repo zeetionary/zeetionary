@@ -267,138 +267,46 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شتێکی زیندوو، ڕاستی، یان خەیاڵی کە دەتوانێت بجوڵێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Dogs are more social creatures than cats."),
-                    ExampleSentenceKurdish(
-                        text: "سەگ گیانلەبەری کۆمەڵایەتیترە  وەک لە پشیلە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creature", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreatures1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreatures1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Dogs are more social creatures than cats.",
+            kurdishText:
+                "سەگ گیانلەبەری کۆمەڵایەتیترە  وەک لە پشیلە.", // creature", please follow LX instructions
+            onPressedBritish: () => speakcreatures1("en-GB"),
+            onPressedAmerican: () => speakcreatures1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I dreamt of evil creatures who were trying to catch me."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەوم بە زیندەوەری دڕندەوە بینی کە ھەوڵیان دەدا بمگرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreatures2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreatures2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I dreamt of evil creatures who were trying to catch me.",
+            kurdishText:
+                "خەوم بە زیندەوەری دڕندەوە بینی کە ھەوڵیان دەدا بمگرن.",
+            onPressedBritish: () => speakcreatures2("en-GB"),
+            onPressedAmerican: () => speakcreatures2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We share this planet with all living creatures and have a duty to preserve its riches."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ھەسارەمان لەگەڵ ھەموو گیانلەبەرە زیندووەکان ھەیە و ئەرکی ئەوەمان ھەیە سەرچاوەکانی بپارێزین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreatures3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreatures3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We share this planet with all living creatures and have a duty to preserve its riches.",
+            kurdishText:
+                "ئەم ھەسارەمان لەگەڵ ھەموو گیانلەبەرە زیندووەکان ھەیە و ئەرکی ئەوەمان ھەیە سەرچاوەکانی بپارێزین.",
+            onPressedBritish: () => speakcreatures3("en-GB"),
+            onPressedAmerican: () => speakcreatures3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە بە شێوەیەکی دیاریکراو سەیر دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "You pathetic creature!"),
-                    ExampleSentenceKurdish(text: "بوونەوەری جێی‌داخیت!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreatures4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreatures4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You pathetic creature!",
+            kurdishText: "بوونەوەری جێی‌داخیت!",
+            onPressedBritish: () => speakcreatures4("en-GB"),
+            onPressedAmerican: () => speakcreatures4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was a sociable creature; she liked people."),
-                    ExampleSentenceKurdish(
-                        text: "بنیادەمێکی کۆمەڵایەتی بوو؛ حەزی بە خەڵکی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreatures5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreatures5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was a sociable creature; she liked people.",
+            kurdishText: "بنیادەمێکی کۆمەڵایەتی بوو؛ حەزی بە خەڵکی بوو.",
+            onPressedBritish: () => speakcreatures5("en-GB"),
+            onPressedAmerican: () => speakcreatures5("en-US"),
           ),
         ],
       ),

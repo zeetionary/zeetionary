@@ -191,61 +191,23 @@ class EnglishEntrycasserole extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژەمە خواردنێکی گەرم کە لە گۆشت و سەوزە، ھتد و بە ھێواشی لە شلەدا لە فڕنێک لێ دەنرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Is there any casserole left?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ کاسرۆڵم بۆ ماوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "casserole", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasseroles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasseroles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Is there any casserole left?",
+                            kurdishText: "ھیچ کاسرۆڵم بۆ ماوە؟", // casserole",
+                            onPressedBritish: () => speakcasseroles1("en-GB"),
+                            onPressedAmerican: () => speakcasseroles1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) تاوەیەک کە سەری ھەیە و بەکاردێت بۆ لێنانی گۆشت، ھتد لە فڕندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Place the chicken pieces in the bottom of a large casserole."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشەکانی مریشکەکە لە خوارەوەی تاوە گەورەکە دابنێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcasseroles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcasseroles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Place the chicken pieces in the bottom of a large casserole.",
+                            kurdishText:
+                                "بەشەکانی مریشکەکە لە خوارەوەی تاوە گەورەکە دابنێ.",
+                            onPressedBritish: () => speakcasseroles2("en-GB"),
+                            onPressedAmerican: () => speakcasseroles2("en-US"),
                           ),
                         ],
                       ),

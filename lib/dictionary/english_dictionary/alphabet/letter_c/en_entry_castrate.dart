@@ -191,32 +191,13 @@ class EnglishEntrycastrate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) لادانی گونی نێرینەی ئاژەڵێک یان مرۆڤ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Farmers may castrate male animals to control breeding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاژەڵداران لەوانەیە ئاژەڵە نێرینەکان بخەسێنن بۆ ڕێگری لە زاوزێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "castrate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastrates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastrates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Farmers may castrate male animals to control breeding.",
+                            kurdishText:
+                                "ئاژەڵداران لەوانەیە ئاژەڵە نێرینەکان بخەسێنن بۆ ڕێگری لە زاوزێ.", // castrate",
+                            onPressedBritish: () => speakcastrates1("en-GB"),
+                            onPressedAmerican: () => speakcastrates1("en-US"),
                           ),
                         ],
                       ),

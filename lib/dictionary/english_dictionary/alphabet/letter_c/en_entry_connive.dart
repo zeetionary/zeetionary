@@ -104,63 +104,25 @@ class EnglishEntryconnive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) وادەرکەوتن بەوەی کە ڕێگە بە شتێکی خراپ دەدەیت ڕووبدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She knew that if she said nothing she would be conniving in an injustice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیزانی ئەگەر ھیچ نەڵێت ئەوا لە نادادپەروەرییەک تێوەدەگلێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "connive", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She knew that if she said nothing she would be conniving in an injustice.",
+                            kurdishText:
+                                "دەیزانی ئەگەر ھیچ نەڵێت ئەوا لە نادادپەروەرییەک تێوەدەگلێت.", // connive",
+                            onPressedBritish: () => speakconnives1("en-GB"),
+                            onPressedAmerican: () => speakconnives1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) کارکردن لەگەڵ کەسێک بۆ کارێکی نایاسایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government was accused of having connived with the security forces to permit murder."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت تاوانبارکرا بە تێوەگلان لەگەڵ ھێزەکانی ئاسایش بە ڕێگەدان بە کوشتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconnives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconnives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government was accused of having connived with the security forces to permit murder.",
+                            kurdishText:
+                                "حکومەت تاوانبارکرا بە تێوەگلان لەگەڵ ھێزەکانی ئاسایش بە ڕێگەدان بە کوشتن.",
+                            onPressedBritish: () => speakconnives2("en-GB"),
+                            onPressedAmerican: () => speakconnives2("en-US"),
                           ),
                         ],
                       ),

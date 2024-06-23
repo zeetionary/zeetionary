@@ -118,118 +118,39 @@ class EnglishEntryconquest extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گرتنی شارێک، وڵاتێک، ھتد بە ھێز، یان ناوچەیەک کە بە ھێز گیراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He continued to expand his kingdom by conquest."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەردەوام بوو لە فراوانکردنی شانشینەکەی بە داگیرکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conquest", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconquests1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconquests1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He continued to expand his kingdom by conquest.",
+                            kurdishText:
+                                "بەردەوام بوو لە فراوانکردنی شانشینەکەی بە داگیرکردن.", // conquest",
+                            onPressedBritish: () => speakconquests1("en-GB"),
+                            onPressedAmerican: () => speakconquests1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The army made many conquests in the east."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوپاکە زۆر داگیرکاری لە ڕۆژھەڵات ئەنجامدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconquests2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconquests2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The army made many conquests in the east.",
+                            kurdishText:
+                                "سوپاکە زۆر داگیرکاری لە ڕۆژھەڵات ئەنجامدا.",
+                            onPressedBritish: () => speakconquests2("en-GB"),
+                            onPressedAmerican: () => speakconquests2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە کەسێک ڕازیکردووە خۆشیبوێت یان سێکسی لەگەڵ بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm just one of his many conquests."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "من تەنھا یەکێکم لە فریودراوەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconquests3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconquests3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'm just one of his many conquests.",
+                            kurdishText: "من تەنھا یەکێکم لە فریودراوەکانی.",
+                            onPressedBritish: () => speakconquests3("en-GB"),
+                            onPressedAmerican: () => speakconquests3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think you’ve made a conquest."),
-                                    ExampleSentenceKurdish(
-                                        text: "پێموایە دڵێکت بردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconquests4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconquests4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I think you’ve made a conquest.",
+                            kurdishText: "پێموایە دڵێکت بردووە.",
+                            onPressedBritish: () => speakconquests4("en-GB"),
+                            onPressedAmerican: () => speakconquests4("en-US"),
                           ),
                         ],
                       ),

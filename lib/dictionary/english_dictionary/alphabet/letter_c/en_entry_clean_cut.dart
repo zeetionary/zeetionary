@@ -94,32 +94,13 @@ class EnglishEntrycleancut extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێکی پاکوخاوێن و ڕێکوپێک کە کۆمەڵگە حەزی لێ دەکات، بەتایبەتی پیاوێکی گەنج"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Julie's fiancé is a nice clean-cut young man."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستگیرانەکەی جولی پیاوێکی گەنجی جوانی ڕێکوپێکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clean-cut", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleancuts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleancuts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Julie's fiancé is a nice clean-cut young man.",
+                            kurdishText:
+                                "دەستگیرانەکەی جولی پیاوێکی گەنجی جوانی ڕێکوپێکە.", // clean-cut",
+                            onPressedBritish: () => speakcleancuts1("en-GB"),
+                            onPressedAmerican: () => speakcleancuts1("en-US"),
                           ),
                         ],
                       ),

@@ -191,63 +191,25 @@ class EnglishEntryceremonial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە بۆنەیەک، یان زیاتر بۆ مەبەستی بۆنەکان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The presidency position of Iraq, occupied by a Kurd, is largely ceremonial."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆستی سەرۆکایەتی عێراق، کە ھی کوردێکە، زیاتر نەریتییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "ceremonial", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceremonials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceremonials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The presidency position of Iraq, occupied by a Kurd, is largely ceremonial.",
+                            kurdishText:
+                                "پۆستی سەرۆکایەتی عێراق، کە ھی کوردێکە، زیاتر نەریتییە.", // ceremonial",
+                            onPressedBritish: () => speakceremonials1("en-GB"),
+                            onPressedAmerican: () => speakceremonials1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) سیستەمی یاسا و دابونەریت کە دیاری دەکات کە چۆن شتەکان ئەنجام بدرێن لە ڕێوڕەسم و بۆنەی فەرمیدا، یان ئەو چالاکییانەی دەکرێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Westminster Abbey is used for ceremonials."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێستمنستەر ئابی زیاتر بۆ چالاکییە بۆنەییەکانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceremonials2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceremonials2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Westminster Abbey is used for ceremonials.",
+                            kurdishText:
+                                "وێستمنستەر ئابی زیاتر بۆ چالاکییە بۆنەییەکانە.",
+                            onPressedBritish: () => speakceremonials2("en-GB"),
+                            onPressedAmerican: () => speakceremonials2("en-US"),
                           ),
                         ],
                       ),

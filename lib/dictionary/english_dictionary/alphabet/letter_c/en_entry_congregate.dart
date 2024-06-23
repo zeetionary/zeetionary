@@ -94,32 +94,13 @@ class EnglishEntrycongregate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) کۆبوونەوە لە شوێنێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Young people often congregate in the main square in the evenings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسانی گەنج دەتوانن لە گۆڕەپانی سەرەکیدا کۆببنەوە لە ئێواراندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congregate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongregates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongregates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Young people often congregate in the main square in the evenings.",
+                            kurdishText:
+                                "کەسانی گەنج دەتوانن لە گۆڕەپانی سەرەکیدا کۆببنەوە لە ئێواراندا.", // congregate",
+                            onPressedBritish: () => speakcongregates1("en-GB"),
+                            onPressedAmerican: () => speakcongregates1("en-US"),
                           ),
                         ],
                       ),

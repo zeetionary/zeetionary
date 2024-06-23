@@ -102,62 +102,24 @@ class EnglishEntrycompere extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە کاری ناساندن دەکات بۆ بەژداربووانی پڕۆگرامێکی تەلەفیزیۆن، ڕادیۆ، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The compère kept the event lively and engaging."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشکەش‌کارەکە بۆنەکەی بە گوڕوتین و سەرنجڕاکێشی ڕاگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compère", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomperes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomperes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The compère kept the event lively and engaging.",
+                            kurdishText:
+                                "پێشکەش‌کارەکە بۆنەکەی بە گوڕوتین و سەرنجڕاکێشی ڕاگرت.", // compère",
+                            onPressedBritish: () => speakcomperes1("en-GB"),
+                            onPressedAmerican: () => speakcomperes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) بوون بە پێشکەش‌کار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who will compère the conference this year?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمساڵ کێ پێشکەشکاری کۆنفرانسەکە دەبێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomperes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomperes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Who will compère the conference this year?",
+                            kurdishText:
+                                "ئەمساڵ کێ پێشکەشکاری کۆنفرانسەکە دەبێت؟",
+                            onPressedBritish: () => speakcomperes2("en-GB"),
+                            onPressedAmerican: () => speakcomperes2("en-US"),
                           ),
                         ],
                       ),

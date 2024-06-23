@@ -156,239 +156,87 @@ class EnglishEntryconfront extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) دەرکەوتن وەک ئەوەی کە دەبێت مامەڵەی لەگەڵ بکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What is to be done about the economic problems confronting the country?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چی پێویستە بکرێت سەبارەت بەو کێشەی ئابوورییانەی ڕووبەڕووی وڵاتەکە دەبنەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confront", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfronts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfronts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What is to be done about the economic problems confronting the country?",
+                            kurdishText:
+                                "چی پێویستە بکرێت سەبارەت بەو کێشەی ئابوورییانەی ڕووبەڕووی وڵاتەکە دەبنەوە؟", // confront",
+                            onPressedBritish: () => speakconfronts1("en-GB"),
+                            onPressedAmerican: () => speakconfronts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was suddenly confronted by the task of rewriting the entire book."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەناکاو تووشی ئەرکی نووسینی تەواوی کتێبەکە بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfronts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfronts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was suddenly confronted by the task of rewriting the entire book.",
+                            kurdishText:
+                                "لەناکاو تووشی ئەرکی نووسینی تەواوی کتێبەکە بووم.",
+                            onPressedBritish: () => speakconfronts2("en-GB"),
+                            onPressedAmerican: () => speakconfronts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) مامەڵەکردن لەگەڵ کێشەیەک یان دۆخێکی سەخت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She knew that she had to confront her fears."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیزانی کە دەبێت ڕووبەڕووی ترسەکانی ببێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfronts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfronts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She knew that she had to confront her fears.",
+                            kurdishText:
+                                "دەیزانی کە دەبێت ڕووبەڕووی ترسەکانی ببێتەوە.",
+                            onPressedBritish: () => speakconfronts3("en-GB"),
+                            onPressedAmerican: () => speakconfronts3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is willing to confront problems directly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامادەیە ڕاستەوخۆ ڕووبەڕووی کێشەکان ببێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfronts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfronts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is willing to confront problems directly.",
+                            kurdishText:
+                                "ئامادەیە ڕاستەوخۆ ڕووبەڕووی کێشەکان ببێتەوە.",
+                            onPressedBritish: () => speakconfronts4("en-GB"),
+                            onPressedAmerican: () => speakconfronts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) ڕووبەڕووبوونەوەی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This was the first time he had confronted an armed robber."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەم جاری بوو ڕووبەڕووی دزێکی چەکدار ببێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfronts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfronts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This was the first time he had confronted an armed robber.",
+                            kurdishText:
+                                "یەکەم جاری بوو ڕووبەڕووی دزێکی چەکدار ببێتەوە.",
+                            onPressedBritish: () => speakconfronts5("en-GB"),
+                            onPressedAmerican: () => speakconfronts5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Confronted by an angry crowd, the police retreated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەگەڵ ڕووبەڕووبوونەوەی جەماوەرێکی تووڕە، پۆلیسەکان کشانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfronts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfronts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Confronted by an angry crowd, the police retreated.",
+                            kurdishText:
+                                "لەگەڵ ڕووبەڕووبوونەوەی جەماوەرێکی تووڕە، پۆلیسەکان کشانەوە.",
+                            onPressedBritish: () => speakconfronts6("en-GB"),
+                            onPressedAmerican: () => speakconfronts6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) واکردنی ئەوەی کەسێک ڕووبەڕووی کەسێک یان دۆخێکی خراپ یان سەخت ببێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He confronted her with a choice between her career or their relationship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووبەڕووی کردەوە لەگەڵ ھەڵبژاردنی کارەکەی یان پەیوەندییەکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfronts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfronts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He confronted her with a choice between her career or their relationship.",
+                            kurdishText:
+                                "ڕووبەڕووی کردەوە لەگەڵ ھەڵبژاردنی کارەکەی یان پەیوەندییەکەیان.",
+                            onPressedBritish: () => speakconfronts7("en-GB"),
+                            onPressedAmerican: () => speakconfronts7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) ھەبوونی شتێک لە پێشت کە دەبێت مامەڵەی لەگەڵ بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most people when confronted with a horse will pat it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر کەس کە ڕووبەڕووی ئەسپێک دەبنەوە دەستی پێدا دێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfronts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfronts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most people when confronted with a horse will pat it.",
+                            kurdishText:
+                                "زۆر کەس کە ڕووبەڕووی ئەسپێک دەبنەوە دەستی پێدا دێنن.",
+                            onPressedBritish: () => speakconfronts8("en-GB"),
+                            onPressedAmerican: () => speakconfronts8("en-US"),
                           ),
                         ],
                       ),

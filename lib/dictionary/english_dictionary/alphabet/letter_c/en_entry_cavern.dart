@@ -187,32 +187,13 @@ class EnglishEntrycavern extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەشکەوتێکی گەورە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The underground cavern was formed where water used to flow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەشکەوتە گەورەکە درووست بوو لەو شوێنەی کە جاران ئاو پێیدا دەچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cavern", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaverns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaverns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The underground cavern was formed where water used to flow.",
+                            kurdishText:
+                                "ئەشکەوتە گەورەکە درووست بوو لەو شوێنەی کە جاران ئاو پێیدا دەچوو.", // cavern",
+                            onPressedBritish: () => speakcaverns1("en-GB"),
+                            onPressedAmerican: () => speakcaverns1("en-US"),
                           ),
                         ],
                       ),

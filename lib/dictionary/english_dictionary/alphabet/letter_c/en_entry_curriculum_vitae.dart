@@ -236,32 +236,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کورتەی تۆماری خوێندن و ئەو کارانەی ھەتبووە کە دەینێری لەگەڵ داخوازینامە لە کاتی وەرگرتنی کاردا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Applications with a full curriculum vitae should reach the Principal by June 12th."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داخوازینامەکان لەگەڵ سی‌ڤیی تەواو دەبێت بگەن بە بەڕێوبەر تاوەکو ١٢ ـی حوزەیران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curriculum vitae", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurriculumvitaes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurriculumvitaes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Applications with a full curriculum vitae should reach the Principal by June 12th.",
+            kurdishText:
+                "داخوازینامەکان لەگەڵ سی‌ڤیی تەواو دەبێت بگەن بە بەڕێوبەر تاوەکو ١٢ ـی حوزەیران.", // curriculum vitae", please follow LX instructions
+            onPressedBritish: () => speakcurriculumvitaes1("en-GB"),
+            onPressedAmerican: () => speakcurriculumvitaes1("en-US"),
           ),
         ],
       ),

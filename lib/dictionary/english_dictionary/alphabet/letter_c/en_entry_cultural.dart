@@ -261,117 +261,38 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) پەیوەندیدار بە کەلتووری کۆمەڵگە یان گرووپێکی دیاریکراو، یان نەریت، باوەڕ، ھتد ـەکانیان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Teachers need to be aware of cultural differences."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مامۆستایان دەبێت ئاگادار بن لە جیاوازییە کەلتوورییەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cultural", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculturals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculturals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Teachers need to be aware of cultural differences.",
+            kurdishText:
+                "مامۆستایان دەبێت ئاگادار بن لە جیاوازییە کەلتوورییەکان.", // cultural", please follow LX instructions
+            onPressedBritish: () => speakculturals1("en-GB"),
+            onPressedAmerican: () => speakculturals1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His character represents the traditional cultural values of China."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کارەکتەرەکەی بەھا کەلتوورییە نەریتییەکانی چین وێنا دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculturals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculturals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His character represents the traditional cultural values of China.",
+            kurdishText:
+                "کارەکتەرەکەی بەھا کەلتوورییە نەریتییەکانی چین وێنا دەکات.",
+            onPressedBritish: () => speakculturals2("en-GB"),
+            onPressedAmerican: () => speakculturals2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many immigrants preserve their cultural traditions."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر پەنابەر نەریتە کەلتوورییەکانیان دەپارێزن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculturals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculturals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Many immigrants preserve their cultural traditions.",
+            kurdishText: "زۆر پەنابەر نەریتە کەلتوورییەکانیان دەپارێزن.",
+            onPressedBritish: () => speakculturals3("en-GB"),
+            onPressedAmerican: () => speakculturals3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) پەیوەندیدار میوزیک، وێژە و ھونەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The orchestra is very important for the cultural life of the city."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆرکێستارەکە زۆر گرنگی بۆ ژیانی کەلتووری شارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculturals4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculturals4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The orchestra is very important for the cultural life of the city.",
+            kurdishText: "ئۆرکێستارەکە زۆر گرنگی بۆ ژیانی کەلتووری شارەکە.",
+            onPressedBritish: () => speakculturals4("en-GB"),
+            onPressedAmerican: () => speakculturals4("en-US"),
           ),
         ],
       ),

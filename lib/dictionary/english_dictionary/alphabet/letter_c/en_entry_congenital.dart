@@ -120,115 +120,39 @@ class EnglishEntrycongenital extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) نەخۆشییەک یان حاڵەتێکی تەندرووستی کە لە لەدایکبوونەوە یان پێش لەدایکبوونەوە بوونی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Children born to mothers who smoked were at risk of congenital heart disease."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو منداڵانەی کە لەدایک دەبن لەو دایکانەی جگەرەکێشن لە مەترسی نەخۆشی زگماکی دڵن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congenital", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongenitals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongenitals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Children born to mothers who smoked were at risk of congenital heart disease.",
+                            kurdishText:
+                                "ئەو منداڵانەی کە لەدایک دەبن لەو دایکانەی جگەرەکێشن لە مەترسی نەخۆشی زگماکی دڵن.", // congenital",
+                            onPressedBritish: () => speakcongenitals1("en-GB"),
+                            onPressedAmerican: () => speakcongenitals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Her deafness was congenital."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەڕییەکەی زگماکییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongenitals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongenitals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her deafness was congenital.",
+                            kurdishText: "کەڕییەکەی زگماکییە.",
+                            onPressedBritish: () => speakcongenitals2("en-GB"),
+                            onPressedAmerican: () => speakcongenitals2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) بەشێک لە کەسایەتی کەسێک کە ئەگەری گۆڕینی کەمە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She seems to have a congenital inability to tell the truth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وادیارە بێ‌تواناییەکی بۆماوەیی ھەیە لە وتنی ڕاستیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongenitals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongenitals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She seems to have a congenital inability to tell the truth.",
+                            kurdishText:
+                                "وادیارە بێ‌تواناییەکی بۆماوەیی ھەیە لە وتنی ڕاستیدا.",
+                            onPressedBritish: () => speakcongenitals3("en-GB"),
+                            onPressedAmerican: () => speakcongenitals3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He's a congenital liar!"),
-                                    ExampleSentenceKurdish(
-                                        text: "درۆکارێکی ھەمیشەییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongenitals4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongenitals4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's a congenital liar!",
+                            kurdishText: "درۆکارێکی ھەمیشەییە.",
+                            onPressedBritish: () => speakcongenitals4("en-GB"),
+                            onPressedAmerican: () => speakcongenitals4("en-US"),
                           ),
                         ],
                       ),

@@ -113,88 +113,31 @@ class EnglishEntrycope extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بە سەرکەوتووی مامەڵەکردن لەگەڵ شتێکی قورس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I got to the stage where I wasn't coping any more."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشتم بەو قۆناغەی کە چی دیکە نەمدەتوانی بەرگە بگرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cope", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I got to the stage where I wasn't coping any more.",
+                            kurdishText:
+                                "گەشتم بەو قۆناغەی کە چی دیکە نەمدەتوانی بەرگە بگرم.", // cope",
+                            onPressedBritish: () => speakcopes1("en-GB"),
+                            onPressedAmerican: () => speakcopes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wasn't able to cope with the stresses and strains of the job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەیدەتوانی چی دیکە بەرگەی سترێس و پاڵەپەستۆی کارە بگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wasn't able to cope with the stresses and strains of the job.",
+                            kurdishText:
+                                "نەیدەتوانی چی دیکە بەرگەی سترێس و پاڵەپەستۆی کارە بگرێت.",
+                            onPressedBritish: () => speakcopes2("en-GB"),
+                            onPressedAmerican: () => speakcopes2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Desert plants are adapted to cope with extreme heat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووەکە بیابانییەکان ڕاھاتوون بە بەرگەگرتنی گەرمای ئێجگار زۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Desert plants are adapted to cope with extreme heat.",
+                            kurdishText:
+                                "ڕووەکە بیابانییەکان ڕاھاتوون بە بەرگەگرتنی گەرمای ئێجگار زۆر.",
+                            onPressedBritish: () => speakcopes3("en-GB"),
+                            onPressedAmerican: () => speakcopes3("en-US"),
                           ),
                         ],
                       ),

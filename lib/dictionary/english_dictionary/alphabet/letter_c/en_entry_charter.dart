@@ -154,239 +154,87 @@ class EnglishEntrycharter extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دەستوورێکی نووسراو کە ئەو مافانە دیاری دەکات کە گرووپێک لە خەڵکی دەبێت ھەیان بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He fought for a social charter of workers' rights."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێکۆشا بۆ دەستوورێکی کۆمەڵایەتی مافەکانی کرێکاران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "charter", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He fought for a social charter of workers' rights.",
+                            kurdishText:
+                                "تێکۆشا بۆ دەستوورێکی کۆمەڵایەتی مافەکانی کرێکاران.", // charter",
+                            onPressedBritish: () => speakcharters1("en-GB"),
+                            onPressedAmerican: () => speakcharters1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Minority rights are protected by the UN charter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مافەکانی کەمینەکان لەلایەن دەستووری نەتەوە یەکگرتووەکانەوە پارێزراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Minority rights are protected by the UN charter.",
+                            kurdishText:
+                                "مافەکانی کەمینەکان لەلایەن دەستووری نەتەوە یەکگرتووەکانەوە پارێزراوە.",
+                            onPressedBritish: () => speakcharters2("en-GB"),
+                            onPressedAmerican: () => speakcharters2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕێسا و ئامانجی دامەزراوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Education is one of the basic human rights written into the United Nations Charter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندن یەکێک لە مافە سەرەتاییەکانی مرۆڤە کە لە دەستووری نەتەوە یەکگرتووەکان نووسراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharters3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Education is one of the basic human rights written into the United Nations Charter.",
+                            kurdishText:
+                                "خوێندن یەکێک لە مافە سەرەتاییەکانی مرۆڤە کە لە دەستووری نەتەوە یەکگرتووەکان نووسراوە.",
+                            onPressedBritish: () => speakcharters3("en-GB"),
+                            onPressedAmerican: () => speakcharters3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بەڵگەنامەیەکی فەرمی کە ڕایدەگەیەنێت کە حکومەتێک یان سەرکردەیەکی سیاسی ڕێگا بە دامەزراندنی دامەزراوەیەک، شارۆچکەیەک، یان زانکۆیەک دەدات و مافی خۆی پێ دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The BBC's charter was due to be renewed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆڵەتی بی‌بی‌سی کاتی نوێکردنەوەی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharters4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharters4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The BBC's charter was due to be renewed.",
+                            kurdishText:
+                                "مۆڵەتی بی‌بی‌سی کاتی نوێکردنەوەی بوو.",
+                            onPressedBritish: () => speakcharters4("en-GB"),
+                            onPressedAmerican: () => speakcharters4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were given this right by royal charter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم مافەیان لەلایەن دەستوورنامەی شاھانەییەوە پێدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharters5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharters5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were given this right by royal charter.",
+                            kurdishText:
+                                "ئەم مافەیان لەلایەن دەستوورنامەی شاھانەییەوە پێدرا.",
+                            onPressedBritish: () => speakcharters5("en-GB"),
+                            onPressedAmerican: () => speakcharters5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) بەکرێگرتنی فڕۆکەیەک، بەلەمێک، ھتد بۆ بەکارھێنانی خۆت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They flew to Athens and then chartered a boat to the island."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕین بۆ ئەسینا و دواتر بەلەمێکیان بەکرێ گرت بۆ دوورگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharters6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharters6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They flew to Athens and then chartered a boat to the island.",
+                            kurdishText:
+                                "فڕین بۆ ئەسینا و دواتر بەلەمێکیان بەکرێ گرت بۆ دوورگەکە.",
+                            onPressedBritish: () => speakcharters6("en-GB"),
+                            onPressedAmerican: () => speakcharters6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Special trains were chartered to take them to the festival."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەمەندەفەری تایبەت بەکرێ گیردرا  بۆ بردنیان بۆ فیستیڤاڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharters7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharters7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Special trains were chartered to take them to the festival.",
+                            kurdishText:
+                                "شەمەندەفەری تایبەت بەکرێ گیردرا  بۆ بردنیان بۆ فیستیڤاڵەکە.",
+                            onPressedBritish: () => speakcharters7("en-GB"),
+                            onPressedAmerican: () => speakcharters7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) بە فەرمی دەستپێکردنی دامەزراوەیەکی تازە بە مۆڵەتپێدانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cambridge University Press was chartered in 1534."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەزگای چاپی زانکۆی کامبریج لە ساڵی ١٥٣٤ دامەزرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcharters8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcharters8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cambridge University Press was chartered in 1534.",
+                            kurdishText:
+                                "دەزگای چاپی زانکۆی کامبریج لە ساڵی ١٥٣٤ دامەزرا.",
+                            onPressedBritish: () => speakcharters8("en-GB"),
+                            onPressedAmerican: () => speakcharters8("en-US"),
                           ),
                         ],
                       ),

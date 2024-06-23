@@ -103,63 +103,23 @@ class EnglishEntrychoppy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) دەریایەک بە شەپۆلێکی زۆری بچووکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The choppy waters caused some of the boats to capsize."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەریا پڕشەپۆلەکان بوون بەھۆی ئەوەی ژمارەیەک لە بەلەمەکان وەرگەڕێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "choppy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoppys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoppys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The choppy waters caused some of the boats to capsize.",
+                            kurdishText:
+                                "دەریا پڕشەپۆلەکان بوون بەھۆی ئەوەی ژمارەیەک لە بەلەمەکان وەرگەڕێن.", // choppy",
+                            onPressedBritish: () => speakchoppys1("en-GB"),
+                            onPressedAmerican: () => speakchoppys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ستایلێکی قژ کە بە درێژی جیاواز بڕاوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her hair was cut in a choppy style."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پرچی بە ستایڵی نایەکسان بڕابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoppys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoppys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her hair was cut in a choppy style.",
+                            kurdishText: "پرچی بە ستایڵی نایەکسان بڕابوو.",
+                            onPressedBritish: () => speakchoppys2("en-GB"),
+                            onPressedAmerican: () => speakchoppys2("en-US"),
                           ),
                         ],
                       ),

@@ -192,32 +192,13 @@ class EnglishEntrycablecar extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گوازەرەوەیەک کە ھەڵواسراوە و خەڵکی دەگوازێتەوە بۆ سەر بەرزایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cable cars offer breathtaking views of the city."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەلەفریکەکان دیمەنێکی دڵڕفێنەری شارەکە دەدەن بەدەستەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cable car", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcablecars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcablecars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cable cars offer breathtaking views of the city.",
+                            kurdishText:
+                                "تەلەفریکەکان دیمەنێکی دڵڕفێنەری شارەکە دەدەن بەدەستەوە.", // cable car
+                            onPressedBritish: () => speakcablecars1("en-GB"),
+                            onPressedAmerican: () => speakcablecars1("en-US"),
                           ),
                         ],
                       ),

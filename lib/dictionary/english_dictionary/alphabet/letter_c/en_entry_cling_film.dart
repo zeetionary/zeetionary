@@ -94,32 +94,13 @@ class EnglishEntryclingfilm extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) نایلۆن بۆ پێچانەوەی خواردن و ھێشتنەوەی بە خاوێنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've put some cling film over the salad."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک بەرگەخۆراکم لە زەڵاتەکە پێچاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cling film", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclingfilms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclingfilms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've put some cling film over the salad.",
+                            kurdishText:
+                                "ھەندێک بەرگەخۆراکم لە زەڵاتەکە پێچاوە.", // cling film",
+                            onPressedBritish: () => speakclingfilms1("en-GB"),
+                            onPressedAmerican: () => speakclingfilms1("en-US"),
                           ),
                         ],
                       ),

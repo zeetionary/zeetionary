@@ -104,64 +104,26 @@ class EnglishEntryconciliation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پڕۆسەیەک کە ئامانج لێی کۆتایی ھێنان بە مشتومڕێکەلە نێوان دوو کەس یان گرووپدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All attempts at conciliation failed and the dispute continued."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ھەوڵەکانی ئاشتکردنەوە شکستیان ھێنا و مشتومڕەکە بەردەوام بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conciliation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconciliations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconciliations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All attempts at conciliation failed and the dispute continued.",
+                            kurdishText:
+                                "ھەموو ھەوڵەکانی ئاشتکردنەوە شکستیان ھێنا و مشتومڕەکە بەردەوام بوو.", // conciliation",
+                            onPressedBritish: () =>
+                                speakconciliations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconciliations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He prefers compromise and conciliation to confrontation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سازان و ئاشتکردنەوە بە باشتر دەزانێت وەک لە ڕووبەڕووبوونەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconciliations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconciliations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He prefers compromise and conciliation to confrontation.",
+                            kurdishText:
+                                "سازان و ئاشتکردنەوە بە باشتر دەزانێت وەک لە ڕووبەڕووبوونەوە.",
+                            onPressedBritish: () =>
+                                speakconciliations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconciliations2("en-US"),
                           ),
                         ],
                       ),

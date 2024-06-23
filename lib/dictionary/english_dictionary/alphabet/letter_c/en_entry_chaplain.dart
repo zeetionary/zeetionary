@@ -91,32 +91,13 @@ class EnglishEntrychaplain extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) قەشەیەک کە بەرپرسە بۆ پێداویستە ئاینییەکانی ئەو کەسانەی لە زیندان، نەخۆشخانە، ھتد لە سوپادا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prison chaplain conducted religious services and offered guidance to inmates seeking spiritual solace."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەشەی زیندانەکە بۆنەی ئایینی ئەنجامدا و ڕێنوێنی پێشکەش بە ئەو زیندانییانە کرد کە بەدوای دڵنەوایی ڕۆحیدا دەگەڕان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chaplain", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchaplains1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchaplains1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prison chaplain conducted religious services and offered guidance to inmates seeking spiritual solace.",
+                            kurdishText:
+                                "قەشەی زیندانەکە بۆنەی ئایینی ئەنجامدا و ڕێنوێنی پێشکەش بە ئەو زیندانییانە کرد کە بەدوای دڵنەوایی ڕۆحیدا دەگەڕان.", // chaplain",
+                            onPressedBritish: () => speakchaplains1("en-GB"),
+                            onPressedAmerican: () => speakchaplains1("en-US"),
                           ),
                         ],
                       ),

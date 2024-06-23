@@ -230,30 +230,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: قەڵەو، گۆشتن، بەخۆوە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) قەڵەو "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He is a short, somewhat corpulent, man."),
-                    ExampleSentenceKurdish(
-                        text: "پیاوێکی کورتی کەمێک قەڵەوە (گردەڵە)."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corpulent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorpulents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorpulents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He is a short, somewhat corpulent, man.",
+            kurdishText:
+                "پیاوێکی کورتی کەمێک قەڵەوە (گردەڵە).", // corpulent", please follow LX instructions
+            onPressedBritish: () => speakcorpulents1("en-GB"),
+            onPressedAmerican: () => speakcorpulents1("en-US"),
           ),
         ],
       ),

@@ -232,32 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بەڕێزەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He's always behaved courteously toward my family."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەمیشە بەڕێزەوە مامەڵەی لەگەڵ خێزانەکەم کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "courteously", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourteouslys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourteouslys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's always behaved courteously toward my family.",
+            kurdishText:
+                "ھەمیشە بەڕێزەوە مامەڵەی لەگەڵ خێزانەکەم کردووە.", // courteously", please follow LX instructions
+            onPressedBritish: () => speakcourteouslys1("en-GB"),
+            onPressedAmerican: () => speakcourteouslys1("en-US"),
           ),
         ],
       ),

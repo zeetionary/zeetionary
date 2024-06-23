@@ -104,65 +104,26 @@ class EnglishEntrychangeable extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە ئەگەری زۆرە بگۆڕێت و پێشبینی‌نەکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The weather is very changeable at this time of year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشوھەوا زۆر پێشبینی‌نەکراوە لەم کاتەی ساڵدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "changeable", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchangeables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchangeables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The weather is very changeable at this time of year.",
+                            kurdishText:
+                                "کەشوھەوا زۆر پێشبینی‌نەکراوە لەم کاتەی ساڵدا.", // changeable",
+                            onPressedBritish: () => speakchangeables1("en-GB"),
+                            onPressedAmerican: () => speakchangeables1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) شتێک کە دەکرێت بگۆڕدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                      text:
-                                          "I called and asked if our tickets were changeable and what time the next flight was.",
-                                      note:
-                                          "Changeable tickets is one that you have the flexibility to change the date, time or location of your trip prior to departure.",
-                                    ),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندیم کرد و پرسیم کە ئایا بلیتەکەمان بگۆڕ بوو، و گەشتی دواتر لە چی کاتێکدا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchangeables2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchangeables2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I called and asked if our tickets were changeable and what time the next flight was.",
+                            englishNote:
+                                "Changeable tickets is one that you have the flexibility to change the date, time or location of your trip prior to departure.",
+                          kurdishText:
+                                "پەیوەندیم کرد و پرسیم کە ئایا بلیتەکەمان بگۆڕ بوو، و گەشتی دواتر لە چی کاتێکدا بوو.",
+                            onPressedBritish: () => speakchangeables2("en-GB"),
+                            onPressedAmerican: () => speakchangeables2("en-US"),
                           ),
                         ],
                       ),

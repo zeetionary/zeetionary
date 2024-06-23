@@ -276,176 +276,61 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە ئەو شتە خراپەکانی کەسێک یان شتێک دەڵێیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She spoke critically of her father."),
-                    ExampleSentenceKurdish(
-                        text: "بە ڕەخنەوە قسەی لەسەر باوکی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "critically", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticallys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticallys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She spoke critically of her father.",
+            kurdishText:
+                "بە ڕەخنەوە قسەی لەسەر باوکی دەکرد.", // critically", please follow LX instructions
+            onPressedBritish: () => speakcriticallys1("en-GB"),
+            onPressedAmerican: () => speakcriticallys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵکار) بەشێوەیەک کە زۆر گرنگە چونکە دۆخێک لە داھاتوودا پشتی پێ دەبەستێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is critically important that we have the best intelligence about threats to our national security."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر گرنگە کە باشترین زانیاریمان ھەبێت سەبارەت بە ھەڕەشەکان بۆ ئاسایشی نیشتیمانیمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticallys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticallys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is critically important that we have the best intelligence about threats to our national security.",
+            kurdishText:
+                "زۆر گرنگە کە باشترین زانیاریمان ھەبێت سەبارەت بە ھەڕەشەکان بۆ ئاسایشی نیشتیمانیمان.",
+            onPressedBritish: () => speakcriticallys2("en-GB"),
+            onPressedAmerican: () => speakcriticallys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵکار) بەشێوەیەک کە گرنگ و نادیارە، و ئەگەری ھەیە ترسناک بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He is critically ill in intensive care."),
-                    ExampleSentenceKurdish(
-                        text: "لە چاودێری چڕدا بە سەختی نەخۆشە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticallys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticallys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He is critically ill in intensive care.",
+            kurdishText: "لە چاودێری چڕدا بە سەختی نەخۆشە.",
+            onPressedBritish: () => speakcriticallys3("en-GB"),
+            onPressedAmerican: () => speakcriticallys3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They were both critically injured in the accident."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەردووکیان بە سەختی بریندار بوون لە ڕووداوەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticallys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticallys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were both critically injured in the accident.",
+            kurdishText: "ھەردووکیان بە سەختی بریندار بوون لە ڕووداوەکەدا.",
+            onPressedBritish: () => speakcriticallys4("en-GB"),
+            onPressedAmerican: () => speakcriticallys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵکار) بەشێوەیەکی ڕەخنەگرانە کە بڕیار لە لایەنە باش و خراپەکانی شتێک دەدەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I looked at myself critically in the mirror."),
-                    ExampleSentenceKurdish(
-                        text: "بە ڕەخنەگرانەوە لە ئاوێنەکە سەیری خۆمم کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticallys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticallys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I looked at myself critically in the mirror.",
+            kurdishText: "بە ڕەخنەگرانەوە لە ئاوێنەکە سەیری خۆمم کرد.",
+            onPressedBritish: () => speakcriticallys5("en-GB"),
+            onPressedAmerican: () => speakcriticallys5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ھاوەڵکار) بەپێی ڕەخنەگران"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The album was critically praised and earned a Grammy nomination."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەلبوومەکە لەلایەن ڕەخنەگرانەوە ستایش کرا و پاڵاوتنێکی بۆ گرامی بردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticallys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticallys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The album was critically praised and earned a Grammy nomination.",
+            kurdishText:
+                "ئەلبوومەکە لەلایەن ڕەخنەگرانەوە ستایش کرا و پاڵاوتنێکی بۆ گرامی بردەوە.",
+            onPressedBritish: () => speakcriticallys6("en-GB"),
+            onPressedAmerican: () => speakcriticallys6("en-US"),
           ),
         ],
       ),

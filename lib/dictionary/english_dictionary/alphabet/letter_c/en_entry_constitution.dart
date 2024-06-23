@@ -156,250 +156,98 @@ class EnglishEntryconstitution extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دەستوور؛ سیستەمی یاسادانان و بنچینە سەرەکییەکانی بەڕێوەبردنی وڵاتێک یان دامەزراوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Britain does not have a written constitution."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەریتانیا دەستووری نووسراوی نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constitution", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstitutions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstitutions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Britain does not have a written constitution.",
+                            kurdishText:
+                                "بەریتانیا دەستووری نووسراوی نییە.", // constitution",
+                            onPressedBritish: () =>
+                                speakconstitutions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstitutions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The constitution stipulated that a general election must be held within 120 days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستوور دیاری دەکات کە ھەڵبژاردنێکی گشتی دەبێت لە ١٢٠ ڕۆژدا ڕێکبخرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstitutions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstitutions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The constitution stipulated that a general election must be held within 120 days.",
+                            kurdishText:
+                                "دەستوور دیاری دەکات کە ھەڵبژاردنێکی گشتی دەبێت لە ١٢٠ ڕۆژدا ڕێکبخرێت.",
+                            onPressedBritish: () =>
+                                speakconstitutions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstitutions2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The constitution was suspended and the army was placed in full control."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستوور سڕکرا و سوپا لە کۆنترۆڵی تەواو دانرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstitutions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstitutions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The constitution was suspended and the army was placed in full control.",
+                            kurdishText:
+                                "دەستوور سڕکرا و سوپا لە کۆنترۆڵی تەواو دانرا.",
+                            onPressedBritish: () =>
+                                speakconstitutions3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstitutions3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new constitution will be adopted next year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستوورە تازەکە ساڵی داھاتوو ھەڵدەگیرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstitutions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstitutions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new constitution will be adopted next year.",
+                            kurdishText:
+                                "دەستوورە تازەکە ساڵی داھاتوو ھەڵدەگیرێتەوە.",
+                            onPressedBritish: () =>
+                                speakconstitutions4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstitutions4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) دۆخی تەندرووستی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The child had a weak constitution and was always ill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکە تەندرووستییەکی لاوازی ھەبوو و ھەمیشە نەخۆش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstitutions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstitutions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The child had a weak constitution and was always ill.",
+                            kurdishText:
+                                "منداڵەکە تەندرووستییەکی لاوازی ھەبوو و ھەمیشە نەخۆش بوو.",
+                            onPressedBritish: () =>
+                                speakconstitutions5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstitutions5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have a strong constitution and my stomach can handle anything."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەندرووستییەکی بەھێزم ھەیە و گەدەم بەرگەی ھەموو شت دەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstitutions6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstitutions6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I have a strong constitution and my stomach can handle anything.",
+                            kurdishText:
+                                "تەندرووستییەکی بەھێزم ھەیە و گەدەم بەرگەی ھەموو شت دەگرێت.",
+                            onPressedBritish: () =>
+                                speakconstitutions6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstitutions6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) شێوازی پێکھاتنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scientists study the genetic constitution of cells to understand how genes influence cell behavior."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاناکان لە شێوازی درووستبوونی جیناتی خانەکان دەکۆڵنەوە بۆ تێگەشتن لەوەی چۆن جینەکان کاریگەری لە ڕەفتاری خانەکان دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstitutions7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstitutions7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scientists study the genetic constitution of cells to understand how genes influence cell behavior.",
+                            kurdishText:
+                                "زاناکان لە شێوازی درووستبوونی جیناتی خانەکان دەکۆڵنەوە بۆ تێگەشتن لەوەی چۆن جینەکان کاریگەری لە ڕەفتاری خانەکان دەکەن.",
+                            onPressedBritish: () =>
+                                speakconstitutions7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstitutions7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) درووستکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He recommended the constitution of a review committee."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشنیاری پێکھێنانی لینژنەیەکی چاودێری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstitutions8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstitutions8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He recommended the constitution of a review committee.",
+                            kurdishText:
+                                "پێشنیاری پێکھێنانی لینژنەیەکی چاودێری کرد.",
+                            onPressedBritish: () =>
+                                speakconstitutions8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstitutions8("en-US"),
                           ),
                         ],
                       ),

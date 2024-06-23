@@ -103,63 +103,23 @@ class EnglishEntryconceivable extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە دەتوانیت خەیاڵ یان باوەڕی پێ بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is conceivable that I'll see her tomorrow."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەگەری ھەیە سبەی بیبینم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conceivable", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconceivables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconceivables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is conceivable that I'll see her tomorrow.",
+                            kurdishText:
+                                "ئەگەری ھەیە سبەی بیبینم.", // conceivable",
+                            onPressedBritish: () => speakconceivables1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconceivables1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's quite conceivable that she hasn't heard the news yet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەکرێت ھێشتا ھەواڵەکەی نەبیستبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconceivables2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconceivables2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's quite conceivable that she hasn't heard the news yet.",
+                            kurdishText: "دەکرێت ھێشتا ھەواڵەکەی نەبیستبێت.",
+                            onPressedBritish: () => speakconceivables2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconceivables2("en-US"),
                           ),
                         ],
                       ),

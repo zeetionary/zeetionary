@@ -184,57 +184,19 @@ class EnglishEntryclock extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کاتژمێری سەر دیوار، مێز، یان کۆمپیوتەر (کاتژمێری دەست نا)"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The clock struck twelve/midnight."),
-                                    ExampleSentenceKurdish(
-                                        text: "کاتژمێرەکە گەشتە سەر دوازدە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clock", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclocks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclocks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The clock struck twelve/midnight.",
+                            kurdishText:
+                                "کاتژمێرەکە گەشتە سەر دوازدە.", // clock",
+                            onPressedBritish: () => speakclocks1("en-GB"),
+                            onPressedAmerican: () => speakclocks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The clock has stopped."),
-                                    ExampleSentenceKurdish(
-                                        text: "کاتژمێرەکە وەستاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclocks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclocks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The clock has stopped.",
+                            kurdishText: "کاتژمێرەکە وەستاوە.",
+                            onPressedBritish: () => speakclocks2("en-GB"),
+                            onPressedAmerican: () => speakclocks2("en-US"),
                           ),
                           Column(
                             children: [
@@ -366,183 +328,67 @@ class EnglishEntryclock extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) گێچی ئۆتۆمبێلێک کە ژمارەی ئەو میل یان کیلۆمەترانە دەپێوێت کە ڕۆشتووە، یان ئەوەی کە خێرایی دەژمێرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was only doing 30 mph on the clock."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەپێی گێچەکە ٣٠ مل/کاتژمێرێکدا دەچووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclocks7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclocks7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was only doing 30 mph on the clock.",
+                            kurdishText:
+                                "بەپێی گێچەکە ٣٠ مل/کاتژمێرێکدا دەچووم.",
+                            onPressedBritish: () => speakclocks7("en-GB"),
+                            onPressedAmerican: () => speakclocks7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My car's only got 10,000 miles on the clock."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکەم تەنھا ١٠,٠٠٠ میل چووە لەسەر گێچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclocks8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclocks8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My car's only got 10,000 miles on the clock.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکەم تەنھا ١٠,٠٠٠ میل چووە لەسەر گێچەکە.",
+                            onPressedBritish: () => speakclocks8("en-GB"),
+                            onPressedAmerican: () => speakclocks8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) گەشتنە کاتێک یان خێراییەکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He clocked 10.09 seconds in the 100 metres final."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ١٠٠ مەتری کۆتادا گەشتە ١٠,٠٩ چرکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclocks9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclocks9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He clocked 10.09 seconds in the 100 metres final.",
+                            kurdishText:
+                                "لە ١٠٠ مەتری کۆتادا گەشتە ١٠,٠٩ چرکە.",
+                            onPressedBritish: () => speakclocks9("en-GB"),
+                            onPressedAmerican: () => speakclocks9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) پێوانی خێرایی جوڵەی کەسێک/شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police clocked her doing over 100 miles an hour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس پێوانەی کرد کە زیاتر لە ١٠٠ کیلۆمەتر لە کاتژمێرێکدا دەچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclocks10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclocks10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police clocked her doing over 100 miles an hour.",
+                            kurdishText:
+                                "پۆلیس پێوانەی کرد کە زیاتر لە ١٠٠ کیلۆمەتر لە کاتژمێرێکدا دەچوو.",
+                            onPressedBritish: () => speakclocks10("en-GB"),
+                            onPressedAmerican: () => speakclocks10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) تێبینیکردنی کەسێک یان ئاماژەدان پێی بەوەی کە دەیبینیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I clocked her in the driving mirror."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئاوێنەی تەنیشتەوە ئاماژەم بۆ کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclocks11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclocks11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I clocked her in the driving mirror.",
+                            kurdishText: "لە ئاوێنەی تەنیشتەوە ئاماژەم بۆ کرد.",
+                            onPressedBritish: () => speakclocks11("en-GB"),
+                            onPressedAmerican: () => speakclocks11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) لێدان لە کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He said it again, so I clocked him on the nose!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووبارە گوتییەوە، بۆیە کێشام بە لوتیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclocks12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclocks12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He said it again, so I clocked him on the nose!",
+                            kurdishText:
+                                "دووبارە گوتییەوە، بۆیە کێشام بە لوتیدا.",
+                            onPressedBritish: () => speakclocks12("en-GB"),
+                            onPressedAmerican: () => speakclocks12("en-US"),
                           ),
                         ],
                       ),

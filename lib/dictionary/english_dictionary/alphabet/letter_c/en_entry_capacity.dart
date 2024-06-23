@@ -197,117 +197,40 @@ class EnglishEntrycapacity extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو ڕێژەیەی کە جێیدەبێتەوە لە شوێنێک یان لە ناو شتێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The theatre has a seating capacity of 2 000."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھۆڵی شانۆکە شوێنی دانیشتنی ٢٠٠٠ کەسی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capacity", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapacitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapacitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The theatre has a seating capacity of 2 000.",
+                            kurdishText:
+                                "ھۆڵی شانۆکە شوێنی دانیشتنی ٢٠٠٠ کەسی ھەیە.", // capacity
+                            onPressedBritish: () => speakcapacitys1("en-GB"),
+                            onPressedAmerican: () => speakcapacitys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hall was filled to capacity (= was completely full)."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھۆڵەکە بە تەواوی پڕ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapacitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapacitys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hall was filled to capacity (= was completely full).",
+                            kurdishText: "ھۆڵەکە بە تەواوی پڕ بوو.",
+                            onPressedBritish: () => speakcapacitys2("en-GB"),
+                            onPressedAmerican: () => speakcapacitys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) توانای تێگەشتن یان کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has an enormous capacity for hard work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانایەکی زۆری بۆ کاری قورس ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapacitys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapacitys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has an enormous capacity for hard work.",
+                            kurdishText: "توانایەکی زۆری بۆ کاری قورس ھەیە.",
+                            onPressedBritish: () => speakcapacitys3("en-GB"),
+                            onPressedAmerican: () => speakcapacitys3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Limited resources are restricting our capacity for developing new products."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرچاوەی سنووردار توانامانی سنووردار کردووە لە گەشەپێدانی بەرھەمەکانمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapacitys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapacitys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Limited resources are restricting our capacity for developing new products.",
+                            kurdishText:
+                                "سەرچاوەی سنووردار توانامانی سنووردار کردووە لە گەشەپێدانی بەرھەمەکانمان.",
+                            onPressedBritish: () => speakcapacitys4("en-GB"),
+                            onPressedAmerican: () => speakcapacitys4("en-US"),
                           ),
                           Column(
                             children: [
@@ -409,119 +332,42 @@ class EnglishEntrycapacity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) پێگە یان ئەرکی فەرمیی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was acting in her capacity as manager."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئەرکەکەیدا وەک سەرپەرشتیار کاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapacitys8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapacitys8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was acting in her capacity as manager.",
+                            kurdishText:
+                                "لە ئەرکەکەیدا وەک سەرپەرشتیار کاری دەکرد.",
+                            onPressedBritish: () => speakcapacitys8("en-GB"),
+                            onPressedAmerican: () => speakcapacitys8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In my capacity as president, I would like to thank Jack for his hard work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پێگەم وەک سەرۆک، دەمەوێت سوپاسی جاک بکەم بۆ کاری قورسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapacitys9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapacitys9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In my capacity as president, I would like to thank Jack for his hard work.",
+                            kurdishText:
+                                "لە پێگەم وەک سەرۆک، دەمەوێت سوپاسی جاک بکەم بۆ کاری قورسی.",
+                            onPressedBritish: () => speakcapacitys9("en-GB"),
+                            onPressedAmerican: () => speakcapacitys9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ئەو بڕەی کە کارگەیەک، ئامێرێک، ھتد بەرھەمی دێنێت، یان ھێز و توانای بزوێنەرێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The factory is working at (full) capacity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارگەکە بەوپەڕی توانای کاردەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapacitys10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapacitys10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The factory is working at (full) capacity.",
+                            kurdishText: "کارگەکە بەوپەڕی توانای کاردەکات.",
+                            onPressedBritish: () => speakcapacitys10("en-GB"),
+                            onPressedAmerican: () => speakcapacitys10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The larger cars have bigger capacity engines (= the engines are bigger and more powerful)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلە گەورەکان بزوێنەری توانا گەورەتریان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapacitys11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapacitys11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The larger cars have bigger capacity engines (= the engines are bigger and more powerful).",
+                            kurdishText:
+                                "ئۆتۆمبێلە گەورەکان بزوێنەری توانا گەورەتریان ھەیە.",
+                            onPressedBritish: () => speakcapacitys11("en-GB"),
+                            onPressedAmerican: () => speakcapacitys11("en-US"),
                           ),
                         ],
                       ),

@@ -243,62 +243,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) دیاریکردن، ڕێکخستن، و چاودێری کردنی کەرەستە و کارەکانی مۆزەخانەیەک، پێشانگایەکی ھونەری، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She curated a recent exhibition of Indian artwork."),
-                    ExampleSentenceKurdish(
-                        text: "پێشانگایەکی تازەگی کاری ھونەری ھیندیی ڕێکخست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She curated a recent exhibition of Indian artwork.",
+            kurdishText:
+                "پێشانگایەکی تازەگی کاری ھونەری ھیندیی ڕێکخست.", // curate", please follow LX instructions
+            onPressedBritish: () => speakcurates1("en-GB"),
+            onPressedAmerican: () => speakcurates1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) کۆکردنەوە، دیاریکردن، و پیشاندانی زانیاری یان کەرەستەی وەک وێنە، ڤیدیۆ، میوزیک، ھتد بۆ ئەوەی خەڵکی بەکاری بھێنن یان چێژی لێ ببینن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A UK rock band are curating the BBC's digital music station for a week."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باندێکی ڕۆکی بەریتانی کاری ڕێکخستنی وێستگەی میوزیکی دیجیتاڵی بی‌بی‌سی بۆ ھەفتەیەک دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A UK rock band are curating the BBC's digital music station for a week.",
+            kurdishText:
+                "باندێکی ڕۆکی بەریتانی کاری ڕێکخستنی وێستگەی میوزیکی دیجیتاڵی بی‌بی‌سی بۆ ھەفتەیەک دەکەن.",
+            onPressedBritish: () => speakcurates2("en-GB"),
+            onPressedAmerican: () => speakcurates2("en-US"),
           ),
         ],
       ),

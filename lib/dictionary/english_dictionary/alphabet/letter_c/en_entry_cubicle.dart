@@ -242,58 +242,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ناوچەیەکی بچووکی ژوورێک کە بە پەردەیەک یان دیوارێکی نزم جیاکراوەتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I don’t even know my colleague in the next cubicle."),
-                    ExampleSentenceKurdish(
-                        text: "تەنانەت ھاوکارەکەم لە ژوورۆچکەی تەنیشت ناناسم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cubicle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcubicles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcubicles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I don’t even know my colleague in the next cubicle.",
+            kurdishText:
+                "تەنانەت ھاوکارەکەم لە ژوورۆچکەی تەنیشت ناناسم.", // cubicle", please follow LX instructions
+            onPressedBritish: () => speakcubicles1("en-GB"),
+            onPressedAmerican: () => speakcubicles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I was getting undressed in one of the cubicles."),
-                    ExampleSentenceKurdish(
-                        text: "لە یەکێک لە ژوورۆچکەکان جلەکانمم گۆڕی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcubicles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcubicles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was getting undressed in one of the cubicles.",
+            kurdishText: "لە یەکێک لە ژوورۆچکەکان جلەکانمم گۆڕی.",
+            onPressedBritish: () => speakcubicles2("en-GB"),
+            onPressedAmerican: () => speakcubicles2("en-US"),
           ),
         ],
       ),

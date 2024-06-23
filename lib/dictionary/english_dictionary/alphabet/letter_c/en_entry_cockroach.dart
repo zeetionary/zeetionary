@@ -95,32 +95,13 @@ class EnglishEntrycockroach extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مێروویەکی گەورەی قاوەیی باڵدار کە لە ماڵەکاندا دەژی و زۆرجار حەزی لە پیسییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The kitchens were discovered to be infested with cockroaches."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانرا کە چێشتخانەکان پڕبوون لە سیسرکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cockroach", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcockroachs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcockroachs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The kitchens were discovered to be infested with cockroaches.",
+                            kurdishText:
+                                "زانرا کە چێشتخانەکان پڕبوون لە سیسرکە.", // cockroach",
+                            onPressedBritish: () => speakcockroachs1("en-GB"),
+                            onPressedAmerican: () => speakcockroachs1("en-US"),
                           ),
                         ],
                       ),

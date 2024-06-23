@@ -104,67 +104,29 @@ class EnglishEntryconstellation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گەلەئەستێرەیەک کە شێوەیەکی لە ئاسماندا ھەیە و ناوێکی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Little Bear constellation is still used by navigators at sea."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەلەئەستێرەی ورچی بچووک ھێشتا لەلایەن کەشتیوانەکانەوە لە دەریادا بەکاردێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constellation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstellations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstellations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Little Bear constellation is still used by navigators at sea.",
+                            kurdishText:
+                                "گەلەئەستێرەی ورچی بچووک ھێشتا لەلایەن کەشتیوانەکانەوە لە دەریادا بەکاردێت.", // constellation",
+                            onPressedBritish: () =>
+                                speakconstellations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstellations1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) گرووپێک لە بیرۆکە، شت، یان کەسی پەیوەندیدار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At our annual ceremony we had a whole constellation of movie stars and directors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئاھەنگی ساڵانەمان گرووپێکی تەواو لە ئەستێرەکانی فیلم و دەرھێنەرانمان ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstellations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstellations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At our annual ceremony we had a whole constellation of movie stars and directors.",
+                            kurdishText:
+                                "لە ئاھەنگی ساڵانەمان گرووپێکی تەواو لە ئەستێرەکانی فیلم و دەرھێنەرانمان ھەبوو.",
+                            onPressedBritish: () =>
+                                speakconstellations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstellations2("en-US"),
                           ),
                         ],
                       ),

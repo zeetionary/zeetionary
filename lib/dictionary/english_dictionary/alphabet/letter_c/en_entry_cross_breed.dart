@@ -243,62 +243,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گیانەوەری دووڕەگە؛ گیانەوەرێک کە دایک و باوکی لە دوو جۆری جیاوازی ئاژەڵن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cross-breeds often exhibit a combination of traits from both parent species."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دووڕەگەکان زۆرجار تێکەڵەیەک لە خاسیەتەکانی ھەر دوو باوان پیشان دەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cross-breed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossbreeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossbreeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Cross-breeds often exhibit a combination of traits from both parent species.",
+            kurdishText:
+                "دووڕەگەکان زۆرجار تێکەڵەیەک لە خاسیەتەکانی ھەر دوو باوان پیشان دەدەن.", // cross-breed", please follow LX instructions
+            onPressedBritish: () => speakcrossbreeds1("en-GB"),
+            onPressedAmerican: () => speakcrossbreeds1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بەرھەمھێنانی ئاژەڵێکی دووڕەگە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was no scientific evidence that lambs and goats could crossbreed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ بەڵگەیەکی زانستی نەبوو کە بەرخ و بزن بتوانن دووڕەگە بەرھەمبھێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossbreeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossbreeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was no scientific evidence that lambs and goats could crossbreed.",
+            kurdishText:
+                "ھیچ بەڵگەیەکی زانستی نەبوو کە بەرخ و بزن بتوانن دووڕەگە بەرھەمبھێنن.",
+            onPressedBritish: () => speakcrossbreeds2("en-GB"),
+            onPressedAmerican: () => speakcrossbreeds2("en-US"),
           ),
         ],
       ),

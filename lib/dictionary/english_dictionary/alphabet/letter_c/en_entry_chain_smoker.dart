@@ -92,34 +92,14 @@ class EnglishEntrychainsmoker extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە یەک لە دوای یەک جگەرە دەکێشێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He used to be a chain-smoker, but he has now given up smoking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشووتر ئاڵوودەی جگەرە بوو، بەڵام لە ئێستادا تەرکی کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "chain-smoker", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchainsmokers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchainsmokers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He used to be a chain-smoker, but he has now given up smoking.",
+                            kurdishText:
+                                "پێشووتر ئاڵوودەی جگەرە بوو، بەڵام لە ئێستادا تەرکی کردووە.", // chain-smoker",
+                            onPressedBritish: () => speakchainsmokers1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchainsmokers1("en-US"),
                           ),
                         ],
                       ),

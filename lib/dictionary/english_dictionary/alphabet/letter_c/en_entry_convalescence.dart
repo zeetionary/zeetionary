@@ -94,34 +94,15 @@ class EnglishEntryconvalescence extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ماوەیەک کە بەسەری بەدەیت بۆ چاکبوونەوە لە نەخۆشییەک یان لە دوای نەشتەرگەرییەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You need four to six weeks' convalescence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستت بە چوار بۆ شەش ھەفتە لە ماوەی چاکبوونەوە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convalescence", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconvalescences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconvalescences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You need four to six weeks' convalescence.",
+                            kurdishText:
+                                "پێویستت بە چوار بۆ شەش ھەفتە لە ماوەی چاکبوونەوە ھەیە.", // convalescence",
+                            onPressedBritish: () =>
+                                speakconvalescences1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconvalescences1("en-US"),
                           ),
                         ],
                       ),

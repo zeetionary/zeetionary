@@ -104,64 +104,26 @@ class EnglishEntrycolonization extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کاری داگیرکردنی ناوچەیەک یان وڵاتێک کە ھی خۆت نییە و ناردنی خەڵکی خۆت بۆ نیشتەجێبوون لێی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "European colonization of the Americas, with its cycle of war, disease and slavery, decimated the indigenous peoples."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆلۆنی‌سازی ئەورووپییەکان لە ئەمریکا، بە جەنگ، نەخۆشی، و کۆیلایەتی، کۆتایی بە دانیشتووانە ڕەسەنەکان ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colonization", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcolonizations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcolonizations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "European colonization of the Americas, with its cycle of war, disease and slavery, decimated the indigenous peoples.",
+                            kurdishText:
+                                "کۆلۆنی‌سازی ئەورووپییەکان لە ئەمریکا، بە جەنگ، نەخۆشی، و کۆیلایەتی، کۆتایی بە دانیشتووانە ڕەسەنەکان ھێنا.", // colonization",
+                            onPressedBritish: () =>
+                                speakcolonizations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcolonizations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He sang mainly about the colonisation of his country by Portugal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیاتر گۆرانی دەگوت لەسەر داگیرکاری وڵاتەکەی لەلایەن پرتوگالەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcolonizations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcolonizations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He sang mainly about the colonisation of his country by Portugal.",
+                            kurdishText:
+                                "زیاتر گۆرانی دەگوت لەسەر داگیرکاری وڵاتەکەی لەلایەن پرتوگالەوە.",
+                            onPressedBritish: () =>
+                                speakcolonizations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcolonizations2("en-US"),
                           ),
                         ],
                       ),

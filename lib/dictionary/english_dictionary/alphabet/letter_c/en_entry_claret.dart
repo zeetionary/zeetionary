@@ -104,62 +104,24 @@ class EnglishEntryclaret extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بیرەی وشکی سوور، بەتایبەتی لە ناوچەی بۆردۆی  فەرەنسا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The claret-filled wine glasses sparkled in the candlelight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گڵاسە بیرە پڕ لە سوورەمەییەکان لە ڕۆشنایی مۆمەکەدا دەبریسکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "claret", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclarets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclarets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The claret-filled wine glasses sparkled in the candlelight.",
+                            kurdishText:
+                                "گڵاسە بیرە پڕ لە سوورەمەییەکان لە ڕۆشنایی مۆمەکەدا دەبریسکانەوە.", // claret",
+                            onPressedBritish: () => speakclarets1("en-GB"),
+                            onPressedAmerican: () => speakclarets1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕەنگی سووری تاریک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She painted the walls of her room in a claret hue."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیوارەکانی ژوورەکەیی بۆیەکرد بە ڕەنگێکی سووری تاریک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclarets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclarets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She painted the walls of her room in a claret hue.",
+                            kurdishText:
+                                "دیوارەکانی ژوورەکەیی بۆیەکرد بە ڕەنگێکی سووری تاریک.",
+                            onPressedBritish: () => speakclarets2("en-GB"),
+                            onPressedAmerican: () => speakclarets2("en-US"),
                           ),
                         ],
                       ),

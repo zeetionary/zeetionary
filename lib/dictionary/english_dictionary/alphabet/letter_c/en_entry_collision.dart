@@ -128,146 +128,49 @@ class EnglishEntrycollision extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پێکدادان یان پیاکێشان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Stewart was injured in a collision with another player."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستیوارت بریندار بوو لە پیاکێشانێک لەگەڵ یاریزانێکی دیکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collision", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollisions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollisions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Stewart was injured in a collision with another player.",
+                            kurdishText:
+                                "ستیوارت بریندار بوو لە پیاکێشانێک لەگەڵ یاریزانێکی دیکەدا.", // collision",
+                            onPressedBritish: () => speakcollisions1("en-GB"),
+                            onPressedAmerican: () => speakcollisions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His car was in collision with a motorbike."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکەی کێشای بە ماتۆڕێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollisions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollisions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His car was in collision with a motorbike.",
+                            kurdishText: "ئۆتۆمبێلەکەی کێشای بە ماتۆڕێکدا.",
+                            onPressedBritish: () => speakcollisions2("en-GB"),
+                            onPressedAmerican: () => speakcollisions2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I had a collision with a bus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاکێشانێکم ھەبوو لەگەڵ پاسێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollisions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollisions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I had a collision with a bus.",
+                            kurdishText: "پیاکێشانێکم ھەبوو لەگەڵ پاسێکدا.",
+                            onPressedBritish: () => speakcollisions3("en-GB"),
+                            onPressedAmerican: () => speakcollisions3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ناکۆکی توندی نێوان دوو کەس، یان دوو بیرۆکە، بۆچوون، ھتد کە دژیەکن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In his work we see the collision of two different ideas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کارەکەیدا بەرکەوتنی دوو بیرۆکە دەبینین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollisions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollisions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In his work we see the collision of two different ideas.",
+                            kurdishText:
+                                "لە کارەکەیدا بەرکەوتنی دوو بیرۆکە دەبینین.",
+                            onPressedBritish: () => speakcollisions4("en-GB"),
+                            onPressedAmerican: () => speakcollisions4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Australian food is an exciting collision of native, Asian and European cuisines."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواردنی ئوسترالی بەرکەوتەیەکی بەچێژی خواردنی ڕەسەن، ئاسیایی، و ئەورووپاییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollisions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollisions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Australian food is an exciting collision of native, Asian and European cuisines.",
+                            kurdishText:
+                                "خواردنی ئوسترالی بەرکەوتەیەکی بەچێژی خواردنی ڕەسەن، ئاسیایی، و ئەورووپاییە.",
+                            onPressedBritish: () => speakcollisions5("en-GB"),
+                            onPressedAmerican: () => speakcollisions5("en-US"),
                           ),
                         ],
                       ),

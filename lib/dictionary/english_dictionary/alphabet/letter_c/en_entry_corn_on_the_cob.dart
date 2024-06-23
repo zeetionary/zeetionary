@@ -97,34 +97,15 @@ class EnglishEntrycornonthecob extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گەنمەشامی کە لێنراوە و ھێشتا ھەموو زەڕاتەکەی بە ساقەتەکەیەوە لکاوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Corn on the cob is a favorite summer treat for many people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەڕات خواردنی دڵخوازی ھاوینەی زۆر کەسە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "corn on the cob", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcornonthecobs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcornonthecobs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Corn on the cob is a favorite summer treat for many people.",
+                            kurdishText:
+                                "زەڕات خواردنی دڵخوازی ھاوینەی زۆر کەسە.", // corn on the cob",
+                            onPressedBritish: () =>
+                                speakcornonthecobs1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcornonthecobs1("en-US"),
                           ),
                         ],
                       ),

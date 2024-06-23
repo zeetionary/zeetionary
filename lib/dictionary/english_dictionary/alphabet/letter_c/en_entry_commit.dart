@@ -240,60 +240,22 @@ class EnglishEntrycommit extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ئەنجامدانی شتێکی ھەڵە یان نایاسایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most crimes are committed by young men."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی تاوانەکان لەلایەن پیاوانی گەنجەوە دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commit", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most crimes are committed by young men.",
+                            kurdishText:
+                                "زۆرینەی تاوانەکان لەلایەن پیاوانی گەنجەوە دەکرێن.", // commit",
+                            onPressedBritish: () => speakcommits1("en-GB"),
+                            onPressedAmerican: () => speakcommits1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The men are being held on suspicion of conspiracy to commit armed robbery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوەکان ڕاگیراون بە گومانی پلان بۆ ئەنجامدانی تاڵانکاری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The men are being held on suspicion of conspiracy to commit armed robbery.",
+                            kurdishText:
+                                "پیاوەکان ڕاگیراون بە گومانی پلان بۆ ئەنجامدانی تاڵانکاری.",
+                            onPressedBritish: () => speakcommits2("en-GB"),
+                            onPressedAmerican: () => speakcommits2("en-US"),
                           ),
                           Column(
                             children: [
@@ -395,390 +357,139 @@ class EnglishEntrycommit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) خۆکوشتن بە ئەنقەست"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her father had committed suicide."),
-                                    ExampleSentenceKurdish(
-                                        text: "باوکی خۆی کوشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her father had committed suicide.",
+                            kurdishText: "باوکی خۆی کوشت.",
+                            onPressedBritish: () => speakcommits6("en-GB"),
+                            onPressedAmerican: () => speakcommits6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) بەڵێندانی تەواو کە شتێک دەکەیت، پابەندی بەڵێنێک دەبیت، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They want to see the text of the proposed treaty before fully committing themselves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیانەوێت نووسراوی پەیماننامەکە ببینن پێش ئەوەی بە تەواوی خۆیان پابەند بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They want to see the text of the proposed treaty before fully committing themselves.",
+                            kurdishText:
+                                "دەیانەوێت نووسراوی پەیماننامەکە ببینن پێش ئەوەی بە تەواوی خۆیان پابەند بکەن.",
+                            onPressedBritish: () => speakcommits7("en-GB"),
+                            onPressedAmerican: () => speakcommits7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Borrowers should think carefully before committing themselves to taking out a loan."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەرزوەرگران دەبێت بە وریاییەوە بیربکەنەوە پێش خۆپابەندکردنیان بە وەرگرتنی قەرزێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Borrowers should think carefully before committing themselves to taking out a loan.",
+                            kurdishText:
+                                "قەرزوەرگران دەبێت بە وریاییەوە بیربکەنەوە پێش خۆپابەندکردنیان بە وەرگرتنی قەرزێک.",
+                            onPressedBritish: () => speakcommits8("en-GB"),
+                            onPressedAmerican: () => speakcommits8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Both sides committed themselves to settle the dispute peacefully."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو لایەن خۆیان پابەند دەکەن بە چارەسەری کێشەکە بە ئاشتییانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Both sides committed themselves to settle the dispute peacefully.",
+                            kurdishText:
+                                "ھەردوو لایەن خۆیان پابەند دەکەن بە چارەسەری کێشەکە بە ئاشتییانە.",
+                            onPressedBritish: () => speakcommits9("en-GB"),
+                            onPressedAmerican: () => speakcommits9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) دەربڕینی بۆچوونێک دەرکردنی بڕیارێک بەشێوەیەک کە دواتر سەختە بیگۆڕیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You don't have to commit yourself now—just think about it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویست ناکات ئێستا خۆت یەکلایی بکەیتەوە، تەنھا بیری لێبکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You don't have to commit yourself now—just think about it.",
+                            kurdishText:
+                                "پێویست ناکات ئێستا خۆت یەکلایی بکەیتەوە، تەنھا بیری لێبکەوە.",
+                            onPressedBritish: () => speakcommits10("en-GB"),
+                            onPressedAmerican: () => speakcommits10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had never committed himself to any ideology."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز خۆی پابەند بە ھیچ ئایدۆلۆژیایەک نەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had never committed himself to any ideology.",
+                            kurdishText:
+                                "ھەرگیز خۆی پابەند بە ھیچ ئایدۆلۆژیایەک نەکرد.",
+                            onPressedBritish: () => speakcommits11("en-GB"),
+                            onPressedAmerican: () => speakcommits11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) مانەوە لەگەڵ و بە تەواوی پشتگیری یەک کەس، دامەزراوە، ھتد، یان پێدانی ھەموو کات و توانا بە کارێک، چالاکییەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Why are so many men scared to commit? (= say they will stay with one person)"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆچی زۆر پیاو لە پابەندبوون دەترسن؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Why are so many men scared to commit? (= say they will stay with one person)",
+                            kurdishText: "بۆچی زۆر پیاو لە پابەندبوون دەترسن؟",
+                            onPressedBritish: () => speakcommits12("en-GB"),
+                            onPressedAmerican: () => speakcommits12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) خەرجکردنی کات یان پارە لە کەسێک/شتێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The council has committed large amounts of money to housing projects."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەنجوومەنەکە پارەی زۆری بۆ پڕۆژەی خانووبەرە تەرخان کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The council has committed large amounts of money to housing projects.",
+                            kurdishText:
+                                "ئەنجوومەنەکە پارەی زۆری بۆ پڕۆژەی خانووبەرە تەرخان کردووە.",
+                            onPressedBritish: () => speakcommits13("en-GB"),
+                            onPressedAmerican: () => speakcommits13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The University committed substantial funds to assisting mature students."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانکۆکە پارەی زۆری تەرخان کردووە بۆ یارمەتی خوێندکارە پێگەشتووەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The University committed substantial funds to assisting mature students.",
+                            kurdishText:
+                                "زانکۆکە پارەی زۆری تەرخان کردووە بۆ یارمەتی خوێندکارە پێگەشتووەکان.",
+                            onPressedBritish: () => speakcommits14("en-GB"),
+                            onPressedAmerican: () => speakcommits14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) فەرمانکردن بە کەسێک کە بنێردرێت بۆ نەخۆشخانە زیندان، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was committed to a psychiatric hospital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نێردرا بۆ نەخۆشخانەیەکی دەروونی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was committed to a psychiatric hospital.",
+                            kurdishText: "نێردرا بۆ نەخۆشخانەیەکی دەروونی.",
+                            onPressedBritish: () => speakcommits15("en-GB"),
+                            onPressedAmerican: () => speakcommits15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) ناردنی کەسێک بۆ دانیشطنی دادگا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The attackers were committed for trial at Bristol Crown Court."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێرشکارەکان نێردران بۆ دانیشتنی دادگا لە دادگای شاھانەی بریستۆڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The attackers were committed for trial at Bristol Crown Court.",
+                            kurdishText:
+                                "ھێرشکارەکان نێردران بۆ دانیشتنی دادگا لە دادگای شاھانەی بریستۆڵ.",
+                            onPressedBritish: () => speakcommits16("en-GB"),
+                            onPressedAmerican: () => speakcommits16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) فێربوونی شتێک ھێندە باش کە وەک خۆی بیرت بێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She committed the instructions to memory."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێنماییەکانی بە بیروھۆشەوە لەبەرکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She committed the instructions to memory.",
+                            kurdishText: "ڕێنماییەکانی بە بیروھۆشەوە لەبەرکرد.",
+                            onPressedBritish: () => speakcommits17("en-GB"),
+                            onPressedAmerican: () => speakcommits17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٠. (کردار) نووسینی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Perhaps we should commit these ideas to paper before we forget them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترە ئەم بیرۆکانە بنووسینەوە پێش ئەوەی لەبیریان بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommits18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommits18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Perhaps we should commit these ideas to paper before we forget them.",
+                            kurdishText:
+                                "باشترە ئەم بیرۆکانە بنووسینەوە پێش ئەوەی لەبیریان بکەین.",
+                            onPressedBritish: () => speakcommits18("en-GB"),
+                            onPressedAmerican: () => speakcommits18("en-US"),
                           ),
                         ],
                       ),

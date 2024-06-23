@@ -194,62 +194,24 @@ class EnglishEntrycalling extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) حەزێکی زۆر یان ھەستکردن بە بەرپرسیاریەتی بۆ کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He realized that his calling was to preach the bible."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانی کە خولیای ئەوە بوو ئینجیل بڵێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calling", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcallings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcallings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He realized that his calling was to preach the bible.",
+                            kurdishText:
+                                "زانی کە خولیای ئەوە بوو ئینجیل بڵێتەوە.", // calling
+                            onPressedBritish: () => speakcallings1("en-GB"),
+                            onPressedAmerican: () => speakcallings1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) پیشەیەک یان کارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My father considered engineering one of the highest possible callings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوکم ئەندازیاری بە یەکێک لە ھەرە باشترین پیشەکان دادەنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcallings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcallings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My father considered engineering one of the highest possible callings.",
+                            kurdishText:
+                                "باوکم ئەندازیاری بە یەکێک لە ھەرە باشترین پیشەکان دادەنا.",
+                            onPressedBritish: () => speakcallings2("en-GB"),
+                            onPressedAmerican: () => speakcallings2("en-US"),
                           ),
                         ],
                       ),

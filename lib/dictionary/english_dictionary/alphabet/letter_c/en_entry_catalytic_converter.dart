@@ -189,34 +189,15 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئامێرێک کە لە سیستەمی ئەکسۆزی ئۆتۆمبێل دادەنرێت بۆ کەمکردنەوەی زیانی ژینگەیی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government mandates the use of catalytic converters to minimize environmental impact."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت بەکارھێنانی کۆنڤێرتەری ھاندەرانە دەسەپێنێت بۆ کەمکردنەوەی کاریگەریی ژینگەیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catalytic converter", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatalyticconverters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatalyticconverters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government mandates the use of catalytic converters to minimize environmental impact.",
+                            kurdishText:
+                                "حکومەت بەکارھێنانی کۆنڤێرتەری ھاندەرانە دەسەپێنێت بۆ کەمکردنەوەی کاریگەریی ژینگەیی.", // catalytic converter",
+                            onPressedBritish: () =>
+                                speakcatalyticconverters1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcatalyticconverters1("en-US"),
                           ),
                         ],
                       ),

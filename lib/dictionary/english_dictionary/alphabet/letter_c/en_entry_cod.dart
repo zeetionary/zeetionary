@@ -103,62 +103,24 @@ class EnglishEntrycod extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ماسییەکی گەورە کە لە ناوەوە سپییە و دەخورێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My son went out in the boat and caught a five-pound cod."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کوڕەکەم لە بەلەمەکە چووە دەرەوە و ماسییەکی پێنج پاوەندی گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cod", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcods1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcods1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My son went out in the boat and caught a five-pound cod.",
+                            kurdishText:
+                                "کوڕەکەم لە بەلەمەکە چووە دەرەوە و ماسییەکی پێنج پاوەندی گرت.", // cod",
+                            onPressedBritish: () => speakcods1("en-GB"),
+                            onPressedAmerican: () => speakcods1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) ساختە و ناڕاست"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie's plot was predictable and cod."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیرۆکی فیلمەکە بە پێشبینیکراو و ناڕەسەن دانرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcods2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcods2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie's plot was predictable and cod.",
+                            kurdishText:
+                                "چیرۆکی فیلمەکە بە پێشبینیکراو و ناڕەسەن دانرا.",
+                            onPressedBritish: () => speakcods2("en-GB"),
+                            onPressedAmerican: () => speakcods2("en-US"),
                           ),
                         ],
                       ),

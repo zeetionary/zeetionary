@@ -105,64 +105,26 @@ class EnglishEntryconservationist extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە چالاکە لە پاراستنی ژینگەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Conservationists are fighting to save the tiger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژینگەپارێزان دەجەنگن بۆ پاراستنی بەور."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conservationist", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservationists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservationists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Conservationists are fighting to save the tiger.",
+                            kurdishText:
+                                "ژینگەپارێزان دەجەنگن بۆ پاراستنی بەور.", // conservationist",
+                            onPressedBritish: () =>
+                                speakconservationists1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservationists1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some conservationists fear that 10% of the world's plant species may have disappeared by the end of the century."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک ژینگەپارێز دەترسن لەوەی ١٠٪ ـی جۆرەکانی ڕووەکی جیھان تا کۆتایی سەدەکە نەمێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservationists2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservationists2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some conservationists fear that 10% of the world's plant species may have disappeared by the end of the century.",
+                            kurdishText:
+                                "ھەندێک ژینگەپارێز دەترسن لەوەی ١٠٪ ـی جۆرەکانی ڕووەکی جیھان تا کۆتایی سەدەکە نەمێنن.",
+                            onPressedBritish: () =>
+                                speakconservationists2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservationists2("en-US"),
                           ),
                         ],
                       ),

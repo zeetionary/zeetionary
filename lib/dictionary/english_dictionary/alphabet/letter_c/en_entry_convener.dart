@@ -95,32 +95,13 @@ class EnglishEntryconvener extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە کۆبوونەوەی گرووپ و لیژنە ڕێکدەخات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is national convener of the Campaign Against Child Labour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سازدەری نیشتیمانی کەمپینی دژ بە کارکردنی منداڵانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convener", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconveners1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconveners1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is national convener of the Campaign Against Child Labour.",
+                            kurdishText:
+                                "سازدەری نیشتیمانی کەمپینی دژ بە کارکردنی منداڵانە.", // convener",
+                            onPressedBritish: () => speakconveners1("en-GB"),
+                            onPressedAmerican: () => speakconveners1("en-US"),
                           ),
                         ],
                       ),

@@ -190,60 +190,21 @@ class EnglishEntrycelebrated extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ناسراو بۆ ھەبوونی خاسیەتی باش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was celebrated for her wit and charm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناودار بوو بۆ زیرەکیی و جوانییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "celebrated", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelebrateds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelebrateds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was celebrated for her wit and charm.",
+                            kurdishText:
+                                "ناودار بوو بۆ زیرەکیی و جوانییەکەی.", // celebrated",
+                            onPressedBritish: () => speakcelebrateds1("en-GB"),
+                            onPressedAmerican: () => speakcelebrateds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has become celebrated as an artist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوی دەرکردووە وەک ھونەرمەندێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelebrateds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelebrateds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has become celebrated as an artist.",
+                            kurdishText: "ناوی دەرکردووە وەک ھونەرمەندێک.",
+                            onPressedBritish: () => speakcelebrateds2("en-GB"),
+                            onPressedAmerican: () => speakcelebrateds2("en-US"),
                           ),
                         ],
                       ),

@@ -193,59 +193,21 @@ class EnglishEntrycellphone extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) تەلەفۆنێک کە بە ڕادیۆ کاردەکات و دەتوانیت لەگەڵ خۆتدا ھەڵیبگریت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I talked to her on my cell phone."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە موبایلەکەم قسەم لەگەڵ کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cellphone", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcellphones1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcellphones1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I talked to her on my cell phone.",
+                            kurdishText:
+                                "بە موبایلەکەم قسەم لەگەڵ کرد.", // cellphone",
+                            onPressedBritish: () => speakcellphones1("en-GB"),
+                            onPressedAmerican: () => speakcellphones1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The use of cellular phones is not permitted on most aircraft."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکارھێنانی موبایل لەسەر فڕۆکە ڕێگە پێنەدراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcellphones2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcellphones2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The use of cellular phones is not permitted on most aircraft.",
+                            kurdishText:
+                                "بەکارھێنانی موبایل لەسەر فڕۆکە ڕێگە پێنەدراوە.",
+                            onPressedBritish: () => speakcellphones2("en-GB"),
+                            onPressedAmerican: () => speakcellphones2("en-US"),
                           ),
                         ],
                       ),

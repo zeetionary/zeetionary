@@ -268,145 +268,49 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کارێک یان چالاکییەک کە ئاماژەیە بۆ کەسێک کە شتێک بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Jon's arrival was a cue for more champagne."),
-                    ExampleSentenceKurdish(
-                        text: "گەشتنی جۆن ئاماژە بوو بۆ شامپەینی زیاتر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cue", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcues1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcues1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Jon's arrival was a cue for more champagne.",
+            kurdishText:
+                "گەشتنی جۆن ئاماژە بوو بۆ شامپەینی زیاتر.", // cue", please follow LX instructions
+            onPressedBritish: () => speakcues1("en-GB"),
+            onPressedAmerican: () => speakcues1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I think that's my cue to explain why I'm here."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێموایە ئەوە ئاماژەی ڕوونکەرەوەمە کە بۆچی لێرەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcues2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcues2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I think that's my cue to explain why I'm here.",
+            kurdishText: "پێموایە ئەوە ئاماژەی ڕوونکەرەوەمە کە بۆچی لێرەم.",
+            onPressedBritish: () => speakcues2("en-GB"),
+            onPressedAmerican: () => speakcues2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) چەند وشەیەک یان چالاکییەک کە لە شانۆیەکدا ئاماژەیە بۆ ئەکتەرێکی دیکە کە شتێک بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He had not yet been given the cue to go on to the stage."),
-                    ExampleSentenceKurdish(
-                        text: "ئاماژەی پێنەدرا کە بچێتە سەر ستەیج."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcues3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcues3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He had not yet been given the cue to go on to the stage.",
+            kurdishText: "ئاماژەی پێنەدرا کە بچێتە سەر ستەیج.",
+            onPressedBritish: () => speakcues3("en-GB"),
+            onPressedAmerican: () => speakcues3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) داری یاری بیلیارد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The pool player held the cue steady as he aimed for the black ball."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یاریزانی بیلیاردەکە دارەکەی بە جێگیری گرت کە ئامانجی گرتەوە بۆ تۆپە ڕەشەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcues4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcues4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The pool player held the cue steady as he aimed for the black ball.",
+            kurdishText:
+                "یاریزانی بیلیاردەکە دارەکەی بە جێگیری گرت کە ئامانجی گرتەوە بۆ تۆپە ڕەشەکە.",
+            onPressedBritish: () => speakcues4("en-GB"),
+            onPressedAmerican: () => speakcues4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Can you cue me when you want me to begin speaking?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانیت ئاماژەم پێ بدەیت کە دەتەوێت دەست بە قسەکردن بکەم؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcues5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcues5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Can you cue me when you want me to begin speaking?",
+            kurdishText:
+                "دەتوانیت ئاماژەم پێ بدەیت کە دەتەوێت دەست بە قسەکردن بکەم؟",
+            onPressedBritish: () => speakcues5("en-GB"),
+            onPressedAmerican: () => speakcues5("en-US"),
           ),
         ],
       ),

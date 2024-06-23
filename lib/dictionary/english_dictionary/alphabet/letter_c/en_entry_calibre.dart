@@ -193,60 +193,22 @@ class EnglishEntrycalibre extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) لێوەشاوەیی، بەتایبەتی توانای مرۆڤ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was impressed by the high calibre of applicants for the job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسام بوو بە لێوەشاوەیی داواکارانی کارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calibre", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalibres1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalibres1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was impressed by the high calibre of applicants for the job.",
+                            kurdishText:
+                                "سەرسام بوو بە لێوەشاوەیی داواکارانی کارەکە.", // calibre
+                            onPressedBritish: () => speakcalibres1("en-GB"),
+                            onPressedAmerican: () => speakcalibres1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company needs more people of your calibre."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە پێویستی بە کەسانی دیکەی وەک تۆ لێوەشاوە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalibres2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalibres2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company needs more people of your calibre.",
+                            kurdishText:
+                                "کۆمپانیاکە پێویستی بە کەسانی دیکەی وەک تۆ لێوەشاوە ھەیە.",
+                            onPressedBritish: () => speakcalibres2("en-GB"),
+                            onPressedAmerican: () => speakcalibres2("en-US"),
                           ),
                           // skipped_meaning
                         ],

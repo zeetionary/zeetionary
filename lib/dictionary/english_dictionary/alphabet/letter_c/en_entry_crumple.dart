@@ -256,114 +256,40 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گرمۆڵە، گڵۆڵە، چرچ‌ھەڵاتوو، چرچ‌ولۆچی، قەد
 """),
           const DefinitionKurdish(text: "١. (کردار) تۆپەڵکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This material crumples very easily."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم مادەیە ئاسان تۆپەڵ دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crumple", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrumples1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrumples1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This material crumples very easily.",
+            kurdishText:
+                "ئەم مادەیە ئاسان تۆپەڵ دەکرێت.", // crumple", please follow LX instructions
+            onPressedBritish: () => speakcrumples1("en-GB"),
+            onPressedAmerican: () => speakcrumples1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She crumpled the letter up into a ball and threw it on the fire."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نامەکەی کردە بە تۆپەڵێک و فڕێیدایە و ناو ئاگرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrumples2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrumples2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She crumpled the letter up into a ball and threw it on the fire.",
+            kurdishText: "نامەکەی کردە بە تۆپەڵێک و فڕێیدایە و ناو ئاگرەکە.",
+            onPressedBritish: () => speakcrumples2("en-GB"),
+            onPressedAmerican: () => speakcrumples2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) دەرکەوتنی ڕووخسار وەک ئەوەی بێزار یان بێ‌ھیوا بیت و دەست بکەیت بە گریان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her face crumpled up and she burst into tears."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووخساری چرچ بوو و دەستی کرد بە گریان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrumples3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrumples3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her face crumpled up and she burst into tears.",
+            kurdishText: "ڕووخساری چرچ بوو و دەستی کرد بە گریان.",
+            onPressedBritish: () => speakcrumples3("en-GB"),
+            onPressedAmerican: () => speakcrumples3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) لەناکاو کەوتن بە زەویدا بەھۆی ئەوەی کۆنترۆڵت بەسەر جەستەتدا نییە بەھۆی ئەوەی بریندار، سەرخۆش، بێ‌ھۆش، ھتد ــیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He crumpled up in agony."),
-                    ExampleSentenceKurdish(text: "لە ئازاردا دای بە زەویدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrumples4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrumples4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He crumpled up in agony.",
+            kurdishText: "لە ئازاردا دای بە زەویدا.",
+            onPressedBritish: () => speakcrumples4("en-GB"),
+            onPressedAmerican: () => speakcrumples4("en-US"),
           ),
         ],
       ),

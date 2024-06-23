@@ -102,60 +102,22 @@ class EnglishEntryclientele extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تەواوی کڕیارانی چێشتخانەیەک، فرۆشگایەک، دامەزراوەیەک، ھتد، یان تەواوی ئەو کەسانەی خزمەتگوزارییەک بەکاردێنن، بۆ نموونە کە پارێزەرێک کاریان بۆ دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It takes time to build (up) a clientele."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتی پێدەچێت کە موشتەری ھەمیشەیی درووست بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clientele", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclienteles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclienteles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It takes time to build (up) a clientele.",
+                            kurdishText:
+                                "کاتی پێدەچێت کە موشتەری ھەمیشەیی درووست بکەیت.", // clientele",
+                            onPressedBritish: () => speakclienteles1("en-GB"),
+                            onPressedAmerican: () => speakclienteles1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The restaurant has a large regular clientele."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چێشتخانەکە موشتەری ھەمیشەیی زۆری ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclienteles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclienteles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The restaurant has a large regular clientele.",
+                            kurdishText:
+                                "چێشتخانەکە موشتەری ھەمیشەیی زۆری ھەیە.",
+                            onPressedBritish: () => speakclienteles2("en-GB"),
+                            onPressedAmerican: () => speakclienteles2("en-US"),
                           ),
                         ],
                       ),

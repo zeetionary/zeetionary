@@ -94,32 +94,13 @@ class EnglishEntryconvalesce extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بەسەربردنی کات بۆ دووبارە چاکبوونەوە لە دوای نەخۆشبوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is convalescing at home after her operation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ماڵەوە چاکدەبێتەوە لە دوای نەشتەرگەرییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convalesce", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvalesces1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvalesces1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is convalescing at home after her operation.",
+                            kurdishText:
+                                "لە ماڵەوە چاکدەبێتەوە لە دوای نەشتەرگەرییەکەی.", // convalesce",
+                            onPressedBritish: () => speakconvalesces1("en-GB"),
+                            onPressedAmerican: () => speakconvalesces1("en-US"),
                           ),
                         ],
                       ),

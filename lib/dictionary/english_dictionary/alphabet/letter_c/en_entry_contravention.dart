@@ -104,64 +104,26 @@ class EnglishEntrycontravention extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کردنی شتێک کە پێچەوانەی یاسایەکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These actions are in contravention of European law."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەنگاوەکان دژ بە یاسای ئەورووپان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contravention", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontraventions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontraventions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These actions are in contravention of European law.",
+                            kurdishText:
+                                "ھەنگاوەکان دژ بە یاسای ئەورووپان.", // contravention",
+                            onPressedBritish: () =>
+                                speakcontraventions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontraventions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "By accepting the money, she was in contravention of company regulations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە پەسەندکردنی پارەکە، سەرپێچیکردنی ڕێساکانی کۆمپانیاکەی ئەنجامدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontraventions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontraventions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "By accepting the money, she was in contravention of company regulations.",
+                            kurdishText:
+                                "بە پەسەندکردنی پارەکە، سەرپێچیکردنی ڕێساکانی کۆمپانیاکەی ئەنجامدا.",
+                            onPressedBritish: () =>
+                                speakcontraventions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontraventions2("en-US"),
                           ),
                         ],
                       ),

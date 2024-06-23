@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەچکەقوو، بەچکەقاز، بێچووەقاز
 """),
           const DefinitionKurdish(text: "١. (ناو) بێچووی قاز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "People gathered to watch the cygnets take their first swim."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەڵکی کۆبووبوونەوە بۆ سەیری بەچکەقازەکان تا یەکەم مەلەیان بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cygnet", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcygnets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcygnets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "People gathered to watch the cygnets take their first swim.",
+            kurdishText:
+                "خەڵکی کۆبووبوونەوە بۆ سەیری بەچکەقازەکان تا یەکەم مەلەیان بکەن.", // cygnet", please follow LX instructions
+            onPressedBritish: () => speakcygnets1("en-GB"),
+            onPressedAmerican: () => speakcygnets1("en-US"),
           ),
         ],
       ),

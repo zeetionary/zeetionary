@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) زیرەک بوون و بەدەستھێنانی ئەوەی دەتەوێت، بەتایبەتی بە فێڵ و تەڵەکەبازی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She gets her way by a mixture of craftiness and determination."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەوە دەگات کە دەیەوێت بە تێکەڵەیەک لە زۆرزانی و کۆڵنەدان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "craftiness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraftinesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraftinesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She gets her way by a mixture of craftiness and determination.",
+            kurdishText:
+                "بەوە دەگات کە دەیەوێت بە تێکەڵەیەک لە زۆرزانی و کۆڵنەدان.", // craftiness", please follow LX instructions
+            onPressedBritish: () => speakcraftinesss1("en-GB"),
+            onPressedAmerican: () => speakcraftinesss1("en-US"),
           ),
         ],
       ),

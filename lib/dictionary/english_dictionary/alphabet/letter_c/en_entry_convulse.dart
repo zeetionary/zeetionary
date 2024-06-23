@@ -110,88 +110,30 @@ class EnglishEntryconvulse extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) درووستکردنی لەرزینێکی لەناکاو لە ڕووخساری کەسێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A violent shiver convulsed him."),
-                                    ExampleSentenceKurdish(
-                                        text: "لەرزەیەکی بەھێز ڕایتڵەقاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convulse", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvulses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvulses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A violent shiver convulsed him.",
+                            kurdishText:
+                                "لەرزەیەکی بەھێز ڕایتڵەقاند.", // convulse",
+                            onPressedBritish: () => speakconvulses1("en-GB"),
+                            onPressedAmerican: () => speakconvulses1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His whole body convulsed."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەواوی جەستەی ڕادەتەڵەقی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvulses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvulses2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His whole body convulsed.",
+                            kurdishText: "تەواوی جەستەی ڕادەتەڵەقی.",
+                            onPressedBritish: () => speakconvulses2("en-GB"),
+                            onPressedAmerican: () => speakconvulses2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) پێکەنینی ھێندە زۆر، بە تووڕەیی، ھتد کە ناتوانیت خۆت کۆنترۆڵ بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was convulsed by a bout of sneezing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شاگەشکە بوو بە زنجیرەیەک لە پژمین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvulses3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvulses3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was convulsed by a bout of sneezing.",
+                            kurdishText: "شاگەشکە بوو بە زنجیرەیەک لە پژمین.",
+                            onPressedBritish: () => speakconvulses3("en-GB"),
+                            onPressedAmerican: () => speakconvulses3("en-US"),
                           ),
                         ],
                       ),

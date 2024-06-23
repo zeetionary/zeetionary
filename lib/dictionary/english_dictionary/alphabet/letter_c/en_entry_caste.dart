@@ -191,63 +191,25 @@ class EnglishEntrycaste extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) یەکێک لە چوار چینە کۆمەڵایەتییەکەی ئایینی ھیندۆزی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He belongs to one of the highest castes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەر بە یەکێک لە چینە باڵاکانی ھیندۆزییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "caste", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He belongs to one of the highest castes.",
+                            kurdishText:
+                                "سەر بە یەکێک لە چینە باڵاکانی ھیندۆزییە.", // caste",
+                            onPressedBritish: () => speakcastes1("en-GB"),
+                            onPressedAmerican: () => speakcastes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) چینێکی کۆمەڵایەتی، بە تایبەتی یەکێک کە ڕێگا بە ئەندامی تازە نادات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Efforts to end caste discrimination face persistent challenges."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵەکان بۆ کۆتایی ھێنان بە جیاکاری چینی کۆمەڵایەتی ڕووبەڕووی بەرەنگاربوونەوەی بەردەوام بووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Efforts to end caste discrimination face persistent challenges.",
+                            kurdishText:
+                                "ھەوڵەکان بۆ کۆتایی ھێنان بە جیاکاری چینی کۆمەڵایەتی ڕووبەڕووی بەرەنگاربوونەوەی بەردەوام بووەتەوە.",
+                            onPressedBritish: () => speakcastes2("en-GB"),
+                            onPressedAmerican: () => speakcastes2("en-US"),
                           ),
                         ],
                       ),

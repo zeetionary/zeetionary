@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) دارێکی بەرزی ھەمیشە سەوز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cemetery was surrounded by a row of tall cypress trees."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گۆڕستانەکە دەوردرابوو بە ڕیزێک لە درەختی سایپرسی درێژ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cypress", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcypresss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcypresss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cemetery was surrounded by a row of tall cypress trees.",
+            kurdishText:
+                "گۆڕستانەکە دەوردرابوو بە ڕیزێک لە درەختی سایپرسی درێژ.", // cypress", please follow LX instructions
+            onPressedBritish: () => speakcypresss1("en-GB"),
+            onPressedAmerican: () => speakcypresss1("en-US"),
           ),
         ],
       ),

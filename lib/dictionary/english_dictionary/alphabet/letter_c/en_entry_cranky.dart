@@ -240,58 +240,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سەیر، سەمەرە،	ڕووگرژ، مڕومۆچ،	زووتووڕە، جینگزی، ئاڵەتی، سەرگەرم
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) نامۆ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She's a member of a group that promotes cranky ideas about food and exercise."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەندامی گرووپێکە کە بیرۆکەی نامۆ بڵاودەکاتەوە سەبارەت بە خواردن و ڕاھێنان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cranky", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrankys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrankys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She's a member of a group that promotes cranky ideas about food and exercise.",
+            kurdishText:
+                "ئەندامی گرووپێکە کە بیرۆکەی نامۆ بڵاودەکاتەوە سەبارەت بە خواردن و ڕاھێنان.", // cranky", please follow LX instructions
+            onPressedBritish: () => speakcrankys1("en-GB"),
+            onPressedAmerican: () => speakcrankys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کەسێک کە ئاسان بێزار دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He's been cranky all day."),
-                    ExampleSentenceKurdish(text: "تەواوی ڕۆژەکە ڕووگرژ بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrankys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrankys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's been cranky all day.",
+            kurdishText: "تەواوی ڕۆژەکە ڕووگرژ بووە.",
+            onPressedBritish: () => speakcrankys2("en-GB"),
+            onPressedAmerican: () => speakcrankys2("en-US"),
           ),
         ],
       ),

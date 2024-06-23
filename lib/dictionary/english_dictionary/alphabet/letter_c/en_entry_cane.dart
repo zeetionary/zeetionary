@@ -195,124 +195,48 @@ class EnglishEntrycane extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) قەدی ناوبۆشی ژمارەیەک ڕووە، بۆ نموونە بامبوو و شەکر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Farmers harvested sugar cane for processing into sugar."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوتیاران قامیشی شەکریان دوورییەوە بۆ کردنی بە شەکر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cane", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Farmers harvested sugar cane for processing into sugar.",
+                            kurdishText:
+                                "جوتیاران قامیشی شەکریان دوورییەوە بۆ کردنی بە شەکر.", // cane
+                            onPressedBritish: () => speakcanes1("en-GB"),
+                            onPressedAmerican: () => speakcanes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) قامیش یان چیلکێکی باریک بۆ یارمەتیدان لە ڕێکردندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The elderly man leaned on his cane while walking in the park."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوە بەتەمەنەکە کەوتبوو بەسەر گۆچانەکەیدا کە لە پارکەکە ڕێی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The elderly man leaned on his cane while walking in the park.",
+                            kurdishText:
+                                "پیاوە بەتەمەنەکە کەوتبوو بەسەر گۆچانەکەیدا کە لە پارکەکە ڕێی دەکرد.",
+                            onPressedBritish: () => speakcanes2("en-GB"),
+                            onPressedAmerican: () => speakcanes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) دارێک کە بەکاردەھات بۆ لێدانی خوێندکار لە قوتابخانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Misbehaving students would often fear the consequences of getting the cane from the headmaster."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندکارە ھاروھاجەکان زۆرجار دەترسان لە کوتەککاری خواردن لە بەڕێوبەرەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Misbehaving students would often fear the consequences of getting the cane from the headmaster.",
+                            kurdishText:
+                                "خوێندکارە ھاروھاجەکان زۆرجار دەترسان لە کوتەککاری خواردن لە بەڕێوبەرەکەوە.",
+                            onPressedBritish: () => speakcanes3("en-GB"),
+                            onPressedAmerican: () => speakcanes3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) لێدان لە کەسێک بە دارێک وەک سزا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was caned in front of the whole school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پێش تەواوی قوتابخانەکە دارکاری کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was caned in front of the whole school.",
+                            kurdishText:
+                                "لە پێش تەواوی قوتابخانەکە دارکاری کرا.",
+                            onPressedBritish: () => speakcanes4("en-GB"),
+                            onPressedAmerican: () => speakcanes4("en-US"),
                           ),
                         ],
                       ),

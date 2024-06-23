@@ -103,60 +103,22 @@ class EnglishEntrycompulsory extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە ناچارییە و دەبێت بکرێت چونکە بەپێی یاسایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "English is a compulsory subject at this level."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئینگلیزی بابەتێکی ناچارییە لەم ئاستەدا ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compulsory", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompulsorys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompulsorys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "English is a compulsory subject at this level.",
+                            kurdishText:
+                                "ئینگلیزی بابەتێکی ناچارییە لەم ئاستەدا .", // compulsory",
+                            onPressedBritish: () => speakcompulsorys1("en-GB"),
+                            onPressedAmerican: () => speakcompulsorys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is no compulsory education in this part of Africa."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەم بەشەی ئەفریقادا خوێندنی ناچاری بوونی نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompulsorys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompulsorys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is no compulsory education in this part of Africa.",
+                            kurdishText:
+                                "لەم بەشەی ئەفریقادا خوێندنی ناچاری بوونی نییە.",
+                            onPressedBritish: () => speakcompulsorys2("en-GB"),
+                            onPressedAmerican: () => speakcompulsorys2("en-US"),
                           ),
                         ],
                       ),

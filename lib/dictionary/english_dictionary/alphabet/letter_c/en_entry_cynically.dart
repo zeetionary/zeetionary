@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە ئەو باوەڕە  پیشان دەدات کە خەڵکی تەنھا بۆ سوودی خۆیان کاردەکەن و ھۆکاری دڵسۆزی و باشەیان نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He observed cynically that the war had made many people rich."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەدگومانانە سەرنجی ئەوەی دا کە جەنگەکە زۆر کەسی دەوڵەمەند کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cynically", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcynicallys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcynicallys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He observed cynically that the war had made many people rich.",
+            kurdishText:
+                "بەدگومانانە سەرنجی ئەوەی دا کە جەنگەکە زۆر کەسی دەوڵەمەند کرد.", // cynically", please follow LX instructions
+            onPressedBritish: () => speakcynicallys1("en-GB"),
+            onPressedAmerican: () => speakcynicallys1("en-US"),
           ),
           // skipped_meaning
           // const DividerDefinition(),

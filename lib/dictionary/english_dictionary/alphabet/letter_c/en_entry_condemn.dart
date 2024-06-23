@@ -154,239 +154,83 @@ class EnglishEntrycondemn extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) سەرکۆنە کردنی شتێک؛ وتنی ئەوەی کە زۆر خراپە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government issued a statement condemning the killings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت بەیاننامەیەکی بڵاوکردەوە و کوشتنەکانی ئیدانە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "condemn", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondemns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondemns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government issued a statement condemning the killings.",
+                            kurdishText:
+                                "حکومەت بەیاننامەیەکی بڵاوکردەوە و کوشتنەکانی ئیدانە کرد.", // condemn",
+                            onPressedBritish: () => speakcondemns1("en-GB"),
+                            onPressedAmerican: () => speakcondemns1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She publicly condemned the deal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە فەرمی ڕێککەوتنەکەی سەرکۆنە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondemns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondemns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She publicly condemned the deal.",
+                            kurdishText: "بە فەرمی ڕێککەوتنەکەی سەرکۆنە کرد.",
+                            onPressedBritish: () => speakcondemns2("en-GB"),
+                            onPressedAmerican: () => speakcondemns2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The action has been widely condemned by human rights groups."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەنگاوەکە بە فراوانی لەلایەن گرووپەکانی مافی مرۆڤەوە سەرکۆنە کراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondemns3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondemns3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The action has been widely condemned by human rights groups.",
+                            kurdishText:
+                                "ھەنگاوەکە بە فراوانی لەلایەن گرووپەکانی مافی مرۆڤەوە سەرکۆنە کراوە.",
+                            onPressedBritish: () => speakcondemns3("en-GB"),
+                            onPressedAmerican: () => speakcondemns3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) سزادانی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was condemned to death for murder and later hanged."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە مەرگ سزادرا بۆ تاوانی کوشتن و دواتر ھەڵواسرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondemns4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondemns4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was condemned to death for murder and later hanged.",
+                            kurdishText:
+                                "بە مەرگ سزادرا بۆ تاوانی کوشتن و دواتر ھەڵواسرا.",
+                            onPressedBritish: () => speakcondemns4("en-GB"),
+                            onPressedAmerican: () => speakcondemns4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was condemned to hang for killing her husband."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ھەڵواسین سزادرا بۆ کوشتنی ھاوسەرەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondemns5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondemns5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was condemned to hang for killing her husband.",
+                            kurdishText:
+                                "بە ھەڵواسین سزادرا بۆ کوشتنی ھاوسەرەکەی.",
+                            onPressedBritish: () => speakcondemns5("en-GB"),
+                            onPressedAmerican: () => speakcondemns5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) زۆرکردن لە کەسێک بۆ پەسەندکردنی دۆخێکی ناخۆش"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was condemned to a life of hardship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژیانێکی سەختێتیی بە سەردا سەپێنرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondemns6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondemns6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was condemned to a life of hardship.",
+                            kurdishText: "ژیانێکی سەختێتیی بە سەردا سەپێنرا.",
+                            onPressedBritish: () => speakcondemns6("en-GB"),
+                            onPressedAmerican: () => speakcondemns6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) بە فەرمی گوتنی ئەوەی شتێک بۆ بەکارھێنان سەلامەت نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The meat was condemned as unfit to eat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆشتەکە بە ناتەندرووست بۆ خواردن دانرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondemns7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondemns7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The meat was condemned as unfit to eat.",
+                            kurdishText:
+                                "گۆشتەکە بە ناتەندرووست بۆ خواردن دانرا.",
+                            onPressedBritish: () => speakcondemns7("en-GB"),
+                            onPressedAmerican: () => speakcondemns7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) وتن یان پیشاندانی ئەوەی کەسێک تاوانباری شتێکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is condemned out of her own mouth (= her own words show that she is guilty)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قسەکانی گەواھی تاوانباریی دەدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondemns8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondemns8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is condemned out of her own mouth (= her own words show that she is guilty).",
+                            kurdishText: "قسەکانی گەواھی تاوانباریی دەدەن.",
+                            onPressedBritish: () => speakcondemns8("en-GB"),
+                            onPressedAmerican: () => speakcondemns8("en-US"),
                           ),
                         ],
                       ),

@@ -102,62 +102,24 @@ class EnglishEntrycoarseness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) زبری، یان پێکھاتوو لە پارچەی گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The coarseness of the cloth irritated her skin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زبری قوماشەکە پێستی جاڕس دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coarseness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoarsenesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoarsenesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The coarseness of the cloth irritated her skin.",
+                            kurdishText:
+                                "زبری قوماشەکە پێستی جاڕس دەکرد.", // coarseness",
+                            onPressedBritish: () => speakcoarsenesss1("en-GB"),
+                            onPressedAmerican: () => speakcoarsenesss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕەفتار و قسەی ناشرین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't stand his coarseness and stupidity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرگەی بێ‌ڕەوشتی و گەمژەییەکەی ناگرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoarsenesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoarsenesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't stand his coarseness and stupidity.",
+                            kurdishText:
+                                "بەرگەی بێ‌ڕەوشتی و گەمژەییەکەی ناگرم.",
+                            onPressedBritish: () => speakcoarsenesss2("en-GB"),
+                            onPressedAmerican: () => speakcoarsenesss2("en-US"),
                           ),
                         ],
                       ),

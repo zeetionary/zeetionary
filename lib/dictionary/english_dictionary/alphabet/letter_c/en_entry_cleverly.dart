@@ -95,32 +95,13 @@ class EnglishEntrycleverly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە زیرەکی و شارەزایی پیشان دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I thought you handled the situation very cleverly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وامفکری کە زۆر زیرەکانە مامەڵەت لەگەڵ دۆخەکە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cleverly", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleverlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleverlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I thought you handled the situation very cleverly.",
+                            kurdishText:
+                                "وامفکری کە زۆر زیرەکانە مامەڵەت لەگەڵ دۆخەکە کرد.", // cleverly",
+                            onPressedBritish: () => speakcleverlys1("en-GB"),
+                            onPressedAmerican: () => speakcleverlys1("en-US"),
                           ),
                         ],
                       ),

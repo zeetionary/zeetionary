@@ -94,32 +94,13 @@ class EnglishEntrychatroom extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شوێنێکی سەر ئینتەرنێت کە خەڵکی تێیدا دەتوانن قسە لەگەڵ یەکدی بکەن، بەزۆری لەسەر بابەتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can't believe all the stories you hear in internet chat rooms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نابێت باوەڕ بکەیت بە ھەموو ئەو چیرۆکانەی ناو چات‌ڕوومەکانی سەر ئینتەرنێت بکەیت ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chat room", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchatrooms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchatrooms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can't believe all the stories you hear in internet chat rooms.",
+                            kurdishText:
+                                "نابێت باوەڕ بکەیت بە ھەموو ئەو چیرۆکانەی ناو چات‌ڕوومەکانی سەر ئینتەرنێت بکەیت .", // chat room",
+                            onPressedBritish: () => speakchatrooms1("en-GB"),
+                            onPressedAmerican: () => speakchatrooms1("en-US"),
                           ),
                         ],
                       ),

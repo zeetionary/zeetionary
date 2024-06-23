@@ -241,58 +241,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: چاوسوورانە، نەترسانە، بوێرانە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بە بوێری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crew acted courageously in staying with the ship until all the passengers had been taken to safety."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تاقمەکە بوێرانە مامەڵەیان کرد لەگەڵ مانەوە لە کەشتییەکە تاوەکو ھەموو گەشتیارەکان بردرانە سەلامەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "courageously", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourageouslys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourageouslys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The crew acted courageously in staying with the ship until all the passengers had been taken to safety.",
+            kurdishText:
+                "تاقمەکە بوێرانە مامەڵەیان کرد لەگەڵ مانەوە لە کەشتییەکە تاوەکو ھەموو گەشتیارەکان بردرانە سەلامەتی.", // courageously", please follow LX instructions
+            onPressedBritish: () => speakcourageouslys1("en-GB"),
+            onPressedAmerican: () => speakcourageouslys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She battled breast cancer courageously."),
-                    ExampleSentenceKurdish(
-                        text: "بوێرانە بەسەر شێرپەنجە زاڵبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourageouslys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourageouslys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She battled breast cancer courageously.",
+            kurdishText: "بوێرانە بەسەر شێرپەنجە زاڵبوو.",
+            onPressedBritish: () => speakcourageouslys2("en-GB"),
+            onPressedAmerican: () => speakcourageouslys2("en-US"),
           ),
         ],
       ),

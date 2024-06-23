@@ -193,32 +193,13 @@ class EnglishEntrycantilever extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پارچە تەختە، ئاسن، یان کاری ئەندازیاری کە تەنھا لە یەک لاوە ڕاگیراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The architect used a cantilever to extend the balcony."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندازیارەکە کانتیلیڤەری بەکارھێنا بۆ درێژکردنەوەی بەرھەیوانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cantilever", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcantilevers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcantilevers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The architect used a cantilever to extend the balcony.",
+                            kurdishText:
+                                "ئەندازیارەکە کانتیلیڤەری بەکارھێنا بۆ درێژکردنەوەی بەرھەیوانەکە.", // cantilever
+                            onPressedBritish: () => speakcantilevers1("en-GB"),
+                            onPressedAmerican: () => speakcantilevers1("en-US"),
                           ),
                         ],
                       ),

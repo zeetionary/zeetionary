@@ -155,233 +155,81 @@ class EnglishEntryconsistent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەمیشە ڕەفتارکردن بە ھەمان شێوە، یان ھەبوونی ھەمان ئاست، بۆچوون، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has been Milan's most consistent player (= who plays well most often) this season."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم وەرزە یاریزانی نەگۆڕی میلانی بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consistent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsistents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsistents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has been Milan's most consistent player (= who plays well most often) this season.",
+                            kurdishText:
+                                "ئەم وەرزە یاریزانی نەگۆڕی میلانی بووە.", // consistent",
+                            onPressedBritish: () => speakconsistents1("en-GB"),
+                            onPressedAmerican: () => speakconsistents1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's not very consistent in the way she treats her children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەک‌جۆر نییە لە شێوازی مامەڵەکردنی لەگەڵ منداڵەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsistents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsistents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's not very consistent in the way she treats her children.",
+                            kurdishText:
+                                "یەک‌جۆر نییە لە شێوازی مامەڵەکردنی لەگەڵ منداڵەکانی.",
+                            onPressedBritish: () => speakconsistents2("en-GB"),
+                            onPressedAmerican: () => speakconsistents2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We must be consistent in applying the rules."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت یەک‌ڕەنگ بین لە چەسپاندنی یاساکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsistents3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsistents3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We must be consistent in applying the rules.",
+                            kurdishText:
+                                "دەبێت یەک‌ڕەنگ بین لە چەسپاندنی یاساکاندا.",
+                            onPressedBritish: () => speakconsistents3("en-GB"),
+                            onPressedAmerican: () => speakconsistents3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ڕوودان بە ھەمان شێوە و بەردەوام بوون بۆ ماوەیەکی درێژ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have had enough of the party's consistent failure to come up with any new policies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشی پێویست لە شکستی بەردەوامی پارەکەمان ھەبووە بۆ دۆزینەوەی سیاسەتی تازەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsistents4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsistents4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have had enough of the party's consistent failure to come up with any new policies.",
+                            kurdishText:
+                                "بەشی پێویست لە شکستی بەردەوامی پارەکەمان ھەبووە بۆ دۆزینەوەی سیاسەتی تازەوە.",
+                            onPressedBritish: () => speakconsistents4("en-GB"),
+                            onPressedAmerican: () => speakconsistents4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There has been a pattern of consistent growth in the economy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێوازێک لە گەشەی بەردەوامی ئابووری ھەبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsistents5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsistents5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There has been a pattern of consistent growth in the economy.",
+                            kurdishText:
+                                "شێوازێک لە گەشەی بەردەوامی ئابووری ھەبووە.",
+                            onPressedBritish: () => speakconsistents5("en-GB"),
+                            onPressedAmerican: () => speakconsistents5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Defence spending levels have remained consistent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاستی خەرجی بەرگری بە نەگۆڕی ماوەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsistents6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsistents6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Defence spending levels have remained consistent.",
+                            kurdishText:
+                                "ئاستی خەرجی بەرگری بە نەگۆڕی ماوەتەوە.",
+                            onPressedBritish: () => speakconsistents6("en-GB"),
+                            onPressedAmerican: () => speakconsistents6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) سازاو لەگەڵ شتێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The results are entirely consistent with our earlier research."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەنجامەکان بە تەواوی یەکان‌گیرن لەگەڵ لێکۆڵینەوەی پێشووترمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsistents7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsistents7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The results are entirely consistent with our earlier research.",
+                            kurdishText:
+                                "ئەنجامەکان بە تەواوی یەکان‌گیرن لەگەڵ لێکۆڵینەوەی پێشووترمان.",
+                            onPressedBritish: () => speakconsistents7("en-GB"),
+                            onPressedAmerican: () => speakconsistents7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These findings are consistent with other studies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم دۆزینەوانە یەکگرتوون لەگەڵ توێژینەوەکانی دیکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsistents8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsistents8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These findings are consistent with other studies.",
+                            kurdishText:
+                                "ئەم دۆزینەوانە یەکگرتوون لەگەڵ توێژینەوەکانی دیکەدا.",
+                            onPressedBritish: () => speakconsistents8("en-GB"),
+                            onPressedAmerican: () => speakconsistents8("en-US"),
                           ),
                         ],
                       ),

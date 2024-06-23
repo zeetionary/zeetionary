@@ -189,94 +189,37 @@ class EnglishEntrycanvasser extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە پشتگیری بۆ کەسێک یان پارتێکی سیاسی کۆدەکاتەوە، بە پەیوەندی کردن یان گەڕانی مەیدانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Canvassers will go door-to-door on election day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕۆژی ھەڵبژاردندا بانگەشەکاران دەرگا بە دەرگا دەگەڕێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canvasser", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanvassers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanvassers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Canvassers will go door-to-door on election day.",
+                            kurdishText:
+                                "لە ڕۆژی ھەڵبژاردندا بانگەشەکاران دەرگا بە دەرگا دەگەڕێن.", // canvasser
+                            onPressedBritish: () => speakcanvassers1("en-GB"),
+                            onPressedAmerican: () => speakcanvassers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە دەیەوێت خەڵکی ڕازی بکات شتێک بکڕن یان خزمەتگوزارییەک بەکاربێنن، چی بە تەلەفۆن کردن بێت یان گەڕانی مەیدانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He works as a canvasser for a tech firm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک مەندووبی کۆمپانیایەکی تەکنەلۆژی کاردەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanvassers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanvassers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He works as a canvasser for a tech firm.",
+                            kurdishText:
+                                "وەک مەندووبی کۆمپانیایەکی تەکنەلۆژی کاردەکات.",
+                            onPressedBritish: () => speakcanvassers2("en-GB"),
+                            onPressedAmerican: () => speakcanvassers2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە ھەوڵی دۆزینەوەی زانیاری و بۆچوون دەدات بە پرسیارکردن لە خەڵکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Canvassers surveyed people from over 2,500 households."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاپرسیکاران ڕاین وەرگرت لە خەڵکی ٢٥٠٠ خانەوادەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanvassers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanvassers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Canvassers surveyed people from over 2,500 households.",
+                            kurdishText:
+                                "ڕاپرسیکاران ڕاین وەرگرت لە خەڵکی ٢٥٠٠ خانەوادەوە.",
+                            onPressedBritish: () => speakcanvassers3("en-GB"),
+                            onPressedAmerican: () => speakcanvassers3("en-US"),
                           ),
                         ],
                       ),

@@ -278,170 +278,56 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕەخنە؛ دەربڕینی ناڕەزایی و لێدوانی نەرێنی سەبارەت بە ھەڵە و خاسیەتە خراپەکانی کەسێک یان شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Ben is very sensitive—he just can't take criticism."),
-                    ExampleSentenceKurdish(
-                        text: "بێن زۆر ھەستیارە، ڕەخنە قبووڵ ناکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "criticism", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticisms1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticisms1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Ben is very sensitive—he just can't take criticism.",
+            kurdishText:
+                "بێن زۆر ھەستیارە، ڕەخنە قبووڵ ناکات.", // criticism", please follow LX instructions
+            onPressedBritish: () => speakcriticisms1("en-GB"),
+            onPressedAmerican: () => speakcriticisms1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I didn't mean it as a criticism."),
-                    ExampleSentenceKurdish(text: "وەک ڕەخنە مەبەستم نەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticisms2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticisms2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I didn't mean it as a criticism.",
+            kurdishText: "وەک ڕەخنە مەبەستم نەبوو.",
+            onPressedBritish: () => speakcriticisms2("en-GB"),
+            onPressedAmerican: () => speakcriticisms2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was widespread criticism of the government's handling of the disaster."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕەخنەی بەرفراوان ھەبوو سەبارەت بە مامەڵەی حکومەت لەگەڵ کارەساتەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticisms3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticisms3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was widespread criticism of the government's handling of the disaster.",
+            kurdishText:
+                "ڕەخنەی بەرفراوان ھەبوو سەبارەت بە مامەڵەی حکومەت لەگەڵ کارەساتەکەدا.",
+            onPressedBritish: () => speakcriticisms3("en-GB"),
+            onPressedAmerican: () => speakcriticisms3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My only criticism of the house is that it is on a main road."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا ڕەخنەم بۆ خانووەکە ئەوەیە لەسەر ڕێگای سەرەکییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticisms4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticisms4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "My only criticism of the house is that it is on a main road.",
+            kurdishText:
+                "تەنھا ڕەخنەم بۆ خانووەکە ئەوەیە لەسەر ڕێگای سەرەکییە.",
+            onPressedBritish: () => speakcriticisms4("en-GB"),
+            onPressedAmerican: () => speakcriticisms4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The former minister is facing growing criticism over his remark."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەزیرە پێشووترەکە ڕووبەڕووی ڕەخنەی ڕوولەزۆری دەبێتەوە لەسەر لێدوانەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticisms5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticisms5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The former minister is facing growing criticism over his remark.",
+            kurdishText:
+                "وەزیرە پێشووترەکە ڕووبەڕووی ڕەخنەی ڕوولەزۆری دەبێتەوە لەسەر لێدوانەکەی.",
+            onPressedBritish: () => speakcriticisms5("en-GB"),
+            onPressedAmerican: () => speakcriticisms5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ڕەخنەگری؛ کاری پیشاندانی لایەنە باش و خراپەکانی کەسێک یان شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has written several works of literary criticism."),
-                    ExampleSentenceKurdish(
-                        text: "ژمارەیەک کاری ڕەخنەی ئەدەبی نووسیوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcriticisms6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcriticisms6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has written several works of literary criticism.",
+            kurdishText: "ژمارەیەک کاری ڕەخنەی ئەدەبی نووسیوە.",
+            onPressedBritish: () => speakcriticisms6("en-GB"),
+            onPressedAmerican: () => speakcriticisms6("en-US"),
           ),
         ],
       ),

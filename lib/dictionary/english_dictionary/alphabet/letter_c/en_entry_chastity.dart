@@ -95,32 +95,13 @@ class EnglishEntrychastity extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخی نەبوونی سێکس لەگەڵ ھیچ کەس تەنھا لەگەڵ ئەو کەسەی کە ھاوژینتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As a monk, he took vows of chastity, poverty, and obedience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک ڕەبەنێک سوێندی پاکیزەیی، ھەژاری، و گوێڕایەڵی خواردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chastity", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchastitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchastitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As a monk, he took vows of chastity, poverty, and obedience.",
+                            kurdishText:
+                                "وەک ڕەبەنێک سوێندی پاکیزەیی، ھەژاری، و گوێڕایەڵی خواردبوو.", // chastity",
+                            onPressedBritish: () => speakchastitys1("en-GB"),
+                            onPressedAmerican: () => speakchastitys1("en-US"),
                           ),
                         ],
                       ),

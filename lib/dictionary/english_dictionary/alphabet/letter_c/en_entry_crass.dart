@@ -240,57 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تەواو، لەئەندازبەدەر، ڕەبەق، ئازگار،	کەر، نەفام، گەوج‌ولەوج، بێ‌ڕەوشت، بێ‌ماریفەت
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر بێ‌ھەست و گەمژە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I thought his comments were somewhat crass."),
-                    ExampleSentenceKurdish(
-                        text: "پێموابوو لێدوانەکانی تاڕادەیەک دەبەنگانە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crass", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrasss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrasss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I thought his comments were somewhat crass.",
+            kurdishText:
+                "پێموابوو لێدوانەکانی تاڕادەیەک دەبەنگانە بوو.", // crass", please follow LX instructions
+            onPressedBritish: () => speakcrasss1("en-GB"),
+            onPressedAmerican: () => speakcrasss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I don’t know anyone who would speak in such a crass manner."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ کەس ناناسم ھێندە کاڵفامانە قسە بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrasss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrasss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I don’t know anyone who would speak in such a crass manner.",
+            kurdishText: "ھیچ کەس ناناسم ھێندە کاڵفامانە قسە بکات.",
+            onPressedBritish: () => speakcrasss2("en-GB"),
+            onPressedAmerican: () => speakcrasss2("en-US"),
           ),
         ],
       ),

@@ -119,116 +119,40 @@ class EnglishEntrychristian extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پشتبەستوو یان باوەڕدار بە وانەکانی عیسای مەسیح"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had a Christian upbringing."),
-                                    ExampleSentenceKurdish(
-                                        text: "پەروەردەیەکی مەسحی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "Christian", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakChristians1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakChristians1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She had a Christian upbringing.",
+                            kurdishText:
+                                "پەروەردەیەکی مەسحی ھەبوو.", // Christian",
+                            onPressedBritish: () => speakChristians1("en-GB"),
+                            onPressedAmerican: () => speakChristians1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His Christian faith is central to his life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕی بە مەسحییەت بەشێکی گرنگی ژیانییەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakChristians2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakChristians2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His Christian faith is central to his life.",
+                            kurdishText:
+                                "باوەڕی بە مەسحییەت بەشێکی گرنگی ژیانییەتی.",
+                            onPressedBritish: () => speakChristians2("en-GB"),
+                            onPressedAmerican: () => speakChristians2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە باوەڕی بە وانەکانی عیسای مەسیح ھەیە یان تەوفن کراوە لە کڵێسایەکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Only 10% of the population are now practising Christians."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا ١٠٪ـی دانیشتووانەکە لە ئێستادا مەسیحین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakChristians3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakChristians3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Only 10% of the population are now practising Christians.",
+                            kurdishText:
+                                "تەنھا ١٠٪ـی دانیشتووانەکە لە ئێستادا مەسیحین.",
+                            onPressedBritish: () => speakChristians3("en-GB"),
+                            onPressedAmerican: () => speakChristians3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She is a devout Christian."),
-                                    ExampleSentenceKurdish(
-                                        text: "مەسیحییەکی لەخواترسە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakChristians4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakChristians4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She is a devout Christian.",
+                            kurdishText: "مەسیحییەکی لەخواترسە.",
+                            onPressedBritish: () => speakChristians4("en-GB"),
+                            onPressedAmerican: () => speakChristians4("en-US"),
                           ),
                         ],
                       ),

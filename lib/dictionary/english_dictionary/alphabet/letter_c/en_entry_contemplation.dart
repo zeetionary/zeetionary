@@ -120,127 +120,49 @@ class EnglishEntrycontemplation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بیرکردنەوە بە قووڵی لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He sat there deep in contemplation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەوێ دانیشتبوو لە بیرکردنەوەی قووڵدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contemplation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemplations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemplations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He sat there deep in contemplation.",
+                            kurdishText:
+                                "لەوێ دانیشتبوو لە بیرکردنەوەی قووڵدا.", // contemplation",
+                            onPressedBritish: () =>
+                                speakcontemplations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemplations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let's take a few moments of quiet contemplation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با چەند ساتێکی کەم لە بیرکردنەوەی ئارمدا وەربگرین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemplations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemplations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Let's take a few moments of quiet contemplation.",
+                            kurdishText:
+                                "با چەند ساتێکی کەم لە بیرکردنەوەی ئارمدا وەربگرین.",
+                            onPressedBritish: () =>
+                                speakcontemplations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemplations2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The monks dedicate themselves to a life of prayer and contemplation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەبەنەکان خۆیان تەرخان دەکەن بۆ ژیانێک لە نزا و تێڕامان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemplations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemplations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The monks dedicate themselves to a life of prayer and contemplation.",
+                            kurdishText:
+                                "ڕەبەنەکان خۆیان تەرخان دەکەن بۆ ژیانێک لە نزا و تێڕامان.",
+                            onPressedBritish: () =>
+                                speakcontemplations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemplations3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) سەیرکردنی شتێک بە ھێمنی و وریاییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was lost in contemplation of the scene in front of her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆچوو لە تێڕامانی دیمەنەکەی پێشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemplations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemplations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was lost in contemplation of the scene in front of her.",
+                            kurdishText: "ڕۆچوو لە تێڕامانی دیمەنەکەی پێشی.",
+                            onPressedBritish: () =>
+                                speakcontemplations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemplations4("en-US"),
                           ),
                         ],
                       ),

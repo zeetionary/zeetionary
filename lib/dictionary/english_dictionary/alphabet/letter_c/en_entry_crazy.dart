@@ -339,57 +339,19 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شێت، دەلوو،	سوورەوەبوو، تووڕە،	کەر، نەفام، گەوجانە،	سەوداسەر، مردووی، کوشتەی،	سەیروسەمەرە، مرۆی شێت
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) گەمژانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Are you crazy? We could get killed doing that."),
-                    ExampleSentenceKurdish(
-                        text: "شێت بوویتە؟ دەکرێت بمرین ئەوە بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crazy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Are you crazy? We could get killed doing that.",
+            kurdishText:
+                "شێت بوویتە؟ دەکرێت بمرین ئەوە بکەین.", // crazy", please follow LX instructions
+            onPressedBritish: () => speakcrazys1("en-GB"),
+            onPressedAmerican: () => speakcrazys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'd never do anything like that. That's just crazy."),
-                    ExampleSentenceKurdish(
-                        text: "ھەرگیز شتێکی وەھا ناکەم. شێتانەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'd never do anything like that. That's just crazy.",
+            kurdishText: "ھەرگیز شتێکی وەھا ناکەم. شێتانەیە.",
+            onPressedBritish: () => speakcrazys2("en-GB"),
+            onPressedAmerican: () => speakcrazys2("en-US"),
           ),
           Column(
             children: [
@@ -480,254 +442,80 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) زۆر تووڕە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Marie says he went crazy, and smashed the room up."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ماری دەڵێت زۆر تووڕە بوو و ژوورەکەی دا بەسەر یەکدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Marie says he went crazy, and smashed the room up.",
+            kurdishText: "ماری دەڵێت زۆر تووڕە بوو و ژوورەکەی دا بەسەر یەکدا.",
+            onPressedBritish: () => speakcrazys6("en-GB"),
+            onPressedAmerican: () => speakcrazys6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "That noise is driving me crazy."),
-                    ExampleSentenceKurdish(
-                        text: "ئەو ژاوەژاوە خەریکە شێتم دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazys7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazys7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "That noise is driving me crazy.",
+            kurdishText: "ئەو ژاوەژاوە خەریکە شێتم دەکات.",
+            onPressedBritish: () => speakcrazys7("en-GB"),
+            onPressedAmerican: () => speakcrazys7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Doesn't it make you crazy when people don't reply to your emails?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوە تووڕەت ناکات کە خەڵکی وەڵامی ئیمەیڵەکانت نادەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazys8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazys8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Doesn't it make you crazy when people don't reply to your emails?",
+            kurdishText:
+                "ئەوە تووڕەت ناکات کە خەڵکی وەڵامی ئیمەیڵەکانت نادەنەوە.",
+            onPressedBritish: () => speakcrazys8("en-GB"),
+            onPressedAmerican: () => speakcrazys8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) زۆر بەجۆش سەبارەت بە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crowd went crazy when the band came on stage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جەماوەرەکە خرۆشان کە باندەکە ھاتنە سەر ستەیجەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazys9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazys9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The crowd went crazy when the band came on stage.",
+            kurdishText: "جەماوەرەکە خرۆشان کە باندەکە ھاتنە سەر ستەیجەکە.",
+            onPressedBritish: () => speakcrazys9("en-GB"),
+            onPressedAmerican: () => speakcrazys9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She's football-crazy."),
-                    ExampleSentenceKurdish(text: "ئاشقێکی تۆپی‌پێیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazys10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazys10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's football-crazy.",
+            kurdishText: "ئاشقێکی تۆپی‌پێیە.",
+            onPressedBritish: () => speakcrazys10("en-GB"),
+            onPressedAmerican: () => speakcrazys10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ھاوەڵناو) حەزکردنی زۆر لە کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I've been crazy about him since the first time I saw him."),
-                    ExampleSentenceKurdish(
-                        text: "ئەوینداری بوومە لەوەتەی یەکەم جار دیم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazys11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazys11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I've been crazy about him since the first time I saw him.",
+            kurdishText: "ئەوینداری بوومە لەوەتەی یەکەم جار دیم.",
+            onPressedBritish: () => speakcrazys11("en-GB"),
+            onPressedAmerican: () => speakcrazys11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ھاوەڵناو) ھەبوونی نەخۆشی دەروونی کە کێشە بۆ بیرکردنەوەی ئاسایی درووست دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'd go crazy if I lived here."),
-                    ExampleSentenceKurdish(
-                        text: "شێت دەبووم ئەگەر لێرە ژیابام."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazys12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazys12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'd go crazy if I lived here.",
+            kurdishText: "شێت دەبووم ئەگەر لێرە ژیابام.",
+            onPressedBritish: () => speakcrazys12("en-GB"),
+            onPressedAmerican: () => speakcrazys12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (ناو) کەسێک کە بیرۆکەی نامۆی ھەیە یان لە ڕووی دەروونییەوە تەواو نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There are a lot of crazies out there."),
-                    ExampleSentenceKurdish(
-                        text: "ژمارەیەکی زۆر شێت (لەوێ) ھەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazys13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazys13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There are a lot of crazies out there.",
+            kurdishText: "ژمارەیەکی زۆر شێت (لەوێ) ھەن.",
+            onPressedBritish: () => speakcrazys13("en-GB"),
+            onPressedAmerican: () => speakcrazys13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (ھاوەڵکار) ئێجگار زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My job continues to be crazy busy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کارەکەم بەردەوامە لەوەی تەواو لە سەرقاڵیدا بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrazys14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrazys14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My job continues to be crazy busy.",
+            kurdishText: "کارەکەم بەردەوامە لەوەی تەواو لە سەرقاڵیدا بێت.",
+            onPressedBritish: () => speakcrazys14("en-GB"),
+            onPressedAmerican: () => speakcrazys14("en-US"),
           ),
         ],
       ),

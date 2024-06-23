@@ -191,32 +191,13 @@ class EnglishEntrycensorship extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کردار یان سیاسەتی لابردنی ئەو بەشانەی کتێبێک، فیلمێک، ھتد کە نەگونجاون یان مەترسی سیاسییان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The decree imposed strict censorship of the media."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارەکە سانسۆری قورسی سەپاند بەسەر میدیادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "censorship", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcensorships1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcensorships1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The decree imposed strict censorship of the media.",
+                            kurdishText:
+                                "بڕیارەکە سانسۆری قورسی سەپاند بەسەر میدیادا.", // censorship",
+                            onPressedBritish: () => speakcensorships1("en-GB"),
+                            onPressedAmerican: () => speakcensorships1("en-US"),
                           ),
                         ],
                       ),

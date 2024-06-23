@@ -106,60 +106,22 @@ class EnglishEntryclassroom extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژوورێک کە تێیدا پۆلێک وانە دەخوێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Two science classrooms are positioned directly across the hall."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو پۆلی زانست لە بەرامبەر ھۆڵەکە دانراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "classroom", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassrooms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassrooms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Two science classrooms are positioned directly across the hall.",
+                            kurdishText:
+                                "دوو پۆلی زانست لە بەرامبەر ھۆڵەکە دانراون.", // classroom",
+                            onPressedBritish: () => speakclassrooms1("en-GB"),
+                            onPressedAmerican: () => speakclassrooms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They discussed the use of electronic technology in the classroom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باسیان لە بەکارھێنانی ئامێرە تەکنەلۆژییەکان لە پۆلدا کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassrooms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassrooms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They discussed the use of electronic technology in the classroom.",
+                            kurdishText:
+                                "باسیان لە بەکارھێنانی ئامێرە تەکنەلۆژییەکان لە پۆلدا کرد.",
+                            onPressedBritish: () => speakclassrooms2("en-GB"),
+                            onPressedAmerican: () => speakclassrooms2("en-US"),
                           ),
                         ],
                       ),

@@ -102,61 +102,22 @@ class EnglishEntryclove extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گوڵی ھاڕاوەی دارێکی خولگەیی کە لە خۆراکدا وەک توونی بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ham was studded with cloves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆشتە بەرازەکە بە مێخەک ڕازێندرابوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clove", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloves1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloves1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The ham was studded with cloves.",
+                            kurdishText:
+                                "گۆشتە بەرازەکە بە مێخەک ڕازێندرابوویەوە.", // clove",
+                            onPressedBritish: () => speakcloves1("en-GB"),
+                            onPressedAmerican: () => speakcloves1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) یەکێک لە بەشە جیاکانی سەلکی سیر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This recipe takes four cloves of garlic."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕەچەتەکە چوار قاشی سیری دەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloves2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloves2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This recipe takes four cloves of garlic.",
+                            kurdishText: "ڕەچەتەکە چوار قاشی سیری دەوێت.",
+                            onPressedBritish: () => speakcloves2("en-GB"),
+                            onPressedAmerican: () => speakcloves2("en-US"),
                           ),
                         ],
                       ),

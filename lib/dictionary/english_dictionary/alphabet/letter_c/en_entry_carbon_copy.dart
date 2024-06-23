@@ -188,32 +188,13 @@ class EnglishEntrycarboncopy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) کۆپییەکی بەڵگەنامەیەک، نامەیەک، ھتد کە درووست دەکرێت بە دانانی پەڕەیەک کە لایەکی ڕەشە لە نێوان دوو پەڕەدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Each participant received a carbon copy of the meeting agenda."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەر بەژداربوویەک کۆپییەکی ئەجێندای کۆبوونەوەکەی وەرگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carbon copy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarboncopys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarboncopys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Each participant received a carbon copy of the meeting agenda.",
+                            kurdishText:
+                                "ھەر بەژداربوویەک کۆپییەکی ئەجێندای کۆبوونەوەکەی وەرگرت.", // carbon copy",
+                            onPressedBritish: () => speakcarboncopys1("en-GB"),
+                            onPressedAmerican: () => speakcarboncopys1("en-US"),
                           ),
                         ],
                       ),

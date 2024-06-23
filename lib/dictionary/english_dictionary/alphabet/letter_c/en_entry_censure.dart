@@ -190,119 +190,43 @@ class EnglishEntrycensure extends StatelessWidget {
 کوردی: ڕەخنە (توند)، سەرکۆنە، کۆران، ڤەچفیان، بیراز، بەگژداھاتن، عەیب‌لێ‌دۆزینەوە، بەسەرداھاتن، سەرکۆنەی فەرمی
 """),
                           const DefinitionKurdish(text: "١. (ناو) ڕەخنەی توند"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He could face censure from his colleagues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەکرێت ڕووبڕووی سەرکۆنە ببێتەوە لە ھاوکارەکانییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "censure", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcensures1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcensures1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He could face censure from his colleagues.",
+                            kurdishText:
+                                "دەکرێت ڕووبڕووی سەرکۆنە ببێتەوە لە ھاوکارەکانییەوە.", // censure",
+                            onPressedBritish: () => speakcensures1("en-GB"),
+                            onPressedAmerican: () => speakcensures1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her dishonest behaviour came under severe censure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسوکەوتە فریودەرانەکەی ڕووبەڕووی سەرکۆنەی توند بووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcensures2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcensures2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her dishonest behaviour came under severe censure.",
+                            kurdishText:
+                                "ھەڵسوکەوتە فریودەرانەکەی ڕووبەڕووی سەرکۆنەی توند بووەوە.",
+                            onPressedBritish: () => speakcensures2("en-GB"),
+                            onPressedAmerican: () => speakcensures2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) سەرکۆنەی کەسێک بەھۆی ئەوەی شتێکی ھەڵەی کردووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was censured for leaking information to the press."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکۆنە کرا بۆ دزەکردنی زانیاری بۆ میدیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcensures3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcensures3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was censured for leaking information to the press.",
+                            kurdishText:
+                                "سەرکۆنە کرا بۆ دزەکردنی زانیاری بۆ میدیا.",
+                            onPressedBritish: () => speakcensures3("en-GB"),
+                            onPressedAmerican: () => speakcensures3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The manager was severely censured for negligence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێوبەرەکە بە توندی سەرزەنشت کرا بۆ کەم‌تەرخەمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcensures4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcensures4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The manager was severely censured for negligence.",
+                            kurdishText:
+                                "بەڕێوبەرەکە بە توندی سەرزەنشت کرا بۆ کەم‌تەرخەمی.",
+                            onPressedBritish: () => speakcensures4("en-GB"),
+                            onPressedAmerican: () => speakcensures4("en-US"),
                           ),
                         ],
                       ),

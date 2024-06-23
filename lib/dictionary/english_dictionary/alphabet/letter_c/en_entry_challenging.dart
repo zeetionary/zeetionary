@@ -111,97 +111,37 @@ class EnglishEntrychallenging extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He found the course academically challenging."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆرسەکەی لە لایەنی خوێندنەوە بە سەخت بینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "challenging", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchallengings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchallengings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He found the course academically challenging.",
+                            kurdishText:
+                                "کۆرسەکەی لە لایەنی خوێندنەوە بە سەخت بینی.", // challenging",
+                            onPressedBritish: () => speakchallengings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchallengings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The tasks were not challenging enough for me and I got bored."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەرکەکان بەپێی پێویست بۆم پڕزەحمەت نەبوون و بێزار بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchallengings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchallengings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The tasks were not challenging enough for me and I got bored.",
+                            kurdishText:
+                                "ئەرکەکان بەپێی پێویست بۆم پڕزەحمەت نەبوون و بێزار بووم.",
+                            onPressedBritish: () => speakchallengings2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchallengings2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) شتێک کە بەشێوەیەک دەکرێت کە مەبەست لێی درووستکردنی تووڕەیی یان ناڕەزاییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Dealing with challenging behaviour in school is never easy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامەڵەکردن لەگەڵ ڕەفتاری چەتوون لە قوتابخانە ھەرگیز ئاسان نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchallengings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchallengings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Dealing with challenging behaviour in school is never easy.",
+                            kurdishText:
+                                "مامەڵەکردن لەگەڵ ڕەفتاری چەتوون لە قوتابخانە ھەرگیز ئاسان نییە.",
+                            onPressedBritish: () => speakchallengings3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchallengings3("en-US"),
                           ),
                         ],
                       ),

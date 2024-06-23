@@ -95,32 +95,13 @@ class EnglishEntrycoleslaw extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچەی کەلەرم، گەزەر، پیاز، ھتد کە لەگەڵ مایۆنیز تێکەڵ دەکرێت و لەگەڵ گۆشت و زەڵاتەدا دەخورێت "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The restaurant's coleslaw was tangy and delicious."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەڵاتە کەلەرمەکەی چێشتخانەکە توند و بەتام بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coleslaw", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoleslaws1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoleslaws1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The restaurant's coleslaw was tangy and delicious.",
+                            kurdishText:
+                                "زەڵاتە کەلەرمەکەی چێشتخانەکە توند و بەتام بوو.", // coleslaw",
+                            onPressedBritish: () => speakcoleslaws1("en-GB"),
+                            onPressedAmerican: () => speakcoleslaws1("en-US"),
                           ),
                         ],
                       ),

@@ -113,93 +113,36 @@ class EnglishEntrycolouring extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مادەیەک کە بەکاردێت بۆ پێدانی ڕەنگێک بە خواردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This contains no artificial colouring or flavouring."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە ھیچ ڕەنگ یان تامێکی دەستکردی تێدا نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colouring", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolourings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolourings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This contains no artificial colouring or flavouring.",
+                            kurdishText:
+                                "ئەمە ھیچ ڕەنگ یان تامێکی دەستکردی تێدا نییە.", // colouring",
+                            onPressedBritish: () => speakcolourings1("en-GB"),
+                            onPressedAmerican: () => speakcolourings1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕەنگی پێست، چاو، و قژی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their colouring is so totally different that you would never think they were sisters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەنگیان ئەوەندە زۆر جیاواز بوو کە ھەرگیز نەتدەزانی خوشکن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolourings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolourings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their colouring is so totally different that you would never think they were sisters.",
+                            kurdishText:
+                                "ڕەنگیان ئەوەندە زۆر جیاواز بوو کە ھەرگیز نەتدەزانی خوشکن.",
+                            onPressedBritish: () => speakcolourings2("en-GB"),
+                            onPressedAmerican: () => speakcolourings2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەو ڕەنگانەی لە شتێکدا بوونیان ھەیە، بەتایبەت لە ڕووەک یان ئاژەڵێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She realized the coins were fake when the gold colouring began to rub off."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانی کە سکە ئاڵتوونییەکان ساختە بوون کە ڕەنگە ئاڵتوونییەکە لێبووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolourings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolourings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She realized the coins were fake when the gold colouring began to rub off.",
+                            kurdishText:
+                                "زانی کە سکە ئاڵتوونییەکان ساختە بوون کە ڕەنگە ئاڵتوونییەکە لێبووەوە.",
+                            onPressedBritish: () => speakcolourings3("en-GB"),
+                            onPressedAmerican: () => speakcolourings3("en-US"),
                           ),
                         ],
                       ),

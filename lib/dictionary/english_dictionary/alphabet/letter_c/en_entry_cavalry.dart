@@ -191,32 +191,13 @@ class EnglishEntrycavalry extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لە کۆندا ئەو بەشەی سوپا بوو کە ئەسپسواربوون، لە سوپا سەردەمییەکندا ئەو بەشەن ئۆتۆمبێل و کەرەستەی پێڕۆی دیکەی سەربازییان پێیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cavalry charged up the hill to engage the rebels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوارەکان بە گردکەدا چوونە سەرەوە بۆ ڕووبەڕووبوونەوەی یاخیبووان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cavalry", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcavalrys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcavalrys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cavalry charged up the hill to engage the rebels.",
+                            kurdishText:
+                                "سوارەکان بە گردکەدا چوونە سەرەوە بۆ ڕووبەڕووبوونەوەی یاخیبووان.", // cavalry",
+                            onPressedBritish: () => speakcavalrys1("en-GB"),
+                            onPressedAmerican: () => speakcavalrys1("en-US"),
                           ),
                         ],
                       ),

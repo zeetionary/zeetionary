@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دارێکی قورسی ئەستوور کە وەک چەکێک بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The assailant struck the victim over the head with a cosh."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێرشکارەکە بە تێڵایەک کێشای بە سەری قوربانییەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosh", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoshs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoshs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The assailant struck the victim over the head with a cosh.",
+            kurdishText:
+                "ھێرشکارەکە بە تێڵایەک کێشای بە سەری قوربانییەکەدا.", // cosh", please follow LX instructions
+            onPressedBritish: () => speakcoshs1("en-GB"),
+            onPressedAmerican: () => speakcoshs1("en-US"),
           ),
         ],
       ),

@@ -97,34 +97,15 @@ class EnglishEntrychambermusic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) میوزیکی کلاسیکی کە بۆ ژمارەیەکی کەم ئامێر نووسراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Musicians often gather in informal settings to play chamber music for friends and colleagues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوزیکژەنان زۆرجار لە شوێنی نافەرمی کۆدەبنەوە بۆ ژەنینی میوزیکی مەجلیسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chamber music", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchambermusics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchambermusics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Musicians often gather in informal settings to play chamber music for friends and colleagues.",
+                            kurdishText:
+                                "میوزیکژەنان زۆرجار لە شوێنی نافەرمی کۆدەبنەوە بۆ ژەنینی میوزیکی مەجلیسی.", // chamber music",
+                            onPressedBritish: () =>
+                                speakchambermusics1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchambermusics1("en-US"),
                           ),
                         ],
                       ),

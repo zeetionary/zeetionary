@@ -249,92 +249,35 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەک کە گەرم و ئاسوودەبەخش و سەلامەتە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The children are cosily tucked up in bed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکان بە ئاسوودەیی خۆیان لە جێخەودا گرمۆڵە کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosily", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosilys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosilys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The children are cosily tucked up in bed.",
+            kurdishText:
+                "منداڵەکان بە ئاسوودەیی خۆیان لە جێخەودا گرمۆڵە کردووە.", // cosily", please follow LX instructions
+            onPressedBritish: () => speakcosilys1("en-GB"),
+            onPressedAmerican: () => speakcosilys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵکار) بەشێوەی تایبەت و ھاوڕێیانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They chatted cosily about the plays they planned to see."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دۆستانە قسەیان کرد لەسەر ئەو شانۆیانەی پلانیان بوو بیان بینن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosilys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosilys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They chatted cosily about the plays they planned to see.",
+            kurdishText:
+                "دۆستانە قسەیان کرد لەسەر ئەو شانۆیانەی پلانیان بوو بیان بینن.",
+            onPressedBritish: () => speakcosilys2("en-GB"),
+            onPressedAmerican: () => speakcosilys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵکار) بەشێوەیەک کە بۆ چەند لایەنێک سوودبەخشە بەڵام ئەخلاقی و ڕاست نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is claimed that the drug companies ‘coexist very cosily indeed’ with the public health authorities."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگوترێت کە کۆمپانیا دەرمانییەکان 'لە ڕاستیدا زۆرباش ھەڵدەکەن' لەگەڵ بەرپرسە تەندرووستییەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosilys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosilys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is claimed that the drug companies ‘coexist very cosily indeed’ with the public health authorities.",
+            kurdishText:
+                "ئەگوترێت کە کۆمپانیا دەرمانییەکان 'لە ڕاستیدا زۆرباش ھەڵدەکەن' لەگەڵ بەرپرسە تەندرووستییەکان.",
+            onPressedBritish: () => speakcosilys3("en-GB"),
+            onPressedAmerican: () => speakcosilys3("en-US"),
           ),
         ],
       ),

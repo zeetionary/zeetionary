@@ -120,124 +120,47 @@ class EnglishEntryclimax extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) گرنگترین یان خرووشێنەرترین کات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Signing the peace agreement was the climax of his political career."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "واژۆکردنی ڕێککەوتنی ئاشتی ترۆپکی کاری سیاسیی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "climax", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimaxs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimaxs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Signing the peace agreement was the climax of his political career.",
+                            kurdishText:
+                                "واژۆکردنی ڕێککەوتنی ئاشتی ترۆپکی کاری سیاسیی بوو.", // climax",
+                            onPressedBritish: () => speakclimaxs1("en-GB"),
+                            onPressedAmerican: () => speakclimaxs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) خرووشێنەرترین بەشی شانۆیەک، میوزیکێک، ھتد کە زۆرجار لە کۆتاییدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book’s powerful climax is the murder of Nancy by her lover Bill Sikes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلایماکسی بەھێزی کتێبەکە کوشتنی نانسییە لەلایەن بیڵ سایکسی خۆشەویستییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimaxs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimaxs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book’s powerful climax is the murder of Nancy by her lover Bill Sikes.",
+                            kurdishText:
+                                "کلایماکسی بەھێزی کتێبەکە کوشتنی نانسییە لەلایەن بیڵ سایکسی خۆشەویستییەوە.",
+                            onPressedBritish: () => speakclimaxs2("en-GB"),
+                            onPressedAmerican: () => speakclimaxs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) بەرزترین ئاستی چێژی سێکسی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She found it hard to achieve a/reach climax."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە سەختی زانی بگاتە ئەوپەڕی ئۆرگازم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimaxs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimaxs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She found it hard to achieve a/reach climax.",
+                            kurdishText: "بە سەختی زانی بگاتە ئەوپەڕی ئۆرگازم.",
+                            onPressedBritish: () => speakclimaxs3("en-GB"),
+                            onPressedAmerican: () => speakclimaxs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) گەشتنە خرووشێنەرترین یان گرنگترین خاڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The festival will climax on Sunday with a concert."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیستیڤاڵەکە لە یەکشەممەدا دەگاتە ترۆپکی بە کۆنسێرتێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimaxs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimaxs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The festival will climax on Sunday with a concert.",
+                            kurdishText:
+                                "فیستیڤاڵەکە لە یەکشەممەدا دەگاتە ترۆپکی بە کۆنسێرتێک.",
+                            onPressedBritish: () => speakclimaxs4("en-GB"),
+                            onPressedAmerican: () => speakclimaxs4("en-US"),
                           ),
                         ],
                       ),

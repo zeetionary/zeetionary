@@ -131,150 +131,55 @@ class EnglishEntrycompensate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) دابینکردنی شتێکی باش بۆ نەھێشتن یان کەمکردنەوەی کاریگەری خراپی شتێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Nothing can compensate for the loss of a loved one."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ قەرەبووی لەدەستدانی کەسیکی خۆشەویست ناکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compensate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompensates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompensates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Nothing can compensate for the loss of a loved one.",
+                            kurdishText:
+                                "ھیچ قەرەبووی لەدەستدانی کەسیکی خۆشەویست ناکاتەوە.", // compensate",
+                            onPressedBritish: () => speakcompensates1("en-GB"),
+                            onPressedAmerican: () => speakcompensates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The advantages of the plan more than compensate for the risks associated with it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوودەکانی پلانەکە زیاد لە پێویست قەرەبووی مەترسییەکان دەکاتەوە کە لەگەڵیدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompensates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompensates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The advantages of the plan more than compensate for the risks associated with it.",
+                            kurdishText:
+                                "سوودەکانی پلانەکە زیاد لە پێویست قەرەبووی مەترسییەکان دەکاتەوە کە لەگەڵیدایە.",
+                            onPressedBritish: () => speakcompensates2("en-GB"),
+                            onPressedAmerican: () => speakcompensates2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was so ashamed of her treatment of him that she felt she should compensate him in some way."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر شەرمەزار بوو بە مامەڵەکردن لەگەڵی کە ھەستی کرد دەبێت بەشێوەیەک قەرەبووی بکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompensates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompensates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was so ashamed of her treatment of him that she felt she should compensate him in some way.",
+                            kurdishText:
+                                "زۆر شەرمەزار بوو بە مامەڵەکردن لەگەڵی کە ھەستی کرد دەبێت بەشێوەیەک قەرەبووی بکاتەوە.",
+                            onPressedBritish: () => speakcompensates3("en-GB"),
+                            onPressedAmerican: () => speakcompensates3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ڕاستکردنەوە یان ھاوسەنگی ڕاگرتنی ھەڵەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the second experiment, the temperature was raised to compensate for this bias."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دووەم تاقیکردنەوەدا، پلەی گەرمی بەرزکرایەوە بۆ ڕاستکردنەوەی ئەم نادرووستییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompensates4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompensates4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the second experiment, the temperature was raised to compensate for this bias.",
+                            kurdishText:
+                                "لە دووەم تاقیکردنەوەدا، پلەی گەرمی بەرزکرایەوە بۆ ڕاستکردنەوەی ئەم نادرووستییە.",
+                            onPressedBritish: () => speakcompensates4("en-GB"),
+                            onPressedAmerican: () => speakcompensates4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) پێدانی پارە بۆ قەرەبووکردنەوەی زیان، لەدەستدان، برین، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her lawyers say she should be compensated for the suffering she had been caused."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارێزەرەکانی دەڵێن دەبێت قەرەبوو بکرێتەوە بۆ ئەو ناڕەحەتییەی تووشی کراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompensates5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompensates5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her lawyers say she should be compensated for the suffering she had been caused.",
+                            kurdishText:
+                                "پارێزەرەکانی دەڵێن دەبێت قەرەبوو بکرێتەوە بۆ ئەو ناڕەحەتییەی تووشی کراوە.",
+                            onPressedBritish: () => speakcompensates5("en-GB"),
+                            onPressedAmerican: () => speakcompensates5("en-US"),
                           ),
                         ],
                       ),

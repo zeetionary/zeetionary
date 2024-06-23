@@ -242,60 +242,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک یان شتێک کە ھاوتای یەکێکی دیکەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Foreign Minister held talks with his Chinese counterpart."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەزیری دەرەوە گفتوگۆی کرد لەگەڵ ھاوتا چینییەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "counterpart", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterparts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterparts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Foreign Minister held talks with his Chinese counterpart.",
+            kurdishText:
+                "وەزیری دەرەوە گفتوگۆی کرد لەگەڵ ھاوتا چینییەکەی.", // counterpart", please follow LX instructions
+            onPressedBritish: () => speakcounterparts1("en-GB"),
+            onPressedAmerican: () => speakcounterparts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Women soldiers will join their male counterparts at the army base."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژنە سەربازەکان پەیوەندی بە ھاوتا پیاوەکانیانەوە دەکەن لە بنکە سەربازییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterparts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterparts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Women soldiers will join their male counterparts at the army base.",
+            kurdishText:
+                "ژنە سەربازەکان پەیوەندی بە ھاوتا پیاوەکانیانەوە دەکەن لە بنکە سەربازییەکە.",
+            onPressedBritish: () => speakcounterparts2("en-GB"),
+            onPressedAmerican: () => speakcounterparts2("en-US"),
           ),
         ],
       ),

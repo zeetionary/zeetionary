@@ -95,34 +95,15 @@ class EnglishEntrycircumference extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھێڵێک یان درێژی ھێڵێک کە بە دەوری بازنەیەک یان چەماوەیەکدا دەچێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The earth is almost 25 000 miles in circumference."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمەرەی زەوی نزیکەی ٢٥٠٠٠ میلە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circumference", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcircumferences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcircumferences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The earth is almost 25 000 miles in circumference.",
+                            kurdishText:
+                                "کەمەرەی زەوی نزیکەی ٢٥٠٠٠ میلە.", // circumference",
+                            onPressedBritish: () =>
+                                speakcircumferences1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcircumferences1("en-US"),
                           ),
                         ],
                       ),

@@ -104,60 +104,22 @@ class EnglishEntrycontender extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک یان تیمێک کە ڕکابەری بردنەوەی شتێک دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Germany last night emerged as a contender to stage next year's event."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەڵمانیا شەوی ڕابردوو وەک ڕکابەرێک دەرکەوت بۆ ڕێکخستنی بۆنەکەی ساڵی داھاتوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contender", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontenders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontenders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Germany last night emerged as a contender to stage next year's event.",
+                            kurdishText:
+                                "ئەڵمانیا شەوی ڕابردوو وەک ڕکابەرێک دەرکەوت بۆ ڕێکخستنی بۆنەکەی ساڵی داھاتوو.", // contender",
+                            onPressedBritish: () => speakcontenders1("en-GB"),
+                            onPressedAmerican: () => speakcontenders1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is seen as one of the leading contenders for the post."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک یەکێک لە بەربژێرە سەرەکییەکان بۆ پێگەکە دادەنرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontenders2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontenders2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is seen as one of the leading contenders for the post.",
+                            kurdishText:
+                                "وەک یەکێک لە بەربژێرە سەرەکییەکان بۆ پێگەکە دادەنرێت.",
+                            onPressedBritish: () => speakcontenders2("en-GB"),
+                            onPressedAmerican: () => speakcontenders2("en-US"),
                           ),
                         ],
                       ),

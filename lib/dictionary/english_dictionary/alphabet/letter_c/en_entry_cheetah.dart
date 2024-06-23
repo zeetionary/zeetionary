@@ -94,32 +94,12 @@ class EnglishEntrycheetah extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئاژەڵێکی کێوی کە لە خێزانی پشیلەیە و پەڵەی ڕەشی ھەیە، و زۆر خێرا ڕادەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cheetahs are mainly found in Africa."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیتا بەشێوەیەکی سەرەکی لە ئەفریقا دەبینرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheetah", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheetahs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheetahs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Cheetahs are mainly found in Africa.",
+                            kurdishText:
+                                "چیتا بەشێوەیەکی سەرەکی لە ئەفریقا دەبینرێت.", // cheetah",
+                            onPressedBritish: () => speakcheetahs1("en-GB"),
+                            onPressedAmerican: () => speakcheetahs1("en-US"),
                           ),
                         ],
                       ),

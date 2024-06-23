@@ -249,80 +249,28 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) شتێک کە ھەستێکی ناخۆش یان کەمێک ترس یان تۆقان درووست دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It feels a bit creepy in here."),
-                    ExampleSentenceKurdish(text: "ئێرە کەمێک ترسێنەرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creepy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreepys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreepys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It feels a bit creepy in here.",
+            kurdishText:
+                "ئێرە کەمێک ترسێنەرە.", // creepy", please follow LX instructions
+            onPressedBritish: () => speakcreepys1("en-GB"),
+            onPressedAmerican: () => speakcreepys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's kind of creepy down in the cellar!"),
-                    ExampleSentenceKurdish(text: "ژێرزەمینەکە کەمێک تۆقێنەرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreepys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreepys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's kind of creepy down in the cellar!",
+            kurdishText: "ژێرزەمینەکە کەمێک تۆقێنەرە.",
+            onPressedBritish: () => speakcreepys2("en-GB"),
+            onPressedAmerican: () => speakcreepys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) نامۆ بەشێوەیەک کە تووشی دڵەڕاوکێت دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "What a creepy coincidence."),
-                    ExampleSentenceKurdish(text: "چی ڕێکەوتێکی سەیرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreepys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreepys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What a creepy coincidence.",
+            kurdishText: "چی ڕێکەوتێکی سەیرە.",
+            onPressedBritish: () => speakcreepys3("en-GB"),
+            onPressedAmerican: () => speakcreepys3("en-US"),
           ),
         ],
       ),

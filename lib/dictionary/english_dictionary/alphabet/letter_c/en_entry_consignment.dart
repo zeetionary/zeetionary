@@ -102,63 +102,24 @@ class EnglishEntryconsignment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بارێک لە کەلووپەل کە دەگوازرێنەوە؛ یان ناردنی بارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A consignment of medicines is on its way now."),
-                                    ExampleSentenceKurdish(
-                                        text: "بارە دەرمانێک لە ڕێگایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consignment", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsignments1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsignments1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A consignment of medicines is on its way now.",
+                            kurdishText:
+                                "بارە دەرمانێک لە ڕێگایە.", // consignment",
+                            onPressedBritish: () => speakconsignments1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsignments1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He refuses to ship goods on consignment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەتیدەکاتەوە کەلووپەل بە قەرز بفرۆشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsignments2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsignments2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He refuses to ship goods on consignment.",
+                            kurdishText:
+                                "ڕەتیدەکاتەوە کەلووپەل بە قەرز بفرۆشێت.",
+                            onPressedBritish: () => speakconsignments2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsignments2("en-US"),
                           ),
                         ],
                       ),

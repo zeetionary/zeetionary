@@ -93,32 +93,13 @@ class EnglishEntrycockerel extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بەچکە کەڵەشێر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She raised a flock of hens and a cockerel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرووپێک لە مریشک و باڕە کەڵەبابێکی بەخێودەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cockerel", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcockerels1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcockerels1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She raised a flock of hens and a cockerel.",
+                            kurdishText:
+                                "گرووپێک لە مریشک و باڕە کەڵەبابێکی بەخێودەکرد.", // cockerel",
+                            onPressedBritish: () => speakcockerels1("en-GB"),
+                            onPressedAmerican: () => speakcockerels1("en-US"),
                           ),
                         ],
                       ),

@@ -300,256 +300,85 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) وشەیەکی ناشرین یان  کە ھەندێک کەس بەکاریدێنن کە تووڕەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He muttered a curse at the other driver."),
-                    ExampleSentenceKurdish(
-                        text: "جنێوێکی دا بە شۆفێرەکەی دیکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He muttered a curse at the other driver.",
+            kurdishText:
+                "جنێوێکی دا بە شۆفێرەکەی دیکە.", // curse", please follow LX instructions
+            onPressedBritish: () => speakcurses1("en-GB"),
+            onPressedAmerican: () => speakcurses1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) وشەیەک یان دەستەواژەیەک کە ھێزی سیحری ھەیە بۆ ئەوەی شتێکی خراپ ڕووبدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The family thought that they were under a curse."),
-                    ExampleSentenceKurdish(
-                        text: "خێزانەکە وایان دەزانی لەژێر نەفرەتدان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The family thought that they were under a curse.",
+            kurdishText: "خێزانەکە وایان دەزانی لەژێر نەفرەتدان.",
+            onPressedBritish: () => speakcurses2("en-GB"),
+            onPressedAmerican: () => speakcurses2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The witch is supposed to have put a curse on the house."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سیحربازەکە وابیردەکرێتەوە کە نەفرەتی لە ماڵەکە کردبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurses3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurses3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The witch is supposed to have put a curse on the house.",
+            kurdishText:
+                "سیحربازەکە وابیردەکرێتەوە کە نەفرەتی لە ماڵەکە کردبێت.",
+            onPressedBritish: () => speakcurses3("en-GB"),
+            onPressedAmerican: () => speakcurses3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) شتێک کە خراپەی لێدەکەوێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Noise is a curse of modern city life."),
-                    ExampleSentenceKurdish(
-                        text: "ژاوەژاو بەڵایەکی ژیانی سەردەمییانەی شارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurses4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurses4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Noise is a curse of modern city life.",
+            kurdishText: "ژاوەژاو بەڵایەکی ژیانی سەردەمییانەی شارە.",
+            onPressedBritish: () => speakcurses4("en-GB"),
+            onPressedAmerican: () => speakcurses4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) جنێودان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He hit his head as he stood up and cursed loudly."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە ھەستا ئێشی بە سەری گەیاند و بە دەنگی بەرز دەستی بە جنێودان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurses5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurses5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He hit his head as he stood up and cursed loudly.",
+            kurdishText:
+                "کە ھەستا ئێشی بە سەری گەیاند و بە دەنگی بەرز دەستی بە جنێودان کرد.",
+            onPressedBritish: () => speakcurses5("en-GB"),
+            onPressedAmerican: () => speakcurses5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was cursing and screaming at me just because I was late."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھاواری دەکرد بە سەرمدا و جنێوی پێم دەدا تەنھا بەھۆی ئەوەی درەنگ کەوتبووم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurses6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurses6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was cursing and screaming at me just because I was late.",
+            kurdishText:
+                "ھاواری دەکرد بە سەرمدا و جنێوی پێم دەدا تەنھا بەھۆی ئەوەی درەنگ کەوتبووم.",
+            onPressedBritish: () => speakcurses6("en-GB"),
+            onPressedAmerican: () => speakcurses6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (کردار) گوتنی قسەی بێ‌ڕێزانە بە خەڵکی یان بیرکردنەوە  بە خراپی دەربارەیان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She cursed her bad luck."),
-                    ExampleSentenceKurdish(
-                        text: "نەفرەتی لە بەختە خراپەکەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurses7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurses7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She cursed her bad luck.",
+            kurdishText: "نەفرەتی لە بەختە خراپەکەی کرد.",
+            onPressedBritish: () => speakcurses7("en-GB"),
+            onPressedAmerican: () => speakcurses7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He cursed himself for his stupidity."),
-                    ExampleSentenceKurdish(
-                        text: "نەفرەتی لەخۆی کرد بۆ گەمژەییەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurses8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurses8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He cursed himself for his stupidity.",
+            kurdishText: "نەفرەتی لەخۆی کرد بۆ گەمژەییەکەی.",
+            onPressedBritish: () => speakcurses8("en-GB"),
+            onPressedAmerican: () => speakcurses8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) بەکارھێنانی سیحر بۆ زیان گەیاندن "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Legend has it that the whole village had been cursed by a witch."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەپێی ئەفسانەکان تەواوی گوندەکە لەلایەن ساحیرێکەوە نەفرەتی لێکراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurses9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurses9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Legend has it that the whole village had been cursed by a witch.",
+            kurdishText:
+                "بەپێی ئەفسانەکان تەواوی گوندەکە لەلایەن ساحیرێکەوە نەفرەتی لێکراوە.",
+            onPressedBritish: () => speakcurses9("en-GB"),
+            onPressedAmerican: () => speakcurses9("en-US"),
           ),
         ],
       ),

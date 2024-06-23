@@ -105,67 +105,29 @@ class EnglishEntryconsolidation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کار یان پڕۆسەی پتەوکردنی دەسەڵات یان بەھێزکردنی سەرکەوتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Putin announced one of the most sweeping consolidations of presidential power since the fall of communism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆتین یەکێک لە کاریگەرترین کارەکانی بەھێزکردنی دەسەڵاتی سەرۆکایەتی ڕاگەیاند لەوەتەی کەوتنی کۆمیونیزمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consolidation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsolidations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsolidations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Putin announced one of the most sweeping consolidations of presidential power since the fall of communism.",
+                            kurdishText:
+                                "پۆتین یەکێک لە کاریگەرترین کارەکانی بەھێزکردنی دەسەڵاتی سەرۆکایەتی ڕاگەیاند لەوەتەی کەوتنی کۆمیونیزمەوە.", // consolidation",
+                            onPressedBritish: () =>
+                                speakconsolidations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsolidations1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کار یان پڕۆسەی یەکگرتن یان یەکخستن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The consolidation of Japan's banking industry resulted in fewer but more stable banks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکخستنی پیشەسازی بانکی ژاپۆن بووە بەھۆی بوونی بانکی کەمتر بەڵام جێگیرتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsolidations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsolidations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The consolidation of Japan's banking industry resulted in fewer but more stable banks.",
+                            kurdishText:
+                                "یەکخستنی پیشەسازی بانکی ژاپۆن بووە بەھۆی بوونی بانکی کەمتر بەڵام جێگیرتر.",
+                            onPressedBritish: () =>
+                                speakconsolidations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsolidations2("en-US"),
                           ),
                         ],
                       ),

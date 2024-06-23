@@ -242,57 +242,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ژوورێک کە بەشی پێویست جێگای نییە بۆ ئەو کەسانەی لە ناویدان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We have six desks in this room, so we're a little cramped."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شەش کەسین لەم ژوورەدا، بۆیە کەمێک کێشەی تەنگیمان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cramped", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrampeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrampeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We have six desks in this room, so we're a little cramped.",
+            kurdishText:
+                "شەش کەسین لەم ژوورەدا، بۆیە کەمێک کێشەی تەنگیمان ھەیە.", // cramped", please follow LX instructions
+            onPressedBritish: () => speakcrampeds1("en-GB"),
+            onPressedAmerican: () => speakcrampeds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I have a very cramped schedule."),
-                    ExampleSentenceKurdish(text: "خشتەیەکی زۆر جەنجاڵم ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrampeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrampeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I have a very cramped schedule.",
+            kurdishText: "خشتەیەکی زۆر جەنجاڵم ھەیە.",
+            onPressedBritish: () => speakcrampeds2("en-GB"),
+            onPressedAmerican: () => speakcrampeds2("en-US"),
           ),
         ],
       ),

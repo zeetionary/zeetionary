@@ -257,110 +257,34 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دەنگی دەرگا کە دەیکەیتەوە یان تەختە کە پەستانی دەکەوێتە سەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She heard a floorboard creak upstairs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گوێی لە دەنگی پارچە تەختەیەک بوو کە لە سەرەوەی جەڕەی دەھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creak", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreaks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreaks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She heard a floorboard creak upstairs.",
+            kurdishText:
+                "گوێی لە دەنگی پارچە تەختەیەک بوو کە لە سەرەوەی جەڕەی دەھات.", // creak", please follow LX instructions
+            onPressedBritish: () => speakcreaks1("en-GB"),
+            onPressedAmerican: () => speakcreaks1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He stood up, his bones creaking."),
-                    ExampleSentenceKurdish(
-                        text: "ھەستایە سەر پێ و ئێسکەکانی جەڕەیان دەھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreaks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreaks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He stood up, his bones creaking.",
+            kurdishText: "ھەستایە سەر پێ و ئێسکەکانی جەڕەیان دەھات.",
+            onPressedBritish: () => speakcreaks2("en-GB"),
+            onPressedAmerican: () => speakcreaks2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The door creaked on its hinges."),
-                    ExampleSentenceKurdish(
-                        text: "دەرگاکە لە گێژەنەکانیەوە جیڕەی دەھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreaks3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreaks3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The door creaked on its hinges.",
+            kurdishText: "دەرگاکە لە گێژەنەکانیەوە جیڕەی دەھات.",
+            onPressedBritish: () => speakcreaks3("en-GB"),
+            onPressedAmerican: () => speakcreaks3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) جەڕە یان جیڕە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The gate swung open with a creak."),
-                    ExampleSentenceKurdish(
-                        text: "دەروازەکە بە جیڕەیەکەوە کرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreaks4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreaks4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The gate swung open with a creak.",
+            kurdishText: "دەروازەکە بە جیڕەیەکەوە کرایەوە.",
+            onPressedBritish: () => speakcreaks4("en-GB"),
+            onPressedAmerican: () => speakcreaks4("en-US"),
           ),
         ],
       ),

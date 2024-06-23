@@ -129,153 +129,58 @@ class EnglishEntrycomplement extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) تەواوکردنی شتێک بە باشترکردنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team needs players who complement each other."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە پێویستی بە یاریزانانێکە کە تەواوکەری یەکترن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complement", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplements1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplements1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The team needs players who complement each other.",
+                            kurdishText:
+                                "تیمەکە پێویستی بە یاریزانانێکە کە تەواوکەری یەکترن.", // complement",
+                            onPressedBritish: () => speakcomplements1("en-GB"),
+                            onPressedAmerican: () => speakcomplements1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The flavours in the dish complement each other perfectly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تامەکانی خواردنەکە بە تەواوی یەکتر تەواو دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplements2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplements2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The flavours in the dish complement each other perfectly.",
+                            kurdishText:
+                                "تامەکانی خواردنەکە بە تەواوی یەکتر تەواو دەکەن.",
+                            onPressedBritish: () => speakcomplements2("en-GB"),
+                            onPressedAmerican: () => speakcomplements2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شتێک کە تەواوکەری شتێکی دیکەیە بەوەی باشتری دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This vegetable's natural sweetness is a perfect complement to salty or rich foods."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شیرینی سرووشتی ئەم میوەیە تەواوکەرێکی بێ‌وێنەیە بۆ خواردنی شۆر یان تامدار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplements3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplements3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This vegetable's natural sweetness is a perfect complement to salty or rich foods.",
+                            kurdishText:
+                                "شیرینی سرووشتی ئەم میوەیە تەواوکەرێکی بێ‌وێنەیە بۆ خواردنی شۆر یان تامدار.",
+                            onPressedBritish: () => speakcomplements3("en-GB"),
+                            onPressedAmerican: () => speakcomplements3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەوپەڕی ڕێژەیەک یان بڕێک کە ڕێگەپێدراوە یان پێویستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We've taken our full complement of trainees this year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمساڵ ژمارەی تەواوی ڕاھێنراوانمان وەرگرتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplements4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplements4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We've taken our full complement of trainees this year.",
+                            kurdishText:
+                                "ئەمساڵ ژمارەی تەواوی ڕاھێنراوانمان وەرگرتووە.",
+                            onPressedBritish: () => speakcomplements4("en-GB"),
+                            onPressedAmerican: () => speakcomplements4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) وشەیەک یان زاراوەیەک، بەتایبەتی ھاوەڵناوێک یان ناوێک، کە لە دوای کاری لێکدەر بەکاردێت، و پێناسەی بکەری کارەکە دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the sentences ‘I'm angry’ and ‘He became a politician’, ‘angry’ and ‘politician’ are complements."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕستەکانی 'I'm angry' و 'He became a politician', 'angry' و 'politician' تەواوکەرن/گوزارەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplements5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplements5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the sentences ‘I'm angry’ and ‘He became a politician’, ‘angry’ and ‘politician’ are complements.",
+                            kurdishText:
+                                "لە ڕستەکانی 'I'm angry' و 'He became a politician', 'angry' و 'politician' تەواوکەرن/گوزارەن.",
+                            onPressedBritish: () => speakcomplements5("en-GB"),
+                            onPressedAmerican: () => speakcomplements5("en-US"),
                           ),
                         ],
                       ),

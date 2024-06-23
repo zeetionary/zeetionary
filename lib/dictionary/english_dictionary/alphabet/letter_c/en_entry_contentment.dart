@@ -101,63 +101,23 @@ class EnglishEntrycontentment extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ھەستی دڵخۆشی و ئاسوودەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has found contentment at last."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە کۆتاییدا بە دڵخۆشی گەشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contentment", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontentments1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontentments1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He has found contentment at last.",
+                            kurdishText:
+                                "لە کۆتاییدا بە دڵخۆشی گەشت.", // contentment",
+                            onPressedBritish: () => speakcontentments1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontentments1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She fell asleep in quiet contentment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئاسوودەییەکی ئارامەوە خەوی لێکەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontentments2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontentments2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She fell asleep in quiet contentment.",
+                            kurdishText:
+                                "بە ئاسوودەییەکی ئارامەوە خەوی لێکەوت.",
+                            onPressedBritish: () => speakcontentments2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontentments2("en-US"),
                           ),
                         ],
                       ),

@@ -113,96 +113,39 @@ class EnglishEntrycommunicative extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی ئامادەیی بۆ پێدانی زانیاری بە کەسانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't find him very communicative."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە زۆر ڕووخۆش نایبینم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "communicative", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommunicatives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommunicatives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I don't find him very communicative.",
+                            kurdishText:
+                                "بە زۆر ڕووخۆش نایبینم.", // communicative",
+                            onPressedBritish: () =>
+                                speakcommunicatives1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommunicatives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wasn’t very communicative and kept things to himself."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر ڕووخۆش نەبوو و شتی بۆ خۆی دەپاراست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommunicatives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommunicatives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wasn’t very communicative and kept things to himself.",
+                            kurdishText:
+                                "زۆر ڕووخۆش نەبوو و شتی بۆ خۆی دەپاراست.",
+                            onPressedBritish: () =>
+                                speakcommunicatives2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommunicatives2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) پەیوەندیدار بە توانای پەیوەندیکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The communicative ability of the whale is thought to be highly developed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانای پەیوەندی نەگەنگ وابیردەکرێتەوە زۆر گەشەکردوو بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommunicatives3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommunicatives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The communicative ability of the whale is thought to be highly developed.",
+                            kurdishText:
+                                "توانای پەیوەندی نەگەنگ وابیردەکرێتەوە زۆر گەشەکردوو بێت.",
+                            onPressedBritish: () =>
+                                speakcommunicatives3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommunicatives3("en-US"),
                           ),
                         ],
                       ),

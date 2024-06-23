@@ -188,32 +188,13 @@ class EnglishEntrycajole extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ڕازیکردنی کەسێک بە کردنی شتێک کە نایەوێت بە پێدانی بەڵێن و قسەی خۆش کە زۆرجار ڕاست نین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I managed to cajole her out of leaving too early."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانیم ڕازی بکەم دژ بە ڕۆشتن زۆر بەزوویی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cajole", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcajoles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcajoles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I managed to cajole her out of leaving too early.",
+                            kurdishText:
+                                "توانیم ڕازی بکەم دژ بە ڕۆشتن زۆر بەزوویی.", // cajole
+                            onPressedBritish: () => speakcajoles1("en-GB"),
+                            onPressedAmerican: () => speakcajoles1("en-US"),
                           ),
                         ],
                       ),

@@ -102,61 +102,23 @@ class EnglishEntrycomrade extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە ئەندامی ھەمان پارتی کۆمیونیست یان سۆسیالیستە لەگەڵ ئەو کەسەی قسە دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We must fight for our rights, comrades!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت بۆ مافەکانمان بجەنگین، ھەڤاڵان!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comrade", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomrades1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomrades1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We must fight for our rights, comrades!",
+                            kurdishText:
+                                "دەبێت بۆ مافەکانمان بجەنگین، ھەڤاڵان!", // comrade",
+                            onPressedBritish: () => speakcomrades1("en-GB"),
+                            onPressedAmerican: () => speakcomrades1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھاوڕێیەک یان کەسێک کە کاری لەگەڵ دەکەیت، بە تایبەتی لە جەنگدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They were old army comrades."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھاوخەباتی کۆنی سوپا بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomrades2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomrades2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They were old army comrades.",
+                            kurdishText: "ھاوخەباتی کۆنی سوپا بوون.",
+                            onPressedBritish: () => speakcomrades2("en-GB"),
+                            onPressedAmerican: () => speakcomrades2("en-US"),
                           ),
                         ],
                       ),

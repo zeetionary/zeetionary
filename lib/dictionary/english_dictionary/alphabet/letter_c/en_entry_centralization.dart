@@ -189,34 +189,15 @@ class EnglishEntrycentralization extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ناوەندی‌کردن؛ پڕۆسەی کۆکردنەوەی دەسەڵاتی دامەزراوەیەک یان وڵاتێک لە یەک شوێندا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He protested against the centralization of government."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دژ بە ناوەندی‌کردنی حکومەت وەستایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "centralization", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcentralizations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcentralizations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He protested against the centralization of government.",
+                            kurdishText:
+                                "دژ بە ناوەندی‌کردنی حکومەت وەستایەوە.", // centralization",
+                            onPressedBritish: () =>
+                                speakcentralizations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcentralizations1("en-US"),
                           ),
                         ],
                       ),

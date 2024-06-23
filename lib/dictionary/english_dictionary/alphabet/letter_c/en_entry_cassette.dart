@@ -192,60 +192,21 @@ class EnglishEntrycassette extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چوارچێوەیەکی پلاستیکی تەخت کە شریتی تێدایە و دەنگ و میوزیکی پێ لێدەدرێت، یان بۆ لێدانی فیلم لەسەر کامێرا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He inserted the cassette and pressed the 'play' button."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاسێتەکەی خستەسەر و دەستی نا بە دووگمەی play دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cassette", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcassettes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcassettes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He inserted the cassette and pressed the 'play' button.",
+                            kurdishText:
+                                "کاسێتەکەی خستەسەر و دەستی نا بە دووگمەی play دا.", // cassette",
+                            onPressedBritish: () => speakcassettes1("en-GB"),
+                            onPressedAmerican: () => speakcassettes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you mean an audio cassette or a video cassette?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەبەستت کاسێتی ڤیدیۆیی یان دەنگییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcassettes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcassettes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do you mean an audio cassette or a video cassette?",
+                            kurdishText: "مەبەستت کاسێتی ڤیدیۆیی یان دەنگییە.",
+                            onPressedBritish: () => speakcassettes2("en-GB"),
+                            onPressedAmerican: () => speakcassettes2("en-US"),
                           ),
                         ],
                       ),

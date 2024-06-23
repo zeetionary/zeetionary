@@ -95,34 +95,15 @@ class EnglishEntrychoreography extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھونەری دانان و ڕێکخستنی ھەنگاو و جوڵەکانی سەما، یان ھەنگاو و جوڵەکانی سەما"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie's choreography was praised for its creativity and precision."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەمای فیلمەکە پەسندراوە بۆ داھێنەری و وردییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "choreography", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchoreographys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchoreographys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie's choreography was praised for its creativity and precision.",
+                            kurdishText:
+                                "سەمای فیلمەکە پەسندراوە بۆ داھێنەری و وردییەکەی.", // choreography",
+                            onPressedBritish: () =>
+                                speakchoreographys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchoreographys1("en-US"),
                           ),
                         ],
                       ),

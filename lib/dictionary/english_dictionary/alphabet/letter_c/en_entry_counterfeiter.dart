@@ -232,29 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک کە پارە و کەلوپەل ساختە دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The counterfeiters are criminals."),
-                    ExampleSentenceKurdish(text: "ساختەکاران تاوانبارن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "counterfeiter", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterfeiters1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterfeiters1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The counterfeiters are criminals.",
+            kurdishText:
+                "ساختەکاران تاوانبارن.", // counterfeiter", please follow LX instructions
+            onPressedBritish: () => speakcounterfeiters1("en-GB"),
+            onPressedAmerican: () => speakcounterfeiters1("en-US"),
           ),
         ],
       ),

@@ -243,63 +243,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کەسێک کە لە مۆزەخانەیەک، پێشانگایەکی ھونەری، ھتد بەرپرس و چاودێری کەرەستە و کارە ھونەرییەکانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The museum curator carefully cataloged each new artifact."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مۆزەوانەکە بە وریاییەوە ھەموو دەسکارێکی تازەی پێڕست دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curator", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurators1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurators1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The museum curator carefully cataloged each new artifact.",
+            kurdishText:
+                "مۆزەوانەکە بە وریاییەوە ھەموو دەسکارێکی تازەی پێڕست دەکرد.", // curator", please follow LX instructions
+            onPressedBritish: () => speakcurators1("en-GB"),
+            onPressedAmerican: () => speakcurators1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک کە زانیاری و شارەزاییەکەی بەکاردێنێت بۆ دیاریکردن و پیشاندانی زانیاری یان وێنە، ڤیدیۆ، میوزیک، بۆ ئەوەی خەڵکی بەکاریبێنن یان چێژی لێ وەربگرن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She is the founder and curator of a successful fashion website."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دامەزرێنەر و ڕێکخەری وێبسایتێکی سەرکەوتووی جلوبەرگە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurators2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurators2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She is the founder and curator of a successful fashion website.",
+            kurdishText: "دامەزرێنەر و ڕێکخەری وێبسایتێکی سەرکەوتووی جلوبەرگە.",
+            onPressedBritish: () => speakcurators2("en-GB"),
+            onPressedAmerican: () => speakcurators2("en-US"),
           ),
         ],
       ),

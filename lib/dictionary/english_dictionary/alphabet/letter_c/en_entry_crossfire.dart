@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) تەقاندنی گوللە لە دوو ئاراستەوە یان زیاتر لە ھەمان کاتدا بەشێوەیەک کە گوللەکان بە یەکدا بچن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The doctor was killed in crossfire as he went to help the wounded."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پزیشکەکە لە گەللەباراندا کوژرا کە چوو یارمەتی بریندارەکە بدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crossfire", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossfires1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossfires1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The doctor was killed in crossfire as he went to help the wounded.",
+            kurdishText:
+                "پزیشکەکە لە گەللەباراندا کوژرا کە چوو یارمەتی بریندارەکە بدات.", // crossfire", please follow LX instructions
+            onPressedBritish: () => speakcrossfires1("en-GB"),
+            onPressedAmerican: () => speakcrossfires1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When two industrial giants clash, small companies can get caught in the crossfire (= become involved and suffer as a result)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاتێک دوو زەبەلاحی پیشەسازی بە یەکدا دەدەن، کۆمپانیا بچووکەکن دەکرێت ببنە قوربانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossfires2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossfires2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When two industrial giants clash, small companies can get caught in the crossfire (= become involved and suffer as a result).",
+            kurdishText:
+                "کاتێک دوو زەبەلاحی پیشەسازی بە یەکدا دەدەن، کۆمپانیا بچووکەکن دەکرێت ببنە قوربانی.",
+            onPressedBritish: () => speakcrossfires2("en-GB"),
+            onPressedAmerican: () => speakcrossfires2("en-US"),
           ),
         ],
       ),

@@ -102,61 +102,22 @@ class EnglishEntrychamp extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خواردن یان قەپگرتن بە دەنگەدەنگەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The horse champed eagerly on the fresh hay."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەسپەکە کاوێژی دەکرد لە وێنجە تازەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "champ", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchamps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchamps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The horse champed eagerly on the fresh hay.",
+                            kurdishText:
+                                "ئەسپەکە کاوێژی دەکرد لە وێنجە تازەکەدا.", // champ",
+                            onPressedBritish: () => speakchamps1("en-GB"),
+                            onPressedAmerican: () => speakchamps1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) پاڵەوان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scottish champs celebrate victory!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاڵەوانە سکۆتلەندییەکان ئاھەنگی بردنەوەیان گێڕا!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchamps2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchamps2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Scottish champs celebrate victory!",
+                            kurdishText:
+                                "پاڵەوانە سکۆتلەندییەکان ئاھەنگی بردنەوەیان گێڕا!",
+                            onPressedBritish: () => speakchamps2("en-GB"),
+                            onPressedAmerican: () => speakchamps2("en-US"),
                           ),
                         ],
                       ),

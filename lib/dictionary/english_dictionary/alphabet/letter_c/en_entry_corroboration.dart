@@ -242,58 +242,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بەڵگە یان زانیاری کە شتێک پشت‌ڕاست دەکاتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The prosecution provided corroboration for her allegation."),
-                    ExampleSentenceKurdish(text: "لێکۆڵینەوە پشتڕاست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corroboration", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorroborations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorroborations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The prosecution provided corroboration for her allegation.",
+            kurdishText:
+                "لێکۆڵینەوە پشتڕاست.", // corroboration", please follow LX instructions
+            onPressedBritish: () => speakcorroborations1("en-GB"),
+            onPressedAmerican: () => speakcorroborations1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They could find no independent corroboration that he was telling the truth."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ سەرچاوەیەکی سەربەخۆیان نەدۆزییەوە بۆ ئەوەی کە ڕاستییەکە دەڵێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorroborations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorroborations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They could find no independent corroboration that he was telling the truth.",
+            kurdishText:
+                "ھیچ سەرچاوەیەکی سەربەخۆیان نەدۆزییەوە بۆ ئەوەی کە ڕاستییەکە دەڵێت.",
+            onPressedBritish: () => speakcorroborations2("en-GB"),
+            onPressedAmerican: () => speakcorroborations2("en-US"),
           ),
         ],
       ),

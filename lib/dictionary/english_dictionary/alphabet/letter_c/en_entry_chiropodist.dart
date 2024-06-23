@@ -95,34 +95,14 @@ class EnglishEntrychiropodist extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە چارەسەری قاچی خەڵکی دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chiropodist provided advice on proper foot care."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاپزیشکەکە ڕاوێژی دا لەسەر چاودێری گونجاوی پێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chiropodist", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchiropodists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchiropodists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chiropodist provided advice on proper foot care.",
+                            kurdishText:
+                                "پاپزیشکەکە ڕاوێژی دا لەسەر چاودێری گونجاوی پێ.", // chiropodist",
+                            onPressedBritish: () => speakchiropodists1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchiropodists1("en-US"),
                           ),
                         ],
                       ),

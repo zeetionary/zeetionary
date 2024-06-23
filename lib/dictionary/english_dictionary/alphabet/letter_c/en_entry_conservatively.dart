@@ -105,67 +105,29 @@ class EnglishEntryconservatively extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە دژ بە گۆڕانکاری گەورە یان لەناکاوی کۆمەڵایەتییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was dressed conservatively in a long brown skirt with a matching jacket."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆنەپارێزانە جلم لەبەربوو بە تەنوورەیەکی قاوەیی درێژ و چاکەتێکی ھەمان ڕەنگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conservatively", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservativelys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservativelys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was dressed conservatively in a long brown skirt with a matching jacket.",
+                            kurdishText:
+                                "کۆنەپارێزانە جلم لەبەربوو بە تەنوورەیەکی قاوەیی درێژ و چاکەتێکی ھەمان ڕەنگ.", // conservatively",
+                            onPressedBritish: () =>
+                                speakconservativelys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservativelys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بڕێک یان ژمارەیەک کە کەمترە لە ڕێژە ڕاستییەکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Estimated earnings from tourism are conservatively estimated at £150m annually."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قازانجی خەمڵێندراو لە گەشتیارییەوە کەم‌بژێرانە بە ١٥٠ ملیۆن پاوەندی ساڵانە دەخەمڵێندرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservativelys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservativelys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Estimated earnings from tourism are conservatively estimated at £150m annually.",
+                            kurdishText:
+                                "قازانجی خەمڵێندراو لە گەشتیارییەوە کەم‌بژێرانە بە ١٥٠ ملیۆن پاوەندی ساڵانە دەخەمڵێندرێت.",
+                            onPressedBritish: () =>
+                                speakconservativelys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservativelys2("en-US"),
                           ),
                         ],
                       ),

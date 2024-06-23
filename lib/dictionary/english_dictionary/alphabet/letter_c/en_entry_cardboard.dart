@@ -192,63 +192,25 @@ class EnglishEntrycardboard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مادەیەکی پتەو کە وەک کاغەزی ئەستوور وایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children wanted a piece of cardboard to cut shapes from."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان پارچە مقەبایەکیان دەویست بۆ ئەوەی شێوەی لێ درووستبکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cardboard", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcardboards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcardboards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children wanted a piece of cardboard to cut shapes from.",
+                            kurdishText:
+                                "منداڵەکان پارچە مقەبایەکیان دەویست بۆ ئەوەی شێوەی لێ درووستبکەن.", // cardboard",
+                            onPressedBritish: () => speakcardboards1("en-GB"),
+                            onPressedAmerican: () => speakcardboards1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) شتێک کە دەستکردە و ڕاست نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've never enjoyed his plays - somehow all his characters are cardboard."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز حەزم لە شانۆکانی نەبووە، بەشێوەیەک ھەموو کارەکتەرەکانی دەستکرد دیارن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcardboards2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcardboards2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've never enjoyed his plays - somehow all his characters are cardboard.",
+                            kurdishText:
+                                "ھەرگیز حەزم لە شانۆکانی نەبووە، بەشێوەیەک ھەموو کارەکتەرەکانی دەستکرد دیارن.",
+                            onPressedBritish: () => speakcardboards2("en-GB"),
+                            onPressedAmerican: () => speakcardboards2("en-US"),
                           ),
                         ],
                       ),

@@ -240,57 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) لاشەی مردوویەک، بەتایبەتی ھی مرۆڤێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The corpse was barely recognizable."),
-                    ExampleSentenceKurdish(
-                        text: "تەرمەکە بە ئەستەم دەناسرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corpse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorpses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorpses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The corpse was barely recognizable.",
+            kurdishText:
+                "تەرمەکە بە ئەستەم دەناسرایەوە.", // corpse", please follow LX instructions
+            onPressedBritish: () => speakcorpses1("en-GB"),
+            onPressedAmerican: () => speakcorpses1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The ground was littered with the corpses of enemy soldiers."),
-                    ExampleSentenceKurdish(
-                        text: "زەوییەکە پڕبوو لە کەلاکی سەربازانی دوژمن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorpses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorpses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The ground was littered with the corpses of enemy soldiers.",
+            kurdishText: "زەوییەکە پڕبوو لە کەلاکی سەربازانی دوژمن.",
+            onPressedBritish: () => speakcorpses2("en-GB"),
+            onPressedAmerican: () => speakcorpses2("en-US"),
           ),
         ],
       ),

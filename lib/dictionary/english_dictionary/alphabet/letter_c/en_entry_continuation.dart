@@ -120,130 +120,54 @@ class EnglishEntrycontinuation extends StatelessWidget {
 کوردی: درێژەدان، لەسەرڕۆیشتن، پێوەڕۆیشتن، مانەوە، بەردەوام‌کردن، دۆماندن، یەکبینەیی،	بەدواداڕۆیشتن، شوێن‌کەوتن،	تێھەڵ‌چوونەوە، دەس‌پێکردنەوە،	ڕاگرتنی کاتی دادگا، پشوو، وچان،	پاشکۆ، درێژە، پاشماوە
 """),
                           const DefinitionKurdish(text: "١. (ناو) بەردەوامێتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The years 2000–01 saw the continuation of the university’s planned expansion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵانی ٢٠٠٠-٢٠٠١ بەردەوامێتی بەرفراوانبوونی پلاندانراوی زانکۆکەی بەخۆوە بینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "continuation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinuations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinuations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The years 2000–01 saw the continuation of the university’s planned expansion.",
+                            kurdishText:
+                                "ساڵانی ٢٠٠٠-٢٠٠١ بەردەوامێتی بەرفراوانبوونی پلاندانراوی زانکۆکەی بەخۆوە بینی.", // continuation",
+                            onPressedBritish: () =>
+                                speakcontinuations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinuations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They are determined to ensure the continuation of the economic reform programme."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوورن لەسەر دڵنیایی کردنەوە لە بەردەوامی پڕۆگرامی چاکسازیی ئابووری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinuations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinuations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They are determined to ensure the continuation of the economic reform programme.",
+                            kurdishText:
+                                "سوورن لەسەر دڵنیایی کردنەوە لە بەردەوامی پڕۆگرامی چاکسازیی ئابووری.",
+                            onPressedBritish: () =>
+                                speakcontinuations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinuations2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شتێک کە بەردەوام دەبێت یان بە دوای شتێکی دیکەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her new book is a continuation of her autobiography."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبە تازەکەی درێژەی خۆژین‌نامەکەیەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinuations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinuations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her new book is a continuation of her autobiography.",
+                            kurdishText:
+                                "کتێبە تازەکەی درێژەی خۆژین‌نامەکەیەتی.",
+                            onPressedBritish: () =>
+                                speakcontinuations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinuations3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شتێک کە گرێدراوە بە شتێکی دیکەوە و بەشێکی پێکدەھێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are plans to build a continuation of the bypass next year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلان ھەیە ساڵی داھاتوو درێژەی ڕێگا پشتێنەییەکە درووست بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontinuations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontinuations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are plans to build a continuation of the bypass next year.",
+                            kurdishText:
+                                "پلان ھەیە ساڵی داھاتوو درێژەی ڕێگا پشتێنەییەکە درووست بکرێت.",
+                            onPressedBritish: () =>
+                                speakcontinuations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontinuations4("en-US"),
                           ),
                         ],
                       ),

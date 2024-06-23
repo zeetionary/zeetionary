@@ -94,30 +94,12 @@ class EnglishEntrycheesecake extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شیرینییەکی سارد کە لە تێکەڵەیەکی نەرمی کرێمی پەنیر، شەکر، ھێلکە، لەسەر بسکیت یان کێک درووست دەکرێت و دەکرێت بە پارچەی بچووکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Is there any cheesecake left?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ پەنیرکێک ماوەتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheesecake", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheesecakes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheesecakes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Is there any cheesecake left?",
+                            kurdishText:
+                                "ھیچ پەنیرکێک ماوەتەوە؟", // cheesecake",
+                            onPressedBritish: () => speakcheesecakes1("en-GB"),
+                            onPressedAmerican: () => speakcheesecakes1("en-US"),
                           ),
                         ],
                       ),

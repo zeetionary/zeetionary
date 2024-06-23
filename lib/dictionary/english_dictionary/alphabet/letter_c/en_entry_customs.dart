@@ -284,200 +284,63 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەو بەشەی حکومەت کە بەرپرسە باج کۆدەکاتەوە لەسەر ئەو کەلوپەلانەی کە کڕین و فرۆشتیان پێوە دەکرێت و ئەوانەی کە ھاوردەی ناو وڵاتێک دەکرێن "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Customs have seized large quantities of smuggled heroin."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەزگای گومرک ڕێژەیەکی زۆر لە ھیرۆینی ھاوردەکراوی دەستبەسەردا گرتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "customs", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Customs have seized large quantities of smuggled heroin.",
+            kurdishText:
+                "دەزگای گومرک ڕێژەیەکی زۆر لە ھیرۆینی ھاوردەکراوی دەستبەسەردا گرتووە.", // customs", please follow LX instructions
+            onPressedBritish: () => speakcustomss1("en-GB"),
+            onPressedAmerican: () => speakcustomss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "French Customs have arrested two men."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فەرمانگەی گومرکی فەرەنسا دوو کەسی دەستگیرکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "French Customs have arrested two men.",
+            kurdishText: "فەرمانگەی گومرکی فەرەنسا دوو کەسی دەستگیرکردووە.",
+            onPressedBritish: () => speakcustomss2("en-GB"),
+            onPressedAmerican: () => speakcustomss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەو شوێنەی لە بەندەرێک یان فڕۆکەخانەیەک جانتاکانت دەپشکنرێت لێی کە دەچیتە وڵاتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You will have to declare these goods when you go through customs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت ئاماژە بەم کەلوپەلانە بکەیت کە بە گومرکدا تێدەپەڕیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You will have to declare these goods when you go through customs.",
+            kurdishText:
+                "دەبێت ئاماژە بەم کەلوپەلانە بکەیت کە بە گومرکدا تێدەپەڕیت.",
+            onPressedBritish: () => speakcustomss3("en-GB"),
+            onPressedAmerican: () => speakcustomss3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We got stopped and searched at the Italian customs."),
-                    ExampleSentenceKurdish(
-                        text: "لە گومرکی ئیتالیا وەستێندراین و پشکنراین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We got stopped and searched at the Italian customs.",
+            kurdishText: "لە گومرکی ئیتالیا وەستێندراین و پشکنراین.",
+            onPressedBritish: () => speakcustomss4("en-GB"),
+            onPressedAmerican: () => speakcustomss4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We cleared customs by five o'clock."),
-                    ExampleSentenceKurdish(
-                        text: "کە کاتژمێر پێنج بوو بە گومرکدا تێپەڕین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomss5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomss5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We cleared customs by five o'clock.",
+            kurdishText: "کە کاتژمێر پێنج بوو بە گومرکدا تێپەڕین.",
+            onPressedBritish: () => speakcustomss5("en-GB"),
+            onPressedAmerican: () => speakcustomss5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) ئەو باجەی بە حکومەت دەدرێت کە کەلوپەل ھاوردەی وڵاتێک دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You must pay customs on all imports of alcohol."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت گومرک بدەیت بۆ ھەموو ھاوردەیەکی مادەی کحوولی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomss6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomss6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You must pay customs on all imports of alcohol.",
+            kurdishText: "دەبێت گومرک بدەیت بۆ ھەموو ھاوردەیەکی مادەی کحوولی.",
+            onPressedBritish: () => speakcustomss6("en-GB"),
+            onPressedAmerican: () => speakcustomss6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We had to pay customs duties on the beer."),
-                    ExampleSentenceKurdish(
-                        text: "پێویست بوو باجی گومرک بدەین بۆ بیرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustomss7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustomss7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We had to pay customs duties on the beer.",
+            kurdishText: "پێویست بوو باجی گومرک بدەین بۆ بیرەکە.",
+            onPressedBritish: () => speakcustomss7("en-GB"),
+            onPressedAmerican: () => speakcustomss7("en-US"),
           ),
         ],
       ),

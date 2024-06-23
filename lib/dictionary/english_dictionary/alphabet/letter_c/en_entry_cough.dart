@@ -280,199 +280,67 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کۆخە، قۆخە، کۆکە، سنگێشە
 """),
           const DefinitionKurdish(text: "١. (کردار) کۆکەکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I couldn't stop coughing."),
-                    ExampleSentenceKurdish(
-                        text: "نەمدەتوانی لە کۆکەکردن بوەستم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cough", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoughs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoughs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I couldn't stop coughing.",
+            kurdishText:
+                "نەمدەتوانی لە کۆکەکردن بوەستم.", // cough", please follow LX instructions
+            onPressedBritish: () => speakcoughs1("en-GB"),
+            onPressedAmerican: () => speakcoughs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He had a coughing fit and couldn't speak for a few moments."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆکە لێھاتنێکی بوو و نەیدەتوانی بۆ چەند ساتێک قسە بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoughs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoughs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He had a coughing fit and couldn't speak for a few moments.",
+            kurdishText:
+                "کۆکە لێھاتنێکی بوو و نەیدەتوانی بۆ چەند ساتێک قسە بکات.",
+            onPressedBritish: () => speakcoughs2("en-GB"),
+            onPressedAmerican: () => speakcoughs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) تفاندنەوەی شتێک لە قورگ یان سنگت بە کۆکەکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Sometimes she coughed (up) blood."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک جار خوێنی ھەڵدەھێنایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoughs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoughs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Sometimes she coughed (up) blood.",
+            kurdishText: "ھەندێک جار خوێنی ھەڵدەھێنایەوە.",
+            onPressedBritish: () => speakcoughs3("en-GB"),
+            onPressedAmerican: () => speakcoughs3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He vomited and began coughing up blood."),
-                    ExampleSentenceKurdish(
-                        text: "ڕیشایەوە و دەستی بە تفاندنەوەی خوێن کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoughs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoughs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He vomited and began coughing up blood.",
+            kurdishText: "ڕیشایەوە و دەستی بە تفاندنەوەی خوێن کرد.",
+            onPressedBritish: () => speakcoughs4("en-GB"),
+            onPressedAmerican: () => speakcoughs4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) کە بزوێنەرێک دەنگێک دەردەکات وەک ئاماژەی ئەوەی باش کار ناکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The old engine coughed and started working."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بزوێنەرە کۆنەکە پێشەسووتەی کرد و دەستی بە کارکردن کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoughs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoughs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The old engine coughed and started working.",
+            kurdishText:
+                "بزوێنەرە کۆنەکە پێشەسووتەی کرد و دەستی بە کارکردن کرد.",
+            onPressedBritish: () => speakcoughs5("en-GB"),
+            onPressedAmerican: () => speakcoughs5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) کۆکەکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She gave a little cough to attract my attention."),
-                    ExampleSentenceKurdish(
-                        text: "سەرنجمی ڕاکێشا بە کۆکەیەکی بچووک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoughs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoughs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She gave a little cough to attract my attention.",
+            kurdishText: "سەرنجمی ڕاکێشا بە کۆکەیەکی بچووک.",
+            onPressedBritish: () => speakcoughs6("en-GB"),
+            onPressedAmerican: () => speakcoughs6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) نەخۆشییەک کە تووشی کۆکەت دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My cold's better, but I can't seem to shake off this cough."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەڵامەتەکەم باشترە، بەڵام وادیار نییە ئەم کۆکە لەخۆم بکەمەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoughs7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoughs7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "My cold's better, but I can't seem to shake off this cough.",
+            kurdishText:
+                "ھەڵامەتەکەم باشترە، بەڵام وادیار نییە ئەم کۆکە لەخۆم بکەمەوە.",
+            onPressedBritish: () => speakcoughs7("en-GB"),
+            onPressedAmerican: () => speakcoughs7("en-US"),
           ),
         ],
       ),

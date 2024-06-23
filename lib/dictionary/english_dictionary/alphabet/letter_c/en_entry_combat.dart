@@ -138,175 +138,61 @@ class EnglishEntrycombat extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شەڕ، بەتایبەتی لە کاتی جەنگدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was killed in combat."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە شەڕدا کوژرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "combat", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was killed in combat.",
+                            kurdishText: "لە شەڕدا کوژرا.", // combat",
+                            onPressedBritish: () => speakcombats1("en-GB"),
+                            onPressedAmerican: () => speakcombats1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Knightly combats were only a very small part of medieval warfare."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووبەڕووبوونەوەی سوارەکان تەنھا بەشێکی کەمی جەنگی سەردەمانی ناوەڕاست بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombats2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombats2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Knightly combats were only a very small part of medieval warfare.",
+                            kurdishText:
+                                "ڕووبەڕووبوونەوەی سوارەکان تەنھا بەشێکی کەمی جەنگی سەردەمانی ناوەڕاست بوو.",
+                            onPressedBritish: () => speakcombats2("en-GB"),
+                            onPressedAmerican: () => speakcombats2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soldiers are in combat with rebel forces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکان لە شەڕدان لەگەڵ ھێزە یاخییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombats3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombats3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soldiers are in combat with rebel forces.",
+                            kurdishText:
+                                "سەربازەکان لە شەڕدان لەگەڵ ھێزە یاخییەکان.",
+                            onPressedBritish: () => speakcombats3("en-GB"),
+                            onPressedAmerican: () => speakcombats3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) وەستاندنی ڕوودانی شتێکی خراپ، یان ئەوەی کە خراپتر بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Measures to combat violent crime have been proposed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەنگاو پێشنیاز کراوە بۆ ڕێگری لە تاوانی توندوتیژی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombats4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombats4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Measures to combat violent crime have been proposed.",
+                            kurdishText:
+                                "ھەنگاو پێشنیاز کراوە بۆ ڕێگری لە تاوانی توندوتیژی.",
+                            onPressedBritish: () => speakcombats4("en-GB"),
+                            onPressedAmerican: () => speakcombats4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He announced new measures to combat crime in the cities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێکاری تازەی ڕاگەیاند بۆ ڕووبەڕووبوونەوەی تاوان لە شارەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombats5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombats5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He announced new measures to combat crime in the cities.",
+                            kurdishText:
+                                "ڕێکاری تازەی ڕاگەیاند بۆ ڕووبەڕووبوونەوەی تاوان لە شارەکان.",
+                            onPressedBritish: () => speakcombats5("en-GB"),
+                            onPressedAmerican: () => speakcombats5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) شەڕکردن دژی سوپایەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The security forces were unwilling to combat the insurgents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزەکانی ئاسایش نائامادە بوون شەڕ دژ بە یاخیبووان بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcombats6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcombats6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The security forces were unwilling to combat the insurgents.",
+                            kurdishText:
+                                "ھێزەکانی ئاسایش نائامادە بوون شەڕ دژ بە یاخیبووان بکەن.",
+                            onPressedBritish: () => speakcombats6("en-GB"),
+                            onPressedAmerican: () => speakcombats6("en-US"),
                           ),
                         ],
                       ),

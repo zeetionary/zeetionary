@@ -240,60 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دابەزین، داشکان، کەم‌بوونەوە
 """),
           const DefinitionKurdish(text: "١. (ناو) کەمکردنەوە لە شتێکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There have been substantial staff cutbacks in order to save money."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێژەیەکی زۆر کەمکردنەوە لە ستافدا ھەبووە بۆ گەڕاندنەوەی پارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cutback", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutbacks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutbacks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There have been substantial staff cutbacks in order to save money.",
+            kurdishText:
+                "ڕێژەیەکی زۆر کەمکردنەوە لە ستافدا ھەبووە بۆ گەڕاندنەوەی پارە.", // cutback", please follow LX instructions
+            onPressedBritish: () => speakcutbacks1("en-GB"),
+            onPressedAmerican: () => speakcutbacks1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many schools are having to make major cutbacks."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر قوتابخانە دەبێت کەمکردنەوەی زۆر ئەنجام بدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutbacks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutbacks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Many schools are having to make major cutbacks.",
+            kurdishText: "زۆر قوتابخانە دەبێت کەمکردنەوەی زۆر ئەنجام بدەن.",
+            onPressedBritish: () => speakcutbacks2("en-GB"),
+            onPressedAmerican: () => speakcutbacks2("en-US"),
           ),
         ],
       ),

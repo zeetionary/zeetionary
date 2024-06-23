@@ -118,116 +118,40 @@ class EnglishEntrycommence extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) دەستکردن بە ڕوودان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The meeting is scheduled to commence at noon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆبوونەوەکە ڕێکخراوە لە نیوەڕۆدا دەستپێ بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commence", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The meeting is scheduled to commence at noon.",
+                            kurdishText:
+                                "کۆبوونەوەکە ڕێکخراوە لە نیوەڕۆدا دەستپێ بکات.", // commence",
+                            onPressedBritish: () => speakcommences1("en-GB"),
+                            onPressedAmerican: () => speakcommences1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I will be on leave during the week commencing 15 February."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە مۆڵەتدا دەبم لە ماوەی ھەفتەکەدا لە ١٥ ـی شوباتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommences2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommences2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I will be on leave during the week commencing 15 February.",
+                            kurdishText:
+                                "لە مۆڵەتدا دەبم لە ماوەی ھەفتەکەدا لە ١٥ ـی شوباتەوە.",
+                            onPressedBritish: () => speakcommences2("en-GB"),
+                            onPressedAmerican: () => speakcommences2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She commenced her medical career in 1956."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاری تەندرووستی دەستپێکرد لە ساڵی ١٩٥٦."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommences3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommences3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She commenced her medical career in 1956.",
+                            kurdishText:
+                                "کاری تەندرووستی دەستپێکرد لە ساڵی ١٩٥٦.",
+                            onPressedBritish: () => speakcommences3("en-GB"),
+                            onPressedAmerican: () => speakcommences3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company commenced operations in April."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە کاری لە نیساندا دەستپێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommences4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommences4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company commenced operations in April.",
+                            kurdishText:
+                                "کۆمپانیاکە کاری لە نیساندا دەستپێکرد.",
+                            onPressedBritish: () => speakcommences4("en-GB"),
+                            onPressedAmerican: () => speakcommences4("en-US"),
                           ),
                         ],
                       ),

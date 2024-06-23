@@ -93,34 +93,14 @@ class EnglishEntrycleanshaven extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پیاوێک کە سمێڵ و ڕیشی نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She ran her hand over his clean-shaven cheek."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی ھێنا بە ڕووخسارە تەواو تاشراوەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clean-shaven", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcleanshavens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcleanshavens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She ran her hand over his clean-shaven cheek.",
+                            kurdishText:
+                                "دەستی ھێنا بە ڕووخسارە تەواو تاشراوەکەیدا.", // clean-shaven",
+                            onPressedBritish: () => speakcleanshavens1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcleanshavens1("en-US"),
                           ),
                         ],
                       ),

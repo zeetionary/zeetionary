@@ -94,33 +94,14 @@ class EnglishEntryconciliatory extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی کاریگەری ھێورکردنەوەی کەسانی تووڕە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His tone was quite conciliatory."),
-                                    ExampleSentenceKurdish(
-                                        text: "تۆنەکەی تەواو ھێورکەرەوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conciliatory", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconciliatorys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconciliatorys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His tone was quite conciliatory.",
+                            kurdishText:
+                                "تۆنەکەی تەواو ھێورکەرەوە بوو.", // conciliatory",
+                            onPressedBritish: () =>
+                                speakconciliatorys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconciliatorys1("en-US"),
                           ),
                         ],
                       ),

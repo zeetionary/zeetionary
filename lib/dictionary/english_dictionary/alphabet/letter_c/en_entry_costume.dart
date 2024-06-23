@@ -250,146 +250,46 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەو جلانەی کە لەلایەن کەسانێکەوە لە شوێنێکی دیاریکراو یان قۆناغێکی دیاریکراوی مێژوودا لەبەردەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She wore a traditional costume of bright pink silk."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جلێکی نەریتی ئاوریشمی پەمەیی درەوشاوەی لەبەرکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "costume", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostumes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostumes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She wore a traditional costume of bright pink silk.",
+            kurdishText:
+                "جلێکی نەریتی ئاوریشمی پەمەیی درەوشاوەی لەبەرکرد.", // costume", please follow LX instructions
+            onPressedBritish: () => speakcostumes1("en-GB"),
+            onPressedAmerican: () => speakcostumes1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "At the airport, passengers were greeted by young women in Hawaiian costume."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ھوتێلەکە گەشتیاران لەلایەن ژنانی گەنجەوە بە جلی ھاواییەوە پێشوازییان لێکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostumes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostumes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "At the airport, passengers were greeted by young women in Hawaiian costume.",
+            kurdishText:
+                "لە ھوتێلەکە گەشتیاران لەلایەن ژنانی گەنجەوە بە جلی ھاواییەوە پێشوازییان لێکرا.",
+            onPressedBritish: () => speakcostumes2("en-GB"),
+            onPressedAmerican: () => speakcostumes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەو جلانەی لەلایەن ئەکتەرەکانی فیلمێک، شانۆیەک، ھتد لەبەردەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The former dancer has also designed the costumes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەماکارە بەرینەکە ھەروەھا دیزاینی جلەکانیشی کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostumes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostumes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The former dancer has also designed the costumes.",
+            kurdishText: "سەماکارە بەرینەکە ھەروەھا دیزاینی جلەکانیشی کردووە.",
+            onPressedBritish: () => speakcostumes3("en-GB"),
+            onPressedAmerican: () => speakcostumes3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The costumes for this movie were gorgeous."),
-                    ExampleSentenceKurdish(
-                        text: "جلەکانی ئەم فیلمە دڵڕفێنەر بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostumes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostumes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The costumes for this movie were gorgeous.",
+            kurdishText: "جلەکانی ئەم فیلمە دڵڕفێنەر بوون.",
+            onPressedBritish: () => speakcostumes3("en-GB"),
+            onPressedAmerican: () => speakcostumes3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) جلوبەرگی مەلەکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If you’d like a swim, we can lend you a costume."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر حەزت بە مەلەیە، دەتوانین جلە مەلەیەکت پێبدەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostumes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostumes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "If you’d like a swim, we can lend you a costume.",
+            kurdishText: "ئەگەر حەزت بە مەلەیە، دەتوانین جلە مەلەیەکت پێبدەین.",
+            onPressedBritish: () => speakcostumes3("en-GB"),
+            onPressedAmerican: () => speakcostumes3("en-US"),
           ),
         ],
       ),

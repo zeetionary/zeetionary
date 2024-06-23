@@ -239,59 +239,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کەسێکی شێت، شێتی بێ‌وەی، بنیادەمی شەل‌وشێت
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) نامۆ و شێتانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This sounds like another crackpot idea to me."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە لە بیرۆکەیەکی دیکەی شێتانە دەچێت لام."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crackpot", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrackpots1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrackpots1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This sounds like another crackpot idea to me.",
+            kurdishText:
+                "ئەمە لە بیرۆکەیەکی دیکەی شێتانە دەچێت لام.", //crackpot", please follow LX instructions
+            onPressedBritish: () => speakcrackpots1("en-GB"),
+            onPressedAmerican: () => speakcrackpots1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کەسێکی نامۆ و شێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They obviously think we’re a bunch of crackpots."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەدڵنیاییەوە وابیردەکەنەوە ژمارەیەک شەل‌وشێتین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrackpots2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrackpots2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They obviously think we’re a bunch of crackpots.",
+            kurdishText: "بەدڵنیاییەوە وابیردەکەنەوە ژمارەیەک شەل‌وشێتین.",
+            onPressedBritish: () => speakcrackpots2("en-GB"),
+            onPressedAmerican: () => speakcrackpots2("en-US"),
           ),
         ],
       ),

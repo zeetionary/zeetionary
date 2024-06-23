@@ -104,60 +104,22 @@ class EnglishEntrycommuter extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە ھەموو ڕۆژێکی کارکردن ھاتووچۆ دەکات بۆ سەر کارەکەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The five o’clock train is always packed with commuters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەمەندەفەری کاتژمێر پێنج ھەمیشە پڕە لە ھاتووچۆکەرانی ڕۆژانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commuter", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommuters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommuters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The five o’clock train is always packed with commuters.",
+                            kurdishText:
+                                "شەمەندەفەری کاتژمێر پێنج ھەمیشە پڕە لە ھاتووچۆکەرانی ڕۆژانە.", // commuter",
+                            onPressedBritish: () => speakcommuters1("en-GB"),
+                            onPressedAmerican: () => speakcommuters1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Commuter services are under a greater strain than ever before."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خزمەتگووزارییەکانی ھاتووچۆ زیاتر لە ھەر کاتێکی دیکە لەژێر پەستانی زیاترن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommuters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommuters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Commuter services are under a greater strain than ever before.",
+                            kurdishText:
+                                "خزمەتگووزارییەکانی ھاتووچۆ زیاتر لە ھەر کاتێکی دیکە لەژێر پەستانی زیاترن.",
+                            onPressedBritish: () => speakcommuters2("en-GB"),
+                            onPressedAmerican: () => speakcommuters2("en-US"),
                           ),
                         ],
                       ),

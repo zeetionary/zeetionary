@@ -103,60 +103,21 @@ class EnglishEntrycoastline extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەناراو، بەتایبەتی کە بیر لە شێوە و ڕووکەشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Measures were taken to protect the coastline from the oil spillage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەنگاو نرا بۆ پاراستنی ھێڵە کەنارییەکە لە ڕژانی نەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coastline", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoastlines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoastlines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Measures were taken to protect the coastline from the oil spillage.",
+                            kurdishText:
+                                "ھەنگاو نرا بۆ پاراستنی ھێڵە کەنارییەکە لە ڕژانی نەوت.", // coastline",
+                            onPressedBritish: () => speakcoastlines1("en-GB"),
+                            onPressedAmerican: () => speakcoastlines1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The coastline stretches for miles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەناراوەکە بۆ چەندین میل درێژدەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoastlines2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoastlines2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The coastline stretches for miles.",
+                            kurdishText:
+                                "کەناراوەکە بۆ چەندین میل درێژدەبێتەوە.",
+                            onPressedBritish: () => speakcoastlines2("en-GB"),
+                            onPressedAmerican: () => speakcoastlines2("en-US"),
                           ),
                         ],
                       ),

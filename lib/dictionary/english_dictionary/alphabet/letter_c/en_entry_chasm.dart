@@ -101,63 +101,25 @@ class EnglishEntrychasm extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەندێکی گەورە لە زەویدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Suddenly a huge chasm opened in the earth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەناکاو کەندڕێکی گەورە لە زەویدا درووست بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chasm", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchasms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchasms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Suddenly a huge chasm opened in the earth.",
+                            kurdishText:
+                                "لەناکاو کەندڕێکی گەورە لە زەویدا درووست بوو.", // chasm",
+                            onPressedBritish: () => speakchasms1("en-GB"),
+                            onPressedAmerican: () => speakchasms1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) جیاوازییەکی گەورە لە نێوان دوو کەس یان گرووپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A chasm separates my generation from my parents'."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جیاوازییەکی زۆر نەوەکەی من لە ھی ئەوەی دایک و باوکم جیادەکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchasms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchasms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A chasm separates my generation from my parents'.",
+                            kurdishText:
+                                "جیاوازییەکی زۆر نەوەکەی من لە ھی ئەوەی دایک و باوکم جیادەکاتەوە.",
+                            onPressedBritish: () => speakchasms2("en-GB"),
+                            onPressedAmerican: () => speakchasms2("en-US"),
                           ),
                         ],
                       ),

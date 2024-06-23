@@ -102,60 +102,22 @@ class EnglishEntryconcur extends StatelessWidget {
 کوردی: ھاوبیر بوون، ھاوڕا بوون، ڕێککەوتن، ڕازی بوون
 """),
                           const DefinitionKurdish(text: "١. (کردار) ڕازی بوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Historians have concurred with each other in this view."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێژوونووسان لەگەڵ یەکدی کۆکن لەم ڕوانگەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concur", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcurs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcurs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Historians have concurred with each other in this view.",
+                            kurdishText:
+                                "مێژوونووسان لەگەڵ یەکدی کۆکن لەم ڕوانگەوە.", // concur",
+                            onPressedBritish: () => speakconcurs1("en-GB"),
+                            onPressedAmerican: () => speakconcurs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scientists generally concur that climate change is a reality."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاناکان بە گشتی کۆکن لەسەر ئەوەی گۆڕانی ئاوھەوا ڕاستییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcurs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcurs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scientists generally concur that climate change is a reality.",
+                            kurdishText:
+                                "زاناکان بە گشتی کۆکن لەسەر ئەوەی گۆڕانی ئاوھەوا ڕاستییەکە.",
+                            onPressedBritish: () => speakconcurs2("en-GB"),
+                            onPressedAmerican: () => speakconcurs2("en-US"),
                           ),
                         ],
                       ),

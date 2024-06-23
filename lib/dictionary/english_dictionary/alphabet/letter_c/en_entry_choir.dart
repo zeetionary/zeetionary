@@ -94,31 +94,12 @@ class EnglishEntrychoir extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆمەڵێک گۆرانیبێژ کە پێکەوە گۆرانی دەڵێن، بۆ نموونە لە مەراسیمی ئایینی لە کڵێسادا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She sings in the school choir."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆرانی دەڵێت لە کۆچڕی قوتابخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "choir", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchoirs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchoirs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She sings in the school choir.",
+                            kurdishText:
+                                "گۆرانی دەڵێت لە کۆچڕی قوتابخانەکە.", // choir",
+                            onPressedBritish: () => speakchoirs1("en-GB"),
+                            onPressedAmerican: () => speakchoirs1("en-US"),
                           ),
                         ],
                       ),

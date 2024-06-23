@@ -102,57 +102,18 @@ class EnglishEntryclamber extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) سەرکەوتن یان جوڵان بە ئاستەنگەوە بە بەکارھێنانی دەست و قاچ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They clambered over/up the rocks."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە بەردەکانا ھەڵگژان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clamber", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclambers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclambers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They clambered over/up the rocks.",
+                            kurdishText: "بە بەردەکانا ھەڵگژان.", // clamber",
+                            onPressedBritish: () => speakclambers1("en-GB"),
+                            onPressedAmerican: () => speakclambers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She clambered into bed."),
-                                    ExampleSentenceKurdish(
-                                        text: "چووە جێخەوەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclambers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclambers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She clambered into bed.",
+                            kurdishText: "چووە جێخەوەکەی.",
+                            onPressedBritish: () => speakclambers2("en-GB"),
+                            onPressedAmerican: () => speakclambers2("en-US"),
                           ),
                         ],
                       ),

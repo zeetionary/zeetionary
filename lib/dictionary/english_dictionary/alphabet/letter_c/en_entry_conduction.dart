@@ -95,32 +95,13 @@ class EnglishEntryconduction extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پڕۆسەی تێپەڕبوونی گەرمی یان کارەبا بە مادەیەکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The conduction of electricity can be affected by factors such as temperature."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەیاندنی کارەبا دەکرێت کاریگەر ببێت بە فاکتەری وەک پلەی گەرمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conduction", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconductions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconductions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The conduction of electricity can be affected by factors such as temperature.",
+                            kurdishText:
+                                "گەیاندنی کارەبا دەکرێت کاریگەر ببێت بە فاکتەری وەک پلەی گەرمی.", // conduction",
+                            onPressedBritish: () => speakconductions1("en-GB"),
+                            onPressedAmerican: () => speakconductions1("en-US"),
                           ),
                         ],
                       ),

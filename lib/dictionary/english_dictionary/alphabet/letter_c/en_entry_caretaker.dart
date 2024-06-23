@@ -195,125 +195,49 @@ class EnglishEntrycaretaker extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە کاری چاودێریکردنی بینایەکە"),
                           const AlsoEnglishckb(word: "ھەروەھا: custodian"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The school hired a caretaker to oversee maintenance and cleanliness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندنگەکە چاودێرێکی بە کرێ گرت بۆ سەرپەرشتی ئاگالێ‌بوون و پاکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "caretaker", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaretakers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaretakers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The school hired a caretaker to oversee maintenance and cleanliness.",
+                            kurdishText:
+                                "خوێندنگەکە چاودێرێکی بە کرێ گرت بۆ سەرپەرشتی ئاگالێ‌بوون و پاکی.", // caretaker",
+                            onPressedBritish: () => speakcaretakers1("en-GB"),
+                            onPressedAmerican: () => speakcaretakers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە چاودێری خانوویەک یان زەوییەک دەکات کە خاوەنەکەی لەوێ نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They believe they are caretakers of the land for future generations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراوی) باوەڕیان وایە کەوا چاودێری زەوییەکەن بۆ نەوەکانی دواتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaretakers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaretakers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They believe they are caretakers of the land for future generations.",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی) باوەڕیان وایە کەوا چاودێری زەوییەکەن بۆ نەوەکانی دواتر.",
+                            onPressedBritish: () => speakcaretakers2("en-GB"),
+                            onPressedAmerican: () => speakcaretakers2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەسێک کە چاودێری کەسانی دیکە دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The foster parent acted as a loving caretaker for the child."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایک و باوکە بەخێوکارەکە وەک چآودێرێکی دڵسۆز بوون بۆ منداڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaretakers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaretakers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The foster parent acted as a loving caretaker for the child.",
+                            kurdishText:
+                                "دایک و باوکە بەخێوکارەکە وەک چآودێرێکی دڵسۆز بوون بۆ منداڵەکە.",
+                            onPressedBritish: () => speakcaretakers3("en-GB"),
+                            onPressedAmerican: () => speakcaretakers3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) کەسێک یان شتێک کە بۆ ماوەیەکی کاتی لە پێگەیەکدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The caretaker leader guided the team until a new captain was appointed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکردە کاربەڕێکەرەکە سەرپەرشتی تیمەکەی دەکرد تاوەکو کاپتنێکی تازە ھەڵدەبژێردرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaretakers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaretakers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The caretaker leader guided the team until a new captain was appointed.",
+                            kurdishText:
+                                "سەرکردە کاربەڕێکەرەکە سەرپەرشتی تیمەکەی دەکرد تاوەکو کاپتنێکی تازە ھەڵدەبژێردرا.",
+                            onPressedBritish: () => speakcaretakers4("en-GB"),
+                            onPressedAmerican: () => speakcaretakers4("en-US"),
                           ),
                         ],
                       ),

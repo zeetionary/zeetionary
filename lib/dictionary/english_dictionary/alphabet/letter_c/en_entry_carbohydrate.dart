@@ -188,67 +188,28 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کاربۆھایدرات، ھایدراتی کاربۆن؛ مادەیەک بۆ نموونە شەکر و نیشاستە کە لە کاربۆن و ھایدرۆجین و ئۆکسجین پێکھاتووە. کاربۆھایدراتی خواردن وزە و گەرمی بە لەش دەبەخشێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Nuts are high in carbohydrates."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاکڵدارەکان پڕ لە کاربۆھایدراتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carbohydrate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarbohydrates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarbohydrates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Nuts are high in carbohydrates.",
+                            kurdishText:
+                                "کاکڵدارەکان پڕ لە کاربۆھایدراتن.", // carbohydrate",
+                            onPressedBritish: () =>
+                                speakcarbohydrates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarbohydrates1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو خواردنانەی کە ڕێژەیەکی زۆر کاربۆھایدراتیان تێدایە، بۆ نموونە نان و پەتاتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I’m trying to cut down on carbohydrates."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ دەدەم خواردنە کاربۆھایدراتییەکان زۆر بخۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarbohydrates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarbohydrates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I’m trying to cut down on carbohydrates.",
+                            kurdishText:
+                                "ھەوڵ دەدەم خواردنە کاربۆھایدراتییەکان زۆر بخۆم.",
+                            onPressedBritish: () =>
+                                speakcarbohydrates2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarbohydrates2("en-US"),
                           ),
                         ],
                       ),

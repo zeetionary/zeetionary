@@ -140,187 +140,67 @@ class EnglishEntryconvenience extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تایبەتمەندی سوودمەندی، ئاسانی، یان گونجاوی بۆ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have provided seats for the convenience of our customers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێگامان دابینکردووە بۆ ئاسوودەیی کڕیارانمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convenience", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconveniences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconveniences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have provided seats for the convenience of our customers.",
+                            kurdishText:
+                                "جێگامان دابینکردووە بۆ ئاسوودەیی کڕیارانمان.", // convenience",
+                            onPressedBritish: () => speakconveniences1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconveniences1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For (the sake of) convenience, the two groups have been treated as one in this report."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ئاسانکاری، دوو گرووپەکە بە یەک گرووپ لەم ڕاپۆرتەدا سەیرکراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconveniences2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconveniences2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For (the sake of) convenience, the two groups have been treated as one in this report.",
+                            kurdishText:
+                                "بۆ ئاسانکاری، دوو گرووپەکە بە یەک گرووپ لەم ڕاپۆرتەدا سەیرکراون.",
+                            onPressedBritish: () => speakconveniences2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconveniences2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In this resort you can enjoy all the comfort and convenience of modern tourism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەم سەیرانگایەدا دەتوانیت چێژ ببینیت لە ھەموو ئاسوودەیی و ئاسانکارییەکی گەشتیاری سەردەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconveniences3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconveniences3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In this resort you can enjoy all the comfort and convenience of modern tourism.",
+                            kurdishText:
+                                "لەم سەیرانگایەدا دەتوانیت چێژ ببینیت لە ھەموو ئاسوودەیی و ئاسانکارییەکی گەشتیاری سەردەم.",
+                            onPressedBritish: () => speakconveniences3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconveniences3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We leave the keys near the front door for the sake of convenience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلیلەکان لە پێش دەرگای پێشەوە جێدێڵین بۆ ئاسانکاری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconveniences4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconveniences4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We leave the keys near the front door for the sake of convenience.",
+                            kurdishText:
+                                "کلیلەکان لە پێش دەرگای پێشەوە جێدێڵین بۆ ئاسانکاری.",
+                            onPressedBritish: () => speakconveniences4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconveniences4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شتێک کە بەسوودە و کارکردن خێرا و ئاسان، یان ئاسوودەتر دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a great convenience to have the school so near."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاسانکارییەکی گەورە بوو کە قوتابخانەکە ھێدە نزیک بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconveniences5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconveniences5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was a great convenience to have the school so near.",
+                            kurdishText:
+                                "ئاسانکارییەکی گەورە بوو کە قوتابخانەکە ھێدە نزیک بێت.",
+                            onPressedBritish: () => speakconveniences5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconveniences5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The house had all the modern conveniences (= central heating, etc.) that were unusual at that time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووەکە تەواوی ئاسانکارییەکانی سەردەمی ھەبوو کە ئەو کات نامۆ بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconveniences6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconveniences6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The house had all the modern conveniences (= central heating, etc.) that were unusual at that time.",
+                            kurdishText:
+                                "خانووەکە تەواوی ئاسانکارییەکانی سەردەمی ھەبوو کە ئەو کات نامۆ بوون.",
+                            onPressedBritish: () => speakconveniences6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconveniences6("en-US"),
                           ),
                         ],
                       ),

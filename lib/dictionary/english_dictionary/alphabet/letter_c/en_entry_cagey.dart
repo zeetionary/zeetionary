@@ -193,60 +193,21 @@ class EnglishEntrycagey extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەسێک کە نایەوێت زانیاری بدات بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Tony is very cagey about his family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆنی زۆر بەپارێزە سەبارەت بە خێزانەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cagey", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcageys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcageys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Tony is very cagey about his family.",
+                            kurdishText:
+                                "تۆنی زۆر بەپارێزە سەبارەت بە خێزانەکەی.", // cagey
+                            onPressedBritish: () => speakcageys1("en-GB"),
+                            onPressedAmerican: () => speakcageys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was very cagey about what happened at the meeting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر قایم‌کار بوو سەبارەت بەوەی لە کۆبوونەوەکە چی ڕوویدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcageys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcageys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was very cagey about what happened at the meeting.",
+                            kurdishText:
+                                "زۆر قایم‌کار بوو سەبارەت بەوەی لە کۆبوونەوەکە چی ڕوویدا.",
+                            onPressedBritish: () => speakcageys2("en-GB"),
+                            onPressedAmerican: () => speakcageys2("en-US"),
                           ),
                         ],
                       ),

@@ -251,87 +251,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) تیمساح؛ خشۆکێکی گەورە کە پێستێکی ڕەقی ھەیە و لە ناوچە گەرم و شێدارەکانی جیھان لە نزیک ڕووبار و دەریاچەکاندا دەژی؛ پێستی تیمساح کە دەکرێتە چەرم"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He lost an arm to a crocodile."),
-                    ExampleSentenceKurdish(
-                        text: "باڵێکی بەھۆی تیمساحەوە لەدەستدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crocodile", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrocodiles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrocodiles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He lost an arm to a crocodile.",
+            kurdishText:
+                "باڵێکی بەھۆی تیمساحەوە لەدەستدا.", // crocodile", please follow LX instructions
+            onPressedBritish: () => speakcrocodiles1("en-GB"),
+            onPressedAmerican: () => speakcrocodiles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Humans, dogs, elephants and dolphins are all mammals, but birds, fish and crocodiles are not."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مرۆڤ و سەگ و فیل و دۆڵفین ھەموویان شیردەرن، بەڵام باڵندە و ماسی و تەیمساح شیردەر نین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrocodiles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrocodiles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Humans, dogs, elephants and dolphins are all mammals, but birds, fish and crocodiles are not.",
+            kurdishText:
+                "مرۆڤ و سەگ و فیل و دۆڵفین ھەموویان شیردەرن، بەڵام باڵندە و ماسی و تەیمساح شیردەر نین.",
+            onPressedBritish: () => speakcrocodiles2("en-GB"),
+            onPressedAmerican: () => speakcrocodiles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ڕیزێکی درێژ لە خەڵکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The teacher led the school crocodile across the street to the museum."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مامۆستاکە ڕێبەری ڕیزی قوتابخانەکەی کرد بە شەقامەکەدا بۆ مۆزەخانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrocodiles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrocodiles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The teacher led the school crocodile across the street to the museum.",
+            kurdishText:
+                "مامۆستاکە ڕێبەری ڕیزی قوتابخانەکەی کرد بە شەقامەکەدا بۆ مۆزەخانەکە.",
+            onPressedBritish: () => speakcrocodiles3("en-GB"),
+            onPressedAmerican: () => speakcrocodiles3("en-US"),
           ),
         ],
       ),

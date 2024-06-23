@@ -103,60 +103,22 @@ class EnglishEntrycoalesce extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) یەکگرتن بۆ درووستکردنی مادەیەک، گرووپێک، ھتد ـی گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The puddles had coalesced into a small stream."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاڵاوەکان یەکیان گرت بۆ درووستکردنی زەلکاوێکی بچووک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coalesce", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoalesces1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoalesces1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The puddles had coalesced into a small stream.",
+                            kurdishText:
+                                "چاڵاوەکان یەکیان گرت بۆ درووستکردنی زەلکاوێکی بچووک.", // coalesce",
+                            onPressedBritish: () => speakcoalesces1("en-GB"),
+                            onPressedAmerican: () => speakcoalesces1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her ideas and mine coalesced into a brilliant plan."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیرۆکەکانی ئەو و من پلانێکی بلیمەتانەیان لێدەرچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoalesces2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoalesces2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her ideas and mine coalesced into a brilliant plan.",
+                            kurdishText:
+                                "بیرۆکەکانی ئەو و من پلانێکی بلیمەتانەیان لێدەرچوو.",
+                            onPressedBritish: () => speakcoalesces2("en-GB"),
+                            onPressedAmerican: () => speakcoalesces2("en-US"),
                           ),
                         ],
                       ),

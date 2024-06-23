@@ -183,346 +183,136 @@ class EnglishEntrycontribution extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) خەڵاتێک یان بڕە پارەیەک کە دەدرێت بە کەسێک یان دامەزراوەیەک بۆ یارمەتیدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All contributions will be gratefully received."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو بەخشینێک بە سوپاسەوە وەردەگیرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contribution", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All contributions will be gratefully received.",
+                            kurdishText:
+                                "ھەموو بەخشینێک بە سوپاسەوە وەردەگیرێن.", // contribution",
+                            onPressedBritish: () =>
+                                speakcontributions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We rely entirely on voluntary contributions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تەواوی پشت بە بەخشینی خۆبەخشان دەبەستین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We rely entirely on voluntary contributions.",
+                            kurdishText:
+                                "بە تەواوی پشت بە بەخشینی خۆبەخشان دەبەستین.",
+                            onPressedBritish: () =>
+                                speakcontributions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributions2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Financial contributions from individuals paid for the expenses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمەکی دارایی لە کەسایەتییەکانەوە خەرجییەکانیان دابینکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Financial contributions from individuals paid for the expenses.",
+                            kurdishText:
+                                "کۆمەکی دارایی لە کەسایەتییەکانەوە خەرجییەکانیان دابینکرد.",
+                            onPressedBritish: () =>
+                                speakcontributions3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributions3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بڕە پارەیەک کە دەیدەیت بە خاوەنکارەکەت یان حکومەت بۆ پێدانی پارەی بیمەی تەندرووستیت، خانەنشینیت، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can increase your monthly contributions to the pension plan."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت بەخشینی مانگانەت بە پلانی خانەنشینییەکە زیادبکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can increase your monthly contributions to the pension plan.",
+                            kurdishText:
+                                "دەتوانیت بەخشینی مانگانەت بە پلانی خانەنشینییەکە زیادبکەیت.",
+                            onPressedBritish: () =>
+                                speakcontributions4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributions4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کردارێک یان خامەتگوزارییەک کە یارمەتی ڕوودان یان زیادبوونی شتێک دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He made a very positive contribution to the success of the project."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەژاربوونێکی ئەرێنییانەی بۆ سەرکەوتنی پڕۆژەکە ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He made a very positive contribution to the success of the project.",
+                            kurdishText:
+                                "بەژاربوونێکی ئەرێنییانەی بۆ سەرکەوتنی پڕۆژەکە ھەبوو.",
+                            onPressedBritish: () =>
+                                speakcontributions5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributions5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This book represents a major contribution to our understanding of the Holocaust."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم کتێبە پشکێکی گرنگی ھەبووە لە تێگەشتنمان بۆ ھۆڵۆکۆست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributions6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributions6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This book represents a major contribution to our understanding of the Holocaust.",
+                            kurdishText:
+                                "ئەم کتێبە پشکێکی گرنگی ھەبووە لە تێگەشتنمان بۆ ھۆڵۆکۆست.",
+                            onPressedBritish: () =>
+                                speakcontributions6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributions6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He made a major contribution to peace in the region."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشکی گرنگی بۆ ئاشتی لە ھەرێمەکەدا ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributions7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributions7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He made a major contribution to peace in the region.",
+                            kurdishText:
+                                "پشکی گرنگی بۆ ئاشتی لە ھەرێمەکەدا ھەبوو.",
+                            onPressedBritish: () =>
+                                speakcontributions7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributions7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) شتێک کە بەشێکە لە کتێبێک، گۆڤارێک، وێبسایتێک، گفتوگۆیەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Thank you for your contributions to the blog."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوپاس بۆ بەژدارییەکانت لە بلۆگەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributions8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributions8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Thank you for your contributions to the blog.",
+                            kurdishText: "سوپاس بۆ بەژدارییەکانت لە بلۆگەکەدا.",
+                            onPressedBritish: () =>
+                                speakcontributions8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributions8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are no contributions by scholars based in North America."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ بەژدارییەک لە پسپۆڕانی باکووری ئەمریکاوە نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributions9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributions9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are no contributions by scholars based in North America.",
+                            kurdishText:
+                                "ھیچ بەژدارییەک لە پسپۆڕانی باکووری ئەمریکاوە نییە.",
+                            onPressedBritish: () =>
+                                speakcontributions9("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributions9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All contributions for the May issue must be received by Friday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو نووسینەکان بۆ مانگی ئایار دەبێت تاوەکو ھەینی پێشکەش بکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributions10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributions10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All contributions for the May issue must be received by Friday.",
+                            kurdishText:
+                                "ھەموو نووسینەکان بۆ مانگی ئایار دەبێت تاوەکو ھەینی پێشکەش بکرێن.",
+                            onPressedBritish: () =>
+                                speakcontributions10("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributions10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) کرداری بەخشینی شتێک، بەتایبەتی پارە، وەک کۆمەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The institute is totally funded by voluntary contribution."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیمانگاکە بەتەواوی پشت بە کۆمەکی خۆبەخشان دەبەستێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontributions11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontributions11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The institute is totally funded by voluntary contribution.",
+                            kurdishText:
+                                "پەیمانگاکە بەتەواوی پشت بە کۆمەکی خۆبەخشان دەبەستێت.",
+                            onPressedBritish: () =>
+                                speakcontributions11("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontributions11("en-US"),
                           ),
                         ],
                       ),

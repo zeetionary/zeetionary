@@ -187,32 +187,13 @@ class EnglishEntrycassava extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ڕووەکێکی خولگەیی کە لقی زۆر و ڕیشکی درێژی ھەیە و دەکرێت بخوردرێت، یان ڕەگەکەی کە دەکرێت بکوڵێندرێت، ببرژێندرێت، یان بکرێت بە ئارد"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "During the cooking class, the chef demonstrated how to prepare a delicious stew using cassava as a key ingredient."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتی وانەی چێشت‌لێنانەکەدا، شێفەکە ڕوونی‌کردەوە کە چۆن ژەمێکی بەلەزەت درووست بکرێت بە بەکارھێنانی کساڤە وەک ڕەچەتەی سەرەکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cassava", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcassavas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcassavas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "During the cooking class, the chef demonstrated how to prepare a delicious stew using cassava as a key ingredient.",
+                            kurdishText:
+                                "لە کاتی وانەی چێشت‌لێنانەکەدا، شێفەکە ڕوونی‌کردەوە کە چۆن ژەمێکی بەلەزەت درووست بکرێت بە بەکارھێنانی کساڤە وەک ڕەچەتەی سەرەکی.", // cassava",
+                            onPressedBritish: () => speakcassavas1("en-GB"),
+                            onPressedAmerican: () => speakcassavas1("en-US"),
                           ),
                         ],
                       ),

@@ -193,32 +193,13 @@ class EnglishEntrycallus extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بەشێکی دەست یان پێ کە پێستەکەی ڕەق بووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had workman's hands which were rough and covered with calluses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی کرێکارانەی ھەبوو کە زبر بوو لەگەڵ پڕ لە ڕەقێنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "callus", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalluss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalluss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had workman's hands which were rough and covered with calluses.",
+                            kurdishText:
+                                "دەستی کرێکارانەی ھەبوو کە زبر بوو لەگەڵ پڕ لە ڕەقێنە.", // callus
+                            onPressedBritish: () => speakcalluss1("en-GB"),
+                            onPressedAmerican: () => speakcalluss1("en-US"),
                           ),
                         ],
                       ),

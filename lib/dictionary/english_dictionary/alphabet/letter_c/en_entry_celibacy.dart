@@ -190,32 +190,13 @@ class EnglishEntrycelibacy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخی زگوردی و دووربوون لە سێکس، بەتایبەتی بۆ مەبەستی ئایینی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Celibacy is not exclusive to Catholic priests."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەبەنی تایبەت نییە بە قەشە کاسۆلیکییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "celibacy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelibacys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelibacys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Celibacy is not exclusive to Catholic priests.",
+                            kurdishText:
+                                "ڕەبەنی تایبەت نییە بە قەشە کاسۆلیکییەکان.", // celibacy",
+                            onPressedBritish: () => speakcelibacys1("en-GB"),
+                            onPressedAmerican: () => speakcelibacys1("en-US"),
                           ),
                         ],
                       ),

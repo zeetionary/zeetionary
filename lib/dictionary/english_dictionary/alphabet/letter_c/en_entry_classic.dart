@@ -183,355 +183,119 @@ class EnglishEntryclassic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) دانراو وەک یەکێک لە باشترین جۆرەکانی ھاوشێوەی خۆی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This classic novel was first published in 1938."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ڕۆمانە مێژووییە یەکەم جار لە ١٩٣٨ بڵاوکرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "classic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This classic novel was first published in 1938.",
+                            kurdishText:
+                                "ئەم ڕۆمانە مێژووییە یەکەم جار لە ١٩٣٨ بڵاوکرایەوە.", // classic",
+                            onPressedBritish: () => speakclassics1("en-GB"),
+                            onPressedAmerican: () => speakclassics1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I grew up watching classic movies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەورەبووم بە تەماشاکردنی فیلمە کلاسیکەکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I grew up watching classic movies.",
+                            kurdishText:
+                                "گەورەبووم بە تەماشاکردنی فیلمە کلاسیکەکانەوە.",
+                            onPressedBritish: () => speakclassics2("en-GB"),
+                            onPressedAmerican: () => speakclassics2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) بە ھەموو ئەو خاسیەتانەی کە لێی چاوەڕێ دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This was a classic case of what not to do."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە کەیسێکی نموونەیی بوو ئەوەی کە نابێت بیکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassics3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassics3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This was a classic case of what not to do.",
+                            kurdishText:
+                                "ئەمە کەیسێکی نموونەیی بوو ئەوەی کە نابێت بیکەیت.",
+                            onPressedBritish: () => speakclassics3("en-GB"),
+                            onPressedAmerican: () => speakclassics3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She displayed the classic symptoms of depression."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیشانە ھەمیشەییەکانی بێزاری تێدابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassics4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassics4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She displayed the classic symptoms of depression.",
+                            kurdishText: "نیشانە ھەمیشەییەکانی بێزاری تێدابوو.",
+                            onPressedBritish: () => speakclassics4("en-GB"),
+                            onPressedAmerican: () => speakclassics4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) جوان بەڵام سادە، بەشێوەیەک کە کاریگەر نەبوو بە گۆڕانکارییەکانی سەردەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was wearing a classic little black dress."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلێکی بچووکی ڕەشی کلاسیکی پۆشیبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassics5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassics5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was wearing a classic little black dress.",
+                            kurdishText: "جلێکی بچووکی ڕەشی کلاسیکی پۆشیبوو.",
+                            onPressedBritish: () => speakclassics5("en-GB"),
+                            onPressedAmerican: () => speakclassics5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) بە شتێک دەوترێت کە پێکەنیناوییە، بێزارکەرە، یان خراپە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's not going to help? Oh, that's classic!"),
-                                    ExampleSentenceKurdish(
-                                        text: "یارمەتی نادا؟ ئۆھ، خراپە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassics6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassics6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's not going to help? Oh, that's classic!",
+                            kurdishText: "یارمەتی نادا؟ ئۆھ، خراپە!",
+                            onPressedBritish: () => speakclassics6("en-GB"),
+                            onPressedAmerican: () => speakclassics6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Then she fell over backwards into the flowerbed - it was absolutely classic!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دواتر بە پشتدا کەوتە ناو باخچەکەدا، تەواو پێکەنیناوی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassics7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassics7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Then she fell over backwards into the flowerbed - it was absolutely classic!",
+                            kurdishText:
+                                "دواتر بە پشتدا کەوتە ناو باخچەکەدا، تەواو پێکەنیناوی بوو.",
+                            onPressedBritish: () => speakclassics7("en-GB"),
+                            onPressedAmerican: () => speakclassics7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) فیلمێک، گۆرانییەک، یان ڕۆمانێک کە زۆر باش ناسراوە و بە یەکێک لە باشترینەکان دادەنرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The song became an instant classic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆرانییەکە ڕاستەوخۆ بوو بە کلاسیکێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassics8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassics8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The song became an instant classic.",
+                            kurdishText: "گۆرانییەکە ڕاستەوخۆ بوو بە کلاسیکێک.",
+                            onPressedBritish: () => speakclassics8("en-GB"),
+                            onPressedAmerican: () => speakclassics8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The novel may become a modern classic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆمانەکە ڕەنگە ببێت بە کلاسیکێکی سەردەمییانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassics9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassics9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The novel may become a modern classic.",
+                            kurdishText:
+                                "ڕۆمانەکە ڕەنگە ببێت بە کلاسیکێکی سەردەمییانە.",
+                            onPressedBritish: () => speakclassics9("en-GB"),
+                            onPressedAmerican: () => speakclassics9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) شتێک کە نموونەیەکی باڵای ھاوشێوەی خۆیەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The second goal was an absolute classic."),
-                                    ExampleSentenceKurdish(
-                                        text: "گۆڵی دووەم نایاب بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassics10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassics10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The second goal was an absolute classic.",
+                            kurdishText: "گۆڵی دووەم نایاب بوو.",
+                            onPressedBritish: () => speakclassics10("en-GB"),
+                            onPressedAmerican: () => speakclassics10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The professor's reply was a classic."),
-                                    ExampleSentenceKurdish(
-                                        text: "وەڵامی پڕۆفیسۆرەکە ناوازە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassics11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassics11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The professor's reply was a classic.",
+                            kurdishText: "وەڵامی پڕۆفیسۆرەکە ناوازە بوو.",
+                            onPressedBritish: () => speakclassics11("en-GB"),
+                            onPressedAmerican: () => speakclassics11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) شتێک، بۆ نموونە جلوبەرگ یان ئۆتۆمبێل، کە جوانە و کاریگەری گۆڕانکاری سەردەمی پێوە دیار نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Classics don't lose their style."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلاسیکەکان ستایلی خۆیان ون ناکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassics12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassics12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Classics don't lose their style.",
+                            kurdishText: "کلاسیکەکان ستایلی خۆیان ون ناکەن.",
+                            onPressedBritish: () => speakclassics12("en-GB"),
+                            onPressedAmerican: () => speakclassics12("en-US"),
                           ),
                         ],
                       ),

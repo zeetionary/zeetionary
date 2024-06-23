@@ -112,97 +112,40 @@ class EnglishEntrycomplication extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە دۆخێک ئاڵۆزتر یان سەختتر دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bad weather added a further complication to our journey."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشوھەوای خراپ ئاڵۆزییەکی دیکەی بۆ گەشتەکەمان زیاد کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complication", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomplications1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomplications1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bad weather added a further complication to our journey.",
+                            kurdishText:
+                                "کەشوھەوای خراپ ئاڵۆزییەکی دیکەی بۆ گەشتەکەمان زیاد کرد.", // complication",
+                            onPressedBritish: () =>
+                                speakcomplications1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomplications1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The presence of an armed gang added a major complication."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوونی گرووپێکی چەکدار سەختییەکی گەورەی زیادکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomplications2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomplications2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The presence of an armed gang added a major complication.",
+                            kurdishText:
+                                "بوونی گرووپێکی چەکدار سەختییەکی گەورەی زیادکرد.",
+                            onPressedBritish: () =>
+                                speakcomplications2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomplications2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کێشەیەک یان نەخۆشییەکی تازە کە چارەسەری یەکێکی کۆن ئاڵۆزتر یان سەختتر دەکات "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She developed complications after the surgery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لانەخۆشی بۆ درووستبوو لە دوای نەشتەرگەرییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomplications3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomplications3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She developed complications after the surgery.",
+                            kurdishText:
+                                "لانەخۆشی بۆ درووستبوو لە دوای نەشتەرگەرییەکە.",
+                            onPressedBritish: () =>
+                                speakcomplications3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomplications3("en-US"),
                           ),
                         ],
                       ),

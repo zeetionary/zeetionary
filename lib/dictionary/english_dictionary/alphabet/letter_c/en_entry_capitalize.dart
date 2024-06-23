@@ -190,32 +190,13 @@ class EnglishEntrycapitalize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) نووسینی پیتێک، یان یەکەم پیتی وشەیەک، بە پیتی گەورە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The names of political parties are always capitalized."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوی پارتە سیاسییەکان ھەمیشە بە پیتی گەورە دەستپێ دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capitalize", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapitalizes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapitalizes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The names of political parties are always capitalized.",
+                            kurdishText:
+                                "ناوی پارتە سیاسییەکان ھەمیشە بە پیتی گەورە دەستپێ دەکرێت.", // capitalize
+                            onPressedBritish: () => speakcapitalizes1("en-GB"),
+                            onPressedAmerican: () => speakcapitalizes1("en-US"),
                           ),
                           // const DividerDefinition(),
                           // const DefinitionKurdish(text: "٢. (کردار) فرۆشتنی سەروەت و سامان و کردنی بە پارە"),

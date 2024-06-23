@@ -110,93 +110,34 @@ class EnglishEntrycleaner extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە کاری پاککردنەوە دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I met him while I was working as a cleaner in a hospital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بینیم کە وەک پاککەرەوەیەک لە نەخۆشخانەکە کارم دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cleaner", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleaners1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleaners1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I met him while I was working as a cleaner in a hospital.",
+                            kurdishText:
+                                "بینیم کە وەک پاککەرەوەیەک لە نەخۆشخانەکە کارم دەکرد.", // cleaner",
+                            onPressedBritish: () => speakcleaners1("en-GB"),
+                            onPressedAmerican: () => speakcleaners1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) مادەی پاککەرەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We've run out of floor cleaner."),
-                                    ExampleSentenceKurdish(
-                                        text: "مادەی خاوێنکردنەوەمان نەماوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleaners2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleaners2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We've run out of floor cleaner.",
+                            kurdishText: "مادەی خاوێنکردنەوەمان نەماوە.",
+                            onPressedBritish: () => speakcleaners2("en-GB"),
+                            onPressedAmerican: () => speakcleaners2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شوێنێک کە تێیدا جلوبەرگ، پەردە، ھتد دەشۆردرێت، بە تایبەتی بە مادەی کیمیایی"),
                           const AlsoEnglishckb(word: "ھەروەھا: dry-cleaner’s"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Can you pick up my dress from the cleaner's?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت جلەکەم لە شۆرگەکە بێنیتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleaners3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleaners3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Can you pick up my dress from the cleaner's?",
+                            kurdishText: "دەتوانیت جلەکەم لە شۆرگەکە بێنیتەوە؟",
+                            onPressedBritish: () => speakcleaners3("en-GB"),
+                            onPressedAmerican: () => speakcleaners3("en-US"),
                           ),
                         ],
                       ),

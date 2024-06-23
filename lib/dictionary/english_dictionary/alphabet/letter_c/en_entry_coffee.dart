@@ -141,202 +141,66 @@ class EnglishEntrycoffee extends StatelessWidget {
 کوردی: قاوە،	دەوەن یا داری قاوە،	دەنک یان تۆوی قاوە،	پیاڵە قاوە، قاوەخۆری
 """),
                           const DefinitionKurdish(text: "١. (ناو) قاوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An inviting smell of coffee wafted into the room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆنێکی سەرنجڕاکێشی قاوە خۆی کرد بە ژوورەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coffee", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoffees1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoffees1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An inviting smell of coffee wafted into the room.",
+                            kurdishText:
+                                "بۆنێکی سەرنجڕاکێشی قاوە خۆی کرد بە ژوورەکەدا.", // coffee",
+                            onPressedBritish: () => speakcoffees1("en-GB"),
+                            onPressedAmerican: () => speakcoffees1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Would you get some coffee when you go shopping?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک قاوە دێنیت کە دەچیتە بازاڕکردن؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoffees2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoffees2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Would you get some coffee when you go shopping?",
+                            kurdishText:
+                                "ھەندێک قاوە دێنیت کە دەچیتە بازاڕکردن؟",
+                            onPressedBritish: () => speakcoffees2("en-GB"),
+                            onPressedAmerican: () => speakcoffees2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) خواردنەوەی قاوە کە بە ئاوی گەرم ئامادە دەکرێت، و دەکرێت شیر یان شەکری تێ بکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you want to have coffee with me sometime?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتەوێت لە بۆنەیەکدا قاوەم لەگەڵ بخۆیتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoffees3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoffees3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do you want to have coffee with me sometime?",
+                            kurdishText:
+                                "دەتەوێت لە بۆنەیەکدا قاوەم لەگەڵ بخۆیتەوە؟",
+                            onPressedBritish: () => speakcoffees3("en-GB"),
+                            onPressedAmerican: () => speakcoffees3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was sitting at the kitchen table, enjoying her morning coffee."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە مێزی چێشتخانەکە دانیشتبوو و قاوەی بەیانیانی دەخوارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoffees4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoffees4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was sitting at the kitchen table, enjoying her morning coffee.",
+                            kurdishText:
+                                "لە مێزی چێشتخانەکە دانیشتبوو و قاوەی بەیانیانی دەخوارد.",
+                            onPressedBritish: () => speakcoffees4("en-GB"),
+                            onPressedAmerican: () => speakcoffees4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Tea or coffee?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چا یان قاوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoffees5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoffees5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Tea or coffee?",
+                            kurdishText: "چا یان قاوە؟",
+                            onPressedBritish: () => speakcoffees5("en-GB"),
+                            onPressedAmerican: () => speakcoffees5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٣. (ناو) کوپێک قاوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you want to go and get a coffee?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتەوێت بچیت و کوپێک قاوە بێنیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoffees6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoffees6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Do you want to go and get a coffee?",
+                            kurdishText: "دەتەوێت بچیت و کوپێک قاوە بێنیت؟",
+                            onPressedBritish: () => speakcoffees6("en-GB"),
+                            onPressedAmerican: () => speakcoffees6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had two coffees while I waited."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو کووپ قاوەم خواردەوە کە چاوەڕێ بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoffees7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoffees7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I had two coffees while I waited.",
+                            kurdishText:
+                                "دوو کووپ قاوەم خواردەوە کە چاوەڕێ بووم.",
+                            onPressedBritish: () => speakcoffees7("en-GB"),
+                            onPressedAmerican: () => speakcoffees7("en-US"),
                           ),
                         ],
                       ),

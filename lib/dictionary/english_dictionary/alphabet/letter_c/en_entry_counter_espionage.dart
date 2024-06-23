@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کرداری نھێنی کە وڵاتێک دەیگرێتە بەر دژی وڵاتێکی دیکە بۆ ڕێگری لە ئاشکرابوونی نھێنییەکانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The agency specializes in counter-espionage to protect national security."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاژانسەکە شارەزایی ھەیە لە پەرچەسیخوڕی بۆ پاراستنی ئاسایشی نیشتیمانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "counter-espionage", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterespionages1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterespionages1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The agency specializes in counter-espionage to protect national security.",
+            kurdishText:
+                "ئاژانسەکە شارەزایی ھەیە لە پەرچەسیخوڕی بۆ پاراستنی ئاسایشی نیشتیمانی.", // counter-espionage", please follow LX instructions
+            onPressedBritish: () => speakcounterespionages1("en-GB"),
+            onPressedAmerican: () => speakcounterespionages1("en-US"),
           ),
         ],
       ),

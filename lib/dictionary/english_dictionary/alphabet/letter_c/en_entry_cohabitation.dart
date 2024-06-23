@@ -97,34 +97,15 @@ class EnglishEntrycohabitation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پێکەوەژیان و ھەبوونی سێکس لەگەڵ ھاوژینێکدا بەبێ پەیوەندی ھاوسەرگیری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There have been great changes in the patterns of marriage, divorce and cohabitation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆڕانکاری زۆر ڕوویداوە لە شێوازی ھاوسەرگیری، جیابوونەوە، و پێکەوەژیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cohabitation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcohabitations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcohabitations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There have been great changes in the patterns of marriage, divorce and cohabitation.",
+                            kurdishText:
+                                "گۆڕانکاری زۆر ڕوویداوە لە شێوازی ھاوسەرگیری، جیابوونەوە، و پێکەوەژیان.", // cohabitation",
+                            onPressedBritish: () =>
+                                speakcohabitations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcohabitations1("en-US"),
                           ),
                         ],
                       ),

@@ -90,32 +90,13 @@ class EnglishEntrychargrill extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئامادەکردنی گۆشت، ماسی، ھتد لەسەر ئاگرێکی زۆر گەرم بەشێوەیەک کەمێک بسووتێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We can chargrill a few steaks for dinner."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانین ھەندێک پارچە گۆشت بۆ نانی ئێوارە سووربکەینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chargrill", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchargrills1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchargrills1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We can chargrill a few steaks for dinner.",
+                            kurdishText:
+                                "دەتوانین ھەندێک پارچە گۆشت بۆ نانی ئێوارە سووربکەینەوە.", // chargrill",
+                            onPressedBritish: () => speakchargrills1("en-GB"),
+                            onPressedAmerican: () => speakchargrills1("en-US"),
                           ),
                         ],
                       ),

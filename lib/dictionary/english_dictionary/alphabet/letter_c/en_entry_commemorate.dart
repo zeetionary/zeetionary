@@ -104,64 +104,24 @@ class EnglishEntrycommemorate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) یادکردنەوەی بۆنەیەک یان کەسێکی مردوو بە شتێک یان کارێکی تایبەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A series of movies will be shown to commemorate the thirtieth anniversary of his death."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک فیلم نمایش دەکرێن بۆ یادکردنەوەی سیازدەیەمین ساڵیادی مردنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commemorate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommemorates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommemorates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A series of movies will be shown to commemorate the thirtieth anniversary of his death.",
+                            kurdishText:
+                                "ژمارەیەک فیلم نمایش دەکرێن بۆ یادکردنەوەی سیازدەیەمین ساڵیادی مردنی.", // commemorate",
+                            onPressedBritish: () => speakcommemorates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommemorates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A statue has been built to commemorate the 100th anniversary of the poet's birthday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیکەرێک بنیاتنراوە بۆ یادکردنەوەی ١٠٠ ـیەمین ساڵیادی لەدایکبوونی شاعیرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommemorates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommemorates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A statue has been built to commemorate the 100th anniversary of the poet's birthday.",
+                            kurdishText:
+                                "پەیکەرێک بنیاتنراوە بۆ یادکردنەوەی ١٠٠ ـیەمین ساڵیادی لەدایکبوونی شاعیرەکە.",
+                            onPressedBritish: () => speakcommemorates2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommemorates2("en-US"),
                           ),
                         ],
                       ),

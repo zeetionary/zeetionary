@@ -192,94 +192,37 @@ class EnglishEntrychaff extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) توێکڵی دانەوێڵە، بۆ نموونە گەنم، کە لێ‌دەکرێتەوە پێش خواردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "While not directly consumed, chaff has various uses, including animal feed and bedding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەرچی ڕاستەوخۆ بەکارنایەت، بەڵام سۆس ژمارەیەک بەکارھێنانی ھەیە، وەک بۆ ئالیکی ئاژەڵ و جێگەی نووستنیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "chaff", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchaffs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchaffs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "While not directly consumed, chaff has various uses, including animal feed and bedding.",
+                            kurdishText:
+                                "ئەگەرچی ڕاستەوخۆ بەکارنایەت، بەڵام سۆس ژمارەیەک بەکارھێنانی ھەیە، وەک بۆ ئالیکی ئاژەڵ و جێگەی نووستنیان.", // chaff",
+                            onPressedBritish: () => speakchaffs1("en-GB"),
+                            onPressedAmerican: () => speakchaffs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) گیای وشک و قەدەکەیان کە دەدرێت بە مانگا وەک خواردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cattle grazed on the chaff-filled pasture."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گاگەلەکە لەوەڕان لەسەر لەوەڕە پڕ لە ئالیکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchaffs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchaffs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cattle grazed on the chaff-filled pasture.",
+                            kurdishText:
+                                "گاگەلەکە لەوەڕان لەسەر لەوەڕە پڕ لە ئالیکەکە.",
+                            onPressedBritish: () => speakchaffs2("en-GB"),
+                            onPressedAmerican: () => speakchaffs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) گەڵتەکردن بە کەسێک بەشێوەیەکی ھاوڕێیانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Colleagues chaffed the new employee about his first presentation, but it was all in good fun."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوکارەکان توانجیان دا لە کارمەندە تازەکە لەسەر یەکەم پریزێنتەیشنی، بەڵام ھەموو بە گاڵتەوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchaffs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchaffs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Colleagues chaffed the new employee about his first presentation, but it was all in good fun.",
+                            kurdishText:
+                                "ھاوکارەکان توانجیان دا لە کارمەندە تازەکە لەسەر یەکەم پریزێنتەیشنی، بەڵام ھەموو بە گاڵتەوە بوو.",
+                            onPressedBritish: () => speakchaffs3("en-GB"),
+                            onPressedAmerican: () => speakchaffs3("en-US"),
                           ),
                         ],
                       ),

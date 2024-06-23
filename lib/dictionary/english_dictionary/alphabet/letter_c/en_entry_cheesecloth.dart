@@ -95,34 +95,14 @@ class EnglishEntrycheesecloth extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچە قوماشێکی تەنکی لۆکە، بەتایبەتی بۆ درووستکردنی جل بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wrapped the homemade cheese in cheesecloth and hung it to drain whey."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنیرەکەی خستە پەنیرپێچەوە و ھەڵیواسی بۆ ئەوەی شیراوەکەی بتکێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheesecloth", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcheesecloths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcheesecloths1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wrapped the homemade cheese in cheesecloth and hung it to drain whey.",
+                            kurdishText:
+                                "پەنیرەکەی خستە پەنیرپێچەوە و ھەڵیواسی بۆ ئەوەی شیراوەکەی بتکێت.", // cheesecloth",
+                            onPressedBritish: () => speakcheesecloths1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcheesecloths1("en-US"),
                           ),
                         ],
                       ),

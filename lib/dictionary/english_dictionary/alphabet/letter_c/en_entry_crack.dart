@@ -455,773 +455,239 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: قەڵەشت، قەڵەش، درز، قڵیش، کەلێن، شەق، چڕژە، کون، کونی چکۆلە،	لێدان، پیاکێشان،	گرمە، نەڕە، شریخە، زرمە،	دەنگی گەورە و کت‌وپڕ،	شۆخی، گاڵتە،	ھەوڵ، تێکۆشان،	گرفت، خەوش، عەیب، کەم‌وکووڕی، ناڕێکی،	کڕاک (دەرمانێکی کریستاڵی بەھێز و ناقانوونی لە شێوەی کۆکائین، وردە دەکرێ)،	پوخت، لێزان، خاراو، کارامە، شارەزا، وەستا
 """),
           const DefinitionKurdish(text: "١. (کردار) درزبردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The ice cracked as I stepped onto it."),
-                    ExampleSentenceKurdish(
-                        text: "سەھۆڵەکە درزی برد کە پێم لەسەری دانا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crack", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The ice cracked as I stepped onto it.",
+            kurdishText:
+                "سەھۆڵەکە درزی برد کە پێم لەسەری دانا.", // crack", please follow LX instructions
+            onPressedBritish: () => speakcracks1("en-GB"),
+            onPressedAmerican: () => speakcracks1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has cracked a bone in his arm."),
-                    ExampleSentenceKurdish(
-                        text: "ئێسکێکی لە باڵیدا درز تێبردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has cracked a bone in his arm.",
+            kurdishText: "ئێسکێکی لە باڵیدا درز تێبردووە.",
+            onPressedBritish: () => speakcracks2("en-GB"),
+            onPressedAmerican: () => speakcracks2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The window had cracked quite badly."),
-                    ExampleSentenceKurdish(
-                        text: "پەنجەرەکە زۆر بە خراپی درزی بردبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The window had cracked quite badly.",
+            kurdishText: "پەنجەرەکە زۆر بە خراپی درزی بردبوو.",
+            onPressedBritish: () => speakcracks3("en-GB"),
+            onPressedAmerican: () => speakcracks3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) شکاندن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She cracked an egg into the pan."),
-                    ExampleSentenceKurdish(
-                        text: "ھێلکەیەکی شکاندە ناو تاوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She cracked an egg into the pan.",
+            kurdishText: "ھێلکەیەکی شکاندە ناو تاوەکە.",
+            onPressedBritish: () => speakcracks4("en-GB"),
+            onPressedAmerican: () => speakcracks4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A chunk of the cliff had cracked off in a storm."),
-                    ExampleSentenceKurdish(
-                        text: "بەشێک لە قەدپاڵەکە لە زریانێکدا لێبووەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A chunk of the cliff had cracked off in a storm.",
+            kurdishText: "بەشێک لە قەدپاڵەکە لە زریانێکدا لێبووەوە.",
+            onPressedBritish: () => speakcracks5("en-GB"),
+            onPressedAmerican: () => speakcracks5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) لێدان لە کەسێک یان شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I cracked my head on the low ceiling."),
-                    ExampleSentenceKurdish(
-                        text: "سەرم کێشا بە بنبانە نزمەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I cracked my head on the low ceiling.",
+            kurdishText: "سەرم کێشا بە بنبانە نزمەکەدا.",
+            onPressedBritish: () => speakcracks6("en-GB"),
+            onPressedAmerican: () => speakcracks6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I cracked my head on the low ceiling."),
-                    ExampleSentenceKurdish(
-                        text: "بە ڕاستەیەک کێشای بە سەرمدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I cracked my head on the low ceiling.",
+            kurdishText: "بە ڕاستەیەک کێشای بە سەرمدا.",
+            onPressedBritish: () => speakcracks7("en-GB"),
+            onPressedAmerican: () => speakcracks7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) دەرکردنی دەنگێکی تیژ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The whip cracked over the horses' heads."),
-                    ExampleSentenceKurdish(
-                        text: "قامچییەکە لەسەر سەری ئەسپەکە شریقەی دەھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The whip cracked over the horses' heads.",
+            kurdishText: "قامچییەکە لەسەر سەری ئەسپەکە شریقەی دەھات.",
+            onPressedBritish: () => speakcracks8("en-GB"),
+            onPressedAmerican: () => speakcracks8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He's always cracking his knuckles (= pulling the joints of his fingers to make a noise)."),
-                    ExampleSentenceKurdish(text: "ھەمیشە پەنجەکانی دەتەقێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He's always cracking his knuckles (= pulling the joints of his fingers to make a noise).",
+            kurdishText: "ھەمیشە پەنجەکانی دەتەقێنێت.",
+            onPressedBritish: () => speakcracks9("en-GB"),
+            onPressedAmerican: () => speakcracks9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) لەرزینی دەنگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her voice cracked with emotion as she told the story."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەنگی بە ھەست و سۆزەوە دەلەرزی کە چیرۆکەکەی پێ گوتین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her voice cracked with emotion as she told the story.",
+            kurdishText:
+                "دەنگی بە ھەست و سۆزەوە دەلەرزی کە چیرۆکەکەی پێ گوتین.",
+            onPressedBritish: () => speakcracks10("en-GB"),
+            onPressedAmerican: () => speakcracks10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) کارکردن بە ناتەواوی بەھۆی فشارەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Things are terrible at work and people are cracking under the strain."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شتەکان زۆر خراپن لەسەر کار و خەڵکی تێکشکاون لەژێر فشاردا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Things are terrible at work and people are cracking under the strain.",
+            kurdishText:
+                "شتەکان زۆر خراپن لەسەر کار و خەڵکی تێکشکاون لەژێر فشاردا.",
+            onPressedBritish: () => speakcracks11("en-GB"),
+            onPressedAmerican: () => speakcracks11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They questioned him for days before he cracked."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ چەندین ڕۆژ لێپرسینەوەیان لێکرد پێش ئەوەی ملکەچ بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They questioned him for days before he cracked.",
+            kurdishText:
+                "بۆ چەندین ڕۆژ لێپرسینەوەیان لێکرد پێش ئەوەی ملکەچ بکات.",
+            onPressedBritish: () => speakcracks12("en-GB"),
+            onPressedAmerican: () => speakcracks12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She is under a lot of pressure but is showing no signs of cracking."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەژێر پەستانێکی زۆرە بەڵام ھیچ ئاماژەیەکی تێکشکانی تێدا نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She is under a lot of pressure but is showing no signs of cracking.",
+            kurdishText:
+                "لەژێر پەستانێکی زۆرە بەڵام ھیچ ئاماژەیەکی تێکشکانی تێدا نییە.",
+            onPressedBritish: () => speakcracks13("en-GB"),
+            onPressedAmerican: () => speakcracks13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) دۆزینەوەی وەڵامی شتێک یان ڕێگای کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After a year in this job I think I've got it cracked!"),
-                    ExampleSentenceKurdish(
-                        text: "لە دوای ساڵێک لەم کارەدا، پێموایە فێری بوومە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "After a year in this job I think I've got it cracked!",
+            kurdishText: "لە دوای ساڵێک لەم کارەدا، پێموایە فێری بوومە.",
+            onPressedBritish: () => speakcracks14("en-GB"),
+            onPressedAmerican: () => speakcracks14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A team of experts finally cracked the code."),
-                    ExampleSentenceKurdish(
-                        text: "تیمێک لە شارەزایان کۆدەکەیان شکاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A team of experts finally cracked the code.",
+            kurdishText: "تیمێک لە شارەزایان کۆدەکەیان شکاند.",
+            onPressedBritish: () => speakcracks15("en-GB"),
+            onPressedAmerican: () => speakcracks15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٨. (کردار) دۆزینەوەی ڕێگایەک بۆ وەستاندن یان تێکشکاندنی تاوانبارێک یان دوژمنێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Police have cracked a major drugs ring."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆلیس گرووپێکی گەورەی مادەی ھۆشبەریان دەستگیرکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Police have cracked a major drugs ring.",
+            kurdishText: "پۆلیس گرووپێکی گەورەی مادەی ھۆشبەریان دەستگیرکرد.",
+            onPressedBritish: () => speakcracks16("en-GB"),
+            onPressedAmerican: () => speakcracks16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (ناو) درز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "This cup has a crack in it."),
-                    ExampleSentenceKurdish(text: "ئەم کووپە درزێکی تێدایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This cup has a crack in it.",
+            kurdishText: "ئەم کووپە درزێکی تێدایە.",
+            onPressedBritish: () => speakcracks17("en-GB"),
+            onPressedAmerican: () => speakcracks17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Cracks began to appear in the walls."),
-                    ExampleSentenceKurdish(
-                        text: "درز دەستی بە دەرکەوتن کرد لە دیوارەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Cracks began to appear in the walls.",
+            kurdishText: "درز دەستی بە دەرکەوتن کرد لە دیوارەکاندا.",
+            onPressedBritish: () => speakcracks18("en-GB"),
+            onPressedAmerican: () => speakcracks18("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Wide cracks appeared in the ground during the drought."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "درزی فراوان دەستیان بە دەرکەوتن کرد لە زەویدا لە ماوەی وشکەساڵییەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Wide cracks appeared in the ground during the drought.",
+            kurdishText:
+                "درزی فراوان دەستیان بە دەرکەوتن کرد لە زەویدا لە ماوەی وشکەساڵییەکەدا.",
+            onPressedBritish: () => speakcracks19("en-GB"),
+            onPressedAmerican: () => speakcracks19("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٠. (ناو) کەلێن یان قڵیش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She peeped through the crack in the curtains."),
-                    ExampleSentenceKurdish(
-                        text: "لە کەلێنی پەردەکەوە سەیری کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She peeped through the crack in the curtains.",
+            kurdishText: "لە کەلێنی پەردەکەوە سەیری کرد.",
+            onPressedBritish: () => speakcracks20("en-GB"),
+            onPressedAmerican: () => speakcracks20("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The door opened a crack (= a small amount)."),
-                    ExampleSentenceKurdish(text: "دەرگاکە کەمێک کرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The door opened a crack (= a small amount).",
+            kurdishText: "دەرگاکە کەمێک کرایەوە.",
+            onPressedBritish: () => speakcracks21("en-GB"),
+            onPressedAmerican: () => speakcracks21("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١١. (ناو) دەنگێکی بەرزی لەناکاو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She heard the sharp crack of a rifle shot."),
-                    ExampleSentenceKurdish(
-                        text: "گوێی لە زرمەی تەقەی تفەنگەکە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She heard the sharp crack of a rifle shot.",
+            kurdishText: "گوێی لە زرمەی تەقەی تفەنگەکە بوو.",
+            onPressedBritish: () => speakcracks22("en-GB"),
+            onPressedAmerican: () => speakcracks22("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The chandelier hit the floor with a crack."),
-                    ExampleSentenceKurdish(
-                        text: "چلچراکە بە زرمەیەکەوە کێشای بە زەوییەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The chandelier hit the floor with a crack.",
+            kurdishText: "چلچراکە بە زرمەیەکەوە کێشای بە زەوییەکەدا.",
+            onPressedBritish: () => speakcracks23("en-GB"),
+            onPressedAmerican: () => speakcracks23("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٢. (ناو) لێدانێکی بەھێز کە دەنگی دێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She fell over and got a nasty crack on the head."),
-                    ExampleSentenceKurdish(
-                        text: "کەوت و پیاکێشانێکی خراپ بەر سەری کەوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She fell over and got a nasty crack on the head.",
+            kurdishText: "کەوت و پیاکێشانێکی خراپ بەر سەری کەوت.",
+            onPressedBritish: () => speakcracks24("en-GB"),
+            onPressedAmerican: () => speakcracks24("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٣. (ناو) ھەوڵێک بۆ کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He had a good crack at opening the door, but it wouldn't budge."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵێکی باشی دا بۆ کردنەوەی دەرگاکە، بەڵام نسقەی نەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks25("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks25("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He had a good crack at opening the door, but it wouldn't budge.",
+            kurdishText:
+                "ھەوڵێکی باشی دا بۆ کردنەوەی دەرگاکە، بەڵام نسقەی نەکرد.",
+            onPressedBritish: () => speakcracks25("en-GB"),
+            onPressedAmerican: () => speakcracks25("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١٤. (ناو) مادەیەکی ھۆشبەری بەھێزی نایاسایی کە جۆرێکە لە کۆکاین"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Several kilos of crack were found in her luggage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چەند کیلۆیەک لە کراک لە کەل‌وپەلەکەیدا دۆزرانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks26("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks26("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Several kilos of crack were found in her luggage.",
+            kurdishText: "چەند کیلۆیەک لە کراک لە کەل‌وپەلەکەیدا دۆزرانەوە.",
+            onPressedBritish: () => speakcracks26("en-GB"),
+            onPressedAmerican: () => speakcracks26("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٥. (ناو) نوکتەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He gets really mad if anyone makes a crack about his weight."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر تووڕە دەبێت ئەگەر ھەر کەسێک گاڵتە بە کێشی بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks27("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks27("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He gets really mad if anyone makes a crack about his weight.",
+            kurdishText: "زۆر تووڕە دەبێت ئەگەر ھەر کەسێک گاڵتە بە کێشی بکات.",
+            onPressedBritish: () => speakcracks27("en-GB"),
+            onPressedAmerican: () => speakcracks27("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٦. (ھاوەڵناو) شارەزا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crack troops were deployed to the front lines to secure the strategic position."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێزە کارامەکان نێردران بۆ بەرەکانی پێشەوە بۆ کۆنترۆڵکردنی پێگەیەکی ستراتیژی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcracks28("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcracks28("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The crack troops were deployed to the front lines to secure the strategic position.",
+            kurdishText:
+                "ھێزە کارامەکان نێردران بۆ بەرەکانی پێشەوە بۆ کۆنترۆڵکردنی پێگەیەکی ستراتیژی.",
+            onPressedBritish: () => speakcracks28("en-GB"),
+            onPressedAmerican: () => speakcracks28("en-US"),
           ),
         ],
       ),

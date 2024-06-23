@@ -164,260 +164,88 @@ class EnglishEntryconvention extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شێوازی ئەنجامدانی شتێک کە زۆرینەی کۆمەڵگایەک پێی ڕازین و بە باشی دادەنێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is a young woman who enjoys flouting conventions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنێکی گەنجە کە حەزی بە شکاندنی نەریتەکانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convention", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconventions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is a young woman who enjoys flouting conventions.",
+                            kurdishText:
+                                "ژنێکی گەنجە کە حەزی بە شکاندنی نەریتەکانە.", // convention",
+                            onPressedBritish: () => speakconventions1("en-GB"),
+                            onPressedAmerican: () => speakconventions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "By convention the deputy leader was always a woman."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەپێی عورف جێگری سەرۆک ھەمیشە ژنێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconventions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "By convention the deputy leader was always a woman.",
+                            kurdishText: "بەپێی عورف جێگری سەرۆک ھەمیشە ژنێک.",
+                            onPressedBritish: () => speakconventions2("en-GB"),
+                            onPressedAmerican: () => speakconventions2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Convention demands that a club member should resign in such a situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستوور وا دەخوازێت ئەندامێکی یانەکە لە دۆخێکی وەھادا دەستلەکاربکێشێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconventions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Convention demands that a club member should resign in such a situation.",
+                            kurdishText:
+                                "دەستوور وا دەخوازێت ئەندامێکی یانەکە لە دۆخێکی وەھادا دەستلەکاربکێشێتەوە.",
+                            onPressedBritish: () => speakconventions3("en-GB"),
+                            onPressedAmerican: () => speakconventions3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کۆبوونەوەیەکی گەورەی ئەندامانی پیشەیەک، پارتێکی سیاسی، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Dallas is one of the top convention cities in the United States."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دالاس یەکێکە لە باشترین شاری کۆنفرانسەکانی ئەمریکا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconventions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Dallas is one of the top convention cities in the United States.",
+                            kurdishText:
+                                "دالاس یەکێکە لە باشترین شاری کۆنفرانسەکانی ئەمریکا.",
+                            onPressedBritish: () => speakconventions4("en-GB"),
+                            onPressedAmerican: () => speakconventions4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He addressed the annual Republican convention."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قسەی بۆ کۆنگرەی ساڵانەی کۆمارییەکان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconventions5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He addressed the annual Republican convention.",
+                            kurdishText:
+                                "قسەی بۆ کۆنگرەی ساڵانەی کۆمارییەکان کرد.",
+                            onPressedBritish: () => speakconventions5("en-GB"),
+                            onPressedAmerican: () => speakconventions5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was at the Democratic convention."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە کۆنگرەی دیموکراتەکان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconventions6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was at the Democratic convention.",
+                            kurdishText: "لە کۆنگرەی دیموکراتەکان بوو.",
+                            onPressedBritish: () => speakconventions6("en-GB"),
+                            onPressedAmerican: () => speakconventions6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The party's annual convention will be held on April 6."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆبوونەوەی ساڵانەی پارتەکە لە ٦ ـی نیسان ڕێکدەخرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconventions7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The party's annual convention will be held on April 6.",
+                            kurdishText:
+                                "کۆبوونەوەی ساڵانەی پارتەکە لە ٦ ـی نیسان ڕێکدەخرێت.",
+                            onPressedBritish: () => speakconventions7("en-GB"),
+                            onPressedAmerican: () => speakconventions7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ڕێککەوتنێکی فەرمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most countries have adhered to the convention."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی وڵاتەکان پابەندی پەیماننامەکە بوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconventions8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most countries have adhered to the convention.",
+                            kurdishText:
+                                "زۆرینەی وڵاتەکان پابەندی پەیماننامەکە بوونە.",
+                            onPressedBritish: () => speakconventions8("en-GB"),
+                            onPressedAmerican: () => speakconventions8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is forbidden under the Convention on Human Rights."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە قەدەغەیە بەپێی پەیماننامەی مافەکانی مرۆڤ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconventions9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconventions9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is forbidden under the Convention on Human Rights.",
+                            kurdishText:
+                                "ئەمە قەدەغەیە بەپێی پەیماننامەی مافەکانی مرۆڤ.",
+                            onPressedBritish: () => speakconventions9("en-GB"),
+                            onPressedAmerican: () => speakconventions9("en-US"),
                           ),
                         ],
                       ),

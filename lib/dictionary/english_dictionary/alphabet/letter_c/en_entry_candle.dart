@@ -191,84 +191,28 @@ class EnglishEntrycandle extends StatelessWidget {
 کوردی: شەم، مۆم
 """),
                           const DefinitionKurdish(text: """١. (ناو) مۆم"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The room was lit by candles."),
-                                    ExampleSentenceKurdish(
-                                        text: "ژوورەکە بە مۆم گەشێندرابووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "candle", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcandles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcandles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The room was lit by candles.",
+                            kurdishText:
+                                "ژوورەکە بە مۆم گەشێندرابووەوە.", // candle
+                            onPressedBritish: () => speakcandles1("en-GB"),
+                            onPressedAmerican: () => speakcandles1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Shall I light a candle?"),
-                                    ExampleSentenceKurdish(
-                                        text: "مۆمێک داگیرسێنم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcandles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcandles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Shall I light a candle?",
+                            kurdishText: "مۆمێک داگیرسێنم؟",
+                            onPressedBritish: () => speakcandles2("en-GB"),
+                            onPressedAmerican: () => speakcandles2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I felt a cold draft and the candle started to flicker."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستم بە شنەبایەکی سارد کرد و مۆمەکە دەستیکرد بە پرتەپرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcandles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcandles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I felt a cold draft and the candle started to flicker.",
+                            kurdishText:
+                                "ھەستم بە شنەبایەکی سارد کرد و مۆمەکە دەستیکرد بە پرتەپرت.",
+                            onPressedBritish: () => speakcandles3("en-GB"),
+                            onPressedAmerican: () => speakcandles3("en-US"),
                           ),
                         ],
                       ),

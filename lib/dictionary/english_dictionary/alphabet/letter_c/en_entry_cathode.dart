@@ -187,32 +187,13 @@ class EnglishEntrycathode extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەلیکترۆدی ئامێرێکی کارەبایی کە تێیدا کەمبوونەوە ڕوودەدات؛ ئەلیکترۆدی نێگەتیڤ لە خانەیەکی ئەلیکترۆلیکی، و ئەلیکترۆدی پۆزەتیڤ لە باترییەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In a television, the cathode emits electrons that hit the screen, creating the picture."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تەلەفیزیۆنێکدا کاسۆد ئەلیکترۆن دەردەپەڕێنێت کە لە شاشەکە دەدەن و وێنە درووست دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cathode", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcathodes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcathodes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In a television, the cathode emits electrons that hit the screen, creating the picture.",
+                            kurdishText:
+                                "لە تەلەفیزیۆنێکدا کاسۆد ئەلیکترۆن دەردەپەڕێنێت کە لە شاشەکە دەدەن و وێنە درووست دەکەن.", // cathode",
+                            onPressedBritish: () => speakcathodes1("en-GB"),
+                            onPressedAmerican: () => speakcathodes1("en-US"),
                           ),
                         ],
                       ),

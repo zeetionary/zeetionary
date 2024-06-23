@@ -187,34 +187,15 @@ class EnglishEntrycarbonoffset extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ڕێگایەک بۆ کۆمپانیایەک یان کەسێک کە قەرەبووی ئەو دووەم ئۆکسیدی کاربۆنە بکاتەوە کە دەیکاتە بەرگەھەواوە بە پارەدان بە کۆمپانیایەک بۆ ناشتنی دار لە جیاتیدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you buy carbon offsets every time you fly?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەر کاتێک دەفڕیت قەرەبووی دەکەیتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carbon offset", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarbonoffsets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarbonoffsets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do you buy carbon offsets every time you fly?",
+                            kurdishText:
+                                "ھەر کاتێک دەفڕیت قەرەبووی دەکەیتەوە؟", // carbon offset",
+                            onPressedBritish: () =>
+                                speakcarbonoffsets1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarbonoffsets1("en-US"),
                           ),
                         ],
                       ),

@@ -104,60 +104,22 @@ class EnglishEntryconsumer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە شتێک دەکڕێت یان خزمەتگوزارییەک بەکاردێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Health-conscious consumers want more information about the food they buy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو کڕیارانەی گرنگی بە تەندرووستی دەدەن زانیاری زیاتریان دەوێت سەبارەت بەو خواردنانەی دەیکڕن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consumer", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsumers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsumers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Health-conscious consumers want more information about the food they buy.",
+                            kurdishText:
+                                "ئەو کڕیارانەی گرنگی بە تەندرووستی دەدەن زانیاری زیاتریان دەوێت سەبارەت بەو خواردنانەی دەیکڕن.", // consumer",
+                            onPressedBritish: () => speakconsumers1("en-GB"),
+                            onPressedAmerican: () => speakconsumers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We need to educate consumers about this technology."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت بەکارھێنەران فێربکەین سەبارەت بەم تەکنەلۆژیایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsumers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsumers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We need to educate consumers about this technology.",
+                            kurdishText:
+                                "دەبێت بەکارھێنەران فێربکەین سەبارەت بەم تەکنەلۆژیایە.",
+                            onPressedBritish: () => speakconsumers2("en-GB"),
+                            onPressedAmerican: () => speakconsumers2("en-US"),
                           ),
                         ],
                       ),

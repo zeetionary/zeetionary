@@ -372,510 +372,162 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تاج،	پاتشایەتی، تاج‌وتەخت، تەخت‌وتاج،	تاجەگوڵ،	نیشان یان دروشمی تاج،	بەڕێوەبەرایەتی یان ھێز و دەسەڵاتی شا یان شاژن،	سەرناوی قارەمانی،	خەڵات،	نووک، سەر، بەشی سەرەوە، سەرکەل، تەوق، نووچکە، تەپڵ،	تاجی ددان، ڕووپۆشی ددان،	ترۆپک، دوند، لووتکە
 """),
           const DefinitionKurdish(text: "١. (ناو) تاجی پاشا و شاژن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crown was placed upon the new monarch's head."),
-                    ExampleSentenceKurdish(
-                        text: "تاجەکە لەسەری پاشا/شاژنە تازەکە دانرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crown", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The crown was placed upon the new monarch's head.",
+            kurdishText:
+                "تاجەکە لەسەری پاشا/شاژنە تازەکە دانرا.", // crown", please follow LX instructions
+            onPressedBritish: () => speakcrowns1("en-GB"),
+            onPressedAmerican: () => speakcrowns1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) حکومەتی وڵاتێک کە پاشا یان شاژنێکی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Who's appearing for the Crown (= bringing a criminal charge against somebody on behalf of the state) in this case?"),
-                    ExampleSentenceKurdish(
-                        text: "کێ لەم کەیسەدا نوێنەری حکومەت دەکات؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Who's appearing for the Crown (= bringing a criminal charge against somebody on behalf of the state) in this case?",
+            kurdishText: "کێ لەم کەیسەدا نوێنەری حکومەت دەکات؟",
+            onPressedBritish: () => speakcrowns2("en-GB"),
+            onPressedAmerican: () => speakcrowns2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) پێگەی پاشایەتی یان شاژنی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She refused the crown (= refused to become queen)."),
-                    ExampleSentenceKurdish(text: "تەختەکەی ڕەتکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She refused the crown (= refused to become queen).",
+            kurdishText: "تەختەکەی ڕەتکردەوە.",
+            onPressedBritish: () => speakcrowns3("en-GB"),
+            onPressedAmerican: () => speakcrowns3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He succeeded to the crown of Spain."),
-                    ExampleSentenceKurdish(
-                        text: "چووە سەر تەختی شاھانەی ئیسپانیا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He succeeded to the crown of Spain.",
+            kurdishText: "چووە سەر تەختی شاھانەی ئیسپانیا.",
+            onPressedBritish: () => speakcrowns4("en-GB"),
+            onPressedAmerican: () => speakcrowns4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In 1553 the crown passed from Edward VI to Mary."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ساڵی ١٥٣٣ تەختەکە لە ئێدواردەوە بۆ ماری گوازرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "In 1553 the crown passed from Edward VI to Mary.",
+            kurdishText:
+                "لە ساڵی ١٥٣٣ تەختەکە لە ئێدواردەوە بۆ ماری گوازرایەوە.",
+            onPressedBritish: () => speakcrowns5("en-GB"),
+            onPressedAmerican: () => speakcrowns5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) تاجە گوڵینە کە لەسەر دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The princess wore a crown of roses at the party."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شازادە خاتوون تاجەگوڵینەیەکی لەسەر کرد لە ئاھەنگەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The princess wore a crown of roses at the party.",
+            kurdishText: "شازادە خاتوون تاجەگوڵینەیەکی لەسەر کرد لە ئاھەنگەکە.",
+            onPressedBritish: () => speakcrowns6("en-GB"),
+            onPressedAmerican: () => speakcrowns6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) پێگەی بردنەوەی پێشبڕکێیەکی وەرزشی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She is determined to retain her Wimbledon crown."),
-                    ExampleSentenceKurdish(
-                        text: "سوورە لەسەر ئەوەی نازناوی ویمبڵدۆنی بپارێزێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She is determined to retain her Wimbledon crown.",
+            kurdishText: "سوورە لەسەر ئەوەی نازناوی ویمبڵدۆنی بپارێزێت.",
+            onPressedBritish: () => speakcrowns7("en-GB"),
+            onPressedAmerican: () => speakcrowns7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ناو) بەشی سەرەوەی سەر یان کڵاوێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She swept her hair into a bun on the crown of her head."),
-                    ExampleSentenceKurdish(
-                        text: "قوتکەقژێکی دانا لەسەر تەپڵە سەری دانا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She swept her hair into a bun on the crown of her head.",
+            kurdishText: "قوتکەقژێکی دانا لەسەر تەپڵە سەری دانا.",
+            onPressedBritish: () => speakcrowns8("en-GB"),
+            onPressedAmerican: () => speakcrowns8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (ناو) بەرزترین بەشی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The castle was built on the crown of the hill for strategic advantage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قەڵاکە لەسەر لوتکەی گردەکە بنیات نرابوو بۆ سوودی ستراتیژی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The castle was built on the crown of the hill for strategic advantage.",
+            kurdishText:
+                "قەڵاکە لەسەر لوتکەی گردەکە بنیات نرابوو بۆ سوودی ستراتیژی.",
+            onPressedBritish: () => speakcrowns9("en-GB"),
+            onPressedAmerican: () => speakcrowns9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٨. (ناو) بەشێکی ڕووەکێک کە ڕاستەوخۆ لەسەر یان ژێری خاکەوەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Roses bloom on shoots that sprout from the crown of the plant."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گوڵ گەشەی کردووە لەو نەمامانەوەی کە لە چەکەرەی ڕووەکەکەوە چرۆیان کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Roses bloom on shoots that sprout from the crown of the plant.",
+            kurdishText:
+                "گوڵ گەشەی کردووە لەو نەمامانەوەی کە لە چەکەرەی ڕووەکەکەوە چرۆیان کردووە.",
+            onPressedBritish: () => speakcrowns10("en-GB"),
+            onPressedAmerican: () => speakcrowns10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (ناو) بەشی سەرەوەی ڕووەکێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Nests were built high in the crowns of trees."),
-                    ExampleSentenceKurdish(
-                        text: "ھێلانە بەرز لە ترۆپکی دارەکان درووستکران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Nests were built high in the crowns of trees.",
+            kurdishText: "ھێلانە بەرز لە ترۆپکی دارەکان درووستکران.",
+            onPressedBritish: () => speakcrowns11("en-GB"),
+            onPressedAmerican: () => speakcrowns11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٠. (ناو) ڕووپۆشێک بۆ ددانێک شکاو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After the accident, he needed a crown to repair the fractured tooth."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای ڕووداوەکە، پێویستی بە ڕووکەشێکی ددان بوو بۆ چاککردنەوەی ددانە شکاوەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "After the accident, he needed a crown to repair the fractured tooth.",
+            kurdishText:
+                "لە دوای ڕووداوەکە، پێویستی بە ڕووکەشێکی ددان بوو بۆ چاککردنەوەی ددانە شکاوەکەی.",
+            onPressedBritish: () => speakcrowns12("en-GB"),
+            onPressedAmerican: () => speakcrowns12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (کردار) ناساندن وەک پاشا یان شاژن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Queen Elizabeth was crowned in 1953."),
-                    ExampleSentenceKurdish(
-                        text: "شاژن ئیلیزابێس لە ساڵی ١٩٥٣ تاجی لەسەر نرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Queen Elizabeth was crowned in 1953.",
+            kurdishText: "شاژن ئیلیزابێس لە ساڵی ١٩٥٣ تاجی لەسەر نرا.",
+            onPressedBritish: () => speakcrowns13("en-GB"),
+            onPressedAmerican: () => speakcrowns13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The prince was soon to be crowned King of England."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شازادەکە زوو دەبوو بە شازادەی جێنشینی ئینگلتەرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The prince was soon to be crowned King of England.",
+            kurdishText: "شازادەکە زوو دەبوو بە شازادەی جێنشینی ئینگلتەرە.",
+            onPressedBritish: () => speakcrowns14("en-GB"),
+            onPressedAmerican: () => speakcrowns14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٢. (کردار) داپۆشین یان پێکھێنانی بەشی سەرەوە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The church was crowned with golden domes."),
-                    ExampleSentenceKurdish(
-                        text: "کڵێساکە گومەزەیەکی زێڕینی لەسەر دانرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The church was crowned with golden domes.",
+            kurdishText: "کڵێساکە گومەزەیەکی زێڕینی لەسەر دانرا.",
+            onPressedBritish: () => speakcrowns15("en-GB"),
+            onPressedAmerican: () => speakcrowns15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٣. (کردار) تەواوکردنی شتێک یان وای لێ بکەیت بێ‌خەوش بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their efforts were finally crowned with success."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵەکانیان لە کۆتاییدا بە سەرکەوتن پاداشت درایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their efforts were finally crowned with success.",
+            kurdishText: "ھەوڵەکانیان لە کۆتاییدا بە سەرکەوتن پاداشت درایەوە.",
+            onPressedBritish: () => speakcrowns16("en-GB"),
+            onPressedAmerican: () => speakcrowns16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٣. (کردار) لێدان لەسەر سەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I felt like crowning him."),
-                    ExampleSentenceKurdish(text: "حەزم دەکرد بکێشم پێیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I felt like crowning him.",
+            kurdishText: "حەزم دەکرد بکێشم پێیدا.",
+            onPressedBritish: () => speakcrowns17("en-GB"),
+            onPressedAmerican: () => speakcrowns17("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٤. (کردار) دانانی داپۆشەرێک لەسەر ددان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I've had one of my teeth crowned."),
-                    ExampleSentenceKurdish(
-                        text: "یەکێک لە ددانەکانم تاجکراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrowns18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrowns18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I've had one of my teeth crowned.",
+            kurdishText: "یەکێک لە ددانەکانم تاجکراوە.",
+            onPressedBritish: () => speakcrowns18("en-GB"),
+            onPressedAmerican: () => speakcrowns18("en-US"),
           ),
         ],
       ),

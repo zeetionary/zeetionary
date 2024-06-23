@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) سنووردارکردنی شتێک یان وا بکەیت زوو کۆتایی بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She condemned postwar curtailment of civil liberties."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرکۆنەی بەرتەسکردنەوەی ئازادی کەسی دوای جەنگەکەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curtailment", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtailments1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtailments1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She condemned postwar curtailment of civil liberties.",
+            kurdishText:
+                "سەرکۆنەی بەرتەسکردنەوەی ئازادی کەسی دوای جەنگەکەی کرد.", // curtailment", please follow LX instructions
+            onPressedBritish: () => speakcurtailments1("en-GB"),
+            onPressedAmerican: () => speakcurtailments1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The policy included insurance against cancellation or curtailment of the holiday."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێککەوتنەکە دڵنیایی لەخۆدەگرت دژ بە ھەڵوەشاندنەوە یان کورتکردنەوەی پشووەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtailments2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtailments2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The policy included insurance against cancellation or curtailment of the holiday.",
+            kurdishText:
+                "ڕێککەوتنەکە دڵنیایی لەخۆدەگرت دژ بە ھەڵوەشاندنەوە یان کورتکردنەوەی پشووەکە.",
+            onPressedBritish: () => speakcurtailments2("en-GB"),
+            onPressedAmerican: () => speakcurtailments2("en-US"),
           ),
         ],
       ),

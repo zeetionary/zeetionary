@@ -283,58 +283,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئەو جۆرە پارەیەی کە وڵاتێک بەکاریدنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You'll need some cash in local currency but you can also use your credit card."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێویستیت بە ھەندێ کاش لە دراوی ناوخۆ ھەیە بەڵام دەشتوانیت کرێدیت کاردەکەت بەکاربھێنیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "currency", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrencys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrencys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You'll need some cash in local currency but you can also use your credit card.",
+            kurdishText:
+                "پێویستیت بە ھەندێ کاش لە دراوی ناوخۆ ھەیە بەڵام دەشتوانیت کرێدیت کاردەکەت بەکاربھێنیت.", // currency", please follow LX instructions
+            onPressedBritish: () => speakcurrencys1("en-GB"),
+            onPressedAmerican: () => speakcurrencys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Argentina's currency was pegged to the dollar."),
-                    ExampleSentenceKurdish(
-                        text: "دراوی ئەژەنتین بەرامبەر دۆلار جێگیرکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrencys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrencys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Argentina's currency was pegged to the dollar.",
+            kurdishText: "دراوی ئەژەنتین بەرامبەر دۆلار جێگیرکرا.",
+            onPressedBritish: () => speakcurrencys2("en-GB"),
+            onPressedAmerican: () => speakcurrencys2("en-US"),
           ),
           Column(
             children: [
@@ -401,85 +363,27 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەوەی کە شتێک پەسەندکراوە و بەکاردێت لەلایەن ژمارەیەکی زۆری خەڵکەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The term ‘post-industrial’ now has wide currency."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستەواژەی 'post-industrial' ئێستا بەکارھێنانی فراوانی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrencys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrencys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The term ‘post-industrial’ now has wide currency.",
+            kurdishText:
+                "دەستەواژەی 'post-industrial' ئێستا بەکارھێنانی فراوانی ھەیە.",
+            onPressedBritish: () => speakcurrencys5("en-GB"),
+            onPressedAmerican: () => speakcurrencys5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The qualification has gained currency all over the world."),
-                    ExampleSentenceKurdish(
-                        text: "بڕوانامەکە بە ھەموو جیھاندا تەشەنەی کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrencys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrencys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The qualification has gained currency all over the world.",
+            kurdishText: "بڕوانامەکە بە ھەموو جیھاندا تەشەنەی کردووە.",
+            onPressedBritish: () => speakcurrencys6("en-GB"),
+            onPressedAmerican: () => speakcurrencys6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This belief has general currency."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم بۆچوونە پەرەسەندنی بەرفراوانی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurrencys7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurrencys7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This belief has general currency.",
+            kurdishText: "ئەم بۆچوونە پەرەسەندنی بەرفراوانی ھەیە.",
+            onPressedBritish: () => speakcurrencys7("en-GB"),
+            onPressedAmerican: () => speakcurrencys7("en-US"),
           ),
         ],
       ),

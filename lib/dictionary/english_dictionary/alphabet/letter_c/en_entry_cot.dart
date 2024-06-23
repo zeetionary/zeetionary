@@ -238,60 +238,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لانک،	کۆلیت، کۆختە
 """),
           const DefinitionKurdish(text: "١. (ناو) جێگەی خەوی منداڵ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He assembled the cot for the new arrival."),
-                    ExampleSentenceKurdish(
-                        text: "لانکەکەی بۆ تازبووەکە ئامادەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cot", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcots1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcots1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He assembled the cot for the new arrival.",
+            kurdishText:
+                "لانکەکەی بۆ تازبووەکە ئامادەکرد.", // cot", please follow LX instructions
+            onPressedBritish: () => speakcots1("en-GB"),
+            onPressedAmerican: () => speakcots1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) تەختێک بۆ نووستن لەسەری کە سووکە و ئاسان ھەڵدەگیرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The hotel provided a cot for the extra guest."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھوتێلەکە قەروێڵەیەکی دابین کرد بۆ میوانە زیادەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcots2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcots2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The hotel provided a cot for the extra guest.",
+            kurdishText: "ھوتێلەکە قەروێڵەیەکی دابین کرد بۆ میوانە زیادەکە.",
+            onPressedBritish: () => speakcots2("en-GB"),
+            onPressedAmerican: () => speakcots2("en-US"),
           ),
         ],
       ),

@@ -104,63 +104,25 @@ class EnglishEntryconsort extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مێرد یان ژنی پاشایەک، شاژنێک، دەسەڵاتدارێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Emperor Napoleon III and his consort lived sedately in an apartment in the Tuileries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئیمپراتۆر ناپلیۆنی سێیەم و ژنەکەی بە ئارامی لە دەستەژوورێک ل تویلرز دەژیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consort", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsorts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsorts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Emperor Napoleon III and his consort lived sedately in an apartment in the Tuileries.",
+                            kurdishText:
+                                "ئیمپراتۆر ناپلیۆنی سێیەم و ژنەکەی بە ئارامی لە دەستەژوورێک ل تویلرز دەژیان.", // consort",
+                            onPressedBritish: () => speakconsorts1("en-GB"),
+                            onPressedAmerican: () => speakconsorts1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بەسەربردنی کات لەگەڵ کەسێک کە کەسانی دیکە حەزیان پێی نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They claimed he had been consorting with drug dealers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانگەشەی ئەوەی دەکرد کە ئەو تێکەڵ بە بازرگانانی مادەی ھۆشبەر بووبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsorts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsorts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They claimed he had been consorting with drug dealers.",
+                            kurdishText:
+                                "بانگەشەی ئەوەی دەکرد کە ئەو تێکەڵ بە بازرگانانی مادەی ھۆشبەر بووبوو.",
+                            onPressedBritish: () => speakconsorts2("en-GB"),
+                            onPressedAmerican: () => speakconsorts2("en-US"),
                           ),
                         ],
                       ),

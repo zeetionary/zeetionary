@@ -138,195 +138,81 @@ class EnglishEntryconservative extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) دژ بە گۆڕانکاریی گەورە یان لەناکاوی کۆمەڵایەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The southern state's inhabitants tend to be socially conservative."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانیشتوانی ویلایەتەکانی باشوور مەیلی ئەوەیان ھەیە لە ڕووی کۆمەڵایەتییەوە کۆنەپارێز بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conservative", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservatives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservatives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The southern state's inhabitants tend to be socially conservative.",
+                            kurdishText:
+                                "دانیشتوانی ویلایەتەکانی باشوور مەیلی ئەوەیان ھەیە لە ڕووی کۆمەڵایەتییەوە کۆنەپارێز بن.", // conservative",
+                            onPressedBritish: () =>
+                                speakconservatives1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservatives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her style of dress was never conservative."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێوازی جلوبەرگی ھەرگیز کۆنەپارێز نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservatives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservatives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her style of dress was never conservative.",
+                            kurdishText:
+                                "شێوازی جلوبەرگی ھەرگیز کۆنەپارێز نەبوو.",
+                            onPressedBritish: () =>
+                                speakconservatives2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservatives2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) پەیوەندیدار بە پارتی پارێزگارانی بەریتانیا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a Conservative minister in the Thatcher government."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەزیرێکی پارتی پارێزگار بوو لە حکومەتەکەی تاچەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservatives3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservatives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a Conservative minister in the Thatcher government.",
+                            kurdishText:
+                                "وەزیرێکی پارتی پارێزگار بوو لە حکومەتەکەی تاچەر.",
+                            onPressedBritish: () =>
+                                speakconservatives3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservatives3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) کەمتر لە بڕ یان ژمارەی ڕاستی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At a conservative estimate, he'll be earning £50 000."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە خەمڵاندنێکی کەم‌بژێرانە، ٥٠٠٠٠ پاوەند قازانج دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservatives4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservatives4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At a conservative estimate, he'll be earning £50 000.",
+                            kurdishText:
+                                "بە خەمڵاندنێکی کەم‌بژێرانە، ٥٠٠٠٠ پاوەند قازانج دەکات.",
+                            onPressedBritish: () =>
+                                speakconservatives4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservatives4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) کەسێکی کۆنەپارێز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The justice's moderate record has angered hard-line conservatives for years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆماری ناوەندگیری دادوەرەکە بۆ چەندین ساڵە پارێزگارە توندڕەوەکانی تووڕە کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservatives5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservatives5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The justice's moderate record has angered hard-line conservatives for years.",
+                            kurdishText:
+                                "تۆماری ناوەندگیری دادوەرەکە بۆ چەندین ساڵە پارێزگارە توندڕەوەکانی تووڕە کردووە.",
+                            onPressedBritish: () =>
+                                speakconservatives5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservatives5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) ئەندامێکی پارتی پارێزگارانی بەریتانیا یان پارتێکی ھاوشێوە لە وڵاتێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Senior Conservatives are opposed to the change."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندامە باڵاکانی پارتی پارێزگاران دژ بە گۆڕانکارییەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservatives6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservatives6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Senior Conservatives are opposed to the change.",
+                            kurdishText:
+                                "ئەندامە باڵاکانی پارتی پارێزگاران دژ بە گۆڕانکارییەکەن.",
+                            onPressedBritish: () =>
+                                speakconservatives6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservatives6("en-US"),
                           ),
                         ],
                       ),

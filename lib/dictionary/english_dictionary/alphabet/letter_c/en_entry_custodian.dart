@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک کە بەرپرسی چاودێری یان پاراستنی کەسێکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The museum's custodians ensure the artifacts are properly preserved."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرپرسانی مۆزەخانەکە دڵنیایی دەکەن لەوەی کەرەستەکان بە گونجاوی پارێزراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "custodian", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcustodians1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcustodians1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The museum's custodians ensure the artifacts are properly preserved.",
+            kurdishText:
+                "بەرپرسانی مۆزەخانەکە دڵنیایی دەکەن لەوەی کەرەستەکان بە گونجاوی پارێزراون.", // custodian", please follow LX instructions
+            onPressedBritish: () => speakcustodians1("en-GB"),
+            onPressedAmerican: () => speakcustodians1("en-US"),
           ),
           const DividerDefinition(),
           Column(

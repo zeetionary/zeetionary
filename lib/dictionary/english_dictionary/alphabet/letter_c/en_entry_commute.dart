@@ -120,122 +120,44 @@ class EnglishEntrycommute extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) گەشتکردن بە پاس، شەمەندەفەر، ئۆتۆمبێل، ھتد لە نێوان شوێنی کارکردن و ماڵەوەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She commutes from Oxford to London every day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ڕۆژێک لە ئۆکسفۆردەوە ھاتووچۆی لەندەن دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commute", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommutes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommutes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She commutes from Oxford to London every day.",
+                            kurdishText:
+                                "ھەموو ڕۆژێک لە ئۆکسفۆردەوە ھاتووچۆی لەندەن دەکات.", // commute",
+                            onPressedBritish: () => speakcommutes1("en-GB"),
+                            onPressedAmerican: () => speakcommutes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spent that year commuting between New York and Chicago."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ساڵەی بەسەربرد بە گەشتکردن لە نێوان نیویۆرک و شیکاگۆدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommutes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommutes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He spent that year commuting between New York and Chicago.",
+                            kurdishText:
+                                "ئەو ساڵەی بەسەربرد بە گەشتکردن لە نێوان نیویۆرک و شیکاگۆدا.",
+                            onPressedBritish: () => speakcommutes2("en-GB"),
+                            onPressedAmerican: () => speakcommutes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) گۆڕینی سزایەک بە یەکێک کە سوکترە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The death sentence was commuted to life imprisonment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سزا مەرگەکەی گۆڕدرا بۆ زیندانی ھەتاھەتایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommutes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommutes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The death sentence was commuted to life imprisonment.",
+                            kurdishText:
+                                "سزا مەرگەکەی گۆڕدرا بۆ زیندانی ھەتاھەتایی.",
+                            onPressedBritish: () => speakcommutes3("en-GB"),
+                            onPressedAmerican: () => speakcommutes3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەو ھاتووچۆیەی کە کەسێک ئەنجامی دەدات کە دەچێت بۆ سەر کار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have only a short commute to work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاتووچۆیەکی کورتم ھەیە بۆ سەر کار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommutes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommutes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I have only a short commute to work.",
+                            kurdishText: "ھاتووچۆیەکی کورتم ھەیە بۆ سەر کار.",
+                            onPressedBritish: () => speakcommutes4("en-GB"),
+                            onPressedAmerican: () => speakcommutes4("en-US"),
                           ),
                         ],
                       ),

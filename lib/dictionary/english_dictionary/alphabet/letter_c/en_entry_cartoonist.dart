@@ -190,32 +190,13 @@ class EnglishEntrycartoonist extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە کارتۆن دەکێشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The talented cartoonist captured political issues through witty illustrations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاریکاتۆرکێشە بەھرەدارەکە کێشە سیاسییەکانی دەربڕی لە ڕوون‌کردنەوە زیرەکانەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cartoonist", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcartoonists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcartoonists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The talented cartoonist captured political issues through witty illustrations.",
+                            kurdishText:
+                                "کاریکاتۆرکێشە بەھرەدارەکە کێشە سیاسییەکانی دەربڕی لە ڕوون‌کردنەوە زیرەکانەکەیدا.", // cartoonist",
+                            onPressedBritish: () => speakcartoonists1("en-GB"),
+                            onPressedAmerican: () => speakcartoonists1("en-US"),
                           ),
                         ],
                       ),

@@ -127,151 +127,56 @@ class EnglishEntryclamour extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) داواکردنی شتێک بە دەنگی بەرز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People began to clamour for his resignation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی دەستیان کرد بە ھەراوھوریا بۆ دەستلەکارکێشانەوەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clamour", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclamours1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclamours1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People began to clamour for his resignation.",
+                            kurdishText:
+                                "خەڵکی دەستیان کرد بە ھەراوھوریا بۆ دەستلەکارکێشانەوەی.", // clamour",
+                            onPressedBritish: () => speakclamours1("en-GB"),
+                            onPressedAmerican: () => speakclamours1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everyone was clamouring to know how much they would get."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموان قاڵەقاڵیان بوو کە چەندە وەردەگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclamours2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclamours2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Everyone was clamouring to know how much they would get.",
+                            kurdishText:
+                                "ھەموان قاڵەقاڵیان بوو کە چەندە وەردەگرن.",
+                            onPressedBritish: () => speakclamours2("en-GB"),
+                            onPressedAmerican: () => speakclamours2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (کردار) ھاوارکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A crowd of reporters clamoured around the car."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک لە پەیامنێر دەنگەدەنگاین بوو لە دەوری ئۆتۆمبێلەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclamours3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclamours3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A crowd of reporters clamoured around the car.",
+                            kurdishText:
+                                "ژمارەیەک لە پەیامنێر دەنگەدەنگاین بوو لە دەوری ئۆتۆمبێلەکە.",
+                            onPressedBritish: () => speakclamours3("en-GB"),
+                            onPressedAmerican: () => speakclamours3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) دەنگێکی بەرز، بەتایبەتی کە درووست دەکرێت لەلایەن ژمارەیەک خەڵک یان ئاژەڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her head was filled with the clamour of voices calling her name."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێشکی پڕبوو لە قاڵەقاڵی خەڵکی کە بانگیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclamours4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclamours4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her head was filled with the clamour of voices calling her name.",
+                            kurdishText:
+                                "مێشکی پڕبوو لە قاڵەقاڵی خەڵکی کە بانگیان دەکرد.",
+                            onPressedBritish: () => speakclamours4("en-GB"),
+                            onPressedAmerican: () => speakclamours4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) داواکارییەک بۆ شتێک بە دەنگی بەرز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The clamour for her resignation grew louder."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاتوھاوار بۆ دەستلەکارکێشانەوەی بەرزتر بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclamours5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclamours5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The clamour for her resignation grew louder.",
+                            kurdishText:
+                                "ھاتوھاوار بۆ دەستلەکارکێشانەوەی بەرزتر بوو.",
+                            onPressedBritish: () => speakclamours5("en-GB"),
+                            onPressedAmerican: () => speakclamours5("en-US"),
                           ),
                         ],
                       ),

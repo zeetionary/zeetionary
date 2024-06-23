@@ -108,93 +108,34 @@ class EnglishEntrycheckin extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو شوێنەی فڕۆکەخانە کە تێیدا بلیتەکەت پیشان دەدەیت و کەلوپەلەکانت جێدەھێڵیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The airline apologizes for long delays at check-ins today."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێڵە ئاسماننییەکە دوای لێبووردن دەکات بۆ دواکەوتنە درێژخایەنەکان ئەمڕۆ لە خاڵی پشکنینەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "check-in", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheckins1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckins1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The airline apologizes for long delays at check-ins today.",
+                            kurdishText:
+                                "ھێڵە ئاسماننییەکە دوای لێبووردن دەکات بۆ دواکەوتنە درێژخایەنەکان ئەمڕۆ لە خاڵی پشکنینەکە.", // check-in",
+                            onPressedBritish: () => speakcheckins1("en-GB"),
+                            onPressedAmerican: () => speakcheckins1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کرداری پشت‌ڕاست‌کردنەوەی ئەوەی کە دەتەوێت سەرکەویتە ناو گەشتێک لەگەڵ زانیارییە کەسییەکانت لە فڕۆکەخانەیەک یان بە کۆمپیوتەرێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you know your check-in time?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کاتی پشکنینت دەزانیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheckins2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckins2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Do you know your check-in time?",
+                            kurdishText: "کاتی پشکنینت دەزانیت؟",
+                            onPressedBritish: () => speakcheckins2("en-GB"),
+                            onPressedAmerican: () => speakcheckins2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کاتی گەشتن بە ھوتێلێک لە سەرەتای مانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We can arrange an early check-in."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت کاتی گەشتنی پێشوەختە ڕێکبخەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheckins3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheckins3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We can arrange an early check-in.",
+                            kurdishText:
+                                "دەتوانیت کاتی گەشتنی پێشوەختە ڕێکبخەین.",
+                            onPressedBritish: () => speakcheckins3("en-GB"),
+                            onPressedAmerican: () => speakcheckins3("en-US"),
                           ),
                         ],
                       ),

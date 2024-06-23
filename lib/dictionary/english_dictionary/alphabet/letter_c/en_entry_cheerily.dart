@@ -94,32 +94,13 @@ class EnglishEntrycheerily extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەکی خۆشحاڵی و دڵخۆشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He replied cheerily in the affirmative."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە دڵگەشییەوە بە بەڵێ وەڵامی دایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheerily", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheerilys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheerilys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He replied cheerily in the affirmative.",
+                            kurdishText:
+                                "بە دڵگەشییەوە بە بەڵێ وەڵامی دایەوە.", // cheerily",
+                            onPressedBritish: () => speakcheerilys1("en-GB"),
+                            onPressedAmerican: () => speakcheerilys1("en-US"),
                           ),
                         ],
                       ),

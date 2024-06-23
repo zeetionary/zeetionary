@@ -189,113 +189,37 @@ class EnglishEntrycease extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) وەستان لە ڕوودان یان ھەبوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You never cease to amaze me!"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەرگیز لە سەرسامکردنم ناکەویت!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cease", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceases1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceases1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You never cease to amaze me!",
+                            kurdishText:
+                                "ھەرگیز لە سەرسامکردنم ناکەویت!", // cease",
+                            onPressedBritish: () => speakceases1("en-GB"),
+                            onPressedAmerican: () => speakceases1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They voted to cease strike action immediately."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگیان دا بە وەستاندنی دەستبەجێی مانگرتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceases2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceases2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They voted to cease strike action immediately.",
+                            kurdishText:
+                                "دەنگیان دا بە وەستاندنی دەستبەجێی مانگرتن.",
+                            onPressedBritish: () => speakceases2("en-GB"),
+                            onPressedAmerican: () => speakceases2("en-US"),
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He ordered his men to cease fire (= stop shooting)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فەرمانی بە سەربازەکانی کرد بوەستن لە تەقەکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceases3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceases3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He ordered his men to cease fire (= stop shooting).",
+                            kurdishText:
+                                "فەرمانی بە سەربازەکانی کرد بوەستن لە تەقەکردن.",
+                            onPressedBritish: () => speakceases3("en-GB"),
+                            onPressedAmerican: () => speakceases3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company ceased trading in June."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیەکە وەستا لە بازرگانی‌کردن لە حوزەیراندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakceases4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakceases4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The company ceased trading in June.",
+                            kurdishText:
+                                "کۆمپانیەکە وەستا لە بازرگانی‌کردن لە حوزەیراندا.",
+                            onPressedBritish: () => speakceases4("en-GB"),
+                            onPressedAmerican: () => speakceases4("en-US"),
                           ),
                         ],
                       ),

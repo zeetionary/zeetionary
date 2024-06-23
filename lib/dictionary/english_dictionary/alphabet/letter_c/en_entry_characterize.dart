@@ -121,127 +121,50 @@ class EnglishEntrycharacterize extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بوون بەو شتەی کە لە شتێک، کەسێک، یان شوینک پێشبینی دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The city is characterized by tall modern buildings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەکە بە بینای بەرز دەناسرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "characterize", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcharacterizes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcharacterizes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The city is characterized by tall modern buildings.",
+                            kurdishText:
+                                "شارەکە بە بینای بەرز دەناسرێتەوە.", // characterize",
+                            onPressedBritish: () =>
+                                speakcharacterizes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcharacterizes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bright colours and bold strokes characterize his early paintings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەنگی ڕۆشن و فڵچەی تۆخ ناسێنەری تابلۆکانی سەرەتایین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcharacterizes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcharacterizes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bright colours and bold strokes characterize his early paintings.",
+                            kurdishText:
+                                "ڕەنگی ڕۆشن و فڵچەی تۆخ ناسێنەری تابلۆکانی سەرەتایین.",
+                            onPressedBritish: () =>
+                                speakcharacterizes2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcharacterizes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ناساندنی خاسیەتەکانی شتێک/کەسێک بە شێوەیەکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How would you characterize the mood of the 1990s?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن کەشی ١٩٩٠ ەکان وێنا دەکەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcharacterizes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcharacterizes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How would you characterize the mood of the 1990s?",
+                            kurdishText: "چۆن کەشی ١٩٩٠ ەکان وێنا دەکەیت؟",
+                            onPressedBritish: () =>
+                                speakcharacterizes3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcharacterizes3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In her essay, she characterizes the whole era as a period of radical change."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە وتارەکەیدا، تەواوی سەردەمەکە وەک ماوەیەکی گۆڕانکاری بنچینەیی وێنا دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcharacterizes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcharacterizes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In her essay, she characterizes the whole era as a period of radical change.",
+                            kurdishText:
+                                "لە وتارەکەیدا، تەواوی سەردەمەکە وەک ماوەیەکی گۆڕانکاری بنچینەیی وێنا دەکات.",
+                            onPressedBritish: () =>
+                                speakcharacterizes4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcharacterizes4("en-US"),
                           ),
                         ],
                       ),

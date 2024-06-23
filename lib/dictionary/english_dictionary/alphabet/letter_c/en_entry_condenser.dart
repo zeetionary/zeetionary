@@ -95,32 +95,13 @@ class EnglishEntrycondenser extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئامێرێک کە گاز سارد دەکاتەوە بۆ ئەوەی بیکات بە شلە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The refrigerator's condenser works to cool the air inside, keeping the food fresh."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فرێزەری بەفرگرەکە کار دەکات بۆ ئەوەی ھەوای ناوەوە سارد بکات و خواردنەکان بە تازەیی بھێڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "condenser", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondensers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondensers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The refrigerator's condenser works to cool the air inside, keeping the food fresh.",
+                            kurdishText:
+                                "فرێزەری بەفرگرەکە کار دەکات بۆ ئەوەی ھەوای ناوەوە سارد بکات و خواردنەکان بە تازەیی بھێڵێت.", // condenser",
+                            onPressedBritish: () => speakcondensers1("en-GB"),
+                            onPressedAmerican: () => speakcondensers1("en-US"),
                           ),
                         ],
                       ),

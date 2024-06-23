@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کەلێن، کون، درز، کەلەبەر، قەڵەش،	شوێنی چەپەک یان پەڕ
 """),
           const DefinitionKurdish(text: "١. (ناو) کونی زۆر بچووک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There were small plants growing in every nook and cranny of the wall."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووەکی بچووک لە ھەموو کون و کەلەبەردێکی دیوارەکە گەشەیان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cranny", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrannys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrannys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There were small plants growing in every nook and cranny of the wall.",
+            kurdishText:
+                "ڕووەکی بچووک لە ھەموو کون و کەلەبەردێکی دیوارەکە گەشەیان دەکرد.", // cranny", please follow LX instructions
+            onPressedBritish: () => speakcrannys1("en-GB"),
+            onPressedAmerican: () => speakcrannys1("en-US"),
           ),
         ],
       ),

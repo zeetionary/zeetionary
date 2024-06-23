@@ -102,62 +102,24 @@ class EnglishEntrycollier extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کرێکاری کانی خەڵووز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He followed in his father's footsteps and became a collier."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە شوێن پێی باوکیدا چوو و بوو بە خەڵووزکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collier", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolliers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolliers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He followed in his father's footsteps and became a collier.",
+                            kurdishText:
+                                "بە شوێن پێی باوکیدا چوو و بوو بە خەڵووزکەن.", // collier",
+                            onPressedBritish: () => speakcolliers1("en-GB"),
+                            onPressedAmerican: () => speakcolliers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کەشتییەک کە خەڵووز دەگوازێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The collier was loaded with coal from the mines."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵووزکێشەکە بارکرا بە خەڵووزی کانەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolliers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolliers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The collier was loaded with coal from the mines.",
+                            kurdishText:
+                                "خەڵووزکێشەکە بارکرا بە خەڵووزی کانەکان.",
+                            onPressedBritish: () => speakcolliers2("en-GB"),
+                            onPressedAmerican: () => speakcolliers2("en-US"),
                           ),
                         ],
                       ),

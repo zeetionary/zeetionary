@@ -188,90 +188,32 @@ class EnglishEntrycelebrity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێکی بەناوبانگ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He became a celebrity in China after winning a gold medal at the Olympics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوو بە ناودارێک لە چین لە دوای بردنەوەی مەدالیایەکی زێڕ لە ئۆڵمپیاددا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "celebrity", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelebritys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelebritys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He became a celebrity in China after winning a gold medal at the Olympics.",
+                            kurdishText:
+                                "بوو بە ناودارێک لە چین لە دوای بردنەوەی مەدالیایەکی زێڕ لە ئۆڵمپیاددا.", // celebrity",
+                            onPressedBritish: () => speakcelebritys1("en-GB"),
+                            onPressedAmerican: () => speakcelebritys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He achieved instant celebrity status."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێگەیەکی خێرای ناوداری بەدەستھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelebritys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelebritys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He achieved instant celebrity status.",
+                            kurdishText: "پێگەیەکی خێرای ناوداری بەدەستھێنا.",
+                            onPressedBritish: () => speakcelebritys2("en-GB"),
+                            onPressedAmerican: () => speakcelebritys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) دۆخی بەناوبانگی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He achieved overnight celebrity as a war correspondent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک پەیامنێری جەنگ بە شەو و ڕۆژێک ناسراو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelebritys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelebritys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He achieved overnight celebrity as a war correspondent.",
+                            kurdishText:
+                                "وەک پەیامنێری جەنگ بە شەو و ڕۆژێک ناسراو بوو.",
+                            onPressedBritish: () => speakcelebritys3("en-GB"),
+                            onPressedAmerican: () => speakcelebritys3("en-US"),
                           ),
                         ],
                       ),

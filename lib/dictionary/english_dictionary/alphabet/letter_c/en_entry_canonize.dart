@@ -188,32 +188,13 @@ class EnglishEntrycanonize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ناساندن کەسێک وەک پیرۆز لەلایەن پاپای ئایینی مەسیحییەتەوە بەھۆی شێوازی ژیانی یان مردنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Joan of Arc was eventually canonized in 1920."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژان دارک لەکۆتاییدا بە پیرۆز ناسێنرا لە ساڵی ١٩٢٠."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canonize", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanonizes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanonizes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Joan of Arc was eventually canonized in 1920.",
+                            kurdishText:
+                                "ژان دارک لەکۆتاییدا بە پیرۆز ناسێنرا لە ساڵی ١٩٢٠.", // canonize
+                            onPressedBritish: () => speakcanonizes1("en-GB"),
+                            onPressedAmerican: () => speakcanonizes1("en-US"),
                           ),
                         ],
                       ),

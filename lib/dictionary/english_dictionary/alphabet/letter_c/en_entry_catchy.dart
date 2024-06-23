@@ -192,32 +192,13 @@ class EnglishEntrycatchy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) میوزیک یان وشە کە سەرنجڕاکێشە و بە ئاسانی لەبەردەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The best ads attract the internet surfers with snappy graphics and catchy slogans."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترین ڕیکلامەکان سەرنجی بەکارھێنەرانی ئینتەرنێت ڕادەکێشن بە گرافیکی سەرنجڕاکێش و سلۆگانی خۆش."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catchy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatchys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatchys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The best ads attract the internet surfers with snappy graphics and catchy slogans.",
+                            kurdishText:
+                                "باشترین ڕیکلامەکان سەرنجی بەکارھێنەرانی ئینتەرنێت ڕادەکێشن بە گرافیکی سەرنجڕاکێش و سلۆگانی خۆش.", // catchy",
+                            onPressedBritish: () => speakcatchys1("en-GB"),
+                            onPressedAmerican: () => speakcatchys1("en-US"),
                           ),
                         ],
                       ),

@@ -189,63 +189,25 @@ class EnglishEntrycanvas extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مادەیەکی سەختی بەھێز کە بەکاردێت بۆ درووستکردنی خێوەت، چارۆکە، ھتد و لەلایەن ھونەرکارانەوە بۆ کێشانی وێنە لەسەری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their tents were made from heavy canvas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێوەتەکانیان لە کانڤسی بەھێز درووستکرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canvas", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanvass1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanvass1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their tents were made from heavy canvas.",
+                            kurdishText:
+                                "خێوەتەکانیان لە کانڤسی بەھێز درووستکرابوون.", // canvas
+                            onPressedBritish: () => speakcanvass1("en-GB"),
+                            onPressedAmerican: () => speakcanvass1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پارچە کانڤسێک کە وێنەی لەسەر دەکێشرێت، یان وێنەکەی سەری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These two canvases by Hockney would sell for £1,500,000."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم دوو وێنەیەی ھۆکنی ١,٥٠٠,٠٠٠ پاوەند دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanvass2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanvass2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These two canvases by Hockney would sell for £1,500,000.",
+                            kurdishText:
+                                "ئەم دوو وێنەیەی ھۆکنی ١,٥٠٠,٠٠٠ پاوەند دەکەن.",
+                            onPressedBritish: () => speakcanvass2("en-GB"),
+                            onPressedAmerican: () => speakcanvass2("en-US"),
                           ),
                         ],
                       ),

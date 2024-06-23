@@ -114,97 +114,40 @@ class EnglishEntryconfiguration extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕێکخستنێکی بەشەکانی شتێک یان گرووپێک لە شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The design is based on four configurations of squares."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیزاینەکە پشتی بەستووە بە چوار ڕێکخستنی چوارگۆشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "configuration", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfigurations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfigurations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The design is based on four configurations of squares.",
+                            kurdishText:
+                                "دیزاینەکە پشتی بەستووە بە چوار ڕێکخستنی چوارگۆشە.", // configuration",
+                            onPressedBritish: () =>
+                                speakconfigurations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfigurations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The stars seemed to appear in a different configuration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەستێرەکان وادیارن لە ڕێکخستنی جیاوازدا دەردەکەون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfigurations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfigurations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The stars seemed to appear in a different configuration.",
+                            kurdishText:
+                                "ئەستێرەکان وادیارن لە ڕێکخستنی جیاوازدا دەردەکەون.",
+                            onPressedBritish: () =>
+                                speakconfigurations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfigurations2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەرەستە و پڕۆگرامی کە پێکھێنەری سیستەمی کۆمپیوتەرێکن و ئەو شێوەیەی کە ڕێکخراون بۆ کارکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Performance will vary depending on your hardware and software configurations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاپەڕاندن جیاواز دەبێت بەپێی ڕێکخستنی ھاردوێر و نەرمامێرەکەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfigurations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfigurations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Performance will vary depending on your hardware and software configurations.",
+                            kurdishText:
+                                "ڕاپەڕاندن جیاواز دەبێت بەپێی ڕێکخستنی ھاردوێر و نەرمامێرەکەت.",
+                            onPressedBritish: () =>
+                                speakconfigurations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfigurations3("en-US"),
                           ),
                         ],
                       ),

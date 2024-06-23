@@ -120,119 +120,43 @@ class EnglishEntryconfound extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) سەرلێ‌شێواندنی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sudden rise in share prices has confounded economists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرزبوونی لەناکاوی نرخی پشکەکان ئابووریناسانی سەرلێ‌شێواو کردووە ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confound", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfounds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfounds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sudden rise in share prices has confounded economists.",
+                            kurdishText:
+                                "بەرزبوونی لەناکاوی نرخی پشکەکان ئابووریناسانی سەرلێ‌شێواو کردووە .", // confound",
+                            onPressedBritish: () => speakconfounds1("en-GB"),
+                            onPressedAmerican: () => speakconfounds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A man has confounded doctors by recovering after he was officially declared dead."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێک سەری لە پزیشکەکان شێواندووە بە چاکبوونەوە لە دوای ئەوەی بە فەرمی بە مردوو دانرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfounds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfounds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A man has confounded doctors by recovering after he was officially declared dead.",
+                            kurdishText:
+                                "کەسێک سەری لە پزیشکەکان شێواندووە بە چاکبوونەوە لە دوای ئەوەی بە فەرمی بە مردوو دانرا.",
+                            onPressedBritish: () => speakconfounds2("en-GB"),
+                            onPressedAmerican: () => speakconfounds2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) سەلماندنی ئەوەی کەسێک/شتێک ھەڵەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rise in share prices confounded expectations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            " بەرزبوونەوەی نرخی پشکەکان پێشبینییەکانی بە ھەڵە خست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfounds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfounds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The rise in share prices confounded expectations.",
+                            kurdishText:
+                                " بەرزبوونەوەی نرخی پشکەکان پێشبینییەکانی بە ھەڵە خست.",
+                            onPressedBritish: () => speakconfounds3("en-GB"),
+                            onPressedAmerican: () => speakconfounds3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She confounded her critics and proved she could do the job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەخنەگرانیی خستە ھەڵەوە و سەلماندی دەتوانێت کارەکە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfounds4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfounds4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She confounded her critics and proved she could do the job.",
+                            kurdishText:
+                                "ڕەخنەگرانیی خستە ھەڵەوە و سەلماندی دەتوانێت کارەکە بکات.",
+                            onPressedBritish: () => speakconfounds4("en-GB"),
+                            onPressedAmerican: () => speakconfounds4("en-US"),
                           ),
                         ],
                       ),

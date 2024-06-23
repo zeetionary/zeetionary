@@ -94,32 +94,13 @@ class EnglishEntryconqueror extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێکی داگیرکەر یان براوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The disease was introduced by the Spanish conquerors in the sixteenth century."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشییەکە لە سەدەی شازدە لەلایەن داگیرکەرە ئیسپانییەکانەوە ھێندرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conqueror", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconquerors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconquerors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The disease was introduced by the Spanish conquerors in the sixteenth century.",
+                            kurdishText:
+                                "نەخۆشییەکە لە سەدەی شازدە لەلایەن داگیرکەرە ئیسپانییەکانەوە ھێندرا.", // conqueror",
+                            onPressedBritish: () => speakconquerors1("en-GB"),
+                            onPressedAmerican: () => speakconquerors1("en-US"),
                           ),
                         ],
                       ),

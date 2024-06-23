@@ -187,32 +187,13 @@ class EnglishEntrycenotaph extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مۆنومێنتێک کە درووستکراوە بۆ یادھێنانەوەی ئەو سەربازانەی کە لە شوێنی دیکە نێژراون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The city unveiled a new cenotaph in the town square to honor fallen soldiers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەکە شارەکە پەردەی لادا لەسەر مۆنومێنتێکی تازە لە شارۆچکەکە بۆ ڕێزگرتن لە سەربازانی گیان‌بەختکردوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cenotaph", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcenotaphs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcenotaphs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The city unveiled a new cenotaph in the town square to honor fallen soldiers.",
+                            kurdishText:
+                                "شارەکە شارەکە پەردەی لادا لەسەر مۆنومێنتێکی تازە لە شارۆچکەکە بۆ ڕێزگرتن لە سەربازانی گیان‌بەختکردوو.", // cenotaph",
+                            onPressedBritish: () => speakcenotaphs1("en-GB"),
+                            onPressedAmerican: () => speakcenotaphs1("en-US"),
                           ),
                         ],
                       ),

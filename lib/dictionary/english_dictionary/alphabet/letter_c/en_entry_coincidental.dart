@@ -95,34 +95,15 @@ class EnglishEntrycoincidental extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە بە ڕێکەوتە و پلانی بۆ دانەنراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I suppose your presence here today is not entirely coincidental."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وای بۆ دەچم بوونت ئەمڕۆ لێرە تەواو ڕێکەوت نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coincidental", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoincidentals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoincidentals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I suppose your presence here today is not entirely coincidental.",
+                            kurdishText:
+                                "وای بۆ دەچم بوونت ئەمڕۆ لێرە تەواو ڕێکەوت نییە.", // coincidental",
+                            onPressedBritish: () =>
+                                speakcoincidentals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoincidentals1("en-US"),
                           ),
                         ],
                       ),

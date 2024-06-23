@@ -208,87 +208,30 @@ class EnglishEntrycircle extends StatelessWidget {
 کوردی: بازنە، جەغز، گاخ، خاز، ئاڵقە، چەمەرە، کەمەرە، چەرخ، دەور، گەڕ، سوور، خول،	بوار، پانتایی، مەڵبەند، ئاقار، ڕاخستە،	کۆڕ، گروپ، کۆمەڵ، دەستە،	نھۆمی سەرەوەی شانۆگا یا سینەما
 """),
                           const DefinitionKurdish(text: "١. (ناو) بازنە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Cut out two circles of paper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو بازنەی کاغەزی بازنەیی ببڕە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circle", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Cut out two circles of paper.",
+                            kurdishText:
+                                "دوو بازنەی کاغەزی بازنەیی ببڕە.", // circle",
+                            onPressedBritish: () => speakcircles1("en-GB"),
+                            onPressedAmerican: () => speakcircles1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) قەراغەکانی بازنەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Draw a circle."),
-                                    ExampleSentenceKurdish(
-                                        text: "بازنەیەک بکێشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Draw a circle.",
+                            kurdishText: "بازنەیەک بکێشە.",
+                            onPressedBritish: () => speakcircles2("en-GB"),
+                            onPressedAmerican: () => speakcircles2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He traced a circle in the dust with his finger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە پەنجەی بازنەیەکی لە خۆڵەکەدا کێشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He traced a circle in the dust with his finger.",
+                            kurdishText:
+                                "بە پەنجەی بازنەیەکی لە خۆڵەکەدا کێشا.",
+                            onPressedBritish: () => speakcircles3("en-GB"),
+                            onPressedAmerican: () => speakcircles3("en-US"),
                           ),
                           Column(
                             children: [
@@ -391,265 +334,89 @@ class EnglishEntrycircle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کۆمەڵە شتێک یان خەڵک کە بە بازنەیەکیان درووستکردووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children stood in a circle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان بە بازنەیەک وەستابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircles7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircles7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The children stood in a circle.",
+                            kurdishText: "منداڵەکان بە بازنەیەک وەستابوون.",
+                            onPressedBritish: () => speakcircles7("en-GB"),
+                            onPressedAmerican: () => speakcircles7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Arrange the candles to create a circle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆمەکان لە شێوەی بازنەیەکدا ڕیز بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircles8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircles8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Arrange the candles to create a circle.",
+                            kurdishText: "مۆمەکان لە شێوەی بازنەیەکدا ڕیز بکە.",
+                            onPressedBritish: () => speakcircles8("en-GB"),
+                            onPressedAmerican: () => speakcircles8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) نھۆمی سەرەوەی شانۆیەک یان سینەمایەک کە کورسییەکانی بە قەوسی دانراون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We had seats in the circle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێگاکانمان لە لۆژە قەوسەکەدا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircles9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircles9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We had seats in the circle.",
+                            kurdishText: "جێگاکانمان لە لۆژە قەوسەکەدا بوو.",
+                            onPressedBritish: () => speakcircles9("en-GB"),
+                            onPressedAmerican: () => speakcircles9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) کۆمەڵێک کەس کە پەیوەندییان ھەیە بەھۆی ئەوەی ھەمان کار، حەز و خولیا، ھتد ـیان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Talk of religion was forbidden in the family circle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باسی ئایین قەدەغە بوو لە کۆڕە خێزانییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircles10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircles10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Talk of religion was forbidden in the family circle.",
+                            kurdishText:
+                                "باسی ئایین قەدەغە بوو لە کۆڕە خێزانییەکەدا.",
+                            onPressedBritish: () => speakcircles10("en-GB"),
+                            onPressedAmerican: () => speakcircles10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her ideas have caused controversy in scientific circles in recent years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ساڵانەی دوایی بیرۆکەکانی مشتومڕیان درووستکردووە لەناو کۆڕە زانستییەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircles11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircles11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her ideas have caused controversy in scientific circles in recent years.",
+                            kurdishText:
+                                "ئەم ساڵانەی دوایی بیرۆکەکانی مشتومڕیان درووستکردووە لەناو کۆڕە زانستییەکاندا.",
+                            onPressedBritish: () => speakcircles11("en-GB"),
+                            onPressedAmerican: () => speakcircles11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) کێشانی بازنەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Respondents were asked to circle the appropriate answers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەڵامدەرەوان داوایان لێکرا بازنەیەک بکێشن بە دەوری وەڵامە گونجاوەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircles12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircles12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Respondents were asked to circle the appropriate answers.",
+                            kurdishText:
+                                "وەڵامدەرەوان داوایان لێکرا بازنەیەک بکێشن بە دەوری وەڵامە گونجاوەکاندا.",
+                            onPressedBritish: () => speakcircles12("en-GB"),
+                            onPressedAmerican: () => speakcircles12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Spelling mistakes are circled in red."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵە ڕێنووسییەکان بە سوور دەخرێنە بازنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircles13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircles13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Spelling mistakes are circled in red.",
+                            kurdishText:
+                                "ھەڵە ڕێنووسییەکان بە سوور دەخرێنە بازنەوە.",
+                            onPressedBritish: () => speakcircles13("en-GB"),
+                            onPressedAmerican: () => speakcircles13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کردار) جوڵان لە بازنەیەکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The helicopter was circling slowly, very low."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێلیکۆپتەرەکە بەھێواشی دەسووڕایەوە زۆر بە نزمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircles14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircles14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The helicopter was circling slowly, very low.",
+                            kurdishText:
+                                "ھێلیکۆپتەرەکە بەھێواشی دەسووڕایەوە زۆر بە نزمی.",
+                            onPressedBritish: () => speakcircles14("en-GB"),
+                            onPressedAmerican: () => speakcircles14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Seagulls circled around above his head."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەورەسەکان دەسووڕانەوە لەسەر سەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcircles15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcircles15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Seagulls circled around above his head.",
+                            kurdishText: "نەورەسەکان دەسووڕانەوە لەسەر سەری.",
+                            onPressedBritish: () => speakcircles15("en-GB"),
+                            onPressedAmerican: () => speakcircles15("en-US"),
                           ),
                         ],
                       ),

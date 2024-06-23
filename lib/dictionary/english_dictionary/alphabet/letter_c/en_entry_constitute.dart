@@ -138,177 +138,62 @@ class EnglishEntryconstitute extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) دانان وەک شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Does such an activity constitute a criminal offence?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چالاکی وەھا بە یاساشکاندنی تاوانکاری دادەنرێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constitute", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstitutes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstitutes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Does such an activity constitute a criminal offence?",
+                            kurdishText:
+                                "چالاکی وەھا بە یاساشکاندنی تاوانکاری دادەنرێت؟", // constitute",
+                            onPressedBritish: () => speakconstitutes1("en-GB"),
+                            onPressedAmerican: () => speakconstitutes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Climate change constitutes a major threat to life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆڕانی ئاووھەوا ھەڕەشەیەکی گەورەیە بۆ ژیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstitutes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstitutes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Climate change constitutes a major threat to life.",
+                            kurdishText:
+                                "گۆڕانی ئاووھەوا ھەڕەشەیەکی گەورەیە بۆ ژیان.",
+                            onPressedBritish: () => speakconstitutes2("en-GB"),
+                            onPressedAmerican: () => speakconstitutes2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This action constitutes a violation of international law."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم کردارە لادانە لە یاسای نێودەوڵەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstitutes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstitutes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This action constitutes a violation of international law.",
+                            kurdishText:
+                                "ئەم کردارە لادانە لە یاسای نێودەوڵەتی.",
+                            onPressedBritish: () => speakconstitutes3("en-GB"),
+                            onPressedAmerican: () => speakconstitutes3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) بوون بە پێکھێنەری شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Female workers constitute the majority of the labour force."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرێکارە ژنەکان زۆرینەی ھێزی کار پێکدێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstitutes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstitutes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Female workers constitute the majority of the labour force.",
+                            kurdishText:
+                                "کرێکارە ژنەکان زۆرینەی ھێزی کار پێکدێنن.",
+                            onPressedBritish: () => speakconstitutes4("en-GB"),
+                            onPressedAmerican: () => speakconstitutes4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People under the age of 40 constitute the majority of the labour force."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسانی خوار ٤٠ ساڵ زۆرینەی ھێزی کار پێکدێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstitutes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstitutes5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People under the age of 40 constitute the majority of the labour force.",
+                            kurdishText:
+                                "کەسانی خوار ٤٠ ساڵ زۆرینەی ھێزی کار پێکدێنن.",
+                            onPressedBritish: () => speakconstitutes5("en-GB"),
+                            onPressedAmerican: () => speakconstitutes5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) پێکھێنانی گرووپێک بە فەرمی یان یاسایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The committee was constituted in 1974."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لیژنەکە لە ساڵی ١٩٧٤ درووستکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconstitutes6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconstitutes6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The committee was constituted in 1974.",
+                            kurdishText: "لیژنەکە لە ساڵی ١٩٧٤ درووستکرا.",
+                            onPressedBritish: () => speakconstitutes6("en-GB"),
+                            onPressedAmerican: () => speakconstitutes6("en-US"),
                           ),
                         ],
                       ),

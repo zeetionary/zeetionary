@@ -180,321 +180,111 @@ class EnglishEntryconvert extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) گۆڕان لە جۆرێک، مەبەستێک، یان سیستەمێکەوە بۆ یەکێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They took just nine months to convert the building."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا نۆ مانگیان پێویست بوو بۆ گۆڕینی بیناکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convert", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They took just nine months to convert the building.",
+                            kurdishText:
+                                "تەنھا نۆ مانگیان پێویست بوو بۆ گۆڕینی بیناکە.", // convert",
+                            onPressedBritish: () => speakconverts1("en-GB"),
+                            onPressedAmerican: () => speakconverts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You need to ensure that you've converted the data properly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت دڵنیابیتەوە داتاکانت بە گونجاوی گۆڕیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You need to ensure that you've converted the data properly.",
+                            kurdishText:
+                                "دەبێت دڵنیابیتەوە داتاکانت بە گونجاوی گۆڕیوە.",
+                            onPressedBritish: () => speakconverts2("en-GB"),
+                            onPressedAmerican: () => speakconverts2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The system is eco-friendly because the waste heat is converted to electricity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیستەمە دۆستی ژینگەیە چونکە گەرمی بەفیڕۆدراو دەگۆڕێت بۆ کارەبا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The system is eco-friendly because the waste heat is converted to electricity.",
+                            kurdishText:
+                                "سیستەمە دۆستی ژینگەیە چونکە گەرمی بەفیڕۆدراو دەگۆڕێت بۆ کارەبا.",
+                            onPressedBritish: () => speakconverts3("en-GB"),
+                            onPressedAmerican: () => speakconverts3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Japan was at the time still converting from an agricultural economy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەوکاتەدا ژاپۆن ھێشتا لە دەمی گۆڕانکاری لە ئابووری کشتووکاڵییەوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Japan was at the time still converting from an agricultural economy.",
+                            kurdishText:
+                                "لەوکاتەدا ژاپۆن ھێشتا لە دەمی گۆڕانکاری لە ئابووری کشتووکاڵییەوە بوو.",
+                            onPressedBritish: () => speakconverts4("en-GB"),
+                            onPressedAmerican: () => speakconverts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ھەبوونی توانای گۆڕان لە جۆرێک، مەبەستێک، یان سیستەمێک بۆ یەکێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was surprised by how comfortable the sofa was when converted into a bed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسام بوو بەوەی چەندە قەنەفەکە ئاسوودەبەخش بوو کە دەگۆڕا بۆ جێخەوێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was surprised by how comfortable the sofa was when converted into a bed.",
+                            kurdishText:
+                                "سەرسام بوو بەوەی چەندە قەنەفەکە ئاسوودەبەخش بوو کە دەگۆڕا بۆ جێخەوێک.",
+                            onPressedBritish: () => speakconverts5("en-GB"),
+                            onPressedAmerican: () => speakconverts5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) گۆڕینی ئایین و بیروباوەڕ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She converted to Judaism to marry him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕی بە جودایزم ھێنا بۆ ھاوسەرگیری لەگەڵی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She converted to Judaism to marry him.",
+                            kurdishText:
+                                "باوەڕی بە جودایزم ھێنا بۆ ھاوسەرگیری لەگەڵی.",
+                            onPressedBritish: () => speakconverts6("en-GB"),
+                            onPressedAmerican: () => speakconverts6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He converted from Christianity to Buddhism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئایینی لە مەسیحییەتەوە گۆڕی بۆ بودیزم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He converted from Christianity to Buddhism.",
+                            kurdishText:
+                                "ئایینی لە مەسیحییەتەوە گۆڕی بۆ بودیزم.",
+                            onPressedBritish: () => speakconverts7("en-GB"),
+                            onPressedAmerican: () => speakconverts7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was soon converted to the socialist cause."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زوو باوەڕی ھێنا بە دۆزە کۆمەڵایەتییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was soon converted to the socialist cause.",
+                            kurdishText:
+                                "زوو باوەڕی ھێنا بە دۆزە کۆمەڵایەتییەکە.",
+                            onPressedBritish: () => speakconverts8("en-GB"),
+                            onPressedAmerican: () => speakconverts8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) گۆڕینی خوویەک، بۆچوونێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've converted to organic food."),
-                                    ExampleSentenceKurdish(
-                                        text: "خواردنی ئەندامی دەخۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I've converted to organic food.",
+                            kurdishText: "خواردنی ئەندامی دەخۆم.",
+                            onPressedBritish: () => speakconverts9("en-GB"),
+                            onPressedAmerican: () => speakconverts9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I didn't use to like opera but my husband has converted me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزم بە ئۆپێرا نەبوو بەڵام ھاوژینەکەم گۆڕیمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverts10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverts10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I didn't use to like opera but my husband has converted me.",
+                            kurdishText:
+                                "حەزم بە ئۆپێرا نەبوو بەڵام ھاوژینەکەم گۆڕیمی.",
+                            onPressedBritish: () => speakconverts10("en-GB"),
+                            onPressedAmerican: () => speakconverts10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) کەسێک کە ئایینی، باوەڕی، یان بۆچوونی گۆڕیوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Pope Clement was a convert from paganism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاپا کلیمێنت تازە باوەڕدارێک بوو لە بتپەرستییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconverts11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconverts11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Pope Clement was a convert from paganism.",
+                            kurdishText:
+                                "پاپا کلیمێنت تازە باوەڕدارێک بوو لە بتپەرستییەوە.",
+                            onPressedBritish: () => speakconverts11("en-GB"),
+                            onPressedAmerican: () => speakconverts11("en-US"),
                           ),
                         ],
                       ),

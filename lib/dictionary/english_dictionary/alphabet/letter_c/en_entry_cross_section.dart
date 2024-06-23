@@ -253,91 +253,34 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەو بەشەی کە دەیبینیت کاتێک شتێک دەکەیت بە دوو کەرتەوە؛ وێنەیەکی لەم شێوەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The image on the right shows a cross-section of a coronary artery."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وێنەی لای ڕاست پانەبڕگەی خوێنبەرەکانی ناو دڵ پیشان دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cross section", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosssections1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosssections1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The image on the right shows a cross-section of a coronary artery.",
+            kurdishText:
+                "وێنەی لای ڕاست پانەبڕگەی خوێنبەرەکانی ناو دڵ پیشان دەدات.", // cross section", please follow LX instructions
+            onPressedBritish: () => speakcrosssections1("en-GB"),
+            onPressedAmerican: () => speakcrosssections1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) گرووپێک لە خەڵکی یان شت کە زمانحاڵی گرووپێکی گەورەترن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The demonstrators seemed to be from a wide cross-section of society."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆپیشاندەران وادیاربوو لە ڕەنگە بەرفراوانەکانی کۆمەڵگاوە بن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosssections2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosssections2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The demonstrators seemed to be from a wide cross-section of society.",
+            kurdishText:
+                "خۆپیشاندەران وادیاربوو لە ڕەنگە بەرفراوانەکانی کۆمەڵگاوە بن.",
+            onPressedBritish: () => speakcrosssections2("en-GB"),
+            onPressedAmerican: () => speakcrosssections2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The people involved in the project were an interesting cross-section."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو کەسانەی لە پڕۆژەکەدا بەژداربوون گرووپێکی سەرنجڕاکێش بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrosssections3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrosssections3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The people involved in the project were an interesting cross-section.",
+            kurdishText:
+                "ئەو کەسانەی لە پڕۆژەکەدا بەژداربوون گرووپێکی سەرنجڕاکێش بوون.",
+            onPressedBritish: () => speakcrosssections3("en-GB"),
+            onPressedAmerican: () => speakcrosssections3("en-US"),
           ),
         ],
       ),

@@ -190,64 +190,26 @@ class EnglishEntryceremonially extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) لە بۆنەیەک یان بۆ بۆنەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Queen ceremonially opened the new hospital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شاژن لە بۆنەیەکدا نەخۆشخانە تازەکەی کردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "ceremonially", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakceremoniallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakceremoniallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Queen ceremonially opened the new hospital.",
+                            kurdishText:
+                                "شاژن لە بۆنەیەکدا نەخۆشخانە تازەکەی کردەوە.", // ceremonially",
+                            onPressedBritish: () =>
+                                speakceremoniallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakceremoniallys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The drum is ceremonially struck once for every name called."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەھۆڵەکە بەپێی داب‌ودەستوور لێدەدرێت ھەر جارێک بۆ ھەر ناوێک کە دەخوێندرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakceremoniallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakceremoniallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The drum is ceremonially struck once for every name called.",
+                            kurdishText:
+                                "دەھۆڵەکە بەپێی داب‌ودەستوور لێدەدرێت ھەر جارێک بۆ ھەر ناوێک کە دەخوێندرێتەوە.",
+                            onPressedBritish: () =>
+                                speakceremoniallys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakceremoniallys2("en-US"),
                           ),
                         ],
                       ),

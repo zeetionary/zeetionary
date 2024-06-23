@@ -95,32 +95,13 @@ class EnglishEntrycloseknit extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆمەڵە کەسێک کە پەیوەندی نزیک لە نێوانیاندا ھەیە و بەژداری کار و چالاکی یەکدی دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The community was close-knit, with everyone knowing each other."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمەڵگەکە تەباب بوون و ھەموویان یەکدییان دەناسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "close-knit", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcloseknits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcloseknits1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The community was close-knit, with everyone knowing each other.",
+                            kurdishText:
+                                "کۆمەڵگەکە تەباب بوون و ھەموویان یەکدییان دەناسی.", // close-knit",
+                            onPressedBritish: () => speakcloseknits1("en-GB"),
+                            onPressedAmerican: () => speakcloseknits1("en-US"),
                           ),
                         ],
                       ),

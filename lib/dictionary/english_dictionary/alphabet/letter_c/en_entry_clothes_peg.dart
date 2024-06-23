@@ -97,32 +97,13 @@ class EnglishEntryclothespeg extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچەیەکی پلاستیکی یان دارین بۆ گرتنی جلی تەڕ بە تەنافەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She needed more clothes pegs to hang all the laundry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستی بە جلگری زیاتر بوو بۆ ئەوەی ھەموو جلەکان ھەڵبواسێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clothes peg", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclothespegs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclothespegs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She needed more clothes pegs to hang all the laundry.",
+                            kurdishText:
+                                "پێویستی بە جلگری زیاتر بوو بۆ ئەوەی ھەموو جلەکان ھەڵبواسێت.", // clothes peg",
+                            onPressedBritish: () => speakclothespegs1("en-GB"),
+                            onPressedAmerican: () => speakclothespegs1("en-US"),
                           ),
                         ],
                       ),

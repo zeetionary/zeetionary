@@ -190,31 +190,13 @@ class EnglishEntrycellar extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژوورێکی ژێر زەمینی بۆ کۆگاکردنی شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We keep onions and apples in the cellar."),
-                                    ExampleSentenceKurdish(
-                                        text: "پیاز و سێو دەخەینە ژێرخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cellar", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcellars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcellars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We keep onions and apples in the cellar.",
+                            kurdishText:
+                                "پیاز و سێو دەخەینە ژێرخانەکە.", // cellar",
+                            onPressedBritish: () => speakcellars1("en-GB"),
+                            onPressedAmerican: () => speakcellars1("en-US"),
                           ),
                         ],
                       ),

@@ -102,59 +102,20 @@ class EnglishEntryconcussion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ماوەیەکی کاتی لە بێ‌ئاگایی کە ڕوودەدات بەھۆی بەرکەوتنی سەخت بە سەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was taken to hospital with concussion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بردرا بۆ نەخۆشخانە بەھۆی ڕاتڵەکانی مێشک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concussion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcussions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcussions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was taken to hospital with concussion.",
+                            kurdishText:
+                                "بردرا بۆ نەخۆشخانە بەھۆی ڕاتڵەکانی مێشک.", // concussion",
+                            onPressedBritish: () => speakconcussions1("en-GB"),
+                            onPressedAmerican: () => speakconcussions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She suffered a mild concussion."),
-                                    ExampleSentenceKurdish(
-                                        text: "تووشی گێژخواردنێکی کەم بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcussions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcussions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She suffered a mild concussion.",
+                            kurdishText: "تووشی گێژخواردنێکی کەم بوو.",
+                            onPressedBritish: () => speakconcussions2("en-GB"),
+                            onPressedAmerican: () => speakconcussions2("en-US"),
                           ),
                         ],
                       ),

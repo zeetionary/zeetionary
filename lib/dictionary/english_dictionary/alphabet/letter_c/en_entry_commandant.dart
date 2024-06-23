@@ -94,31 +94,13 @@ class EnglishEntrycommandant extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەفسەرێک کە بەرپرسی گرووپێکی سەربازی یان دامەزراوەیەکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was appointed as the new commandant."),
-                                    ExampleSentenceKurdish(
-                                        text: "وەک فەرمانداری تازە دیاریکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commandant", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommandants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommandants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was appointed as the new commandant.",
+                            kurdishText:
+                                "وەک فەرمانداری تازە دیاریکرا.", // commandant",
+                            onPressedBritish: () => speakcommandants1("en-GB"),
+                            onPressedAmerican: () => speakcommandants1("en-US"),
                           ),
                         ],
                       ),

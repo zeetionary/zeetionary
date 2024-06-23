@@ -102,62 +102,23 @@ class EnglishEntrycoolly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە ھاوڕێیانە یان بەجۆشەوە نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He received my suggestion coolly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشنیارەکەمی ساردوسڕانە وەرگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coolly", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoollys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoollys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He received my suggestion coolly.",
+                            kurdishText:
+                                "پێشنیارەکەمی ساردوسڕانە وەرگرت.", // coolly",
+                            onPressedBritish: () => speakcoollys1("en-GB"),
+                            onPressedAmerican: () => speakcoollys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵکار) بە لەسەرەخۆیی‌یەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mike was astonished but Emma took it very coolly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مایک حەپەسا بەڵام ئێما زۆر بە لەسەرەخۆیی‌یەوە وەریگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoollys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoollys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mike was astonished but Emma took it very coolly.",
+                            kurdishText:
+                                "مایک حەپەسا بەڵام ئێما زۆر بە لەسەرەخۆیی‌یەوە وەریگرت.",
+                            onPressedBritish: () => speakcoollys2("en-GB"),
+                            onPressedAmerican: () => speakcoollys2("en-US"),
                           ),
                         ],
                       ),

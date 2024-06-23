@@ -94,32 +94,12 @@ class EnglishEntrychrome extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کانزایەکی رەوشاوەی ڕەق کە یەکێکی دیکە دەپارێزێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car has bright chrome trim."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە ڕازاندنەوەی درەوشاوەی کرۆمی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chrome", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchromes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchromes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The car has bright chrome trim.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە ڕازاندنەوەی درەوشاوەی کرۆمی ھەیە.", // chrome",
+                            onPressedBritish: () => speakchromes1("en-GB"),
+                            onPressedAmerican: () => speakchromes1("en-US"),
                           ),
                         ],
                       ),

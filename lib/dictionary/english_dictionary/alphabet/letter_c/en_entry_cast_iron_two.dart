@@ -191,62 +191,24 @@ class EnglishEntrycastirontwo extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) درووستکراو لە ئاسنی سەخت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chef praised the cast-iron skillet for its unparalleled heat retention."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێفەکە پەسنی تاوە سەختەکەی کرد بۆ بەرگەگرتنی ناوازەی بە گەرمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cast-iron", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastirons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastirons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chef praised the cast-iron skillet for its unparalleled heat retention.",
+                            kurdishText:
+                                "شێفەکە پەسنی تاوە سەختەکەی کرد بۆ بەرگەگرتنی ناوازەی بە گەرمی.", // cast-iron",
+                            onPressedBritish: () => speakcastirons1("en-GB"),
+                            onPressedAmerican: () => speakcastirons1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) شتێک کە ناشکێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Can you give me a cast-iron guarantee that the work will be completed on time?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەتوانیت دڵنیایی تەواوم پێ‌بدەیت کە کارەکە لە کاتی خۆیدا تەواو دەبێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastirons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastirons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Can you give me a cast-iron guarantee that the work will be completed on time?",
+                            kurdishText:
+                                "ئەتوانیت دڵنیایی تەواوم پێ‌بدەیت کە کارەکە لە کاتی خۆیدا تەواو دەبێت؟",
+                            onPressedBritish: () => speakcastirons2("en-GB"),
+                            onPressedAmerican: () => speakcastirons2("en-US"),
                           ),
                         ],
                       ),

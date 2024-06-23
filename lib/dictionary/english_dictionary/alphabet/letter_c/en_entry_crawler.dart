@@ -243,63 +243,25 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە خۆی لە کەسێک نزیک دەکاتەوە و دڵی خۆش دەکات بۆ بەدەستھێنانی ئەوەی دەیەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She became known as a crawler after constantly praising the teacher to get better grades."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەک ماستاوچی ناسرا لە دوای ئەوەی بەردەوام ستایشی مامۆستاکەی دەکرد بۆ بەدەستھێنانی نمرەی بەرزتر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crawler", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrawlers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrawlers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She became known as a crawler after constantly praising the teacher to get better grades.",
+            kurdishText:
+                "وەک ماستاوچی ناسرا لە دوای ئەوەی بەردەوام ستایشی مامۆستاکەی دەکرد بۆ بەدەستھێنانی نمرەی بەرزتر.", // crawler", please follow LX instructions
+            onPressedBritish: () => speakcrawlers1("en-GB"),
+            onPressedAmerican: () => speakcrawlers1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شتێک کە بە زەویدا دەخشێت، وەک منداڵێک، ئاژەڵێک، یان ئۆتۆمبێلێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Crawlers often develop their arm muscles quickly from all the crawling."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گاگۆڵکێکاران زۆرجار ماسولکەی باڵیان زوو گەشە پێدەدەن بەھۆی ئەو ھەموو گاگۆڵکێیەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrawlers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrawlers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Crawlers often develop their arm muscles quickly from all the crawling.",
+            kurdishText:
+                "گاگۆڵکێکاران زۆرجار ماسولکەی باڵیان زوو گەشە پێدەدەن بەھۆی ئەو ھەموو گاگۆڵکێیەوە.",
+            onPressedBritish: () => speakcrawlers2("en-GB"),
+            onPressedAmerican: () => speakcrawlers2("en-US"),
           ),
         ],
       ),

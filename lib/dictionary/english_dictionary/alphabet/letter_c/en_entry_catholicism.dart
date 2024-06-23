@@ -187,34 +187,14 @@ class EnglishEntrycatholicism extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەو مەزھەبەی ئایینی مەسیحییەت کە پاپا ڕابەریەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some Catholics have struggled with Catholicism's efforts to come to terms with modernity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کاسۆلیک کێشەیان ھەیە لەگەڵ ھەوڵەکانی کاسۆلیسیزم بۆ خۆگونجاندن لەگەڵ جیھانی سەردەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "Catholicism", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatholicisms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatholicisms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some Catholics have struggled with Catholicism's efforts to come to terms with modernity.",
+                            kurdishText:
+                                "ھەندێک کاسۆلیک کێشەیان ھەیە لەگەڵ ھەوڵەکانی کاسۆلیسیزم بۆ خۆگونجاندن لەگەڵ جیھانی سەردەم.", // Catholicism",
+                            onPressedBritish: () => speakcatholicisms1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcatholicisms1("en-US"),
                           ),
                         ],
                       ),

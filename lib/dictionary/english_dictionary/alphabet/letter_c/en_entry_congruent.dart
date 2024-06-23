@@ -104,62 +104,24 @@ class EnglishEntrycongruent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی ھەمان قەبارە و شێوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two triangles were congruent, with all sides and angles matching."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو سێگۆشەکە وەکیەک بوون و لە ھەموو لا و گۆشەکانەوە یەکسان بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congruent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongruents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongruents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two triangles were congruent, with all sides and angles matching.",
+                            kurdishText:
+                                "دوو سێگۆشەکە وەکیەک بوون و لە ھەموو لا و گۆشەکانەوە یەکسان بوون.", // congruent",
+                            onPressedBritish: () => speakcongruents1("en-GB"),
+                            onPressedAmerican: () => speakcongruents1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) ڕێک‌کەوتوو لەگەڵ شتێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The measures are congruent with the changes in management policy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەنگاوەکان یەکدەگرنەوە لەگەڵ گۆڕانکارییەکان لە سیاسەتی بەڕێوەبردندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongruents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongruents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The measures are congruent with the changes in management policy.",
+                            kurdishText:
+                                "ھەنگاوەکان یەکدەگرنەوە لەگەڵ گۆڕانکارییەکان لە سیاسەتی بەڕێوەبردندا.",
+                            onPressedBritish: () => speakcongruents2("en-GB"),
+                            onPressedAmerican: () => speakcongruents2("en-US"),
                           ),
                         ],
                       ),

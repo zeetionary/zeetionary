@@ -284,202 +284,70 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: وڵاخ، مانگا، چێڵ،	مێ، دێڵ، دەڵەقۆڕ 
 """),
           const DefinitionKurdish(text: "١. (ناو) مانگا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We had several chickens and a dairy cow on our farm."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک مریشک و مانگایەکی شیردەرمان ھەبوو لە کێڵگەکەمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cow", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcows1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcows1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We had several chickens and a dairy cow on our farm.",
+            kurdishText:
+                "ژمارەیەک مریشک و مانگایەکی شیردەرمان ھەبوو لە کێڵگەکەمان.", // cow", please follow LX instructions
+            onPressedBritish: () => speakcows1("en-GB"),
+            onPressedAmerican: () => speakcows1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Most of these ranchers own only own a bull and about twenty cows."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرێک لەم ئاژەڵدارانە تەنھا یەک نێرەگا و نزیکەی ٢٠ مانگایان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcows2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcows2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Most of these ranchers own only own a bull and about twenty cows.",
+            kurdishText:
+                "زۆرێک لەم ئاژەڵدارانە تەنھا یەک نێرەگا و نزیکەی ٢٠ مانگایان ھەیە.",
+            onPressedBritish: () => speakcows2("en-GB"),
+            onPressedAmerican: () => speakcows2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) مێینەی فیل، نەھەنگ، و ھەندێک شیردەری گەورەی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cow elephant's tusks were shorter compared to those of the bull elephants."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "عاجەکانی فیلی مێینە کورتتر بوون بەراورد بە ئەوانەی فیلی نێرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcows3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcows3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cow elephant's tusks were shorter compared to those of the bull elephants.",
+            kurdishText:
+                "عاجەکانی فیلی مێینە کورتتر بوون بەراورد بە ئەوانەی فیلی نێرە.",
+            onPressedBritish: () => speakcows3("en-GB"),
+            onPressedAmerican: () => speakcows3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) وشەیەکی ناشرین بۆ ژنێک کە حەزت پێی نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She felt hurt when she overheard someone refer to her as a cow."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەستی بە دڵشکان کرد کە گوێی لە کەسێک بوو بە دەڵەقۆڕ ناویھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcows4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcows4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She felt hurt when she overheard someone refer to her as a cow.",
+            kurdishText:
+                "ھەستی بە دڵشکان کرد کە گوێی لە کەسێک بوو بە دەڵەقۆڕ ناویھێنا.",
+            onPressedBritish: () => speakcows4("en-GB"),
+            onPressedAmerican: () => speakcows4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) شتێکی سەخت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "It's been a cow of a day."),
-                    ExampleSentenceKurdish(text: "ڕۆژێکی سەخت بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcows5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcows5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's been a cow of a day.",
+            kurdishText: "ڕۆژێکی سەخت بووە.",
+            onPressedBritish: () => speakcows5("en-GB"),
+            onPressedAmerican: () => speakcows5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) تۆقاندنی کەسێک بۆ ئەوەی گوێڕایەڵت بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was easily cowed by people in authority."),
-                    ExampleSentenceKurdish(
-                        text: "بە ئاسانی دەترسێندرا بە کەسانی دەسەڵاتدار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcows6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcows6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was easily cowed by people in authority.",
+            kurdishText: "بە ئاسانی دەترسێندرا بە کەسانی دەسەڵاتدار.",
+            onPressedBritish: () => speakcows6("en-GB"),
+            onPressedAmerican: () => speakcows6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Two judges have refused to be cowed by pressure from the government."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوو دادوەر ڕەتیان کردووەتەوە چۆک دابدەن بۆ فشاری حکومەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcows7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcows7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Two judges have refused to be cowed by pressure from the government.",
+            kurdishText:
+                "دوو دادوەر ڕەتیان کردووەتەوە چۆک دابدەن بۆ فشاری حکومەت.",
+            onPressedBritish: () => speakcows7("en-GB"),
+            onPressedAmerican: () => speakcows7("en-US"),
           ),
         ],
       ),

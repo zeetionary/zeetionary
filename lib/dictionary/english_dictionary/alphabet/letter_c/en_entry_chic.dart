@@ -101,62 +101,22 @@ class EnglishEntrychic extends StatelessWidget {
 کوردی: شیک، جوان، شۆخ، شۆخی، شەنگی، شۆخ‌وشەنگی
 """),
                           const DefinitionKurdish(text: "١. (ناو) شۆخ‌وشەنگی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "British politicians are not renowned for their chic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیاسەتمەدارە بەریتانییەکان ناسراو نیین بۆ شۆخ‌وشەنگییان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "British politicians are not renowned for their chic.",
+                            kurdishText:
+                                "سیاسەتمەدارە بەریتانییەکان ناسراو نیین بۆ شۆخ‌وشەنگییان.", // chic",
+                            onPressedBritish: () => speakchics1("en-GB"),
+                            onPressedAmerican: () => speakchics1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) شۆخ‌وشەنگ و مۆدخواز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is always so chic, so elegant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە شۆخ‌وشەنگ و زۆر ڕێکپۆشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She is always so chic, so elegant.",
+                            kurdishText: "ھەمیشە شۆخ‌وشەنگ و زۆر ڕێکپۆشە.",
+                            onPressedBritish: () => speakchics2("en-GB"),
+                            onPressedAmerican: () => speakchics2("en-US"),
                           ),
                         ],
                       ),

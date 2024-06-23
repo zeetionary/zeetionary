@@ -102,60 +102,22 @@ class EnglishEntrychubby extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) کەمێک قەڵەو کە جوانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Aah, look at his chubby little hands!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاھ، سەیری دەستە خڕەڵەکانی بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chubby", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchubbys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchubbys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Aah, look at his chubby little hands!",
+                            kurdishText:
+                                "ئاھ، سەیری دەستە خڕەڵەکانی بکە.", // chubby",
+                            onPressedBritish: () => speakchubbys1("en-GB"),
+                            onPressedAmerican: () => speakchubbys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was twenty years old and pretty in a chubby sort of way."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیست ساڵ بوو خرپن بوو بەشێوەیەکی جوان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchubbys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchubbys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was twenty years old and pretty in a chubby sort of way.",
+                            kurdishText:
+                                "بیست ساڵ بوو خرپن بوو بەشێوەیەکی جوان.",
+                            onPressedBritish: () => speakchubbys2("en-GB"),
+                            onPressedAmerican: () => speakchubbys2("en-US"),
                           ),
                         ],
                       ),

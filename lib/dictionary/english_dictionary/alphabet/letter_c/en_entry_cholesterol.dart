@@ -103,64 +103,22 @@ class EnglishEntrycholesterol extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مادەیەکی چەور کە لە زۆربەی شانەکانی لەشدایە. ڕێژەی زۆری کۆلێسترۆڵ لە خوێندا بە ھۆکار بۆ نەخۆشییەکانی دڵ دادەنرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is the fat that won't raise your cholesterol."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە ئەو چەورییەیە کە ڕێژەی کۆلێسترۆڵت بەرزناکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cholesterol", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcholesterols1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcholesterols1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is the fat that won't raise your cholesterol.",
+                            kurdishText:
+                                "ئەمە ئەو چەورییەیە کە ڕێژەی کۆلێسترۆڵت بەرزناکاتەوە.", // cholesterol",
+                            onPressedBritish: () => speakcholesterols1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcholesterols1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Avocados contain no cholesterol."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەڤۆکادۆ ھیچ کۆلێسترۆڵی تێدا نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcholesterols2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcholesterols2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Avocados contain no cholesterol.",
+                            kurdishText: "ئەڤۆکادۆ ھیچ کۆلێسترۆڵی تێدا نییە.",
+                            onPressedBritish: () => speakcholesterols2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcholesterols2("en-US"),
                           ),
                         ],
                       ),

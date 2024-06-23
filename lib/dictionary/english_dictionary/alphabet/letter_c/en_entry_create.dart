@@ -318,60 +318,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) درووستکردن یان ھێنانەبوونی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Scientists disagree about how the universe was created."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زاناکان ناکۆکن لەسەر ئەوەی گەردوون چۆن درووست بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "create", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Scientists disagree about how the universe was created.",
+            kurdishText:
+                "زاناکان ناکۆکن لەسەر ئەوەی گەردوون چۆن درووست بوو.", // create", please follow LX instructions
+            onPressedBritish: () => speakcreates1("en-GB"),
+            onPressedAmerican: () => speakcreates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The main purpose of industry is to create wealth."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکەم مەبەستی پیشەسازی ئەوەیە کە سامان درووست بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The main purpose of industry is to create wealth.",
+            kurdishText: "یەکەم مەبەستی پیشەسازی ئەوەیە کە سامان درووست بکات.",
+            onPressedBritish: () => speakcreates2("en-GB"),
+            onPressedAmerican: () => speakcreates2("en-US"),
           ),
           Column(
             children: [
@@ -494,144 +454,49 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بوون بە ھۆکاری ھەستێکی تایبەت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company is trying to create a young energetic image."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە ھەوڵ دەدات وێنایەکی کارا و گەنجانە درووست بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreates7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreates7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company is trying to create a young energetic image.",
+            kurdishText:
+                "کۆمپانیاکە ھەوڵ دەدات وێنایەکی کارا و گەنجانە درووست بکات.",
+            onPressedBritish: () => speakcreates7("en-GB"),
+            onPressedAmerican: () => speakcreates7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The announcement only succeeded in creating confusion."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاگەیاندنەکە تەنھا بوو بە ھۆی درووستکردنی سەرلێ‌شێواوی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreates8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreates8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The announcement only succeeded in creating confusion.",
+            kurdishText:
+                "ڕاگەیاندنەکە تەنھا بوو بە ھۆی درووستکردنی سەرلێ‌شێواوی.",
+            onPressedBritish: () => speakcreates8("en-GB"),
+            onPressedAmerican: () => speakcreates8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They've painted it red to create a feeling of warmth."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە سوور بۆیەیان کردووە بۆ ئەوەی ھەستی گەرم‌وگوڕی درووست بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreates9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreates9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They've painted it red to create a feeling of warmth.",
+            kurdishText:
+                "بە سوور بۆیەیان کردووە بۆ ئەوەی ھەستی گەرم‌وگوڕی درووست بکات.",
+            onPressedBritish: () => speakcreates9("en-GB"),
+            onPressedAmerican: () => speakcreates9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We work hard to create a pleasant environment for patients, visitors and staff."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە سەختی کار دەکەین بۆ ئەوەی ژینگەیەکی خۆش بۆ نەخۆشان و سەردانکاران و ستافەکە بسازێنین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreates10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreates10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We work hard to create a pleasant environment for patients, visitors and staff.",
+            kurdishText:
+                "بە سەختی کار دەکەین بۆ ئەوەی ژینگەیەکی خۆش بۆ نەخۆشان و سەردانکاران و ستافەکە بسازێنین.",
+            onPressedBritish: () => speakcreates10("en-GB"),
+            onPressedAmerican: () => speakcreates10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) پێدانی نازناوێک یان پێگەیەکی دیاریکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was created a baronet in 1715."),
-                    ExampleSentenceKurdish(
-                        text: "لە ساڵی ١٧١٥ کرا بە بەگزادە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreates11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreates11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was created a baronet in 1715.",
+            kurdishText: "لە ساڵی ١٧١٥ کرا بە بەگزادە.",
+            onPressedBritish: () => speakcreates11("en-GB"),
+            onPressedAmerican: () => speakcreates11("en-US"),
           ),
         ],
       ),

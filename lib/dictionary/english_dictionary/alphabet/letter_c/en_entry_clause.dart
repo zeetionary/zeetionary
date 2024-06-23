@@ -119,118 +119,41 @@ class EnglishEntryclause extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆمەڵێک وشە کە بکەرێک و کارێکی تێدایە، و ڕستەیەک یان بەشێکی ڕستەیەک پێکدێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is the object of the verb of the clause."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەرکاری کاری بڕگەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clause", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclauses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclauses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is the object of the verb of the clause.",
+                            kurdishText: "بەرکاری کاری بڕگەکەیە.", // clause",
+                            onPressedBritish: () => speakclauses1("en-GB"),
+                            onPressedAmerican: () => speakclauses1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Commas are used to separate clauses of sentences."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فاریزە بەکاردێت بۆ جیاکردنەوەی بڕگەی ڕستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclauses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclauses2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Commas are used to separate clauses of sentences.",
+                            kurdishText:
+                                "فاریزە بەکاردێت بۆ جیاکردنەوەی بڕگەی ڕستە.",
+                            onPressedBritish: () => speakclauses2("en-GB"),
+                            onPressedAmerican: () => speakclauses2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەشێکی بەڵگەنامەیەکی یاسایی کە دەڵێت شتێک دەبێت یان نابێت بکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Under Clause 5.8, the company is responsible for the health of its employees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەژێر بڕگەی ٥,٨ـدا، کۆمپانیا بەرپرسە بۆ تەندرووستی کارمەندانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclauses3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclauses3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Under Clause 5.8, the company is responsible for the health of its employees.",
+                            kurdishText:
+                                "لەژێر بڕگەی ٥,٨ـدا، کۆمپانیا بەرپرسە بۆ تەندرووستی کارمەندانی.",
+                            onPressedBritish: () => speakclauses3("en-GB"),
+                            onPressedAmerican: () => speakclauses3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many of the clauses will have to be amended."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرێک لە بڕگەکان دەبێت چاک بکرێنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclauses4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclauses4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many of the clauses will have to be amended.",
+                            kurdishText: "زۆرێک لە بڕگەکان دەبێت چاک بکرێنەوە.",
+                            onPressedBritish: () => speakclauses4("en-GB"),
+                            onPressedAmerican: () => speakclauses4("en-US"),
                           ),
                         ],
                       ),

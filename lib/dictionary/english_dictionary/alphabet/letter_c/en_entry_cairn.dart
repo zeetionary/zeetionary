@@ -193,32 +193,13 @@ class EnglishEntrycairn extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەڵەکەبەردێک کە ڕێگایەک لەسەر شاخێک یان شوێنی ناشتنی کەسێک دیاری دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The shepherd created a cairn to mark the edge of the grazing land."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شوانەکە کەڵەکەبەردێکی دانا بۆ دیاریکردنی کۆتایی ناوچەی لەوەڕەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cairn", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcairns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcairns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The shepherd created a cairn to mark the edge of the grazing land.",
+                            kurdishText:
+                                "شوانەکە کەڵەکەبەردێکی دانا بۆ دیاریکردنی کۆتایی ناوچەی لەوەڕەکە.", // cairn
+                            onPressedBritish: () => speakcairns1("en-GB"),
+                            onPressedAmerican: () => speakcairns1("en-US"),
                           ),
                         ],
                       ),

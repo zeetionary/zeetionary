@@ -191,94 +191,37 @@ class EnglishEntrycarton extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) وێنەکێشانێکی تەنزئامێز لە ڕۆژنامە یان گۆڤاردا، بەتایبەتی لەسەر سیاسەت و ھەواڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He started drawing cartoons when he was still at school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی بە کێشانی کارتۆن کرد کە ھێشتا لە قوتابخانە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carton", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcartons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcartons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He started drawing cartoons when he was still at school.",
+                            kurdishText:
+                                "دەستی بە کێشانی کارتۆن کرد کە ھێشتا لە قوتابخانە بوو.", // carton",
+                            onPressedBritish: () => speakcartons1("en-GB"),
+                            onPressedAmerican: () => speakcartons1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) زنجیرەیەک لە وێنەی کێشراو کە کە چیرۆکێک دەگێڕنەوە و زۆرجار لە ڕۆژنامەدا چاپدەکرێن"),
                           const AlsoEnglishckb(word: "ھەروەھا: comic strip"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's the creator of a successful cartoon series."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "درووستکەری زنجیرە کارتۆنێکی سەرکەوتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcartons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcartons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's the creator of a successful cartoon series.",
+                            kurdishText:
+                                "درووستکەری زنجیرە کارتۆنێکی سەرکەوتووە.",
+                            onPressedBritish: () => speakcartons2("en-GB"),
+                            onPressedAmerican: () => speakcartons2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) زنجیرە فیلمی کارتۆنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The TV shows kids' cartoons on Saturday mornings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەلەفیزیۆن فیلم کارتۆنی منداڵان لە بەیانییانی شەممە لێدەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcartons3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcartons3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The TV shows kids' cartoons on Saturday mornings.",
+                            kurdishText:
+                                "تەلەفیزیۆن فیلم کارتۆنی منداڵان لە بەیانییانی شەممە لێدەدات.",
+                            onPressedBritish: () => speakcartons3("en-GB"),
+                            onPressedAmerican: () => speakcartons3("en-US"),
                           ),
                         ],
                       ),

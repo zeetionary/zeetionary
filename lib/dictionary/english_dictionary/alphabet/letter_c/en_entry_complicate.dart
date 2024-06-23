@@ -113,88 +113,31 @@ class EnglishEntrycomplicate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ئاڵۆزکردنی شت و سەختکردنی بۆ تێگەشتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I do not wish to complicate the task more than is necessary."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەوێت ئەرکەکە زیاتر لەوەی پێویستە ئاڵۆز بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "complicate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplicates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplicates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I do not wish to complicate the task more than is necessary.",
+                            kurdishText:
+                                "نامەوێت ئەرکەکە زیاتر لەوەی پێویستە ئاڵۆز بکەم.", // complicate",
+                            onPressedBritish: () => speakcomplicates1("en-GB"),
+                            onPressedAmerican: () => speakcomplicates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The issue is complicated by the fact that a vital document is missing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بابەتەکە ئاڵۆز بووە بەوەی کە بەڵگەنامەیەکی گرنگ ونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplicates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplicates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The issue is complicated by the fact that a vital document is missing.",
+                            kurdishText:
+                                "بابەتەکە ئاڵۆز بووە بەوەی کە بەڵگەنامەیەکی گرنگ ونە.",
+                            onPressedBritish: () => speakcomplicates2("en-GB"),
+                            onPressedAmerican: () => speakcomplicates2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These events will greatly complicate the situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ڕووداوانە بە ئاستێکی زۆر دۆخەکە ئاڵۆز دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomplicates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomplicates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These events will greatly complicate the situation.",
+                            kurdishText:
+                                "ئەم ڕووداوانە بە ئاستێکی زۆر دۆخەکە ئاڵۆز دەکەن.",
+                            onPressedBritish: () => speakcomplicates3("en-GB"),
+                            onPressedAmerican: () => speakcomplicates3("en-US"),
                           ),
                         ],
                       ),

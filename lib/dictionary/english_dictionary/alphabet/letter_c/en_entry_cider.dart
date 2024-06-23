@@ -95,32 +95,13 @@ class EnglishEntrycider extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خواردنەوەیەک کە دەکرێت کحوولی بێت یان کحوولی نەبێت کە لە ئاوی سێو درووست دەکرێت؛ گڵاسێک لە سێواو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cider was very strong and went straight to our heads."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێواوەکە زۆر بەھێز بوو و ڕاستەوخۆ کاریگەری لەسەر سەرمان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cider", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakciders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakciders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cider was very strong and went straight to our heads.",
+                            kurdishText:
+                                "سێواوەکە زۆر بەھێز بوو و ڕاستەوخۆ کاریگەری لەسەر سەرمان کرد.", // cider",
+                            onPressedBritish: () => speakciders1("en-GB"),
+                            onPressedAmerican: () => speakciders1("en-US"),
                           ),
                         ],
                       ),

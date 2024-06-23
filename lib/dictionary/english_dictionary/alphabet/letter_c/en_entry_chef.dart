@@ -94,32 +94,13 @@ class EnglishEntrychef extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) چێشت‌لێنەرێکی پڕۆفیشناڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She used to work as a chef in a big hotel in Johannesburg."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران وەک شیفێک لە ھوتێلێکی گەورە لە جۆھانسبێرگ کاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chef", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchefs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchefs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She used to work as a chef in a big hotel in Johannesburg.",
+                            kurdishText:
+                                "جاران وەک شیفێک لە ھوتێلێکی گەورە لە جۆھانسبێرگ کاری دەکرد.", // chef",
+                            onPressedBritish: () => speakchefs1("en-GB"),
+                            onPressedAmerican: () => speakchefs1("en-US"),
                           ),
                         ],
                       ),

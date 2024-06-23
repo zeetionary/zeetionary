@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) یارییەک کە تێیدا یاریزانان دەسکێک بەکاردێنن بۆ لێدان لە تۆپ و ھەڵدانی بەناو ژمارەیەک ئەڵقەی کەوانەیی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The children enjoyed playing croquet on sunny afternoons."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکان چێژیان دەبینی لە نیوەڕوانی خۆرەتاودا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "croquet", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcroquets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcroquets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The children enjoyed playing croquet on sunny afternoons.",
+            kurdishText:
+                "منداڵەکان چێژیان دەبینی لە نیوەڕوانی خۆرەتاودا.", // croquet", please follow LX instructions
+            onPressedBritish: () => speakcroquets1("en-GB"),
+            onPressedAmerican: () => speakcroquets1("en-US"),
           ),
         ],
       ),

@@ -104,62 +104,24 @@ class EnglishEntrychastise extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) سەرزەنشتکردنی کەسێک بۆ شتێکی ھەڵە کە کردوویەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Charity organizations have chastised the government for not doing enough to prevent the latest famine in Africa."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەزگا خێرخوازییەکان لۆمەی حکومەتیان کردووە بۆ کەمتەرخەمی لە ڕێگری وشکەساڵی لە ئەفریقا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chastise", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchastises1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchastises1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Charity organizations have chastised the government for not doing enough to prevent the latest famine in Africa.",
+                            kurdishText:
+                                "دەزگا خێرخوازییەکان لۆمەی حکومەتیان کردووە بۆ کەمتەرخەمی لە ڕێگری وشکەساڵی لە ئەفریقا.", // chastise",
+                            onPressedBritish: () => speakchastises1("en-GB"),
+                            onPressedAmerican: () => speakchastises1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) سزادانی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Parents are no longer allowed to chastise their children as they did in the past."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایک و باوک چی دیکە ڕێگەپێدراو نیین لە منداڵەکانیان بدەن وەک جاران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchastises2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchastises2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Parents are no longer allowed to chastise their children as they did in the past.",
+                            kurdishText:
+                                "دایک و باوک چی دیکە ڕێگەپێدراو نیین لە منداڵەکانیان بدەن وەک جاران.",
+                            onPressedBritish: () => speakchastises2("en-GB"),
+                            onPressedAmerican: () => speakchastises2("en-US"),
                           ),
                         ],
                       ),

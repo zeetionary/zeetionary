@@ -95,34 +95,15 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) سووڕانەوە بە دەوری شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They circumnavigated the world in 75 days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ٧٥ ڕۆژ بە دەوری جیھاندا سووڕانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circumnavigate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcircumnavigates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcircumnavigates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They circumnavigated the world in 75 days.",
+                            kurdishText:
+                                "بە ٧٥ ڕۆژ بە دەوری جیھاندا سووڕانەوە.", // circumnavigate",
+                            onPressedBritish: () =>
+                                speakcircumnavigates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcircumnavigates1("en-US"),
                           ),
                         ],
                       ),

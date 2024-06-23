@@ -232,30 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بە واتایەکی شاراوە یان سەخت بۆ تێگەشتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I got a cryptic text message from Sam."),
-                    ExampleSentenceKurdish(
-                        text: "نامەیەکی سڕاویم پێگەشت لە سامەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cryptic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcryptics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcryptics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I got a cryptic text message from Sam.",
+            kurdishText:
+                "نامەیەکی سڕاویم پێگەشت لە سامەوە.", // cryptic", please follow LX instructions
+            onPressedBritish: () => speakcryptics1("en-GB"),
+            onPressedAmerican: () => speakcryptics1("en-US"),
           ),
         ],
       ),

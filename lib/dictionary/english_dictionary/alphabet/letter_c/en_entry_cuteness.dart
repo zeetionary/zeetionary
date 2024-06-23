@@ -241,61 +241,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سەرنج‌ڕاکێشی، دڵڕفێنی،	زیرەکی، وریایی
 """),
           const DefinitionKurdish(text: "١. (ناو) جوان و سەرنجڕاکێش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Dogs have more to offer than just cuteness and companionship."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەگ زیاتر لە جوانی و ھاوڕێیەتی ھەیە کە بیبەخشێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cuteness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutenesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutenesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Dogs have more to offer than just cuteness and companionship.",
+            kurdishText:
+                "سەگ زیاتر لە جوانی و ھاوڕێیەتی ھەیە کە بیبەخشێت.", // cuteness", please follow LX instructions
+            onPressedBritish: () => speakcutenesss1("en-GB"),
+            onPressedAmerican: () => speakcutenesss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) زیرەکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her cuteness was in her ability to come up with witty remarks."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زرنگییەکەی لە توانایدا بوو کە لێدوانی زیرەکانە بدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutenesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutenesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her cuteness was in her ability to come up with witty remarks.",
+            kurdishText: "زرنگییەکەی لە توانایدا بوو کە لێدوانی زیرەکانە بدات.",
+            onPressedBritish: () => speakcutenesss2("en-GB"),
+            onPressedAmerican: () => speakcutenesss2("en-US"),
           ),
         ],
       ),

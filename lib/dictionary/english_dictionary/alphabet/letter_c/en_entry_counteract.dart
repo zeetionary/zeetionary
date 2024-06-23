@@ -242,60 +242,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) کردنی شتێک کە زیانی زیانی خراپی شتێکی دیکە کەمدەکاتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These exercises aim to counteract the effects of stress and tension."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ڕاھێنانانە ئامانجیانە کاریگەری سترێس و ناڕەحەتی کەم بکەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "counteract", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounteracts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounteracts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These exercises aim to counteract the effects of stress and tension.",
+            kurdishText:
+                "ئەم ڕاھێنانانە ئامانجیانە کاریگەری سترێس و ناڕەحەتی کەم بکەنەوە.", // counteract", please follow LX instructions
+            onPressedBritish: () => speakcounteracts1("en-GB"),
+            onPressedAmerican: () => speakcounteracts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Drinking a lot of water counteracts the dehydrating effects of hot weather."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خواردنەوەی ئاوی زۆر دژی کاریگەرییە وشککەرەوەکانی کەشی گەرم دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounteracts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounteracts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Drinking a lot of water counteracts the dehydrating effects of hot weather.",
+            kurdishText:
+                "خواردنەوەی ئاوی زۆر دژی کاریگەرییە وشککەرەوەکانی کەشی گەرم دەبێت.",
+            onPressedBritish: () => speakcounteracts2("en-GB"),
+            onPressedAmerican: () => speakcounteracts2("en-US"),
           ),
         ],
       ),

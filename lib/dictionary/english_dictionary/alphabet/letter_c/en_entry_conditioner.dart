@@ -95,34 +95,14 @@ class EnglishEntryconditioner extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شلەیەک یان کرێمێک کە بۆ تەندرووستی قژ بەکاردێت لە دوای شۆردنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She uses a conditioner to keep her hair soft and tangle-free."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاوکەرەوەیەک بەکاردێنێت بۆ پاراستنی قژی بە خاوی و بێ ئاڵۆسکاوی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conditioner", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconditioners1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconditioners1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She uses a conditioner to keep her hair soft and tangle-free.",
+                            kurdishText:
+                                "خاوکەرەوەیەک بەکاردێنێت بۆ پاراستنی قژی بە خاوی و بێ ئاڵۆسکاوی.", // conditioner",
+                            onPressedBritish: () => speakconditioners1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconditioners1("en-US"),
                           ),
                         ],
                       ),

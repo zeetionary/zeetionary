@@ -192,32 +192,13 @@ class EnglishEntrycactus extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕووەکێک کە لە ناوچەی وشک و گەرم گەشە دەکات، بەتایبەتی یەکێک کە قەدی ئەستوور و دڕکداری ھەیە بەڵام گەڵای نییە. ڕووەکەکە زۆر جۆری ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Spectacular giant cacti stand on the hillside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوڵەخەپلەی گەورەی ناوازە لەسەر گردەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cactus", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcactuss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcactuss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Spectacular giant cacti stand on the hillside.",
+                            kurdishText:
+                                "گوڵەخەپلەی گەورەی ناوازە لەسەر گردەکەن.", // cactus
+                            onPressedBritish: () => speakcactuss1("en-GB"),
+                            onPressedAmerican: () => speakcactuss1("en-US"),
                           ),
                         ],
                       ),

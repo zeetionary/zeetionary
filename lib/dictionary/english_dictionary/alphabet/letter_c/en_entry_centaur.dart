@@ -187,32 +187,13 @@ class EnglishEntrycentaur extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سێنتار، مرۆسپ؛ لە چیرۆکی کۆنی یۆنانییەکاندا گیانلەبەرێک بوو کە سەر، باڵ، و بەشی سەرەوەی لەشی مرۆڤی ھەبوو لەسەر جەستە و لاقی ئەسپ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In Greek mythology, Chiron was a wise and noble centaur known for his teachings and healing abilities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئەفسانەی یۆنانیدا، کایرۆن مرۆسپێکی بیرمەند و دەوڵەمەند بوو کە ناسراو بوو بۆ توانای وانەگوتنەوەی و چارەسەرکردنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "centaur", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentaurs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentaurs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In Greek mythology, Chiron was a wise and noble centaur known for his teachings and healing abilities.",
+                            kurdishText:
+                                "لە ئەفسانەی یۆنانیدا، کایرۆن مرۆسپێکی بیرمەند و دەوڵەمەند بوو کە ناسراو بوو بۆ توانای وانەگوتنەوەی و چارەسەرکردنی.", // centaur",
+                            onPressedBritish: () => speakcentaurs1("en-GB"),
+                            onPressedAmerican: () => speakcentaurs1("en-US"),
                           ),
                         ],
                       ),

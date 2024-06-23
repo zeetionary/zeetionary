@@ -112,88 +112,30 @@ class EnglishEntrycomparable extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھاوشێوە لەگەڵ شتێک/کەسێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A comparable house in the south of the city would cost twice as much."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانوویەکی ھاوشێوە لە باشووری شارەکە دوو ھێندەی تێدەچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comparable", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomparables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomparables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A comparable house in the south of the city would cost twice as much.",
+                            kurdishText:
+                                "خانوویەکی ھاوشێوە لە باشووری شارەکە دوو ھێندەی تێدەچێت.", // comparable",
+                            onPressedBritish: () => speakcomparables1("en-GB"),
+                            onPressedAmerican: () => speakcomparables1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The situation in the US is not directly comparable to that in the UK."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆخەکە لە ئەمریکا ڕاستەوخۆ ھاوشێوە نییە لەگەڵ ئەوەی بەریتانیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomparables2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomparables2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The situation in the US is not directly comparable to that in the UK.",
+                            kurdishText:
+                                "دۆخەکە لە ئەمریکا ڕاستەوخۆ ھاوشێوە نییە لەگەڵ ئەوەی بەریتانیا.",
+                            onPressedBritish: () => speakcomparables2("en-GB"),
+                            onPressedAmerican: () => speakcomparables2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two machines are comparable in size."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو ئامێرەکە ھاوشێوەن لە قەبارەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomparables3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomparables3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two machines are comparable in size.",
+                            kurdishText: "دوو ئامێرەکە ھاوشێوەن لە قەبارەدا.",
+                            onPressedBritish: () => speakcomparables3("en-GB"),
+                            onPressedAmerican: () => speakcomparables3("en-US"),
                           ),
                         ],
                       ),

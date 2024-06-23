@@ -103,62 +103,25 @@ class EnglishEntryconstructively extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە کاریگەری بەسوود و یارمەتیدەری ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Use your time constructively."),
-                                    ExampleSentenceKurdish(
-                                        text: "بنیاتنەرانە کاتت بەکاربھێنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constructively", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructivelys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructivelys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Use your time constructively.",
+                            kurdishText:
+                                "بنیاتنەرانە کاتت بەکاربھێنە.", // constructively",
+                            onPressedBritish: () =>
+                                speakconstructivelys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructivelys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We ought to deal constructively with the problems."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت ئەرێنییانە مامەڵە لەگەڵ کێشەکان بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructivelys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructivelys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We ought to deal constructively with the problems.",
+                            kurdishText:
+                                "دەبێت ئەرێنییانە مامەڵە لەگەڵ کێشەکان بکەین.",
+                            onPressedBritish: () =>
+                                speakconstructivelys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructivelys2("en-US"),
                           ),
                         ],
                       ),

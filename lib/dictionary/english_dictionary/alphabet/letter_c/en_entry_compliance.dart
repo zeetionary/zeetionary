@@ -102,60 +102,22 @@ class EnglishEntrycompliance extends StatelessWidget {
 کوردی: بەگوێ‌گرتن، گوێڕایەڵی، ملکەچی، مل‌نان، مل‌دان، قەبووڵ‌کردن، ڕێک‌کەوتن، قایل‌بوون، بەقسەکردن، پەسندکردن، کردن، (فیزیک) شلی، نەرمی
 """),
                           const DefinitionKurdish(text: "١. (ناو) پابەندی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Safety measures were carried out in compliance with paragraph 6 of the building regulations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێوشوێنی سەلامەتی ئەنجامدرا بە پابەندی بە پەرەگرافی ٦ ـی ڕێساکانی بیناسازی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compliance", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompliances1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompliances1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Safety measures were carried out in compliance with paragraph 6 of the building regulations.",
+                            kurdishText:
+                                "ڕێوشوێنی سەلامەتی ئەنجامدرا بە پابەندی بە پەرەگرافی ٦ ـی ڕێساکانی بیناسازی.", // compliance",
+                            onPressedBritish: () => speakcompliances1("en-GB"),
+                            onPressedAmerican: () => speakcompliances1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company said that it had always acted in compliance with environmental laws."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە گوتی کە ھەمیشە لە چوارچێوەی یاساکانی ژینگەدا ھەنگاوی ناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompliances2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompliances2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company said that it had always acted in compliance with environmental laws.",
+                            kurdishText:
+                                "کۆمپانیاکە گوتی کە ھەمیشە لە چوارچێوەی یاساکانی ژینگەدا ھەنگاوی ناوە.",
+                            onPressedBritish: () => speakcompliances2("en-GB"),
+                            onPressedAmerican: () => speakcompliances2("en-US"),
                           ),
                         ],
                       ),

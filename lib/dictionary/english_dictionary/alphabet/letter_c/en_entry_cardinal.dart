@@ -193,124 +193,47 @@ class EnglishEntrycardinal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) باڵاترین قەشەی کڵێسای کاسۆلیکی ڕۆم کە بەرپرسن لە ھەڵبژاردنی پاپا و ڕاوێژ پێدانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cardinals elect and advise the Pope."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاردیناڵەکان پاپا ھەڵدەبژێرن و ڕاوێژی پێدەدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cardinal", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcardinals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcardinals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Cardinals elect and advise the Pope.",
+                            kurdishText:
+                                "کاردیناڵەکان پاپا ھەڵدەبژێرن و ڕاوێژی پێدەدەن.", // cardinal",
+                            onPressedBritish: () => speakcardinals1("en-GB"),
+                            onPressedAmerican: () => speakcardinals1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ژمارەیەک کە بڕ پیشان دەدات نەک ڕیزبەندی، بۆ نموونە 'یەک'، نەک 'یەکەم'"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cardinal numbers answer the question, \"How many?\""),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارە بنچینەییەکان وەڵامی پرسیاری \"چەند دانە؟\" دەدەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcardinals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcardinals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cardinal numbers answer the question, \"How many?\"",
+                            kurdishText:
+                                "ژمارە بنچینەییەکان وەڵامی پرسیاری \"چەند دانە؟\" دەدەنەوە.",
+                            onPressedBritish: () => speakcardinals2("en-GB"),
+                            onPressedAmerican: () => speakcardinals2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) باڵندەیەکی ئەمریکای باکووری. نێرینەکانیان سووری درەوشاوەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In winter, a cardinal's striking colors stand out against the snow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە زستاندا، ڕەنگی درەوشاوەی سوورەسەیرە لە بەفردا زەق دەردەکەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcardinals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcardinals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In winter, a cardinal's striking colors stand out against the snow.",
+                            kurdishText:
+                                "لە زستاندا، ڕەنگی درەوشاوەی سوورەسەیرە لە بەفردا زەق دەردەکەوێت.",
+                            onPressedBritish: () => speakcardinals3("en-GB"),
+                            onPressedAmerican: () => speakcardinals3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ھاوەڵناو) گرنگترین شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Respect for life is a cardinal principle of English law."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێز بۆ ژیان بنەمایەکی سەرەکیی یاسای ئینگلیزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcardinals4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcardinals4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Respect for life is a cardinal principle of English law.",
+                            kurdishText:
+                                "ڕێز بۆ ژیان بنەمایەکی سەرەکیی یاسای ئینگلیزە.",
+                            onPressedBritish: () => speakcardinals4("en-GB"),
+                            onPressedAmerican: () => speakcardinals4("en-US"),
                           ),
                         ],
                       ),

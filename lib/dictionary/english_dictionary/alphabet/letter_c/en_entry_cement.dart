@@ -195,186 +195,72 @@ class EnglishEntrycement extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھاڕاوەیەکی خۆڵەمێشی کە لەگەڵ ئاو و خۆڵ تێکەڵ دەکرێت بۆ درووستکردنی چیمەنتۆ، یان لەگەڵ ئاو و خۆڵ و زیخ بۆ درووستکردنی کۆنکریت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Different types of cement are used for various construction purposes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جۆری جیاوازی چیمەنتۆ بەکاردێن بۆ مەبەستی جیاوازی بنیاتنان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cement", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcements1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcements1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Different types of cement are used for various construction purposes.",
+                            kurdishText:
+                                "جۆری جیاوازی چیمەنتۆ بەکاردێن بۆ مەبەستی جیاوازی بنیاتنان.", // cement",
+                            onPressedBritish: () => speakcements1("en-GB"),
+                            onPressedAmerican: () => speakcements1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو مادە سەختەی کە درووست دەبێت کاتێک چیمەنتۆ وشک دەبێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A concrete floor is a common choice for basements, garages, and industrial spaces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەرزی چیمەنتۆ ھەڵبژاردەیەکی باوە بۆ ژێرزەمین، گەراج، و شوێنە پیشەسازییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcements2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcements2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A concrete floor is a common choice for basements, garages, and industrial spaces.",
+                            kurdishText:
+                                "ئەرزی چیمەنتۆ ھەڵبژاردەیەکی باوە بۆ ژێرزەمین، گەراج، و شوێنە پیشەسازییەکان.",
+                            onPressedBritish: () => speakcements2("en-GB"),
+                            onPressedAmerican: () => speakcements2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) مادەیەکی نەرم کە ڕەق دەبێت کە وشک دەبێت و بەکاردێت بۆ لکاندن شت بەیەکەوە، یان پڕکردنەوەی چاڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Dentists use cement to hold crowns and bridges in place."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پزیشکانی ددان ناوپڕ بەکاردێنن بۆ دانانی تاج و پرد لە شوێنی خۆیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcements3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcements3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Dentists use cement to hold crowns and bridges in place.",
+                            kurdishText:
+                                "پزیشکانی ددان ناوپڕ بەکاردێنن بۆ دانانی تاج و پرد لە شوێنی خۆیان.",
+                            onPressedBritish: () => speakcements3("en-GB"),
+                            onPressedAmerican: () => speakcements3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) شتێک کە خەڵکی پێکەوە گرێ دەدات لە بەرژەوەندیی ھاوبەشدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Community engagement strengthens societal cement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێکەڵبوونی کۆمەڵگە پێکەوەبەندیی کۆمەڵایەتی بەھێز دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcements4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcements4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Community engagement strengthens societal cement.",
+                            kurdishText:
+                                "تێکەڵبوونی کۆمەڵگە پێکەوەبەندیی کۆمەڵایەتی بەھێز دەکات.",
+                            onPressedBritish: () => speakcements4("en-GB"),
+                            onPressedAmerican: () => speakcements4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) بەستنی دوو شت پێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She used strong glue to cement the wooden panels in place."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەسپی بەھێزی بەکارھێنا بۆ دانانی چوارچێوە دارینەکان لە شوێنی خۆیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcements5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcements5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She used strong glue to cement the wooden panels in place.",
+                            kurdishText:
+                                "چەسپی بەھێزی بەکارھێنا بۆ دانانی چوارچێوە دارینەکان لە شوێنی خۆیان.",
+                            onPressedBritish: () => speakcements5("en-GB"),
+                            onPressedAmerican: () => speakcements5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) بەھێزکردنی پەیوەندییەک، ڕێککەوتنێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The president's visit was intended to cement the alliance between the two countries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەردانەکەی سەرۆک مەبەست لێی ئەوە بوو کە ھاوپەیمانی نێوان دوو وڵاتەکە بەھێز بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcements6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcements6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The president's visit was intended to cement the alliance between the two countries.",
+                            kurdishText:
+                                "سەردانەکەی سەرۆک مەبەست لێی ئەوە بوو کە ھاوپەیمانی نێوان دوو وڵاتەکە بەھێز بکات.",
+                            onPressedBritish: () => speakcements6("en-GB"),
+                            onPressedAmerican: () => speakcements6("en-US"),
                           ),
                         ],
                       ),

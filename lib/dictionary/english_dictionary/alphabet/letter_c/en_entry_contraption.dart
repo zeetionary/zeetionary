@@ -94,34 +94,14 @@ class EnglishEntrycontraption extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئامێرێک یان ئامرازێک کە نامۆ و ئاڵۆز دیارە و ئەگەری ھەیە کار نەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What's that strange contraption in the garage?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو شتە سەمەرە نامۆیە چییە لە گەراجەکەدا؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contraption", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontraptions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontraptions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What's that strange contraption in the garage?",
+                            kurdishText:
+                                "ئەو شتە سەمەرە نامۆیە چییە لە گەراجەکەدا؟", // contraption",
+                            onPressedBritish: () => speakcontraptions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontraptions1("en-US"),
                           ),
                         ],
                       ),

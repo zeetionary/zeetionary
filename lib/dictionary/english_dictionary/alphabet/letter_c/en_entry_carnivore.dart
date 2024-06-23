@@ -186,31 +186,11 @@ class EnglishEntrycarnivore extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گیانەوەری گۆشت‌خۆر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Lions and tigers are carnivores."),
-                                    ExampleSentenceKurdish(
-                                        text: "شێر و بەور گۆشتخۆرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carnivore", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarnivores1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarnivores1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Lions and tigers are carnivores.",
+                            kurdishText: "شێر و بەور گۆشتخۆرن.", // carnivore",
+                            onPressedBritish: () => speakcarnivores1("en-GB"),
+                            onPressedAmerican: () => speakcarnivores1("en-US"),
                           ),
                         ],
                       ),

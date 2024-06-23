@@ -346,57 +346,18 @@ class EnglishEntryclean extends StatelessWidget {
 کوردی: پاک، خاوێن، تەمیز، بێ‌زیان، بێ‌پەڵە، پاقژ،	بێ‌لکە، بێ‌پەڵە،	تازە، نەو، نوێ،	سپی، نەنووسراو، بێ‌نیشان، بەکارنەھێنراو (کاغز)،	بەڕەوشتانە، بەئابڕووانە، ناھەرزانە،	دیار، ئاشکرا، ڕۆشن، ڕوون،	حەڵاڵ، حەڵاڵ گۆشت،	ڕێک‌وپێک، سادە، ساف، تەخت، لووس، ڕێک، تەکوز،	قانوونی،	دادپەروەرانە، جوامێرانە، پیاوانە،	بێ‌فڕوفێڵ، بێ‌خەوش، بێ‌گەرد، بێ‌ھەڵە، باش، پاک، بێ‌گوناھـ، بێ‌سووچ،	وەستایانە، شارەزایانە،	تەواو، ڕەبەق،	بێ‌تیشکدانەوەی ڕادیۆئەکتیڤ یان کەم‌بەرھەم‌ھێنەری تیشکە چالاکەکان (ڕادیۆئەکتیڤ یان چەک‌وچۆڵی ناوکی)،	لەبار، گونجاو،	بەبۆن و بەرام، بۆن‌خۆش، بەتام، بەتەواوەتی، تەواو، پاکی، خاوێنی، تەمیزی، پاقژی، خاوێن‌کردنەوە، سڕین، تەمیزکردن
 """),
                           const DefinitionKurdish(text: "١. (ھاوەڵناو) پاک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Are your hands clean?"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەستەکانی پاکن؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clean", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Are your hands clean?",
+                            kurdishText: "دەستەکانی پاکن؟", // clean",
+                            onPressedBritish: () => speakcleans1("en-GB"),
+                            onPressedAmerican: () => speakcleans1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wiped all the surfaces clean."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەواوی ڕووەکانم پاککردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She wiped all the surfaces clean.",
+                            kurdishText: "تەواوی ڕووەکانم پاککردەوە.",
+                            onPressedBritish: () => speakcleans2("en-GB"),
+                            onPressedAmerican: () => speakcleans2("en-US"),
                           ),
                           Column(
                             children: [
@@ -559,504 +520,172 @@ class EnglishEntryclean extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ھەبوونی شێوەیەکی جوان و ژیانکردن لە دۆخی خاوێندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Cats are very clean animals."),
-                                    ExampleSentenceKurdish(
-                                        text: "پشیلە ئاژەڵێکی زۆر خاوێنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Cats are very clean animals.",
+                            kurdishText: "پشیلە ئاژەڵێکی زۆر خاوێنە.",
+                            onPressedBritish: () => speakcleans8("en-GB"),
+                            onPressedAmerican: () => speakcleans8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) خاوێن لە مادەی زیانبەخش"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Thousands were left without food or clean drinking water."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەزاران کەس بەبێ خواردن و ئاوی خواردنەوەی پاک مانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Thousands were left without food or clean drinking water.",
+                            kurdishText:
+                                "ھەزاران کەس بەبێ خواردن و ئاوی خواردنەوەی پاک مانەوە.",
+                            onPressedBritish: () => speakcleans9("en-GB"),
+                            onPressedAmerican: () => speakcleans9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Electric buses are a clean, environmentally friendly way to travel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاسی ئەلیکترۆنی ڕێگایەکی خاوێن ژینگەدۆستن بۆ گەشتنکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Electric buses are a clean, environmentally friendly way to travel.",
+                            kurdishText:
+                                "پاسی ئەلیکترۆنی ڕێگایەکی خاوێن ژینگەدۆستن بۆ گەشتنکردن.",
+                            onPressedBritish: () => speakcleans10("en-GB"),
+                            onPressedAmerican: () => speakcleans10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The water was lovely and clean."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئاوەکە خۆش و خاوێن بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The water was lovely and clean.",
+                            kurdishText: "ئاوەکە خۆش و خاوێن بوو.",
+                            onPressedBritish: () => speakcleans11("en-GB"),
+                            onPressedAmerican: () => speakcleans11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) کاغەزێک کە ھیچی لەسەر نەنووسراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Take a clean sheet of paper."),
-                                    ExampleSentenceKurdish(
-                                        text: "کاغەزێکی پاک دەربێنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Take a clean sheet of paper.",
+                            kurdishText: "کاغەزێکی پاک دەربێنە.",
+                            onPressedBritish: () => speakcleans12("en-GB"),
+                            onPressedAmerican: () => speakcleans12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ھاوەڵناو) قسە، نوکتە، ھتد کە ناشرین نین و باسی سێکس ناکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Keep the jokes clean please!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە نوکتەکان بە پاکی بھێڵنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Keep the jokes clean please!",
+                            kurdishText: "تکایە نوکتەکان بە پاکی بھێڵنەوە.",
+                            onPressedBritish: () => speakcleans13("en-GB"),
+                            onPressedAmerican: () => speakcleans13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Can't you think of any clean jokes?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانی بیر لە نوکتەیەکی ناھەرزانە بکەیتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can't you think of any clean jokes?",
+                            kurdishText:
+                                "ناتوانی بیر لە نوکتەیەکی ناھەرزانە بکەیتەوە؟",
+                            onPressedBritish: () => speakcleans14("en-GB"),
+                            onPressedAmerican: () => speakcleans14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ھاوەڵناو) نەبوونی ھیچ پێشینەیەکی تاوانکاری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The judge took the defendant's clean record (= the absence of previous involvement in crime) into account when passing sentence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دادوەرەکە پێشینەی پاکی تاوانکاریی تاوانبارەکەی لەبەرچاوگرت لەکاتی سزادانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The judge took the defendant's clean record (= the absence of previous involvement in crime) into account when passing sentence.",
+                            kurdishText:
+                                "دادوەرەکە پێشینەی پاکی تاوانکاریی تاوانبارەکەی لەبەرچاوگرت لەکاتی سزادانەکە.",
+                            onPressedBritish: () => speakcleans15("en-GB"),
+                            onPressedAmerican: () => speakcleans15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ھاوەڵناو) نەبوونی ھیچ شتێکی نایاسایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police searched her but she was clean."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس پشکنییان بەڵام ھێچی (نایاسایی) پێنەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police searched her but she was clean.",
+                            kurdishText:
+                                "پۆلیس پشکنییان بەڵام ھێچی (نایاسایی) پێنەبوو.",
+                            onPressedBritish: () => speakcleans16("en-GB"),
+                            onPressedAmerican: () => speakcleans16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (ھاوەڵناو) نەبوون یان نەخواردنەوەی کحوول یان مەدەی ھۆشبەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's been clean for three weeks."),
-                                    ExampleSentenceKurdish(
-                                        text: "بۆ سێ ھەفتەیە نەیخواردووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's been clean for three weeks.",
+                            kurdishText: "بۆ سێ ھەفتەیە نەیخواردووەتەوە.",
+                            onPressedBritish: () => speakcleans17("en-GB"),
+                            onPressedAmerican: () => speakcleans17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (ھاوەڵناو) شتێک کە بەپێی یاساکان کراوە و بە دادپەروەری کراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It was a tough but clean game."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یارییەکی سەخت بەڵام بێگەرد بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It was a tough but clean game.",
+                            kurdishText: "یارییەکی سەخت بەڵام بێگەرد بوو.",
+                            onPressedBritish: () => speakcleans18("en-GB"),
+                            onPressedAmerican: () => speakcleans18("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (ھاوەڵناو) ھەبوونی قەراغێک، ڕوویەک، یان شێوەیەکی لووس کە خواروخێچ نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A sharp knife makes a clean cut."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەقۆیەکی تیژ بڕینێکی ڕێک‌وپێک دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A sharp knife makes a clean cut.",
+                            kurdishText: "چەقۆیەکی تیژ بڕینێکی ڕێک‌وپێک دەکات.",
+                            onPressedBritish: () => speakcleans19("en-GB"),
+                            onPressedAmerican: () => speakcleans19("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١١. (ھاوەڵناو) کردن بە شارەزایی و ڕێک‌وپێکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plane made a clean take-off."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەکە فڕینێکی درووستی ئەنجامدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans20("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans20("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The plane made a clean take-off.",
+                            kurdishText: "فڕۆکەکە فڕینێکی درووستی ئەنجامدا.",
+                            onPressedBritish: () => speakcleans20("en-GB"),
+                            onPressedAmerican: () => speakcleans20("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٢. (ھاوەڵناو) بەبێ گۆڕان و ھەڵە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I do my utmost to produce clean copy, but occasionally a mistake slips in."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە ھەموو شتێک دەکەم بۆ ئەوەی کۆپییەکی بێ‌خەوش ھەڵبگرم، بەڵام ماوەماوە ھەڵەیەکی تێدەکەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans21("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans21("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I do my utmost to produce clean copy, but occasionally a mistake slips in.",
+                            kurdishText:
+                                "ھەمیشە ھەموو شتێک دەکەم بۆ ئەوەی کۆپییەکی بێ‌خەوش ھەڵبگرم، بەڵام ماوەماوە ھەڵەیەکی تێدەکەوێت.",
+                            onPressedBritish: () => speakcleans21("en-GB"),
+                            onPressedAmerican: () => speakcleans21("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٣. (ناو) ھەبوون تام یان بۆنێکی خۆش و تازە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The wine has a clean taste and a lovely golden colour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەیەکە تامێکی خۆش و ڕەنگێکی ئاڵتوونی جوانی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans22("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans22("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The wine has a clean taste and a lovely golden colour.",
+                            kurdishText:
+                                "مەیەکە تامێکی خۆش و ڕەنگێکی ئاڵتوونی جوانی ھەیە.",
+                            onPressedBritish: () => speakcleans22("en-GB"),
+                            onPressedAmerican: () => speakcleans22("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٤. (کردار) پاککردنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I spent all day cooking and cleaning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ڕۆژەکەم بە خواردن لێنان و پاککردنەوە بەسەربرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans23("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans23("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I spent all day cooking and cleaning.",
+                            kurdishText:
+                                "تەواوی ڕۆژەکەم بە خواردن لێنان و پاککردنەوە بەسەربرد.",
+                            onPressedBritish: () => speakcleans23("en-GB"),
+                            onPressedAmerican: () => speakcleans23("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His mother told him to clean his room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایکی پێی گوت کەوا ژوورەکەی پاکبکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans24("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans24("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His mother told him to clean his room.",
+                            kurdishText:
+                                "دایکی پێی گوت کەوا ژوورەکەی پاکبکاتەوە.",
+                            onPressedBritish: () => speakcleans24("en-GB"),
+                            onPressedAmerican: () => speakcleans24("en-US"),
                           ),
                           Column(
                             children: [
@@ -1127,179 +756,63 @@ class EnglishEntryclean extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٥. (کردار) پاکبوونەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This oven cleans easily (= is easy to clean)."),
-                                    ExampleSentenceKurdish(
-                                        text: "فڕنەکە ئاسان پاکدەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans27("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans27("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This oven cleans easily (= is easy to clean).",
+                            kurdishText: "فڕنەکە ئاسان پاکدەبێتەوە.",
+                            onPressedBritish: () => speakcleans27("en-GB"),
+                            onPressedAmerican: () => speakcleans27("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٦. (کردار) پاککردنەوەی جلوبەرگ بە مادەی کیمیایی وەک لە ئاو بە تەنھا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This coat is filthy. I'll have it cleaned."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم پاڵتاوە پیسە. دەیشۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans28("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans28("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This coat is filthy. I'll have it cleaned.",
+                            kurdishText: "ئەم پاڵتاوە پیسە. دەیشۆم.",
+                            onPressedBritish: () => speakcleans28("en-GB"),
+                            onPressedAmerican: () => speakcleans28("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٧. (کردار) لابردنی بەشی ناوەوەی ماسی، مریشک، ھتد پێش لێنان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Clean the fish and remove the backbone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماسییەکە پاک بکە و بڕبڕەی دەربێنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans29("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans29("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Clean the fish and remove the backbone.",
+                            kurdishText: "ماسییەکە پاک بکە و بڕبڕەی دەربێنە.",
+                            onPressedBritish: () => speakcleans29("en-GB"),
+                            onPressedAmerican: () => speakcleans29("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٨. (کردار) بۆ جەختکردنەوە لەوەی شتێک بە تەواوی ڕوویدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I clean forgot about calling him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تەواوی بیرمچوو پەیوەندی پێوە بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans30("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans30("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I clean forgot about calling him.",
+                            kurdishText:
+                                "بە تەواوی بیرمچوو پەیوەندی پێوە بکەم.",
+                            onPressedBritish: () => speakcleans30("en-GB"),
+                            onPressedAmerican: () => speakcleans30("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٩. (ناو) کاری پاککردنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The house needed a good clean."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووەکە پێویستی بە پاککردنەوەیەکی تەواو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans31("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans31("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The house needed a good clean.",
+                            kurdishText:
+                                "خانووەکە پێویستی بە پاککردنەوەیەکی تەواو بوو.",
+                            onPressedBritish: () => speakcleans31("en-GB"),
+                            onPressedAmerican: () => speakcleans31("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Why don’t you give the carpet a clean?"),
-                                    ExampleSentenceKurdish(
-                                        text: "بۆچی ڕایەخەکە پاک ناکەیتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleans32("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleans32("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Why don’t you give the carpet a clean?",
+                            kurdishText: "بۆچی ڕایەخەکە پاک ناکەیتەوە؟",
+                            onPressedBritish: () => speakcleans32("en-GB"),
+                            onPressedAmerican: () => speakcleans32("en-US"),
                           ),
                         ],
                       ),

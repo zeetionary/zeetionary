@@ -240,59 +240,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ھەبوونی شێوەی چین‌چین کە وەک شەپۆل وایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The roof is made from sheets of corrugated iron."),
-                    ExampleSentenceKurdish(
-                        text: "سەربانەکە درووستکراوە لە پارچە ئاسنی چین‌چین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corrugated", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrugateds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrugateds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The roof is made from sheets of corrugated iron.",
+            kurdishText:
+                "سەربانەکە درووستکراوە لە پارچە ئاسنی چین‌چین.", // corrugated", please follow LX instructions
+            onPressedBritish: () => speakcorrugateds1("en-GB"),
+            onPressedAmerican: () => speakcorrugateds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He had put corrugated plastic sheeting on the roof to let in light."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داپۆشەری پلاستیکی چین‌چینی خستبووە سەربانەکە بۆ ڕێگادان بە ڕووناکی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorrugateds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorrugateds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He had put corrugated plastic sheeting on the roof to let in light.",
+            kurdishText:
+                "داپۆشەری پلاستیکی چین‌چینی خستبووە سەربانەکە بۆ ڕێگادان بە ڕووناکی.",
+            onPressedBritish: () => speakcorrugateds2("en-GB"),
+            onPressedAmerican: () => speakcorrugateds2("en-US"),
           ),
         ],
       ),

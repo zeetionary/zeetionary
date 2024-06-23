@@ -178,60 +178,22 @@ class EnglishEntrycontain extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ھەبوونی شتێک لە ناودا یان وەک بەشێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This drink doesn't contain any alcohol."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم خواردنەوەیە ھیچ مادەی کحولی تێدا نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contain", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontains1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontains1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This drink doesn't contain any alcohol.",
+                            kurdishText:
+                                "ئەم خواردنەوەیە ھیچ مادەی کحولی تێدا نییە.", // contain",
+                            onPressedBritish: () => speakcontains1("en-GB"),
+                            onPressedAmerican: () => speakcontains1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The documents contain sensitive information."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵگەنامەکان زانیاریی ھەستیاریان تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontains2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontains2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The documents contain sensitive information.",
+                            kurdishText:
+                                "بەڵگەنامەکان زانیاریی ھەستیاریان تێدایە.",
+                            onPressedBritish: () => speakcontains2("en-GB"),
+                            onPressedAmerican: () => speakcontains2("en-US"),
                           ),
                           Column(
                             children: [
@@ -363,147 +325,52 @@ class EnglishEntrycontain extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) کۆنترۆڵکردنی ھەستەکانت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was unable to contain her excitement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەیدەتوانی خرۆشاوییەکەی کۆنترۆڵ بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontains7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontains7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was unable to contain her excitement.",
+                            kurdishText:
+                                "نەیدەتوانی خرۆشاوییەکەی کۆنترۆڵ بکات.",
+                            onPressedBritish: () => speakcontains7("en-GB"),
+                            onPressedAmerican: () => speakcontains7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She could hardly contain her excitement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئاستەنگ توانی خرۆشاوییەکەی کۆنترۆڵ بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontains8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontains8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She could hardly contain her excitement.",
+                            kurdishText:
+                                "بە ئاستەنگ توانی خرۆشاوییەکەی کۆنترۆڵ بکات.",
+                            onPressedBritish: () => speakcontains8("en-GB"),
+                            onPressedAmerican: () => speakcontains8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was so furious I just couldn't contain myself (= I had to express my feelings)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر تووڕە بووم نەمدەتوانی خۆم کۆنترۆڵ بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontains9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontains9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was so furious I just couldn't contain myself (= I had to express my feelings).",
+                            kurdishText:
+                                "زۆر تووڕە بووم نەمدەتوانی خۆم کۆنترۆڵ بکەم.",
+                            onPressedBritish: () => speakcontains9("en-GB"),
+                            onPressedAmerican: () => speakcontains9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) ڕێگرتن لە بڵاوبوونەوە یان خراپبوونی شتێکی زیانبەخش"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Government forces have failed to contain the rebellion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزەکانی حکومەت شکستیان ھێناوە لە دامرکاندنەوەی شۆڕشەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontains10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontains10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Government forces have failed to contain the rebellion.",
+                            kurdishText:
+                                "ھێزەکانی حکومەت شکستیان ھێناوە لە دامرکاندنەوەی شۆڕشەکە.",
+                            onPressedBritish: () => speakcontains10("en-GB"),
+                            onPressedAmerican: () => speakcontains10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He introduced repressive measures to contain the violence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەنگاوی سەرکوتکەرانەی ناساند بۆ بەرگرتن بە توندوتیژییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontains11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontains11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He introduced repressive measures to contain the violence.",
+                            kurdishText:
+                                "ھەنگاوی سەرکوتکەرانەی ناساند بۆ بەرگرتن بە توندوتیژییەکە.",
+                            onPressedBritish: () => speakcontains11("en-GB"),
+                            onPressedAmerican: () => speakcontains11("en-US"),
                           ),
                         ],
                       ),

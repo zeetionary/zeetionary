@@ -163,266 +163,94 @@ class EnglishEntrycommercial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پەیوەندیدار بە کڕین و فرۆشتنی کەلوپەل و خزمەتگوزاری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have offices in the commercial heart of the city."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆفیسیان لە ناوجەرگەی شار ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commercial", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have offices in the commercial heart of the city.",
+                            kurdishText:
+                                "ئۆفیسیان لە ناوجەرگەی شار ھەیە.", // commercial",
+                            onPressedBritish: () => speakcommercials1("en-GB"),
+                            onPressedAmerican: () => speakcommercials1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is developing the commercial side of the organization."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لایەنی بازرگانی دامەزراوەکە گەشە پێدەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is developing the commercial side of the organization.",
+                            kurdishText:
+                                "لایەنی بازرگانی دامەزراوەکە گەشە پێدەدات.",
+                            onPressedBritish: () => speakcommercials2("en-GB"),
+                            onPressedAmerican: () => speakcommercials2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) شتێک کە قازانج دەکات، یان مەبەست لێی ئەوەیە قازانج بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie was not a commercial success (= did not make money)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە سەرکەوتنێکی بەقازانج نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie was not a commercial success (= did not make money).",
+                            kurdishText: "فیلمەکە سەرکەوتنێکی بەقازانج نەبوو.",
+                            onPressedBritish: () => speakcommercials3("en-GB"),
+                            onPressedAmerican: () => speakcommercials3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The data cannot be used for commercial purposes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داتاکە نابێت بۆ مەبەستی قازانج بەکاربێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The data cannot be used for commercial purposes.",
+                            kurdishText:
+                                "داتاکە نابێت بۆ مەبەستی قازانج بەکاربێت.",
+                            onPressedBritish: () => speakcommercials4("en-GB"),
+                            onPressedAmerican: () => speakcommercials4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The newspaper is acting solely in its own commercial interests."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژنامەکە تەنھا بۆ قازانجی خۆی کاردەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The newspaper is acting solely in its own commercial interests.",
+                            kurdishText:
+                                "ڕۆژنامەکە تەنھا بۆ قازانجی خۆی کاردەکات.",
+                            onPressedBritish: () => speakcommercials5("en-GB"),
+                            onPressedAmerican: () => speakcommercials5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The decision has been made on a purely commercial basis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارەکە تەنھا لەسەر بنەمای قازانج دراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The decision has been made on a purely commercial basis.",
+                            kurdishText:
+                                "بڕیارەکە تەنھا لەسەر بنەمای قازانج دراوە.",
+                            onPressedBritish: () => speakcommercials6("en-GB"),
+                            onPressedAmerican: () => speakcommercials6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) زیاتر گرنگیدان بە لایەنی قازانج و ناوبانگ وەک لە کوالێتی"),
                           const AlsoEnglishckb(word: "ھەروەھا: commercialized"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their more recent music is far too commercial."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تازەترین کاری میوزیکییان ئێجگار زۆر بازاڕییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their more recent music is far too commercial.",
+                            kurdishText:
+                                "تازەترین کاری میوزیکییان ئێجگار زۆر بازاڕییە.",
+                            onPressedBritish: () => speakcommercials7("en-GB"),
+                            onPressedAmerican: () => speakcommercials7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ڕیکلامێک لەسەر تەلەفیزیۆن، ڕادیۆ، یان وێبسایتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The marketing campaign is starting with four online commercials."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمپینی بەبازاڕکردنەکە دەستپێ دەکات بە ڕیکلامی ئینتەرنێتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The marketing campaign is starting with four online commercials.",
+                            kurdishText:
+                                "کەمپینی بەبازاڕکردنەکە دەستپێ دەکات بە ڕیکلامی ئینتەرنێتی.",
+                            onPressedBritish: () => speakcommercials8("en-GB"),
+                            onPressedAmerican: () => speakcommercials8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She began her career appearing in commercials."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی بە کار کرد بە دەرکەوتن لە ڕیکلامدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommercials9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommercials9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She began her career appearing in commercials.",
+                            kurdishText:
+                                "دەستی بە کار کرد بە دەرکەوتن لە ڕیکلامدا.",
+                            onPressedBritish: () => speakcommercials9("en-GB"),
+                            onPressedAmerican: () => speakcommercials9("en-US"),
                           ),
                         ],
                       ),

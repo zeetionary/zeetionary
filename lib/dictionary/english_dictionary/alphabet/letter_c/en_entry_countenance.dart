@@ -241,58 +241,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ڕووخساری کەسێک یان دەربڕینی ڕووخسار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was of noble countenance."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووخسارێکی بەنەجیب‌زادەی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "countenance", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountenances1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountenances1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was of noble countenance.",
+            kurdishText:
+                "ڕووخسارێکی بەنەجیب‌زادەی ھەبوو.", // countenance", please follow LX instructions
+            onPressedBritish: () => speakcountenances1("en-GB"),
+            onPressedAmerican: () => speakcountenances1("en-US"),
           ),
           const DefinitionKurdish(
               text: "٢. (کردار) ڕازیبوون یان پشتگیری بە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The committee refused to countenance his proposals."),
-                    ExampleSentenceKurdish(
-                        text: "لیژنەکە ڕەتیکردەوە ڕازی بێت بە پێشنیارەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "countenance", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountenances2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountenances2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The committee refused to countenance his proposals.",
+            kurdishText:
+                "لیژنەکە ڕەتیکردەوە ڕازی بێت بە پێشنیارەکانی.", // countenance", please follow LX instructions
+            onPressedBritish: () => speakcountenances2("en-GB"),
+            onPressedAmerican: () => speakcountenances2("en-US"),
           ),
         ],
       ),

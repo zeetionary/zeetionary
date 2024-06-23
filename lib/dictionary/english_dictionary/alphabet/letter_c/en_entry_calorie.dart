@@ -189,60 +189,22 @@ class EnglishEntrycalorie extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) یەکەی پێوانی وزەی خۆراک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "No sugar for me, thanks—I'm counting my calories."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەبێ شەکر بۆ من، تکایە. کالۆریم کەم دەکەمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calorie", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalories1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalories1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "No sugar for me, thanks—I'm counting my calories.",
+                            kurdishText:
+                                "بەبێ شەکر بۆ من، تکایە. کالۆریم کەم دەکەمەوە.", // calorie
+                            onPressedBritish: () => speakcalories1("en-GB"),
+                            onPressedAmerican: () => speakcalories1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A fried egg contains about 100 calories—about the same as you would burn off if you ran a mile."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێلکەیەکی برژاو بە نزیکەیی ١٠٠٠ کالۆری تێدایە، بەنزیکەیی ھەمان ئەو ڕێژەی دەیسووتێنی ئەگەر یەک میل ڕابکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalories2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalories2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A fried egg contains about 100 calories—about the same as you would burn off if you ran a mile.",
+                            kurdishText:
+                                "ھێلکەیەکی برژاو بە نزیکەیی ١٠٠٠ کالۆری تێدایە، بەنزیکەیی ھەمان ئەو ڕێژەی دەیسووتێنی ئەگەر یەک میل ڕابکەیت.",
+                            onPressedBritish: () => speakcalories2("en-GB"),
+                            onPressedAmerican: () => speakcalories2("en-US"),
                           ),
                         ],
                       ),

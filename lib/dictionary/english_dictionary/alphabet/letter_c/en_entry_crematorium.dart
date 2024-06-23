@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بینایەک کە تێیدا لەشی مردووان دەسووتندرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The family gathered at the crematorium to say their final goodbyes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خێزانەکە لە سووتانگەکە کۆبوونەوە بۆ کۆتا ماڵئاوایی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crematorium", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrematoriums1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrematoriums1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The family gathered at the crematorium to say their final goodbyes.",
+            kurdishText:
+                "خێزانەکە لە سووتانگەکە کۆبوونەوە بۆ کۆتا ماڵئاوایی.", // crematorium", please follow LX instructions
+            onPressedBritish: () => speakcrematoriums1("en-GB"),
+            onPressedAmerican: () => speakcrematoriums1("en-US"),
           ),
         ],
       ),

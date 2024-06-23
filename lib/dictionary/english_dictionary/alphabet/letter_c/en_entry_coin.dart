@@ -144,60 +144,22 @@ class EnglishEntrycoin extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچەیەکی تەختی ئاسنین کە وەک پارە بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They flipped a coin to see who should go first."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سکەیەکیان ھەڵدا بۆ ئەوەی بزانن کێ یەکەمجار دەچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coin", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoins1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoins1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They flipped a coin to see who should go first.",
+                            kurdishText:
+                                "سکەیەکیان ھەڵدا بۆ ئەوەی بزانن کێ یەکەمجار دەچێت.", // coin",
+                            onPressedBritish: () => speakcoins1("en-GB"),
+                            onPressedAmerican: () => speakcoins1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A coin toss has decided the lucky winner."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵدانی سکەیەک براوە بەبەختەکەی دیاریکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoins2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoins2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A coin toss has decided the lucky winner.",
+                            kurdishText:
+                                "ھەڵدانی سکەیەک براوە بەبەختەکەی دیاریکردووە.",
+                            onPressedBritish: () => speakcoins2("en-GB"),
+                            onPressedAmerican: () => speakcoins2("en-US"),
                           ),
                           Column(
                             children: [
@@ -300,60 +262,22 @@ class EnglishEntrycoin extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) داھێنانی زاراوەیەک، وشەیەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was the first to coin the motto ‘Make Love, Not War’."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەم کەس بوو درووشمی 'خۆشەویستی بچێنن، نەک جەنگ' دابھێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoins5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoins5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was the first to coin the motto ‘Make Love, Not War’.",
+                            kurdishText:
+                                "یەکەم کەس بوو درووشمی 'خۆشەویستی بچێنن، نەک جەنگ' دابھێنێت.",
+                            onPressedBritish: () => speakcoins5("en-GB"),
+                            onPressedAmerican: () => speakcoins5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Few people have any idea who coined the famous phrase."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەم کەس زانیارییان ھەیە لەسەر ئەوەی کێ دەستەواژە بەناوبانگەکەی داھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoins7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoins7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Few people have any idea who coined the famous phrase.",
+                            kurdishText:
+                                "کەم کەس زانیارییان ھەیە لەسەر ئەوەی کێ دەستەواژە بەناوبانگەکەی داھێنا.",
+                            onPressedBritish: () => speakcoins7("en-GB"),
+                            onPressedAmerican: () => speakcoins7("en-US"),
                           ),
                         ],
                       ),

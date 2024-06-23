@@ -112,97 +112,37 @@ class EnglishEntrycontaminate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پیسکردنی مادەیەک یان شوێنێک بە زیادکردنی مادەیەکی مەترسیدار یان یەکێک کە نەخۆشی دەگوازێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The drinking water has become contaminated with lead."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاوە خواردنەوەکە بە قورقۆشم پیسبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contaminate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontaminates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontaminates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The drinking water has become contaminated with lead.",
+                            kurdishText:
+                                "ئاوە خواردنەوەکە بە قورقۆشم پیسبووە.", // contaminate",
+                            onPressedBritish: () => speakcontaminates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontaminates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These substances can contaminate groundwater."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم مادانە دەکرێت ئاوی ژێر زەوی پیس بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontaminates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontaminates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These substances can contaminate groundwater.",
+                            kurdishText:
+                                "ئەم مادانە دەکرێت ئاوی ژێر زەوی پیس بکەن.",
+                            onPressedBritish: () => speakcontaminates2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontaminates2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) دانانی کاریگەری خراپ لەسەر بیرۆکە و ھەلسوکەوتی خەڵکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were accused of contaminating the minds of our young people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاوانبارکران بە تێکدانی مێشکی گەنجەکانمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontaminates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontaminates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were accused of contaminating the minds of our young people.",
+                            kurdishText:
+                                "تاوانبارکران بە تێکدانی مێشکی گەنجەکانمان.",
+                            onPressedBritish: () => speakcontaminates3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontaminates3("en-US"),
                           ),
                         ],
                       ),

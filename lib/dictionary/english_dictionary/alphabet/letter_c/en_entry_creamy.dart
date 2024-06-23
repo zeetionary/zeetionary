@@ -239,59 +239,21 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کرێمدار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It tastes deliciously creamy."),
-                    ExampleSentenceKurdish(
-                        text: "بە شێوەیەکی بە لەزەت کرێمدارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creamy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreamys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreamys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It tastes deliciously creamy.",
+            kurdishText:
+                "بە شێوەیەکی بە لەزەت کرێمدارە.", // creamy", please follow LX instructions
+            onPressedBritish: () => speakcreamys1("en-GB"),
+            onPressedAmerican: () => speakcreamys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) ڕەنگی کرێمی؛ ڕەنگی نێوان سپی و زەرد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The garden was filled with creamy white flowers."),
-                    ExampleSentenceKurdish(
-                        text: "باخچەکە پڕ لە گوڵی سپی کرێمی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreamys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreamys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The garden was filled with creamy white flowers.",
+            kurdishText: "باخچەکە پڕ لە گوڵی سپی کرێمی بوو.",
+            onPressedBritish: () => speakcreamys2("en-GB"),
+            onPressedAmerican: () => speakcreamys2("en-US"),
           ),
         ],
       ),

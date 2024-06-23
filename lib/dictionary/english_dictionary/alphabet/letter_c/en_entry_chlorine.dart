@@ -94,32 +94,13 @@ class EnglishEntrychlorine extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کلۆر؛ گازێکی ژەھراوی سەوز کە بۆنێکی بەھێزی ھەیە. زۆرجار لە مەلەوانگەکان بەکاردێت بۆ ھێشتنەوەی ئاوەکە بە پاکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chlorine in the pool makes my eyes sore."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلۆری مەلەوانگەکان وا لە چاو دەکات سوور ببێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chlorine", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchlorines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchlorines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chlorine in the pool makes my eyes sore.",
+                            kurdishText:
+                                "کلۆری مەلەوانگەکان وا لە چاو دەکات سوور ببێتەوە.", // chlorine",
+                            onPressedBritish: () => speakchlorines1("en-GB"),
+                            onPressedAmerican: () => speakchlorines1("en-US"),
                           ),
                         ],
                       ),

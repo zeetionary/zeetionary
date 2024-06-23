@@ -138,93 +138,36 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) گشتگیر؛ لەخۆگرتنی ھەموو یان بە نزیکەیی ھەموو وردەکاری، زانیاری، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The list is fairly comprehensive."),
-                                    ExampleSentenceKurdish(
-                                        text: "لیستەکە تاڕادەیەک گشتگیرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comprehensive", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The list is fairly comprehensive.",
+                            kurdishText:
+                                "لیستەکە تاڕادەیەک گشتگیرە.", // comprehensive",
+                            onPressedBritish: () =>
+                                speakcomprehensives1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomprehensives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We offer you a comprehensive training in all aspects of the business."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاھێنانێکی بەرفراوانت پێدەدەین لە ھەموو لایەنەکانی بازرگانییەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We offer you a comprehensive training in all aspects of the business.",
+                            kurdishText:
+                                "ڕاھێنانێکی بەرفراوانت پێدەدەین لە ھەموو لایەنەکانی بازرگانییەکەوە.",
+                            onPressedBritish: () =>
+                                speakcomprehensives2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomprehensives2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has written a fully comprehensive guide to Rome."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێبەرییەکی تاڕادەیەک گشتگیری بۆ ڕۆما نووسیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has written a fully comprehensive guide to Rome.",
+                            kurdishText:
+                                "ڕێبەرییەکی تاڕادەیەک گشتگیری بۆ ڕۆما نووسیوە.",
+                            onPressedBritish: () =>
+                                speakcomprehensives3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomprehensives3("en-US"),
                           ),
                           // const DividerDefinition(),
                           // const DefinitionKurdish(
@@ -260,67 +203,28 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) بردنەوە یان شکست بە جیاوازییەکی گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cricket team finished the season with a comprehensive victory over their rivals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمە کریکتەکە وەرزەکەی تەواوکرد بە سەرکەوتنێکی گەورە بەسەر ڕکابەرەکانیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cricket team finished the season with a comprehensive victory over their rivals.",
+                            kurdishText:
+                                "تیمە کریکتەکە وەرزەکەی تەواوکرد بە سەرکەوتنێکی گەورە بەسەر ڕکابەرەکانیدا.",
+                            onPressedBritish: () =>
+                                speakcomprehensives5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomprehensives5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) قوتابخانەیەک بۆ منداڵانی ھەموو توانا جیاوازەکان کە لەلایەن حکومەتەوە خەرجی دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They went to the local comprehensive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوونە قوتابخانەی گشتگیری خۆجێیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomprehensives6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomprehensives6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They went to the local comprehensive.",
+                            kurdishText: "چوونە قوتابخانەی گشتگیری خۆجێیی.",
+                            onPressedBritish: () =>
+                                speakcomprehensives6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomprehensives6("en-US"),
                           ),
                         ],
                       ),

@@ -241,62 +241,23 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) فرۆشراو بە نرخێکی کەم"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They decided to wait to buy the furniture at a cut-price."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بڕیاریاندا بوەستن بۆ ئەوەی کەلوپەلەکە بە داشکاندن بکڕن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cut-price", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutprices1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutprices1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They decided to wait to buy the furniture at a cut-price.",
+            kurdishText:
+                "بڕیاریاندا بوەستن بۆ ئەوەی کەلوپەلەکە بە داشکاندن بکڕن.", // cut-price", please follow LX instructions
+            onPressedBritish: () => speakcutprices1("en-GB"),
+            onPressedAmerican: () => speakcutprices1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شوێنێک کە کەلوپەل بە نرخێکی کەمتر دەفرۆشرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They bought most of their groceries at the cut-price store."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرینەی سەوزە و میوەکانیان لە فرۆشگایەنی ھەڕاجی کڕی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutprices2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutprices2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They bought most of their groceries at the cut-price store.",
+            kurdishText: "زۆرینەی سەوزە و میوەکانیان لە فرۆشگایەنی ھەڕاجی کڕی.",
+            onPressedBritish: () => speakcutprices2("en-GB"),
+            onPressedAmerican: () => speakcutprices2("en-US"),
           ),
         ],
       ),

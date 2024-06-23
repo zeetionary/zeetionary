@@ -259,117 +259,41 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک کە شتێکی کردووە کە ھەڵە یان نایاساییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The police quickly identified the real culprits."),
-                    ExampleSentenceKurdish(
-                        text: "پۆلیس بەخێرایی بەرپرسە ڕاستییەکانی دۆزییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "culprit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculprits1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculprits1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The police quickly identified the real culprits.",
+            kurdishText:
+                "پۆلیس بەخێرایی بەرپرسە ڕاستییەکانی دۆزییەوە.", // culprit", please follow LX instructions
+            onPressedBritish: () => speakculprits1("en-GB"),
+            onPressedAmerican: () => speakculprits1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Police hope the public will help them to find the culprits."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆلیس بەھیوایە خەڵکی یارمەتییان بدەن لە دۆزینەوەی تاوانبارەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculprits2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculprits2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Police hope the public will help them to find the culprits.",
+            kurdishText:
+                "پۆلیس بەھیوایە خەڵکی یارمەتییان بدەن لە دۆزینەوەی تاوانبارەکان.",
+            onPressedBritish: () => speakculprits2("en-GB"),
+            onPressedAmerican: () => speakculprits2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک یان شتێک کە بەرپرسە بۆ کێشەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The main culprit in the current crisis seems to be modern farming techniques."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھۆکاری سەرەکی قەیرانەکەی ئێستا  وا پێدەچێت کە تەکنیکە سەردەمییەکانی جوتیاری بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculprits3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculprits3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The main culprit in the current crisis seems to be modern farming techniques.",
+            kurdishText:
+                "ھۆکاری سەرەکی قەیرانەکەی ئێستا  وا پێدەچێت کە تەکنیکە سەردەمییەکانی جوتیاری بێت.",
+            onPressedBritish: () => speakculprits3("en-GB"),
+            onPressedAmerican: () => speakculprits3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Children in this country are getting much too fat, and sugar and sweets are the main culprits."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵانی ئەم وڵاتە زۆر قەڵەو دەبن، و شەکر و شیرینی ھۆکارە سەرەکییەکانن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakculprits4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakculprits4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Children in this country are getting much too fat, and sugar and sweets are the main culprits.",
+            kurdishText:
+                "منداڵانی ئەم وڵاتە زۆر قەڵەو دەبن، و شەکر و شیرینی ھۆکارە سەرەکییەکانن.",
+            onPressedBritish: () => speakculprits4("en-GB"),
+            onPressedAmerican: () => speakculprits4("en-US"),
           ),
         ],
       ),

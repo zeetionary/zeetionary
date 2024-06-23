@@ -248,84 +248,30 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دۆعالێ‌کراو، مەلعوون، خوداگرتوو،	بێزاوی، بێزەون، قێزەون، ناخۆش 
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) نەفرەتلکراو بە سیحر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The whole family seemed cursed."),
-                    ExampleSentenceKurdish(
-                        text: "تەواوی خێزانەکە وادیاربوو نەفرەتلێکراو بن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cursed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurseds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurseds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The whole family seemed cursed.",
+            kurdishText:
+                "تەواوی خێزانەکە وادیاربوو نەفرەتلێکراو بن.", // cursed", please follow LX instructions
+            onPressedBritish: () => speakcurseds1("en-GB"),
+            onPressedAmerican: () => speakcurseds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The necklace was cursed."),
-                    ExampleSentenceKurdish(text: "ملوانەکەکە دۆعالێ‌کراو بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurseds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurseds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The necklace was cursed.",
+            kurdishText: "ملوانەکەکە دۆعالێ‌کراو بوو.",
+            onPressedBritish: () => speakcurseds2("en-GB"),
+            onPressedAmerican: () => speakcurseds2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) شتێک کە بێزارکەرە و ڕقت لێیەتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's a cursed nuisance, having to work late every evening!"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرێشەیەکی ناخۆشە کە ھەموو ئێوارەیەک تا درەنگ کار بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurseds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurseds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It's a cursed nuisance, having to work late every evening!",
+            kurdishText:
+                "سەرێشەیەکی ناخۆشە کە ھەموو ئێوارەیەک تا درەنگ کار بکەیت.",
+            onPressedBritish: () => speakcurseds3("en-GB"),
+            onPressedAmerican: () => speakcurseds3("en-US"),
           ),
         ],
       ),

@@ -172,293 +172,101 @@ class EnglishEntryclap extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) چەپڵە لێدان بۆ دەربڕینی ئەوەی ڕازیت بە شتێک یان چێژت لە شتێک دیوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After she performed, Ariana stood up and clapped for her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەدوای ئەوەی نمایشەکەی پێشکەشکرد، ئاریانا ھەستایە سەرپێ و چەپڵەی بۆ لێدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clap", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After she performed, Ariana stood up and clapped for her.",
+                            kurdishText:
+                                "لەدوای ئەوەی نمایشەکەی پێشکەشکرد، ئاریانا ھەستایە سەرپێ و چەپڵەی بۆ لێدا.", // clap",
+                            onPressedBritish: () => speakclaps1("en-GB"),
+                            onPressedAmerican: () => speakclaps1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everyone clapped us when we went up to get our prize."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموان چەپڵەیان بؤ لێداین کە چووینە سەرەوە بۆ وەرگرتنی خەڵاتەکەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaps2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaps2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Everyone clapped us when we went up to get our prize.",
+                            kurdishText:
+                                "ھەموان چەپڵەیان بؤ لێداین کە چووینە سەرەوە بۆ وەرگرتنی خەڵاتەکەمان.",
+                            onPressedBritish: () => speakclaps2("en-GB"),
+                            onPressedAmerican: () => speakclaps2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) چەپڵە لێدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Everyone clapped to the music."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموان چەپڵەیان بۆ میوزیکەکە لێدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaps3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaps3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Everyone clapped to the music.",
+                            kurdishText: "ھەموان چەپڵەیان بۆ میوزیکەکە لێدا.",
+                            onPressedBritish: () => speakclaps3("en-GB"),
+                            onPressedAmerican: () => speakclaps3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She clapped her hands in delight."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە خۆشیدا چەپڵەی لێدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaps4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaps4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She clapped her hands in delight.",
+                            kurdishText: "لە خۆشیدا چەپڵەی لێدا.",
+                            onPressedBritish: () => speakclaps4("en-GB"),
+                            onPressedAmerican: () => speakclaps4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) لێدان لە کەسێک بە دەستی کراوەت بە ھێواشی و شێوەیەکی ھاورێیانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He clapped his daughter on the back and told her how proud of her he was."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دای بە پشتی کچەکەیدا و پێی گوت چەندە شانازی پێوە دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaps5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaps5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He clapped his daughter on the back and told her how proud of her he was.",
+                            kurdishText:
+                                "دای بە پشتی کچەکەیدا و پێی گوت چەندە شانازی پێوە دەکات.",
+                            onPressedBritish: () => speakclaps5("en-GB"),
+                            onPressedAmerican: () => speakclaps5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) دانانی شتێک بە خێرایی و لەناکاو لە شوێنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the old days they would have clapped you in jail for that."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە سەردەمانی کۆندا فڕێیان دەدایتە زیندان بۆ ئەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaps6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaps6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the old days they would have clapped you in jail for that.",
+                            kurdishText:
+                                "لە سەردەمانی کۆندا فڕێیان دەدایتە زیندان بۆ ئەوە.",
+                            onPressedBritish: () => speakclaps6("en-GB"),
+                            onPressedAmerican: () => speakclaps6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She clapped her hand over her mouth to try to stop herself from laughing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی نا بە دەمییەوە بۆ ئەوەی ھەوڵ بدات خۆی بوەستێنێت لە پێکەنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaps7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaps7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She clapped her hand over her mouth to try to stop herself from laughing.",
+                            kurdishText:
+                                "دەستی نا بە دەمییەوە بۆ ئەوەی ھەوڵ بدات خۆی بوەستێنێت لە پێکەنین.",
+                            onPressedBritish: () => speakclaps7("en-GB"),
+                            onPressedAmerican: () => speakclaps7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٥. (ناو) چەپڵەلێدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "With a clap of his hands he ordered more food."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە چەپڵەلێدانێک داوای خواردنی زیاتری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaps8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaps8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "With a clap of his hands he ordered more food.",
+                            kurdishText:
+                                "بە چەپڵەلێدانێک داوای خواردنی زیاتری کرد.",
+                            onPressedBritish: () => speakclaps8("en-GB"),
+                            onPressedAmerican: () => speakclaps8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let's give a big clap for our winning contestant!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با چەپڵەیەک لێبدەین بۆ ڕکابەرە براوەکەمان!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaps9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaps9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Let's give a big clap for our winning contestant!",
+                            kurdishText:
+                                "با چەپڵەیەک لێبدەین بۆ ڕکابەرە براوەکەمان!",
+                            onPressedBritish: () => speakclaps9("en-GB"),
+                            onPressedAmerican: () => speakclaps9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) دەنگێکی بەھێز و لەناکاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a clap of thunder and then it started to pour with rain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگێکی ھەورە چەخماخە بوو و دواتر باران خوڕەمی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclaps10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclaps10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a clap of thunder and then it started to pour with rain.",
+                            kurdishText:
+                                "دەنگێکی ھەورە چەخماخە بوو و دواتر باران خوڕەمی کرد.",
+                            onPressedBritish: () => speakclaps10("en-GB"),
+                            onPressedAmerican: () => speakclaps10("en-US"),
                           ),
                         ],
                       ),

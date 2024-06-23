@@ -103,62 +103,23 @@ class EnglishEntryconveyor extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) قایشێکی گوازەرەوەی جوڵاو کە کەلوپەل لە شوێنێکەوە بۆ شوێنێکی دیکە دەگوازێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The products are labelled as they pass by on the conveyor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرھەمەکان ناویان لێدەدرێت کە لەسەر قایشە گوازەرەوەکەوە تێدەپەڕن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conveyor", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconveyors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconveyors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The products are labelled as they pass by on the conveyor.",
+                            kurdishText:
+                                "بەرھەمەکان ناویان لێدەدرێت کە لەسەر قایشە گوازەرەوەکەوە تێدەپەڕن.", // conveyor",
+                            onPressedBritish: () => speakconveyors1("en-GB"),
+                            onPressedAmerican: () => speakconveyors1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک یان شتێک کە شتێک ھەڵدەگرێت یان ئاشکرای دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Words are conveyors of meaning."),
-                                    ExampleSentenceKurdish(
-                                        text: "وشە ھەڵگری واتایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconveyors2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconveyors2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Words are conveyors of meaning.",
+                            kurdishText: "وشە ھەڵگری واتایە.",
+                            onPressedBritish: () => speakconveyors2("en-GB"),
+                            onPressedAmerican: () => speakconveyors2("en-US"),
                           ),
                         ],
                       ),

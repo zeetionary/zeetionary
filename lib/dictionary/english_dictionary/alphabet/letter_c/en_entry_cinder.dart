@@ -103,60 +103,22 @@ class EnglishEntrycinder extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەمێک لە خۆڵەمێش یان خوڵووز، دار، ھتد کە بە تەواوی نەسووتاوە بەڵام ھێشتا گەرمە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The logs had turned into blackened cinders."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆتلەدارەکان بووبوون بە بزووتی ڕەشەوەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cinder", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcinders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcinders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The logs had turned into blackened cinders.",
+                            kurdishText:
+                                "کۆتلەدارەکان بووبوون بە بزووتی ڕەشەوەبوو.", // cinder",
+                            onPressedBritish: () => speakcinders1("en-GB"),
+                            onPressedAmerican: () => speakcinders1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One of the greatest problems of early train travel was hot cinders flying out of the smokestack and setting fire to clothing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە کێشە گەورەکانی سەرەتای گەشتکردن بە شەمەندەفەر ئەوە بوو کە بزووتی گەرم لە دووکەڵکێشەکانەوە دەھاتە دەرەوە و ئاگری بەردەدا لە جل."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcinders2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcinders2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One of the greatest problems of early train travel was hot cinders flying out of the smokestack and setting fire to clothing.",
+                            kurdishText:
+                                "یەکێک لە کێشە گەورەکانی سەرەتای گەشتکردن بە شەمەندەفەر ئەوە بوو کە بزووتی گەرم لە دووکەڵکێشەکانەوە دەھاتە دەرەوە و ئاگری بەردەدا لە جل.",
+                            onPressedBritish: () => speakcinders2("en-GB"),
+                            onPressedAmerican: () => speakcinders2("en-US"),
                           ),
                         ],
                       ),

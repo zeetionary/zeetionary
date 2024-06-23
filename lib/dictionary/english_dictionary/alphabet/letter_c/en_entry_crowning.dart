@@ -241,58 +241,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ئەوەی کە شتێک ناوازە یان بێ‌خەوش بکات؛ گرنگ یان باش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cathedral is the crowning glory of the city."),
-                    ExampleSentenceKurdish(
-                        text: "کڵێساکە شانازیی تەواوکاری شارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crowning", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrownings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrownings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cathedral is the crowning glory of the city.",
+            kurdishText:
+                "کڵێساکە شانازیی تەواوکاری شارەکە.", // crowning", please follow LX instructions
+            onPressedBritish: () => speakcrownings1("en-GB"),
+            onPressedAmerican: () => speakcrownings1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The concert was a crowning moment for the singer."),
-                    ExampleSentenceKurdish(
-                        text: "کۆنسێرتەکە ساتێکی ناوازە بوو بۆ گۆرانیبێژەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrownings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrownings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The concert was a crowning moment for the singer.",
+            kurdishText: "کۆنسێرتەکە ساتێکی ناوازە بوو بۆ گۆرانیبێژەکە.",
+            onPressedBritish: () => speakcrownings2("en-GB"),
+            onPressedAmerican: () => speakcrownings2("en-US"),
           ),
         ],
       ),

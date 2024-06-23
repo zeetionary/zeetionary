@@ -100,63 +100,25 @@ class EnglishEntrycoarsen extends StatelessWidget {
 کوردی: زوور بوون، درشت بوون، ناقۆڵا کردن
 """),
                           const DefinitionKurdish(text: "١. (کردار) زبرکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her hair gradually coarsened as she grew older."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قژی کەم کەم زبر بوو کە چوو بە تەمەندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coarsen", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoarsens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoarsens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her hair gradually coarsened as she grew older.",
+                            kurdishText:
+                                "قژی کەم کەم زبر بوو کە چوو بە تەمەندا.", // coarsen",
+                            onPressedBritish: () => speakcoarsens1("en-GB"),
+                            onPressedAmerican: () => speakcoarsens1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) توندکردن و کەمکردنەوەی ڕێز؛ زیادکردنی گرژی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The six long years in prison had coarsened him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەش ساڵی درێژ لە زینداندا گرژی کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoarsens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoarsens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The six long years in prison had coarsened him.",
+                            kurdishText:
+                                "شەش ساڵی درێژ لە زینداندا گرژی کردبوو.",
+                            onPressedBritish: () => speakcoarsens2("en-GB"),
+                            onPressedAmerican: () => speakcoarsens2("en-US"),
                           ),
                         ],
                       ),

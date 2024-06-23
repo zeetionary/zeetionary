@@ -253,91 +253,34 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەبوونی کاریگەرییەک کە یەکسانە بە شتێک بەڵام دژیەتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The fact that he cannot see is more than counterbalanced by his heightened perception of sound and touch."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوەی کە ناتوانێت ببیستێت زیاتر لە ئاستی خۆی قەرەبوو بووە بە ھەستی بەرزی دەنگ و دەستلێدان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "counterbalance", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterbalances1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterbalances1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The fact that he cannot see is more than counterbalanced by his heightened perception of sound and touch.",
+            kurdishText:
+                "ئەوەی کە ناتوانێت ببیستێت زیاتر لە ئاستی خۆی قەرەبوو بووە بە ھەستی بەرزی دەنگ و دەستلێدان.", // counterbalance", please follow LX instructions
+            onPressedBritish: () => speakcounterbalances1("en-GB"),
+            onPressedAmerican: () => speakcounterbalances1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Parents' natural desire to protect their children should be counterbalanced by the child's need for independence."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئارەزووی دایبابان بۆ پاراستنی منداڵەکانیان دەبێت ھاوسەنگ بێت لەگەڵ پێویستی منداڵ بۆ مانەوە بە سەربەخۆیی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterbalances2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterbalances2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Parents' natural desire to protect their children should be counterbalanced by the child's need for independence.",
+            kurdishText:
+                "ئارەزووی دایبابان بۆ پاراستنی منداڵەکانیان دەبێت ھاوسەنگ بێت لەگەڵ پێویستی منداڵ بۆ مانەوە بە سەربەخۆیی.",
+            onPressedBritish: () => speakcounterbalances2("en-GB"),
+            onPressedAmerican: () => speakcounterbalances2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شتێک کە کاریگەرییەکی ھاوتا بەڵام پێچەوانەی ھەیە بۆ شتێک و دەکرێت بەکاربێت بۆ سنووردارکردنی لایەنە خراپەکانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A cool salad is a perfect counterbalance to the hot days of summer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زەڵاتەیەکی سارد پارسەنگێکی تەواوە بۆ ڕۆژە گەرمەکانی ھاوین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounterbalances3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounterbalances3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A cool salad is a perfect counterbalance to the hot days of summer.",
+            kurdishText:
+                "زەڵاتەیەکی سارد پارسەنگێکی تەواوە بۆ ڕۆژە گەرمەکانی ھاوین.",
+            onPressedBritish: () => speakcounterbalances3("en-GB"),
+            onPressedAmerican: () => speakcounterbalances3("en-US"),
           ),
         ],
       ),

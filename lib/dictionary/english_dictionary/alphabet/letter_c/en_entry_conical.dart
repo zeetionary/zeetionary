@@ -93,32 +93,12 @@ class EnglishEntryconical extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) شێوە قووچەکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The party hat was conical in shape."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڵاوی ئاھەنگەکە قووچەکی بوو لە شێوەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conical", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconicals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconicals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The party hat was conical in shape.",
+                            kurdishText:
+                                "کڵاوی ئاھەنگەکە قووچەکی بوو لە شێوەدا.", // conical",
+                            onPressedBritish: () => speakconicals1("en-GB"),
+                            onPressedAmerican: () => speakconicals1("en-US"),
                           ),
                         ],
                       ),

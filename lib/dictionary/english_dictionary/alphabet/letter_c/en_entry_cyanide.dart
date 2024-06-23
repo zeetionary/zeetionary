@@ -232,30 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) مادەیەکی کیمیایی تەواو ژەھراوی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Inhaling cyanide gas can be lethal."),
-                    ExampleSentenceKurdish(
-                        text: "ھەڵمژینی گازی سیانید دەکرێت کوشندە بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cyanide", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcyanides1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcyanides1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Inhaling cyanide gas can be lethal.",
+            kurdishText:
+                "ھەڵمژینی گازی سیانید دەکرێت کوشندە بێت.", // cyanide", please follow LX instructions
+            onPressedBritish: () => speakcyanides1("en-GB"),
+            onPressedAmerican: () => speakcyanides1("en-US"),
           ),
         ],
       ),

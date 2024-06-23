@@ -95,34 +95,15 @@ class EnglishEntryconfederation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دامەزراوەیەک کە لە کۆمەڵێک وڵات، بازرگانی، ھتد پێکھاتووە بۆ یارمەتیدانی یەکدی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Confederation of British Industry works to influence government policies that affect businesses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆنفێدراسیۆنی پیشەسازی بەریتانیا کاردەکات بۆ کاریگەریدانان لەسەر سیاسەتەکانی حکومەت کە کاریگەری لە بازرگانییەکان دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confederation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfederations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfederations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Confederation of British Industry works to influence government policies that affect businesses.",
+                            kurdishText:
+                                "کۆنفێدراسیۆنی پیشەسازی بەریتانیا کاردەکات بۆ کاریگەریدانان لەسەر سیاسەتەکانی حکومەت کە کاریگەری لە بازرگانییەکان دەکەن.", // confederation",
+                            onPressedBritish: () =>
+                                speakconfederations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfederations1("en-US"),
                           ),
                         ],
                       ),

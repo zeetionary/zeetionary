@@ -95,34 +95,14 @@ class EnglishEntrycoexistence extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخی پێکەوەبوونی لە ھەمان کات یان شوێندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two communities enjoyed a period of peaceful coexistence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو کۆمەڵگەکە ماوەیەک بە پێکەوەژیانی ئاشتییانە ژیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coexistence", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoexistences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoexistences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two communities enjoyed a period of peaceful coexistence.",
+                            kurdishText:
+                                "دوو کۆمەڵگەکە ماوەیەک بە پێکەوەژیانی ئاشتییانە ژیان.", // coexistence",
+                            onPressedBritish: () => speakcoexistences1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoexistences1("en-US"),
                           ),
                         ],
                       ),

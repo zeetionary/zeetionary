@@ -162,294 +162,104 @@ class EnglishEntrycollection extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کۆکراوەی کۆمەڵە شتێکی ھەمان جۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wanted to share his vast art collection with the world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیویست کۆکراوەی زەبەلاحی کارە ھونەرییەکانی لەگەڵ جیھان ھاوبەش بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collection", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollections1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollections1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wanted to share his vast art collection with the world.",
+                            kurdishText:
+                                "دەیویست کۆکراوەی زەبەلاحی کارە ھونەرییەکانی لەگەڵ جیھان ھاوبەش بکات.", // collection",
+                            onPressedBritish: () => speakcollections1("en-GB"),
+                            onPressedAmerican: () => speakcollections1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He built up his collection over a period of ten years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆکراوەکەی لە ماوەی ١٠ ساڵدا بنیاتنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollections2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollections2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He built up his collection over a period of ten years.",
+                            kurdishText:
+                                "کۆکراوەکەی لە ماوەی ١٠ ساڵدا بنیاتنا.",
+                            onPressedBritish: () => speakcollections2("en-GB"),
+                            onPressedAmerican: () => speakcollections2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The collection is rarely on view to the public."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆکراوەکە بەدەگمەن بەڕووی خەڵکیدا کراوەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollections3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollections3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The collection is rarely on view to the public.",
+                            kurdishText:
+                                "کۆکراوەکە بەدەگمەن بەڕووی خەڵکیدا کراوەیە.",
+                            onPressedBritish: () => speakcollections3("en-GB"),
+                            onPressedAmerican: () => speakcollections3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) گرووپێک لە خەڵکی یان شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a collection of books on the floor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمەڵە کتێبێک لەسەر زەوییەکە کەوتبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollections4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollections4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a collection of books on the floor.",
+                            kurdishText:
+                                "کۆمەڵە کتێبێک لەسەر زەوییەکە کەوتبوون.",
+                            onPressedBritish: () => speakcollections4("en-GB"),
+                            onPressedAmerican: () => speakcollections4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is always a strange collection of runners in the London Marathon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە کۆمەڵە ڕاکەرێکی نامۆ لە ماراسۆنی لەندەن ھەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollections4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollections4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is always a strange collection of runners in the London Marathon.",
+                            kurdishText:
+                                "ھەمیشە کۆمەڵە ڕاکەرێکی نامۆ لە ماراسۆنی لەندەن ھەن.",
+                            onPressedBritish: () => speakcollections4("en-GB"),
+                            onPressedAmerican: () => speakcollections4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) بردنی شتێک لە شوێنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The first stage in research is data collection."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەم قۆناغی توێژینەوە کۆکردنەوەی داتایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollections5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollections5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The first stage in research is data collection.",
+                            kurdishText:
+                                "یەکەم قۆناغی توێژینەوە کۆکردنەوەی داتایە.",
+                            onPressedBritish: () => speakcollections5("en-GB"),
+                            onPressedAmerican: () => speakcollections5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your suit will be ready for collection on Tuesday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلەکەت ئامادە دەبێت بۆ بردنەوە لە ڕۆژی سێشەممە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollections6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollections6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your suit will be ready for collection on Tuesday.",
+                            kurdishText:
+                                "جلەکەت ئامادە دەبێت بۆ بردنەوە لە ڕۆژی سێشەممە.",
+                            onPressedBritish: () => speakcollections6("en-GB"),
+                            onPressedAmerican: () => speakcollections6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) کۆمەڵە چیرۆکێک، ھۆنراوایەک، ھتد کە پێکەوە لە یەک کتێبدا بڵاودەکرێنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The band has just released a collection of their greatest hits."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باندەکە تازەگی کۆکراوەیەک لە بەناوبانگترین کارەکانیان بڵاوکردووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollections7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollections7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The band has just released a collection of their greatest hits.",
+                            kurdishText:
+                                "باندەکە تازەگی کۆکراوەیەک لە بەناوبانگترین کارەکانیان بڵاوکردووەتەوە.",
+                            onPressedBritish: () => speakcollections7("en-GB"),
+                            onPressedAmerican: () => speakcollections7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) کۆکردنەوەی پارە بۆ کاری خێرخوازی؛ ئەو پارەیەی کە کۆکراوەتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The total collection last week amounted to £250."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جڕکردنەوەی کۆتایی لە ھەفتەی ڕابردوودا ٢٥٠ پاوەند بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollections8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollections8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The total collection last week amounted to £250.",
+                            kurdishText:
+                                "جڕکردنەوەی کۆتایی لە ھەفتەی ڕابردوودا ٢٥٠ پاوەند بوو.",
+                            onPressedBritish: () => speakcollections8("en-GB"),
+                            onPressedAmerican: () => speakcollections8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We will have a collection for charity at the end of the concert."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتایی کۆنسێرتەکەدا پارە کۆکردنەوەمان دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollections9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollections9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We will have a collection for charity at the end of the concert.",
+                            kurdishText:
+                                "لە کۆتایی کۆنسێرتەکەدا پارە کۆکردنەوەمان دەبێت.",
+                            onPressedBritish: () => speakcollections9("en-GB"),
+                            onPressedAmerican: () => speakcollections9("en-US"),
                           ),
                         ],
                       ),

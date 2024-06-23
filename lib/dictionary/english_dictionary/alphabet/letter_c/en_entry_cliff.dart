@@ -111,88 +111,31 @@ class EnglishEntrycliff extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوچەیەکی بەرز لە تاشەبەرد کە لاپاڵێکی لێژ یان ستوونی ھەیە و بەزۆری لەنزیک کەناراوێکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Keep away from the edge of the cliff - you might fall."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووربە لە قەراغی لاپاڵەکە، لەوانەیە بکەویت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cliff", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcliffs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcliffs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Keep away from the edge of the cliff - you might fall.",
+                            kurdishText:
+                                "دووربە لە قەراغی لاپاڵەکە، لەوانەیە بکەویت.", // cliff",
+                            onPressedBritish: () => speakcliffs1("en-GB"),
+                            onPressedAmerican: () => speakcliffs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They built a house at the foot of a cliff."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانوویەکیان لە خوارەوەی لاپاڵەکە درووستکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcliffs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcliffs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They built a house at the foot of a cliff.",
+                            kurdishText:
+                                "خانوویەکیان لە خوارەوەی لاپاڵەکە درووستکرد.",
+                            onPressedBritish: () => speakcliffs2("en-GB"),
+                            onPressedAmerican: () => speakcliffs2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Steep cliffs towered above the river."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لاپاڵی لێژ بەسەر ڕووبارەکەیان دەڕوانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcliffs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcliffs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Steep cliffs towered above the river.",
+                            kurdishText:
+                                "لاپاڵی لێژ بەسەر ڕووبارەکەیان دەڕوانی.",
+                            onPressedBritish: () => speakcliffs3("en-GB"),
+                            onPressedAmerican: () => speakcliffs3("en-US"),
                           ),
                         ],
                       ),

@@ -93,32 +93,13 @@ class EnglishEntrycoconut extends StatelessWidget {
 کوردی: گوێزھند، گوێزەڕەش، نارگیل،	درەخت یان داری گوێزھند یان نارگیل 
 """),
                           const DefinitionKurdish(text: "١. (ناو) گوێزھندی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She broke open the coconut and drank its sweet milk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێزھندییەکەی شکاند و شیرە شیرینەکەی خواردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coconut", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoconuts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoconuts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She broke open the coconut and drank its sweet milk.",
+                            kurdishText:
+                                "گوێزھندییەکەی شکاند و شیرە شیرینەکەی خواردەوە.", // coconut",
+                            onPressedBritish: () => speakcoconuts1("en-GB"),
+                            onPressedAmerican: () => speakcoconuts1("en-US"),
                           ),
                         ],
                       ),

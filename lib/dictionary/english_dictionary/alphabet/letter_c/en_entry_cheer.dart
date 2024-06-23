@@ -118,120 +118,40 @@ class EnglishEntrycheer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ھاوارکردن بۆ پیشاندانی پشتگیری یان پەسندانی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We all cheered as the team came on to the field."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموومان قریواندمان کە تیمەکە ھاتنە ناو مەیدانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheer", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We all cheered as the team came on to the field.",
+                            kurdishText:
+                                "ھەموومان قریواندمان کە تیمەکە ھاتنە ناو مەیدانەکە.", // cheer",
+                            onPressedBritish: () => speakcheers1("en-GB"),
+                            onPressedAmerican: () => speakcheers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The fans cheered for their team."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوادارەکان ھانی تیمەکەیانیان دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The fans cheered for their team.",
+                            kurdishText: "ھەوادارەکان ھانی تیمەکەیانیان دا.",
+                            onPressedBritish: () => speakcheers2("en-GB"),
+                            onPressedAmerican: () => speakcheers2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ھاندانی کەسێک یان پێدانی پشتگیری، ئاسوودەیی، و ھیوا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was greatly cheered by this news."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەواو ئاسوودە بووم بەم ھەواڵە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I was greatly cheered by this news.",
+                            kurdishText: "تەواو ئاسوودە بووم بەم ھەواڵە.",
+                            onPressedBritish: () => speakcheers3("en-GB"),
+                            onPressedAmerican: () => speakcheers3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ھاواری دڵخۆشی یان پشتگیری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A great cheer went up from the crowd."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوارێکی گەورە لە جەماوەرەکەوە ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A great cheer went up from the crowd.",
+                            kurdishText: "ھاوارێکی گەورە لە جەماوەرەکەوە ھات.",
+                            onPressedBritish: () => speakcheers4("en-GB"),
+                            onPressedAmerican: () => speakcheers4("en-US"),
                           ),
                         ],
                       ),

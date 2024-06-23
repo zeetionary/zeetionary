@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) ھەڵوەشاندنەوەی بڕیارێک کە دراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He appeared to be countermanding orders as fast as they were given."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وا دەردەکەوت کە فەرمانەکان بشکێنێت ھەرکە دەدران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "countermand", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountermands1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountermands1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He appeared to be countermanding orders as fast as they were given.",
+            kurdishText:
+                "وا دەردەکەوت کە فەرمانەکان بشکێنێت ھەرکە دەدران.", // countermand", please follow LX instructions
+            onPressedBritish: () => speakcountermands1("en-GB"),
+            onPressedAmerican: () => speakcountermands1("en-US"),
           ),
         ],
       ),

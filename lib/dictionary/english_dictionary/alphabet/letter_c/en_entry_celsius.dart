@@ -197,62 +197,24 @@ class EnglishEntrycelsius extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پێوەرێکی پلەی گەرمی کە تێیدا ئاو لە ٠ پلە دەیبەستێت و لە ١٠٠ پلە دەکوڵێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Are the temperatures given in Celsius or Fahrenheit?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلەکانی گەرمی بە سیلیزین یان فەھرنایت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "celsius", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelsiuss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelsiuss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Are the temperatures given in Celsius or Fahrenheit?",
+                            kurdishText:
+                                "پلەکانی گەرمی بە سیلیزین یان فەھرنایت؟", // celsius",
+                            onPressedBritish: () => speakcelsiuss1("en-GB"),
+                            onPressedAmerican: () => speakcelsiuss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) پەیوەندیدار بە پلەی سیلیزی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It will be a mild night, around nine degrees Celsius."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمشەو فێنک دەبێت، نزیکەی ٩ پلەی سیلیزی دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelsiuss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelsiuss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It will be a mild night, around nine degrees Celsius.",
+                            kurdishText:
+                                "ئەمشەو فێنک دەبێت، نزیکەی ٩ پلەی سیلیزی دەبێت.",
+                            onPressedBritish: () => speakcelsiuss2("en-GB"),
+                            onPressedAmerican: () => speakcelsiuss2("en-US"),
                           ),
                         ],
                       ),

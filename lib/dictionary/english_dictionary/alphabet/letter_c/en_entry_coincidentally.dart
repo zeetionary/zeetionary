@@ -96,34 +96,15 @@ class EnglishEntrycoincidentally extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە بە ڕێکەوتە و پلانی بۆ دانەنراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Coincidentally, they had both studied in Paris."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ڕێکەوت، ھەردووکیان لە پاریس خوێندبوویان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coincidentally", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcoincidentallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcoincidentallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Coincidentally, they had both studied in Paris.",
+                            kurdishText:
+                                "بە ڕێکەوت، ھەردووکیان لە پاریس خوێندبوویان.", // coincidentally",
+                            onPressedBritish: () =>
+                                speakcoincidentallys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcoincidentallys1("en-US"),
                           ),
                         ],
                       ),

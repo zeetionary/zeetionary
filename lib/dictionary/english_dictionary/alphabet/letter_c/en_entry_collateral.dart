@@ -95,32 +95,13 @@ class EnglishEntrycollateral extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سەروەتێک کە بەڵێن دەدەیت بیدەیت بە کەسێک ئەگەر نەتوانی پارەی قەرز بدەیتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We had put our house up as collateral for our bank loan."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووەکەمان وەک بارمتە  بۆ قەرزە بانکییەکەمان دانا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collateral", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollaterals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollaterals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We had put our house up as collateral for our bank loan.",
+                            kurdishText:
+                                "خانووەکەمان وەک بارمتە  بۆ قەرزە بانکییەکەمان دانا.", // collateral",
+                            onPressedBritish: () => speakcollaterals1("en-GB"),
+                            onPressedAmerican: () => speakcollaterals1("en-US"),
                           ),
                         ],
                       ),

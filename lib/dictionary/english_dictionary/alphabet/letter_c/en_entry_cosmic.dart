@@ -238,60 +238,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گەردوونی، سەربە گەردوون، جێھانی، گشجیھانی،	یەکجارگەورە، یەکجارگرنگ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پەیوەندیدار بە گەردوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Do you believe in a cosmic plan?"),
-                    ExampleSentenceKurdish(
-                      text: "باوەڕت بە پلانی گەردوونی ھەیە؟",
-                      note:
-                          "ئەوەی کە درووستبوونی گەردوون تەنھا ڕووداوێک نییە و مەبەستێک لە پشتیەوەی ھەیە",
-                    ),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosmic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosmics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosmics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do you believe in a cosmic plan?",
+            kurdishText: "باوەڕت بە پلانی گەردوونی ھەیە؟",
+            kurdishNote:
+                "ئەوەی کە درووستبوونی گەردوون تەنھا ڕووداوێک نییە و مەبەستێک لە پشتیەوەی ھەیە", // cosmic", please follow LX instructions
+            onPressedBritish: () => speakcosmics1("en-GB"),
+            onPressedAmerican: () => speakcosmics1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) زۆر گەورە و گرنگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This was disaster on a cosmic scale."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە کارەساتێک بوو لە ئاستێکی زەبەلاحدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosmics2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosmics2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This was disaster on a cosmic scale.",
+            kurdishText: "ئەمە کارەساتێک بوو لە ئاستێکی زەبەلاحدا.",
+            onPressedBritish: () => speakcosmics2("en-GB"),
+            onPressedAmerican: () => speakcosmics2("en-US"),
           ),
         ],
       ),

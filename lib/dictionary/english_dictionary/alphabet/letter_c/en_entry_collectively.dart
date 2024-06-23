@@ -94,34 +94,15 @@ class EnglishEntrycollectively extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە کۆمەڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have had a successful year, both collectively and individually."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵێکی سەرکەوتوومان ھەبووە، چی بە کۆمەڵ و چی بە تاک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collectively", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcollectivelys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcollectivelys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have had a successful year, both collectively and individually.",
+                            kurdishText:
+                                "ساڵێکی سەرکەوتوومان ھەبووە، چی بە کۆمەڵ و چی بە تاک.", // collectively",
+                            onPressedBritish: () =>
+                                speakcollectivelys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcollectivelys1("en-US"),
                           ),
                         ],
                       ),

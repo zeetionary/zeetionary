@@ -241,57 +241,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گیانلەبەرێکی ئاوی کە توێکڵێکی ڕەق و ھەشت قاچ و دوو چنگی ھەیە و لەسەر وشکانی بە لادا دەجوڵێن؛ گۆشتی قرژاڵ."),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We walked along the beach collecting small crabs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە درێژایی کەناراوەکە ڕێمان کرد و قرژاڵی بچووکمان کۆکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crab", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrabs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrabs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We walked along the beach collecting small crabs.",
+            kurdishText:
+                "بە درێژایی کەناراوەکە ڕێمان کرد و قرژاڵی بچووکمان کۆکردەوە.",
+            onPressedBritish: () => speakcrabs1("en-GB"),
+            onPressedAmerican: () => speakcrabs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This crab salad is delicious!"),
-                    ExampleSentenceKurdish(text: "ئەم زەڵاتە قرژاڵە بەلەزەتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrabs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrabs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This crab salad is delicious!",
+            kurdishText: "ئەم زەڵاتە قرژاڵە بەلەزەتە.",
+            onPressedBritish: () => speakcrabs2("en-GB"),
+            onPressedAmerican: () => speakcrabs2("en-US"),
           ),
         ],
       ),

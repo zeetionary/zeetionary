@@ -146,200 +146,66 @@ class EnglishEntrycontradict extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) وتنی ئەوەی شتێک کە کەسێک گوتوویەتی ھەڵەیە یان پێچەوانەکەی ڕاستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All evening her husband contradicted everything she said."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ئێوارەکە ھاوسەرەکەی ڕەتی قسەکانی دەکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contradict", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontradicts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontradicts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All evening her husband contradicted everything she said.",
+                            kurdishText:
+                                "تەواوی ئێوارەکە ھاوسەرەکەی ڕەتی قسەکانی دەکردەوە.", // contradict",
+                            onPressedBritish: () => speakcontradicts1("en-GB"),
+                            onPressedAmerican: () => speakcontradicts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You've just contradicted yourself."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەر ئێستا ڕەتی خۆتت دایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontradicts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontradicts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You've just contradicted yourself.",
+                            kurdishText: "ھەر ئێستا ڕەتی خۆتت دایەوە.",
+                            onPressedBritish: () => speakcontradicts2("en-GB"),
+                            onPressedAmerican: () => speakcontradicts2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you're both going to lie, at least stick to the same story and don't contradict each other!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر ھەردووکتان درۆ دەکەن، ھێج نەبێت پابەندبن بە ھەمان چیرۆکەوە یەکدی بە درۆ مەخەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontradicts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontradicts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you're both going to lie, at least stick to the same story and don't contradict each other!",
+                            kurdishText:
+                                "ئەگەر ھەردووکتان درۆ دەکەن، ھێج نەبێت پابەندبن بە ھەمان چیرۆکەوە یەکدی بە درۆ مەخەنەوە.",
+                            onPressedBritish: () => speakcontradicts3("en-GB"),
+                            onPressedAmerican: () => speakcontradicts3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "How dare you contradict (me)!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن بوێری ئەوە دەکەیت ثێچەوانەم بڵێیت!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontradicts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontradicts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "How dare you contradict (me)!",
+                            kurdishText:
+                                "چۆن بوێری ئەوە دەکەیت ثێچەوانەم بڵێیت!",
+                            onPressedBritish: () => speakcontradicts4("en-GB"),
+                            onPressedAmerican: () => speakcontradicts4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Recent evidence has contradicted established theories on this subject."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵگە تازەکان تێگەشتنە چەسپێنراوەکانیان لەسەر ئەم بابەتە ڕەتکردووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontradicts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontradicts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Recent evidence has contradicted established theories on this subject.",
+                            kurdishText:
+                                "بەڵگە تازەکان تێگەشتنە چەسپێنراوەکانیان لەسەر ئەم بابەتە ڕەتکردووەتەوە.",
+                            onPressedBritish: () => speakcontradicts5("en-GB"),
+                            onPressedAmerican: () => speakcontradicts5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بەڵگە، گێڕانەوە، لێدوان، ھتد کە ھێندە جیاوازن کە ناکرێت ھەموویان ڕاستبن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two stories contradict each other."),
-                                    ExampleSentenceKurdish(
-                                        text: "دوو گێڕانەوەکە دژی یەکن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontradicts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontradicts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two stories contradict each other.",
+                            kurdishText: "دوو گێڕانەوەکە دژی یەکن.",
+                            onPressedBritish: () => speakcontradicts6("en-GB"),
+                            onPressedAmerican: () => speakcontradicts6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This version of events was contradicted by eye-witness reports."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم گێڕانەوەیەی ڕووداوەکان دژ بە ڕاپۆرتی شایەتحاڵەکان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontradicts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontradicts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This version of events was contradicted by eye-witness reports.",
+                            kurdishText:
+                                "ئەم گێڕانەوەیەی ڕووداوەکان دژ بە ڕاپۆرتی شایەتحاڵەکان بوو.",
+                            onPressedBritish: () => speakcontradicts7("en-GB"),
+                            onPressedAmerican: () => speakcontradicts7("en-US"),
                           ),
                         ],
                       ),

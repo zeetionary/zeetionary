@@ -111,88 +111,30 @@ class EnglishEntryconvoy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆمەڵێک ئۆتۆمبێل و کەشتی کە پێکەوە گەشت دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A United Nations aid convoy loaded with food and medicine finally got through to the besieged town."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاروانێکی یارمەتیدەری پڕ لە خۆراک و دەرمانی نەتەوە یەکگرتووەکان لەکۆتاییدا گەشت بە شارۆچکە گەمارۆدراوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convoy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvoys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvoys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A United Nations aid convoy loaded with food and medicine finally got through to the besieged town.",
+                            kurdishText:
+                                "کاروانێکی یارمەتیدەری پڕ لە خۆراک و دەرمانی نەتەوە یەکگرتووەکان لەکۆتاییدا گەشت بە شارۆچکە گەمارۆدراوەکە.", // convoy",
+                            onPressedBritish: () => speakconvoys1("en-GB"),
+                            onPressedAmerican: () => speakconvoys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Journalists travelled with the convoy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژنامەنووسان لەگەڵ قافڵەی ئۆتۆمبێلەکان گەشتیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvoys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvoys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Journalists travelled with the convoy.",
+                            kurdishText:
+                                "ڕۆژنامەنووسان لەگەڵ قافڵەی ئۆتۆمبێلەکان گەشتیان کرد.",
+                            onPressedBritish: () => speakconvoys2("en-GB"),
+                            onPressedAmerican: () => speakconvoys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One ship in the convoy struck an iceberg."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشتییەکی کاروانەکە لە شەختەیەکی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvoys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvoys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One ship in the convoy struck an iceberg.",
+                            kurdishText: "کەشتییەکی کاروانەکە لە شەختەیەکی دا.",
+                            onPressedBritish: () => speakconvoys3("en-GB"),
+                            onPressedAmerican: () => speakconvoys3("en-US"),
                           ),
                         ],
                       ),

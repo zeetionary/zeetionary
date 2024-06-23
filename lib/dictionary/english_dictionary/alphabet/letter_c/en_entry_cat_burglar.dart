@@ -191,32 +191,13 @@ class EnglishEntrycatburglar extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دزێک کە ھەڵدەگژێت بە دەرەوەی بینایەکدا بۆ ئەوەی بچیتەژوورەوە بۆ دژی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The jury heard that he was a professional cat burglar."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستەی دادوەران گوێی گرت لەوەی کە دزێکی ھەڵگەڕە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cat burglar", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatburglars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatburglars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The jury heard that he was a professional cat burglar.",
+                            kurdishText:
+                                "دەستەی دادوەران گوێی گرت لەوەی کە دزێکی ھەڵگەڕە.", // cat burglar",
+                            onPressedBritish: () => speakcatburglars1("en-GB"),
+                            onPressedAmerican: () => speakcatburglars1("en-US"),
                           ),
                         ],
                       ),

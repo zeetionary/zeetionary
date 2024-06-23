@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) پەیوەندیدار بە کۆمپیوتەر، بەتایبەتی ئینتەرنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The risks posed by cyber criminals are greater than ever before."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو مەترسییەی لەلایەن تاوانبارانی ئینتەرنێتەوە درووست دەکرێن زیاترن لە ھەر کاتێکی دیکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cyber-", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcybers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcybers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The risks posed by cyber criminals are greater than ever before.",
+            kurdishText:
+                "ئەو مەترسییەی لەلایەن تاوانبارانی ئینتەرنێتەوە درووست دەکرێن زیاترن لە ھەر کاتێکی دیکە.", // cyber-", please follow LX instructions
+            onPressedBritish: () => speakcybers1("en-GB"),
+            onPressedAmerican: () => speakcybers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The attacks yesterday appeared to be cyber in nature."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێرشەکانی دوێنێ وادەردەکەوتن کۆمپیوتەری بن لە شێوەیاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcybers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcybers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The attacks yesterday appeared to be cyber in nature.",
+            kurdishText:
+                "ھێرشەکانی دوێنێ وادەردەکەوتن کۆمپیوتەری بن لە شێوەیاندا.",
+            onPressedBritish: () => speakcybers2("en-GB"),
+            onPressedAmerican: () => speakcybers2("en-US"),
           ),
         ],
       ),

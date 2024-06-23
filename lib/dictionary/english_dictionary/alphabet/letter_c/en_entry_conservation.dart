@@ -121,130 +121,54 @@ class EnglishEntryconservation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پاراستنی ژینگەی سرووشتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Road development in the area has been limited by conservation programmes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرەپێدانی ڕێگا لە ناوچەکە سنووردار کراوە بە پڕۆگرامی پاراستنی ژینگەیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conservation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Road development in the area has been limited by conservation programmes.",
+                            kurdishText:
+                                "پەرەپێدانی ڕێگا لە ناوچەکە سنووردار کراوە بە پڕۆگرامی پاراستنی ژینگەیی.", // conservation",
+                            onPressedBritish: () =>
+                                speakconservations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Through the years they have made significant contributions to species conservation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە درێژایی ساڵان کاری گرنگیان ئەنجام داوە بۆ پاراستنی چەشنەکانی ئاژەڵان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Through the years they have made significant contributions to species conservation.",
+                            kurdishText:
+                                "بە درێژایی ساڵان کاری گرنگیان ئەنجام داوە بۆ پاراستنی چەشنەکانی ئاژەڵان.",
+                            onPressedBritish: () =>
+                                speakconservations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservations2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پاراستنی فەرمی ئەو بینا و کەرەستانەی کە گرنگی مێژووی یان ھونەرییان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government allocated funds for the conservation of ancient monuments in the region."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت بودجەی کۆکردەوە بۆ پاراستنی مۆنومێنتە کۆنەکان لە ھەرێمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government allocated funds for the conservation of ancient monuments in the region.",
+                            kurdishText:
+                                "حکومەت بودجەی کۆکردەوە بۆ پاراستنی مۆنومێنتە کۆنەکان لە ھەرێمەکە.",
+                            onPressedBritish: () =>
+                                speakconservations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservations3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ڕێگری لە بەھەدەرچوون، لەناوچوون، یان ونبوونی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Energy conservation reduces your fuel bills and helps the environment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاراستنی وزە تێچووی سوتەمەنیت کەم دەکاتەوە و یارمەتی ژینگەش دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Energy conservation reduces your fuel bills and helps the environment.",
+                            kurdishText:
+                                "پاراستنی وزە تێچووی سوتەمەنیت کەم دەکاتەوە و یارمەتی ژینگەش دەدات.",
+                            onPressedBritish: () =>
+                                speakconservations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservations4("en-US"),
                           ),
                         ],
                       ),

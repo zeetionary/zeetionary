@@ -102,64 +102,26 @@ class EnglishEntryconstipation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نەتوانینی کردنە دەرەوەی پیسایی لە جەستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Taking high doses of iron can cause constipation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواردنی زۆری مادەی ئاسن دەکرێت ببێتە ھۆی قەبزی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constipation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstipations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstipations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Taking high doses of iron can cause constipation.",
+                            kurdishText:
+                                "خواردنی زۆری مادەی ئاسن دەکرێت ببێتە ھۆی قەبزی.", // constipation",
+                            onPressedBritish: () =>
+                                speakconstipations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstipations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Pregnant women can suffer terrible constipation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنانی دووگیان دەکرێت ڕووبەڕووی قەبزی توند ببنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstipations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstipations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Pregnant women can suffer terrible constipation.",
+                            kurdishText:
+                                "ژنانی دووگیان دەکرێت ڕووبەڕووی قەبزی توند ببنەوە.",
+                            onPressedBritish: () =>
+                                speakconstipations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstipations2("en-US"),
                           ),
                         ],
                       ),

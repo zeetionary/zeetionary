@@ -104,63 +104,25 @@ class EnglishEntryconsul extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەرپرسێک کە نوێنەرایەتی وڵاتەکەی دەکات لە شارێکی بیانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The British consul in Miami works closely with local authorities to support British nationals in times of need."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆنسوڵی بەریتانیا لە میامی لەنزیکەوە کاردەکات لەگەڵ بەرپرسە خۆجێییەکان بۆ یارمەتیدانی ھاوڵاتییە بەریتانییەکان لە کاتی پێویستیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consul", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsuls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsuls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The British consul in Miami works closely with local authorities to support British nationals in times of need.",
+                            kurdishText:
+                                "کۆنسوڵی بەریتانیا لە میامی لەنزیکەوە کاردەکات لەگەڵ بەرپرسە خۆجێییەکان بۆ یارمەتیدانی ھاوڵاتییە بەریتانییەکان لە کاتی پێویستیدا.", // consul",
+                            onPressedBritish: () => speakconsuls1("en-GB"),
+                            onPressedAmerican: () => speakconsuls1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) لە ڕۆمی کۆندا یەکێک لەو دوو سەرکردە بوو کە ھەر ساڵێک ھەڵدەبژێردرا بۆ بەڕێوەبردنی کۆماری ڕۆم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Together Pompey, Crassus and Caesar succeeded in getting Caesar elected consul."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆمپەی، کراسس، و سیزار پێکەوە سەرکەوتووبوون لە ھەڵبژاردنی سیزار وەک کۆنسوڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsuls2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsuls2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Together Pompey, Crassus and Caesar succeeded in getting Caesar elected consul.",
+                            kurdishText:
+                                "پۆمپەی، کراسس، و سیزار پێکەوە سەرکەوتووبوون لە ھەڵبژاردنی سیزار وەک کۆنسوڵ.",
+                            onPressedBritish: () => speakconsuls2("en-GB"),
+                            onPressedAmerican: () => speakconsuls2("en-US"),
                           ),
                         ],
                       ),

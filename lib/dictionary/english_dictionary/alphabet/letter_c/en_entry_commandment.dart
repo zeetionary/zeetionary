@@ -104,64 +104,24 @@ class EnglishEntrycommandment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دەستوورێکی خودا، بە تایبەتی ئەو دە فەرمانەی خودا بە ئیسرائیلییەکانی دا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You shall keep the commandments of the Lord your God."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت پابەندی دەستووری خودای گەورەت بیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commandment", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommandments1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommandments1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You shall keep the commandments of the Lord your God.",
+                            kurdishText:
+                                "دەبێت پابەندی دەستووری خودای گەورەت بیت.", // commandment",
+                            onPressedBritish: () => speakcommandments1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommandments1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Someone brought to his notice the fifth commandment: honour thy father and mother."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێک دەستووری پێنجەمی بەبیرھێنایەوە: ڕێزی دایک و باوکت بگرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommandments2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommandments2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Someone brought to his notice the fifth commandment: honour thy father and mother.",
+                            kurdishText:
+                                "کەسێک دەستووری پێنجەمی بەبیرھێنایەوە: ڕێزی دایک و باوکت بگرە.",
+                            onPressedBritish: () => speakcommandments2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommandments2("en-US"),
                           ),
                         ],
                       ),

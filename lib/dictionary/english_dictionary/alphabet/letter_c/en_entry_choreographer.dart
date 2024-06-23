@@ -97,34 +97,15 @@ class EnglishEntrychoreographer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە کاری دانان و ڕێکخستن و ھەنگاو و جەوڵەکانی سەمایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is a passionate Spanish dancer and choreographer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەماکار و سەماداڕێژێکی بەپەرۆشی ئیسپانییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "choreographer", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchoreographers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchoreographers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is a passionate Spanish dancer and choreographer.",
+                            kurdishText:
+                                "سەماکار و سەماداڕێژێکی بەپەرۆشی ئیسپانییە.", // choreographer",
+                            onPressedBritish: () =>
+                                speakchoreographers1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchoreographers1("en-US"),
                           ),
                         ],
                       ),

@@ -110,100 +110,38 @@ class EnglishEntrycommonplace extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە باوە و زۆر دەکرێت بۆیە نامۆ نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This technology is now commonplace in schools."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم تەکنەلۆژیایە ئێستا بەربڵاوە لە قوتابخانەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commonplace", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommonplaces1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommonplaces1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This technology is now commonplace in schools.",
+                            kurdishText:
+                                "ئەم تەکنەلۆژیایە ئێستا بەربڵاوە لە قوتابخانەکاندا.", // commonplace",
+                            onPressedBritish: () => speakcommonplaces1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommonplaces1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بۆنەیەک کە زۆر ڕوودەدات و نامۆ نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Traffic jams are a commonplace in big cities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەرەباڵغی ھاتووچۆ شتێکی ئاساییە لە شارە گەورەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommonplaces2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommonplaces2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Traffic jams are a commonplace in big cities.",
+                            kurdishText:
+                                "قەرەباڵغی ھاتووچۆ شتێکی ئاساییە لە شارە گەورەکان.",
+                            onPressedBritish: () => speakcommonplaces2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommonplaces2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) وتەیەک، ھتد کە زۆر بەکارھاتووە و سەرنجڕاکێش نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The speech was full of commonplaces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکە پڕ لە قسەی دووبارە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommonplaces3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommonplaces3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The speech was full of commonplaces.",
+                            kurdishText: "وتارەکە پڕ لە قسەی دووبارە بوو.",
+                            onPressedBritish: () => speakcommonplaces3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommonplaces3("en-US"),
                           ),
                         ],
                       ),

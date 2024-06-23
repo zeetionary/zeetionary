@@ -97,32 +97,13 @@ class EnglishEntryciabatta extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جۆرە نانێکی ئیتالی کە بە شێوەی تەخت و درێژ درووست دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She made a delicious sandwich with ciabatta bread, filled with ham and cheese."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەفەیەکی بەلەزەتی بە نانی چیباتا درووستکرد کە پڕ بوو لە ڕانی بەراز و پەنیر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "ciabatta", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakciabattas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakciabattas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She made a delicious sandwich with ciabatta bread, filled with ham and cheese.",
+                            kurdishText:
+                                "لەفەیەکی بەلەزەتی بە نانی چیباتا درووستکرد کە پڕ بوو لە ڕانی بەراز و پەنیر.", // ciabatta",
+                            onPressedBritish: () => speakciabattas1("en-GB"),
+                            onPressedAmerican: () => speakciabattas1("en-US"),
                           ),
                         ],
                       ),

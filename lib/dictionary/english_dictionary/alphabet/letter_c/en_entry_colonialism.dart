@@ -95,34 +95,14 @@ class EnglishEntrycolonialism extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) داگیرکاری وڵاتانی دیکە لەلایەن وڵاتێکی بەھێزەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The history of tobacco growing is intimately associated with colonialism and slavery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێژووی گەشەپێدانی تووتن بەئاستێکی زۆر دەبەسترێتەوە بە کۆلۆنیاڵیزم و کۆیلایەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colonialism", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcolonialisms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcolonialisms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The history of tobacco growing is intimately associated with colonialism and slavery.",
+                            kurdishText:
+                                "مێژووی گەشەپێدانی تووتن بەئاستێکی زۆر دەبەسترێتەوە بە کۆلۆنیاڵیزم و کۆیلایەتی.", // colonialism",
+                            onPressedBritish: () => speakcolonialisms1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcolonialisms1("en-US"),
                           ),
                         ],
                       ),

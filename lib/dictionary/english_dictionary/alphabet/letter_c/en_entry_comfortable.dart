@@ -204,427 +204,151 @@ class EnglishEntrycomfortable extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) شتێک کە ئاسوودەبەخشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It's such a comfortable bed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێخەوێکی تەواو ئاسوودەبەخش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comfortable", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's such a comfortable bed.",
+                            kurdishText:
+                                "جێخەوێکی تەواو ئاسوودەبەخش بوو.", // comfortable",
+                            onPressedBritish: () => speakcomfortables1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortables1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These new shoes are not very comfortable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم پێڵاوە تازانە زۆر ئاسوودەبەخش نین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortables2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortables2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These new shoes are not very comfortable.",
+                            kurdishText:
+                                "ئەم پێڵاوە تازانە زۆر ئاسوودەبەخش نین.",
+                            onPressedBritish: () => speakcomfortables2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortables2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hotel was comfortable enough."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھوتێلەکە بەشی پێویست ئاسوودەبەخش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortables3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortables3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The hotel was comfortable enough.",
+                            kurdishText:
+                                "ھوتێلەکە بەشی پێویست ئاسوودەبەخش بوو.",
+                            onPressedBritish: () => speakcomfortables3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortables3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) کەسێک کە ئاسوودەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Are you comfortable?"),
-                                    ExampleSentenceKurdish(text: "ئاسوودەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortables4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortables4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Are you comfortable?",
+                            kurdishText: "ئاسوودەیت؟",
+                            onPressedBritish: () => speakcomfortables4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortables4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please make yourself comfortable while I get some coffee."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە ئاسوودە بە کە من ھەندێک قاوە ئامادە دەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortables5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortables5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please make yourself comfortable while I get some coffee.",
+                            kurdishText:
+                                "تکایە ئاسوودە بە کە من ھەندێک قاوە ئامادە دەکەم.",
+                            onPressedBritish: () => speakcomfortables5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortables5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The patient is comfortable (= not in pain) after his operation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشەکە ئاسوودەیە لە دوای نەشتەرگەرییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortables6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortables6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The patient is comfortable (= not in pain) after his operation.",
+                            kurdishText:
+                                "نەخۆشەکە ئاسوودەیە لە دوای نەشتەرگەرییەکەی.",
+                            onPressedBritish: () => speakcomfortables6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortables6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) ھەبوونی متمانە و نەبوونی نیگەرانی سەبارەت بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was not entirely comfortable about the plans they had made."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواو ئاسوودە نەبووم سەبارەت بەو پلانانەی کە دایان نابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortables7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortables7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was not entirely comfortable about the plans they had made.",
+                            kurdishText:
+                                "تەواو ئاسوودە نەبووم سەبارەت بەو پلانانەی کە دایان نابوو.",
+                            onPressedBritish: () => speakcomfortables7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortables7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I didn't feel comfortable about accepting the money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستمم بە ئاسوودەیی نەدەکرد سەبارەت بە پەسەندکردنی پارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortables8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortables8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I didn't feel comfortable about accepting the money.",
+                            kurdishText:
+                                "ھەستمم بە ئاسوودەیی نەدەکرد سەبارەت بە پەسەندکردنی پارەکە.",
+                            onPressedBritish: () => speakcomfortables8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortables8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She seems comfortable giving a speech without notes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەست بە ئاسوودەیی دەکات کە وتارێک بەبێ تێبینی بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortables9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortables9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She seems comfortable giving a speech without notes.",
+                            kurdishText:
+                                "ھەست بە ئاسوودەیی دەکات کە وتارێک بەبێ تێبینی بدات.",
+                            onPressedBritish: () => speakcomfortables9("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortables9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I never feel very comfortable in her presence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەست بە ئاسوودەیی ناکەم لە پێشیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortables10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortables10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I never feel very comfortable in her presence.",
+                            kurdishText: "ھەست بە ئاسوودەیی ناکەم لە پێشیدا.",
+                            onPressedBritish: () =>
+                                speakcomfortables10("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortables10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) ھەبوونی ھێندە پارە کە ئەوەی دەتەوێت دەیکڕیت بەبێ گرنگیدان بە نرخەکەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They're not millionaires, but they're certainly very comfortable."),
-                                    ExampleSentenceKurdish(
-                                        text: "ملیۆنەر نین، بەڵام دەوڵەمەندن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortables11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortables11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They're not millionaires, but they're certainly very comfortable.",
+                            kurdishText: "ملیۆنەر نین، بەڵام دەوڵەمەندن.",
+                            onPressedBritish: () =>
+                                speakcomfortables11("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortables11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He makes a comfortable living."),
-                                    ExampleSentenceKurdish(
-                                        text: "ژیانێکی دەوڵەمەندانەی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortables12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortables12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He makes a comfortable living.",
+                            kurdishText: "ژیانێکی دەوڵەمەندانەی ھەیە.",
+                            onPressedBritish: () =>
+                                speakcomfortables12("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortables12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They come from comfortable middle-class families."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەر بە خێزانێکی دەوڵەمەندی چینی ناوەندن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortables13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortables13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They come from comfortable middle-class families.",
+                            kurdishText:
+                                "سەر بە خێزانێکی دەوڵەمەندی چینی ناوەندن.",
+                            onPressedBritish: () =>
+                                speakcomfortables13("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortables13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ھاوەڵناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The party won with a comfortable majority."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارتەکە بە زۆرینەیەکی گەورەوە بردییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomfortables14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomfortables14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The party won with a comfortable majority.",
+                            kurdishText:
+                                "پارتەکە بە زۆرینەیەکی گەورەوە بردییەوە.",
+                            onPressedBritish: () =>
+                                speakcomfortables14("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomfortables14("en-US"),
                           ),
                         ],
                       ),

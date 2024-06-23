@@ -94,30 +94,12 @@ class EnglishEntrycoastguard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دامەزراوەیەکی فەرمی سوپای ئەمریکا کە ئەرکیان پاراستنی سنوورە ئاوییەکانە بۆ یارمەتیدانی کەشتی و ئەو کەسانەی لە کێشەدان، و ئەو کەسانەی یاسا دەشکێنن؛ ئەندامێکی ئەم ھێزە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The coastguard was alerted."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەنارپارێزان ئاگادارکرانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coastguard", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoastguards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoastguards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The coastguard was alerted.",
+                            kurdishText:
+                                "کەنارپارێزان ئاگادارکرانەوە.", // coastguard",
+                            onPressedBritish: () => speakcoastguards1("en-GB"),
+                            onPressedAmerican: () => speakcoastguards1("en-US"),
                           ),
                         ],
                       ),

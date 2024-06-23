@@ -96,34 +96,15 @@ class EnglishEntrycircumnavigation extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ناو) سووڕانەوەبە دەوری شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We completed our circumnavigation of the island in our little boat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سووڕانەوەکەمان بە دەوری دوورگەکەدا تەواوکرد بە بەلەمە بچووکەکەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circumnavigation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcircumnavigations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcircumnavigations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We completed our circumnavigation of the island in our little boat.",
+                            kurdishText:
+                                "سووڕانەوەکەمان بە دەوری دوورگەکەدا تەواوکرد بە بەلەمە بچووکەکەمان.", // circumnavigation",
+                            onPressedBritish: () =>
+                                speakcircumnavigations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcircumnavigations1("en-US"),
                           ),
                         ],
                       ),

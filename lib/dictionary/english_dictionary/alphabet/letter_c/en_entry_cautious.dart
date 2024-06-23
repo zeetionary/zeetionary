@@ -191,60 +191,22 @@ class EnglishEntrycautious extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەسێک کە ھۆشیار و وریاییە دەربارەی ئەوەی دەیڵێت بۆ ئەوەی لە ھەڵە و مەترسی دوور بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government has been cautious in its response to the report."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت ھۆشیار بووە لە وەڵامدانەوەیدا بۆ ڕاپۆرتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cautious", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcautiouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcautiouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government has been cautious in its response to the report.",
+                            kurdishText:
+                                "حکومەت ھۆشیار بووە لە وەڵامدانەوەیدا بۆ ڕاپۆرتەکە.", // cautious",
+                            onPressedBritish: () => speakcautiouss1("en-GB"),
+                            onPressedAmerican: () => speakcautiouss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They've taken a very cautious approach."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ڕێگایەکی ھۆشیارانەیان گرتووەتە بەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcautiouss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcautiouss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They've taken a very cautious approach.",
+                            kurdishText:
+                                "ھەموو ڕێگایەکی ھۆشیارانەیان گرتووەتە بەر.",
+                            onPressedBritish: () => speakcautiouss2("en-GB"),
+                            onPressedAmerican: () => speakcautiouss2("en-US"),
                           ),
                         ],
                       ),

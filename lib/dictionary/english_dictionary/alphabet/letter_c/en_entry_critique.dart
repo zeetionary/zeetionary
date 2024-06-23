@@ -242,62 +242,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) نووسراوێک یان بۆچوونی ڕەخنەگرانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She wrote a feminist critique of Freud's theories."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کارێکی ڕەخنەگری فێمینیزمانەی بیردۆزەکانی فرۆیدی نووسی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "critique", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcritiques1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcritiques1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She wrote a feminist critique of Freud's theories.",
+            kurdishText:
+                "کارێکی ڕەخنەگری فێمینیزمانەی بیردۆزەکانی فرۆیدی نووسی.", // critique", please follow LX instructions
+            onPressedBritish: () => speakcritiques1("en-GB"),
+            onPressedAmerican: () => speakcritiques1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) نووسین یان دەربڕینی ڕەخنەگری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her job involves critiquing designs by fashion students."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کارەکەی دەربڕینی ڕەخنەگری لەسەر دیزاینی فاشنی خوێندکاران لەخۆدەگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcritiques2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcritiques2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her job involves critiquing designs by fashion students.",
+            kurdishText:
+                "کارەکەی دەربڕینی ڕەخنەگری لەسەر دیزاینی فاشنی خوێندکاران لەخۆدەگرێت.",
+            onPressedBritish: () => speakcritiques2("en-GB"),
+            onPressedAmerican: () => speakcritiques2("en-US"),
           ),
         ],
       ),

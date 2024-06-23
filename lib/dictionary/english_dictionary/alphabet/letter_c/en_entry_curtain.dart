@@ -326,58 +326,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پەردە،	لۆ، توێژاڵ، توێ، بەرگ، ڕووپۆش، پارێزە، دیوار،	دوایی، کۆتایی، دووماھی
 """),
           const DefinitionKurdish(text: "١. (ناو) پەردەی سەر پەنجەرە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She opened her curtains and looked out."),
-                    ExampleSentenceKurdish(
-                        text: "پەردەکانیی کردەوە و سەیری دەرەوەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curtain", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtains1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtains1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She opened her curtains and looked out.",
+            kurdishText:
+                "پەردەکانیی کردەوە و سەیری دەرەوەی کرد.", // curtain", please follow LX instructions
+            onPressedBritish: () => speakcurtains1("en-GB"),
+            onPressedAmerican: () => speakcurtains1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was ten in the morning but the curtains were still drawn (= closed)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاتژمێر دەی بەیانی بوو بەڵام پەردەکان ھێشتا داخراو بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtains2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtains2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was ten in the morning but the curtains were still drawn (= closed).",
+            kurdishText:
+                "کاتژمێر دەی بەیانی بوو بەڵام پەردەکان ھێشتا داخراو بوون.",
+            onPressedBritish: () => speakcurtains2("en-GB"),
+            onPressedAmerican: () => speakcurtains2("en-US"),
           ),
           Column(
             children: [
@@ -522,169 +485,54 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) پەردەیەک کە لە ژوورێک یان بە دەوری جێ‌خەوێکدا ھەڵدەواسرێت وەک پارێزەرێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He took a bag from a shelf behind some curtains."),
-                    ExampleSentenceKurdish(
-                        text: "لە ڕەفەی پشتەوەی ھەندێک پەردەوە جانتایەکی برد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtains7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtains7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He took a bag from a shelf behind some curtains.",
+            kurdishText: "لە ڕەفەی پشتەوەی ھەندێک پەردەوە جانتایەکی برد.",
+            onPressedBritish: () => speakcurtains7("en-GB"),
+            onPressedAmerican: () => speakcurtains7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) پەردەی شانۆ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The audience was waiting for the curtain to rise (= for the play to begin)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بینەران وەستابوون بۆ ئەوەی پەردەکان ھەڵبدرێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtains8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtains8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The audience was waiting for the curtain to rise (= for the play to begin).",
+            kurdishText: "بینەران وەستابوون بۆ ئەوەی پەردەکان ھەڵبدرێنەوە.",
+            onPressedBritish: () => speakcurtains8("en-GB"),
+            onPressedAmerican: () => speakcurtains8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was tremendous applause when the curtain came down (= the play ended)."),
-                    ExampleSentenceKurdish(
-                        text: "چەپڵە ڕێزانێکی زۆر ھەبوو کە پەردەکە دادرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtains9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtains9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was tremendous applause when the curtain came down (= the play ended).",
+            kurdishText: "چەپڵە ڕێزانێکی زۆر ھەبوو کە پەردەکە دادرایەوە.",
+            onPressedBritish: () => speakcurtains9("en-GB"),
+            onPressedAmerican: () => speakcurtains9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We left just before the final curtain (= the end of a play)."),
-                    ExampleSentenceKurdish(text: "پێش کۆتایی شانۆکە ڕۆشتین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtains10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtains10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We left just before the final curtain (= the end of a play).",
+            kurdishText: "پێش کۆتایی شانۆکە ڕۆشتین.",
+            onPressedBritish: () => speakcurtains10("en-GB"),
+            onPressedAmerican: () => speakcurtains10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) شتێک کە شتێک دادەپۆشێت یان دەیپارێزێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She pushed back the curtain of brown hair from her eyes."),
-                    ExampleSentenceKurdish(
-                        text: "چەپکێک لە قژی قاوەیی لە پێش چاوی لادا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtains11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtains11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She pushed back the curtain of brown hair from her eyes.",
+            kurdishText: "چەپکێک لە قژی قاوەیی لە پێش چاوی لادا.",
+            onPressedBritish: () => speakcurtains11("en-GB"),
+            onPressedAmerican: () => speakcurtains11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They could see nothing through the curtain of smoke (/rain)."),
-                    ExampleSentenceKurdish(
-                        text: "نەیان دەتوانی ھیچ ببینن بە تۆپەڵە دووکەڵەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtains12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtains12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They could see nothing through the curtain of smoke (/rain).",
+            kurdishText: "نەیان دەتوانی ھیچ ببینن بە تۆپەڵە دووکەڵەکەدا.",
+            onPressedBritish: () => speakcurtains12("en-GB"),
+            onPressedAmerican: () => speakcurtains12("en-US"),
           ),
         ],
       ),

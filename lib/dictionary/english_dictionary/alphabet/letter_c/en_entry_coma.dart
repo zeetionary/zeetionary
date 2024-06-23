@@ -102,60 +102,21 @@ class EnglishEntrycoma extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخێکی قووڵی بێ‌ھۆشی، زۆرجار بۆ ماوەیەکی زۆر بەردەوام دەبێت و بەھۆی نەخۆشی یان بریندارییەکی سەخت تووشی دەبیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He fell into a coma after suffering a stroke."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەوتە کۆما لە دوای تووشبوونی بە جەڵدە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coma", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He fell into a coma after suffering a stroke.",
+                            kurdishText:
+                                "کەوتە کۆما لە دوای تووشبوونی بە جەڵدە.", // coma",
+                            onPressedBritish: () => speakcomas1("en-GB"),
+                            onPressedAmerican: () => speakcomas1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has been in a coma since the accident."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەوەتەی ڕووداوەکەوە لە کۆمادایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomas2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomas2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has been in a coma since the accident.",
+                            kurdishText: "لەوەتەی ڕووداوەکەوە لە کۆمادایە.",
+                            onPressedBritish: () => speakcomas2("en-GB"),
+                            onPressedAmerican: () => speakcomas2("en-US"),
                           ),
                         ],
                       ),

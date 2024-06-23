@@ -102,60 +102,21 @@ class EnglishEntryclimactic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە خرووشێنەرترین یان سەرنجڕاکێشترین بەشی چیرۆکێک یان دۆخێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The film ends with a climactic battle scene."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە بە دیمەنێکی جەنگی خرووشێنەر کۆتایی دێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "climactic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimactics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimactics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The film ends with a climactic battle scene.",
+                            kurdishText:
+                                "فیلمەکە بە دیمەنێکی جەنگی خرووشێنەر کۆتایی دێت.", // climactic",
+                            onPressedBritish: () => speakclimactics1("en-GB"),
+                            onPressedAmerican: () => speakclimactics1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Finally, the climactic moment came."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتاییدا دیمەنە سەرنجڕاکێشەکە گەشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclimactics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclimactics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Finally, the climactic moment came.",
+                            kurdishText:
+                                "لە کۆتاییدا دیمەنە سەرنجڕاکێشەکە گەشت.",
+                            onPressedBritish: () => speakclimactics2("en-GB"),
+                            onPressedAmerican: () => speakclimactics2("en-US"),
                           ),
                         ],
                       ),

@@ -91,32 +91,13 @@ class EnglishEntrychord extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لە میوزیکدا سێ نۆتە یان زیاترە کە پێکەوە لێ دەدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She strummed a few chords on her guitar."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەند کۆردێکی لێدا لەسەر گیتارەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chord", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchords1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchords1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She strummed a few chords on her guitar.",
+                            kurdishText:
+                                "چەند کۆردێکی لێدا لەسەر گیتارەکەی.", // chord",
+                            onPressedBritish: () => speakchords1("en-GB"),
+                            onPressedAmerican: () => speakchords1("en-US"),
                           ),
                         ],
                       ),

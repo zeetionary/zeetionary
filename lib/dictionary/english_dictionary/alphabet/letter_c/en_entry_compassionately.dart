@@ -103,64 +103,26 @@ class EnglishEntrycompassionately extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بە شێوەیەک کە ھەستکردن بە میھرەبانی بۆ مرۆڤ و ئاژەڵ پیشان دەدات کە لە ئازاردان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They spoke compassionately, trying to calm her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە میھرەبانییەوە قسەیان دەکرد و ھەوڵیان دەدا ھێوری بکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compassionately", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompassionatelys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompassionatelys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They spoke compassionately, trying to calm her.",
+                            kurdishText:
+                                "بە میھرەبانییەوە قسەیان دەکرد و ھەوڵیان دەدا ھێوری بکەنەوە.", // compassionately",
+                            onPressedBritish: () =>
+                                speakcompassionatelys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompassionatelys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When you are ill you should be treated compassionately and with care."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە نەخۆشیت دەبێت بە میھرەبانی و ئاگاییەوە مامەڵەت لەگەڵ بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcompassionatelys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcompassionatelys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When you are ill you should be treated compassionately and with care.",
+                            kurdishText:
+                                "کە نەخۆشیت دەبێت بە میھرەبانی و ئاگاییەوە مامەڵەت لەگەڵ بکرێت.",
+                            onPressedBritish: () =>
+                                speakcompassionatelys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcompassionatelys2("en-US"),
                           ),
                         ],
                       ),

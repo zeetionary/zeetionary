@@ -97,34 +97,15 @@ class EnglishEntrycomputerliterate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی توانای بەکارھێنانی کۆمپیوتەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is highly computer-literate, and good at explaining the use of the system to others."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر شارەزای کۆمپیوتەرە، و باشە لە ڕوونکردنەوەی بەکارھێنانی سیستەمەکە بۆ کەسانی دیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "computer literate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcomputerliterates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcomputerliterates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is highly computer-literate, and good at explaining the use of the system to others.",
+                            kurdishText:
+                                "زۆر شارەزای کۆمپیوتەرە، و باشە لە ڕوونکردنەوەی بەکارھێنانی سیستەمەکە بۆ کەسانی دیکە.", // computer literate",
+                            onPressedBritish: () =>
+                                speakcomputerliterates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcomputerliterates1("en-US"),
                           ),
                         ],
                       ),

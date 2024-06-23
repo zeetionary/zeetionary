@@ -102,60 +102,22 @@ class EnglishEntryclod extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پارچەیەکی بچووک لە خۆڵ یان قوڕ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their hoofs threw up clods of earth as they galloped across the field."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سمەکان کڵۆ خۆڵیان فڕێ دەدا کە بە کێڵگەکەدا غاریان دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clod", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclods1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclods1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their hoofs threw up clods of earth as they galloped across the field.",
+                            kurdishText:
+                                "سمەکان کڵۆ خۆڵیان فڕێ دەدا کە بە کێڵگەکەدا غاریان دەدا.", // clod",
+                            onPressedBritish: () => speakclods1("en-GB"),
+                            onPressedAmerican: () => speakclods1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کەسێکی گەمژە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Don't be such a clod!"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھێندە گەمژە مەبە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclods2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclods2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don't be such a clod!",
+                            kurdishText: "ھێندە گەمژە مەبە!",
+                            onPressedBritish: () => speakclods2("en-GB"),
+                            onPressedAmerican: () => speakclods2("en-US"),
                           ),
                         ],
                       ),

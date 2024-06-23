@@ -104,63 +104,25 @@ class EnglishEntrycommonlaw extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لە ژمارەیەک وڵات ئەو یاسایانەیە کە لە نەریتەکان و بڕیارەکانی دادگاوە بەتێپەڕبوونی کات درووستبوون، نەک بە تێپەڕبوون بە پەرلەماندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She studied common law before specializing in tax law."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاسای نەنووسراوی خوێند پێش ئەوەی شارەزایی لە یاسای باجدا بھێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "common law", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommonlaws1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommonlaws1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She studied common law before specializing in tax law.",
+                            kurdishText:
+                                "یاسای نەنووسراوی خوێند پێش ئەوەی شارەزایی لە یاسای باجدا بھێنێت.", // common law",
+                            onPressedBritish: () => speakcommonlaws1("en-GB"),
+                            onPressedAmerican: () => speakcommonlaws1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ژن و پیاوێک کە ماوەیەکی زۆر بەبێ ھاوسەرگیری پێکەوە ژیاون و لە ھەندێک وڵات بە ھاوژین دادەنرێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She lives with her common-law husband and their three children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەگەڵ ھاوسەرە عورفییەکەی/نائایینییەکەی و سێ منداڵەکەیدا دەژی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommonlaws2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommonlaws2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She lives with her common-law husband and their three children.",
+                            kurdishText:
+                                "لەگەڵ ھاوسەرە عورفییەکەی/نائایینییەکەی و سێ منداڵەکەیدا دەژی.",
+                            onPressedBritish: () => speakcommonlaws2("en-GB"),
+                            onPressedAmerican: () => speakcommonlaws2("en-US"),
                           ),
                         ],
                       ),

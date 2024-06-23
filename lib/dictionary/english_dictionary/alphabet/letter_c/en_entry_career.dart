@@ -195,60 +195,22 @@ class EnglishEntrycareer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) زنجیرە کارێک کە کەسێک ھەیەتی لە بەشێکی دیاریکراوی کارێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She plans to pursue a career in medicine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانی ھەیە کارێکی لە دەرمانسازیدا ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "career", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcareers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcareers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She plans to pursue a career in medicine.",
+                            kurdishText:
+                                "پلانی ھەیە کارێکی لە دەرمانسازیدا ھەبێت.", // career",
+                            onPressedBritish: () => speakcareers1("en-GB"),
+                            onPressedAmerican: () => speakcareers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had a successful career in television journalism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیشەیەکی سەرکەوتووانەی ھەبوو لە ڕۆژنامەنووسیی تەلەفیزیۆنیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcareers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcareers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had a successful career in television journalism.",
+                            kurdishText:
+                                "پیشەیەکی سەرکەوتووانەی ھەبوو لە ڕۆژنامەنووسیی تەلەفیزیۆنیدا.",
+                            onPressedBritish: () => speakcareers2("en-GB"),
+                            onPressedAmerican: () => speakcareers2("en-US"),
                           ),
                           Column(
                             children: [
@@ -351,119 +313,42 @@ class EnglishEntrycareer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو ماوەیەی تەمەن کە بە کارکردن بەسەری دەبەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She started her career as an English teacher."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک مامۆستای ئینگلیزی دەستی بەکارکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcareers6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcareers6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She started her career as an English teacher.",
+                            kurdishText:
+                                "وەک مامۆستای ئینگلیزی دەستی بەکارکرد.",
+                            onPressedBritish: () => speakcareers6("en-GB"),
+                            onPressedAmerican: () => speakcareers6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This was a turning point in her career."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە قۆناغی گرنگی کارکردنی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcareers7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcareers7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This was a turning point in her career.",
+                            kurdishText: "ئەمە قۆناغی گرنگی کارکردنی بوو.",
+                            onPressedBritish: () => speakcareers7("en-GB"),
+                            onPressedAmerican: () => speakcareers7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was at the peak of her career when she injured herself."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە لوتکەی کارکردنیدا بوو کە خۆی بریندار کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcareers8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcareers8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was at the peak of her career when she injured herself.",
+                            kurdishText:
+                                "لە لوتکەی کارکردنیدا بوو کە خۆی بریندار کرد.",
+                            onPressedBritish: () => speakcareers8("en-GB"),
+                            onPressedAmerican: () => speakcareers8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) بەخێرایی چوونە پێشەوە بەشێوەیەک کە نەبوونی کۆنترۆڵ پیشان دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car careered across the road and hit a cyclist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە بە ڕێگاکەدا غلبووەوە و کێشای بە پاسکیلسوارێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcareers9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcareers9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The car careered across the road and hit a cyclist.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە بە ڕێگاکەدا غلبووەوە و کێشای بە پاسکیلسوارێکدا.",
+                            onPressedBritish: () => speakcareers9("en-GB"),
+                            onPressedAmerican: () => speakcareers9("en-US"),
                           ),
                         ],
                       ),

@@ -95,32 +95,13 @@ class EnglishEntrycockney extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دانیشتووان یان شێوازی قسەکردنی دانیشتووانی ڕۆژھەڵاتی لەندەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You won't hear much real cockney spoken unless you go to the East End."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێت لە قسەکردنی ڕاستی کۆکنی نابێت مەگەر ئەوەی بچیتە ڕۆژھەڵاتی لەندەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cockney", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcockneys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcockneys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You won't hear much real cockney spoken unless you go to the East End.",
+                            kurdishText:
+                                "گوێت لە قسەکردنی ڕاستی کۆکنی نابێت مەگەر ئەوەی بچیتە ڕۆژھەڵاتی لەندەن.", // cockney",
+                            onPressedBritish: () => speakcockneys1("en-GB"),
+                            onPressedAmerican: () => speakcockneys1("en-US"),
                           ),
                         ],
                       ),

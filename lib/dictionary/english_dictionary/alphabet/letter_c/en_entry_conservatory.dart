@@ -105,67 +105,29 @@ class EnglishEntryconservatory extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژوورێک یان ھەندێک جار بینایەک دیوار و سەربانی شووشەی ھەیە و بەکاردێت بۆ دانیشتن و ڕوانین لە خۆر، و بۆ پاراستنی ڕووەک لە کەشی سارد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The conservatory provided a cozy spot to relax and enjoy the view of the garden."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژوورە شووشەییەکە شوێنێکی ئاسوودەی دابین دەکرد بۆ حەسانەوە و چێژبینین لە دیمەنی باخچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conservatory", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservatorys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservatorys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The conservatory provided a cozy spot to relax and enjoy the view of the garden.",
+                            kurdishText:
+                                "ژوورە شووشەییەکە شوێنێکی ئاسوودەی دابین دەکرد بۆ حەسانەوە و چێژبینین لە دیمەنی باخچەکە.", // conservatory",
+                            onPressedBritish: () =>
+                                speakconservatorys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservatorys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) قوتابخانە یان کۆلێژێک تێیدا خەڵکی ڕاھێنانیان لەسەر میوزیک و شانۆ پێدەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She studied piano at the conservatory from a young age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئامۆژگاکە ھونەرییەکە پیانۆی خوێند لە تەمەنی گەنجییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconservatorys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconservatorys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She studied piano at the conservatory from a young age.",
+                            kurdishText:
+                                "لە ئامۆژگاکە ھونەرییەکە پیانۆی خوێند لە تەمەنی گەنجییەوە.",
+                            onPressedBritish: () =>
+                                speakconservatorys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconservatorys2("en-US"),
                           ),
                         ],
                       ),

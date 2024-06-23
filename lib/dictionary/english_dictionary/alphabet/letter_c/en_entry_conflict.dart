@@ -175,293 +175,103 @@ class EnglishEntryconflict extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخێک کە تێیدا خەڵک، ژمارەیەک گرووپ یان وڵات ناکۆکن یان لە مشتومڕی توندان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The violence was the result of political conflicts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توندوتیژییەکە ئەنجامی ڕووبەڕووبوونەوەی سیاسی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conflict", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconflicts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconflicts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The violence was the result of political conflicts.",
+                            kurdishText:
+                                "توندوتیژییەکە ئەنجامی ڕووبەڕووبوونەوەی سیاسی بوو.", // conflict",
+                            onPressedBritish: () => speakconflicts1("en-GB"),
+                            onPressedAmerican: () => speakconflicts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His task will be to resolve potential conflicts between the British and Scottish governments."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەرکی چارەسەری ھەر ناکۆکییەکە کە دەکرێت درووست ببێت لە نێوان حکومەتەکانی بەریتانیا و سکۆتلەندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconflicts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconflicts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His task will be to resolve potential conflicts between the British and Scottish governments.",
+                            kurdishText:
+                                "ئەرکی چارەسەری ھەر ناکۆکییەکە کە دەکرێت درووست ببێت لە نێوان حکومەتەکانی بەریتانیا و سکۆتلەندا.",
+                            onPressedBritish: () => speakconflicts2("en-GB"),
+                            onPressedAmerican: () => speakconflicts2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She found herself in conflict with her parents over her future career."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی لە ناکۆکیدا بینییەوە لەگەڵ دایک و باوکی سەبارەت بە کاری داھاتووی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconflicts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconflicts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She found herself in conflict with her parents over her future career.",
+                            kurdishText:
+                                "خۆی لە ناکۆکیدا بینییەوە لەگەڵ دایک و باوکی سەبارەت بە کاری داھاتووی.",
+                            onPressedBritish: () => speakconflicts3("en-GB"),
+                            onPressedAmerican: () => speakconflicts3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕووبەڕووبوونەوەی توندوتیژانە یان پێکدادان لە نێوان دوو لایەندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country has experienced internal conflict over the last decade."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتەکە بە ڕووبەڕووبوونەوەی ناوخۆییدا تێپەڕێوە لە دەیەی ڕابردوودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconflicts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconflicts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The country has experienced internal conflict over the last decade.",
+                            kurdishText:
+                                "وڵاتەکە بە ڕووبەڕووبوونەوەی ناوخۆییدا تێپەڕێوە لە دەیەی ڕابردوودا.",
+                            onPressedBritish: () => speakconflicts4("en-GB"),
+                            onPressedAmerican: () => speakconflicts4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hopes of ending the conflict in the region are fading."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیوای کۆتایی ھێنان بە پێکدادان لە ھەرێمەکە ئاوا دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconflicts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconflicts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Hopes of ending the conflict in the region are fading.",
+                            kurdishText:
+                                "ھیوای کۆتایی ھێنان بە پێکدادان لە ھەرێمەکە ئاوا دەبێت.",
+                            onPressedBritish: () => speakconflicts5("en-GB"),
+                            onPressedAmerican: () => speakconflicts5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A conflict between the two countries could easily spread across the whole region."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکدادانێک لە نێوان دوو وڵاتەکەدا دەکرێت بە ئاسانی بە ھەرێمەکەدا بڵاوببێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconflicts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconflicts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A conflict between the two countries could easily spread across the whole region.",
+                            kurdishText:
+                                "پێکدادانێک لە نێوان دوو وڵاتەکەدا دەکرێت بە ئاسانی بە ھەرێمەکەدا بڵاوببێتەوە.",
+                            onPressedBritish: () => speakconflicts6("en-GB"),
+                            onPressedAmerican: () => speakconflicts6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) دۆخێک کە تێیدا بیرۆکە، بۆچوون، ھەست، و ھیوا کە پێکەوە ناگونجێن پێکەوەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her diary was a record of her inner conflict."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یادنامەکەی تۆمارێکی ململانێی ناوەکی خۆی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconflicts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconflicts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her diary was a record of her inner conflict.",
+                            kurdishText:
+                                "یادنامەکەی تۆمارێکی ململانێی ناوەکی خۆی بوو.",
+                            onPressedBritish: () => speakconflicts7("en-GB"),
+                            onPressedAmerican: () => speakconflicts7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many of these ideas appear to be in conflict with each other."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرێک لەم بیرۆکانە وادەردەکەون دژبەری یەکدی بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconflicts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconflicts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many of these ideas appear to be in conflict with each other.",
+                            kurdishText:
+                                "زۆرێک لەم بیرۆکانە وادەردەکەون دژبەری یەکدی بن.",
+                            onPressedBritish: () => speakconflicts8("en-GB"),
+                            onPressedAmerican: () => speakconflicts8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) دژبوونی بیرۆکە، باوەڕ، چیرۆک، ھتد و ئەوەی کە پێکەوە نەگونجێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Reports conflicted on how much of the aid was reaching the famine victims."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاپۆرتەکان ناکۆک بوون لەسەر ئەوەی چەند لە یارمەتییەکە دەگەشتە قوربانییانی وشکەساڵییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconflicts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconflicts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Reports conflicted on how much of the aid was reaching the famine victims.",
+                            kurdishText:
+                                "ڕاپۆرتەکان ناکۆک بوون لەسەر ئەوەی چەند لە یارمەتییەکە دەگەشتە قوربانییانی وشکەساڵییەکە.",
+                            onPressedBritish: () => speakconflicts9("en-GB"),
+                            onPressedAmerican: () => speakconflicts9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are several major areas where their interests conflict."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک لایەنی گرنگ ھەن کە بەرژەوەندییەکانیان دژ بە یەکن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconflicts10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconflicts10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are several major areas where their interests conflict.",
+                            kurdishText:
+                                "ژمارەیەک لایەنی گرنگ ھەن کە بەرژەوەندییەکانیان دژ بە یەکن.",
+                            onPressedBritish: () => speakconflicts10("en-GB"),
+                            onPressedAmerican: () => speakconflicts10("en-US"),
                           ),
                         ],
                       ),

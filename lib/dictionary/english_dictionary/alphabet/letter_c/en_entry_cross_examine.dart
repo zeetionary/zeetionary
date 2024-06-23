@@ -234,32 +234,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) لێ‌پێچینەوەی توند لە کەسێک "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The witness was cross-examined for over two hours."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شایەتحاڵەکە بۆ سەروو دوو کاتژمێر لێ‌پێچینەوەی لێکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cross-examine", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossexamines1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossexamines1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The witness was cross-examined for over two hours.",
+            kurdishText:
+                "شایەتحاڵەکە بۆ سەروو دوو کاتژمێر لێ‌پێچینەوەی لێکرا.", // cross-examine", please follow LX instructions
+            onPressedBritish: () => speakcrossexamines1("en-GB"),
+            onPressedAmerican: () => speakcrossexamines1("en-US"),
           ),
         ],
       ),

@@ -193,60 +193,22 @@ class EnglishEntrycalculator extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئامێرێکی بچووکی ئەلیکترۆنی یان ئەپێکی موبایل یان کۆمپیوتەر کە نۆ لێکدانەوەی ژمارە بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I used the calculator app on my phone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەپی ژمێرەرم لەسەر موبایلەکەم بەکارھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calculator", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalculators1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalculators1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I used the calculator app on my phone.",
+                            kurdishText:
+                                "ئەپی ژمێرەرم لەسەر موبایلەکەم بەکارھێنا.", // calculator
+                            onPressedBritish: () => speakcalculators1("en-GB"),
+                            onPressedAmerican: () => speakcalculators1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You may bring a calculator into the exam."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت ژمێرەرێک بێنیت بۆ تاقیکردنەوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcalculators2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcalculators2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You may bring a calculator into the exam.",
+                            kurdishText:
+                                "دەتوانیت ژمێرەرێک بێنیت بۆ تاقیکردنەوەکە.",
+                            onPressedBritish: () => speakcalculators2("en-GB"),
+                            onPressedAmerican: () => speakcalculators2("en-US"),
                           ),
                         ],
                       ),

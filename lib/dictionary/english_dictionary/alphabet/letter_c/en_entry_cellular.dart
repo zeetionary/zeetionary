@@ -192,63 +192,25 @@ class EnglishEntrycellular extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار یان پێکھاتوو لە خانەی ڕووەک و ئاژەڵەکان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All living organisms are made up of cellular structures."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو گیانلەبەرە زیندووەکان لە پێکھاتەی خانەیی درووستبوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cellular", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcellulars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcellulars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All living organisms are made up of cellular structures.",
+                            kurdishText:
+                                "ھەموو گیانلەبەرە زیندووەکان لە پێکھاتەی خانەیی درووستبوونە.", // cellular",
+                            onPressedBritish: () => speakcellulars1("en-GB"),
+                            onPressedAmerican: () => speakcellulars1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) پەیوەندیدار بە سیستەمێکی موبایل کە بە ڕادیۆ کاردەکات وەک لە وایەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cellular network allows users to stay connected with a phones."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆڕی سێلیولەر ڕێگا بە بەکارھێنەران دەدات لە پەیوەندیدا بن بە موبایلەکانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcellulars2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcellulars2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cellular network allows users to stay connected with a phones.",
+                            kurdishText:
+                                "تۆڕی سێلیولەر ڕێگا بە بەکارھێنەران دەدات لە پەیوەندیدا بن بە موبایلەکانیان.",
+                            onPressedBritish: () => speakcellulars2("en-GB"),
+                            onPressedAmerican: () => speakcellulars2("en-US"),
                           ),
                         ],
                       ),

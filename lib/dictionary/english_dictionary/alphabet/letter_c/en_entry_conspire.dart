@@ -127,146 +127,51 @@ class EnglishEntryconspire extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پیلانگێڕان لەگەڵ کەسانی دیکە بۆ ئەنجامدانی کارێکی نایاسایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were accused of conspiring against the king."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆمەتبارکران بە پیلانکگێڕان دژ بە پاشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conspire", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconspires1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconspires1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were accused of conspiring against the king.",
+                            kurdishText:
+                                "تۆمەتبارکران بە پیلانکگێڕان دژ بە پاشا.", // conspire",
+                            onPressedBritish: () => speakconspires1("en-GB"),
+                            onPressedAmerican: () => speakconspires1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She admitted conspiring with her lover to murder her husband."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانینا بە پیلانگێڕان لەگەڵ خۆشەویستەکەی بۆ کوشتنی مێردەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconspires2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconspires2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She admitted conspiring with her lover to murder her husband.",
+                            kurdishText:
+                                "دانینا بە پیلانگێڕان لەگەڵ خۆشەویستەکەی بۆ کوشتنی مێردەکەی.",
+                            onPressedBritish: () => speakconspires2("en-GB"),
+                            onPressedAmerican: () => speakconspires2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They deny conspiring together to smuggle drugs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نکۆڵی کرد لە پیلانگێڕان پێکەوە بۆ گواستنەوەی مادەی ھۆشبەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconspires3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconspires3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They deny conspiring together to smuggle drugs.",
+                            kurdishText:
+                                "نکۆڵی کرد لە پیلانگێڕان پێکەوە بۆ گواستنەوەی مادەی ھۆشبەر.",
+                            onPressedBritish: () => speakconspires3("en-GB"),
+                            onPressedAmerican: () => speakconspires3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) وادەرکەوتن وەک ئەوەی ھەوڵی ھێنانەئارای ڕووداوێکی خراپ دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Circumstances had conspired against them."),
-                                    ExampleSentenceKurdish(
-                                        text: "زەمانەکە دژیان وەستابوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconspires4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconspires4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Circumstances had conspired against them.",
+                            kurdishText: "زەمانەکە دژیان وەستابوویەوە.",
+                            onPressedBritish: () => speakconspires4("en-GB"),
+                            onPressedAmerican: () => speakconspires4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everything conspired to make her life a misery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو شتێک وەھا ھەڵکەوت ژیانی تاڵ بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconspires5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconspires5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Everything conspired to make her life a misery.",
+                            kurdishText:
+                                "ھەموو شتێک وەھا ھەڵکەوت ژیانی تاڵ بکات.",
+                            onPressedBritish: () => speakconspires5("en-GB"),
+                            onPressedAmerican: () => speakconspires5("en-US"),
                           ),
                         ],
                       ),

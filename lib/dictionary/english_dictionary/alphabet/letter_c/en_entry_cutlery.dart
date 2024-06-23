@@ -232,30 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەوچک، چەقۆ، چنگاڵ، ھتد بۆ خواردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Put the cutlery in the drawer."),
-                    ExampleSentenceKurdish(
-                        text: "چەقۆ و کەوچکەکان بخە چەکمەجەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cutlery", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutlerys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutlerys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Put the cutlery in the drawer.",
+            kurdishText:
+                "چەقۆ و کەوچکەکان بخە چەکمەجەکەوە.", // cutlery", please follow LX instructions
+            onPressedBritish: () => speakcutlerys1("en-GB"),
+            onPressedAmerican: () => speakcutlerys1("en-US"),
           ),
         ],
       ),

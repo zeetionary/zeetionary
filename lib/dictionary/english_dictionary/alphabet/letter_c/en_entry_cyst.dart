@@ -232,30 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) ھەڵئاوساوییەک لەسەر جەستە کە شلەی تێدایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had a cyst removed from near his eye."),
-                    ExampleSentenceKurdish(
-                        text: "دوومەڵێکی بۆ لابردرا لە نزیکی گوێی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cyst", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcysts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcysts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had a cyst removed from near his eye.",
+            kurdishText:
+                "دوومەڵێکی بۆ لابردرا لە نزیکی گوێی.", // cyst", please follow LX instructions
+            onPressedBritish: () => speakcysts1("en-GB"),
+            onPressedAmerican: () => speakcysts1("en-US"),
           ),
         ],
       ),

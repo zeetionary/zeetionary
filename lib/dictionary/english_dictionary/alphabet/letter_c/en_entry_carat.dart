@@ -188,63 +188,25 @@ class EnglishEntrycarat extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) یەکەیەک بۆ کێشانی ئەڵماس و مادەی دیکەی گران‌بەھا، کە یەکسانە بە ٢٠٠ میلیگرام"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The engagement ring featured a stunning diamond of two carats."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەڵقەی ھاوسەرگیرییەکە پێکھاتبوو لە ئەڵماسێکی دوو قیراتی سەرنجڕاکێش."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carat", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The engagement ring featured a stunning diamond of two carats.",
+                            kurdishText:
+                                "ئەڵقەی ھاوسەرگیرییەکە پێکھاتبوو لە ئەڵماسێکی دوو قیراتی سەرنجڕاکێش.", // carat",
+                            onPressedBritish: () => speakcarats1("en-GB"),
+                            onPressedAmerican: () => speakcarats1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) یەکەی پێوانی بێ‌گەردی ئاڵتوون. پاکترین ئاڵتوون عەیارە ٢٤ ە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The jeweler explained that 14-carat gold contains 58.5% pure gold."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەڕەنگەرەکە ڕوونیکردەوە کە ئاڵتوونی عەیارە ١٤ ڕێژەی ٥٨,٥٪ی ئاڵتوونی تەواوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarats2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarats2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The jeweler explained that 14-carat gold contains 58.5% pure gold.",
+                            kurdishText:
+                                "زەڕەنگەرەکە ڕوونیکردەوە کە ئاڵتوونی عەیارە ١٤ ڕێژەی ٥٨,٥٪ی ئاڵتوونی تەواوە.",
+                            onPressedBritish: () => speakcarats2("en-GB"),
+                            onPressedAmerican: () => speakcarats2("en-US"),
                           ),
                         ],
                       ),

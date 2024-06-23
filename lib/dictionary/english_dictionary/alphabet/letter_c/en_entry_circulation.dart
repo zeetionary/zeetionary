@@ -145,224 +145,84 @@ class EnglishEntrycirculation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) سوڕی خوێن بە جەستەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Regular exercise will improve blood circulation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاھێنانی بەدەوام سووڕی خوێن بەھێز دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "circulation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcirculations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcirculations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Regular exercise will improve blood circulation.",
+                            kurdishText:
+                                "ڕاھێنانی بەدەوام سووڕی خوێن بەھێز دەکات.", // circulation",
+                            onPressedBritish: () => speakcirculations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcirculations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I have poor circulation."),
-                                    ExampleSentenceKurdish(
-                                        text: "سووڕی خوێنم لاوازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcirculations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcirculations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I have poor circulation.",
+                            kurdishText: "سووڕی خوێنم لاوازە.",
+                            onPressedBritish: () => speakcirculations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcirculations2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بڵاوبوونەوەی شتێک لە کەسێک یان شوێنێکەوە بۆ یەکێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Copies of the magazine were withdrawn from circulation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆپییەکانی گۆڤارەکە لە بڵاوبوونەوە گەێندرانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcirculations3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcirculations3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Copies of the magazine were withdrawn from circulation.",
+                            kurdishText:
+                                "کۆپییەکانی گۆڤارەکە لە بڵاوبوونەوە گەێندرانەوە.",
+                            onPressedBritish: () => speakcirculations3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcirculations3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new banknotes will go into general circulation next year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دراوە کاغەزییە تازەکان ساڵی داھاتوو دەخرێنە بڵاوبوونەوەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcirculations4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcirculations4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new banknotes will go into general circulation next year.",
+                            kurdishText:
+                                "دراوە کاغەزییە تازەکان ساڵی داھاتوو دەخرێنە بڵاوبوونەوەوە.",
+                            onPressedBritish: () => speakcirculations4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcirculations4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ڕێژەی ئاسایی کۆپی ئەو ڕۆژنامە و گۆڤارانەی دەفرۆشرێن لە ڕۆژێکدام ھەفتەیەکدا، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The newspaper has a daily circulation of 20 000."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژنامەکە فرۆشی ڕۆژانەی ٢٠٠٠٠ کۆپی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcirculations5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcirculations5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The newspaper has a daily circulation of 20 000.",
+                            kurdishText:
+                                "ڕۆژنامەکە فرۆشی ڕۆژانەی ٢٠٠٠٠ کۆپی ھەیە.",
+                            onPressedBritish: () => speakcirculations5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcirculations5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) جوڵەی شتێک، بۆ نموونە ئاو یان گاز، لەناو شتێکدا یان بە ناو سیستەمێک یان ئامێرێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Poor air circulation can result in vapor inside cars."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمی سووڕی ھەوا دەکرێت ببێتە ھۆی ھەڵم لە ناو ئۆتۆمبێلدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcirculations6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcirculations6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Poor air circulation can result in vapor inside cars.",
+                            kurdishText:
+                                "کەمی سووڕی ھەوا دەکرێت ببێتە ھۆی ھەڵم لە ناو ئۆتۆمبێلدا.",
+                            onPressedBritish: () => speakcirculations6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcirculations6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) بەژداریکردن لە چالاکییە کۆمەڵایەتییەکان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Anne has been ill but now she's back in circulation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئان ماوەیەک دەبێت نەخۆشە بەڵام ئێستا گەڕاوەتەوە بۆ ناو چالاکییە کۆمەڵایەتییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcirculations7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcirculations7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Anne has been ill but now she's back in circulation.",
+                            kurdishText:
+                                "ئان ماوەیەک دەبێت نەخۆشە بەڵام ئێستا گەڕاوەتەوە بۆ ناو چالاکییە کۆمەڵایەتییەکان.",
+                            onPressedBritish: () => speakcirculations7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcirculations7("en-US"),
                           ),
                         ],
                       ),

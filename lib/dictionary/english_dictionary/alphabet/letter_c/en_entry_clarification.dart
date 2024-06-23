@@ -101,64 +101,26 @@ class EnglishEntryclarification extends StatelessWidget {
 کوردی: ڕوون‌کردنەوە، ڕۆشن‌کردنەوە، تیشک‌خستنەسەر، لێکدانەوە،	پاڵاوتن، پارزنین، قرچ‌کردن، قاڵ
 """),
                           const DefinitionKurdish(text: "١. (ناو) ڕوونکردنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I am seeking clarification of the regulations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕوونکردنەوەم لەسەر ڕێوشوێنەکان دەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clarification", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclarifications1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclarifications1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I am seeking clarification of the regulations.",
+                            kurdishText:
+                                "ڕوونکردنەوەم لەسەر ڕێوشوێنەکان دەوێت.", // clarification",
+                            onPressedBritish: () =>
+                                speakclarifications1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclarifications1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some further clarification of your position is needed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک ڕوونکردنەوەی زیاتر لەسەر بۆچوونت پێویستن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclarifications2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclarifications2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some further clarification of your position is needed.",
+                            kurdishText:
+                                "ھەندێک ڕوونکردنەوەی زیاتر لەسەر بۆچوونت پێویستن.",
+                            onPressedBritish: () =>
+                                speakclarifications2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclarifications2("en-US"),
                           ),
                         ],
                       ),

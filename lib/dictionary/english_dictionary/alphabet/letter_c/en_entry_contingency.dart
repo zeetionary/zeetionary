@@ -102,67 +102,26 @@ class EnglishEntrycontingency extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕووداوێک کە دەکرێت ڕووبدات یان ڕوونەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We must consider all possible contingencies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت خۆمان بۆ ھەموو ئەگەرەکان ئامادە بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contingency", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontingencys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontingencys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We must consider all possible contingencies.",
+                            kurdishText:
+                                "دەبێت خۆمان بۆ ھەموو ئەگەرەکان ئامادە بکەین.", // contingency",
+                            onPressedBritish: () => speakcontingencys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontingencys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھەندێک پارە کە ھەڵیدەگریت بۆ پارەدانی زیاتر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What's the contingency for legal fees?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێچووی خەرجییە داراییەکان چەندە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontingencys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontingencys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What's the contingency for legal fees?",
+                            kurdishText: "تێچووی خەرجییە داراییەکان چەندە؟",
+                            onPressedBritish: () => speakcontingencys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontingencys2("en-US"),
                           ),
                         ],
                       ),

@@ -258,115 +258,39 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕێگایەکی درێژ و باریکی بینایەک کە دەرگای لە ھەردوو لاوە تێدایە بۆ ناو ژووری دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His room is along the corridor."),
-                    ExampleSentenceKurdish(text: "ژوورەکەی لە داڵانەکەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corridor", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorridors1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorridors1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His room is along the corridor.",
+            kurdishText:
+                "ژوورەکەی لە داڵانەکەیە.", // corridor", please follow LX instructions
+            onPressedBritish: () => speakcorridors1("en-GB"),
+            onPressedAmerican: () => speakcorridors1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was interesting to walk the corridors of my old school."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆش بوو بە داڵانەکانی قوتابخانە کۆنەکەمدا ڕێ بکەنم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorridors2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorridors2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was interesting to walk the corridors of my old school.",
+            kurdishText: "خۆش بوو بە داڵانەکانی قوتابخانە کۆنەکەمدا ڕێ بکەنم.",
+            onPressedBritish: () => speakcorridors2("en-GB"),
+            onPressedAmerican: () => speakcorridors2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Narrow corridors lead off from the main hallway."),
-                    ExampleSentenceKurdish(
-                        text: "داڵانی تەسک لە ڕێڕەوە سەرەکییەکە دەبنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorridors3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorridors3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Narrow corridors lead off from the main hallway.",
+            kurdishText: "داڵانی تەسک لە ڕێڕەوە سەرەکییەکە دەبنەوە.",
+            onPressedBritish: () => speakcorridors3("en-GB"),
+            onPressedAmerican: () => speakcorridors3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) پارچە زەوییەکی باریکی وڵاتێک کە بە وڵاتێکی دیکەدا تێدەپەڕێت؛ بەشێک لە ئاسمانی وڵاتێک کە فڕۆکە دەتوانێت تێیدا بفڕێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "UN troops will secure the land corridor so that food supplies can reach the trapped civilians."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەربازانی نەتەوە یەکگرووەکان ڕێڕەوی زەمینی دەستەبەر دەکەن بۆ ئەوەی ئازووقەی خۆراک بگات بە ھاوڵاتییە گیرخواردووەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorridors4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorridors4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "UN troops will secure the land corridor so that food supplies can reach the trapped civilians.",
+            kurdishText:
+                "سەربازانی نەتەوە یەکگرووەکان ڕێڕەوی زەمینی دەستەبەر دەکەن بۆ ئەوەی ئازووقەی خۆراک بگات بە ھاوڵاتییە گیرخواردووەکان.",
+            onPressedBritish: () => speakcorridors4("en-GB"),
+            onPressedAmerican: () => speakcorridors4("en-US"),
           ),
         ],
       ),

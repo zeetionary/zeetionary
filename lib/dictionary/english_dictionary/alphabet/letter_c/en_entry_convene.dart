@@ -104,60 +104,22 @@ class EnglishEntryconvene extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ئەنجامدانی کۆبوونەوەیەکی فەرمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prime minister convened (a meeting of) his cabinet to discuss the matter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک وەزیران کابینەکەی کۆکردەوە بۆ باسکردنی بابەتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "convene", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvenes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvenes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prime minister convened (a meeting of) his cabinet to discuss the matter.",
+                            kurdishText:
+                                "سەرۆک وەزیران کابینەکەی کۆکردەوە بۆ باسکردنی بابەتەکە.", // convene",
+                            onPressedBritish: () => speakconvenes1("en-GB"),
+                            onPressedAmerican: () => speakconvenes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The council will be convening on the morning of the March 25th."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەنجوومەنەکە لە بەیانی ٢٥ ـی ئادار کۆدەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconvenes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconvenes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The council will be convening on the morning of the March 25th.",
+                            kurdishText:
+                                "ئەنجوومەنەکە لە بەیانی ٢٥ ـی ئادار کۆدەبێتەوە.",
+                            onPressedBritish: () => speakconvenes2("en-GB"),
+                            onPressedAmerican: () => speakconvenes2("en-US"),
                           ),
                         ],
                       ),

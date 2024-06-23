@@ -142,64 +142,26 @@ class EnglishEntrycharacteristic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تایبەتمەندییەک یان خاسیەتێک کە شتێک/کەسێک ھەیەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All human languages share some common characteristics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو زمانەکانی مرۆڤ ھەندێک تایبەتمەندی ھاوبەشیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "characteristic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcharacteristics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcharacteristics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All human languages share some common characteristics.",
+                            kurdishText:
+                                "ھەموو زمانەکانی مرۆڤ ھەندێک تایبەتمەندی ھاوبەشیان ھەیە.", // characteristic",
+                            onPressedBritish: () =>
+                                speakcharacteristics1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcharacteristics1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two groups of children have quite different characteristics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو گرووپە منداڵەکە خاسیەتی تەواو جیاوازیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcharacteristics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcharacteristics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two groups of children have quite different characteristics.",
+                            kurdishText:
+                                "ھەردوو گرووپە منداڵەکە خاسیەتی تەواو جیاوازیان ھەیە.",
+                            onPressedBritish: () =>
+                                speakcharacteristics2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcharacteristics2("en-US"),
                           ),
                           Column(
                             children: [
@@ -272,64 +234,26 @@ class EnglishEntrycharacteristic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) بەشێوەیەک کە لە شتێک یان کەسێک پێشبینی دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is just one example of the rudeness that was so characteristic of him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە تەنھا یەک نموونەی بێچاووڕوویی بوو کە تایبەتمەندییەکێتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcharacteristics5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcharacteristics5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is just one example of the rudeness that was so characteristic of him.",
+                            kurdishText:
+                                "ئەمە تەنھا یەک نموونەی بێچاووڕوویی بوو کە تایبەتمەندییەکێتی.",
+                            onPressedBritish: () =>
+                                speakcharacteristics5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcharacteristics5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "With the hospitality so characteristic of these people, they opened their house to over 50 guests."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە مرۆڤدۆستییان کە تایبەتییەکی ئەم خەڵکەیە، ماڵەکەیان بەڕووی ٥٠ کەسدا کردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcharacteristics6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcharacteristics6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "With the hospitality so characteristic of these people, they opened their house to over 50 guests.",
+                            kurdishText:
+                                "بە مرۆڤدۆستییان کە تایبەتییەکی ئەم خەڵکەیە، ماڵەکەیان بەڕووی ٥٠ کەسدا کردەوە.",
+                            onPressedBritish: () =>
+                                speakcharacteristics6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcharacteristics6("en-US"),
                           ),
                         ],
                       ),

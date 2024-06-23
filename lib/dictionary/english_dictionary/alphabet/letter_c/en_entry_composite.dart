@@ -102,63 +102,25 @@ class EnglishEntrycomposite extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێکھاتوو لە بەشی جیاواز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The table was made of composite materials."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێزەکە لە مادەی تێکەڵاو پێکھاتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "composite", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomposites1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomposites1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The table was made of composite materials.",
+                            kurdishText:
+                                "مێزەکە لە مادەی تێکەڵاو پێکھاتبوو.", // composite",
+                            onPressedBritish: () => speakcomposites1("en-GB"),
+                            onPressedAmerican: () => speakcomposites1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شتێک کە لە تێکەڵەی مادەی جیاواز پێکھاتووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The document was a composite of information from various sources."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵگەنامەیەک کۆکراوەیەک لە زانیاری بوو لە سەرچاوەی جیاوازەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomposites2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomposites2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The document was a composite of information from various sources.",
+                            kurdishText:
+                                "بەڵگەنامەیەک کۆکراوەیەک لە زانیاری بوو لە سەرچاوەی جیاوازەوە.",
+                            onPressedBritish: () => speakcomposites2("en-GB"),
+                            onPressedAmerican: () => speakcomposites2("en-US"),
                           ),
                         ],
                       ),

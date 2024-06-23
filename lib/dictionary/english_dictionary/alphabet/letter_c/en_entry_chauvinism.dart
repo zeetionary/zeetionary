@@ -104,63 +104,25 @@ class EnglishEntrychauvinism extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) باوەڕی کوێرانە و توندڕەوانە کە وڵاتەکەت باشترە لە ھەموو ئەوانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The war stimulated an intense national chauvinism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەنگەکە نیشتمان‌پەرستییەکی نەتەوەییانەی توندی درووستکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chauvinism", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchauvinisms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchauvinisms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The war stimulated an intense national chauvinism.",
+                            kurdishText:
+                                "جەنگەکە نیشتمان‌پەرستییەکی نەتەوەییانەی توندی درووستکرد.", // chauvinism",
+                            onPressedBritish: () => speakchauvinisms1("en-GB"),
+                            onPressedAmerican: () => speakchauvinisms1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بیروباوەڕێک کە ھەندێک پیاو ھەیانە کەوا پیاو زیرەکتر، گرنگتر، و باشترە لە ژن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His male chauvinism was evident in his refusal to consider a woman for a leadership position."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوسالارییەکەی دەرکەوت لە ڕەتکردنەوەیدا بۆ ڕەچاوکردنی ژنێک بۆ پۆستی سەرکردایەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchauvinisms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchauvinisms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His male chauvinism was evident in his refusal to consider a woman for a leadership position.",
+                            kurdishText:
+                                "پیاوسالارییەکەی دەرکەوت لە ڕەتکردنەوەیدا بۆ ڕەچاوکردنی ژنێک بۆ پۆستی سەرکردایەتی.",
+                            onPressedBritish: () => speakchauvinisms2("en-GB"),
+                            onPressedAmerican: () => speakchauvinisms2("en-US"),
                           ),
                         ],
                       ),

@@ -242,61 +242,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ھەبوونی ڕوویەکی دەرەوە کە سەختە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The smell of fresh crusty bread filled the kitchen."),
-                    ExampleSentenceKurdish(
-                        text: "بۆنی نانی توێژداری تازە چێشتخانەکەی پڕکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crusty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrustys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrustys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The smell of fresh crusty bread filled the kitchen.",
+            kurdishText:
+                "بۆنی نانی توێژداری تازە چێشتخانەکەی پڕکرد.", // crusty", please follow LX instructions
+            onPressedBritish: () => speakcrustys1("en-GB"),
+            onPressedAmerican: () => speakcrustys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە بە ئاسان تووڕە دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crusty old man yelled at the kids to get off his lawn."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پیاوە ڕووتاڵەکە ھاواری کرد بەسەر منداڵەکاندا بۆ ئەوەی لەسەر چیمەنەکەی لاچن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrustys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrustys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The crusty old man yelled at the kids to get off his lawn.",
+            kurdishText:
+                "پیاوە ڕووتاڵەکە ھاواری کرد بەسەر منداڵەکاندا بۆ ئەوەی لەسەر چیمەنەکەی لاچن.",
+            onPressedBritish: () => speakcrustys2("en-GB"),
+            onPressedAmerican: () => speakcrustys2("en-US"),
           ),
         ],
       ),

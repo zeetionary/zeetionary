@@ -234,31 +234,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) مێروویەک، کرمێک، ھتد کە وەک قێزەون دەیبینیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She screamed when she saw a creepy-crawly on the floor."),
-                    ExampleSentenceKurdish(
-                        text: "کە جووڵەوەرێکی بینی لەسەر زەوییەکە قیژاندی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creepy-crawly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreepycrawlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreepycrawlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She screamed when she saw a creepy-crawly on the floor.",
+            kurdishText:
+                "کە جووڵەوەرێکی بینی لەسەر زەوییەکە قیژاندی.", // creepy-crawly", please follow LX instructions
+            onPressedBritish: () => speakcreepycrawlys1("en-GB"),
+            onPressedAmerican: () => speakcreepycrawlys1("en-US"),
           ),
         ],
       ),

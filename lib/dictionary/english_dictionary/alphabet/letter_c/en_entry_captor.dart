@@ -190,32 +190,13 @@ class EnglishEntrycaptor extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە کەسێک یان ئاژەڵێک بە دیل دەگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hostages were treated well by their captors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بارمتەکان بەباشی لەلایەن دیل‌گرەکانیانەوە مامەڵەیان لەگەڵ کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "captor", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaptors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaptors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hostages were treated well by their captors.",
+                            kurdishText:
+                                "بارمتەکان بەباشی لەلایەن دیل‌گرەکانیانەوە مامەڵەیان لەگەڵ کرا.", // captor
+                            onPressedBritish: () => speakcaptors1("en-GB"),
+                            onPressedAmerican: () => speakcaptors1("en-US"),
                           ),
                         ],
                       ),

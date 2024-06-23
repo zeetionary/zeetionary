@@ -107,60 +107,22 @@ class EnglishEntryclotheshorse extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چوارچێوەیەکی دارین یان پلاستیکی کە جلوبەرگ دەخەیتە سەری بۆ ئەوەی وشک ببێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Shirts were airing on a clothes horse in front of the fire."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلوبەرگ وشکدەبوونەوە لەسەر تەنافەکە لە پێش ئاگرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clothes horse", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => clotheshorserses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => clotheshorserses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Shirts were airing on a clothes horse in front of the fire.",
+                            kurdishText:
+                                "جلوبەرگ وشکدەبوونەوە لەسەر تەنافەکە لە پێش ئاگرەکە.", // clothes horse",
+                            onPressedBritish: () => clotheshorserses1("en-GB"),
+                            onPressedAmerican: () => clotheshorserses1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He took the baby clothes off the clothes horse and folded them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلەکانی منداڵەکەی لە تەنافەکە کردەوە و قەدی کردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => clotheshorserses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => clotheshorserses2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He took the baby clothes off the clothes horse and folded them.",
+                            kurdishText:
+                                "جلەکانی منداڵەکەی لە تەنافەکە کردەوە و قەدی کردن.",
+                            onPressedBritish: () => clotheshorserses2("en-GB"),
+                            onPressedAmerican: () => clotheshorserses2("en-US"),
                           ),
                         ],
                       ),

@@ -234,31 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) قەباغێکی بچووک کە خوێ، بیبەر، ڕۆن، ھتد ـی تێ دەکرێت و لەسەر مێزی نانخواردن دادەنرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The waiter refilled the salt cruet when it was empty."),
-                    ExampleSentenceKurdish(
-                        text: "گارسۆنەکە خوێ‌دانەکەی پڕکردەوە کە بەتاڵ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cruet", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The waiter refilled the salt cruet when it was empty.",
+            kurdishText:
+                "گارسۆنەکە خوێ‌دانەکەی پڕکردەوە کە بەتاڵ بوو.", // cruet", please follow LX instructions
+            onPressedBritish: () => speakcruets1("en-GB"),
+            onPressedAmerican: () => speakcruets1("en-US"),
           ),
         ],
       ),

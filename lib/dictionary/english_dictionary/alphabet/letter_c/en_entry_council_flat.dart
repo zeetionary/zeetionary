@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) فلاتێک کە ئەنجوومەنی شار بە کرێی دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They moved into a council flat after their previous home was destroyed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چوونە فلاتێکی ئەنجوومەن لە دوای ئەوەی خانووی پێشووتریان ڕووخێنرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "council flat", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcouncilflats1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcouncilflats1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They moved into a council flat after their previous home was destroyed.",
+            kurdishText:
+                "چوونە فلاتێکی ئەنجوومەن لە دوای ئەوەی خانووی پێشووتریان ڕووخێنرا.", // council flat", please follow LX instructions
+            onPressedBritish: () => speakcouncilflats1("en-GB"),
+            onPressedAmerican: () => speakcouncilflats1("en-US"),
           ),
         ],
       ),

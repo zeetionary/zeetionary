@@ -96,36 +96,17 @@ class EnglishEntrychancelloroftheexchequer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) وەزیری دارایی بەریتانیا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Chancellor of the Exchequer presented the annual budget to Parliament."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەزیری دارایی بودجەی ساڵانەی بە پەرلەمان پێشکەشکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "Chancellor of the Exchequer", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
+                          SentencesRow(
+  englishText:
+                                            "The Chancellor of the Exchequer presented the annual budget to Parliament.",
+                                    kurdishText:
+                                            "وەزیری دارایی بودجەی ساڵانەی بە پەرلەمان پێشکەشکرد.", // Chancellor of the Exchequer",
+                                    onPressedBritish: () =>
                                         speakChancelloroftheExchequers1(
                                             "en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
+                                    onPressedAmerican: () =>
                                         speakChancelloroftheExchequers1(
                                             "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
                           ),
                         ],
                       ),

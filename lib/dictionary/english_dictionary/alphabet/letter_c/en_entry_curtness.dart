@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بێ‌شەرمانە دەرکەوتن بەھۆی بەکارھێنانی وشەی کەم یان خێرا قسەکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Claire's curtness made him wonder what he'd done wrong."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بێ‌ڕێزی کلێر وای لێکرد تێڕابمێنێت کە چی بە ھەڵە کردبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curtness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurtnesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurtnesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Claire's curtness made him wonder what he'd done wrong.",
+            kurdishText:
+                "بێ‌ڕێزی کلێر وای لێکرد تێڕابمێنێت کە چی بە ھەڵە کردبوو.", // curtness", please follow LX instructions
+            onPressedBritish: () => speakcurtnesss1("en-GB"),
+            onPressedAmerican: () => speakcurtnesss1("en-US"),
           ),
         ],
       ),

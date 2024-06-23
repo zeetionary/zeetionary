@@ -112,89 +112,31 @@ class EnglishEntrycommodity extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەرھەمێک یان کەرەستەیەکی خاو کە دەکرێت بکڕدرێت و بفرۆشرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Crude oil is the world's most important commodity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەوتی خاو گرنگترین بەرھەمی جیھانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commodity", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommoditys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommoditys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Crude oil is the world's most important commodity.",
+                            kurdishText:
+                                "نەوتی خاو گرنگترین بەرھەمی جیھانە.", // commodity",
+                            onPressedBritish: () => speakcommoditys1("en-GB"),
+                            onPressedAmerican: () => speakcommoditys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country's most valuable commodities include iron and diamonds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرنگترین بەرھەمی وڵاتەکە ئاسن و ئەڵماسە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommoditys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommoditys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The country's most valuable commodities include iron and diamonds.",
+                            kurdishText:
+                                "گرنگترین بەرھەمی وڵاتەکە ئاسن و ئەڵماسە.",
+                            onPressedBritish: () => speakcommoditys2("en-GB"),
+                            onPressedAmerican: () => speakcommoditys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شتێک کە بەسوودە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Time is a very valuable commodity."),
-                                    ExampleSentenceKurdish(
-                                        text: "کات گەوھەرێکی بەنرخە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommoditys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommoditys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Time is a very valuable commodity.",
+                            kurdishText: "کات گەوھەرێکی بەنرخە.",
+                            onPressedBritish: () => speakcommoditys3("en-GB"),
+                            onPressedAmerican: () => speakcommoditys3("en-US"),
                           ),
                         ],
                       ),

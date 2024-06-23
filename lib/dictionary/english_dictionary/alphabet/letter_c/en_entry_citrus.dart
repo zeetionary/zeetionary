@@ -95,32 +95,13 @@ class EnglishEntrycitrus extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) میوە ئاودارە ترشەکانی وەک پرتەقاڵ و لیمۆ و لیمۆھیندی، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Good sources of vitamin C are vegetables and fruits, especially citrus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرچاوەی باشی ڤیتامین C بریتییە لە سەوزە و میوە، بەتایبەتی مزرەمەنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "citrus", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcitruss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcitruss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Good sources of vitamin C are vegetables and fruits, especially citrus.",
+                            kurdishText:
+                                "سەرچاوەی باشی ڤیتامین C بریتییە لە سەوزە و میوە، بەتایبەتی مزرەمەنی.", // citrus",
+                            onPressedBritish: () => speakcitruss1("en-GB"),
+                            onPressedAmerican: () => speakcitruss1("en-US"),
                           ),
                         ],
                       ),

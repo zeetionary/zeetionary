@@ -129,153 +129,57 @@ class EnglishEntryconcrete extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مادەی بیناسازی کە درووستکراوە لە تێکەڵەی چیمەنتۆ، خۆڵ، زیخی ورد، و ئاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't walk on the concrete until it has set."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر کۆنکرێتەکە ڕێ مەکە تاوەکو وشک دەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcretes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcretes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Don't walk on the concrete until it has set.",
+                            kurdishText:
+                                "لەسەر کۆنکرێتەکە ڕێ مەکە تاوەکو وشک دەبێتەوە.",
+                            onPressedBritish: () => speakconcretes2("en-GB"),
+                            onPressedAmerican: () => speakconcretes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) درووستکراو لە کۆنکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bomb shelter has concrete walls that are three metres thick."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەناگە بۆمبەکە دیواری کۆنکرێتی ھەیە کە سێ مەتر پانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "concrete", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcretes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcretes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bomb shelter has concrete walls that are three metres thick.",
+                            kurdishText:
+                                "پەناگە بۆمبەکە دیواری کۆنکرێتی ھەیە کە سێ مەتر پانە.", // concrete",
+                            onPressedBritish: () => speakconcretes1("en-GB"),
+                            onPressedAmerican: () => speakconcretes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) پشتبەستوو بە ڕاستی، نەک شک و گومان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They think she killed her husband, but they have no concrete evidence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێیان وایە بکوژەکە ھاوژینەکەیەتی، بەڵام ھیچ بەڵگەیەکی ڕاستییان نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcretes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcretes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They think she killed her husband, but they have no concrete evidence.",
+                            kurdishText:
+                                "پێیان وایە بکوژەکە ھاوژینەکەیەتی، بەڵام ھیچ بەڵگەیەکی ڕاستییان نییە.",
+                            onPressedBritish: () => speakconcretes3("en-GB"),
+                            onPressedAmerican: () => speakconcretes3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) شتێک کە دەتوانیت ھەستی پێ بکەیت و بیبینیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The teacher used concrete objects to teach the children about shapes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستاکە شتی بەرجەستەی بەکاردەھێنا بۆ فێرکردنی منداڵەکان سەبارەت بە شێوەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcretes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcretes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The teacher used concrete objects to teach the children about shapes.",
+                            kurdishText:
+                                "مامۆستاکە شتی بەرجەستەی بەکاردەھێنا بۆ فێرکردنی منداڵەکان سەبارەت بە شێوەکان.",
+                            onPressedBritish: () => speakconcretes4("en-GB"),
+                            onPressedAmerican: () => speakconcretes4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) داپۆشین بە کۆنکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The garden had been concreted over."),
-                                    ExampleSentenceKurdish(
-                                        text: "باخچەکە کۆنکرێت کرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconcretes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconcretes5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The garden had been concreted over.",
+                            kurdishText: "باخچەکە کۆنکرێت کرابوو.",
+                            onPressedBritish: () => speakconcretes5("en-GB"),
+                            onPressedAmerican: () => speakconcretes5("en-US"),
                           ),
                         ],
                       ),

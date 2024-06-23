@@ -433,690 +433,207 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بەشێکی شتێک کە دوو خاڵ یان ھێڵ تێیدا بە یەکدی دەگەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I hit my knee on the corner of the table."),
-                    ExampleSentenceKurdish(
-                        text: "لاقم کێشا بە سووچی مێزەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corner", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I hit my knee on the corner of the table.",
+            kurdishText:
+                "لاقم کێشا بە سووچی مێزەکەدا.", // corner", please follow LX instructions
+            onPressedBritish: () => speakcorners1("en-GB"),
+            onPressedAmerican: () => speakcorners1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Write your address in the top right-hand corner of the letter."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناونیشانەکەت لە سووچی سەرەوەی دەستە ڕاستی نامەکە بنووسە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Write your address in the top right-hand corner of the letter.",
+            kurdishText:
+                "ناونیشانەکەت لە سووچی سەرەوەی دەستە ڕاستی نامەکە بنووسە.",
+            onPressedBritish: () => speakcorners2("en-GB"),
+            onPressedAmerican: () => speakcorners2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A smile lifted the corner of his mouth."),
-                    ExampleSentenceKurdish(
-                        text: "بزەیەک سووچی دەمی بەرزکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A smile lifted the corner of his mouth.",
+            kurdishText: "بزەیەک سووچی دەمی بەرزکردەوە.",
+            onPressedBritish: () => speakcorners3("en-GB"),
+            onPressedAmerican: () => speakcorners3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She tucked the ball into the corner of the net."),
-                    ExampleSentenceKurdish(
-                        text: "تۆپەکەی خستە سووچی تۆڕەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She tucked the ball into the corner of the net.",
+            kurdishText: "تۆپەکەی خستە سووچی تۆڕەکەوە.",
+            onPressedBritish: () => speakcorners4("en-GB"),
+            onPressedAmerican: () => speakcorners4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ھەبوونی ژمارەیەکی دیاریکراو لە سووچ یان گۆشە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The captain wore a three-cornered hat as part of his uniform."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاپتنەکە کڵاوێکی سێ سووچەی لەسەر کرد وەک بەشێک لە جلە یەکپۆشییەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The captain wore a three-cornered hat as part of his uniform.",
+            kurdishText:
+                "کاپتنەکە کڵاوێکی سێ سووچەی لەسەر کرد وەک بەشێک لە جلە یەکپۆشییەکەی.",
+            onPressedBritish: () => speakcorners5("en-GB"),
+            onPressedAmerican: () => speakcorners5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) سووچی ژوورێک یان سندووقێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A large desk occupies another corner of the room."),
-                    ExampleSentenceKurdish(
-                        text: "مێزێکی گەورە لە سووچێکی دیکەی ژوورەکەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A large desk occupies another corner of the room.",
+            kurdishText: "مێزێکی گەورە لە سووچێکی دیکەی ژوورەکەیە.",
+            onPressedBritish: () => speakcorners6("en-GB"),
+            onPressedAmerican: () => speakcorners6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They made straight for the table in the corner."),
-                    ExampleSentenceKurdish(
-                        text: "ڕاستەوخۆ ڕۆشتن بۆ مێزی سووچەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They made straight for the table in the corner.",
+            kurdishText: "ڕاستەوخۆ ڕۆشتن بۆ مێزی سووچەکە.",
+            onPressedBritish: () => speakcorners7("en-GB"),
+            onPressedAmerican: () => speakcorners7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She tucked herself away in a corner and read all day."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە قوژبنێکدا خۆی قەتیز کرد و تەواوی ڕۆژەکە خوێندییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She tucked herself away in a corner and read all day.",
+            kurdishText:
+                "لە قوژبنێکدا خۆی قەتیز کرد و تەواوی ڕۆژەکە خوێندییەوە.",
+            onPressedBritish: () => speakcorners8("en-GB"),
+            onPressedAmerican: () => speakcorners8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) شوێنێک کە تێیدا دوو ڕێگا یەک دەگرن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The wind hit him as he turned the corner."),
-                    ExampleSentenceKurdish(
-                        text: "بایەکە کێشای پێیدا کە گەشتە سەرپێچەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The wind hit him as he turned the corner.",
+            kurdishText: "بایەکە کێشای پێیدا کە گەشتە سەرپێچەکە.",
+            onPressedBritish: () => speakcorners9("en-GB"),
+            onPressedAmerican: () => speakcorners9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was a group of youths standing on the street corner."),
-                    ExampleSentenceKurdish(
-                        text: "ژمارەیەک گەنج لەسەر سووچی شەقامەکە وەستابوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was a group of youths standing on the street corner.",
+            kurdishText: "ژمارەیەک گەنج لەسەر سووچی شەقامەکە وەستابوون.",
+            onPressedBritish: () => speakcorners10("en-GB"),
+            onPressedAmerican: () => speakcorners10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The bus stop is around the corner, I think."),
-                    ExampleSentenceKurdish(
-                        text: "پێموایە شوێن وەستانی پاسەکە لە سەرپێچەکەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The bus stop is around the corner, I think.",
+            kurdishText: "پێموایە شوێن وەستانی پاسەکە لە سەرپێچەکەیە.",
+            onPressedBritish: () => speakcorners11("en-GB"),
+            onPressedAmerican: () => speakcorners11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Turn right at the first corner."),
-                    ExampleSentenceKurdish(text: "لە یەکەم سووچ پێچبکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(englishText: "Turn right at the first corner.",
+          kurdishText: "لە یەکەم سووچ پێچبکەوە.",
+            onPressedBritish: () => speakcorners12("en-GB"),
+            onPressedAmerican: () => speakcorners12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) پێچێکی تیژ لە ڕێگایەکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The car was taking the corners too fast."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆتۆمبێلەکە زۆر بە خێرایی بە پێچەکاندا تێدەپەڕی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The car was taking the corners too fast.",
+            kurdishText: "ئۆتۆمبێلەکە زۆر بە خێرایی بە پێچەکاندا تێدەپەڕی.",
+            onPressedBritish: () => speakcorners13("en-GB"),
+            onPressedAmerican: () => speakcorners13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "As they turned the corner all the bags slid to one side."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە بە پێچەکەدا تێپەڕین ھەموو جانتاکان لایەک خزان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "As they turned the corner all the bags slid to one side.",
+            kurdishText: "کە بە پێچەکەدا تێپەڕین ھەموو جانتاکان لایەک خزان.",
+            onPressedBritish: () => speakcorners14("en-GB"),
+            onPressedAmerican: () => speakcorners14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) ھەرێمێک یان ناوچەیەکی شوێنێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She lives in a quiet corner of rural Yorkshire."),
-                    ExampleSentenceKurdish(
-                        text: "لە ھەرێمێکی بێ‌دەنگی گوندنشینی یۆرکشێر دەژی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She lives in a quiet corner of rural Yorkshire.",
+            kurdishText: "لە ھەرێمێکی بێ‌دەنگی گوندنشینی یۆرکشێر دەژی.",
+            onPressedBritish: () => speakcorners15("en-GB"),
+            onPressedAmerican: () => speakcorners15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He knew every corner of the old town."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو سووچێکی شارە کۆنەکەی دەزانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He knew every corner of the old town.",
+            kurdishText: "ھەموو سووچێکی شارە کۆنەکەی دەزانی.",
+            onPressedBritish: () => speakcorners16("en-GB"),
+            onPressedAmerican: () => speakcorners16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (ناو) دۆخێکی سەخت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was used to talking his way out of tight corners."),
-                    ExampleSentenceKurdish(
-                        text: "ڕاھاتبوو بە دەربازبوون لە دۆخە سەختەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was used to talking his way out of tight corners.",
+            kurdishText: "ڕاھاتبوو بە دەربازبوون لە دۆخە سەختەکان.",
+            onPressedBritish: () => speakcorners17("en-GB"),
+            onPressedAmerican: () => speakcorners17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is important to avoid being pushed into a corner."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گرنگە دووربکەویتەوە لەوەی بخرێیتە دۆخێکی سەختەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is important to avoid being pushed into a corner.",
+            kurdishText: "گرنگە دووربکەویتەوە لەوەی بخرێیتە دۆخێکی سەختەوە.",
+            onPressedBritish: () => speakcorners18("en-GB"),
+            onPressedAmerican: () => speakcorners18("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٨. (ناو) لێدانێکی ئازاد لە یاری وەرزشیدا کە لە سووچێکی بەشی یاریگای ڕکابەرەکەتەوە لێیدەدەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The referee awarded a corner."),
-                    ExampleSentenceKurdish(
-                        text: "ناوبژیوانەکە کۆرنەرێکی بەخشی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The referee awarded a corner.",
+            kurdishText: "ناوبژیوانەکە کۆرنەرێکی بەخشی.",
+            onPressedBritish: () => speakcorners19("en-GB"),
+            onPressedAmerican: () => speakcorners19("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Moore took the corner."),
-                    ExampleSentenceKurdish(text: "موور کۆرنەرەکەی لێدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(englishText: "Moore took the corner.",
+          kurdishText: "موور کۆرنەرەکەی لێدا.",
+            onPressedBritish: () => speakcorners20("en-GB"),
+            onPressedAmerican: () => speakcorners20("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٩. (کردار) دانانی کەسێک یان ئاژەڵێک لە شوێنێک یان دۆخێک کە ناتوانن تێیدا ھەڵبێن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The man was finally cornered by police in a garage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پیاوەکە لە کۆتاییدا لەلایەن پۆلیسەوە لە گەراجێکدا دەورەدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The man was finally cornered by police in a garage.",
+            kurdishText:
+                "پیاوەکە لە کۆتاییدا لەلایەن پۆلیسەوە لە گەراجێکدا دەورەدرا.",
+            onPressedBritish: () => speakcorners21("en-GB"),
+            onPressedAmerican: () => speakcorners21("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "If cornered, the snake will defend itself."),
-                    ExampleSentenceKurdish(
-                        text: "ئەگەر دەور بدرێت، مار بەرگری لە خۆی دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "If cornered, the snake will defend itself.",
+            kurdishText: "ئەگەر دەور بدرێت، مار بەرگری لە خۆی دەکات.",
+            onPressedBritish: () => speakcorners22("en-GB"),
+            onPressedAmerican: () => speakcorners22("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١٠. (کردار) بە زۆر چوون بۆ لای کەسێک چونکە دەتەوێت قسەیان لەگەڵدا بکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I found myself cornered by her on the stairs."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووبەڕووی بوومەوە لەسەر قادرمەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I found myself cornered by her on the stairs.",
+            kurdishText: "ڕووبەڕووی بوومەوە لەسەر قادرمەکان.",
+            onPressedBritish: () => speakcorners23("en-GB"),
+            onPressedAmerican: () => speakcorners23("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١١. (کردار) قۆرخکردنی بازاڕێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They've cornered the market in silver."),
-                    ExampleSentenceKurdish(text: "بازاڕی زیویان قۆرخکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(englishText: "They've cornered the market in silver.",
+          kurdishText: "بازاڕی زیویان قۆرخکردووە.",
+            onPressedBritish: () => speakcorners24("en-GB"),
+            onPressedAmerican: () => speakcorners24("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٢. (کردار) پێچکردنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The car corners well (= it is easy to go around corners in it)."),
-                    ExampleSentenceKurdish(
-                        text: "ئۆتۆمبێلەکە باش پێچ دەکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorners25("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorners25("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The car corners well (= it is easy to go around corners in it).",
+            kurdishText: "ئۆتۆمبێلەکە باش پێچ دەکاتەوە.",
+            onPressedBritish: () => speakcorners25("en-GB"),
+            onPressedAmerican: () => speakcorners25("en-US"),
           ),
         ],
       ),

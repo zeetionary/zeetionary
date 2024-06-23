@@ -187,32 +187,13 @@ class EnglishEntrycathedral extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کڵێسای سەرەکیی ناوچەیەک کە لەژێر چاودێری قەشەیەکی باڵایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was woken up by the chimes of the cathedral bells."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە خەو ھەستام بە دەنگی زەنگەکانی کڵێسا گەورەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cathedral", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcathedrals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcathedrals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was woken up by the chimes of the cathedral bells.",
+                            kurdishText:
+                                "لە خەو ھەستام بە دەنگی زەنگەکانی کڵێسا گەورەکە.", // cathedral",
+                            onPressedBritish: () => speakcathedrals1("en-GB"),
+                            onPressedAmerican: () => speakcathedrals1("en-US"),
                           ),
                         ],
                       ),

@@ -104,59 +104,21 @@ class EnglishEntrycontrite extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) زۆر پەشیمان بۆ شتێکی خراپ کە کردووتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Her expression was contrite."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەربڕینەکەی زۆر بە پەشیمان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contrite", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrites1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrites1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her expression was contrite.",
+                            kurdishText:
+                                "دەربڕینەکەی زۆر بە پەشیمان بوو.", // contrite",
+                            onPressedBritish: () => speakcontrites1("en-GB"),
+                            onPressedAmerican: () => speakcontrites1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He looked so contrite that for a moment she nearly believed he really was sorry about what he had said."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر پەشیمان دیاربوو کە بۆ ساطیک خەریک بوو باوەڕ بکات کە بە ڕاستی بەداخەوە بوو بۆ ئەوەی گوتبووی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontrites2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontrites2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He looked so contrite that for a moment she nearly believed he really was sorry about what he had said.",
+                            kurdishText:
+                                "زۆر پەشیمان دیاربوو کە بۆ ساطیک خەریک بوو باوەڕ بکات کە بە ڕاستی بەداخەوە بوو بۆ ئەوەی گوتبووی.",
+                            onPressedBritish: () => speakcontrites2("en-GB"),
+                            onPressedAmerican: () => speakcontrites2("en-US"),
                           ),
                         ],
                       ),

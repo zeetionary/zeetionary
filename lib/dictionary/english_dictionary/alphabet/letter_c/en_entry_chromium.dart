@@ -95,32 +95,13 @@ class EnglishEntrychromium extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) توخمێکی کیمیایی کە خۆڵەمێشی و ڕەقە و دەدرەوشێتەوە کە لووس دەکرێت و زۆرجار بۆ داپۆشینی کانزای دیکە بەکاردێت بۆ ڕێگری لە ژەنگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Stainless steel contains chromium, which gives it its resistance to corrosion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆڵای بێ‌خەوش کرۆمیەمی تێدایە بۆ پێدانی خۆگری دژ بە ژەنگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chromium", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchromiums1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchromiums1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Stainless steel contains chromium, which gives it its resistance to corrosion.",
+                            kurdishText:
+                                "پۆڵای بێ‌خەوش کرۆمیەمی تێدایە بۆ پێدانی خۆگری دژ بە ژەنگ.", // chromium",
+                            onPressedBritish: () => speakchromiums1("en-GB"),
+                            onPressedAmerican: () => speakchromiums1("en-US"),
                           ),
                         ],
                       ),

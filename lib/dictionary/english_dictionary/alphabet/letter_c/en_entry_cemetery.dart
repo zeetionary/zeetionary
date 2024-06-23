@@ -190,31 +190,12 @@ class EnglishEntrycemetery extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوچەیەک کە بەکاردێت بۆ ناشتنی مردوو، بەتایبەتی یەکێک کە لە نزیک کڵێسایەک نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was buried in a private cemetery."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە گۆڕستانێکی تایبەت نێژرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cemetery", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcemeterys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcemeterys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was buried in a private cemetery.",
+                            kurdishText:
+                                "لە گۆڕستانێکی تایبەت نێژرا.", // cemetery",
+                            onPressedBritish: () => speakcemeterys1("en-GB"),
+                            onPressedAmerican: () => speakcemeterys1("en-US"),
                           ),
                         ],
                       ),

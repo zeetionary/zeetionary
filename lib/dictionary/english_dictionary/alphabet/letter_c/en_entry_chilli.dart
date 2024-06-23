@@ -97,60 +97,22 @@ class EnglishEntrychilli extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "١. (ناو) بیبەرەتوونە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Add 2 chopped red chillies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو بیبەرەتوونەی وردکراو زیادبکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chilli", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchillis1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchillis1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Add 2 chopped red chillies.",
+                            kurdishText:
+                                "دوو بیبەرەتوونەی وردکراو زیادبکە.", // chilli",
+                            onPressedBritish: () => speakchillis1("en-GB"),
+                            onPressedAmerican: () => speakchillis1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) خواردنێکی توونی مەکسیکی درووست دەکرێت بە گۆشت، پیاز، بیبەرەتوونە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His favourite food is chilli."),
-                                    ExampleSentenceKurdish(
-                                        text: "خواردنی دڵخوازی چیلی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchillis2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchillis2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His favourite food is chilli.",
+                            kurdishText: "خواردنی دڵخوازی چیلی بوو.",
+                            onPressedBritish: () => speakchillis2("en-GB"),
+                            onPressedAmerican: () => speakchillis2("en-US"),
                           ),
                         ],
                       ),

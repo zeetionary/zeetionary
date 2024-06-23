@@ -119,119 +119,41 @@ class EnglishEntrycolonize extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) داگیرکردنی وڵاتێک و ناردنی خەڵکی وڵاتی خۆت بۆ ژیانکردن لەوێ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The area was colonized by the Vikings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوچەکە بوو بە ژێر دەستەی ڤایکینگەکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colonize", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonizes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonizes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The area was colonized by the Vikings.",
+                            kurdishText:
+                                "ناوچەکە بوو بە ژێر دەستەی ڤایکینگەکانەوە.", // colonize",
+                            onPressedBritish: () => speakcolonizes1("en-GB"),
+                            onPressedAmerican: () => speakcolonizes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Peru was colonized by the Spanish in the 16th century."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێرو لە سەدەی شازدەدا لەلایەن ئیسپانیاوە داگیرکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonizes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonizes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Peru was colonized by the Spanish in the 16th century.",
+                            kurdishText:
+                                "پێرو لە سەدەی شازدەدا لەلایەن ئیسپانیاوە داگیرکرا.",
+                            onPressedBritish: () => speakcolonizes2("en-GB"),
+                            onPressedAmerican: () => speakcolonizes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ھەبوون، ژیان، یان گەشەکردن لە ناوچەیەکدا بە ڕێژەیەکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The city centre has been colonized by cafes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەنتەری شار پڕ بووە لە قاوەخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonizes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonizes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The city centre has been colonized by cafes.",
+                            kurdishText: "سەنتەری شار پڕ بووە لە قاوەخانە.",
+                            onPressedBritish: () => speakcolonizes3("en-GB"),
+                            onPressedAmerican: () => speakcolonizes3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The slopes are colonized by flowering plants."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێژاییەکان پڕن لە ڕووەکی گوڵدار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolonizes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolonizes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The slopes are colonized by flowering plants.",
+                            kurdishText: "لێژاییەکان پڕن لە ڕووەکی گوڵدار.",
+                            onPressedBritish: () => speakcolonizes4("en-GB"),
+                            onPressedAmerican: () => speakcolonizes4("en-US"),
                           ),
                         ],
                       ),

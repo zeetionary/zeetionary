@@ -188,93 +188,35 @@ class EnglishEntrycc extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کورتکراوە) کورتکراو بۆ carbon copy (to)؛ لە نامە و ئیمەیڵی بازرگانیدا بەکاردێت بۆ وتنی ئەوەی کۆپییەک دەنێردرێت بۆ کەسێکی دیکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please be aware that the monthly meeting has been rescheduled to next Tuesday at 10:00 AM. Agenda items have been updated accordingly. To all attendees, cc Janet Gold."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە ئاگاداربن کە چاوپێکەوتنی مانگانە دووبارە ڕێکخراوەتەوە بۆ سێشەممەی داھاتوو لە کاتژمێر ١٠. بابەتەکانی ئەجێندا بەگوێرەی ئەوە نوێکراونەتەوە. بۆ تەواوی بەژداربووان، و کۆپییەک بۆ جانێت گۆڵد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cc", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakccs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakccs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please be aware that the monthly meeting has been rescheduled to next Tuesday at 10:00 AM. Agenda items have been updated accordingly. To all attendees, cc Janet Gold.",
+                            kurdishText:
+                                "تکایە ئاگاداربن کە چاوپێکەوتنی مانگانە دووبارە ڕێکخراوەتەوە بۆ سێشەممەی داھاتوو لە کاتژمێر ١٠. بابەتەکانی ئەجێندا بەگوێرەی ئەوە نوێکراونەتەوە. بۆ تەواوی بەژداربووان، و کۆپییەک بۆ جانێت گۆڵد.", // cc",
+                            onPressedBritish: () => speakccs1("en-GB"),
+                            onPressedAmerican: () => speakccs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کورتکراوە) سەنتیمەتر سێ‌جا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The syringe held 5 cc of medication."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرنجەکە ٥ سەنتیمەتر سێ‌جا دەرمانی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakccs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakccs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The syringe held 5 cc of medication.",
+                            kurdishText:
+                                "سەرنجەکە ٥ سەنتیمەتر سێ‌جا دەرمانی تێدایە.",
+                            onPressedBritish: () => speakccs2("en-GB"),
+                            onPressedAmerican: () => speakccs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) ناردنی کۆپپیەکی ئیمەیڵێک کە بۆ کەسێکی دیکەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her message was sent to the company president and cc'd to us."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەکە نێردرا بۆ سەرۆکی کۆمپانیاکە و کۆپییەکیشی بۆ ئێمە نێردرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakccs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakccs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her message was sent to the company president and cc'd to us.",
+                            kurdishText:
+                                "نامەکە نێردرا بۆ سەرۆکی کۆمپانیاکە و کۆپییەکیشی بۆ ئێمە نێردرا.",
+                            onPressedBritish: () => speakccs3("en-GB"),
+                            onPressedAmerican: () => speakccs3("en-US"),
                           ),
                         ],
                       ),

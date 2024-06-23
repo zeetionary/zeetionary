@@ -101,58 +101,20 @@ class EnglishEntrycopious extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ڕێژەیەکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I took copious notes."),
-                                    ExampleSentenceKurdish(
-                                        text: "تێبینی زۆرم وەرگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "copious", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopiouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopiouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I took copious notes.",
+                            kurdishText: "تێبینی زۆرم وەرگرت.", // copious",
+                            onPressedBritish: () => speakcopiouss1("en-GB"),
+                            onPressedAmerican: () => speakcopiouss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She supports her theory with copious evidence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە بەڵگەی زۆرەوە پشتگیری بیردۆزەکەی دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcopiouss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcopiouss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She supports her theory with copious evidence.",
+                            kurdishText:
+                                "بە بەڵگەی زۆرەوە پشتگیری بیردۆزەکەی دەکات.",
+                            onPressedBritish: () => speakcopiouss2("en-GB"),
+                            onPressedAmerican: () => speakcopiouss2("en-US"),
                           ),
                         ],
                       ),

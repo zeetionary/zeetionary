@@ -186,32 +186,13 @@ class EnglishEntrycentenary extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سەدەمین ساڵیادی ڕوودانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The club will celebrate its centenary next year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یانەکە یادی سەد ساڵەی ساڵی داھاتوو پیرۆز دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "centenary", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentenarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentenarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The club will celebrate its centenary next year.",
+                            kurdishText:
+                                "یانەکە یادی سەد ساڵەی ساڵی داھاتوو پیرۆز دەکات.", // centenary",
+                            onPressedBritish: () => speakcentenarys1("en-GB"),
+                            onPressedAmerican: () => speakcentenarys1("en-US"),
                           ),
                         ],
                       ),

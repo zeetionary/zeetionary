@@ -122,122 +122,46 @@ class EnglishEntrycontingent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆمەڵە کەسێک لە چاوپێکەوتنێکدا کە خاڵێکی ھاوبەشیان، بەتایبەتی ئەوەی کە  لە کوێوە ھاتوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The largest contingent was from the United States."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەورەترین کۆمەڵە لە ئەمریکاوە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contingent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontingents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontingents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The largest contingent was from the United States.",
+                            kurdishText:
+                                "گەورەترین کۆمەڵە لە ئەمریکاوە بوون.", // contingent",
+                            onPressedBritish: () => speakcontingents1("en-GB"),
+                            onPressedAmerican: () => speakcontingents1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A seven-strong French diplomatic contingent arrived in the capital city yesterday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەوت کۆمەڵەی بەھێزی دیپلۆماسی فەرەنسی دوێنێ گەشتنە پایتەختەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontingents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontingents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A seven-strong French diplomatic contingent arrived in the capital city yesterday.",
+                            kurdishText:
+                                "حەوت کۆمەڵەی بەھێزی دیپلۆماسی فەرەنسی دوێنێ گەشتنە پایتەختەکە.",
+                            onPressedBritish: () => speakcontingents2("en-GB"),
+                            onPressedAmerican: () => speakcontingents2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) یەکەیەکی سەربازی کە سەر بە سوپایەکی گەورەترە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The French contingent in the UN peacekeeping force withdrew."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەی سەربازی فەرەنسا لە ھێزی ئاشتیپارێزی نەتەوە یەکگرتووەکان کشایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontingents3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontingents3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The French contingent in the UN peacekeeping force withdrew.",
+                            kurdishText:
+                                "یەکەی سەربازی فەرەنسا لە ھێزی ئاشتیپارێزی نەتەوە یەکگرتووەکان کشایەوە.",
+                            onPressedBritish: () => speakcontingents3("en-GB"),
+                            onPressedAmerican: () => speakcontingents3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) پەیوەندیدار بە شتێک کە لەوانەیە ڕووبدات و لەوانەیە ڕوونەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All payments are contingent upon your timely completion of the work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو پارەدانەکان دەوەستنەسەر تەواوکردنی ئیشەکەتان لەکاتی خۆیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontingents4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontingents4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All payments are contingent upon your timely completion of the work.",
+                            kurdishText:
+                                "ھەموو پارەدانەکان دەوەستنەسەر تەواوکردنی ئیشەکەتان لەکاتی خۆیدا.",
+                            onPressedBritish: () => speakcontingents4("en-GB"),
+                            onPressedAmerican: () => speakcontingents4("en-US"),
                           ),
                         ],
                       ),

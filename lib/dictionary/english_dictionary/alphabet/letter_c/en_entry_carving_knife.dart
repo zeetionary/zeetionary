@@ -191,34 +191,15 @@ class EnglishEntrycarvingknife extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چەقۆیەکی گەورەی تیژ کە بۆ بڕینی گۆشت بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can easily slice through a turkey with a sharp carving knife."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانی بە ئاسانی قەلێک ببڕیت بە سیکاردێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carving knife", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarvingknifes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarvingknifes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can easily slice through a turkey with a sharp carving knife.",
+                            kurdishText:
+                                "دەتوانی بە ئاسانی قەلێک ببڕیت بە سیکاردێک.", // carving knife",
+                            onPressedBritish: () =>
+                                speakcarvingknifes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarvingknifes1("en-US"),
                           ),
                         ],
                       ),

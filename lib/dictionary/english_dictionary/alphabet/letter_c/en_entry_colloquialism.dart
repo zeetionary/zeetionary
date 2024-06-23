@@ -96,34 +96,15 @@ class EnglishEntrycolloquialism extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) وشە و دەستەواژە کە لە گفتوگۆدا بەکاردێت نەک لە نووسیندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "\"Gonna\" is a colloquialism for \"going to.\""),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "\"Gonna\" وشەی ئاخاوتنە بۆ \"going to.\"."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colloquialism", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcolloquialisms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcolloquialisms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "\"Gonna\" is a colloquialism for \"going to.\"",
+                            kurdishText:
+                                "\"Gonna\" وشەی ئاخاوتنە بۆ \"going to.\".", // colloquialism",
+                            onPressedBritish: () =>
+                                speakcolloquialisms1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcolloquialisms1("en-US"),
                           ),
                         ],
                       ),

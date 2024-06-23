@@ -94,30 +94,12 @@ class EnglishEntryclammy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەمێک تەڕ بەشێوەیەک کە بێزراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His skin felt cold and clammy."),
-                                    ExampleSentenceKurdish(
-                                        text: "پێستی سارد و تەڕولینج بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clammy", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclammys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclammys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His skin felt cold and clammy.",
+                            kurdishText:
+                                "پێستی سارد و تەڕولینج بوو.", // clammy",
+                            onPressedBritish: () => speakclammys1("en-GB"),
+                            onPressedAmerican: () => speakclammys1("en-US"),
                           ),
                         ],
                       ),

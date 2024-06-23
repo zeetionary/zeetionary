@@ -160,263 +160,92 @@ class EnglishEntrychuck extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) فڕێدانی شتێک بە کەمتەرخەمانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He chucked the paper in a drawer."),
-                                    ExampleSentenceKurdish(
-                                        text: "پەڕەکەی فڕێدایە چەکمەجەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chuck", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchucks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchucks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He chucked the paper in a drawer.",
+                            kurdishText:
+                                "پەڕەکەی فڕێدایە چەکمەجەکەوە.", // chuck",
+                            onPressedBritish: () => speakchucks1("en-GB"),
+                            onPressedAmerican: () => speakchucks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He picked up the letter and chucked it into the bin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەکەی ھەڵگرتەوە و فڕێیدایە ناو زباڵەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchucks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchucks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He picked up the letter and chucked it into the bin.",
+                            kurdishText:
+                                "نامەکەی ھەڵگرتەوە و فڕێیدایە ناو زباڵەکەوە.",
+                            onPressedBritish: () => speakchucks2("en-GB"),
+                            onPressedAmerican: () => speakchucks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) کۆڵدان یان وازھێنان لە کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You haven't chucked your job!"),
-                                    ExampleSentenceKurdish(
-                                        text: "وازت لە کارەکەت نەھێناوە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchucks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchucks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You haven't chucked your job!",
+                            kurdishText: "وازت لە کارەکەت نەھێناوە!",
+                            onPressedBritish: () => speakchucks3("en-GB"),
+                            onPressedAmerican: () => speakchucks3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had a go at learning the piano, but chucked it in after a year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵێکی فێربوونی پیانۆی دا، بەڵام دوای یەک ساڵ وازی ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchucks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchucks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had a go at learning the piano, but chucked it in after a year.",
+                            kurdishText:
+                                "ھەوڵێکی فێربوونی پیانۆی دا، بەڵام دوای یەک ساڵ وازی ھێنا.",
+                            onPressedBritish: () => speakchucks4("en-GB"),
+                            onPressedAmerican: () => speakchucks4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) جێھێشتنی کچێک یان کوڕێک کە پەیوەندیت ھەیە لەگەڵی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Has he chucked her?"),
-                                    ExampleSentenceKurdish(
-                                        text: "وازی لە کچەکە ھێناوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchucks5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchucks5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Has he chucked her?",
+                            kurdishText: "وازی لە کچەکە ھێناوە؟",
+                            onPressedBritish: () => speakchucks5("en-GB"),
+                            onPressedAmerican: () => speakchucks5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) فڕێدانی شتێک و وازھێنان لێی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "That's no good—just chuck it."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ باش نییە، فڕێی بدە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchucks6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchucks6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That's no good—just chuck it.",
+                            kurdishText: "ھیچ باش نییە، فڕێی بدە.",
+                            onPressedBritish: () => speakchucks6("en-GB"),
+                            onPressedAmerican: () => speakchucks6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) بەشێکی ئامێرێک کە بەکاردێت بۆ ڕاگیرکردن، بۆ نموونە ئەو بەشەی درێلێک کە دەمەکەی ڕادەگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She adjusted the chuck on the screwdriver to fit the size of the screw."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمی دەڕنەفیزەکەی ڕێکخست بۆ ئەوەی ڕێک بێت لەگەڵ قەبارەی بورغووەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchucks7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchucks7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She adjusted the chuck on the screwdriver to fit the size of the screw.",
+                            kurdishText:
+                                "دەمی دەڕنەفیزەکەی ڕێکخست بۆ ئەوەی ڕێک بێت لەگەڵ قەبارەی بورغووەکە.",
+                            onPressedBritish: () => speakchucks7("en-GB"),
+                            onPressedAmerican: () => speakchucks7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) وشەیەکی ھاوڕێیانە بۆ بانگکردنی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "What's up with you, chuck?"),
-                                    ExampleSentenceKurdish(
-                                        text: "حاڵت چۆنە، کوڕە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchucks8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchucks8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "What's up with you, chuck?",
+                            kurdishText: "حاڵت چۆنە، کوڕە؟",
+                            onPressedBritish: () => speakchucks8("en-GB"),
+                            onPressedAmerican: () => speakchucks8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) گۆشتی شانی مانگایەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bought a pound of chuck to make hamburgers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاوەندێک سەرشانی مانگای کڕی بۆ درووستکردنی ھەمبەرگر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchucks9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchucks9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He bought a pound of chuck to make hamburgers.",
+                            kurdishText:
+                                "پاوەندێک سەرشانی مانگای کڕی بۆ درووستکردنی ھەمبەرگر.",
+                            onPressedBritish: () => speakchucks9("en-GB"),
+                            onPressedAmerican: () => speakchucks9("en-US"),
                           ),
                         ],
                       ),

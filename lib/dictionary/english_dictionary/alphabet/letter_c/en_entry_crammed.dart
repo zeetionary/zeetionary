@@ -247,84 +247,29 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پڕ، دارماڵ، سەرڕێژ، تژی
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پڕ لە خەڵک یان شت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "All the shelves were crammed with books."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو ڕەفەکان بە کتێب پڕ لە کتێب بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crammed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrammeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrammeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All the shelves were crammed with books.",
+            kurdishText:
+                "ھەموو ڕەفەکان بە کتێب پڕ لە کتێب بوون.", // crammed", please follow LX instructions
+            onPressedBritish: () => speakcrammeds1("en-GB"),
+            onPressedAmerican: () => speakcrammeds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The room was crammed full of people."),
-                    ExampleSentenceKurdish(text: "ژوورەکە پڕ لە خەڵکی کرابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrammeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrammeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The room was crammed full of people.",
+            kurdishText: "ژوورەکە پڕ لە خەڵکی کرابوو.",
+            onPressedBritish: () => speakcrammeds2("en-GB"),
+            onPressedAmerican: () => speakcrammeds2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) لە ژوورێک، ھتد ـدا بوون کە بەشی پێویست جێگای نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We were crammed four to an office."),
-                    ExampleSentenceKurdish(
-                        text: "چوار کەس چەقێندرابووینە ژوورێکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrammeds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrammeds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We were crammed four to an office.",
+            kurdishText: "چوار کەس چەقێندرابووینە ژوورێکەوە.",
+            onPressedBritish: () => speakcrammeds3("en-GB"),
+            onPressedAmerican: () => speakcrammeds3("en-US"),
           ),
         ],
       ),

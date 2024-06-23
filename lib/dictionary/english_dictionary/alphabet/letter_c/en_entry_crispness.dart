@@ -274,172 +274,60 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تەز، سەرما،	کورتی، پوختی،	وشکی، ناسکی، قرپی، قرچی، تورتی
 """),
           const DefinitionKurdish(text: "١. (ناو) توندی و تازەیی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The salad had lost its crispness."),
-                    ExampleSentenceKurdish(
-                        text: "زەڵاتەکە تازەییەکەی لەدەستداوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crispness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrispnesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrispnesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The salad had lost its crispness.",
+            kurdishText:
+                "زەڵاتەکە تازەییەکەی لەدەستداوە.", // crispness", please follow LX instructions
+            onPressedBritish: () => speakcrispnesss1("en-GB"),
+            onPressedAmerican: () => speakcrispnesss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ڕەق و وشک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The skins can be left on the potatoes for extra crispness."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "توێکڵەکە دەکرێت لەسەر پەتاتەکە بھێڵدرێت بۆ خرمەی زیاتر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrispnesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrispnesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The skins can be left on the potatoes for extra crispness.",
+            kurdishText:
+                "توێکڵەکە دەکرێت لەسەر پەتاتەکە بھێڵدرێت بۆ خرمەی زیاتر.",
+            onPressedBritish: () => speakcrispnesss2("en-GB"),
+            onPressedAmerican: () => speakcrispnesss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) ڕوون و تیژ بەشێوەیەک کە ئاسان دەبینرێت یان ھەستی پێ دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The image lacks crispness."),
-                    ExampleSentenceKurdish(text: "وێنەکە ڕوونیی نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrispnesss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrispnesss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The image lacks crispness.",
+            kurdishText: "وێنەکە ڕوونیی نییە.",
+            onPressedBritish: () => speakcrispnesss3("en-GB"),
+            onPressedAmerican: () => speakcrispnesss3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) وشک و سارد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The day darkened to night and they inhaled the slight crispness of the air."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆژەکە تاریکی کرد بۆ شەو و کەمێک سەرمای کەشەکەیان ھەڵمژی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrispnesss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrispnesss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The day darkened to night and they inhaled the slight crispness of the air.",
+            kurdishText:
+                "ڕۆژەکە تاریکی کرد بۆ شەو و کەمێک سەرمای کەشەکەیان ھەڵمژی.",
+            onPressedBritish: () => speakcrispnesss4("en-GB"),
+            onPressedAmerican: () => speakcrispnesss4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) پاک و خاوێنی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Damp clothes had dried to a crispness over a string line."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جلە تەڕەکان وشک و خاوێن بووبوونەوە لەسەر تەنافێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrispnesss5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrispnesss5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Damp clothes had dried to a crispness over a string line.",
+            kurdishText: "جلە تەڕەکان وشک و خاوێن بووبوونەوە لەسەر تەنافێک.",
+            onPressedBritish: () => speakcrispnesss5("en-GB"),
+            onPressedAmerican: () => speakcrispnesss5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ناو) خێرا و بە متمانە و کاریگەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His writing lacks the crispness it once had."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نووسینەکانی ئەو کاریگەرییەیان نییە کە جاران ھەیان بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrispnesss6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrispnesss6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His writing lacks the crispness it once had.",
+            kurdishText:
+                "نووسینەکانی ئەو کاریگەرییەیان نییە کە جاران ھەیان بوو.",
+            onPressedBritish: () => speakcrispnesss6("en-GB"),
+            onPressedAmerican: () => speakcrispnesss6("en-US"),
           ),
         ],
       ),

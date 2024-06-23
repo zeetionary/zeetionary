@@ -111,91 +111,33 @@ class EnglishEntryclerical extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پەیوەندیدار بە کاری ئۆفیس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The delay in processing the paperwork was due to a clerical error in the filing system."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دواکەوتن لە ئەنجامدانی کاغەزکارییەکە بەھۆی ھەڵەیەکی ئۆفیسەکەوە بوو لە سیستەمی فایلەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clerical", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclericals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclericals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The delay in processing the paperwork was due to a clerical error in the filing system.",
+                            kurdishText:
+                                "دواکەوتن لە ئەنجامدانی کاغەزکارییەکە بەھۆی ھەڵەیەکی ئۆفیسەکەوە بوو لە سیستەمی فایلەکە.", // clerical",
+                            onPressedBritish: () => speakclericals1("en-GB"),
+                            onPressedAmerican: () => speakclericals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She applied for a clerical job at the company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوای کارێکی لە ئۆفیسدا کرد لە کۆمپانیاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclericals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclericals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She applied for a clerical job at the company.",
+                            kurdishText:
+                                "داوای کارێکی لە ئۆفیسدا کرد لە کۆمپانیاکە.",
+                            onPressedBritish: () => speakclericals2("en-GB"),
+                            onPressedAmerican: () => speakclericals2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) پەیوەندیدار بە پیاوانی ئایینی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wore clerical robes for the religious ceremony."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆبەیەکی ئایینی لەبەرکرد بۆ بۆنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclericals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclericals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wore clerical robes for the religious ceremony.",
+                            kurdishText: "ڕۆبەیەکی ئایینی لەبەرکرد بۆ بۆنەکە.",
+                            onPressedBritish: () => speakclericals3("en-GB"),
+                            onPressedAmerican: () => speakclericals3("en-US"),
                           ),
                         ],
                       ),

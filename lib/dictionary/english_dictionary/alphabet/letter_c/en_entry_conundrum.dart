@@ -104,63 +104,25 @@ class EnglishEntryconundrum extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پرسیارێک یان کێشەیەکی سەخت کە گرانە بۆ چارەسەرکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The role of clouds is one of the big conundrums of climatology."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەرکی ھەورەکان ئاستەنگێکی گەورەی ئاووھەواناسییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conundrum", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconundrums1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconundrums1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The role of clouds is one of the big conundrums of climatology.",
+                            kurdishText:
+                                "ئەرکی ھەورەکان ئاستەنگێکی گەورەی ئاووھەواناسییە.", // conundrum",
+                            onPressedBritish: () => speakconundrums1("en-GB"),
+                            onPressedAmerican: () => speakconundrums1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پرسیارێک کە بۆ خۆشی دەیپرسیت و یاری بە وشەکانی دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The conundrum he asked was so clever that it took us all a while to figure it out."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو مەتەڵەی پرسی زۆر زیرەکانە بوو ماوەیەکمان پێچوو تاوەکو ھەڵیبێین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconundrums2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconundrums2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The conundrum he asked was so clever that it took us all a while to figure it out.",
+                            kurdishText:
+                                "ئەو مەتەڵەی پرسی زۆر زیرەکانە بوو ماوەیەکمان پێچوو تاوەکو ھەڵیبێین.",
+                            onPressedBritish: () => speakconundrums2("en-GB"),
+                            onPressedAmerican: () => speakconundrums2("en-US"),
                           ),
                         ],
                       ),

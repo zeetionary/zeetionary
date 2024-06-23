@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خۆش‌باوەڕی، زووباوەڕی، ساویلکەیی، دڵسافی
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The plot of the novel stretches credulity to the limit (= it is almost impossible to believe)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چیرۆکی ڕۆمانەکە خۆشباوەڕی تاوەکو ئەو پەڕی دەبات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "credulity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredulitys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredulitys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The plot of the novel stretches credulity to the limit (= it is almost impossible to believe).",
+            kurdishText:
+                "چیرۆکی ڕۆمانەکە خۆشباوەڕی تاوەکو ئەو پەڕی دەبات.", // credulity", please follow LX instructions
+            onPressedBritish: () => speakcredulitys1("en-GB"),
+            onPressedAmerican: () => speakcredulitys1("en-US"),
           ),
         ],
       ),

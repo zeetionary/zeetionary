@@ -105,64 +105,26 @@ class EnglishEntryconscientiousness extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کارکردن بە وریایی و درووستی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were impressed by the professionalism and conscientiousness of the staff."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسام بوون بە لێوەشاوەیی و دڵسۆزی ستافەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conscientiousness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconscientiousnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconscientiousnesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were impressed by the professionalism and conscientiousness of the staff.",
+                            kurdishText:
+                                "سەرسام بوون بە لێوەشاوەیی و دڵسۆزی ستافەکە.", // conscientiousness",
+                            onPressedBritish: () =>
+                                speakconscientiousnesss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconscientiousnesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His conscientiousness and maturity impressed faculty members."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵسۆزی و پێگەشتوویی ئەندامانی فاکەڵتییەکەی سەرسامکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconscientiousnesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconscientiousnesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His conscientiousness and maturity impressed faculty members.",
+                            kurdishText:
+                                "دڵسۆزی و پێگەشتوویی ئەندامانی فاکەڵتییەکەی سەرسامکرد.",
+                            onPressedBritish: () =>
+                                speakconscientiousnesss2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconscientiousnesss2("en-US"),
                           ),
                         ],
                       ),

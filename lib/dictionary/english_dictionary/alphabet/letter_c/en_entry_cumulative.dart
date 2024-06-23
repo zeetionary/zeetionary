@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەبوونی ئەنجامێک کە ھێز و گرنگی شتێک زیاد دەکات ھەر زیاتر لە شتێکی بۆ زیاد دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The evolution of human life was a gradual, cumulative process."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەرەسەندنی ژیانی مرۆڤ پڕۆسەیەکی ھێواش و خڕەوەبوو بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cumulative", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcumulatives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcumulatives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The evolution of human life was a gradual, cumulative process.",
+            kurdishText:
+                "پەرەسەندنی ژیانی مرۆڤ پڕۆسەیەکی ھێواش و خڕەوەبوو بوو.", // cumulative", please follow LX instructions
+            onPressedBritish: () => speakcumulatives1("en-GB"),
+            onPressedAmerican: () => speakcumulatives1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cumulative effect of using so many chemicals on the land could be disastrous."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاریگەری کەڵەکەبووی ڕێژەیەکی زۆری کریستاڵ لەسەر خاکەکە دەکرێت کارەساتبار بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcumulatives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcumulatives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cumulative effect of using so many chemicals on the land could be disastrous.",
+            kurdishText:
+                "کاریگەری کەڵەکەبووی ڕێژەیەکی زۆری کریستاڵ لەسەر خاکەکە دەکرێت کارەساتبار بێت.",
+            onPressedBritish: () => speakcumulatives2("en-GB"),
+            onPressedAmerican: () => speakcumulatives2("en-US"),
           ),
         ],
       ),

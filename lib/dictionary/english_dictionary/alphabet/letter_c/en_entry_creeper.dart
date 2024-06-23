@@ -234,31 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕووەکێک کە بەسەر زەویدا گەشە دەکات یان بە دیواردا ھەڵدەگژێت، زۆرجار بە دەوری ڕووەکی دیکەدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The garden was filled with colorful flowers and green creepers."),
-                    ExampleSentenceKurdish(
-                        text: "باخچەکە پڕ بوو لە گوڵی ڕەنگین و خشۆکی سەوز."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creeper", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreepers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreepers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The garden was filled with colorful flowers and green creepers.",
+            kurdishText:
+                "باخچەکە پڕ بوو لە گوڵی ڕەنگین و خشۆکی سەوز.", // creeper", please follow LX instructions
+            onPressedBritish: () => speakcreepers1("en-GB"),
+            onPressedAmerican: () => speakcreepers1("en-US"),
           ),
         ],
       ),

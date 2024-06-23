@@ -102,60 +102,22 @@ class EnglishEntryconfined extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ناوچەیەکی بچووک و تەسک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is cruel to keep animals in confined spaces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڕندەییە ئاژەڵ لە شوێنی قەتیسدا ڕابگریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confined", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfineds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfineds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is cruel to keep animals in confined spaces.",
+                            kurdishText:
+                                "دڕندەییە ئاژەڵ لە شوێنی قەتیسدا ڕابگریت.", // confined",
+                            onPressedBritish: () => speakconfineds1("en-GB"),
+                            onPressedAmerican: () => speakconfineds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These chemicals should not be used in confined areas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم مادە کیمیاییانە نابێت لە ناوچەی بەرتەسکدا بھێڵدرێنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfineds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfineds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These chemicals should not be used in confined areas.",
+                            kurdishText:
+                                "ئەم مادە کیمیاییانە نابێت لە ناوچەی بەرتەسکدا بھێڵدرێنەوە.",
+                            onPressedBritish: () => speakconfineds2("en-GB"),
+                            onPressedAmerican: () => speakconfineds2("en-US"),
                           ),
                         ],
                       ),

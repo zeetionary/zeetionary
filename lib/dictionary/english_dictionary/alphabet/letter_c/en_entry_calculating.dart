@@ -192,34 +192,14 @@ class EnglishEntrycalculating extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەسێک کە زیرەکە لە دانانی پلاندا بۆ قازانجی خۆی و بەبێ گرنگیدان بە کەسانی دیکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I never realized you could be so calculating."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز نەمزانی دەکرا ھێندە زرنگ بیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calculating", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcalculatings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcalculatings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I never realized you could be so calculating.",
+                            kurdishText:
+                                "ھەرگیز نەمزانی دەکرا ھێندە زرنگ بیت.", // calculating",
+                            onPressedBritish: () => speakcalculatings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcalculatings1("en-US"),
                           ),
                         ],
                       ),

@@ -244,60 +244,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) خاسیەتێک کە کەسێک یان شتێک ھەیەتی و وا ئەکات جێگای باوەڕ یان متمانە بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After the recent scandal, the government has lost all credibility."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای ئابڕووچوونی ئەم دواییە، حکومەت ھەموو متمانەیەکی لەدەستداوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "credibility", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredibilitys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredibilitys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "After the recent scandal, the government has lost all credibility.",
+            kurdishText:
+                "لە دوای ئابڕووچوونی ئەم دواییە، حکومەت ھەموو متمانەیەکی لەدەستداوە.", // credibility", please follow LX instructions
+            onPressedBritish: () => speakcredibilitys1("en-GB"),
+            onPressedAmerican: () => speakcredibilitys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "BBC backing for the scheme will enhance its credibility."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پشتیوانی بی‌بی‌سی بۆ پڕۆگرامەکە وا دەکات باوەڕپێکراوی بەھێز بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcredibilitys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcredibilitys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "BBC backing for the scheme will enhance its credibility.",
+            kurdishText:
+                "پشتیوانی بی‌بی‌سی بۆ پڕۆگرامەکە وا دەکات باوەڕپێکراوی بەھێز بکات.",
+            onPressedBritish: () => speakcredibilitys2("en-GB"),
+            onPressedAmerican: () => speakcredibilitys2("en-US"),
           ),
         ],
       ),

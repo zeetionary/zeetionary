@@ -192,34 +192,15 @@ class EnglishEntryceremoniously extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە ڕێز و فەرمییاتی زۆرەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He shook hands ceremoniously with each of his supporters as they arrived."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەوقەی کرد بەڕێزەوە لەگەڵ ھەریەک لە لایەنگیرانی کە دەگەشتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "ceremoniously", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakceremoniouslys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakceremoniouslys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He shook hands ceremoniously with each of his supporters as they arrived.",
+                            kurdishText:
+                                "تەوقەی کرد بەڕێزەوە لەگەڵ ھەریەک لە لایەنگیرانی کە دەگەشتن.", // ceremoniously",
+                            onPressedBritish: () =>
+                                speakceremoniouslys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakceremoniouslys1("en-US"),
                           ),
                         ],
                       ),

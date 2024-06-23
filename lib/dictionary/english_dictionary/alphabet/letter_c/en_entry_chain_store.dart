@@ -90,32 +90,13 @@ class EnglishEntrychainstore extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) فرۆشگایەک کە یەکێکە لە زنجیرە فرۆشگایەک کە لەلایەن یەک کۆمپانیاوە خاوەنداری دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These small towns are dominated by chain stores."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم شارۆچکانە بچووکانە پڕن لە زنجیرەفرۆشگا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "chain store", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchainstores1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchainstores1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These small towns are dominated by chain stores.",
+                            kurdishText:
+                                "ئەم شارۆچکانە بچووکانە پڕن لە زنجیرەفرۆشگا.", // chain store",
+                            onPressedBritish: () => speakchainstores1("en-GB"),
+                            onPressedAmerican: () => speakchainstores1("en-US"),
                           ),
                         ],
                       ),

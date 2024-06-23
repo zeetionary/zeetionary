@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) موشەکێک کە نزم دەفڕێت و بە کۆمپیوتەر کۆنترۆڵ دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cruise missile struck its target with pinpoint accuracy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مووشەکە کرووزەکە بە درووستی وردەوە کێشای بە ئامانجەکەی دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cruise missile", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcruisemissiles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcruisemissiles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cruise missile struck its target with pinpoint accuracy.",
+            kurdishText:
+                "مووشەکە کرووزەکە بە درووستی وردەوە کێشای بە ئامانجەکەی دا.", // cruise missile", please follow LX instructions
+            onPressedBritish: () => speakcruisemissiles1("en-GB"),
+            onPressedAmerican: () => speakcruisemissiles1("en-US"),
           ),
         ],
       ),

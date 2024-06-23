@@ -193,32 +193,13 @@ class EnglishEntrycanyon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆڵێکی قووڵ کە قەدپاڵەکانی ڕاستن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Massive rock formations, mountains and deep canyons present splendid our trip."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوونی بەردی گەورە، چیا و دۆڵی قووڵ تایبەتییان دابوو بە گەشتەکەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canyon", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanyons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanyons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Massive rock formations, mountains and deep canyons present splendid our trip.",
+                            kurdishText:
+                                "بوونی بەردی گەورە، چیا و دۆڵی قووڵ تایبەتییان دابوو بە گەشتەکەمان.", // canyon
+                            onPressedBritish: () => speakcanyons1("en-GB"),
+                            onPressedAmerican: () => speakcanyons1("en-US"),
                           ),
                         ],
                       ),

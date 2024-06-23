@@ -191,60 +191,21 @@ class EnglishEntrycater extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پێشکەشکردنی خواردن و خواردنەوە بە بۆنەیەکی تایبەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most of our work now involves catering for weddings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی کارەکانمان لە ئێستادا بریتیین لە پێشکەشکردنی خواردن بە بۆنەی ھاوسەرگیری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cater", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most of our work now involves catering for weddings.",
+                            kurdishText:
+                                "زۆرینەی کارەکانمان لە ئێستادا بریتیین لە پێشکەشکردنی خواردن بە بۆنەی ھاوسەرگیری.", // cater",
+                            onPressedBritish: () => speakcaters1("en-GB"),
+                            onPressedAmerican: () => speakcaters1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who will be catering the wedding?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێ خزمەتگوزاری پێشکەش دەکات لە ئاھەنگەکە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcaters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcaters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Who will be catering the wedding?",
+                            kurdishText:
+                                "کێ خزمەتگوزاری پێشکەش دەکات لە ئاھەنگەکە؟",
+                            onPressedBritish: () => speakcaters2("en-GB"),
+                            onPressedAmerican: () => speakcaters2("en-US"),
                           ),
                         ],
                       ),

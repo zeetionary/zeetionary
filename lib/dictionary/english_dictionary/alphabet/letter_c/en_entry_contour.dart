@@ -103,60 +103,22 @@ class EnglishEntrycontour extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ناو) قەراغەکانی دەرەوەی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The road follows the natural contours of the coastline."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگاکە بە قەراغە سرووشتییەکانی کەناراوەکەدا دەچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contour", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontours1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontours1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The road follows the natural contours of the coastline.",
+                            kurdishText:
+                                "ڕێگاکە بە قەراغە سرووشتییەکانی کەناراوەکەدا دەچێت.", // contour",
+                            onPressedBritish: () => speakcontours1("en-GB"),
+                            onPressedAmerican: () => speakcontours1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She traced the contours of his face with her finger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجەیس ھێنا بە قەراغەکانی ڕووخساریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontours2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontours2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She traced the contours of his face with her finger.",
+                            kurdishText:
+                                "پەنجەیس ھێنا بە قەراغەکانی ڕووخساریدا.",
+                            onPressedBritish: () => speakcontours2("en-GB"),
+                            onPressedAmerican: () => speakcontours2("en-US"),
                           ),
                         ],
                       ),

@@ -191,88 +191,31 @@ class EnglishEntrycategory extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گرووپێک لە شت یان خەڵک کە خاڵی ھاوبەشیان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These are the nominees from each category."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمانە بەربژێرەکان لە ھەر دەستەیەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "category", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcategorys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcategorys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These are the nominees from each category.",
+                            kurdishText:
+                                "ئەمانە بەربژێرەکان لە ھەر دەستەیەکەوە.", // category",
+                            onPressedBritish: () => speakcategorys1("en-GB"),
+                            onPressedAmerican: () => speakcategorys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Students over 25 fall into a different category."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندکارانی سەروو ٢٥ ساڵ دەکەونە پۆلێنێکی جیاوازەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcategorys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcategorys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Students over 25 fall into a different category.",
+                            kurdishText:
+                                "خوێندکارانی سەروو ٢٥ ساڵ دەکەونە پۆلێنێکی جیاوازەوە.",
+                            onPressedBritish: () => speakcategorys2("en-GB"),
+                            onPressedAmerican: () => speakcategorys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The results can be divided into three broad categories."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەنجامەکان دەکرێت بەسەر سێ پۆلێنی گشتگیردا دابەش بکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcategorys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcategorys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The results can be divided into three broad categories.",
+                            kurdishText:
+                                "ئەنجامەکان دەکرێت بەسەر سێ پۆلێنی گشتگیردا دابەش بکرێن.",
+                            onPressedBritish: () => speakcategorys3("en-GB"),
+                            onPressedAmerican: () => speakcategorys3("en-US"),
                           ),
                         ],
                       ),

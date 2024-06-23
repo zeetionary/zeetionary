@@ -240,58 +240,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کێڵراو، چێنراو، تووپێوەکراو، ڕوێنراو، شێوبڕاو، کێڵگە،	ڕووناکبیر، ڕۆشنبیر، بەکەماڵ، ڕەوشت‌بەرز، پەروەردەکراو، ڕاھێنراو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کەسێکی ڕۆشنبیر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His voice was pleasant and cultivated."),
-                    ExampleSentenceKurdish(text: "دەنگی خۆش و ڕۆشنبیرانە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cultivated", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultivateds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultivateds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His voice was pleasant and cultivated.",
+            kurdishText:
+                "دەنگی خۆش و ڕۆشنبیرانە بوو.", // cultivated", please follow LX instructions
+            onPressedBritish: () => speakcultivateds1("en-GB"),
+            onPressedAmerican: () => speakcultivateds1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) خاکێک کە بۆ چاندن بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The soil in the cultivated fields was rich and fertile."),
-                    ExampleSentenceKurdish(
-                        text: "خاکی کێڵگە کێڵدراوەکان دەوڵەمەند و بەپیت بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcultivateds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcultivateds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The soil in the cultivated fields was rich and fertile.",
+            kurdishText: "خاکی کێڵگە کێڵدراوەکان دەوڵەمەند و بەپیت بوون.",
+            onPressedBritish: () => speakcultivateds2("en-GB"),
+            onPressedAmerican: () => speakcultivateds2("en-US"),
           ),
         ],
       ),

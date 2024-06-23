@@ -94,34 +94,14 @@ class EnglishEntryclarinetist extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە کلارینێت دەژەنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She plays the saxophone and is also a fine clarinetist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساکسۆفۆن دەژەنێت و کلارینێت‌ژەنێکی باشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clarinetist", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclarinetists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclarinetists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She plays the saxophone and is also a fine clarinetist.",
+                            kurdishText:
+                                "ساکسۆفۆن دەژەنێت و کلارینێت‌ژەنێکی باشە.", // clarinetist",
+                            onPressedBritish: () => speakclarinetists1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclarinetists1("en-US"),
                           ),
                         ],
                       ),

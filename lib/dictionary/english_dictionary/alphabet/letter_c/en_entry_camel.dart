@@ -193,32 +193,13 @@ class EnglishEntrycamel extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) وشتر؛ ئاژەڵێک کە ملی درێژە و دوو کۆپارەی ھەیە لەسەر پشتی. وشتر لە وڵاتانی بیابانی بەکاردێت بۆ سواری و بارگواستنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Bedouins relied on camels for traversing the desert."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "عەرەبە بیاباننشینەکان پشتیان بە وشتر دەبەست ھاتوچۆ بە بیابانەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "camel", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcamels1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcamels1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Bedouins relied on camels for traversing the desert.",
+                            kurdishText:
+                                "عەرەبە بیاباننشینەکان پشتیان بە وشتر دەبەست ھاتوچۆ بە بیابانەکەدا.", // camel
+                            onPressedBritish: () => speakcamels1("en-GB"),
+                            onPressedAmerican: () => speakcamels1("en-US"),
                           ),
                         ],
                       ),

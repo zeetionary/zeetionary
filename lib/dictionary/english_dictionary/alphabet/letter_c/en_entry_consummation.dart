@@ -104,66 +104,28 @@ class EnglishEntryconsummation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کرداری بە فەرمی ناساندنی ھاوسەرگیرییەک یان پەیوەندییەک بە کردنی سێکس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The consummation of their marriage was a private and intimate moment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کامڵکردنی ھاوسەرگیرییەکەیان ساتێکی تایبەت و کەسی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consummation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsummations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsummations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The consummation of their marriage was a private and intimate moment.",
+                            kurdishText:
+                                "کامڵکردنی ھاوسەرگیرییەکەیان ساتێکی تایبەت و کەسی بوو.", // consummation",
+                            onPressedBritish: () =>
+                                speakconsummations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsummations1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) تەواوکردن یان کامڵکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The consummation of the sale was delayed due to legal issues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوکردنی فرۆشتنەکە دواخرا بەھۆی کێشەی یاساییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconsummations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconsummations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The consummation of the sale was delayed due to legal issues.",
+                            kurdishText:
+                                "تەواوکردنی فرۆشتنەکە دواخرا بەھۆی کێشەی یاساییەوە.",
+                            onPressedBritish: () =>
+                                speakconsummations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconsummations2("en-US"),
                           ),
                         ],
                       ),

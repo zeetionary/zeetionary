@@ -242,60 +242,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کڵاوێکی فشی گەورە کە سەر دادەپۆشێت و زۆرجار ڕەبەنەکان لەبەری دەکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She lifted the cowl of her cloak."),
-                    ExampleSentenceKurdish(text: "کڵاوی جبەکەی بەرزکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cowl", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She lifted the cowl of her cloak.",
+            kurdishText:
+                "کڵاوی جبەکەی بەرزکردەوە.", // cowl", please follow LX instructions
+            onPressedBritish: () => speakcowls1("en-GB"),
+            onPressedAmerican: () => speakcowls1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) داپۆشەرێک بۆ دووکەڵکێش بۆ ئەوەی ڕێگا بگرێت لەوەی دووکەڵەکە بە پاڵەپەستۆی ھەوای دەرەوە بۆ خوارەوە بگەڕێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Fitting a cowl to a chimney may help it to draw better."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دانانی کڵاوەیەک لەسەر دووکەڵکێشەکە ڕەنگە یارمەتیدەر بێت لە ڕاکێشانی دووکەڵ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowls2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowls2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Fitting a cowl to a chimney may help it to draw better.",
+            kurdishText:
+                "دانانی کڵاوەیەک لەسەر دووکەڵکێشەکە ڕەنگە یارمەتیدەر بێت لە ڕاکێشانی دووکەڵ.",
+            onPressedBritish: () => speakcowls2("en-GB"),
+            onPressedAmerican: () => speakcowls2("en-US"),
           ),
         ],
       ),

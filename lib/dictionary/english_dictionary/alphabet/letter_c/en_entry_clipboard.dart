@@ -103,63 +103,25 @@ class EnglishEntryclipboard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تەختەیەکی بچووک کە گیرەیەکی لە سەرەوە ھەیە بپ ڕاگرتنی پەڕە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Add your name to the list on the clipboard."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوت بۆ لەسەر لیستی سەر کلیپ بۆردەکە زیاد بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clipboard", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclipboards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclipboards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Add your name to the list on the clipboard.",
+                            kurdishText:
+                                "ناوت بۆ لەسەر لیستی سەر کلیپ بۆردەکە زیاد بکە.", // clipboard",
+                            onPressedBritish: () => speakclipboards1("en-GB"),
+                            onPressedAmerican: () => speakclipboards1("en-US"),
                           ),
                           // skipped_meaning
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەشێکی کۆمپیوتەر کە تێیدا زانیاری بۆ ماوەیەکی کاتی ھەڵدەگیرێت کە لە شوێنێکەوە بۆ یەکێکی دیکە دەیگوازیتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "کلیپبۆردەکە بەکاربێنە بۆ کۆپی و لکاندنی زانیاری لە وێبسایتەوە."),
-                                    ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclipboards2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclipboards2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "کلیپبۆردەکە بەکاربێنە بۆ کۆپی و لکاندنی زانیاری لە وێبسایتەوە.",
+                            kurdishText: "رستە_رستە_رستە_رستە.",
+                            onPressedBritish: () => speakclipboards2("en-GB"),
+                            onPressedAmerican: () => speakclipboards2("en-US"),
                           ),
                         ],
                       ),

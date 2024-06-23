@@ -99,34 +99,15 @@ class EnglishEntrytheconservativeparty extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) یەکێک لە پارتە سەرەکییەکانی بەریتانیا کە ڕاستڕەوە لەگەڵ بازاڕی ئازادە و ئەوەی پیشەسازی دەبێت سەر بە کەرتی تایبەت بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Conservative Party won the election and formed the new government in 2010."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارتی پارێزگاران ھەڵبژاردنی بردەوە و حکومەتی پێکھێنا لە ساڵی ٢٠١٠."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "the Conservative Party", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speaktheConservativePartys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaktheConservativePartys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Conservative Party won the election and formed the new government in 2010.",
+                            kurdishText:
+                                "پارتی پارێزگاران ھەڵبژاردنی بردەوە و حکومەتی پێکھێنا لە ساڵی ٢٠١٠.", // the Conservative Party",
+                            onPressedBritish: () =>
+                                speaktheConservativePartys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speaktheConservativePartys1("en-US"),
                           ),
                         ],
                       ),

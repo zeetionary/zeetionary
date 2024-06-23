@@ -117,125 +117,49 @@ class EnglishEntrycheerfully extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بەدڵخۆشییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She walked down the road, whistling cheerfully."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ڕێگاکەدا دەچوو و بە دڵخۆشییەوە فیکەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheerfully", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheerfullys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheerfullys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She walked down the road, whistling cheerfully.",
+                            kurdishText:
+                                "بە ڕێگاکەدا دەچوو و بە دڵخۆشییەوە فیکەی دەکرد.", // cheerfully",
+                            onPressedBritish: () => speakcheerfullys1("en-GB"),
+                            onPressedAmerican: () => speakcheerfullys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بەکاردێت بۆ وتنی ئەوەی حەزدەکەیت شتێک بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "By the end of the evening I could cheerfully have punched him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەکۆتاییدا ئێوارەکەدا پڕبەدڵانە مستێکم لێ دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheerfullys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheerfullys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "By the end of the evening I could cheerfully have punched him.",
+                            kurdishText:
+                                "لەکۆتاییدا ئێوارەکەدا پڕبەدڵانە مستێکم لێ دەدا.",
+                            onPressedBritish: () => speakcheerfullys2("en-GB"),
+                            onPressedAmerican: () => speakcheerfullys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵکار) بۆ وتنی ئەوەی کەسێک شەرمەزار نییە سەبارەت بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She cheerfully admitted that she had no experience at all (= she wasn't afraid to do so)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەبێ تەریقەوەبوون وتی کەوا ھیچ ئەزموونێکی نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheerfullys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheerfullys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She cheerfully admitted that she had no experience at all (= she wasn't afraid to do so).",
+                            kurdishText:
+                                "بەبێ تەریقەوەبوون وتی کەوا ھیچ ئەزموونێکی نییە.",
+                            onPressedBritish: () => speakcheerfullys3("en-GB"),
+                            onPressedAmerican: () => speakcheerfullys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵکار) بەشێوەیەک کە دڵخۆشت دەکات و وا دەکات ھەست بە ئەرێنی بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The school staff proudly showed me each cheerfully decorated classroom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستافی قوتابخانەکەھەریەک لە پۆلە جوان ڕازێنراوەکانیان پیشاندام ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheerfullys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheerfullys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The school staff proudly showed me each cheerfully decorated classroom.",
+                            kurdishText:
+                                "ستافی قوتابخانەکەھەریەک لە پۆلە جوان ڕازێنراوەکانیان پیشاندام .",
+                            onPressedBritish: () => speakcheerfullys4("en-GB"),
+                            onPressedAmerican: () => speakcheerfullys4("en-US"),
                           ),
                         ],
                       ),

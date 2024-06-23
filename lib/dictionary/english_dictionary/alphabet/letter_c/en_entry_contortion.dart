@@ -121,119 +121,43 @@ class EnglishEntrycontortion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جوڵەیەک کە جەستە دەسووڕێنێت یان دەچەمێنێتەوە بۆ شێوەیەک کە جیاوازە لە شێوەی ئاسایی خۆی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His facial contortions amused the schoolchildren."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواروخێچی ڕووخساری منداڵانی قوتابخانەکەی دڵخۆش کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contortion", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontortions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontortions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His facial contortions amused the schoolchildren.",
+                            kurdishText:
+                                "خواروخێچی ڕووخساری منداڵانی قوتابخانەکەی دڵخۆش کرد.", // contortion",
+                            onPressedBritish: () => speakcontortions1("en-GB"),
+                            onPressedAmerican: () => speakcontortions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their bodies had suffered contortion as a result of malnutrition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەستەیان تووشی گێڕی بووبوو بەھۆی کەم‌خۆراکییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontortions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontortions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their bodies had suffered contortion as a result of malnutrition.",
+                            kurdishText:
+                                "جەستەیان تووشی گێڕی بووبوو بەھۆی کەم‌خۆراکییەوە.",
+                            onPressedBritish: () => speakcontortions2("en-GB"),
+                            onPressedAmerican: () => speakcontortions2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) زنجیرەیەکی ئاڵۆز لە پرسیار یان بیرکردنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I cannot go through the mental contortions necessary to convince myself that all scientists are stupid."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم بە ھەموو پێچ‌وپەنا ھزرییەکاندا کە پێویستن تاوەک خۆم قایل بکەم کە ھەموو زاناکان گەمژەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontortions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontortions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I cannot go through the mental contortions necessary to convince myself that all scientists are stupid.",
+                            kurdishText:
+                                "ناتوانم بە ھەموو پێچ‌وپەنا ھزرییەکاندا کە پێویستن تاوەک خۆم قایل بکەم کە ھەموو زاناکان گەمژەن.",
+                            onPressedBritish: () => speakcontortions3("en-GB"),
+                            onPressedAmerican: () => speakcontortions3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We had to go through all the usual contortions to get a ticket."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستبوو بە ھەموو پێچ‌وپەنا ھەمیشەییەکاندا بچین بۆ بەدەستخستنی بلیتێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontortions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontortions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We had to go through all the usual contortions to get a ticket.",
+                            kurdishText:
+                                "پێویستبوو بە ھەموو پێچ‌وپەنا ھەمیشەییەکاندا بچین بۆ بەدەستخستنی بلیتێک.",
+                            onPressedBritish: () => speakcontortions4("en-GB"),
+                            onPressedAmerican: () => speakcontortions4("en-US"),
                           ),
                         ],
                       ),

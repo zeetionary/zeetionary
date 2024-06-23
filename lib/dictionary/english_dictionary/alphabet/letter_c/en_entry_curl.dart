@@ -322,325 +322,101 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) لوولبوون یان وابکەیت شتێک لوول بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "His hair curls naturally."),
-                    ExampleSentenceKurdish(text: "قژی بە سرووشتی لوول دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "curl", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His hair curls naturally.",
+            kurdishText:
+                "قژی بە سرووشتی لوول دەبێت.", // curl", please follow LX instructions
+            onPressedBritish: () => speakcurls1("en-GB"),
+            onPressedAmerican: () => speakcurls1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A new baby will automatically curl its fingers around any object it touches."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵی ساوا ڕاستەوخۆ پەنجەکانی لوول دەکات بە دەوری ھەر شتیکدا کە دەستی لێبدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurls2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurls2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A new baby will automatically curl its fingers around any object it touches.",
+            kurdishText:
+                "منداڵی ساوا ڕاستەوخۆ پەنجەکانی لوول دەکات بە دەوری ھەر شتیکدا کە دەستی لێبدات.",
+            onPressedBritish: () => speakcurls2("en-GB"),
+            onPressedAmerican: () => speakcurls2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) چەمانەوە یان وابکەیت شتێک بچەمێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The cat curled into a ball and went to sleep."),
-                    ExampleSentenceKurdish(
-                        text: "پشیلەکە وەک تۆپێک خۆی پێچدا و خەوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurls3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurls3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cat curled into a ball and went to sleep.",
+            kurdishText: "پشیلەکە وەک تۆپێک خۆی پێچدا و خەوت.",
+            onPressedBritish: () => speakcurls3("en-GB"),
+            onPressedAmerican: () => speakcurls3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His fingers curled tightly around the steering wheel."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەنجەکانی بە توندی بە دەوری سووکانەکەدا گیرکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurls4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurls4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His fingers curled tightly around the steering wheel.",
+            kurdishText: "پەنجەکانی بە توندی بە دەوری سووکانەکەدا گیرکرد.",
+            onPressedBritish: () => speakcurls4("en-GB"),
+            onPressedAmerican: () => speakcurls4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) جوڵان لەکاتی درووستکردنی شێوەیەکی چەماوەیی یان پێچاوپێچی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The smoke curled steadily upwards."),
-                    ExampleSentenceKurdish(
-                        text: "دووکەڵەکە بە لەسەرخۆیی بەرزدەبوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurls5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurls5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The smoke curled steadily upwards.",
+            kurdishText: "دووکەڵەکە بە لەسەرخۆیی بەرزدەبوویەوە.",
+            onPressedBritish: () => speakcurls5("en-GB"),
+            onPressedAmerican: () => speakcurls5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) ھەندێک قژی لوول"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her hair was a mass of curls."),
-                    ExampleSentenceKurdish(text: "قژی بڕێکی زۆر لە لوولی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurls6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurls6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her hair was a mass of curls.",
+            kurdishText: "قژی بڕێکی زۆر لە لوولی بوو.",
+            onPressedBritish: () => speakcurls6("en-GB"),
+            onPressedAmerican: () => speakcurls6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The baby had dark eyes and dark curls."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵەکە چاوی ڕەش و قژی لوولی ڕەشی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurls7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurls7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The baby had dark eyes and dark curls.",
+            kurdishText: "منداڵەکە چاوی ڕەش و قژی لوولی ڕەشی بوو.",
+            onPressedBritish: () => speakcurls7("en-GB"),
+            onPressedAmerican: () => speakcurls7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He carefully teased his curls into place."),
-                    ExampleSentenceKurdish(
-                        text: "بەوریاییەوە قژە لوولەکەی ڕێکخست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurls8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurls8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He carefully teased his curls into place.",
+            kurdishText: "بەوریاییەوە قژە لوولەکەی ڕێکخست.",
+            onPressedBritish: () => speakcurls8("en-GB"),
+            onPressedAmerican: () => speakcurls8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She has beautiful blonde curls."),
-                    ExampleSentenceKurdish(
-                        text: "قژێکی لوولی زەردی جوانی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurls9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurls9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has beautiful blonde curls.",
+            kurdishText: "قژێکی لوولی زەردی جوانی ھەیە.",
+            onPressedBritish: () => speakcurls9("en-GB"),
+            onPressedAmerican: () => speakcurls9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) لوولی قژ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His hair had a natural curl."),
-                    ExampleSentenceKurdish(text: "قژی لوولییەکی سرووشتی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurls10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurls10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His hair had a natural curl.",
+            kurdishText: "قژی لوولییەکی سرووشتی ھەیە.",
+            onPressedBritish: () => speakcurls10("en-GB"),
+            onPressedAmerican: () => speakcurls10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her hair lost its curl as she got older."),
-                    ExampleSentenceKurdish(
-                        text: "قژەکەی لوولی لەدەستدا کە چوو بە تەمەندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurls11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurls11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her hair lost its curl as she got older.",
+            kurdishText: "قژەکەی لوولی لەدەستدا کە چوو بە تەمەندا.",
+            onPressedBritish: () => speakcurls11("en-GB"),
+            onPressedAmerican: () => speakcurls11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) شتێک کە لوولی یان پێچاوپێچی درووست دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Decorate the cake with curls of chocolate."),
-                    ExampleSentenceKurdish(
-                        text: "کێکەکە بە پێچاوپێچی چکلێت بڕازێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurls12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurls12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Decorate the cake with curls of chocolate.",
+            kurdishText: "کێکەکە بە پێچاوپێچی چکلێت بڕازێنەوە.",
+            onPressedBritish: () => speakcurls12("en-GB"),
+            onPressedAmerican: () => speakcurls12("en-US"),
           ),
         ],
       ),

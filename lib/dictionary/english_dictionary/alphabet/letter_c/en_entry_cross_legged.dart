@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو، ھاوەڵکار) دانیشتن بە چوار مشقی یان قاچ لەسەر قاچ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They gathered around the campfire, sitting cross-legged on blankets."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دەوری ئاگرەکە کۆبوونەوە و بە چوار مشقی دانیشتبوون لەسەر بەتانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cross-legged", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrossleggeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrossleggeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They gathered around the campfire, sitting cross-legged on blankets.",
+            kurdishText:
+                "لە دەوری ئاگرەکە کۆبوونەوە و بە چوار مشقی دانیشتبوون لەسەر بەتانی.", // cross-legged", please follow LX instructions
+            onPressedBritish: () => speakcrossleggeds1("en-GB"),
+            onPressedAmerican: () => speakcrossleggeds1("en-US"),
           ),
         ],
       ),

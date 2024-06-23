@@ -144,204 +144,69 @@ class EnglishEntrycop extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئەفسەری پۆلیس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Somebody call the cops!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێک پەیوەندی بە پۆلیسەوە بکات!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cop", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcops1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcops1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Somebody call the cops!",
+                            kurdishText:
+                                "کەسێک پەیوەندی بە پۆلیسەوە بکات!", // cop",
+                            onPressedBritish: () => speakcops1("en-GB"),
+                            onPressedAmerican: () => speakcops1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Lots of children play cops and robbers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر منداڵ یاری پۆلیس و دز دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcops2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcops2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Lots of children play cops and robbers.",
+                            kurdishText: "زۆر منداڵ یاری پۆلیس و دز دەکەن.",
+                            onPressedBritish: () => speakcops2("en-GB"),
+                            onPressedAmerican: () => speakcops2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) بەسەرھاتن یان وەرگرتنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He copped all the hassle after the accident."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی بەڵای دوای ڕووداوەکەی وەرگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcops3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcops3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He copped all the hassle after the accident.",
+                            kurdishText: "تەواوی بەڵای دوای ڕووداوەکەی وەرگرت.",
+                            onPressedBritish: () => speakcops3("en-GB"),
+                            onPressedAmerican: () => speakcops3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She copped an Emmy award last year for her performance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵی ڕابردوو خەڵاتێکی ئێمی وەرگرت بۆ نمایشەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcops4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcops4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She copped an Emmy award last year for her performance.",
+                            kurdishText:
+                                "ساڵی ڕابردوو خەڵاتێکی ئێمی وەرگرت بۆ نمایشەکەی.",
+                            onPressedBritish: () => speakcops4("en-GB"),
+                            onPressedAmerican: () => speakcops4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He seems to have copped the blame for the whole mess."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وا دەردەکەوێت لۆمەی تەواوی کێشەکەی وەرگرتبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcops5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcops5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He seems to have copped the blame for the whole mess.",
+                            kurdishText:
+                                "وا دەردەکەوێت لۆمەی تەواوی کێشەکەی وەرگرتبێت.",
+                            onPressedBritish: () => speakcops5("en-GB"),
+                            onPressedAmerican: () => speakcops5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) تێبینی کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cop a load of this! (= Listen to this)"),
-                                    ExampleSentenceKurdish(
-                                        text: "گوێ بۆ ئەمە ڕابگرە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcops6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcops6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cop a load of this! (= Listen to this)",
+                            kurdishText: "گوێ بۆ ئەمە ڕابگرە!",
+                            onPressedBritish: () => speakcops6("en-GB"),
+                            onPressedAmerican: () => speakcops6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) گرتنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cop hold of that, would you - I can't carry both myself."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە بگرە، دەیگریت؟ ناتوانم خۆم ھەردووکیان ھەڵبگرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcops7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcops7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cop hold of that, would you - I can't carry both myself.",
+                            kurdishText:
+                                "ئەمە بگرە، دەیگریت؟ ناتوانم خۆم ھەردووکیان ھەڵبگرم.",
+                            onPressedBritish: () => speakcops7("en-GB"),
+                            onPressedAmerican: () => speakcops7("en-US"),
                           ),
                         ],
                       ),

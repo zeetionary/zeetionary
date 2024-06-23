@@ -94,34 +94,15 @@ class EnglishEntrychiefconstable extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سەرۆکی پۆلیس؛ بەڕێوبەری پۆلیس لە ناوچەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was appointed as acting chief constable following the retirement of his predecessor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک بەڕێوبەری کاربەڕێکەری پۆلیس دانرا لە دوای خانەنشینبوونی ئەوەی پێشووتری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chief constable", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchiefconstables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchiefconstables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was appointed as acting chief constable following the retirement of his predecessor.",
+                            kurdishText:
+                                "وەک بەڕێوبەری کاربەڕێکەری پۆلیس دانرا لە دوای خانەنشینبوونی ئەوەی پێشووتری.", // chief constable",
+                            onPressedBritish: () =>
+                                speakchiefconstables1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchiefconstables1("en-US"),
                           ),
                         ],
                       ),

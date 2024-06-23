@@ -214,60 +214,22 @@ class EnglishEntrycontract extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕێککەوتنێکی فەرمی نووسراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All employees have a written contract of employment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو کارمەندان گرێبەستێکی نووسراوی وەرگرتنیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contract", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontracts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontracts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All employees have a written contract of employment.",
+                            kurdishText:
+                                "ھەموو کارمەندان گرێبەستێکی نووسراوی وەرگرتنیان ھەیە.", // contract",
+                            onPressedBritish: () => speakcontracts1("en-GB"),
+                            onPressedAmerican: () => speakcontracts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These clauses form part of the contract between buyer and seller."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم مادانە بەشێکی ڕێککەوتنی نێوان فرۆشیار و کڕیار پێکدێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontracts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontracts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These clauses form part of the contract between buyer and seller.",
+                            kurdishText:
+                                "ئەم مادانە بەشێکی ڕێککەوتنی نێوان فرۆشیار و کڕیار پێکدێنن.",
+                            onPressedBritish: () => speakcontracts2("en-GB"),
+                            onPressedAmerican: () => speakcontracts2("en-US"),
                           ),
                           Column(
                             children: [
@@ -369,292 +331,99 @@ class EnglishEntrycontract extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕێککەوتنی کوشتنی کەسێک بە پارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She took out a contract on her ex-husband."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتنێکی بۆ کوشتنی ھاوسەری پێشووی ئەنجامدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontracts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontracts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She took out a contract on her ex-husband.",
+                            kurdishText:
+                                "ڕێککەوتنێکی بۆ کوشتنی ھاوسەری پێشووی ئەنجامدا.",
+                            onPressedBritish: () => speakcontracts6("en-GB"),
+                            onPressedAmerican: () => speakcontracts6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) کەمبوون یان بچووکبوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Glass contracts as it cools."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گڵاس دەچێتەوە یەک کە سارد دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontracts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontracts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Glass contracts as it cools.",
+                            kurdishText: "گڵاس دەچێتەوە یەک کە سارد دەبێت.",
+                            onPressedBritish: () => speakcontracts7("en-GB"),
+                            onPressedAmerican: () => speakcontracts7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The universe is expanding rather than contracting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەردوون لە کشاندایە نەک چوونەوە یەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontracts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontracts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The universe is expanding rather than contracting.",
+                            kurdishText: "گەردوون لە کشاندایە نەک چوونەوە یەک.",
+                            onPressedBritish: () => speakcontracts8("en-GB"),
+                            onPressedAmerican: () => speakcontracts8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The economy will contract by 2 per cent this year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئابووری بە ڕێژەی ٢٪ دادەتەپێت بۆ ئەمساڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontracts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontracts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The economy will contract by 2 per cent this year.",
+                            kurdishText:
+                                "ئابووری بە ڕێژەی ٢٪ دادەتەپێت بۆ ئەمساڵ.",
+                            onPressedBritish: () => speakcontracts9("en-GB"),
+                            onPressedAmerican: () => speakcontracts9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The heart muscles contract to expel the blood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماسوولکەکانی دڵ گرژدەبنەوە بۆ دەرکردنی خوێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontracts10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontracts10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The heart muscles contract to expel the blood.",
+                            kurdishText:
+                                "ماسوولکەکانی دڵ گرژدەبنەوە بۆ دەرکردنی خوێن.",
+                            onPressedBritish: () => speakcontracts10("en-GB"),
+                            onPressedAmerican: () => speakcontracts10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) گرتنی نەخۆشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Condoms can help to minimize the risk of contracting HIV."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆندۆم یارمەتیدەر دەبێت لە کەمکردنەوەی گرتنی ئایدز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontracts11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontracts11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Condoms can help to minimize the risk of contracting HIV.",
+                            kurdishText:
+                                "کۆندۆم یارمەتیدەر دەبێت لە کەمکردنەوەی گرتنی ئایدز.",
+                            onPressedBritish: () => speakcontracts11("en-GB"),
+                            onPressedAmerican: () => speakcontracts11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He contracted malaria while abroad."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە دەرەوەی وڵات مەلاریای گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontracts12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontracts12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He contracted malaria while abroad.",
+                            kurdishText: "لە دەرەوەی وڵات مەلاریای گرت.",
+                            onPressedBritish: () => speakcontracts12("en-GB"),
+                            onPressedAmerican: () => speakcontracts12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) ئەنجامدانی گرێبەستی کارکردن لەگەڵ کەسێک بۆ ئەوەی کارت بۆ بکات یان خزمەتگوزارییەکت پێشکەش بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The player is contracted to play until August."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاریزانەکە گرێبەستی یاریکردنی تاوەکو ئاب ئەنجامداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontracts13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontracts13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The player is contracted to play until August.",
+                            kurdishText:
+                                "یاریزانەکە گرێبەستی یاریکردنی تاوەکو ئاب ئەنجامداوە.",
+                            onPressedBritish: () => speakcontracts13("en-GB"),
+                            onPressedAmerican: () => speakcontracts13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He can't work for them because he is contracted with another company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانێت کاریان بۆ بکات چونکە گرێبەستی لەگەڵ کۆمپانیایەکی دیکە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontracts14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontracts14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He can't work for them because he is contracted with another company.",
+                            kurdishText:
+                                "ناتوانێت کاریان بۆ بکات چونکە گرێبەستی لەگەڵ کۆمپانیایەکی دیکە ھەیە.",
+                            onPressedBritish: () => speakcontracts14("en-GB"),
+                            onPressedAmerican: () => speakcontracts14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) ئەنجامدانی گرێبەستی کارکردن لەگەڵ کەسێک بۆ ئەوەی کاری بۆ بکەیت یان خزمەتگوزارییەکی پێشکەش بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has contracted to work 20 hours a week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتنی کردووە ٢٠ کاتژمێر لە ھەفتەیەکدا کار بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontracts15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontracts15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has contracted to work 20 hours a week.",
+                            kurdishText:
+                                "ڕێککەوتنی کردووە ٢٠ کاتژمێر لە ھەفتەیەکدا کار بکات.",
+                            onPressedBritish: () => speakcontracts15("en-GB"),
+                            onPressedAmerican: () => speakcontracts15("en-US"),
                           ),
                         ],
                       ),

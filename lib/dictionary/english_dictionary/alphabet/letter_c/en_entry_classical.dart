@@ -136,185 +136,70 @@ class EnglishEntryclassical extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە میوزیکی ستایلی ڕۆژئاوایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I tend to listen to pop music rather than classical."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیاتر گوێ لە میوزیکی پۆپ دەگرم وەک لە کلاسیکڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "classical", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassicals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassicals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I tend to listen to pop music rather than classical.",
+                            kurdishText:
+                                "زیاتر گوێ لە میوزیکی پۆپ دەگرم وەک لە کلاسیکڵ.", // classical",
+                            onPressedBritish: () => speakclassicals1("en-GB"),
+                            onPressedAmerican: () => speakclassicals1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) پەسەندکراو و بەکارھێنراو بۆ ماوەیەکی درێژ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Does she study classical ballet or modern ballet?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بالێی ڕەسەن دەخوێنێت یان سەردەمی؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassicals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassicals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Does she study classical ballet or modern ballet?",
+                            kurdishText: "بالێی ڕەسەن دەخوێنێت یان سەردەمی؟",
+                            onPressedBritish: () => speakclassicals2("en-GB"),
+                            onPressedAmerican: () => speakclassicals2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) پەیوەندیدار یان کاریگەر بە کەلتووری یۆنانی و ڕۆمە کۆنەکان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is an expert in classical literature."),
-                                    ExampleSentenceKurdish(
-                                        text: "پسپۆڕێکە لە ئەدەبی کلاسیکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassicals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassicals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is an expert in classical literature.",
+                            kurdishText: "پسپۆڕێکە لە ئەدەبی کلاسیکدا.",
+                            onPressedBritish: () => speakclassicals3("en-GB"),
+                            onPressedAmerican: () => speakclassicals3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) بە ھەموو ئەو خاسیەتانەی کە لێی چاوەڕێ دەکەیت "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These are classical examples of food allergy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەمانە نموونە چاوەڕوانکراوەکانی ھەستیاری بە خواردنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassicals4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassicals4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These are classical examples of food allergy.",
+                            kurdishText:
+                                "حەمانە نموونە چاوەڕوانکراوەکانی ھەستیاری بە خواردنن.",
+                            onPressedBritish: () => speakclassicals4("en-GB"),
+                            onPressedAmerican: () => speakclassicals4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ھاوەڵناو) شێوەیەکی کۆنی زمانێک کە چی دیکە بەکارنایەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Students of Islam study classical Arabic to understand the Quran."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندکارانی قورئان عەرەبی کلاسیک دەخوێنن بۆ تێگەشتن لە قورئان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassicals5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassicals5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Students of Islam study classical Arabic to understand the Quran.",
+                            kurdishText:
+                                "خوێندکارانی قورئان عەرەبی کلاسیک دەخوێنن بۆ تێگەشتن لە قورئان.",
+                            onPressedBritish: () => speakclassicals5("en-GB"),
+                            onPressedAmerican: () => speakclassicals5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ھاوەڵناو) جوان و سادە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I love the classical lines of his dress designs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزم لە ھێڵە سادەکانی دیزاینی جلەکەیەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclassicals6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclassicals6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I love the classical lines of his dress designs.",
+                            kurdishText:
+                                "حەزم لە ھێڵە سادەکانی دیزاینی جلەکەیەتی.",
+                            onPressedBritish: () => speakclassicals6("en-GB"),
+                            onPressedAmerican: () => speakclassicals6("en-US"),
                           ),
                         ],
                       ),

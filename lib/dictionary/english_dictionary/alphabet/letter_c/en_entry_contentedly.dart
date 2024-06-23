@@ -94,32 +94,13 @@ class EnglishEntrycontentedly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە وای پیشان دەدات دڵخۆش و ئاسوودەیت، بەتایبەتی بەھۆی ئەوەی ژیانت باشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She smiled contentedly."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە قەناعەتەوە پێدەکەنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contentedly", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontentedlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontentedlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She smiled contentedly.",
+                            kurdishText:
+                                "بە قەناعەتەوە پێدەکەنی.", // contentedly",
+                            onPressedBritish: () => speakcontentedlys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontentedlys1("en-US"),
                           ),
                         ],
                       ),

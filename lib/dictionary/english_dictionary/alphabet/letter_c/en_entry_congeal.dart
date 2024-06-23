@@ -111,88 +111,31 @@ class EnglishEntrycongeal extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text: "١. (کردار) خەست یان ڕەق بوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cold remains of lunch had congealed on the plate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواردنی ماوەی ساربووی نیوەڕۆ ڕەقبووبوو بە دەورییەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "congeal", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongeals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongeals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cold remains of lunch had congealed on the plate.",
+                            kurdishText:
+                                "خواردنی ماوەی ساربووی نیوەڕۆ ڕەقبووبوو بە دەورییەکەوە.", // congeal",
+                            onPressedBritish: () => speakcongeals1("en-GB"),
+                            onPressedAmerican: () => speakcongeals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The blood had congealed in thick black clots."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێنەکە مەیی بوو لە کڵۆی ڕەشی خەستدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongeals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongeals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The blood had congealed in thick black clots.",
+                            kurdishText:
+                                "خوێنەکە مەیی بوو لە کڵۆی ڕەشی خەستدا.",
+                            onPressedBritish: () => speakcongeals2("en-GB"),
+                            onPressedAmerican: () => speakcongeals2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bitterness and tears had congealed into hatred."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراوی) تاڵی و فرمێسکەکانی بووبوون بە ڕق."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcongeals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcongeals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bitterness and tears had congealed into hatred.",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی) تاڵی و فرمێسکەکانی بووبوون بە ڕق.",
+                            onPressedBritish: () => speakcongeals3("en-GB"),
+                            onPressedAmerican: () => speakcongeals3("en-US"),
                           ),
                         ],
                       ),

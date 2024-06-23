@@ -95,34 +95,14 @@ class EnglishEntrycollapsible extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بەشێوەیەک کە قەد دەکرێت و جێگا کەمتر دەکرێت یان تەخت دەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We brought collapsible chairs to the outdoor concert."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کورسی نووشتاوەمان ھێنا بۆ کۆنسێرتە دەرەکییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collapsible", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcollapsibles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcollapsibles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We brought collapsible chairs to the outdoor concert.",
+                            kurdishText:
+                                "کورسی نووشتاوەمان ھێنا بۆ کۆنسێرتە دەرەکییەکە.", // collapsible",
+                            onPressedBritish: () => speakcollapsibles1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcollapsibles1("en-US"),
                           ),
                         ],
                       ),

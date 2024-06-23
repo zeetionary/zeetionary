@@ -119,121 +119,43 @@ class EnglishEntryclerk extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە لە فرۆشگایەک کاردەکات و یارمەتی کڕیاران دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sales clerk answered all our questions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فرۆشیارەکە وەڵامی ھەموو پرسیارەکانمانی دایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clerk", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclerks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclerks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sales clerk answered all our questions.",
+                            kurdishText:
+                                "فرۆشیارەکە وەڵامی ھەموو پرسیارەکانمانی دایەوە.", // clerk",
+                            onPressedBritish: () => speakclerks1("en-GB"),
+                            onPressedAmerican: () => speakclerks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Take your purchases to the clerk, and he will wrap them for you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شتومەکەکانت ببە بۆ فرۆشیارەکە و بۆی دەپێچێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclerks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclerks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Take your purchases to the clerk, and he will wrap them for you.",
+                            kurdishText:
+                                "شتومەکەکانت ببە بۆ فرۆشیارەکە و بۆی دەپێچێتەوە.",
+                            onPressedBritish: () => speakclerks2("en-GB"),
+                            onPressedAmerican: () => speakclerks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە یارمەتی ئەو کەسانە دەدات کە دەگەنە ھوتێلێک یان جێی دەھێڵن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hotel clerk greeted us warmly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێ‌ڕاگەیشتووی ھوتێلەکە بە گەرمییەوە پێشوازی کردین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclerks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclerks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The hotel clerk greeted us warmly.",
+                            kurdishText:
+                                "پێ‌ڕاگەیشتووی ھوتێلەکە بە گەرمییەوە پێشوازی کردین.",
+                            onPressedBritish: () => speakclerks3("en-GB"),
+                            onPressedAmerican: () => speakclerks3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەسێک کە لە ئۆفیسێک کاری تۆمار و ھەژمار دەکات لەگەڵ کارەکانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He started work as a clerk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک فەرمانبەرێک دەستی بەکارکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclerks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclerks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He started work as a clerk.",
+                            kurdishText: "وەک فەرمانبەرێک دەستی بەکارکرد.",
+                            onPressedBritish: () => speakclerks4("en-GB"),
+                            onPressedAmerican: () => speakclerks4("en-US"),
                           ),
                         ],
                       ),

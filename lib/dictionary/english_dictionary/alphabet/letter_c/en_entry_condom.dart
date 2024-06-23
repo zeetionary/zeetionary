@@ -104,60 +104,22 @@ class EnglishEntrycondom extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچە لاستیکێکی تەنک کە پیاو لە کاتی سێکسدا بەسەر چووکیدا یان ژنان لەناو زێدا بەکاردیدێنن بۆ ئەوەی ڕێگا لە دووگیانی بگرن، یان بۆ ڕێگری لە گواستنەوەی نەخۆشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She insisted that her partner wear a condom every time they had sex."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێداگیر بوو لەسەر ئەوەی دۆستەکەی کۆندۆم بەکاربێنێت ھەرکاتێک سێکسیان بکردایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "condom", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondoms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondoms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She insisted that her partner wear a condom every time they had sex.",
+                            kurdishText:
+                                "پێداگیر بوو لەسەر ئەوەی دۆستەکەی کۆندۆم بەکاربێنێت ھەرکاتێک سێکسیان بکردایە.", // condom",
+                            onPressedBritish: () => speakcondoms1("en-GB"),
+                            onPressedAmerican: () => speakcondoms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Using a condom is an effective method of contraception."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکارھێنانی کۆندۆم ڕێگایەکی کاریگەری دژەسکپڕییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcondoms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcondoms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Using a condom is an effective method of contraception.",
+                            kurdishText:
+                                "بەکارھێنانی کۆندۆم ڕێگایەکی کاریگەری دژەسکپڕییە.",
+                            onPressedBritish: () => speakcondoms2("en-GB"),
+                            onPressedAmerican: () => speakcondoms2("en-US"),
                           ),
                         ],
                       ),

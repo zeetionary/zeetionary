@@ -188,62 +188,24 @@ class EnglishEntrycarp extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ماسییەک کە لە ئاوی سازگاردا دەژی و دەخوردرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In some cultures, carp is considered a symbol of good luck and prosperity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ھەندێک کەلتووردا، ماسی کارپ وەک سیمبولی بەختی باش و بووژانەوە دەبینرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carp", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In some cultures, carp is considered a symbol of good luck and prosperity.",
+                            kurdishText:
+                                "لە ھەندێک کەلتووردا، ماسی کارپ وەک سیمبولی بەختی باش و بووژانەوە دەبینرێت.", // carp",
+                            onPressedBritish: () => speakcarps1("en-GB"),
+                            onPressedAmerican: () => speakcarps1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) بۆڵەبۆڵکردن لەسەر شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I’ve had enough of him constantly carping and criticizing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێزاربوومە لە بەردەوام بۆڵەبۆڵ و ڕەخنەگرتنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarps2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarps2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I’ve had enough of him constantly carping and criticizing.",
+                            kurdishText:
+                                "بێزاربوومە لە بەردەوام بۆڵەبۆڵ و ڕەخنەگرتنی.",
+                            onPressedBritish: () => speakcarps2("en-GB"),
+                            onPressedAmerican: () => speakcarps2("en-US"),
                           ),
                         ],
                       ),

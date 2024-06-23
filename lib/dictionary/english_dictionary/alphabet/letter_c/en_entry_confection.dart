@@ -103,63 +103,25 @@ class EnglishEntryconfection extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کێک یان شیرینی دیکە کە خۆش دیارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her confections are always as stunning to look at as they are delicious to eat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شیرینییەکانی ھەمیشە سەرنجڕاکێشن بۆ سەیرکردن بەوپێیەی خۆشن بۆ خواردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confection", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfections1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfections1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her confections are always as stunning to look at as they are delicious to eat.",
+                            kurdishText:
+                                "شیرینییەکانی ھەمیشە سەرنجڕاکێشن بۆ سەیرکردن بەوپێیەی خۆشن بۆ خواردن.", // confection",
+                            onPressedBritish: () => speakconfections1("en-GB"),
+                            onPressedAmerican: () => speakconfections1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شتێک کە درووستکردنی ئاڵۆزە و شارەزایی پێویستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The castle is a wonderful Victorian confection."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەڵاکە سەمەرەیەکی جوانی سەردەمی شاژن ڤیکتۆریایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconfections2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconfections2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The castle is a wonderful Victorian confection.",
+                            kurdishText:
+                                "قەڵاکە سەمەرەیەکی جوانی سەردەمی شاژن ڤیکتۆریایە.",
+                            onPressedBritish: () => speakconfections2("en-GB"),
+                            onPressedAmerican: () => speakconfections2("en-US"),
                           ),
                         ],
                       ),

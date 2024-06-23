@@ -186,60 +186,22 @@ class EnglishEntrycargo extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەو کەلوپەلەی کە لەسەر فڕۆکەیەک، کەشتییەک، ھتددایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The port handles cargo from all over Asia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەندەرەکە باری لە ھەموو ئاسیاوە بۆ دێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cargo", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcargos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcargos1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The port handles cargo from all over Asia.",
+                            kurdishText:
+                                "بەندەرەکە باری لە ھەموو ئاسیاوە بۆ دێت.", // cargo",
+                            onPressedBritish: () => speakcargos1("en-GB"),
+                            onPressedAmerican: () => speakcargos1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ship stopped to take on a cargo of fruit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشتییەکە وەستا بۆ ھەڵگرتنی بارێک لە میوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcargos2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcargos2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ship stopped to take on a cargo of fruit.",
+                            kurdishText:
+                                "کەشتییەکە وەستا بۆ ھەڵگرتنی بارێک لە میوە.",
+                            onPressedBritish: () => speakcargos2("en-GB"),
+                            onPressedAmerican: () => speakcargos2("en-US"),
                           ),
                         ],
                       ),

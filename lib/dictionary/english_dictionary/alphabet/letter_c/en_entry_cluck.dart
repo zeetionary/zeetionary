@@ -112,93 +112,35 @@ class EnglishEntrycluck extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) دەرکردنی زنجیرە دەنگێکی نزم لەلایەن مریشکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The mother hen clucked to her chicks, calling them to her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایکە مریشکەکە گارەگاری بۆ جووجەڵەکانی دەکرد و بانگی دەکردن بۆ لای خۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cluck", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclucks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclucks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The mother hen clucked to her chicks, calling them to her.",
+                            kurdishText:
+                                "دایکە مریشکەکە گارەگاری بۆ جووجەڵەکانی دەکرد و بانگی دەکردن بۆ لای خۆی.", // cluck",
+                            onPressedBritish: () => speakclucks1("en-GB"),
+                            onPressedAmerican: () => speakclucks1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) دەرکردنی چەند دەنگێکی بچووک بە زمانت بۆ پیشاندانی ھاوخەمی بۆ کەسێک یان ئەوەی بیردەکەیتەوە شتێک خراپە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The teacher clucked sympathetically at the child's story."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستاکە ھاوخەمی دەربڕی بۆ چیرۆکی منداڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclucks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclucks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The teacher clucked sympathetically at the child's story.",
+                            kurdishText:
+                                "مامۆستاکە ھاوخەمی دەربڕی بۆ چیرۆکی منداڵەکە.",
+                            onPressedBritish: () => speakclucks2("en-GB"),
+                            onPressedAmerican: () => speakclucks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) گارەگاری مریشک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The farm was filled with the cluck of chickens."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێڵگەکە پڕبوو لە گارەگاری مریشک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclucks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclucks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The farm was filled with the cluck of chickens.",
+                            kurdishText: "کێڵگەکە پڕبوو لە گارەگاری مریشک.",
+                            onPressedBritish: () => speakclucks3("en-GB"),
+                            onPressedAmerican: () => speakclucks3("en-US"),
                           ),
                         ],
                       ),

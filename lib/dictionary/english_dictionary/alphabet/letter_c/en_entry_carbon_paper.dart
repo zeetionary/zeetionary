@@ -193,34 +193,14 @@ class EnglishEntrycarbonpaper extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پەڕەیەک کە کە لایەکی ڕەشە و دەخرێتە نێوان دوو پەڕە بۆ لەبەرگرتنەوەی نووسین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In offices, carbon paper was once a standard tool for replicating important documents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئۆفیسەکاندا، کاغەزی کۆپی جاران ئامرازێکی ستاندارد بوو بۆ لەبەرگرتنەوەی بەڵگەنامە گرنگەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carbon paper", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarbonpapers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarbonpapers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In offices, carbon paper was once a standard tool for replicating important documents.",
+                            kurdishText:
+                                "لە ئۆفیسەکاندا، کاغەزی کۆپی جاران ئامرازێکی ستاندارد بوو بۆ لەبەرگرتنەوەی بەڵگەنامە گرنگەکان.", // carbon paper",
+                            onPressedBritish: () => speakcarbonpapers1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarbonpapers1("en-US"),
                           ),
                         ],
                       ),

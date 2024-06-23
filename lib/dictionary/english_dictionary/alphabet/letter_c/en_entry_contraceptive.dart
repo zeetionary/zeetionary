@@ -105,67 +105,29 @@ class EnglishEntrycontraceptive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) دەرمانێک یان ئامێرێک کە ڕێگری لە دووگاینی ژنان دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are several kinds of contraceptive pills available, and they act in slightly different ways."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی جیاواز لە حەپی دژە دووگیانی بەردەستن، و بەشێوەی کەمێک جیاواز کاردەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contraceptive", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontraceptives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontraceptives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are several kinds of contraceptive pills available, and they act in slightly different ways.",
+                            kurdishText:
+                                "ژمارەیەکی جیاواز لە حەپی دژە دووگیانی بەردەستن، و بەشێوەی کەمێک جیاواز کاردەکەن.", // contraceptive",
+                            onPressedBritish: () =>
+                                speakcontraceptives1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontraceptives1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دەرمانێک یان ئامێرێک کە ڕێگری لە دووگیانی دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The clinic provides a free contraceptives upon request."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلینکەکە دژەسکپڕی بێ‌بەرامبەر دابین دەکات لەگەڵ داواکردندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontraceptives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontraceptives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The clinic provides a free contraceptives upon request.",
+                            kurdishText:
+                                "کلینکەکە دژەسکپڕی بێ‌بەرامبەر دابین دەکات لەگەڵ داواکردندا.",
+                            onPressedBritish: () =>
+                                speakcontraceptives2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontraceptives2("en-US"),
                           ),
                         ],
                       ),

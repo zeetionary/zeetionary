@@ -231,30 +231,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ئاشاخە، خراپ، ڕەشۆکی، بازاڕی، ئەیاخ، ئەشغاڵ، بێ‌بایەخ، قۆر، ھیچ، گەند، ناخۆش
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر خراپ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had a series of crappy jobs."),
-                    ExampleSentenceKurdish(
-                        text: "زنجیرە کارێکی زۆر خراپی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crappy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrappys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrappys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had a series of crappy jobs.",
+            kurdishText:
+                "زنجیرە کارێکی زۆر خراپی ھەبوو.", // crappy", please follow LX instructions
+            onPressedBritish: () => speakcrappys1("en-GB"),
+            onPressedAmerican: () => speakcrappys1("en-US"),
           ),
         ],
       ),

@@ -273,176 +273,59 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گەندەڵی، فەساد، خراپ‌بوون، بەرتیل‌خۆری،	لادان، خریایی، لەڕێ‌دەرچوون،	ھەڵوەشانەوە، تێکچوون، شێواندن، چەواشەکردن، دەسکاری(کردن)،	فەوتاندن، تیابردن، لەنێوبردن،	بۆگەن‌بوون، گەنین، ڕزین، داقنین، پووان، داڕزان
 """),
           const DefinitionKurdish(text: "١. (ناو) گەندەڵی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The new president has promised to fight corruption."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرۆکە تازەکە بەڵێنی داوە شەڕی دژ بە گەندەڵی بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "corruption", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorruptions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorruptions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The new president has promised to fight corruption.",
+            kurdishText:
+                "سەرۆکە تازەکە بەڵێنی داوە شەڕی دژ بە گەندەڵی بکات.", // corruption", please follow LX instructions
+            onPressedBritish: () => speakcorruptions1("en-GB"),
+            onPressedAmerican: () => speakcorruptions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was brought down by a corruption scandal."),
-                    ExampleSentenceKurdish(
-                        text: "بە ئابڕووچوونێکی گەندەڵی کۆتایی پێھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorruptions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorruptions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was brought down by a corruption scandal.",
+            kurdishText: "بە ئابڕووچوونێکی گەندەڵی کۆتایی پێھات.",
+            onPressedBritish: () => speakcorruptions2("en-GB"),
+            onPressedAmerican: () => speakcorruptions2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There were allegations of bribery and corruption."),
-                    ExampleSentenceKurdish(
-                        text: "تۆمەتی بەرتیلخۆری و گەندەڵی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorruptions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorruptions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There were allegations of bribery and corruption.",
+            kurdishText: "تۆمەتی بەرتیلخۆری و گەندەڵی ھەبوو.",
+            onPressedBritish: () => speakcorruptions3("en-GB"),
+            onPressedAmerican: () => speakcorruptions3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) گۆڕینی کەسێک لە باشەوە بۆ خراپ بەشێوەیەک کە ڕەفتاری نەشیاوی ھەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He claimed that sex and violence on TV led to the corruption of young people."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بانگەشەی ئەوەی دەکرد و سێکس و توندوتیژی لەسەر تەلەفیزیۆن دەبوو ھۆکاری لەڕێ‌دەرچوونی کەسانی گەنج."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorruptions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorruptions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He claimed that sex and violence on TV led to the corruption of young people.",
+            kurdishText:
+                "بانگەشەی ئەوەی دەکرد و سێکس و توندوتیژی لەسەر تەلەفیزیۆن دەبوو ھۆکاری لەڕێ‌دەرچوونی کەسانی گەنج.",
+            onPressedBritish: () => speakcorruptions4("en-GB"),
+            onPressedAmerican: () => speakcorruptions4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) شێوەی وشەیەک کە گۆڕاوە و جیاوازە لە شێوازە ڕەسەنەکەی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The word ‘holiday’ is a corruption of ‘holy day’."),
-                    ExampleSentenceKurdish(
-                        text: "وشەت 'holiday' شێوەی گۆڕاوی 'holy day'."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorruptions5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorruptions5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The word ‘holiday’ is a corruption of ‘holy day’.",
+            kurdishText: "وشەت 'holiday' شێوەی گۆڕاوی 'holy day'.",
+            onPressedBritish: () => speakcorruptions5("en-GB"),
+            onPressedAmerican: () => speakcorruptions5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) خراپبوونی داتای کۆمپیوتەر و کارنەکردنی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A failure of a hard disk can cause unrecoverable data corruption."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شکستێک لە ھارد دیسکەکە دەکرێت ببێتە ھۆی خراپبوونی چاکنەبووەوەی داتا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorruptions6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorruptions6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A failure of a hard disk can cause unrecoverable data corruption.",
+            kurdishText:
+                "شکستێک لە ھارد دیسکەکە دەکرێت ببێتە ھۆی خراپبوونی چاکنەبووەوەی داتا.",
+            onPressedBritish: () => speakcorruptions6("en-GB"),
+            onPressedAmerican: () => speakcorruptions6("en-US"),
           ),
         ],
       ),

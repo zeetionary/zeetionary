@@ -121,127 +121,51 @@ class EnglishEntrycontradiction extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) یەکنەگرتنەوەی/جیاوازیی گێڕانەوە، بۆچوون، ڕاستی، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How can we resolve this apparent contradiction?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن دەتوانین ئەم دژبەرییە ئاشکرایە چارەسەر بکەین؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contradiction", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontradictions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontradictions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How can we resolve this apparent contradiction?",
+                            kurdishText:
+                                "چۆن دەتوانین ئەم دژبەرییە ئاشکرایە چارەسەر بکەین؟", // contradiction",
+                            onPressedBritish: () =>
+                                speakcontradictions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontradictions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His public speeches are in direct contradiction to his personal lifestyle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارە گشتییەکانی لە پێکدژی ڕاستەوخۆدان لەگەڵ شێوازی ژیانی کەسییدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontradictions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontradictions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His public speeches are in direct contradiction to his personal lifestyle.",
+                            kurdishText:
+                                "وتارە گشتییەکانی لە پێکدژی ڕاستەوخۆدان لەگەڵ شێوازی ژیانی کەسییدا.",
+                            onPressedBritish: () =>
+                                speakcontradictions2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontradictions2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That's in direct contradiction to what he said yesterday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ناکۆکی ڕاستەوخۆدایە لەگەڵ ئەوەی دوێنێ وتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontradictions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontradictions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That's in direct contradiction to what he said yesterday.",
+                            kurdishText:
+                                "لە ناکۆکی ڕاستەوخۆدایە لەگەڵ ئەوەی دوێنێ وتی.",
+                            onPressedBritish: () =>
+                                speakcontradictions3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontradictions3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) وتنی ئەوەی شتێک کە کەسێک گوتوویەتی ھەڵەیە "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Now you say you both left at ten—that's a contradiction of your last statement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێستا دەڵێیت ھەردووکتان لە دە ڕۆشتن، ئەوە پێچەوانەی لێدوانی پێشووترتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontradictions4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontradictions4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Now you say you both left at ten—that's a contradiction of your last statement.",
+                            kurdishText:
+                                "ئێستا دەڵێیت ھەردووکتان لە دە ڕۆشتن، ئەوە پێچەوانەی لێدوانی پێشووترتە.",
+                            onPressedBritish: () =>
+                                speakcontradictions4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontradictions4("en-US"),
                           ),
                         ],
                       ),

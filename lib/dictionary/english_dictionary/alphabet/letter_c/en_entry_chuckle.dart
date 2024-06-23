@@ -110,86 +110,29 @@ class EnglishEntrychuckle extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پێکەنین بە بێ‌دەنگی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She gave a chuckle of delight."),
-                                    ExampleSentenceKurdish(
-                                        text: "خەنینێکی لە خۆشیدا کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chuckle", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchuckles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchuckles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She gave a chuckle of delight.",
+                            kurdishText: "خەنینێکی لە خۆشیدا کرد.", // chuckle",
+                            onPressedBritish: () => speakchuckles1("en-GB"),
+                            onPressedAmerican: () => speakchuckles1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) پێکەنین بە بێ‌دەنگی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She chuckled at the memory."),
-                                    ExampleSentenceKurdish(
-                                        text: "خەنییەوە بە یادەوەرییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchuckles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchuckles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She chuckled at the memory.",
+                            kurdishText: "خەنییەوە بە یادەوەرییەکە.",
+                            onPressedBritish: () => speakchuckles2("en-GB"),
+                            onPressedAmerican: () => speakchuckles2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was still chuckling about the story the next day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژی دواتریش ھێشتا بە چیرۆکەکە دەخەنییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchuckles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchuckles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was still chuckling about the story the next day.",
+                            kurdishText:
+                                "ڕۆژی دواتریش ھێشتا بە چیرۆکەکە دەخەنییەوە.",
+                            onPressedBritish: () => speakchuckles3("en-GB"),
+                            onPressedAmerican: () => speakchuckles3("en-US"),
                           ),
                         ],
                       ),

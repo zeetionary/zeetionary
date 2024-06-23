@@ -122,120 +122,44 @@ class EnglishEntrycitizen extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھاوڵاتی؛ کەسێک کە مافی یاسایی ھایە سەر بە وڵاتێک بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The defeat of the president did not change the lives of ordinary citizens for the better."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شکستی سەرۆک ژیانی ھاوڵاتی ئاسایی نەگۆڕی بۆ باشتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "citizen", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcitizens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcitizens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The defeat of the president did not change the lives of ordinary citizens for the better.",
+                            kurdishText:
+                                "شکستی سەرۆک ژیانی ھاوڵاتی ئاسایی نەگۆڕی بۆ باشتر.", // citizen",
+                            onPressedBritish: () => speakcitizens1("en-GB"),
+                            onPressedAmerican: () => speakcitizens1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's Italian by birth but is now an Australian citizen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە بنەچە ئیتالییە بەڵام ئێستا ھاوڵاتی ئوسترالیایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcitizens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcitizens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's Italian by birth but is now an Australian citizen.",
+                            kurdishText:
+                                "بە بنەچە ئیتالییە بەڵام ئێستا ھاوڵاتی ئوسترالیایە.",
+                            onPressedBritish: () => speakcitizens2("en-GB"),
+                            onPressedAmerican: () => speakcitizens2("en-US"),
                           ),
                           // add_sentence
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە لە شوێنێکی دیاریکراو دەژی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When you're old, people treat you like a second-class citizen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە بەتەمەن دەبیت، خەڵکی وەک ھاوڵاتی پلە دوو سەیرت دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcitizens3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcitizens3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When you're old, people treat you like a second-class citizen.",
+                            kurdishText:
+                                "کە بەتەمەن دەبیت، خەڵکی وەک ھاوڵاتی پلە دوو سەیرت دەکەن.",
+                            onPressedBritish: () => speakcitizens3("en-GB"),
+                            onPressedAmerican: () => speakcitizens3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our job is to protect the citizens of London and make it a safe city to live in."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەرکمان ئەوەیە کە خەڵکی لەندەن بپارێزین و بیکەین بە شارێکی ئارام بۆ ژیان تێیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcitizens4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcitizens4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our job is to protect the citizens of London and make it a safe city to live in.",
+                            kurdishText:
+                                "ئەرکمان ئەوەیە کە خەڵکی لەندەن بپارێزین و بیکەین بە شارێکی ئارام بۆ ژیان تێیدا.",
+                            onPressedBritish: () => speakcitizens4("en-GB"),
+                            onPressedAmerican: () => speakcitizens4("en-US"),
                           ),
                         ],
                       ),

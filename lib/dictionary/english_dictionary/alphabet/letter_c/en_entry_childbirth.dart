@@ -101,58 +101,20 @@ class EnglishEntrychildbirth extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پڕۆسەی منداڵبوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She dreaded the pain of childbirth."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەترسا لە ئازاری منداڵبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "childbirth", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchildbirths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchildbirths1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She dreaded the pain of childbirth.",
+                            kurdishText:
+                                "دەترسا لە ئازاری منداڵبوون.", // childbirth",
+                            onPressedBritish: () => speakchildbirths1("en-GB"),
+                            onPressedAmerican: () => speakchildbirths1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His wife died in childbirth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنەکەی لەکاتی منداڵبووندا گیانی لەدەستدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchildbirths2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchildbirths2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His wife died in childbirth.",
+                            kurdishText:
+                                "ژنەکەی لەکاتی منداڵبووندا گیانی لەدەستدا.",
+                            onPressedBritish: () => speakchildbirths2("en-GB"),
+                            onPressedAmerican: () => speakchildbirths2("en-US"),
                           ),
                         ],
                       ),

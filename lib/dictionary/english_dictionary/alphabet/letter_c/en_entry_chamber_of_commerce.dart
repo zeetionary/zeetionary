@@ -97,34 +97,15 @@ class EnglishEntrychamberofcommerce extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دامەزراوەی کۆمەڵە بازرگانێک کە پێکەوە کار دەکەن بۆ گەشەپێدانی و بازرگانی و مامەڵە لە ناوچەیەکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Members of the chamber of commerce receive discounts on business services and access to resources."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندامانی ژووری بازرگانی داشکاندنیان بۆ دەکرێت لە خزمەتگوزارییە بازرگانییەکان و دەستگەشتن بە سەرچاوەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chamber of commerce", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchamberofcommerces1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchamberofcommerces1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Members of the chamber of commerce receive discounts on business services and access to resources.",
+                            kurdishText:
+                                "ئەندامانی ژووری بازرگانی داشکاندنیان بۆ دەکرێت لە خزمەتگوزارییە بازرگانییەکان و دەستگەشتن بە سەرچاوەکان.", // chamber of commerce",
+                            onPressedBritish: () =>
+                                speakchamberofcommerces1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchamberofcommerces1("en-US"),
                           ),
                         ],
                       ),

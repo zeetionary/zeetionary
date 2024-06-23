@@ -102,63 +102,25 @@ class EnglishEntrycleanser extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کرێم یان شلەیەک بۆ پاککردنەوەی ڕووخسار, بەتایبەتی مەیکەپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I use cleanser on my face every night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو شەوێک خاوێن‌کەرەوە بەکاردێنم بۆ ڕووخسارم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cleanser", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleansers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleansers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I use cleanser on my face every night.",
+                            kurdishText:
+                                "ھەموو شەوێک خاوێن‌کەرەوە بەکاردێنم بۆ ڕووخسارم.", // cleanser",
+                            onPressedBritish: () => speakcleansers1("en-GB"),
+                            onPressedAmerican: () => speakcleansers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) مادەیەکی کیمیایی کە بۆ پاککەرەوە بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Kitchen cleansers are all more or less the same."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاککەرەوەی چێشتخانە ھەموویان کەم تا زۆر ھەمان شتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleansers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleansers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Kitchen cleansers are all more or less the same.",
+                            kurdishText:
+                                "پاککەرەوەی چێشتخانە ھەموویان کەم تا زۆر ھەمان شتن.",
+                            onPressedBritish: () => speakcleansers2("en-GB"),
+                            onPressedAmerican: () => speakcleansers2("en-US"),
                           ),
                         ],
                       ),

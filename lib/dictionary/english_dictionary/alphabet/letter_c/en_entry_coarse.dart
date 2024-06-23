@@ -110,93 +110,36 @@ class EnglishEntrycoarse extends StatelessWidget {
 کوردی: زبرە، زبر، زوور، ئاژین، درشت، گزم، زیق، گرناڵ، گرنجاوی، گەرووز، نەلووس،	ناشیرین، ناحەز، عەیب، جڵف، ھەرزە، بێ‌ماریفەت، بێ‌ڕەوشت، بێ‌ڕەوشتانە،	توند، توندوتیژ،	ناخۆش
 """),
                           const DefinitionKurdish(text: "١. (ھاوەڵناو) زبر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She looked at the boy's coarse hands and heavy boots."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەیری دەستە زبر و پوتینە گەورەکانی کوڕەکەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coarse", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoarses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoarses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She looked at the boy's coarse hands and heavy boots.",
+                            kurdishText:
+                                "سەیری دەستە زبر و پوتینە گەورەکانی کوڕەکەی کرد.", // coarse",
+                            onPressedBritish: () => speakcoarses1("en-GB"),
+                            onPressedAmerican: () => speakcoarses1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) درووست بوو لە بەشی گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Coarse sand is often used in construction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆڵی زبر زۆرجار لە بیناسازیدا بەکاردێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoarses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoarses2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Coarse sand is often used in construction.",
+                            kurdishText:
+                                "خۆڵی زبر زۆرجار لە بیناسازیدا بەکاردێت.",
+                            onPressedBritish: () => speakcoarses2("en-GB"),
+                            onPressedAmerican: () => speakcoarses2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) زمانی قسەکردنی بێ‌شەرمانە، بەتایبەتی پەیوەندیدار بە سێکس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The teacher reminded the students to avoid using coarse language."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستاکە بەبیری خوێندکارانی ھێناوە کە لە زمانی زبر بەدووربن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoarses3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoarses3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The teacher reminded the students to avoid using coarse language.",
+                            kurdishText:
+                                "مامۆستاکە بەبیری خوێندکارانی ھێناوە کە لە زمانی زبر بەدووربن.",
+                            onPressedBritish: () => speakcoarses3("en-GB"),
+                            onPressedAmerican: () => speakcoarses3("en-US"),
                           ),
                         ],
                       ),

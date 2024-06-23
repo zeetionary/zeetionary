@@ -232,31 +232,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گەردوون، بەتایبەتی کە وەک سیستەمێکی ڕێکخراو سەیر دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The brightest objects in the cosmos are pulsars."),
-                    ExampleSentenceKurdish(
-                        text: "درەوشاوەترین تەنەکانی گەردوون پرتەئەستێرەکانن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosmos", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcosmoss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcosmoss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The brightest objects in the cosmos are pulsars.",
+            kurdishText:
+                "درەوشاوەترین تەنەکانی گەردوون پرتەئەستێرەکانن.", // cosmos", please follow LX instructions
+            onPressedBritish: () => speakcosmoss1("en-GB"),
+            onPressedAmerican: () => speakcosmoss1("en-US"),
           ),
         ],
       ),

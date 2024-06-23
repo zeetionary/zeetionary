@@ -106,64 +106,26 @@ class EnglishEntrycontemptofcourt extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تاوانی شکاندنی بڕیاری دادگا؛ بێ‌ڕێزی بە دادگا یان دادوەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Any person who disregards this order will be in contempt of court."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێک کە حساب بۆ ئەم بڕیارە ناکات سووکایەتی بە دادگا کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contempt of court", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemptofcourts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemptofcourts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Any person who disregards this order will be in contempt of court.",
+                            kurdishText:
+                                "کەسێک کە حساب بۆ ئەم بڕیارە ناکات سووکایەتی بە دادگا کردووە.", // contempt of court",
+                            onPressedBritish: () =>
+                                speakcontemptofcourts1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemptofcourts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was charged with contempt of court after shouting at a witness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاوانبارکرا بە بێ‌ڕێزی بە دادگا لە دوای ھاوارکردن بەسەر شایەتحاڵێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemptofcourts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemptofcourts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was charged with contempt of court after shouting at a witness.",
+                            kurdishText:
+                                "تاوانبارکرا بە بێ‌ڕێزی بە دادگا لە دوای ھاوارکردن بەسەر شایەتحاڵێکدا.",
+                            onPressedBritish: () =>
+                                speakcontemptofcourts2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemptofcourts2("en-US"),
                           ),
                         ],
                       ),

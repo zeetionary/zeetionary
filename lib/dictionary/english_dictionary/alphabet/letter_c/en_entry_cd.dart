@@ -186,32 +186,13 @@ class EnglishEntrycd extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پەپکێکی بچووک کە لەسەری دەنگ و زانیاری تۆمار دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His albums are available on CD and online."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەلبومەکانی لەسەر سی‌دی و بە ئۆنلاین بەردەستن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "CD", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakCDs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakCDs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His albums are available on CD and online.",
+                            kurdishText:
+                                "ئەلبومەکانی لەسەر سی‌دی و بە ئۆنلاین بەردەستن.", // CD",
+                            onPressedBritish: () => speakCDs1("en-GB"),
+                            onPressedAmerican: () => speakCDs1("en-US"),
                           ),
                         ],
                       ),

@@ -193,32 +193,13 @@ class EnglishEntrycadet extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) گەنجێک کە ڕاھێنان دەکات بۆ چوونە ناو پۆلیس یان سوپاوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The military academy trains up to 2 000 officer cadets each year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەکادیمیا سەربازییەکە ھەموو ساڵێک تا ٢٠٠٠ تازەکار ڕاھێنان پێ‌دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cadet", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcadets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcadets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The military academy trains up to 2 000 officer cadets each year.",
+                            kurdishText:
+                                "ئەکادیمیا سەربازییەکە ھەموو ساڵێک تا ٢٠٠٠ تازەکار ڕاھێنان پێ‌دەکات.", // cadet
+                            onPressedBritish: () => speakcadets1("en-GB"),
+                            onPressedAmerican: () => speakcadets1("en-US"),
                           ),
                         ],
                       ),

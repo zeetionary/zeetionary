@@ -194,66 +194,26 @@ class EnglishEntrycalligraphy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دەست‌وخەتی نووسینی جوان کە بە پێنووس و فڵچەی تایبەت دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's some wonderful calligraphy in these old manuscripts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک نووسینی خەتاتی لەم بەڵگەنامە کۆنانە ھەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calligraphy", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcalligraphys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcalligraphys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's some wonderful calligraphy in these old manuscripts.",
+                            kurdishText:
+                                "ھەندێک نووسینی خەتاتی لەم بەڵگەنامە کۆنانە ھەن.", // calligraphy",
+                            onPressedBritish: () => speakcalligraphys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcalligraphys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ھونەری خۆشنووسی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As a beginner, you can watch professionals demonstrating calligraphy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک سەرەتاییەک، دەتوانیت سەیری کەسانی شارەزا بکەیت کە ھونەری خۆشنووسی نمایش دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcalligraphys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcalligraphys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As a beginner, you can watch professionals demonstrating calligraphy.",
+                            kurdishText:
+                                "وەک سەرەتاییەک، دەتوانیت سەیری کەسانی شارەزا بکەیت کە ھونەری خۆشنووسی نمایش دەکەن.",
+                            onPressedBritish: () => speakcalligraphys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcalligraphys2("en-US"),
                           ),
                         ],
                       ),

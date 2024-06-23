@@ -188,30 +188,11 @@ class EnglishEntrycashmere extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پارچە یان کوتاڵی کەشمیر/کشمیر؛ کوتاڵێکی نەرم و باشە کە لە مووی بزن درووست دەکرێت و جلی گران‌بەھای لێ درووست دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The scarf is 70% cashmere."),
-                                    ExampleSentenceKurdish(
-                                        text: "لەچکەکە ٧٠٪ کشمیرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cashmere", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcashmeres1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcashmeres1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The scarf is 70% cashmere.",
+                            kurdishText: "لەچکەکە ٧٠٪ کشمیرە.", // cashmere",
+                            onPressedBritish: () => speakcashmeres1("en-GB"),
+                            onPressedAmerican: () => speakcashmeres1("en-US"),
                           ),
                         ],
                       ),

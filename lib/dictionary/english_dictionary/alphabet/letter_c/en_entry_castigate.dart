@@ -191,60 +191,22 @@ class EnglishEntrycastigate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ڕەخنەگرتن لە کەسێک یان شتێک بە توندی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He castigated himself for being so stupid."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرزەنشتی خۆی کرد بۆ ھێندە گەمژە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "castigate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastigates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastigates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He castigated himself for being so stupid.",
+                            kurdishText:
+                                "سەرزەنشتی خۆی کرد بۆ ھێندە گەمژە بوون.", // castigate",
+                            onPressedBritish: () => speakcastigates1("en-GB"),
+                            onPressedAmerican: () => speakcastigates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The minister castigated schools for falling standards in education."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەزیرەکە سەرزەنشتی قوتابخانەکانی کرد بۆ دابەزینی ستانداردی خوێندن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastigates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastigates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The minister castigated schools for falling standards in education.",
+                            kurdishText:
+                                "وەزیرەکە سەرزەنشتی قوتابخانەکانی کرد بۆ دابەزینی ستانداردی خوێندن.",
+                            onPressedBritish: () => speakcastigates2("en-GB"),
+                            onPressedAmerican: () => speakcastigates2("en-US"),
                           ),
                         ],
                       ),

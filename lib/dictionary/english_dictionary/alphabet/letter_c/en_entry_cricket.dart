@@ -242,61 +242,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) یارییەک کە لەسەر چیمەن دەکرێت لەلایەن دوو تیمی ١١ کەسییەوە. یاریزانەکان خاڵ تۆمار دەکەن بە لێدان لە تۆپێک بە دەسکێک و دواتر ڕاکردن بە دەوری دوو داری ستوونیدا سووڕدەخۆنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This game marks his comeback to the international cricket scene."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم یارییە گەڕانەوەیەتی بۆ گۆڕەپانی کریکێتی نێودەوڵەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cricket", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrickets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrickets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This game marks his comeback to the international cricket scene.",
+            kurdishText:
+                "ئەم یارییە گەڕانەوەیەتی بۆ گۆڕەپانی کریکێتی نێودەوڵەتی.", // cricket", please follow LX instructions
+            onPressedBritish: () => speakcrickets1("en-GB"),
+            onPressedAmerican: () => speakcrickets1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) مێروویەکی قاوەیی کە دەنگێکی بەرزی دەردەکات بە شەقەی باڵەکانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The only sound was a cricket chirping."),
-                    ExampleSentenceKurdish(
-                        text: "تەنھا دەنگ زیڕەی سیسرکێک بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrickets2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrickets2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The only sound was a cricket chirping.",
+            kurdishText: "تەنھا دەنگ زیڕەی سیسرکێک بوو.",
+            onPressedBritish: () => speakcrickets2("en-GB"),
+            onPressedAmerican: () => speakcrickets2("en-US"),
           ),
         ],
       ),

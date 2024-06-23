@@ -122,132 +122,52 @@ class EnglishEntryconfederate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە یارمەتی کەسێک دەدات، بەتایبەتی لە کردنی شتێکی نایاساییدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Rokovssky was his confederate in the assassination plot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆکۆڤسکی ھاودەستی بوو لە پلانی تیرۆرکردنەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "confederate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfederates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfederates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Rokovssky was his confederate in the assassination plot.",
+                            kurdishText:
+                                "ڕۆکۆڤسکی ھاودەستی بوو لە پلانی تیرۆرکردنەکەدا.", // confederate",
+                            onPressedBritish: () => speakconfederates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfederates1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە پشتگیری ویلایەتەکانی باشووری دەکرد لە جەنگی ناوخۆیی ئەمریکادا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Confederate general was revered by many in the South for his leadership."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژەنەراڵە کۆنفیدراسیۆنییەکە لەلایەن زۆرێکەوە لە باشوور ڕێزی دەگیردرا بۆ سەرکردایەتییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfederates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfederates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Confederate general was revered by many in the South for his leadership.",
+                            kurdishText:
+                                "ژەنەراڵە کۆنفیدراسیۆنییەکە لەلایەن زۆرێکەوە لە باشوور ڕێزی دەگیردرا بۆ سەرکردایەتییەکەی.",
+                            onPressedBritish: () => speakconfederates2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfederates2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) پەیوەندیدار بە کۆنفیدراسی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The confederate states collaborated on a trade agreement to benefit all members."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتە ھاوپەیمانەکان پێکەوە کاریان کرد لەسەر ڕێککەوتنی بازرگانی بۆ سوودمەندی ھەموو لایەنەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfederates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfederates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The confederate states collaborated on a trade agreement to benefit all members.",
+                            kurdishText:
+                                "وڵاتە ھاوپەیمانەکان پێکەوە کاریان کرد لەسەر ڕێککەوتنی بازرگانی بۆ سوودمەندی ھەموو لایەنەکان.",
+                            onPressedBritish: () => speakconfederates3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfederates3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) پەیوەندیدار بە ١١ ویلایەتەکەی باشووری ئەمریکا لە جەنگی ناوخۆییدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Confederate States' economy was heavily reliant on agriculture, particularly cotton."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئابووری ویلایەتەکانی کۆنفیدراسیۆن بە ئاستێکی زۆر پشتبەستوو بوو بە کشتوکاڵ، بەتایبەتی لۆکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconfederates4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconfederates4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Confederate States' economy was heavily reliant on agriculture, particularly cotton.",
+                            kurdishText:
+                                "ئابووری ویلایەتەکانی کۆنفیدراسیۆن بە ئاستێکی زۆر پشتبەستوو بوو بە کشتوکاڵ، بەتایبەتی لۆکە.",
+                            onPressedBritish: () => speakconfederates4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconfederates4("en-US"),
                           ),
                         ],
                       ),

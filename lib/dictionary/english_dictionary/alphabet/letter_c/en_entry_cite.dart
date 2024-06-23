@@ -145,207 +145,74 @@ class EnglishEntrycite extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) باسکردنی شتێک وەک ھۆکار یان نموونە، یان بۆ پشتگیری ئەوەی کە دەیڵێیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Citing unnamed sources, the newspaper reports that the two companies are nearing a deal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئاماژە بە سەرچاوەی ناونەھێنراو، ڕۆژنامەکە بڵاویکردووەتەوە کە دوو کۆمپانیاکە لە ڕێککەوتن نزیکدەبنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cite", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcites1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcites1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Citing unnamed sources, the newspaper reports that the two companies are nearing a deal.",
+                            kurdishText:
+                                "بە ئاماژە بە سەرچاوەی ناونەھێنراو، ڕۆژنامەکە بڵاویکردووەتەوە کە دوو کۆمپانیاکە لە ڕێککەوتن نزیکدەبنەوە.", // cite",
+                            onPressedBritish: () => speakcites1("en-GB"),
+                            onPressedAmerican: () => speakcites1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is no reason to doubt the information in the articles cited above."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ ھۆکارێک نییە گومان لەو زانیارییانە بکرێت کە لە وتارەکەی سەرەوە باسکراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcites2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcites2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is no reason to doubt the information in the articles cited above.",
+                            kurdishText:
+                                "ھیچ ھۆکارێک نییە گومان لەو زانیارییانە بکرێت کە لە وتارەکەی سەرەوە باسکراون.",
+                            onPressedBritish: () => speakcites2("en-GB"),
+                            onPressedAmerican: () => speakcites2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He cited personal reasons for his decision to resign."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاماژەی بۆ ھۆکاری کەسی کرد بۆ ھۆکاری دەستلەکارکێشانەوەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcites3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcites3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He cited personal reasons for his decision to resign.",
+                            kurdishText:
+                                "ئاماژەی بۆ ھۆکاری کەسی کرد بۆ ھۆکاری دەستلەکارکێشانەوەی.",
+                            onPressedBritish: () => speakcites3("en-GB"),
+                            onPressedAmerican: () => speakcites3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) وتن یان نووسین ئەوەی لە کتێبێک نووسراوە یان کەسێک وتوویەتی وەک خۆی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He cites no primary sources for his claims."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ سەرچاوەیەکی بنچینەیی نادات بۆ بانگەشەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcites4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcites4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He cites no primary sources for his claims.",
+                            kurdishText:
+                                "ھیچ سەرچاوەیەکی بنچینەیی نادات بۆ بانگەشەکانی.",
+                            onPressedBritish: () => speakcites4("en-GB"),
+                            onPressedAmerican: () => speakcites4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She cited a passage from the President’s speech."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێک لە وتارەکەی سەرۆک ئاماژە پێدەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcites5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcites5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She cited a passage from the President’s speech.",
+                            kurdishText:
+                                "بەشێک لە وتارەکەی سەرۆک ئاماژە پێدەکات.",
+                            onPressedBritish: () => speakcites5("en-GB"),
+                            onPressedAmerican: () => speakcites5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) فەرمانکردن بە کەسێک بۆ ئەوەی لە دادگا ئامادەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was cited in the divorce proceedings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پڕۆسەی جیابوونەوەکە بانگی دادگا کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcites6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcites6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was cited in the divorce proceedings.",
+                            kurdishText:
+                                "لە پڕۆسەی جیابوونەوەکە بانگی دادگا کرا.",
+                            onPressedBritish: () => speakcites6("en-GB"),
+                            onPressedAmerican: () => speakcites6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) ناوھێنانی کەسێک بەشێوەیەکی فەرمی یان گشتی لەبەرئەوەی شایەنی ستایشن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was cited for bravery."),
-                                    ExampleSentenceKurdish(
-                                        text: "بۆ بوێری ستایشکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcites7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcites7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was cited for bravery.",
+                            kurdishText: "بۆ بوێری ستایشکرا.",
+                            onPressedBritish: () => speakcites7("en-GB"),
+                            onPressedAmerican: () => speakcites7("en-US"),
                           ),
                         ],
                       ),

@@ -93,30 +93,11 @@ class EnglishEntrycheesedoff extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) توڕە یان بێزار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He’s cheesed off with his job."),
-                                    ExampleSentenceKurdish(
-                                        text: "بێزارە لە کارەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cheesed off", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcheesedoffs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcheesedoffs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He’s cheesed off with his job.",
+                            kurdishText: "بێزارە لە کارەکەی.", // cheesed off",
+                            onPressedBritish: () => speakcheesedoffs1("en-GB"),
+                            onPressedAmerican: () => speakcheesedoffs1("en-US"),
                           ),
                         ],
                       ),

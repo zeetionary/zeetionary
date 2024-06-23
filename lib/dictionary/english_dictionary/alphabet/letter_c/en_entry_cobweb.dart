@@ -94,32 +94,13 @@ class EnglishEntrycobweb extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) داوی جاڵجاڵۆکە کە لە شێوەی تۆڕێکدایە بۆ گرتنی نێچیرەکەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Thick cobwebs hung in the dusty corners."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەڤنکی ئەستوور لە سووچە تۆزاوییەکاندا بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cobweb", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcobwebs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcobwebs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Thick cobwebs hung in the dusty corners.",
+                            kurdishText:
+                                "تەڤنکی ئەستوور لە سووچە تۆزاوییەکاندا بوون.", // cobweb",
+                            onPressedBritish: () => speakcobwebs1("en-GB"),
+                            onPressedAmerican: () => speakcobwebs1("en-US"),
                           ),
                         ],
                       ),

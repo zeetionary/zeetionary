@@ -103,63 +103,25 @@ class EnglishEntrycivility extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ھەڵسوکەوتی جوان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Staff members are trained to treat customers with civility at all times."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندامانی ستافەکە ڕادەھێنرێن کە لە ھەموو کاتێکدا بەڕێزەوە مامەڵە لەگەڵ کڕیاران بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "civility", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivilitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivilitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Staff members are trained to treat customers with civility at all times.",
+                            kurdishText:
+                                "ئەندامانی ستافەکە ڕادەھێنرێن کە لە ھەموو کاتێکدا بەڕێزەوە مامەڵە لەگەڵ کڕیاران بکەن.", // civility",
+                            onPressedBritish: () => speakcivilitys1("en-GB"),
+                            onPressedAmerican: () => speakcivilitys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو لێدوانانەی کە تەنھا بۆ پیشاندانی ڕێزن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They didn’t waste time on civilities and got down to business."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ کاتی بە پیشاندانی ڕێز بەفیڕۆ نەدا و دەستیان بە کار کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivilitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivilitys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They didn’t waste time on civilities and got down to business.",
+                            kurdishText:
+                                "ھیچ کاتی بە پیشاندانی ڕێز بەفیڕۆ نەدا و دەستیان بە کار کرد.",
+                            onPressedBritish: () => speakcivilitys2("en-GB"),
+                            onPressedAmerican: () => speakcivilitys2("en-US"),
                           ),
                         ],
                       ),

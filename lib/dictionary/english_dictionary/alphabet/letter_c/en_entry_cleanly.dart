@@ -112,92 +112,35 @@ class EnglishEntrycleanly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بە ئاسانی و نەرمی بە یەک جووڵە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The boat moved cleanly through the water."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەلەمەکە بە نەرمی بە دەریاکەدا ڕۆشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cleanly", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleanlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleanlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The boat moved cleanly through the water.",
+                            kurdishText:
+                                "بەلەمەکە بە نەرمی بە دەریاکەدا ڕۆشت.", // cleanly",
+                            onPressedBritish: () => speakcleanlys1("en-GB"),
+                            onPressedAmerican: () => speakcleanlys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵکار) بە پاکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Natural gas is considered a fuel that burns cleanly compared to coal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گازی سرووشتی بە سووتەمەنییەک دادەنرێت کە بە پاکی دەسووتێت بە بەراورد بە خەڵووز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleanlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleanlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Natural gas is considered a fuel that burns cleanly compared to coal.",
+                            kurdishText:
+                                "گازی سرووشتی بە سووتەمەنییەک دادەنرێت کە بە پاکی دەسووتێت بە بەراورد بە خەڵووز.",
+                            onPressedBritish: () => speakcleanlys2("en-GB"),
+                            onPressedAmerican: () => speakcleanlys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵکار) بە دادپەرواری و ڕاستگۆیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The election campaign was not conducted very cleanly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمپینی ھەڵبژاردنەکە بە دادپەروەرییەوە ئەنجام نەدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcleanlys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcleanlys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The election campaign was not conducted very cleanly.",
+                            kurdishText:
+                                "کەمپینی ھەڵبژاردنەکە بە دادپەروەرییەوە ئەنجام نەدرا.",
+                            onPressedBritish: () => speakcleanlys3("en-GB"),
+                            onPressedAmerican: () => speakcleanlys3("en-US"),
                           ),
                         ],
                       ),

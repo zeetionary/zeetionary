@@ -192,60 +192,21 @@ class EnglishEntrycaller extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە پەیوەندییەکی تەلەفۆنی ئەنجام دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The caller hung up."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەلەفۆن‌کەرەکە دایخستەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "caller", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcallers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcallers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The caller hung up.",
+                            kurdishText: "تەلەفۆن‌کەرەکە دایخستەوە.", // caller
+                            onPressedBritish: () => speakcallers1("en-GB"),
+                            onPressedAmerican: () => speakcallers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە دەچێتە خانوویەک یان بینایەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You had a caller this morning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم بەیانییە سەردان‌کەرێکی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcallers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcallers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You had a caller this morning.",
+                            kurdishText: "ئەم بەیانییە سەردان‌کەرێکی ھەبوو.",
+                            onPressedBritish: () => speakcallers2("en-GB"),
+                            onPressedAmerican: () => speakcallers2("en-US"),
                           ),
                         ],
                       ),

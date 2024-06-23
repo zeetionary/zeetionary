@@ -103,59 +103,20 @@ class EnglishEntrycinnamon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەشی ناوەوەی توێکڵی دارێکی باشووری ڕۆژھەڵاتی ئاسیا بۆ تامی خواردن بەکاردێت، بەتایبەتی خواردنی شیرین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sprinkle the baked apples with a little sugar and cinnamon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمێک شەکر و دارچینی بپرژێنە بەسەر سێوە برژێنراوەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cinnamon", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcinnamons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcinnamons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sprinkle the baked apples with a little sugar and cinnamon.",
+                            kurdishText:
+                                "کەمێک شەکر و دارچینی بپرژێنە بەسەر سێوە برژێنراوەکەدا.", // cinnamon",
+                            onPressedBritish: () => speakcinnamons1("en-GB"),
+                            onPressedAmerican: () => speakcinnamons1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I put in way too much cinnamon."),
-                                    ExampleSentenceKurdish(
-                                        text: "دارچینی زۆرم تێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcinnamons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcinnamons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I put in way too much cinnamon.",
+                            kurdishText: "دارچینی زۆرم تێکرد.",
+                            onPressedBritish: () => speakcinnamons2("en-GB"),
+                            onPressedAmerican: () => speakcinnamons2("en-US"),
                           ),
                         ],
                       ),

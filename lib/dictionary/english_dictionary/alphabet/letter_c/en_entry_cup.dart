@@ -340,416 +340,133 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) پیاڵە بۆ خواردنەوەی چا، قاوە، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He filled the cup with water."),
-                    ExampleSentenceKurdish(text: "پیاڵەکەی پڕکرد لە ئاو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cup", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He filled the cup with water.",
+            kurdishText:
+                "پیاڵەکەی پڕکرد لە ئاو.", // cup", please follow LX instructions
+            onPressedBritish: () => speakcups1("en-GB"),
+            onPressedAmerican: () => speakcups1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Customers don't like drinking out of plastic cups."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "موشتەرییەکان حەزیان لە خواردنەوە نییە لە ناو پەرداخی پلاستیکیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Customers don't like drinking out of plastic cups.",
+            kurdishText:
+                "موشتەرییەکان حەزیان لە خواردنەوە نییە لە ناو پەرداخی پلاستیکیدا.",
+            onPressedBritish: () => speakcups2("en-GB"),
+            onPressedAmerican: () => speakcups2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was so thirsty that she drained her cup."),
-                    ExampleSentenceKurdish(
-                        text: "ھێندە تینوو بوو کە پەرداخەکەی بەتاڵ کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was so thirsty that she drained her cup.",
+            kurdishText: "ھێندە تینوو بوو کە پەرداخەکەی بەتاڵ کرد.",
+            onPressedBritish: () => speakcups3("en-GB"),
+            onPressedAmerican: () => speakcups3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەو بڕەی لە ناوی پیاڵەیەک یان پەرداخێکدایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She drank the whole cup."),
-                    ExampleSentenceKurdish(text: "تەواوی پیاڵەکەی خواردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She drank the whole cup.",
+            kurdishText: "تەواوی پیاڵەکەی خواردەوە.",
+            onPressedBritish: () => speakcups4("en-GB"),
+            onPressedAmerican: () => speakcups4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Would you like a cup of tea?"),
-                    ExampleSentenceKurdish(text: "حەز بە پیاڵەیەک چا دەکەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Would you like a cup of tea?",
+            kurdishText: "حەز بە پیاڵەیەک چا دەکەیت؟",
+            onPressedBritish: () => speakcups5("en-GB"),
+            onPressedAmerican: () => speakcups5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I drink about ten cups of coffee a day."),
-                    ExampleSentenceKurdish(
-                        text: "ڕۆژانە نزیکەی ١٠ پیاڵە قاوە دەخۆمەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I drink about ten cups of coffee a day.",
+            kurdishText: "ڕۆژانە نزیکەی ١٠ پیاڵە قاوە دەخۆمەوە.",
+            onPressedBritish: () => speakcups6("en-GB"),
+            onPressedAmerican: () => speakcups6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) جامی پاڵەوانێتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Who won the cup?"),
-                    ExampleSentenceKurdish(text: "کێ جامەکەی بردەوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Who won the cup?",
+            kurdishText: "کێ جامەکەی بردەوە؟",
+            onPressedBritish: () => speakcups7("en-GB"),
+            onPressedAmerican: () => speakcups7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He lifted the cup (= won) for the fifth time this year."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ پێنجەم جار لەم ساڵدا جامەکەی بەرزکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He lifted the cup (= won) for the fifth time this year.",
+            kurdishText: "بۆ پێنجەم جار لەم ساڵدا جامەکەی بەرزکردەوە.",
+            onPressedBritish: () => speakcups8("en-GB"),
+            onPressedAmerican: () => speakcups8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) پاڵەوانێتییەکی وەرزشی کە تێیدا جامێک وەک خەڵات دەدرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They lost to Portugal in the World Cup quarter finals."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە چارەکی کۆتاییدا لە جامی جیھانی دۆڕاندیان بەرامبەر پرتوگال."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They lost to Portugal in the World Cup quarter finals.",
+            kurdishText:
+                "لە چارەکی کۆتاییدا لە جامی جیھانی دۆڕاندیان بەرامبەر پرتوگال.",
+            onPressedBritish: () => speakcups9("en-GB"),
+            onPressedAmerican: () => speakcups9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The team are ready for next week's World Cup clash with Italy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیمەکە ئامادەیە بۆ ڕووبەڕووبوونەوەی ھەفتەی داھاتووی جامی جیھانی بەرامبەر ئیتالیا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The team are ready for next week's World Cup clash with Italy.",
+            kurdishText:
+                "تیمەکە ئامادەیە بۆ ڕووبەڕووبوونەوەی ھەفتەی داھاتووی جامی جیھانی بەرامبەر ئیتالیا.",
+            onPressedBritish: () => speakcups10("en-GB"),
+            onPressedAmerican: () => speakcups10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ناو) یەکەیەکی پێوانەکردن لە خواردن درووستکردندا کە کە بەشێوەیەکی سەرەکی لە ئەمریکا بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Add 2 cups (of) flour and half a cup (of) sugar."),
-                    ExampleSentenceKurdish(
-                        text: "دوو کووپ ئارد و نیو کووپ شەکر زیاد بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Add 2 cups (of) flour and half a cup (of) sugar.",
+            kurdishText: "دوو کووپ ئارد و نیو کووپ شەکر زیاد بکە.",
+            onPressedBritish: () => speakcups1("en-GB"),
+            onPressedAmerican: () => speakcups1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ناو) شتێک کە شێوەی کوپێکی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Evenly fill the cups with the batter."),
-                    ExampleSentenceKurdish(
-                        text: "بە یەکسانی کوپەکان پڕ بکە لە ھەویر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Evenly fill the cups with the batter.",
+            kurdishText: "بە یەکسانی کوپەکان پڕ بکە لە ھەویر.",
+            onPressedBritish: () => speakcups11("en-GB"),
+            onPressedAmerican: () => speakcups11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (ناو) یەکێک لەو بەشانەی ستیان کە مەمک دادەپۆشێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "\"What size bra do you wear?\" \"I wear a C cup.\""),
-                    ExampleSentenceKurdish(
-                        text:
-                            "'چی قەبارەیەکی ستیان لەبەر دەکەیت؟' 'قەبارەی مەمکبەندی C دەبەستم.'"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "\"What size bra do you wear?\" \"I wear a C cup.\"",
+            kurdishText:
+                "'چی قەبارەیەکی ستیان لەبەر دەکەیت؟' 'قەبارەی مەمکبەندی C دەبەستم.'",
+            onPressedBritish: () => speakcups12("en-GB"),
+            onPressedAmerican: () => speakcups12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) دانانی دەست لە شێوەی دەفرێکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She held the bird gently in cupped hands."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باڵندەکەی بەھێمنی گرت لە شێوەی دەستی وەک دەفرێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She held the bird gently in cupped hands.",
+            kurdishText: "باڵندەکەی بەھێمنی گرت لە شێوەی دەستی وەک دەفرێک.",
+            onPressedBritish: () => speakcups13("en-GB"),
+            onPressedAmerican: () => speakcups13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٩. (کردار) گرتنی شتێک کە دەستت لە شێوەی دەفرێکدایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He cupped her face in his hands and kissed her."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووخساری لە دەستیدا گرت و ماچی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcups14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcups14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He cupped her face in his hands and kissed her.",
+            kurdishText: "ڕووخساری لە دەستیدا گرت و ماچی کرد.",
+            onPressedBritish: () => speakcups14("en-GB"),
+            onPressedAmerican: () => speakcups14("en-US"),
           ),
         ],
       ),

@@ -195,60 +195,22 @@ class EnglishEntrycelebrate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ئەنجامدانی شتی تایبەت بۆ پیشاندانی ئەوەی ڕۆژێک یان بۆنەیەک گرنگە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jake's passed his exams. We're going out to celebrate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەیک تاقیکردنەوەکەی تێپەڕاند. دەچینە دەرەوە بۆ جەژن‌گێڕان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "celebrate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelebrates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelebrates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Jake's passed his exams. We're going out to celebrate.",
+                            kurdishText:
+                                "جەیک تاقیکردنەوەکەی تێپەڕاند. دەچینە دەرەوە بۆ جەژن‌گێڕان.", // celebrate",
+                            onPressedBritish: () => speakcelebrates1("en-GB"),
+                            onPressedAmerican: () => speakcelebrates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We celebrated our 25th wedding anniversary in Florence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "٢٥ھەمین ساڵیادی ھاوسەرگیرییەکەمان لە فلۆرنس پیرۆزکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelebrates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelebrates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We celebrated our 25th wedding anniversary in Florence.",
+                            kurdishText:
+                                "٢٥ھەمین ساڵیادی ھاوسەرگیرییەکەمان لە فلۆرنس پیرۆزکرد.",
+                            onPressedBritish: () => speakcelebrates2("en-GB"),
+                            onPressedAmerican: () => speakcelebrates2("en-US"),
                           ),
                           Column(
                             children: [
@@ -350,32 +312,13 @@ class EnglishEntrycelebrate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) پەسندانی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The competition has millions of fans and national winners are celebrated as heroes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشبڕکێیەکە ملیۆنان ھەواداری لە جیھانەوە ھەیە و براوە نیشتیمانییەکان وەک پاڵەوان ناوزەند دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelebrates5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelebrates5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The competition has millions of fans and national winners are celebrated as heroes.",
+                            kurdishText:
+                                "پێشبڕکێیەکە ملیۆنان ھەواداری لە جیھانەوە ھەیە و براوە نیشتیمانییەکان وەک پاڵەوان ناوزەند دەکرێن.",
+                            onPressedBritish: () => speakcelebrates5("en-GB"),
+                            onPressedAmerican: () => speakcelebrates5("en-US"),
                           ),
                         ],
                       ),

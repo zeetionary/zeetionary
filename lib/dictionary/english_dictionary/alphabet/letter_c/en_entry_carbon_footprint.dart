@@ -189,34 +189,15 @@ class EnglishEntrycarbonfootprint extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەو ڕێژە لە دوانۆکسیدی کاربۆن کە کەسێک یان کۆمپانیایەک دەیکاتە بەرگەھەواوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Flying is the biggest contribution to my carbon footprint."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕین گەورەترین ھۆکاری جێ‌پەنجەی کاربۆنی منە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carbon footprint", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarbonfootprints1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarbonfootprints1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Flying is the biggest contribution to my carbon footprint.",
+                            kurdishText:
+                                "فڕین گەورەترین ھۆکاری جێ‌پەنجەی کاربۆنی منە.", // carbon footprint",
+                            onPressedBritish: () =>
+                                speakcarbonfootprints1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarbonfootprints1("en-US"),
                           ),
                         ],
                       ),

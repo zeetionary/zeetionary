@@ -95,32 +95,13 @@ class EnglishEntryclover extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕووەکێکی دەشتەکی بچووک کە بەزۆری سێ گەڵای ھەیە لەسەر ھەر قەدێک و گوڵی مۆر، پەمەیی، و سپی کە لە شێوەی تۆپدان لە شێوەیەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bees are attracted to the flowers of the clover plant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێشەنگ حەزیان بە گوڵی ڕووەکی سێپەڕەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clover", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclovers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclovers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bees are attracted to the flowers of the clover plant.",
+                            kurdishText:
+                                "مێشەنگ حەزیان بە گوڵی ڕووەکی سێپەڕەیە.", // clover",
+                            onPressedBritish: () => speakclovers1("en-GB"),
+                            onPressedAmerican: () => speakclovers1("en-US"),
                           ),
                         ],
                       ),

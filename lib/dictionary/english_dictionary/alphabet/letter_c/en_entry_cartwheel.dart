@@ -191,32 +191,13 @@ class EnglishEntrycartwheel extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جوڵەیەکی جەستەیی خێرا کە تێیدا دەست دەخەیتە سەر زەوی و قاچەکانت بە نۆرە بەسەر سەرتدا دەبەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Kids in the park were attempting cartwheels on the soft grass."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵان لە پارکەکە ھەوڵی مەحەلەقیان دەدا لەسەر گژوگیا نەرمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cartwheel", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcartwheels1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcartwheels1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Kids in the park were attempting cartwheels on the soft grass.",
+                            kurdishText:
+                                "منداڵان لە پارکەکە ھەوڵی مەحەلەقیان دەدا لەسەر گژوگیا نەرمەکە.", // cartwheel",
+                            onPressedBritish: () => speakcartwheels1("en-GB"),
+                            onPressedAmerican: () => speakcartwheels1("en-US"),
                           ),
                         ],
                       ),

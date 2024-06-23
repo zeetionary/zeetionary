@@ -129,146 +129,51 @@ class EnglishEntrycontinual extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) دووبارەبووەوە بۆ چەندین جار کە چی دیکە بێزارکەرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He seemed to need continual reassurance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وادیاربوو کە پێویستی بە دڵنیاییکردنەوەی بەردەوام ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "continual", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He seemed to need continual reassurance.",
+                            kurdishText:
+                                "وادیاربوو کە پێویستی بە دڵنیاییکردنەوەی بەردەوام ھەبێت.", // continual",
+                            onPressedBritish: () => speakcontinuals1("en-GB"),
+                            onPressedAmerican: () => speakcontinuals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The drivers had continual problems with mud on the road."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆفێرەکان کێشەی بەردەوامیان ھەبوو لەگەڵ قوڕ لەسەر ڕێگاوبانەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The drivers had continual problems with mud on the road.",
+                            kurdishText:
+                                "شۆفێرەکان کێشەی بەردەوامیان ھەبوو لەگەڵ قوڕ لەسەر ڕێگاوبانەکان.",
+                            onPressedBritish: () => speakcontinuals2("en-GB"),
+                            onPressedAmerican: () => speakcontinuals2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were continual arguments because he felt he was being treated unfairly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مشتومڕی بەردەوام ھەبوو چونکە وای ھەستدەکرد کە بە نادادی مامەڵەی لەگەڵ دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were continual arguments because he felt he was being treated unfairly.",
+                            kurdishText:
+                                "مشتومڕی بەردەوام ھەبوو چونکە وای ھەستدەکرد کە بە نادادی مامەڵەی لەگەڵ دەکرێت.",
+                            onPressedBritish: () => speakcontinuals3("en-GB"),
+                            onPressedAmerican: () => speakcontinuals3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) بەردوام بەبێ پچڕان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We lived in continual fear of being discovered."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ترسی بەردەوامدا دەژیاین کە بدۆزرێینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuals4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuals4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We lived in continual fear of being discovered.",
+                            kurdishText:
+                                "لە ترسی بەردەوامدا دەژیاین کە بدۆزرێینەوە.",
+                            onPressedBritish: () => speakcontinuals4("en-GB"),
+                            onPressedAmerican: () => speakcontinuals4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her daughter was a continual source of delight to her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کچەکەی سەرچاوەی بەردەوامی خۆشبەختی بوو بۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontinuals5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontinuals5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her daughter was a continual source of delight to her.",
+                            kurdishText:
+                                "کچەکەی سەرچاوەی بەردەوامی خۆشبەختی بوو بۆی.",
+                            onPressedBritish: () => speakcontinuals5("en-GB"),
+                            onPressedAmerican: () => speakcontinuals5("en-US"),
                           ),
                         ],
                       ),

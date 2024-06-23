@@ -191,62 +191,24 @@ class EnglishEntrycarving extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک یان شێوەیەک کە بە ھۆڵکۆڵین یان داتاشین درووست دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is some fine carving on the facade."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک ھەڵکۆڵینی جوان لەسەر ڕووی پێشەوەی بیناکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carving", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarvings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarvings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is some fine carving on the facade.",
+                            kurdishText:
+                                "ھەندێک ھەڵکۆڵینی جوان لەسەر ڕووی پێشەوەی بیناکەیە.", // carving",
+                            onPressedBritish: () => speakcarvings1("en-GB"),
+                            onPressedAmerican: () => speakcarvings1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ھونەری داتاشین یان ھەڵکۆڵین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sculptor devoted years to mastering the art of making objects through stone carving."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیکەرتاشەکە چەندین ساڵی بەسەربرد بە فێربوونی ھونەری درووستکردنی شت لە ڕێگەی بەردتاشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarvings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarvings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sculptor devoted years to mastering the art of making objects through stone carving.",
+                            kurdishText:
+                                "پەیکەرتاشەکە چەندین ساڵی بەسەربرد بە فێربوونی ھونەری درووستکردنی شت لە ڕێگەی بەردتاشی.",
+                            onPressedBritish: () => speakcarvings2("en-GB"),
+                            onPressedAmerican: () => speakcarvings2("en-US"),
                           ),
                         ],
                       ),

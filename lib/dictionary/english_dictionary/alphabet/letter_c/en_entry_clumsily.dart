@@ -121,119 +121,43 @@ class EnglishEntryclumsily extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە بە ئاگاییەوە نییە؛ بەشێوەیەکی ھەڵەشانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He tripped clumsily on the rug and fell flat on his face."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵەشانە لەسەر مافوورەکە کەوت و ڕاست لەسەر دەم کەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clumsily", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumsilys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumsilys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He tripped clumsily on the rug and fell flat on his face.",
+                            kurdishText:
+                                "ھەڵەشانە لەسەر مافوورەکە کەوت و ڕاست لەسەر دەم کەوت.", // clumsily",
+                            onPressedBritish: () => speakclumsilys1("en-GB"),
+                            onPressedAmerican: () => speakclumsilys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She lifted the hem of her skirt and curtsied clumsily."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دامێنی تەنوورەکەی بەرزکردەوە و شپرزانە سڵاوی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumsilys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumsilys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She lifted the hem of her skirt and curtsied clumsily.",
+                            kurdishText:
+                                "دامێنی تەنوورەکەی بەرزکردەوە و شپرزانە سڵاوی کرد.",
+                            onPressedBritish: () => speakclumsilys2("en-GB"),
+                            onPressedAmerican: () => speakclumsilys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە شارەزایی تێدا نییە یان خەڵک بێزار دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The announcement was clumsily handled."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاگەیاندنەکە شپرزانە مامەڵەی لەگەڵ کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumsilys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumsilys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The announcement was clumsily handled.",
+                            kurdishText:
+                                "ڕاگەیاندنەکە شپرزانە مامەڵەی لەگەڵ کرا.",
+                            onPressedBritish: () => speakclumsilys3("en-GB"),
+                            onPressedAmerican: () => speakclumsilys3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She received a clumsily phrased love letter from a boy in her class."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەیەکی خۆشەویستی شپرزانە نووسراوی لە کوڕێکی پۆلەکەیدا پێگەشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclumsilys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclumsilys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She received a clumsily phrased love letter from a boy in her class.",
+                            kurdishText:
+                                "نامەیەکی خۆشەویستی شپرزانە نووسراوی لە کوڕێکی پۆلەکەیدا پێگەشت.",
+                            onPressedBritish: () => speakclumsilys4("en-GB"),
+                            onPressedAmerican: () => speakclumsilys4("en-US"),
                           ),
                         ],
                       ),

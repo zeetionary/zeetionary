@@ -103,62 +103,24 @@ class EnglishEntrycolourful extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ڕەنگاوڕەنگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The male birds are more colourful than the females."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باڵندە نێرەکان ڕەنگینترن لە مێینەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colourful", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolourfuls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolourfuls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The male birds are more colourful than the females.",
+                            kurdishText:
+                                "باڵندە نێرەکان ڕەنگینترن لە مێینەکان.", // colourful",
+                            onPressedBritish: () => speakcolourfuls1("en-GB"),
+                            onPressedAmerican: () => speakcolourfuls1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) سەرنجڕاکێش و ورووژێنەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The town, of course, has a very colourful history/past."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارۆچکەکە بەدڵنیاییەوە ڕابردوویەکی ڕەنگینی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolourfuls2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolourfuls2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The town, of course, has a very colourful history/past.",
+                            kurdishText:
+                                "شارۆچکەکە بەدڵنیاییەوە ڕابردوویەکی ڕەنگینی ھەیە.",
+                            onPressedBritish: () => speakcolourfuls2("en-GB"),
+                            onPressedAmerican: () => speakcolourfuls2("en-US"),
                           ),
                         ],
                       ),

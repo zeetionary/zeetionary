@@ -234,31 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەر گیانلەبەرێک کە جەستەیەکی نەرمی ھەبێت کە دابەش بووبێت بەسەر چەند بەشێکدا و توێکڵێکی دەرەوەی ڕەقی ھەبێت. زۆرینەیان لە ئاودا دەژین."),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crab is a common crustacean found along the shore."),
-                    ExampleSentenceKurdish(
-                        text: "قرژاڵ توێکڵدارێکی باوە کە لە کەنارەکاندا ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crustacean", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrustaceans1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrustaceans1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The crab is a common crustacean found along the shore.",
+            kurdishText:
+                "قرژاڵ توێکڵدارێکی باوە کە لە کەنارەکاندا ھەیە.", // crustacean", please follow LX instructions
+            onPressedBritish: () => speakcrustaceans1("en-GB"),
+            onPressedAmerican: () => speakcrustaceans1("en-US"),
           ),
         ],
       ),

@@ -190,32 +190,13 @@ class EnglishEntrycastration extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کرداری لادانی گونی نێرینەی ئاژەڵێک یان مرۆڤێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Castrations are carried out by a vet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەساندن لەلایەن پزیشکێکی ئاژەڵانەوە ئەنجام دەدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "castration", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcastrations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcastrations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Castrations are carried out by a vet.",
+                            kurdishText:
+                                "خەساندن لەلایەن پزیشکێکی ئاژەڵانەوە ئەنجام دەدرێت.", // castration",
+                            onPressedBritish: () => speakcastrations1("en-GB"),
+                            onPressedAmerican: () => speakcastrations1("en-US"),
                           ),
                         ],
                       ),

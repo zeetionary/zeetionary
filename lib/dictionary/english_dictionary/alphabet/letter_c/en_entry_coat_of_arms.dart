@@ -94,32 +94,13 @@ class EnglishEntrycoatofarms extends StatelessWidget {
 کوردی: نیشانە، درف، دروشم
 """),
                           const DefinitionKurdish(text: "١. (ناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The royal coat of arms is displayed on official documents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دروشمی شاھانەیی لە بەڵگەنامە فەرمییەکان دەدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coat of arms", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoatofarmss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoatofarmss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The royal coat of arms is displayed on official documents.",
+                            kurdishText:
+                                "دروشمی شاھانەیی لە بەڵگەنامە فەرمییەکان دەدرێت.", // coat of arms",
+                            onPressedBritish: () => speakcoatofarmss1("en-GB"),
+                            onPressedAmerican: () => speakcoatofarmss1("en-US"),
                           ),
                         ],
                       ),

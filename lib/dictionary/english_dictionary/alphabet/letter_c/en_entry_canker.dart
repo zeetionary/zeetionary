@@ -199,122 +199,46 @@ class EnglishEntrycanker extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نەخۆشییەک لە ڕووەک و درەختدا کە داری ڕووی دەرەوەی قەد و لقەکەی لەناودەبات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cut out lesions on branches caused by canker."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "برینی سەر لقەکان ببڕەوە کە بە ئافەت درووست بوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canker", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcankers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcankers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cut out lesions on branches caused by canker.",
+                            kurdishText:
+                                "برینی سەر لقەکان ببڕەوە کە بە ئافەت درووست بوونە.", // canker
+                            onPressedBritish: () => speakcankers1("en-GB"),
+                            onPressedAmerican: () => speakcankers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەشێکی زیان پێگەشتووی درەختێک یان ڕووەکێک کە تووشی ئافەت بووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Check trees for cankers."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەیری دارەکان بۆ برین تێیاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcankers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcankers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Check trees for cankers.",
+                            kurdishText: "سەیری دارەکان بۆ برین تێیاندا.",
+                            onPressedBritish: () => speakcankers2("en-GB"),
+                            onPressedAmerican: () => speakcankers2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ناوچەیەکی بەئازاری ناودەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The presence of a canker made it uncomfortable for her to eat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوونی زامێک لە دەمیدا ناڕەحەتی بۆ درووستکرد لە خواردندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcankers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcankers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The presence of a canker made it uncomfortable for her to eat.",
+                            kurdishText:
+                                "بوونی زامێک لە دەمیدا ناڕەحەتی بۆ درووستکرد لە خواردندا.",
+                            onPressedBritish: () => speakcankers3("en-GB"),
+                            onPressedAmerican: () => speakcankers3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) شتێکی خراپ کە لە مێشکی کەسێک، کۆمەڵگایەک، دامەزراوەیەک بڵاودەبێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Poverty is a canker eating away at the foundations of society."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەژاری پەتایەکە کە لە پایەکانی کۆمەڵگا دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcankers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcankers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Poverty is a canker eating away at the foundations of society.",
+                            kurdishText:
+                                "ھەژاری پەتایەکە کە لە پایەکانی کۆمەڵگا دەدات.",
+                            onPressedBritish: () => speakcankers4("en-GB"),
+                            onPressedAmerican: () => speakcankers4("en-US"),
                           ),
                         ],
                       ),

@@ -113,94 +113,37 @@ class EnglishEntryconstructive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) یارمەتیدەر؛ ھەبوونی کاریگەری ئەرێنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His work involved helping hyperactive children to use their energy in a constructive way."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکەی یارمەتیدانی منداڵانی ھاروھاجی لەخۆدەگرت بۆ بەکارھێنانی وزەیان بە شێوەیەکی بەسوود."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constructive", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His work involved helping hyperactive children to use their energy in a constructive way.",
+                            kurdishText:
+                                "کارەکەی یارمەتیدانی منداڵانی ھاروھاجی لەخۆدەگرت بۆ بەکارھێنانی وزەیان بە شێوەیەکی بەسوود.", // constructive",
+                            onPressedBritish: () =>
+                                speakconstructives1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructives1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government is encouraging all parties to play a constructive role in the reform process."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت ھانی ھەموو لایەنەکان دەدات کە ڕۆڵی بنیادنەر بگێڕن لە پڕۆسەی چاکسازیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government is encouraging all parties to play a constructive role in the reform process.",
+                            kurdishText:
+                                "حکومەت ھانی ھەموو لایەنەکان دەدات کە ڕۆڵی بنیادنەر بگێڕن لە پڕۆسەی چاکسازیدا.",
+                            onPressedBritish: () =>
+                                speakconstructives2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructives2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You should always welcome constructive criticism of your work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە دەبێت پێشوازی لە ڕەخنەی بنیادنەری کارەکانت بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstructives3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstructives3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You should always welcome constructive criticism of your work.",
+                            kurdishText:
+                                "ھەمیشە دەبێت پێشوازی لە ڕەخنەی بنیادنەری کارەکانت بکەیت.",
+                            onPressedBritish: () =>
+                                speakconstructives3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstructives3("en-US"),
                           ),
                         ],
                       ),

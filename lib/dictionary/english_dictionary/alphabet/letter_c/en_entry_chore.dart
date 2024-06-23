@@ -118,116 +118,38 @@ class EnglishEntrychore extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کارێک کە بە بەردەوامی دەیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The kids all help out with the household chores."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان ھەموویان یارمەتیدەر دەبن لە کاری ماڵەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chore", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchores1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchores1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The kids all help out with the household chores.",
+                            kurdishText:
+                                "منداڵەکان ھەموویان یارمەتیدەر دەبن لە کاری ماڵەوە.", // chore",
+                            onPressedBritish: () => speakchores1("en-GB"),
+                            onPressedAmerican: () => speakchores1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Working women still do about 70% of domestic chores."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنانی کارکەر ھێشتا نزیکەی ٧٠٪ـی کارەکانی ماڵەوە دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchores2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchores2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Working women still do about 70% of domestic chores.",
+                            kurdishText:
+                                "ژنانی کارکەر ھێشتا نزیکەی ٧٠٪ـی کارەکانی ماڵەوە دەکەن.",
+                            onPressedBritish: () => speakchores2("en-GB"),
+                            onPressedAmerican: () => speakchores2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کارێکی ناخۆش و سەخت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Shopping's a real chore for me."),
-                                    ExampleSentenceKurdish(
-                                        text: "بازاڕکردن تەواو ئەرکێکە بۆ من."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchores3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchores3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Shopping's a real chore for me.",
+                            kurdishText: "بازاڕکردن تەواو ئەرکێکە بۆ من.",
+                            onPressedBritish: () => speakchores3("en-GB"),
+                            onPressedAmerican: () => speakchores3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I find shopping a real chore."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بازاڕکردن وەک ئەرکێکی جدی دەبینم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchores4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchores4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I find shopping a real chore.",
+                            kurdishText: "بازاڕکردن وەک ئەرکێکی جدی دەبینم.",
+                            onPressedBritish: () => speakchores4("en-GB"),
+                            onPressedAmerican: () => speakchores4("en-US"),
                           ),
                         ],
                       ),

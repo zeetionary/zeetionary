@@ -103,60 +103,22 @@ class EnglishEntrycordon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕیزێک یان بازنەیەک لە ئەفسەری پۆلیس یان سەرباز کە شوێنێک دەپارێزن یان ڕێگری لە خەڵک دەکەن بچنە شوێنێک یان شوێنێک جێبھێڵن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Demonstrators broke through the police cordon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆپیشاندەران بە ڕیزی پۆلیسەکاندا تێپەڕین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cordon", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcordons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcordons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Demonstrators broke through the police cordon.",
+                            kurdishText:
+                                "خۆپیشاندەران بە ڕیزی پۆلیسەکاندا تێپەڕین.", // cordon",
+                            onPressedBritish: () => speakcordons1("en-GB"),
+                            onPressedAmerican: () => speakcordons1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Police officers threw a cordon around his car to protect him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەفسەرانی پۆلیس بازنەیەکیان بە دەوری ئۆتۆمبێلەکەیدا درووستکرد بۆ پاراستنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcordons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcordons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Police officers threw a cordon around his car to protect him.",
+                            kurdishText:
+                                "ئەفسەرانی پۆلیس بازنەیەکیان بە دەوری ئۆتۆمبێلەکەیدا درووستکرد بۆ پاراستنی.",
+                            onPressedBritish: () => speakcordons2("en-GB"),
+                            onPressedAmerican: () => speakcordons2("en-US"),
                           ),
                         ],
                       ),

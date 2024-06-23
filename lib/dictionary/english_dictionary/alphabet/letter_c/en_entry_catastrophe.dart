@@ -194,126 +194,46 @@ class EnglishEntrycatastrophe extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕووداوێکی لەناکاو کە دەبێتەھۆی ناڕەحەتی بۆ زۆر کەس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Early warnings of rising water levels prevented another major catastrophe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگادارکەرەوە سەرەتاییەکانی بەرزبوونەوەی ئاستی ئاو ڕێگەی لە کارەساتێکی دیکەی گەورە گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "catastrophe", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatastrophes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatastrophes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Early warnings of rising water levels prevented another major catastrophe.",
+                            kurdishText:
+                                "ئاگادارکەرەوە سەرەتاییەکانی بەرزبوونەوەی ئاستی ئاو ڕێگەی لە کارەساتێکی دیکەی گەورە گرت.", // catastrophe",
+                            onPressedBritish: () => speakcatastrophes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcatastrophes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country is on the brink of a humanitarian catastrophe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتەکە لەسەر لێواری کارەساتی مرۆییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatastrophes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatastrophes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The country is on the brink of a humanitarian catastrophe.",
+                            kurdishText:
+                                "وڵاتەکە لەسەر لێواری کارەساتی مرۆییە.",
+                            onPressedBritish: () => speakcatastrophes2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcatastrophes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕووداوێک کە دەبێتە ھۆی ناڕەحەتی بۆ کەسێک یان گرووپێک لە خەڵکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The attempt to expand the business was a catastrophe for the firm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵی گەورەکردنی بازرگانییەکە کارەسات بوو بۆ کۆمپانیاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatastrophes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatastrophes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The attempt to expand the business was a catastrophe for the firm.",
+                            kurdishText:
+                                "ھەوڵی گەورەکردنی بازرگانییەکە کارەسات بوو بۆ کۆمپانیاکە.",
+                            onPressedBritish: () => speakcatastrophes3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcatastrophes3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It wouldn't be a catastrophe if he didn't turn up."),
-                                    ExampleSentenceKurdish(
-                                        text: "دونیا وێران نەبێت ئەگەر نەیەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcatastrophes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcatastrophes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It wouldn't be a catastrophe if he didn't turn up.",
+                            kurdishText: "دونیا وێران نەبێت ئەگەر نەیەت.",
+                            onPressedBritish: () => speakcatastrophes4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcatastrophes4("en-US"),
                           ),
                         ],
                       ),

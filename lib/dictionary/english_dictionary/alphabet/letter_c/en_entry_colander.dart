@@ -95,32 +95,13 @@ class EnglishEntrycolander extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دەفرێکی پلاستیکی یان کانزایی کە کونی زۆری تێدایە بۆ ئاوەچۆڕکردن لە کاتی شۆردنەوەی خۆراک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After four minutes, pour the pasta into a colander to drain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای چوار خولەک، پاستاکە بڕژێنە ناو سووزگییەکەوە بۆ ئاوەچۆڕکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "colander", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcolanders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcolanders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After four minutes, pour the pasta into a colander to drain.",
+                            kurdishText:
+                                "لە دوای چوار خولەک، پاستاکە بڕژێنە ناو سووزگییەکەوە بۆ ئاوەچۆڕکردن.", // colander",
+                            onPressedBritish: () => speakcolanders1("en-GB"),
+                            onPressedAmerican: () => speakcolanders1("en-US"),
                           ),
                         ],
                       ),

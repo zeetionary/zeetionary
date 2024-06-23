@@ -187,32 +187,13 @@ class EnglishEntrycellophane extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مادەیەکی پلاستیکی ڕوون و تەنک بۆ پێچانەوەی شت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The baker wrapped the breads in cellophane to keep it fresh."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نانەواکە نانەکانی بە سێلفۆن پێچایەوە بۆ ئەوەی بە تازەیی ڕایان بگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "Cellophane", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakCellophanes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakCellophanes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The baker wrapped the breads in cellophane to keep it fresh.",
+                            kurdishText:
+                                "نانەواکە نانەکانی بە سێلفۆن پێچایەوە بۆ ئەوەی بە تازەیی ڕایان بگرێت.", // Cellophane",
+                            onPressedBritish: () => speakCellophanes1("en-GB"),
+                            onPressedAmerican: () => speakCellophanes1("en-US"),
                           ),
                         ],
                       ),

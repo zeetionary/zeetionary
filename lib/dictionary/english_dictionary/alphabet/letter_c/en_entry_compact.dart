@@ -165,268 +165,95 @@ class EnglishEntrycompact extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بچووکتر لەوەی ئاساییە بۆ ئەو شتانەی کە ھەمان جۆرن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The device is small and compact and weighs only 10 grams."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامێرەکە بچووک و پەستاوتەیە و کێشی تەنھا ١٠ گرامە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compact", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The device is small and compact and weighs only 10 grams.",
+                            kurdishText:
+                                "ئامێرەکە بچووک و پەستاوتەیە و کێشی تەنھا ١٠ گرامە.", // compact",
+                            onPressedBritish: () => speakcompacts1("en-GB"),
+                            onPressedAmerican: () => speakcompacts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Edinburgh is a compact city."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئیدنبێرگ شارێکی تێک‌ترنجاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Edinburgh is a compact city.",
+                            kurdishText: "ئیدنبێرگ شارێکی تێک‌ترنجاوە.",
+                            onPressedBritish: () => speakcompacts2("en-GB"),
+                            onPressedAmerican: () => speakcompacts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) بەکارھێنان یان گرتنی تەنھا جێگایەکی کەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The kitchen was compact but well equipped."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چێشتخانەکە ترنجاو بوو بەڵام باش سازکرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The kitchen was compact but well equipped.",
+                            kurdishText:
+                                "چێشتخانەکە ترنجاو بوو بەڵام باش سازکرابوو.",
+                            onPressedBritish: () => speakcompacts3("en-GB"),
+                            onPressedAmerican: () => speakcompacts3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Computers have become much more compact over the last 15 years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپیوتەرەکان لە ١٥ ساڵی ڕابردوودا زۆر بچووک بوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Computers have become much more compact over the last 15 years.",
+                            kurdishText:
+                                "کۆمپیوتەرەکان لە ١٥ ساڵی ڕابردوودا زۆر بچووک بوونە.",
+                            onPressedBritish: () => speakcompacts4("en-GB"),
+                            onPressedAmerican: () => speakcompacts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) بەشێوەیەک کە پێکەوەلکاون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The grey clouds had become more compact and the sky suddenly grew dark."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەورە خەڵۆمێشییەکان تەواو ترنجاو بووبوون و ئاسمان لەناکاو ڕەش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The grey clouds had become more compact and the sky suddenly grew dark.",
+                            kurdishText:
+                                "ھەورە خەڵۆمێشییەکان تەواو ترنجاو بووبوون و ئاسمان لەناکاو ڕەش بوو.",
+                            onPressedBritish: () => speakcompacts5("en-GB"),
+                            onPressedAmerican: () => speakcompacts5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) کەسێکی بچووک و بەھێز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had a compact and muscular body."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەستەیەکی پتەو و بە ماسولکەی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He had a compact and muscular body.",
+                            kurdishText: "جەستەیەکی پتەو و بە ماسولکەی ھەبوو.",
+                            onPressedBritish: () => speakcompacts6("en-GB"),
+                            onPressedAmerican: () => speakcompacts6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ناو) ئۆتۆمبێلێکی بچووک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He prefers a compact for city driving."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە باش دەزانێت ئۆتۆمبێلێکی بچووک لێبخوڕێت لە شاردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He prefers a compact for city driving.",
+                            kurdishText:
+                                "بە باش دەزانێت ئۆتۆمبێلێکی بچووک لێبخوڕێت لە شاردا.",
+                            onPressedBritish: () => speakcompacts7("en-GB"),
+                            onPressedAmerican: () => speakcompacts7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) ڕێککەوتنێکی فەرمی لە نێوان دوو یان زیاتر لە کەس یان وڵاتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The support will continue under a compact which runs until 2010."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشتگیری بەردەوام دەبێت لە چوارچێوەی ڕێککەوتنێکدا کە تاوەکو ٢٠١٠ بەردەوام دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The support will continue under a compact which runs until 2010.",
+                            kurdishText:
+                                "پشتگیری بەردەوام دەبێت لە چوارچێوەی ڕێککەوتنێکدا کە تاوەکو ٢٠١٠ بەردەوام دەبێت.",
+                            onPressedBritish: () => speakcompacts8("en-GB"),
+                            onPressedAmerican: () => speakcompacts8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (کردار) پێکەوەلکاندنی شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cars had compacted the snow until it was like ice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێل بەفرەکەیان ترنجاندبوو تاوەکو وەک سەھۆڵ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompacts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompacts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cars had compacted the snow until it was like ice.",
+                            kurdishText:
+                                "ئۆتۆمبێل بەفرەکەیان ترنجاندبوو تاوەکو وەک سەھۆڵ بوو.",
+                            onPressedBritish: () => speakcompacts9("en-GB"),
+                            onPressedAmerican: () => speakcompacts9("en-US"),
                           ),
                         ],
                       ),

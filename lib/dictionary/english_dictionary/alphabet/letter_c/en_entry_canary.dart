@@ -192,32 +192,12 @@ class EnglishEntrycanary extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) باڵندەیەکی زەردی بچووک و دەنگ‌خۆش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had a canary in a birdcage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەنارییەکی لە قەفەزێکی باڵندەدا ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canary", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She had a canary in a birdcage.",
+                            kurdishText:
+                                "کەنارییەکی لە قەفەزێکی باڵندەدا ھەبوو.", // canary
+                            onPressedBritish: () => speakcanarys1("en-GB"),
+                            onPressedAmerican: () => speakcanarys1("en-US"),
                           ),
                         ],
                       ),

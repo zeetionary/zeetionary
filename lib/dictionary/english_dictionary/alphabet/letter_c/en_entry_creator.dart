@@ -242,60 +242,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە درووستکار یان داھێنەری شتێکی دیاریکراەو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He's the creator of a successful cartoon series."),
-                    ExampleSentenceKurdish(
-                        text: "درووستکاری زنجیرە کارتۆنێکی سەرکەوتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creator", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreators1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreators1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's the creator of a successful cartoon series.",
+            kurdishText:
+                "درووستکاری زنجیرە کارتۆنێکی سەرکەوتووە.", // creator", please follow LX instructions
+            onPressedBritish: () => speakcreators1("en-GB"),
+            onPressedAmerican: () => speakcreators1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) خودا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They believe that the idea of a Creator is the best available explanation for the existence of the universe."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باوەڕیان وایە کە بیرۆکەی ئافرێنەرێک باشترین ڕوونکردنەوەی بەردەستە بۆ بوونی گەردوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreators2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreators2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They believe that the idea of a Creator is the best available explanation for the existence of the universe.",
+            kurdishText:
+                "باوەڕیان وایە کە بیرۆکەی ئافرێنەرێک باشترین ڕوونکردنەوەی بەردەستە بۆ بوونی گەردوون.",
+            onPressedBritish: () => speakcreators2("en-GB"),
+            onPressedAmerican: () => speakcreators2("en-US"),
           ),
         ],
       ),

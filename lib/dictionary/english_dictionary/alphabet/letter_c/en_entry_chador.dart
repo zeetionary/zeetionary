@@ -188,60 +188,22 @@ class EnglishEntrychador extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چارشێو؛ پارچە جلێکی گەورە کە ژنان دەیپۆشن بەشێوەیەک تەنھا ڕووخساریان دیارە، و بەتایبەتی لەلایەن ژنانی موسڵمانەوە لەبەردەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For many women, wearing a chador is a way to express their faith and cultural identity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ زۆر ژن، لەبەرکردنی چارشێوێک ڕێگایەکە بۆ پیشاندانی ئایین و ناسنامەی نەتەوەیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "chador", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchadors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchadors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For many women, wearing a chador is a way to express their faith and cultural identity.",
+                            kurdishText:
+                                "بۆ زۆر ژن، لەبەرکردنی چارشێوێک ڕێگایەکە بۆ پیشاندانی ئایین و ناسنامەی نەتەوەیی.", // chador",
+                            onPressedBritish: () => speakchadors1("en-GB"),
+                            onPressedAmerican: () => speakchadors1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The wearing of chadors can spark discussions about women's rights and religious freedom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەبەرکردنی چارشێو دەکرێت مشتومڕی مافەکانی ژنان ئازادیی ئایینی بێنێتە ئاراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchadors2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchadors2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The wearing of chadors can spark discussions about women's rights and religious freedom.",
+                            kurdishText:
+                                "لەبەرکردنی چارشێو دەکرێت مشتومڕی مافەکانی ژنان ئازادیی ئایینی بێنێتە ئاراوە.",
+                            onPressedBritish: () => speakchadors2("en-GB"),
+                            onPressedAmerican: () => speakchadors2("en-US"),
                           ),
                         ],
                       ),

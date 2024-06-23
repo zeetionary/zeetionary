@@ -183,349 +183,119 @@ class EnglishEntryclip extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کورتە ڤیدیۆیەک لە فیلمێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Here is a clip from her latest movie."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەمە کلیپێکە لە کۆتا فیلمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "clip", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Here is a clip from her latest movie.",
+                            kurdishText:
+                                "ئەمە کلیپێکە لە کۆتا فیلمی.", // clip",
+                            onPressedBritish: () => speakclips1("en-GB"),
+                            onPressedAmerican: () => speakclips1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You will see in this clip how well she acts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەم کلیپەدا دەیبینیت چەندە باش نمایش دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You will see in this clip how well she acts.",
+                            kurdishText:
+                                "لەم کلیپەدا دەیبینیت چەندە باش نمایش دەکات.",
+                            onPressedBritish: () => speakclips2("en-GB"),
+                            onPressedAmerican: () => speakclips2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The documentary began with a clip from the President's inauguration speech."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمە بەڵگەنامەییەکە بە کورتە ڤیدیۆیەکی وتاری دەستبەکاربوونی سەرۆک دەست پێ‌دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The documentary began with a clip from the President's inauguration speech.",
+                            kurdishText:
+                                "فیلمە بەڵگەنامەییەکە بە کورتە ڤیدیۆیەکی وتاری دەستبەکاربوونی سەرۆک دەست پێ‌دەکات.",
+                            onPressedBritish: () => speakclips3("en-GB"),
+                            onPressedAmerican: () => speakclips3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پارچە پلاستیکێکی بچووک کە بۆ ڕاگرتنی شت بەکاردێت، یان بۆ جوانکاری بە جلوبەرگەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She put a clip in her hair."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەوقەیەکی لە قژی بەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She put a clip in her hair.",
+                            kurdishText: "تەوقەیەکی لە قژی بەست.",
+                            onPressedBritish: () => speakclips4("en-GB"),
+                            onPressedAmerican: () => speakclips4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) بڕینی شتێک بۆ کورتکردنەوەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He gave the hedge a clip."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەڵپاچینێکی پەرژینەکەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He gave the hedge a clip.",
+                            kurdishText: "ھەڵپاچینێکی پەرژینەکەی کرد.",
+                            onPressedBritish: () => speakclips5("en-GB"),
+                            onPressedAmerican: () => speakclips5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) لێدانێکی خێرا بە دەست"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She gave him a clip round the ear for being cheeky."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەپازلەیەکی کێشا بە بنگوێیدا بۆ ڕوودارییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She gave him a clip round the ear for being cheeky.",
+                            kurdishText:
+                                "شەپازلەیەکی کێشا بە بنگوێیدا بۆ ڕوودارییەکەی.",
+                            onPressedBritish: () => speakclips6("en-GB"),
+                            onPressedAmerican: () => speakclips6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) بەستنی شتێک بە شتێکی ترەوە بە "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He clipped the microphone (on) to his collar."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مایکرۆفۆنەکەی بەست بە یەقەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He clipped the microphone (on) to his collar.",
+                            kurdishText: "مایکرۆفۆنەکەی بەست بە یەقەیەوە.",
+                            onPressedBritish: () => speakclips7("en-GB"),
+                            onPressedAmerican: () => speakclips7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Clip the pages together."),
-                                    ExampleSentenceKurdish(
-                                        text: "پەڕەکان ببەستە بە یەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Clip the pages together.",
+                            kurdishText: "پەڕەکان ببەستە بە یەکەوە.",
+                            onPressedBritish: () => speakclips8("en-GB"),
+                            onPressedAmerican: () => speakclips8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) بڕینەوە، بۆ نموونە بە مەقەس، بۆ کورتکردنەوە یان ڕێککردنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He clipped off a piece of wire with the pliers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە پلایس پارچە وایەرێکی لێکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He clipped off a piece of wire with the pliers.",
+                            kurdishText: "بە پلایس پارچە وایەرێکی لێکردەوە.",
+                            onPressedBritish: () => speakclips9("en-GB"),
+                            onPressedAmerican: () => speakclips9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کردار) لێدان لە قەراغ یان لای شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car clipped the kerb as it turned."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە کێشای بە قەراغەکەدا کە پێچیکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The car clipped the kerb as it turned.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە کێشای بە قەراغەکەدا کە پێچیکردەوە.",
+                            onPressedBritish: () => speakclips10("en-GB"),
+                            onPressedAmerican: () => speakclips10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She clipped the ball into the net."),
-                                    ExampleSentenceKurdish(
-                                        text: "تۆپەکەی خستە ناو تۆڕەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She clipped the ball into the net.",
+                            kurdishText: "تۆپەکەی خستە ناو تۆڕەکەوە.",
+                            onPressedBritish: () => speakclips11("en-GB"),
+                            onPressedAmerican: () => speakclips11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) لێکردنەوەی شتێک لە شتێکی تر بە مەقەس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I clipped the picture out of the newspaper."),
-                                    ExampleSentenceKurdish(
-                                        text: "وێنەکەی لە ڕۆژنامەکە لێکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakclips12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakclips12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I clipped the picture out of the newspaper.",
+                            kurdishText: "وێنەکەی لە ڕۆژنامەکە لێکردەوە.",
+                            onPressedBritish: () => speakclips12("en-GB"),
+                            onPressedAmerican: () => speakclips12("en-US"),
                           ),
                         ],
                       ),

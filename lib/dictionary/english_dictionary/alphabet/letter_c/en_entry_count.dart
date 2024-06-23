@@ -427,673 +427,211 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ژماردن، ھێژمارتن، حساب‌کردن، ژمارە، ڕەنووس، حساب، حسێب،	کێشە، دۆز،	بابەت، بڕگە، بابەتی تاوانباری،	لایەن، ئالی، لا، بوار
 """),
           const DefinitionKurdish(text: "١. (کردار) ژماردن بە ڕیزبەندی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She can count up to 10 in Italian."),
-                    ExampleSentenceKurdish(
-                        text: "دەتوانێت تاوەکو ١٠ بە ئیتالی بژمێرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "count", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She can count up to 10 in Italian.",
+            kurdishText:
+                "دەتوانێت تاوەکو ١٠ بە ئیتالی بژمێرێت.", // count", please follow LX instructions
+            onPressedBritish: () => speakcounts1("en-GB"),
+            onPressedAmerican: () => speakcounts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He can now count from one to twenty."),
-                    ExampleSentenceKurdish(
-                        text: "ئێستا دەتوانێت لە یەک تاوەکو بیست بژمێرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He can now count from one to twenty.",
+            kurdishText: "ئێستا دەتوانێت لە یەک تاوەکو بیست بژمێرێت.",
+            onPressedBritish: () => speakcounts2("en-GB"),
+            onPressedAmerican: () => speakcounts2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We counted up to fifty, then set off to look for our friends."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تاوەکو چلمان ژمارد و دواتر چووین بۆ گەڕان بۆ ھاوڕێکانمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We counted up to fifty, then set off to look for our friends.",
+            kurdishText:
+                "تاوەکو چلمان ژمارد و دواتر چووین بۆ گەڕان بۆ ھاوڕێکانمان.",
+            onPressedBritish: () => speakcounts3("en-GB"),
+            onPressedAmerican: () => speakcounts3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) دۆزینەوەی ژمارەی تەواوی خەڵکی، شت، ھتد لە گرووپێکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They're still counting votes in Texas."),
-                    ExampleSentenceKurdish(
-                        text: "ھێشتا دەنگەکان دەژمێرن لە تێکساس."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They're still counting votes in Texas.",
+            kurdishText: "ھێشتا دەنگەکان دەژمێرن لە تێکساس.",
+            onPressedBritish: () => speakcounts4("en-GB"),
+            onPressedAmerican: () => speakcounts4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I can't count the number of times I've eaten there (= I've eaten there very many times)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناتوانم ژمارەی ئەو جارانە بژمێرن کە لەوێ نانم خواردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I can't count the number of times I've eaten there (= I've eaten there very many times).",
+            kurdishText:
+                "ناتوانم ژمارەی ئەو جارانە بژمێرن کە لەوێ نانم خواردووە.",
+            onPressedBritish: () => speakcounts5("en-GB"),
+            onPressedAmerican: () => speakcounts5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She began to count up how many guests they had to invite."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستیکرد بە ژماردنی ئەوەی چەند میوان پێویست بوو بانگ بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She began to count up how many guests they had to invite.",
+            kurdishText:
+                "دەستیکرد بە ژماردنی ئەوەی چەند میوان پێویست بوو بانگ بکەن.",
+            onPressedBritish: () => speakcounts6("en-GB"),
+            onPressedAmerican: () => speakcounts6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) لەخۆگرتنی کەسێک یان شتێک کە کۆی گشتی دەردەکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We have invited 50 people, not counting the children."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "٥٠ کەسمان بانگھێشت کردووە، بەبێ حسابکردنی منداڵەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We have invited 50 people, not counting the children.",
+            kurdishText: "٥٠ کەسمان بانگھێشت کردووە، بەبێ حسابکردنی منداڵەکان.",
+            onPressedBritish: () => speakcounts7("en-GB"),
+            onPressedAmerican: () => speakcounts7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The tour guide was sure one person was missing from the group until she realized she had forgotten to count herself."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێبەری گەشتەکە دڵنیابوو لەوەی کەسێک لە گرووپەکە نەبوو تاوەکو زانی کە بیری چووبوو خۆی حساب بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The tour guide was sure one person was missing from the group until she realized she had forgotten to count herself.",
+            kurdishText:
+                "ڕێبەری گەشتەکە دڵنیابوو لەوەی کەسێک لە گرووپەکە نەبوو تاوەکو زانی کە بیری چووبوو خۆی حساب بکات.",
+            onPressedBritish: () => speakcounts8("en-GB"),
+            onPressedAmerican: () => speakcounts8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) گرنگبوون، حساب بوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is going to be a close election, so every vote counts."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەڵبژاردنێکی داخراو دەبێت، بۆیە ھەموو دەنگێک حسابە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is going to be a close election, so every vote counts.",
+            kurdishText: "ھەڵبژاردنێکی داخراو دەبێت، بۆیە ھەموو دەنگێک حسابە.",
+            onPressedBritish: () => speakcounts9("en-GB"),
+            onPressedAmerican: () => speakcounts9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Every point in this game counts."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو خاڵێک لەم یارییەدا گرنگە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Every point in this game counts.",
+            kurdishText: "ھەموو خاڵێک لەم یارییەدا گرنگە.",
+            onPressedBritish: () => speakcounts10("en-GB"),
+            onPressedAmerican: () => speakcounts10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The fact that she had apologized counted for nothing with him."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوەی کە داوای لێبووردنی کرد ھیچ لای گرنگ نەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The fact that she had apologized counted for nothing with him.",
+            kurdishText: "ئەوەی کە داوای لێبووردنی کرد ھیچ لای گرنگ نەبوو.",
+            onPressedBritish: () => speakcounts11("en-GB"),
+            onPressedAmerican: () => speakcounts11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) بە فەرمی پەسەندکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Don't go over that line or your throw won't count."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەسەر ئەو ھێڵەدا مەچۆ ئەگەرنا ھەڵدانەکەت حساب نابێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't go over that line or your throw won't count.",
+            kurdishText: "بەسەر ئەو ھێڵەدا مەچۆ ئەگەرنا ھەڵدانەکەت حساب نابێت.",
+            onPressedBritish: () => speakcounts12("en-GB"),
+            onPressedAmerican: () => speakcounts12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Applications received after 1 July will not be counted."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داخوازینامەی وەرگیراو لە دوای ١ ـی تەممووز حساب نابێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Applications received after 1 July will not be counted.",
+            kurdishText:
+                "داخوازینامەی وەرگیراو لە دوای ١ ـی تەممووز حساب نابێت.",
+            onPressedBritish: () => speakcounts13("en-GB"),
+            onPressedAmerican: () => speakcounts13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) بیرکردنەوە لە شتێک بە شێوەیەکی دیاریکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I count him among my closest friends."),
-                    ExampleSentenceKurdish(
-                        text: "وەک باشترین ھاوڕێکانم سەیری ئەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I count him among my closest friends.",
+            kurdishText: "وەک باشترین ھاوڕێکانم سەیری ئەکەم.",
+            onPressedBritish: () => speakcounts14("en-GB"),
+            onPressedAmerican: () => speakcounts14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I count myself lucky to have known him."),
-                    ExampleSentenceKurdish(
-                        text: "خۆم بە بەبەخت دادەنێم کە ناسیومە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I count myself lucky to have known him.",
+            kurdishText: "خۆم بە بەبەخت دادەنێم کە ناسیومە.",
+            onPressedBritish: () => speakcounts15("en-GB"),
+            onPressedAmerican: () => speakcounts15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I count it a privilege to have served alongside her."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەک شانازییەک سەیری دەکەم کە شان‌بەشانی ئەو خزمەتم کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I count it a privilege to have served alongside her.",
+            kurdishText:
+                "وەک شانازییەک سەیری دەکەم کە شان‌بەشانی ئەو خزمەتم کردووە.",
+            onPressedBritish: () => speakcounts16("en-GB"),
+            onPressedAmerican: () => speakcounts16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (ناو) دۆزینەوەی کۆی گشتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If the election result is close, there will be a second count."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر ئەنجامی ھەڵبژاردنەکە نزیک بێت، ژماردنەوەیەکی دیکە دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "If the election result is close, there will be a second count.",
+            kurdishText:
+                "ئەگەر ئەنجامی ھەڵبژاردنەکە نزیک بێت، ژماردنەوەیەکی دیکە دەبێت.",
+            onPressedBritish: () => speakcounts17("en-GB"),
+            onPressedAmerican: () => speakcounts17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The bus driver did a quick count of the empty seats."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شۆفێری پاسەکە ژماردنێکی خێرای کورسییە بەتاڵەکانی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The bus driver did a quick count of the empty seats.",
+            kurdishText:
+                "شۆفێری پاسەکە ژماردنێکی خێرای کورسییە بەتاڵەکانی کرد.",
+            onPressedBritish: () => speakcounts18("en-GB"),
+            onPressedAmerican: () => speakcounts18("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "By my count there are eight tracks here that aren't on the band's three albums."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە ژماردن من، ھەشت گۆرانی لێرەن کە لە سێ ئەلبوومی باندەکە نین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "By my count there are eight tracks here that aren't on the band's three albums.",
+            kurdishText:
+                "بە ژماردن من، ھەشت گۆرانی لێرەن کە لە سێ ئەلبوومی باندەکە نین.",
+            onPressedBritish: () => speakcounts19("en-GB"),
+            onPressedAmerican: () => speakcounts19("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (ناو) ژماردن بە دەستپێکردن لە یەکەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Raise your leg and hold for a count of ten."),
-                    ExampleSentenceKurdish(
-                        text: "لاقت بەرزبکەوە و ڕایبگرە بە ژماردن تاوەکو دە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Raise your leg and hold for a count of ten.",
+            kurdishText: "لاقت بەرزبکەوە و ڕایبگرە بە ژماردن تاوەکو دە.",
+            onPressedBritish: () => speakcounts20("en-GB"),
+            onPressedAmerican: () => speakcounts20("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "On the count of three, take one step forward."),
-                    ExampleSentenceKurdish(
-                        text: "بە ژماردن تاوەکو سێ، ھەنگاوێک بۆ پێشەوە بنێ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "On the count of three, take one step forward.",
+            kurdishText: "بە ژماردن تاوەکو سێ، ھەنگاوێک بۆ پێشەوە بنێ.",
+            onPressedBritish: () => speakcounts21("en-GB"),
+            onPressedAmerican: () => speakcounts21("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٩. (ناو) پێوانی ڕێژەی شتێک کە لە ناوچەیەک یان شتێکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her white cell count has gone down again."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێژەی خڕۆکە سپییەکانی دووبارە دابەزیون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her white cell count has gone down again.",
+            kurdishText: "ڕێژەی خڕۆکە سپییەکانی دووبارە دابەزیون.",
+            onPressedBritish: () => speakcounts22("en-GB"),
+            onPressedAmerican: () => speakcounts22("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٠. (ناو) تاوانێک کە کەسێک بە ئەنجامدانی تاوانبار کراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They were found guilty on all counts."),
-                    ExampleSentenceKurdish(
-                        text: "بە تاوانباری ھەموو تاوانەکان دانران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were found guilty on all counts.",
+            kurdishText: "بە تاوانباری ھەموو تاوانەکان دانران.",
+            onPressedBritish: () => speakcounts23("en-GB"),
+            onPressedAmerican: () => speakcounts23("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (ناو) خاڵێک لە گفتوگۆیەک یان مشتومڕێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I disagree with you on both counts."),
-                    ExampleSentenceKurdish(
-                        text: "لە ھەردوو خاڵەکەدا لەگەڵت ناکۆکم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounts24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounts24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I disagree with you on both counts.",
+            kurdishText: "لە ھەردوو خاڵەکەدا لەگەڵت ناکۆکم.",
+            onPressedBritish: () => speakcounts24("en-GB"),
+            onPressedAmerican: () => speakcounts24("en-US"),
           ),
         ],
       ),

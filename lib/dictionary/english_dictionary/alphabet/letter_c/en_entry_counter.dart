@@ -320,324 +320,115 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕوویەکی درێژی تەخت کە لەسەری شت دەفرۆشرێت یان کاری بازرگانی لە فرۆشگایەک، بانکێک، ھتد دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He pushed the money across the counter to me."),
-                    ExampleSentenceKurdish(
-                        text: "پارەکەی بەسەر مێزەکەدا بۆم پاڵدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "counter", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounters1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounters1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He pushed the money across the counter to me.",
+            kurdishText:
+                "پارەکەی بەسەر مێزەکەدا بۆم پاڵدا.", // counter", please follow LX instructions
+            onPressedBritish: () => speakcounters1("en-GB"),
+            onPressedAmerican: () => speakcounters1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She handed me my coffee over the counter."),
-                    ExampleSentenceKurdish(
-                        text: "بەسەر مێزەکەدا قاوەکەی پێمدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounters2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounters2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She handed me my coffee over the counter.",
+            kurdishText: "بەسەر مێزەکەدا قاوەکەی پێمدا.",
+            onPressedBritish: () => speakcounters2("en-GB"),
+            onPressedAmerican: () => speakcounters2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ڕوویەکی تەخت لە چێشتخانەدا بۆ ئامادەکردنی خواردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We stacked the dirty plates on the kitchen counter."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەورییە پیسەکانمان لەسەر پێش‌خوانی چێشتخانەکە ڕیزکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounters3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounters3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We stacked the dirty plates on the kitchen counter.",
+            kurdishText:
+                "دەورییە پیسەکانمان لەسەر پێش‌خوانی چێشتخانەکە ڕیزکرد.",
+            onPressedBritish: () => speakcounters3("en-GB"),
+            onPressedAmerican: () => speakcounters3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) زارێکی بچووک کە لە ھەندێک یاری سەر تەختەدا بەکاردێت بۆ خاڵ گرتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She moved her counter three spaces forward on the board."),
-                    ExampleSentenceKurdish(
-                        text: "لەسەر تەختەکە سێ بۆشایی پوولەکەی بردە پێشەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounters4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounters4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She moved her counter three spaces forward on the board.",
+            kurdishText: "لەسەر تەختەکە سێ بۆشایی پوولەکەی بردە پێشەوە.",
+            onPressedBritish: () => speakcounters4("en-GB"),
+            onPressedAmerican: () => speakcounters4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) ئامێرێکی ئەلیکترۆنی بۆ ژماردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You need to reset the counter."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت ژمێرەرەکە سفر بکەیتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounters5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounters5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You need to reset the counter.",
+            kurdishText: "دەبێت ژمێرەرەکە سفر بکەیتەوە.",
+            onPressedBritish: () => speakcounters5("en-GB"),
+            onPressedAmerican: () => speakcounters5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) کەسێک کە شتێک دەژمێرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You can get computers to help the counters to count the votes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانیت کۆمپیوتەرەکان وا لێ‌بکەیت یارمەتی ژمێرەرەکان بدەن دەنگەکان بژمێرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounters6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounters6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You can get computers to help the counters to count the votes.",
+            kurdishText:
+                "دەتوانیت کۆمپیوتەرەکان وا لێ‌بکەیت یارمەتی ژمێرەرەکان بدەن دەنگەکان بژمێرن.",
+            onPressedBritish: () => speakcounters6("en-GB"),
+            onPressedAmerican: () => speakcounters6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (ناو) وەڵامێک بۆ کەسێک/شتێک کە دژ بە بیرۆکە، پێگە، ھتد ــیانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government's programme should be an effective counter to unemployment."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پڕۆگرامەکەی حکومەت دەبێت دەبێت پێشگیرییەکی کاریگەر بێت دژ بە بێ‌کاری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounters7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounters7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government's programme should be an effective counter to unemployment.",
+            kurdishText:
+                "پڕۆگرامەکەی حکومەت دەبێت دەبێت پێشگیرییەکی کاریگەر بێت دژ بە بێ‌کاری.",
+            onPressedBritish: () => speakcounters7("en-GB"),
+            onPressedAmerican: () => speakcounters7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٧. (کردار) وەڵامدانەوەی کەسێک بە ھەوڵدان بۆ سەلماندنی ئەوەی وتوویەتی ناڕاستە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I tried to argue but he countered that the plans were not yet finished."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵمدا مناقەشە بکەم، بەڵام وەڵامی دایەوە بەوەی پلانەکان ھێشتا تەواو نەبووبوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounters8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounters8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I tried to argue but he countered that the plans were not yet finished.",
+            kurdishText:
+                "ھەوڵمدا مناقەشە بکەم، بەڵام وەڵامی دایەوە بەوەی پلانەکان ھێشتا تەواو نەبووبوون.",
+            onPressedBritish: () => speakcounters8("en-GB"),
+            onPressedAmerican: () => speakcounters8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Butler has countered with a lawsuit against the firm."),
-                    ExampleSentenceKurdish(
-                        text: "بەتلەر بە سکاڵایەک دژ بە کۆمپانیاکە وەستایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounters9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounters9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Butler has countered with a lawsuit against the firm.",
+            kurdishText: "بەتلەر بە سکاڵایەک دژ بە کۆمپانیاکە وەستایەوە.",
+            onPressedBritish: () => speakcounters9("en-GB"),
+            onPressedAmerican: () => speakcounters9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٨. (کردار) کردنی شتێک بۆ کەمکردنەوەی کاریگەری خراپی شتێکی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Businesses would like to see new laws to counter late payments of debts."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بازرگانییەکان دەیانەوێت یاسای تازە ببینن کە دژ بە دانەوەی درەنگی قەرز بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounters10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounters10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Businesses would like to see new laws to counter late payments of debts.",
+            kurdishText:
+                "بازرگانییەکان دەیانەوێت یاسای تازە ببینن کە دژ بە دانەوەی درەنگی قەرز بێت.",
+            onPressedBritish: () => speakcounters10("en-GB"),
+            onPressedAmerican: () => speakcounters10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٩. (ھاوەڵکار) بە ئاراستەی پێچەوانەی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company's plans run counter to local development guidelines."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پلانەکانی کۆمپانیاکە دژ بە ڕێنماییە خۆجێیەکانی گەشەپێدانن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounters11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounters11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company's plans run counter to local development guidelines.",
+            kurdishText:
+                "پلانەکانی کۆمپانیاکە دژ بە ڕێنماییە خۆجێیەکانی گەشەپێدانن.",
+            onPressedBritish: () => speakcounters11("en-GB"),
+            onPressedAmerican: () => speakcounters11("en-US"),
           ),
         ],
       ),

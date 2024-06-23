@@ -233,30 +233,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئامێرێکی میوزیکی لە شێوەی دەفرێکی کانزایی خڕدا. بە دارێک لێی دەدرێت یان دوو دانە دەکێشرێت بە یەکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The piece ends with a cymbal crash."),
-                    ExampleSentenceKurdish(
-                        text: "بەشەکە بە کێشانی سیمباڵ بە یەکدا کۆتایی دێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cymbal", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcymbals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcymbals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The piece ends with a cymbal crash.",
+            kurdishText:
+                "بەشەکە بە کێشانی سیمباڵ بە یەکدا کۆتایی دێت.", // cymbal", please follow LX instructions
+            onPressedBritish: () => speakcymbals1("en-GB"),
+            onPressedAmerican: () => speakcymbals1("en-US"),
           ),
         ],
       ),

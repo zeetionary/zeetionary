@@ -190,60 +190,22 @@ class EnglishEntrycarcass extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) لاشەی ئاژەڵێکی مردوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She boiled up the chicken carcass (= the bones of a cooked chicken) to make soup."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێسک‌وپرووسکی مریشکەکەی کوڵاند بۆ درووستکردنی مەرگە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carcass", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarcasss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarcasss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She boiled up the chicken carcass (= the bones of a cooked chicken) to make soup.",
+                            kurdishText:
+                                "ئێسک‌وپرووسکی مریشکەکەی کوڵاند بۆ درووستکردنی مەرگە.", // carcass",
+                            onPressedBritish: () => speakcarcasss1("en-GB"),
+                            onPressedAmerican: () => speakcarcasss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Vultures flew around in the sky waiting to pick at the rotting carcass of the deer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەلاک‌خۆرەکان لە ئاسماندا دەسوڕانەوە و وەستابوون بۆ خواردنی کەلاکی گەنیوی ئاسکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarcasss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarcasss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Vultures flew around in the sky waiting to pick at the rotting carcass of the deer.",
+                            kurdishText:
+                                "کەلاک‌خۆرەکان لە ئاسماندا دەسوڕانەوە و وەستابوون بۆ خواردنی کەلاکی گەنیوی ئاسکەکە.",
+                            onPressedBritish: () => speakcarcasss2("en-GB"),
+                            onPressedAmerican: () => speakcarcasss2("en-US"),
                           ),
                         ],
                       ),

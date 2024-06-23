@@ -191,60 +191,22 @@ class EnglishEntrycarpenter extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە کاری دارتاشی دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was apprenticed to a carpenter at the age of sixteen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تەمەنی شازدە ساڵی خرایە بەر کار وەک دارتاشێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carpenter", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarpenters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarpenters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was apprenticed to a carpenter at the age of sixteen.",
+                            kurdishText:
+                                "لە تەمەنی شازدە ساڵی خرایە بەر کار وەک دارتاشێک.", // carpenter",
+                            onPressedBritish: () => speakcarpenters1("en-GB"),
+                            onPressedAmerican: () => speakcarpenters1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A master carpenter was in charge of teaching the apprentices."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دارتاشێکی شارەزا سەرپەرشتی فێرکردنی شاگردەکانی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarpenters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarpenters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A master carpenter was in charge of teaching the apprentices.",
+                            kurdishText:
+                                "دارتاشێکی شارەزا سەرپەرشتی فێرکردنی شاگردەکانی دەکرد.",
+                            onPressedBritish: () => speakcarpenters2("en-GB"),
+                            onPressedAmerican: () => speakcarpenters2("en-US"),
                           ),
                         ],
                       ),

@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) جۆرە نانێکی چەماوەی فەرەنسییە بەیانییان دەخورێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She enjoyed a fresh croissant with her coffee for breakfast."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کرواسانێکی تازەی خوارد لەگەڵ قاوەکەی بۆ نانی بەیانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "croissant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcroissants1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcroissants1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She enjoyed a fresh croissant with her coffee for breakfast.",
+            kurdishText:
+                "کرواسانێکی تازەی خوارد لەگەڵ قاوەکەی بۆ نانی بەیانی.", // croissant", please follow LX instructions
+            onPressedBritish: () => speakcroissants1("en-GB"),
+            onPressedAmerican: () => speakcroissants1("en-US"),
           ),
         ],
       ),

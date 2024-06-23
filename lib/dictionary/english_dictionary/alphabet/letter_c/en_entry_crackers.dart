@@ -239,55 +239,19 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: شێت، دەلوو
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) شێت، دەلوو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "That noise is driving me crackers."),
-                    ExampleSentenceKurdish(text: "ژاوەژاوەکە شێتم دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crackers", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrackerss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrackerss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "That noise is driving me crackers.",
+            kurdishText:
+                "ژاوەژاوەکە شێتم دەکات.", // crackers", please follow LX instructions
+            onPressedBritish: () => speakcrackerss1("en-GB"),
+            onPressedAmerican: () => speakcrackerss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She came up with a truly crackers idea."),
-                    ExampleSentenceKurdish(
-                        text: "چەند بیرۆکەیەکی تەواو شێتانە بە مێشکیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrackerss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrackerss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She came up with a truly crackers idea.",
+            kurdishText: "چەند بیرۆکەیەکی تەواو شێتانە بە مێشکیدا.",
+            onPressedBritish: () => speakcrackerss2("en-GB"),
+            onPressedAmerican: () => speakcrackerss2("en-US"),
           ),
         ],
       ),

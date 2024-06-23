@@ -102,61 +102,22 @@ class EnglishEntryconductor extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە لە پێشی ئۆرکێسترایەک، کۆمەڵێک گۆرانیبێژ، ھتد دەوەستێت و نمایشەکە بەڕێوە دەبات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The conductor raised his baton."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرتیپی ئۆرکێستراکە دارەکەیی بەرزکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "conductor", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconductors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconductors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The conductor raised his baton.",
+                            kurdishText:
+                                "سەرتیپی ئۆرکێستراکە دارەکەیی بەرزکردەوە.", // conductor",
+                            onPressedBritish: () => speakconductors1("en-GB"),
+                            onPressedAmerican: () => speakconductors1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) مادەیەک کە ڕێگا بە تێپەڕبوونی گەرمی یان کارەبا بە ناویدا دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Wood is a poor conductor."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەختە گەیەنەرێکی لاوازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconductors2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconductors2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Wood is a poor conductor.",
+                            kurdishText: "تەختە گەیەنەرێکی لاوازە.",
+                            onPressedBritish: () => speakconductors2("en-GB"),
+                            onPressedAmerican: () => speakconductors2("en-US"),
                           ),
                         ],
                       ),

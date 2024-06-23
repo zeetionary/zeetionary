@@ -190,30 +190,12 @@ class EnglishEntrycelestial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە ئاسمان و بەھەشت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The moon is a celestial body."),
-                                    ExampleSentenceKurdish(
-                                        text: "مانگ تەنێکی ئاسمانییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "celestial", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcelestials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcelestials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The moon is a celestial body.",
+                            kurdishText:
+                                "مانگ تەنێکی ئاسمانییە.", // celestial",
+                            onPressedBritish: () => speakcelestials1("en-GB"),
+                            onPressedAmerican: () => speakcelestials1("en-US"),
                           ),
                         ],
                       ),

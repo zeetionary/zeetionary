@@ -242,60 +242,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەک ەک جێگای باوەڕە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We can credibly describe the band's latest album as their best yet."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە متمانەوە دەتوانین کۆتا ئەلبومی باندەکە وەک باشترینیان تاوەکو ئێستا ناوبێنین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "credibly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrediblys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrediblys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We can credibly describe the band's latest album as their best yet.",
+            kurdishText:
+                "بە متمانەوە دەتوانین کۆتا ئەلبومی باندەکە وەک باشترینیان تاوەکو ئێستا ناوبێنین.", // credibly", please follow LX instructions
+            onPressedBritish: () => speakcrediblys1("en-GB"),
+            onPressedAmerican: () => speakcrediblys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "No other news organization has credibly challenged a single fact."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ دامەزراوەیەکی دیکەی ھەواڵ بە متمانەوە دژ بە تاکە ڕاستییەک نەبووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrediblys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrediblys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "No other news organization has credibly challenged a single fact.",
+            kurdishText:
+                "ھیچ دامەزراوەیەکی دیکەی ھەواڵ بە متمانەوە دژ بە تاکە ڕاستییەک نەبووە.",
+            onPressedBritish: () => speakcrediblys2("en-GB"),
+            onPressedAmerican: () => speakcrediblys2("en-US"),
           ),
         ],
       ),

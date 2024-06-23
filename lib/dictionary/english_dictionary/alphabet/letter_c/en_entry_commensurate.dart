@@ -94,34 +94,15 @@ class EnglishEntrycommensurate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) یەکسان بە شتێک لە بڕ، قەبارە، گرنگی، کوالێتی، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Salary will be commensurate with experience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مووچە ھاوڕێژە دەبێت لەگەڵ ئەزمووندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commensurate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommensurates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommensurates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Salary will be commensurate with experience.",
+                            kurdishText:
+                                "مووچە ھاوڕێژە دەبێت لەگەڵ ئەزمووندا.", // commensurate",
+                            onPressedBritish: () =>
+                                speakcommensurates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommensurates1("en-US"),
                           ),
                         ],
                       ),

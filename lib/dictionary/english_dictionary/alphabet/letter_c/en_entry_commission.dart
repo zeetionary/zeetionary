@@ -218,60 +218,22 @@ class EnglishEntrycommission extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گرووپێکی فەرمی لە خەڵک کە ئەرکی کۆنترۆڵی شتێک یان دۆزینەوە لەسەر شتێکیان پێدراوە، بەتایبەتی لەلایەن حکومەتەوە "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The commission is expected to report its findings next month."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمسیۆنەکە چاوەڕێ دەکرێت مانگی داھاتوو دۆزینەوەکانی ئاشکرا بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commission", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommissions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommissions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The commission is expected to report its findings next month.",
+                            kurdishText:
+                                "کۆمسیۆنەکە چاوەڕێ دەکرێت مانگی داھاتوو دۆزینەوەکانی ئاشکرا بکات.", // commission",
+                            onPressedBritish: () => speakcommissions1("en-GB"),
+                            onPressedAmerican: () => speakcommissions1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The election commission found that neither candidate received enough votes to avoid a run-off."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمسیۆنی ھەڵبژاردنەکە دۆزییەوە ھیچ یەک لە کاندیدەکان دەنگی پێویستییان بەدەستنەھێنابوو بۆ دوورکەوتنەوە لە ڕووبەڕووبوونەوەی دووەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommissions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommissions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The election commission found that neither candidate received enough votes to avoid a run-off.",
+                            kurdishText:
+                                "کۆمسیۆنی ھەڵبژاردنەکە دۆزییەوە ھیچ یەک لە کاندیدەکان دەنگی پێویستییان بەدەستنەھێنابوو بۆ دوورکەوتنەوە لە ڕووبەڕووبوونەوەی دووەم.",
+                            onPressedBritish: () => speakcommissions2("en-GB"),
+                            onPressedAmerican: () => speakcommissions2("en-US"),
                           ),
                           Column(
                             children: [
@@ -404,282 +366,105 @@ class EnglishEntrycommission extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕێژەیەک پارە کە دەدرێت بە کەسێک بۆ فرۆشتنی کەلوپەل، و زیاد دەکات بەپێی ئەو ڕێژەیەی کە دەیفرۆشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You get a 10 per cent commission on everything you sell."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "١٠ لە سەدی دەڵاڵانە وەردەگریت بۆ ھەر شتێک کە دەیفرۆشیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommissions7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommissions7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You get a 10 per cent commission on everything you sell.",
+                            kurdishText:
+                                "١٠ لە سەدی دەڵاڵانە وەردەگریت بۆ ھەر شتێک کە دەیفرۆشیت.",
+                            onPressedBritish: () => speakcommissions7("en-GB"),
+                            onPressedAmerican: () => speakcommissions7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He earned £2 000 in commission last month."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مانگی ڕابردوو ٢٠٠٠ پاوەندی بە دەڵاڵانە بەدەستھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommissions8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommissions8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He earned £2 000 in commission last month.",
+                            kurdishText:
+                                "مانگی ڕابردوو ٢٠٠٠ پاوەندی بە دەڵاڵانە بەدەستھێنا.",
+                            onPressedBritish: () => speakcommissions8("en-GB"),
+                            onPressedAmerican: () => speakcommissions8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بڕە پارەیەک کە داوا دەکرێت لەلایەن بانکێک، ھتد بۆ خزمەتگوزارییەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "1 per cent commission is charged for exchanging foreign currency."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "١ لە سەدی کارانە دەسەندرێت بۆ گۆڕینەوەی دراوی بیانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommissions9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommissions9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "1 per cent commission is charged for exchanging foreign currency.",
+                            kurdishText:
+                                "١ لە سەدی کارانە دەسەندرێت بۆ گۆڕینەوەی دراوی بیانی.",
+                            onPressedBritish: () => speakcommissions9("en-GB"),
+                            onPressedAmerican: () => speakcommissions9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) داوایەکی فەرمی لە کەسێک بۆ دیزاینێک یان ئەنجامدانی کارێکی وەک بینایەک یان تابلۆیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Eventually she agreed to accept the commission."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتاییدا ڕازی بوو بە پەسەندکردنی داواکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommissions10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommissions10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Eventually she agreed to accept the commission.",
+                            kurdishText:
+                                "لە کۆتاییدا ڕازی بوو بە پەسەندکردنی داواکە.",
+                            onPressedBritish: () => speakcommissions10("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommissions10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He received a commission to design the new parliament building."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوایەکی پێگەشت بۆ دیزاینی بینا تازەکەی پەرلەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommissions11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommissions11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He received a commission to design the new parliament building.",
+                            kurdishText:
+                                "داوایەکی پێگەشت بۆ دیزاینی بینا تازەکەی پەرلەمان.",
+                            onPressedBritish: () => speakcommissions11("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommissions11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) پێگەی ئەفسەری لە سوپادا، زۆرجار بە پلەی ناوەند یان باڵاتر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He resigned his commission when he got married."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وازی لە ئەفسەرێتییەکەی ھێنا کە ھاوسەرگیری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommissions12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommissions12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He resigned his commission when he got married.",
+                            kurdishText:
+                                "وازی لە ئەفسەرێتییەکەی ھێنا کە ھاوسەرگیری کرد.",
+                            onPressedBritish: () => speakcommissions12("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommissions12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) بە فەرمی داواکردن لە کەسێک کە شتێک بنووسێت، درووستی بکات، یان شتێکت بۆ بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has been commissioned to write a new national anthem."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوای لێکراوە ئەنزیمێکی تازەی نیشتیمانی بنووسێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommissions13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommissions13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has been commissioned to write a new national anthem.",
+                            kurdishText:
+                                "داوای لێکراوە ئەنزیمێکی تازەی نیشتیمانی بنووسێت.",
+                            onPressedBritish: () => speakcommissions13("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommissions13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The king commissioned portraits from foreign artists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاشا داوای پۆرترەیتی لە ھونەرمەندە بیانییەکان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommissions14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommissions14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The king commissioned portraits from foreign artists.",
+                            kurdishText:
+                                "پاشا داوای پۆرترەیتی لە ھونەرمەندە بیانییەکان کرد.",
+                            onPressedBritish: () => speakcommissions14("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommissions14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کردار) ھەڵبژاردنی کەسێک وەک ئەفسەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has just been commissioned (as a) pilot officer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تازەگی وەک ئەفسەرێکی فڕۆکەوان ھەڵبژێردراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommissions15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommissions15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has just been commissioned (as a) pilot officer.",
+                            kurdishText:
+                                "تازەگی وەک ئەفسەرێکی فڕۆکەوان ھەڵبژێردراوە.",
+                            onPressedBritish: () => speakcommissions15("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommissions15("en-US"),
                           ),
                         ],
                       ),

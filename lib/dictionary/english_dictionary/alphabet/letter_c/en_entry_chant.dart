@@ -119,124 +119,46 @@ class EnglishEntrychant extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چەند وشەیەک کە کۆمەڵێک کەس دووبارە و دووبارە دەیڵێنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The crowd broke into chants of ‘Out! Out!’"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرووپەکە دەستیان کرد بە درووشمی 'دەرەوە! دەرەوە!'"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chant", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The crowd broke into chants of ‘Out! Out!’",
+                            kurdishText:
+                                "گرووپەکە دەستیان کرد بە درووشمی 'دەرەوە! دەرەوە!'", // chant",
+                            onPressedBritish: () => speakchants1("en-GB"),
+                            onPressedAmerican: () => speakchants1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) گۆرانییەک یان نزایەکی ئایینی کە چەند دێڕێکە و دووبارە و دووبارە دەکرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The monks gathered in the temple to perform a Buddhist chant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەبەنەکان لە پەرستگاکە کۆبوونەوە بۆ ئەنجامدانی موناجاتێکی بودیزیم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchants2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchants2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The monks gathered in the temple to perform a Buddhist chant.",
+                            kurdishText:
+                                "ڕەبەنەکان لە پەرستگاکە کۆبوونەوە بۆ ئەنجامدانی موناجاتێکی بودیزیم.",
+                            onPressedBritish: () => speakchants2("en-GB"),
+                            onPressedAmerican: () => speakchants2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) وتنەوەی درووشم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The crowd chanted their hero's name."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەماوەرەکە ناوی پاڵەوانەکەیان دەوتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchants3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchants3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The crowd chanted their hero's name.",
+                            kurdishText:
+                                "جەماوەرەکە ناوی پاڵەوانەکەیان دەوتەوە.",
+                            onPressedBritish: () => speakchants3("en-GB"),
+                            onPressedAmerican: () => speakchants3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) وتنەوەی گۆرانییەک یان نزایەکی ئایینی کە تەنھا چەند دێڕێکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We could hear the monks chanting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێمان لە ڕەبەنەکان بوو موناجاتیان دەخوێند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchants4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchants4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We could hear the monks chanting.",
+                            kurdishText:
+                                "گوێمان لە ڕەبەنەکان بوو موناجاتیان دەخوێند.",
+                            onPressedBritish: () => speakchants4("en-GB"),
+                            onPressedAmerican: () => speakchants4("en-US"),
                           ),
                         ],
                       ),

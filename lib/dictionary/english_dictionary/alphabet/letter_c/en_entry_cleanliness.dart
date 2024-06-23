@@ -101,64 +101,24 @@ class EnglishEntrycleanliness extends StatelessWidget {
 کوردی: خاوێنی، پاکی، تەمیزی، پاقژی
 """),
                           const DefinitionKurdish(text: "١. (ناو) پاکوخاوێنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some people are obsessive about cleanliness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کەس وەسواسن سەبارەت بە پاکوخاوێنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cleanliness", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcleanlinesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcleanlinesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some people are obsessive about cleanliness.",
+                            kurdishText:
+                                "ھەندێک کەس وەسواسن سەبارەت بە پاکوخاوێنی.", // cleanliness",
+                            onPressedBritish: () => speakcleanlinesss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcleanlinesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her job involved checking the cleanliness of restaurants."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکەی پشکنینی پاکوخاوێنی چێشتخانەکانی لەخۆ دەگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcleanlinesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcleanlinesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her job involved checking the cleanliness of restaurants.",
+                            kurdishText:
+                                "کارەکەی پشکنینی پاکوخاوێنی چێشتخانەکانی لەخۆ دەگرت.",
+                            onPressedBritish: () => speakcleanlinesss2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcleanlinesss2("en-US"),
                           ),
                         ],
                       ),

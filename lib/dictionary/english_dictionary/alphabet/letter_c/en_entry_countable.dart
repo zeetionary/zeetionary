@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ناوێک کە دەکرێت بژمێردرێت و بکرێت بە کۆ و لەگەڵ a و an بەکاربێت، بۆ نموونە بیرۆکە، پشیلە، و کورسی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Certain nouns may be countable in English and uncountable in another language, or vice versa."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناوی دیاریکراو ھەن کە دەکرێت ژمێردراو بن لە ئینگلیزیدا و نەژمێردراو بن لە زمانێکی دیکەدا، و بە پێچەوانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "countable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcountables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcountables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Certain nouns may be countable in English and uncountable in another language, or vice versa.",
+            kurdishText:
+                "ناوی دیاریکراو ھەن کە دەکرێت ژمێردراو بن لە ئینگلیزیدا و نەژمێردراو بن لە زمانێکی دیکەدا، و بە پێچەوانەوە.", // countable", please follow LX instructions
+            onPressedBritish: () => speakcountables1("en-GB"),
+            onPressedAmerican: () => speakcountables1("en-US"),
           ),
         ],
       ),

@@ -121,120 +121,42 @@ class EnglishEntrycompress extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پەستان خستنەسەر شتێک بۆ ئەوەی شوێنی کەم بگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As more snow fell, the bottom layer was compressed into ice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە بەفری زیاتر کەوت، چینی خوارەوە پەستێورا بۆ سەھۆڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "compress", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompresss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompresss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As more snow fell, the bottom layer was compressed into ice.",
+                            kurdishText:
+                                "کە بەفری زیاتر کەوت، چینی خوارەوە پەستێورا بۆ سەھۆڵ.", // compress",
+                            onPressedBritish: () => speakcompresss1("en-GB"),
+                            onPressedAmerican: () => speakcompresss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                      text: "She compressed her lips.",
-                                      note:
-                                          "also: Her lips compressed into a thin line.",
-                                    ),
-                                    ExampleSentenceKurdish(
-                                        text: "لێوەکانی لێک توندکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompresss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompresss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She compressed her lips.",
+                            englishNote: "also: Her lips compressed into a thin line.",
+                            kurdishText: "لێوەکانی لێک توندکرد.",
+                            onPressedBritish: () => speakcompresss2("en-GB"),
+                            onPressedAmerican: () => speakcompresss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) کەمکردنەوەی شتێک و جێکردنەوەی لە جێگایەکی بچووکتردا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Rehearsal time will have to be compressed into two evenings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاھێنان دەبێت کورتبکرێتەوە بۆ دوو شەو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompresss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompresss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Rehearsal time will have to be compressed into two evenings.",
+                            kurdishText:
+                                "ڕاھێنان دەبێت کورتبکرێتەوە بۆ دوو شەو.",
+                            onPressedBritish: () => speakcompresss3("en-GB"),
+                            onPressedAmerican: () => speakcompresss3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I managed to compress ten pages of notes into four paragraphs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانیم دە پەڕە لە تێبینی کورتبکەمەوە بۆ چوار پەرەگراف."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcompresss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcompresss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I managed to compress ten pages of notes into four paragraphs.",
+                            kurdishText:
+                                "توانیم دە پەڕە لە تێبینی کورتبکەمەوە بۆ چوار پەرەگراف.",
+                            onPressedBritish: () => speakcompresss4("en-GB"),
+                            onPressedAmerican: () => speakcompresss4("en-US"),
                           ),
                         ],
                       ),

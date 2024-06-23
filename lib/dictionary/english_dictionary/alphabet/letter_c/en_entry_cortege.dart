@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕیزی ئۆتۆمبێل یان خەڵکی کە لە مەراسیمی ناشتنێکدا بەژدارن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cortège made its way slowly through the streets to the cemetery."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەڕێکەران بەھێواشی ڕێگایان گرتەبەر بە شەقاکەدا بەرەو گۆڕستانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cortege", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcorteges1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcorteges1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cortège made its way slowly through the streets to the cemetery.",
+            kurdishText:
+                "بەڕێکەران بەھێواشی ڕێگایان گرتەبەر بە شەقاکەدا بەرەو گۆڕستانەکە.", // cortege", please follow LX instructions
+            onPressedBritish: () => speakcorteges1("en-GB"),
+            onPressedAmerican: () => speakcorteges1("en-US"),
           ),
         ],
       ),

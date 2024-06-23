@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) باڵندەیەک کە دەنگێک دەردەکات کە وەک ناوەکەیەتی و ھێلکەکانی لە ھێلانەی باڵندەی دیکەدا جێدێڵێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cuckoo is a migratory bird that travels long distances."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کوکوو باڵندەیەکی کۆچەرییە کە مەدای دوور گەشت دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cuckoo", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcuckoos1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcuckoos1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cuckoo is a migratory bird that travels long distances.",
+            kurdishText:
+                "کوکوو باڵندەیەکی کۆچەرییە کە مەدای دوور گەشت دەکات.", // cuckoo", please follow LX instructions
+            onPressedBritish: () => speakcuckoos1("en-GB"),
+            onPressedAmerican: () => speakcuckoos1("en-US"),
           ),
         ],
       ),

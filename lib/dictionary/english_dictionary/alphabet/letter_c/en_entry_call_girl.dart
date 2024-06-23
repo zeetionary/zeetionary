@@ -193,32 +193,13 @@ class EnglishEntrycallgirl extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژنێک کە کاری لەشفرۆشی دەکات لە ڕێگەی موبایل و ئینتەرنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many call girls have their own websites with some personal details."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر لەشفرۆش وێبسایتی خۆیان ھەیە لەگەڵ ھەندێک زانیاریی کەسی تێیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "call girl", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcallgirls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcallgirls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many call girls have their own websites with some personal details.",
+                            kurdishText:
+                                "زۆر لەشفرۆش وێبسایتی خۆیان ھەیە لەگەڵ ھەندێک زانیاریی کەسی تێیدا.", // call girl
+                            onPressedBritish: () => speakcallgirls1("en-GB"),
+                            onPressedAmerican: () => speakcallgirls1("en-US"),
                           ),
                         ],
                       ),

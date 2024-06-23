@@ -193,32 +193,13 @@ class EnglishEntrycancerous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) تووشبوو یان درووست بوو بەھۆی شێرپەنجەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Doctors consider their treatment a success when no cancerous cells remain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پزیشکان چارەسەرەکەیان بە سەرکەوتوو ناودەھێنن ئەگەر ھیچ خانەیەکی شێرپەنجەگرتوو نەمێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cancerous", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcancerouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcancerouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Doctors consider their treatment a success when no cancerous cells remain.",
+                            kurdishText:
+                                "پزیشکان چارەسەرەکەیان بە سەرکەوتوو ناودەھێنن ئەگەر ھیچ خانەیەکی شێرپەنجەگرتوو نەمێنێتەوە.", // cancerous
+                            onPressedBritish: () => speakcancerouss1("en-GB"),
+                            onPressedAmerican: () => speakcancerouss1("en-US"),
                           ),
                         ],
                       ),

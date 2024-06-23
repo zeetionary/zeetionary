@@ -113,97 +113,39 @@ class EnglishEntryclassification extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پۆلێنکردنی خەڵکی یان شت بۆ ناو ئەو گرووپانەی کە بۆی دەگەڕێنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you understand the system of classification used in science?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەو سیستەمی پۆلێنکردنە تێدەگەیت کە لە زانستدا بەکاردێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "classification", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclassifications1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclassifications1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do you understand the system of classification used in science?",
+                            kurdishText:
+                                "لەو سیستەمی پۆلێنکردنە تێدەگەیت کە لە زانستدا بەکاردێت.", // classification",
+                            onPressedBritish: () =>
+                                speakclassifications1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclassifications1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The classification of bony fish is extremely complicated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلێنی ماسی پڕلەدڕوو زۆر ئاڵۆزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclassifications3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclassifications3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The classification of bony fish is extremely complicated.",
+                            kurdishText: "پۆلێنی ماسی پڕلەدڕوو زۆر ئاڵۆزە.",
+                            onPressedBritish: () =>
+                                speakclassifications3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclassifications3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) گرووپێک، ئاستێک، ھتد کە کەسێک یان شتێک پۆلێن دەکرێتە ناوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The classification ‘science’ covers a great many different subjects."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلێنی 'زانست' دەکرێت زۆر بابەتی جیاواز بگرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakclassifications2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakclassifications2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The classification ‘science’ covers a great many different subjects.",
+                            kurdishText:
+                                "پۆلێنی 'زانست' دەکرێت زۆر بابەتی جیاواز بگرێتەوە.",
+                            onPressedBritish: () =>
+                                speakclassifications2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakclassifications2("en-US"),
                           ),
                         ],
                       ),

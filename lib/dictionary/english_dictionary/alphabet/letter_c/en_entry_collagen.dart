@@ -95,32 +95,13 @@ class EnglishEntrycollagen extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆلاجین؛ پڕۆتینێک کە لە ناو پێستدایە، و ھەندێک جار زیاد دەخرێتە ناو پێست، بۆ باشترکردنی ڕواڵەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Collagen implants don't help the blemishes left by chicken pox or acne."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داچاندنی کۆلاجین یارمەتیدەر نابێت لە لادانی نیشانەکانی دڕکەمێکوتە و ئاکنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collagen", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollagens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollagens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Collagen implants don't help the blemishes left by chicken pox or acne.",
+                            kurdishText:
+                                "داچاندنی کۆلاجین یارمەتیدەر نابێت لە لادانی نیشانەکانی دڕکەمێکوتە و ئاکنی.", // collagen",
+                            onPressedBritish: () => speakcollagens1("en-GB"),
+                            onPressedAmerican: () => speakcollagens1("en-US"),
                           ),
                         ],
                       ),

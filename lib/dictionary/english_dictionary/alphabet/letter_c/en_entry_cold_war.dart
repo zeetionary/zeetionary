@@ -95,32 +95,13 @@ class EnglishEntrycoldwar extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جەنگی سارد: پەیوەندی نێوان دوو وڵات کە دۆست نین بەڵام لە جەنگیشدا نین، زۆرجار بە پەیوەندی نێوان ئەمریکا و یەکێتی سۆڤیەت دەوترێت لە دوای جەنگی دووەمی جیھانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Cold War dominated international relations for much of the 20th century."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەنگی سارد بابەتی گرنگی پەیوەندییە نێودەوڵەتییەکان بوو بۆ زۆرینەی سەدەی ٢٠ ـەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "cold war", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoldwars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoldwars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Cold War dominated international relations for much of the 20th century.",
+                            kurdishText:
+                                "جەنگی سارد بابەتی گرنگی پەیوەندییە نێودەوڵەتییەکان بوو بۆ زۆرینەی سەدەی ٢٠ ـەم.", // cold war",
+                            onPressedBritish: () => speakcoldwars1("en-GB"),
+                            onPressedAmerican: () => speakcoldwars1("en-US"),
                           ),
                         ],
                       ),

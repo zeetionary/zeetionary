@@ -191,32 +191,13 @@ class EnglishEntrycfc extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کلۆرۆفلۆرۆکاربۆن؛ جۆرە گازێک کە پێشتر لەو بەرھەمانەدا بەکاردەھات کە شلەیان لە پەستانی بەرزدا تێدایە، و زانراوە کە زیانبەخشە بپ چینی ئۆزۆن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "CFCs cause damage to the ozone layer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلۆرۆفلۆرۆکاربۆن زیانبەخشە بۆ چینی ئۆزۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "CFC", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakCFCs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakCFCs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "CFCs cause damage to the ozone layer.",
+                            kurdishText:
+                                "کلۆرۆفلۆرۆکاربۆن زیانبەخشە بۆ چینی ئۆزۆن.", // CFC",
+                            onPressedBritish: () => speakCFCs1("en-GB"),
+                            onPressedAmerican: () => speakCFCs1("en-US"),
                           ),
                         ],
                       ),

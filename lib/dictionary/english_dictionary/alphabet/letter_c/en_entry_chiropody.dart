@@ -95,32 +95,13 @@ class EnglishEntrychiropody extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کاری چاودێریکردنی پای خەڵکی وەک پزیشک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you are disabled, you are entitled to free chiropody."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر پەککەوتەیت، دەکرێت چاودێری پا بێ‌بەرامبەر وەربگریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chiropody", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchiropodys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchiropodys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you are disabled, you are entitled to free chiropody.",
+                            kurdishText:
+                                "ئەگەر پەککەوتەیت، دەکرێت چاودێری پا بێ‌بەرامبەر وەربگریت.", // chiropody",
+                            onPressedBritish: () => speakchiropodys1("en-GB"),
+                            onPressedAmerican: () => speakchiropodys1("en-US"),
                           ),
                         ],
                       ),

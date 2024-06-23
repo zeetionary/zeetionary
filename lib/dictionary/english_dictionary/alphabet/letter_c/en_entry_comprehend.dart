@@ -103,60 +103,22 @@ class EnglishEntrycomprehend extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) تێگەشتن لە شتێک بە تەواوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The infinite distances of space are too great for the human mind to comprehend."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەودا بێ‌کۆتاکانی ئاسمان زۆر گەورەترن لەوەی مێشکی مرۆڤ لێی تێ بگات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "comprehend", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomprehends1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomprehends1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The infinite distances of space are too great for the human mind to comprehend.",
+                            kurdishText:
+                                "مەودا بێ‌کۆتاکانی ئاسمان زۆر گەورەترن لەوەی مێشکی مرۆڤ لێی تێ بگات.", // comprehend",
+                            onPressedBritish: () => speakcomprehends1("en-GB"),
+                            onPressedAmerican: () => speakcomprehends1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She could not comprehend how someone would risk people's lives in that way."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەیدەتوانی تێبگات چۆن کەسێک ژیانی خەڵکی دەخاتە مەترسییەوە بەو شێوەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcomprehends2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcomprehends2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She could not comprehend how someone would risk people's lives in that way.",
+                            kurdishText:
+                                "نەیدەتوانی تێبگات چۆن کەسێک ژیانی خەڵکی دەخاتە مەترسییەوە بەو شێوەیە.",
+                            onPressedBritish: () => speakcomprehends2("en-GB"),
+                            onPressedAmerican: () => speakcomprehends2("en-US"),
                           ),
                         ],
                       ),

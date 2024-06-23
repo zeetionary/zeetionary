@@ -104,60 +104,22 @@ class EnglishEntryconsomme extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شۆربایەکی ڕوون کە لە گۆشتاو درووست دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do not boil too fast or the consommé will become cloudy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەرگەکە زۆر زۆر مەکوڵێنە ئەگەرنا ھەس دەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consommé", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsommes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsommes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do not boil too fast or the consommé will become cloudy.",
+                            kurdishText:
+                                "مەرگەکە زۆر زۆر مەکوڵێنە ئەگەرنا ھەس دەبێتەوە.", // consommé",
+                            onPressedBritish: () => speakconsommes1("en-GB"),
+                            onPressedAmerican: () => speakconsommes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Pour over a little of the consomme to soften the beef and warm it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمێک لە گۆشتاوەکە بڕژێنە سەر گۆشتە بەرازەکەدا بۆ نەرمکردن و گەرمکردنەوەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsommes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsommes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Pour over a little of the consomme to soften the beef and warm it.",
+                            kurdishText:
+                                "کەمێک لە گۆشتاوەکە بڕژێنە سەر گۆشتە بەرازەکەدا بۆ نەرمکردن و گەرمکردنەوەی.",
+                            onPressedBritish: () => speakconsommes2("en-GB"),
+                            onPressedAmerican: () => speakconsommes2("en-US"),
                           ),
                         ],
                       ),

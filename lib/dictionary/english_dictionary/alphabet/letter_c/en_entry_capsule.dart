@@ -193,94 +193,37 @@ class EnglishEntrycapsule extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەڵگرێکی بچووک کە ڕێژەیەکی دیاریکراو لە دەرمانی تێدایە و دەبێت بە شلە کە قوتی دەدەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The medicine can be taken in tablet or capsule form."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرمانەکە دەکرێت وەک حەب یان کاپسوول بخوردرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capsule", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapsules1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapsules1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The medicine can be taken in tablet or capsule form.",
+                            kurdishText:
+                                "دەرمانەکە دەکرێت وەک حەب یان کاپسوول بخوردرێت.", // capsule
+                            onPressedBritish: () => speakcapsules1("en-GB"),
+                            onPressedAmerican: () => speakcapsules1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھەڵگرێکی بچووکی پلاستیکی کە مادەیەک یان شلەی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "To avoid capture, he swallowed a cyanide capsule."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ئەوەی دەستگیرنەکرێت کاپسوولێک لە سیانیدی خوارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapsules2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapsules2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "To avoid capture, he swallowed a cyanide capsule.",
+                            kurdishText:
+                                "بۆ ئەوەی دەستگیرنەکرێت کاپسوولێک لە سیانیدی خوارد.",
+                            onPressedBritish: () => speakcapsules2("en-GB"),
+                            onPressedAmerican: () => speakcapsules2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بەشێکی کەشتی ئاسمانی کە سەرنشینەکانی تێدایە و جیاکراوەتەوە لە بەشی سەرەکیی کەشتییەکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The astronauts blasted off to Mars in their protective capsule."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاسمانەوانەکان فڕین بەرەو مەریخ لە کاپسوولە پارێزەرەکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcapsules3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcapsules3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The astronauts blasted off to Mars in their protective capsule.",
+                            kurdishText:
+                                "ئاسمانەوانەکان فڕین بەرەو مەریخ لە کاپسوولە پارێزەرەکەیان.",
+                            onPressedBritish: () => speakcapsules3("en-GB"),
+                            onPressedAmerican: () => speakcapsules3("en-US"),
                           ),
                         ],
                       ),

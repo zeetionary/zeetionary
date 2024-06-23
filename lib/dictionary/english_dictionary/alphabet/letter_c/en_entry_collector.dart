@@ -95,32 +95,13 @@ class EnglishEntrycollector extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە شت کۆدەکاتەوە، بەتایبەتی وەک کار یان خولیایەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His passion for Japanese art drove him to become a respected collector in the art community."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزی بۆ ژاپۆن گەیاندی بە بوون بە کۆکەرەوەیەکی بەناوبانگی جیھانی ھونەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "collector", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcollectors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcollectors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His passion for Japanese art drove him to become a respected collector in the art community.",
+                            kurdishText:
+                                "حەزی بۆ ژاپۆن گەیاندی بە بوون بە کۆکەرەوەیەکی بەناوبانگی جیھانی ھونەری.", // collector",
+                            onPressedBritish: () => speakcollectors1("en-GB"),
+                            onPressedAmerican: () => speakcollectors1("en-US"),
                           ),
                         ],
                       ),

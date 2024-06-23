@@ -104,64 +104,26 @@ class EnglishEntrycondemnation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سەرکۆنەکردنی شتێک؛ وتنی ئەوەی شتێک زۆر خراپە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was widespread condemnation of the invasion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئیدانەی بەرفراوانی داگیرکارییەکە ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "condemnation", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcondemnations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcondemnations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was widespread condemnation of the invasion.",
+                            kurdishText:
+                                "ئیدانەی بەرفراوانی داگیرکارییەکە ھەبوو.", // condemnation",
+                            onPressedBritish: () =>
+                                speakcondemnations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcondemnations1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He issued a blanket condemnation of all terrorism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکۆنەی ھەموو جۆرێکی تیرۆریزمی ڕاگەیاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcondemnations2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcondemnations2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He issued a blanket condemnation of all terrorism.",
+                            kurdishText:
+                                "سەرکۆنەی ھەموو جۆرێکی تیرۆریزمی ڕاگەیاند.",
+                            onPressedBritish: () =>
+                                speakcondemnations2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcondemnations2("en-US"),
                           ),
                         ],
                       ),

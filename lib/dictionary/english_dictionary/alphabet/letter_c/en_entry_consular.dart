@@ -95,32 +95,13 @@ class EnglishEntryconsular extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە کونسوڵ یان کونسوڵخانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Consular officials assist citizens with passport renewal and other consular services."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسانی کونسوڵخانە یارمەتی ھاوڵاتیان دەدەن بۆ نوێکردنەوەی پاسپۆرت و خزمەتگوزارییەکانی دیکەی کونسوڵخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "consular", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakconsulars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakconsulars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Consular officials assist citizens with passport renewal and other consular services.",
+                            kurdishText:
+                                "بەرپرسانی کونسوڵخانە یارمەتی ھاوڵاتیان دەدەن بۆ نوێکردنەوەی پاسپۆرت و خزمەتگوزارییەکانی دیکەی کونسوڵخانە.", // consular",
+                            onPressedBritish: () => speakconsulars1("en-GB"),
+                            onPressedAmerican: () => speakconsulars1("en-US"),
                           ),
                         ],
                       ),

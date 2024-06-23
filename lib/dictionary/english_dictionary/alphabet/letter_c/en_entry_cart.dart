@@ -194,244 +194,91 @@ class EnglishEntrycart extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) عەرەبانەیەک کە دوو یان چوار ویلی ھەیە و ئەسپێک ڕایدەکێشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Milk was delivered by horse and cart in those days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شیر ئەو ڕۆژانە بە ئەسپ و عەرەبانە دەگوازرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cart", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Milk was delivered by horse and cart in those days.",
+                            kurdishText:
+                                "شیر ئەو ڕۆژانە بە ئەسپ و عەرەبانە دەگوازرایەوە.", // cart",
+                            onPressedBritish: () => speakcarts1("en-GB"),
+                            onPressedAmerican: () => speakcarts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An ox cart made its way through the village."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "عەرەبانەی گامێشێک ھاتە گوندەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An ox cart made its way through the village.",
+                            kurdishText: "عەرەبانەی گامێشێک ھاتە گوندەکە.",
+                            onPressedBritish: () => speakcarts2("en-GB"),
+                            onPressedAmerican: () => speakcarts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) عەرەبانەیەک کە بە دەست پاڵ دەدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A man was wheeling an ice-cream cart along."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوێک عەرەبانەیەکی ئایس کرێمی پاڵدەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A man was wheeling an ice-cream cart along.",
+                            kurdishText:
+                                "پیاوێک عەرەبانەیەکی ئایس کرێمی پاڵدەدا.",
+                            onPressedBritish: () => speakcarts3("en-GB"),
+                            onPressedAmerican: () => speakcarts3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) گالیسکەیەکی کە بۆ ھەڵگرتنی شت بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We'll need a shopping cart because we need a lot of items."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستیمان بە گالیسکەیەکی بازاڕکردن ھەیە چونکە شتی زۆرمان پێویستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We'll need a shopping cart because we need a lot of items.",
+                            kurdishText:
+                                "پێویستیمان بە گالیسکەیەکی بازاڕکردن ھەیە چونکە شتی زۆرمان پێویستە.",
+                            onPressedBritish: () => speakcarts4("en-GB"),
+                            onPressedAmerican: () => speakcarts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) بەشێکی وێبسایتێک کە ئەو شتانە لەخۆ دەگرێت کە دەتەوێت بیانکڕیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Your cart is currently empty."),
-                                    ExampleSentenceKurdish(
-                                        text: "کارتەکەت لە ئێستادا بەتاڵە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Your cart is currently empty.",
+                            kurdishText: "کارتەکەت لە ئێستادا بەتاڵە.",
+                            onPressedBritish: () => speakcarts5("en-GB"),
+                            onPressedAmerican: () => speakcarts5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) گواستنەوەی شتێک بە عارەبانە یان ئامێری گواستنەوەی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rubbish is then carted away for recycling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زباڵەکە دواتر دەگوازرێتەوە بۆ دووبارە بەکارھێنان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The rubbish is then carted away for recycling.",
+                            kurdishText:
+                                "زباڵەکە دواتر دەگوازرێتەوە بۆ دووبارە بەکارھێنان.",
+                            onPressedBritish: () => speakcarts6("en-GB"),
+                            onPressedAmerican: () => speakcarts6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) ھەڵگرتنی شتێک کە گەورە و قورسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We had to cart our luggage up six flights of stairs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبوو کەلوپەلەکەمان شەش ڕیزەپلیکانە ھەڵبگرین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We had to cart our luggage up six flights of stairs.",
+                            kurdishText:
+                                "دەبوو کەلوپەلەکەمان شەش ڕیزەپلیکانە ھەڵبگرین.",
+                            onPressedBritish: () => speakcarts7("en-GB"),
+                            onPressedAmerican: () => speakcarts7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) بردنی کەسێک بۆ شوێنێک، بەتایبەتی بە ناڕەحەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The demonstrators were carted off to the local police station."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆپیشاندەران ڕاگوێزران بۆ بنکەی ناوخۆیی پۆلیس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcarts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcarts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The demonstrators were carted off to the local police station.",
+                            kurdishText:
+                                "خۆپیشاندەران ڕاگوێزران بۆ بنکەی ناوخۆیی پۆلیس.",
+                            onPressedBritish: () => speakcarts9("en-GB"),
+                            onPressedAmerican: () => speakcarts9("en-US"),
                           ),
                         ],
                       ),

@@ -102,61 +102,23 @@ class EnglishEntrycoddle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) مامەڵەکردن لەگەڵ کەسێک بە ئاگایی و سەرنجی زۆرەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She coddles him like a child."),
-                                    ExampleSentenceKurdish(
-                                        text: "وەک منداڵ دەیلاوێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "coddle", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoddles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoddles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She coddles him like a child.",
+                            kurdishText: "وەک منداڵ دەیلاوێنێتەوە.", // coddle",
+                            onPressedBritish: () => speakcoddles1("en-GB"),
+                            onPressedAmerican: () => speakcoddles1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) کوڵاندنی ھێلکە لە ئاودا کەمێک لە ژێر پلەی کوڵان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He liked his eggs coddled rather than fried."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزی بەوە بوو ھێلکەکانی نیوەکوڵ بن وەک لەوەی برژاو بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcoddles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcoddles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He liked his eggs coddled rather than fried.",
+                            kurdishText:
+                                "حەزی بەوە بوو ھێلکەکانی نیوەکوڵ بن وەک لەوەی برژاو بن.",
+                            onPressedBritish: () => speakcoddles2("en-GB"),
+                            onPressedAmerican: () => speakcoddles2("en-US"),
                           ),
                         ],
                       ),

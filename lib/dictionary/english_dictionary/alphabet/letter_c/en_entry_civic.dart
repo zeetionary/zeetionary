@@ -112,90 +112,33 @@ class EnglishEntrycivic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سەر/پەیوەندیدار بە شارۆچکەیەک یان شارێک، یان دانیشتووانەکەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prime minister met many civic leaders, including the mayor and the leaders of immigrant communities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک وەزیران ژمارەیەکی زۆری سەرکردەی شارەکانی بینیوە، لە نێوانیاندا سەرۆک شارەوانی و سەرکردەکانی کۆمەڵگەکانی پەنابەران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "civic", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prime minister met many civic leaders, including the mayor and the leaders of immigrant communities.",
+                            kurdishText:
+                                "سەرۆک وەزیران ژمارەیەکی زۆری سەرکردەی شارەکانی بینیوە، لە نێوانیاندا سەرۆک شارەوانی و سەرکردەکانی کۆمەڵگەکانی پەنابەران.", // civic",
+                            onPressedBritish: () => speakcivics1("en-GB"),
+                            onPressedAmerican: () => speakcivics1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She felt it was her civic duty to tell the police."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی کرد ئەوە ئەرکی ھاوڵاتیبوونیەتی کە پۆلیس ئاگادار بکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivics3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivics3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She felt it was her civic duty to tell the police.",
+                            kurdishText:
+                                "ھەستی کرد ئەوە ئەرکی ھاوڵاتیبوونیەتی کە پۆلیس ئاگادار بکاتەوە.",
+                            onPressedBritish: () => speakcivics3("en-GB"),
+                            onPressedAmerican: () => speakcivics3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The museum is a great source of civic pride."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆزەخانەکە جێگەی شانازی گەورەی خەڵکی شارەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcivics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcivics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The museum is a great source of civic pride.",
+                            kurdishText:
+                                "مۆزەخانەکە جێگەی شانازی گەورەی خەڵکی شارەکەیە.",
+                            onPressedBritish: () => speakcivics2("en-GB"),
+                            onPressedAmerican: () => speakcivics2("en-US"),
                           ),
                         ],
                       ),

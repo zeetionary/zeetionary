@@ -95,32 +95,13 @@ class EnglishEntrycontraflow extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سیستەمێکی ھاتووچۆی سەر ڕێگا کە بەکاردێت کاتێک سایدێکی ڕێگایەک داخراوە بۆ چاککردنەوە و سایدەکەی دیکە بۆ ھەردوو ئاراستە بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A contraflow system is in operation on this section of the motorway."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیستەمی ڕووەوساید لە کارایە لەم بەشەی پانەڕێیەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contraflow", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcontraflows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcontraflows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A contraflow system is in operation on this section of the motorway.",
+                            kurdishText:
+                                "سیستەمی ڕووەوساید لە کارایە لەم بەشەی پانەڕێیەکە.", // contraflow",
+                            onPressedBritish: () => speakcontraflows1("en-GB"),
+                            onPressedAmerican: () => speakcontraflows1("en-US"),
                           ),
                         ],
                       ),

@@ -176,321 +176,108 @@ class EnglishEntrycode extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سیستەمێک لە وشە، پیت، ژمارە، یان سمبول کە ئاماژەن بە پەیامێک یان زانیاری تۆمار دەکەن بە شێوەی نھێنی بە کورتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It's written in code."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە کۆد نووسراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "code", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcodes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcodes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's written in code.",
+                            kurdishText: "بە کۆد نووسراوە.", // code",
+                            onPressedBritish: () => speakcodes1("en-GB"),
+                            onPressedAmerican: () => speakcodes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the event of the machine not operating correctly, an error code will appear."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە حاڵەتی ئەوەی ئامێرەکە بەباشی کار نەکات کۆدێکی نادرووستی دەردەکەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcodes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcodes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the event of the machine not operating correctly, an error code will appear.",
+                            kurdishText:
+                                "لە حاڵەتی ئەوەی ئامێرەکە بەباشی کار نەکات کۆدێکی نادرووستی دەردەکەوێت.",
+                            onPressedBritish: () => speakcodes2("en-GB"),
+                            onPressedAmerican: () => speakcodes2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The code was difficult to crack."),
-                                    ExampleSentenceKurdish(
-                                        text: "کۆدەکە سەخت بوو بشکێندرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcodes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcodes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The code was difficult to crack.",
+                            kurdishText: "کۆدەکە سەخت بوو بشکێندرێت.",
+                            onPressedBritish: () => speakcodes3("en-GB"),
+                            onPressedAmerican: () => speakcodes3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کۆدی پەیوەندی کە بۆ شارۆچکەیەک، ناوچەیەک، یان وڵاتێکی دیاریکراو بەکاردێت لە پێش ژمارەی پەیوەندییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are three codes for London."),
-                                    ExampleSentenceKurdish(
-                                        text: "سێ کۆد بۆ لەندەن ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcodes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcodes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "There are three codes for London.",
+                            kurdishText: "سێ کۆد بۆ لەندەن ھەیە.",
+                            onPressedBritish: () => speakcodes4("en-GB"),
+                            onPressedAmerican: () => speakcodes4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) سیستەمێک لە ڕێنمایی پڕۆگرامی کۆمپیوتەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bill wrote the computer code for the project."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیڵ کۆدێکی کۆمپیوتەری نووسی بۆ پڕۆژەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcodes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcodes5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bill wrote the computer code for the project.",
+                            kurdishText:
+                                "بیڵ کۆدێکی کۆمپیوتەری نووسی بۆ پڕۆژەکە.",
+                            onPressedBritish: () => speakcodes5("en-GB"),
+                            onPressedAmerican: () => speakcodes5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You only need to add a few lines of code."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستە تەنھا چەند دێڕێکی کۆد بنووسیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcodes6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcodes6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You only need to add a few lines of code.",
+                            kurdishText:
+                                "پێویستە تەنھا چەند دێڕێکی کۆد بنووسیت.",
+                            onPressedBritish: () => speakcodes6("en-GB"),
+                            onPressedAmerican: () => speakcodes6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) کۆمەڵێک ڕێسا و یاسا کە پەسەندکراوە لە کاتی ڕەفتارکردن و ھەڵسوکەوتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She lives by her own moral code."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە ڕێسای ئەخلاقی خۆی دەژی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcodes7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcodes7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She lives by her own moral code.",
+                            kurdishText: "بە ڕێسای ئەخلاقی خۆی دەژی.",
+                            onPressedBritish: () => speakcodes7("en-GB"),
+                            onPressedAmerican: () => speakcodes7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The school enforces a strict code of conduct."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوتابخانەکە ڕێسا و یاسای ڕێسا و یاسای توند پەیڕەو دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcodes8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcodes8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The school enforces a strict code of conduct.",
+                            kurdishText:
+                                "قوتابخانەکە ڕێسا و یاسای ڕێسا و یاسای توند پەیڕەو دەکات.",
+                            onPressedBritish: () => speakcodes8("en-GB"),
+                            onPressedAmerican: () => speakcodes8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) سیستەمێکی یاسا و پەیڕەوی نووسراو کە دیاری دەکات کە ھەڵسوکەوتی پەسەندکراو لە دامەزراوەیەک یان وڵاتێک دیاری دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The law includes amendments to the penal code."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاساکە ھەمواری تێدا دەبێت بۆ یاسای سزادان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcodes9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcodes9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The law includes amendments to the penal code.",
+                            kurdishText:
+                                "یاساکە ھەمواری تێدا دەبێت بۆ یاسای سزادان.",
+                            onPressedBritish: () => speakcodes9("en-GB"),
+                            onPressedAmerican: () => speakcodes9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) دیاریکردنی شتێک، بۆ نموونە بە پیت، ژمارە، ناو، یان ڕەنگ بۆ ئەوەی بزانیت چییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Each order is coded separately."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەر بڕیارێک بە جیایی کۆدکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcodes10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcodes10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Each order is coded separately.",
+                            kurdishText: "ھەر بڕیارێک بە جیایی کۆدکراوە.",
+                            onPressedBritish: () => speakcodes10("en-GB"),
+                            onPressedAmerican: () => speakcodes10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Each story was coded into one of 31 categories for domestic news, while foreign news was separately coded by country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەر بابەتێک کۆد کرا بە ٣١ بەشەوە بۆ ھەواڵی ناوخۆیی، لە کاتێکدا ھەواڵی دەرەکی بە جیایی بەپێی وڵات کۆدیان پێدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcodes11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcodes11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Each story was coded into one of 31 categories for domestic news, while foreign news was separately coded by country.",
+                            kurdishText:
+                                "ھەر بابەتێک کۆد کرا بە ٣١ بەشەوە بۆ ھەواڵی ناوخۆیی، لە کاتێکدا ھەواڵی دەرەکی بە جیایی بەپێی وڵات کۆدیان پێدرا.",
+                            onPressedBritish: () => speakcodes11("en-GB"),
+                            onPressedAmerican: () => speakcodes11("en-US"),
                           ),
                         ],
                       ),

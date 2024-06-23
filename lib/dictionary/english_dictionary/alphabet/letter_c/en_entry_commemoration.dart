@@ -95,34 +95,15 @@ class EnglishEntrycommemoration extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئاھەنگێک، چالاکییەک، ھتد کە بۆ یادکردنەوەی شتێکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Protests and commemorations took place in several cities on the anniversary of the uprising."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناڕەزایی و یادکردنەوە ڕوویاندا لە ژمارەیەک شارد لە ساڵیادی ڕاپەڕینەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commemoration", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommemorations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommemorations1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Protests and commemorations took place in several cities on the anniversary of the uprising.",
+                            kurdishText:
+                                "ناڕەزایی و یادکردنەوە ڕوویاندا لە ژمارەیەک شارد لە ساڵیادی ڕاپەڕینەکەدا.", // commemoration",
+                            onPressedBritish: () =>
+                                speakcommemorations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommemorations1("en-US"),
                           ),
                         ],
                       ),

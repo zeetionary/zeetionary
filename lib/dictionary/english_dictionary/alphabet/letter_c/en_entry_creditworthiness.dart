@@ -235,32 +235,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) متمانەی ئەوەی کەسێک قەرزێک بداتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Unpaid medical debts ruined their creditworthiness."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قەرزە پزیشکییە نەدراوەکان متمانەیانی بۆ قەرزکردن لەکەدارکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creditworthiness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreditworthinesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreditworthinesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Unpaid medical debts ruined their creditworthiness.",
+            kurdishText:
+                "قەرزە پزیشکییە نەدراوەکان متمانەیانی بۆ قەرزکردن لەکەدارکرد.", // creditworthiness", please follow LX instructions
+            onPressedBritish: () => speakcreditworthinesss1("en-GB"),
+            onPressedAmerican: () => speakcreditworthinesss1("en-US"),
           ),
         ],
       ),

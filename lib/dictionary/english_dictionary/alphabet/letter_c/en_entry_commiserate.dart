@@ -94,34 +94,14 @@ class EnglishEntrycommiserate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) دڵدانەوەی کەسێک کە کاتێک بێزار یان ھیوابڕاون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She commiserated with the losers on their defeat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوسۆزی دەربڕی بۆ دۆڕاوەکان بەھۆی شکستەکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commiserate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommiserates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommiserates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She commiserated with the losers on their defeat.",
+                            kurdishText:
+                                "ھاوسۆزی دەربڕی بۆ دۆڕاوەکان بەھۆی شکستەکەیان.", // commiserate",
+                            onPressedBritish: () => speakcommiserates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommiserates1("en-US"),
                           ),
                         ],
                       ),

@@ -99,34 +99,15 @@ class EnglishEntrycommercialtraveller extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە بە ناوچەیەکدا دەگەڕێت و بەرھەمەکانی کۆمپانیایەک دەفرۆشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She worked as a commercial traveler for a pharmaceutical company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک مەندووبێک بۆ کۆمپانیایەکی دەوا و دەرمان کاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commercial traveller", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommercialtravellers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommercialtravellers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She worked as a commercial traveler for a pharmaceutical company.",
+                            kurdishText:
+                                "وەک مەندووبێک بۆ کۆمپانیایەکی دەوا و دەرمان کاری دەکرد.", // commercial traveller",
+                            onPressedBritish: () =>
+                                speakcommercialtravellers1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommercialtravellers1("en-US"),
                           ),
                         ],
                       ),

@@ -104,64 +104,26 @@ class EnglishEntrychronological extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ڕیزبەندکراو بەپێی کاتی ڕوودان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Give me the dates in chronological order."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەروارەکانم بە ڕیزبەندی کات پێبدە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chronological", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchronologicals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchronologicals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Give me the dates in chronological order.",
+                            kurdishText:
+                                "بەروارەکانم بە ڕیزبەندی کات پێبدە.", // chronological",
+                            onPressedBritish: () =>
+                                speakchronologicals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchronologicals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The narrative line of the book is not chronological."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێوەی گێڕانەوەی کتێبەکە بە ڕیزبەندی کات نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakchronologicals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakchronologicals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The narrative line of the book is not chronological.",
+                            kurdishText:
+                                "شێوەی گێڕانەوەی کتێبەکە بە ڕیزبەندی کات نییە.",
+                            onPressedBritish: () =>
+                                speakchronologicals2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakchronologicals2("en-US"),
                           ),
                         ],
                       ),

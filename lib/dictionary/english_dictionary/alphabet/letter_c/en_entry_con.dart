@@ -127,146 +127,49 @@ class EnglishEntrycon extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) فێڵ؛ فێڵکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The so-called bargain was just a big con!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو بەناو ڕێکەوتە تەنھا دەسبڕییەک بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "con", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The so-called bargain was just a big con!",
+                            kurdishText:
+                                "ئەو بەناو ڕێکەوتە تەنھا دەسبڕییەک بوو.", // con",
+                            onPressedBritish: () => speakcons1("en-GB"),
+                            onPressedAmerican: () => speakcons1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The scheme was all a big con."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانەکە ھەمووی فێڵێکی گەورە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The scheme was all a big con.",
+                            kurdishText: "پلانەکە ھەمووی فێڵێکی گەورە بوو.",
+                            onPressedBritish: () => speakcons2("en-GB"),
+                            onPressedAmerican: () => speakcons2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) تاوانبارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Look, I'm an officer, and cons don't speak to me like that, okay?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ببینە، من ئەفسەرێکم، و تاوانباران بەو شێوەیە قسەم لەگەڵ ناکەن، تەواوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcons3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcons3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Look, I'm an officer, and cons don't speak to me like that, okay?",
+                            kurdishText:
+                                "ببینە، من ئەفسەرێکم، و تاوانباران بەو شێوەیە قسەم لەگەڵ ناکەن، تەواوە؟",
+                            onPressedBritish: () => speakcons3("en-GB"),
+                            onPressedAmerican: () => speakcons3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) فێڵکردن لە کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was conned into buying a useless car."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵەتێنرام بە کڕینی ئۆتۆمبێلێکی کۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcons4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcons4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was conned into buying a useless car.",
+                            kurdishText: "خەڵەتێنرام بە کڕینی ئۆتۆمبێلێکی کۆن.",
+                            onPressedBritish: () => speakcons4("en-GB"),
+                            onPressedAmerican: () => speakcons4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He conned his way into the job using false references."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکەی دەستکەوت بە فێڵ بە بەکارھێنانی ڕاسپاردن‌نامەی ناڕاست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcons5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcons5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He conned his way into the job using false references.",
+                            kurdishText:
+                                "کارەکەی دەستکەوت بە فێڵ بە بەکارھێنانی ڕاسپاردن‌نامەی ناڕاست.",
+                            onPressedBritish: () => speakcons5("en-GB"),
+                            onPressedAmerican: () => speakcons5("en-US"),
                           ),
                         ],
                       ),

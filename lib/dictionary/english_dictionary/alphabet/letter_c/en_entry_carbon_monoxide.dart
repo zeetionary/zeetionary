@@ -192,34 +192,15 @@ class EnglishEntrycarbonmonoxide extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مادەیەکی ژەھراوی کە درووست دەبێت کە کاربۆن کەمێک دەسووتێت بەڵام بە تەواوی نا. درووست دەبێت کە بەنزین لە بزوێنەری ئۆتۆمبێلدا دەسووتێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In closed spaces, carbon monoxide can be deadly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ژینگەی داخراودا، تاکۆکسیدی کاربۆن دەکرێت کوشندە بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "carbon monoxide", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcarbonmonoxides1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcarbonmonoxides1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In closed spaces, carbon monoxide can be deadly.",
+                            kurdishText:
+                                "لە ژینگەی داخراودا، تاکۆکسیدی کاربۆن دەکرێت کوشندە بێت.", // carbon monoxide",
+                            onPressedBritish: () =>
+                                speakcarbonmonoxides1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcarbonmonoxides1("en-US"),
                           ),
                         ],
                       ),

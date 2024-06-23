@@ -195,94 +195,37 @@ class EnglishEntrycanon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) قەشەیەک کە کۆمەڵێک ئەرکی تایبەتی ھەیە لە کڵێسادا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The canon directed the choir and organized musical aspects of the cathedral."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەشەکە سەرپەرشتی دەستەی گۆرانیبێژ و ڕێکخستنی لایەنی میوزیکی کڵێساکەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canon", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The canon directed the choir and organized musical aspects of the cathedral.",
+                            kurdishText:
+                                "قەشەکە سەرپەرشتی دەستەی گۆرانیبێژ و ڕێکخستنی لایەنی میوزیکی کڵێساکەی دەکرد.", // canon
+                            onPressedBritish: () => speakcanons1("en-GB"),
+                            onPressedAmerican: () => speakcanons1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) یاسا و ڕێسا کە بەشێوەیەکی گشتی پەسەندکراون، یان ستانداردێک کە بەکاردێت بۆ بڕیاردان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The film director adhered to the visual and narrative canon of classical Hollywood cinema."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلم دەرھێنەرەکە پابەند بوو بە ڕێسای وێنە و گێڕانەوەی سینەمای کلاسیکی ھۆڵیوود."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The film director adhered to the visual and narrative canon of classical Hollywood cinema.",
+                            kurdishText:
+                                "فیلم دەرھێنەرەکە پابەند بوو بە ڕێسای وێنە و گێڕانەوەی سینەمای کلاسیکی ھۆڵیوود.",
+                            onPressedBritish: () => speakcanons2("en-GB"),
+                            onPressedAmerican: () => speakcanons2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کۆمەڵە کتێبێک کە وەک کاری ڕاستی نووسەرێک دەبینرێن، یان ئەوەی کە گرنگ بن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘Wuthering Heights’ is a central book in the canon of English literature."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "‘Wuthering Heights’ کتێبێکی ھەرە گرنگە لە شاکارەکانی وێژەی ئینگلیزیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcanons3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcanons3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘Wuthering Heights’ is a central book in the canon of English literature.",
+                            kurdishText:
+                                "‘Wuthering Heights’ کتێبێکی ھەرە گرنگە لە شاکارەکانی وێژەی ئینگلیزیدا.",
+                            onPressedBritish: () => speakcanons3("en-GB"),
+                            onPressedAmerican: () => speakcanons3("en-US"),
                           ),
                         ],
                       ),

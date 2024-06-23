@@ -153,252 +153,100 @@ class EnglishEntrycontemporary extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) سەر بە ھەمان کات و سەردەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have no contemporary account of the battle (= written near the time that it happened)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ سەرچاوەیەکی ھاوسەردەمی شەڕەکەمان نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "contemporary", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemporarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemporarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have no contemporary account of the battle (= written near the time that it happened).",
+                            kurdishText:
+                                "ھیچ سەرچاوەیەکی ھاوسەردەمی شەڕەکەمان نییە.", // contemporary",
+                            onPressedBritish: () =>
+                                speakcontemporarys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemporarys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was contemporary with Shakespeare."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھاوسەردەم بوو لەگەڵ شکسپیر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemporarys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemporarys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was contemporary with Shakespeare.",
+                            kurdishText: "ھاوسەردەم بوو لەگەڵ شکسپیر.",
+                            onPressedBritish: () =>
+                                speakcontemporarys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemporarys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She used only strictly contemporary documents to research the book."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا بەڵگەنامەی ھاوچەرخی بەکارھێنا بۆ لێکۆڵینەوە بۆ کتێبەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemporarys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemporarys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She used only strictly contemporary documents to research the book.",
+                            kurdishText:
+                                "تەنھا بەڵگەنامەی ھاوچەرخی بەکارھێنا بۆ لێکۆڵینەوە بۆ کتێبەکە.",
+                            onPressedBritish: () =>
+                                speakcontemporarys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemporarys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) سەردەم؛ سەر بە سەردەمی تازە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is among the best-known contemporary artists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەناو ناسراوترین ھونەرمەندەکانی سەردەمە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemporarys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemporarys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is among the best-known contemporary artists.",
+                            kurdishText:
+                                "لەناو ناسراوترین ھونەرمەندەکانی سەردەمە.",
+                            onPressedBritish: () =>
+                                speakcontemporarys4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemporarys4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The film paints a depressing picture of life in contemporary Britain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە وێنای ژیانێکی خەمناک دەکات لە بەریتانیای سەردەمدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemporarys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemporarys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The film paints a depressing picture of life in contemporary Britain.",
+                            kurdishText:
+                                "فیلمەکە وێنای ژیانێکی خەمناک دەکات لە بەریتانیای سەردەمدا.",
+                            onPressedBritish: () =>
+                                speakcontemporarys5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemporarys5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) پابەند بە بیرۆکە سەردەمییەکانی سەردەم لە شێوە و دیزایندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Try some contemporary colours on your kitchen walls."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک ڕەنگی سەردەمیانە تاقیبکەوە لەسەر دیواری چێشتخانەکەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemporarys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemporarys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Try some contemporary colours on your kitchen walls.",
+                            kurdishText:
+                                "ھەندێک ڕەنگی سەردەمیانە تاقیبکەوە لەسەر دیواری چێشتخانەکەت.",
+                            onPressedBritish: () =>
+                                speakcontemporarys6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemporarys6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) کەسێک کە ھاوسەردەم لەگەڵ کەسێکی دیکە دەژی یان ژیاوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She and I were contemporaries at college."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "من و ئەو ھاودەم بووین پێکەوە لە کۆلێژ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemporarys7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemporarys7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She and I were contemporaries at college.",
+                            kurdishText:
+                                "من و ئەو ھاودەم بووین پێکەوە لە کۆلێژ.",
+                            onPressedBritish: () =>
+                                speakcontemporarys7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemporarys7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a contemporary of Freud and may have known him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوسەردەمی فرۆید بوو و ڕەنگە ناسیبێتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcontemporarys8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcontemporarys8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a contemporary of Freud and may have known him.",
+                            kurdishText:
+                                "ھاوسەردەمی فرۆید بوو و ڕەنگە ناسیبێتی.",
+                            onPressedBritish: () =>
+                                speakcontemporarys8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcontemporarys8("en-US"),
                           ),
                         ],
                       ),

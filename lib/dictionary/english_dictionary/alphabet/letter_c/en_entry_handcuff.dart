@@ -240,55 +240,19 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) بەستنی کەلەپچە لە دەستی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her hands were handcuffed behind her back."),
-                    ExampleSentenceKurdish(
-                        text: "دەستەکانی لە پشتەوە کەلەپچە کران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "handcuff", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakhandcuffs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakhandcuffs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her hands were handcuffed behind her back.",
+            kurdishText:
+                "دەستەکانی لە پشتەوە کەلەپچە کران.", // handcuff", please follow LX instructions
+            onPressedBritish: () => speakhandcuffs1("en-GB"),
+            onPressedAmerican: () => speakhandcuffs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was handcuffed to a policeman."),
-                    ExampleSentenceKurdish(text: "کەلەپچە کرایە پۆلیسێکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakhandcuffs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakhandcuffs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was handcuffed to a policeman.",
+            kurdishText: "کەلەپچە کرایە پۆلیسێکەوە.",
+            onPressedBritish: () => speakhandcuffs2("en-GB"),
+            onPressedAmerican: () => speakhandcuffs2("en-US"),
           ),
         ],
       ),

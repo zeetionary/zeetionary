@@ -240,58 +240,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەڕەوشت، بەتۆرە، بەماریفەت، بەڕەوشتانە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) بەڕێز و پیشاندانی ڕێز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The hotel staff are friendly and courteous."),
-                    ExampleSentenceKurdish(
-                        text: "ستافی ھوتێلەکە دۆستانە و بەڕێزن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "courteous", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourteouss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourteouss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The hotel staff are friendly and courteous.",
+            kurdishText:
+                "ستافی ھوتێلەکە دۆستانە و بەڕێزن.", // courteous", please follow LX instructions
+            onPressedBritish: () => speakcourteouss1("en-GB"),
+            onPressedAmerican: () => speakcourteouss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Although she often disagreed with me, she was always courteous."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەرچی زۆرجار ناکۆک بوو لەگەڵم، ھەمیشە بەڕێز بوو لەگەڵم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourteouss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourteouss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Although she often disagreed with me, she was always courteous.",
+            kurdishText:
+                "ئەگەرچی زۆرجار ناکۆک بوو لەگەڵم، ھەمیشە بەڕێز بوو لەگەڵم.",
+            onPressedBritish: () => speakcourteouss2("en-GB"),
+            onPressedAmerican: () => speakcourteouss2("en-US"),
           ),
         ],
       ),

@@ -103,67 +103,29 @@ class EnglishEntryconstituency extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوچەیەک کە نوێنەری خۆی بۆ پەرلەمان ھەڵدەبژێرێت؛ خەڵکی ناوچەیەکی وەھا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Unemployment is high in her constituency."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێ‌کاری زۆر ھەیە لە مەڵبەندی ھەڵبژاردنیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "constituency", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstituencys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstituencys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Unemployment is high in her constituency.",
+                            kurdishText:
+                                "بێ‌کاری زۆر ھەیە لە مەڵبەندی ھەڵبژاردنیدا.", // constituency",
+                            onPressedBritish: () =>
+                                speakconstituencys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstituencys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) گرووپێکی دیاریکراو لە کۆمەڵگەدا کە ئەگەری ھەیە پشتیوانی کەسێک، بیرۆکەیەک، بەرھەمێک، ھتد بکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a strong constituency of support for his proposal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمەڵێکی زۆر لە پشتیوانی ھەیە بۆ پێشنیارەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakconstituencys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakconstituencys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a strong constituency of support for his proposal.",
+                            kurdishText:
+                                "کۆمەڵێکی زۆر لە پشتیوانی ھەیە بۆ پێشنیارەکەی.",
+                            onPressedBritish: () =>
+                                speakconstituencys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconstituencys2("en-US"),
                           ),
                         ],
                       ),

@@ -250,90 +250,33 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) شێوەیەک کە لە شتێکی دیکەوە بڕدراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I had my photo taken with a life-size cut-out of the actor."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وێنەیەکم گرت لەگەڵ شێوەیەکی ڕاستەقینەی ئەکتەرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cut-out", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutouts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutouts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I had my photo taken with a life-size cut-out of the actor.",
+            kurdishText:
+                "وێنەیەکم گرت لەگەڵ شێوەیەکی ڕاستەقینەی ئەکتەرەکە.", // cut-out", please follow LX instructions
+            onPressedBritish: () => speakcutouts1("en-GB"),
+            onPressedAmerican: () => speakcutouts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You can make cut-outs in the dough with cookie cutters if you like."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانیت بە قاڵبی بسکیت شێوە درووست بکەیت لە ھەویرەکەدا ئەگەر حەز دەکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutouts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutouts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You can make cut-outs in the dough with cookie cutters if you like.",
+            kurdishText:
+                "دەتوانیت بە قاڵبی بسکیت شێوە درووست بکەیت لە ھەویرەکەدا ئەگەر حەز دەکەیت.",
+            onPressedBritish: () => speakcutouts2("en-GB"),
+            onPressedAmerican: () => speakcutouts2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئامێرێکی کارەبایی کە تەزووی کارەبا دەبڕێت بۆ شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A cut-out stops the kettle boiling dry."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قرتێنەرێک کترییەکە دەوەستێنێت لەوەی ھەمووی ببێت بە ھەڵم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcutouts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcutouts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A cut-out stops the kettle boiling dry.",
+            kurdishText:
+                "قرتێنەرێک کترییەکە دەوەستێنێت لەوەی ھەمووی ببێت بە ھەڵم.",
+            onPressedBritish: () => speakcutouts3("en-GB"),
+            onPressedAmerican: () => speakcutouts3("en-US"),
           ),
         ],
       ),

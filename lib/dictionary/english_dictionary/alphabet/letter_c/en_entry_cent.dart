@@ -186,32 +186,13 @@ class EnglishEntrycent extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) یەکەیەکی دراو کە ١٪ی دراوی سەرەکییە لە زۆر وڵاتدا، بۆ نموونە لە ئەمریکا و بۆ دراوی یۆرۆ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A one-minute phone call to the UK cost 10 cents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەک خولەک پەیوەندی تەلەفۆنی بۆ شانشینی یەکگرتوو ١٠ سەنتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cent", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A one-minute phone call to the UK cost 10 cents.",
+                            kurdishText:
+                                "یەک خولەک پەیوەندی تەلەفۆنی بۆ شانشینی یەکگرتوو ١٠ سەنتە.", // cent",
+                            onPressedBritish: () => speakcents1("en-GB"),
+                            onPressedAmerican: () => speakcents1("en-US"),
                           ),
                         ],
                       ),

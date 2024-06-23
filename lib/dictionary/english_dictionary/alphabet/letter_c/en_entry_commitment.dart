@@ -189,60 +189,22 @@ class EnglishEntrycommitment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەڵێنێک کە شتێک بکەیت یان بەشێوەیەکی دیاریکراو مامەڵە بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm not ready to make a long-term commitment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامادە نیم پەیمانی درێژخایەن بدەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "commitment", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommitments1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommitments1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm not ready to make a long-term commitment.",
+                            kurdishText:
+                                "ئامادە نیم پەیمانی درێژخایەن بدەم.", // commitment",
+                            onPressedBritish: () => speakcommitments1("en-GB"),
+                            onPressedAmerican: () => speakcommitments1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have failed to honour their commitments."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شکستیان ھێناوە پابەندی بەڵێنەکانیان بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommitments2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommitments2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have failed to honour their commitments.",
+                            kurdishText:
+                                "شکستیان ھێناوە پابەندی بەڵێنەکانیان بن.",
+                            onPressedBritish: () => speakcommitments2("en-GB"),
+                            onPressedAmerican: () => speakcommitments2("en-US"),
                           ),
                           Column(
                             children: [
@@ -345,60 +307,21 @@ class EnglishEntrycommitment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ویستی کارکردن بە سەختی و پێدانی وزە و کاتت بۆ کردنی کارێک یان چالاکییەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has demonstrated exceptional commitment and dedication."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پابەندی و لەخۆبوردوویی بێ‌وێنەی پیشانداوە بۆ کردنی کارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommitments6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommitments6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has demonstrated exceptional commitment and dedication.",
+                            kurdishText:
+                                "پابەندی و لەخۆبوردوویی بێ‌وێنەی پیشانداوە بۆ کردنی کارەکە.",
+                            onPressedBritish: () => speakcommitments6("en-GB"),
+                            onPressedAmerican: () => speakcommitments6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This post demands a high level of commitment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم پێگەیە بەرپرسیاریەتی زۆری دەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcommitments7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcommitments7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This post demands a high level of commitment.",
+                            kurdishText: "ئەم پێگەیە بەرپرسیاریەتی زۆری دەوێت.",
+                            onPressedBritish: () => speakcommitments7("en-GB"),
+                            onPressedAmerican: () => speakcommitments7("en-US"),
                           ),
                           Column(
                             children: [
@@ -471,94 +394,34 @@ class EnglishEntrycommitment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شتێک کە بەڵێنت داوە یان ڕازی بوویت کە بیکەیت، یان ئەوەی دەبێت بیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's busy for the next month with filming commitments."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ مانگی داھاتوو سەرقاڵە بە کاری وێنەگرتنی فیلمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommitments10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommitments10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's busy for the next month with filming commitments.",
+                            kurdishText:
+                                "بۆ مانگی داھاتوو سەرقاڵە بە کاری وێنەگرتنی فیلمەوە.",
+                            onPressedBritish: () => speakcommitments10("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommitments10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Women very often have to juggle work with their family commitments."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنان زۆرجار دەبێت مامەڵە لەگەڵ کار و بەرپرسیاریەتی خێزانیدا بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommitments11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommitments11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Women very often have to juggle work with their family commitments.",
+                            kurdishText:
+                                "ژنان زۆرجار دەبێت مامەڵە لەگەڵ کار و بەرپرسیاریەتی خێزانیدا بکەن.",
+                            onPressedBritish: () => speakcommitments11("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommitments11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't want to take on any more commitments."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەوێت ھیچ بەرپرسیاریەتی دیکە لە ئەستۆ بگرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcommitments12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcommitments12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't want to take on any more commitments.",
+                            kurdishText:
+                                "نامەوێت ھیچ بەرپرسیاریەتی دیکە لە ئەستۆ بگرم.",
+                            onPressedBritish: () => speakcommitments12("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcommitments12("en-US"),
                           ),
                         ],
                       ),

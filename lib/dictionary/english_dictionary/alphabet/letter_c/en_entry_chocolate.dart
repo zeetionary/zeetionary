@@ -142,204 +142,67 @@ class EnglishEntrychocolate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چکلێت؛ شیرینییەکی قاوەیی ڕەق کە لە دەنکە قاوە درووست دەکرێت، بۆ پێدانی تام بە کێک بەکاردێت، یان خواردن وەک شیرینی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He broke off a few squares of chocolate."),
-                                    ExampleSentenceKurdish(
-                                        text: "چەند پارچە چکلێتێکی شکاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chocolate", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchocolates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchocolates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He broke off a few squares of chocolate.",
+                            kurdishText:
+                                "چەند پارچە چکلێتێکی شکاند.", // chocolate",
+                            onPressedBritish: () => speakchocolates1("en-GB"),
+                            onPressedAmerican: () => speakchocolates1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She broke a bar of chocolate into four pieces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارچە چکلێتێکی کرد بە چوار بەشەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchocolates2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchocolates2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She broke a bar of chocolate into four pieces.",
+                            kurdishText: "پارچە چکلێتێکی کرد بە چوار بەشەوە.",
+                            onPressedBritish: () => speakchocolates2("en-GB"),
+                            onPressedAmerican: () => speakchocolates2("en-US"),
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Stir until the chocolate has melted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێکی بدە تاوەکو چکلێتەکە دەتوێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchocolates3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchocolates3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Stir until the chocolate has melted.",
+                            kurdishText: "تێکی بدە تاوەکو چکلێتەکە دەتوێتەوە.",
+                            onPressedBritish: () => speakchocolates3("en-GB"),
+                            onPressedAmerican: () => speakchocolates3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شیرینییەک کە چکلێتی پێوەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I gave her a box of hand-made Belgian chocolates."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سندووقێک لە چکلێتی بەلجیکی بەدەست‌درووستکراوم پێی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchocolates4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchocolates4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I gave her a box of hand-made Belgian chocolates.",
+                            kurdishText:
+                                "سندووقێک لە چکلێتی بەلجیکی بەدەست‌درووستکراوم پێی دا.",
+                            onPressedBritish: () => speakchocolates4("en-GB"),
+                            onPressedAmerican: () => speakchocolates4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Would you like another chocolate?"),
-                                    ExampleSentenceKurdish(
-                                        text: "حەزت بە چکلێتێکی دیکە ھەیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchocolates5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchocolates5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Would you like another chocolate?",
+                            kurdishText: "حەزت بە چکلێتێکی دیکە ھەیە؟",
+                            onPressedBritish: () => speakchocolates5("en-GB"),
+                            onPressedAmerican: () => speakchocolates5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) خواردنەوەیەک کە بە تێکەڵکردنی چکلێتی ھاڕاو و ئاوی گەرم و شیر درووست دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was tucked up in bed with a mug of chocolate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە گڵاسێک لە شیرکاکاو چوومە خەو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchocolates6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchocolates6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was tucked up in bed with a mug of chocolate.",
+                            kurdishText: "بە گڵاسێک لە شیرکاکاو چوومە خەو.",
+                            onPressedBritish: () => speakchocolates6("en-GB"),
+                            onPressedAmerican: () => speakchocolates6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) ڕەنگی قاوەیی تاریک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That deep chocolate on the walls looks beautiful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ڕەنگە قاوەییە تۆخە لەسەر دیوارەکە جوانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchocolates7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchocolates7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That deep chocolate on the walls looks beautiful.",
+                            kurdishText:
+                                "ئەو ڕەنگە قاوەییە تۆخە لەسەر دیوارەکە جوانە.",
+                            onPressedBritish: () => speakchocolates7("en-GB"),
+                            onPressedAmerican: () => speakchocolates7("en-US"),
                           ),
                         ],
                       ),

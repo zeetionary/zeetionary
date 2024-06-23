@@ -95,34 +95,15 @@ class EnglishEntrycivilservant extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He’s a 35-year-old civil servant with two young children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فەرمانبەرێکی حکومی ٣٥ ساڵانە و دوو منداڵی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "civil servant", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakcivilservants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakcivilservants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He’s a 35-year-old civil servant with two young children.",
+                            kurdishText:
+                                "فەرمانبەرێکی حکومی ٣٥ ساڵانە و دوو منداڵی ھەیە.", // civil servant",
+                            onPressedBritish: () =>
+                                speakcivilservants1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcivilservants1("en-US"),
                           ),
                         ],
                       ),

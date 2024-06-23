@@ -169,58 +169,19 @@ class EnglishEntrychop extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بڕینی شتێک بۆ پارچەی بچووکتر بە شتێکی تیژ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was chopping logs for firewood."),
-                                    ExampleSentenceKurdish(
-                                        text: "کۆلکەداری دەشکاند بۆ ئێزنگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chop", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchops1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchops1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was chopping logs for firewood.",
+                            kurdishText:
+                                "کۆلکەداری دەشکاند بۆ ئێزنگ.", // chop",
+                            onPressedBritish: () => speakchops1("en-GB"),
+                            onPressedAmerican: () => speakchops1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Add the finely chopped onions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیازە جوان وردکراوەکان زیاد بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchops2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchops2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Add the finely chopped onions.",
+                            kurdishText: "پیازە جوان وردکراوەکان زیاد بکە.",
+                            onPressedBritish: () => speakchops2("en-GB"),
+                            onPressedAmerican: () => speakchops2("en-US"),
                           ),
                           Column(
                             children: [
@@ -293,181 +254,66 @@ class EnglishEntrychop extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) لەناکاو وەستان لە ڕێگەدان یان دابینکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their training courses are to be chopped."),
-                                    ExampleSentenceKurdish(
-                                        text: "کۆرسی ڕاھێنانەکان دەوەستێنرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchops5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchops5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their training courses are to be chopped.",
+                            kurdishText: "کۆرسی ڕاھێنانەکان دەوەستێنرێن.",
+                            onPressedBritish: () => speakchops5("en-GB"),
+                            onPressedAmerican: () => speakchops5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The share price was chopped from 50 pence to 20 pence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخی پشکەکە لە ٥٠ پێنسەوە بوو بە ٢٠ پێنس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchops6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchops6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The share price was chopped from 50 pence to 20 pence.",
+                            kurdishText:
+                                "نرخی پشکەکە لە ٥٠ پێنسەوە بوو بە ٢٠ پێنس.",
+                            onPressedBritish: () => speakchops6("en-GB"),
+                            onPressedAmerican: () => speakchops6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) پارچە گۆشتێکی پڕ کە ئێسکێکی پێوەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The butcher displayed a variety of chops."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەسابەکە ژمارەیەک لەتە گۆشتی نمایش کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchops7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchops7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The butcher displayed a variety of chops.",
+                            kurdishText:
+                                "قەسابەکە ژمارەیەک لەتە گۆشتی نمایش کردبوو.",
+                            onPressedBritish: () => speakchops7("en-GB"),
+                            onPressedAmerican: () => speakchops7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) وردکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Give the mushrooms a quick chop before adding them to the pan."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وردکردنێکی باشی قارچکەکان بکە پێش ئەوەی بیانخەیتە تاوەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchops8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchops8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Give the mushrooms a quick chop before adding them to the pan.",
+                            kurdishText:
+                                "وردکردنێکی باشی قارچکەکان بکە پێش ئەوەی بیانخەیتە تاوەکەوە.",
+                            onPressedBritish: () => speakchops8("en-GB"),
+                            onPressedAmerican: () => speakchops8("en-US"),
                           ),
                           // skipped_meaning
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) قەراغی لێوی ئاژەڵ یان مرۆڤ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The dog sat licking its chops."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگەکە دانیشتبوو لچی دەلێسایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchops9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchops9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The dog sat licking its chops.",
+                            kurdishText: "سەگەکە دانیشتبوو لچی دەلێسایەوە.",
+                            onPressedBritish: () => speakchops9("en-GB"),
+                            onPressedAmerican: () => speakchops9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) توانای تەکنیکی ئەکتەرێک یان میوزیکژەنێکی جاز یان ڕۆک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has the acting chops to carry a major film."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانای نواندنی ھەبوو بۆ فیلمێکی گرنگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchops10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchops10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has the acting chops to carry a major film.",
+                            kurdishText:
+                                "توانای نواندنی ھەبوو بۆ فیلمێکی گرنگ.",
+                            onPressedBritish: () => speakchops10("en-GB"),
+                            onPressedAmerican: () => speakchops10("en-US"),
                           ),
                         ],
                       ),

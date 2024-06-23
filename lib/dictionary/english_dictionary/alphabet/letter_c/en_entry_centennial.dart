@@ -187,32 +187,13 @@ class EnglishEntrycentennial extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سەدەمین ساڵی ڕوودانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The year 1889 was the centennial of the inauguration of George Washington."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵی ١٨٨٩ سەدەم ساڵیادی بە سەرۆک ناساندنی جۆرج واشنتۆن بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "centennial", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcentennials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcentennials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The year 1889 was the centennial of the inauguration of George Washington.",
+                            kurdishText:
+                                "ساڵی ١٨٨٩ سەدەم ساڵیادی بە سەرۆک ناساندنی جۆرج واشنتۆن بوو.", // centennial",
+                            onPressedBritish: () => speakcentennials1("en-GB"),
+                            onPressedAmerican: () => speakcentennials1("en-US"),
                           ),
                         ],
                       ),

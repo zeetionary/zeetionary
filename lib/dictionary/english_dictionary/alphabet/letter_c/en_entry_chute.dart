@@ -94,32 +94,13 @@ class EnglishEntrychute extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لوولەیەک یان جۆگەیەک کە خەڵک یان شت بەناویدا خلیسکێن دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rubbish goes down the chute into a large bin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاشاکەکە بە خزێنەیەکدا دەچێتە خوارەوە بۆ ناو زباڵەیەکی گەورەتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define "chute", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakchutes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakchutes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The rubbish goes down the chute into a large bin.",
+                            kurdishText:
+                                "خاشاکەکە بە خزێنەیەکدا دەچێتە خوارەوە بۆ ناو زباڵەیەکی گەورەتر.", // chute",
+                            onPressedBritish: () => speakchutes1("en-GB"),
+                            onPressedAmerican: () => speakchutes1("en-US"),
                           ),
                         ],
                       ),

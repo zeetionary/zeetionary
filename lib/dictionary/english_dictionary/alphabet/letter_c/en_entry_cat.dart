@@ -193,58 +193,20 @@ class EnglishEntrycat extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئاژەڵێکی بچووک کە فەرووی نەرمی ھەیە و خەڵک زۆرجار وەک ماڵی ڕایدەگرن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I have a cat called Bo."),
-                                    ExampleSentenceKurdish(
-                                        text: "پشیلەیەکم ھەیە بەناوی بەو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "cat", please follow LX instructions
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I have a cat called Bo.",
+                            kurdishText: "پشیلەیەکم ھەیە بەناوی بەو.", // cat",
+                            onPressedBritish: () => speakcats1("en-GB"),
+                            onPressedAmerican: () => speakcats1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In our childhood Irina and I fought like cat and dog."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە منداڵیماندا من و ئیرینا وەک سەگ و پشیلە شەڕمان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcats2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcats2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In our childhood Irina and I fought like cat and dog.",
+                            kurdishText:
+                                "لە منداڵیماندا من و ئیرینا وەک سەگ و پشیلە شەڕمان بوو.",
+                            onPressedBritish: () => speakcats2("en-GB"),
+                            onPressedAmerican: () => speakcats2("en-US"),
                           ),
                           Column(
                             children: [
@@ -346,32 +308,13 @@ class EnglishEntrycat extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ئاژەڵێکی کێوی لە خێزانی پشیلە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She went to Africa to photograph big cats."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوو بۆ ئەفریقا بۆ وێنەگرتنی پشیلەی گەورە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcats6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcats6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She went to Africa to photograph big cats.",
+                            kurdishText:
+                                "چوو بۆ ئەفریقا بۆ وێنەگرتنی پشیلەی گەورە.",
+                            onPressedBritish: () => speakcats6("en-GB"),
+                            onPressedAmerican: () => speakcats6("en-US"),
                           ),
                         ],
                       ),
